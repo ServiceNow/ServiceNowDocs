@@ -41,3 +41,10 @@ Role required: none
     -   If you entered a valid registration code, you see the message: “Your request has been submitted and is pending review. You’ll receive an email when your request is processed".
     -   If you entered an invalid registration code, you see the message: “Incorrect Registration Code".
 
+**Related topics**  
+
+
+[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
+
+[Log in to the Business Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInTo-businessPortalFirstTime.md)
+

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [metric rule alerts, view alerts, alert grouping, performance alerts]
 breadcrumb: [Use metric rules for DEX, Monitor, Digital End-User Experience, IT Service Management]
 ---
 

@@ -73,15 +73,15 @@ The script provided in the procedure creates and trains a model with explainabil
 
     -   The label for this drop-down list is the name of your output \(predicted\) field, so the label is specific to each model.
     -   The values in the drop-down list are the possible output classes for your output field, plus the **Global** option.
-<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d178516e156">
+<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d184198e156">
 
 List option
 
-</th><th align="left" id="d178516e159">
+</th><th align="left" id="d184198e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178516e165">
+</th></tr></thead><tbody><tr><td id="d184198e165">
 
 **__Global__**
 
@@ -89,7 +89,7 @@ Description
 
 Provides an overview of how the model behaves across all predictions, showing the overall impact of each input feature.Select **Global** to open a graph of the importance of your input fields to predictions for all output classes as a whole.
 
-</td></tr><tr><td id="d178516e180">
+</td></tr><tr><td id="d184198e180">
 
 **`Your output class value`**
 

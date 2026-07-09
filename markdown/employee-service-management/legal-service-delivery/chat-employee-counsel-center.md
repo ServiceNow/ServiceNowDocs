@@ -52,10 +52,3 @@ The live agent support enables a chat interaction between an employees and legal
 
 **Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 
-**Related topics**  
-
-
-[bundle-platux.live-agent-overview]
-
-[bundle-platux.interaction-message-agent-workspace]
-

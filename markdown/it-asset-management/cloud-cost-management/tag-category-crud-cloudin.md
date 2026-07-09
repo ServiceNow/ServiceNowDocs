@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create and update a tag category
@@ -98,6 +98,9 @@ The list of tag names that you can add to the category.1.  Select the Lookup ico
 
 6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] to add multiple tag names.
 
+
+-   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
+Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
 
 **Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

@@ -43,7 +43,7 @@ To group alerts using tag-based grouping, you can also create a grouping automat
 
 [Activate a predefined alert clustering definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-definition.md)
 
-[Attach a predefined tag to a tag-based alert grouping definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-tag.md)
+[Attach a predefined tag to an alert grouping definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-tag.md)
 
 [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md)
 

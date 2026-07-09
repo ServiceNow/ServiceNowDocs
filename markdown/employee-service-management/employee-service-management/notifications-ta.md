@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Talent Acquisition notifications, email notifications, hiring notifications, requisition updates]
 ---
 
 # Notifications in Hiring Experiences

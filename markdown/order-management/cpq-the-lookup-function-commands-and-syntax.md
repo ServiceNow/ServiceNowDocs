@@ -7,14 +7,14 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The lookup function: commands and syntax
 
 Use the lookup function to return information from a user-managed table.
 
-CPQ uses a SQL-based query language to look up user-managed tables.
+ServiceNow CPQ uses a SQL-based query language to look up user-managed tables.
 
 The lookup function returns up to 10,000 rows from a table and times out after 30 seconds if the search is still querying. For information about uploading CSV files into managed tables, see [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-table-upload.md).
 

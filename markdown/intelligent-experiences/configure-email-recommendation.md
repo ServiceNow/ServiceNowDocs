@@ -25,7 +25,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
     If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
 

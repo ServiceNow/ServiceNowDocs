@@ -27,12 +27,16 @@ Role required: admin
 
     Suppliers interact with APO live agent for invoice inquiry cases. The interactions between supplier and APO live agent is recorded in an auto-generated interaction record. For more information regarding interaction record, refer [Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md).
 
-2.  Click **Create a case** through the interaction record to create an inquiry case.
+2.  Select **Create a case** through the interaction record to create an inquiry case.
 
     For more information about invoice case, refer [Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md).
 
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+## Result
+
+Interact with AP agents through live chat.
+
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

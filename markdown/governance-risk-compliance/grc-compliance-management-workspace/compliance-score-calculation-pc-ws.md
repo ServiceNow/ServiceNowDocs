@@ -25,7 +25,7 @@ Calculating the compliance score of an entity is based on the controls that are 
 Average of all direct controls of an entity
 ```
 
-\[Omitted image "compliance-score-rollup-current.png"\] Alt text: Compliance score calculation based on the direct controls.
+
 
 ## Compliance score calculation rollup - existing logic
 
@@ -41,9 +41,7 @@ Compliance score of an entity can also be calculated based on its downstream ent
 Average [Average (downstream entities) + Average (direct controls)]
 ```
 
-\[Omitted image "compliance-score-rollup-new-logic.png"\] Alt text: Compliance score calculation based on downstream entities and direct controls.
-
-## Compliance score calculation rollup - new logic
+## Compliance score calculation rollup logic
 
 In this hierarchy, the compliance score of ACME US is 50 and ACME EU is 50. This logic considers the average of the downstream entities that is ACME US and ACME EU while calculating the compliance score of ACME Global, which is `(50 + 50) ➗ 2 = 50%`. Considering the downstream entities and the direct controls of the parent entity, the compliance score is now `(50 + 100) ➗ 2 = 75%`. That is `average of ACME US and ACME EU + average of Control 5 and Control 6`.
 

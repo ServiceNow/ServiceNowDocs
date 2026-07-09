@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [send job requisition, ATS posting, job boards, integration flow, requisition trigger]
 ---
 
 # Send job requisitions to the ATS

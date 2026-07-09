@@ -21,8 +21,8 @@ You can fund projects and portfolios when you activate PPM Standard with Financi
 The funding process follows these steps:
 
 1.  Identify the costs for time, such as a financial year, by creating cost plans at the project or demand level. These costs roll up to the portfolio Cost Plans related list. Cost plans automatically include cost plan breakdowns for each fiscal period. See [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [Create a demand cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
-2.  Enter the target cost values for operational and capital expenses for the portfolio. See [Create a portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/t_CreateAPortfolio.md) and .
-3.  Create budget plans for the projects in your portfolio and promote the plans to forecasts. See  and Promote a budget plan.
+2.  Enter the target cost values for operational and capital expenses for the portfolio. See [Create a portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/t_CreateAPortfolio.md).
+3.  Create budget plans for the projects in your portfolio and promote the plans to forecasts.
 
 **Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
@@ -50,4 +50,6 @@ The funding process follows these steps:
 [Actual project costs]()
 
 [Types of external dependencies]()
+
+[Project scheduling in Project Management]()
 

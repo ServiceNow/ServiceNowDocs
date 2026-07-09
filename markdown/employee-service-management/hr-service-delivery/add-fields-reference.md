@@ -9,6 +9,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [job requisition fields, request form fields, job profile field, configure field values, add office location]
 breadcrumb: [Configure, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

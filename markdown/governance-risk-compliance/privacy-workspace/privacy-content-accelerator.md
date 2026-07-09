@@ -53,7 +53,7 @@ Both tabs organize content into two sub-tabs by installation state:
 
 -   **Active**
 
-    Lists the authority documents and risk statement versions currently installed in your library. Cards on this sub-tab show the active version number and the **Update** button. To update the activated content in your library, see [Update privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
+    Lists the authority documents and risk statement versions currently installed in your library. Cards on this sub-tab show the active version number and the **Update** button. To update the activated content in your library, see [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
 
 
 ## Content status
@@ -73,7 +73,7 @@ Each authority document and risk statement card shows one of the following statu
 
 When you activate or update an authority document or a privacy risk statement version, the installation wizard opens. The wizard displays the list of citations and control objectives associated with the authority document, and risk statements available for the selected version.
 
-**Important:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
+**Note:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
 
 <table id="table_rs_columns"><thead><tr><th>
 
@@ -124,7 +124,7 @@ The parent record of the selected citations, control objectives, or risk stateme
 
 </td><td>
 
-Source regulatory text related to the citations.**Note:** Supplemental guidance is formatted by AI. Review all content for accuracy.
+Source regulatory text related to the citations.**Note:** Supplemental guidance is formatted using AI. Review all content for accuracy.
 
 If you don’t see this column, add it using the **Personalize fields** option.
 

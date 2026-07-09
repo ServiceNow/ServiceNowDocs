@@ -331,7 +331,7 @@ Scoring Normalization Strategy\[sn\_smart\_scoring\_normalization\_strategy\]
 
 </td><td>
 
-Extends the sys\_metadata table and stores reusable, system-provided normalization strategies defined via scripts. Read-only.
+Extends the sys\_metadata table and stores reusable, system-provided normalization strategies defined via scripts.
 
 </td></tr><tr><td>
 
@@ -339,7 +339,7 @@ Scoring Normalization Strategy Input\[sn\_smart\_scoring\_normalization\_strateg
 
 </td><td>
 
-Extends the sys\_metadata table and defines input parameters of number or choice type for normalization strategies. Read-only.
+Extends the sys\_metadata table and defines input parameters of number or choice type for normalization strategies.
 
 </td></tr><tr><td>
 
@@ -347,7 +347,7 @@ Scoring Normalization Strategy Input Choice\[sn\_smart\_scoring\_normalization\_
 
 </td><td>
 
-Extends the sys\_metadata table and stores choice values for choice-type normalization strategy inputs. Read-only.
+Extends the sys\_metadata table and stores choice values for choice-type normalization strategy inputs.
 
 </td></tr><tr><td>
 

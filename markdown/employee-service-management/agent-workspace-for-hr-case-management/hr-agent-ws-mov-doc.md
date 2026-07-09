@@ -28,16 +28,16 @@ Role required: sn\_hr\_ef.document\_writer, sn\_hr\_core.case\_writer
 
     **Note:** From the list view, there is no way to identify HR cases with employee documents attached. To locate an HR case, you need the HR case number or the Opened for person.
 
-3.  Click **Move Attachments**.
+3.  Select **Move Attachments**.
 
 4.  In the Move Attachments to Employee documents window:
 
     1.  Select the check box next to the documents you want to move.
-    2.  Select the **Document Type** for each document. The document type determines categorization, who can access it, and the retention policy. Create a document type if none appears for the associated topic detail. Creating a document type ensures correct categorization.
-    3.  Click **Move Selected**.
+    2.  Select the **Document Type** for each document. The document type determines categorization, who can access it, and the retention policy. Create a document type if none appears for the associated topic detail. Creating a document type confirms correct categorization.
+    3.  Select **Move Selected**.
     **Note:** The **Target COE** and **Topic Detail** fields can be modified only if the document has been added under the wrong type of HR case.
 
-    \[Omitted image "move-docs-workspace2.png"\] Alt text: Move employee documents from agent workspace to employee document management
+    \[Omitted image "move-docs-workspace2.png"\] Alt text: Move Attachments to Employee documents dialog showing document selection, document type assignment, and Move Selected button
 
 
 ## Result

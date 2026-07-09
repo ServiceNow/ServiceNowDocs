@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Analytics dashboard

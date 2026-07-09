@@ -1,5 +1,5 @@
 ---
-title: Configure System Properties for automatic certificate renewal
+title: Configure automatic certificate renewal
 description: Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure System Properties for automatic certificate renewal
+# Configure automatic certificate renewal
 
 Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
 

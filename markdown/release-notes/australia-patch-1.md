@@ -134,7 +134,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     The following procedure describes the process for manual definition of a scripted REST API request header. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-requests-update-intro.md)**
+-   ****
 
     **Note:** You must be on the Employee Center version 38.0 or later or have upgraded to the Australia release to use the Enhanced Requests Experience.
 
@@ -160,7 +160,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     Install the ServiceNow Vault application and assign the required roles.
 
--   **[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mnge-content-topics.md)**
+-   ****
 
     Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 

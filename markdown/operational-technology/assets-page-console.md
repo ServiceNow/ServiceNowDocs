@@ -30,15 +30,15 @@ You can add assets with the following methods.
 
 **Filter panel**
 
-When you open the Assets page, there is a Filter panel you can use to filter which Assets appear in the list. There are preset filters which appear as tabs at the bottom of the panel. The preset filters are:
+When you open the Assets page, there is a Filter panel you can use to filter which Assets appear in the list. There are preset filters which appear as tabs at the bottom of the panel. The preset filters are \(you can also check the Default Tab box\):
 
 -   Sites
--   Presets \(You can also check the Default Tab box above these 3 tabs.\)
+-   Presets
 -   Filters
 
 Select the X at the top of the panel to close the filter. To open the panel, select the filter icon \[Omitted image "filter-icon.png"\] Alt text:.
 
-Views
+**Views**
 
 In the top right area of the Assets list, there are different icons that control how the Assets are viewed.
 
@@ -150,7 +150,7 @@ Ignore from Auto Query
 
 </td><td>
 
-Option to mark devices that need to be ignored from the auto queries. This field is automatically set to inactive,
+Option to mark devices that must be ignored from the auto queries. This field is automatically set to inactive,
 
 </td></tr></tbody>
 </table>**Classification**
@@ -238,6 +238,12 @@ The Timeline section contains the following dates and times related to the asset
 The Open Ports section lists all open ports available on the asset that were identified by Discovery and shown on the Discovery Console for OT.
 
 \[Omitted image "section-ports-n-metadata.png"\] Alt text: Ports and Metadata sections
+
+**Network Interfaces**
+
+The Network Interfaces section displays the Asset's Vendor, Vendor Address, IPV4 Address, IPV6 Address, MAC Address, Gateway, and CIDR.
+
+\[Omitted image "network-interfaces.png"\] Alt text: Network Interfaces section
 
 **Metadata**
 

@@ -14,7 +14,7 @@ breadcrumb: [View data asset details, Finding and accessing data assets, Data Ca
 
 Trace the upstream sources and downstream consumers of a data asset. Open the lineage view in Graph Explorer to examine specific relationships, focus on a path, and review related asset details.
 
-Explore data assets lineage  
+\[Omitted video\] Description: Explore data assets lineage
 
 ## Before you begin
 

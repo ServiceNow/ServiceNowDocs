@@ -28,10 +28,6 @@ Role required: sn\_icw.admin
 
 3.  Select **Equipment** and then **New equipment**.
 
-    The following image shows an example of the Equipment tab on the operational equipment page.
-
-    \[Omitted image "equipment-tab.png"\] Alt text: Overview of equipment for the selected functional location with the highlighted Equipment tab
-
 4.  On the Operational equipment form, fill in the fields.
 
     For a description of the field values, see [Operational equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/operational-equipment-form.md).

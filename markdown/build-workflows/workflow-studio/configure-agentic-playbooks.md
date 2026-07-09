@@ -19,8 +19,7 @@ As a playbook author in Workflow Studio, configure AI Agents to perform a playbo
 
 ## Before you begin
 
--   Make sure you have the latest Workflow Studio and Now Assist for Platform apps.
--   Role required: admin, playbook.admin, pd\_author, or playbook.write
+Role required: admin, playbook.admin, pd\_author, or playbook.write
 
 ## About this task
 

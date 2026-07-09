@@ -88,6 +88,8 @@ ServiceNow® Resource Exchange is a KMF feature that gives you the capability to
 Use Infrastructure security tools to create, upload, and manage certificates your instance uses to encrypt traffic from client to server.
 -   **[Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)**  
 Supported by the Key Management Framework, use the Password2 \(2-way encrypted\) field type to encrypt and decrypt custom fields with segregation of duties, key protection, and life-cycle management. It works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
+-   **[FlowKMFEncrypter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/flowkmfencrypter-api.md)**  
+The FlowKMFEncrypter API provides secure encryption and decryption for ServiceNow Flow Actions, using the Key Management Framework \(KMF\) crypto operations.
 
 **Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)
 

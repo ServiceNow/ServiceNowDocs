@@ -1,5 +1,5 @@
 ---
-title: Reviewing and updating your network inventory with the Network Inventory Workspace
+title: Reviewing and updating network inventory via Network Inventory Workspace
 description: You use the Network Inventory Workspace to manage your inventory and perform the tasks in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
-# Reviewing and updating your network inventory with the Network Inventory Workspace
+# Reviewing and updating network inventory via Network Inventory Workspace
 
 You use the Network Inventory Workspace to manage your inventory and perform the tasks in the Telecommunications Network Inventory application.
 

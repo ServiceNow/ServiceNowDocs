@@ -72,7 +72,7 @@ Several types of components are installed with the Change Management - Change Sc
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Risk Assessment]()
 

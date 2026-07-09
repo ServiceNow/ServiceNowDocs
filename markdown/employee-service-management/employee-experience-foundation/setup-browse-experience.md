@@ -23,11 +23,8 @@ Follow these steps to setup browse experience features:
 1.  Define the content hierarchy via the taxonomy: [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 2.  Configure how the taxonomy appears on the portal pages: [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/dynamic-topic-page.md)
 3.  Configure navigation menus:
-
     -   [Mega menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu.md)
     -   [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md)
-    To learn about the navigation menus, see 
-
 4.  Configure the out-of-the-box widgets \(optional\): [Configure browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 
     To view all the widgets installed with Employee Center, see [Employee Center widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-widgets-list.md).

@@ -97,7 +97,7 @@ The rate of change for weekly triggers, calculated as a percentage.**Note:** For
 
 ## Manage security banner announcements
 
-Select **Manage announcement settings** to control whether admins receive banner notifications on this instance. For information on these announcements, see [Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
+Select **Manage announcement settings** to control whether admins receive banner notifications on this instance. For information on these announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
 
 -   **[Create custom security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-a-policy.md)**  
 Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.

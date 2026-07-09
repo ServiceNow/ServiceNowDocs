@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Completing an inbound asset order, Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Completing an inbound asset order, Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the Asset selection task for a requested Device as a Service \(DaaS\) asset
@@ -26,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d242286e78">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d243067e78">
 
 Navigation option
 
-</th><th align="left" id="d242286e81">
+</th><th align="left" id="d243067e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d242286e87">
+</th></tr></thead><tbody><tr><td id="d243067e87">
 
 **Provider inbound asset order**
 
@@ -47,7 +47,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d242286e129">
+</td></tr><tr><td id="d243067e129">
 
 **Provider inbound asset order line**
 
@@ -58,7 +58,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d242286e162">
+</td></tr><tr><td id="d243067e162">
 
 **Provider asset tasks**
 

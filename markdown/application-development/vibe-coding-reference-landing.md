@@ -17,8 +17,8 @@ Find reference material for agentic development on the ServiceNow AI Platform, i
 
 -   **[ServiceNow Now Assist skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-skills-list-2.md)**  
 The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
--   **[Example prompts for vibe coding and AI-assisted development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md)**  
-Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform vibe coding and AI-assisted development tools.
+-   **[Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md)**  
+Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.
 
 **Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)
 

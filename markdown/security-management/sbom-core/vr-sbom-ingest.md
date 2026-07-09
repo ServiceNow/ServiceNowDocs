@@ -9,7 +9,7 @@ classification: sbom-core
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Upload Software Bill of Materials files manually
@@ -31,15 +31,15 @@ Role required: sn\_sbom\_core.sbom\_ingest
 
     The method you use to upload your files depends on whether you have the SBOM Core or SBOM Response applications installed.
 
-<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d140686e86">
+<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d141895e86">
 
 Option
 
-</th><th align="left" id="d140686e89">
+</th><th align="left" id="d141895e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140686e95">
+</th></tr></thead><tbody><tr><td id="d141895e95">
 
 **If you have installed SBOM Core**
 
@@ -58,7 +58,7 @@ The file name is displayed on the Choose an attachment file page.
 5.  Select **OK**.
 
 
-</td></tr><tr><td id="d140686e153">
+</td></tr><tr><td id="d141895e153">
 
 **If you have installed SBOM Response starting with v4.0**
 

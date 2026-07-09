@@ -18,7 +18,7 @@ Use the SPC Setup Connector generative AI skill in USEM to help your developers 
 
 You must have Zurich Patch 4 of Now Assist for Vulnerability Response to view the SPC Setup Connector skill.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You have the option to use Now Assist to help you automatically complete the following steps in the Connector builder in the Security Posture Control workspace.
 

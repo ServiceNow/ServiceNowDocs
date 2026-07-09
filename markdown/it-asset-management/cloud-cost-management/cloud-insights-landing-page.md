@@ -1,6 +1,6 @@
 ---
 title: Cloud Cost Management
-description: ServiceNow Cloud Cost Management application \(formerly known as Cloud Insights\) gives you visibility and control of your cloud usage and costs and helps you to discover all of your cloud resources, breaks down cloud spend by cost center, business service, and other entity, provides recommendations on how to reduce cloud spend, and automates repetitive cost optimization tasks.
+description: ServiceNow Cloud Cost Management application \(formerly Cloud Insights\) gives you visibility and control of your cloud usage and spending. It helps you to discover cloud resources, break down cloud spend by cost center, business service, and other entity, provides optimization recommendations, and automates repetitive cost-saving tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/cloud-insights-landing-page.html
 release: australia
@@ -9,12 +9,12 @@ classification: cloud-cost-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [IT Asset Management]
+breadcrumb: [IT Asset Management, Asset Management]
 ---
 
 # Cloud Cost Management
 
-ServiceNow® Cloud Cost Management application \(formerly known as Cloud Insights\) gives you visibility and control of your cloud usage and costs and helps you to discover all of your cloud resources, breaks down cloud spend by cost center, business service, and other entity, provides recommendations on how to reduce cloud spend, and automates repetitive cost optimization tasks.
+ServiceNow® Cloud Cost Management application \(formerly Cloud Insights\) gives you visibility and control of your cloud usage and spending. It helps you to discover cloud resources, break down cloud spend by cost center, business service, and other entity, provides optimization recommendations, and automates repetitive cost-saving tasks.
 
 Watch this short video for an introduction to the Cloud Cost Management application.
 
@@ -38,13 +38,9 @@ Watch this short video for an introduction to the Cloud Cost Management applicat
 
 [Cloud Cost Management Infra Stack\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn the key features and business value that the Cloud Cost Management Infra Stack application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ccm-infra-stack.md)
 
-</td><td>
+</td><td colspan="2">
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the roles, domain separation, and service categories in Cloud Cost Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Learn

@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -60,6 +60,7 @@ Connects your ServiceNow instance to an on-premise OAuth server that resides beh
 
 -   The option appears when the value in the **Grant type** field in the OAuth Entity Profile is set to either**Client Credentials**, **Authorization Code**, or **Resource Owner Password Credentials**. To learn how to set an OAuth entity profile for a third-party OAuth provider, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
 -   If you select the **Connect to Auth Server via MID Server** checkbox, you must identify the required MID Server or MID Servers from the **Applies to** list.
+-   MID Server user needs the `oauth_admin` role to **Set up OAuth integration** via **MID Server**.
 
 </td></tr><tr><td>
 

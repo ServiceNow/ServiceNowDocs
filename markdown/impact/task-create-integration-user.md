@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Create an integration user account
@@ -63,5 +63,5 @@ The integration user account exists in all required instances with the `sn_se.in
 
 Proceed to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

@@ -34,13 +34,13 @@ You can use your own SMTP and POP3 servers to send email from the instance and t
 
 3.  Locate the record for **ServiceNow SMTP** and change **Active** to **false**.
 
-4.  If you do not want to receive email sent to the instance@service-now.com mailbox, locate the record for **ServiceNow POP3** and change **Active** to **false**.
+4.  If you don't want to receive email sent to the instance@service-now.com mailbox, locate the record for **ServiceNow POP3** and change **Active** to **false**.
 
     An instance can receive email from multiple POP3 accounts at the same time. Leaving the**ServiceNow POP3** account active means that the instance receives email sent to its default email address.
 
-5.  Click **New**.
+5.  Select **New**.
 
-    The system displays a blank Email Account form.
+    The system displays a empty Email Account form.
 
 6.  Create an email account record for your SMTP server where the **Type** is **SMTP**.
 
@@ -140,7 +140,7 @@ System Address Filter
 
 </td><td>
 
-System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
+System address filter to apply to the email account. If left empty, the system uses the default system address filter for inbound or outbound email.
 
  For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
 
@@ -171,28 +171,28 @@ Option to create node logs for the raw data that is exchanged with the email ser
  You can enable this field temporarily to diagnose issues related to receiving or sending email.
 
 </td></tr></tbody>
-</table>8.  From **Related Links**, click **Test Connection**.
+</table>8.  From **Related Links**, select **Test Connection**.
 
     If the email account is valid, the system returns a success message.
 
-    \[Omitted image "test-smtp-connection.png"\] Alt text: Test SMTP connection
+    \[Omitted image "connection-successful.png"\] Alt text: Connection dialog showing a successful connection test result for a SMTP email account
 
-9.  Click **New**.
+9.  Select **New**.
 
-    The system displays a blank Email Account form.
+    The system displays a empty Email Account form.
 
 10. Create an email account record for your POP3 server where the **Type** is **POP3**.
 
-11. From **Related Links**, click **Test Connection**.
+11. From **Related Links**, select **Test Connection**.
 
     If the email account is valid, the system returns a success message.
 
-    \[Omitted image "test-pop3-connection.png"\] Alt text: Test POP3 connection
+    \[Omitted image "connection-successful.png"\] Alt text: Connection dialog showing a successful connection test result for a POP3 email account
 
 
 ## Example
 
-\[Omitted image "AlternateEmailConfigurationUsingYourOwnSMTPAndPOP3Servers.png"\] Alt text: Using your own SMTP and POP3 servers
+\[Omitted image "alt-email-configuration-smtp-pop3-servers.png"\] Alt text: Diagram of ServiceNow email routing where outbound email is sent from the instance through DNS and an SMTP server to a user mailbox, and inbound email is sent from the user through spam filtering, SMTP, and a POP3 incoming mail server back to the instance
 
 **Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
 

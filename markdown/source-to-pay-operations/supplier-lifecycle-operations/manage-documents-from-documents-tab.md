@@ -30,15 +30,15 @@ Role required: sn\_slm.contact
 
 3.  Upload, download, maintain versions, or manage permissions for documents as follows.
 
-<table><thead><tr><th align="left" id="d196987e89">
+<table><thead><tr><th align="left" id="d207826e100">
 
 Action
 
-</th><th align="left" id="d196987e92">
+</th><th align="left" id="d207826e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196987e98">
+</th></tr></thead><tbody><tr><td id="d207826e109">
 
 **Create a new document**
 
@@ -52,7 +52,7 @@ Use this option to upload documents without needing a supplier manager to initia
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d196987e133">
+</td></tr><tr><td id="d207826e144">
 
 **Upload a new version**
 
@@ -65,7 +65,7 @@ Use this option when you want to upload a new version of an existing document:1.
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d196987e171">
+</td></tr><tr><td id="d207826e182">
 
 **Manage document permissions**
 
@@ -79,7 +79,7 @@ Use this option to manage read and write permissions for a document.
 
 **Note:** The document owner and primary supplier contact are automatically granted read and write access. Secondary contacts are granted read access by default.
 
-</td></tr><tr><td id="d196987e200">
+</td></tr><tr><td id="d207826e211">
 
 **Download a document**
 

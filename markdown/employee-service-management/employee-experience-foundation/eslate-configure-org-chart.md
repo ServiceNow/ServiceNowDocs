@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [organization chart, org chart configuration, eligible users, employee card fields, Employee Slate]
-breadcrumb: [Employee Org chart, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee org chart, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure the organization chart for Employee Slate
@@ -31,9 +31,9 @@ The eligible user setting controls who appears in the chart. The card field sett
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Organization chart**.
+1.  Go to **All** &gt; **Employee Center** &gt; **Organization chart**.
 
-    The configuration page shows two settings: eligible users and user display.
+    The configuration page shows two settings: **Eligible users** and **User display**.
 
 2.  Select **Eligible user** and declare the users who appear in the chart.
 
@@ -41,7 +41,7 @@ The eligible user setting controls who appears in the chart. The card field sett
 
 3.  Go to **Org chart configuration** and select the fields to display on each card.
 
-    Common fields include name, title, manager email, and team. Each selected field appears in the order shown.
+    Common fields include **Name**, **Title**, **Manager email**, and **Team**. Each selected field appears in the order shown.
 
 4.  Preview the chart from an employee account.
 
@@ -59,6 +59,12 @@ The eligible user setting controls who appears in the chart. The card field sett
 ## Result
 
 Employees view the configured organization hierarchy and card fields when they open the org chart. The AI assistant honors the eligible user list when it responds to people-related queries.
+
+**Important:** AI-generated responses may be inaccurate. Review the results before acting on them.
+
+## What to do next
+
+Employees can edit and upload profile images directly on the profile page.
 
 **Related topics**  
 

@@ -1,5 +1,5 @@
 ---
-title: Configure idea categories for transferring a request as an Idea
+title: Configure idea categories for transferring request as Idea
 description: Configure idea states to use when directly transferring an HR case, incident, or a custom task from your department as an idea.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/direct-transfer-req-idea.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure idea categories for transferring a request as an Idea
+# Configure idea categories for transferring request as Idea
 
 Configure idea states to use when directly transferring an HR case, incident, or a custom task from your department as an idea.
 

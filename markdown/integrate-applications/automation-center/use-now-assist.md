@@ -16,7 +16,7 @@ breadcrumb: [Now Assist for Automation Center, Use, Automation Center, Workflow 
 
 Use Now Assist for Automation Center to explore available automations in your ServiceNow instance. You can also create an automation request from the Task Mining workspace.
 
--   **[Create automation request from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-na-ac.md)**  
+-   **[Creating automation request from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-na-ac.md)**  
 Use Now Assist for Automation Center to create an automation request from the Task Mining workspace.
 -   **[Explore automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/auto-explorer.md)**  
 Automation explorer enables you to scan your entire ServiceNow® instance and discover relevant automations based on a targeted query. You can filter by automation type, execution time period, and application scope, then onboard high-value automations directly to Automation Center for ROI tracking.

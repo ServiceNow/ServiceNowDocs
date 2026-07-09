@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Customer Success Management release notes
@@ -13,6 +13,10 @@ reading_time_minutes: 3
 The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
 
 ## Customer Success Management highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Capture and preserve customer business context from pre-sales through post-sale handoff with Customer Discovery Hub.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -32,6 +36,13 @@ See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/S
 
 ## New in the Australia release
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md)**
+
+    Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records, giving customer success managers immediate insight into customer objectives and success criteria.
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   **[Adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-adaptive-desktop-actions.md)**
@@ -47,8 +58,8 @@ See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/S
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
@@ -80,6 +91,11 @@ Australia Early Availability
 
 ## Changed in this release
 
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 Australia Early Availability
 
 -   **[Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md)**
@@ -97,8 +113,8 @@ Install Customer Success Management by requesting it from the ServiceNow Store. 
 
     The following plugins are new in Australia:
 
-    Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for customer success
-
+    -   Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for customer success
+    -   Customer Discovery Hub\(`sn_cust_disc_hb`\): Captures customer business context during the sales process and makes that context available to customer success teams at the post-sale handoff.
 
 ## Related ServiceNow applications and features
 

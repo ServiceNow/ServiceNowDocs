@@ -30,7 +30,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
 1.  Navigate to the Microsoft Word document that you want to use for template creation.
 
-2.  To create placeholders, select **Design template** On the ribbon.
+2.  To create placeholders, select **Design template** on the ribbon.
 
 3.  To log in to your ServiceNow instance, select **Log in** using the audit manager credentials.
 

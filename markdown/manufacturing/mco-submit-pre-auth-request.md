@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Pre-authorization request, Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Pre-authorization request, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a pre-authorization request

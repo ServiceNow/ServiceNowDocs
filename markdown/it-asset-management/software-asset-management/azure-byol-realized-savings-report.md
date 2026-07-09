@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Bring your own license or subscription to the public cloud, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Bring your own license or subscription to the public cloud, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Microsoft Windows and SQL Server infrastructure details reports

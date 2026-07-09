@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Talent Acquisition roles, user roles, Hiring Core roles, recruiter role, hiring experiences role]
 ---
 
 # Roles in Hiring Experiences

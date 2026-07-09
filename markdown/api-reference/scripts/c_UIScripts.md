@@ -16,7 +16,7 @@ breadcrumb: [Client-side scripting, Scripting, API implementation, API implement
 
 UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code.
 
-UI scripts are not supported for mobile.
+**Note:** UI scripts aren't supported on mobile or Next Experience.
 
 **Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
 

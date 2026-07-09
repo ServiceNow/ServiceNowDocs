@@ -78,7 +78,7 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
     3.  Install the package.
         -   RHEL/CentOS/SUSE: `sudo rpm -vi --force agent-client-collector-<version number>-x86_64.rpm`
-        -   Ubuntu/Debian: `sudo dpkg -i agent-client-collector-<version number>-<Ubuntu/Debian version>_amd64.deb`
+        -   Ubuntu/Debian: `sudo dpkg -1 agent-client-collector-<version number>-<Ubuntu/Debian version>_amd64.deb`
 5.  Restore the `agent-id` and configuration files.
 
     ```

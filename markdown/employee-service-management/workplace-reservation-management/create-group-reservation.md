@@ -32,15 +32,15 @@ For example, if you are reserving four workplaces for four different employees. 
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d548998e73">
+<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d550775e73">
 
 Location
 
-</th><th align="left" id="d548998e76">
+</th><th align="left" id="d550775e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d548998e82">
+</th></tr></thead><tbody><tr><td id="d550775e82">
 
 **From application navigator search context menu**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d548998e106">
+</td></tr><tr><td id="d550775e106">
 
 **Employee Center**
 

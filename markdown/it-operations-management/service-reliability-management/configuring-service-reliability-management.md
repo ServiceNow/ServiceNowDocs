@@ -30,9 +30,9 @@ Install the Service Reliability Management \(SRM\) application from the Admin Ce
 Add people from your ServiceNow instance to administer Service Reliability Management \(SRM\) and your service operations.
 3.  [Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)  
 Activate teams and services to be managed in the Service Reliability Management \(SRM\) application.
-4.  [Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-services.md)  
+4.  [Customize service approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-services.md)  
 Add an approval process to your services for governance.
-5.  [Customize team approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)  
+5.  [Customize team approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)  
 Customize how team approvals work when non-admin users create or add a team in Service Reliability Management \(SRM\). This feature, also known as team governance, helps you control access and align with internal policies.
 6.  [Configure error budget actions for breached SRM SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-configure-error-budget.md)  
 Configure the actions that the team can select when the error budget of a service level objective \(SLO\) is breached.

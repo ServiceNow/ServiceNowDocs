@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management publisher pack for IBM
@@ -32,7 +32,7 @@ The IBM publisher pack supports the following license metrics:
 -   Resource Value Unit \(RVU\)
 -   Virtual Processor Core \(VPC\)
 
-**Important:** The PVU, RVU, and VPC license metrics are supported only if you integrate the IBM publisher pack with the IBM License Metric Tool \(ILMT\), BigFix Inventory, or a Software Asset Management provider that is authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. For more information on ILMT and BigFix Inventory integrations, see [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md). For more information on Authorized SAM Provider \(ASP\) integrations, see [Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md).
+**Important:** The PVU, RVU, and VPC license metrics are supported only if you integrate the IBM publisher pack with the IBM License Metric Tool \(ILMT\), BigFix Inventory, or a Software Asset Management provider that is authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. For more information on ILMT and BigFix Inventory integrations, see [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md). For more information on Authorized SAM Provider \(ASP\) integrations, see [Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md).
 
 For more information on the supported IBM license metrics, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
@@ -64,7 +64,7 @@ When you run a discovery using a discovery tool such as the ServiceNow Discovery
 The Software Asset Management publisher pack for IBM adds license metrics for various IBM license types.
 -   **[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)**  
 You can use an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration to create a connection between your IBM servers and the ServiceNow AI Platform. Use this connection to import data into your ServiceNow instance so that you can track and optimize licensing for your IBM software products.
--   **[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)**  
+-   **[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)**  
 You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 -   **[Software Publisher Analytics dashboard for IBM in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-ibm.md)**  
 View compliance analysis results related to IBM on the Software Publisher Analytics dashboard in the Software Asset Management classic application.

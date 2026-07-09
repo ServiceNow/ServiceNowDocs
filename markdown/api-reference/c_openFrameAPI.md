@@ -8,7 +8,7 @@ product: API Reference
 classification: api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 39
+reading_time_minutes: 43
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -687,6 +687,7 @@ Object
 Context data to set. Each context data type is a unique set of input data.Valid **Context** data objects:
 
 -   `activeCall`
+-   `activeConversation`
 -   `idleState`
 -   `offerContext`
 -   `searchTargetList`
@@ -739,7 +740,7 @@ Only used if the **activeCall.type** property is `callback`. Callback context in
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callAttemptedByAgent
+activeCall.callbackContext.callAttemptedByAgent
 
 </td><td>
 
@@ -756,7 +757,7 @@ Default: False
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callbackNumbers
+activeCall.callbackContext.callbackNumbers
 
 </td><td>
 
@@ -768,7 +769,7 @@ List of phone numbers provided as strings.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. closeInEndTime
+activeCall.callbackContext.closeInEndTime
 
 </td><td>
 
@@ -780,7 +781,7 @@ Set only if **callAttemptedByAgent** is true. End time for callback in UTC forma
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. customerName
+activeCall.callbackContext.customerName
 
 </td><td>
 
@@ -792,7 +793,7 @@ Name of the customer.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. dialInEndTime
+activeCall.callbackContext.dialInEndTime
 
 </td><td>
 
@@ -1709,6 +1710,171 @@ Type of call.Valid values:
 
 </td></tr><tr><td>
 
+activeConversation
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Context details about an active conversation. Each object represents an ongoing messaging interaction.
+
+```
+"activeConversation": [
+ { 
+  "externalId": "String",
+  "nowRecordId": "String", 
+  "nowRecordTable": "String",  
+  "wrapUpRequired": Boolean 
+ }
+]
+```
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Sys\_id of the active call record.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordTable
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Table to which the active call belongs.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.wrapupRequired
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether to display the **Wrap up** component once the agent leaves the chat.Valid values:
+
+-   true: Display the Wrap up component once agent leaves the chat.
+-   false: Don't display the Wrap up component while agent leaving the chat.
+
+Default: false
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Container for all outbound queue selection data and available queue options.```
+"outboundQueue": {
+ "currentSelectedQueue": {Object},
+ "targets": {Object}
+}
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Represents the queue currently selected by the agent. Stores the agent's active queue choice.```
+"currentSelectedQueue": {
+      "label": "String",
+      "id": "String"
+    }
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the currently selected queue. For example: `"queueId1"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the currently selected queue. For example: `"Account Support"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Array of queue objects representing all available queue options the agent can select from.```
+"targets": [
+ {
+  "label": "String",
+  "id": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the queue option. For example: `"queueId2"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the queue option. For example: `"Billing Support"`.
+
+</td></tr><tr><td>
+
 idleState
 
 </td><td>
@@ -1956,6 +2122,23 @@ Flag that indicates whether the outbound queue selection field should be enabled
 
 -   true: Display the outbound queue selection field while in the idle state.
 -   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.​enableState.phoneDirectory​
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
 
 Default: false
 
@@ -2980,7 +3163,8 @@ openFrameAPI.setICContext("idleState", {
   "enableState": {
     "outBoundCall": true,
     "logOut": true,
-    "phoneDirectory": true
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "dialpadInfoMessage": {
     "label": "DialPadInfo_Label",
@@ -3150,6 +3334,120 @@ var offerContext = {
     }
   ]
 };
+```
+
+### Agent Selects a Support Queue using the agentSettings property
+
+The `setICContext("agentSettings")` method configures queue selection options for contact center agents in OpenFrame. The first example initializes the agent's environment by setting a default queue \("Account Support"\) and populating a dropdown menu with all available queue options.
+
+As the agent's assignment changes or they manually switch queues, the second example demonstrates how to update `currentSelectedQueue` to reflect the new selection, keeping the system synchronized with the agent's active queue. This allows the OpenFrame interface to display the correct queue context and route interactions to the appropriate team.
+
+```
+// Initialize agentSettings context with available queues
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Account Support",
+      "id": "queueId1"
+    },
+    "targets": [
+      {
+        "label": "Account Support",
+        "id": "queueId1"
+      },
+      {
+        "label": "Billing Support",
+        "id": "queueId2"
+      },
+      {
+        "label": "Hardware Support",
+        "id": "queueId3"
+      },
+      {
+        "label": "Product Support",
+        "id": "queueId4"
+      },
+      {
+        "label": "Sales Support",
+        "id": "queueId5"
+      }
+    ]
+  }
+});
+```
+
+In this example, the agent switches to Billing Support as the newly selected queue:
+
+```
+// Agent switches to Billing Support
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Billing Support",
+      "id": "queueId2"
+    },
+    "targets": [
+      // ... same targets array
+    ]
+  }
+});
+```
+
+### Setting Active Conversation Context
+
+Use case - When an agent receives an inbound interaction:
+
+-   The system identifies the ServiceNow interaction record and passes its record ID.
+-   The externalId stores any external system reference \(e.g., from a third-party contact center\).
+-   If the interaction requires post-call work, wrapUpRequired is set to true.
+-   The OpenFrame interface is synchronized with the active conversation context, allowing agents to access conversation history and interaction details.
+
+```
+// Initialize activeConversation context with the current interaction
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true
+    }
+  ]
+});
+```
+
+Output:
+
+```
+{
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true,
+      'status': 'active',
+      'timestamp': '2024-06-24T14:32:15Z'
+    }
+  ],
+  'success': true
+}
+```
+
+Update the interaction to a new conversation:
+
+```
+// Update to a new active conversation
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '85214001gce99c21gg30gf6g4ffgeeid52',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId456',
+      'wrapUpRequired': true
+    }
+  ]
+});
 ```
 
 ## openFrameAPI - setIcons\(Array icons\)
@@ -3480,6 +3778,10 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_awa\_workitem\_accepted: Occurs when a work item is accepted by an agent.
 -   openframe\_awa\_workitem\_offered: Occurs when a work item is offered to an agent.
 -   openframe\_awa\_workitem\_rejected: Occurs when a work item is rejected by an agent.
+-   openframe\_awa\_workitem\_cancelled:
+    -   Occurs when a work item is cancelled by AWA.
+    -   Occurs when a Agent 1 transfers the phone call \(Blind or Consult\) to Agent 2 but Agent 2 rejects the transfer.
+    -   Occurs when an Agent 1 cancels the transfer before the Agent 2 picks up the transfer. Currently, cancellation is supported only for chats.
 -   openframe\_before\_destroy: Occurs before the TopFrame is unloaded.
 -   openframe\_collapse: Occurs when the collapse icon is selected on the OpenFrame header.
 -   openframe\_communication: Application-specific and can be customized.

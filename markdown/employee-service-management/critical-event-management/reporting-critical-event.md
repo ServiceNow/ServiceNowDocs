@@ -1,5 +1,5 @@
 ---
-title: Reporting critical events
+title: Report critical events
 description: Report a critical event as an agent or an employee, and self-report your status as an employee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/reporting-critical-event.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
-# Reporting critical events
+# Report critical events
 
 Report a critical event as an agent or an employee, and self-report your status as an employee.
 

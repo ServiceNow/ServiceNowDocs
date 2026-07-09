@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Teams Graph Spoke, Integration Hub spokes, Build integrat
 
 Configure a webhook to subscribe to Microsoft Teams with a ServiceNow callback URL.
 
-Demonstrates how to set up bi-directional webhook for the Microsoft Teams Graph spoke. 
+\[Omitted video\] Description: Demonstrates how to set up bi-directional webhook for the Microsoft Teams Graph spoke.
 
 ## Before you begin
 

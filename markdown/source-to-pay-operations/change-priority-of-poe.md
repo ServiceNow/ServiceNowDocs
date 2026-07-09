@@ -34,10 +34,13 @@ Role required: sn\_poem\_core.operational\_buyer
 
 7.  Select **Update**.
 
+    The priority level of the purchase order exception is updated to reflect the new value.
 
-## Result
-
-The priority level of the purchase order exception is updated to reflect the new value.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-assignment-workbench.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-30"
 reading_time_minutes: 4
 breadcrumb: [Agent management, Use, Customer Service Management]
 ---
@@ -20,8 +20,6 @@ The assignment workbench displays all the relevant information for task assignme
 -   The matching criteria used to evaluate the agents.
 -   An overall ranking for each agent in the assignment group.
 -   A filter with the current assignment group and the skills identified for the task, including any mandatory skills.
-
-\[Omitted image "CaseAssignWorkbench.png"\] Alt text: Task Assignment Workbench displaying suggested team members, their skills, availability, and assigned cases.
 
 Agents are ranked from 1 to any number based on the criteria configured for the workbench. The more criteria that matches, the higher an agent's rank. When the criteria for two agents is the same, the agents have the same rank. Point to an agent's rank to display the details.
 
@@ -52,7 +50,7 @@ If you are using mandatory skills, you must replace the **Matching Skills** crit
 
 ## Using the assignment workbench
 
-Access the assignment workbench by clicking the Find Agents icon \(\[Omitted image "FindAgentsIcon.png"\] Alt text: Find Agents icon.\) next to the **Assigned to** field on the task form.
+Access the assignment workbench by clicking the Find Agents icon next to the **Assigned to** field on the task form.
 
 **Note:** The state of the current record determines the availability of the Find Agents icon. The icon is available for records in the **Open**, **Awaiting**, and **Cancelled** states, and if the user has write access for the **Assigned to** field. The icon is not available for records in the **New** or **Closed** states or when the **Assigned to** field is read-only for the current user.
 

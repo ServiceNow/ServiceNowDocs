@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure responsibility access, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Assign roles, Configure, Manufacturing Commercial Operations]
 ---
 
 # Granular roles and entities

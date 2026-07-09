@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your CMDB
@@ -18,7 +18,7 @@ The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provid
 
 ## Overview
 
-Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-cmdb.md) for information on CMDB.
+Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See  for information on CMDB.
 
 ## Package Availability
 

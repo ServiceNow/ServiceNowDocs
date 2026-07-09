@@ -50,7 +50,7 @@ To view the script for evaluating this capability, navigate to **MID Server** &g
 
 \[Omitted image "MIDServerResolveDNS.png"\] Alt text: MID capabilities
 
--   **[Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configure-capabilities.md)**  
+-   **[Configure MID Server capabilities]()**  
 MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, , and .
 
 **Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)

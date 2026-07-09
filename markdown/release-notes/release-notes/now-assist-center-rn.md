@@ -40,7 +40,7 @@ See [Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Use Now Assist Readiness Evaluation to assess your instance readiness for AI adoption, identify areas to prepare for AI, and access direct links to improve those areas.
 
--   **[Activate Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-activate-now-assist-skill.md)**
+-   **Activate Now Assist skills**
 
     Use the conversational experience in the Now Assist panel to activate and set up base system skills.
 

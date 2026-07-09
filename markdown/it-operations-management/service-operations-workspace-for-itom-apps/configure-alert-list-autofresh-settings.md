@@ -1,5 +1,5 @@
 ---
-title: Enable and disable live updates for alert lists
+title: Configure live updates for alert lists
 description: Choose live updates for alert lists to receive real-time updates, or disable live updates and refresh the alert list manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-list-autofresh-settings.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Enable and disable live updates for alert lists
+# Configure live updates for alert lists
 
 Choose live updates for alert lists to receive real-time updates, or disable live updates and refresh the alert list manually.
 

@@ -7,9 +7,9 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart your AI Control Tower: Foundations
@@ -18,7 +18,7 @@ Jumpstart your AI Control Tower: Foundations provides a demonstration of the pos
 
 ## Accelerator overview
 
-Jumpstart Your AI Control Tower: Foundations introduces Impact customers to AI Control Tower of ServiceNow. Through an applied demonstration, customers gain clarity on how it supports AI governance, helping them improve oversight and closely track their AI investments. This accelerator includes key resources and leading practice guides, enabling customers to leave feeling confident in their ability to govern AI initiatives effectively.
+Jumpstart Your AI Control Tower: Foundations introduces Impact customers to AI Control Tower of ServiceNow. Through an applied demonstration, customers gain clarity on how it supports AI governance, helping them improve oversight and closely track their AI investments. This Accelerator includes key resources and leading practice guides, enabling customers to leave feeling confident in their ability to govern AI initiatives effectively.
 
 ## Package Availability
 

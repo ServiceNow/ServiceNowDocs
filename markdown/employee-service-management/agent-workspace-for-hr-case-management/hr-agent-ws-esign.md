@@ -1,6 +1,6 @@
 ---
 title: E-signature in Agent Workspace for HR Case Management
-description: When working on an HR case or HR task, you can use e-signature to sign documents that require signatures.Electronically sign a document.
+description: When working on an HR case or HR task, you can use e-signature to sign documents that require signatures.Sign and generate HR case documents electronically by typing or drawing your signature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-esign.html
 release: australia
@@ -18,8 +18,8 @@ When working on an HR case or HR task, you can use e-signature to sign documents
 
 When an employee creates a case requesting an employment verification letter, you can:
 
--   Preview the document - Ensures you sign the correct document. This step is useful if you have multiple employment verification letters.
--   Use e-signature to sign it - You have multiple methods to sign. Choose to type your name or use your mouse to draw your signature. For more information, see .
+-   Preview the document - Verifies that you sign the correct document. This step is useful if you have multiple employment verification letters.
+-   Use e-signature to sign it - You have multiple methods to sign. Choose to type your name or use your mouse to draw your signature.
 
     You can optionally require a user to check an acknowledgment box before the signature is accepted.
 
@@ -30,7 +30,7 @@ When an employee creates a case requesting an employment verification letter, yo
 
 ## Sign and generate a document in Agent Workspace for HR Case Management
 
-Electronically sign a document.
+Sign and generate HR case documents electronically by typing or drawing your signature.
 
 ### Before you begin
 
@@ -42,18 +42,18 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Locate and open an HR case.
 
-    Ensure that the state of the case is **Work in Progress**.
+    Confirm that the state of the case is **Work in Progress**.
 
 3.  Select the **Sign Document** button.
 
 4.  Preview the document.
 
-    Ensure it is the correct document for the case.
+    Verify if the document is correct for the case.
 
 5.  Select **Type signature** to type in your signature, or select **Draw signature** to draw your signature using your mouse.
 
 6.  Select Generate to attach your signature to the document.
 
-    The generated document is displayed under the Attachments in the contextual side panel. If your company uses Employee Document Management \(EDM\), you can move the document to the EDM repository. For more information on EDM, see .
+    The generated document is displayed under the Attachments in the contextual side panel. If your company uses Employee Document Management \(EDM\), you can move the document to the EDM repository.
 
 

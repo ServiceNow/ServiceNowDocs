@@ -42,7 +42,7 @@ If you want to use ERP data for processes or tasks outside of Zero Copy Connecto
 1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
     -   For more information on testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-action.md).
     -   For more details on inputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
-2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+2.  After the test runs, view the action execution details. For more information, see .
 3.  The returned data from testing the action appears in the **Response** field of the output data.
     -   For more information on outputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
     -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md).

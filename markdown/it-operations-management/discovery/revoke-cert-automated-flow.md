@@ -20,7 +20,7 @@ Revoke certificate for an application. Revocation doesn't require approval if **
 
 [Set up routing policy for automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/setup-routing-policy.md) to ensure the Certificate Management catalog is enabled.
 
-To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request new certificate using automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-new-cert-automated-flow.md).
+To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request certificates using automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-new-cert-automated-flow.md).
 
 Role required: pki\_admin or admin
 

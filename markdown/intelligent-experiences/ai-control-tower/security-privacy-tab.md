@@ -55,7 +55,7 @@ The AI asset security score is a measure of the health of your AI assets in term
 
     To see more information about your score, select **See details** in the **Security &amp; privacy** tab. A list view shows the AI assets that are included in your AI asset security score calculation. Your score is the average of all managed AI assets listed. Users should actively manage and review their agent assets and not rely solely on this AI asset security score.
 
-    You can exclude an AI asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove large language model \(LLM\) guardrail categories from the score or change the weights of categories. For more information, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can exclude an AI asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove large language model \(LLM\) guardrail categories from the score or change the weights of categories. For more information, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 <table id="simpletable_nqz_1sl_mhc"><thead><tr><th>
 
@@ -187,11 +187,11 @@ MCP server access metrics include MCP client-server interactions routed through 
 
 -   **Data integrity incident detection**
 
-    The Data integrity incident detection chart is designed to help show potential violations of certain LLM guardrail policies. ServiceNow analyzes the AI agent’s output from each of its tasks deterministically to detect potential violations. You can choose to include or omit these policies. For more information about policies and how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Data integrity incident detection chart is designed to help show potential violations of certain LLM guardrail policies. ServiceNow analyzes the AI agent’s output from each of its tasks deterministically to detect potential violations. You can choose to include or omit these policies. For more information about policies and how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **Agent goal deviation**
 
-    The Agent goal deviation chart is designed to help identify when AI agents may have deviated from their intended role or objective during execution. Deviations include but aren’t limited to unauthorized actions or prompt injection attempts. The data is collected by analyzing agent execution history and then evaluated by AI. You can choose the data models to include or omit. Due to the probabilistic nature of the analysis by data model, not all occurrences may be identified. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Agent goal deviation chart is designed to help identify when AI agents may have deviated from their intended role or objective during execution. Deviations include but aren’t limited to unauthorized actions or prompt injection attempts. The data is collected by analyzing agent execution history and then evaluated by AI. You can choose the data models to include or omit. Due to the probabilistic nature of the analysis by data model, not all occurrences may be identified. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **AI agent output with PII detected**
 
@@ -199,7 +199,7 @@ MCP server access metrics include MCP client-server interactions routed through 
 
     ServiceNow analyzes the AI agent's output from each of its tasks deterministically based on the widely known patterns listed to find out potential security vulnerabilities. For example, U.S. phone number, credit card number, or Social Security number.
 
-    You can choose to include or omit potential PII patterns to detect. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can choose to include or omit potential PII patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **Agentic output injection detection**
 
@@ -207,7 +207,7 @@ MCP server access metrics include MCP client-server interactions routed through 
 
     ServiceNow analyzes the AI agent's output from each of its tasks deterministically based on the patterns listed to find out potential security vulnerabilities. For example, HTML tags shouldn't have scripts associated with them for cross-site script attacks \(XSS\), or stacked SQL queries could result in SQL injection attacks.
 
-    You can choose to include or omit potential patterns to detect. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can choose to include or omit potential patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
 
     **Note:** These security-vulnerable patterns are ever-evolving, so not all patterns may be identified.
 

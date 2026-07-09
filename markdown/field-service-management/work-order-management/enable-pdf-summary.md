@@ -39,3 +39,5 @@ Role required: wm\_agent
 
 The configuration to generate signed PDF summaries at the work order task level is enabled. For more information, see [Close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 
+For more information on assessment scoring, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md).
+

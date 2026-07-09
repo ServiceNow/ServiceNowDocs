@@ -79,3 +79,8 @@ The new password.
 </table>6.  Select **Change**.
 
 
+**Related topics**  
+
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset-businessportal.md)
+

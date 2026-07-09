@@ -34,7 +34,7 @@ For more information, see Automatic wrap-up code assignment in [Using Email Inte
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \( \[Omitted image "List\_icon.jpg"\] Alt text: List icon that displays the interactions.\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions. \).
 
 3.  In the Interactions section, select **My Interactions**.
 

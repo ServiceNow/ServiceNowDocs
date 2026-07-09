@@ -38,7 +38,7 @@ Role required: admin
 
     5.  Once the script is complete, validate the data by running a test load of the Data Source.
 
-    6.  After you run the test load, navigate to **All** &gt; **System Import Sets** &gt; **Staging SG-OT Discovery Asset**.
+    6.  After you run the test load, navigate to **All** &gt; **System Import Sets** &gt; **SG-OT Discovery &gt; Asset**.
 
     7.  Validate that the Data column contains the `custom_attribute` that you added in step 1d.
 

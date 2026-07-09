@@ -19,6 +19,7 @@ The ServiceNow® Document Services application provides a broad range of service
 -   Manage documents quickly and get complete visibility across all entity-level folders and business records in a single unified view.
 -   Streamline operations with drag-and-drop uploads and direct cloud integration, allowing file management through quick actions directly from file cards.
 -   Enhanced control provides teams with real-time visibility over the document life cycle via in-line metadata editing, automatic version tracking, granular permissions, and embedded workflow assignments on the file card.
+-   Enable Smart Document Skill across all tables by default, removing the need for manual configuration.
 
 See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-services-landing-page.md) for more information.
 
@@ -31,6 +32,15 @@ See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 -   **[Granular admin roles required to secure the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/granular-admin-roles-dms.md)**
 
     Enable developers and administrators to complete administrative configuration tasks for Document Services without requiring the full admin role.
+
+
+## Changed in this release
+
+-   **[Smart documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md)**
+
+    Use Smart Document skill across all tables.
+
+    Existing configurations remain unchanged during upgrade, including those on specific tables or when the feature is disabled.
 
 
 ## Activation information

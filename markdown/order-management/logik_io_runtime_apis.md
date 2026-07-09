@@ -1,38 +1,30 @@
 ---
 title: Runtime APIs
-description: Runtime APIs
+description: ServiceNow CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are commonly referred to as buyside or runtime APIs and are used by customers or end users to create, update and save ServiceNow CPQ configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_runtime\_apis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [API overview and resources, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Runtime APIs
 
-Runtime APIs
+ServiceNow CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are commonly referred to as buyside or runtime APIs and are used by customers or end users to create, update and save ServiceNow CPQ configurations.
 
-CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are commonly referred to as buyside or runtime APIs and are used by customers or end users to create, update and save CPQ configurations.
+Runtime APIs support the standard create, read, update, and delete functions for ServiceNow CPQ configurations, along with the ability to retrieve bill of materials \(BOM\) data from ServiceNow CPQ.
 
-Runtime APIs support the standard create, read, update, and delete functions for CPQ configurations, along with the ability to retrieve bill of materials \(BOM\) data from CPQ.
-
-**Note:** These APIs are legacy APIs. For the most updated information, see the complete CPQ API reference:
-
-[Logik.io API Reference](https://api-docs.logik.io/#introduction)
-
-To make CPQ runtime APIs accessible and provide a quick start to end developers, see our open source repositories for API collections that can easily be imported and used to start testing:
-
-[API-Documentation/runtime/Logik Configurator Runtime APIs.postman\_collection.json](https://github.com/logikioopensource/API-Documentation/blob/main/runtime/Logik%20Configurator%20Runtime%20APIs.postman_collection.json)
+To make ServiceNow CPQ runtime APIs accessible and provide a quick start to end developers, see the open source repositories for API collections that can easily be imported and tested.
 
 ## Runtime API setup
 
-The base URL format for all runtime API calls is `https://<tenant>.<sector>.logik.io/api/`, where `<tenant>` is the listed tenant name and`<sector>` is the appropriate sector that the environment is located on \(usually `test` or `prod`\).
+The base URL format for all runtime API calls is `https://<tenant>.<sector>.<cpq>/api/`, where `<tenant>` is the listed tenant name and`<sector>` is the appropriate sector that the environment is located on \(usually `test` or `prod`\).
 
-In Salesforce, you can find the CPQ tenant URL by going into Setup, searching for Custom Settings in the Quick Find box, and then clicking **Manage** next to CPQ Tenant.
+In Salesforce, you can find the ServiceNow CPQ tenant URL by going into Setup, searching for Custom Settings in the Quick Find box, and then clicking **Manage** next to ServiceNow CPQ Tenant.
 
-Runtime API calls are authenticated through a combination of a bearer token and the defined origin in the runtime client. The origins of the runtime application are specified when a runtime client is created in the CPQ Admin settings.
+Runtime API calls are authenticated through a combination of a bearer token and the defined origin in the runtime client. The origins of the runtime application are specified when a runtime client is created in the ServiceNow CPQ Admin settings.
 
 To authorize these API calls, you must add two headers to the each runtime API request:
 
@@ -48,7 +40,7 @@ Sample headers:
 
 ## Create a configuration
 
-To start a new configuration via the APIs, the create configuration call passes the ID of the configurable product. In response, it receives a CPQ configuration ID that can be used to specify this configuration in later calls.
+To start a new configuration via the APIs, the create configuration call passes the ID of the configurable product. In response, it receives a ServiceNow CPQ configuration ID that can be used to specify this configuration in later calls.
 
 <table id="table_mtd_mls_mhc"><tbody><tr><td>
 
@@ -64,7 +56,7 @@ URL
 
 </td><td>
 
-https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
 
 </td></tr><tr><td>
 
@@ -85,12 +77,12 @@ N/A
 </td></tr></tbody>
 </table>The two key pieces of the payload are:
 
--   The ID of a CPQ enabled product, with a blueprint that is deployed
--   The CPQ configuration UUID that is being reconfigured
+-   The ID of a ServiceNow CPQ enabled product, with a blueprint that is deployed
+-   The ServiceNow CPQ configuration UUID that is being reconfigured
 
 Sample URL:
 
-`https://dev1.test.Logik/api/`
+`https://dev1.test.cpq/api/`
 
 Sample payload:
 
@@ -144,9 +136,9 @@ Sample response:
 
 ## Reconfigure a configuration
 
-The reconfigure API call is similar to the create configuration call. The reconfigure call passes the ID of the configurable product and an existing CPQ configuration ID, and in return receives a new Configuration ID with the same field data as the prior configuration but allowing for changes to be made.
+The reconfigure API call is similar to the create configuration call. The reconfigure call passes the ID of the configurable product and an existing ServiceNow CPQ configuration ID, and in return receives a new Configuration ID with the same field data as the prior configuration but allowing for changes to be made.
 
-**Note:** The UUID field in the response payload contains the new CPQ configuration ID. The new configuration ID should be used for all operations going forward in the reconfiguration process, including update, save, and retrieve BOM.
+**Note:** The UUID field in the response payload contains the new ServiceNow CPQ configuration ID. The new configuration ID should be used for all operations going forward in the reconfiguration process, including update, save, and retrieve BOM.
 
 <table id="table_vtd_mls_mhc"><tbody><tr><td>
 
@@ -162,7 +154,7 @@ URL
 
 </td><td>
 
-https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
 
 </td></tr><tr><td>
 
@@ -183,8 +175,8 @@ N/A
 </td></tr></tbody>
 </table>The two key pieces of the payload are:
 
--   The ID of a CPQ enabled product, with a blueprint that is deployed
--   The CPQ configuration UUID that is being reconfigured
+-   The ID of a ServiceNow CPQ enabled product, with a blueprint that is deployed
+-   The ServiceNow CPQ configuration UUID that is being reconfigured
 
 Sample URL:
 
@@ -238,7 +230,7 @@ Sample response:
 
 ## Update a configuration
 
-Updating a configuration requires a configuration to be loaded using either the create configuration or reconfigure API calls. The Update Configuration call passes a CPQ Configuration ID and any desired field values, and in response receives the updated configuration from CPQ.
+Updating a configuration requires a configuration to be loaded using either the create configuration or reconfigure API calls. The Update Configuration call passes a ServiceNow CPQ Configuration ID and any desired field values, and in response receives the updated configuration from ServiceNow CPQ.
 
 <table id="table_pwh_rts_mhc"><tbody><tr><td>
 
@@ -254,7 +246,7 @@ URL
 
 </td><td colspan="4">
 
-https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
 
 </td></tr><tr><td>
 
@@ -321,15 +313,15 @@ false
 
 **delta**
 
-If delta=true, CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
+If delta=true, ServiceNow CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
 
-If delta=false, CPQ sends back the entire configuration and BOM data in response.
+If delta=false, ServiceNow CPQ sends back the entire configuration and BOM data in response.
 
 **save**
 
-If save=true, CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce. This is the behavior of the save configuration call.
+If save=true, ServiceNow CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce. This is the behavior of the save configuration call.
 
-If save=false, CPQ updates this configuration and sends the updated data back in the response. This is the default behavior, and this is the behavior of the update call.
+If save=false, ServiceNow CPQ updates this configuration and sends the updated data back in the response. This is the default behavior, and this is the behavior of the update call.
 
 Sample URL:
 
@@ -372,13 +364,13 @@ Sample response:
 
 ## Save a configuration
 
-Saving a configuration is a subset of the update configuration. It requires a configuration to be loaded using either the create configuration or reconfigure API calls. The save configuration call passes a CPQ configuration ID and any desired field values, and in response receives the updated configuration from CPQ.
+Saving a configuration is a subset of the update configuration. It requires a configuration to be loaded using either the create configuration or reconfigure API calls. The save configuration call passes a ServiceNow CPQ configuration ID and any desired field values, and in response receives the updated configuration from ServiceNow CPQ.
 
 **Note:** The only difference between a normal update call and a save call is the addition of the query parameter **save=true** in the URL. If set to false or excluded, this is a normal update call.
 
-If you are using Salesforce as a backend, when the save API is called, CPQ asynchronously creates and populates the CPQ custom objects Configuration Field Data Sets and Configuration Line Items with the appropriate data.
+If you are using Salesforce as a backend, when the save API is called, ServiceNow CPQ asynchronously creates and populates the ServiceNow CPQ custom objects Configuration Field Data Sets and Configuration Line Items with the appropriate data.
 
-If your CPQ instance has a webhook configured, when the save API is called, the data is sent to the endpoint specified in the webhook setting. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md).
+If your ServiceNow CPQ instance has a webhook configured, when the save API is called, the data is sent to the endpoint specified in the webhook setting. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md).
 
 **Note:** This ends the configuration session. Further edits or updates to the configuration must be started from the create configuration or reconfigure API calls.
 
@@ -396,7 +388,7 @@ URL
 
 </td><td colspan="4">
 
-https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
 
 </td></tr><tr><td>
 
@@ -463,15 +455,15 @@ false
 
 **delta**
 
-If delta=true, CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
+If delta=true, ServiceNow CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
 
-If delta=false, CPQ sends back the entire configuration and BOM data in response.
+If delta=false, ServiceNow CPQ sends back the entire configuration and BOM data in response.
 
 **save**
 
-If save=true, CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce.
+If save=true, ServiceNow CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce.
 
-If save=false, CPQ updates this configuration and sends the updated data back in the response. This is the behavior of the update call.
+If save=false, ServiceNow CPQ updates this configuration and sends the updated data back in the response. This is the behavior of the update call.
 
 Sample cURL request:
 
@@ -504,7 +496,7 @@ Sample response:
 
 The BOM APIs are useful for retrieving the final output of configuration. The BOM APIs can be used to retrieve the entire BOM, or specific subsets, such as sales or manufacturing BOMs.
 
-The Get BOM call passes a CPQ Configuration ID and in return receives the current BOM generated by the current state of the configuration. There are 3 built in BOM types: “all”, “sales” and “manufacturing”. Additional BOM types can be dynamically added by setting the bomType field on the product.
+The Get BOM call passes a ServiceNow CPQ Configuration ID and in return receives the current BOM generated by the current state of the configuration. There are 3 built in BOM types: “all”, “sales” and “manufacturing”. Additional BOM types can be dynamically added by setting the bomType field on the product.
 
 **Note:** If the BOM type is not included, the API returns the entire BOM.
 
@@ -522,7 +514,7 @@ URL
 
 </td><td colspan="3">
 
-https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/&lt;uuid&gt;/bom/&lt;bomType&gt;
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/&lt;uuid&gt;/bom/&lt;bomType&gt;
 
 </td></tr><tr><td rowspan="3">
 
@@ -546,7 +538,7 @@ Required?
 
 </td><td>
 
-32 character CPQ configuration UUID
+32 character ServiceNow CPQ configuration UUID
 
 </td><td>
 

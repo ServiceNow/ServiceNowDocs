@@ -16,8 +16,6 @@ Plan and configure your use of the GOV.UK Developer Toolkit, a library of reusab
 
 1.  [Install the GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-install-gds-content-pack.md)  
 Install the GOV.UK Developer Toolkit application \(sn\_gsm\_uk\_gds\_wdgt\) to deliver citizen-centered digital services and portals without rebuilding them from scratch. This application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
-2.  [Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)  
-Customize and modify the GOV.UK Design System Service Portal to meet your needs.
 
 **Parent Topic:**[Set up constituent self-service in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-set-up-self-service.md)
 

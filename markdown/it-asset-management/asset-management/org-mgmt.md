@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Use Organization Management
@@ -22,8 +22,6 @@ It includes managing your vendors and manufacturers, as well as managing locatio
 
 **Related topics**  
 
-
-[Mobile app for Hardware Asset Management]()
 
 [Work with Asset and CI]()
 

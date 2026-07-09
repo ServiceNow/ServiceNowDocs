@@ -28,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Search for field service agents or skills.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d140614e99">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d141039e99">
 
 Search criteria
 
-</th><th align="left" id="d140614e102">
+</th><th align="left" id="d141039e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140614e108">
+</th></tr></thead><tbody><tr><td id="d141039e108">
 
 **Agent name**
 
@@ -44,7 +44,7 @@ Description
 
 Type an agent name in the **Search resources** field and select the Search \(\[Omitted image "search\_icon.png"\] Alt text: Search.\) icon.
 
-</td></tr><tr><td id="d140614e126">
+</td></tr><tr><td id="d141039e126">
 
 **Rank Resources**
 
@@ -54,7 +54,7 @@ Rank resources by level of importance.1.  Select the Rank Resources \[Omitted im
 2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
 
 
-</td></tr><tr><td id="d140614e175">
+</td></tr><tr><td id="d141039e175">
 
 **Date**
 

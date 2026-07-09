@@ -42,5 +42,5 @@ Setup combines two streams of work. The first stream configures the Moveworks ch
 
 ## Result
 
-Employee Slate for Moveworks is set up. Employees sign in, interact with the Moveworks AI Assistant, and receive notifications in the inbox tray.
+Employee Slate for Moveworks is set up. Employees log in, interact with the Moveworks AI Assistant, and receive notifications in the inbox tray.
 

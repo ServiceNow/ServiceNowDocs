@@ -36,15 +36,15 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
     The following fields appear on the **Resolution** tab.
 
-<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d42241e158">
+<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d42759e158">
 
 Field
 
-</th><th align="left" id="d42241e161">
+</th><th align="left" id="d42759e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42241e167">
+</th></tr></thead><tbody><tr><td id="d42759e167">
 
 **Estimated Time to Resolve Issue**
 
@@ -52,7 +52,7 @@ Description
 
 Time it will take to resolve the finding
 
-</td></tr><tr><td id="d42241e176">
+</td></tr><tr><td id="d42759e176">
 
 **Impact to Instance**
 
@@ -62,7 +62,7 @@ Time it will take to resolve the finding
 -   Ranges from 1 \(minimal\) to 10 \(critical\), as defined in the scan definition. This value helps prioritize findings by business impact. Higher values indicate findings that should be addressed first.
 
 
-</td></tr><tr><td id="d42241e197">
+</td></tr><tr><td id="d42759e197">
 
 **Steps to Resolve**
 
@@ -70,7 +70,7 @@ Time it will take to resolve the finding
 
 Suggested method for resolving the finding
 
-</td></tr><tr><td id="d42241e206">
+</td></tr><tr><td id="d42759e206">
 
 **Supporting documentation**
 

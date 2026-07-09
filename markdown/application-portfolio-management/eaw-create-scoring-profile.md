@@ -39,7 +39,7 @@ Role required: sn\_apm.apm\_admin
 7.  Select **Save**.
 
 
--   **[Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)**  
+-   **[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)**  
 You must associate scoring profiles with profile indicators.
 
 **Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-scroring-prof.md)

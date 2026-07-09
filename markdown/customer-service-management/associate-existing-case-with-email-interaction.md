@@ -29,7 +29,7 @@ The interaction must be in a closed complete state before it can be linked to an
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -43,7 +43,7 @@ The interaction must be in a closed complete state before it can be linked to an
 
 7.  Select the case number from the Task drop-down list.
 
-    You can select the search icon \(\[Omitted image "Sort\_icon\_eaaI.jpg"\] Alt text: Search icon\) to view additional information about the task.
+    You can select the search icon \(\[Omitted image "Search\_icon\_eaaI-new.png"\] Alt text: Search icon\) to view additional information about the task.
 
 8.  Select **Save**.
 

@@ -101,4 +101,8 @@ Report \[sys\_report\]
 For all records where the **Roles** field is empty, snc\_internal is added. Newly created reports that have an empty **Roles** field when sharing are also automatically assigned the snc\_internal role.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+

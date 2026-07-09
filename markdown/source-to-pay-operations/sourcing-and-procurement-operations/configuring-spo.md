@@ -27,7 +27,7 @@ Set up punchout configuration to allow shoppers or employees to make third-party
 -   **[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)**  
 Configure decision table rules to automatically assign priority to purchase requisitions, sourcing requests, and procurement cases based on your organization's criteria.
 -   **[Add a button in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-new-button-shoppinghub.md)**  
-You can add a new button in Shopping Hub, similar to the existing Don’t see what you need? button.
+You can add a button in Shopping Hub, similar to the existing Don’t see what you need? button.
 -   **[Customize your top suppliers on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/customize-top-suppliers.md)**  
 Personalize the list of suppliers to see on your Shopping Hub homepage. Update your list with the change in your preferences anytime.
 -   **[Configure conditions for merging purchase requisitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-pr-merge.md)**  

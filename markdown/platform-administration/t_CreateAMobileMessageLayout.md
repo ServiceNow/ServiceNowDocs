@@ -40,13 +40,13 @@ Push message content defines the style of push notification that can be sent out
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Push** &gt; **Push Message Content**.
 
-2.  In the Push Notification Message Contents table, click **New**.
+2.  In the Push Notification Message Contents table, select **New**.
 
 3.  Fill out the fields on the Push Notifications Message Content form \(see table\).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
-    \[Omitted image "mobile\_layout.png"\] Alt text: Adding content with JSON
+    \[Omitted image "mobile-layout.png"\] Alt text: Push Notification Message Content form showing the Name, Push app, and Push Message Generation fields with a sample JSON script
 
     |Field|Description|
     |-----|-----------|

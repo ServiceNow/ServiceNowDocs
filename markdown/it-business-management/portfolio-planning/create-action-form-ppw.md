@@ -1,6 +1,6 @@
 ---
-title: Create action form
-description: The action form information is used to create an action for a demand.
+title: Action form
+description: The action form enables you to create an action for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-action-form-ppw.html
 release: australia
@@ -9,12 +9,12 @@ classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create action form
+# Action form
 
-The action form information is used to create an action for a demand.
+The action form enables you to create an action for a demand.
 
 <table id="table_irz_1dp_c3c"><thead><tr><th>
 
@@ -38,7 +38,7 @@ State
 
 </td><td>
 
-Current state of the action. All new action records are created with the state set to Open.The available states are:
+Current state of the action. Actions are created in the Open state.The available values are:
 
 -   Pending
 -   Open
@@ -53,7 +53,13 @@ Priority
 
 </td><td>
 
-Urgency for implementing or approving the action based on impact.
+Urgency for implementing or approving the action based on impact. Actions are created with Low priority.The available values are:
+
+-   Critical
+-   High
+-   Moderate
+-   Low
+-   Planning
 
 </td></tr><tr><td>
 
@@ -69,7 +75,11 @@ Impact
 
 </td><td>
 
-The impact on the outcome of the demand if you don’t implement the action.
+Impact of the action on the demand. Actions are created with Low impact.The available values are:
+
+-   High
+-   Medium
+-   Low
 
 </td></tr><tr><td>
 
@@ -77,7 +87,9 @@ Approval
 
 </td><td>
 
-Status of approval from the stakeholders for the action. The available options are:-   Not Yet Requested
+Status of approval from the stakeholders. The available values are:
+
+-   Not Yet Requested
 -   Requested
 -   Approved
 -   Rejected
@@ -88,7 +100,7 @@ Assigned to
 
 </td><td>
 
-Primary resource assigned to implement the action.
+Resource assigned to implement the action.
 
 </td></tr><tr><td>
 
@@ -96,7 +108,7 @@ Due date
 
 </td><td>
 
-Requested date on which the action must be approved or implemented.
+Requested date for action approval or implementation.
 
 </td></tr><tr><td>
 
@@ -104,7 +116,7 @@ Parent
 
 </td><td>
 
-The demand to which this action belongs.
+Demand associated with the action. This field is auto-populated.
 
 </td></tr><tr><td>
 
@@ -112,7 +124,7 @@ Short description
 
 </td><td>
 
-Brief description of the action such as what the action involves, how to implement the action, who it affects, and the action outcome.
+Brief summary of the action.
 
 </td></tr><tr><td>
 
@@ -120,7 +132,7 @@ Description
 
 </td><td>
 
-Details of the action and its potential impact.
+Brief description of the action and its impacts on the demand.
 
 </td></tr><tr><td>
 
@@ -128,7 +140,7 @@ Work notes
 
 </td><td>
 
-Information about the action. Add work notes to communicate about the status of action approval, rejection, or implementation with other users.
+Information about the action.
 
 </td></tr></tbody>
 </table>

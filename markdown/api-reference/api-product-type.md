@@ -73,6 +73,17 @@ Agent Workspace
 
 </td></tr><tr><td>
 
+AI Control Tower
+
+</td><td>
+
+-   **REST**
+
+[AI Assets Inventory API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ai-assets-inventory-api.md)
+
+
+</td></tr><tr><td>
+
 AI Search
 
 </td><td>
@@ -658,7 +669,7 @@ Healthcare and Life Sciences Service Management Core
 
 -   **REST**
 
-
+[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/hl7-inbound-api.md)
 
 
 </td></tr><tr><td>
@@ -1041,6 +1052,21 @@ Sourcing and Procurement Operations
 -   **REST**
 
 [Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/spendint-api.md)
+
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+-   **Server**
+
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
+
+-   **REST**
+
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md)
 
 
 </td></tr><tr><td>

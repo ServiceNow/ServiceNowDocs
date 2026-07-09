@@ -20,14 +20,14 @@ When you edit a portal, add the **Report** widget. Use the widget options to spe
 
 \[Omitted image "service-portal-report-widget2.png"\] Alt text: Report widget opened in the Service Portal Designer
 
-With the report widget, you can show all report types on your portal except for list reports. Use the Simple List Widget instead.
+With the report widget, you can show all report types on your portal except for list reports. Use the [Simple List Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/simple-list-widget.md) instead.
 
 **Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[bundle-platux.t_ConfigureAPage]
+[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md)
 
 [Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/service-portal-pa-widget.md)
 
@@ -78,5 +78,5 @@ Core Service Portal functionality.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

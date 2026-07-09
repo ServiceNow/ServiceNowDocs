@@ -8,7 +8,7 @@ product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 

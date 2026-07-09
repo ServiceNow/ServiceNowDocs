@@ -60,11 +60,11 @@ Any errors or warnings during allocations are logged in the Resource Plan Logs r
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete a resource plan]()
+[Complete an allocated resource plan]()
 
 [Cancel a resource plan]()
 

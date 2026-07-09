@@ -49,3 +49,8 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
 All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
 
+**Related topics**  
+
+
+[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sitemap-generator-csp.md)
+

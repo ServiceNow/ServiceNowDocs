@@ -138,6 +138,8 @@ Enables the **Script** field where you can define clause conditions on fields an
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Signatory roles]()
+
 [Contract Configuration form]()
 
 [Properties installed to configure expiry notifications]()

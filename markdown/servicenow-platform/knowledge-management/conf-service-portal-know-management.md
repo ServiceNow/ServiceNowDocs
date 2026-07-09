@@ -155,7 +155,7 @@ The Knowledge Management search results page in the Knowledge Management Service
 
     3.  In the **Filter by title or Id** field, enter `sp_search`, the ID for the Service Portal search results page, and then select **Search**.
 
-    4.  In the **Filter Widget** field, search for the Search Within widget and drag it onto the container where you want the widget to appear on the Service Portal search results page.\[Omitted image "search-within-widget.png"\] Alt text: Search Within widget
+    4.  In the **Filter Widget** field, search for the Search Within widget and drag it onto the container where you want the widget to appear on the Service Portal search results page.
 
         **Tip:** To verify the location and appearance of the newly added Search Within widget on the Service Portal search results page, click the **Preview** tab.
 

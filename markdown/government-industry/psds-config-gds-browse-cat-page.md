@@ -14,11 +14,11 @@ breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer 
 
 Configure the Services page, which enables constituents to browse and search catalog items from different service catalogs and categories and see all services available to them.
 
-This page provides the basic structure for a GDS-conforming service catalog homepage that lists the services available to constituents from that catalog. Catalog items may be grouped into categories, which can also contain one or more subcategories. By default, the first 10 items in a category appear under the category name on the service catalog home page.
+By default, users requesting services through the GDS Service Portal will be shown the Services page, a service catalog homepage that lists the services available to constituents from that catalog. Catalog items may be grouped into categories, which can also contain one or more subcategories. By default, the first 10 items in a category appear under the category name on the service catalog home page.
 
 \[Omitted image "psds\_uk\_gds\_services.png"\] Alt text: GDS Portal service catalog Landing page.
 
-By default, the Services page contains the following widgets that can be customized or removed:
+This default page houses several GDS-adherant widgets and page components that enable them to browse and view all the services that are available for them to request. By default, the Services page contains the following widgets that can be customized or removed:
 
 -   Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
@@ -45,6 +45,4 @@ By default, the Services page contains the following widgets that can be customi
 .
 
 For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

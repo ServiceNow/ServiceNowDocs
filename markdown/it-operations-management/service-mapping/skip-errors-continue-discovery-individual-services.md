@@ -104,7 +104,7 @@ To discover the problematic CI automatically:
 **Related topics**  
 
 
-[Fix errors in individual application services using discovery messages]()
+[Fix service mapping errors using discovery messages]()
 
 [Resolve pattern-related mapping errors]()
 

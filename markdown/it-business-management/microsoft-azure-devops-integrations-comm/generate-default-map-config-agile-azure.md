@@ -1,5 +1,5 @@
 ---
-title: Generate a default map configuration between Azure DevOps and Agile Development 2.0
+title: Generate default mapping between Azure DevOps and Agile Development 2.0
 description: Generate a default mapping for an Azure DevOps process type if you want to reset the existing map configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/generate-default-map-config-agile-azure.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
-# Generate a default map configuration between Azure DevOps and Agile Development 2.0
+# Generate default mapping between Azure DevOps and Agile Development 2.0
 
 Generate a default mapping for an Azure DevOps process type if you want to reset the existing map configuration.
 
@@ -53,5 +53,5 @@ Once the state of the Create mappings request changes to **Completed**, you can 
 **Related topics**  
 
 
-[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
+[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

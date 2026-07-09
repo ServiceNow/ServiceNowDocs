@@ -18,7 +18,7 @@ When the AI workflow proposes a new major case, review the suggestion and approv
 
 Role required: sn\_customerservice\_manager, sn\_majorissue\_mgt.major\_issue\_manager
 
-The AI detection workflow must have identified a new major case candidate. The case `major_case_state` is set to **Proposed** and the Major Issue Management lifecycle has been triggered, placing the case in your queue.
+The AI detection workflow identified a new major case candidate. The case `major_case_state` is set to **Proposed** and the Major Issue Management lifecycle has been triggered, placing the case in your queue.
 
 ## About this task
 

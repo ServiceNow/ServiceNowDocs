@@ -36,21 +36,21 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 3.  Select the task that you want to act on.
 
-    \[Omitted image "tm-io-1.png"\] Alt text: Screenshot showing the task steps view.
+4.  Select the Image icon \[Omitted image "tm-io-image-icon.png"\] next to the step to preview any collected image.
 
-4.  Create a copy to make any edits and to take task improvement actions.
+5.  Create a copy to make any edits and to take task improvement actions.
 
     1.  Select **Edit** to create a copy that you use for automation without affecting the original.
+
+        \[Omitted image "tm-io-2.png"\] Alt text: Screenshot showing the edit task steps dialog.
 
     2.  Enter a descriptive name in the **Task name** field.
 
     3.  Select **Duplicate to edit**.
 
-        \[Omitted image "tm-io-2.png"\] Alt text: Screenshot showing the edit task steps dialog.
-
     The new task is created with the task name appended with Editable.
 
-5.  Edit any of these steps if you want to change task details.
+6.  Edit any of these steps if you want to change task details.
 
     1.  Select the Duplicate step icon \[Omitted image "task-mining-duplicate-step.png"\] next to the step to make a copy of the step.
 
@@ -64,11 +64,11 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
         You can’t edit the **Source** and **Datetime** fields.
 
+7.  Select **Request automation**.
+
     \[Omitted image "tm-io-3.png"\] Alt text: Screenshot showing the editable task steps view.
 
-6.  Select **Request automation**.
-
-7.  Select the task improvement action that you want to take, and select **Continue**.
+8.  Select the task improvement action that you want to take, and select **Continue**.
 
     The available options are:
 
@@ -82,7 +82,9 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
         **Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
-8.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
+    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
+
+9.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
     Review all auto-generated instructions and correct any inaccuracies. The detailed sequence of steps is the basis of the automation.
 
@@ -90,16 +92,20 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     **Note:** The generate details option is available only if Now Assist for Platform is installed and the User Task Step Summarization skill is activated.
 
-    \[Omitted image "tm-automation-request.png"\] Alt text: Screenshot showing the New Automation Request form.
+    \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
 
-9.  Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
+10. Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
 
-10. Add business applications associated with the process in the **Applications used** field.
+11. Add business applications associated with the process in the **Applications used** field.
 
-11. Select **Save**.
+12. Select **Save**.
 
     The automation request is created and associated with the task that it was based on. A link to the automation request record is available under the **Automation request** column of the project's Task timeline analysis.
 
+
+## What to do next
+
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md).
 
 **Related topics**  
 

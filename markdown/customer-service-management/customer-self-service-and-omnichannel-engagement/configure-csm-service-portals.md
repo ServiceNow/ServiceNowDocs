@@ -32,9 +32,11 @@ Use the portals to provide information and support for your customers. The porta
 -   A search feature that customers can use to search for information from several repositories.
 -   Links to information sources such as the knowledge base, the user community, and customer support.
 
-**Note:** The Customer Service Portal is automatically installed when you activate the Customer Service plugin.
+**Note:**
 
-To activate the Consumer Service Portal, activate the Consumer Service plugin.
+The Customer Service Portal is automatically installed when you activate the `Customer Service` plugin.
+
+To activate the Consumer Service Portal, activate the `Consumer Service` plugin.
 
 \[Omitted video\] Description: Configure the Customer and Consumer Service Portals
 
@@ -42,17 +44,17 @@ To activate the Consumer Service Portal, activate the Consumer Service plugin.
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, click **Get Started**.
+2.  On the Getting Started page of the guided setup, Select **Get Started**.
 
-3.  In the Customer Service Portal \(B2B\) or the Consumer Service Portal \(B2C\) category, view the list of tasks to configure the feature.
+3.  View the list of tasks to configure the feature for the Customer Service Portal \(B2B\) or the Consumer Service Portal \(B2C\) category.
 
     |Task|Description|
     |----|-----------|
     |Customize the Customer Service Portal|Customize the Customer Service Portal to meet your needs.|
     |Activate the Consumer Service Portal|Activate the Consumer Service Portal plugin.|
-    |Customize the Consumer Service Portal|Customize the Customer Service Portal to meet your needs.|
+    |Customize the Consumer Service Portal|Customize the Consumer Service Portal to meet your needs.|
 
-4.  To perform a task, click **Configure**.
+4.  To perform a task, Select **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

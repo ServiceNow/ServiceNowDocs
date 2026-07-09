@@ -1,26 +1,24 @@
 ---
 title: IP address management
-description: IP address management in the Telecommunications Network Inventory application lets you create, review, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses, expressed in Classless Inter-Domain Routing \(CIDR\) notation. Both IPv4 and IPv6 are supported.
+description: IP address management in the Telecommunications Network Inventory application lets you create, view, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
 
 # IP address management
 
-IP address management in the Telecommunications Network Inventory application lets you create, review, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses, expressed in Classless Inter-Domain Routing \(CIDR\) notation. Both IPv4 and IPv6 are supported.
+IP address management in the Telecommunications Network Inventory application lets you create, view, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses.
 
-## IP address management overview
+## Address space structure
 
-An IP Subnetwork can itself contain further nested IP Subnetworks, allowing IP address space to be subdivided to any depth. A Managed Network defines a network scope within which an IP Address Block’s CIDR must be unique; the same CIDR may exist in different Managed Networks without conflict.
-
-The topics in this section explain the conceptual model of IP address management, the propagation rules that govern how Managed Network values flow through the hierarchy, the CMDB relationships that the system writes automatically, and the data model that ties IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses together.
+An IP Subnetwork can itself contain further nested IP Subnetworks, which lets you subdivide IP address space to any depth. A Managed Network defines a network scope within which an IP Address Block's CIDR must be unique; the same CIDR may exist in different Managed Networks without conflict.
 
 **Related topics**  
 

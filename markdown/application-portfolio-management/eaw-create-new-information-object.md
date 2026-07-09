@@ -44,7 +44,7 @@ Role required: sn\_apm.apm\_user
 
 [View all information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-information-objects.md)
 
-[Manage information objects of a business application in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
 
 [Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-integ-add-info-object.md)
 

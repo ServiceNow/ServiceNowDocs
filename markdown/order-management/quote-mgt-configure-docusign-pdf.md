@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure quote PDF documents, Configuring Quote Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure quote PDF documents, Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure DocuSign for PDF documents

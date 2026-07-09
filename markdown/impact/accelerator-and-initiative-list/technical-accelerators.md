@@ -1,6 +1,6 @@
 ---
 title: Technical Accelerators
-description: Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices with Technical Accelerators.
+description: Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and general guidelines with Technical Accelerators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/technical-accelerators.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 11
-breadcrumb: [Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Technical Accelerators
 
-Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices with Technical Accelerators.
+Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and general guidelines with Technical Accelerators.
 
 ## Accelerators available in each package
 

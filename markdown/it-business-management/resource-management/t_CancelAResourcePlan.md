@@ -46,7 +46,7 @@ If you want to make changes and use the plan again, edit a canceled plan. To mov
 
 **Note:** The state of a resource plan can be changed back from Cancelled to Planning, only if it has no past allocations.
 
--   **[Cancel a resource plan from a project, planning console, or demand record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md)**  
+-   **[Cancel a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md)**  
 If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 
 **Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
@@ -68,11 +68,11 @@ If a project or a project task is marked Closed, the project manager can cancel 
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete a resource plan]()
+[Complete an allocated resource plan]()
 
 [Delete a resource plan]()
 

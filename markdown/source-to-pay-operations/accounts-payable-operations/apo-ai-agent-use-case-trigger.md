@@ -66,6 +66,10 @@ Role required: now\_assist\_panel\_user, admin
     The agent executes the testing in AI Agent Studio.
 
 
+## Result
+
+The Inquiry resolution provider agent is activated.
+
 ## Execute Invoice resolution provider agent
 
 ## Example

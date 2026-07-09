@@ -16,7 +16,7 @@ Edit catalog asset metadata to add business context, improve discoverability, an
 
 ## Before you begin
 
-Role required: Data Steward \(df\_data\_steward\)
+Role required: data steward \(**df\_data\_steward**\)
 
 ## About this task
 
@@ -26,29 +26,31 @@ Enrich assets with descriptions, business context, and organizational metadata t
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  Select the Data catalog icon in the left sidebar.
+2.  Select the **Data catalog** icon.
 
-3.  Select the data asset you want to edit.
+3.  Select a data asset to open its details page.
 
-4.  From the form context menu select the edit option.
+4.  From the form context menu, select **Edit**.
 
 5.  Update the general details.
 
-    -   Name: Update the name of the data asset.
-    -   Description: Provide a description for the asset.
-    -   Summary: Provide a brief summary.
+    -   Name: Name of the data asset.
+    -   Description: Description of the asset.
+    -   Summary: Brief summary of the asset.
 6.  Update the governance details.
 
     -   Lifecycle status: Current state of the data asset. Possible values are: Approved, Deprecated, Draft, In review, Rejected.
     -   Status message: Description of why the data asset is in its current status.
-    -   Owner: Person responsible for business decisions about the data.
-    -   Steward: Person responsible for data quality and governance.
+    -   Owner: Person responsible for business decisions about the data. Adding or removing an owner sends the owner an email notification.
+    -   Steward: Person responsible for data quality and governance. Adding or removing a steward sends the steward an email notification.
 7.  Update the classification details.
 
     -   Domain: Terms that represent the logical grouping of related data assets \(like customer or product data\). For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md).
-    -   Tags: A non-hierarchical label or keyword that provides context and descriptive metadata to a piece of data, making it easier to organize, locate, and manage. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md).
+    -   Tags: Non-hierarchical label or keyword that provides context and descriptive metadata, making data easier to organize, locate, and manage. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md).
     -   Related terms: Glossary terms connected to this data asset.
-8.  Select **Save**. \[Omitted image "dc-data-asset-edits.png"\] Alt text: Edit a data asset
+8.  Select **Save**.
+
+    \[Omitted image "dc-data-asset-edits.png"\] Alt text: Data asset form showing editable fields and the Save button
 
 
 **Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)

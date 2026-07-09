@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use non-self-served contract request
@@ -65,12 +66,12 @@ As a requester, modify the contract request to update the request details or rep
 Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from the contract request.
 -   **[Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md)**  
 As a contract user or the person for whom the contract was requested, add single or multiple contracts and classify them.
--   **[Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
-As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
+-   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  
+ Add one or more supporting documents from your computer, cloud storage, or activity stream.
 -   **[Modify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.md)**  
 As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
--   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  
-As a contract user or fulfiller, add single or multiple supporting documents to the contract request and classify them.
+-   **[Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
+As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 -   **[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)**  
 As a contract fulfiller, reclassify the supporting documents submitted in the contract request. For example you can reclassify the supporting document as a contract document.
 

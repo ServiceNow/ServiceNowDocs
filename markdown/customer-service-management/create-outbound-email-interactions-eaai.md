@@ -26,7 +26,7 @@ Role required: sn\_customerservice\_agent
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \( \[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \( \[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 

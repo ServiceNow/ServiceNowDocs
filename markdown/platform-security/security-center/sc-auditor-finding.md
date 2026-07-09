@@ -1,6 +1,6 @@
 ---
-title: Auditor suite findings
-description: Review Security Center Auditor suite findings over time.
+title: Scan findings trend
+description: Review Security Center scan findings over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-auditor-finding.html
 release: australia
@@ -12,15 +12,15 @@ reading_time_minutes: 1
 breadcrumb: [Security scanner, Security configuration console, Security Center, Platform Security]
 ---
 
-# Auditor suite findings
+# Scan findings trend
 
-Review Security Center Auditor suite findings over time.
+Review Security Center scan findings over time.
 
-\[Omitted image "sec-center-sc-auditor.png"\] Alt text: SC Auditor suite findings
+\[Omitted image "sc\_findings\_trend.png"\] Alt text: Scan findings trend page
 
-## SC Auditor suite findings chart
+## SC Scan findings trend chart
 
-The page shows SC Auditor suite findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
+The page shows SC Scan findings trend chart findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
 
 -   **Analysis**
 
@@ -74,10 +74,6 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
     Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/time-series-visualization-types.md).
 
-
-## Records list
-
-Lists the checks performed as part of the suite.
 
 **Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
 

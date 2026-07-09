@@ -25,6 +25,8 @@ User roles are installed with activation of the Contract Workspace plugin.
 Several types of components are installed with activation of the Analytics Pack for Contract Management Pro plugin, including user roles and scheduled jobs.
 -   **[Contract request State and Contract document status in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cr-state-status.md)**  
 Contract requests follow a specific life cycle and move through a series of states in Contract Management Pro. The contract request state and the contract document status are displayed in the State and the Contract status fields on the request record.
+-   **[Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md)**  
+Signatory roles define how each participant interacts with a contract document during the signature workflow.
 -   **[Clause Variation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cv-form.md)**  
 Use the Clause Variation new record form to create or modify a clause variation.
 -   **[Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config-form.md)**  

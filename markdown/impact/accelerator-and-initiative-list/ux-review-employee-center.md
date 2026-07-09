@@ -1,6 +1,6 @@
 ---
 title: UX: Portal Experience Review
-description: This accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
+description: This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-review-employee-center.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Portal Experience Review
 
-This accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
+This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 
 ## Accelerator overview
 

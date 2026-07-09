@@ -20,11 +20,15 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Checklist Template**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Sales Promotion Setup** &gt; **Checklist Template**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Definition|
     |-----|----------|
@@ -33,7 +37,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |Template|Template JSON that has name and order for each checklist.|
     |Name|Template name.|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
 
 **Related topics**  

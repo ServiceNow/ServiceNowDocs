@@ -1,6 +1,6 @@
 ---
-title: Access Control List Rules
-description: Rules for access control lists \(ACLs\) restrict access to data by requiring users to pass a set of requirements before they can interact with it.
+title: Access Control Lists
+description: Access control lists \(ACLs\) restrict access to data by requiring users to pass a set of requirements before they can interact with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-control-rules.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Access Management]
 ---
 
-# Access Control List Rules
+# Access Control Lists
 
-Rules for access control lists \(ACLs\) restrict access to data by requiring users to pass a set of requirements before they can interact with it.
+Access control lists \(ACLs\) restrict access to data by requiring users to pass a set of requirements before they can interact with it.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

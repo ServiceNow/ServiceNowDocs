@@ -1,6 +1,6 @@
 ---
 title: Pre-chat from the Consumer Service Portal
-description: As a user on the consumer service portal, you can initiate a conversation with support by answering the Pre-chat survey. The survey questions vary based on the session type such as logged-in or anonymous.
+description: Start a support chat on the Consumer Service Portal by completing the Pre-chat survey. Survey questions vary depending on whether you are logged in or anonymous.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-pre-chat.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Cus
 
 # Pre-chat from the Consumer Service Portal
 
-As a user on the consumer service portal, you can initiate a conversation with support by answering the Pre-chat survey. The survey questions vary based on the session type such as logged-in or anonymous.
+Start a support chat on the Consumer Service Portal by completing the Pre-chat survey. Survey questions vary depending on whether you are logged in or anonymous.
 
 ## Before you begin
 

@@ -1,5 +1,5 @@
 ---
-title: Add new columns to the planning page
+title: Add columns to the planning page
 description: Display new columns on the planning page of the new project workspace so that your project managers can view custom fields for the project tasks on the planning page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/add-new-columns-to-planning-console.html
@@ -9,10 +9,10 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personalize the planning page view in Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Personalize the planning page view in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Add new columns to the planning page
+# Add columns to the planning page
 
 Display new columns on the planning page of the new project workspace so that your project managers can view custom fields for the project tasks on the planning page.
 

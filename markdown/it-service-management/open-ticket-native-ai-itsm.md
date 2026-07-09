@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience using Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience in Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Open an IT ticket in Employee Center
@@ -38,15 +38,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d244206e121">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d244793e121">
 
 Choice
 
-</th><th align="left" id="d244206e124">
+</th><th align="left" id="d244793e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244206e130">
+</th></tr></thead><tbody><tr><td id="d244793e130">
 
 **If the related content is relevant**
 
@@ -54,7 +54,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d244206e142">
+</td></tr><tr><td id="d244793e142">
 
 **If the related content is not relevant**
 
@@ -66,5 +66,5 @@ Select **Solution found**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee experience using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
 

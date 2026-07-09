@@ -57,7 +57,7 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [deploy browser extension macos, jamf browser extension, bulk extension mac, configuration profile, force installed extension]
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Service Management]
 ---
 

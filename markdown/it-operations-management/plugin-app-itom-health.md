@@ -95,7 +95,7 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
-|Agent Client Collector for Visibility - Content Content \(sn\_acc\_vis\_content\)|Provides agent-based infrastructure discovery and collects Software Asset Management \(SAM\) metrics to support Discovery and Digital End-User Experience \(DEX\) applications.|
+|Agent Client Collector for Visibility Content Content \(sn\_acc\_vis\_content\)|Provides agent-based infrastructure discovery and collects Software Asset Management \(SAM\) metrics to support Discovery and Digital End-User Experience \(DEX\) applications.|
 |Discovery \(com.snc.discovery\)|Finds applications and devices on your network, and then updates the CMDB with the information it finds.|
 |Agent Client Collector Framework \(sn\_agent\)|Manages Agent Client Collector on the ServiceNow instance and the MID Server.|
 |CMDB CI Class Models \(sn\_cmdb\_ci\_class\)|Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. Applications such as Discovery and Service Mapping can use these class extensions to populate configuration items \(CIs\) and discover various technologies and software.|

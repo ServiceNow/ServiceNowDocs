@@ -7,8 +7,9 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-06-24"
+reading_time_minutes: 10
+audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_user]
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -52,7 +53,7 @@ All the signatories choose to do an electronic signature
 
 If there is more than one signatory, the contract document is sent to the next signatory in the order.
 
-The status of the current signatory in the request updates from Pending Signature to Signed. The status of the next signatory updates from Not Started to Pending Signature.
+The status of the current signatory in the request updates from Pending to Completed. The status of the next signatory updates from Not Started to Pending.
 
 -   After the last signatory signs the document, the contract repository record is created and the signed document is attached to it.
 
@@ -70,7 +71,7 @@ One or more signatories decide to do a wet signature
 -   The wet signed contract document in PDF format is shared with the contract fulfiller.
 -   The contract fulfiller uploads the signed document, selects the signatories who have shared the wet signed contract document and proceeds with the signature workflow by sending the document to the next signatories.
 
-The status of the signatory in the request updates from Pending Signature to Signed. The status of the next signatory updates from Not Started to Pending Signature. The signature type is updated to Mixed signature after all the signatories have signed the document.
+The status of the signatory in the request updates from Pending to Completed. The status of the next signatory updates from Not Started to Pending. The signature type is updated to Mixed signature after all the signatories have signed the document.
 
 -   After the last signatory signs the document, the contract repository record is automatically created and the signed document is attached to it.
 
@@ -117,7 +118,9 @@ For contract request fulfilled by the contract user: A contract user can submit 
  For contract request fulfilled by contract fulfiller: The contract fulfiller creates a document revision manually or by using the **Regenerate** option and resends the document for signature.
 
 </td></tr></tbody>
-</table>    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
+</table>    **Note:** When signatory roles are enabled, each signatory participates in the electronic signature workflow according to their assigned role. For information about available roles and how to enable them, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
 
 
 ## Wet signature workflow
@@ -171,7 +174,9 @@ All the signatories have signed the document
  For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
 
 </td></tr></tbody>
-</table>
+</table>    **Note:** In the wet signature workflow, only signatories with the Signer role participate. Signatories with Viewer, Receiver, or Approver roles are not included. For more information, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+
 ## Offline signature workflow
 
 Use the offline signature workflow when the contract is signed outside Contract Management Pro — for example, the parties physically sign the contract document or through a third-party application, and to record the signed document against the contract request.

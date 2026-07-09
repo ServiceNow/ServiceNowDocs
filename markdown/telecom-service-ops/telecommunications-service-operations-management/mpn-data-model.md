@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [Telecom data model, Explore, Telecommunications Service Operations Management]
 ---
@@ -72,6 +72,14 @@ The MPN data model introduces custom classes that represent assets and resources
 |Spectrum|Frequency band \(u\_mpn\_spectrum\) allocated to the mobile private network and consumed by Mobile Cells for radio transmission.|
 |SIM range|Block of subscriber identities \(u\_mpn\_sim\_range\) provisioned to the MPN for allocation to SIM cards.|
 
+## CI attributes
+
+For each CI class in the MPN data model, the pull connector captures and stores relevant data attributes in the CMDB so that detailed information is available for management and troubleshooting. The following table lists the key attributes captured per CI type.
+
+|CI type|Attribute|Description|
+|-------|---------|-----------|
+||
+
 ## Upper‑layer logical classes
 
 Upper‑layer logical classes group the physical and virtual components of an MPN into end‑to‑end service constructs and assign them to a geographic site. The following table describes the upper‑layer logical classes used in the MPN data model.
@@ -90,13 +98,15 @@ Upper‑layer logical classes group the physical and virtual components of an MP
 
 The MPN data model uses CMDB relationships to express how physical equipment hosts virtual functions, how virtual functions consume each other, and how individual components roll up into network service instances and sites. These relationships make dependencies and connectivity visible in the CMDB and support downstream assurance workflows such as fault management, performance monitoring, and impact analysis.
 
--   RAN servers *Contain* the Virtual Machines that host the vDU and vCU virtual services.
--   Core servers *Contain* the Virtual Machines that host the 4G and 5G VNFs.
--   Baseband Units *Contain* the Baseband Control and Interface Cards, Remote Radio Units, and Antennas.
--   Mobile Cells are *Provided By* the Baseband Unit and its associated radio units.
--   VNF licenses are *Consumed By* the VNFs they entitle.
--   The MPN RAN network service instance and the MPN Mobile Core network service instance are *Contained By* the MPN network service instance.
--   The MPN network service instance and its components are *Located In* an MPN Network Site.
+|Parent CI|Relationship type|Child CI|CMDB type|
+|---------|-----------------|--------|---------|
+|RAN Server|Contains|Virtual Machine \(vDU / vCU\)|``|
+|Core Server|Contains|Virtual Machine \(4G / 5G VNF\)|``|
+|Baseband Unit|Contains|Baseband Control and Interface Cards, Remote Radio Units, Antennas|``|
+|Baseband Unit and radio units|Provides|Mobile Cell|``|
+|VNF license|Is consumed by|VNF|``|
+|MPN network service instance|Contains|MPN RAN network service instance, MPN Mobile Core network service instance|``|
+|MPN Network Site|Contains|MPN network service instance and components|``|
 
 **Related topics**  
 

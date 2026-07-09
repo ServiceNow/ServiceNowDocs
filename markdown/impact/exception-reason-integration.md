@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Exception reason integration
@@ -34,5 +34,5 @@ When **Enable approvals in production** is selected in Scan Engine Properties, t
 -   **[Sync exception reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/syncing-exception-reasons.md)**  
 Configure the Exception reason integration to automatically synchronize exception reasons between your non-production and production instances.
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

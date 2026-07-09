@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [test instance connectivity, network connectivity, curl test, mtls, mutual transport layer security \(mtls\), test connection to instance]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 

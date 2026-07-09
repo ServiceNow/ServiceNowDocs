@@ -26,15 +26,15 @@ Role required: itil or admin
 
 2.  Perform any of the following actions on the interaction record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d367584e58">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d368496e58">
 
 Option
 
-</th><th align="left" id="d367584e61">
+</th><th align="left" id="d368496e61">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d367584e67">
+</th></tr></thead><tbody><tr><td id="d368496e67">
 
 **Create incident**
 
@@ -42,7 +42,7 @@ Description
 
 Click **Create incident**.**Note:** If you create an incident from an interaction, it will be auto-assigned to the user to whom the interaction is assigned.
 
-</td></tr><tr><td id="d367584e84">
+</td></tr><tr><td id="d368496e84">
 
 **Create change**
 
@@ -50,7 +50,7 @@ Click **Create incident**.**Note:** If you create an incident from an interactio
 
 From the **Create incident** drop-down, select **Create change**.**Note:** You can only create a change request of the pre-approved change type.
 
-</td></tr><tr><td id="d367584e102">
+</td></tr><tr><td id="d368496e102">
 
 **Complete**
 
@@ -58,7 +58,7 @@ From the **Create incident** drop-down, select **Create change**.**Note:** You c
 
 Click **Complete** to mark the state of the interaction as **Closed Complete** and end the active conversation with the user.
 
-</td></tr><tr><td id="d367584e117">
+</td></tr><tr><td id="d368496e117">
 
 **Abandon**
 
@@ -66,7 +66,7 @@ Click **Complete** to mark the state of the interaction as **Closed Complete** a
 
 From the **Complete** drop-down, select **Abandon**. This action marks the state of the interaction as **Closed Abandoned** and ends the active conversation with the user.
 
-</td></tr><tr><td id="d367584e139">
+</td></tr><tr><td id="d368496e139">
 
 **Create request**
 
@@ -74,7 +74,7 @@ From the **Complete** drop-down, select **Abandon**. This action marks the state
 
 From the **Create incident** drop-down, select **Create request**. For more information, see [Create a catalog request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-catalog-request-sow.md).
 
-</td></tr><tr><td id="d367584e167">
+</td></tr><tr><td id="d368496e167">
 
 **Create problem**
 
@@ -82,7 +82,7 @@ From the **Create incident** drop-down, select **Create request**. For more info
 
 From the **Create incident** drop-down, select **Create problem**. **Note:** This option is available only when the **Allow Problem creation from Interaction** \(**glide.problem.interaction.allow\_create**\) problem property is activated from **Problem** &gt; **Problem Properties**.
 
-</td></tr><tr><td id="d367584e200">
+</td></tr><tr><td id="d368496e200">
 
 **View record information**
 
@@ -94,7 +94,7 @@ If the type is Walk-up, you can view the walk-up summary of the interaction reco
 
 You can now view the device health of the user's assets to provide a resolution to the user. Select **Assigned assets** &gt; **View device health**. This option is available only if the DEX plugin\[sn\_dex\] is installed and DEX monitoring is enabled for the asset. For more information on Digital End-User Experience, refer [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
-</td></tr><tr><td id="d367584e272">
+</td></tr><tr><td id="d368496e272">
 
 **Copy the record page URL to easily access the record**
 
@@ -102,7 +102,7 @@ You can now view the device health of the user's assets to provide a resolution 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d367584e290">
+</td></tr><tr><td id="d368496e290">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -114,7 +114,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d367584e327">
+</td></tr><tr><td id="d368496e327">
 
 **Add attachments**
 
@@ -122,7 +122,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, click the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d367584e352">
+</td></tr><tr><td id="d368496e352">
 
 **Create templates for reuse**
 

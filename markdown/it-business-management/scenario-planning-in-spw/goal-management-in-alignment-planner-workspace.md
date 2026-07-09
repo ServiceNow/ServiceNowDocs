@@ -80,7 +80,7 @@ Using the Goals view in the Strategic Planning Workspace, you can do the followi
     -   Automating the actual value of the targets is optional. If you don't want to automate the actual value of your targets, you can still update the actual value of the targets manually.
     -   You can also generate targets for your goals using the Target generation skill, if the Now Assist for SPM application is installed.
 -   Associate a planning item with goals. For more information, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
--   Associate or update the primary goal for a planning item. For more information, see [Associate or update the primary goal or target for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.md).
+-   Associate or update the primary goal for a planning item. For more information, see [Associate or update the primary goal for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.md).
 
 For more information on how to define and manage your goals in Strategic Planning see [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
 

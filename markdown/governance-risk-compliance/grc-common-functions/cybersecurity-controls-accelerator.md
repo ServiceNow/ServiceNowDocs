@@ -166,13 +166,7 @@ These citations allow you to use the CIS controls downloaded from UCF, instead o
 
 If you want to associate this UCF control objective to similar indicator templates, you can click the **Indicator Templates** related list and then click the **Suggested** button.
 
-\[Omitted image "ucf-control-objective-suggested.png"\] Alt text: Indicator Templates related list
-
 A list of indicator templates that may apply to the selected control objective are shown.
 
-\[Omitted image "suggested-indicator-templates.png"\] Alt text: Suggested indicator templates
-
 Select the indicator templates you want to map to the UCF control objective and click **Add**.
-
-\[Omitted image "suggested-indicator-templates-add.png"\] Alt text: Mapping an indicator template to a UCF control objective
 

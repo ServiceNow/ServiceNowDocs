@@ -16,13 +16,6 @@ Emails sent by a registered supplier contact are automatically converted to purc
 
 The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents. For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md).
 
-The workflow can process supplier emails in any of these languages: English, French, Canadian French, German, Japanese, or Dutch.
-
-Suppliers must provide one of the following IDs in their email to identify the relevant purchase order line:
-
--   ERP purchase order \(PO\) and purchase order line \(POL\) IDs
--   ServiceNow® PO number or ERP PO number when the purchase order contains only one line
-
 ## Prerequisites for automated creation of purchase order exceptions
 
 To use this functionality, verify that the following steps are completed:

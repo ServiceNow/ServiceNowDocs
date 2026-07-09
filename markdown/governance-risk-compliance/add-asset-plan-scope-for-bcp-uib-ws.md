@@ -33,8 +33,6 @@ You can use the Hierarchical view in the plan form to view the parent-child rela
 
 You can use the updated dependencies from the most recent BIA record to conduct a dependency assessment on an asset. Employing these updated dependencies enables you to accurately carry out the business impact analysis. Additionally, it assists in determining the essential recovery timeframe and data backup needs for the assets, which are then shown in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
-\[Omitted image "data-pulled-in-scope-tab.png"\] Alt text: Data in scope tab.
-
 The Hierarchical view is used to evaluate the BIA, Recovery time objective \(RTO\), Recovery point objective \(RPO\), and Recovery tier \(RT\) values between the primary and related assets within a plan. The color coding helps Business Continuity Management \(BCM\) planners to compare these metrics:
 
 -   Rows where the RTO or RPO value for the primary asset is lower than that of the related asset are marked in Red.

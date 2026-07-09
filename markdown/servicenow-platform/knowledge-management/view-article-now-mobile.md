@@ -20,6 +20,8 @@ You can view the author, published date, number of views, and the overall rating
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
 
+Role required: none
+
 ## Procedure
 
 1.  On the Now Mobile app, tap **Information**.

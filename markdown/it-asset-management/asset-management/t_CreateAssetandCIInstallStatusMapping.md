@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work with Asset and CI, Use, Asset Management, IT Asset Management]
+breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Map asset state and CI install status

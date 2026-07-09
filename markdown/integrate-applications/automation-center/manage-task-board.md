@@ -72,7 +72,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         Select the **Add Task** icon.
 
-        The **Create New Automation Task** form is displayed. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
+        The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
 
         Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 

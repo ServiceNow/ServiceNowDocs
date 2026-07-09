@@ -1,5 +1,5 @@
 ---
-title: Create and manage resource plans for a project in classic Project Workspace
+title: Create and manage resource plans for a project
 description: As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/manage-resources-for-project.html
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create and manage resource plans for a project in classic Project Workspace
+# Create and manage resource plans for a project
 
 As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
 

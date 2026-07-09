@@ -56,3 +56,7 @@ A purchase order exception record is created, which links to the original univer
 
 [Resolving purchase order exceptions]()
 
+[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md)
+
+[Create new purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-new-poe-form.md)
+

@@ -26,7 +26,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the application navigator, point to the application name and click the edit application icon \(\[Omitted image "edit-app.png"\] Alt text: Edit Application icon\).
+1.  In the application navigator, point to the application name and click the edit application icon .
 
 2.  In the **Modules** related list click **New**.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the **Arguments** field, append one or more of the following values to `$knowledge.do#/search?`.
 
-<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d446385e121">
+<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d450023e115">
 
 **sysparm\_kb=&lt;knowledge base sys\_id&gt;**
 
@@ -46,7 +46,7 @@ Enter the sys\_id of a knowledge base to show knowledge articles from that knowl
 
  If the specified knowledge base does not exist, the default knowledge homepage appears when accessing the custom homepage module.
 
-</td></tr><tr><td id="d446385e136">
+</td></tr><tr><td id="d450023e130">
 
 **sysparm\_category=&lt;knowledge category sys\_id&gt;**
 
@@ -58,7 +58,7 @@ Enter the sys\_id of a knowledge category to show knowledge articles from that c
 
 **Note:** The category passed in this parameter must belong to the knowledge base passed in the **sysparm\_kb** parameter.
 
-</td></tr><tr><td id="d446385e156">
+</td></tr><tr><td id="d450023e150">
 
 **sysparm\_order=&lt;view\_count, last\_modified, or relevancy&gt;**
 

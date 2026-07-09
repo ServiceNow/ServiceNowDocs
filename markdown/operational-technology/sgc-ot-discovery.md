@@ -1,18 +1,18 @@
 ---
 title: Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery
-description: TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
+description: TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology Discovery OT Discovery environment and leverages the Integration Hub ETL framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-ot-discovery.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery
 
-TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
+TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology Discovery OT Discovery environment and leverages the Integration Hub ETL framework.
 
 ## Getting Started with the SGC
 
@@ -30,11 +30,21 @@ Install\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
 
  [Install the Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-sgc-ot-discovery.md)
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
 Setup\[Omitted image "BUS\_64px\_Actionable-Analytics\_YG.png"\] Alt text:
 
  [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md)
+
+</td><td>
+
+SGC Central\[Omitted image "BUS\_64px\_Strategic\_YG.png"\] Alt text:
+
+ [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+
+</td></tr><tr><td colspan="2">
+
+ 
 
 </td></tr></tbody>
 </table>## Troubleshooting

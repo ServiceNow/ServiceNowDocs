@@ -1,0 +1,66 @@
+---
+title: Create an automation resource
+description: Create an automation resource to associate a resource to an automation task. However, this is an optional step.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-automation-resource.html
+release: australia
+product: Automation Center
+classification: automation-center
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
+---
+
+# Create an automation resource
+
+Create an automation resource to associate a resource to an automation task. However, this is an optional step.
+
+## Before you begin
+
+**Note:** From the Washington DC release, this feature is deprecated.
+
+Create an automation task. For more information, see [Create an automation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-task.md).
+
+Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
+
+## About this task
+
+An automation resource is the person who is assigned to work on the automation task. One automation task can be associated with multiple automation resources.
+
+Automation resource types:
+
+-   Development
+-   Quality engineering
+-   Product management
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Build**, select **All Automation Tasks**.
+
+4.  Open the automation task that you want to create and associate an automation resource.
+
+5.  On the **Automation Resources** tab, select **New**.
+
+6.  On the form, fill in the fields.
+
+    For a description of the field values, see [Automation resource form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-resource-form.md).
+
+7.  Select **Save**.
+
+
+## What to do next
+
+\(Optional\) Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-goal.md).
+
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
+
+**Related topics**  
+
+
+[Automation resource form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-resource-form.md)
+

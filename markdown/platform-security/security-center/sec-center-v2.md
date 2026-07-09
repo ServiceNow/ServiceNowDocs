@@ -95,8 +95,8 @@ Use the security configuration page to get an overview of the security posture o
 Supervise security notifications and metrics to stay informed about potential security risks on your instance.
 -   **[Security learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/learning.md)**  
 Access security learning materials from a single page.
--   **[Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md)**  
-Enable security banner announcements to stay informed about urgent and critical security alerts using high visibility banners visible to administrators within the instance UI.
+-   **[ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md)**  
+Enable security banner announcements and notifications to stay informed about urgent and critical security alerts using high visibility banners visible to administrators within the instance UI.
 -   **[Granular roles for Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/granular-sc-roles.md)**  
 Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
 

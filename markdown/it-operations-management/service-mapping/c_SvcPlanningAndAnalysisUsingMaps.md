@@ -41,8 +41,8 @@ The maps are useful in the following cases:
 Maps offer you a visualization of data on configuration items \(CIs\) comprising application services, and relations and connections between these CIs.
 -   **[View CI attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)**  
 An application service map displays attributes for each configuration item \(CI\) that is part of the application service, as well as for the application service itself. The attributes come from the CMDB.
--   **[View CI connection attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md)**  
-You can view attributes of connections between configuration items \(CIs\).
+-   **[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md)**  
+You can view attributes of connections between configuration items \(CIs\) in application service maps in classic Service Mapping.
 -   **[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)**  
 You can view the changes made to an application service as a whole and to the individual configuration items \(CIs\) comprising the service. Change history is useful for maintenance, planning, or troubleshooting procedures.
 -   **[Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CompareBS.md)**  

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/root-cause-correlation.h
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Generative AI powered Root cause analysis, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+reading_time_minutes: 1
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Root cause correlation
@@ -122,5 +122,5 @@ Threads running​
 </td></tr></tbody>
 </table>**Note:** As soon as any of the aforementioned alerts or Critical or Warning performance are identified, the system automatically generates an RCA report after waiting for a maximum of 10 minutes, depending on the conditions.
 
-**Parent Topic:**[Generative AI powered Root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/generative-ai-root-cause-anal.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

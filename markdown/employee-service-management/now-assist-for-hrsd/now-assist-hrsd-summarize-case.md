@@ -29,7 +29,7 @@ You can use the case summarization skill in either Core UI or Agent Workspace fo
 -   In Core UI, the summary appears in a banner in the case record.
 -   In Agent Workspace for HR Case Management, the summary is generated in the **Details** tab.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -51,15 +51,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
     -   Canceled or Suspended: Summary isn’t visible
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d499155e191">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d500836e188">
 
 Option
 
-</th><th align="left" id="d499155e194">
+</th><th align="left" id="d500836e191">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d499155e200">
+</th></tr></thead><tbody><tr><td id="d500836e197">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -70,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d499155e230">
+</td></tr><tr><td id="d500836e227">
 
 **Expand or collapse the summary**
 
@@ -78,7 +78,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d499155e245">
+</td></tr><tr><td id="d500836e242">
 
 **Provide feedback for the summary**
 
@@ -86,7 +86,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d499155e268">
+</td></tr><tr><td id="d500836e265">
 
 **Copy the case summary**
 
@@ -94,7 +94,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d499155e284">
+</td></tr><tr><td id="d500836e281">
 
 **View the information about the case summary**
 

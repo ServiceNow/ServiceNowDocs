@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 11
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The Settings page enables you to customize and manage high-level Discovery prope
 
 To access the Discovery Admin Workspace Settings page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0 or later. Specific version requirements are noted for individual features where applicable.
 
 ## General
 
@@ -36,13 +36,13 @@ The General settings control how Discovery visualizations are displayed in the w
 
 **Note:** No changes are applied until you select **Save**.
 
-## Anomaly Detection
+## Anomaly detection
 
 The Anomaly Detection settings control how Discovery identifies and surfaces irregular schedule behavior within the Discovery Admin Workspace.
 
 -   **Anomaly detection**
 
-    Identifies unusual behavior, like failed runs and significant deviations from the thresholds for high error counts, longer discovery status duration, and fewer discovered configuration items \(CIs\) or Cloud resources.
+    Identifies unusual behavior, like failed runs and significant deviations from the thresholds for high error counts, longer discovery status duration, and fewer discovered configuration items \(CIs\) or cloud resources.
 
     Anomalies are categorized into the following severity levels:
 
@@ -57,7 +57,7 @@ The Anomaly Detection settings control how Discovery identifies and surfaces irr
 
     Identifies anomalies in Discovery schedules with the following approaches:
 
-    -   **ML-based**: Leverages machine learning \(ML\) algorithms to analyze historical schedule data, recognize complex patterns, and detect anomalies without predefined rules.
+    -   **ML-based**: Uses machine learning \(ML\) algorithms to analyze historical schedule data, recognize complex patterns, and detect anomalies without predefined rules.
     -   **Stats-based**: Relies on traditional mathematical techniques, such as calculating standard deviations to identify outliers based on fixed numerical thresholds.
     Select the **Detection method** drop-down list to choose an approach. The ML-based approach is the default detection method.
 
@@ -84,23 +84,23 @@ The IPAM settings manage how Discovery integrates with your IPAM sources, contro
 
     Automatically create and manage Discovery schedules based on your IPv6 network infrastructure data stored in IPAM.
 
-    After you install and configure the connectors via SGC Central, use the toggle to enable auto-created schedules. Once enabled, Discovery creates schedules from incoming IPAM data and keeps them updated based on your auto‑creation criteria and IP data refresh settings. Schedules created automatically by IPAM are inactive by default. To activate a schedule created by IPAM, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md).
+    After you install and configure the connectors through SGC Central, use the toggle to enable auto-created schedules. When enabled, Discovery creates schedules from incoming IPAM data and keeps them updated based on your auto‑creation criteria and IP data refresh settings. Schedules created automatically by IPAM are inactive by default. To activate a schedule created by IPAM, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md).
 
-    Use the Auto-creation criteria setting to define how Discovery organizes IPs from your IPAM connections into new Discovery schedules. Discovery evaluates the key that you provide, retrieves the corresponding value from your IPAM data by looking it up in the Key Values \[cmdb\_key\_value\] table, where it searches only subnet records. IPs that share values are assigned to the same schedule, allowing the schedule structure to follow meaningful attributes such as location or environment.
+    Use the Auto-creation criteria setting to define how Discovery organizes IPs from your IPAM connections into new Discovery schedules. Discovery evaluates the key that you provide, retrieves the corresponding value from your IPAM data by looking it up in the Key Values \[cmdb\_key\_value\] table, where it searches only subnet records. IPs that share values are assigned to the same schedule, enabling the schedule structure to follow meaningful attributes such as location or environment.
 
     **Note:** If you don't want to provide a key, you can enter a single space in the **Tag key** field.
 
-    Use the data refresh settings to keep auto-created schedules aligned with the latest IPAM information. Discovery checks for new, updated, or removed IPs during each refresh and updates schedule mappings accordingly. This ensures that schedules remain accurate as your network changes.
+    Use the data refresh settings to keep auto-created schedules aligned with the latest IPAM information. Discovery checks for new, updated, or removed IPs during each refresh and updates schedule mappings accordingly. This helps keep schedules accurate as your network changes.
 
 -   **IPAM connectors and connections**
 
     Provides a centralized view of your installed IPAM connectors and connections, along with access to their configuration details and drafts.
 
-    The Installed connections tab displays the details of your existing IPAM connections. Selecting a connection from this list opens the connection record, where you can view information such as connection properties, status, and data sources.
+    The **Installed connections** tab displays the details of your existing IPAM connections. Selecting a connection from this list opens the connection record, where you can view information such as connection properties, status, and data sources.
 
-    The Installed connectors tab shows the IPAM connectors that are installed on your instance. Selecting a connector from this list opens its connector record, where you can review its configuration and confirm that it's ready to send imported IP data to Discovery.
+    The **Installed connectors** tab shows the IPAM connectors that are installed on your instance. Selecting a connector from this list opens its connector record, where you can review its configuration and confirm that it's ready to send imported IP data to Discovery.
 
-    The Drafts connections tab lists any IPAM connections that were created but not fully configured. Select **Resume setup** next to the draft connection to complete the required settings before it is set to active.
+    The **Drafts connections** tab lists any IPAM connections that were created but not fully configured. Select **Resume setup** next to the draft connection to complete the required settings before it is set to active.
 
 -   **IP data from IPAM connections**
 
@@ -119,7 +119,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 ## Discovery notifications
 
-Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures via Microsoft Teams and email, directly from the Discovery Admin Workspace.
+Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
 **Important:** This feature requires the Australia, Zurich, Yokohama Patch 6, or later version of the ServiceNow AI Platform. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 
@@ -131,7 +131,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
     **Note:** The channel name is unique to Discovery Admin Workspace, but the channel URL must be obtained directly from Microsoft Teams.
 
-    Select **Send test notification** to validate the integration. A failed test displays an error message, while a successful test sends a notification to your Teams channel. Once you send the test notification and select **Save**, the connection status updates. A successfully validated channel URL displays a **Connected** status. If validation fails, the status changes to **Disconnected** and includes a timestamp for the last attempted connection.
+    Select **Send test notification** to validate the integration. A failed test displays an error message, while a successful test sends a notification to your Teams channel. After you send the test notification and select **Save**, the connection status updates. A successfully validated channel URL displays a **Connected** status. If validation fails, the status changes to **Disconnected** and includes a timestamp for the last attempted connection.
 
     For email, enter a valid email address in the text box and select **Add**. There’s no limit to the number of recipients that you can add. To remove a recipient, select **X**. Recipients can opt out of email notifications by selecting the **Unsubscribe** link in the email and sending the auto-generated response.
 
@@ -149,7 +149,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
     -   **Critical anomalies**: Notifies you when anomaly detection identifies a schedule that has failed to run.
     -   **MID cluster down**: Notifies you when a Discovery-specific MID cluster goes down.
     -   **MID server down**: Notifies you when a Discovery-specific MID Server goes down.
-    To configure a notification, select the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit credentials icon.\) or the **Name** hyperlink. You can also use in-line editing within the table.
+    To configure a notification, select the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit credentials icon.\) or the **Name** hyperlink. You can also use inline editing within the table.
 
     By default, all Microsoft Teams and email notifications are enabled. The notification frequency is set to **Immediately** for all notifications, except critical anomalies, which is set to **Daily**.
 
@@ -169,7 +169,7 @@ The browser extension must be enabled on the host.
 
 -   **Broad URL Discovery**
 
-    Enables full monitoring of web usage data from managed devices. Use the **Discover all URLs** toggle to enable data to be captured for all URLs that are visited. This feature is inactive by default, data is captured only for your targeted URLs. When enabled, data is captured for all URLs accessed on Chrome-based browsers across managed devices and any targeted URLs. Data is kept for a maximum of 30 days. Data is deleted if a URL is removed or if the discovery type is changed.
+    Enables full monitoring of web usage data from managed devices. Use the **Discover all URLs** toggle to enable data to be captured for all URLs that are visited. This feature is inactive by default. Data is captured only for your targeted URLs. When enabled, data is captured for all URLs accessed on Chrome-based browsers across managed devices and any targeted URLs. Data is kept for a maximum of 30 days. Data is deleted if a URL is removed or if the discovery type is changed.
 
     **Warning:** Enabling this feature captures data for all URLs accessed on managed devices. This method may not be compliant with EU General Data Protection Regulation \(GDPR\) and other privacy regulations. Review your company policies before enabling.
 
@@ -179,11 +179,22 @@ The browser extension must be enabled on the host.
 
     Select **Add new** to add URLs to the monitored list. In the Add new URL dialog, select **Individual** or **Bulk** to choose how to add URLs.
 
-    -   Individual: Complete the fields in the Add new URL form and select **Save**.
+    -   Individual: Complete the requiredfields in the Add new URL form and select **Save**.
+
+        **Note:** For a description of the fields in this form, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md).
+
     -   Bulk: Add multiple URLs at once using a file upload. The bulk upload follows a three-step process:
         1.  Download template: Select a template to download.
         2.  Add file: Select a `.csv` or `.xlsx` file to upload. Select **+ Add another file** to include additional files. Select **Next** when at least one file is attached.
-        3.  Review: Review the parsed URL entries in the snapshot preview table before submitting. The table displays the URL pattern, Internal or External classification, Category, Product, Publisher, and Application Service for each entry, along with a total URL count. Select **Add** to submit all URLs. Select **Cancel** at any step to close the dialog without saving.
+        3.  Review: Review the parsed URL entries in the snapshot preview table before submitting. The table displays the URL or URL Domain, Internal or External classification, Category, Product, Publisher, and Application Service for each entry, along with a total URL count. Select **Add** to submit all URLs. Or, select **Cancel** at any step to close the dialog without saving.
+
+            **Important:** Beginning with URL Discovery v1.2.1, when you add a URL, the following rules apply:
+
+            -   A URL with no application and no product is added as a standalone domain.
+            -   A URL with an application but no product creates the application without a SAM product.
+            -   Selecting a **Product** makes the **Application Service** field required.
+            -   A product without an application is rejected.
+            -   A duplicate URL \(same normalized host and source\) is rejected.
     Edit an individual URL by selecting the URL or URL domain hyperlink.
 
     **Note:**
@@ -192,11 +203,11 @@ The browser extension must be enabled on the host.
     -   No changes are applied until you select **Save**.
     To remove a URL from the targeted monitoring list, select the corresponding check box and then select **Remove**. Confirm the removal when prompted. The URL is removed from the list immediately and is no longer actively monitored. Historical monitoring data for the removed URL is retained for 30 days before being deleted.
 
-    Select the filter icon \(\[Omitted image "filter-icon-daw.png"\] Alt text: filter icon\) to apply filters to the table.
+    Select the filter icon \(\[Omitted image "filter-icon-daw.png"\]\) to apply filters to the table.
 
 -   **URL Discovery Insights**
 
-    Select the link icon to access the URL Discovery insights dashboard, where you can view captured data and analytics for accessed URLs. For more information, see [URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md).
+    Select the link icon to access the URL Discovery insights dashboard, where you can view captured data and analytics for accessed URLs. For more information, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md).
 
 -   **X devices with ACC agent installed**
 

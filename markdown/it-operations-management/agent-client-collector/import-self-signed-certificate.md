@@ -18,7 +18,7 @@ Import a self-signed certificate in a Windows system by using the Certificate Im
 
 ## Before you begin
 
-Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
+Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 Role required: agent\_client\_collector\_admin
 

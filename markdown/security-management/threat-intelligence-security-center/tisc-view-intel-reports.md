@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View Intelligence Reports
@@ -28,7 +28,7 @@ Role required: sn\_sec\_tisc\_analyst
 
     This page displays the list of intelligence reports.
 
-3.  Select any report.
+3.  Open the required report.
 
 4.  Select **Download** to download the report.
 

@@ -31,15 +31,15 @@ To receive notifications when AI agents complete metadata extraction, ensure tha
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d416569e90">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d417781e90">
 
 Method
 
-</th><th align="left" id="d416569e93">
+</th><th align="left" id="d417781e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d416569e99">
+</th></tr></thead><tbody><tr><td id="d417781e99">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d416569e147">
+</td></tr><tr><td id="d417781e147">
 
 **Workspace used by your application**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d416569e174">
+</td></tr><tr><td id="d417781e174">
 
 **Email notification**
 

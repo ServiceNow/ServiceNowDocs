@@ -33,7 +33,7 @@ Create a knowledge article in Microsoft Word to author and collaborate on conten
 
 2.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-3.  On the Home tab of the Word document, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
+3.  On the Home tab of the Word document, click the Knowledge icon .
 
 4.  In the Knowledge Management pane of the Word document, click **Create Article**.
 

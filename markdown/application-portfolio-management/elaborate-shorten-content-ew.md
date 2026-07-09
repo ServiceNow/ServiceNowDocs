@@ -1,5 +1,5 @@
 ---
-title: Elaborate or shorten content in the Architectural Decision Records \(ADRs\)
+title: Elaborate or shorten content in ADRs
 description: Elaborate or shorten the Architectural Decision Records \(ADR\) content using the Now Assist in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/elaborate-shorten-content-ew.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
-# Elaborate or shorten content in the Architectural Decision Records \(ADRs\)
+# Elaborate or shorten content in ADRs
 
 Elaborate or shorten the Architectural Decision Records \(ADR\) content using the Now Assist in the Enterprise Architecture Workspace.
 
@@ -22,7 +22,9 @@ Make sure that the ADR Doc Summarization and Actions skill is activated. For inf
 
 **Note:** The ADR feature in Enterprise Architecture Workspace uses the ServiceNow Docs component \(sn\_docs\) to create pages in the Artifacts section. Docs component v6.0.0 is automatically installed with Enterprise Architecture Workspace v3.4.0.
 
-If you are using an older version of Enterprise Architecture Workspace with Docs component v6.0.0, upgrade the workspace to v3.4.0 to fully use the ADR functionality. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
+If you're using an older version of Enterprise Architecture Workspace with Docs component v6.0.0, upgrade the workspace to v3.4.0 to fully use the ADR functionality. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
+
+The default AI model provider for this skill is Azure OpenAI.
 
 Role required: sn\_apm.apm\_user
 

@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Oracle GlassFish Servers
+title: Application services with Oracle GlassFish Servers
 description: Service Mapping can discover application services containing Oracle GlassFish Servers.Map an service instance containing an Oracle GlassFish Server correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-services-glassfish.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Oracle GlassFish Servers
+# Application services with Oracle GlassFish Servers
 
 Service Mapping can discover application services containing Oracle GlassFish Servers.
 

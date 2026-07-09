@@ -9,7 +9,7 @@ classification: asset-audits
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Asset Audit Response, IT Asset Management]
+breadcrumb: [Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Requesting evidence for financial regulatory audit engagements

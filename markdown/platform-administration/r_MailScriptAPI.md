@@ -78,7 +78,7 @@ The email address that is passed by `setFrom` and `setReplyTo` needs to be in a 
 **Related topics**  
 
 
-[Use mail scripts in email notifications]()
+[Include mail scripts in email notifications]()
 
 [Example scripting for email notifications]()
 

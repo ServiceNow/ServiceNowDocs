@@ -24,11 +24,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the list icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  In the Compliance Workspace, select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.icon.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-4.  Select the policy publishing checklist icon \(\[Omitted image "PublishingChecklistIcon.png"\] Alt text: Publishing checklist icon.\) in the right panel.
+4.  Select the policy publishing checklist icon in the right panel.
 
     A playbook checklist is created.
 
@@ -89,7 +89,7 @@ Refresh the browser after completing this step. Update the policy Knowledge base
 </td></tr></tbody>
 </table>    The **Complete publishing checklist** button is no longer available.
 
-6.  To view your attachments, select \[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon. in the right panel.
+6.  To view your attachments, select the image attachment icon in the right panel.
 
 7.  Select the **Request approval** button to request approval for the policy.
 

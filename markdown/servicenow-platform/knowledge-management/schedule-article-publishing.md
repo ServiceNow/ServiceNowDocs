@@ -33,9 +33,9 @@ Role required: knowledge
 
 2.  Select an article link.
 
-3.  In the **Scheduled publish date** field, click the select date and time icon \[Omitted image "date-time.png"\] Alt text: Select date and time icon.
+3.  In the **Scheduled publish date** field, click the select date and time icon.
 
-    You may need to configure the knowledge block form to include the **Scheduled publish date** field. Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: context menu\) and navigate to **Configure** &gt; **Form Layout**. Use slushbucket to add the Scheduled publish date field.
+    You may need to configure the knowledge block form to include the **Scheduled publish date** field. Click the form context menu icon and navigate to **Configure** &gt; **Form Layout**. Use slushbucket to add the Scheduled publish date field.
 
     **Important:** You must set the **Scheduled publish date** at least 24 hours from the current date. To publish the article earlier than 24 hours, click **Publish article** available in the form.
 
@@ -43,7 +43,7 @@ Role required: knowledge
 
 5.  In the **Time** field, enter a time in the format hh:mm:ss.
 
-6.  Select the save \(enter\) icon \[Omitted image "save-km.png"\] Alt text: Save enter icon.
+6.  Select the save \(enter\) icon .
 
 7.  Select **Publish** to enable the publishing workflow.
 

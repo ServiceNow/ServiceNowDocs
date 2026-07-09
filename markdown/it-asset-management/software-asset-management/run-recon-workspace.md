@@ -8,8 +8,8 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Run software reconciliation in the workspace
@@ -140,4 +140,9 @@ The date and time when the particular reconciliation process was completed.
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
 

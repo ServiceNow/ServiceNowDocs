@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair claim for the dealer, Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a repair claim for warranty

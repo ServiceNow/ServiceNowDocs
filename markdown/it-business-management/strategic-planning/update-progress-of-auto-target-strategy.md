@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Add a target for goal, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d259831e79">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d259102e79">
 
 Option
 
-</th><th align="left" id="d259831e82">
+</th><th align="left" id="d259102e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d259831e88">
+</th></tr></thead><tbody><tr><td id="d259102e88">
 
 **From the Goals page**
 
@@ -55,7 +55,7 @@ The target record opens with the **Overview** tab.
 2.  Select **Details** tab.
 
 
-</td></tr><tr><td id="d259831e114">
+</td></tr><tr><td id="d259102e114">
 
 **From the Strategy page**
 

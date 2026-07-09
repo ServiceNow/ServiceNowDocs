@@ -16,8 +16,8 @@ breadcrumb: [Configure, Digital Factory Workspace, Industrial Connected Workforc
 
 Set up prerequisite tasks before proceeding to use the Digital Factory Workspace.
 
--   **[Create a functional location of the type site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.md)**  
-Create a location for your user to be able to work with the Industrial Connected Workforce \(ICW\).
+-   **[Create a site functional location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.md)**  
+Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
 -   **[Create a functional location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-functional-location.md)**  
 Create a functional location in the Digital Factory Workspace.
 -   **[Create operational equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-operational-equipment.md)**  

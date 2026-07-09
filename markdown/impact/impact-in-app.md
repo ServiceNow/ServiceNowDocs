@@ -34,7 +34,7 @@ Details
 
 </td><td>
 
-[Navigating Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-platform-home.md)
+[Navigate Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-platform-home.md)
 
 </td><td>
 
@@ -73,12 +73,12 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td><td>
 
-[Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
+[Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
 
 </td><td>
 
--   [Initiatives catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
--   [Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
+-   [Initiatives Catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
+-   [Accelerator Catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
 
 </td></tr><tr><td align="center">
 
@@ -86,7 +86,7 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td><td>
 
-[Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
+[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
 
 </td><td>
 
@@ -115,8 +115,8 @@ Captures your objectives, which are high-level goals tied to measurable outcomes
 
 </td><td>
 
-View your tier features across various accounts including used and unused accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
+View your tier features across various accounts including used and unused Accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
 
 </td></tr></tbody>
-</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-user-management.md) for additional information.
+</table>**Important:** To access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md) for additional information.
 

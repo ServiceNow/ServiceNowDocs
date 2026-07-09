@@ -67,9 +67,23 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 -   Demand default playbook - The default demand playbook is a stage-gate playbook in which each stage must be finished before moving to the next one. Stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, demand managers can still return to previous stages.
 
-    You can create a demand playbook or customize the default demand playbook. For more information about the stages and activities of this playbook, see [Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md). For information about creating one, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
+    You can create a demand playbook or customize the default demand playbook. For information about creating one, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
 
 -   AI playbook - This playbook has an additional AI checkpoint stage where you can associate new or existing AI systems to your demand. The AI Control Tower plugin must be installed. The investment type of the demand must be set to artificial intelligence.
+
+    The demand AI playbook is a standard playbook comprising the following stages:
+
+    -   Create demand brief
+    -   Define demand alignment
+    -   Estimate demand cost and effort
+    -   AI checkpoint
+    -   Confirm demand readiness for review
+    -   Approve and finalize demand
+    -   Complete demand
+    **Note:** The AI checkpoint stage is available if the AI Control Tower plugin is installed and the investment type of the demand is set to artificial intelligence.
+
+    Each stage includes activities, action items, or steps for completing the demand. You can view the **Playbook** menu only if the demand matches the trigger condition defined for that playbook.
+
 
 **Note:**
 
@@ -85,5 +99,5 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
 
-[Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 

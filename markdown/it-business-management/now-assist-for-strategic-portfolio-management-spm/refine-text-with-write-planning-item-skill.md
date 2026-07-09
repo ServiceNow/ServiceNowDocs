@@ -1,5 +1,5 @@
 ---
-title: Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)
+title: Improve efficiency and quality using refine records skill
 description: Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.html
@@ -7,12 +7,12 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
-# Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)
+# Improve efficiency and quality using refine records skill
 
 Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 
@@ -42,7 +42,7 @@ This task is explained using Strategic Planning Workspace as the example.
 
 3.  Select the text to refine in the text field of your record.
 
-    For example, you can select **Description** text for Feedback record text. You can refer to context menu configuration table to view the forms and text fields which includes NACM.
+    For example, you can select **Description** text for Feedback record text. You can refer to context menu configuration table to view the forms and text fields which includes Now Assist context menu.
 
 4.  Select the **Refine with Now assist** menu and then select **Shorten** or **Elaborate** based on your requirement.
 
@@ -56,15 +56,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d146342e190">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d145377e190">
 
 Option
 
-</th><th align="left" id="d146342e193">
+</th><th align="left" id="d145377e193">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d146342e199">
+</th></tr></thead><tbody><tr><td id="d145377e199">
 
 **Provide feedback for the generated text**
 
@@ -72,7 +72,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the generated text wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d146342e222">
+</td></tr><tr><td id="d145377e222">
 
 **Copy the text**
 
@@ -106,7 +106,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
     |sn\_align\_core\_demand|sn\_align\_core.apw\_user|
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 

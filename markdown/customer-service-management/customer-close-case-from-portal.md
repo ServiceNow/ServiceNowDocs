@@ -26,13 +26,13 @@ The **Close Case** button is not available for cases in the **Resolved** or **Cl
 
 ## Procedure
 
-1.  Click **Cases** in the portal header to open the Case list.
+1.  Select **Cases** in the portal header to open the Case list.
 
 2.  Open the desired case.
 
-3.  In the Actions section, click **Close Case**.
+3.  In the Actions section, select **Close Case**.
 
-4.  In the confirmation pop-up window, click **Close Case**.
+4.  In the confirmation pop-up window, select **Close Case**.
 
     When a case is closed from the portal:
 
@@ -48,4 +48,11 @@ The **Close Case** button is not available for cases in the **Resolved** or **Cl
 
     You can also choose to skip the survey. Either choice returns you to the case list on the portal.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+
+[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ComACustServSatSurvey.md)
 

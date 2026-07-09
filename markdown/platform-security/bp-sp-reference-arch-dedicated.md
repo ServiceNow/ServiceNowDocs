@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-sp-reference-arch-dedicated.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Service provider reference architecture, Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Service provider reference architecture, Recommended practices for 
 Service provider \(SP\) customers can access SP services by using a portal to a dedicated instance. SPs use these dedicated instances to manage their service delivery.
 
 ## Dedicated instances
+
+Refer to the following image about dedicated instances.
+
+\[Omitted image "bp-sp-reference-architecture-dedicated.png"\] Alt text: SP reference dedicated architecture
 
 ## Attributes
 
@@ -26,6 +30,8 @@ Service provider \(SP\) customers can access SP services by using a portal to a 
 \[Omitted image "bp-dedicated-vs-shared.png"\] Alt text: Dedicated vs shared
 
 
+
+\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: SP reference architecture comparison
 
 **Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
 

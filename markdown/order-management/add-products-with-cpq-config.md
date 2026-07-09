@@ -1,18 +1,18 @@
 ---
-title: Add customizable products using CPQ Configurator
-description: Use the CPQ Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
+title: Add customizable products using ServiceNow CPQ Configurator
+description: Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-products-with-cpq-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Add customizable products using CPQ Configurator
+# Add customizable products using ServiceNow CPQ Configurator
 
-Use the CPQ Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
+Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: sales agent, order agent, customer
 
 3.  In the card for the product offering to be configured, select **Customize**.
 
-    The CPQ Configurator opens.
+    The ServiceNow CPQ Configurator opens.
 
 4.  Select a product in the bundle and in the Options selection section, choose the product option.
 
@@ -47,5 +47,5 @@ Role required: sales agent, order agent, customer
     The configurable product is added as a line item to the transaction.
 
 
-**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+**Parent Topic:**[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
 

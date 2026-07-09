@@ -25,7 +25,7 @@ Create drafts of knowledge articles from multiple cases with the Now Assist for 
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the Knowledge Assist skill from the Now Assist Admin console.
+-   Activate the KB generation skill from the Now Assist Admin console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close a hardware asset repair task using the Mobile Agent application
@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d40865e174">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d41470e174">
 
 Task
 
-</th><th align="left" id="d40865e177">
+</th><th align="left" id="d41470e177">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d40865e183">
+</th></tr></thead><tbody><tr><td id="d41470e183">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d40865e209">
+</td></tr><tr><td id="d41470e209">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d40865e235">
+</td></tr><tr><td id="d41470e235">
 
 **Evaluate asset**
 

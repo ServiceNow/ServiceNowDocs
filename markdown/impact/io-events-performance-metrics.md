@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/io-events-performance-me
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
-reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+reading_time_minutes: 3
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Event queues performance metrics
@@ -42,12 +42,10 @@ This represents the delta change in the number of high priority events that are 
 
 If the high priority events processed delta is at zero, then it means that the queue has nothing further to process or there has been a failure in the event processor.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

@@ -18,7 +18,9 @@ The ServiceNow® Discovery for Operational Technology \(OT\) Native components p
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-Discover\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
+Discover
+
+ \[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
  [Explore the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-console.md)
 
@@ -26,19 +28,19 @@ Discover\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
 Explore\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
 
- [Explore the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-sensor.md)
+ [Explore the Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-sensor.md)
 
 </td></tr><tr><td>
 
 Search\[Omitted image "BUS\_64px\_Rocketship\_YG.png"\] Alt text:
 
- [Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-collectors-landing.md)
+ [Explore the Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ot-collectors.md)
 
 </td><td>
 
 Connect\[Omitted image "BUS\_64px\_Integration-and-APIs\_YG.png"\] Alt text:
 
- [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+ [Explore the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-service-graph-connector.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

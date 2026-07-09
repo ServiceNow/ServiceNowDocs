@@ -34,7 +34,7 @@ Plan and implement the configuration of HR Multi Instance Integration for Provid
 
         **Note:**
 
-        -   You can create remote record producers only if you have provider administrator \[sn\_hr\_mii\_provider\] role along with a delegated\_developer role.
+        -   You can create remote record producers only if you have provider administrator \[sn\_hr\_mii\_provider.admin\] role along with a delegated\_developer role.
         -   Create a remote record producer under the HR Multi Instance Integration Base scope so that the catalogs are available on the consumer instance. After you revise a remote record producer, you must update the value in the **Record producer** field in HR service.
         -   When creating remote record producers, select the flow **Create HR case from provider task**. This step is required for auto- creating an HR case from a provider task when the remote record producer is triggered.
     3.  [Enable magic links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-magic-links.md) to let consumer users complete assigned tasks from provider instance. Magic links enable consumer users to directly access the linked resource in the provider instance without having to manually log in.

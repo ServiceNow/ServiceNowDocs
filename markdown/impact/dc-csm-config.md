@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/dc-csm-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Impact Value Management Data Collection Content Pack for CSM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
@@ -73,4 +73,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
         \[Omitted image "dct\_man\_data\_points\_csm.png"\] Alt text: Illustration with Mar 2024 cell selected.
 
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-csm.md)
 

@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Move an automation request to the Planned state
@@ -41,5 +41,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 After you move an automation request to the Planned state, it's ready for you to work on.
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
 

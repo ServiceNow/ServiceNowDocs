@@ -35,3 +35,5 @@ The alterations for this change in metric definition would imply the following c
     -   Change the Additional Conditions to add a filter for **Priority 1** on both indicators.
     -   For Time to Restore, as the duration field may not be in use, you can use a scripted calculation for the duration. You can re-use the script from the automate indicator **Impact VM - Average Time to Close an Incident \(hrs\)** for this.
 
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+

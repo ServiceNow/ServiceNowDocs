@@ -1,5 +1,5 @@
 ---
-title: Exploring Playbook recommendations
+title: Playbook recommendations for placeholder activity
 description: Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/playbook-recommendations.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Playbook recommendations, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Exploring Playbook recommendations
+# Playbook recommendations for placeholder activity
 
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 
@@ -20,7 +20,7 @@ Get AI-generated recommendations for placeholder activities. The system generate
 
 ## Activation
 
-Now Assist Recommendations is a skill installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+Playbook recommendations is a skill installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Benefits
 
@@ -45,4 +45,9 @@ This Generative AI large language model was pre-trained with internal ServiceNow
 By default, Workflow Studio shows Playbook recommendations as you configure placeholder activities in a playbook outline. You can hide these recommendations on playbook by playbook basis by turning off the Show recommendations playbook preference. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-preferences.md) for more information.
 
 **Parent Topic:**[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations-landing.md)
+
+**Related topics**  
+
+
+[Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md)
 

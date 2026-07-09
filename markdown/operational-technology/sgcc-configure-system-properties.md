@@ -43,7 +43,7 @@ Description
 
 </td><td>
 
-Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the OT Discovery Console, you could set this to `PLC,IcsHost`.Default: empty
+Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the Discovery Console for OT, you could set this to `PLC,IcsHost`.Default: empty
 
 **Note:** These are categories defined on the Console side.
 

@@ -1,5 +1,5 @@
 ---
-title: Getting started with Performance charts
+title: Generate performance charts
 description: Follow these steps to generate Performance charts using Instance Observer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-getting-started-perf-charts.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Performance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Getting started with Performance charts
+# Generate performance charts
 
 Follow these steps to generate Performance charts using Instance Observer.
 
@@ -42,5 +42,5 @@ Role required: admin
     -   Download to PNG, SVG, or CSV files or view transactions on the instance.
     -   Change the report type.
 
-**Parent Topic:**[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
 

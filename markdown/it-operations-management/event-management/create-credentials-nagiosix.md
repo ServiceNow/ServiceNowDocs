@@ -52,7 +52,7 @@ User name
 
 </td><td>
 
-Name to identify the user.Ensure that the user password contains the NagiosXI user API key, for example, `04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk`.
+Name to identify the user.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Password
 
 </td><td>
 
-Password to use this credential.
+Nagios XI user API key. For example:`04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk`
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a product quality investigation
@@ -30,11 +30,6 @@ Role required: admin
 
 4.  Select **Save**.
 
-
--   **[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-list-for-pqi.md)**  
-In the workspace, you can use the product quality issues related list to log the report.
-
-**Parent Topic:**[Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-PQI-use.md)
 
 **Related topics**  
 

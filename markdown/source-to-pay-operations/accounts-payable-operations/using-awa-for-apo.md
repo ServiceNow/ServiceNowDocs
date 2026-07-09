@@ -25,7 +25,7 @@ Use AWA for the following benefits:
 -   Accounts Payable agents can create an invoice inquiry case if the supplier query needs more investigation. For more information on creating a case, see [Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md).
 -   Accounts Payable agents receive invoice email from suppliers. Invoice inquiry cases are created through the **Create Inquiry Case on Invoice email** flows if email subject contains keywords such as invoice inquiry, inquiry.
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

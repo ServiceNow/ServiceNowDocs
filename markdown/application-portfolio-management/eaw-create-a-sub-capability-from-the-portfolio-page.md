@@ -58,7 +58,7 @@ Role required: sn\_apm.apm\_user
 
 [Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 
-[Manage architectural artifacts of a business capability in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
+[Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
 
 [Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-a-capability.md)
 

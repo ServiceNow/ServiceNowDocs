@@ -59,7 +59,7 @@ Australia Patch 3 includes fixes for security-related problems that affected cer
 
 -   **[Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-universal-request.md)**
 
-    Create a Universal Request \(UR\) in Employee Center when your request involves multiple departments or the right department to contact is unclear.
+
 
 -   **[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/multi-level-breakdowns.md)**
 

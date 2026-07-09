@@ -1,6 +1,6 @@
 ---
 title: Link and inherit parent contract fields
-description: Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
+description: Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.html
 release: australia
@@ -8,27 +8,29 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Linking parent-child contracts, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Link and inherit parent contract fields
 
-Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
+Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
 
 ## About this task
+
+This task links a parent contract request and copies configured fields from it into the child contract request. If you only want to establish the parent-child relationship without inheriting fields, use [Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md) instead. That action also supports contract requests in Contract signed state.
 
 The following video walks you through the process of linking a parent contract request and inheriting its fields.\[Omitted video\] Description: Video providing step-by-step instructions on linking parent contract request and inheriting its fields, approximately one and a half minutes long.
 
 ## Before you begin
 
-Ensure that the contract request is in Draft, Work in progress, or Awaiting review state.
+Verify that the contract request is in Draft, Work in progress, or Awaiting review state.
 
 You must be either assigned to the contract request or a group manager or a collaborator.
 
-Ensure that the parent contract is not a multiple contracts type third-party contract request.
+Verify that the parent contract is not a multiple contracts type third-party contract request.
 
-Ensure that the parent child mapping is configured. For more information, see [Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md).
+Verify that the parent child mapping is configured. For more information, see [Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md).
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -36,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d71359e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d71603e96">
 
 Method
 
-</th><th align="left" id="d71359e89">
+</th><th align="left" id="d71603e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71359e95">
+</th></tr></thead><tbody><tr><td id="d71603e105">
 
 **Contract Workspace listing**
 
@@ -56,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d71359e142">
+</td></tr><tr><td id="d71603e152">
 
 **Workspace used by your application**
 

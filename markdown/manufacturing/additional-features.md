@@ -1,5 +1,5 @@
 ---
-title: Additional features
+title: Extended capabilities
 description: Manufacturing Commercial Operations supports additional features to enhance the product capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/additional-features.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
+breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
 
-# Additional features
+# Extended capabilities
 
 Manufacturing Commercial Operations supports additional features to enhance the product capabilities.
 
@@ -28,7 +28,7 @@ Customer Service Management
 
 </td><td>
 
-The Customer Service Management enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
+The Customer Service Management provides service and support to external customers. Customers can communicate and receive support through the web, email, chat, telephone, and social media.
 
 </td></tr><tr><td>
 
@@ -36,9 +36,7 @@ Order to cash operations
 
 </td><td>
 
-Optimize the lead-to-cash cycle with Order to cash operations for Manufacturing Commercial OperationsWith Order to cash operations for Manufacturing Commercial Operations, manufacturers can:
-
--   Launch complex products and services with configurable catalogs.
+Order to cash operations for Manufacturing Commercial Operations streamlines the lead-to-cash cycle. This feature enables manufacturers to:-   Launch complex products and services with configurable catalogs.
 -   Manage leads &amp; opportunities from start to finish and map customer needs to the best offers.
 -   Configure and price quotes and convert to orders to speed up revenue.
 -   Automate order fulfillment across front, middle, and back-office teams.
@@ -46,24 +44,11 @@ Optimize the lead-to-cash cycle with Order to cash operations for Manufacturing 
 
 </td></tr><tr><td>
 
-Service Exchange
-
-</td><td>
-
-Securely build business workflows across the ServiceNow® ecosystem using Service Exchange.With Service Exchange for Manufacturing Commercial Operations, manufacturers can:
-
--   Improve the enterprise experience with one service catalog for internal and provider requests.
--   Increase revenue with easy catalog and offerings, publishing, and order capturing.
--   Reduce errors by dynamically pulling field choices from the provider's ServiceNow® instances.
--   Keep integration costs and efforts low with a configurable and an out-of-box approach.
-
-</td></tr><tr><td>
-
 Channel Support Operations
 
 </td><td>
 
-With Channel Support Operations for Manufacturing Commercial Operations, you can:
+Channel Support Operations for Manufacturing Commercial Operations enables:
 
 -   Automate after-sales support processes \(for example, product &amp; service issues, warranty claims, recalls\)
 -   Save costs by resolving poor quality, non-conformance, and warranty issues
@@ -78,8 +63,4 @@ With Channel Support Operations for Manufacturing Commercial Operations, you can
 [bundle-csm.c_CustomerServiceManagement]
 
 [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
-
-[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
-
-[Components installed with additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-components-installed-with-other-product-workflows.md)
 

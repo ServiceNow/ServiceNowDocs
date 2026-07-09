@@ -20,8 +20,6 @@ ATF troubleshooting agent streamlines the process of figuring out why tests are 
 
 Use ATF troubleshooting agent to simplify test failure diagnosis on specific metadata.
 
-\[Omitted image "test-agent.gif"\] Alt text: Landing page
-
 ## ATF troubleshooting agent users
 
 AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).

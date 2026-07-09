@@ -26,7 +26,7 @@ Role required: none
 
 2.  Select one of the following options from the **Loads related lists in classic forms** menu.
 
-<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d87156e86">
+<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d87164e86">
 
 **With the Form**
 
@@ -34,7 +34,7 @@ Role required: none
 
 Related lists load when you open the form, which is the default setting. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `default`.
 
-</td></tr><tr><td id="d87156e101">
+</td></tr><tr><td id="d87164e101">
 
 **After Form Loads**
 
@@ -42,7 +42,7 @@ Related lists load when you open the form, which is the default setting. When se
 
 Related lists load after the rest of the form loads. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `deferred`.
 
-</td></tr><tr><td id="d87156e116">
+</td></tr><tr><td id="d87164e116">
 
 **On-demand**
 

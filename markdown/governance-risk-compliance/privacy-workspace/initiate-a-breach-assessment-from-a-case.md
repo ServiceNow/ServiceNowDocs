@@ -52,7 +52,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 ## What to do next
 
-Initiate new breach assessments with a revised breach assessment template. See [Create a version of a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+Initiate new breach assessments with a revised breach assessment template. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 **Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-logs.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
 ---
@@ -17,6 +17,8 @@ Access various logs to troubleshoot and identify the failure reasons.
 ## Code Signing logs
 
 If any of the ECC queue records is not signed by the Code Signing Tracker API, the unsigned messages and the required details are displayed in the Code Signing module. Navigate to **System Logs** &gt; **System Log** &gt; **Code Signing** to access the list of records that are not trusted.
+
+\[Omitted image "CS-logs.png"\] Alt text: CS Logs
 
 For additional debug node logs, enable **com.glide.codesigning.tracking.debug** and set its value to `true`.
 

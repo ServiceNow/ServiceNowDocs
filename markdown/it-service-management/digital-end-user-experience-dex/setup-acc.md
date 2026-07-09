@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [acc registration key, agent registration key, agent client collector \(acc\), authenticate agents, create registration key, register agents]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 

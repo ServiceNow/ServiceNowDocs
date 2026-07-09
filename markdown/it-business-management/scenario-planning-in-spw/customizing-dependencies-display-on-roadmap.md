@@ -1,5 +1,5 @@
 ---
-title: Customizing the dependencies display on the roadmap in Strategic Planning Workspace
+title: Dependencies display on the roadmap in Strategic Planning Workspace
 description: Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Customizing the dependencies display on the roadmap in Strategic Planning Workspace
+# Dependencies display on the roadmap in Strategic Planning Workspace
 
 Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 

@@ -31,7 +31,7 @@ Reviewing the post incident report \(PIR\) also provides an opportunity to evalu
 
 After you resolve a major incident, you must publish the PIR for the major incident and share it with the stakeholders within a specified time duration as defined in the SLA. You can configure the SLA by specifying the value in hours in the **PIR publish hours** \(**sn\_sow\_inc.pir.publish.hours**\) system property.
 
-**Tip:** For guidelines on customizing the Post Incident Report layout and content, search the  for `customize post incident review report`.
+**Tip:** For guidelines on customizing the Post Incident Report layout and content, search the [ServiceNow Community](https://community.servicenow.com/community) for `customize post incident review report`.
 
 The following events are captured in the timeline of the PIR:
 

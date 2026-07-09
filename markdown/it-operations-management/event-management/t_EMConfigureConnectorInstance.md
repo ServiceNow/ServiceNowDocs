@@ -70,6 +70,14 @@ Description
 
 Any optional information that the administrator wants to use to identify this record.
 
+</td></tr><tr><td>
+
+Assignment Group
+
+</td><td>
+
+Designates which team is responsible for managing, maintaining, and responding to issues related to this connector instance.
+
 </td></tr><tr><td id="entry_ConnectorDefinition">
 
 Connector definition **Note:** Metric Intelligence connectors \(such as the AWS CloudWatch and AzureConnector\), appear in the base system only if the Metric Intelligence plugin \(com.snc.sa.metric\) is activated.

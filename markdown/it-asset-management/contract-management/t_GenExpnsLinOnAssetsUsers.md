@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Generating expense lines based on assets or users

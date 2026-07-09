@@ -1,5 +1,5 @@
 ---
-title: Create new document template form
+title: Create document template form
 description: Learn about the fields on the Create new document template form of the Project Workspace. Use this form to create a new status report template according to your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-new-document-template-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create new document template form
+# Create document template form
 
 Learn about the fields on the Create new document template form of the Project Workspace. Use this form to create a new status report template according to your requirement.
 

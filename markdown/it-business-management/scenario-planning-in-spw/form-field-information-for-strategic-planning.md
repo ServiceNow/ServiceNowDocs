@@ -68,7 +68,7 @@ Learn about the fields of the roadmap milestone form. Use this form to create a 
 Learn about the fields of the roadmap configuration form. Use this form to add new tables to roadmap preferences and configure their details in Strategic Planning.
 -   **[Scheduled Script Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/scheduled-script-execution-form-egm.md)**  
 Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
--   **[Scheduled Script Execution form to generate labor costs for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.md)**  
+-   **[Scheduled Script Execution form to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.md)**  
 Use the Scheduled Script Execution form to enable Generate Labor Costs and Generate Labor Costs For Epic scheduler jobs for your planning items.
 -   **[Strategic program form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/program-form.md)**  
 Learn about the fields of the Strategic program form. Use this form to create or edit the details of a Strategic Program in Strategic Planning.
@@ -91,7 +91,7 @@ Learn about the fields of the view rule form. Use this form to define workspace 
 -   **[Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md)**  
 Use these form fields to associate a widget with project table and view it on financials.
 -   **[Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/widget-new-record-form.md)**  
-Use these form fields to create a new widget for your project administration.
+Use these form fields to create widget for your project administration.
 
 **Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

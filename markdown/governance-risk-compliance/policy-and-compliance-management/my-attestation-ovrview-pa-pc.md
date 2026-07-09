@@ -34,9 +34,9 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 
 |Title|Type|Description|
 |-----|----|-----------|
-|My Past Due Attestations|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Total number of past due attestations assigned to you|
-|My Attestations|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Total number of attestations assigned to you, broken down by state|
-|My Pending Attestations|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|A list of the pending attestations assigned to you|
+|My Past Due Attestations|Bar chart|Total number of past due attestations assigned to you|
+|My Attestations|Bar chart|Total number of attestations assigned to you, broken down by state|
+|My Pending Attestations|List|A list of the pending attestations assigned to you|
 
 -   **[GRC Attestation Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-control-attest-dashboard.md)**  
 The GRC Attestation Overview dashboard provides views attestations assigned to you, as well as pending and overdue attestations.

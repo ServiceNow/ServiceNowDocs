@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 2
-breadcrumb: [Run your first scan, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Initiate and manage scans
@@ -16,7 +16,7 @@ Use the Scan Results list view to initiate scans, monitor scan status, and manag
 
 ## Before you begin
 
-Your ServiceNow instance must be running a minimum of Zurich release with the Impact Platform Health product installed. See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for details.
+Your ServiceNow instance must be running a minimum of Zurich release with the Impact Platform Health product installed. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for details.
 
 Role required: impact\_admin, impact\_ai\_fix\_user, impact\_scan\_user, impact\_scan-read\_user
 

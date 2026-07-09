@@ -7,8 +7,8 @@ release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-06-30"
+reading_time_minutes: 6
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---
 
@@ -31,8 +31,6 @@ The Customer Service Management - Advanced Performance Analytics Solution adds t
 ## Dashboard breakdowns
 
 The Customer Service Manager dashboard uses the Case Assignment Group breakdown. Select one or more groups to view data for only those groups. By default, data from all groups is shown on the dashboard.
-
-\[Omitted image "csm-manager-overview.png"\] Alt text: Tab displaying different case records and trend lines from the Customer Service Manager Advanced dashboard. For the text description, refer to the Overview indicators section.
 
 ## Overview indicators
 
@@ -57,10 +55,6 @@ The Customer Service Manager dashboard uses the Case Assignment Group breakdown.
 |Backlog Growth|Number of backlogged cases for all agents over time.|
 |Open Case Backlog|Chart of cumulative open cases and case age over time.|
 |Open Backlog|Number of cases that are not resolved.|
-
-\[Omitted image "csm-manager-analysis.png"\] Alt text: Tab displaying different reports and records for cases from the Customer Service Manager Advanced dashboard. For the text description, refer to the Analysis indicators section.
-
-Trend chart of case backlog over time. Click and move your cursor to view data for any date. Indicators display data for the selected date.
 
 ## Analysis indicators
 
@@ -118,10 +112,6 @@ Cases in the Resolved or Closed state can be grouped by the following breakdowns
 -   Category
 -   Contact
 
-
-
-\[Omitted image "csm-manager-case-spotlight.png"\] Alt text: Tab displaying case spotlight reports and case list details from the Advanced dashboard. For text descriptions, refer to the Case Spotlight breakdowns and Case Spotlight reports sections.
-
 ## Case Spotlight breakdowns
 
 Select values for the breakdowns to filter the data shown on the dashboard.
@@ -174,11 +164,7 @@ Case Spotlight
 List of cases that exceed the Case Spotlight threshold.
 
 </td></tr></tbody>
-</table>
-
-\[Omitted image "csm-manager-agent-analysis.png"\] Alt text: Tab displaying different case resolution reports and agent efficiency trends from the Customer Service Manager - Advanced dashboard. For the text description, refer to the Agent analysis indicators section.
-
-## Agent analysis indicators
+</table>## Agent analysis indicators
 
 <table id="table_ixq_hcp_f3b"><thead><tr><th>
 
@@ -229,11 +215,7 @@ Closed Cases by Agent and Account.
 Number of cases closed by each agent for each account.
 
 </td></tr></tbody>
-</table>\[Omitted image "csm-manager-work-assignment.png"\] Alt text: Tab displaying different work assignment reports from the Customer Service Manager - Advanced dashboard. For text descriptions, refer to the Work Assignment Analytics reports and Work Assignment Analytics indicators sections.
-
-**Note:** The Work Assignment Analytics tab can only be viewed on the Customer Service Manager - Advanced dashboard. Customer Service \[com.sn\_customerservice\] and Performance Analytics - Content Pack - Advanced Work Assignment \[com.snc.pa.awa\] must be activated on your instance.
-
-## Work Assignment Analytics reports
+</table>## Work Assignment Analytics reports
 
 |Report|Description|
 |------|-----------|
@@ -247,15 +229,4 @@ Number of cases closed by each agent for each account.
 |Exceeding Target Work Items|Percentage of all work items that have exceeded the target wait time.|
 |Assigned Work Items|Percentage of all work items that are assigned to agents.|
 |Abandoned Work Items|Percentage of all work items that agents have abandoned.|
-
-\[Omitted image "csm-manager-text-analysis.png"\] Alt text: Customer Service Manager Advanced dashboard showing the number of open cases filtered with short description in the word cloud view along with Trend line and Related Records.
-
-**Note:** The Text Analytics tab is visible only if the Performance Analytics Premium for Customer Service plugin \[com.snc.pa.premium.cs\] is installed.
-
-Text Analytics displays a word cloud of most frequently used words and phrases in the short descriptions of open cases, providing insight into emerging issues reported by users.
-
--   Drill down on a word to view other words associated with cases that contain that keyword.
--   Search the word cloud for specific terms.
-
-**Trend line**: Shows the frequency of top keywords over time. Click and move your cursor to view data for any date.**Related Records**: List of cases containing the keywords you selected from the word cloud.
 

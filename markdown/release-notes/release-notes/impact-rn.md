@@ -32,12 +32,15 @@ See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
 
 ## Important information for upgrading Impact to Australia
 
-The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
 
 ## New in the Australia release
 
 -   **[Now Assist for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-health-agent.md)**
 
+    Version 9.00
+
+    -   Directly deactivate base system definitions without requiring an override record or approval.
     Version 8.0.0
 
     -   Access summarized findings in one line grouped by findings level. Use the statistical and sys property scan types to view scan results in a statistical section.
@@ -60,7 +63,7 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
     -   Accelerate your Impact Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub by using technical accelerators.
     -   Improve your change readiness by using the OCM: Preparing for change and adopt AI governance impact strategy accelerators.
     -   Assess your CSDM maturity, improve CSDM Data modeling, and accelerate your portal’s user experience with the help of usage insights and virtual agent experience design provided by the architecture accelerators.
--   **[On-demand accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/on-demand-accelerators.md)**
+-   **[Self-serve Accelerator fulfillment process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/on-demand-accelerators.md)**
     -   Provide Self-service capabilities with improved session persistence, an entitlement-aware catalog, and a downloadable 90-day action plan.
     -   Access engagement-type filtering, progress tracking, questionnaire persistence, and self-serve directly within the catalog.
 -   **[Impact Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-conversations_store.md)**
@@ -71,7 +74,7 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
 
     Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
 
--   **[Configure IO alert notifications for a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-receive-notification-customer-conf-webhook.md)**
+-   **[Configure alert notifications for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-receive-notification-customer-conf-webhook.md)**
 
     Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
 
@@ -82,7 +85,7 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
 
     Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
 
--   **[Manage Capabilities Maps for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capability-maps.md)**
+-   **[Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capability-maps.md)**
 
     Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
 
@@ -108,7 +111,7 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
     Dashboard data refresh timing and status jobs trigger at the enhanced time frame and frequency for near real-time data. The dashboard also displays status messaging about job progress and any delays.
 
 
--   **[Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/capabilities-map.md)**
+-   **[Entitlements and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/capabilities-map.md)**
 
     Recommended capabilities has been renamed Squad-prioritized capabilities.
 
@@ -117,7 +120,7 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
 
 -   **[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)**
 
-    The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
+    The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
 
 
 ## Removed in this release
@@ -130,7 +133,7 @@ On-demand value report and Value potential accelerators have been removed.
 
     For information on package entitlement and features activation, see .
 
-    For details on configuring Impact and its features, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact.md).
+    For details on configuring Impact and its features, see .
 
 
 ## Plugin information
@@ -144,7 +147,7 @@ On-demand value report and Value potential accelerators have been removed.
 
 ## Related ServiceNow applications and features
 
--   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center-intro.md) [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md)**
+-   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center-intro.md) **
 
     Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 

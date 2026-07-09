@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # Collaborative Work Management release notes
@@ -32,8 +32,8 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Import tasks into CWM Boards using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/importing-tasks-cwm-boards.md)**
 
@@ -98,6 +98,13 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 -   **[Sprint section footer changes in Sprint planning view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-sprint-planning-in-cwm.md)**
 
     For sprints that are not started yet, the footer of the sprint section in the Sprint planning view now shows only the % of capacity utilized, and the story points remaining for the sprint.
+
+
+## Changed in this release
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 ## Activation information

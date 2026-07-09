@@ -28,7 +28,7 @@ Role required: admin
 
 2.  Create a Variable as described in [Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-variable-set.md).
 
-3.  Select a Site to associate to the Variable.
+3.  Select a Site to associate with the Variable.
 
 4.  Create an Auto Query as described in [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md).
 
@@ -43,5 +43,5 @@ Role required: admin
 
 ## Result
 
-Your Site is associated with the Variable and queried.
+Your Site is associated with the Variable and then queried.
 

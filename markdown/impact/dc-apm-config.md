@@ -29,3 +29,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_apm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score of 3,000.
 
 
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+

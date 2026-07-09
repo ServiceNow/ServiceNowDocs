@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Integrate Datadog platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ Datadog integration with OAuth authentication is available starting from the Was
         8.  Set **Default Grant Type** field value to **Client Credentials**.
 2.  In the Datadog console, add cloud provider tags.
 
-    1.  Navigate to **Menu** &gt; **Infrastructure** &gt; **Infrastructure List**.
+    1.  Navigate to **Menu** &gt; **Infrastructure** &gt; **Hosts**.
     2.  Select **Inspect** for the VM on which the Datadog agent is installed.
     3.  Select **Edit Tags** and add the cloud\_provider tag.
 

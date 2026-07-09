@@ -22,6 +22,8 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 Configure the duration for which a signature workflow is paused when signatories are modified for an ongoing signature workflow.
 -   **[Auto-populate the start date and end date for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-start-end-date-for-cntrcts.md)**  
 Configure an extension point implementation to automatically add the start date and end date while creating a contract request.
+-   **[Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md)**  
+Activate a system property to display the **Role** field when configuring internal signatory rules and when adding signatories to a contract request.
 -   **[Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)**  
 As a contract configurator, activate a system property to generate a certificate of completion for electronically signed contracts.
 -   **[Enable users to view email details in activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enbl-user-email-astream.md)**  

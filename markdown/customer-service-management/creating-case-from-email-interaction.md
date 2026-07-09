@@ -37,7 +37,7 @@ When you create a case from an inbound interaction, the system links the interac
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 

@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 172
+reading_time_minutes: 173
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -294,7 +294,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -401,7 +401,7 @@ productOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -411,7 +411,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProdInv-resp-descr">
 
-List of external IDs mapped to the product inventories created for the order. Data type: Array of Objects
+Conditional. List of external IDs mapped to the product inventories created for the order. If supplied, each entry requires **externalProductInventoryId**.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -765,7 +765,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty:" [
@@ -803,7 +803,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -919,7 +919,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -944,7 +944,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -1041,7 +1041,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -1049,7 +1049,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -1674,7 +1674,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": {
@@ -2029,7 +2029,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty:" {
@@ -2065,7 +2065,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -2150,7 +2150,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -2175,7 +2175,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -2272,7 +2272,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -2280,7 +2280,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -2791,7 +2791,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Object
+Optional. List of additional notes made by the customer when ordering. Data type: Object
 
 ```
 "note": {
@@ -3146,7 +3146,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Object
+Optional. List of contacts for line items. Data type: Object
 
 ```
 "relatedParty:" {
@@ -3182,7 +3182,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -3265,7 +3265,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -3290,7 +3290,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -3387,7 +3387,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -3395,7 +3395,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -3885,7 +3885,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -4016,7 +4016,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProdInv-descr-PATCH">
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -4368,7 +4368,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -4434,7 +4434,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 Stored in: The sys\_id field of the sn\_ind\_tmt\_orm\_order\_line\_item\_contact table.
 
@@ -4537,7 +4537,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -4568,7 +4568,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -4663,7 +4663,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -4675,7 +4675,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -4833,7 +4833,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -4909,7 +4909,7 @@ productOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -4917,9 +4917,9 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3239e1798">
+</td><td id="d3288e1801">
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -5198,7 +5198,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -5236,7 +5236,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -5350,7 +5350,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -5375,7 +5375,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
 
 </td></tr><tr><td>
 
@@ -5456,7 +5456,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -5464,7 +5464,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -5979,7 +5979,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -6110,7 +6110,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProdInv-descr-PATCH">
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -6462,7 +6462,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -6528,7 +6528,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 Stored in: The sys\_id field of the sn\_ind\_tmt\_orm\_order\_line\_item\_contact table.
 
@@ -6631,7 +6631,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -6662,7 +6662,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -6757,7 +6757,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -6769,7 +6769,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -6927,7 +6927,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -7003,7 +7003,7 @@ productOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -7011,9 +7011,9 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3239e1798">
+</td><td id="d3288e1801">
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -7292,7 +7292,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -7330,7 +7330,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -7444,7 +7444,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -7469,7 +7469,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
 
 </td></tr><tr><td>
 
@@ -7550,7 +7550,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -7558,7 +7558,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -8075,7 +8075,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -8206,7 +8206,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProdInv-descr-PATCH">
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -8558,7 +8558,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -8624,7 +8624,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 Stored in: The sys\_id field of the sn\_ind\_tmt\_orm\_order\_line\_item\_contact table.
 
@@ -8727,7 +8727,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -8758,7 +8758,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -8853,7 +8853,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -8865,7 +8865,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -9002,7 +9002,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
  ```
 "note": [
@@ -9311,7 +9311,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
  ```
 "relatedParty": [
@@ -9349,7 +9349,7 @@ productOrderItem.product.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -9434,7 +9434,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
  ```
 "productOrderItemRelationship": [
@@ -9459,7 +9459,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
 
 </td></tr><tr><td>
 
@@ -9540,7 +9540,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -9548,7 +9548,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -10361,7 +10361,7 @@ productOrderItem.committedDueDate
 
 </td><td id="due-date-item-entry">
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -10383,7 +10383,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProductInventory-GET-desc-request">
 
-External IDs to map to the product inventories created for the order.Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. External IDs to map to the product inventories created for the order.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -11034,7 +11034,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -11213,7 +11213,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -11305,7 +11305,7 @@ productOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -11315,7 +11315,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProdInv-resp-descr">
 
-List of external IDs mapped to the product inventories created for the order. Data type: Array of Objects
+Conditional. List of external IDs mapped to the product inventories created for the order. If supplied, each entry requires **externalProductInventoryId**.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -11629,7 +11629,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
 ```
 "relatedParty:" [
@@ -11774,7 +11774,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
 "productOrderItemRelationship": [
@@ -11799,7 +11799,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -11888,7 +11888,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -11896,7 +11896,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -12964,7 +12964,7 @@ productOrderItem.committedDueDate
 
 </td><td id="due-date-item-entry">
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -12986,7 +12986,7 @@ productOrderItem.externalProductInventory
 
 </td><td id="externalProductInventory-GET-desc-request">
 
-External IDs to map to the product inventories created for the order.Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. External IDs to map to the product inventories created for the order.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -13637,7 +13637,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -13802,7 +13802,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
  ```
 "note": [
@@ -14151,7 +14151,7 @@ productOrderItem.product.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array of Objects
+Optional. List of contacts for line items. Data type: Array of Objects
 
  ```
 "relatedParty:" [
@@ -14257,7 +14257,7 @@ productOrderItem.productOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
  ```
 "productOrderItemRelationship": [
@@ -14282,7 +14282,7 @@ productOrderItem.productOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Data type: String
 
 </td></tr><tr><td>
 
@@ -14355,7 +14355,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -14363,7 +14363,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 

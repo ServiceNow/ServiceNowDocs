@@ -4,8 +4,8 @@ description: The ServiceNow Unified Security Exposure Management \(USEM\) applic
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 12
+last_updated: "2026-07-01"
+reading_time_minutes: 14
 keywords: [usem release notes]
 ---
 
@@ -15,6 +15,7 @@ The ServiceNow® Unified Security Exposure Management \(USEM\) application enhan
 
 ## Unified Security Exposure Management highlights for the Australia release
 
+-   Unified Security Exposure Management now integrates with Early Warning for Security Exposure Management integration to enrich Common Vulnerabilities and Exposures \(CVE\) data with Early Warning insights, enabling teams to focus remediation on vulnerabilities under active or imminent exploitation.
 -   Vulnerability management teams can use AI Security Exposure Management and supported integrations to reduce the AI attack surface by efficiently remediating security exposures in AI assets.
 -   USEM was enhanced and updated in the Australia release to support the new AI native experience.
 -   Administrators can manage user and group role assignments, create/update watchdogs with custom conditions, and access a centralized Advanced Settings page — all directly from the Security Exposure Management Workspace, eliminating the need to navigate multiple configuration pages.
@@ -37,14 +38,39 @@ To access the new AI native experience in the Unified Security Exposure Manageme
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response, however, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/migrating-to-usem.md) and [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/migrate-to-usem.md).
 
 ## New in the Australia release
 
+-   **[Enhancements to the Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/invicti-vuln-integration.md)**
+
+    Added the Invicti Platform Integration. Support for the Invicti Platform APIs introduces three new integration jobs that connect directly to the Invicti Platform cloud service:
+
+    -   Application Integration — Imports the list of applications being scanned in Invicti Platform into your ServiceNow AI Platform® instance as discovered applications.
+    -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
+    -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform®.
+    Enhancements to Application life-cycle management: When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform® automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\), keeping your vulnerability inventory accurate without manual cleanup.
+
+-   **[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)**
+
+    You can now integrate with Early Warning for Security Exposure Management integration to enrich vulnerabilities with Early Warning threat intelligence. Powered by Armis Threat Intelligence \(ATI\), Early Warning signals are mapped to CVEs and include supporting evidence, first-seen exploitation dates, and Admiralty Scores to indicate intelligence reliability. Delta-based scheduled ingestion ensures CVE enrichment remains current through efficient incremental updates, helping security teams respond faster to emerging threats by improving risk assessment and prioritisation.
+
+-   **[Enhancements to AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)**
+
+    Remediation tasks are supported for the following AI Security Exposure Management findings:
+
+    -   AI Vulnerability Finding \(AIVUL\)
+    -   AI Validation Finding \(AIVF\)
+    -   AI Posture Finding \(AIPF\)
+    You can view these findings along with other Unified Security Exposure Management \(USEM\) findings and remediation tasks in the List module in the Security Exposure Management workspace organized by finding type.
+
+-   **[Enhancements to Exception Management for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)**
+    -   Added bulk edit support for Risk modification requests that permit you to evaluate and process multiple vulnerable items at once.
+    -   Added Smart Assessment support to the Risk Reduction option in Request Exception workflows.
 -   **[Evaluate vulnerability exposure with AI-powered analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)**
 
     The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to Unified Security Exposure Management \(USEM\). Users can now ask questions in plain language and get answers grounded in their own ServiceNow data — across all types of findings within USEM.

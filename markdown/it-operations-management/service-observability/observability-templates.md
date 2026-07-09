@@ -32,6 +32,8 @@ Templates used to create Datadog dashboards in Service Observability. You can ed
 Templates used to create Dynatrace dashboards in Service Observability. You can edit these templates as needed.
 -   **[LogicMonitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/logic-monitor-templates.md)**  
 Templates used to create LogicMonitor dashboards in Service Observability. You can edit these templates as needed.
+-   **[MetricBase templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/metricbase-templates.md)**  
+Templates used to create MetricBase dashboards in Service Observability. You can edit these templates as needed.
 -   **[New Relic templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/new-relic-templates.md)**  
 Templates used to create New Relic dashboards in Service Observability. You can edit these templates as needed.
 -   **[Prometheus templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/prometheus-templates.md)**  

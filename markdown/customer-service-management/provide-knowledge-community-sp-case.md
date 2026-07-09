@@ -26,22 +26,31 @@ The Service Portal Case form displays contextual search results based on text en
 
 ## Procedure
 
-1.  Navigate to the Customer Service Management Service Portal and then **All** &gt; **Support** &gt; **New Cases**.
+1.  Navigate to the Customer Service Portal
 
-2.  Click **Product Case** or **Order Case**.
+2.  Select **All** &gt; **Support** &gt; **New Cases**.
 
-3.  Start typing in the **Subject** field.
+3.  Select **Product Case** or **Order Case**.
+
+4.  Start typing in the **Subject** field.
 
     If there are any search results that match, they are displayed in the **Related Search Results** widget.
 
     **Note:** If embedded search has been enabled, the results are displayed inline in the Case form in a **Knowledge results** section and are read-only.
 
-4.  Perform one of the following actions.
+5.  Perform one of the following actions.
 
-    -   Click one of the content links in the **Related Search Results** widget to enter the content directly.
-    -   Click one of the content links in the embedded **Knowledge results** section to open the content inline as read-only.
-5.  Click **This helped** to mark the content as helpful for resolving the associated case.
+    -   Select one of the content links in the **Related Search Results** widget to enter the content directly.
+    -   Select one of the content links in the embedded **Knowledge results** section to open the content inline as read-only.
+6.  Select **This helped** to mark the content as helpful for resolving the associated case.
 
-6.  Click **Submit**.
+7.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
 

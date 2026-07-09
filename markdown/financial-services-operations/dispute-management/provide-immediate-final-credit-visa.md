@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Provide immediate final credit
@@ -40,23 +40,23 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the open task tab, select the dispute transaction.
 
-6.  Select the **Immediate final credit** activity under the Investigation playbook stage.
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Immediate final credit activity** from the **Dispute workspace**.
 
 7.  Select the immediate final credit task that you want to complete.
 
-8.  On the form, fill in the required fields and any other related information that you have gathered.
+8.  Fill in the required fields in the form, and any other related information that you have gathered.
 
 9.  In the **Work notes** field, enter any comments.
+
+    This step is optional.
 
 10. After you have entered the details in the task, select **Update**.
 
 11. Close the task from the playbook.
-
-    |Dispute activity|Action|
-    |----------------|------|
-    |**To close the Immediate final credit task**|Select **Close**.|
 
 
 ## Result

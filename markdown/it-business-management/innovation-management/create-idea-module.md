@@ -43,5 +43,5 @@ Define new idea categories or use an existing table to derive the categories fro
 
 **Previous topic:**[Idea Portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal-navigation.md)
 
-**Next topic:**[Define new idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/define-idea-categories.md)
+**Next topic:**[Define idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/define-idea-categories.md)
 

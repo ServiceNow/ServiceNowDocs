@@ -28,15 +28,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The email address for Workplace Concierge is configured by your admin.
 
-<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d410852e75">
+<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d412061e75">
 
 Choice
 
-</th><th align="left" id="d410852e78">
+</th><th align="left" id="d412061e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410852e84">
+</th></tr></thead><tbody><tr><td id="d412061e84">
 
 **Calendar invite**
 
@@ -44,7 +44,7 @@ Description
 
 Add Workplace Concierge as a guest to the calendar invite.Workplace Concierge extracts the meeting date and time, host identity, location, and attendee email addresses.
 
-</td></tr><tr><td id="d410852e100">
+</td></tr><tr><td id="d412061e100">
 
 **Email thread**
 

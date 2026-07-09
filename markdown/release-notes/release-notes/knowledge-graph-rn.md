@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Knowledge Graph release notes
@@ -13,6 +13,11 @@ reading_time_minutes: 1
 The ServiceNow® Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.
 
 ## Knowledge Graph highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Knowledge Graph can now be used as a tool within MCP server console from a subset of Now Assist\[var.now-assist\] skills.
+-   Knowledge Graph now supports queries with Glidelist references.
 
 -   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 -   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.

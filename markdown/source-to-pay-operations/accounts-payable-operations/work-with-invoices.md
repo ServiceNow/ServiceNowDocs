@@ -1,5 +1,5 @@
 ---
-title: Work with invoices
+title: Invoice processing overview
 description: Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-invoices.html
@@ -13,7 +13,7 @@ keywords: [APO, Accounts Payable Operations, invoice processing, invoice managem
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Work with invoices
+# Invoice processing overview
 
 Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
 
@@ -39,7 +39,7 @@ View invoices you own directly from Employee Center to monitor invoice status an
 **Related topics**  
 
 
-[Invoice ingestion using Application programming interface \(API\)]()
+[Invoice ingestion using the AP Invoice API]()
 
 [Rules based engine]()
 

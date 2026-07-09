@@ -16,11 +16,11 @@ breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance
 
 Collaboration in Smart Assessment Engine enables you to add multiple contributors to an assessment and support live collaboration with real-time updates. It also displays presence indicators to show who is active on the assessment.
 
-## Exploring Collaboration
+## Collaboration overview
 
 The Collaboration feature in the Smart Assessment Engine aims to enhance the efficiency and effectiveness of team-based assessments by enabling multiple users to work together in real-time. It enables assessments to be assigned and reassigned to contributors, with simultaneous editing supported, each user's changes appear instantly to others. Presence indicators also show who are currently active on the assessment.
 
-To support larger and more complex assessments, collaboration is extended through Granular Delegation, introducing section-level responsibility and access control. Granular delegation enables owners to assign contributors to entire assessments or specific sections, confirming subject matter experts focus only on relevant areas, improving efficiency, and assessment quality overall. Access follows a hierarchical model, when a user is granted access to a section, they automatically inherit access to all subsections within that section. As a result, teams can work together smoothly while maintaining clear ownership, strong data integrity, and visibility into individual responsibilities.
+To support larger and more complex assessments, collaboration is extended through Granular Delegation, introducing section-level responsibility and access control. Granular delegation enables owners to assign contributors to entire assessments or specific sections, so that subject matter experts focus only on relevant areas, improving efficiency, and assessment quality overall. Access follows a hierarchical model, when a user is granted access to a section, they automatically inherit access to all subsections within that section. As a result, teams can work together smoothly while maintaining clear ownership, strong data integrity, and visibility into individual responsibilities.
 
 The Owner has the authority to assign or reassign the assessment and to add or remove contributors. Only the Owner can submit the assessment. Contributors can view the assessments assigned to them and see all participants listed in the side panel, but they cannot reassign or submit the assessment. Contributors can respond to questions and add comments and attachments to the assessment.
 
@@ -80,7 +80,7 @@ Collaboration supports three distinct access levels, enabling primary owners to 
 Collaboration in Smart Assessment Engine enables multiple stakeholders to contribute, review, and refine content in real-time. It introduces flexibility, accountability, and improved quality into the process.
 
 -   Tasks can be distributed and completed in parallel, significantly reducing turnaround time.
--   Every change is tracked, confirming accountability and offering a transparent view of who contributed what and when.
+-   Every change is tracked, maintaining accountability and offering a transparent view of who contributed what and when.
 -   Collective expert knowledge results in more thorough and reliable assessments.
 -   Large and complex assessments become manageable by dividing work among contributors.
 -   Granular delegation supports diverse team structures, from full collaboration to highly targeted, section-specific assignments.

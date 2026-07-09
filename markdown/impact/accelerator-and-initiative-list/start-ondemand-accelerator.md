@@ -1,51 +1,51 @@
 ---
-title: Start an on-demand accelerator
-description: Complete the accelerator fulfillment process without squad assistance.
+title: Start an on-demand Accelerator
+description: Complete the Accelerator fulfillment process without squad assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/start-ondemand-accelerator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [On-demand accelerators, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Self-serve Accelerator fulfillment process, Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Start an on-demand accelerator
+# Start an on-demand Accelerator
 
-Complete the accelerator fulfillment process without squad assistance.
+Complete the Accelerator fulfillment process without squad assistance.
 
 ## Before you begin
 
-Role required: impact app admin, impact platform owner, or impact portfolio owner
+Role required: Impact app admin, Impact platform owner, or Impact portfolio owner
 
 ## About this task
 
-The self-serve flow for on-demand accelerators is structured across different types of activities grouped as questionnaire, transformation, and action plan. Each group has multiple steps with a set of instructions and related forms that you must complete in sequence. At the end of the self-serve flow, download the 90-day action plan for the selected accelerator.
+The self-serve flow for on-demand Accelerators is structured across different types of activities grouped as questionnaire, transformation, and action plan. Each group has multiple steps with a set of instructions and related forms that you must complete in order. At the end of the self-serve flow, download the 90-day action plan for the selected Accelerator.
 
 ## Procedure
 
-1.  View the on-demand accelerators in **Impact** &gt; **Accelerators and Initiatives** &gt; **Catalog** by selecting **Show on-demand accelerators only** in the **All Accelerators and Initiatives** section.
+1.  View the on-demand Accelerators in **Impact** &gt; **Accelerators and Initiatives** &gt; **Catalog** by selecting **Show on-demand Accelerators only** in the **All Accelerators and Initiatives** section.
 
-    The catalog page displays flash cards of the accelerators that also have the on-demand option in the **Accelerators and Initiatives** section. \[Omitted image "image.ondemand\_accelerators\_catalog\_page"\] Alt text: View flash cards for only the on-demand accelerators in the Accelerators and Initiatives section.
+    The catalog page displays flash cards of the Accelerators that also have the on-demand option in the **Accelerators and Initiatives** section. \[Omitted image "ondemand\_accelerators\_catalog\_page.png"\] Alt text: View flash cards for only the on-demand Accelerators in the Accelerators and Initiatives section.
 
-2.  In the accelerator flash card, select **On-demand** &gt; **Start Accelerator**.
+2.  In the Accelerator flash card, select **On-demand** &gt; **Start Accelerator**.
 
 3.  In the **Request form** section of the **Start Accelerator** page, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |**Preferred Start Date**|Preferred start date for the accelerator|
-    |**Assign to Business Objective**|Business goal expected for this accelerator|
-    |**Owner**|Name of the owner for the accelerator request|
+    |**Preferred Start Date**|Preferred start date for the Accelerator|
+    |**Assign to Business Objective**|Business goal expected for this Accelerator|
+    |**Owner**|Name of the owner for the Accelerator request|
     |**Watchlist**|Names of the team members who must know the progress of the Accelerator request|
-    |**Reason for starting**|Reason for starting the accelerator|
+    |**Reason for starting**|Reason for starting the Accelerator|
     |**Attachments**|Relevant files for reference|
 
 4.  Select **Complete Setup** to initiate the self-serve process.
 
-    \[Omitted image "image.self\_serve\_accelerator\_window"\] Alt text: Begin the accelerator workflow.
+    \[Omitted image "self\_serve\_accelerator\_window.png"\] Alt text: Begin the Accelerator workflow.
 
 5.  Proceed with the workflow by selecting **Continue** on every page.
 
@@ -55,7 +55,7 @@ The self-serve flow for on-demand accelerators is structured across different ty
 
 7.  Complete the tasks in the remaining workflow by following on-screen instructions.
 
-    You can download the action plan after you complete all the tasks in the accelerator setup workflow.
+    You can download the action plan after you complete all the tasks in the Accelerator setup workflow.
 
 
 **Related topics**  

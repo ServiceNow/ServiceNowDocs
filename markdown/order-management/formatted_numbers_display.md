@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Setting the number format of an editable field
@@ -58,5 +58,5 @@ To view a list of supported units, see [ECMAScript® 2026 Internationalization A
 
 You can use customUnit for units not in this list.
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
 

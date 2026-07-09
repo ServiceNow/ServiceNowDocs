@@ -63,7 +63,7 @@ A published skill appears on the **Available** tab with a **Not started** state 
 
 After activation, the skill moves to the **Active** tab in Now Assist Admin. Users can now trigger the skill from the deployment locations you configured in the skill's deployment settings.
 
-You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
+You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see .
 
 **Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

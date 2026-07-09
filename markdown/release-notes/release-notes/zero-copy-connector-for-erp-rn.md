@@ -23,15 +23,15 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 ## New in the Australia release
 
--   **[Support for REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md)**
+-   **[Support for REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-use-rest.md)**
 
     Connect to ERPs using REST APIs for read and write operations.
 
--   **AI agent for SAP OData services**
+-   **[AI agent for SAP OData services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-ai-agent-odata-service-recommender.md)**
 
     Discover relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This reduces missed integration opportunities and accelerates development by finding standard SAP capabilities that align with your use cases.
 
--   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-content-packs.md)**
+-   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-recruit-to-retire-content-pack.md)**
 
     Use the Hire to Retire content pack containing models to get Zero Copy Connector for ERP running on your instance faster.
 
@@ -45,8 +45,8 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Changed in this release

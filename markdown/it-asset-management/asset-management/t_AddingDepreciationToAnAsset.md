@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage various assets through asset classes, Use, Asset Management, IT Asset Management]
+breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Add depreciation to an asset

@@ -63,6 +63,7 @@ Telecommunications applications that enable you to automate operations and manag
 
 </td><td>
 
+-   [Data Center and Network Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/exploring-dcnam.md)
 -   [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-network-inventory.md)
 -   [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-service-operations-management.md)
 -   [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt.md)
@@ -116,7 +117,7 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 
 -   Learn more about what's new and changed, see the [Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md).
 -   Learn about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications, Media, and Technology \(TMT\) features at [Now Create](https://learning.servicenow.com/nowcreate).
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore general guidelines at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Telecommunications, Media, and Technology \(TMT\) users at [Now Community](https://www.servicenow.com/community/crm-and-industry-solutions/ct-p/industry-solutions).

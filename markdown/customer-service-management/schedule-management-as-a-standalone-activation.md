@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Schedule Management in CSM Configurable Workspace Workforce Optimization for Customer Service, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
+breadcrumb: [Schedule Management in CSM Configurable Workspace, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Schedule Management standalone activation
@@ -26,5 +26,5 @@ Standalone installation supports the following use cases:
 
 **Note:** Existing WFO deployments that include Schedule Management continue to function after standalone activation. No additional configuration is required for existing integrated environments. Scheduling workflows, permissions, and integrations remain unchanged.
 
-**Parent Topic:**[Schedule Management in CSM Configurable Workspace Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.md)
+**Parent Topic:**[Schedule Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Policy and Compliance Management release notes
@@ -20,18 +20,18 @@ The ServiceNow® Policy and Compliance Management application provides a central
 -   Rationalize UCF and non-UCF control objectives together in a single rationalization process.
 -   Email notification links redirect users to their appropriate workspace based on their assigned roles.
 
-See [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md) for more information.
+See  for more information.
 
 **Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Personal authentication and document access permissions in policy authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/personal-auth-and-document-access-policy-authoring.md)**
+-   **Personal authentication and document access permissions in policy authoring**
 
     After upgrading Policy and Compliance Management to 22.3.2, you can enable personal authentication for policy authoring in Microsoft SharePoint and Google Drive. When enabled, policy authoring uses a hybrid authentication model. Create, connect, and upload operations run under the logged-in user's personal credentials, while document access permission grants and content sync always run under the shared service account. This approach supports audit traceability at the individual user level for document operations and keeps access management and sync consistent regardless of who initiates them.
 
 
--   **[Dashboard access from Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-dashboards-in-compliance-workspace.md)**
+-   **Dashboard access from Compliance Workspace**
 
     After upgrading to 22.3.2, you can access Policy and Compliance Management dashboards directly from the Compliance Workspace.
 
@@ -44,17 +44,17 @@ See [Policy and Compliance Management](https://raw.githubusercontent.com/Service
     These dashboards are also accessible from the Platform Analytics application.
 
 
--   **[Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/template-versioning.md)**
+-   **Assessment template versioning**
 
     After upgrading Policy and Compliance Management to 22.3.2, CRI tiering questionnaire, CRI profile assessment, and control assessment templates support versioning. Template managers can create and publish new versions of these templates over time. When a CRI tiering questionnaire, CRI profile assessment, or control assessment is initiated, the assessment is generated using the latest published version of the template.
 
 
--   **[Role-based workspace redirection for email notification links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-tasks-pol-comp-ws.md)**
+-   **Role-based workspace redirection for email notification links**
 
     After upgrading Policy and Compliance Management to 22.3.2, email notification links for Policy and Compliance Management records redirect users to their appropriate workspace based on their assigned roles. Users without a workspace role are redirected to the GRC Task Page, or to the classic UI if the common workspace is not installed. The following record types support workspace redirection: Controls, Evidence, Control risk indicators, Indicator task, Policy acknowledgments, and Policy exceptions.
 
 
--   **[Control objective workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/concept_cob_workflow.md)**
+-   ****
 
     After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. Enable this feature using the **Enable Control Objective Workflow** property under **Policy and Compliance** &gt; **All** &gt; **Properties** and is disabled by default.
 
@@ -63,7 +63,7 @@ See [Policy and Compliance Management](https://raw.githubusercontent.com/Service
     -   Editing a published control objective creates a working draft, keeping the published record active until approved changes are published.
     -   Users must select a revision type: Major or Minor. A Major revision moves associated controls back to Draft. A Minor revision applies updates without moving controls back to Draft.
     -   The Owner and Owning Group fields control who can edit the control objective and perform workflow actions.
--   **[Rationalizing control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Rationalizing control objectives**
 
     After upgrading Policy and Compliance Management to 22.0.1, both Unified Compliance Framework \(UCF\) control objectives and non-UCF control objectives can be rationalized together.
 
@@ -74,12 +74,17 @@ See [Policy and Compliance Management](https://raw.githubusercontent.com/Service
 
 ## UI changes
 
--   **[SAE columns in Control Attestations list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_Attestations.md)**
+-   **SAE columns in Control Attestations list view**
 
     The Control Attestations list view now displays the Control and Entity columns, showing the control name and associated entity for each assessment instance. These columns are visible on the Compliance Workspace, Tasks page, Employee Center, and Risk Portal.
 
 
 ## Changed in this release
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -87,8 +92,8 @@ See [Policy and Compliance Management](https://raw.githubusercontent.com/Service
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information

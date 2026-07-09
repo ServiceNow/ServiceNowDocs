@@ -32,7 +32,7 @@ The following procedure describes how to assign HR skills in the Manage HR Skill
 
     \[Omitted image "HRSkillsAssignment.png"\] Alt text: HR skills
 
-    Skills appear on the left. Select a skill to see the assigned users on the right. The user cards indicate how many skills each employee is assigned. If no skills are assigned to a user, the number on the user card is red. Skills with no assigned users are red in the skills list.
+    Skills appear on the left. Select a skill to see the assigned users on the right. The user cards indicate how many skills each employee is assigned. Skills with no assigned users are red in the skills list.
 
 2.  Select a skill in the **All Skills** list to assign to users.
 

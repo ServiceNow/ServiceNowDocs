@@ -8,7 +8,7 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -28,16 +28,10 @@ For more information, see [Summarize demands with demand summarization skill](ht
 
 The refine record skill improves demand quality by enabling AI-assisted text refinement directly within the text fields of demand records. You can elaborate on a brief description or shorten lengthy content without losing key information. This feature helps verify demands are clear, complete, and actionable from the start.
 
-The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently. For more information, see [Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently. For more information, see [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
 
 **Related topics**  
 
 
 [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
-
-[Exploring Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
-
-[Summarize demands with demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.md)
-
-[Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md)
 

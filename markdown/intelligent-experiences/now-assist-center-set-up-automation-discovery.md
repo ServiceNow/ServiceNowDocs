@@ -86,7 +86,7 @@ Analyzes interaction records from chat, voice, and email channels to uncover fre
 
     2.  Use conditions to select certain properties as a filter.
 
-        For more information on how conditions work, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md).
+        For more information on how conditions work, see .
 
     3.  Select **Add condition set** to add conditions.
 

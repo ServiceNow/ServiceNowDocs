@@ -30,7 +30,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -48,7 +48,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_
 
     3.  Copy the shareable folder link from Google Drive and paste it in the **Folder link** field in the Create a document pop-up.
 
-        To get the folder link, right-click the folder in Google Drive, select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: More actions icon icon. Select **Share** and **Copy link**.
+        To get the folder link, right-click the folder in Google Drive, select the More icon. Select **Share** and **Copy link**.
 
     4.  Enter the name of the document in the **Document name** field.
 

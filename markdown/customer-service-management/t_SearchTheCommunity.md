@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer service portal.
 
-2.  Click **Ask the Community**.
+2.  Select **Ask the Community**.
 
     This brings up the Ask a Question page.
 
@@ -34,8 +34,15 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 6.  If desired, add one or more tags to your question in the **Tags** field.
 
-7.  Click **Post Question**.
+7.  Select **Post Question**.
 
     The question appears on the search results page under the **Questions** category.
 
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThePortal.md)
 

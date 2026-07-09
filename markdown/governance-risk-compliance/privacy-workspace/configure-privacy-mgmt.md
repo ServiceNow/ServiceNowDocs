@@ -28,7 +28,7 @@ Create privacy assessment templates using the Smart Assessment Engine as a base 
 Create various types of assessments and send those assessments to the business process or business application owners to collect their responses. The responses help you to understand how personal information \(PI\) is being used or stored in a processing activity.
 -   **[Create and validate an assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-an-assessment-configuration.md)**  
 Create your assessment configurations to determine when a processing activity must be automatically created.
--   **[Create a version of a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md)**  
+-   **[Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md)**  
 Publish a new version of a smart assessment template to revise its questionnaire, response options, or automations. Each version maintains a change history of templates used in privacy screening, impact, and breach assessments.
 -   **[Map a table with a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.md)**  
 Keep your processing activity updated and in sync with any table in ServiceNow® by mapping the entity fields with the processing activity.

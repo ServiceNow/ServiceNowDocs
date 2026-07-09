@@ -18,7 +18,7 @@ You can create as many versions of a filter as necessary. You can then designate
 
 ## Before you begin
 
-Role required: none
+Role required: certification\_admin
 
 ## Procedure
 

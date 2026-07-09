@@ -1,5 +1,5 @@
 ---
-title: Add members to an channel partner
+title: Add members to a channel partner
 description: Register a new partner member or transfer existing staff within a partner organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-add-members-to-an-channel-partner.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding staff members, Create a dealer, Set up dealer, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Create channel partner, Dealer, Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
 
-# Add members to an channel partner
+# Add members to a channel partner
 
 Register a new partner member or transfer existing staff within a partner organization.
 
@@ -24,13 +24,15 @@ The Enterprise Partner Relationship Manager \[sn\_prm.enterprise\_partner\_rel\_
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list view.
+1.  Navigate to the **CSM/FSM Configurable Workspace**
 
-2.  Select **Channel Partners** from the Partner Relationship Management module.
+2.  Select the list view.
 
-3.  Open a channel partner record from the list and select **Register Partner Staff**.
+3.  Select **Channel Partners** from the Partner Relationship Management module.
 
-4.  On the form, fill in the fields.
+4.  Open a channel partner record from the list and select **Register Partner Staff**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -42,10 +44,10 @@ The Enterprise Partner Relationship Manager \[sn\_prm.enterprise\_partner\_rel\_
     |Email|Email of the member.|
     |Role type|Type of role that is assigned to a member, whether Partner Manager or Partner Associate.|
 
-5.  Upload a file or document in the **Add attachments** section.
+6.  Upload a file or document in the **Add attachments** section.
 
     This is an optional field.
 
-6.  Select **Submit**.
+7.  Select **Submit**.
 
 

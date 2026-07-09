@@ -56,7 +56,7 @@ Build Agent is available as a trial app on a freemium model. To install Build Ag
 
 After you install the Build Agent \(Trial\) app, your instance will receive 100 free user interactions for 30 days at no additional charge, enabling you to explore Build Agent features at no additional cost.
 
-If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent. For more information on how to install Build Agent, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
+If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
 
 ## Localization and Build Agent
 

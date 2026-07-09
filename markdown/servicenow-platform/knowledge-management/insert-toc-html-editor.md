@@ -30,17 +30,17 @@ You can also use the HTML editor when creating or editing a knowledge article us
 
 You can generate a table of contents only if your article uses heading levels from Heading 1 to Heading 3 and is a standard article.
 
-**Note:** Use Format select to set heading levels in the article. You can also configure the HTML toolbar using TinyMCE attributes. For more information, see [Customize TinyMCE attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md). \[Omitted image "km-h1.png"\] Alt text: HTML toolbar
+**Note:** Use Format select to set heading levels in the article. You can also configure the HTML toolbar using TinyMCE attributes. For more information, see [Customize TinyMCE attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md).
 
 ## Procedure
 
 1.  In the Article body section, place the cursor where you want to insert the table of contents.
 
-2.  Select the table of contents icon \(\[Omitted image "toc.png"\] Alt text: Table of Contents icon\) on the HTML toolbar.
+2.  Select the table of contents icon on the HTML toolbar.
 
     If you do not see the table of contents icon on the toolbar, add it using steps available in [Customize TinyMCE attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md).
 
-3.  Update an existing table of contents by selecting it and then selecting the update icon \(\[Omitted image "toc-update.png"\] Alt text: Update icon\) on the HTML toolbar.
+3.  Update an existing table of contents by selecting it and then selecting the update icon on the HTML toolbar.
 
 4.  The TOC font defaults to Verdana 8pt, but for those comfortable working in source code, you can edit the default by selecting the source code icon in the HTML Toolbar and changing the font size manually.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reviewing and approving the sales promotion claims, Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Reviewing and approving the sales promotion claims, Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Approve all claims
@@ -36,6 +36,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 6.  View the sales promotion claim summary details by selecting **Claim Summary**
 
-
-**Parent Topic:**[Reviewing and approving the sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-approve-sales-promotion-claims.md)
 

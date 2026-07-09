@@ -46,25 +46,5 @@ Agent-initiated wrap-up provides the following benefits:
     Agents handling complex or sensitive calls can document context as it happens, reducing the risk of incomplete or inaccurate notes.
 
 
-## Agent workflow
-
-The following is a high-level overview of how an agent initiates wrap-up during an active call:
-
-1.  The agent is handling an active call in the Agent Workspace via the ICC.
-2.  The agent selects **Open Wrap-Up** in the active call controls. The CCaaS platform receives the wrap-up event and returns the available wrap-up codes.
-3.  The wrap-up modal opens. The agent selects the appropriate wrap-up code and enters summary notes and comments.
-4.  The agent reviews the entries and submits the wrap-up. A confirmation appears in the workspace and the data is saved to the system of record.
-5.  The call remains active. The agent continues the call normally.
-
-**Note:** Agents can initiate wrap-up even if the current call flow does not have mandatory wrap-up configured.
-
-## Administrator workflow
-
-The following is a high-level overview of how a CCaaS administrator configures agent-initiated wrap-up:
-
-1.  The administrator navigates to **Integration** &gt; **Wrap-Up Configuration** in the ServiceNow instance.
-2.  The administrator creates or opens an existing wrap-up configuration for the relevant external channel.
-3.  The contact centers can enable the agent-initiated wrap-up option and define the wrap-up codes that agents can select during a call.
-
-**Note:** Agent-initiated wrap-up applies only to supported CCaaS integrations. Call flows on unsupported platforms do not surface the **Open Wrap-Up** control, even if the configuration is enabled.
+See: [Configure agent-initiated wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-admin-workflow.md) and [Initiate wrap-up during an active call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-agent-workflow.md).
 

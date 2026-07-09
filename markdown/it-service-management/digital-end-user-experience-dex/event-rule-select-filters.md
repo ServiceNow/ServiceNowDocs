@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-04-22"
 reading_time_minutes: 1
+keywords: [event rule filters, select filters, event filtering, conditional filtering]
 breadcrumb: [Creating an event rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 

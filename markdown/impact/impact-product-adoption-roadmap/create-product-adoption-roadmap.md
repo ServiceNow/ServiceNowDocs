@@ -1,5 +1,5 @@
 ---
-title: Manage product adoption roadmaps for the Impact Store Application
+title: Create product adoption roadmaps in Impact
 description: Create a product adoption roadmap \(PAR\) using either a predefined template or a custom roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/create-product-adoption-roadmap.html
@@ -9,10 +9,10 @@ classification: impact-product-adoption-roadmap
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Product Adoption Roadmaps, Product Adoption, Using Impact, Impact]
+breadcrumb: [Build implementation plans, Product adoption, Using Impact, Impact]
 ---
 
-# Manage product adoption roadmaps for the Impact Store Application
+# Create product adoption roadmaps in Impact
 
 Create a product adoption roadmap \(PAR\) using either a predefined template or a custom roadmap.
 
@@ -37,15 +37,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In the **How do you want to start?** section, indicate whether you want to create the roadmap from a template or manually.
 
-<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d111777e177">
+<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d112685e175">
 
 How do you want to start?
 
-</th><th align="left" id="d111777e180">
+</th><th align="left" id="d112685e178">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d111777e186">
+</th></tr></thead><tbody><tr><td id="d112685e184">
 
 **Create from a Template**
 
@@ -56,7 +56,7 @@ Actions
 
 **Note:** You can access product adoption roadmap templates with pre-defined sequence of capabilities for ITSM, ITOM, Security Operations, Customer Service Management, Risk and Field Service Management.
 
-</td></tr><tr><td id="d111777e212">
+</td></tr><tr><td id="d112685e210">
 
 **Create a roadmap manually**
 
@@ -73,7 +73,7 @@ Actions
 
     \[Omitted image "select-capability-PARs.png"\] Alt text: Select a capability in a created map to view its details and edit phases.
 
-    Select the **About** tab to view capability notes and phase specific notes for that capability. See [Capability Details Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capability-details.md).
+    Select the **About** tab to view capability notes and phase specific notes for that capability. See [Capability details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capability-details.md).
 
 8.  Select **Edit Roadmap Details** to edit the name, description and owner of the map.
 

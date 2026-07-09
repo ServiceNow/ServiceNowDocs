@@ -490,8 +490,8 @@ For example, a nurse opens the chat icon in the Care Team Portal and asks Virtua
 To learn more, see:
 
 -   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)
--   [Enable Voice Assistant in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-create-launcher-button.md)
--   [Assign the launcher to your voice and chat assistants in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md)
+-   [Create a chat launcher button in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-create-launcher-button.md)
+-   [Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md)
 
 ## W
 

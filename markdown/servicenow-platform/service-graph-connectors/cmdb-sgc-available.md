@@ -73,7 +73,7 @@ Select an application to learn about the Service Graph Connector available for i
 
 </td><td>
 
-[Tanium Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)\[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.
+[Tanium Endpoints \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Select an application to learn about the Service Graph Connector available for i
 
 </td></tr><tr><td>
 
-[Dynatrace SaaS\[Omitted image "sgc-dynatrace.png"\] Alt text: Dynatrace logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Dynatrace SaaS\[Omitted image "sgc-dynatrace.png"\] Alt text: Dynatrace logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-dynatrace-saas.md)
 
 </td><td>
 
@@ -155,7 +155,7 @@ Select an application to learn about the Service Graph Connector available for i
 
 </td></tr><tr><td>
 
-[Akamai API Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-akamai.md)\[Omitted image "sgc-akamai.png"\] Alt text: Akamai API Security logo
+[Akamai API Security\[Omitted image "sgc-akamai.png"\] Alt text: Akamai API Security logo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-akamai.md)
 
 </td><td>
 

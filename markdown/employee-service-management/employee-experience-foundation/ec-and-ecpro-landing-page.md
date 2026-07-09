@@ -1,6 +1,6 @@
 ---
 title: Unified Employee Experience
-description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations.
+description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and Employee Slate, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Employee Service Management]
 
 # Unified Employee Experience
 
-The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations.
+The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and Employee Slate, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
 
 <table id="table_mtz_sfy_sdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -24,6 +24,10 @@ The Unified Employee Experience suite of products consist of Employee Center, th
 
 [Employee Center Pro\[Omitted image "bus-manage.svg"\] Alt text:Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
 
+</td></tr><tr><td colspan="2">
+
+[Employee Slate\[Omitted image "bus-service-aware.svg"\] Alt text:Employee Slate delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+
 </td></tr></tbody>
 </table>## Employee Center versus Employee Center Pro
 
@@ -31,6 +35,7 @@ Employee Center is one portal that is packaged as two separate store application
 
 -   Employee Center: Multi-department service delivery that enables employees to report issues, request items or services, find service-related answers, and complete to-dos. This application and its capabilities are available to all customers by default.
 -   Employee Center Pro: Subscription-based application that extends the standard Employee Center capabilities including content creation capabilities, multi-stage and multi-channel content delivery, and portal analytics. This application requires additional licensing.
+-   Employee Slate: AI-first employee experience application that unifies search, requests, tasks, knowledge, and communications in one destination. This application requires additional licensing.
 
 <table id="table-ec-comparision"><thead><tr><th>
 
@@ -250,6 +255,18 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 </td><td>
 
 \[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Now Assist for Accounts Payable Operations \(APO\)
-description: Use the ServiceNow Now Assist for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
+description: Now Assist for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 # Now Assist for Accounts Payable Operations \(APO\)
 
-Use the ServiceNow® Now Assist for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
+Now Assist for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
 
 ## Get started
 

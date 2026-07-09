@@ -1,5 +1,5 @@
 ---
-title: Automatic dashboard setup in CMDB success advisor
+title: Automatic dashboard setup for Data Foundations in CMDB success advisor
 description: CMDB success advisor can automatically configure the Data Foundations advisor dashboard on installation or upgrade, giving you immediate access to pre-configured CMDB health insights without manual setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.html
@@ -7,26 +7,27 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
+keywords: [auto-setup, automatic dashboard setup, Data Foundations advisor dashboard, principal classes]
 breadcrumb: [Get started with dashboard setup, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Automatic dashboard setup in CMDB success advisor
+# Automatic dashboard setup for Data Foundations in CMDB success advisor
 
 CMDB success advisor can automatically configure the Data Foundations advisor dashboard on installation or upgrade, giving you immediate access to pre-configured CMDB health insights without manual setup.
 
 ## Auto-setup process
 
-When you install or upgrade CMDB success advisor, the **CMDB Advisor - Auto Setup** on-demand scheduled job can automatically configure the Data Foundations advisor dashboard. The job checks eligibility conditions, applies the recommended principal class scope, creates the dashboard configuration, and triggers initial data collection.
+When you install or upgrade CMDB success advisor, the **CMDB Advisor - Auto Setup** on-demand scheduled job configures the Data Foundations advisor dashboard automatically. The job checks eligibility conditions, applies the recommended principal class scope, creates the Data Foundations content template, and triggers initial data collection.
 
-After data collection completes, as a user with the sn\_cmdb\_admin role, you receive a notification with a link to the configured dashboard. You can review and modify the auto-selected scope at any time using the standard scope management options.
+After data collection completes, users with the sn\_cmdb\_admin role receive a notification with a link to the configured dashboard.
 
 The dashboard card on the CMDB success advisor landing page displays a badge with the number of principal classes that auto-setup selected.
 
 ## Eligibility conditions
 
-Auto-setup runs only when all of the following conditions are met. If any condition is not met, you can configure the Data Foundations advisor dashboard manually.
+Auto-setup runs only when all the following conditions are met. If any condition is not met, you can configure the Data Foundations advisor dashboard manually.
 
 -   The instance has no existing Data Foundations dashboard.
 -   The total number of CIs on the instance is fewer than 65 million.
@@ -34,7 +35,7 @@ Auto-setup runs only when all of the following conditions are met. If any condit
 
 ## Scope selected by auto-setup
 
-The following logic applies when auto-setup sets the principal class scope:
+The following logic applies when auto-setup selects the principal class scope:
 
 -   If no principal classes exist, the top five recommended classes form the scope. Rankings reflect recent incident, problem, and change \(IPC\) activity. For more information, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
 -   If one to four principal classes already exist, those classes remain in scope and additional recommendations fill the scope to a total of five.
@@ -42,15 +43,15 @@ The following logic applies when auto-setup sets the principal class scope:
 
 ## Data collection and notifications after auto-setup
 
-After auto-setup completes, data collection begins automatically. Data collection starts at a monthly frequency and switches to a daily frequency the first time you interact with the dashboard.
+After auto-setup completes, data collection begins automatically. Data collection runs monthly and changes to daily after you open the dashboard for the first time.
 
-The **CMDB Advisor - Check Job Completion and Notify** scheduled job checks whether data collection has completed. When collection completes, the job sends a notification to users with the sn\_cmdb\_admin role through two channels: a record in the CMDB success advisor notification table with a direct link to the configured dashboard, and a notification in the ServiceNow platform notification center \(bell icon\). The job deactivates itself after it sends all product notifications.
+The **CMDB Advisor - Check Job Completion and Notify** scheduled job checks whether data collection has completed. When collection completes, the job sends a notification to users with the sn\_cmdb\_admin role that includes a link to the configured dashboard. After all notifications are sent, the job is deactivated.
 
-When you first open the advisor after auto-setup completes, a toast notification appears with a readiness confirmation and a summary of the auto-selected scope.
+When you first open the Data Foundations advisor after auto-setup completes, a notification indicates that the advisor is ready and shows the number of principal classes automatically selected based on incident, problem, and change \(IPC\) activity.
 
 ## Reviewing and modifying the auto-setup scope
 
-You can review and update the scope selected by auto-setup at any time using the standard scope management options on the dashboard.
+You can review and update the model categories selected by auto-setup at any time.
 
 To modify the Data Foundations scope, see [Manage Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
 

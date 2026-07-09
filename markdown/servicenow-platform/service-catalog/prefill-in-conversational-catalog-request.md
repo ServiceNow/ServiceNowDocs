@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [LLM topic blocks, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Prefill in conversational catalog request
@@ -34,7 +34,7 @@ In conversational catalog requests, the system extracts contextual information s
 -   Stated an urgency or preferred resolution date, those values prefill date or priority fields on the catalog item.
 -   Described a business justification or request reason earlier in the conversation, that text prefills a description or justification variable.
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 
 **Related topics**  
 

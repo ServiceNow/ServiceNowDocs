@@ -291,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d339238e1212">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d341836e1212">
 
 **Enable the indicator for all administrators**
 
@@ -299,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d339238e1227">
+</td></tr><tr><td id="d341836e1227">
 
 **Enable the indicator for an individual administrator**
 

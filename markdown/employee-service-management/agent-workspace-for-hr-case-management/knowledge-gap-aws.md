@@ -24,11 +24,11 @@ Role required: none
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select an HR case.
 
-4.  Select the More icon \[Omitted image "more-icon.png"\] Alt text: More icon and select **Report knowledge gap** from the drop-down list.
+4.  Select the More icon \(\[Omitted image "more-icon.png"\] Alt text: More icon\) and select **Report knowledge gap** from the drop-down list.
 
 5.  In the Knowledge feedback task form, enter a description in the **Description** field.
 

@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Schedule the project insights email
@@ -36,11 +36,11 @@ When a project is created in the work in progress state, the project insight gen
 
 2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Configure project insights**.
 
-    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent.
+    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent. For more information on project insights configuration, see [Project Insights Auto-Emails: Configuration and Customization Guide](https://www.servicenow.com/community/spm-articles/project-insights-auto-emails-configuration-and-customization/ta-p/3567549).
 
 3.  From the Configure project insights modal, in Choose topics step, select **Next**.
 
-    You can select or deselect the project, project task, milestone, resource assignment, ridac, and financial card to customize what information is displayed in the Project insights email.
+    You can select or deselect the project, project task, milestone, resource assignment, ridac, and financial card to customize what information is displayed in the project insights email. For more information on how insights are delivered, see [Project insights overview](https://www.servicenow.com/community/spm-articles/project-insights-engine-what-gets-surfaced-and-why/ta-p/3529023).
 
 4.  In Personalize content step, add your requirements and select **Next**.
 
@@ -64,7 +64,7 @@ When a project is created in the work in progress state, the project insight gen
 
     **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
-    This skill automatically generates and sends project insight emails based on project data and activity. These emails provide a consolidated view of project health, including schedule variance, RIDAC \(risks, issues, decisions, actions, and change requests\), resources, milestones, projects, project tasks, and financial insights. Project items are automatically grouped into RIDAC categories and classified by impact level: high, medium, or low, while financial insights highlight potential risks and variances. This automated insight delivery helps stakeholders stay informed about project health, risks, and financial status without manual reporting effort.
+    This skill automatically generates and sends project insight emails based on project data and activity. These emails provide a consolidated view of project health, including schedule variance, RIDAC \(risks, issues, decisions, actions, and change requests\), resources, milestones, projects, project tasks, and financial insights. Project items are automatically grouped into RIDAC categories and classified by impact level: high, medium, or low, while financial insights highlight potential risks and variances. This automated insight delivery helps stakeholders stay informed about project health, risks, and financial status without manual reporting effort. For more information, see [What Project Insights Detects — Risks &amp; Actions \(RIDAC\), Financials and Schedule](https://www.servicenow.com/community/spm-articles/what-project-insights-detects-risks-amp-actions-ridac-financials/ta-p/3533785).
 
     This skill considers task-level work notes when generating project insights.
 

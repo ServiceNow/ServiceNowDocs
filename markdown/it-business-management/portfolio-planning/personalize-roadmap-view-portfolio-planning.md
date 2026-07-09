@@ -31,15 +31,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d43019e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d43190e99">
 
 Roadmap type
 
-</th><th align="left" id="d43019e102">
+</th><th align="left" id="d43190e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d43019e108">
+</th></tr></thead><tbody><tr><td id="d43190e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d43019e129">
+</td></tr><tr><td id="d43190e129">
 
 **Free-form roadmap**
 
@@ -72,7 +72,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         You can group the roadmap items by up to two attributes and color-code them by one attribute.
 
-        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize the planning item display preferences for Prioritization and Roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
+        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
 
     3.  Enable visibility of owners of the roadmap items by using the **Owner** toggle.
 

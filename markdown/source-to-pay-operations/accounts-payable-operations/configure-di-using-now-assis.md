@@ -46,6 +46,8 @@ Plugins required:
 
 6.  In the **Review and activate** section, select **Activate**.
 
-    The **Invoice data extraction** skill is activated successfully.
 
+## Result
+
+DocIntel configured using the **Invoice data extraction** skill is activated successfully.
 

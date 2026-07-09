@@ -48,5 +48,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md)
+[Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md)
 

@@ -42,3 +42,8 @@ Use the Assessment Metric Type form to create an assessment questionnaire templa
 
 **Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 
+**Related topics**  
+
+
+[Update a compliance case assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/update-ccm-asmt-template.md)
+

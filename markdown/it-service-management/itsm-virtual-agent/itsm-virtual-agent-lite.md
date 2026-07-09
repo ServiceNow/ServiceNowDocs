@@ -16,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 Access a pre-built subset of ITSM Virtual Agent features to quickly and easily implement a virtual agent for your end users. ITSM Virtual Agent Lite offers an introductory collection of conversation topics for IT support.
 
-## Understanding ITSM Virtual Agent Lite
+## ITSM Virtual Agent Lite overview
 
 ITSM Virtual Agent Lite enables you to use a limited version of Virtual Agent. The available keyword-based conversations run in the web chat client and also in the messaging applications, such as Slack, Microsoft Teams, Workplace by Facebook, and Facebook Messenger.
 

@@ -9,14 +9,14 @@ classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Collaboration dispute workflow
 
 In the collaboration workflow, dispute agents work to resolve consumer disputes and processing errors. In this workflow, issuers can choose to initiate pre-arbitration and arbitration, and acquirers can respond to these events.
 
-The transaction playbook helps dispute agents in handling **Consumer disputes** and **Processing errors** within the Visa collaboration workflow. The playbook includes key activities such as initiating chargebacks, reviewing dispute responses, and managing pre-arbitration and arbitration tasks.
+The transaction **Dispute Workspace** helps dispute agents in handling **Consumer disputes** and **Processing errors** within the Visa collaboration workflow. The **Dispute Workspace** includes key activities such as initiating chargebacks, reviewing dispute responses, and managing pre-arbitration and arbitration tasks.
 
 <table id="table_kbh_msz_m2c"><thead><tr><th>
 
@@ -74,7 +74,7 @@ Associated transactions and the dispute response, determine if pre-arbitration i
 
 </td></tr><tr><td>
 
-[Review the case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)
+[Review a case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)
 
 </td><td>
 
@@ -107,8 +107,8 @@ Review a merchant’s response for the dispute and initiate pre-arbitration, if 
 Review the merchant’s response to the pre-arbitration and create a case filing.
 -   **[Review a case filing response and appeal the decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.md)**  
 An appeal can be created by the issuer or acquirer if either party isn’t satisfied with the arbitration ruling from Visa. Review the case filing response and receive the decision letter from Visa.
--   **[Review the case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)**  
-Review the appeal and get an acknowledgment from Visa for the appeal.
+-   **[Review a case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)**  
+ Review a case filing appeal and obtain an acknowledgment from Visa.
 -   **[Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit_visa.md)**  
 Convert the provisional credit that was issued previously to a customer to a final credit issuance.
 -   **[Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/reverse-provisional-credit_0.md)**  

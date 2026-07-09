@@ -34,12 +34,12 @@ Consider the following points when using the locale text match feature.
 
 The default behavior is i18n\_locale\_text\_match=false. Set the column attribute to true as follows.
 
-**Note:** For text searches in tables in the product UI, both the column attribute and the sys property **com.glide.db.ui\_i18n\_locale\_text\_match**are required. See the Global property step in the [Other methods for locale text match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md) section of this page.
+**Note:** For text searches in tables in the product UI, both the column attribute and the sys property **com.glide.db.ui\_i18n\_locale\_text\_match** are required. See the Global property step in the [Other methods for locale text match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md) section of this page.
 
 1.  With the admin role, navigate to sys\_dictionary.list.
 2.  Search for the name of your table and the name of the column to which you want to add this attribute.
 3.  Open the dictionary entry, and confirm the column's Type. This attribute can be added to **String**, **Translated Text**, or **Translated Field** types.
-4.  In the Attributes field of the column, add `i18n_locale_text_match=true`. Use a comma separator without spaces. \(You may need to switch to the Advanced view of the record to see the Attributes field\).
+4.  In the Attributes field of the column, add `i18n_locale_text_match=true`. Use a comma separator without spaces. \(You might need to switch to the Advanced view of the record to see the Attributes field\).
 
     \[Omitted image "sl-locale-text-match-advanced-view.png"\] Alt text: An example Dictionary Entry in Advanced view, showing the Short description column of the Task table. The Attributes field contains several values including i18n\_locale\_text\_match=true.
 

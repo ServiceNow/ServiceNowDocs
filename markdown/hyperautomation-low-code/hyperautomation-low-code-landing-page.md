@@ -1,17 +1,17 @@
 ---
-title: App development, vibe coding, and low-code
+title: App development, agentic development, and low-code
 description: ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-06-16"
 reading_time_minutes: 3
-keywords: [low-code, no-code, app development, workflow automation, digital transformation, App Engine, App Engine Studio, App Engine Management Center, Automated Test Framework, Build Agent, Creator Studio, Guided Application Creator, Mobile App Builder, Now Assist for Creator, Performance Analytics, Predictive Intelligence, Playbooks, Service Portal, ServiceNow IDE, ServiceNow Studio, UI Builder, Virtual Agent, Workflow Studio, developer sandboxes, vibe coding]
+keywords: [low-code, no-code, app development, workflow automation, digital transformation, App Engine, App Engine Studio, App Engine Management Center, Automated Test Framework, Build Agent, Creator Studio, Guided Application Creator, Mobile App Builder, Now Assist for Creator, Performance Analytics, Predictive Intelligence, Playbooks, Service Portal, ServiceNow IDE, ServiceNow Studio, UI Builder, Virtual Agent, Workflow Studio, developer sandboxes, vibe coding, agentic development]
 audience: administrator
 ---
 
-# App development, vibe coding, and low-code
+# App development, agentic development, and low-code
 
 ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
 

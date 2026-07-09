@@ -1,5 +1,5 @@
 ---
-title: Viewing links between alerts in network traffic-based alert groups
+title: Alert links in network traffic-based alert groups
 description: View the connections between alerts in network traffic-based alert groups in Express List by using Link View. Network traffic-based alert groups are created by analyzing network traffic connections between processes across hosts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/el-network-traffic-based-link-view.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Viewing links between alerts in network traffic-based alert groups
+# Alert links in network traffic-based alert groups
 
 View the connections between alerts in network traffic-based alert groups in Express List by using Link View. Network traffic-based alert groups are created by analyzing network traffic connections between processes across hosts.
 

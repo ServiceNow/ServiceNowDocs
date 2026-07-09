@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # ITSM Maturity Assessment
@@ -18,9 +18,9 @@ Assesses your current IT Service Management \(ITSM\) processes and functional ma
 
 ## Accelerator overview
 
-ITSM Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this accelerator helps maximize the value of their ServiceNow investment.
+ITSM Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
-This accelerator is designed to address the following ITSM capabilities:
+This Accelerator is designed to address the following ITSM capabilities:
 
 -   Incident Management
 -   Problem Management

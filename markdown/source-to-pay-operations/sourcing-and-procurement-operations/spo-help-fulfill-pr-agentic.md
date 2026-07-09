@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Conversational intake for sourcing and procurement agentic workflow

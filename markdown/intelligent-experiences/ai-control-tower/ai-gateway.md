@@ -24,7 +24,7 @@ The AI Gateway page enables you to pause and resume AI Gateway transactions, as 
 
 **Global MCP clients**- View the list of Global MCP clients \(CIMD support\), Where CIMD refers to Client ID Metadata document. These Global MCP clients once created can be used across all MCP severs. You can Add Global MCP clients from the tab by selecting Add. \[Omitted image "aict-config-globalmcp.png"\] Alt text:
 
-For more information on adding a Global MCP client, see [Add a Global MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/add-a-global-mcp-client.md).
+For more information on adding a Global MCP client, see [Add a Global MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/add-a-global-mcp-client.md).
 
 You can filter and export the list into PDF, JSON, Excel, and CSV format. The list of allowed AI connections is categorized into.
 

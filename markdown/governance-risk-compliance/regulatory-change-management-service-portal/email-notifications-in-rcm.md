@@ -22,7 +22,7 @@ The following table describes the recipient list of notifications and the associ
 
 |Notification|Recipients|
 |------------|----------|
-|When a regulatory feed is closed|Coordinator|
+|Regulatory feed closed|Coordinator|
 |When a regulatory feed is deferred|Coordinator|
 |When a regulatory feed is assigned|Coordinator|
 |Regulatory action task last day|assigned\_to \(comp user/risk user\)|

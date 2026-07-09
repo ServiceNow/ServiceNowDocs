@@ -158,7 +158,7 @@ Get a comprehensive view of trending topics across cases along with insights and
 
 ## Sentiment analysis dashboard
 
-Get a comprehensive view of customer sentiment across cases and accounts. The dashboard uses Now LLM Service insights to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md). \[Omitted image "sentiment-trends-dashboard.png"\] Alt text: Dashboard showing sentiment trend line chart, sentiment breakdown by channel, and multiple bar charts for negative and positive drivers, assignment groups, escalation impact, and case counts by channel.
+Get a comprehensive view of customer sentiment across cases and accounts. The dashboard by default uses Azure to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md). \[Omitted image "sentiment-trends-dashboard.png"\] Alt text: Dashboard showing sentiment trend line chart, sentiment breakdown by channel, and multiple bar charts for negative and positive drivers, assignment groups, escalation impact, and case counts by channel.
 
 ## Automated quality assurance
 

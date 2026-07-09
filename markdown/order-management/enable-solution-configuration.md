@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [enable solution configuration, environment setup, admin]
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up Solution Configuration, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable solution configuration
@@ -19,7 +19,7 @@ Enable solution configuration for an environment to let admins link multiple blu
 
 Solution configuration is an environment-level feature that is off by default. Contact Support with your environment details to request enablement.
 
-Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 Role required: admin
 

@@ -33,7 +33,7 @@ Use Process Mining to discover, streamline, visualize, analyze, monitor, and mor
 
 For complete information about the Process Mining application and how it relates to and integrates with HR Service Delivery, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md).
 
-To enable the Process Mining content pack for HR Service Delivery, see .
+To enable the Process Mining content pack for HR Service Delivery, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-po-content-pack.md).
 
 ## HR Service Delivery Process Mining configuration model
 

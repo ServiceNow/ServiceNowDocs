@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-05-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Operational Technology Manager release notes
@@ -14,7 +14,20 @@ The ServiceNow® Operational Technology Manager application enables you to aggre
 
 ## Operational Technology Manager highlights for the Australia release
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
 -   Help promote system security by using Enhanced Access Control for OT.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available.
+
+Australia Early Availability
+
 -   Get a deeper look into your OT network with the OT network map in the Industrial Workspace, where you can view a site, its subnets, and the OT devices in each subnet.
 -   Keep your OT device data updated by using the Configuration Management Database \(CMDB\) OT class model updates and UI enhancements.
 
@@ -23,6 +36,11 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
 **Important:** Operational Technology Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[Use Enhanced Access Control for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-enhanced-access-control.md)**
 
@@ -35,8 +53,8 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/utilizing-ot-network-map.md)**
@@ -96,6 +114,11 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
 
 ## UI changes
 
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
 -   **[Automated IT OT Bulk Conversion name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/automatically-convert-it-records-to-ot-devices.md)**
 
     The Automated IT OT Bulk Conversion menu item was replaced with Automated IT OT Bulk Contextualization on the ServiceNow AI Platform.
@@ -115,6 +138,11 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
 
 ## Changed in this release
 
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
 -   **[Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-cmdb-groups-it-ot-conversion.md)**
 
     When you use CMDB groups to add OT context to IT CIs, you can no longer create an Automated IT OT Bulk Contextualization record with more than one CMDB group.
@@ -129,6 +157,8 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
 
 
 ## Removed in this release
+
+Australia Early Availability
 
 -   The **New** button was removed from the following related lists for users with read-only access to a site:
     -   Network Adapters

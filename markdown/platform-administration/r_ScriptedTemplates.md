@@ -47,10 +47,9 @@ change.requested_by = current.caller_id;
 change.assignment_group.setDisplayValue('Change & Release');
 change.u_status = 'New';
 change.parent = current.number;
-if(0 == change.applyTemplate("standard_rfc")) {
-    current.rfc = change.insert();
-    current.comments = 'Change ' + change.number + ' created.';
-}
+change.applyTemplate("standard_rfc");
+current.rfc = change.insert();
+current.comments = 'Change ' + change.number + ' created.';
 
 var mySysID = current.update();
 

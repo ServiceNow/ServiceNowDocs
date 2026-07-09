@@ -1,6 +1,6 @@
 ---
 title: Filtering questions in an assessment
-description: Responders can narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
+description: In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance
 
 # Filtering questions in an assessment
 
-Responders can narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
+In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
 
 ## Filter overview
 
-The filter is labeled **All questions** with no filter is applied. When a responder opens the drop- down list, they see a list of filters that they can select individually or in combination. The drop- down list label updates to reflect what is active — for example, **AI assisted +1** when two filters are selected.
+The filter is labeled **All questions** when no filter is applied. When a responder opens the drop-down list, they see a list of filters that they can select individually or in combination. The drop-down list label updates to reflect what is active — for example, **AI assisted +1** when two filters are selected.
 
 Selecting multiple filters narrows the list to questions that match every selected filter. For example, selecting both **Unanswered** and **Flagged** shows only questions that are unanswered and flagged.
 
@@ -52,10 +52,10 @@ The filter drop-down list includes the following options:
 
 ## Combining and clearing filters
 
-Each filter in the drop- down list can be selected or deselected independently:
+Each filter in the drop-down list can be selected or deselected independently:
 
--   To apply a filter, open the drop- down list and select the filter. The question list updates immediately to match.
--   To combine filters, select more than one option in the drop- down list. The list narrows to questions that match every selected filter.
--   To remove a single filter, reopen the drop- down list and deselect that filter. The remaining selected filters stay active.
--   To remove all filters at once, use the **Clear** option in the drop- down list or change it back to **All questions**.
+-   To apply a filter, open the drop-down list and select the filter. The question list updates immediately to match.
+-   To combine filters, select more than one option in the drop-down list. The list narrows to questions that match every selected filter.
+-   To remove a single filter, reopen the drop-down list and deselect that filter. The remaining selected filters stay active.
+-   To remove all filters at once, use the **Clear** option in the drop-down list or change it back to **All questions**.
 

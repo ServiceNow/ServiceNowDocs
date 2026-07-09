@@ -46,7 +46,10 @@ The CyberArk integration supports these ServiceNow credential types:
 -   SNMPv3
 -   Basic Auth
 -   SSH Key Pair
--   SSH Private Key \(with key, pass phrase, and password\)
+-   SSH Private Key \(with key and password\)
+
+    **Note:** CyberArk returns the decrypted private key; passphrase is not required.
+
 -   VMware
 -   Windows
 -   Applicative Credentials

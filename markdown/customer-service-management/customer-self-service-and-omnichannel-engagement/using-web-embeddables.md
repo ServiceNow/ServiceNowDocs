@@ -1,6 +1,6 @@
 ---
 title: Configure Web Embeddables
-description: Web Embeddables capability enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+description: Embed ServiceNow components into external websites to enable real-time data exchange without direct platform access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.html
 release: australia
@@ -9,30 +9,33 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [web embeddables, component embedding, external website integration, API integration]
 breadcrumb: [Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Web Embeddables
 
-Web Embeddables capability enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+Embed ServiceNow components into external websites to enable real-time data exchange without direct platform access.
 
-The Web Embeddables homepage displays modules, components, and provides an overview on how to configure and embed components. It also shows Frequently Asked Questions that provide insights into the most common queries asked by users.
+## Get started
+
+The Web Embeddables homepage displays available modules, components, configuration guidance, and frequently asked questions.
 
 ## Web Embeddables overview
 
 \[Omitted video\] Description: Web Embeddables overview video
 
-You can configure and embed the following ServiceNow components on the third-party websites.
+You can configure and embed the following ServiceNow components on external websites.
 
--   Case list: Displays a comprehensive list of multiple cases along with their key details.
--   Case view: Displays a detailed view of all case-related activities. Case view component includes a process tab that displays relevant playbooks when they are created for the case record
--   Case create: Displays a form that helps you to create a case to address any issues related to products and services.
--   Catalog item: Displays a form that you can fill in to request an item or service.
--   Knowledge article view: Displays knowledge articles along with key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language as per your preferred locale.
--   Data visualization: Display a graphical representation of information from any ServiceNow table using visual elements such as single score, pie chart, donut and semi donut.
--   Playbook intake: Enable users to submit cases using Playbook's guided experience. Systematically capture case details and display stages and activities involved in resolving the case.
--   Catalog browse: Allows you to browse and search catalog items from different catalogs and categories within a third-party website.
--   Object list: Enables you to display records from different tables with their related actions in a list format.
+-   Case list - displays multiple cases with their key details.
+-   Case view - displays case-related activities and playbooks.
+-   Case create - displays a form to create a case for product or service issues.
+-   Catalog item - displays a form to request an item or service.
+-   Knowledge article view - displays knowledge articles with details like title, author, and read time. You can rate articles and switch language.
+-   Data visualization - displays data from any ServiceNow table using charts, pie graphs, and scorecards.
+-   Playbook intake - enables users to submit cases using guided experiences and tracks resolution stages.
+-   Catalog browse - allows you to browse and search catalog items from different catalogs and categories within a third-party website.
+-   Object list - enables you to display records from different tables with their related actions in a list format.
 
 ## Web Embeddables end-to-end flow
 

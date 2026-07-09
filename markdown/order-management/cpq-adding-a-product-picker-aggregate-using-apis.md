@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Product picker bulk actions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product picker bulk actions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Adding a product picker aggregate using APIs
@@ -38,7 +38,7 @@ Role required: Admin
 
     \(This is the URL from the image just above.\)
 
-    `https://<tenant>.<sector>.logik.io/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
+    `https://<tenant>.<sector>.cpq/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
 
     Replace the URL with the parameters that apply to your environment, including the sector name and the variable name of the product picker from the UI.
 

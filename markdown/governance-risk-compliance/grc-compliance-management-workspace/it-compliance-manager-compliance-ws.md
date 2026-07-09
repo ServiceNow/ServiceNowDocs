@@ -37,16 +37,12 @@ The Compliance Workspace provides an exclusive home page for the IT compliance m
 
     Tracks all the IT-related policies that are in queue for the IT compliance manager's action. The timeline shows the upcoming engagements and the milestones associated to each engagement. It also shows similar reports on exceptions that are active, expiring in seven days, and are at high risk. Similar reports on acknowledgment campaigns that are active and the number of overdue responses are also displayed.
 
-    \[Omitted image "TrackingTimelineITWS.png"\] Alt text: Tracking section of IT compliance workspace.
-
     **Note:** To track the issues the IT compliance manager can access the issue details from the "Issues Overview" section.
 
 
 ## IT Compliance List overview
 
 As you log in as an IT compliance manager, all the data in the List view of the Compliance Workspace are filtered to display those records that fall within the IT risk and compliance functional domain. Therefore, you get to view those records that are related to your user role and complete the IT-related tasks without filtering them manually.
-
-\[Omitted image "FilterITRelatedData.png"\] Alt text: IT related records in List view.
 
 **Note:** An admin or any user with both corporate compliance manager and IT compliance manager roles can view two list modules with the same name.
 

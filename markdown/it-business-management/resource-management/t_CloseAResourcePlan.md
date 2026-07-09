@@ -1,5 +1,5 @@
 ---
-title: Complete a resource plan
+title: Complete an allocated resource plan
 description: After all associated tasks and projects are complete or canceled, a resource manager can move the resource plan to the Complete state, which closes it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_CloseAResourcePlan.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Complete a resource plan
+# Complete an allocated resource plan
 
 After all associated tasks and projects are complete or canceled, a resource manager can move the resource plan to the **Complete** state, which closes it.
 
@@ -63,7 +63,7 @@ Example 1: A resource plan of Allocation type **Monthly** from 1 November to 31 
 
 Example 2: If the same resource plan has Allocation type as **Planned Duration**, no allocations are deleted, and the end date of the allocation is updated to the completion date.
 
--   **[Complete a resource plan from a project, planning console, or demand record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
+-   **[Complete a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
 If a project or a project task is marked Closed, the project manager can complete the associated Allocated resource plans. Similarly, the demand manager can complete the resource plans for a Closed or Deferred demand.
 
 **Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
@@ -85,7 +85,7 @@ If a project or a project task is marked Closed, the project manager can complet
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 

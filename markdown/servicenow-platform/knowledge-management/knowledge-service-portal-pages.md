@@ -66,7 +66,7 @@ This action is available to logged-in users with the knowledge role. Click **Ask
 
 </td></tr><tr><td>
 
-Overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\)
+Overflow icon
 
 </td><td>
 

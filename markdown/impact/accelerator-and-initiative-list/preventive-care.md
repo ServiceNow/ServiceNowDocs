@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Initiatives catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Preventive Care

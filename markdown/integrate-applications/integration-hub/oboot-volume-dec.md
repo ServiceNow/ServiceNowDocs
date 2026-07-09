@@ -36,7 +36,7 @@ This spoke was built for Oracle Boot Volume API version 20160918, but may be com
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Oracle Cloud IAM Spoke]()
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   Complex Object \(com.glide.cobject\)

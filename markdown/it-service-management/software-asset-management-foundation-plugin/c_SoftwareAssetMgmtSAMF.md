@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Software Asset Management Foundation plugin
@@ -76,5 +76,5 @@ Using Software Asset Management Foundation plugin classic.
 -   **[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)**  
 Software Asset Management Foundation plugin administration tasks include adding custom product records, creating custom license metrics, and setting properties. You can also refresh processor definitions, and migrate software installations.
 
-**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-sam.md)
 

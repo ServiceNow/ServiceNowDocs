@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Access to Experts
@@ -40,7 +40,7 @@ The Access to Experts Accelerator applies to a selected set of requestable topic
     -   Address specific technical inquiries and receive prescriptive guidance.
 -   Product Capability Overview: Designed for customers who have already licensed the product \(post-sales\), this session offers a high-level overview of specific product capabilities. It features an out-of-the-box walkthrough using demonstration data to showcase key features and foundational concepts.
 
-For examples of requests or additional information on the request process, see [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md).
+For examples of requests or additional information on the request process, see [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md).
 
 ## What You Get
 

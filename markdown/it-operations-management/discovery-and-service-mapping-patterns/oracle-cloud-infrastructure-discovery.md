@@ -48,11 +48,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     Create a discovery schedule to run LDCs on.
 
     1.  Navigate to **Discovery** &gt; **Discovery Schedules**.
-    2.  Click the **Cloud Discovery** button.
-    3.  In the **Provider** field, select **OCI**. Fill in the form to create a new account or select an existing one. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
+    2.  Select **Cloud Discovery**.
+    3.  In the **Provider** field, select **OCI**. Fill in the form to create an account or select an existing one. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
     4.  On the **Select Datacenters** page, filter which LDCs you want to run the discovery.
-    5.  Under the **Discover Virtual Machines \(optional\)** page, select if you want to run VM OS Discovery.
-    6.  When you're finished, navigate to the **Create Schedule** page and select the **Finish and Run** button.
+    5.  When you're finished, navigate to the **Create Schedule** page and select **Finish and Run**.
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
     Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().

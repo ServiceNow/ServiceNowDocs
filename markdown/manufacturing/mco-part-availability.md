@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate a part requirement, Corrective actions, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Generate a part requirement, Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a part availability
@@ -48,6 +48,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 8.  Select **Save**.
 
-
-**Parent Topic:**[Generate a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-part-requirements.md)
 

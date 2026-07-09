@@ -158,5 +158,5 @@ Specification that is associated with an install base item. Option that helps in
 **Related topics**  
 
 
-[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md)
+[Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md)
 

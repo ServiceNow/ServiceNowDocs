@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/new-features-chan
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -26,7 +26,7 @@ The Australia release includes new products.
 
     [Care Team Work Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hco-ctwm-rn.md)
 
-
+    [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)
 
 -   **HR Service Delivery**
 
@@ -111,6 +111,8 @@ Healthcare and Life Sciences has new and updated features in the Australia relea
 ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
 -   **[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/industrial-connected-workforce-rn-landing.md)**  
 Industrial Connected Workforce has new and updated application and features in the Australia release.
+-   **[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)**  
+Healthcare and Life Sciences has new and updated features in the Australia release.
 -   **[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)**  
 IT Asset Management has new and updated features in the Australia release
 -   **[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)**  

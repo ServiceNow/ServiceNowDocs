@@ -127,9 +127,9 @@ sn\_hr\_core.duplicate\_hr\_case\_time\_out
 
 The number of days that must pass before a duplicate case warning appears when an HR case is created for the same HR service and subject person in HR Agent Workspace.The base system value is three \(3\) days.
 
- For example, if an agent creates an HR case for a General Benefits Inquiry \(HR service\) for Abel Tuter and another General Benefits case is created in HR Agent Workspace within three days, a message appears notifying the user of a potential duplicate case. A list of similar cases also appears. The agent can continue to create a new case or cancel.
+For example, if an agent creates an HR case for a General Benefits Inquiry \(HR service\) for Abel Tuter and another General Benefits case is created in HR Agent Workspace within three days, a message appears notifying the user of a potential duplicate case. A list of similar cases also appears. The agent can continue to create a new case or cancel.
 
-**Note:** This property only affects possible duplicate HR cases for the same HR service and subject person in HR Agent Workspace. For more information, see .
+**Note:** This property only affects possible duplicate HR cases for the same HR service and subject person in HR Agent Workspace.
 
 </td></tr><tr><td>
 

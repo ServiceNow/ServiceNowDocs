@@ -1,5 +1,5 @@
 ---
-title: Reviewing the logs for an alert on the Log Viewer in Health Log Analytics
+title: Review alert logs on the Log viewer
 description: The Log Viewer tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.html
@@ -13,7 +13,7 @@ keywords: [Log Viewer, alert logs, anomaly frequency, root cause analysis, time 
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Reviewing the logs for an alert on the Log Viewer in Health Log Analytics
+# Review alert logs on the Log viewer
 
 The **Log Viewer** tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 
@@ -49,5 +49,5 @@ You can perform the following tasks on the **Log Viewer**:
 **Related topics**  
 
 
-[Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)
+[Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)
 

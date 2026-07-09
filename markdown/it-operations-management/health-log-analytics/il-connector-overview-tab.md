@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [log data, streaming, sources, status, overview, integration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Log data flow monitoring and configuration optimization, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor log data flow and optimize integration settings, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Review log streaming data and adjust integration settings in Health Log Analytics
@@ -19,7 +19,7 @@ Review the log data streaming status and streaming sources of an active integrat
 
 ## Before you begin
 
-For an overview of this feature, see [Monitoring log data flow and optimizing integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
+For an overview of this feature, see [Monitor log data flow and optimize integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
 
 Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
@@ -31,7 +31,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-For more information about interpreting and using the data shown in the **Overview** screen, see [Monitoring log data flow and optimizing integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
+For more information about interpreting and using the data shown in the **Overview** screen, see [Monitor log data flow and optimize integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ Data Input Mapping
 
 </td><td>
 
-Opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+Opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Log Viewer
 
 </td><td>
 
-Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>7.  When you have resolved any data streaming issues and fixed the configuration, select **Test and save**.

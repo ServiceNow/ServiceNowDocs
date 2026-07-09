@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configu
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -17,6 +17,10 @@ Set up Group Action Framework \(GAF\) to improve the response quality, recall sp
 ## Before you begin
 
 There must be a ml\_platform read ACL for GAF to be configured. If there is no read ACL present, you must create it and grant the appropriate role access, such as admin, ml\_admin, or sn\_aia.admin. This is required for GAF to access Machine Learning tables and services. If your ACL is not configured correctly, you may see the error "Failed to initialize pipeline: Failed to load message\_content dataset. No columns to parse from file."
+
+Verify that your configured LLM provider \(such as OpenAI or Anthropic\) has valid credentials and available token quota.
+
+Verify that the prerequisite scheduled job for your workflow exists and is properly configured. For example, if you're configuring GAF for HR Service Delivery, navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and search for "HR service GAF grouping job". Verify that the **Active** field is set to true and that the **Class** field is populated. If either field is empty, the job will not execute.
 
 To access GAF's optimized prediction feature, you can enable Now Assist in AI Search. For more information, see [Setup AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md).
 
@@ -78,6 +82,8 @@ You can have different GAF configurations for different agentic workflows and No
     Make sure that the record is for the same application. If you pasted the sys\_id of the GAF ITSM grouping, you must open the GAF ITSM action strategy.
 
 11. Open the action strategy record for the application that you’re configuring.
+
+    **Note:** The Group table field should be left empty. The Group table refers to the table where the grouped records are, not the source table, so the field is populated automatically by the GAF setup job. If this field is populated before you run the script, the GAF job will fail.
 
 12. Copy the sys\_id of the action strategy record.
 

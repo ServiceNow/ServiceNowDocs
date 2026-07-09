@@ -102,6 +102,17 @@ See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Service Mapping works as expected. If you customized Service Mapping, copy the quick start tests and configure them for your customizations.
 
 
+## Changed in this release
+
+-   **[AWS patterns updated in Discovery and Service Mapping Patterns](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-patterns.html)**
+
+    AWS is updating account information structure on September 9, 2026. AWS discovery patterns have been updated accordingly. Upgrade to at least the 1.31.2 release of Discovery and Service Mapping Patterns to maintain AWS discovery.
+
+-   **[AWS patterns updated in Visibility Content](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-content.html)**
+
+    AWS is updating account information structure on September 9, 2026. AWS discovery patterns have been updated accordingly. Upgrade to at least the 6.32.2 release of Visibility Content to maintain AWS discovery.
+
+
 ## Deprecations
 
 -   Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances but continues to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.

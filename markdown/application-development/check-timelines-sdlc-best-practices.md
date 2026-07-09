@@ -1,18 +1,18 @@
 ---
 title: Check timelines and SDLC guidelines
-description: Engage your platform administrator early to confirm development timelines and follow ServiceNow’s software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
+description: Engage your platform administrator early to confirm development timelines and follow ServiceNow software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/check-timelines-sdlc-best-practices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Plan your app before you start building, Getting Started guide for developers, Building applications]
+breadcrumb: [Plan your app before you start building, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Check timelines and SDLC guidelines
 
-Engage your platform administrator early to confirm development timelines and follow ServiceNow’s software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
+Engage your platform administrator early to confirm development timelines and follow ServiceNow software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
 
 ## Key actions
 

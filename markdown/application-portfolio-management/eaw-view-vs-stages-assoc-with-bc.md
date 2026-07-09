@@ -1,5 +1,5 @@
 ---
-title: View value stream stages associated with a business capability
+title: View value stream stages for a business capability
 description: You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View value stream stages associated with a business capability
+# View value stream stages for a business capability
 
 You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
 
@@ -48,5 +48,5 @@ Role required: sn\_apm.apm\_user
 
 [View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
-[Add or remove a business capability from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
 

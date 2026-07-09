@@ -14,7 +14,7 @@ breadcrumb: [Configure case management, Case management, Organize agent workspac
 
 As an admin, you can customize Major Issue Management detection to match the needs of your organization.
 
-The Now Assist for CSM Major Issue Management feature is delivered by the `com.sn_csm_mim_gen_ai` plugin and runs on a Flow Designer flow called **Major case agentic workflow**. When the flow triggers on a new case, it invokes the **Major Cases Similarity Search** Now Assist skill, evaluates the results, and updates the case record with a suggested major case link.
+The Now Assist for CSM Major Issue Management feature is delivered by the `com.sn_csm_mim_gen_ai` plugin. This plugin is included by default with the Now Assist for CSM plugin. See [Install Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.md) for more information. It runs on a Flow Designer flow called **Major case agentic workflow**. When the flow triggers on a new case, it invokes the **Major Cases Similarity Search** Now Assist skill, evaluates the results, and updates the case record with a suggested major case link.
 
 To activate Now Assist for CSM Major Issue Management, complete the following high level steps:
 
@@ -36,8 +36,6 @@ To activate Now Assist for CSM Major Issue Management, complete the following hi
 
 **Related topics**  
 
-
-[Install Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-now-assist-for-csm-major-issue-management.md)
 
 [Activate Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-na-csm-major-issue-management.md)
 

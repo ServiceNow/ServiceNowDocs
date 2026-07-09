@@ -28,15 +28,15 @@ Role required: sn\_grc\_rel\_config.admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields in the form, see [Relationship registry new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md).
+    For information on the fields in the form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md).
 
 4.  Select **Submit**.
 
     The relationship registry record is displayed in the Relationship Registries list.
 
 
--   **[Relationship registry new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md)**  
-Use the Relationship registry record form to create a relationship registry between objects.
+-   **[Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md)**  
+Use the Relationship Registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 
 **Parent Topic:**[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md)
 

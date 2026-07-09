@@ -20,7 +20,7 @@ The connector integrates with your Databricks account to catalog AI systems, age
 
 ## Download apps from the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for Databricks application.
+Visit the ServiceNow store website to download the [AI Service Graph Connector for Databricks](https://store.servicenow.com/store/app/55bcf303478043d02339f6cc416d43fa) application.
 
 ## Supported ServiceNow versions
 
@@ -54,7 +54,7 @@ To enable data source creation:
 
 1.  Select Global from the application picker.
 2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete checkboxes.
+3.  Select the Can create, Can update, and Can delete check boxes.
 4.  Select Update.
 5.  Switch to the connector application scope.
 
@@ -420,7 +420,7 @@ Vendor Name
 </td></tr></tbody>
 </table>AI Agents Usage: sn\_ai\_disc\_ai\_usage -&gt; AI system/Model table \(alm\_ai\_system\_digital\_asset\)
 
-<table><tbody><tr><td>
+<table id="table_tb5_jdg_pjc"><tbody><tr><td>
 
 Required Fields
 

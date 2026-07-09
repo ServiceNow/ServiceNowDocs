@@ -26,8 +26,8 @@ You can install one of the following sets of plugins.
 Follow the guidance to get started with Employee Slate.
 
 -   Review the prerequisites from [Before you start with Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-prereqs-useful-info.md).
--   Understand the complete setup flow as explained in [Get started with Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md).
--   Go to Product Hub page from an existing ServiceNow instance or a provisioned Moveworks instance and [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+-   Review the complete setup flow as explained in [Get started with Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md).
+-   Go to the **Product Hub** page from an existing ServiceNow instance or a provisioned Moveworks instance and [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 -   Access and install the associated plugins and review the links to documentation and other resources.
 
 **Related topics**  

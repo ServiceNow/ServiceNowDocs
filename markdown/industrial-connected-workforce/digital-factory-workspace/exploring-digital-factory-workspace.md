@@ -20,10 +20,6 @@ The Digital Factory Workspace is a workspace that enables the Industrial Connect
 
 Learn about features of the Digital Factory Workspace to run and standardize shop-floor operations across Industrial Connected Workforce \(ICW\). Digital Factory Workspace brings together list views, Standards hub, and industrial data models so operators and owners can find, execute, and govern work in one place.
 
-The following image shows an example of the icons available in the Digital Factory Workspace.
-
-\[Omitted image "digital-factory-workspace-landing.png"\] Alt text: Digital Factory Workspace landing page with the highlighted sidebar containing all pages listed
-
 ## Digital Factory Workspace benefits
 
 Digital Factory Workspace provides the following benefits.
@@ -59,7 +55,7 @@ Find answers fast
 
 </td><td>
 
-AI Search
+[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/ai-search-digital-factory-workspace.md)
 
 </td><td>
 
@@ -173,7 +169,7 @@ Manage your industrial guided task \(IGT\) standards with Industrial Guided Task
 -   **[Task lists in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/task-lists-digital-factory-workspace.md)**  
 Use the task lists in the Digital Factory Workspace to access and manage all types of tasks for your organization.
 -   **[Reporting and metrics for industrial task flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/reporting-metrics-industrial-task-flows.md)**  
-Use the fields available to distinguish workflows and produce reliable metrics.
+The **task\_classification** and **contact\_type** fields distinguish industrial task flows on shared tables, enabling independent metrics for breakdowns, deviations, and root cause analyses.
 -   **[AI Search in Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/ai-search-digital-factory-workspace.md)**  
 Access the AI Search for Digital Factory Workspace by using the search bar. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
 -   **[Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md)**  

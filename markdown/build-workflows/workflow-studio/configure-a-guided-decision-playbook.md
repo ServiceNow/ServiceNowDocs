@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-05-13"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -40,10 +40,14 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
         |-----|------|
         |Type|Select **Guided Decision**.|
         |Playbook name|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
-        |Description|Enter a short descriptive detail about your playbook.|
+        |Now assist input|Enter a short description about your playbook.|
         |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
         |Execution type|Select **Standalone** if you want to make the Guided Decision Playbook nestable. You can't nest a record-driven playbook inside another playbook.|
         |Allow this playbook to be nestable in another playbook|Select this option to embed this playbook in another playbook.|
+
+    4.  Select **Generate playbook preview**.
+
+    5.  Review the generated playbook, and select **Save and edit playbook**.
 
     The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
 
@@ -75,10 +79,14 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     3.  Select the **+** icon next to **Pages** to create a page.
 
-    4.  On the **Select a template** screen, select one:
+    4.  Select **Create a new page**.
+
+    5.  On the **Select a template** screen, choose one:
 
         -   To use the Standard record template, select the **Standard record template** tile, then confirm by selecting **Use template**.
         -   To start with an empty page, select **Create from scratch instead**.
+    6.  Enter a **Name**, review generated URL path, parameters, and audience and select **Create**.
+
     Unlike the Focused and Stacked layouts, the Guided Layout does not have a matching page template.
 
     For information on creating a page, see Create a page from scratch and create a page from a Standard record template.
@@ -113,15 +121,15 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d71355e533">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d72243e574">
 
 Type
 
-</th><th align="left" id="d71355e536">
+</th><th align="left" id="d72243e577">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d71355e542">
+</th></tr></thead><tbody><tr><td id="d72243e583">
 
 **Standalone**
 
@@ -132,7 +140,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d71355e569">
+</td></tr><tr><td id="d72243e610">
 
 **Record-driven**
 

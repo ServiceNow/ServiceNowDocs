@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-13"
 reading_time_minutes: 2
 keywords: [Conversational, Action, Virtual Agent, Designer, GenAI]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Managing conversational actions in Assistant Designer
@@ -46,7 +46,7 @@ Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: to work wi
 |Active|Option to toggle the action's active status. If active, the action is available within the conversation.|
 |Delete|Option to delete the action is not applicable within Virtual Agent Designer because actions can only be deleted within Workflow Studio.|
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 

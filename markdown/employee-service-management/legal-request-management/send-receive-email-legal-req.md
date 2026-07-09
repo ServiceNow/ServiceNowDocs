@@ -40,8 +40,6 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
     **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-    For more information, see Communicating via email.
-
 7.  Send it right away or save it as a draft to send later.
 
     -   To send the email instantly, click **Send Email**.

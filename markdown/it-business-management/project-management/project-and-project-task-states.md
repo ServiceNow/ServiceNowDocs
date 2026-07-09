@@ -62,6 +62,8 @@ The start and end dates are displayed based on the project or task status:
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)
 
 [Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/customize-project-task-states.md)

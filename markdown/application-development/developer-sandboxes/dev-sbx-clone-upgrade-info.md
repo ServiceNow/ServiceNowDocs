@@ -45,3 +45,9 @@ Review the update sets, then preview and commit them in each sandbox as needed.
 
 Install the Dev Sandboxes CC \(com.glide.dsb.cc\) plugin on the production instance to enable clone preservers that protect Developer Sandboxes feature enablement on your target instance. For more information on clone preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md). For details on the plugin, see [Plugin information for all Australia features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-summary-plugin-info.md).
 
+If you have a custom clone profile, these records should be linked so that cloning over a sandbox instance maintains sandbox functionality:
+
+-   clone\_cleanup\_script: `/clone_cleanup_script.do?sys_id=2b5e8051ff03221016abffffffffff58`
+-   clone\_data\_exclude: `/clone_data_exclude_list.do?sysparm_query=nameSTARTSWITHsys_dsb`
+-   clone\_data\_preserver: `/clone_data_preserver_list.do?sysparm_query=tableSTARTSWITHsys_dsb%5ENQname%3DDSB%20Properties`
+

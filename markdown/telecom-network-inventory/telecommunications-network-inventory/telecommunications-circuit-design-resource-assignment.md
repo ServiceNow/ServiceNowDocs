@@ -26,7 +26,7 @@ You can design and configure both simple circuits and a complex network infrastr
 
 ## Design and assign workflow
 
-\[Omitted image "MMASSET0020469-Telecommunications-design-and-assign-landing.png"\] Alt text: Design and assign process
+\[Omitted image "design-and-assign-process.png"\] Alt text: Design and assign process
 
 Before you start the design and assign function, you define the models, model relationships, templates, and template relationships for your design criteria. Then the ServiceNow AI Platform generates an automated workflow that performs all the tasks that are required to instantiate a network inventory.
 

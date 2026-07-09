@@ -66,7 +66,7 @@ After you create a prompt for your custom skill, test the prompt template before
 -   **[Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md)**  
 Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 -   **[Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md)**  
-When you're satisfied with your skill's prompts and configuration, finalize the prompt and publish the skill to make it available for a Now Assist admin to activate.
+When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Now Assist admin to activate it.
 -   **[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md)**  
 After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
 -   **[Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)**  

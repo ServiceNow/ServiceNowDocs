@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Software Asset Management
-description: This accelerator provides a demonstration of the possibilities and capabilities of Software Asset Management.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Software Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-software-asset-management.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-05-06"
 reading_time_minutes: 2
 keywords: [Software Asset Management, SAM, License Compliance, Software Asset Workspace, CMDB, Publisher Packs]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Software Asset Management
 
-This accelerator provides a demonstration of the possibilities and capabilities of Software Asset Management.
+This Accelerator provides a demonstration of the possibilities and capabilities of Software Asset Management.
 
 ## Accelerator Overview
 

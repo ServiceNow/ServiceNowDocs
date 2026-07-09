@@ -14,11 +14,11 @@ breadcrumb: [Getting Started guide for developers, Building applications]
 
 Deploying custom applications from development to non-production and production instances is one of the most critical processes in ServiceNow platform management. Knowing the ServiceNow application deployment life cycle, including migration methods, security considerations, and organizational best practices ensures stability, security, and traceability.
 
-## Key ideas for your deployment
+## Key ideas for app deployment
 
 -   Use application-scoped deployments and source control over update sets whenever possible.
--   Leverage ReleaseOps, App Engine Management Center/Pipelines and Deployments, or System Update Sets depending on your organization's chosen management method.
--   Always test in non-production before deploying to production.
+-   Use ReleaseOps, App Engine Management Center/Pipelines and Deployments, or System Update Sets depending on your organization's chosen management method.
+-   Always test in a non-production instance before deploying to production.
 -   Implement access control lists \(ACLs\), role-based access control, and Instance Scan checks as part of every deployment.
 -   Find out what your platform owner has standardized and follow that protocol.
 

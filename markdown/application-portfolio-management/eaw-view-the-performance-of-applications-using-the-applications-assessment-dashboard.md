@@ -1,5 +1,5 @@
 ---
-title: View the performance of applications using the Application Assessments dashboard
+title: View application performance in Application Assessments dashboard
 description: Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with Dashboards, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View the performance of applications using the Application Assessments dashboard
+# View application performance in Application Assessments dashboard
 
 Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 

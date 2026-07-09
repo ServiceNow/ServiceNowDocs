@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-27"
 reading_time_minutes: 2
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Pool Replication Lag
@@ -18,12 +18,10 @@ This may be an indication that a transaction committed on the primary may not ye
 
 This number should ideally always be 0; however, a non-zero value usually indicates some workload that is performing an excessive amount of inserts, updates, and deletes to the database, causing a delay in processing the transaction bin logs on the standby or read replica database.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

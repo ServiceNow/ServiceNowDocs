@@ -1,6 +1,6 @@
 ---
 title: Configure GDS Service Portal Search Widgets
-description: Configure and use search widgets for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
+description: Configure and use search widgets for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure search for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-search.html
 release: australia
@@ -22,11 +22,11 @@ You can also configure **Typeahead** search settings to allow search results to 
 
 Enable AI Search to take advantage of intelligent query features and allow constituents to find the answers they need.
 
-**Parent Topic:**[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
+**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
 ## Configure search sources in GDS Service Portal
 
-Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
+Configure search for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
 
 ### Before you begin
 
@@ -98,7 +98,7 @@ Roles
 
 </td><td>
 
-Define user roles to access this search source. Select the pencil icon \(\[Omitted image "pencil-outline-24.svg"\]\) to configure user roles.
+Define user roles to access this search source. Select the pencil icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: pencil icon\) to configure user roles.
 
 </td></tr><tr><td>
 
@@ -202,8 +202,6 @@ Paginates search results. True by default.
     |Advanced typeahead config|Optionally add an advanced typeahead script to configure the way search results display. For more information, see [Create an advanced typeahead template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/advanced-typeahead.md).|
     |Typeahead glyph|Adds an icon beside each typeahead result.|
     |Page|Defines the service portal page on which the selected results will be displayed. For example, if **form** is configured, a selected typeahead result opens in a form. If **uk\_gds\_case\_details**is configured, a selected typeahead result opens on the case details page.|
-
-    \[Omitted image "image.basic-typeahead"\] Alt text: Example Typeahead tab settings. Page field is set to form.
 
 6.  Select **Submit**.
 

@@ -90,15 +90,15 @@ Tagging users in ADRs ensures that relevant stakeholders are aware of and can co
 
 [Generate a summary for Architectural Decision Records \(ADRs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)
 
-[Elaborate or shorten content in the Architectural Decision Records \(ADRs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-shorten-content-ew.md)
+[Elaborate or shorten content in ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-shorten-content-ew.md)
 
 [Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-edit-adr.md)
 
-[Request approval for an architectural artifact version of type Architectural Decision Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
 
-[Create and manage pages and subpages for architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
 
 [Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-adr-version.md)
 
-[Enable referencing additional records in architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
+[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
 

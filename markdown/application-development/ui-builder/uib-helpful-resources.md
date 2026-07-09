@@ -46,7 +46,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-
+    [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
 

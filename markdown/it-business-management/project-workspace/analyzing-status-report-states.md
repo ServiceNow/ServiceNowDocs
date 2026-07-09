@@ -1,6 +1,6 @@
 ---
-title: Status report tracking by status
-description: Status reports in Project Workspace use draft and published status to help project managers manage report readiness and stakeholder visibility.
+title: Draft and Published status for status reports
+description: Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/analyzing-status-report-states.html
 release: australia
@@ -9,40 +9,44 @@ classification: project-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a status report in Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Status report tracking by status
+# Draft and Published status for status reports
 
-Status reports in Project Workspace use draft and published status to help project managers manage report readiness and stakeholder visibility.
+Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
+
+Setting a status does not send, share, or restrict the report. You distribute reports to stakeholders separately, outside of status.
 
 ## Draft state
 
-A status report is created in the draft status by default. This state indicates that the report is still being prepared or reviewed by the project manager. The draft status helps project managers iterate on content confidently and ensures that incomplete or in‑progress reports aren’t exposed to stakeholders.
+A status report is created in Draft by default, indicating the report is still being prepared or reviewed. In Draft status:
 
-In the draft status:
-
--   The status report remains editable, enabling project managers to update content, refine AI‑generated insights, and incorporate feedback.
--   Draft reports are visible to users with the project\_user role.
+-   The report is editable, so you can update content, refine AI-generated insights, and incorporate feedback.
+-   You can iterate freely before marking the report complete.
+-   The report is visible to users with the project\_user role.
 
 ## Published status
 
-When the status report is complete and ready for broader visibility, the project manager can change the status to published.
+When a report is finalized and you have shared it with stakeholders, set the status to Published. This records, for you and your project team, that the report is complete. In Published status:
 
-In the published status:
-
--   The published status indicates that the report has been finalized.
--   If updates are required after publishing, the project manager can reset the report back to draft to make changes.
-
-A **AI Project health analysis** column has been added to the project list view. When you publish an AI status report, the health analysis rolls up to the project level and appears in this column. If you publish a standard status report \(non-AI\), the AI Project health analysis column is cleared. This ensures the column always reflects the latest status report only.
+-   The report is marked as finalized and is no longer editable.
+-   To make further changes, reset the report to Draft, edit, and publish again.
 
 ## Benefits
 
-The draft and published status provide clear value for both project managers and stakeholders:
+Tracking report status with Draft and Published labels provides the following benefits:
 
--   Improved clarity by distinguishing between in‑progress and finalized reports.
--   Better communication, helping stakeholders trust the accuracy and readiness of published reports.
--   Simple state management without introducing workflow automation or approval dependencies.
+-   Clearer report state - At a glance, you and your team can tell which reports are still in progress and which are finalized.
+-   Confident iteration - Draft status lets you refine content, including AI insights, before marking a report done.
+-   Simple, predictable behavior - Status is a manual label with no workflow, approvals, or automated distribution attached.
+
+## AI Project health analysis column
+
+The project list view includes an AI Project health analysis column that reflects your most recent status report.
+
+-   When you publish an AI status report, its health analysis rolls up to the project level and appears in this column.
+-   When you publish a standard \(non-AI\) status report, the column is cleared because a standard report contains no AI health analysis to roll up.
 
 **Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 

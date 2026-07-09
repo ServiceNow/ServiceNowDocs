@@ -54,7 +54,13 @@ Configure the websocket server on MID Servers to enable connections from agents 
 
     2.  Verify that you receive a valid JSON response \(and not an error message\), such as the following:
 
-        \[Omitted image "ACC-websocket-JSON.png"\] Alt text: Successful installation JSON script
+        Successful installation JSON message:
+
+        ```json
+        { 
+                     "connectedAgentsNum" : 1
+        }
+        ```
 
 
 **Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)

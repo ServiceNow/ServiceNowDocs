@@ -159,7 +159,7 @@ sudo rpm/dpkg
 Not supported
 
 </td></tr></tbody>
-</table>If you completely reinstall the agent on a single host server, a second agent record registers on the instance. Delete the original agent on the **Agent Client Collectors** page \(**All** &gt; **Agent Client Collector** &gt; **Agents**\).
+</table>If you completely reinstall the agent on a single host server, and you're using ITOM Cloud Services, you must delete the agent record to allow for re-registration. Delete the original agent on the **Agent Client Collectors** page \(**All** &gt; **Agent Client Collector** &gt; **Agents**\).
 
 Agents whose **Status = Down** or **Disconnected** which haven't been deleted are deleted automatically after 30 days. You can modify this setting on the Autoflush form page \(see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-auto-flush.md)\).
 

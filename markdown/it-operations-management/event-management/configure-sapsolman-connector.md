@@ -24,7 +24,7 @@ Supported versions: Tested on SAP Solution Manager 7.2. Might also work on other
 
 ## About this task
 
-This configuration enables you to update the SAP Solution Manager with the statuses that have been updated by ServiceNow. For general information about the SAP Solution Manager, see [SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md).
+This configuration enables you to update the SAP Solution Manager with the statuses that have been updated by ServiceNow. For general information about the SAP Solution Manager, see [SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md).
 
 ## Procedure
 
@@ -174,7 +174,7 @@ MID Server that is up and valid. You can configure several MID Servers so that i
 8.  After a successful test, select the **Active** check box and click **Update**.
 
 
--   **[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)**  
+-   **[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)**  
 Configure your SAP environment to work with the ServiceNow Event Management platform so you can use the SAP Solution Manager connector.
 
 **Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)

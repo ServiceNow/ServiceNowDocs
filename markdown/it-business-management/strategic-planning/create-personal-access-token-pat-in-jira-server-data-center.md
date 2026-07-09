@@ -1,5 +1,5 @@
 ---
-title: Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations
+title: Create Personal Access Token in Jira for SPW Jira Integrations
 description: Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance, which is later used to create a connection between Strategic Planning and Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Set up a Jira instance, Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations
+# Create Personal Access Token in Jira for SPW Jira Integrations
 
 Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance, which is later used to create a connection between Strategic Planning and Jira.
 

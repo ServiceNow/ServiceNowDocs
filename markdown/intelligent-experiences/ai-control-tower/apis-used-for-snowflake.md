@@ -79,7 +79,7 @@ Retrieves status, metrics, and output details for completed fine-tuning jobs.
 
 The connector queries the SNOWFLAKE.LOCAL.AI\_OBSERVABILITY\_EVENTS table to collect AI agent usage data.
 
-This query analyzes usage within a specified time window and returns the following data:
+This query analyses usage within a specified time window and returns the following data:
 
 -   Session IDs
 -   Agent names

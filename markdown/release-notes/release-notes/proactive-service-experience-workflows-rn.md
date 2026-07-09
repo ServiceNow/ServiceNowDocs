@@ -45,6 +45,13 @@ Australia Early Availability
     The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
 
+## Changed in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 ## Removed in this release
 
 Australia Early Availability

@@ -50,4 +50,8 @@ The application configuration works with the Field Service Management configurat
 Trigger types determine the initiation of the execution of the work plan.
 -   **[Field Service Management script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-script-includes.md)**  
 Script includes used in Field Service Management help configure agent scheduling, dispatch operations, part management, integrations, and more.
+-   **[Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-management-questionnaires.md)**  
+Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
+-   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/glossary-fsm.md)**  
+Learn about terms and concepts that are unique to Field Service Management.
 

@@ -1,6 +1,6 @@
 ---
-title: Import bulk entitlements in Software Asset Management classic
-description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
+title: Import bulk entitlements in Software Asset Management Core UI
+description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-entitlement-import-errors.html
 release: australia
@@ -9,12 +9,12 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Import bulk entitlements in Software Asset Management classic
+# Import bulk entitlements in Software Asset Management Core UI
 
-You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
+You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
 
 ## Before you begin
 
@@ -69,5 +69,5 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
     The entitlement is successfully created. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-software-rights-form.md).
 
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

@@ -115,7 +115,7 @@ String
 
 **Note:** This functionality is only used by Calendar type schedule pages.
 
-The HTML field is a scriptable section that is parsed by Jelly and injected into the display page prior to the rest of the calendar. It can be used to pass in variables from the server and define extra fields are necessary.
+The HTML field is a scriptable section that is parsed by Jelly and injected into the display page prior to the rest of the calendar. It can be used to pass in variables from the server and define extra fields.
 
 </td></tr><tr><td>
 

@@ -40,7 +40,7 @@ To get started with the Now Assist in Virtual Agent enhanced chat:
 -   Ensure that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin.
 -   Select Employee Center from the Portals tab and select the enhanced chat.
 
-    For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+    For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
 
 **Important:** Pinning chat windows can create responsiveness issues on the following screen resolutions and pixel range.

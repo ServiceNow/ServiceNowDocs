@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Process Mining
@@ -18,7 +18,7 @@ Jumpstart Your Process Mining Accelerator provides a demonstration of the possib
 
 ## Accelerator Overview
 
-Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md).
+Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see .
 
 ## Package Availability
 

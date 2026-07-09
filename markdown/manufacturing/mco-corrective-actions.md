@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective actions
@@ -40,11 +40,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     Corrective action must contain at least one action charge line to move it to In use.
 
-
--   **[Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges.md)**  
-Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
--   **[Generate a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-part-requirements.md)**  
-Capture all the part requirements at the campaign level.
-
-**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
 

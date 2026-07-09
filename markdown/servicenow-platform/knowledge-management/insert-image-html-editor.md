@@ -28,9 +28,9 @@ Role required: user with contribute access
 
 3.  On the knowledge article form, in the **Article body** field, place the cursor where you want to insert an image.
 
-4.  On the HTML editor toolbar, select the Insert/edit image icon \(\[Omitted image "TinyMCEV4Image.png"\] Alt text: Insert or edit image icon\).
+4.  On the HTML editor toolbar, select the Insert/edit image icon .
 
-5.  On the Insert/Edit Image dialog box, select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\).
+5.  On the Insert/Edit Image dialog box, select the Upload icon \(.
 
 6.  Select an image.
 

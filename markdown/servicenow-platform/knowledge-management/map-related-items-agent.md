@@ -62,7 +62,7 @@ Catalog item
 
 </td><td>
 
-Catalog item related to the knowledge article.You can click the search for record icon \(\[Omitted image "lookup-icon.png"\] Alt text: Search for Record icon\) to access a list of available catalog items.
+Catalog item related to the knowledge article.You can click the search for record icon to access a list of available catalog items.
 
 </td></tr><tr><td>
 

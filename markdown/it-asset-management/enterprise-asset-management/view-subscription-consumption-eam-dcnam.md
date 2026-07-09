@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # View your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application

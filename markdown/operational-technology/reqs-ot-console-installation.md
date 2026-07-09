@@ -22,7 +22,7 @@ You must have a Linux operating system installed that can operate in a virtualiz
 
 ## System requirements
 
-The table lists the minimum resource requirements for the Discovery Console for OT.
+The table lists the minimum resource requirements for the Discovery Console for OT. For additional system requirements, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md).
 
 <table id="table_i5f_kpx_vgc"><thead><tr><th>
 
@@ -43,7 +43,9 @@ Discovery Console for OT
 -   2 CPUs
 
 </td></tr></tbody>
-</table>## Network requirements
+</table>**Note:** The required dependency version has been changed to .NET 10 from .NET 8
+
+## Network requirements
 
 The Discovery Console for OT requires the following ports to be open inbound \(from the connection source to the Console\) to operate.
 

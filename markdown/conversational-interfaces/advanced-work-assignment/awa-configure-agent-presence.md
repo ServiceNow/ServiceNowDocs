@@ -22,17 +22,12 @@ Role required: awa\_admin or admin. Users with the awa\_manager and awa\_agent r
 
 ## About this task
 
-The default presence states are Available, Away, and Offline. For the Available state, be sure to enable it \(using the Active check box\) so that AWA can route work to agents.
+The default presence states are Available, Away, AI Available, and Offline. For the Available state, be sure to enable it \(using the Active check box\) so that AWA can route work to agents.
 
 ## Procedure
 
-1.  Navigate to the presence states settings through one of the following navigation paths:
+1.  Navigate to **All** &gt; **Advanced Work Assignment** &gt; **Home** &gt; **Settings** &gt; **Presence States**.
 
-    -   **All** &gt; **Advanced Work Assignment** &gt; **Home**.
-
-        In the Additional settings section, select **Set up presence states**.
-
-    -   **All** &gt; **Advanced Work Assignment** &gt; **Presence States**.
 2.  Choose a situation.
 
     -   To create a presence state, select **New**.
@@ -53,7 +48,7 @@ Name
 
 </td><td>
 
-Name of the presence state, for example: Out of office. The default presence states are Available, Away, or Offline.
+Name of the presence state, for example: Out of office. The default presence states are Available, Away, AI Available, and Offline.
 
 </td></tr><tr><td>
 
@@ -109,7 +104,7 @@ Disable agent inactivity check
 
 </td><td>
 
-If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the AWA Agent API. You may need to configure the form to add this field.
+If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the [AWA Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/agent-api.md). You may need to configure the form to add this field.
 
 </td></tr><tr><td>
 

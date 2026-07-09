@@ -30,13 +30,9 @@ Role required: knowledge\_manager, knowledge\_admin
 
 3.  In the Article Versions related list, select the check boxes for the two versions of the article to compare.
 
-    \[Omitted image "article-version-related-list.png"\] Alt text: Article Versions related list
-
 4.  In the Actions on selected rows list, select **Compare** from the list.
 
     The Compare versions page opens and lists the fields \(including Article body\) for the selected article versions in a side-by-side format. Differences between the two article versions are highlighted.
-
-    \[Omitted image "compare-version.png"\] Alt text: The Compare versions page
 
 5.  Click **Done** to return to the Knowledge form.
 

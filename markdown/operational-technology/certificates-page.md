@@ -1,6 +1,6 @@
 ---
 title: Certificates page
-description: The Certificates page lets you access data regarding your certificates, Sensor credentials, and Collector credentials.
+description: The Certificates page lets you access data regarding your CA certificates, Sensor credentials, and Collector credentials. You can also renew your certifications from this page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/certificates-page.html
 release: australia
@@ -12,18 +12,21 @@ breadcrumb: [Use the Console pages, Discovery Console for Operational Technology
 
 # Certificates page
 
-The Certificates page lets you access data regarding your certificates, Sensor credentials, and Collector credentials.
+The Certificates page lets you access data regarding your CA certificates, Sensor credentials, and Collector credentials. You can also renew your certifications from this page.
 
 On the Certificate page, you can do the following.
 
 -   Generate a Certificate Authority.
+-   Renew a Certificate.
 -   Download the Certificate Bundle \(.zip\).
 -   Generate a Sensor Bundle using a generated or user-submitted password.
 -   Generate a Collector Bundle using a generated or user-submitted password. This bundle is generated using the specified bundle format.
 
+**Note:** For how to renew a certificate, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md).
+
 The following image shows the Certificates page.
 
-\[Omitted image "new-certificate-page.png"\] Alt text: Certificate page
+\[Omitted image "renew-certs1.png"\] Alt text: Certificates page
 
 ## Certificate Authority
 

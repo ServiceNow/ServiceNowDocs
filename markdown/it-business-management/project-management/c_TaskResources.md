@@ -45,6 +45,8 @@ You can use Resource Management to [set up resource plans](https://raw.githubuse
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
 
 [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)

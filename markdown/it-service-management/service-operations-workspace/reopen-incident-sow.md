@@ -54,7 +54,7 @@ A success notification message pop-up appears on the banner. The incident record
 
 [Create an incident in Service Operations Workspace]()
 
-[View and update incident information on the Overview tab in SOW]()
+[View and update incident information on the Overview tab]()
 
 [Viewing incident record information using the Contextual side panel]()
 

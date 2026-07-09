@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Manage your inventory through pallet assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using pallet assets for managing inventory

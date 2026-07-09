@@ -84,7 +84,7 @@ OT device type
 
 </td><td>
 
-For OT devices, you can select the OT device type to apply the device type to the imported OT Discovery devices in the CMDB, if applicable.
+For OT devices, you can select the OT device type to apply the device type to the imported OT Discovery asset in the CMDB, if applicable.
 
 </td></tr></tbody>
 </table>2.  Next, **Configure system properties**.
@@ -110,7 +110,7 @@ Description
 
 </td><td>
 
-Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the OT Discovery Console, you could set this to `PLC,IcsHost`.Default: empty
+Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the Discovery Console for OT, you could set this to `PLC,IcsHost`.Default: empty
 
 **Note:** These are categories defined on the Console side.
 

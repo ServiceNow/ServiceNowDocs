@@ -1,5 +1,5 @@
 ---
-title: Add members to an internal business location
+title: Add members to a internal business location
 description: Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-internal-business-location.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding staff members, Create a dealer, Set up dealer, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Create internal business location, Dealer, Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
 
-# Add members to an internal business location
+# Add members to a internal business location
 
 Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.
 

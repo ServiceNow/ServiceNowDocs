@@ -36,3 +36,5 @@ This plugin isn't activated directly. Instead, the plugin is activated by any of
 
 [Restricting access to Hermes]()
 
+[Enable encryption at rest for a Hermes topic]()
+

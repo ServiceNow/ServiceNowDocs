@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing enterprise asset shipments
@@ -78,6 +78,4 @@ Associate a third-party shipping carrier with an integration profile so that you
 Remove a third-party shipping carrier that you no longer want to associate with an integration profile.
 -   **[Test the integration profile for a third-party shipping carrier in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/test-shipping-carrier-integration-profile-eam.md)**  
 Test the integration profile for a third-party shipping carrier so that you can mitigate any connection issues that arise.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

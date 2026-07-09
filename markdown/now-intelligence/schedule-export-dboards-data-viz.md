@@ -27,7 +27,7 @@ To view the list of scheduled exports, navigate to **All** &gt; **Platform Analy
 
 ## About this task
 
-You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you are exporting and whether you are exporting it as part of a dashboard or as a standalone data visualization.
+You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you're exporting and whether you're exporting it as part of a dashboard or as a standalone data visualization.
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
@@ -48,19 +48,17 @@ You can export multiple dashboards and data visualizations together in one sched
 
 3.  From the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\), select **Schedule**.
 
-    You cannot be in Edit mode.
+    You can't be in Edit mode.
 
     \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
-    All the options appear for exporting the dashboard or data visualization. If you do not want to export this object, select **Change**.
+    All the options appear for exporting the dashboard or data visualization. If you don't want to export this object, select **Change**.
 
 4.  Select the file type.
 
-5.  If you are exporting a dashboard or data visualization to PDF, or a data visualization to a graphic file, select the page format and orientation.
+5.  If you're exporting a dashboard or data visualization to PDF, select the page format and orientation.
 
-    Scheduled exports of List data visualizations to PDF do not have options for page format or orientation. If you need a PDF with a particular format or orientation, consider putting the List on a dashboard and scheduling the export of that dashboard, instead.
-
-6.  If you are exporting a dashboard to Power Point, do the following steps:
+6.  If you're exporting a dashboard to Power Point, do the following steps:
 
     1.  Select whether to export all tabs or only specific tabs.
 
@@ -68,7 +66,7 @@ You can export multiple dashboards and data visualizations together in one sched
 
         \[Omitted image "sched-exp-by-tab.png"\] Alt text: Export configuration for one tab and the top level visualizations.
 
-        For example, if you do not turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
+        For example, if you don't turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
         \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/create-derived
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [derived pricing, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
 breadcrumb: [Derived product pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -25,6 +25,15 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 ## About this task
 
 Use the Derived Price Matrix to define the rules for deriving the pricing of a product offering relative to other product offerings or a price source based on a transactional header, such as items from quote headers.
+
+The Derived Price Matrix defines pricing rules for both quotes and orders. When agents add products to a quote or order, the system automatically evaluates the rules in this matrix and generates, updates, or removes derived line items as needed. Agents cannot edit or copy system-generated lines. The system enforces these restrictions to preserve pricing integrity. When agents add products to a quote or order, the following occurs automatically:
+
+-   System-generated lines appear when pricing rules are evaluated and conditions are met.
+-   Existing derived lines update automatically when pricing conditions change, such as when source product prices or quantities are modified.
+-   Derived lines are removed automatically when they no longer meet the pricing rule conditions.
+-   System-generated lines display a **System generated** indicator and can't be edited, deleted, or copied. This restriction preserves pricing integrity.
+
+Agents can review the line item for the target product to see how the derived price was calculated by checking the scope values and price point used.
 
 **Note:** Only one rule set for a derived product is supported.
 

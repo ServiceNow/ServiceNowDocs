@@ -1,6 +1,6 @@
 ---
-title: Create requirement form
-description: The requirement form information is used to create a requirement for a demand.
+title: Requirement form
+description: The requirement form enables you to create or modify requirements for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/requirement-form-dw.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create requirement form
+# Requirement form
 
-The requirement form information is used to create a requirement for a demand.
+The requirement form enables you to create or modify requirements for a demand.
 
 <table id="tbl_AddingRequirements"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-Unique identification number for the requirement. Automatically generated when a new requirement record is created.
+Unique identification number for the requirement. This number is automatically generated when an entry is created.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Source
 
 </td><td>
 
-User requesting the requirement. This field automatically populates with the name of the person filling out the form, but the source can be a different person who identified the requirement.
+User requesting the requirement. This field is automatically set to the name of the user filling out the form. The source can be a different user who identified the requirement.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Owner
 
 </td><td>
 
-User responsible for managing the requirement or ensuring that the requirement is met.
+User responsible for managing or fulfilling the requirement.This field is automatically set to the name of the user filling out the form. The owner can be a different user who is identified to manage the requirement.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Estimated effort
 
 </td><td>
 
-Approximate amount of time to complete the requirement and any associated tasks.
+Approximate effort required to fulfill the requirement and any associated tasks.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,13 @@ Priority
 
 </td><td>
 
-Importance of the requirement as it applies to the overall demand.
+Urgency and importance of the requirement. Requirements are created with the Low priority.The available values are:
+
+-   Critical
+-   High
+-   Moderate
+-   Low
+-   Planning
 
 </td></tr><tr><td>
 
@@ -70,7 +76,13 @@ State
 
 </td><td>
 
-Status of the requirement such as Pending, Approved, or Rejected.**Note:** The requirement state is independent of the demand state and the states of any planned tasks associated with the requirement. The demand can be closed without the requirement state being closed. Closing the demand doesn’t change the state of the requirement.
+Current state of the requirement. Requirements are created in the Pending state.The available values are:
+
+-   Pending
+-   Approved
+-   Rejected
+
+**Note:** This state is independent of the demand state and the states of any planned tasks associated with the requirement. The demand can be completed without closing the requirement. Closing the demand doesn't change the state of the requirement.
 
 </td></tr><tr><td>
 
@@ -78,7 +90,14 @@ Type
 
 </td><td>
 
-Type of requirement such as Business, Solution \(Functional\), Solution \(Non-Functional\), Quality, Stakeholder, or Transition.
+Type of the requirement.The available values are:
+
+-   Business
+-   Solution \(Functional\)
+-   Solution \(Non-Functional\)
+-   Quality
+-   Stakeholder
+-   Transition
 
 </td></tr><tr><td>
 
@@ -94,7 +113,7 @@ Description
 
 </td><td>
 
-Detailed description of the requirement and any associated tasks. For example, describe an expected outcome or result.
+Detailed description of the requirement and any associated tasks. For example, description of an expected outcome or result of the requirement.
 
 </td></tr></tbody>
 </table>

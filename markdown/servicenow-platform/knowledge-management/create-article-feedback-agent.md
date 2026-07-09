@@ -43,7 +43,7 @@ A feedback task is created in the following ways:
 
 5.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d496057e155">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d499663e155">
 
 **Selected article template**
 
@@ -59,7 +59,7 @@ Select an article template to create a knowledge article using defined fields an
 3.  Select **Create Article**.
  The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md) and [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d496057e200">
+</td></tr><tr><td id="d499663e200">
 
 **Default Standard template**
 
@@ -293,11 +293,11 @@ Explanation of a what-is topic. **Note:** This field is available in the What Is
 
 7.  Research for content related to knowledge article you're authoring using Agent assist.
 
-    1.  In the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist.png"\] Alt text: Agent Assist icon.\).
+    1.  In the contextual side panel, select the agent assist icon .
 
         The search results in Agent assist display default content based on the text-based search.
 
-    2.  Click the select a search resource icon \(\[Omitted image "filter-settings.png"\] Alt text: Select a search resource icon\), and then select a search resource.
+    2.  Click the select a search resource icon , and then select a search resource.
 
         For example, to view knowledge articles, select **Knowledge Articles**.
 
@@ -309,9 +309,9 @@ Explanation of a what-is topic. **Note:** This field is available in the What Is
 
     1.  Enter your search text in the text box available in Agent assist or retain the default text, which is the short description of the knowledge article.
 
-    2.  Select the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon.\).
+    2.  Select the lookup icon .
 
-    3.  Select a search resource by clicking the Select a search resource icon \(\[Omitted image "filter-settings.png"\] Alt text: Select a search resource icon.\).
+    3.  Select a search resource by clicking the Select a search resource icon .
 
         -   To find knowledge articles that have high text similarity with the entered search text, choose **Similar Articles \(ML\)**.
 
@@ -349,7 +349,7 @@ After you create and publish a knowledge article, you can perform the following 
 -   Request translations for the knowledge article. For more information, see [Request translations for missing languages in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/request-translations-agent.md).
 -   Retire the knowledge article. Click **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
 -   Translate the knowledge article directly from the knowledge article. For more information, see [Translate a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translate-directly-workspace.md).
--   Delete the published knowledge article. Click **Delete**. If the **Delete** button isn't displayed, click the more actions icon \(\[Omitted image "more.png"\] Alt text: More actions icon.\), and then click **Delete**.
+-   Delete the published knowledge article. Click **Delete**. If the **Delete** button isn't displayed, click the more actions icon , and then click **Delete**.
 
     **Note:** Only users with the admin role can delete a published knowledge article.
 

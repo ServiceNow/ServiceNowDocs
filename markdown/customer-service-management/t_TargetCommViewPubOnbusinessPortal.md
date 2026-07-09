@@ -43,3 +43,8 @@ The **Publications** link on the business portal displays a list of current publ
 7.  Select the return arrow at the top of the publication to return to the Publications list.
 
 
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+

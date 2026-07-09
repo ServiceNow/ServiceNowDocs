@@ -61,7 +61,7 @@ Synonym Type
 Type of synonym.
 
 -   **Table or Column**: Synonym for a value on a table or a specific column in that table.
--   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md).
+-   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see Querying the CMDB.
 
 **Note:** Supports cmdb\_rel\_type,cmdb\_group, cmdb\_ci\_service\_technical, cmdb\_ci\_service\_discovered, cmdb\_ci\_query\_based\_service tables.
 

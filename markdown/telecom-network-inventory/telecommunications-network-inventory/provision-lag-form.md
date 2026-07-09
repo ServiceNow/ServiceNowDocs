@@ -105,5 +105,5 @@ Text field where you can select a destination interface.**Note:** The interface 
 **Related topics**  
 
 
-[Create a Link Aggregation Group using design and assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md)
+[Create a Link Aggregation Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md)
 

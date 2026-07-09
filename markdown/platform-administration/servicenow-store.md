@@ -15,7 +15,7 @@ breadcrumb: [Administering applications, Get started, Administer the ServiceNow 
 
 Expand the capabilities of the ServiceNow AI Platform® with hundreds of certified, ready-to-use apps, integrations, and products that are available on the ServiceNow® Store.
 
-The  enables departments across the enterprise to do more with the ServiceNow AI Platform using solutions that complement and extend ServiceNow AI Platform instances. Available offerings include native ServiceNow solutions, which are updated outside of major platform releases, and solutions created by the growing ServiceNow partner ecosystem.
+The [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) enables departments across the enterprise to do more with the ServiceNow AI Platform using solutions that complement and extend ServiceNow AI Platform instances. Available offerings include native ServiceNow solutions, which are updated outside of major platform releases, and solutions created by the growing ServiceNow partner ecosystem.
 
 ## Get started
 

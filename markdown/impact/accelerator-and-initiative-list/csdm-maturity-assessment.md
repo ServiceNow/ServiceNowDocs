@@ -1,6 +1,6 @@
 ---
 title: CSDM Maturity Assessment
-description: This accelerator provides insight into your current alignment to the Common Service Data Model \(CSDM\) within ServiceNow and related people, process and governance maturity, providing targeted recommendations on the next steps to unlock additional value from the platform.
+description: This Accelerator provides insight into your current alignment to the Common Service Data Model \(CSDM\) within ServiceNow and related people, process and governance maturity, providing targeted recommendations on the next steps to unlock additional value from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csdm-maturity-assessment.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [CSDM, Common Service Data Model, Maturity Assessment, Data Model, CMDB]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CSDM Maturity Assessment
 
-This accelerator provides insight into your current alignment to the Common Service Data Model \(CSDM\) within ServiceNow and related people, process and governance maturity, providing targeted recommendations on the next steps to unlock additional value from the platform.
+This Accelerator provides insight into your current alignment to the Common Service Data Model \(CSDM\) within ServiceNow and related people, process and governance maturity, providing targeted recommendations on the next steps to unlock additional value from the platform.
 
 ## Accelerator Overview
 
 The Common Service Data Model \(CSDM\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured evaluation completed by key business stakeholders and helps them maximize the value of their ServiceNow investment.
 
-By giving customers, a clear snapshot of their current data management maturity related to the organization's capabilities and services, this accelerator offers targeted next-step guidance across people, processes, governance, and alignment to the ServiceNow common data model.
+By giving customers, a clear snapshot of their current data management maturity related to the organization's capabilities and services, this Accelerator offers targeted next-step guidance across people, processes, governance, and alignment to the ServiceNow common data model.
 
 ## Package Availability
 

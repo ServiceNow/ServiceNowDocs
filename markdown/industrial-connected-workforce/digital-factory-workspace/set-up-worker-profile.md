@@ -40,8 +40,6 @@ The sn\_icw\_worker\_profile table contains the link between a user and a functi
 
 5.  Select **Submit**.
 
-    \[Omitted image "worker-profile.png"\] Alt text: New record page for worker profile
-
 
 **Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

@@ -22,6 +22,8 @@ Organizations can use an integration method to populate or synchronize HR profil
 
 The fields that are editable by employees are defined in **HR Properties** under **HR profile fields editable by users**. See [HR properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRProperties.md).
 
+**Note:** Generating profiles is not a one time process.
+
 -   **[HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md)**  
 An option in Human Resources Configuration provides a list of HR profile fields that can be enabled for edit. Understand the difference between how the personal and the employment information fields are updated in the HR profile based on this configuration.
 -   **[HR profile and HR case security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileSecurity.md)**  

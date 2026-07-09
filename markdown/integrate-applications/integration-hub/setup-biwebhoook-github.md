@@ -16,7 +16,7 @@ breadcrumb: [GitHub Spoke, Integration Hub spokes, Build integrations, Integrati
 
 Configure webhook to subscribe to GitHub with a ServiceNow callback URL.
 
-Demonstrates setting up bi-directional webhook for the GitHub spoke. 
+\[Omitted video\] Description: Demonstrates setting up bi-directional webhook for the GitHub spoke.
 
 ## Before you begin
 

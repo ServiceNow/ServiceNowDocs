@@ -60,7 +60,7 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand]()
+[RIDACs records for a demand]()
 
 [Delete demands]()
 

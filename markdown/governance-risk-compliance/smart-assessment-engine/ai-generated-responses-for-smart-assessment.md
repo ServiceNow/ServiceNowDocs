@@ -55,7 +55,7 @@ When adding AI-generated responses to questions:
 
 **Note:** The AI-generated draft responses are also available for combined assessments.
 
-## Usecase for Smart Assessment response assist skill
+## Use case for Smart Assessment response assist skill
 
 Consider a vendor undergoing a Third-Party Risk Management \(TPRM\) security assessment. Vendors frequently receive similar security questionnaires from multiple users. The Smart Assessment Response Assist skill is ideal for this scenario — it draws on two AI sources simultaneously: previously answered assessments and supporting documents. Here's how it works:
 
@@ -68,7 +68,7 @@ Consider a vendor undergoing a Third-Party Risk Management \(TPRM\) security ass
 ## Benefits of Smart Assessment response assist skill
 
 -   Reduce time spent on repetitive assessments by reusing validated responses.
--   Marks each question with an "AI assistance" tag and provides filters to track and review AI-supported responses easily.
+-   Track AI-assisted questions with an "AI assistance" tag and use filters to review AI-supported responses easily.
 -   Maintain human oversight — review, accept, or override every suggestion.
 -   Improve consistency and quality across responses by drawing on past validated answers.
 -   View the source of every AI suggestion, whether from a past smart assessment, classic assessment, or supporting document.

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [web application metrics, web app performance, response time, page load time, view web app metrics]
 breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 ---
 

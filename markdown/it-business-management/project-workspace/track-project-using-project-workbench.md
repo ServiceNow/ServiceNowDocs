@@ -1,5 +1,5 @@
 ---
-title: Track a project using project workbench in classic Project Workspace
+title: Track a project using project workbench
 description: As a project manager, track and manage a project in Project Workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/track-project-using-project-workbench.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Track a project using project workbench in classic Project Workspace
+# Track a project using project workbench
 
 As a project manager, track and manage a project in Project Workbench.
 

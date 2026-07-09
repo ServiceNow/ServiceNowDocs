@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [ad hoc obligation task, obligation in software asset workspace]
-breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an ad hoc obligation task in Software Asset Workspace
@@ -27,15 +27,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 2.  Open an active obligation record either from the **Obligations** tab within the contract record or from the **Obligations** view.
 
-<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d151378e81">
+<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d151982e81">
 
 Method
 
-</th><th align="left" id="d151378e84">
+</th><th align="left" id="d151982e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d151378e90">
+</th></tr></thead><tbody><tr><td id="d151982e90">
 
 **From the contract record**
 
@@ -47,7 +47,7 @@ Steps
 4.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d151378e133">
+</td></tr><tr><td id="d151982e133">
 
 **From the Obligations view**
 

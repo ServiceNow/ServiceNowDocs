@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Strategic Portfolio Management – Planning Workspace
@@ -18,7 +18,7 @@ The Jumpstart Your Strategic Portfolio Management – Planning Workspace Acceler
 
 ## Accelerator Overview
 
-Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of Planning Workspaces in SPM, demonstrating how to gain clear visibility into work items, prioritize effectively, and align execution with strategic goals. This accelerator also equips customers with key resources and leading practices to help them get started quickly.
+Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of Planning Workspaces in SPM, demonstrating how to gain clear visibility into work items, prioritize effectively, and align execution with strategic goals. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
 For additional information on SPM, see [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md).
 

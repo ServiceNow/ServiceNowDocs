@@ -35,3 +35,10 @@ Role required: sn\_customerservice.consumer
 
 You’re logged in to the Consumer Portal and your name and profile picture appears in the portal header.
 
+**Related topics**  
+
+
+[Register for the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-portal-registration.md)
+
+[Change your password from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/password-change-consumer-portal.md)
+

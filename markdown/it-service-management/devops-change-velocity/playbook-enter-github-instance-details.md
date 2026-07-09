@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d362543e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d363445e97">
 
 Option
 
-</th><th align="left" id="d362543e100">
+</th><th align="left" id="d363445e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362543e106">
+</th></tr></thead><tbody><tr><td id="d363445e106">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d362543e133">
+</td></tr><tr><td id="d363445e133">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d362543e188">
+</td></tr><tr><td id="d363445e188">
 
 **Tools module**
 
@@ -227,9 +227,13 @@ For the installation id, go to Install App section in your GitHub App configurat
 
         \[Omitted image "github-plybk-08.png"\] Alt text: Select repositories for tracking.
 
+        **Note:** If you want the automatic pipeline discovery \(scheduled job\) to process untracked repositories as well, set the **sn\_devops.discover.tracked\_repos\_only** system property to false.
+
     3.  If you want to import repository data, select the date range and select **Submit**.
 
         You can import up to 90 days of data. Workflows associated with the repositories will also be imported.
+
+    **Note:** You can't import commits from forked repositories. This limitation exists because the GitHub REST API does not return commit data for forked repositories.
 
 9.  Select the pipelines to track.
 

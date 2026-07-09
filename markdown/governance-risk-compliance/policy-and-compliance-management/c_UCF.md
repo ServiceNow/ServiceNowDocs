@@ -30,13 +30,7 @@ If your organization wants to use UCF Common Controls Hub as the source for your
 
 ## Import authority document using single shared list
 
-Every authority document already imported into the ServiceNow® instance must be in any shared list you wish to import from the UCF CCH. This prevents inconsistencies between what is in the UCF CCH \(which may have changed\) and what you’ve already imported.
-
-\[Omitted image "cch-shared-okay.png"\] Alt text: Graphic shows all authority documents reimported with the new one
-
-\[Omitted image "cch-shared-not-okay.png"\] Alt text: Graphic shows a mismatch of the imported authority documents
-
-An error is rendered since SOX is not being reimported within this Shared List.
+Every authority document already imported into the ServiceNow® instance must be in any shared list you wish to import from the UCF CCH. This prevents inconsistencies between what is in the UCF CCH \(which may have changed\) and what you’ve already imported. An error is shown if any item in the shared list is not included for reimport.
 
 ## Import authority documents using multiple shared lists
 

@@ -38,7 +38,7 @@ Create configuration item
 
 </td><td>
 
-Occasionally, you might create a CI manually. To help you, the Create configuration item agentic workflow accepts your natural language request and verifies that it understands which class the new CI should belong to. The workflow then checks Identification and Reconciliation engine \(IRE\) rules to determine the required attributes for the CI and requests that information. After you provide sufficient data, the workflow ensures that the proposed CI includes the attributes that you requested, complies with IRE rules, and is not a duplicate. The workflow then creates the CI. For more information, see [Create a CI using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ci-creator.md)
+Occasionally, you might create a CI manually. To help you, the Create configuration item agentic workflow accepts your natural language request and verifies that it understands which class the new CI should belong to. The workflow then checks Identification and Reconciliation engine \(IRE\) rules to determine the required attributes for the CI and requests that information. After you provide sufficient data, the workflow promotes that the proposed CI includes the attributes that you requested, complies with IRE rules, and is not a duplicate. The workflow then creates the CI. For more information, see [Create a CI using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ci-creator.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Search CMDB
 
 </td><td>
 
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query. For more information, see [Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md).
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CIs of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query. For more information, see [Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md).
 
 </td><td>
 
@@ -79,7 +79,7 @@ Remediate duplicate CIs
 
 </td><td>
 
-The Duplicate CI remediator agentic workflow completes the full range of de-duplication tasks. The workflow presents its reasoning for each step so CMDB administrators can review the AI recommendations, modify the remediation actions if needed, and then perform the de-duplication tasks.
+The Duplicate CI remediator agentic workflow completes the full range of deduplication tasks. The workflow presents its reasoning for each step so CMDB administrators can review the AI recommendations, modify the remediation actions if needed, and then perform the deduplication tasks.
 
 </td><td>
 
@@ -117,7 +117,7 @@ The Duplicate CI remediator agentic workflow completes the full range of de-dupl
     -   If you provide a user referencing value: Does the **Group Referencing** value indicate an active record? This evaluation identifies CIs that have inactive groups, empty groups \(no users\), and CIs with no **Group** value.
 -   **CMDB health metrics manager AI agent**
 
-    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs are not configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health]().
+    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs aren't configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health]().
 
 -   **CMDB life cycle manager AI agent**
 
@@ -138,7 +138,7 @@ The Duplicate CI remediator agentic workflow completes the full range of de-dupl
 
 **Note:**
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
@@ -156,8 +156,10 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 The Create configuration item agentic workflow accepts your natural language request to manually generate a valid CI in the class that you specify.
 -   **[Getting advice from Now Assist on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-governance.md)**  
 Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
+-   **[Analyzing the impact of a change or incident overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-impact-analysis-using.md)**  
+The analyze impact agentic workflow uses generative AI to identify which upstream services and configuration items \(CIs\) are likely to be affected by an incident or by a proposed change before it is approved. The skill reasons about propagation likelihood based on CMDB dependency topology and the nature of the change. The skill returns a structured list with impact levels and reasoning.
 -   **[Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md)**  
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CIs of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 -   **[Recommend service graph connector agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-suggest-sgc-mappings.md)**  
 Sometimes you're not sure which integration to use to capture CI data. When you provide Now Assist with then name of a particular CI class, it can recommend the data sources or Service Graph Connectors and ingestion sources that can best populate CMDB data.
 

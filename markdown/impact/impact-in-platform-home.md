@@ -1,5 +1,5 @@
 ---
-title: Navigating Impact
+title: Navigate Impact
 description: Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-in-platform-home.html
@@ -10,11 +10,11 @@ reading_time_minutes: 6
 breadcrumb: [Using Impact, Impact]
 ---
 
-# Navigating Impact
+# Navigate Impact
 
 Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 
-**Important:** To access Impact, be sure to have the appropriate entitlements. See  for details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact.md).
+**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for the details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
 
 ## Impact Home page
 
@@ -38,9 +38,9 @@ The Impact Workspace home page is a central hub that guides and enables you to l
 
 ## Recommended next steps
 
-Recommended next steps provide personalized suggestions tailored to you. These recommendations are steps that you can ideally focus and act on. Recommendations can be anything like attending a workshop, getting started on a training, applying for an event, initiating an accelerator, and other such activities. Only the latest three published recommendations are displayed here in the home page. To view the complete list, select **View full list**.
+Recommended next steps provide personalized suggestions tailored to you. These recommendations are steps that you can focus and act on. Recommendations can be anything like attending a workshop, getting started on a training, applying for an event, initiating an accelerator, and other such activities. Only the latest three published recommendations are displayed here in the home page. To view the complete list, select **View full list**.
 
-You can select any given recommendation and get started on it by selecting **View Details** for each of the recommendations, which displays a model. You can learn about the recommendation and if you aren’t interested in that you can reject it by selecting the **Hide** option. Options to act on each recommendation vary depending on the type and source of the recommendation:
+You can select any given recommendation and get started on it by selecting **View Details** for each of the recommendations, which displays a model. You can learn about the recommendation and if you aren’t interested in it you can reject it by selecting the **Hide** option. Options to act on each recommendation vary depending on the type and source of the recommendation:
 
 -   If it’s a recommendation that is related to an accelerator, then you can accept it by selecting **Get Started**.
 -   If it’s a recommendation suggested for you to act on it or something that you might be interested in, then select **Open Link**.
@@ -60,19 +60,19 @@ Use this section to onboard your team with a step-by-step guidance and help them
 
 -   **Impact Overview**
 
-    This page has information on all the major areas within Impact such as Introduction, Impact Squad, Value Management, Product Adoption, Platform Health, Expertise Access, Key deliverable. The content is based on your subscription package such as Guided, Advanced, or Total.
+    This page has information on all the major areas within Impact such as Introduction, Impact Squad, Value Management, Product Adoption, Platform Health, Expertise Access, Key deliverables. The content is based on your subscription package such as Guided, Advanced, or Total.
 
--   **Watch demo:**
+-   **Watch Demo**
 
     Watch a video demonstration of Impact for a walk-through of the various features of Impact in the Impact Overview Demo modal window.
 
--   **Guided Tour:**
+-   **Guided Tour**
 
     Launch the guided tour to onboard your users to experience the ServiceNow Impact application. Select the **Learn about Impact &gt; Guided Tour** link to familiarize yourself with the Impact navigation menu and other feature links in the home page of the Impact store app.
 
 -   **What’s new:**
 
-    When the customers land on the homepage for the first time, the What’s new modal displays the core new features. If you wish to view the modal information anytime during the impact session, select the **Learn about Impact &gt; What’s new** link.
+    When customers land on the homepage for the first time, the What’s new modal displays the core new features. If you wish to view the modal information anytime during the Impact session, select the **Learn about Impact &gt; What’s new** link.
 
 
 ## Curated for you
@@ -93,7 +93,7 @@ When you are on an Impact page, to view its contextual help content, select the 
 
 This section displays your subscription package along the name and role of the Impact team members you interact with, in your Impact journey.
 
-For more information on the team and roles, see [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md).
+For more information on the team and roles, see [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md).
 
 ## Partners
 
@@ -109,11 +109,11 @@ Provides guidance for initial engagement for both new or seasoned customers and 
 
 ## Work items
 
-View the Strategic Portfolio Management or the Collaborative Work Management \(CWM\) work items created in impact.
+View the Strategic Portfolio Management or the Collaborative Work Management \(CWM\) work items created in Impact.
 
 Select **View work items** to view or edit Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items created in Impact.
 
-For more information, see [Work items in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md).
+For more information, see [Work items in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md).
 
 ## Stay updated
 

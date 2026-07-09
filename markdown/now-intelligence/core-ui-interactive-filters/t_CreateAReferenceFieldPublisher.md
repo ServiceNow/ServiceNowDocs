@@ -171,5 +171,5 @@ Repeat steps 10–13 as needed for each reference field you want to filter on. A
 
 [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 
-[bundle-platux.create-related-list-query]
+[Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md)
 

@@ -9,7 +9,7 @@ classification: health-and-safety-incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage incidents and observations, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Create an HR case from an injury or illness
@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 3.  Open an injury and illness record to add the HR case to.
 
-<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77237e155">
+<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77477e161">
 
 Option
 
-</th><th align="left" id="d77237e158">
+</th><th align="left" id="d77477e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77237e164">
+</th></tr></thead><tbody><tr><td id="d77477e170">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d77237e200">
+</td></tr><tr><td id="d77477e206">
 
 **From an injury and illness list**
 

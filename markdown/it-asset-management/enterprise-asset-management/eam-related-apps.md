@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Industry-specific Enterprise Asset Management solutions
@@ -34,6 +34,4 @@ Operational Technology \(OT\) Asset Management is a specialized offering within 
 Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) is a licensable application that enables you to manage the life cycles of your mission-critical facility-based enterprise assets and linear assets for telecommunications networks.
 -   **[Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-providers.md)**  
 Enterprise Asset Management for Providers is a licensable application that enables Device as a Service \(DaaS\) providers, vendors, and manufacturers to manage all DaaS-related activities, including the fulfillment of Return Merchandise Authorization \(RMA\) requests, from a single location.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

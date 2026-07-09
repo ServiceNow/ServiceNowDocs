@@ -1,6 +1,6 @@
 ---
-title: Use Playbooks
-description: Use a playbook to guide a demand through each stage of its life-cycle, from creating the initial brief to final approval and completion. Playbooks provide step-by-step activities within each stage, ensuring that all required information is captured and governance processes are followed.
+title: Use Playbook in Next Experience for Demand Management
+description: Use the default playbook or configure a custom one to capture required information for a demand and support governance processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/use-playbooks-in-ppw.html
 release: australia
@@ -8,73 +8,47 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Use Playbooks
+# Use Playbook in Next Experience for Demand Management
 
-Use a playbook to guide a demand through each stage of its life-cycle, from creating the initial brief to final approval and completion. Playbooks provide step-by-step activities within each stage, ensuring that all required information is captured and governance processes are followed.
+Use the default playbook or configure a custom one to capture required information for a demand and support governance processes.
 
 ## Before you begin
 
--   Role required: it\_demand\_user, it\_demand\_manager
--   As an administrator, ensure that either the default or custom playbooks are activated.
+Role required: it\_demand\_user or it\_demand\_manager.
 
 ## About this task
 
 A playbook defines the standard stages of a demand \(for example, Initiation, Planning, Execution, Monitoring, and Closure\) and includes activities or action items to complete at each stage.
 
-**Note:** The playbook presents demand information in a guided, stage-based workflow. The same fields and lists are also available in the **Details** page of the demand record. You can update demand information from either location, and changes made in one are reflected in the other.
-
-This task topic follows the demand AI playbook. It’s a standard playbook comprising the following seven stages:
-
--   Create demand brief
--   Define demand alignment
--   Estimate demand cost and effort
--   AI checkpoint
--   Confirm demand readiness for review
--   Approve and finalize demand
--   Complete demand
-
-\[Omitted image "ppw-ai-checkpoint-playbook-stage.png"\] Alt text: Demand default playbook stages.
-
-**Note:** The AI checkpoint stage is available if the AI Control Tower plugin is installed and the investment type of the demand is set to artificial intelligence.
-
-Each stage consists of activities, action items, or steps that guide the demand manager in successfully completing the demand. You can view the **Playbook** menu only if the demand matches the trigger condition defined for that playbook.
-
-**Note:** A demand created in Next Experience for Demand Management opens in the playbook page.
+**Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Demands**.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-2.  Open an existing demand or create a demand.
+2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
 
-    For more information on creating demands, refer to [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-demand-ppw.md).
+3.  Open a demand record.
 
-3.  Use the default playbook or create or customize one.
+4.  Select the **Playbook** tab.
 
-    -   To use the default playbook:
+5.  Select a stage to view its activities.
 
-        1.  Select **Playbooks** from the L-2 \(level 2\) navigation menu.
-        2.  Select a stage to view its activities. Each activity displays its status \(In Progress, Pending, or Complete\) and the fields or lists to update.
+    Each activity displays its status \(In Progress, Pending, or Complete\) and the fields or lists to update.
 
-            **Note:** The default playbook is a stage-gate playbook, that is, a stage is unlocked only when its prior stages are marked as completed or skipped.
+6.  Address the activities within each stage.
 
-        3.  Complete the activities within each stage. For more information, see [Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md).
-        4.  For each activity, perform one of the following actions:
-            -   Select **Mark Complete** to mark the activity as done and move to the next activity.
-            -   Select **Save** to save your progress without completing the activity.
-            -   Select **Skip** to bypass the activity and move to the next one.
-        **Note:**
+    -   To mark the activity as done and move to the next activity, select **Mark Complete**.
+    -   To save your progress without completing the activity, select **Save**.
+    -   To bypass the activity and move to the next one, select **Skip**.
+    -   To revisit or edit completed or skipped activities. you have to select **Restart**. These states set the activity to read-only.
+    **Note:**
 
-        -   An activity becomes read-only when you select **Mark Complete** or **Skip**.
-        -   A stage is marked as completed once all activities within it are either completed or skipped.
-        -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
-        -   Some stages include an automated task that advances the demand state when all activities in the stage are completed. These automated tasks don’t require manual action.
-    -   To create a playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md).
-    For more information on how to create and use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md).
+    Some stages advance the state when all activities in the stage are complete and don't require manual action.
 
 
 **Related topics**  
@@ -85,6 +59,4 @@ Each stage consists of activities, action items, or steps that guide the demand 
 [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
 
 [Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project
+title: Convert RIDAC records for a project
 description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/convert-ridac-for-project.html
@@ -9,10 +9,10 @@ classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project
+# Convert RIDAC records for a project
 
 Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 
@@ -56,7 +56,7 @@ You can also view the consolidated list of all converted RIDAC records using the
 **Related topics**  
 
 
-[Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
+[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
 

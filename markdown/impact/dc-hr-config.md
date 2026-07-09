@@ -76,3 +76,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
         \[Omitted image "dct\_man\_data\_points\_hr.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-hr.md)
+

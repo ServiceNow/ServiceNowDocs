@@ -22,8 +22,6 @@ An auditor analyses the operational and financial processes of a company to ensu
 
 Using the auditor workspace, auditors can perform fieldwork such as control tests, activities, interviews, and walkthroughs. They can document their work and findings, and resolve or follow up the audit findings.
 
-
-
 ## Tasks of an Auditor
 
 The following table lists the key tasks that you can perform in your role as an auditor.

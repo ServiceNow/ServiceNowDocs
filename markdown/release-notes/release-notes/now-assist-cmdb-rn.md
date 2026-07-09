@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Now Assist for Configuration Management Database \(CMDB\) release notes
@@ -16,12 +16,12 @@ The ServiceNow® Now Assist for Configuration Management Database \(CMDB\) appli
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available.
 
+-   Get an AI-generated summary of the CMDB success advisor for HAM dashboard, with key findings on CMDB data accuracy, completeness, and health and the suggested remediation actions.
 -   Compare your current manual \(static\) IRE processes with AI-powered Dynamic IRE.
 
 -   Automate the actions that a user would typically make for de-duplication tasks using the de-duplication task resolution assistant skill.
 -   Search the Service Graph database using natural language.
 -   Dive deeply into CI and class information while working in CI forms, dashboards, home pages, and other views on the workspace.
--   Search the Service Graph database using natural language
 
 See [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-landing-cmdb.md) for more information.
 
@@ -33,15 +33,21 @@ To enable Now Assist to provide detailed descriptions of CIs and classes, you mu
 
 ## New in the Australia release
 
+-   ****
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+
+-   **[Summarize CMDB readiness with the Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md)**
+
+    View an AI-generated summary of the CMDB success advisor for Hardware Asset Management \(HAM\) dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and suggests remediation actions to address the findings.
 
 -   **[View CI attribute descriptions on CI forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-ci-form-help.md)**
 

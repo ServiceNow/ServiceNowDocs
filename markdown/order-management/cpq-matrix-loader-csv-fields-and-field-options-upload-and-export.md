@@ -1,18 +1,18 @@
 ---
 title: Matrix Loader CSV fields and field options upload and export
-description: Use the Matrix Loader to bulk create, edit, and export fields, field options, and product pickers in CPQ. Define data in CSV files with supported columns and formats, then upload or download them for faster configuration management and environment migration.
+description: Use the Matrix Loader to bulk create, edit, and export fields, field options, and product pickers in ServiceNow CPQ. Define data in CSV files with supported columns and formats, then upload or download them for faster configuration management and environment migration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-matrix-loader-csv-fields-and-field-options-upload-and-export.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Configure the Matrix Loader, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader CSV fields and field options upload and export
 
-Use the Matrix Loader to bulk create, edit, and export fields, field options, and product pickers in CPQ. Define data in CSV files with supported columns and formats, then upload or download them for faster configuration management and environment migration.
+Use the Matrix Loader to bulk create, edit, and export fields, field options, and product pickers in ServiceNow CPQ. Define data in CSV files with supported columns and formats, then upload or download them for faster configuration management and environment migration.
 
 ## CSV fields upload
 
@@ -378,7 +378,7 @@ Optional; for use with pickListField.
 
 ## Field options CSV export
 
-Field options are exported in the same motion used to export fields from CPQ. For instructions, see the "CSV fields Export" section above.
+Field options are exported in the same motion used to export fields from ServiceNow CPQ. For instructions, see the "CSV fields Export" section above.
 
 ## CSV upload: product picker
 
@@ -423,14 +423,14 @@ To create a product picker, follow these steps.
 
     \[Omitted image "cpq-matrix-loader-import-files-dialog.png"\] Alt text: Matrix Loader
 
-5.  Validate in UI: The newly created product picker should be available in the CPQ Admin fields as shown below.
+5.  Validate in UI: The newly created product picker should be available in the ServiceNow CPQ Admin fields as shown below.
 
     \[Omitted image "cpq-matrix-loader-product-picker-setup.png"\] Alt text: Product Picker
 
 
 ## CSV export: product picker
 
-To export a product picker, click fields in CPQ Admin. Click **Product Pickers**, select the product picker to export, and then click **Export**.
+To export a product picker, click fields in ServiceNow CPQ Admin. Click **Product Pickers**, select the product picker to export, and then click **Export**.
 
 **Related topics**  
 

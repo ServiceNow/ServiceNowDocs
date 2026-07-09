@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [metric rule ci, configuration item, metric rule filter, zscore]
 breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 

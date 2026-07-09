@@ -4,7 +4,7 @@ description: ServiceNow Activity Management helps customer-focused teams to plan
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-04"
+last_updated: "2026-06-18"
 reading_time_minutes: 5
 ---
 
@@ -17,6 +17,7 @@ ServiceNow® Activity Management helps customer-focused teams to plan, execute, 
 -   Enable email activity capture into ServiceNow Customer Relationship Management \(CRM\) software using the CRM Outlook Add-in.
 -   Define, plan, capture, and track customer interactions such as discovery calls, demos, and customer business reviews \(CBRs\) across different channels such as emails, calls, meetings, and more.
 -   Manage tasks and appointments for leads, opportunities, and more directly from a touchpoint record, in addition to opportunity.
+-   Automatically associate inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching.
 
 See [Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md) for more information.
 
@@ -58,6 +59,13 @@ CRM Outlook Add-in
     Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
 
 
+AI sales activity association
+
+-   **[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)**
+
+    Automatically associate inbound sales emails with the correct lead, opportunity, account, or contact using AI-based intent detection and semantic matching. When the agent identifies a confident match, it auto-associates the email to the CRM record so sales representatives see emails already linked in the record's Activity stream.
+
+
 ## Changed in this release
 
 CRM Touchpoints
@@ -96,6 +104,7 @@ Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the Servi
 
     The following plugins are new in Australia:
 
+    -   AI sales activity association \(com.sn\_act\_assoc\_agent\): Automatically associates inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching, reducing manual association effort for sales representatives.
     -   CRM Outlook Add-in \(com.sn\_crm\_outlook\): Enables sales agents to associate emails and create CRM records directly from Microsoft Outlook.
     -   CRM Touchpoints \(com.sn\_crm\_touchpoint\): Enables sales and service teams to capture, track, and act on various touchpoints and activities throughout the customer's association with your business.
 

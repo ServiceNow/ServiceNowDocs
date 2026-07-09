@@ -25,7 +25,7 @@ As the conversation progresses, the AI agent processes the customer's request, a
 
 CSRs can also type their own questions directly into the Now Assist panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
 
-For more information, see Agentic Contact Center for Insurance .
+For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
 
 ## Policyholder context summary
 

@@ -1,5 +1,5 @@
 ---
-title: Request approval for an architectural artifact version of type Architectural Decision Record
+title: Request approval for an ADR version
 description: Send a version of architectural artifacts of the type Architectural Decision Record \(ADR\) for approval to an Enterprise Architect user. The user reviews and approves the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-request-approval-adr.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Request approval for an architectural artifact version of type Architectural Decision Record
+# Request approval for an ADR version
 
 Send a version of architectural artifacts of the type Architectural Decision Record \(ADR\) for approval to an Enterprise Architect user. The user reviews and approves the request.
 
@@ -46,11 +46,11 @@ The record version is submitted for the approval to an Enterprise Architect. An 
 
 [Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-edit-adr.md)
 
-[Create and manage pages and subpages for architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
 
 [Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
 
-[Enable referencing additional records in architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
+[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
 
 [Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-adr-version.md)
 

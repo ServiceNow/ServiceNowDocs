@@ -47,7 +47,7 @@ The toolbar on the active call component displays a maximum of six call control 
     |Supervisor Help Request|`help_request`|
     |Report Quality Issue|`flag`|
 
-    **Note:** If your implementation includes recording, the recording button is first and cannot be repositioned. Adjust **toolbarLayoutOrder** and the button order in UI Builder together to keep them in sync.
+    **Note:** If your implementation includes recording, the recording button is first and can't be repositioned. Adjust **toolbarLayoutOrder** and the button order in UI Builder together to keep them in sync.
 
     Two buttons have specific conditions:
 

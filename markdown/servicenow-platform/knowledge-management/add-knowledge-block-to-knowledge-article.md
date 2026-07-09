@@ -49,18 +49,18 @@ Role required: user must have contributor access to the knowledge base.
     In the **Add Blocks** side panel, you can search for, do an advanced search, view, and insert knowledge blocks into the article. To use condition builder with advanced search, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md). You can also create blocks directly from the side panel.
 
     -   You can configure the number of search results displayed in the **Add Blocks** side panel using the **glide.knowman.add\_blocks.search\_results** property. By default, the minimum number of search results displayed is 6 and the maximum number of search results displayed is 25. See [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md) for more information.
-    -   If there are knowledge blocks you cannot find, make sure that the blocks are published, in the same language, and in the same knowledge base as an article.\[Omitted image "knowledge-blocks-insert-blocks-into-article.png"\] Alt text: Insert knowledge blocks into article, as well as search for and create blocks.
+    -   If there are knowledge blocks you cannot find, make sure that the blocks are published, in the same language, and in the same knowledge base as an article.
 6.  Rearrange knowledge block in the article body.
 
-<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d430150e217">
+<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d433506e210">
 
 Option
 
-</th><th align="left" id="d430150e220">
+</th><th align="left" id="d433506e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d430150e226">
+</th></tr></thead><tbody><tr><td id="d433506e219">
 
 **If you are using a mouse**
 
@@ -70,7 +70,7 @@ Steps
 2.  Drag and drop the block within the article.
 
 
-</td></tr><tr><td id="d430150e244">
+</td></tr><tr><td id="d433506e237">
 
 **If you are using a keyboard**
 
@@ -82,11 +82,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    The following GIF shows an example of a user moving a knowledge block within an article using a keyboard.
-
-    \[Omitted image "knowledge-blocks-with-keyboard.gif"\] Alt text: Using the keyboard to rearrange knowledge blocks within an article.
-
-7.  Click **Save** or **Update** to create or update the article.
+</table>7.  Click **Save** or **Update** to create or update the article.
 
     **Note:** You can preview the article with the blocks by user or, if published, date. See [Preview a knowledge article with knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/preview-knowledge-article-with-knowledge-blocks.md) for more information.
 

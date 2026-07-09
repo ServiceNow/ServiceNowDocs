@@ -57,3 +57,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
     4.  To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-hr.md)
+

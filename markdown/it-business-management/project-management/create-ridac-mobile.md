@@ -1,5 +1,5 @@
 ---
-title: Create RIDAC \(Risk, Issues, Decisions, Actions, and Request Changes\) records
+title: Create RIDAC records
 description: You can create Risk, Issues, Decisions, Actions, and Request Changes records for your project through the mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-ridac-mobile.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Manage status of your projects using Project Status application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create RIDAC \(Risk, Issues, Decisions, Actions, and Request Changes\) records
+# Create RIDAC records
 
 You can create Risk, Issues, Decisions, Actions, and Request Changes records for your project through the mobile app.
 
@@ -22,7 +22,7 @@ Role required: portfolio\_manager or project\_manager or project\_user
 
 ## About this task
 
-Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md).
+Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md).
 
 ## Procedure
 

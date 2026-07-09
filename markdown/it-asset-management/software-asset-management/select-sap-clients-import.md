@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-12"
 reading_time_minutes: 2
 keywords: [SAP clients, RFC connection, ABAP program, SAP data import]
-breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Select SAP clients to import data

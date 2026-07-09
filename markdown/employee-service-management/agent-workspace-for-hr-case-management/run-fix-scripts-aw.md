@@ -32,11 +32,11 @@ Perform the following steps:
 
 2.  Right-click the header and choose **Import XML**.
 
-3.  Click **Choose file** and select the XML file that you downloaded.
+3.  Select **Choose file** and select the XML file that you downloaded.
 
 4.  Search and find the HR Agent WS bulk RCAs approval script record.
 
-5.  Click **Run Script** to approve all the requested RCAs.
+5.  Select **Run Script** to approve all the requested RCAs.
 
     **Note:** RCA fix script can approve the RCAs which exist at the time of execution. After running the RCA script \(if you install the Document Templates from ServiceNow Store, Human Resources Scoped App: Lifecycle Events, and Human Resources Scoped App: Employee Relations plugins\), re-run the RCA script to approve the new RCAs.
 

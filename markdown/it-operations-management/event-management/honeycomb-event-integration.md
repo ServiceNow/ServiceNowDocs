@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -20,7 +20,7 @@ Integrate Honeycomb with Event Management by creating a webhook and configuring 
 
 Discovery for Honeycomb services and datasets is not supported. For event/CI binding to work, manually create a CI in the ServiceNow instance.
 
-Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance. For more information, see [Install Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/install-event-management.md)
 
 Role required: evt\_mgmt\_admin
 

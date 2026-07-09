@@ -30,7 +30,7 @@ Before starting this tutorial, verify the following:
 
 Reviewing the Now Assist security model before you build can help make configuration decisions easier.
 
--   **[Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)**
+-   **[Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)**
 
     Determine who can discover and invoke an agent or agentic workflow. ACLs are configured on the agent itself and are checked before the agent executes.
 

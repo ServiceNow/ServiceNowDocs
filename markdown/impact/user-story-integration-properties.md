@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # User story integration
@@ -32,7 +32,7 @@ Configure the Jira user story integration to create work items in a Jira project
 -   **[Configure Azure DevOps story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-azure-devops-integration-options.md)**  
 Perform the following procedure to configure your Azure DevOps integration options.
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 
 **Related topics**  
 

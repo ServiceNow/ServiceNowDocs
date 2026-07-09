@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-12"
 reading_time_minutes: 3
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Auriga Intelligent Alert report
@@ -42,12 +42,10 @@ Auriga Intelligent Alert is an advanced multivariate machine learning \(ML\) mod
     1.  From the time the alert is generated, retrieve the anomaly data for server response time with a 10-minute rollup.
     2.  If an anomaly is detected within the past hour, categorize the system as unstable; otherwise, categorize it as stable.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

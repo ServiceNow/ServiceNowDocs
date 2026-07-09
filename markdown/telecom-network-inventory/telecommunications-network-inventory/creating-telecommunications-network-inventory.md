@@ -28,7 +28,7 @@ To manually create and to review your individual network inventory records, and 
 
 ## Process
 
-To manually create a comprehensive digital model of your telecommunications network, access the following forms from the Network Inventory Workspace landing page and the Lists view. To learn more, see [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
+To manually create a comprehensive digital model of your telecommunications network, access the following forms from the Network Inventory Workspace landing page and the Lists view. To learn more, see [Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
 
 1.  In the Network Site or Data Center form, create the site records for the individual locations that house your network equipment. To learn more about network site, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
 2.  In the Telco Equipment form, create the individual network asset instances for your telecommunications equipment. To learn more, see [ee9363b19ca20d3f5503d82662539f1c1d1d3c8f.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
@@ -75,7 +75,7 @@ An inventory group is a collection of CIs that lets you apply CI actions collect
 -   **[Decommission an inventory record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/decommision-an-inventory-record.md)**  
 Decommission an inventory record that you want to remove from Telecommunications Network Inventory.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 

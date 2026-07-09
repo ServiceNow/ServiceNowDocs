@@ -45,10 +45,15 @@ Role required: sn\_slm.contact
 
 8.  Select **Submit**.
 
+    The application creates an exception and assigns it to the operational buyer.
 
-## Result
-
-The application creates an exception and assigns it to the operational buyer.
 
 **Parent Topic:**[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+
+**Related topics**  
+
+
+[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md)
 

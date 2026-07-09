@@ -38,9 +38,9 @@ Shift-based scheduling includes automated task lifecycle management to ensure da
 
 -   Task release: Tasks are released at the start of each selected shift on the scheduled dates, according to the recurrence pattern defined in the schedule plan.
 
-    You can also set an offset on a schedule plan. An offset determines the how much time in advance the task is generated in relation to planned start.
+    You can also set an offset on a schedule plan. An offset determines how much time in advance the task is generated in relation to the planned start.
 
-    The default offset time is 1 hour. For example, a task is planned to start at 20:00. Based on the default offset of 1 hour, Task is generated 19:00.
+    The default offset time is 1 hour. For example, a task is planned to start at 20:00. Based on the default offset of 1 hour, the task is generated at 19:00.
 
 -   Task expiration: Tasks expire according to the expiration setting on the standard in relative to the planned start time.
 -   Duplicate prevention: The system detects and cleans up duplicate events and tasks during schedule updates, ensuring that only valid, non-duplicated tasks are present.
@@ -73,7 +73,7 @@ With shift-based scheduling, you may be able to complete the same scheduling in 
 4.  Select the morning, afternoon, and night shifts.
 5.  Set the start date to the beginning of the next work week.
 6.  Verify the factory timezone is correctly applied.
-7.  Configure a daily recurrence pattern and saves the schedule.
+7.  Configure a daily recurrence pattern and save the schedule.
 
 The system automatically generates inspection tasks for each shift on each scheduled day. Tasks are released at the start of each shift and expire at the end of the shift window if not completed.
 

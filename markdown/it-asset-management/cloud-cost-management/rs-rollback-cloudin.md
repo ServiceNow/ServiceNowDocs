@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Rightsizing analysis for AWS, Rightsizing resources, Exploring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Rightsizing analysis for AWS, Rightsizing resources, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # AWS only – Rollback on failed Rightsizing attempts

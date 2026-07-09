@@ -62,7 +62,7 @@ Make knowledge service portal pages visible to external users
 
 </td><td>
 
-1.  On the Page form, in the **Roles** field, select the edit user roles icon \[Omitted image "edit-user-roles.png"\] Alt text: Edit User Roles icon..
+1.  On the Page form, in the **Roles** field, select the edit user roles icon
 2.  On the Roles form, move **snc\_external** from the available roles in the **Available** column to the **Selected** column.
 3.  On the Roles form, select **Done**.
 4.  On the Page form, select **Update**.

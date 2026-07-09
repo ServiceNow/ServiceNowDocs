@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Add or remove entitlements for a contract renewal
@@ -50,15 +50,15 @@ The entitlements with the following license types are carried over to the new co
 
 3.  Update the existing entitlements for the draft contract.
 
-<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d129525e134">
+<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d129474e134">
 
 Interface
 
-</th><th align="left" id="d129525e137">
+</th><th align="left" id="d129474e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129525e143">
+</th></tr></thead><tbody><tr><td id="d129474e143">
 
 **Core UI**
 
@@ -68,7 +68,7 @@ Action
 2.  Indicate the entitlements that you want to cover by moving them to the **Planned Entitlements** or removing them.
 
 
-</td></tr><tr><td id="d129525e167">
+</td></tr><tr><td id="d129474e167">
 
 **Hardware Asset Workspace**
 

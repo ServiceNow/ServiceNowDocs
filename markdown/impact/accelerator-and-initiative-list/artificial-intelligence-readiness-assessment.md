@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Artificial Intelligence Readiness Assessment
@@ -27,9 +27,9 @@ This Accelerator provides you with an assessment and guidance on your readiness 
 -   Knowledge creation
 -   Chat summarization
 
-Your Impact Squad provides guidance based on your selected Generative AI products \(we recommend up to three per accelerator\).
+Your Impact Squad provides guidance based on your selected Generative AI products \(we recommend up to three per Accelerator\).
 
-See [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) for additional information on ServiceNow AI-based tools.
+See  for additional information on ServiceNow AI-based tools.
 
 ## Package Availability
 
@@ -47,7 +47,7 @@ The Accelerator activities are led by your Platform Architect \(PA\).
     -   Review the initiative approach and your objectives
     -   Establish clear expectations regarding the process, your participation, and the level of detail for the deliverable
     -   Review the ServiceNow AI Blueprint to identify and prioritize the Generative AI capabilities most relevant to your goals.
-    -   Select the three Generative AI Capabilities to focus on
+    -   Select the three Generative AI capabilities to focus on
 -   **Customer Recommendation Session \(up to 2 hours\)**
     -   Review your readiness for the selected ServiceNow Generative AI capabilities
     -   Provide guidance and discuss next steps to further your AI readiness

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use manage contract repository agentic workflow, Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use manage contract repository agentic workflow, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date in the Software Asset Workspace

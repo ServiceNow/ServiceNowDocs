@@ -468,7 +468,7 @@ com.glide.hub.flow\_api.default\_execution\_time
 Specify the default duration in milliseconds your Flow API calls can run. Use this property to give Flow API calls in spokes more time to run. The maximum value of this property is limited by REST transaction quotas, which by default the system stops after 60 seconds.-   Type: integer
 -   Default value: 30000 \(30 seconds\)
 -   Location: System Properties \[sys\_properties\] table
--   More information: 
+-   More information: [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md)
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ The comma-separated list of Type field values that an sys\_email record must hav
 -   Type: string
 -   Default value: sent,send-ready
 -   Location: Add to the System Properties \[sys\_properties\] table
--   More information: [Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-email-reply-action.md) and 
+-   More information: [Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-email-reply-action.md) and [System email log and mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_EmailLogs.md)
 
 </td></tr><tr><td>
 

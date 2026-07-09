@@ -34,10 +34,6 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  In the form editor, select a field to highlight it.
 
-    The following example shows that the panel on the right displays the **Properties** tab. This tab shows the basic properties of the selected field.
-
-    \[Omitted image "config-tab.png"\] Alt text: Properties tab.
-
 3.  Edit the basic field properties as needed for the selected field.
 
     The sections displayed vary depending on the field type. For a description about these fields, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md).

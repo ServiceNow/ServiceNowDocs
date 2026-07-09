@@ -1,5 +1,5 @@
 ---
-title: Request Access to Expertise
+title: Request Access to Expertise Initiative
 description: Use the Access to Expertise Initiative to connect to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/access-expertise.html
@@ -9,22 +9,22 @@ classification: accelerator-and-initiative-list
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Access to Expertise, Initiatives catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Request Access to Expertise
+# Request Access to Expertise Initiative
 
 Use the Access to Expertise Initiative to connect to ServiceNow subject matter experts via personalized virtual coaching sessions.
 
 ## Before you begin
 
-Role required: impact admin or impact platform owner
+Role required: Impact admin or Impact platform owner
 
 ## Procedure
 
 1.  Navigate to **Impact** &gt; **Initiatives &amp; Accelerators** &gt; **General Initiatives** &gt; **Access to Expertise**.
 
-2.  On the Set up initiative form, fill in the fields.
+2.  On the Set up Initiative form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -46,7 +46,7 @@ Role required: impact admin or impact platform owner
     |Workflow|The name of the instance specific workflow from the drop-down|
     |Product|The name of the specific instance product from the drop-down|
     |Capability|The name of the specific Impact capability from the drop-down|
-    |Description|A very detailed description of the issue or question|
+    |Description|A detailed description of the issue or question|
     |Attach a file|Image or document to help clarify the request or explain the issue|
 
 5.  Enter information of any progress you have made on the request in the What actions have you taken so far? form.

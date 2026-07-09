@@ -130,7 +130,7 @@ Whenever a user downloads an attachment, the action writes an attachment.read ev
 **Related topics**  
 
 
-[Use mail scripts in email notifications]()
+[Include mail scripts in email notifications]()
 
 [Mail script variables]()
 

@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 This video was recorded in the Zurich release.
 
-Video that shows how to create a custom model in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to create a custom model in Zero Copy Connector for ERP.
 
 ## About this task
 

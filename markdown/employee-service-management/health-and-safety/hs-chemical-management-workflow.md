@@ -16,15 +16,22 @@ breadcrumb: [Explore, Health and Safety Environmental Management, Health and Saf
 
 The chemical management solution is designed to scale for organizations with large chemical inventories and complex conformance needs. It provides tools for managing chemical requests, approvals, and risk assessments, supporting safer workplace practices.
 
-## Chemical management workflow
+## Chemical management workflow example
 
-The chemical management workflow enables chemical managers effectively track chemical libraries and manage chemical requests. This workflow promotes employee safety by providing accurate safety data to workers who handle chemicals. Integration with the 3E database enables you to access the latest chemical safety data online. In the chemical management workflow,
-
--   The employee uses the chemical library to view or look for chemicals that they want to work with.
--   The employee can either select an existing chemical or request a new chemical from the Employee Center.
--   The chemical manager receives the chemical request and can approve or reject it in the Health and Safety Workspace.
+The following graphic shows an example of the chemical management workflow. The admin can customize these workflows according to the needs of their organization.
 
 \[Omitted image "hs-chemical-mgmt-workflow.png"\] Alt text:
+
+The chemical management workflow enables chemical managers effectively track chemical libraries and manage chemical requests. This workflow promotes employee safety by providing accurate safety data to workers who handle chemicals. Integration with the 3E database enables you to access the latest chemical safety data online.
+
+-   **As an employee or a requestor**
+
+    The employee or requestor uses the chemical library to search for chemicals to work with. They can select an existing chemical or request a new chemical from the Employee Center.
+
+-   **As a chemical manager**
+
+    The chemical manager receives the chemical request and can approve or reject it in the Health and Safety Workspace.
+
 
 ## Benefits
 

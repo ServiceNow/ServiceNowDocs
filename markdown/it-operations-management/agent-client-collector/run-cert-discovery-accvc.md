@@ -1,5 +1,5 @@
 ---
-title: Run Certificate Discovery via Agent Client Collector for Visibility - Content
+title: Run Certificate Discovery via Agent Client Collector for Visibility Content
 description: Discover TLS/SSL certificates used by ports running on the agent's server. The Certificate Inventory and Management application uses this information to manage TLS/SSL certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/run-cert-discovery-accvc.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Run Certificate Discovery via Agent Client Collector for Visibility - Content
+# Run Certificate Discovery via Agent Client Collector for Visibility Content
 
 Discover TLS/SSL certificates used by ports running on the agent's server. The Certificate Inventory and Management application uses this information to manage TLS/SSL certificates.
 
 ## Before you begin
 
-Verify that the latest version of Agent Client Collector for Visibility - Content \(ACC-VC\) is installed.
+Verify that the latest version of Agent Client Collector for Visibility Content \(ACC-VC\) is installed.
 
 Verify that the latest version of Certificate Inventory and Management is installed.
 

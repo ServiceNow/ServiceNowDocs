@@ -1,5 +1,5 @@
 ---
-title: Transaction Manager: Integrations
+title: ServiceNow Quote Experience Integrations
 description: Use integrations to exchange data with third-party sources, including Salesforce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrations.html
@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Transaction Manager, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager: Integrations
+# ServiceNow Quote Experience Integrations
 
 Use integrations to exchange data with third-party sources, including Salesforce.
 
-To gather information from external data sources such as Salesforce in Transaction Manager, the admin creates integrations. Transaction Manager integrations define the information necessary to connect to a data source, extract information, and map the data into Transaction Manager. Integrations can also be used to extract information from Transaction Manager and send it to be mapped in a third-party environment.
+To gather information from external sources like Salesforce, admins create integrations. These integrations define how to connect to a data source, extract information, and map it into ServiceNow Quote Experience. Integrations can also send data from ServiceNow Quote Experience to be mapped in a third-party environment
 
-Before an integration can be defined for Transaction Manager, the admin must first create a connection to the third-party environment, much like an external connection in the configuration environment. Connections are defined in the Utilities section of the Admin UI.
+Before an integration can be defined for ServiceNow Quote Experience, the admin must first create a connection to the third-party environment, much like an external connection in the configuration environment. Connections are defined in the Utilities section of the Admin UI.
 
 ## Creating a connection
 
@@ -30,7 +30,7 @@ To create a new connection, in the Utilities area of the Admin UI, click **Conne
 
 On the New Connection page, name the new connection and assign a variable name. Next, choose the integration type: Salesforce or External.
 
-If you are creating a connection to Salesforce, none of the other fields are required. CPQ knows how to authenticate and knows the required endpoints to use when communicating with Salesforce.
+If you are creating a connection to Salesforce, none of the other fields are required. ServiceNow CPQ knows how to authenticate and knows the required endpoints to use when communicating with Salesforce.
 
 If you are creating an external integration, choose the authentication type. Supported authentication methods are None, Bearer Token, and OAuth. If you choose Bearer Token, use the Authentication Token field to provide the bearer token for the site with which you are communicating. If you choose OAuth, use the Client ID, Client Secret, and Token URL fields to provide the required OAuth information.
 
@@ -55,7 +55,7 @@ The Integration Editor page opens. Continue defining the new integration by conf
 -   **Additional Path**: Enter the query command to execute on the third-party site. If you are connecting to Salesforce, this will probably be a SOQL query. On other platforms, it may be a standard SQL query.
 -   **Timeout**: Defines the amount of time \(in milliseconds\) that the request will wait for a response before declaring an error.
 -   **Async**: This toggle allows you to run the query asynchronously in the background so that the user can continue working.
--   **Headers**: You can use static text in header-level Transaction Manager fields by using simple handlebar syntax, you can set key-value pairs for headers, or you can combine both these methods.`{{txn.fieldname}}`
+-   **Headers**: You can use static text in header-level ServiceNow Quote Experience fields by using simple handlebar syntax, you can set key-value pairs for headers, or you can combine both these methods.`{{txn.fieldname}}`
 
 \[Omitted image "cpq-txn-mgr-get-oppty-id.png"\] Alt text: Integration screen
 
@@ -63,7 +63,7 @@ Next, you need to define the connection to the endpoint. Here you choose from a 
 
 \[Omitted image "cpq-txn-mgr-get-opportunity-id.jpeg"\] Alt text: Integration screen
 
-Finally, you need to define the transformation template, which lets you map third-party data to CPQ fields or map CPQ data to third-party data source fields.
+Finally, you need to define the transformation template, which lets you map third-party data to ServiceNow CPQ fields or map ServiceNow CPQ data to third-party data source fields.
 
 JSON is used to define the mapping, as in the following example.
 
@@ -86,7 +86,7 @@ JSON is used to define the mapping, as in the following example.
 }
 ```
 
-This example uses Mustache syntax for the Salesforce data that was extracted from the Salesforce site. Each field mapping includes the variable name of the CPQ field that receives the extracted data, followed by the value that identifies the Salesforce field where the data was extracted. The `#eachredords` and `/each` nomenclature denote that each record in the query response is searched for each of the three field values in the template.
+This example uses Mustache syntax for the Salesforce data that was extracted from the Salesforce site. Each field mapping includes the variable name of the ServiceNow CPQ field that receives the extracted data, followed by the value that identifies the Salesforce field where the data was extracted. The `#eachredords` and `/each` nomenclature denote that each record in the query response is searched for each of the three field values in the template.
 
 You can use the Sample Return Data area and the Transformation Result area to troubleshoot an Integration that is not working. If you perform the query in a tool like Postman, where you can see and copy the query response, you can paste the query response in the Sample Response Data area and then click **Run Transformation** below the Transformation Template area. The query response data runs through the defined transformation template, and the results of the Transformation is displayed in the Transformation Result area.
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-06"
 reading_time_minutes: 1
 keywords: [HAM integrations, HAM advisor, CMDB success advisor for HAM, HAM with Zero Touch Mobility \(ZTM\)]
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware Asset Management integrations
@@ -24,6 +24,4 @@ The Hardware Asset Management \(HAM\) application integrates with external syste
 
 -   **[Hardware Asset Management integration with Zero Touch Mobility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-for-ztm.md)**  
 ServiceNow® Hardware Asset Management is integrated with Samsung SDS Zero Touch Mobility to manage the complete life-cycle of mobile devices.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

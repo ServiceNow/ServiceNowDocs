@@ -63,10 +63,14 @@ Role required: none
     2.  Select **Add an OAuth Scope** and add the following scopes:
 
         -   chat:write
+        -   channels:write
         -   files:read
         -   files:write
+        -   groups:write
         -   im.history
         -   incoming-webhook
+        -   mpim:write
+        -   im:write
         -   team:read
         -   users:read
         -   users:read.email

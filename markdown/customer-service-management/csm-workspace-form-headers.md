@@ -1,18 +1,18 @@
 ---
 title: CSM Configurable Workspace form headers
-description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+description: Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-headers.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
 breadcrumb: [Form features, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace form headers
 
-Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
 
 Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md).
 

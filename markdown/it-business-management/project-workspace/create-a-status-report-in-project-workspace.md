@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a status report in Project Workspace
@@ -26,7 +26,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
@@ -73,8 +73,8 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 -   **[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)**  
 Observe a status report in Project Workspace for your project to learn about project health, metrics, risks, issues, and milestones.
--   **[Status report tracking by status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/analyzing-status-report-states.md)**  
-Status reports in Project Workspace use draft and published status to help project managers manage report readiness and stakeholder visibility.
+-   **[Draft and Published status for status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/analyzing-status-report-states.md)**  
+Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
 -   **[Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-status-report-project-workspace.md)**  
 Modify a status report in Project Workspace for your project to update project health, metrics, risks, issues, and milestones.
 -   **[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/duplicate-status-report-pw.md)**  

@@ -33,7 +33,7 @@ By default, AI Search uses the short description, description, site, OT device, 
 
 ## What to explore next
 
-To learn more about configuring and using , see:
+To learn more about configuring and using AI Enhanced Recommended Actions for OTSM, see:
 
 -   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
 -   [Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)

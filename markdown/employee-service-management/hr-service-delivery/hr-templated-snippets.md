@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -40,8 +40,6 @@ The response templates feature automatically activates when Case and Knowledge M
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
-For more information, see  and Setting up Workspace Agent Chat.
-
 For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## How to use response templates with form \(HR case or task\)
@@ -54,7 +52,7 @@ Response templates appear for an HR case form for templates associated with the 
 
 **Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see .
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
 
 HR administrators and managers can create response templates. Each template is associated with an HR table that is an extension of the Task \[task\] table. Configure the template to include variables pulled from that table. Also, use a condition builder to specify what a case must meet for the template to be available, such as for a specific HR service.
 
@@ -64,7 +62,7 @@ Response templates appear for an HR case form for templates associated with the 
 
 **Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using a Response template in an HR case or HR task record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Use response templates in HR cases or tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
 
 ## Components installed with response templates
 
@@ -270,6 +268,14 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
+Language
+
+</td><td>
+
+Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
+
+</td></tr><tr><td>
+
 Template body
 
 </td><td>
@@ -280,9 +286,7 @@ Text of the response template providing instructions to the agent on how to resp
 
 -   Current user: `${current_user}`
 -   Current date: `${Date}`
- Or, place your mouse where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
-
- **Note:** Response templates do not support rich text.
+ Or, position your cursor where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
 
 </td></tr><tr><td>
 
@@ -301,9 +305,7 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 
 4.  Click **Submit** or **Update**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
-
-    The Channels related list appears.
+    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 
 ### What to do next
@@ -384,9 +386,7 @@ Activates the Response Template Channel.**Note:** Unchecking the box inactivates
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
-
-    The Channels related list appears.
+    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 7.  Click **New** to create a new channel or **Edit** to access an existing channel.
 
@@ -425,6 +425,6 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  Once copied, you can paste the content to a field on the form, such as to **Comments**, or into an email that you send to the employee.
 
-    **Note:** For information on using response templates in HR Agent Workspace, see .
+    **Note:** For information on using response templates in HR Agent Workspace, see [Response templates in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-response-template.md).
 
 

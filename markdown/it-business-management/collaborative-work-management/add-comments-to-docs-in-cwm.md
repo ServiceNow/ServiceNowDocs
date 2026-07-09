@@ -24,7 +24,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You cannot mention a table or an image in comments.
+You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You can't mention a table or an image in comments.
 
 **Note:** Users can add and manage comments if they have read-only access to a document.
 

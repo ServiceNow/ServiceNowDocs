@@ -34,7 +34,7 @@ Verify that you have completed the setup steps described in [Set up checklist fo
 
 2.  If the ServiceNow AI Platform instance with the Security Incident Response core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the \[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon..
+    1.  On the Instances screen that is displayed, tap the + icon.
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

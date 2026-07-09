@@ -38,7 +38,7 @@ Security Tasks can be automatically generated. Automatic Security Task generatio
 
 -   **Banner announcement**
 
-    A Security Task is generated for each new banner announcement. For details on banner announcements, see [Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
+    A Security Task is generated for each new banner announcement. For details on banner announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
 
 
 ## Automatically generated security settings

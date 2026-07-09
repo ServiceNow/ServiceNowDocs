@@ -23,7 +23,7 @@ The Next Experience Readiness Checker assists users with deciding whether to tur
 -   **[Configure Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 -   **[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**  
-Themes enable you to tailor the visual experience for your users, helping to update the look and feel to be more like your brand.
+Themes let you customize the visual experience to match your brand.
 -   **[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)**  
 Modify the landing pages on your Next Experience instance so that users see a landing page tailored to their experience in ServiceNow.
 -   **[Performing admin user functions in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-next-experience-admin-user-menu.md)**  
@@ -35,7 +35,7 @@ Create and edit application menus and modules directly in the Platform All menu.
 -   **[Add a workspace to the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-workspace-unified-navigation.md)**  
 Configure the Unified Navigation to display a workspace in the Workspaces menu.
 -   **[Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-order-workspace-unified-navigation.md)**  
-Set the order of your workspaces and control how they appear in the Unified Navigation Workspaces menu.
+Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 -   **[Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-search-next-experience.md)**  
 Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
 -   **[Create custom notifications in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-custom-notifications-next-experience.md)**  

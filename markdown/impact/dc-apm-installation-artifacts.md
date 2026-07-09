@@ -48,3 +48,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Impact VM - % of applications with indicator score|
 |Automated|Impact VM - \# of applications migrated|
 
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+

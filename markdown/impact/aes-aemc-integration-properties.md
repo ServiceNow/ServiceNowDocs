@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Configure AES/AEMC integration properties

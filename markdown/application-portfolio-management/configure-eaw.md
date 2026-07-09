@@ -24,7 +24,7 @@ Customize the sections that you want visible on the home page by using the perso
 Customize your workspace to display the components that you want to see.
 -   **[Create and apply a configuration for the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-overview.md)**  
 Create visualization configurations for the Portfolio Overview section and apply them as needed.
--   **[Create and apply a configuration for the Health or Insights section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-insights-health.md)**  
+-   **[Configure the Health or Insights section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-insights-health.md)**  
 Create configurations for the Health or Insights section and apply them as needed.
 -   **[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)**  
 Use the Setup page to configure Enterprise Architecture Workspace.

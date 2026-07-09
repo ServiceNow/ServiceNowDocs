@@ -30,7 +30,7 @@ Role required: sn\_privacy.manager
 
 ## Procedure
 
-1.  In the Privacy Workspace, select the Privacy content icon.
+1.  In the Privacy Workspace, select the Privacy content icon \[Omitted image "unified-content-mgmt-icon.png"\].
 
 2.  Select the **Privacy Frameworks** tab or the **Risk Statements** tab depending on the content you want to activate.
 
@@ -42,15 +42,9 @@ Role required: sn\_privacy.manager
 
     The installation wizard opens, showing records associated with the selected authority document or risk statement version.
 
-    **Important:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
+    **Note:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
 
-5.  Select the records to install, and then select **Next**.
-
-    Records that are ready to be installed show **Ready**, and those that are already installed in your library show **Installed**.
-
-    **Note:** When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in the previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name. To understand overwriting behavior, see [Overwrite behavior for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md).
-
-<table><thead><tr><th>
+<table id="table_b1d_h43_qjc"><thead><tr><th>
 
 Record type
 
@@ -64,7 +58,7 @@ Description
 
 </td><td>
 
-Citations associated with the selected authority document. To view the source regulatory text related to citations, add **Supplemental guidance** as a column using the **Personalize fields** option.**Note:** Citation descriptions are AI-generated. Supplemental guidance is formatted by AI. Review all content for accuracy.
+Citations associated with the selected authority document. To view the source regulatory text related to citations, add **Supplemental guidance** as a column using the **Personalize fields** option.**Note:** Citation descriptions are AI-generated. The source regulatory text in supplemental guidance is formatted using AI. Review all content for accuracy.
 
 </td></tr><tr><td>
 
@@ -78,6 +72,12 @@ Control objectives mapped to the selected citations. If no control objectives ar
 </table>    |Record type|Description|
     |-----------|-----------|
     |**Risk statement**|Privacy risk statements available with the selected version.|
+
+5.  Select the records to install, and then select **Next**.
+
+    Records that are ready to be installed show **Ready**, and those that are already installed in your library show **Installed**.
+
+    **Note:** When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in the previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name. To understand overwriting behavior, see [Overwrite behavior for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md).
 
 6.  Review the number of selected records, and select **Submit**.
 
@@ -97,5 +97,5 @@ Control objectives mapped to the selected citations. If no control objectives ar
 
 Update the activated authority documents to add more citations and control objectives.
 
-Update the version of the privacy risk statements to add new statements to your library. See [Update privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
+Update the version of the privacy risk statements to add new statements to your library. See [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
 

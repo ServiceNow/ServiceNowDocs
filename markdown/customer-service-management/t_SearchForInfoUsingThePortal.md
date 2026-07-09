@@ -33,3 +33,10 @@ The portal has a search feature that you can use to search for information acros
 3.  Click a link to view an article.
 
 
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
+

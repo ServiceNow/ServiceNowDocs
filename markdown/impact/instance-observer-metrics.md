@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-11"
 reading_time_minutes: 2
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Instance Data Replication
@@ -22,12 +22,10 @@ The Active Producer Replication Sets monitor your producer replication set statu
 
 Active Consumer Replication Sets monitor your consumer replication set status, report the network lag time, and report the data lag time between the producer instance and consumer instance.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

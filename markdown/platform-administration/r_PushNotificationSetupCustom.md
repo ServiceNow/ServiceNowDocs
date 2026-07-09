@@ -20,7 +20,7 @@ Setting up a push notification infrastructure that uses a custom push app involv
 
 This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 
-\[Omitted image "CustomPushAppSetup.png"\] Alt text: Push notification setup tasks for a custom push app
+\[Omitted image "custom-push-app-setup.png"\] Alt text: Workflow diagram showing push notification setup for custom mobile app
 
 ## Before you begin
 

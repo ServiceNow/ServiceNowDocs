@@ -50,6 +50,10 @@ Role required: Account Payable Specialist
     The status of the invoice changes to **Draft**. The invoice is reprocessed and re-validated.
 
 
+## Result
+
+The status of the invoice changes to **Draft**. The invoice is reprocessed and re-validated.
+
 **Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  

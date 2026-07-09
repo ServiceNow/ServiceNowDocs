@@ -27,7 +27,7 @@ Create an inventory template in the Telecommunications Network Inventory applica
 -   **[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)**  
 Create a default template in the Telecommunications Network Inventory application to capture the default attribute definition for a specific configuration item \(CI\) class.
 -   **[Define or update a naming pattern for a related template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-update-naming-pattern.md)**  
-Define a JavaScript expression that names the configuration item \(CI\) you create from a related template within an inventory template. The naming pattern can include literal text, variables from the token library, conditionals, and string transformations.
+Define a JavaScript expression to control how configuration items \(CIs\) are named when they are created from a related template. Naming patterns can include literal text, token library variables, conditionals, and string transformations.
 
 **Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [modify collected metrics, edit metrics, metric collection, child policy, agent policy, turn off metric]
 breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Service Management]
 ---
 

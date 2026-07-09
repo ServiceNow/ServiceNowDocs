@@ -60,7 +60,7 @@ For performance and reliability reasons, these data sources should not be used w
 -   Export sets
 -   JDBC data sources
 
-**Note:** If a MID Server in a cluster fails, the fail-over MID Server starts over at the beginning of the ECC queue task even if much of the information from the JDBC data source was already returned. This can result in duplicate data. For more details, see the [Using MID Server clusters for JDBC data sources can cause duplicate and out-of-date data \[KB0727739\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0727739) article in the HI Knowledge Base.
+**Note:** If a MID Server in a cluster fails, the failover MID Server restarts processing from the beginning of the ECC queue task, even if much of the information from the JDBC data source was already returned. This may produce duplicate data. To prevent duplicate data, use dedicated \(non-clustered\) MID Servers for LDAP, export set, and JDBC data sources.
 
 ### How clusters work
 

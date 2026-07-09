@@ -1,18 +1,18 @@
 ---
-title: The CPQ Configurator
-description: The CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
+title: The ServiceNow CPQ Configurator
+description: The ServiceNow CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, ServiceNow CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/understand-the-commerce-logic-engine.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
-# The CPQ Configurator
+# The ServiceNow CPQ Configurator
 
-The CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
+The ServiceNow CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, ServiceNow CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
 
 The configurator connects customers to products faster and easier by enabling:
 
@@ -53,11 +53,11 @@ Attribute-Based Configuration
 
 -   Sales Enablement
     -   Sales rep enters requirements \(e.g., “number of users”\).
-    -   CPQ applies rules and generates a valid configuration instantly.
+    -   ServiceNow CPQ applies rules and generates a valid configuration instantly.
     -   Results flow into Salesforce CPQ quotes.
 -   Headless eCommerce
     -   Customer answers guided questions in a web storefront.
-    -   CPQ delivers a tailored recommendation.
+    -   ServiceNow CPQ delivers a tailored recommendation.
     -   Customer purchases without sales intervention.
 -   Manufacturing Integration
     -   Complex product configuration produces both a Sales BOM and Manufacturing BOM.
@@ -70,7 +70,7 @@ The Commerce Logic Engine is built from modular components that define how produ
 
 |Component|Description|
 |---------|-----------|
-|Configured Products|Salesforce objects that require configuration in CPQ before being added to QLE.|
+|Configured Products|Salesforce objects that require configuration in ServiceNow CPQ before being added to QLE.|
 |Blueprints|Containers for all components needed to render the UI.|
 |Fields|Attributes that capture user inputs.|
 |Layouts|Define how the configuration UI is displayed.|
@@ -84,7 +84,7 @@ The Commerce Logic Engine is built from modular components that define how produ
 |Associated Picklist Sets|Dynamically sized sets based on menu choices.|
 |Field grids|Tabular field groups for structured data entry.|
 |Advanced Product Actions|Scripts to define which line items are sent to the Config BOM.|
-|Twinning|Copies Salesforce Quote data into CPQ fields.|
+|Twinning|Copies Salesforce Quote data into ServiceNow CPQ fields.|
 |Enrichments|Scripts that run outside the rules engine during configuration.|
 |External Connections|Connect to third-party data sources to retrieve configuration data.|
 

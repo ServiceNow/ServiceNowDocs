@@ -18,6 +18,10 @@ Reference topics provide additional information about the lists and forms that y
 Several types of components are installed with the activation of the RPA Hub plugin, including tables, user roles, and scheduled jobs.
 -   **[Domain separation and Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/domain-separation-rpahub.md)**  
  Domain separation is supported for RPA Hub. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Limitations of Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md)**  
+The limitations of the RPA bot generation skill are as follows.
+-   **[Example instructions for Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/example-instructions-rpa.md)**  
+Example instructions you can use with Now Assist for RPA Hub to get relevant, accurate responses. Refer to these examples when crafting instructions to guide automation tasks.
 -   **[Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-glossary.md)**  
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 

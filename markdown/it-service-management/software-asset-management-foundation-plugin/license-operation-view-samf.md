@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Using Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # License Operation view for Software Asset Management Foundation plugin

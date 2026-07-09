@@ -24,7 +24,7 @@ Role required: sn\_hr\_core\_admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Navigate to **Bulk cases** &gt; **Bulk case requests**.
 
@@ -40,7 +40,7 @@ Role required: sn\_hr\_core\_admin
 
 7.  Create a user segment group.
 
-    For more information, see [Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.md).
+    For more information, see [Specify user segment groups for bulk case requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.md).
 
     **Note:** You can also configure fields that you want to view in the User segment group form by configuring fields in the Case Creation Configuration form. Navigate to **All** &gt; **HR Administration** &gt; **Case Creation Configuration**.
 

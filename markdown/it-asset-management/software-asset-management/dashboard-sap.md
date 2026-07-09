@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Publisher Analytics dashboard for SAP in Software Asset Management classic
@@ -27,8 +27,6 @@ The dashboard is updated whenever a new reconciliation result is available.
 |SAM user: Can view the dashboard to track SAP license compliance and potential savings.|sam\_user|
 
 ## SAP dashboard
-
-\[Omitted image "publisher-dashboard-sap.png"\] Alt text: Software Publisher Analytics dashboard for SAP.
 
 <table id="table_qc5_wn3_qfb"><thead><tr><th>
 

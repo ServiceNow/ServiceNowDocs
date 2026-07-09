@@ -232,9 +232,9 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
--   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)
--   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
+-   
+-   
+-   
 -   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 -   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
@@ -244,7 +244,7 @@ For more information about configuring sources for skill or AI agent use, see th
 |-----|---------|
 |App generation||
 |Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/example-questions-generating-dv.md)|
-|Catalog item generation|[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/how-to-describe-catalog-item.md)|
+|Catalog item generation||
 |Code generation||
 |Flow generation||
 |LLM topic skill for Virtual Agent||

@@ -56,6 +56,8 @@ The BusinessServiceManager API provides methods that unify service management by
 The CatalogJS API provides methods to check and retrieve catalog-specific properties.
 -   **[CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CatalogSearchScoped.md)**  
 The CatalogSearch API provides methods that enable you to search catalog items.
+-   **[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)**  
+CatalogSearchAPI is a script include used to fetch product catalog data from all application scopes.
 -   **[CatalogItemVariable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CatalogItemVariable.md)**  
 The CatalogItemVariable API provides methods that enable you to create and modify service catalog item variables using scripts.
 -   **[CatalogClientScript - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CatalogClientScriptScoped.md)**  

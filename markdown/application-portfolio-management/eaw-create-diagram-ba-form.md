@@ -118,5 +118,5 @@ Name of the Lucid folder. Select the folder where you want to save the diagram. 
 **Related topics**  
 
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 

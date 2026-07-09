@@ -19,7 +19,7 @@ Now Assist in Virtual Agent standard chat is a conversational support experience
 
 Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
-**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and helps users to be more comfortable with chatting with a bot.
 

@@ -290,7 +290,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see Vendor Catalog Items.
+List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
 
 </td></tr><tr><td>
 
@@ -370,5 +370,5 @@ List of place records.
 **Related topics**  
 
 
-[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 

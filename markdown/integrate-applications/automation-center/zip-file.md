@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate report, Migrating automations from UiPath to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Generate report, Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Generate a report using a ZIP file
@@ -27,6 +27,8 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 2.  On step 4, select the **Upload ZIP \(with XAML file\)** option.
 
     You can upload only one zip file at a time, and the maximum file size is 100 MB.
+
+    **Note:** When selecting UiPath as the source, a ZIP file exported from UiPath Orchestrator should be uploaded. Similarly, when selecting Blue Prism, the ZIP file exported from Blue Prism should be uploaded.
 
 3.  Select **Add file**.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Deployment and synchronization integrations
@@ -35,5 +35,5 @@ Configure the AES/AEMC integration to enforce automated Scan Engine compliance c
 -   **[Configure update set integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-integration.md)**  
 Configure the update set integration to automatically synchronize update set scan results from developer instances to the production instance.
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

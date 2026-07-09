@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [receive application data, applicant data, import applications, ATS data, application import]
 ---
 
 # Receive application and applicant data from ATS

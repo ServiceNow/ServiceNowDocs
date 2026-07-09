@@ -31,7 +31,7 @@ The default canvas dashboard is the starting layout that employees see on their 
 
 ## Procedure
 
-1.  In the Employee Slate Admin Console, open the canvas configuration page.
+1.  In the Employee Slate **Admin Console**, open the canvas configuration page.
 
     The canvas configuration page shows the current subtitle, a preview of the default dashboard, and presentation controls for theme and device.
 
@@ -45,7 +45,7 @@ The default canvas dashboard is the starting layout that employees see on their 
 
 4.  Open the dashboard editor to modify the widget layout.
 
-    Select the folder icon or the canvas preview to open the dashboard editor.
+    Select the **folder icon** or the **canvas preview** to open the dashboard editor.
 
 5.  Reset the canvas to an empty layout if you're starting from scratch.
 
@@ -53,11 +53,11 @@ The default canvas dashboard is the starting layout that employees see on their 
 
 6.  Add widgets to the canvas.
 
-    Drag widgets from the widget library onto the canvas, resize them, and rearrange them to the layout you want.
+    Drag widgets from the **widget library** onto the canvas, resize them, and rearrange them to the layout you want.
 
 7.  Edit a widget directly from the canvas.
 
-    Select the widget settings, then select **Edit in Widget Builder** to open the widget in the Widget Builder. Edit the component source to adjust the widget and save the change.
+    Select the **widget settings**, then select **Edit in Widget Builder** to open the widget in the Widget Builder. Edit the component source to adjust the widget and save the change.
 
 8.  Save and publish the canvas layout.
 

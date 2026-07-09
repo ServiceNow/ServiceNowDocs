@@ -24,7 +24,7 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Configuration Management Database applications
 
-CSDM and CMDB Data Foundations dashboards
+[CSDM and CMDB Data Foundations dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-cmdb-foundations-dashboards.md)
 
 ## Customer Service applications
 
@@ -33,7 +33,7 @@ CSDM and CMDB Data Foundations dashboards
 
 ## DevOps applications
 
-DevOps Insights
+[DevOps Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/insights-dashboard-dev-ops.md)
 
 ## Employee Service Management
 
@@ -54,7 +54,7 @@ DevOps Insights
 ## IT Service Management applications
 
 -   Coaching
--   On-Call Scheduling
+-   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/viewing-performance-report-oncall.md)
 
 ## AI Experience applications
 

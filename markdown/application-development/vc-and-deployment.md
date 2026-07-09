@@ -29,7 +29,7 @@ After development, review, and testing are complete, a typical deployment workfl
 
 ## Deployment options
 
-Build Agent supports the following deployment methods for vibe-coded and AI-developed apps:
+Build Agent supports the following deployment methods for apps created and edited with agentic development:
 
 -   Git-based source control integration with ServiceNow IDE: ServiceNow supports Git-based workflows for version control and CI/CD.
     -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow IDE supports bring-your-own Git integration, such as GitHub or Bitbucket.

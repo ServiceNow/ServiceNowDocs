@@ -22,7 +22,7 @@ PowerShell is built on the Windows .NET Framework and is designed to control and
 
 ## PowerShell version
 
-By default, Integration Hub supports PowerShell versions 3.0 to 5.1. To use a newer version, add the MID Server property **mid.property.ihub.prefer\_powershell6Plus** and set it to `true`.
+By default, Integration Hub supports PowerShell versions 3.0 to 5.1. To use a newer version, [add the MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) **mid.property.ihub.prefer\_powershell6Plus** and set it to `true`.
 
 **Note:** PowerShell version 6.0 or later is not pre-installed on MID Servers. You must install the newer PowerShell version manually. Both the earlier versions \(PowerShell 3.0 to 5.1\) and the newer versions \(PowerShell 6.0 to 7.4\) can co-exist on the same MID Server. Test your Integration Hub and custom PowerShell scripts to ensure everything works before upgrading to a newer version of PowerShell.
 
@@ -93,7 +93,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list.
@@ -227,7 +227,7 @@ To access input variables from the **Command** field, you must call them using s
 
     By default, prefix variable names with a $ character. For example, if an input variable is named **message**, use $message to access the variable in script.
 
-    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see MID Server parameters.
+    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
 
 -   **Reserved variables**
 

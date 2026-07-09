@@ -52,7 +52,7 @@ Activate the Change Management Success Probability \(com.snc.change\_management.
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

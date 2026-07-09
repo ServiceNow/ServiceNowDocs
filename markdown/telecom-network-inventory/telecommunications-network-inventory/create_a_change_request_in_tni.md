@@ -47,7 +47,7 @@ You can create, review, update, or close a change request task in the Telecommun
     -   Remove Equipment/Shelf from Rack/Cabinet
     -   IP Address Allocation
     -   Phone Number Allocation
-    **Note:** For design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group using design and assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
+    **Note:** For design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
 
 6.  Select **Next**.
 
@@ -62,13 +62,13 @@ You can create, review, update, or close a change request task in the Telecommun
     -   View or update a summary of this change request.
     -   Add scopes.
 
-        To learn more, see Scopes.
+        To learn more, see [Scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-plan-asset-scope-bcp.md).
 
     -   Assign this change request to a group or a person.
 
         **Note:** To assign this change request, select **Assign** &gt; **fill in the assignment group and assigned to** &gt; **Save**.
 
-    -   Set a schedule for this change request. To learn more, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md).
+    -   Set a schedule for this change request. To learn more, see Schedules.
     -   Calculate the risks for this change request.
 
         When you select **Calculate Risk**, it analyzes an update in the **Risk** field on the **Details** tab.

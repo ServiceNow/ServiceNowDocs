@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 2.  Set up the Microsoft Teams Graph spoke.
 
-    For instructions, see: [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
+    For instructions, see: [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 
 3.  Activate the Health Log Analytics Alert Management rule for submitting alerts to the Microsoft Teams channel.
 

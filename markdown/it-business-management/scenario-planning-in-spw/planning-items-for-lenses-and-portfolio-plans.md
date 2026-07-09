@@ -35,5 +35,5 @@ If you want to use a different item type, you can use up to five pre-defined cus
 
 ## New custom planning items
 
-If you've used up all these five pre-defined custom planning item tables and want a different item type to use for your portfolio plans, you can define new item types. See [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
+If you've used up all these five pre-defined custom planning item tables and want a different item type to use for your portfolio plans, you can define new item types. See [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 

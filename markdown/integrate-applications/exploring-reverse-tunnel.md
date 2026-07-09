@@ -51,7 +51,7 @@ The setup workflow involves the following primary activities:
 1.  Install the `sn_zc_tunnel` \(Zero Copy Reverse Tunnel\), which provides the interface to manage relays and services.
 2.  Service account creation: The relay manager creates a service account in User Administration with the sn\_zc\_tunnel.relay\_user role and notes the password for relay configuration.
 3.  Relay setup: The relay manager downloads the relay artifact `Reverse Tunnel Relay` from the store app, extracts the files, and configures and starts the relay.
-4.  Relay record configuration: After the relay starts, the relay registers with the instance and a new record is created in the `sn_zc_tunnel_relay` table. The relay manager requests a gateway instance.
+4.  Relay record configuration: After the relay starts, the relay registers with the instance and a new record is created in the `Relay [sn_zc_tunnel_relay]` table. The relay manager requests a gateway instance.
 
     Two gateway records are automatically attached to the Gateways field, tied to the instance name.
 

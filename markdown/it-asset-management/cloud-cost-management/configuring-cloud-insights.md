@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring Cloud Cost Management
@@ -78,7 +78,7 @@ Install the MID Servers to enable the movement of data between the Discovery app
 
 </td><td>
 
-[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md)
+[Installing the MID Server with manual or guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md)
 
 </td></tr><tr><td>
 

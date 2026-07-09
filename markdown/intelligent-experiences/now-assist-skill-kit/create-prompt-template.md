@@ -8,7 +8,7 @@ product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-04-17"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Implementing controls and assessment objectives in CAM
+title: Implement controls and assessment objectives
 description: NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.html
@@ -9,10 +9,10 @@ classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Implementing controls and assessment objectives in CAM
+# Implement controls and assessment objectives
 
 NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
 

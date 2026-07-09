@@ -67,3 +67,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Automated|Impact VM - Total actual benefits attained for the completed projects this month|
 |Automated|Impact VM - Total forecasted benefits attained for the completed projects this month|
 
+**Parent Topic:**[Install the Data Collection Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-spm-install.md)
+

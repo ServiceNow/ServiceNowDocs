@@ -18,6 +18,8 @@ Learn about the components and properties that are installed with the Dispute Co
 
 -   **[Components installed with Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-content-pack-for-us-regulation.md)**  
 The Dispute Content Pack for US Regulations plugin installs components such as SLAs and additional plugins.
+-   **[Billing cycle and statement generation days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/billing-cycle-statement-generation-days.md)**  
+The billing cycle and statement generation day values are required for service level agreements \(SLAs\) to trigger on credit card dispute records. These values are stored in the Personal credit card account \[sn\_bom\_credit\_card\] table and are accessible from the **Account Parameters** related list.
 -   **[Domain separation Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/domain-separation-dispute-content-pack-for-us-regulation.md)**  
 Domain separation is unsupported for the Dispute Content Pack for US Regulations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 

@@ -106,10 +106,10 @@ ServiceNow AI Lens offers the following features:
 
 -   **Autofill form fields in the Now Mobile® application**
 
-    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md).You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see [Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md).
+    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see .You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see .
 
 -   **Autofill Catalog Item forms in Service Portal**
 
-    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Autofill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
+    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Auto-fill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
 
 

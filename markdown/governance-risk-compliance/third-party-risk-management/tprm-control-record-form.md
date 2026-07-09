@@ -154,7 +154,7 @@ List of options:-   Standard control
 
 **Note:** All existing controls are termed as standard controls. You can convert a standard control to common and reverse its function as standard if you so require. However, by default all controls whether existing or created are standard.
 
-For more information, see [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 
 </td></tr><tr><td>
 

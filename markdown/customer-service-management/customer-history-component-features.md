@@ -22,7 +22,7 @@ The Search icon introduces keyword-based search functionality enabling agents to
 -   Admins can configure a toggle option to have the search bar open by default when the page loads.
 -   Agents can enter a keyword or partial match to find relevant results. For example, entering `connect` displays cases with terms like connect, connected, or connection.
 
-\[Omitted image "cust-central-search-feature.png"\] Alt text: Customer History search bar
+\[Omitted image "cust-central-history-component.png"\] Alt text: Customer History search bar
 
 ## Filter
 

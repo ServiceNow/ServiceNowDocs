@@ -41,6 +41,8 @@ If you have the ais\_admin role, you can create, view, or edit indexed sources d
 Control hybrid search settings in AI Search applications to optimize search performance. Enable hybrid search to create context-aware results that combine keyword matching with semantic understanding. Disabling it generates results that rely solely on keyword-based queries.
 -   **[Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md)**  
 Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
+-   **[Configure multi-content synthesized sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multi-content-synthesis-sources.md)**  
+Configure indexed sources so that AI Search includes content from multiple sources when generating responses. When you configure a source for synthesis, the large language model draws from that source alongside others to produce more complete, contextually relevant answers.
 
 **Parent Topic:**[AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console.md)
 

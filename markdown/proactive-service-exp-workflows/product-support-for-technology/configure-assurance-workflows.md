@@ -1,6 +1,6 @@
 ---
 title: Configuring Proactive Service Experience Workflows
-description: You can configure Proactive Service Experience Workflows so that you can add users to assignment groups. You can also create custom instructions for engineers to guide them in resolving network-initiated issues through automatically provided workflows.
+description: Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.html
 release: australia
@@ -14,12 +14,10 @@ breadcrumb: [Proactive Service Experience Workflows, Product Support for Technol
 
 # Configuring Proactive Service Experience Workflows
 
-You can configure Proactive Service Experience Workflows so that you can add users to assignment groups. You can also create custom instructions for engineers to guide them in resolving network-initiated issues through automatically provided workflows.
+Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 
--   **[Install Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.md)**  
-If you’re a user with the system administrator role, you can install the Proactive Service Experience Workflows application.
--   **[Add users to Proactive Service Experience Workflows assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assign-group-taw.md)**  
-Add users to Proactive Service Experience Workflows assignment groups so that they have the necessary role and can be assigned to resolve network-initiated issues at the appropriate escalation level.
+-   **[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)**  
+Begin your customer journey by preparing your Proactive Service Experience Workflows environment with data models, customer data, product data, and user management tools to go live.
 
 **Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

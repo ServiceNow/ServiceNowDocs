@@ -16,7 +16,7 @@ View the purchase order exception record in Source-to-Pay Workspace to take acti
 
 ## Before you begin
 
-Role required: sn\_poem\_core.operational\_buyer
+Role required: sn\_poem\_core.viewer
 
 ## Procedure
 
@@ -36,4 +36,11 @@ The purchase order exception task is displayed. Add comments or attachments as n
 **Note:** For tasks of the Upload Documents action type, the **Mark Complete** button is not available until a file is attached.
 
 **Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-mgmt-ws.md)
+
+**Related topics**  
+
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
+
+[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-on-a-purchase-order-exception.md)
 

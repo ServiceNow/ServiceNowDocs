@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Service Exchange, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Service Exchange onboarding agentic workflows

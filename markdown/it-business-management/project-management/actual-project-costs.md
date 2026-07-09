@@ -43,5 +43,7 @@ Actual project costs come after you create expense lines for cost plans or after
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ViewActualProjectCosts.md)
 

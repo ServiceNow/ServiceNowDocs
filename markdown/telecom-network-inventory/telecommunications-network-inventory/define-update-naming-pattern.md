@@ -1,24 +1,24 @@
 ---
 title: Define or update a naming pattern for a related template
-description: Define a JavaScript expression that names the configuration item \(CI\) you create from a related template within an inventory template. The naming pattern can include literal text, variables from the token library, conditionals, and string transformations.
+description: Define a JavaScript expression to control how configuration items \(CIs\) are named when they are created from a related template. Naming patterns can include literal text, token library variables, conditionals, and string transformations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/define-update-naming-pattern.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---
 
 # Define or update a naming pattern for a related template
 
-Define a JavaScript expression that names the configuration item \(CI\) you create from a related template within an inventory template. The naming pattern can include literal text, variables from the token library, conditionals, and string transformations.
+Define a JavaScript expression to control how configuration items \(CIs\) are named when they are created from a related template. Naming patterns can include literal text, token library variables, conditionals, and string transformations.
 
 ## Before you begin
 
-Role required: Inventory Template Manager.
+Role required: inventory\_template\_manager.
 
 ## Procedure
 
@@ -30,9 +30,9 @@ Role required: Inventory Template Manager.
 
     From the inventory template, select the **Related Templates** tab. Locate the related template you want to update and select its name to open the record.
 
-    Alternatively, select the **Overview** tab, select the related template's node in the tree, and select **View details** in the top-right of the Overview to open the related template record in a new tab.
+    Alternatively, select the **Overview** tab and select the related template's node in the tree. Select **View details** to open the related template record in a new tab.
 
-3.  Open the Define name pattern modal.
+3.  Open the name pattern editor for the related template.
 
     On the related template record's form, locate the **Name Pattern** field. Select the **Define name pattern** button at the right edge of the field.
 
@@ -44,7 +44,7 @@ Role required: Inventory Template Manager.
 
     Enter or update the JavaScript expression that produces the CI name. The pattern can combine literal text, variables, string methods such as `.replace()`, and conditional logic using the ternary operator.
 
-    For the full pattern syntax, see [How inventory template names are generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
+    For the full pattern syntax, see [Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
 
 5.  Insert a variable from the token library.
 
@@ -54,9 +54,13 @@ Role required: Inventory Template Manager.
 
     As you edit the pattern, the modal displays inline feedback below the **Name pattern** input:
 
-    -   **Pattern valid.** A green message appears: `Valid name pattern. Preview: <resolved name>`. The name shown after `Preview:` is a sample of what your pattern produces, using sample values for the pattern's variables.
+    -   **Pattern valid**
 
-    -   **Pattern invalid or empty result.** A red message appears: `Name pattern results in empty name. Please try again.` The **Apply** action is blocked. The same message appears whether the pattern has invalid JavaScript, references a variable that is not in the token library, or evaluates to an empty string.
+        A green message appears: `Valid name pattern. Preview: <resolved name>`. The name shown after `Preview:` is a sample of what your pattern produces, using sample values for the pattern's variables.
+
+    -   **Pattern invalid or empty result**
+
+        A red message appears: `Name pattern results in empty name. Please try again.` The **Apply** action is blocked. The same message appears whether the pattern has invalid JavaScript, references a variable that is not in the token library, or evaluates to an empty string.
 
 7.  Select **Preview** to refresh the inline feedback.
 
@@ -73,27 +77,22 @@ Role required: Inventory Template Manager.
 
 ## What to do next
 
-To verify the new pattern produces the expected resolved name across the template hierarchy:
-
-1.  Open the parent inventory template.
-2.  Select the **Overview** tab.
-3.  Select **Refresh** in the top-right of the Overview tab. Refreshing the Overview updates the resolved names in the tree.
-4.  Locate the related template you updated. Confirm that the tree node label shows the resolved name you expected.
+To confirm the pattern produces the expected resolved name, open the parent inventory template, select the **Overview** tab, and select **Refresh**. The tree updates to show the resolved names. For more information, see [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md).
 
 **Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 
 **Related topics**  
 
 
-[Naming patterns in inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
+[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
 
-[Models and templates name definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
+[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
 
-[How inventory template names are generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
-[The Inventory Template Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
+[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 
-[Extension point for custom naming validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)
+[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)
 
-[Naming pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
+[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
 

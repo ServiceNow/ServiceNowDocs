@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Microsoft Exchange Server
+title: Application services with Microsoft Exchange Server
 description: Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.Map an application service containing an Microsoft Exchange Server and verify that Service Mapping discovered all Microsoft Exchange Server components correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-service-exchange.html
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Microsoft Exchange Server
+# Application services with Microsoft Exchange Server
 
 Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.
 

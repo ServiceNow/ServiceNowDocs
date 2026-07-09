@@ -24,7 +24,7 @@ A purchase order exception split line is a subdivided line item created when a l
 -   **[Purchase Order Confirmation table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/po-confirmation-table.md)**  
 Purchase order confirmations are supplier-generated transactions that acknowledge a buyer's order and communicate the supplier's ability to fulfill it as specified.
 -   **[Purchase Order Confirmation Line table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/po-confirmation-line-table.md)**  
-A purchase order confirmation line is a line-level response from a supplier that acknowledges a specific purchase order line or a portion of it. It confirms whether the order can be delivered under the requested terms.
+A purchase order \(PO\) confirmation line is a supplier's line-level response acknowledging whether a purchase order line can be delivered under the requested terms.
 
 **Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configure, customize, or build new apps
+title: Configure, customize, or build apps
 description: Configuration and customization are hallmarks of the ServiceNow AI Platform that enable your company to customize workflows to fit its specific needs. You can also build new apps for novel use cases or departmental processes that don't fit within the scope of your current applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/configure-customize-or-build-new-apps.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Standard app development, Getting Started guide for developers, Building applications]
 ---
 
-# Configure, customize, or build new apps
+# Configure, customize, or build apps
 
 Configuration and customization are hallmarks of the ServiceNow AI Platform that enable your company to customize workflows to fit its specific needs. You can also build new apps for novel use cases or departmental processes that don't fit within the scope of your current applications.
 
@@ -128,5 +128,5 @@ Keep these situations in mind when you create customizations.
 3.  Customize an application to add functionality only when it extends the intent of the application.
 4.  Use App Engine developer products, such as Creator Studio and ServiceNow Studio, to create new applications rather than customizing an application to create functionality that doesn’t align with its original purpose.
 
-**Parent Topic:**[Overview of building apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
 

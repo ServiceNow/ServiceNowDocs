@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-repair-claim-
 release: australia
 topic_type: concept
 last_updated: "2026-03-16"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Repair claim, MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
@@ -14,45 +14,37 @@ breadcrumb: [Repair claim, MCO core, Explore, Manufacturing Commercial Operation
 
 Use case scenarios demonstrate when and how to use the Dealer portal application to submit a repair claim. It provides practical examples of common repair or warranty management situations.
 
-## Use case: Warranty repair claim submission
+## Scenario
 
-Scenario
+James, a dealer service advisor, completed a warranty repair on customer Ken's 2023 Alectri Voltar VS and must submit a claim for OEM reimbursement. Service advisors submitting warranty claims face critical challenges:
 
-James, a dealer service advisor, performed a warranty repair on customer Ken's 2023 Alectri Voltar VS and needs to submit a warranty claim for OEM reimbursement. Dealers submitting warranty claims face several challenges:
+-   Manual entry: Part and labor codes entered manually create errors and delays.
+-   Fragmented systems: Multiple platforms required to manage claims and track status.
+-   Documentation gaps: Incomplete or missing documents cause claim rejections.
+-   Calculation errors: Manual cost calculations increase processing time and dispute risk.
 
--   Manual processes and disconnected systems create inefficiency
--   Multiple platforms required to manage requests, claims, and OEM interactions
--   Manual part and labor code entry leads to errors
--   Incomplete documentation causes claim rejections
--   Manual calculations increase processing time and mistakes
--   Limited visibility into claim status after submission
+## Solution
 
-Solution
+Submit the warranty repair claim using the MCO Dealer Portal through a guided experience:
 
-James uses the MCO Dealer Portal to submit a warranty repair claim through a guided experience:
+1.  Access: Open the unified Dealer Portal and navigate to warranty repair claim submission.
+2.  Populate: Select vehicle by asset number or VIN, dealership location, and repair date. System auto-populates asset details.
+3.  Capture: Enter parts details \(number, quantity, unit cost\) and select pre-populated labor codes with hours. System automatically calculates all costs and taxes.
+4.  Complete: Upload supporting documents \(work orders, repair photos\) and submit for OEM review.
 
-1.  Accesses unified portal with cases, claims, knowledge, and service catalog in one place
-2.  Opens repair claim form where MCO auto-populates assets tied to the dealership
-3.  Selects the vehicle by asset number or VIN, chooses dealership location, and enters reported date, repair description, and work order number
-4.  Launches guided job entry where the “Warranty” is selected as Repair type
-5.  Enters parts details including part number, quantity, unit cost \($1,250\), and 15% tax rate where MCO automatically calculates the total
-6.  Selects pre-populated labor code, enters 1.5 labor hours and 10% tax rate where the system calculates total labor cost
-7.  Adds additional services such as pickup/drop-off or rental car reimbursements covered under warranty
-8.  Uploads supporting documents including work orders and repair photos, then submits the claim for OEM review
+## Benefits
 
-The guided interface with automatic calculations and pre-populated codes ensures complete, accurate claim submission.
+Compare the impact of using MCO warranty claim submission.
 
-Benefits
+|Without MCO|With MCO Warranty Claims|
+|-----------|------------------------|
+|Manual part and labor code lookups|Pre-populated codes reduce data entry errors.|
+|Error-prone manual calculations|Automatic cost and tax calculations ensure accuracy.|
+|Incomplete documentation causes rejections|Guided workflow verifies all required fields and documents.|
+|Limited visibility into claim status|Single portal tracks submitted claims in real-time.|
+|Extended OEM processing cycles|Structured data capture accelerates OEM review and reimbursement.|
 
-1.  Unified access: Single portal for all dealer interactions with OEM
-2.  Faster data entry: Auto-populated assets and pre-populated labor codes eliminate manual lookup
-3.  Reduced errors: Automatic calculations for parts, labor, and tax minimize mistakes
-4.  Improved accuracy: Guided workflow ensures all required fields are completed
-5.  Lower rejection rates: Structured data capture and document upload improve claim completeness
-6.  Streamlined process: Elimination of swivel chairing between systems increases efficiency
-7.  Complete documentation: Centralized attachment upload ensures all supporting materials are included
+## Outcome
 
-Outcome
-
-James successfully submits a complete warranty repair claim for Ken's 2023 Alectri Voltar VS with parts, labor, and supporting documentation. The guided experience with automatic calculations and pre-populated codes reduces claim preparation time and minimizes rejection risk, enabling faster OEM processing and reimbursement.
+James submits a complete, accurate warranty repair claim for Ken's 2023 Alectri Voltar VS with verified parts, labor, and supporting documentation. The guided portal experience reduces claim preparation time and eliminates rejection risk, enabling faster OEM processing and dealer reimbursement.
 

@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 **Related topics**  
 
 
-[Exploring chronological data on the alerts in an alert group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-timeline-view-concept.md)
+[Chronological alert data in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-timeline-view-concept.md)
 

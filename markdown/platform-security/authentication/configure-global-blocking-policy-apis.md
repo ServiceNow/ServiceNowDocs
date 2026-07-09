@@ -22,7 +22,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Web Services** &gt; **API Access Policies** &gt; **Global Blocking Policy**.
+1.  Navigate to **All** &gt; **System Web Services** &gt; **API Authentication Policy** &gt; **Global Blocking Policy**.
 
 2.  From the **Policy Inputs** tab, click **Edit**.
 

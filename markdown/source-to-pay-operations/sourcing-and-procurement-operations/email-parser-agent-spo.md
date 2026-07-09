@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [Email parser for SPO, Email parser for Sourcing and Procurement Operations, Intent to action]
-breadcrumb: [Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Email parser agent for Sourcing and Procurement Operations

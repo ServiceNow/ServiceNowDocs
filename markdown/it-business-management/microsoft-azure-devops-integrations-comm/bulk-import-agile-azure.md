@@ -65,7 +65,7 @@ Import work items and iterations of an Azure DevOps project into Agile Developme
 
 ## What to do next
 
-[Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md)
+[Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md)
 
 .
 

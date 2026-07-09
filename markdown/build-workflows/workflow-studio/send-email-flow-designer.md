@@ -84,7 +84,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Configuring instance Email
 
-For information about configuring your instance to send and receive email messages, see .
+For information about configuring your instance to send and receive email messages, see [Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-admin.md).
 
 ## Testing the email action
 

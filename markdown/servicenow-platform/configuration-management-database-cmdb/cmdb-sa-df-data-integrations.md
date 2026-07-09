@@ -18,8 +18,6 @@ Improve Data Foundations coverage by analyzing existing and suggested data integ
 
 Use the **Data integrations** tab in the CMDB success advisor for Data Foundations to assess the effectiveness of your current data integration sources in the Configuration Management Database \(CMDB\) and identify opportunities to improve coverage across your principal classes. The **Data integrations** tab provides a breakdown of active Discovery patterns and installed Service Graph Connectors, including how many key configuration item \(CI\) attributes each integration source is populating.
 
-For a quick reference to improve Data Foundations coverage, see [Data integration checklist for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integ-checklist.md).
-
 ## Access data integrations
 
 Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Data integrations** tab to access integration-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).

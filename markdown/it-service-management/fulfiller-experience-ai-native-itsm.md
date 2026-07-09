@@ -29,6 +29,10 @@ These are the fulfiller experience key features with Simplified IT Service Manag
 
 You can access the Simplified IT Service Management landing page from Service Operations Workspace.
 
+**Note:** For users that have the Service Desk Agent \[sn\_service\_desk\_agent\] role, the Simplified IT Service Management view is shown \(even with Advanced and Prime product tiers\).
+
+To access advanced flow features, such as with Major Incident Management or the full Service Operations view for each workflow, ensure that the user does not have the sn\_service\_desk\_agent role with itil/admin roles.
+
 The Simplified ITSM landing page contains these main metrics.
 
 -   Assigned to you: Incidents, requests, and catalog tasks that are assigned to you.

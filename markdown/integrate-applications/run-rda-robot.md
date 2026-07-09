@@ -69,15 +69,15 @@ You can run an automation using an attended robot in two ways. Do these tasks af
 
 2.  To run an attended robot, do any one of the following actions.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d116251e320">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d126204e320">
 
 Option
 
-</th><th align="left" id="d116251e323">
+</th><th align="left" id="d126204e323">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116251e329">
+</th></tr></thead><tbody><tr><td id="d126204e329">
 
 **From the Run option**
 
@@ -85,7 +85,7 @@ Action
 
 Select the Run icon \(\[Omitted image "rda-runtime-icon-run.png"\] Alt text: Run icon.\).The Attended Robot runs the automation.
 
-</td></tr><tr><td id="d116251e350">
+</td></tr><tr><td id="d126204e350">
 
 **From the Desktop In Desktop option**
 

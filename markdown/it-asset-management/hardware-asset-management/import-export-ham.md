@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [import hardware asset management content library, export hardware normalization data, Manage Hardware Library module]
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import and export content data

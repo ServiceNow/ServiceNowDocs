@@ -28,6 +28,8 @@ Fulfillment process can contain multiple steps. These steps can run sequentially
 
 The following video demonstrates how business owners can define the fulfillment process of catalog items using service fulfillment steps.
 
+\[Omitted video\] Description: Demonstrates how business owners can define the fulfillment process of catalog items using service fulfillment steps.
+
 ## Procedure
 
 1.  In the **Fulfillment** step of creating a catalog item, for the **Selected flow** field, select a flow that supports service fulfillment steps.

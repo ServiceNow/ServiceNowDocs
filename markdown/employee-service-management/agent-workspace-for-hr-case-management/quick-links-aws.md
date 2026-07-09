@@ -46,7 +46,7 @@ Name
 
 </td><td>
 
-Name of the link to content.**Note:** Ensure that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
+Name of the link to content.**Note:** Verify that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Final date the content is valid.
 
     5.  Select **Submit**.
 
-4.  Map the link created above to the Quick link component in UI Builder.
+4.  Map the link created earlier to the Quick link component in UI Builder.
 
     1.  Navigate to **All** &gt; **HR Case Management** &gt; **UI Builder for Agent Workspace for HR Case Management**.
 
@@ -176,9 +176,9 @@ Final date the content is valid.
 
     3.  Select your landing page variant.
 
-    4.  In the left pane, select the data icon \(\[Omitted image "data-icon.png"\] Alt text: Data icon\).\[Omitted image "data-icon-aws.png"\] Alt text: Data tab
+    4.  In the left pane, select the data icon \(\[Omitted image "data-icon.png"\]\).\[Omitted image "data-icon-aws.png"\] Alt text: UI Builder left pane with Data tab icon highlighted
 
-    5.  Select **getQuickLinksContent**.\[Omitted image "get-quick-links.png"\] Alt text: Get quick links panel
+    5.  Select **getQuickLinksContent**.\[Omitted image "get-quick-links.png"\] Alt text: Data panel showing getQuickLinksContent data resource with content\_id field
 
     6.  In the **content\_id** field, enter the name given to the Content group.
 

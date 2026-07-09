@@ -1,5 +1,5 @@
 ---
-title: Associating the primary goal or target for work and planning items
+title: Associating the primary goal or target for work items
 description: You can associate a goal or target as the primary for the work and planning items where the items contribute to achieving the goal or target. You need different roles to set a goal or target as the primary for work and planning items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/associating-primary-goal.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
-# Associating the primary goal or target for work and planning items
+# Associating the primary goal or target for work items
 
 You can associate a goal or target as the primary for the work and planning items where the items contribute to achieving the goal or target. You need different roles to set a goal or target as the primary for work and planning items.
 

@@ -1,6 +1,6 @@
 ---
 title: OCM: Managing Change
-description: This accelerator provides coaching to assess training needs, build enablement plans, close skill gaps, and activate champion networks — equipping users with the knowledge and ability to adopt ServiceNow.
+description: This Accelerator provides coaching to assess training needs, build enablement plans, close skill gaps, and activate champion networks — equipping users with the knowledge and ability to adopt ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-managing-change.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-04-28"
 reading_time_minutes: 3
 keywords: [OCM, Organizational Change Management, Managing Change, Enablement, Champion Network, Training Needs Analysis]
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # OCM: Managing Change
 
-This accelerator provides coaching to assess training needs, build enablement plans, close skill gaps, and activate champion networks — equipping users with the knowledge and ability to adopt ServiceNow.
+This Accelerator provides coaching to assess training needs, build enablement plans, close skill gaps, and activate champion networks — equipping users with the knowledge and ability to adopt ServiceNow.
 
 ## Accelerator Overview
 

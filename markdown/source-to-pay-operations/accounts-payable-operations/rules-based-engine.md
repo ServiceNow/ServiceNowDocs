@@ -26,9 +26,9 @@ The digitized invoice in accepted state moves to suspected duplicate state where
 **Related topics**  
 
 
-[Invoice ingestion using Application programming interface \(API\)]()
+[Invoice ingestion using the AP Invoice API]()
 
-[Work with invoices]()
+[Invoice processing overview]()
 
 [Invoice processing cases]()
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Process an Asset Donation Order

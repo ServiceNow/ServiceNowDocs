@@ -21,7 +21,7 @@ Role required: None
 Before [activating High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateHighSecuritySettings.md) on an existing instance:
 
 1.  Review the following information to understand the new behavior:
-    -   [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)
+    -   [Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)
     -   [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HighSecuritySettings.md)
     -   [Default deny property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_DefaultDenyProperty.md)
 2.  Enable the plugin on a non-production instance. A recent clone of production is preferable.

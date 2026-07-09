@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-07-07"
+reading_time_minutes: 3
 breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,6 +34,17 @@ On the Planning board in EAP, enable the **Dependencies** toggle to view depende
 -   Dependencies on the Planning board of an Agile Team appear in Yellow because they're scheduled for the same Sprint.
 
 \[Omitted image "eap-dependencies.png"\] Alt text: Dependency line colors in ART Planning board.
+
+## View or delete a dependency from the Planning board
+
+On the Planning board, select a dependency line to open the dependency record in a side panel without leaving the board.
+
+-   For a dependency between stories, the side panel shows the Dependent Story and Prerequisite Story fields.
+-   For a dependency between planning items \(Epic, Capability, or Feature\), the side panel shows the Planning Item fields and the Relationship type.
+
+Select **Delete** in the side panel to remove the dependency, and confirm the deletion when prompted. The dependency line is removed from the board immediately.
+
+If the dependency record was already deleted elsewhere, the side panel shows a message that the dependency no longer exists, and then closes.
 
 ## Dependencies related lists for work items
 

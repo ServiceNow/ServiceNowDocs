@@ -44,16 +44,16 @@ Manages data related to field service management. Field service management admin
 -   Create, read, upload, and delete ACLs for Custom Map Screen and Custom Map Provider.
 -   Review quality management configuration, auto close configuration, and monitor the quality dashboard.
 -   Manage the Acceptance due date, and work management order fields.
+-   Assign skills to agents.
 -   Migrate UI actions to questionnaires.
 
 </td><td>
 
 -   wm\_approver\_user
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   dynamic\_scheduling\_admin
 -   wm\_agent
 -   skill\_model\_admin
--   skill\_admin
 -   territory\_admin
 -   sn\_apptmnt\_booking.appointment\_booking\_admin
 -   plan\_maint\_admin
@@ -215,7 +215,6 @@ Initiator-qualifiers can:-   Create work orders.
 -   Create tasks.
 -   Add part requirements.
 -   Source parts.
--   Assign skills to agents.
 -   View incidentals.
 
 </td><td>
@@ -233,7 +232,6 @@ Initiator-qualifier-dispatchers can:-   Create work orders.
 -   Create tasks.
 -   Add parts requirements.
 -   Source parts.
--   Assign skills to agents.
 -   Assign work to agents.
 -   Manage agent tasks.
 -   View incidentals.
@@ -253,11 +251,12 @@ Field Service Management Manager\[wm\_manager\]
 Field Service Managers can:-   Manage agent skills
 -   Manage time cards
 -   View and maintain work schedules
+-   Assign skills to agents
 -   View and maintain personal events
 
 </td><td>
 
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   wm\_agent
 -   timecard\_manager
 -   agent\_schedule\_manager

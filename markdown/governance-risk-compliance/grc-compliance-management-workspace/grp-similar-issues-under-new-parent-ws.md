@@ -1,5 +1,5 @@
 ---
-title: Group similar issues under a new parent issue using the Compliance Workspace
+title: Group similar issues under a parent issue using the Compliance Workspace
 description: When you are creating an issue using the Compliance Workspace, you have the option of grouping the issue with other similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/grp-similar-issues-under-new-parent-ws.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manually create GRC issues using the Compliance Workspace, Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Group similar issues under a new parent issue using the Compliance Workspace
+# Group similar issues under a parent issue using the Compliance Workspace
 
 When you are creating an issue using the Compliance Workspace, you have the option of grouping the issue with other similar issues.
 
@@ -37,17 +37,15 @@ Grouping issues under a parent can save you valuable time. For example, assume y
     -   **Audit** &gt; **Issues** &gt; **Create New**.
 2.  On the form, locate the **Parent issue** field.
 
-    \[Omitted image "parent-no-num.png"\] Alt text: Parent field
-
-3.  Click the bulb icon \(\[Omitted image "bulb.png"\] Alt text: bulb icon\) to view similar issues that you may want to assign to this parent issue.
+3.  Select the bulb icon to view similar issues that you may want to assign to this parent issue.
 
     \[Omitted image "similar-issue-suggestion.png"\] Alt text: Similar issue suggestions
 
     **Note:** Standalone issues are similar to the current issue, but that are not assigned to a parent issue group. The Confidence score is calculated using a similarity definition included in the GRC: Predictive Intelligence application base system.
 
-4.  You can click the Information icon to view details for any similar issues in order to help determine whether they should be grouped with the current issue.
+4.  You can click the Information icon to view details for any similar issues to help determine whether they should be grouped with the current issue.
 
-5.  Select the similar issues you want to group with the current issue, and click **Group**.
+5.  Select the similar issues you want to group with the current issue, and select **Group**.
 
     \[Omitted image "group-ssues.png"\] Alt text: Group issues
 
@@ -94,7 +92,7 @@ Assigned to
 This field displays only if you selected **Create a new group**. Select the user to whom the group is assigned.
 
 </td></tr></tbody>
-</table>7.  Click **OK**.
+</table>7.  Select **OK**.
 
     The selected issues are added to a new or existing group.
 

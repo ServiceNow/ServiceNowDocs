@@ -1,5 +1,5 @@
 ---
-title: View business capabilities associated with a business application
+title: View business capabilities for a business application
 description: You can view the list of business capabilities associated with business applications in the Enterprise Architecture Workspace, to understand the value of the business application in your enterprise architecture landscape and improve decision making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View business capabilities associated with a business application
+# View business capabilities for a business application
 
 You can view the list of business capabilities associated with business applications in the Enterprise Architecture Workspace, to understand the value of the business application in your enterprise architecture landscape and improve decision making.
 
@@ -44,15 +44,15 @@ Role required: sn\_apm.apm\_user
 
 [Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-app.md)
 
-[Manage information objects of a business application in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
 
-[Remove architectural artifacts associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
+[Remove architectural artifacts from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
 
-[Create an architectural artifact and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
 
-[View architectural artifacts associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-archi-artfct-assoc-with-ba.md)
+[View architectural artifacts for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-archi-artfct-assoc-with-ba.md)
 
-[Remove business capabilities associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
+[Remove business capabilities from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
 
 [Open business application form in Core UI from EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-ba-form-in-coreui.md)
 
@@ -60,11 +60,11 @@ Role required: sn\_apm.apm\_user
 
 [View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-open-map-ba.md)
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 
-[Add an existing architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
+[Add an architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
 
-[Create a diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-diagram-ba.md)
+[Create a diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-diagram-ba.md)
 
-[Add an existing business capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-existing-business-capability-to-ba.md)
+[Add a business capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-existing-business-capability-to-ba.md)
 

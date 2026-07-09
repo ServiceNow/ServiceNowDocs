@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your ITOM Discovery
-description: This accelerator provides foundational guidance for a successful IT Operations Management \(ITOM\) Discovery implementation, along with a demonstration of its possibilities and capabilities.
+description: This Accelerator provides foundational guidance for a successful IT Operations Management \(ITOM\) Discovery implementation, along with a demonstration of its possibilities and capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-itom-discovery.html
 release: australia
@@ -9,18 +9,18 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your ITOM Discovery
 
-This accelerator provides foundational guidance for a successful IT Operations Management \(ITOM\) Discovery implementation, along with a demonstration of its possibilities and capabilities.
+This Accelerator provides foundational guidance for a successful IT Operations Management \(ITOM\) Discovery implementation, along with a demonstration of its possibilities and capabilities.
 
 ## Accelerator Overview
 
-Jumpstart Your ITOM Discovery educates customers on the technical foundations of horizontal discovery within the ITOM Discovery product and proactively addresses key topics such as security considerations, product core configuration, automated CMDB data entry, and more. Through an overview and applied demonstration, customers will gain the knowledge and confidence needed to begin their ITOM Visibility journey effectively. Additionally, this accelerator includes key resources and leading practice guides to help customers throughout their journey.
+Jumpstart Your ITOM Discovery educates customers on the technical foundations of horizontal discovery within the ITOM Discovery product and proactively addresses key topics such as security considerations, product core configuration, automated CMDB data entry, and more. Through an overview and applied demonstration, customers will gain the knowledge and confidence needed to begin their ITOM Visibility journey effectively. Additionally, this Accelerator includes key resources and leading practice guides to help customers throughout their journey.
 
-If you wish to know more about Top-Down Discovery \(Service Mapping\), please request the [Jumpstart Your Service Mapping accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md)
+If you want to know more about Top-Down Discovery \(Service Mapping\), request the [Jumpstart Your Service Mapping Accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md)
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total Packages. This offering currently makes use of a ServiceNow demonstration instance.
 

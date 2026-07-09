@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-06-25"
+reading_time_minutes: 2
 breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -27,6 +27,10 @@ RCA maps the alerts and change requests to the CIs. It proceeds to calculate the
 \[Omitted image "probable-rca3.png"\] Alt text: Probable Root Cause list
 
 By default, the list shows the five probable root causes with the highest score. It lists the CIs related to each alert, and the reason RCA identified them as probable root causes.
+
+Each probable root cause includes a reason that explains how RCA correlated the alert with the change request. The reason can indicate that the change request was applied directly to the CI that generated the alert, to a CI in the affected CIs list, to a related CI, to an application service, or to software installed on the CI or related infrastructure. RCA identifies installed software by using the `cmdb_software_instance` table.
+
+For alert groups, RCA uses topology analysis to identify upstream CIs that might explain cascading failures in the group. Changes on these topology origin CIs receive higher priority in the probable root cause score.
 
 Scoring for probable root causes is determined by the following criteria, in the indicated order \(lower number = higher priority\):
 

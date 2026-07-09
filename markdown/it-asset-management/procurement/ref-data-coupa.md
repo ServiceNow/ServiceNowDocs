@@ -9,7 +9,7 @@ classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a requisition on Coupa through Procurement application, Integrating with Coupa, Integrating with external procurement applications, Procurement, IT Asset Management]
+breadcrumb: [Create a requisition on Coupa through Procurement application, Integrating with Coupa, Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---
 
 # Reference data synchronization

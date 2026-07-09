@@ -32,11 +32,7 @@ From the list of records, assign an open security incident that has a risk score
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    \[Omitted image "mobile\_SIR\_greater\_60si.jpg"\] Alt text: Incident Risk Score &gt; 60 applet highlighted.
-
     The Incident Risk Score screen is displayed with a list of security incidents.
-
-    \[Omitted image "mobile-risk-si-list.jpg"\] Alt text: Security Incidents with Risk Score &gt; 60 list.
 
 3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
@@ -44,19 +40,17 @@ From the list of records, assign an open security incident that has a risk score
 
 4.  To assign a security incident to yourself or reassign it directly from the list of open security incident records displayed, swipe left on a record to open the menu.
 
-    \[Omitted image "mobile-sir-risk-60-swipe.jpg"\] Alt text: Incident Risk Score &gt; 60 swipe menu.
-
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d507251e186">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d510097e156">
 
 Option
 
-</th><th align="left" id="d507251e189">
+</th><th align="left" id="d510097e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d507251e195">
+</th></tr></thead><tbody><tr><td id="d510097e165">
 
 **Assign to Me**
 
@@ -64,7 +58,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d507251e204">
+</td></tr><tr><td id="d510097e174">
 
 **Reassign**
 
@@ -76,42 +70,40 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
  1.  Tap **Assigned to** and
 2.  Tap a name from the list that is displayed, or enter text in the search field.
- Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save and submit your changes.
+ Tap **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>6.  Alternatively, to view the details of an open security incident record and to see more associated records and related lists, with the Incident Risk Score screen displayed, tap a record on the list.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-    \[Omitted image "mobile-sir-risk-60-record.jpg"\] Alt text: Security incident record for Risk Score &gt; 60.
-
-<table id="choicetable_zjs_jhq_zhb"><thead><tr><th align="left" id="d507251e280">
+<table id="choicetable_zjs_jhq_zhb"><thead><tr><th align="left" id="d510097e232">
 
 Option
 
-</th><th align="left" id="d507251e283">
+</th><th align="left" id="d510097e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d507251e289">
+</th></tr></thead><tbody><tr><td id="d510097e241">
 
-**Tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon. on the upper right of the screen.**
+**Menu icon**
 
 </td><td>
 
 From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Security Incident screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
 -   To reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
- After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the security incident.
+ After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d507251e334">
+</td></tr><tr><td id="d510097e274">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
+With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d507251e352">
+</td></tr><tr><td id="d510097e286">
 
 **Related List tab**
 
@@ -119,7 +111,7 @@ With the Activity Stream tab selected, review the audit trail of work notes, act
 
 With the Related List tab selected, view the items on any of the Related Lists that are populated on the security incident. Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d507251e364">
+</td></tr><tr><td id="d510097e298">
 
 **Screen icons at the bottom of the screen.**
 

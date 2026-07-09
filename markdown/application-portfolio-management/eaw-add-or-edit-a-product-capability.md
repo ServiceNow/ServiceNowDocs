@@ -46,9 +46,9 @@ Role required: sn\_apm.apm\_user
 
 [Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)
 
-[View product capabilities associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
+[View product capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
 
-[Create a product capability and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+[Associate a product capability with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
 
 [Add an existing product capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-existing-product-capability-to-ba.md)
 

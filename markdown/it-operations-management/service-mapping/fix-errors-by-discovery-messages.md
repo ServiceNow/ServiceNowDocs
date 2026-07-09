@@ -1,5 +1,5 @@
 ---
-title: Fix errors in individual application services using discovery messages
+title: Fix service mapping errors using discovery messages
 description: Service Mapping does not offer semi-automated resolution options for errors that require advanced resolution. Fix such errors using symptoms and discovery messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/fix-errors-by-discovery-messages.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Fix errors in individual application service maps, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Fix errors in individual application services using discovery messages
+# Fix service mapping errors using discovery messages
 
 Service Mapping does not offer semi-automated resolution options for errors that require advanced resolution. Fix such errors using symptoms and discovery messages.
 

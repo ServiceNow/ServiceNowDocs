@@ -29,7 +29,7 @@ The imported project uses the default schedule of a Monday to Friday workday fro
 
 [Project field mapping]()
 
-[Create custom field mapping for Microsoft Project file import]()
+[Create custom field mapping for Microsoft Project import]()
 
 [Project import from Microsoft Project]()
 

@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 12
-breadcrumb: [Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Available AI agents for Integration Hub
@@ -26,7 +26,7 @@ AI agent
 
 </th></tr></thead><tbody><tr><td>
 
-[Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md)
+[ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md)
 
 </td><td>
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Create entitlements in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create entitlements for Microsoft Software Assurance in Software Asset Management classic
@@ -30,7 +30,7 @@ Role required: sam\_user or sam\_admin
 
     **Note:** Make sure that you enter the number of rights to be granted for the SA entitlement in the **Active rights** field. You can't add user or device allocations for SA entitlements.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 
 4.  Right-click the form header and select **Save**.
 
@@ -87,5 +87,5 @@ To accurately track your licenses, associate your perpetual and SA entitlements.
 
 While you're under active maintenance, Microsoft releases SQL Server 2016 datacenter. Step up from your current version to the new release by creating an entitlement for your upgraded software and link the related entitlements.
 
-**Parent Topic:**[Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
 

@@ -14,8 +14,6 @@ breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Cust
 
 Task Intelligence for Customer Service offers several AI capabilities such as language detection, record categorization, Sentiment Analysis, and Document Intelligence. These capabilities automate several routine tasks across the case lifecycle and enable agents to focus on complex case resolution.
 
-\[Omitted image "task-intel-overview-screenshot.png"\] Alt text: Case form with highlighted Task Intelligence features that automate routine tasks across the case lifecycle. For the text description, refer to the Task Intelligence for Customer Service features table.
-
 <table id="table_epw_m1g_vtb"><thead><tr><th>
 
 Feature

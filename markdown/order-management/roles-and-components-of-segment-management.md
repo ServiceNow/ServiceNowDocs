@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-segment-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Segment Management
@@ -42,7 +42,7 @@ Navigate to **All** &gt; **Partner Relationship Management** &gt; **Properties**
 
 The Segment admin \(sn\_seg.segment\_mgmt\_admin\) hasread and write access for the \[glide.ui.sn\_seg\_segment\_activity.fields\] property.
 
-**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 

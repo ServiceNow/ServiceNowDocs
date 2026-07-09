@@ -1,6 +1,6 @@
 ---
-title: Installed with Best Practice - Change Risk Calculator
-description: Several types of components are installed with the Best Practice- Change Risk Calculator.Best Practice- Change Risk Calculator adds the following table.
+title: Installed with Change Management - Risk Calculator
+description: Several types of components are installed with the Change Management - Risk Calculator.Change Management - Risk Calculator adds the following table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-change-risk-calc.html
 release: australia
@@ -9,18 +9,18 @@ classification: change-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate Best Practice - Change Risk Calculator, Change Management plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Activate Change Management - Risk Calculator, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Installed with Best Practice - Change Risk Calculator
+# Installed with Change Management - Risk Calculator
 
-Several types of components are installed with the Best Practice- Change Risk Calculator.
+Several types of components are installed with the Change Management - Risk Calculator.
 
-**Parent Topic:**[Activate Best Practice - Change Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-change-risk-calculator.md)
+**Parent Topic:**[Activate Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-change-risk-calculator.md)
 
-## Tables installed with Best Practice - Change Risk Calculator
+## Tables installed with Change Management - Risk Calculator
 
-Best Practice- Change Risk Calculator adds the following table.
+Change Management - Risk Calculator adds the following table.
 
 <table id="table_h2g_sjc_3w"><thead><tr><th>
 

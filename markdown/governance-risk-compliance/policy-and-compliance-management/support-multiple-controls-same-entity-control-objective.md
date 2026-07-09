@@ -35,5 +35,5 @@ When Inherit from control objective is enabled, the control automatically inheri
 
 **Note:** Suppose multiple products or systems in your organization fulfill the same control objective through a shared mechanism. For example, two Single Sign On products that both satisfy the same requirement . Consider converting the control to a common control instead of creating multiple controls manually. A common control can be associated with multiple reliant entities without requiring a separate control for each.
 
-For more information, see [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 

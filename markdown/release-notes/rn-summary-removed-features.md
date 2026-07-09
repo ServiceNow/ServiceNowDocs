@@ -91,6 +91,8 @@ Operational Technology Manager
 
 </td><td>
 
+Australia Early Availability
+
 -   The **New** button was removed from the following related lists for users with read-only access to a site:
     -   Network Adapters
     -   Memory Modules
@@ -143,7 +145,7 @@ Third-party Risk Management
 
 -   Assessments using entities are no longer supported.
 -   The `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles.
--   The `scoring_rule` and `scoring_rule_ref` fields are removed from assessment forms and UI sections. Custom scripts or integrations that reference these fields must be updated.
+-   The `scoring_rule` and `scoring_rule_ref` fields are removed from assessment forms and UI sections. Custom scripts or integrations that reference these fields must be updated.\\
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

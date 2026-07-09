@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing Procurement Operations integration Field, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing and Procurement Operations and Field Service integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Order parts you need using the Agent mobile application

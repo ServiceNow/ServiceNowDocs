@@ -134,3 +134,8 @@ Reverse the temporary credit issued by the bank to the account holder.
 
 **Parent Topic:**[Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
 
+**Related topics**  
+
+
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+

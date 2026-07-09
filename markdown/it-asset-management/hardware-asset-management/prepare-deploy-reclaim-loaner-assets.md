@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Manage loaner assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage loaner assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Prepare, deploy, and reclaim loaner assets

@@ -8,7 +8,7 @@ product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,6 +31,8 @@ Enable the Google Drive and Admin SDK APIs and create a Google Cloud service acc
 Create an external content connector to retrieve searchable content and security principals from your Google Drive source system.
 -   **[Configure crawl settings for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-gdrive-ext-cont-connector.md)**  
 Specify the shared drives you want your Google Drive external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
+-   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/filter-content-label-google-drive-external-content-connector.md)**  
+Configure a label filter for your Google Drive external content connector. The connector only retrieves content that has one or more of your specified label values applied.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

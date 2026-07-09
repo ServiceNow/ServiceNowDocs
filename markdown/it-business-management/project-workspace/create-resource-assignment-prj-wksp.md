@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create resource assignments using Project Workspace
@@ -63,7 +63,7 @@ Role required: it\_project\_manager
 
 -   **[Create a resource assignment for a user in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-user-resource-assignment.md)**  
 Use Project Workspace to create a user-based Resource assignment. User records store information about individuals who access your instance or application. These records can be assigned to groups and roles to determine what records and actions can be accessed by individuals.
--   **[Create a resource assignment for a group in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-group-resource-assignment.md)**  
+-   **[Create group resource assignment in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-group-resource-assignment.md)**  
 Use Project Workspace to create a group and associate it to your resource assignment. You can associate a set of users who share a common purpose to a group.
 -   **[Create an attribute-based resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-attribute-resource-assignment.md)**  
 Create an attribute-based resource assignment in Project Workspace. You can pre-define attributes based on your requirement.

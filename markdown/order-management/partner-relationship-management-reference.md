@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-relationship-management-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
@@ -20,6 +20,12 @@ Use the member registration form on the Partner portal to register members to a 
 Use the general inquiry form on the Partner portal to raise queries and get in touch with the enterprise.
 -   **[Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/channel-partner-table-fields.md)**  
 Use the fields on the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
+-   **[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-deal-registration-management.md)**  
+The Deal Registration Management application \(com.snc.deal\_registration\_management\) uses roles to provide access to information, identify internal and external users, and maintain data security.
+-   **[Roles and components of Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-segment-management.md)**  
+The Segment Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between segments and partners.
+-   **[Roles and components of Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-sales-common.md)**  
+The Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\) application uses roles to provide access to information, identify internal and external users, and maintain data security.
 -   **[Quote creation via Self-Service fields for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-creation-fields.md)**  
 Store the main details related to a quote submitted by a partner and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation by channel partners.
 -   **[Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-program-table-fields.md)**  

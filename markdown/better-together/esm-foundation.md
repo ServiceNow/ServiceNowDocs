@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/better-together/esm-foundation.
 release: australia
 topic_type: concept
 last_updated: "2026-03-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [employee service management, ESM foundation, Core Business Suite, AI-native IT Service Management, HR service delivery, legal service delivery, workplace services, finance services, procurement services, unified service portal]
 breadcrumb: [Solutions]
 ---
@@ -19,7 +19,7 @@ Enterprise Service Management Foundation combines the Core Business Suite and th
 
 Enterprise Service Management Foundation \(ESM Foundation\) brings together the Core Business Suite and the Simplified IT Service Management to create a comprehensive service delivery platform.
 
-The integration eliminates service silos and provides employees with a unified experience for all their service requests, while enabling organizations to leverage AI-assisted automation and intelligent routing across service domains.
+The integration eliminates service silos and provides employees with a unified experience for all their service requests, while enabling organizations to use AI-assisted automation and intelligent routing across service domains.
 
 |Feature|Core Business Suite only|Simplified IT Service Management only|ESM Foundation \(both together\)|
 |-------|------------------------|-------------------------------------|--------------------------------|
@@ -39,6 +39,21 @@ Using Core Business Suite with Simplified IT Service Management together provide
 -   Accelerate resolution times through AI-assisted knowledge management and contextual recommendations.
 -   Support multi-channel engagement including chat, email, and portal interactions.
 -   Provide Supplier Collaboration Portal capabilities alongside employee service delivery.
+
+The following figure shows how employees, service agents, administrators, and suppliers use ESM Foundation to deliver seamless, AI-enhanced service experiences. Employees access all services through a unified portal with AI search and conversation-interface support, while specialized agents handle requests using AI-assisted tools that share common workflows and intelligent automation.
+
+\[Omitted image "esm-foundation.png"\] Alt text: ESM Foundation workflow with unified portal, AI routing, and supplier collaboration.
+
+In this workflow:
+
+1.  Employee submits a service request through the unified Employee Center portal with AI-powered search and chat assistance.
+2.  The AI-native system triggers triage and routes the request to the appropriate service team based on intelligent categorization.
+3.  The service agent receives the request in an AI-enhanced workspace with contextual recommendations and resolution suggestions.
+4.  AI agents provide automated triage, draft responses, and suggest next steps to accelerate resolution.
+5.  The agent collaborates with other departments using shared case management and AI-assisted knowledge discovery.
+6.  The employee receives real-time updates through preferred channels and can interact via chat, portal, or email.
+7.  Suppliers access the dedicated collaboration portal for invoice requests and general inquiries.
+8.  The system captures metrics and feedback across all service domains for continuous improvement.
 
 ## Core Business Suite service areas
 

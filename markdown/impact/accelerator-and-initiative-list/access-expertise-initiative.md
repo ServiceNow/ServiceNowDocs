@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Initiatives catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Access to Expertise
@@ -91,5 +91,5 @@ Implementation Guidance
 How do you set up the workflow for Mobile barcode scanning upon initiation of a request?
 
 </td></tr></tbody>
-</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
+</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
 

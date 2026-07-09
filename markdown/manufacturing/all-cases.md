@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View sales promotion claim cases
@@ -29,6 +29,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     -   Open- All the open cases.
     -   Unassigned- Unassigned cases and assign them to the available agent.
     -   Escalated: Cases that are escalated and need attention.
-
-**Parent Topic:**[Sales promotion claim management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-pro-clm-mgmt.md)
 

@@ -28,7 +28,7 @@ The CMDB Groups table contains the Component Item \(CI\) records on which the co
 2.  Generates records in the CMDB Group Metadata \[sn\_cmdb\_ws\_group\_metadata\] table.
 3.  By using the collected data in the CMDB Group Metadata table, it refreshes each count that appears on the landing page.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 

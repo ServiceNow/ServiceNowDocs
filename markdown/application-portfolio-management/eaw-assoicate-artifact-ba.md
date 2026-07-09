@@ -1,5 +1,5 @@
 ---
-title: Create an architectural artifact and associate it with a business application
+title: Associate an architectural artifact with a business app
 description: You can create a new architectural artifact from the business application related list, in the EA Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-assoicate-artifact-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create an architectural artifact and associate it with a business application
+# Associate an architectural artifact with a business app
 
 You can create a new architectural artifact from the business application related list, in the EA Workspace.
 
@@ -56,9 +56,9 @@ The newly created architectural artifact is added to the business application.
 **Related topics**  
 
 
-[Remove architectural artifacts associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
+[Remove architectural artifacts from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
 
-[Add an existing architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
+[Add an architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
 
 [View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-arch-art-categories.md)
 
@@ -74,7 +74,7 @@ The newly created architectural artifact is added to the business application.
 
 [Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)
 
-[Request approval for an architectural artifact of type URL or Attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
+[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
 
 [Download an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-download-artifact-version.md)
 

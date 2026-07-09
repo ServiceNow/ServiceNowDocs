@@ -48,7 +48,7 @@ View all the purchases you made from your shopping account, view their status, a
 
 [Using Procurement Case Management]()
 
-[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace]()
+[Working with SPO playbooks in the Source-to-Pay Workspace]()
 
 [Using Spend and Savings Management]()
 

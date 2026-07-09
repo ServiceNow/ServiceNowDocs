@@ -20,7 +20,7 @@ During the installation of the Discovery Console for OT, you must have access to
 
 When using the installation for a non-air-gapped network, the Discovery Console for OT not only needs access to dependent third-party packages, but it also needs to communicate with the Sensors, the Collectors, the MID Server, the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, and your ServiceNow instance.
 
-For these specific steps see the documentation on configuring the individual OT Discovery components. Start with .
+For these specific steps see the documentation on configuring the individual OT Discovery components. Start with [Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md).
 
 ## Air-gapped networks
 

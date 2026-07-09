@@ -9,7 +9,7 @@ classification: asset-audits
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Reference, Asset Audit Response, IT Asset Management]
+breadcrumb: [Reference, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Domain separation and Asset Audit Response

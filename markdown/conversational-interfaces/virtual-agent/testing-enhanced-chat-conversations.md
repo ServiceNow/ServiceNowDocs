@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-04"
 reading_time_minutes: 2
 keywords: [Now Assist, Virtual Agent, enhanced chat, topics, subflows, actions, assistant]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Testing assistants
@@ -43,7 +43,7 @@ For all the Now Assist for Virtual Agent assistants and the Now Assist Panel - P
 
 For the Now Assist Panel - Developer Assistant, when testing the assistant by selecting **Test Assistant**, you're directed to test the Standard Chat experience.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 

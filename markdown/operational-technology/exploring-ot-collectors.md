@@ -1,5 +1,5 @@
 ---
-title: Explore the OT Discovery Collector
+title: Explore the Operational Technology Discovery Collector
 description: The OT Discovery Collector provides you with enhanced features to create an inventory of your assets in your OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-ot-collectors.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Explore the OT Discovery Collector
+# Explore the Operational Technology Discovery Collector
 
 The OT Discovery Collector provides you with enhanced features to create an inventory of your assets in your OT environment.
 
@@ -20,7 +20,7 @@ The OT Discovery Collector is a lightweight software application that is used to
 
 ## Appliances records
 
-The OT Discovery Collector is listed on the Appliances page separately from the Sensor. If you select the Collector name from the list, you can open that Collector record. You can perform the same actions with the Collector as you would with the Sensor. However, Collectors aren't registered to the Console. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-appliance-record.md) for more information.
+The OT Discovery Collector is listed on the Appliances page separately from the Discovery Sensor for OT. If you select the Collector name from the list, you can open that Collector record. You can perform the same actions with the Collector as you would with the Sensor. However, you aren't required to register a Collector to the Discovery Console for OT. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for more information.
 
 ## What to explore next
 

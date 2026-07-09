@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-02-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, Now Assist for CSM, Customer Service Management]
 ---
@@ -23,7 +23,7 @@ The automated quality assurance dashboard is accessible from the CSM workspace l
 
 ## Live agent Access
 
-Live agents have limited access to QA reviews:
+Live agents have limited access to QA reviews and cases:
 
 -   **Permitted:** Live agent can view QA data only if the skill is enabled by an admin, live agent role is selected in the skill configuration, and the case was closed by that live agent.
 -   **Restricted:** Live agents cannot access QA reviews for cases closed by other live agents.
@@ -32,6 +32,8 @@ Live agents have limited access to QA reviews:
 
 When you select the entry point, the **Automated quality assurance** tab opens. The dashboard presents comprehensive quality metrics and insights specific to the logged-in live agent's performance.
 
+An agent can use the dashboard to filter reports and cases based on dates and assignment groups and select **Clear all** to remove all the filters that are set.
+
 ## Dashboard Components
 
 |Widget|Description|
@@ -39,6 +41,8 @@ When you select the entry point, the **Automated quality assurance** tab opens. 
 |Alert Indicator|Displays an AI gradient theme to indicate AI-generated content.|
 |Average QA Score|Summary metric showing the live agent's average quality assurance score.|
 |Cases Reviewed|Total count of cases that have undergone quality assurance review.|
+
+To learn more about the features and components of the dashboard, see [Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md).
 
 ## Trends Analysis
 

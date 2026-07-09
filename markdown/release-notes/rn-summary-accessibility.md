@@ -83,11 +83,12 @@ CPQ
 
 </td><td>
 
-The CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
+The ServiceNow CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
 
 -   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
 -   Shopping cart and bill of materials \(BOM\) column headers are announced as text with full, untruncated labels, and table cells reference their row and column headers for screen reader context.
 -   Field labels are read across transaction runtime fields, keyboard focus returns to the date input after a calendar selection, and the field edit page provides more descriptive context for related item tiles and tooltips.
+-   The ServiceNow CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
 
 </td></tr><tr><td>
 
@@ -307,7 +308,7 @@ Third-party Risk Management
 
 </td><td>
 
-The Vendor Management Workspace and the third-party portal include accessibility improvements in this release, including improved color contrast, enhanced focus indicators, skip navigation links, full keyboard navigation, and ARIA attribute updates for screen reader compatibility.
+The Vendor Management Workspace and the third-party portal include accessibility improvements in this release, including improved color contrast, enhanced focus indicators, skip navigation links, and full keyboard navigation.
 
 </td></tr><tr><td>
 

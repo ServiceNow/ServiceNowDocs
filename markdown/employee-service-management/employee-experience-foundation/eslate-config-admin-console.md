@@ -1,6 +1,6 @@
 ---
 title: Configure branding and theme
-description: Using admin console, you can configure branding and data sources, internal and external search sources, conversational assistant configurations, canvas, and other features.
+description: In the admin console, configure branding, data sources, internal and external search sources, conversational assistant settings, canvas, and other features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-config-admin-console.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Employee Slate for Now Assist, Configuration flow, Employee Slate, 
 
 # Configure branding and theme
 
-Using admin console, you can configure branding and data sources, internal and external search sources, conversational assistant configurations, canvas, and other features.
+In the admin console, configure branding, data sources, internal and external search sources, conversational assistant settings, canvas, and other features.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ The Product Configuration console organizes the configuration work into modules 
 
 ## Procedure
 
-1.  Navigate to your Admin Home page on your instance.
+1.  Navigate to your **Admin Home** page on your instance.
 
     The system dynamically renders application and plugin cards based on your admin entitlement status.
 
@@ -64,7 +64,7 @@ The Product Configuration console organizes the configuration work into modules 
 
     2.  In the **External sources** module, configure the external search sources for the experience.
 
-        By default, the external sources aren't added. You can add an existing source that isn't yet linked to the search profile, or create a new external source by following on-screen instructions. For more information, see [Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-external-search.md).
+        By default, no external sources are linked to the search profile. You can add an existing source that isn't yet linked to the search profile, or create a new external source by following on-screen instructions. For more information, see [Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-external-search.md).
 
 8.  In the **Conversational Assistant** module, configure the chat header and the chat logo.
 
@@ -80,15 +80,24 @@ The Product Configuration console organizes the configuration work into modules 
 
     -   Select **Edit default view** to configure the default canvas dashboard.
     -   Use the **Widget library** to toggle the visibility of widgets that employees can add to their personal canvas. You can also create widgets and add to the library.
-10. In the **Documentation** module, go to **Documentation and references** for an overview of resources.
+10. In the **Notifications** module, review notifications in the **Needs update** tab and select **Update to Employee Slate** so that those notifications redirect an employee to the Employee Slate experience.
+
+    Following notifications are available in each tab:
+
+    -   Needs update: Notifications in the base system that are not customized
+    -   Updated: Notifications that are updated for Employee Slate experience
+    -   Custom: Notifications that are created or customized by the administrator
+    For information about Employee Slate notifications, see [Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
+
+11. In the **Documentation** module, go to **Documentation and references** for an overview of resources.
 
     Review and learn from product documentation reference content.
 
-11. Select **Mark as configured** for each completed configuration section in the Admin Console.
+12. Select **Mark as configured** for each completed configuration section in the **Admin Console**.
 
     This action records that you reviewed and configured the section, and updates the overall completion status.
 
-12. Select **Package and download** to export the configuration updates as an XML update set.
+13. Select **Package and download** to export the configuration updates as an XML update set.
 
     Upload the exported file on the Product Hub page of another environment to promote configurations from a lower environment to production.
 
@@ -99,5 +108,5 @@ Employee Slate portal is configured with your organization branding and is ready
 
 ## What to do next
 
-Sign in as a non-administrator employee, open Employee Slate in a browser session. Verify that the branding, content, and conversational assistant work as expected.
+Log in as a non-administrator employee, open Employee Slate in a browser session. Verify that the branding, content, and conversational assistant work as expected.
 

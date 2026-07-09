@@ -25,6 +25,7 @@ The Now Assist for Automation Center plugin helps you to:
 -   Create an agent for your automation requests
 -   Explore all automations in your instance
 -   Automatically create automation requests from Task Mining Workspace
+-   Automate Task Mining recording to desktop actions
 
 -   **[Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md)**  
 Activate the skills available for Now Assist for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.

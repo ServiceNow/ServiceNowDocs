@@ -1,6 +1,6 @@
 ---
 title: Tracking interview health
-description: Recruiters and coordinators need to proactively monitor interview health, look at interviews that need attention, and reduce reactive coordination effort. The Interview health tracker gives recruiters and coordinators a unified list view to centrally monitor interview health and surface support needs early and in priority order, so they can address them proactively.
+description: The Interview health tracker gives recruiters and coordinators a unified view to monitor interview health and address support needs proactively, reducing reactive coordination effort.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/tracking-interview-health.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Use, Interview Management, Hiring Experiences, HR Service Delivery,
 
 # Tracking interview health
 
-Recruiters and coordinators need to proactively monitor interview health, look at interviews that need attention, and reduce reactive coordination effort. The Interview health tracker gives recruiters and coordinators a unified list view to centrally monitor interview health and surface support needs early and in priority order, so they can address them proactively.
+The Interview health tracker gives recruiters and coordinators a unified view to monitor interview health and address support needs proactively, reducing reactive coordination effort.
 
 The system generates alerts automatically based on built-in scenarios and displays them in the Recruitment workspace and on the affected records.
 

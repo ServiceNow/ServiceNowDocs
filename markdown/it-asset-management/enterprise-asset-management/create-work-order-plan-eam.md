@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Asset work order plans, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset work order plans, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order plan for enterprise assets
@@ -30,15 +30,15 @@ A work order plan can be created for individual enterprise assets and asset grou
 
 1.  Create a work order plan.
 
-<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d334263e75">
+<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d335251e75">
 
 Create from
 
-</th><th align="left" id="d334263e78">
+</th><th align="left" id="d335251e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d334263e84">
+</th></tr></thead><tbody><tr><td id="d335251e84">
 
 **Work management view**
 
@@ -52,7 +52,7 @@ A list of existing work order plans is displayed.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d334263e125">
+</td></tr><tr><td id="d335251e125">
 
 **Asset group**
 

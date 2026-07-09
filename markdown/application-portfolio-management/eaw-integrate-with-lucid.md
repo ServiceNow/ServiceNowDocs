@@ -41,5 +41,5 @@ To create a diagram in Lucidchart and associate it with an Architectural Artifac
 
 [Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 

@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Workflow Studio, Build workflows]
 ---
 
@@ -63,10 +63,41 @@ This video provides an overview of flows, which are automated workflows that run
 
 Some ServiceNow resources that can provide you with helpful information are:
 
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+
+    Connect with fellow ServiceNow professionals and share intelligent approval best practices at [ServiceNow Community](https://community.servicenow.com/community)
+
+-   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
+
+    Build custom approval integrations and explore APIs at [developer.servicenow.com](https://developer.servicenow.com/)
+
+-   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
+
+    Accelerate ROI and amplify your experience at [http://impact.servicenow.com](http://impact.servicenow.com)
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+
+    Build skills with instructor-led and online training on AI-powered approvals at [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
+
+-   **\[Omitted image "dcx-icon.svg"\] General guidelines**
+
+    [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
+
+-   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
+
+    Grow your business by taking advantage of promotions, news, and marketing tools at [https://www.servicenow.com/partners.html](https://www.servicenow.com/partners.html)
+
+-   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
+
+    Learn more about ServiceNow products and solutions at [http://servicenow.com](http://servicenow.com)
+
+-   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
+
+    Download certified apps and integrations that complement the ServiceNow platform at [http://servicenow.com](http://servicenow.com)
+
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-    "?&gt;
-
+    -   Access advice on managing your instances, access self-help, and get technical support at [https://support.servicenow.com/now](https://support.servicenow.com/now)
+    -   Learn more about specific known errors, along with workarounds if any, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
     Workflow Studio flows. Watch [Overview of flows in Workflow Studio](https://player.vimeo.com/video/1007933352?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479).

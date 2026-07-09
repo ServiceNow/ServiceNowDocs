@@ -16,13 +16,13 @@ The ServiceNow® Audit Management application supports activities related to pla
 
 -   Improve audit data governance by introducing an audit entry framework that separates audit-specific \(third-line\) records from operational \(second-line\) records with controlled visibility.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 **Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Audit entry fields on GRC objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-entry-overview.md)**
+-   **Audit entry fields on GRC objects**
 
     Classify the following GRC objects as third-line audit records using the new audit entry option:
 

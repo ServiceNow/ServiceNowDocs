@@ -30,8 +30,6 @@ Prior to configuring the UCF integration, you need a UCF basic subscription and 
 
 2.  Click the UCF configuration.
 
-    \[Omitted image "ucf-config.png"\] Alt text: UCF Configuration
-
 3.  On the form, fill in the fields.
 
     |Field|Description|

@@ -34,10 +34,15 @@ Role required: sn\_poem\_core.operational\_buyer
 
 7.  Select **Reassign**.
 
+    The purchase order exception is reassigned.
 
-## Result
-
-The purchase order exception is reassigned.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Change the priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/change-priority-of-poe.md)
+
+[Create a supplier escalation case from a PO exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)
 

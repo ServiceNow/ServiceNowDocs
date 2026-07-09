@@ -8,8 +8,8 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+reading_time_minutes: 4
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create an entity from a demand
@@ -65,12 +65,10 @@ Role required: it\_demand\_manager
     **Note:**
 
     -   For EAP entities, select the team that you want the EAP entity to be assigned to, in the **Team** field in the **EAP Details** section in the demand form. This field becomes read-only once the entity is created.
-    -   Alternatively, you can create an entity using the **Confirm details and convert to selected entity** playbook activity. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+    -   Alternatively, you can create an entity using the **Confirm details and convert to selected entity** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 **Related topics**  
 
 
-[Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 

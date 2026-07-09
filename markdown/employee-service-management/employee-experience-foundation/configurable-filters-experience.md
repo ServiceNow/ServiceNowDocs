@@ -52,6 +52,8 @@ For configuration steps, see [Configurable task filters](https://raw.githubuserc
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

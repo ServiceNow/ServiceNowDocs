@@ -74,28 +74,14 @@ See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 -   **[Primary connectors in preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/primary-connectors-zcc.md)**
 
-    Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®. The following connectors are now marked with a Preview label:
+    Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.
 
 -   **[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)**
-
-    [Amazon S3 Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/primary-connectors-zcc.md)
-
--   **[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)**
-
-    [Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/primary-connectors-zcc.md)
-
+    -   [Amazon S3 Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-s3-tables-zcc.md)
+    -   [Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/apache-iceberg-primary-zcc.md)
 -   **[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)**
-
-    [Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/teradata-zcc.md)
-
-    The Teradata connector now supports Bearer Token and OAuth authentication methods.
-
--   **[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)**
-
-    [Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/apache-iceberg-primary-zcc.md)
-
-    The Apache Iceberg connector now supports S3-compatible object storage systems.
-
+    -   [Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/teradata-zcc.md): The Teradata connector now supports Bearer Token and OAuth authentication methods.
+    -   [Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/apache-iceberg-primary-zcc.md): The Apache Iceberg connector now supports S3-compatible object storage systems.
 
 ## Activation information
 
@@ -110,14 +96,7 @@ Zero Copy Connector Hub is also available with activation of the Zero Copy Conne
     The following plugins were renamed or changed in Australia:
 
     -   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
-    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now contains primary and community connectors. Previously contained all connectors in a single package.
-
--   **New plugins**
-
-    The following plugin was added in Australia:
-
-    Zero Copy Connectors Primary \(sn\_zcc\_primary\): New plugin that includes primary connectors only.
-
+    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now available as two separate installation options — Zero Copy Connectors Primary \(sn\_zcc\_primary\) for primary connectors only, or Zero Copy Connectors \(sn\_data\_fabric\_zcc\) for both primary and community connectors.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

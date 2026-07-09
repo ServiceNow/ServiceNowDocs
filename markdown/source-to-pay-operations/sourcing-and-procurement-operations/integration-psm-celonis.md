@@ -75,7 +75,7 @@ The incoming payload from Celonis is stored in a custom staging table, from wher
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

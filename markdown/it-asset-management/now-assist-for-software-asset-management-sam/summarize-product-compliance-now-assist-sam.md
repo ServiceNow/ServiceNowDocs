@@ -8,8 +8,8 @@ product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Generate product compliance summaries by using Now Assist for SAM
@@ -21,6 +21,10 @@ Generate a comprehensive summary for a product that covers software deployment, 
 Role required: sam\_user
 
 ## About this task
+
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Product compliance summarization generative AI skill.
 
 Now Assist for SAM generates the product summaries by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -48,15 +52,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d261851e145">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d262509e166">
 
 Action
 
-</th><th align="left" id="d261851e148">
+</th><th align="left" id="d262509e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d261851e154">
+</th></tr></thead><tbody><tr><td id="d262509e175">
 
 **Copy to clipboard icon**
 
@@ -64,7 +68,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d261851e163">
+</td></tr><tr><td id="d262509e184">
 
 **Refresh icon**
 
@@ -72,7 +76,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d261851e172">
+</td></tr><tr><td id="d262509e193">
 
 **Feedback**
 

@@ -58,6 +58,14 @@ An internal name for the tool.
 
 </td></tr><tr><td>
 
+MCP app
+
+</td><td>
+
+An active MCP app linked to this REST API.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -77,4 +85,6 @@ One or more servers you want to add your tool to.
 </td></tr></tbody>
 </table>    In the Tool inputs section, the fields associated with the capability are added. See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on the MCP Server and discoverable by MCP clients.
 
+
+**Parent Topic:**[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configure the Homepage for GOV.UK Design System Service Portal
+title: Configure the GOV.UK Design System Service Portal Homepage
 description: By default, the GOV.UK Developer Toolkit provides a homepage that is complaint with GOV.UK design standards. This page contains widgets and other components that enable UK constituents to access cases, announcements, and helpful content, and quick navigation to detailed views and actions. You can use this page as-is, or you can configure the default widgets on the page to meet your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-homepage.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Homepage for GOV.UK Design System Service Portal
+# Configure the GOV.UK Design System Service Portal Homepage
 
 By default, the GOV.UK Developer Toolkit provides a homepage that is complaint with GOV.UK design standards. This page contains widgets and other components that enable UK constituents to access cases, announcements, and helpful content, and quick navigation to detailed views and actions. You can use this page as-is, or you can configure the default widgets on the page to meet your needs.
 
@@ -50,6 +50,4 @@ The default GDS Service Portal homepage contains the following widgets that can 
 ## What to do next
 
 For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

@@ -13,7 +13,7 @@ reading_time_minutes: 1
 
 Core Business Suite \(CBS\) lays the foundation to unify disjointed processes. It’s a collection of modules that fulfills different business needs, for different personas, within a single product suite.
 
-\[Omitted video\] Description: Core Business Suite overview
+\[Omitted video\] Description: Core Business Suite overview video.
 
 Leverage the employee support functionalities in CBS to empower your employees. You can raise the following requests and more as an employee:
 

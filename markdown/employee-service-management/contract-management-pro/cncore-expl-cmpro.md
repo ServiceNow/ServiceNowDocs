@@ -19,7 +19,7 @@ Learn more about the Contract Management Pro application through a sample workfl
 
 ## Contract Management Pro overview
 
-Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 
 ## Contract Management Pro users
 

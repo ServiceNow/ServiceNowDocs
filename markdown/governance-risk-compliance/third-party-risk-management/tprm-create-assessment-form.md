@@ -126,7 +126,7 @@ State
 
 </td><td>
 
-The process of collecting assessment data from a third party transitions through several states. See [Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for detailed descriptions.
+The process of collecting assessment data from a third party transitions through several states. See [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for detailed descriptions.
 
 </td></tr><tr><td>
 

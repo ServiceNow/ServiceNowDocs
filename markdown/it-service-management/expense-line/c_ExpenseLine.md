@@ -40,7 +40,7 @@ Domain separation is unsupported in Expense Line processing. Domain separation e
 **Related topics**  
 
 
-[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md)
+[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management-core.md)
 
 [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ITILConfigurationManagement.md)
 

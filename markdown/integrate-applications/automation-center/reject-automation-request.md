@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Reject an automation request
@@ -47,5 +47,5 @@ Rejecting an automation request is one of the life-cycle stages of an automation
 
 The Rejected state is the end state of a request. There are no operations possible after that state.
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
 

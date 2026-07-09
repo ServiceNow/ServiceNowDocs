@@ -60,8 +60,6 @@ Capture multiple job records for a user with the new Jobs \(sn\_hr\_core\_job\) 
 Configure your HR services to use the Standard Ticket page to provide a consistent user experience for your employees.
 -   **[Translations for HR cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.md)**  
 Enable translations on HR case and task templates so that employees can view the short descriptions and descriptions of their HR cases and tasks in their preferred language.
--   **[Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/employee-profile.md)**  
-The Employee Profile \(sn\_employee\) plugin provides an Employee Profile \(sn\_employee\_profile\) table that makes the employment start date and employment end date fields available outside of HR Service Delivery. For example, the table can be used with Strategic Portfolio Management to update the resource capacity of users.
 -   **[Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/HRLinkGenerator.md)**  
 Use the Link Generator to create a link on an HR case form that accesses information outside of the application to help fulfill the case.
 -   **[HR flows and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-flows-and-triggers.md)**  

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 15
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software entitlement fields
@@ -445,7 +445,7 @@ Assigned to
 
 </td><td>
 
-User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
+User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -498,7 +498,7 @@ Assigned to
 
 </td><td>
 
-Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
+Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
 
 </td></tr><tr><td>
 

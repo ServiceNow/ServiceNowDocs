@@ -1,5 +1,5 @@
 ---
-title: Create an announcement using chat
+title: Create an announcement using Chat
 description: Use conversational authoring with Chat to create Employee Slate announcements from existing knowledge articles or catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.html
@@ -13,7 +13,7 @@ keywords: [conversational authoring, Now Assist Chat, AI announcements, Employee
 breadcrumb: [Conversational authoring for announcements, Employee communications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Create an announcement using chat
+# Create an announcement using Chat
 
 Use conversational authoring with Chat to create Employee Slate announcements from existing knowledge articles or catalog items.
 
@@ -25,13 +25,13 @@ Role required: content\_manager or content\_admin
 
 ## About this task
 
-Conversational authoring streamlines announcement creation by using AI to generate draft content from existing knowledge articles or catalog items. The AI assistant extracts relevant text and images, then guides you through the configuration process.
+Conversational authoring streamlines announcement creation by using AI to generate draft content from existing knowledge articles or catalog items. The AI assistant supports you through the configuration process.
 
 ## Procedure
 
 1.  Navigate to the knowledge article or catalog item you want to promote or provide the article ID or URL directly to Chat.
 
-2.  Open Chat and enter a natural language prompt to create an announcement.
+2.  Open **Chat** and enter a natural language prompt to create an announcement.
 
     For example, use a prompt such as `Create an announcement for this article` or `Create an announcement for knowledge article KB0001234`.
 
@@ -39,25 +39,25 @@ Conversational authoring streamlines announcement creation by using AI to genera
 
 3.  Review the generated headline and body text for accuracy and tone.
 
-    The AI extracts the headline from the article title and body text from the first paragraph or description.
+    The AI extracts the **Headline** from the article title and **Body text** from the first paragraph or description.
 
 4.  Respond to the assistant prompts for target audience and scheduling preferences.
 
     The assistant inherits user criteria from the source content but may ask for additional targeting details.
 
-5.  Select the option to enter authoring edit mode when offered by the assistant.
+5.  Select the option to enter **authoring edit mode** when offered by the assistant.
 
     The announcement opens in the standard editing interface with AI-generated content pre-filled.
 
 6.  Review and adjust the announcement content as needed.
 
-    1.  Verify the headline and body text align with your communication goals.
+    1.  Verify the **Headline** and **Body text** align with your communication goals.
 
-    2.  Check the image and adjust the focal point if necessary.
+    2.  Check the **Image** and adjust the **Focal point** if necessary.
 
-    3.  Confirm the link configuration points to the correct source content.
+    3.  Confirm the **Link configuration** points to the correct source content.
 
-    4.  Review the content priority setting \(defaults to Medium\).
+    4.  Review the **Content priority** setting \(defaults to **Medium**\).
 
 7.  Configure the publishing window by setting start and end dates and times.
 

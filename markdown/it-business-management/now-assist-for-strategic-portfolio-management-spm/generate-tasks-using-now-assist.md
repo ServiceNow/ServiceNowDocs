@@ -1,5 +1,5 @@
 ---
-title: Generate tasks for a project using project plan generation skill
+title: Generate tasks for a project using project plan generation
 description: Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-tasks-using-now-assist.html
@@ -8,11 +8,11 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-04-16"
-reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+reading_time_minutes: 2
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
-# Generate tasks for a project using project plan generation skill
+# Generate tasks for a project using project plan generation
 
 Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 
@@ -57,5 +57,11 @@ Role required: it\_project\_manager
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+## Generate tasks for an empty project
+
+Input: A project manager types the following in the text input: Create tasks for a website redesign project starting May 1, 2026 and ending July 31, 2026. Tasks include requirements gathering, UI design, and user acceptance testing.
+
+Output AI creates three task records: Requirements gathering, UI design, and user acceptance testing. Each task is populated with a name, description, start and end dates, and duration. Fields not present in the input are auto-populated with default values.
+
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

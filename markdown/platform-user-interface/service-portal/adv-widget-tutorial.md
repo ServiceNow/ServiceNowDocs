@@ -306,7 +306,7 @@ Instead of duplicating code, you can embed widgets to leverage pre-existing func
 
     4.  Examine the server script.
 
-        Notice that the **data** object includes a sys\_id property populated by either the **input** or **options** objects. If neither **input** nor **options** include a sys\_id, the $sp.getParameter\(\) method retrieves the sys\_id from the request query string.
+        Notice that the **data** object includes a sys\_id property populated by either the **input** or **options** objects. If neither **input** nor **options** include a sys\_id, the [$sp.getParameter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) method retrieves the sys\_id from the request query string.
 
         \[Omitted image "embedded-widget.png"\] Alt text: Sample server script using an If Else statement to retrieve the sys\_id.
 

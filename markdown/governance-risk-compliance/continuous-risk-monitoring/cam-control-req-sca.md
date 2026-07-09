@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Implementing controls and assessment objectives in CAM, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Define control requirements
@@ -29,6 +29,4 @@ For details, see [Control Requirement Details View](https://raw.githubuserconten
 ## Creating NIST content from control objective description as control requirements
 
 The base system ships the control requirements generated from the NIST 800-53 revision 5 control objectives to CAM users. The **Description** field of the Control objective form lists the requirements broken down as sub-points with sub-numbers. The Reference of the control objective is clubbed with each sub-number or the clause in the **Description** field and referenced as a **Requirement number** in the Control objective requirement. For example, if the Control objective reference is IR-9, and the description of the control objective starts with a sub-number \(a.\), then the two are clubbed together to generate the first control objective requirement as IR-9.a, with further sub-numbers added to it if available. Therefore, if there are about seven sub-descriptions, then seven control requirements are generated.
-
-\[Omitted image "cam-nist-number.png"\] Alt text: Control requirement number.
 

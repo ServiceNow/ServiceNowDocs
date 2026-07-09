@@ -42,7 +42,7 @@ For more information about simulating, comparing, enabling, and benefits, see [D
 IRE processes support some non-CMDB tables. You can create identification rules, reconciliation rules, and other IRE-related rules to ensure the integrity of data inserted or updated in supported non-CMDB tables. For details, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 -   **[Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)**  
-Dynamic Identification and Reconciliation Engine \(IRE\) processes CI identification for maximum accuracy and efficiency and eliminates the need to manually create or maintain rules. Actually, you can't alter any of the algorithms or operations of Dynamic IRE.
+Dynamic Identification and Reconciliation Engine \(IRE\) processes CI identification for maximum accuracy and efficiency and eliminates the requirement to manually create or maintain rules.
 -   **[Components and process of Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CompsandProcessIDandReconcil.md)**  
 The CMDB Identification and Reconciliation functionality is supported by the Identification and Reconciliation engine \(IRE\), rules, and tasks. Identification rules, reconciliation rules, IRE data source rules, de-duplication tasks, and reclassification tasks determine how IRE identifies and reconciles CI.
 

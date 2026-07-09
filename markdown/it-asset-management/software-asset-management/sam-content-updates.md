@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management Content Service, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management Content Service, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Content updates for Software Asset Management
@@ -50,7 +50,7 @@ To see the changes that have been made to the software library, review the SAM C
 
 **Note:** Content updates don't have an impact on any custom products or custom discovery maps.
 
-For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md). For more information on content updates, see [KB0824127](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824127).
+For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md).
 
 **Parent Topic:**[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/set-ema
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [System address filters, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -76,15 +76,11 @@ You can also specify exceptions to the allowed or disallowed domains and email a
 
 **Note:** After the email address filter is added to the Email Address Filters \[sys\_email\_address\_filter\] table, [Create an email client configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-client-config.md).
 
-\[Omitted image "whitelist-example.png"\] Alt text: Allowed exception in the email address filter and how it appears in the email client.
+\[Omitted image "whitelist-example.png"\] Alt text: Allowed exception in the email address filter and how it appears in the email client
 
-\[Omitted image "blacklist-example.png"\] Alt text: Disallowed exception in the email address filter and how it appears in the email client.
+**Note:** Domain name should not contain the @ symbol.
 
-## Example
-
-\[Omitted image "whitelist-example.png"\] Alt text: Allowed exception in the email address filter and how it appears in the email client.
-
-\[Omitted image "blacklist-example.png"\] Alt text: Disallowed exception in the email address filter and how it appears in the email client.
+\[Omitted image "blacklist-example.png"\] Alt text: Disallowed exception in the email address filter and how it appears in the email client
 
 ## What to do next
 

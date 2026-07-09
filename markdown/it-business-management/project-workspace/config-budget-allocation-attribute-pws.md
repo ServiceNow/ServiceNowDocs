@@ -1,5 +1,5 @@
 ---
-title: Configure budget attribute at instance-level to allocate budget
+title: Configure budget attribute at instance-level
 description: Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your projects using Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/config-budget-allocation-attribute-pws.html
@@ -9,10 +9,10 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enable financial budget allocation for projects in Project Workspace, Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Enable financial budget allocation for projects in Project Workspace, Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure budget attribute at instance-level to allocate budget
+# Configure budget attribute at instance-level
 
 Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your projects using Project Workspace.
 

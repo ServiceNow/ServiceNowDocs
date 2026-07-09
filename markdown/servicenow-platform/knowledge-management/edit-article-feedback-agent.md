@@ -8,7 +8,7 @@ product: Knowledge Management
 classification: knowledge-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -141,11 +141,11 @@ Products mapped to the knowledge article. For more information, see [Add an affe
 </td></tr></tbody>
 </table>7.  Research for content related to knowledge article you're authoring using Agent assist.
 
-    1.  In the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist.png"\] Alt text: Agent Assist icon.\).
+    1.  In the contextual side panel, select the agent assist icon .
 
         The search results in Agent assist display default content based on the text-based search.
 
-    2.  Click the select a search resource icon \(\[Omitted image "filter-settings.png"\] Alt text: Select a search resource icon\), and then select a search resource.
+    2.  Click the select a search resource icon , and then select a search resource.
 
         For example, to view knowledge articles, select **Knowledge Articles**.
 
@@ -157,9 +157,9 @@ Products mapped to the knowledge article. For more information, see [Add an affe
 
     1.  Enter your search text in the text box available in Agent assist or retain the default text, which is the short description of the knowledge article.
 
-    2.  Select the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon.\).
+    2.  Select the lookup icon .
 
-    3.  Select a search resource by clicking the Select a search resource icon \(\[Omitted image "filter-settings.png"\] Alt text: Select a search resource icon.\).
+    3.  Select a search resource by clicking the Select a search resource icon .
 
         -   To find knowledge articles that have high text similarity with the entered search text, choose **Similar Articles \(ML\)**.
 

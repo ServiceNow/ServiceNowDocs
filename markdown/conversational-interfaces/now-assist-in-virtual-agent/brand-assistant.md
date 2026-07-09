@@ -18,7 +18,7 @@ Decide how your Now Assist in Virtual Agent assistant should look by using the d
 
 ## Before you begin
 
-See [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for Now Assist in Virtual Agent assistants.
+See [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for Now Assist in Virtual Agent assistants.
 
 See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md) for Now Assist panel assistants.
 

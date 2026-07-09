@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 11
 ---
 
 # Predictive AI for CSM release notes
@@ -20,6 +20,7 @@ The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applicati
 -   Use AI to proactively detect emerging issues from case patterns and automatically propose major cases when similar cases trend together.
 -   View automated sentiment scores and trends from conversations directly on the email interaction page.
 -   Enable customers to make case updates through AI voice agent.
+-   Use Live Agent Assist for voice calls to generate recommendations during live voice calls.
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
@@ -47,6 +48,14 @@ See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceN
 For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Real-time AI assistance for voice interactions using Live Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
+
+    Live Agent Assist for Voice provides real-time AI assistance to agents during live voice interactions in Agent Workspace. As conversations unfold, it returns answers drawn from the live call transcript and customer context sources such as the Customer Context Builder, knowledge articles, and the Enterprise Knowledge Graph. Agents receive timely suggestions, which reduces handling time and improves first-contact resolution.
+
+-   **[Add a playbook as an action type in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
+
+    As an Admin, you can configure playbooks as an action type in Recommended Actions, and the Recommended Actions rule engine recommends the right playbook based on context. Playbooks surface inline as cards in the Recommended Actions panel in Agent Workspace and walk Agents through branching decision trees for support, sales, and troubleshooting scenarios. Embedded actions such as creating a task or triggering a workflow can be executed from within the playbook in the Recommended Actions panel in Agent Workspace.
 
 -   **[Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md)**
 
@@ -88,8 +97,8 @@ For details, see the "Activation information" section of these release notes.
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Now Assist for CSM-AI workflow tab added in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-workflow-pattern-in-customer-service-management.md)**
 
@@ -142,6 +151,19 @@ For details, see the "Activation information" section of these release notes.
 
 
 ## Changed in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[Automated quality assurance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quality-assurance-management.md)**
+
+    Enable admins to filter scoring parameters and sort agent and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
+
+-   **[Activate Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
+
+    Enable admins to view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities.
+
 
 -   **[Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-knowledge-generation-in-now-assist_0.md)**
 

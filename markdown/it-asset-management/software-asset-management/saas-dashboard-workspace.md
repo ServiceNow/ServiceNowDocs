@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # SaaS overview dashboard in workspace
@@ -251,7 +251,7 @@ Number of SaaS applications or percentage of the total applications that are man
 **Important:** To view this chart, you must do the following:
 
 -   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
--   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-landing-page.md).
+-   Install the Agent Client Collector for Visibility Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-landing-page.md).
 
 For more information, see the [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/shadow-saas-analytics.md).
 

@@ -51,6 +51,8 @@ For more information on widget instance options, see [Organization chart in Empl
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [RTL support for Employee Center]()

@@ -1,6 +1,6 @@
 ---
 title: Customize fields in a form in Agent Workspace for HR Case Management
-description: Add and arrange fields within a form layout to match form requirements using Form builder in Agent Workspace for HR Case Management.
+description: Use Form Builder to add, arrange, and customize fields in HR case forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # Customize fields in a form in Agent Workspace for HR Case Management
 
-Add and arrange fields within a form layout to match form requirements using Form builder in Agent Workspace for HR Case Management.
+Use Form Builder to add, arrange, and customize fields in HR case forms.
 
 ## Before you begin
 
@@ -26,23 +26,23 @@ Role required: sn\_hr\_agent\_ws.admin
 
 2.  Select the case that you want to customize form fields for.
 
-3.  Select the additional actions icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions icon.
+3.  Select the additional actions icon \[Omitted image "Form\_MenuIcon.png"\] Alt text:.
 
 4.  Navigate to **Configure** &gt; **Form Builder**.
 
-5.  In form view, select **Workspace UIB**.\[Omitted image "view-form.png"\] Alt text: View form
+5.  In form view, select **Workspace UIB**.\[Omitted image "view-form.png"\] Alt text: Form view selector with Workspace UIB option highlighted in Form Builder
 
 6.  Customize the fields by performing one of the following actions.
 
-<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d532854e124">
+<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d534623e120">
 
 Option
 
-</th><th align="left" id="d532854e127">
+</th><th align="left" id="d534623e123">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d532854e133">
+</th></tr></thead><tbody><tr><td id="d534623e129">
 
 **Add an existing field to a form**
 
@@ -53,9 +53,9 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d532854e160">
+</td></tr><tr><td id="d534623e156">
 
-**Add a new field to a form**
+**add field to a form**
 
 </td><td>
 
@@ -64,17 +64,17 @@ Action
 3.  In the **Column name** field, enter the internal name for the field.
 4.  Select the type of field from the **Type** list.
 
-To set additional properties for the field that you are creating, click **Advanced settings**.
+To set additional properties for the field that you're creating, select **Advanced settings**.
 
-5.  To add the new field to the table, click **Add**.
+5.  To add the new field to the table, select **Add**.
 
-A confirmation dialog displays. You can click **Done** to close it or click **Add another one** to add more fields to the table.
+A confirmation dialog displays. You can select **Done** to close it or select **Add another one** to add more fields to the table.
 
 6.  In the form editor, drag the new field you just created to the desired location and move them around as necessary.
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d532854e225">
+</td></tr><tr><td id="d534623e221">
 
 **Delete a field in the form**
 

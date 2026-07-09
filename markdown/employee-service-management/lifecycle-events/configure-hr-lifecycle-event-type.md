@@ -72,7 +72,7 @@ Display activity sets to subject person
 
 -   If **Show case to subject person** for the corresponding HR service is not selected, then the activity sets timeline will not display for the subject person.
 -   The progress bar for each activity set does not appear for the subject person. It only appears for the opened for person.
--   The HR ticket page is where users can view the details of an HR case in the Employee Service Center. See  for more information.
+-   The HR ticket page is where users can view the details of an HR case in the Employee Service Center. See [Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md) for more information.
 
 
 </td></tr><tr><td>

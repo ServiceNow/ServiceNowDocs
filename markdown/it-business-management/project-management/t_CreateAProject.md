@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d249487e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d248972e150">
 
 Location
 
-</th><th align="left" id="d249487e153">
+</th><th align="left" id="d248972e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d249487e159">
+</th></tr></thead><tbody><tr><td id="d248972e159">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d249487e185">
+</td></tr><tr><td id="d248972e185">
 
 **From the project workspace**
 
@@ -132,7 +132,7 @@ Migrate the financial baselines of your project to Next Experience to manage the
 
 [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-project-form.md)
 
-[schedule-a-project-pm]
+[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UseAProjectSchedule.md)
 
 [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

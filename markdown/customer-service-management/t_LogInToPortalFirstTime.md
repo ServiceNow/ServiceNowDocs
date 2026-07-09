@@ -39,3 +39,10 @@ Role required: none
 8.  Select **Submit**.
 
 
+**Related topics**  
+
+
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SubmitPortalSelfRegRequest.md)
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset.md)
+

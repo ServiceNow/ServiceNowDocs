@@ -50,7 +50,7 @@ Role required: discovery\_admin or agent\_client\_collector\_admin
 
 
 -   **[Define temporary variables for a pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/define-temp-variables.md)**  
-Define temporary variables by assigning values such as executable paths, config file paths, and so forth. If a Linux command contains a string that isn’t defined, the command fails when run.
+Define temporary variables by assigning values such as executable paths, config file paths, and so forth. Defining temporary variables ensures that runtime commands are successful.
 
 **Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

@@ -36,7 +36,7 @@ Set up HR Service Delivery Playbook so that your agents can easily manage, track
 
     HR cards represent each activity in the activity set which could represent various records such as HR tasks, HR cases, requests, incidents, approvals, and more.
 
-    Below is an example of an HR card showing an HR task record.
+    Following is an example of an HR card showing an HR task record.
 
     -   The Verify Work Authorization card has an HR task type = Mark When Complete condition.
     -   Each activity shows an HR task, case, request, and others. The activities look at the HR Playbook Card Configuration table to match the lowest order record.
@@ -47,6 +47,4 @@ Set up HR Service Delivery Playbook so that your agents can easily manage, track
 As an HR administrator, use this to configure how each playbook looks in HR Service Delivery Playbook for different types of records \(HR case, task, and others\). Different record types have different relevant information to show.
 
 The base system provides 19 records.
-
-**Note:** For more information on playbook configuration, see Set up a playbook.
 

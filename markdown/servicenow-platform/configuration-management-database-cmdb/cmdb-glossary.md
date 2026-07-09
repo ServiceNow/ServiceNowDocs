@@ -67,7 +67,7 @@ The following terms are key in CMDB:
 
     Class who's CIs are included in various CI list views. A Principal Class designation is used to restrict the list of CIs in list views across CMDB features, to only specific classes that you need.
 
-    For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 -   **Related table**
 

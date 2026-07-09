@@ -1,6 +1,6 @@
 ---
 title: OCM: Reinforcing and Sustaining Change
-description: This accelerator provides guided coaching to measure adoption, close post-go-live gaps, sustain behaviors through recognition and feedback loops, and build a long-term sustainment plan for your ServiceNow platform.
+description: This Accelerator provides guided coaching to measure adoption, close post-go-live gaps, sustain behaviors through recognition and feedback loops, and build a long-term sustainment plan for your ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-05-06"
 reading_time_minutes: 3
 keywords: [Organizational Change Management, OCM, Reinforcement, Sustainment, Adoption, KPI, Champion Network]
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # OCM: Reinforcing and Sustaining Change
 
-This accelerator provides guided coaching to measure adoption, close post-go-live gaps, sustain behaviors through recognition and feedback loops, and build a long-term sustainment plan for your ServiceNow platform.
+This Accelerator provides guided coaching to measure adoption, close post-go-live gaps, sustain behaviors through recognition and feedback loops, and build a long-term sustainment plan for your ServiceNow platform.
 
 ## Accelerator Overview
 

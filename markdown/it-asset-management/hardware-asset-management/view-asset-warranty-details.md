@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Receive asset warranty details from Lenovo, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Receive asset warranty details from Lenovo, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track the warranty details of your Lenovo assets

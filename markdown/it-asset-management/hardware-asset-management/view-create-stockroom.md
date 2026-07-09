@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a stockroom
@@ -28,15 +28,15 @@ Stockrooms are separate, standalone entities in the Asset Management application
 
 1.  Create a stockroom.
 
-<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d359771e91">
+<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d360832e91">
 
 Interface
 
-</th><th align="left" id="d359771e94">
+</th><th align="left" id="d360832e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d359771e100">
+</th></tr></thead><tbody><tr><td id="d360832e100">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d359771e136">
+</td></tr><tr><td id="d360832e136">
 
 **Hardware Asset Workspace**
 

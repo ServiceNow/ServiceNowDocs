@@ -31,3 +31,8 @@ Role required: none
 
 You can view the list of orders. Select any order to view its details.
 
+**Related topics**  
+
+
+[Request an item or service from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-request-from-consumerportal.md)
+

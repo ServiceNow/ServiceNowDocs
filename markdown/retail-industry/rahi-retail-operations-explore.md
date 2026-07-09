@@ -47,10 +47,10 @@ Retail case types are designed to address various business needs and streamline 
 
 The case types available are:
 
--   [HQ communications case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-hq-operations.md): Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
--   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-store-services.md): Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
--   [In-store operations case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-in-store-operations.md): Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
--   [Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-customer-complaint.md): Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
+-   : Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
+-   : Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
+-   : Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
+-   : Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
 
 ## Retail data model
 
@@ -80,8 +80,10 @@ The Retail case table stores information about your retail case types and provid
 Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 -   **[Retail mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-mobile.md)**  
 The Retail mobile plugin offers a customized mobile experience for retail operations, enabling frontline teams to manage efficiently store activities and resolve issues on the go. It provides real-time insights into key KPIs, supports issue tracking, and is compatible with both Android and iOS platforms.
--   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-case-types.md)**  
-Retail case types are designed to address various business needs and streamline workflows for store-level and HQ-driven task management.
 -   **[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-multistore-operational-planning.md)**  
 The Retail store plan provides a centralized way to plan, schedule, and manage operational work across multiple stores, giving HQ and regional teams full visibility while simplifying execution for store teams.
+-   **[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)**  
+Retail Store Audit Operations is a ServiceNow scoped application that automates the creation, assignment, and fulfillment of retail store audit cases and tasks, enabling Plan Authors to publish structured audit plans that generate work for field Auditors across selected store locations.
+-   **[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-overview.md)**  
+Break-Fix Case Management enables store staff to report and resolve hardware and IT failures through a structured workflow involving requestors, HQ support agents, and field service technicians.
 

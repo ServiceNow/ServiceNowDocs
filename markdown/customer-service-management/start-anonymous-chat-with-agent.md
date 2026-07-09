@@ -28,6 +28,13 @@ Role required: none
 
 3.  To talk to a person instead of a virtual agent, click \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
 
-4.  When you are finished with the chat, click **End Conversation**.
+4.  When you're finished with the chat, select **End Conversation**.
 
+
+**Related topics**  
+
+
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-consumer-portal.md)
+
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat.md)
 

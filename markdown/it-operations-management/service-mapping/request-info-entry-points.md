@@ -1,5 +1,5 @@
 ---
-title: Request information about entry points for application services
+title: Request entry point information for service mapping
 description: The most important attribute you must know and configure to discover an service instance is an entry point. If you do not know the entry points for the service instance, request this information from the service instance owner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/request-info-entry-points.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Request information about entry points for application services
+# Request entry point information for service mapping
 
 The most important attribute you must know and configure to discover an service instance is an entry point. If you do not know the entry points for the service instance, request this information from the service instance owner.
 

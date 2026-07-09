@@ -1,5 +1,5 @@
 ---
-title: Get started with Developer Support
+title: Developer Support
 description: Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/getting-started-developer-support.html
@@ -9,10 +9,10 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Initiatives catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Get started with Developer Support
+# Developer Support
 
 Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
 

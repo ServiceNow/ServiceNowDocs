@@ -19,7 +19,7 @@ Using your Jira instance details, create a connection and credential for the chi
 ## Before you begin
 
 1.  [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
-2.   or [Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
+2.   or [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
 Role required: admin or sn\_jira\_int.admin
 

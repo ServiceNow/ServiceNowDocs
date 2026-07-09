@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Import OSCAL SSP
@@ -38,7 +38,7 @@ The OSCAL SSP import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
+2.  In the CAM Workspace, select \[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -50,8 +50,6 @@ The OSCAL SSP import is a synchronous process.
 
     You can list the users you want to be notified once the OSCAL import is complete. The recipient receives an email notification on the import status.
 
-    \[Omitted image "cam-oscal-import-ssp1.png"\] Alt text: OSCAL import SSP details tab.
-
 7.  Select **Next** to continue to the next step in the OSCAL import process.
 
     You’ll be directed to the **Roles and Responsibilities** tab to map the users for the import process.
@@ -59,8 +57,6 @@ The OSCAL SSP import is a synchronous process.
 8.  Select the users in the **Roles and Responsibilities** tab.
 
     Assign users to specific roles for the imported files. These users will retain their roles throughout each step in the authorization package.
-
-    \[Omitted image "cam-oscal-import-ssp3.png"\] Alt text: User information for OSCAL import SSP.
 
 9.  Select **Next** to continue to the next step in the OSCAL import process.
 
@@ -77,11 +73,11 @@ The OSCAL SSP import is a synchronous process.
     -   **Data flow diagram**, **Boundary diagram**, and **Network diagram**: These diagrams are attached to the authorization boundary.
 11. Select **Add file** to attach the Overlay file.
 
-    You can also upload multiple overlay files.\[Omitted image "cam-oscal-import-ssp4.png"\] Alt text: Attach OSCAL SSP files.
+    You can also upload multiple overlay files.
 
 12. Select **Next** to verify the files you uploaded.
 
-    **Preview and Override** tab displays.\[Omitted image "cam-oscal-import-ssp5.png"\] Alt text: OSCAL SSP import.
+    **Preview and Override** tab displays.
 
 13. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 
@@ -124,9 +120,9 @@ The OSCAL SSP import is a synchronous process.
 
 15. If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
 
-    You can also select the attachments or roles and responsibilities action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments or roles and responsibilities.\) on the **Attachments** and **Roles and Responsibilities** tab to select **Restart Stage** to restart the particular stage.\[Omitted image "cam-oscal-import-ssp8.png"\] Alt text: Restarting attachment stage.
+    You can also select the More Actions icon on the **Attachments** and **Roles and Responsibilities** tabs to select **Restart Stage** to restart the particular stage.
 
-    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
+    **Note:** You can also select the playbook action icon to select **Restart Playbook** to restart the playbook.
 
 
 **Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)

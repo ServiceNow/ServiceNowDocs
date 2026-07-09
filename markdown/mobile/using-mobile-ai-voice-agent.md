@@ -16,7 +16,7 @@ Use Mobile AI Voice Agent to start voice conversations with an intelligent, AI-p
 
 ## Navigating Mobile AI Voice Agent
 
-\[Omitted image "image.ai-voice"\] Alt text: Voice Agent asking user for voice input.
+\[Omitted image "ai-voice.png"\] Alt text: Voice Agent asking user for voice input.
 
 <table id="table_zkj_jmf_f3c"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Function
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "image.ai-voice-launch"\] Alt text:\[Omitted image "image.ai-voice-launch-2"\] Alt text:
+\[Omitted image "ai-voice-launch.png"\] Alt text:\[Omitted image "ai-voice-launch-2.png"\] Alt text:
 
 </td><td>
 
@@ -36,7 +36,7 @@ Launch the AI Voice Agent.
 
 </td></tr><tr><td>
 
-\[Omitted image "image.ai-voice-mic-on"\] Alt text:\[Omitted image "image.ai-voice-mic-off"\] Alt text:
+\[Omitted image "ai-voice-mic-on.png"\] Alt text:\[Omitted image "ai-voice-mic-off.png"\] Alt text:
 
 </td><td>
 
@@ -44,7 +44,7 @@ Toggle the microphone mute on or off.
 
 </td></tr><tr><td>
 
-\[Omitted image "image.ai-voice-transcript"\] Alt text:
+\[Omitted image "ai-voice-transcript.png"\] Alt text:
 
 </td><td>
 
@@ -52,7 +52,7 @@ Toggle the live agent transcription on or off.
 
 </td></tr><tr><td>
 
-\[Omitted image "image.ai-voice-end-call"\] Alt text:
+\[Omitted image "ai-voice-end-call.png"\] Alt text:
 
 </td><td>
 
@@ -63,11 +63,11 @@ End the call.
 
 To use the Mobile AI Voice Agent, you will need to grant microphone access when prompted by your mobile app.
 
-\[Omitted image "image.ai-voice-permissions"\] Alt text: Notification asking for microphone permission.
+\[Omitted image "ai-voice-permissions.png"\] Alt text: Notification asking for microphone permission.
 
 ## Using Voice Agent with Virtual Agent
 
-When you're in an agent chat, tap the wave icon \(\[Omitted image "image.ai-voice-launch"\] Alt text:\) to begin talking with the voice agent. Speak naturally to interact with the Voice Agent. A live transcript of the agent's responses displays on the screen, but your own questions and responses won't be shown in the transcript.
+When you're in an agent chat, tap the wave icon \(\[Omitted image "ai-voice-launch.png"\] Alt text:\) to begin talking with the voice agent. Speak naturally to interact with the Voice Agent. A live transcript of the agent's responses displays on the screen, but your own questions and responses won't be shown in the transcript.
 
 During your call, you can toggle captions on or off to show or hide the live transcript. You can also mute your microphone at any time or end the call when you're finished.
 
@@ -75,7 +75,7 @@ After your call ends, your conversation transcript displays. The transcript is r
 
 ## Using the Voice-Only Agent
 
-On your home screen, tap the microphone icon \(\[Omitted image "image.ai-voice-launch-2"\] Alt text:\) to launch the voice agent directly. Begin speaking naturally with the voice agent, and you will see a live transcript of the agent's responses on screen.
+On your home screen, tap the microphone icon \(\[Omitted image "ai-voice-launch-2.png"\] Alt text:\) to launch the voice agent directly. Begin speaking naturally with the voice agent, and you will see a live transcript of the agent's responses on screen.
 
 During your call, you can toggle captions on or off to show or hide the live transcript. You can also mute your microphone at any time or end the call when you're finished.
 

@@ -4,8 +4,8 @@ description: The ServiceNow Operational Technology Incident Management applicati
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-06-23"
+reading_time_minutes: 4
 ---
 
 # Operational Technology Incident Management release notes
@@ -13,6 +13,16 @@ reading_time_minutes: 3
 The ServiceNow® Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.
 
 ## Operational Technology Incident Management highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available.
+
+Australia Early Availability
 
 -   Quickly understand the OT incident context and respond to user inquiries by using the OT incident summarization skill.
 -   Help save time by automatically updating the resolution notes for an OT incident.
@@ -25,27 +35,32 @@ See [Operational Technology Incident Management](https://raw.githubusercontent.c
 
 ## New in the Australia release
 
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
+-   **[Summarize an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
-    Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
+    With Now Assist for Operational Technology Service Management \(OTSM\), summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes for an Operational Technology incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
+-   **[Generate resolution notes for an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
 
-    Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
+    With Now Assist for OTSM, automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
+-   **[Generate a KB article using an agentic workflow included in Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
 
-    Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
+    With Now Assist for OTSM, automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
     -   Site
     -   OT Device

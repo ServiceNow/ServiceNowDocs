@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-04-06"
 reading_time_minutes: 4
 keywords: [Feature availability, Impact Package]
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Feature availability based on package
@@ -54,12 +54,10 @@ Allows you to adjust an anomaly tolerance by manipulating the percentage range o
 -   When you hover over the chart following the alert, the normal range and adjusted data range distribution \(upper boundary and lower boundary\) will be displayed for quick comparison.
 -   If the lower boundary value exceeds the upper boundary, the range width will prevent the lower limit from surpassing the upper limit.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

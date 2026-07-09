@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing related records in a critical event, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage related records, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Relate a child critical event

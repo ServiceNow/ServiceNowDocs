@@ -16,8 +16,6 @@ breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 
 Track ServiceNow flows and actions as automations so you can view summary and detailed information of the flows and actions in the Automation Center Workspace.
 
-This video show you how to perform the following procedure.
-
 ## Before you begin
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin

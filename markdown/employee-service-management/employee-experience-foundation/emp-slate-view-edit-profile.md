@@ -23,7 +23,7 @@ Role required: Employee
 
 ## About this task
 
-Employee profiles display comprehensive information about individuals in your organization. You can view the profile of any employee and edit specific fields in your own profile.
+Employee profiles display information about individuals in your organization. You can view the profile of any employee and edit specific fields in your own profile.
 
 ## Procedure
 
@@ -31,15 +31,15 @@ Employee profiles display comprehensive information about individuals in your or
 
     Your employee profile page opens.
 
-2.  Review the profile sections to understand the employee role and relationships.
+2.  Review the profile sections to identify the employee role and relationships.
 
     Profile sections include:
 
-    -   About section with basic information and contact details
-    -   Team section showing manager, coworkers, and direct reports
-    -   Work details with employment information
-    -   Personal details \(when viewing your own profile\)
-3.  Edit your personal information \(when viewing your own profile\), locate the editable fields in the Personal Details section.
+    -   **About** section with basic information and contact details
+    -   **Team** section showing manager, coworkers, and direct reports
+    -   **Work details** with employment information
+    -   **Personal details** \(when viewing your own profile\)
+3.  In the **Personal Details** section, locate the editable fields.
 
     You can edit the following fields:
 

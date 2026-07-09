@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Collaborate with stakeholders from Project Workspace
@@ -28,19 +28,19 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d134598e82">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d133369e82">
 
 Option
 
-</th><th align="left" id="d134598e85">
+</th><th align="left" id="d133369e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134598e91">
+</th></tr></thead><tbody><tr><td id="d133369e91">
 
 **Project**
 
@@ -55,7 +55,7 @@ If you have attachment, select the Add file icon \(\[Omitted image "icon-add-fil
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d134598e135">
+</td></tr><tr><td id="d133369e135">
 
 **Project task**
 
@@ -76,15 +76,15 @@ If you have attachment, select the Add File icon \(\[Omitted image "icon-add-fil
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d134598e188">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d133369e188">
 
 Option
 
-</th><th align="left" id="d134598e191">
+</th><th align="left" id="d133369e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134598e197">
+</th></tr></thead><tbody><tr><td id="d133369e197">
 
 **Project**
 
@@ -98,7 +98,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d134598e230">
+</td></tr><tr><td id="d133369e230">
 
 **Project task**
 

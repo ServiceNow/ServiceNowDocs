@@ -131,6 +131,14 @@ Historical Licensable CIs\[sn\_itom\_licensing\_itom\_lu\_historical\_cis\]
 
 Contains the list of Historical Licensable CIs.
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-reference.md)
 

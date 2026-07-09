@@ -33,7 +33,7 @@ The following table lists the features and skills that you can access from the N
 |Knowledge|KB generation|
 |Chat|Sidebar summarization|
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 

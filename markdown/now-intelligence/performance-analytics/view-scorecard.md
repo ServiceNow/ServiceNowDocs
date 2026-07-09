@@ -91,5 +91,5 @@ The Analytics Hub for a specific indicator has the Overview and Compare tabs, wh
 
 [\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)
 
-[bundle-itsm.cim-landing-page]
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
 

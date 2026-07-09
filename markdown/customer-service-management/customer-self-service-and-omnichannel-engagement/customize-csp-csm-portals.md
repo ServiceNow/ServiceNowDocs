@@ -32,3 +32,8 @@ Role required: sp\_admin
     -   Widgets: Use [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md) to define the content in your portal.
     -   Roles: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
 
+**Related topics**  
+
+
+[Consumer Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-service-portal-properties.md)
+

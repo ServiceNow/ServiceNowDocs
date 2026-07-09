@@ -6,6 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [import sets, upload job requisitions, historic requisition data, import requisitions, load data]
 ---
 
 # Upload job requisitions using import sets

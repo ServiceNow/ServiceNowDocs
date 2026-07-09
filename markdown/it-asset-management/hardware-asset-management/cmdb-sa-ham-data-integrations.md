@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Analyzing data integrations for improving HAM data coverage
@@ -17,8 +17,6 @@ breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset M
 Improve HAM data coverage by analyzing existing and suggested data integrations, including Discovery patterns and Service Graph Connectors.
 
 Use the **Data integrations** tab in the CMDB success advisor for HAM to assess the effectiveness of your current data integration sources in the Configuration Management Database \(CMDB\) and identify opportunities to improve HAM data coverage. The **Data integrations** tab provides a breakdown of active Discovery patterns and installed Service Graph Connectors, including how many key configuration item \(CI\) attributes each integration source is populating.
-
-For a quick reference to improve HAM data coverage, see [Data integration checklist for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-integ-checklist.md).
 
 ## Access data integrations
 

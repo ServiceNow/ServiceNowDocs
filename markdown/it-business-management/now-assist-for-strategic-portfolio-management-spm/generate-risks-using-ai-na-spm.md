@@ -9,7 +9,7 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-04-20"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Generate, accept, and reject risks
@@ -38,12 +38,12 @@ If no risks are identified during generation or regeneration, the AI Identified 
 
 2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
 
-3.  Select **AI Identified Risks** from the navigation menu.
+3.  Navigate to **RIDAC** &gt; **AI-Identified Risks**from the navigation menu.
 
 4.  Review the AI-suggested risks in the list and perform one of these actions:
 
     -   Regenerate: When you select regenerate option, the risk is generated again and added to the AI identified risks list. AI-generated risks appear in AI draft state.
-    -   Accept: When you accept a risk, the approved risk appear in the RIDAC list and its state moves from AI Draft to Pending.
+    -   Accept: When you accept a risk, the approved risk appear in the All RIDAC page and its state moves from AI Draft to Pending.
     -   Reject: When you reject a risk, the rejected risk is removed or hided from the AI identified risks list and its state moves to Closed skipped.
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 
@@ -52,5 +52,5 @@ If no risks are identified during generation or regeneration, the AI Identified 
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks to navigate directly to the related record.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

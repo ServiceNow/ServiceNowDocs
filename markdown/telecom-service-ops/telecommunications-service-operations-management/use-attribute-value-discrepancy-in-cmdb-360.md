@@ -42,11 +42,11 @@ Attribute value discrepancy reports help identify conflicting data from multiple
 
     4.  Choose the sources to compare \(for example, Discovery, SCCM\).
 
-    5.  Select **Compare to CMDB** to compare discovery source data to the current CMDB baseline.
+    5.  Select **Compare to CMDB** to compare discovery source data to the current Baseline CMDB.
 
-    6.  Click **Save**, provide a name for the query, and then click **Run** to generate the results.
+    6.  Select **Save**, provide a name for the query, and then select **Run** to generate the results.
 
-5.  Click **Schedule** to set up the query to run at defined intervals.
+5.  Select **Schedule** to set up the query to run at defined intervals.
 
 
 ## Result

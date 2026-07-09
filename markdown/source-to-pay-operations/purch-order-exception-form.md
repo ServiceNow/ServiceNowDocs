@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [purchase order exception form, fields in purchase order exception form]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -159,4 +159,8 @@ The Purchase order exception form includes tabs that store exception information
 [Create new purchase order exception form]()
 
 [Master data tables for Purchase Order Management]()
+
+[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-delivery-plan-chg-req.md)
+
+[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)
 

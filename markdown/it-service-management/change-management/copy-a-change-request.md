@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -36,17 +36,11 @@ New change tasks can be created when a change is copied. If your change record h
 
 1.  Navigate to **Change** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+2.  Open the change request that you want to copy.
 
-2.  Select the change request to be copied.
+3.  Edit values on the newly created change record, as appropriate.
 
-3.  Select the Additional Actions menu icon \(\[Omitted image "additional-actions.png"\]\) and then select **Copy Change** to copy change request details.
-
-    A preview of the new change record appears with values from the original source change record.
-
-4.  Edit values on the newly created change record, as appropriate.
-
-5.  Click **Submit** to create a new change request record.
+4.  Select **Submit** to create a new change request record.
 
 
 ## What to do next

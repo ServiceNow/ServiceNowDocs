@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Request an enterprise asset refresh, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Request an enterprise asset refresh, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Replace aged enterprise assets
@@ -35,15 +35,15 @@ After sourcing the new assets, asset refresh is completed through the following 
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d272949e73">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d273621e73">
 
 Interface
 
-</th><th align="left" id="d272949e76">
+</th><th align="left" id="d273621e76">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d272949e82">
+</th></tr></thead><tbody><tr><td id="d273621e82">
 
 **Core UI**
 
@@ -53,7 +53,7 @@ Action
 2.  Select the request number of the enterprise asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d272949e115">
+</td></tr><tr><td id="d273621e115">
 
 **Enterprise Asset Workspace**
 

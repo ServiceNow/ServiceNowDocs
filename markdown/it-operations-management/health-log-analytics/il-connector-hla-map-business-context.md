@@ -1,5 +1,5 @@
 ---
-title: Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics
+title: Map logs to service instances, components, source types
 description: Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.html
@@ -13,7 +13,7 @@ keywords: [integration, mapping, automatic, log context, ServiceNow, Health Log 
 breadcrumb: [Mapping logs for contextual alerts, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics
+# Map logs to service instances, components, source types
 
 Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 
@@ -57,11 +57,11 @@ AI suggests the optimal log field for mapping to service instances and component
 
     The integration's **Log context mapping** page displays.
 
-    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 7.  Turn off automatic service instance and component mapping by using the toggle.
 
-    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     The remaining steps in this procedure are only relevant when automatic mapping is enabled.
 

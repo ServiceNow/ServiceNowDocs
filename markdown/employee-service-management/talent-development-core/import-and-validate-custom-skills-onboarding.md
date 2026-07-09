@@ -40,15 +40,15 @@ Role required: sn\_skills\_int.admin
 
 7.  In the Select a source section, choose how you want to import the skills.
 
-<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d345487e143">
+<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d346229e143">
 
 Option
 
-</th><th align="left" id="d345487e146">
+</th><th align="left" id="d346229e146">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d345487e152">
+</th></tr></thead><tbody><tr><td id="d346229e152">
 
 **File upload**
 
@@ -56,7 +56,7 @@ Process
 
 Access the predefined skills import template so you can import your skills data in the required format. For more information, see [Import skills through file upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/file-upload-skills-import.md).
 
-</td></tr><tr><td id="d345487e171">
+</td></tr><tr><td id="d346229e171">
 
 **Integration**
 
@@ -70,7 +70,7 @@ For more information, see [Workday spoke integration in Skills Foundation](https
 
 For more information, see [SAP SuccessFactors integration Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/sap-successfactors-with-skills-foundation.md).
 
-</td></tr><tr><td id="d345487e226">
+</td></tr><tr><td id="d346229e226">
 
 **Custom import**
 

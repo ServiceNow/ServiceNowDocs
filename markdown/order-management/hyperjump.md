@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Hyperjump
@@ -30,5 +30,5 @@ This view gives you a look at the picklist options along with the conditions and
 
 The following video demonstrates the Hyperjump feature for managing configuration data:
 
-[Logik.io Hyperjump Demo: Visually Manage Configuration Data](https://www.youtube.com/watch?v=ULypwlR_qpE)
+[Hyperjump Demo: Visually Manage Configuration Data](https://www.youtube.com/watch?v=ULypwlR_qpE)
 

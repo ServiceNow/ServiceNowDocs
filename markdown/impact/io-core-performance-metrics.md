@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-13"
 reading_time_minutes: 6
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Transaction or response metrics
@@ -71,12 +71,10 @@ It gives a perspective of what is the biggest contributor for the total response
 -   The network time is high, then transaction components and how much data is being streamed must be reviewed. Recommendation is to keep lightweight transactions with optimal data stream.
 -   The browser time is high, then client side scripts/components must be reviewed.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

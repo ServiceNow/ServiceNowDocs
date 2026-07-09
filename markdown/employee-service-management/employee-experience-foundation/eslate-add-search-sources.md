@@ -47,9 +47,9 @@ Setting up search sources for Employee Slate involves several configuration step
 
 ## Access control and security
 
-Search sources respect ServiceNow security models and role-based access controls. Users only see search results for content they have permission to access. This helps protect the sensitive information while providing relevant search results.
+Search sources respect ServiceNow security models and role-based access controls. Users only see search results for content they have permission to access. This helps protect sensitive information while providing relevant search results.
 
-Configure user criteria and role-based filters to control which employees can access specific search sources such as important for HR documents, financial information, and other confidential content.
+Configure user criteria and role-based filters to control which employees can access specific search sources such as HR documents, financial information, and other confidential content.
 
 ## Performance and indexing
 
@@ -64,10 +64,10 @@ Search source performance depends on proper indexing configuration and content v
 
 Adding comprehensive search sources to Employee Slate provides several advantages:
 
--   Employees find information faster through conversational queries
--   Reduced support ticket volume as employees self-serve more effectively
+-   Employees can locate information through conversational queries
+-   Reduced support ticket volume as employees resolve requests through self-service
 -   Consistent access to enterprise knowledge across different systems
--   Improved employee experience with unified information access
+-   Unified information access across enterprise systems in a single interface
 
 **Related topics**  
 

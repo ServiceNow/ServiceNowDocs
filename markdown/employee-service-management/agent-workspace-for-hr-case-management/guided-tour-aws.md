@@ -34,9 +34,9 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 
     -   Home page
     -   List page
-3.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
+3.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Help or question mark icon\).​
 
-4.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
+4.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] to pin the Help Center side panel on the page.
 
 5.  Select **Take a Tour**​.
 

@@ -1,6 +1,6 @@
 ---
 title: Optimization Capability Configuration
-description: This accelerator provides support in configuring capabilities and features to enhance platform health and drive ServiceNow product adoption.
+description: This Accelerator provides support in configuring capabilities and features to enhance platform health and drive ServiceNow product adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-capability-configuration.html
 release: australia
@@ -10,16 +10,16 @@ topic_type: reference
 last_updated: "2026-04-28"
 reading_time_minutes: 4
 keywords: [Optimization, Capability Configuration, Platform Health, Sprint Configuration, ServiceNow Adoption]
-breadcrumb: [Optimization Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Optimization Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Optimization Capability Configuration
 
-This accelerator provides support in configuring capabilities and features to enhance platform health and drive ServiceNow product adoption.
+This Accelerator provides support in configuring capabilities and features to enhance platform health and drive ServiceNow product adoption.
 
 ## Accelerator Overview
 
-Optimization Capability Configuration provides Impact customers with configuration support for a targeted ServiceNow capability or feature. This accelerator may be initiated based on an Impact recommendation, including but not limited to:
+Optimization Capability Configuration provides Impact customers with configuration support for a targeted ServiceNow capability or feature. This Accelerator may be initiated based on an Impact recommendation, including but not limited to:
 
 -   Outputs from an Impact Accelerator.
 -   Enabling a new feature not currently in use.
@@ -37,7 +37,7 @@ Optimization Capability Configuration provides Impact customers with configurati
     -   Review the customer-completed intake form to align on the targeted capability configuration scope.
     -   Confirm the configuration scope and align on the level of customer participation.
     -   Customer provides documented user stories for the targeted capability configuration scope.
-    -   Establish clear expectations on required Customer resources, accelerator activities, and timeline.
+    -   Establish clear expectations on required Customer resources, Accelerator activities, and timeline.
 -   **Sprint Planning Session\(s\)**
     -   ServiceNow reviews Customer-provided user stories for completeness and configurability.
     -   Establish, review, and align on a sprint plan outlining in-scope user stories and sprint timeline.
@@ -58,7 +58,7 @@ Optimization Capability Configuration provides Impact customers with configurati
 
 ## Requested Customer Resources
 
-Customer will provide the required resources, as communicated by ServiceNow in the Kick-off and Scope Alignment Session, throughout the duration of the accelerator. The same personnel may fulfill multiple responsibilities.
+Customer will provide the required resources, as communicated by ServiceNow in the Kick-off and Scope Alignment Session, throughout the duration of the Accelerator. The same personnel may fulfill multiple responsibilities.
 
 |Customer Resource|Responsibilities|
 |:----------------|:---------------|
@@ -70,7 +70,7 @@ Customer will provide the required resources, as communicated by ServiceNow in t
 |Executive Sponsor|Responsible for setting and communicating the vision of ServiceNow within the rest of the enterprise. The Executive Sponsor also participates in governance and removes roadblocks to a successful completion.|
 |Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
 |Project Manager|Responsible for tracking and communicating project status, serving as an escalation point to resolve obstacles, and working to deliver project work on schedule and budget. The Project Manager works closely with ServiceNow and in coordination with all other involved resources to plan, manage, and deliver ServiceNow releases.|
-|Technical Resource\(s\)|Responsible for assisting with the development of the ServiceNow application and integrations. Technical Resources should also possess ITIL and JavaScript expertise as well as web services and XML experience as applicable to the scope of the accelerator.|
+|Technical Resource\(s\)|Responsible for assisting with the development of the ServiceNow application and integrations. Technical Resources should also possess ITIL and JavaScript expertise as well as web services and XML experience as applicable to the scope of the Accelerator.|
 |Testing Coordinator|Coordinates Customer testing activities, including test plan, test cases, and test execution.|
 
 ## Requested Information / Access

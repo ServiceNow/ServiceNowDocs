@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2026-06-11"
 reading_time_minutes: 2
-breadcrumb: [CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Skip Attestations

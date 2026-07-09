@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Operational Rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Operational rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Input Orchestration task details into the Operational Rounding playbook

@@ -33,5 +33,5 @@ You can access the following information through the Insights page:
 -   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/shazzam-insights.md)
 -   [Tag Governance Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tag-governance-insights-dashboard.md)
 -   [Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vm-explorer.md)
--   [URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md)
+-   [URL Discovery insights for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md)
 

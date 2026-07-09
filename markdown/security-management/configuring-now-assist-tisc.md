@@ -16,7 +16,7 @@ Use the Now Assist Admin console to configure and activate the generative AI ski
 
 ## Configuration overview
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy and reduce hallucinations for your activated Now Assist skills.
 

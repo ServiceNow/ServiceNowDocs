@@ -43,15 +43,15 @@ Role required: admin
 
 5.  In the **Location tracking action** field, select one of the following options of the action item.
 
-<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d128849e154">
+<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d128886e154">
 
 Location tracking action
 
-</th><th align="left" id="d128849e157">
+</th><th align="left" id="d128886e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128849e163">
+</th></tr></thead><tbody><tr><td id="d128886e163">
 
 **None**
 
@@ -59,7 +59,7 @@ Description
 
 This option does not affect any location tracking functionality.
 
-</td></tr><tr><td id="d128849e172">
+</td></tr><tr><td id="d128886e172">
 
 **Stop**
 
@@ -67,7 +67,7 @@ This option does not affect any location tracking functionality.
 
 Ends a location tracking session.
 
-</td></tr><tr><td id="d128849e181">
+</td></tr><tr><td id="d128886e181">
 
 **Start**
 

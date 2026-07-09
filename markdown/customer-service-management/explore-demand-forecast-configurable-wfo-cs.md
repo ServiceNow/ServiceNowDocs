@@ -64,7 +64,7 @@ To forecast the demand:
 4.  Associate the formulas to assignment groups.
 5.  View the predicted demand on the calendar.
 
-**Note:** See the Demand Forecast section in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
+**Note:** See the Demand Forecast section in [Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
 
 ## Collect data by defining data collection definitions
 

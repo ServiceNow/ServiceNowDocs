@@ -38,7 +38,7 @@ With the Customer Success Management application, you can create onboarding case
 
 ## Setting up domain separation in Customer Success Management
 
-Domain separation for Customer Success Management requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md).
+Domain separation for Customer Success Management requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see .
 
 ## Domain separated tables
 

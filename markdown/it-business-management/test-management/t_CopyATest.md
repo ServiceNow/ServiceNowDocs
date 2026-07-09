@@ -31,7 +31,7 @@ Create a test with the details of an existing test.
 
 4.  Click the **Create Duplicate** related link.
 
-    A new test is created with details from the old test and the test form is opened.\[Omitted image "new-duplicate-test.png"\] Alt text: New test duplicated from an existing test.
+    A new test is created with details from the old test.\[Omitted image "new-duplicate-test.png"\] Alt text: New test duplicated from an existing test.
 
 5.  Make any necessary changes to details of the new test.
 

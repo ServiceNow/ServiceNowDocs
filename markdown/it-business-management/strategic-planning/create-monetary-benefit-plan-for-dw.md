@@ -1,5 +1,5 @@
 ---
-title: Create and manage benefit plans
+title: Create benefit plans
 description: Create a monetary or non-monetary benefit plan to specify the estimated monetary or non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create and manage benefit plans
+# Create benefit plans
 
 Create a monetary or non-monetary benefit plan to specify the estimated monetary or non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
 
@@ -36,15 +36,15 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
 2.  Add, edit, or delete a benefit plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d82553e117">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d82016e117">
 
 Choice
 
-</th><th align="left" id="d82553e120">
+</th><th align="left" id="d82016e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82553e126">
+</th></tr></thead><tbody><tr><td id="d82016e126">
 
 **To create a benefit plan**
 
@@ -53,7 +53,7 @@ Description
 1.  Navigate to the **Estimate demand cost and effort** stage in the demand **Playbook**.
 2.  Select the **Define benefit estimates** activity.
 
-**Note:** You can only unlock this activity when the previous activities in this stage are completed. For more information, see [Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+**Note:** You can only unlock this activity when the previous activities in this stage are completed. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 3.  Select **New**.
 4.  Select the benefit type as monetary or non-monetary benefits.
@@ -63,7 +63,7 @@ Description
 6.  Select **Save**.
 
 
-</td></tr><tr><td id="d82553e203">
+</td></tr><tr><td id="d82016e203">
 
 **To edit a benefit plan**
 
@@ -77,7 +77,7 @@ Description
 3.  Select the name of the benefit plan, edit the required details and select **Save**.
  **Note:** Alternatively, you can edit a benefit plan from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d82553e247">
+</td></tr><tr><td id="d82016e247">
 
 **To view and manage benefit plan breakdowns**
 
@@ -97,7 +97,7 @@ Description
     -   To delete a benefit plan breakdown record, select **Delete** from the More Actions option in the benefit plan breakdown form.
  **Note:** Alternatively, you can view and manage benefit plan breakdowns from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d82553e330">
+</td></tr><tr><td id="d82016e330">
 
 **To create benefit plan breakdowns**
 
@@ -115,7 +115,7 @@ Description
     -   For non-monetary benefit plans, see [Non-monetary benefit plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/non-monetary-benefit-plan-breakdown-form-dw.md).
  **Note:** Alternatively, you can create a benefit plan breakdown from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d82553e403">
+</td></tr><tr><td id="d82016e403">
 
 **To delete a benefit plan**
 
@@ -138,9 +138,7 @@ Delete a benefit plan in one of the following ways:1.  Select **Details** from t
 **Related topics**  
 
 
-[Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
 [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-benefit-plans-dw.md)
 

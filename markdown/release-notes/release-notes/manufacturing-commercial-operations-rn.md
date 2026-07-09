@@ -27,7 +27,7 @@ See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/Serv
 
 ## New in the Australia release
 
--   **[Manufacturing Commercial Operations landing page \(Agents or CSM/FSM configurable workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-landing-page.md)**
+-   **[Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-landing-page.md)**
 
     The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
 
@@ -49,8 +49,15 @@ See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/Serv
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+## Change in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 ## Activation information
@@ -79,10 +86,6 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
 -   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 
     The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations.
-
--   **[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)**
-
-    ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance
 
 -   **[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)**
 

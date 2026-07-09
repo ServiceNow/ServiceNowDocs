@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understanding-scan-blocking-override-behavior.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Run your first scan, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Scan blocking and override behavior scenarios

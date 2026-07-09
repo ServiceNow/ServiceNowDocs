@@ -1,6 +1,6 @@
 ---
 title: Extend Your AI Search
-description: This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
+description: This Accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/extend-your-ai-search.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Extend Your AI Search
 
-This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
+This Accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 
 ## Accelerator Overview
 

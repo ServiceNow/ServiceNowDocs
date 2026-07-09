@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-18"
 reading_time_minutes: 5
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Database performance metrics
@@ -56,12 +56,10 @@ This metric represents the max time taken by slow queries. Slow queries refer to
 
 This metric represents the duration InnoDB waits to acquire a row lock before timing out, specified in seconds. Adjusting it affects concurrency and performance in database transactions.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

@@ -45,3 +45,8 @@ A request or change request may require approval from another employee within th
         -   For other approvers, the change in status is added to the **Work notes** field.
     -   The approval record is updated in the Approval table.
 
+**Related topics**  
+
+
+[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-records-from-business-portal.md)
+

@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Creating a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a small talk topic
@@ -18,7 +18,7 @@ Build small talk topics that let Virtual Agent engage in casual conversation wit
 
 ## Before you begin
 
-If you're creating an LLM small talk topic, ensure you are familiar with LLM descriptions and instructions. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+If you're creating an LLM small talk topic, ensure you are familiar with LLM descriptions and instructions. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 If you're creating an NLU small talk topic, define the corresponding intent in the appropriate NLU model.
 

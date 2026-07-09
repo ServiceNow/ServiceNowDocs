@@ -37,7 +37,7 @@ Use Microsoft Word to edit a knowledge article originally created in Microsoft W
 
 2.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-3.  On the Home tab of the Word document, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
+3.  On the Home tab of the Word document, click the Knowledge icon
 
 4.  Access the article in the Knowledge Management pane of the Word document.
 

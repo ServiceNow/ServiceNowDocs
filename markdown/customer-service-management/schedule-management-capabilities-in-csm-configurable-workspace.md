@@ -1,5 +1,5 @@
 ---
-title: Schedule Management in CSM Configurable Workspace Workforce Optimization for Customer Service
+title: Schedule Management in CSM Configurable Workspace
 description: Schedule Management schedule management is a standalone capability within Workforce Optimization for Customer Service that allows supervisors and managers to create, view, and manage team schedules independently of other WFO modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Schedule Management in CSM Configurable Workspace Workforce Optimization for Customer Service
+# Schedule Management in CSM Configurable Workspace
 
 Schedule Management schedule management is a standalone capability within Workforce Optimization for Customer Service that allows supervisors and managers to create, view, and manage team schedules independently of other WFO modules.
 

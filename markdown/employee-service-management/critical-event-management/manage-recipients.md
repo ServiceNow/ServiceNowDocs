@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sending notifications during a critical event, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Send notifications during a critical event, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Manage the recipients of a communication task
@@ -43,7 +43,7 @@ Role required: sn\_critical.agent
     **Note:** You can also open the Manage recipients form by selecting the More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) on the communication task.
 
 
-**Parent Topic:**[Sending notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/notify-impacted-people.md)
+**Parent Topic:**[Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/notify-impacted-people.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-20"
 reading_time_minutes: 3
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Email performance metrics
@@ -26,12 +26,10 @@ his represents the total number of emails processed by the SMTP server. This inc
 
 If the emails sent is zero, then it means that the SMTP server has nothing further to process or there has been a failure in the SMTP server.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

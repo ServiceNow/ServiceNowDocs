@@ -27,6 +27,8 @@ Create a playbook to set up an automated business process. Use Playbook builder 
 
 Use this procedure to build a new playbook from scratch. You can create a playbook with no trigger, a single trigger, or multiple triggers. If you change a playbook after activating it, the system saves your changes but deactivates the playbook. You must activate the playbook again to publish any new changes.
 
+Fluent support for playbooks lets developers build, edit, and manage playbooks as code with the Fluent domain-specific language \(DSL\) in the ServiceNow IDE or a local SDK. For more information, see [https://servicenow.github.io/sdk/guides/playbook-guide](https://servicenow.github.io/sdk/guides/playbook-guide).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Studio** &gt; **Playbooks**.
@@ -116,13 +118,17 @@ When selected, runtime users can restart the entire playbook during a run.
 
     Continue adding stages and activities until your playbook reflects the full business process. For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
-11. Add a variant to your playbook.
+11. Preview activities to confirm the activity's appearance to end users and adjust their configuration.
+
+    For more information about previewing activities, see [Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/preview-playbook-runtime-ui.md).
+
+12. Add a variant to your playbook.
 
     You can use one playbook in multiple use cases by using variants. For more information, see [Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md).
 
-12. After adding all stages and activities, test the playbook.
+13. After adding all stages and activities, test the playbook.
 
-13. After testing the playbook, select **Activate** in the header.
+14. After testing the playbook, select **Activate** in the header.
 
     The playbook is published and runs when its trigger conditions are met.
 

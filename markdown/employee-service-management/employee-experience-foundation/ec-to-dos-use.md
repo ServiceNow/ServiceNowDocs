@@ -132,6 +132,8 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

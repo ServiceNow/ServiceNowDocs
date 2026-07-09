@@ -42,5 +42,5 @@ Role required: sn\_apm.apm\_analyst
 
 [Explore the Application 360 dashboard in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-application-360-dashboard-in-enterprise-architecture-workspace.md)
 
-[View the performance of applications using the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
+[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
 

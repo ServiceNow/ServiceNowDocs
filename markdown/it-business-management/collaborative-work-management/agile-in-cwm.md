@@ -114,8 +114,22 @@ Scrum Programs enabled coordination across multiple teams.
 
 CWM is optimized for team-level execution. For program-level planning such as PI planning, use EAP. EAP teams can connect to CWM so teams execute sprint work in CWM while program-level visibility remains in EAP. See [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-integration-with-eap.md).
 
+</td></tr><tr><td>
+
+Sprint data and classic UI
+
+</td><td>
+
+Sprint data is stored on the story record and is visible when you open the story in the classic UI.
+
+</td><td>
+
+Sprint, story points, and acceptance criteria in the CWM story panel are managed within CWM and are not written back to the classic story form. If you open a story using **Detailed Form View**, the Sprint field on the classic form appears empty. This is expected behavior.
+
 </td></tr></tbody>
-</table>-   **[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**  
+</table>**Note:** Do not use CWM and Agile Development 2.0 simultaneously for the same stories. If your team manages sprint work in CWM, use CWM as the primary workspace for those stories.
+
+-   **[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**  
 Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 -   **[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)**  
 Extend your agile workflow in CWM by breaking user stories into scrum tasks, giving your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.

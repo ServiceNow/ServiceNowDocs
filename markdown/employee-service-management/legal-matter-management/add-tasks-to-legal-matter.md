@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d573879e104">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d575378e105">
 
 Option
 
-</th><th align="left" id="d573879e107">
+</th><th align="left" id="d575378e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d573879e113">
+</th></tr></thead><tbody><tr><td id="d575378e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d573879e142">
+</td></tr><tr><td id="d575378e143">
 
 **As a collaborator**
 

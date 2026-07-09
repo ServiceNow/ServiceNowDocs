@@ -1,6 +1,6 @@
 ---
 title: Reverse Tunnel release notes
-description: The ServiceNow Reverse Tunnel application enables Zero Copy Connectors to reach private cloud or on-premises data sources through encrypted outbound connections, without opening inbound firewall ports. Reverse Tunnel is available in the Australia release.
+description: The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -11,23 +11,23 @@ keywords: [Reverse Tunnel, private connectivity, private relay, Zero Copy Connec
 
 # Reverse Tunnel release notes
 
-The ServiceNow® Reverse Tunnel application enables Zero Copy Connectors to reach private cloud or on-premises data sources through encrypted outbound connections, without opening inbound firewall ports. Reverse Tunnel is available in the Australia release.
+The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 
 ## Reverse Tunnel highlights for the Australia release
 
--   Connect Zero Copy Connectors to private cloud or on-premises data sources without opening inbound firewall ports.
+-   Connect zero copy connectors to private cloud or on-premises data sources without opening inbound firewall ports.
 -   Establish encrypted outbound connections to private cloud or on-premises data sources by deploying a private relay in your network.
 -   Monitor relay heartbeat data directly from your ServiceNow instance.
 
-See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reverse-tunnel.md).
+See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reverse-tunnel.md) for more information.
 
 **Note:** Reverse Tunnel is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Reverse Tunnel features
 
--   **[Private connectivity for Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)**
+-   **[Private connectivity for zero copy connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)**
 
-    Connect Zero Copy Connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network, without decrypting that traffic.
+    Connect zero copy connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network without decrypting that traffic.
 
 -   **[Private relay deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md)**
 
@@ -44,9 +44,7 @@ See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 ## Activation information
 
-Reverse Tunnel is available in the ServiceNow Store. Install the following:
-
-Install the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\) from the ServiceNow Store.
+Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
 
 For details, see [Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md).
 

@@ -34,7 +34,7 @@ UI Action
 
 </td><td>
 
-Enables users to click the **Calculate Risk** related link to check condition rules on demand.This UI action applies matching conditions according to their order. Each time a rule is applied, an alert is displayed confirming the new values for risk and impact.
+Enables users to select the **Calculate Risk** related link to check condition rules on demand.This UI action applies matching conditions according to their order. Each time a rule is applied, an alert is displayed confirming the new values for risk and impact.
 
  The **Calculate Risk** related link appears on the Change Request form only if the following statements are true.
 

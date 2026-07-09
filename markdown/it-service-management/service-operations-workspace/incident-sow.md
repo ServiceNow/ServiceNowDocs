@@ -33,7 +33,7 @@ From the Compose section, you can add comments and work notes for the incident.
 
 The Overview tab displays the field information along with the field labels, including when you're in read mode.
 
-For more information on the fields displayed on the **Overview** tab, see [View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+For more information on the fields displayed on the **Overview** tab, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
 You can customize the display of the information on the **Overview** tab. For more information, see [Customize the Overview tab for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
@@ -89,7 +89,7 @@ For more information about Incident Management, see [Incident Management](https:
 
 -   **[Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-incident-sow.md)**  
 Track the investigation, possible solutions, and resolution of a problem for a customer.
--   **[View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md)**  
+-   **[View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md)**  
 View and update the incident information, such as summary, impact, cause, and resolution, from the **Overview** tab. This incident information helps you analyze the issue and resolve the incident quickly.
 -   **[Viewing incident record information using the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.md)**  
 View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident more efficiently.
@@ -115,7 +115,7 @@ Reference topics provide additional information about Incident Management in Ser
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[Create a list in Service Operations Workspace]()
+[]()
 
 [Live Agent chat in Service Operations Workspace]()
 

@@ -154,7 +154,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Object ID \[object\_id\]|Unique object identifier.|
 |Description \[short\_description\]|Description of the datacenter that you provide for easy identification.|
 |Quota Mode \[quota\_mode\]|Quota mode policy.|
-|URL \[url\]|API URL to access the datacenter.|
 |Href ID \[href\_id\]|Href ID.|
 
 |Field|Description|
@@ -169,8 +168,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Memory Overcommit \[memory\_overcommit\]|Amount of over-commitment memory allowed on the cluster.|
 |Transparent Huge Pages \[thp\]|Transparent huge memory pages policy.|
 |Ballooning \[ballooning\]|Memory ballooning for guests.|
-|Compatability Version \[compatibility\_version\]|Compatibility version.|
-|URL \[url\]|API URL to access the cluster.|
 |Href ID \[href\_id\]|Href ID.|
 
 |Field|Description|
@@ -188,7 +185,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Operating System \[os\]|OS family.|
 |OS Version \[os\_version\]|OS version.|
 |RAM \(MB\) \[ram\]|Amount of RAM \(MB\).|
-|URL \[url\]|API URL used access the server.|
 
 |Field|Description|
 |-----|-----------|
@@ -197,8 +193,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Object ID \[object\_id\]|Unique object identifier.|
 |IP Address \[ip\_address\]|IP address of the instance.|
 |Disks \[disks\]|Number of disks.|
-|MAC Address \[mac\_address\]|MAC address of the instance.|
-|Management URL \[mgmt\_url\]|Management API URL.|
 |Description \[short\_description\]|Description of the instance that you provide for easy identification.|
 |Fully qualified domain name \[fqdn\]|Fully Qualified Domain Name \(FQDN\) of the instance.|
 |CPU Architecture \[cpu\_architecture\]|CPU architecture. For example: Intel Broadwell IBRS SSBD MDS Family.|

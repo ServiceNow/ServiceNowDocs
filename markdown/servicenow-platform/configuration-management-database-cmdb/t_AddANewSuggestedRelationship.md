@@ -27,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Use the CI Class Manager \(Role required: sn\_cmdb\_admin or itil\_admin\):
+1.  Use the CI Class Manager:
 
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
 
@@ -41,7 +41,7 @@ Role required:
 
     6.  Click **Save**.
 
-2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships** \(Role required: sn\_cmdb\_admin or admin\):
+2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
     1.  Click **New**.
 

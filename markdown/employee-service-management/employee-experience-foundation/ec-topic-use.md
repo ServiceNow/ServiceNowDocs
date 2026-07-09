@@ -149,6 +149,8 @@ You can modify the widget display by configuring the widget instance options. Fo
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

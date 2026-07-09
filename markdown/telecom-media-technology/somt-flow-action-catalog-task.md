@@ -20,6 +20,8 @@ For more information about Flow actions for fulfillment subflow definition, see 
 
 When the template is configured for a specification, the out of box logic, on domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
 
+**Important:** Automatic closure of domain orders is currently inactive and will require a custom implementation.
+
 ## Benefits of task plan template
 
 It enables non-technical users to do the following:

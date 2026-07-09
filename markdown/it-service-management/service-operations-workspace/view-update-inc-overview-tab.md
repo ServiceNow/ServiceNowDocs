@@ -1,5 +1,5 @@
 ---
-title: View and update incident information on the Overview tab in SOW
+title: View and update incident information on the Overview tab
 description: View and update the incident information, such as summary, impact, cause, and resolution, from the Overview tab. This incident information helps you analyze the issue and resolve the incident quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-update-inc-overview-tab.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2025-01-30"
+reading_time_minutes: 8
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# View and update incident information on the Overview tab in SOW
+# View and update incident information on the Overview tab
 
 View and update the incident information, such as summary, impact, cause, and resolution, from the **Overview** tab. This incident information helps you analyze the issue and resolve the incident quickly.
 
@@ -30,13 +30,7 @@ Review the incident information on the **Overview** tab. If necessary, you can e
 
 1.  On an incident record, select the **Overview** tab.
 
-2.  Review the incident summary and resolution plan in the AI summary and suggestions card.
-
-    The card displays summary of the incident and a suggested resolution plan, helping you investigate and resolve incidents faster.
-
-    **Note:** If the **Overview** tab is hidden for L1 service desk agents, the card appears on the **Details** tab.
-
-3.  On the Summary section, add or edit the information as needed.
+2.  On the Summary section, add or edit the information as needed.
 
     1.  Select the **Edit summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon to edit the fields.
 
@@ -145,18 +139,10 @@ Caller
 
 User who reported the incident.
 
-</td></tr><tr><td>
-
-Link
-
-</td><td>
-
-URL that you can click to open on a new tab for more information on the issue. Overview page supports "URL" type of field in read-only mode.**Note:** This field is not available in the base system. But you can customize the form to add a field with a custom field label and add a URL.
-
 </td></tr></tbody>
 </table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-4.  On the Impact Summary section, edit the information as needed.
+3.  On the Impact Summary section, edit the information as needed.
 
     1.  Select the **Edit impact summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon.
 
@@ -164,20 +150,20 @@ URL that you can click to open on a new tab for more information on the issue. O
 
         |Field|Description|
         |-----|-----------|
+        |Business impact|Impact of the incident on the business.|
         |Configuration item|Primary configuration item that is impacted.|
         |Service|Primary business service that is impacted.|
         |Service offering|Consists of one or more service commitments that uniquely define the level of service in terms of availability, scope, pricing, and packaging options. Service offering enables you to receive different features and their levels of performance for a given service.|
-        |Business impact|Impact of the incident on the business.|
 
-        For the reference fields such as **Configuration item**, **Service offering** and **Service**, you can perform the following actions:
+        For the reference fields such as **Configuration item**, **Service offering** and **Service**, you can do the following actions:
 
         -   Select the **Preview record** icon \(\[Omitted image "inc-preview-record.png"\] Alt text: Preview icon\) to display a preview of that record information on the same page. If necessary, you can also select **Open record** to open the record on a separate tab.
-        -   Select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Dependency icon\) to view the unified dependency CMDB map in a new tab within the workspace view.
+        -   Select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Dependency icon\) to view the dependency map of the configuration item \(CI\) in a modal view experience.
         **Note:** Selecting any empty reference field such as **Configuration item**, **Service offering** and **Service** in SOW displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. This change is applicable only to reference fields with no field values. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to set to `true`.
 
     3.  Select the **Save Impact Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-5.  On the **Location** field of the Impact section, select **View impacted locations** to view the impacted locations and users on a world map in a separate tab.
+4.  On the **Location** field of the Impact section, select **View impacted locations** to view the impacted locations and users on a world map in a separate tab.
 
     The **Impacted location** tab displays the following information:
 
@@ -194,7 +180,7 @@ URL that you can click to open on a new tab for more information on the issue. O
 
     -   The Location section is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active, and if the incident is a major incident. For more information, see [Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mim-in-sow.md).
     -   You can add multiple locations from the Affected location related list in the **Related records** tab of the Major incident record.
-6.  Select the following cards to add or update the configuration items associated with the Incident.
+5.  Select the following cards to add or update the configuration items associated with the Incident.
 
     1.  Select the **Affected CIs** card to add or remove the configuration items \(CI\) that are affected by the incident.
 
@@ -208,7 +194,7 @@ URL that you can click to open on a new tab for more information on the issue. O
 
     **Note:** The child incidents are added from the Child incidents related list in the **Related records** tab while the affected CIs, impacted services/CIs or assets are added from the **Overview** tab of an incident record.
 
-7.  On the Cause section, add or update the cause of the incident.
+6.  On the Cause section, add or update the cause of the incident.
 
     1.  Select **Add cause**.
 
@@ -216,7 +202,7 @@ URL that you can click to open on a new tab for more information on the issue. O
 
     3.  Select **Save cause** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-8.  On the Resolution section, add the resolution information to resolve the incident.
+7.  On the Resolution section, add the resolution information to resolve the incident.
 
     **Note:** Populate the values in this section only when the incident is ready to be resolved.
 
@@ -231,7 +217,7 @@ URL that you can click to open on a new tab for more information on the issue. O
 
     3.  Select the **Save resolution** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-9.  On the Compose section, post messages to the activity stream and send emails to stakeholders.
+8.  On the Compose section, post messages to the activity stream and send emails to stakeholders.
 
     1.  Enter and post the **Work notes \(Private\)** message to the activity stream.
 
@@ -245,15 +231,11 @@ URL that you can click to open on a new tab for more information on the issue. O
 
     4.  **Compose** and then **send Email** to the stakeholders.
 
-    -   The activity stream supports the following features:
-        -   The activity stream in the **Overview** and **Details** tab displays the activity information in tiles that are collapsible. By default, the latest event activity tile, if a work note or additional comment, is expanded and the other consecutive event activity tiles are collapsed. The collapsed tile only displays the time stamp and the activity event source name. This ensures a clean UI and enables you to expand and view the activity information when required. To enable this feature, set the **Enable the expandable activity stream tiles** \(**enableExpandableActivityStreamTiles**\) UX page property to `true`.
-        -   An internal tag is added for the work notes.
-        -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no pre-defined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
-    -   For reference fields in SOW record pages, the following glide list actions are available:
-        -   Add me \(\[Omitted image "add-me.png"\] Alt text: Add me icon\) icon: Add the logged in user to the field. This option is available for reference fields where you can add current user \(sys\_user\). For example, Watch list or Work note list fields.
-        -   Remove me \(\[Omitted image "dpr-icon-release-remove.png"\]\): icon Remove the logged in user from the field. This option is available for reference fields where you can remove current user \(sys\_user\). For example, Watch list or Work note list fields.
-        -   Add multiple users \(\[Omitted image "icon-3-persons.png"\] Alt text: Little persons image\) icon: Add multiple users to the field. This option is available for reference fields where you can add multiple users \(sys\_user\). For example, Watch list or Work note list fields.
-        -   Add multiple records \(\[Omitted image "add\_icon.png"\] Alt text: Add icon\) icon: Add multiple records to the field. This option is available for reference fields where you can add multiple records of any table. For example, Problem or Change request field.
+    The activity stream supports the following features:
+
+    -   The activity stream in the **Overview** and **Details** tab displays the activity information in tiles that are collapsible. By default, the latest event activity tile, if a work note or additional comment, is expanded and the other consecutive event activity tiles are collapsed. The collapsed tile only displays the time stamp and the activity event source name. This ensures a clean UI and enables you to expand and view the activity information when required. To enable this feature, set the **Enable the expandable activity stream tiles** \(**enableExpandableActivityStreamTiles**\) UX page property to `true`.
+    -   An internal tag is added for the work notes.
+    -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no pre-defined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
 
 **Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 

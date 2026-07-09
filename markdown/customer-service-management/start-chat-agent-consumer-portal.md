@@ -37,3 +37,10 @@ Role required: sn\_customerservice.consumer
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the Consumer Service Portal by selecting **Cases** and displaying the case list.
 
+**Related topics**  
+
+
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat.md)
+
+[Chat anonymously with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent.md)
+

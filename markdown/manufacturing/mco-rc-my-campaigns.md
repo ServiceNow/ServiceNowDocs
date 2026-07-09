@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a campaign
@@ -43,17 +43,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 1.  Create [Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-actions.md).
 2.  Create [Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges.md).
 3.  Select **Initiate Recall Campaign** to enable Recall Campaign Phases and Phase &amp; Sub-phases.
-
--   **[Importing impacted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_importing_impacted_assets.md)**  
-Recall campaign management enables you to import the impacted assets.
--   **[Campaign tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-campaign-tasks.md)**  
-As an OEM, plan, manage, and execute a promotional effort.
--   **[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-actions.md)**  
-Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
--   **[Create an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-impacted-asset.md)**  
-Identify an impacted asset that must be replaced or recalled.
--   **[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases.md)**  
-Create a recall campaign for a specific geography or a dealership.
-
-**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-management.md)
 

@@ -32,7 +32,7 @@ The following CCaaS Store Apps offer voice channel integration:
 
 The following visual displays the voice workflow when CCaaS integrates with ICC within the CSM Configurable Workspace .
 
-\[Omitted image "icc-integration-with-nvc-workflow-MMASSET0020993.png"\] Alt text: Voice Call flow via ICC
+\[Omitted image "icc-integration-with-nvc-workflow-brand2-updated-MMASSET0020993.png"\] Alt text: Voice call flow using Interaction Controls Component \(ICC\)
 
 ## Key benefits
 

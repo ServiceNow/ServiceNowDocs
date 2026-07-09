@@ -1,6 +1,6 @@
 ---
 title: SMS conversations in HR Service Delivery Agent Workspace
-description: Using the Conversational SMS service channel app, available on the ServiceNow Store, HR agents can provide support for long-running SMS conversations via HR Service Delivery Agent Workspace. Requesters can initiate HR support conversations through SMS.
+description: HR agents can support long-running SMS conversations with employees using the Conversational SMS service channel app from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-sms-conversation.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # SMS conversations in HR Service Delivery Agent Workspace
 
-Using the Conversational SMS service channel app, available on the ServiceNow Store, HR agents can provide support for long-running SMS conversations via HR Service Delivery Agent Workspace. Requesters can initiate HR support conversations through SMS.
+HR agents can support long-running SMS conversations with employees using the Conversational SMS service channel app from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -48,9 +48,9 @@ HR agents can set preferences to receive conversation desktop notifications, aud
 
 Once opted in, agents hear an audio alert when a new message occurs on a conversation that is currently open in a workspace tab, but not in focus. Audio alerts also notify when a long running conversation is assigned to an agent, but is not currently open in a workspace tab. Agents decide if they want to enable these alerts and notifications.
 
-Use the edit menu \[Omitted image "gear.png"\] Alt text: edit menu icon in the HR Service Delivery Agent Workspace Inbox to enable alerts and notifications.
+Use the edit menu \[Omitted image "gear.png"\] Alt text: in the HR Service Delivery Agent Workspace Inbox to enable alerts and notifications.
 
-\[Omitted image "SMS-hr-inbox-notifications-settings.png"\] Alt text: HRSD Agent Workspace Inbox settings
+\[Omitted image "SMS-hr-inbox-notifications-settings.png"\] Alt text: Inbox settings showing Conversation Audio Alerts and Conversation Desktop Notifications options
 
 Agents can receive Google Chrome browser toasts when the following criteria is met:
 

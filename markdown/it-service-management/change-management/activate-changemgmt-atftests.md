@@ -52,7 +52,7 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

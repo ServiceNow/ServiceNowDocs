@@ -55,11 +55,11 @@ You can update a record in the ServiceNow instance in two ways:
 
 1.  Update a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d65596e241">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d67126e241">
 
 Method
 
-</th><th align="left" id="d65596e244">
+</th><th align="left" id="d67126e244">
 
 Steps
 
@@ -83,6 +83,7 @@ Steps
         -   `sn_app_lens_core.lens_inclusion_table_list`: Enter the names of the tables as comma-separated values where you want the **Update with Lens** button to appear. Use this property only when the `sn_app_lens_core.show_lens_action_on_all_tables` property is set to false.
         -   `sn_app_lens_core.lens_exclusion_table_list:` Enter the names of the tables as comma-separated values where you want to hide the Create with Lens button, regardless of how the `sn_app_lens_core.lens_inclusion_table_list` property is set.
     -   On non-production instances, the **Create with Lens** button may appear even if the ServiceNow AI Lens skill is not activated. If you select the button, an error occurs. You can activate the skill or hide the button by entering the name of the table in the sn\_app\_lens\_core.lens\_inclusion\_table\_list property
+    -   On production instances, the **Create with Lens** and **Update with Lens** buttons are visible only when the ServiceNow AI Lens skill is active and the user has the lens\_user role. To hide the buttons on all tables, set sn\_app\_lens\_core.show\_lens\_action\_on\_all\_tables to false and leave sn\_app\_lens\_core.lens\_inclusion\_table\_list empty.
 4.  Select **Capture screen**.
 
 \[Omitted image "lens-capture-screen-button.png"\] Alt text: Capture screen button for the browser-based experience.
@@ -219,15 +220,15 @@ The form is auto-filled.
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d65596e889">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d67126e901">
 
 Option
 
-</th><th align="left" id="d65596e892">
+</th><th align="left" id="d67126e904">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d65596e898">
+</th></tr></thead><tbody><tr><td id="d67126e910">
 
 **If the auto-filled text looks good**
 
@@ -235,7 +236,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d65596e910">
+</td></tr><tr><td id="d67126e922">
 
 **If the auto-filled text requires changes**
 

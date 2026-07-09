@@ -55,6 +55,8 @@ The Threat Hunting playbook is a guided workflow for a TISC Case record that hel
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -63,7 +65,9 @@ The Threat Hunting playbook is a guided workflow for a TISC Case record that hel
 
 [Run Enrichment Actions within a case]()
 
-[View Case Reports]()
+[Generate a Case Report using generative AI]()
+
+[Generate a Case Report using a template]()
 
 [Create a security incident from a TISC case]()
 

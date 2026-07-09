@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d740393e59">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d742618e59">
 
 Location
 
-</th><th align="left" id="d740393e62">
+</th><th align="left" id="d742618e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d740393e68">
+</th></tr></thead><tbody><tr><td id="d742618e68">
 
 **Application navigation filter**
 
@@ -40,7 +40,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d740393e92">
+</td></tr><tr><td id="d742618e92">
 
 **From Employee Center Portal**
 

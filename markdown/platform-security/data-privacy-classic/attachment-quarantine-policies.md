@@ -7,7 +7,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -16,9 +16,11 @@ breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 
 Manage policies that automatically isolate suspicious attachments for security review and analysis.
 
-## About this task
+## Before you begin
 
 Role required: data\_privacy\_admin and admin
+
+## About this task
 
 To create attachment quarantine policies, perform the following procedure:
 
@@ -78,4 +80,8 @@ View policy details
 View the configuration of the attachment quarantine policy. You can also toggle the **Active** button to turn the policy on or off.
 
 </td></tr></tbody>
-</table>
+</table>**Important:** Currently, two known limitations exist for quarantined attachments:
+
+-   Hyperlinks for quarantined attachments may still be clicked by users. In this case, the attachment will not download, and the user will a receive a message that the file contains sensitive data.
+-   In the Workspace UI, users may still be able to click quarantined attachments in the Activity Stream of the record.
+

@@ -44,7 +44,7 @@ How are ACLs evaluated?
 
 At a table level, ACLs are evaluated only for roles and security attributes. Conditions and scripts aren’t evaluated.
 
- Roles are evaluated first. If Roles are blocked, conditions and scripts are skipped. For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+ Roles are evaluated first. If Roles are blocked, conditions and scripts are skipped. For more information, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
 </td></tr><tr><td>
 

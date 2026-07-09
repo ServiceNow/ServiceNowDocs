@@ -33,7 +33,7 @@ The home page of the AI risk and compliance workspace meets these requirements a
 
 You can access the AI risk and compliance workspace by navigating to **All** &gt; **AI Risk and Compliance Workspace**.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
 
 **Related topics**  
 

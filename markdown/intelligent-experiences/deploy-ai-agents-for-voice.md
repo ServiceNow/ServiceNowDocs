@@ -39,7 +39,7 @@ When you create or edit a voice assistant, you configure communication channels 
 To get started with AI voice agents, perform the following steps.
 
 1.  [Install Now Assist AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-voice-agents-plugins.md)
-2.  [Configure user identification and authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md)
+2.  Configure user identification and authentication
 3.  [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md)
 4.  [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md)
 5.  [Test AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-voice-agents.md)

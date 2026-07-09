@@ -24,7 +24,7 @@ The Telecommunications Network Inventory application uses the Network Inventory 
 
 The following diagram shows the extension classes in the data model for the network inventory.
 
-\[Omitted image "MMASSET0021144-tni-data-model.png"\] Alt text: Infographic for network Inventory extension classes. For the details of extension classes, refer to the Network Inventory extension classes section.
+\[Omitted image "tni-model.png"\] Alt text: Telecommunication-network-inventory-data-model
 
 ## Network site and Network location
 
@@ -209,5 +209,5 @@ Represent power, HVAC, network, and their connectivity in a data center.To learn
 **Related topics**  
 
 
-[Network Inventory \(NI\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-network-inventory.md)
+[bundle-platcap.cmdb-ci-class-models-network-inventory]
 

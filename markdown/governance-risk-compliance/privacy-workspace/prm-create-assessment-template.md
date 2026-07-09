@@ -39,7 +39,7 @@ Instead of using the default template, you can create a questionnaire template f
 
 ## What to do next
 
-You can revise the assessment template from the **Assessment workspace**. All new assessments use the revised version once published. In-progress assessments based on the retired version finish against the questionnaire they started with. See [Create a version of a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+You can revise the assessment template from the **Assessment workspace**. All new assessments use the revised version once published. In-progress assessments based on the retired version finish against the questionnaire they started with. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 -   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md)**  
 Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template.

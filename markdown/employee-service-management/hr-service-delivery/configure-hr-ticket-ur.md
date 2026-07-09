@@ -235,7 +235,7 @@ Widget
 
 </td><td>
 
-Widget that should be displayed in the tabs section. This field appears only when **Custom** is selected from **Type**.**Note:** For the **Tasks/To-dos** tab, by default the HRM Task Parent widget is used. For the **Approvers** tab, by default the HRM Approval Tab widget is used. For the **Attachments** tab, by default the HR Standard Ticket Attachments widget is used. This widget also displays employee documents \(EDM\).
+Widget that should be displayed in the tabs section. This field appears only when **Custom** is selected from **Type**.**Note:** For the **Tasks/To-dos** tab, by default the HRM Task Parent widget is used. For the **Approvers** tab, by default the HRJ Approval Tab widget is used. For the **Attachments** tab, by default the HR Standard Ticket Attachments widget is used. This widget also displays employee documents \(EDM\).
 
 </td></tr><tr><td>
 

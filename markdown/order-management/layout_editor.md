@@ -1,20 +1,20 @@
 ---
 title: Layout editor
-description: Learn how to use the layout editor to modify a layout without leaving CPQ.
+description: Learn how to use the layout editor to modify a layout without leaving ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_editor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Layout editor
 
-Learn how to use the layout editor to modify a layout without leaving CPQ.
+Learn how to use the layout editor to modify a layout without leaving ServiceNow CPQ.
 
-The layout editor enables an admin to edit an layout without leaving CPQ.
+The layout editor enables an admin to edit an layout without leaving ServiceNow CPQ.
 
 \[Omitted image "cpq-layout-editor.png"\] Alt text: Layout editor
 

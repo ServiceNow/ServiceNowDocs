@@ -127,5 +127,5 @@ Knowledge Graph is also integrated with AI Search. You can enable Now Assist Mul
 
 Ensure that you have already configured Knowledge Graph with an assistant before enabling it on AI search.
 
-To configure and enable the AI Search see [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-qna-genius-results.md).
+To configure and enable the AI Search see .
 

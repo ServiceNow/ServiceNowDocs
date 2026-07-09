@@ -77,7 +77,7 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 </td><td>
 
-Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.
+[Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
 
 </td><td>
 

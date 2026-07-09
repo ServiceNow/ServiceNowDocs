@@ -29,7 +29,7 @@ Role required: admin or Employee Slate administrator.
 
 The AI widget builder lets admins describe a widget in plain language. The builder generates the widget code, validates it, and compiles it before preview.
 
-The landing card lists the widgets in the instance. Admins can search, filter custom widgets from out-of-the-box widgets, edit a widget, or clone a widget.
+The landing card lists the widgets in the instance. Admins can search, filter custom widgets from default widgets, edit a widget, or clone a widget.
 
 ## Procedure
 
@@ -51,7 +51,7 @@ The landing card lists the widgets in the instance. Admins can search, filter cu
 
 5.  Set the widget properties.
 
-    Set the element name, the widget name, the tag, and the description. Detailed property values improve the next chat prompt.
+    Set the **Element name**, the **Widget name**, the **Tag**, and the **Description**. Detailed property values improve the next chat prompt.
 
 6.  Set **Chat compatibility** for the widget.
 

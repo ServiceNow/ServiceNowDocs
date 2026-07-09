@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CEM Critical event record, Exploring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [CEM Critical event record, Explore, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # CEM Impacted people tab

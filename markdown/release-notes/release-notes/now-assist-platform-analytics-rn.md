@@ -28,11 +28,16 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
 ## Changed in this release
 
+-   **[Query indicator data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-implementation-checklist.md)**
+
+    Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
+
+
 -   **[Explorations not available from visualization or list for unsupported scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md)**
 
     You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
 
--   **Improvements to generated segments**
+-   **[Improvements to generated segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)**
     -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
     -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
 
@@ -47,6 +52,10 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
     -   More segments are passed to the LLM to increase the chance of the correct segment getting selected. Twelve segments are passed instead of three.
     -   Segments longer than 2000 characters are dropped to prevent context window bloat.
     \(Query Generation bundle 5.2\)
+
+-   **[Query Generation support for Glide Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-unsupported-field-types.md)**
+
+    Query Generation now supports Glide List fields on tables.
 
 
 -   **[Customize semantic metadata in configuration tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)**

@@ -50,7 +50,7 @@ The following roles are required for configuration and verification of the expec
 
 -   The sn\_sec\_tisc.analyst role performs the following tasks:
     -   Views the overview of intelligence data in the TISC Home page. For more information, see [TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md).
-    -   Import data into TISC using **Import Intelligence** button in **Threat Library** page. For more information, see [Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md).
+    -   Import data into TISC using **Import Intelligence** button in **Threat Library** page. For more information, see [Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md).
     -   -   Search across the data present in the application using search provided in **Threat Library** page.
 -   Manages the data ingested from various sources in **Threat Library**.
 -   Performs various enrichment actions on Observables.

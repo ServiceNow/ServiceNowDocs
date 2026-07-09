@@ -17,22 +17,22 @@ breadcrumb: [Working with Moveworks capabilities, Employee Slate, Unified Employ
 
 Use the Moveworks AI assistant, specialized assistants, Enterprise Search, and the interactive split view to handle daily work tasks. Available on web and mobile.
 
-Here's how you can use Employee Slate for Moveworks to handle work tasks efficiently throughout your day. You can use the Moveworks AI assistant to handle real work tasks throughout your day. You can use the assistant for similar tasks for your role.
+You can use the Moveworks AI assistant to handle real work tasks throughout your day. You can use the assistant for similar tasks for your role.
 
 ## Update personal records in conversation
 
-You can update your personal information by:
+To update your personal information:
 
 -   Ask the assistant to update your home address and add an emergency contact by providing the details through the chat.
 -   Review the revised edits the assistant shows you.
 -   Confirm the changes so both records update in SAP SuccessFactors at the same time.
--   Access helpful resources like the employee handbook and payroll information that the assistant suggests. Moving across state lines often affects your benefits.
+-   Access helpful resources like the employee handbook and payroll information that the assistant displays suggestions for. Moving across state lines often affects your benefits.
 
 See [Update personal records with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-update-hr-records.md).
 
 ## Research a prospect and generate an artifact
 
-You can prepare for a meeting with a manufacturing prospect like Atlas Industrial Group by:
+To prepare for a meeting with a manufacturing prospect such as Atlas Industrial Group:
 
 -   Ask the assistant for industry context.
 -   Choose to search externally if your company internal sources don't have what you need.
@@ -45,10 +45,10 @@ See [Research prospects and generate artifacts with the AI assistant](https://ra
 
 ## Submit a request in the split view
 
-You can work remotely from another office for a few weeks by:
+To submit a remote work request:
 
 -   Ask the assistant about your request.
--   Get an answers and explanation if your request exceeds standard allowances and needs manager approval.
+-   Get an answer and explanation if your request exceeds standard allowances and needs manager approval.
 -   See the request form open in a side panel next to your chat.
 -   Fill it out and submit it without leaving the conversation.
 

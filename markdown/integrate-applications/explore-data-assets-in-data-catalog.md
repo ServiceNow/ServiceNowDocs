@@ -14,7 +14,7 @@ breadcrumb: [Finding and accessing data assets, Data Catalog, Workflow Data Fabr
 
 Find and explore catalog assets through search, filtering, and browsing.
 
-Filter and sort data assets in the data catalog 
+\[Omitted video\] Description: Filter and sort data assets in the data catalog
 
 ## Before you begin
 

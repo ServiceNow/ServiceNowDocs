@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Export OSCAL SSP
@@ -30,7 +30,7 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
+2.  In the CAM Workspace, select \[Omitted image "ws-list-icon.png"\] Alt text: List from the sidebar.
 
 3.  Select Authorization packages from the **RMF** list.
 

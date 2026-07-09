@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Now Assist in AI Search reference, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -52,7 +52,7 @@ Displays Virtual Agent conversational prompts based on previous user searches \(
 
  Readers: Now Assist Suggested Utterance Reader
 
- **Note:** This suggestion reader group is only supported in search application configurations for applications that support the enhanced chat experience, such as the Now Assist in VA search application configuration.
+ **Note:** This suggestion reader group is only supported in search application configurations for applications that support the enhanced chat experience, such as the **Now Assist in VA** search application configuration.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Now Assist in AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)

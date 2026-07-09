@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Platform Analytics experience release notes
@@ -26,6 +26,8 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
 When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
+
+All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
 
 After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
@@ -134,6 +136,10 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 -   **[Enhanced scheduled exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-export-dboards-data-viz.md)**
 
     When scheduling the email of dashboards or data visualizations, limit recipients based on reference qualifiers.
+
+-   **[Public reports are unpublished](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-permission-issues.md)**
+
+    On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
 
 
 ## Activation information

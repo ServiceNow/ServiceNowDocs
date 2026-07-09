@@ -32,15 +32,11 @@ With the GRC Mobile application, you can perform the following Policy and Compli
 
 The following figure illustrates how you log in to your ServiceNow AI Platform instance from your mobile device and the landing screen that is displayed after you log in.
 
-\[Omitted image "mobile\_Policy\_and\_Compliance\_overview-app\_rd.png"\] Alt text: GRC Policy and Compliance navigation map.
-
 For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the GRC Mobile application, see [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md). For instructions about how to log in, see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 -   **Applications**
 
     Applications are the ServiceNow® software components such as Policy and Compliance Management, Risk Management, and Audit Management that provide specific features and functionalities within your ServiceNow AI Platform instance. After you install these core applications and the GRC Mobile app on your ServiceNow AI Platform instance, these applications are displayed as icons on the bottom of your Android or iOS mobile device after you log in.
-
-    \[Omitted image "p\_n\_c\_icons.jpg"\] Alt text: Icons on the bottom of the screen of the mobile device.
 
 -   **Folders**
 

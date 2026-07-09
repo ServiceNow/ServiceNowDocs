@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage enterprise model life cycles, Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise model life cycles, Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create Calculated model lifecycle templates in the Enterprise Asset Workspace

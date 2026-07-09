@@ -1,18 +1,18 @@
 ---
-title: General guidelines for AI-assisted development
-description: When using AI-assisted tools to build or vibe code applications and app components on the ServiceNow AI Platform, the quality of the output depends on the quality of your instructions. Use these guidelines to write effective instructions and improve the products of your conversations with AI tools.
+title: General guidelines for agentic development
+description: When using agentic development tools to build applications and app components on the ServiceNow AI Platform, the quality of the output depends on the quality of your instructions. Use these guidelines to write effective instructions and improve the products of your conversations with AI tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-ai-development-best-practices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-31"
 reading_time_minutes: 2
-breadcrumb: [Use AI to build apps faster, Getting Started guide for developers, Building applications]
+breadcrumb: [AI-native app development, Getting Started guide for developers, Building applications]
 ---
 
-# General guidelines for AI-assisted development
+# General guidelines for agentic development
 
-When using AI-assisted tools to build or vibe code applications and app components on the ServiceNow AI Platform, the quality of the output depends on the quality of your instructions. Use these guidelines to write effective instructions and improve the products of your conversations with AI tools.
+When using agentic development tools to build applications and app components on the ServiceNow AI Platform, the quality of the output depends on the quality of your instructions. Use these guidelines to write effective instructions and improve the products of your conversations with AI tools.
 
 A prompt or instruction is the primary input an AI tool uses to determine what to produce. Unlike a keyword search, generative and agentic AI treats your input as a task to complete. The quality of the output depends directly on the quality of the input. Therefore, instructions that are clear and specific produce the most accurate, usable results. A well-constructed instruction includes a goal, context, expectations, and optionally a source. Use the following guidelines to help you draft your instructions.
 
@@ -47,5 +47,5 @@ See the following additional resources for more information about prompting AI.
 -   [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-guidelines.md)
 -   [Now Assist for Creator skill and prompting guides](https://www.servicenow.com/community/now-assist-for-creator-articles/now-assist-for-creator-skill-and-prompting-guides/ta-p/3125858)
 
-**Parent Topic:**[Use AI to build apps faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
+**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
 

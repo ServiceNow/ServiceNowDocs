@@ -47,7 +47,7 @@ In your Trigger Definition \[sys\_pd\_trigger\_definition\] record, you can choo
     The playbook runs when a user creates a record or updates an existing record anywhere in the ServiceNow AI Platform.
 
 
-**Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see Non-interactive sessions.
+**Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_NonInteractiveSessions.md).
 
 ## Details
 
@@ -67,7 +67,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to create field conditions for when your playbook runs. See Condition builder.
+Use the condition builder to create field conditions for when your playbook runs. See [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Trigger on unique change
 
 </td><td>
 
-Select this to trigger the playbook for every unique update to a non-system field even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.**Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
+Select this to trigger the playbook for every unique update to a non-[system field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.**Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
 
 </td></tr></tbody>
 </table>## Design considerations

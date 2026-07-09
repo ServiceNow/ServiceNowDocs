@@ -26,15 +26,15 @@ Role required: admin
 
 3.  On the form, open the **What it will contain** tab.
 
-4.  In the **Message HTML** field, click the source code icon \(\[Omitted image "source-code-icon.png"\] Alt text: Source code icon\) to open the HTML source code editor.
+4.  In the **Message HTML** field, select the source code icon \(\[Omitted image "source-code-icon.png"\] Alt text: Source code icon\) to open the HTML source code editor.
 
-    \[Omitted image "600pxHTMLSourceEditor.png"\] Alt text: The HTML source editor
+    \[Omitted image "html-source-code-editor.png"\] Alt text: HTML source code editor
 
 5.  Make the needed changes to the HTML.
 
-6.  On the window, click **Ok**.
+6.  On the window, select **Ok**.
 
-7.  On the form, click **Update**.
+7.  On the form, select **Update**.
 
 
 **Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)

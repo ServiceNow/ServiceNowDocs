@@ -42,5 +42,5 @@ Role required: admin
 
 [Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source.md)
 
-[Set the duration of a fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
+[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
 

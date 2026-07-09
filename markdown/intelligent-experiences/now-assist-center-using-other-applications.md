@@ -101,7 +101,7 @@ Admin page
 
 Now Assist Admin console, Now Assist Guardian
 
- See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
+ See .
 
 </td><td>
 

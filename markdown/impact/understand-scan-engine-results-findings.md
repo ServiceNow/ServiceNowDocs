@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/understand-scan-engine-r
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [scan results, scan findings, platform health]
 breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
@@ -24,16 +24,18 @@ Reviewing scan results and acting on findings is a two-phase process.
 
 Every finding in your instance is evaluated along two critical dimensions to help your team prioritize remediation efforts and maintain compliance standards.
 
--   **Level of finding**
+-   **Level of finding \(enforcement level\)**
 
-    The enforcement behavior is determined whether the system blocks an action, issues a warning, or provides informational guidance. Levels are ACT, RECOMMEND, SUGGEST, and REVIEW.
+    The enforcement behavior is determined whether the system blocks an action, issues a warning, or provides informational guidance. Enforcement levels are ACT, RECOMMEND, SUGGEST, and REVIEW. The enforcement level determines the action the system will take and whether exceptions are available.
 
--   **Impact to instance**
+-   **Impact to instance \(risk rating\)**
 
-    The business and technical risk of leaving the finding unresolved, rated from 1 \(minimal\) to 10 \(critical\). Higher values indicate findings that should be addressed first.
+    The business and technical risk of leaving the finding unresolved, rated from 1 \(minimal\) to 10 \(critical\) within each enforcement level. Higher values indicate findings that should be addressed first within that level.
+
+    Impact ratings operate independently within each enforcement level and do not create a global 1–10 scale across all levels.
 
 
-Together, these two dimensions help you balance enforcement requirements against risk prioritization. For full details, see [Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md).
+These two dimensions work together, enforcement level determines what action is required, while impact rating determines the order in which findings should be addressed within that enforcement level. For full details, see [Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md).
 
 ## Enforcement levels and risk impact
 
@@ -59,7 +61,7 @@ ACT
 
 </td><td>
 
-8–10
+1–10
 
 </td><td>
 
@@ -77,11 +79,11 @@ RECOMMEND
 
 </td><td>
 
-5–7
+1-10
 
 </td><td>
 
-High severity issues that may degrade performance, stability, or security. Exceptions with governance are allowed.
+High severity issues that may degrade performance, stability, or security. Exceptions are allowed with approval.
 
 </td><td>
 
@@ -94,7 +96,7 @@ SUGGEST
 
 </td><td>
 
-2–4
+1-10
 
 </td><td>
 
@@ -112,7 +114,7 @@ REVIEW
 
 </td><td>
 
-0-1
+1-10
 
 </td><td>
 
@@ -123,7 +125,11 @@ Low impact, informational findings with minimal impact \(e.g., unused fields or 
 Monitor and optionally fix during future development cycles.
 
 </td></tr></tbody>
-</table>## Examples
+</table>**Important:** Impact rating applies independently to each enforcement level. An ACT 1 finding is always higher priority than a recommend 10 level finding, even though the numbers appear reversed.
+
+Enforcement level takes precedence over impact rating in prioritization. The 1–10 scale within each level allows granular severity differentiation while maintaining the enforcement hierarchy.
+
+## Examples
 
 These two metrics work together to help teams balance enforcement and risk prioritization, ensuring critical issues are addressed first while maintaining development velocity.
 

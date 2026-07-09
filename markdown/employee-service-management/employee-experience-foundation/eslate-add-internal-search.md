@@ -19,7 +19,7 @@ Add internal search sources to include ServiceNow table content in Employee Slat
 
 ## Before you begin
 
-The Employee Slate for Now Assist product is installed and configured through the Product Configuration console.
+The Employee Slate for Now Assist product is installed and configured through the **Product Configuration console**.
 
 You have identified the table that you want to index as a search source.
 
@@ -31,7 +31,7 @@ Internal search sources contribute results to the conversational assistant from 
 
 ## Procedure
 
-1.  In the **Data Sources** module of the Product Configuration console, open the **Internal Sources** configuration.
+1.  In the **Data Sources** module of the **Product Configuration console**, open the **Internal Sources** configuration.
 
 2.  Select **Create New**.
 
@@ -51,7 +51,7 @@ Internal search sources contribute results to the conversational assistant from 
 
 7.  Select **Manage Search Profile** to open the AI Search Admin Console.
 
-    Use the AI Search Admin Console to manage advanced configurations such as synonyms, dictionaries, and stop words.
+    Use the **AI Search Admin Console** to manage advanced configurations such as synonyms, dictionaries, and stop words.
 
 
 ## Result

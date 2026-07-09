@@ -18,15 +18,15 @@ Explore the benefits of Now Assist for Automation Center.
 
 ## Now Assist for Automation Center
 
-Now Assist for Automation Center helps you create an automation request from Task Mining workspace.
-
-## User Task Step Summarization skill
-
-Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md).
+Now Assist for Automation Center helps you use AI to ease your tasks in Automation Center.
 
 ## Saving Estimator skill
 
 Now Assist for Automation Center includes the Saving Estimator skill, which must be activated to explore and discover automations from your ServiceNow® instance. For information about activating the skill, see [Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md). For information about how to explore automations, see [Explore automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/auto-explorer.md).
+
+## User task step summarization skill
+
+Now Assist for Automation Center includes the User task step summarization skill. The User task step summarization skill uses the user interaction steps from Task Mining and produces a targeted summary of the intended business outcome, and a decomposed set of detailed steps derived from the original interactions. For more information about activating the skill, see [Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md). For information about creating an automation request from Task Mining workspace, see .
 
 **Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)
 

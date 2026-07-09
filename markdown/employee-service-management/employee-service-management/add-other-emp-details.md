@@ -1,6 +1,6 @@
 ---
 title: Add other employment details
-description: Update the alumni profile with additional employment details to ensure an accurate career history and provide tailored job opportunities.
+description: Update the alumni profile with additional employment details to confirm an accurate career history and provide tailored job opportunities.
 locale: en-US
 release: australia
 topic_type: task
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 
 # Add other employment details
 
-Update the alumni profile with additional employment details to ensure an accurate career history and provide tailored job opportunities.
+Update the alumni profile with additional employment details to confirm an accurate career history and provide tailored job opportunities.
 
 ## Before you begin
 
@@ -49,8 +49,8 @@ Role required: sn\_asc.alumni
 
 ## What to do next
 
--   Use \[Omitted image "alumni-plus-icon.png"\] icon to add additional employment details.
--   Use \[Omitted image "rename-icon.png"\] Alt text: Edit row icon. to edit the existing employment details.
+-   Use plus icon \(\[Omitted image "plus-fill-24.svg"\]\) to add additional employment details.
+-   Use pencil icon \(\[Omitted image "pencil-fill-24.svg"\]\) to edit the existing employment details.
 -   Use the **Delete** button to delete an existing employment information.
 
 **Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)

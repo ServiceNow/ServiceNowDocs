@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 5
 breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -131,7 +131,7 @@ This field is automatically set to the last error message.
 
     4.  On the Kafka SSL Authentication screen, fill in the Kafka SSL credentials fields.
 
-        For the Kafka SSL credentials fields descriptions, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md)
+        For the Kafka SSL credentials field descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
         **Note:** If you clear the **Disable hostname verification** field, then in the **Additional Kafka consumer properties** field, enter the value of the **ssl.endpoint.identification.algorithm** parameter the same as of the Kafka server parameter value. For example:
 
@@ -254,8 +254,6 @@ topic
 </td><td>
 
 The Kafka topic from which the messages are fetched.
-
- This field is required.
 
 </td></tr></tbody>
 </table>8.  In the **MID Servers for Connectors** section, specify a MID Server that is up and is valid.

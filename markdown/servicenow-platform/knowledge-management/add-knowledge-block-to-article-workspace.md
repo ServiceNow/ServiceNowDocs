@@ -38,7 +38,7 @@ Role required: agent\_workspace\_user and knowledge
 
     -   Knowledge blocks are supported only with HTML knowledge articles. Make sure that the **Article type** field is set to **HTML**.
     -   If a knowledge article uses an article template, you can add knowledge blocks to any fields associated with the article template.
-4.  In the contextual side panel, click the add blocks icon \(\[Omitted image "add-block.png"\] Alt text: Add Blocks icon\).
+4.  In the contextual side panel, click the add blocks icon .
 
 5.  Search for the article to which you want to add the knowledge block.
 

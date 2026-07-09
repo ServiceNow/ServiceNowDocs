@@ -1,6 +1,6 @@
 ---
 title: Introduction to ServiceNow Vault
-description: This accelerator provides an overview of the possibilities and capabilities of ServiceNow Vault.
+description: This Accelerator provides an overview of the possibilities and capabilities of ServiceNow Vault.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/introduction-to-servicenow-vault.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-04-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Vault, Platform Encryption, Data Privacy, Zero Trust Access, Security, Compliance]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Introduction to ServiceNow Vault
 
-This accelerator provides an overview of the possibilities and capabilities of ServiceNow Vault.
+This Accelerator provides an overview of the possibilities and capabilities of ServiceNow Vault.
 
 ## Accelerator Overview
 

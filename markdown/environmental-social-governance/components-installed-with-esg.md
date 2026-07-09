@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -74,7 +74,7 @@ These users can read and update the **sn\_esg\_scope3.historical\_years\_selecto
 
 </td><td>
 
-sn\_risk.implementation\_manager, sn\_grc.forecast.admin, sn\_esg.msoff\_intg.admin, sn\_esg.internal\_disclosure\_manager, sn\_grc\_metric.admin, sn\_grc\_doc\_design.admin, report\_user, sn\_esg.integrations\_admin, sn\_esg.program\_manager, sn\_esg.internal\_admin, mp\_document\_user, sn\_risk\_advanced.ara\_admin, sn\_grc\_claims.admin
+sn\_grc.forecast.admin, sn\_esg.msoff\_intg.admin, sn\_esg.internal\_disclosure\_manager, sn\_grc\_metric.admin, sn\_grc\_doc\_design.admin, report\_user, sn\_esg.integrations\_admin, sn\_esg.program\_manager, sn\_esg.internal\_admin, mp\_document\_user, sn\_grc\_claims.adminIf the ESG Risk Management plugin is activated, the sn\_risk\_advanced.ara\_assessor and sn\_risk.implementation\_manager roles are installed.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Users with this role can read the following:-   Goals
 
 </td><td>
 
-sn\_grc.library\_reader, sn\_gf.goal\_user\_read, sn\_grc\_workspace.task\_reader, sn\_risk\_advanced.ara\_assessor, sn\_grc\_metric.reader, sn\_grc\_metric.user, sn\_risk.library\_business\_user, sn\_risk.implementation\_business\_userIf the ESG Risk Management plugin is activated, sn\_risk\_advanced.ara\_assessor sn\_risk.reader roles are installed.
+sn\_grc.library\_reader, sn\_gf.goal\_user\_read, sn\_grc\_workspace.task\_reader, sn\_grc\_metric.reader, sn\_grc\_metric.user, If the ESG Risk Management plugin is activated, the sn\_risk\_advanced.ara\_assessor, sn\_risk.library\_reader, sn\_risk\_advanced.ara\_assessor, sn\_risk.library\_business\_user, and sn\_risk.implementation\_business\_user roles are installed.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ They can read and update the system property Scope 3 dashboard's historical year
 
 </td><td>
 
-sn\_esg.reader, sn\_gf.epmo\_strategy\_planner, sn\_grc\_metric.manager, sn\_gf.goal\_user, sn\_esg.internal\_manager, sn\_grc.library\_admin, sn\_compliance.library\_admin, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_approver, sn\_grc\_claims.manager, sn\_risk.implementation\_business\_user, sn\_grc\_forecast.manager, sn\_compliance.control\_employee\_reader, sn\_esg\_content.admin, sn\_compliance.control\_framework\_reader, sn\_grc.issue\_employee\_user
+sn\_esg.reader, sn\_gf.epmo\_strategy\_planner, sn\_grc\_metric.manager, sn\_gf.goal\_user, sn\_esg.internal\_manager, sn\_grc.library\_admin, sn\_compliance.library\_admin,sn\_grc\_claims.manager, sn\_grc\_forecast.manager, sn\_compliance.control\_employee\_reader, sn\_esg\_content.admin, sn\_compliance.control\_framework\_reader, sn\_grc.issue\_employee\_userIf the ESG Risk Management plugin is activated,the sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_approver, and sn\_risk.implementation\_business\_user roles are installed.
 
 </td></tr><tr><td>
 

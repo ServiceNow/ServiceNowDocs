@@ -84,3 +84,10 @@ Detailed description of the issue.**Note:** When you start entering the subject,
 
 The new case is created and added to the Cases list. To view the case, select the link in the case creation message or select **Requests** &gt; **View submitted requests** &gt; **View cases and tasks** from the portal header, and then select the case number.
 
+**Related topics**  
+
+
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+
+[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-on-consumer-portal.md)
+

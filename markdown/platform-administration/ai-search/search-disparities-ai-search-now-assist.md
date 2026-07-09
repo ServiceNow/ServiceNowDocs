@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -37,7 +37,7 @@ Keyword search should return consistent results for the same search until your s
 
 The Now Assist Genius Result configurations offered in Now Assist in AI Search use a hybrid search mode. This mode blends keyword search with semantic vector search to find results in the AI Search index based on the intention and meaning of your search as well as on the best term matches.
 
-The most relevant matching results are merged into a prompt that's sent to a Large Language Model \(LLM\) for answer generation. Because LLMs are not deterministic, they don't always produce the same output even when given the same input. As a result of the non-deterministic behavior of the LLM, Now Assist Genius Results are likely to return varying results for the same search, even when submitted at the same time.
+The most relevant matching results are merged into a prompt that's sent to a large language model \(LLM\) for answer generation. Because LLMs aren't deterministic, they don't always produce the same output even when given the same input. As a result of the non-deterministic behavior of the LLM, Now Assist Genius Results are likely to return varying results for the same search, even when submitted at the same time.
 
 **Note:** For more information on how LLMs introduce variations into their results, see [Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aisearch-differences.md).
 

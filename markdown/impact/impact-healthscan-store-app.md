@@ -71,7 +71,7 @@ Diagnostic scans- On-demand scan \(subsequent delta scans\)
 
 -   Scans for configured updates that occurred since the last scan.
 -   Specifically analyzes application files that have been modified or sys\_update\_xml records.
--   Delta scans always look for definitions marked to return one row check per system property.
+-   Delta scans look for definitions marked to return one row check per system property.
 -   Scans for specific definitions that were identified as development issues in a previous scan.
 
 **Note:** See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) for on-demand scan configuration options and [Full and delta instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-parallel-processing.md) for scan information.
@@ -101,9 +101,7 @@ Application scan
 Scan applications to identify definition findings before publishing to the application repository. **Note:** See [Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiating-on-demand-scans-scan-engine.md) for details.
 
 </td></tr></tbody>
-</table>## Configuration overview
+</table>For more information on running the Scan Engine, see [Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md), and [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md) for findings charts.
 
-For more information on configuring and running the Scan Engine, see [Running on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md), and [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md).
-
-**Note:** Scan Engine findings are not transmitted to the Impact Delivery Instance through the Guided Setup integration.
+**Note:** Scan Engine findings aren't transmitted to the Impact Delivery Instance through the Guided Setup integration.
 

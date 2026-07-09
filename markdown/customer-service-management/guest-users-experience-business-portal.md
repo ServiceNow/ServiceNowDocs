@@ -14,7 +14,9 @@ breadcrumb: [Business Portal, Customer communication, Use, Customer Service Mana
 
 Guest users can view the header, footer, knowledge articles cards, and resources menu on the home page.
 
-Guest users landing on the Business Portal can access the home page and several public elements, including the header, menu, footer, and banner widgets, which feature the **Browse Services** and **FAQs** buttons.
+Guest users landing on the Business Portal can access the home page and several public elements, including the header, menu, footer, and banner widgets.
+
+These widgets feature the **Browse Services** and **FAQs** buttons.
 
 They can also view taxonomy topic cards showcasing public content, such as articles and catalog items, and the Knowledge quick link widget displaying public articles.
 

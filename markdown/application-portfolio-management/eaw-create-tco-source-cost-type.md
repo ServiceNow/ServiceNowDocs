@@ -50,7 +50,7 @@ After a source is created for the TCO, you can create a source cost type from th
 
 [Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source.md)
 
-[Set the duration of a fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
+[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
 
 [Create a cost type for Application TCO in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-cost-type.md)
 

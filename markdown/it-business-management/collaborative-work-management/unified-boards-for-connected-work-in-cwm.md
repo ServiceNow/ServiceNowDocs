@@ -36,6 +36,8 @@ The Connected work feature in CWM enables bringing in all types of work items fr
 
     Teams can update the status and other details of connected work items directly from the side panel within the CWM board. This real-time updating capability enhances transparency and keeps everyone involved on the same page. For more information, see [Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md).
 
+    To customize the fields that appear in the side panel for CWM tasks and connected work items, see [Configure the form view for CWM tasks and connected work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.md).
+
     Deleting a connected work item record only removes it from the Board in CWM but doesn't delete the original record.
 
 -   **Improved efficiency**

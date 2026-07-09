@@ -7,8 +7,8 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-07-02"
+reading_time_minutes: 13
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -125,7 +125,7 @@ Creates an Okta application record or updates an existing Okta application recor
 </td></tr></tbody>
 </table>## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Description|
 |----------------------|-----------|
@@ -138,18 +138,54 @@ Install Now Assist for Conversational Spokes and start using the conversational 
 |Is User in Group - Sample|Specifies if the user is a member of the provided group.|
 |Look up Users by Application - Sample|Retrieves details of users that have access to the specific application.|
 
-## Spoke module
+## Spoke modules
 
 The Okta spoke adds the Okta application to your ServiceNow instance and includes these modules:
 
-|Module|Description|
-|------|-----------|
-|Okta Applications|Shows the list of applications.|
-|Okta groups|Shows the list of user groups at Okta.|
-|Okta Users|Shows the list of users at Okta.|
-|Okta Webhook Registry|Shows the list of webhook registries.|
+<table id="table_hpp_vmz_mpb"><thead><tr><th>
 
-## Spoke actions
+Module
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Okta Applications
+
+</td><td>
+
+Shows the list of applications. Click **New** to create an application record.
+
+</td></tr><tr><td>
+
+Okta groups
+
+</td><td>
+
+Shows the list of user groups at Okta. Click **Fetch Okta Groups** to retrieve details of the Okta groups. For more information, see [Fetch Okta groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fetch-okta-groups.md).
+
+</td></tr><tr><td>
+
+Okta Users
+
+</td><td>
+
+Shows the list of users at Okta.This is a remote table. When you click the **Okta Users** module, Okta Users \[sn\_okta\_spoke\_users\] remote table definition is triggered and user details are cached in memory. For more information about the remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
+
+You can modify script definition of the Okta Users \[sn\_okta\_spoke\_users\] remote table definition as per your requirement.
+
+</td></tr><tr><td>
+
+Okta Webhook Registry
+
+</td><td>
+
+Shows the list of webhook registries. Click **New** to create a webhook registry. For more information, see[Set up a bi-directional webhook for Okta spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-okta.md).
+
+</td></tr></tbody>
+</table>## Spoke actions
 
 The Okta spoke provides actions to authenticate and manage users and groups. Available actions include:
 
@@ -598,22 +634,22 @@ Verifies and retrieves an external service endpoint configured for an event hook
 </td></tr></tbody>
 </table>## Available conversational actions
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
 
 Available conversation action is Create Group that creates a group in Okta with the provided details.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 

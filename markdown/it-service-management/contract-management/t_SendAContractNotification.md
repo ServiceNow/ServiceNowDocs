@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Verify contract administrator assignment for notification

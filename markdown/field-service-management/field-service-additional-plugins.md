@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Activate, Configure, Field Service Management]
 ---
 
@@ -363,6 +363,42 @@ com.sn\_shn
 </td><td>
 
 Enables users to quickly view important information about records.
+
+</td></tr><tr><td>
+
+Site Mapping for Field Service Management
+
+</td><td>
+
+sn\_fsm\_site\_map
+
+</td><td>
+
+Enables visual site maps within Field Service Management so agents and dispatchers can navigate locations within a facility.
+
+</td></tr><tr><td>
+
+Smart Assessment for Field Service Questionnaire
+
+</td><td>
+
+sn\_fsm\_smart\_asmt
+
+</td><td>
+
+Enables AI-powered smart assessments within field service questionnaires. Requires a separate subscription.
+
+</td></tr><tr><td>
+
+Sidebar for Field Service Mobile Agent
+
+</td><td>
+
+sn\_fsm\_sidebar
+
+</td><td>
+
+Activates the Sidebar AI feature on the Field Service Mobile Agent application.
 
 </td></tr></tbody>
 </table>**Related topics**  

@@ -51,6 +51,8 @@ Employee can quickly scan the remainder of leaves for the year and select **Requ
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Employee Profile org chart widget]()
 
 [RTL support for Employee Center]()

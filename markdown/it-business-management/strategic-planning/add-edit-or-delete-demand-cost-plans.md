@@ -42,15 +42,15 @@ If you’re creating a cost plan for a demand with the PPM Standard Multicurrenc
 
     **Note:** If the **Cost Plans** tab isn’t visible, select **More** and then select **Cost Plans**.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d195001e139">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d194726e139">
 
 Choice
 
-</th><th align="left" id="d195001e142">
+</th><th align="left" id="d194726e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195001e148">
+</th></tr></thead><tbody><tr><td id="d194726e148">
 
 **To create a cost plan**
 
@@ -64,7 +64,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d195001e184">
+</td></tr><tr><td id="d194726e184">
 
 **To edit a cost plan**
 
@@ -72,7 +72,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 
 Select the name of the cost plan, edit the required details and select **Save**.
 
-</td></tr><tr><td id="d195001e196">
+</td></tr><tr><td id="d194726e196">
 
 **To view and manage cost plan breakdowns**
 
@@ -85,7 +85,7 @@ Select the name of the cost plan, edit the required details and select **Save**.
     -   To delete a fiscal record, select **Delete** from the More Actions option in the fiscal period record form.
 
 
-</td></tr><tr><td id="d195001e234">
+</td></tr><tr><td id="d194726e234">
 
 **To create cost plan breakdowns**
 
@@ -97,7 +97,7 @@ Select the name of the cost plan, edit the required details and select **Save**.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d195001e275">
+</td></tr><tr><td id="d194726e275">
 
 **To delete a cost plan**
 
@@ -112,15 +112,13 @@ Delete a cost plan in one of the following ways:-   Select a record from the **C
 
     This step helps you to plan for the future expenses and re-forecast the planned costs.
 
-    Alternatively, you can create, edit, or delete cost plans and cost plan breakdowns using the **Estimate financial cost** playbook activity. For more information, see [Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+    Alternatively, you can create, edit, or delete cost plans and cost plan breakdowns using the **Estimate financial cost** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 
 **Related topics**  
 
 
-[Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
 [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/cost-plan-form-dw.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-06-03"
-reading_time_minutes: 1
+last_updated: "2026-07-07"
+reading_time_minutes: 2
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -112,6 +112,38 @@ SGO-Dynatrace SaaS Service \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_service\
 </td><td>
 
 -
+
+</td></tr><tr><td>
+
+SGO-Dynatrace Classic Migration Cleanup
+
+</td><td>
+
+SGO-Dynatrace Classic Migration Cleanup \[sn\_dynatrace\_saas\_sgo\_dynatrace\_classic\_migration\_cleanup\]
+
+</td><td>
+
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+
+</td><td>
+
+One-time cleanup of stale process CIs \(after migration\) originally ingested by the Dynatrace Classic connector \(SGO-Dynatrace\).​ See [dynatrace\_classic\_connection\_alias\_sys\_id connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
+
+</td></tr><tr><td>
+
+SGO-Dynatrace SaaS CI Retirement
+
+</td><td>
+
+SGO-Dynatrace SaaS CI Retirement \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_ci\_retirement\]
+
+</td><td>
+
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+
+</td><td>
+
+Automatically retire stale CIs that aren't seen for a configurable threshold. See [ci\_retirement\_threshold\_days connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
 
 </td></tr></tbody>
 </table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.

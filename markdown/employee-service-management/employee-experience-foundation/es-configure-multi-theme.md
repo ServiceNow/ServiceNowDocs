@@ -27,11 +27,11 @@ Configure multiple themes to provide different branding experiences based on use
 
 ## Procedure
 
-1.  Navigate to your Admin Home page on your instance.
+1.  Navigate to your **Admin Home** page on your instance.
 
     Applications and plugins based on your admin entitlement status appear.
 
-2.  Select **Configure** &gt; **Appearance** &gt; **Additional themes** &gt; **.**.
+2.  Select **Configure** &gt; **Appearance** &gt; **Additional themes**.
 
     The configuration panel summary opens with branding and other configuration options.
 
@@ -47,19 +47,19 @@ Configure multiple themes to provide different branding experiences based on use
 
 5.  Specify a descriptive name, upload logos and branding elements, and set color schemes and visual styling.
 
-6.  Select **View/Add user criteria** to define the target users criteria for theme.
+6.  Select **View/Add user criteria** to define the target user criteria for the theme.
 
     \[Omitted image "es-user-criteria-form.png"\] Alt text: User Criteria form with Name, Companies, Groups, Locations, Roles, and Departments fields
 
-    1.  Select the user criteria from available options include user roles, groups, companies departments, geographic locations, advanced, and more.
+    1.  Select the user criteria from the available options, which include user roles, groups, companies, departments, geographic locations, advanced, and more.
 
     2.  Save the user criteria configuration.
 
-7.  Click **Save**.
+7.  Select **Save**.
 
     The saved theme appears in the additional themes list and is available for users based on the defined criteria.
 
-8.  Validate the theme by impersonating as a different user.
+8.  Validate the theme by impersonating a different user.
 
     The selected theme applies based on the user criteria.
 

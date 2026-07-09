@@ -34,10 +34,10 @@ To learn about how to use the Change form in Design and Assign to perform equipm
 
 Instead of defining the inventory models and templates for automated generation of network asset instances, you can manually create your network assets and a digital model of your network. You use a series of forms that you access from the Network Inventory Workspace to manually create and review individual network asset instances, and then define the relationships between each individual asset.. To learn more, see:
 
--   [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+-   [Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 -   [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
--   **[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)**  
+-   **[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)**  
 You use the Network Inventory Workspace to manage your inventory and perform the tasks in the Telecommunications Network Inventory application.
 -   **[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)**  
 As an inventory catalog manager, you can use a series of forms to define the metadata for each network model in the Telecommunications Network Inventory. During this process, you also specify the relationships between each of these models.
@@ -46,7 +46,7 @@ As an inventory template manager, you create templates using functions you acces
 -   **[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)**  
 Use this sequence as a guide when creating inventory templates for your equipment and establishing the proper template relationships in the Telecommunications Network Inventory application.
 -   **[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)**  
-Import models and templates to ensure consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
+Import models and templates to verify consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
 -   **[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)**  
 By instantiating your network inventory in the Telecommunications Network Inventory application, you can generate and validate your inventory records at the site level. You can also generate your individual network instances from your defined inventory templates and models and then verify that they’re properly configured.
 -   **[Viewing your network inventory configuration items with CMDB or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md)**  
@@ -61,6 +61,8 @@ Use the Design and Assign function for a network service in the Telecommunicatio
 Use the Network visualization view in the Telecommunications Network Inventory application to explore your network site details, datacenters's floor map, and network topology.
 -   **[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)**  
 Use Remote Hands Request Management to enables customers to request services for equipment housed in your datacenter by connecting them directly with your onsite agents handling the remote hands requests.
+-   **[Access TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)**  
+Access TNI data model navigator to view the contextually organised CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
 **Parent Topic:**[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 

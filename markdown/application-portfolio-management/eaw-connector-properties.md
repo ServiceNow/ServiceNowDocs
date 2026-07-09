@@ -27,7 +27,7 @@ When both connected shapes are ArchiMate shapes, the toolbar shows the following
 |**Swap direction**|Reverses the connector orientation, switching the left and right sides.|
 |**T+**|Adds a text label to the connector.|
 
-\[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button above a connector linking two shapes.
+\[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button on top of the connector line linking two shapes.
 
 The **Relationship type** drop-down provides the standard ArchiMate 3.2 relationship types, including Access, Aggregation, Assignment, Association, Composition, Flow, Influence, Realization, Serving, Specialization, Triggering, and Used by.
 

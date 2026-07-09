@@ -50,13 +50,12 @@ AI Risk and Compliance management
 
 </td><td>
 
--   AI Control Tower Core \(sn\_ai\_governance:6.2.6\)
+-   AI Control Tower Core \(sn\_ai\_governance:7.6.4\)
 -   GRC Feature roles \(sn\_grc\_ftr\_role:22.0.1\)
 -   GRC: Common workspace elements \(sn\_grc\_workspace:22.0.4\)
 -   GRC: Policy and Compliance management \(sn\_compliance:22.0.2\)
 -   Post assessment actions for Smart assessments \(sn\_smart\_imp\_auto:22.0.2\)
-
- -   GRC: Risk management \(sn\_risk:22.0.2\)
+-   GRC: Risk management \(sn\_risk:22.0.2\)
 -   Regulatory agency library \(sn\_reg\_body\_mgmt:21.1.1\)
 -   Smart assessment core \(sn\_smart\_asmt:21.0.4\)
 -   Smart assessment connected \(sn\_smart\_asmt\_conn:22.0.3\)
@@ -82,11 +81,11 @@ AI Control Tower
 -   AI Control Tower Core \(sn\_ai\_governance:6.2.6\)
 -   AI Risk and Compliance integration with Control Tower \(sn\_grc\_ai\_irm\_intg:22.2.0\)
 -   Engagement dashboard for AI Control Tower \(sn\_ai\_engagement:2.1.6\)
--   Value dashboard for AI Control Tower \(sn\_ai\_value:5.0.3\)
--   AI Discovery \(sn\_ai\_disc:2.0.6\)
+-   Value dashboard for AI Control Tower \(sn\_ai\_value:6.0.0\)
+-   AI Discovery \(sn\_ai\_disc:2.8.1\)
 
 </td></tr></tbody>
-</table>After installing AI Control Tower \(sn\_aict\) from the ServiceNow Store, the required dependency plugins will be installed automatically.
+</table>After installing AI Control Tower \(sn\_aict\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), the required dependency plugins will be installed automatically.
 
-For information about downloading any application from ServiceNow store, see [Download any application from ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md)
+For information about downloading any application from ServiceNow store, see Download any application from ServiceNow
 

@@ -39,8 +39,8 @@ Currently, Link View is supported for several alert groups. For more information
 -   [Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/tag-based-link-view-express-list.md)
 -   [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-rule-based-link-view.md)
 -   [Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-cmdb-based-link-view.md)
--   [Viewing links between alerts in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-network-traffic-based-link-view.md)
--   [Viewing links between alerts in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/log-analytic-based-link-view.md)
+-   [Alert links in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-network-traffic-based-link-view.md)
+-   [Alert links in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/log-analytic-based-link-view.md)
 -   [Viewing links between alerts in mixed alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/unified-alert-group-link-view.md)
 
 **Related topics**  

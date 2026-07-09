@@ -61,8 +61,8 @@ When your users have network access again, they can disable ofﬂine mode and sy
 \[Omitted image "offline-conflict.png"\] Alt text: Screens showing how to synchronize data.
 
 </td></tr></tbody>
-</table>-   **[Mobile experience capabilities available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-capabilities.md)**  
-Use the table to view the various capabilities and features that are either fully, partially or not supported in offline mode.
+</table>-   **[Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-capabilities.md)**  
+Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
 -   **[System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-system-properties.md)**  
 Use the table to view system properties related to offline mode.
 -   **[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-setup-options.md)**  

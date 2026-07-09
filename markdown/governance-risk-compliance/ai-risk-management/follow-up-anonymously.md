@@ -33,15 +33,15 @@ After you submitted your anonymous AI case, the system generated a report number
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d394413e112">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d390943e112">
 
 Option
 
-</th><th align="left" id="d394413e115">
+</th><th align="left" id="d390943e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394413e121">
+</th></tr></thead><tbody><tr><td id="d390943e121">
 
 **Direct portal access**
 
@@ -51,7 +51,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d394413e145">
+</td></tr><tr><td id="d390943e145">
 
 **Employee center access**
 

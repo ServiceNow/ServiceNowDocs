@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Submit a purchase request, Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Submit a purchase request, Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Upload a Statement of Work \(SOW\) to request a purchase

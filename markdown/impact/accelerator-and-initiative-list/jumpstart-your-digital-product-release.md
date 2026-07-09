@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Digital Product Release
-description: This accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Digital Product Release
 
-This accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
+This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
 
 ## Accelerator Overview
 
-Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a comprehensive overview of Digital Product Release and its function as the orchestrator of the release process. It explains how DPR enables product and release teams to consistently plan and deliver new versions by providing visibility across the release life cycle and automating release-readiness validation. This accelerator also offers key resources and leading practices to help you get started.
+Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a comprehensive overview of Digital Product Release and its function as the orchestrator of the release process. It explains how DPR enables product and release teams to consistently plan and deliver new versions by providing visibility across the release life cycle and automating release-readiness validation. This Accelerator also offers key resources and leading practices to help you get started.
 
 ## Package Availability
 

@@ -1,6 +1,6 @@
 ---
 title: View approval history in Agent Workspace for HR Case Management
-description: Review the approval history in the activity stream. Get a better understanding of when the approval request was created, who were the approvers, and when was the request rejected or approved.
+description: View approval history in the activity stream to track approval requests, approvers, and approval status for HR cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/view-approval-history.html
 release: australia
@@ -14,12 +14,12 @@ breadcrumb: [Working with approvers for a case in Agent Workspace for HR Case Ma
 
 # View approval history in Agent Workspace for HR Case Management
 
-Review the approval history in the activity stream. Get a better understanding of when the approval request was created, who were the approvers, and when was the request rejected or approved.
+View approval history in the activity stream to track approval requests, approvers, and approval status for HR cases.
 
 ## Before you begin
 
 -   Role required: sn\_hr\_core.case\_writer
--   Ensure that the following plugins are installed: Human Resources Scoped App:Core, Human Resources Scoped App:Lifecycle Events, Human Resources Scoped App:Lifecycle Events for Enterprise, HRSD Configurable Workspace, and Human Resources Scoped app Workspace.
+-   Confirm that the following plugins are installed: Human Resources Scoped App:Core, Human Resources Scoped App:Lifecycle Events, Human Resources Scoped App:Lifecycle Events for Enterprise, HRSD Configurable Workspace, and Human Resources Scoped app Workspace.
 
 ## Procedure
 

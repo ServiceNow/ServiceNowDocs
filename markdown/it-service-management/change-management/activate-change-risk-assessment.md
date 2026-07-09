@@ -89,7 +89,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

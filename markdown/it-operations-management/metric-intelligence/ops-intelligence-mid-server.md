@@ -1,5 +1,5 @@
 ---
-title: MID Server and MID Server distributed cluster for Metric Intelligence
+title: MID Server distributed cluster for Metric Intelligence
 description: Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/ops-intelligence-mid-server.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
-# MID Server and MID Server distributed cluster for Metric Intelligence
+# MID Server distributed cluster for Metric Intelligence
 
 Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 
@@ -100,6 +100,8 @@ Windows
 32-bit and 64-bit versions:-   Windows 2008 R2
 -   Windows Server 2012 R2
 -   Windows Server 2019
+-   Windows Server 2022
+-   Windows Server 2025
 
 </td><td>
 

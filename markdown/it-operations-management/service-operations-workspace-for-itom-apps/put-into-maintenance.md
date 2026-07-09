@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -38,4 +38,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 ## Result
 
 Alerts are muted for the configuration items of that alert.
+
+**Note:** The maintenance timeframe isn't provided in the **Put in Maintenance** action. Alert maintenance status is calculated based on whether the related CI is currently in maintenance, such as during an active change request or through a maintenance rule. The **Maintenance Calculation** scheduled job updates associated alerts when the CI enters or exits maintenance.
 

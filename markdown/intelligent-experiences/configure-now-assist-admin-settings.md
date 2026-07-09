@@ -26,6 +26,8 @@ Data sharing and processes topic description.
 Access and select the LLM \(large language model\) provider used for various Now Assist skills. The selection impacts all the skills within the capability.
 -   **[Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-now-assist-account-information.md)**  
 Review your Now Assist license details on the Account page of the Now Assist Admin console to make sure that you're up to date on what's available to you.
+-   **[Usage alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/usage-alerts.md)**  
+Summarize usage alerts topic.
 
 **Parent Topic:**[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

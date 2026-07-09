@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-accessibility-preferences.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [accessibility preferences, next experience accessibility]
 breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -16,8 +16,6 @@ breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Co
 Set up Next Experience accessibility preferences to achieve a UI that's most accessible to you.
 
 ## Before you begin
-
-Next Experience includes a guided tour that introduces the available accessibility preferences and where to find them. The guided tour is available from the Help Center \[Omitted image "help-icon-new.png"\] Alt text: Help Center in Unified navigation header. and provides an in-context walkthrough of the preferences and related settings.
 
 Role required: none
 
@@ -105,7 +103,7 @@ Allows keyboard-only users to access truncated text. Truncated text is text that
 
 </td><td>
 
-Voice input is activated automatically when Now Assist panel is activated. As of the Zurich patch 4, voice input is configured in [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
+Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
 Activates voice-to-text in the Now Assist panel. With this feature, use your voice to access Now Assist skills in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) in any supported language. For more information on this preference, see [Enable voice input for the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-voice-input-pref.md).**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
@@ -116,14 +114,6 @@ Activates voice-to-text in the Now Assist panel. With this feature, use your voi
 </td><td>
 
 Keeps page alerts visible until you acknowledge them. When this preference is turned off, page alerts may disappear after a certain amount of time depending on how the specific page alert is configured. For more information, see [Do not auto-dismiss page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/do-not-auto-dismiss-pref.md).**Note:** Critical and warning alerts do not disappear. If focus is applied to the alert, the auto-dismiss feature will not apply.
-
-</td></tr><tr><td>
-
-\[Omitted image "pol-pref-auto-focus.png"\] Alt text: Enable auto-focus on page alerts.
-
-</td><td>
-
-Automatically shifts focus to any page alert as soon as it appears.
 
 </td></tr></tbody>
 </table>    **Note:** If users have configured operating system-specific settings, such as forced colors or contrast in Windows, those settings are not overridden by Next Experience user preferences or themes. If those OS-specific settings are inactive, color and theme behaviors will revert to those behaviors defined in the Next Experience UI.

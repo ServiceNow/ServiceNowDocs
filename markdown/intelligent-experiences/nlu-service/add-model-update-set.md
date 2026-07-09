@@ -44,7 +44,7 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see . The following video provides a demonstration of this process.
+For information about parent-child update sets, see .
 
 ## Procedure
 

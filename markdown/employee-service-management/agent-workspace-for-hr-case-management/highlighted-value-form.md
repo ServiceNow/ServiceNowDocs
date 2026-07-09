@@ -94,7 +94,7 @@ Text that replaces the field values from the table.If you don't supply a Value O
 **Related topics**  
 
 
-[Create a new case form]()
+[Create a case form]()
 
 [Page Configurations reference]()
 

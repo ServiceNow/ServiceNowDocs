@@ -54,11 +54,11 @@ Use the following procedures to configure and customize the GOV.UK Developer Too
 
 [Configure the GOV.UK Design System Service Portal User Profile page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-profile-page.md)
 
-[Configure the Error Pages for GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-error-page.md)
+[Configure the GOV.UK Design System Service Portal Error Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-error-page.md)
 
 **Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
 **Previous topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
-**Next topic:**[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
+**Next topic:**[Configure GDS Service Portal Search Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-search.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Pre-authorization
-description: A pre-authorization request is a process to confirm the approval before initiating activities, such as repairs, material procurement, or labor costs that are included under warranty or service agreements. This procedure confirms that all required inspections and criteria are satisfied and duly authorized by the Warranty Specialist. When a claim is created, approved pre-authorization requests can be used to generate claim jobs, avoiding re-entering of claim details. This process promotes quality assurance and operational efficiency in the process.
+description: A pre-authorization request is a process to confirm the approval before initiating activities, such as repairs, material procurement, or labor costs that are included under warranty or service agreements. This procedure confirms that all required inspections and criteria are satisfied and authorized by the Warranty Specialist. When a claim is created, approved pre-authorization requests can be used to generate claim jobs, avoiding reentering of claim details. This streamlines approval workflows and reduces processing delays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-pre-auth-request.html
 release: australia
@@ -12,60 +12,50 @@ breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 
 # Pre-authorization
 
-A pre-authorization request is a process to confirm the approval before initiating activities, such as repairs, material procurement, or labor costs that are included under warranty or service agreements. This procedure confirms that all required inspections and criteria are satisfied and duly authorized by the Warranty Specialist. When a claim is created, approved pre-authorization requests can be used to generate claim jobs, avoiding re-entering of claim details. This process promotes quality assurance and operational efficiency in the process.
+A pre-authorization request is a process to confirm the approval before initiating activities, such as repairs, material procurement, or labor costs that are included under warranty or service agreements. This procedure confirms that all required inspections and criteria are satisfied and authorized by the Warranty Specialist. When a claim is created, approved pre-authorization requests can be used to generate claim jobs, avoiding reentering of claim details. This streamlines approval workflows and reduces processing delays.
 
 ## Use case: Warranty pre-authorization request and approval
 
 Scenario
 
-James, a dealer warranty administrator, must submit a pre-authorization request before a technician begins repair work on a customer vehicle with a non-functioning air conditioner system. High-cost repairs under warranty require pre-authorization, but the process faces several challenges:
+James, a dealer warranty administrator, must obtain approval before a technician repairs a customer vehicle's air conditioning system. High-cost warranty repairs require pre-authorization, but manual processes create friction:
 
--   Disconnected systems and incomplete data cause request delays
--   Manual data entry across multiple platforms increases errors
--   Lack of standardized labor codes creates inconsistencies
--   Missing cost details lead to back-and-forth communication
--   Limited visibility into request status for both dealers and OEMs
--   Reentering approved request data when creating repair claims wastes time
+-   System disconnection: Disconnected systems cause delays and incomplete data entry
+-   Data inconsistency: Inconsistent labor codes and missing cost details require rework
+-   Visibility gap: Limited request visibility frustrates both dealers and OEMs
+-   Operational friction: Approved data must be re-entered when creating repair claims
 
 Solution
 
-Dealer Submission Process.
+MCO streamlines pre-authorization through a unified portal and guided workflow.
 
-James uses the MCO Dealer Portal to submit a pre-authorization request:
+James uses the MCO Dealer Portal to submit a pre-authorization request.
 
-1.  Accesses unified portal with recall campaigns, repair claims, and pre-authorization requests in one place
-2.  Initiates new request where MCO auto-loads vehicle assets linked to the dealership
-3.  Enters vehicle details including VIN, request date, work order number, mileage \(km\), and issue description
-4.  Launches guided playbook with step-by-step guidance through pre-authorization details, job entry, and preview
-5.  Adds claim job selecting warranty type, causal part \(AC compressor assembly\), action \(replacement\), and work description
-6.  Enters replacement part details including quantity, unit cost, and applicable tax
-7.  Selects a standardized labor code with three hours, base amount, and applicable tax
-8.  Adds miscellaneous costs for customer pickup services, then reviews and submits the request
+Angela, a warranty specialist, uses the MCO workspace to review and approve the request.
 
-OEM Review Process.
-
-Angela, a warranty specialist, uses the MCO workspace to review and approve the request:
-
-1.  Views queue of submitted pending pre-authorization requests in the workspace
-2.  Opens James's request and reviews organized line items for parts, labor, and costs
-3.  Selects Partially Approve making individual lines editable for line-by-line review
-4.  Approves parts and labor but reduces customer pickup service from the requested amount to $250 with feedback that warranty policies cover pickup service up to a maximum of $250
-5.  Submits approval with logged actions creating full traceability
-
-After repair completion, James uses the pre-approved request to create the repair claim without reentering information.
+-   Dealer Submission: James accesses the MCO Dealer Portal. Auto-loaded vehicle assets and a guided playbook assist with the submission. He enters vehicle details \(VIN, work order, issue\), adds warranty claim jobs \(parts, labor, miscellaneous costs\), and submits for approval.
+-   OEM Review: Angela, a warranty specialist, reviews pending requests in the MCO workspace. She can approve, partially approve with line-level edits, or reject with feedback. All actions create audit trails for compliance.
+-   Claim Creation: Once approved, James converts the pre-authorized request to a repair claim without re-entering information.
 
 Benefits
 
--   Unified access: Single portal eliminates system switching for dealers
--   Faster submissions: Auto-loaded assets and guided playbooks reduce entry time
--   Standardized data: OEM-provided labor codes ensures consistency
--   Complete cost capture: Single interface for parts, labor, and miscellaneous expenses
--   Line-level flexibility: Partial approval enables precise adjustments
--   Transparent feedback: Clear comments explain approval decisions
--   Full traceability: Logged actions support compliance and auditability
--   Streamlined claims: Pre-approved requests eliminate data re-entry for repair claims
+Compare the workflow improvement:
+
+|Without MCO|With MCO Pre-Authorization|
+|-----------|--------------------------|
+|Manual multi-system data entry|Single portal with auto-loaded assets and guided templates|
+|Inconsistent labor codes and costs|Standardized labor codes and complete cost capture in one place|
+|Slow approval cycles with back-and-forth|Real-time visibility and line-level partial approval with feedback|
+|Full data re-entry for repair claims|Pre-approved requests convert directly to claims—no re-entry|
 
 Outcome
 
-James successfully submits a complete pre-authorization request with parts, labor, and service costs. Angela reviews and partially approves the request with clear feedback on the adjusted pickup service amount. After repair completion, James converts the pre-approved request to a repair claim without reentering data, reducing processing time and ensuring accurate, compliant warranty management.
+James submits a complete pre-authorization request for high-cost air conditioning repair. Angela reviews and approves with transparent feedback. After repair completion, James converts the approved request to a repair claim instantly, reducing processing time and ensuring compliance.
+
+**Related topics**  
+
+
+[Pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-pre-auth-request-use.md)
+
+[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agents-pre-auth-requests.md)
 

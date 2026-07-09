@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Free storage space in a Salesforce org
@@ -30,7 +30,7 @@ One option is to remove records from the ConfigurationBOM table. For managed pac
     delete [SELECT id FROM LGK__ConfigurationBOM__c];
     ```
 
-    For CPQ managed packages v1.0 or greater, run this delete instruction against the following objects:
+    For ServiceNow CPQ managed packages v1.0 or greater, run this delete instruction against the following objects:
 
     -   LGK\_\_ConfigurationLineItem\_\_c
     -   LGK\_\_ConfigurationFieldData\_\_c

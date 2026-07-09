@@ -33,9 +33,7 @@ Role required: admin or sp\_admin
 
 ## Result
 
-The page is created in the Service Portal Designer and is added to the GDS Service Portal. It can be configured using any number of widgets or other components designed for use with this portal. For a list of widgets and other page components included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Developer Toolkit GDS Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
+The page is created in the Service Portal Designer and is added to the GDS Service Portal. It can be configured using any number of widgets or other components designed for use with this portal. For a list of widgets and other page components included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
 
 This page can also be added to other portals using Service Portal Configuration.
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

@@ -26,7 +26,7 @@ Simplified IT Service Management provides an AI-native solution for simplified a
 
 </td><td>
 
-[Employee experience\[Omitted image "bus-start-discussion.svg"\] Alt text: Employee experience in AI-native IT Service ManagementExperience the automated self-service and browsing experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-native-ai-itsm.md)
+[Employee experience\[Omitted image "bus-start-discussion.svg"\] Alt text: Employee experience in AI-native IT Service ManagementExperience the automated self-service and browsing experience in Employee Slate.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)
 
 </td></tr><tr><td>
 
@@ -47,10 +47,10 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
-
+    [ServiceNow Community](https://community.servicenow.com/community)
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
-
+    [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 
 

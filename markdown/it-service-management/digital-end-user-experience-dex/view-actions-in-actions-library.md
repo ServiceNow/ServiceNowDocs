@@ -23,7 +23,6 @@ Role required:
 -   sn\_dex.user
 -   sn\_dex.admin
 -   sn\_dex.service\_desk\_user and itil
--   sn\_dex.user
 -   sn\_dex.engineer
 
 ## Procedure
@@ -32,6 +31,6 @@ Role required:
 
 2.  Select a device from the list.
 
-3.  On the contextual side panel, select the Action Library icon \(\[Omitted image "icon-action-library.png"\] Alt text: Action library icon\) and view actions.
+3.  On the contextual side panel, select the Action Library icon \(\[Omitted image "icon-action-library.png"\] Alt text: Action library icon\) to view actions.
 
 

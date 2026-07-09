@@ -16,21 +16,25 @@ breadcrumb: [Use, ServiceNow Studio, Developing your application, Building appli
 
 Use Now Assist tools in ServiceNow Studio to create and summarize apps using AI, and add AI files to applications to enhance user productivity through conversation and proactive experiences.
 
-The main AI tools available in ServiceNow Studio are Now Assist for Creator skills: Now Assist for app generation and Now Assist for app summary generation. Use app generation to create apps through a conversational interface, and use app summary generation to create short descriptions of existing apps.
+The main AI tools available in ServiceNow Studio are Now Assist for Creator skills: app generation and app summary generation. Use app generation to create apps through a conversational interface, and use app summary generation to create short descriptions of existing apps.
 
-## Now Assist for app generation
+## App generation
 
-Use Now Assist for app generation to create or update an app from the main ServiceNow Studio home page. Describe the app in a conversation and Now Assist for Creator generates a version of the app to modify.
+**Note:**
 
-Access Now Assist for app generation on the main home page next to your user preferences, or on the same page as creating a new custom application.
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+
+Use the app generation skill to create or update an app from the main ServiceNow Studio home page. Describe the app in a conversation and Now Assist generates a version of the app to modify.
+
+Access the app generation skill on the main home page next to your user preferences, or on the same page as creating a new custom application.
 
 \[Omitted image "sn-studio-new-app-w-na-zs2.png"\] Alt text: Use Now Assist to help you create an app, accessible from the home page menu bar or the New Custom Application workflow.
 
 For more information, see [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-gen-landing.md).
 
-## Now Assist for app summary generation
+## App summary generation
 
-After creating an app, use Now Assist for app summary generation to create a summary of the contents and purpose of the app. Rate or update the summary and use it as the app description. Accurate app descriptions support app ecosystem governance and help identify duplicate apps.
+After creating an app, use the app summary generation skill to create a summary of the contents and purpose of the app. Rate or update the summary and use it as the app description. Accurate app descriptions support app ecosystem governance and help identify duplicate apps.
 
 \[Omitted image "sn-studio-app-summary.png"\] Alt text: Now Assist can help you create a summary of your app that you can use for the app description.
 
@@ -38,7 +42,7 @@ For more information, see [App summary generation](https://raw.githubusercontent
 
 ## What AI file types can I add to an application?
 
-Add three types of AI files to applications: Agentic Workflows, AI Agents, and Skills. These files open in a new tab for editing in AI Agent Studio. After creating or editing an AI file, return to the App details page and select the reload app details icon \[Omitted image "sn-studio-reload-app-details-icon.png"\] Alt text: to capture the changes. For more information about AI file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
+Add three types of AI files to applications: agentic workflows, AI agents, and skills. These files open in a new tab for editing in AI Agent Studio. After creating or editing an AI file, return to the App details page and select the reload app details icon \[Omitted image "sn-studio-reload-app-details-icon.png"\] Alt text: to capture the changes. For more information about AI file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
 
 **Important:** AI options in the ServiceNow Studio file taxonomy are only available if the AI components have been installed and configured.
 

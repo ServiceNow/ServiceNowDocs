@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use cases, Using CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Configuration line item to quote line flow
 
 By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
 
-**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.8 or later. If your CPQ CPQ package is version 1.7 or earlier, see [Use case: Using the Salesforce Quote Calculator plugin to integrate data from CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
+**Note:** This article applies to the ServiceNow CPQ Extension for Salesforce CPQ package version 1.8 or later. If your ServiceNow CPQ CPQ package is version 1.7 or earlier, see [Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
 
 By default, if you add any extended info to a line item \(using ProductList.extended\), it will be added as a JSON to the corresponding configuration line item object created as the following:
 

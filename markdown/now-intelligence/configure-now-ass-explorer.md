@@ -21,6 +21,8 @@ Complete these steps to enable AI Data Explorer and verify that the semantic lay
 Enable AI Data Explorer skills under Now Assist skills for Data and Analytics to give users AI-assisted, shared spaces to explore data.
 -   **[Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/record-level-analysis.md)**  
 Get more detailed answers based on the content of individual records to provide more meaningful insights.
+-   **[Deactivate indicator support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-deactivate-indicator-support.md)**  
+AI Data Explorer supports indicators as data sources by default. If you do not want the application to use indicator data on your instance, you can turn this support off.
 -   **[Remove data visualization links to AI Data Explorer in a specific workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/disable-now-ass-explorer-workspace.md)**  
 If you don't want data visualizations in a specific workspace to have an entry point for AI Data Explorer, add the workspace to the PAAI Canvas Workspace Configs table.
 -   **[Common AI Data Explorer issues and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-troubleshooting.md)**  

@@ -21,7 +21,7 @@ Configure an ERP system in Zero Copy Connector for ERP to register your ERP conn
 
 Role required: sn\_erp\_integration.erp\_admin
 
-Video that shows how to create an ERP system in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to create an ERP system in Zero Copy Connector for ERP.
 
 ## About this task
 

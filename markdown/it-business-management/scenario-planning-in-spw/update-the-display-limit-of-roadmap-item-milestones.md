@@ -1,5 +1,5 @@
 ---
-title: Update the display limit of items on Prioritization and Roadmap
+title: Update the display limit of Prioritization and Roadmap items
 description: Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update the display limit of items on Prioritization and Roadmap
+# Update the display limit of Prioritization and Roadmap items
 
 Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 
@@ -48,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d298178e159">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d297616e159">
 
 Field
 
-</th><th align="left" id="d298178e162">
+</th><th align="left" id="d297616e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d298178e168">
+</th></tr></thead><tbody><tr><td id="d297616e168">
 
 **Name**
 
@@ -67,7 +67,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d298178e194">
+</td></tr><tr><td id="d297616e194">
 
 **Type**
 
@@ -75,7 +75,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d298178e203">
+</td></tr><tr><td id="d297616e203">
 
 **Value**
 

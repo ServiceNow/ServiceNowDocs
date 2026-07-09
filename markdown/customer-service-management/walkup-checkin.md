@@ -22,6 +22,8 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.unified\_cons
 
 ## About this task
 
+Walk-up check-in lets you schedule an in-person appointment at your nearest service center directly from the Consumer Portal. The portal detects your location and displays available service centers so you can choose a convenient time slot.
+
 ## Procedure
 
 1.  Navigate to the Consumer Portal.
@@ -34,4 +36,9 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.unified\_cons
 
     For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-checkin-online.md).
 
+
+**Related topics**  
+
+
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
 

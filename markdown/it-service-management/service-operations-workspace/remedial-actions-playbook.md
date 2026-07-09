@@ -75,7 +75,7 @@ Select the CI and then select **Restart service** to restart the services runnin
 
 [Create an incident in Service Operations Workspace]()
 
-[View and update incident information on the Overview tab in SOW]()
+[View and update incident information on the Overview tab]()
 
 [Viewing incident record information using the Contextual side panel]()
 

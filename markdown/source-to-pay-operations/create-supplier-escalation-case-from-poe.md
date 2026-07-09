@@ -1,6 +1,6 @@
 ---
-title: Create a supplier escalation case from a purchase order exception
-description: Create a supplier escalation case from the purchase order exception record to engage procurement team members and resolve supplier issues faster.
+title: Create a supplier escalation case from a PO exception
+description: Create a supplier escalation case from the purchase order \(PO\) exception record to engage procurement team members and resolve supplier issues faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-supplier-escalation-case-from-poe.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Create a supplier escalation case from a purchase order exception
+# Create a supplier escalation case from a PO exception
 
-Create a supplier escalation case from the purchase order exception record to engage procurement team members and resolve supplier issues faster.
+Create a supplier escalation case from the purchase order \(PO\) exception record to engage procurement team members and resolve supplier issues faster.
 
 ## Before you begin
 
@@ -38,4 +38,9 @@ Role required: sn\_poem\_core.operational\_buyer
 A supplier case is created. You can also track this supplier case from the Cases section of the Exception Tasks table.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

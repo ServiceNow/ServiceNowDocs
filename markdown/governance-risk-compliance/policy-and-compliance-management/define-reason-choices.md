@@ -26,8 +26,6 @@ Role required: sn\_compliance.manager
 
 2.  Click **New**.
 
-    \[Omitted image "reason-choice-list.png"\] Alt text: Reason Choice List
-
 3.  On the form, fill in the fields.
 
     |Field|Description|

@@ -1,6 +1,6 @@
 ---
 title: Explicit roles plugin
-description: Explicit roles in Accounts Payable Operations control data access for internal and external users, ensuring each user sees only information appropriate for their role.
+description: The Explicit Roles plugin controls which users can access APO by requiring every user to have at least one explicit role assignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/explicit-roles-plugin.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Using Supplier Collaboration Portal in APO, Use, Accounts Payable O
 
 # Explicit roles plugin
 
-Explicit roles in Accounts Payable Operations control data access for internal and external users, ensuring each user sees only information appropriate for their role.
+The Explicit Roles plugin controls which users can access APO by requiring every user to have at least one explicit role assignment.
 
 As of the Paris release, no user can have both of the explicit roles \(snc\_internal and snc\_external\).
 

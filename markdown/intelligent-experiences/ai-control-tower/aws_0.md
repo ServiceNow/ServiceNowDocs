@@ -8,7 +8,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -55,7 +55,7 @@ To enable data source creation:
 
 1.  Select Global from the application picker.
 2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete checkboxes.
+3.  Select the Can create, Can update, and Can delete check boxes.
 4.  Select Update.
 5.  Switch to the connector application scope.
 
@@ -92,14 +92,48 @@ Before proceeding, confirm you have:
 -   IAM Credentials: AWS Access Key ID and Secret Access Key with read permissions for the services you plan to migrate
 -   Service Access- API access enabled for Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore
 
-Required IAM Permissions
+Choose Your Deployment Scenario
 
-Your IAM user role or role needs these permissions.
+Determine how your ServiceNow IAM user will b setup in AWS:
 
--   Amazon Bedrock: bedrock:List\*, bedrock:Get\*
--   Amazon SageMaker: sagemaker:List\*, sagemaker:Describe\*
--   Amazon CloudWatch: logs:DescribeLogGroups, logs:DescribeLogStreams, cloudwatch:GetMetricData
--   bedrock-agentcore:List\*/ bedrock-agentcore:Get\*
+1.  Scenario 1- Management Account: The ServiceNow IAM user is created directly in the AWS Org/Management account
+2.  Scenario 2- Delegated Member Account: The ServiceNow IAM user is created in a dedicated member account, with a cross-account role in the Management account for Organizational-level access
+3.  Standalone Mode: Available in both scenarios. Use this to test discovery against a single AWS account before rolling out to the full organization.
+
+CloudFormation Templates
+
+Deploy the following AWS CloudFormation templates based on your chosen scenario:
+
+-   ServiceNowAictUser.yml- Required in all scenarios. Deploy in the account where the ServiceNow IAM user will reside
+    -   Management account for Scenario 1
+    -   Designated account for Scenario 2
+-   SgcAictReadOnlyAccessRole.yml- Required in all scenarios. Deploy across all member accounts via StackSet for Organization-wide discovery, or in a single target account for Standalone Mode
+-   SgcAictReadOnlyOrgAccessRole.yml- Required only for Scenario 2. Deploy in the Org/Management account to grant the Designated account cross-account Organization read access
+
+Required IAM permissions
+
+The IAM roles created by the templates above grant read-only access to the following services:
+
+-   Amazon Bedrock
+-   Amazon SageMaker
+-   Amazon CloudWatch Logs
+-   Amazon Bedrock AgentCore
+-   AWS Organizations
+-   Amazon EC2
+
+Pre-Deployment Checklist
+
+Before deploying any templates, confirm the following:
+
+You have AWS CloudFormation Stack and StackSet deployment permissions in the relevant accounts.
+
+Target member accounts have Amazon Bedrock, SageMaker, and/or AgentCore enabled- accounts without these services will return 403 errors during discovery.
+
+If using Standalone Mode, confirm the target account ID where SgAictReadOnlyAccessRole.yml will be deployed.
+
+If using StackSet deployment, confirm that Automatic Deployment is enabled so newly created accounts are covered automatically.
+
+The default role name across all templates is SgAictReadOnlyAccessRole. If your organization requires a different naming convention, update it consistently across all templates and in the ServiceNow connector configuration before deployment.
 
 AWS Setup documentation
 

@@ -102,7 +102,7 @@ The standard terms and conditions for the ServiceNow Store must be accepted.
 
 </td><td>
 
-Go to the  and accept the standard terms and conditions. For more information, see [Terms and conditions in the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sn-store-tncs.md).
+Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and accept the standard terms and conditions. For more information, see [Terms and conditions in the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sn-store-tncs.md).
 
 </td></tr><tr><td>
 

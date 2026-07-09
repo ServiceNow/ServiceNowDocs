@@ -61,5 +61,5 @@ Role required: All Impact roles
 
 ## What to do next
 
-For more information on a given recommendation, see [Manage Recommendation details in Impact Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/recommendation-details-page-in-impact-store.md).
+For more information on a given recommendation, see [Manage work items from Recommendation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/recommendation-details-page-in-impact-store.md).
 

@@ -30,19 +30,19 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d645199e113">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d647097e114">
 
 Option
 
-</th><th align="left" id="d645199e116">
+</th><th align="left" id="d647097e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d645199e122">
+</th></tr></thead><tbody><tr><td id="d647097e123">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d645199e151">
+</td></tr><tr><td id="d647097e152">
 
 **As a collaborator**
 

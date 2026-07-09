@@ -313,7 +313,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d242923e925">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d243360e925">
 
 **Update the name of the record page**
 
@@ -330,7 +330,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d242923e960">
+</td></tr><tr><td id="d243360e960">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +338,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d242923e981">
+</td></tr><tr><td id="d243360e981">
 
 **Delete a record page**
 

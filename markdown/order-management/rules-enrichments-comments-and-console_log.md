@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using comments and the console to debug scripts
 
 Learn how comments and the console can help you debug your scripts.
 
-CPQ has several areas where the admin can use scripts to define behavior. These include advanced conditions for rules, advanced actions for rules, and enrichments.
+ServiceNow CPQ has several areas where the admin can use scripts to define behavior. These include advanced conditions for rules, advanced actions for rules, and enrichments.
 
 ## Advanced conditions for rules
 
@@ -30,11 +30,11 @@ CPQ has several areas where the admin can use scripts to define behavior. These 
 
 This article highlights a few key features to help you test and prepare your code before you deploy it in a blueprint.
 
-**Note:** The scripting language in CPQ is JavaScript-like, meaning it follows JavaScript-style syntax but lacks the full capabilities of JavaScript.
+**Note:** The scripting language in ServiceNow CPQ is JavaScript-like, meaning it follows JavaScript-style syntax but lacks the full capabilities of JavaScript.
 
 ## Console.log
 
-When the admin starts to write a script, the CPQ Admin looks like this:
+When the admin starts to write a script, the ServiceNow CPQ Admin looks like this:
 
 \[Omitted image "cpq-scripting-console-1.png"\] Alt text: Console.log
 

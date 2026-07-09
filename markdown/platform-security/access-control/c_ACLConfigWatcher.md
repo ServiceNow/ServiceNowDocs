@@ -7,9 +7,9 @@ release: australia
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ACL debugging tools, Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [ACL debugging tools, Advanced ACL configuration, Access Control Lists, Access Management]
 ---
 
 # ACL configuration watcher

@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access, assign, and approve unassigned work in Project Workspace
@@ -47,15 +47,15 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d227303e170">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d227170e170">
 
 Assign work choices
 
-</th><th align="left" id="d227303e173">
+</th><th align="left" id="d227170e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d227303e179">
+</th></tr></thead><tbody><tr><td id="d227170e179">
 
 **Auto Assign**
 
@@ -63,7 +63,7 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d227303e193">
+</td></tr><tr><td id="d227170e193">
 
 **Manual Assign**
 

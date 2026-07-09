@@ -1,18 +1,18 @@
 ---
 title: Quote Management integration with Contract Management Pro
-description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales and Order Management \(com.sn\_som\_clm\).
+description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales CRM \(com.sn\_som\_clm\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-int-contracts-pro.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Quote Management, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Quote Experience in ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Quote Management integration with Contract Management Pro
 
-The Quote Management integration with Contract Management Pro is known as Contract Management for Sales and Order Management \(com.sn\_som\_clm\).
+The Quote Management integration with Contract Management Pro is known as Contract Management for Sales CRM \(com.sn\_som\_clm\).
 
 Quote Management integrates with Contract Management Pro to help sales agents create legal sales contracts from a quote. A legal sales contract confirms the sales deal and agreements between your company and customer.
 

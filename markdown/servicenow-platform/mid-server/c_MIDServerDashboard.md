@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,6 +24,8 @@ The MID Server dashboard is a central place for MID Server users to monitor ongo
 </table>The MID Server Dashboard is available from the **MID Server** &gt; **Dashboard** module.
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
+
+**Note:** To access the MID Server Dashboard, the user must have the **mid\_server** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
 
 ## MID Server Overview tab
 

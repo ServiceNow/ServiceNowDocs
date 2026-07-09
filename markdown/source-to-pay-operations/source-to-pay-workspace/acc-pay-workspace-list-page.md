@@ -1,6 +1,6 @@
 ---
 title: APO list page
-description: The Source-to-Pay Workspace list page provides role-based access to invoice cases, tasks, exceptions, and primary data for managing work items based on permissions.
+description: Use the Source-to-Pay Workspace list view to access invoice cases, primary data, tasks, exceptions, and invoices assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-list-page.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Source-to-Pay Workspace list page, Explore, Workspace, Source-to-Pa
 
 # APO list page
 
-The Source-to-Pay Workspace list page provides role-based access to invoice cases, tasks, exceptions, and primary data for managing work items based on permissions.
+Use the Source-to-Pay Workspace list view to access invoice cases, primary data, tasks, exceptions, and invoices assigned to you.
 
 Select the list icon \(\)\[Omitted image "case-list-icon.png"\] Alt text: List icon in the Source-to-Pay Workspace to open the List page in the Source-to-Pay Workspace.
 

@@ -1,5 +1,5 @@
 ---
-title: Create an escalation trigger for an SRM team
+title: Create an escalation trigger
 description: To address issues promptly, define the conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Set up escalation policies for your team in SRM, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Create an escalation trigger for an SRM team
+# Create an escalation trigger
 
 To address issues promptly, define the conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
 

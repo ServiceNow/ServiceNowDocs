@@ -40,7 +40,7 @@ Role required: itil
 
 [Play a guided tour in Service Operations Workspace]()
 
-[Create a list in Service Operations Workspace]()
+[]()
 
 [Live Agent chat in Service Operations Workspace]()
 

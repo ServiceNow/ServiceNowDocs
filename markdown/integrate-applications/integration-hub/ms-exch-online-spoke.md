@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.0.0 is the latest version.
+Microsoft Exchange Online spoke v4.0.2 is the latest version.
 
 ## Spoke dependencies
 
@@ -222,130 +222,103 @@ Updates the properties of an event object in Microsoft Exchange Online and the r
 
 ## Spoke actions
 
-The Microsoft Exchange Online spoke provides actions to automate calendar and mail tasks when an incident is created in the ServiceNow instance.
+The Microsoft Exchange Online spoke provides actions to automate calendar and mail tasks when an incident is created in the ServiceNow instance. Available actions and their required permissions are:
 
-|Category|Action|Description|
-|--------|------|-----------|
-|Calendar Management|Copy Attachment to Calendar Event|Copies a ServiceNow attachment to an Exchange calendar event.|
-|Create Calendar Event|Creates an event in the user's default calendar and specifies the time zone for the start and end times of the event.|
-|Create Recurring Calendar Events|Creates a recurring event in the user's default calendar and specifies the time zone for the start and end times of the event.|
-|Delete Attachment|Deletes the specified attachment in the specified event.|
-|Delete Calendar Event|Deletes a calendar event.|
-|Find Meeting Times|Retrieves meeting times and locations based on the availability of the meeting organizer and attendees for the specified time and locations.|
-|Look up Attachments by Event ID|Retrieves all the attachments in the specified event.|
-|Look up Calendar by ID|Retrieves the calendar details for the specified ID.|
-|Look up Calendar Events by User ID|Retrieves the list of event objects in the user's mailbox.|
-|Look up Calendar View Stream|Retrieves the list of meeting entries for the specified User ID for the specified time period.|
-|Look up Calendars Stream|Retrieves details of the calendars of all the users.|
-|Look up Event by ID|Retrieves the calendar event details for the specified ID.|
-|Look up Schedules|Retrieves the list of schedules.|
-|Look up Out of Office Settings|Retrieves the details of the out-of-office settings for the specified recipients.|
-|Look up Time Zones|Retrieves details of all the available time zones.|
-|Update Calendar Event|Updates the properties of an event object.|
-|Mail Management|Delete Message|Deletes the message in a user's inbox or from a custom folder.|
-|Look Up Mail Folders by User ID|Retrieves all the mail folders for a specified User ID.|
-|Look Up Messages by Mail Folder ID|Retrieves all the messages in a mail folder.|
-|Look Up Messages by User ID|Retrieves all the messages in the inbox folder of the user.|
-|Send Mail|Sends an email with the message subject and message body to the specified list of recipients.|
-|Set Mailbox Auto Reply|Sets the user’s auto-reply message for the given time period.|
-|Webhook Management|Look up Subscription by ID|Retrieves details of the webhook subscription for the specified ID.|
-|Look up Subscriptions Stream|Retrieves details of all webhook subscriptions.|
-|Renew Webhook Subscription|Renews the subscription of the specified webhook.|
-|Subscribe Webhook|Creates a webhook subscription for the specified resource.|
-|Unsubscribe Webhook|Deletes the specified webhook subscription.|
-|Mailbox Management|Create MailBox|Creates mailboxes and user accounts simultaneously.|
+**Note:** Required permissions from least to most privileged are mentioned. At least one, not all, of the mentioned permissions is required to call the API and run the action.
+
+|Category|Action|Description|Permission type|Permissions \(from least to most privileged\)|
+|--------|------|-----------|---------------|---------------------------------------------|
+|Calendar Management|Copy Attachment to Calendar Event|Copies a ServiceNow attachment to an Exchange calendar event.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Create Calendar Event|Creates an event in the user's default calendar and specifies the time zone for the start and end times of the event.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Create Recurring Calendar Events|Creates a recurring event in the user's default calendar and specifies the time zone for the start and end times of the event.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Delete Attachment|Deletes the specified attachment in the specified event.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Delete Calendar Event|Deletes a calendar event.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Find Meeting Times|Retrieves meeting times and locations based on the availability of the meeting organizer and attendees for the specified time and locations.|Delegated \(work or school account\)|Calendars.Read, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Not supported.|
+|Application| |
+|Look up Attachments by Event ID|Retrieves all the attachments in the specified event.|Delegated \(work or school account\)|Calendars.Read|
+|Delegated \(personal Microsoft account\)|Calendars.Read|
+|Application|Calendars.Read|
+|Look up Calendar by ID|Retrieves the calendar details for the specified ID.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Look up Calendar Events by User ID|Retrieves the list of event objects in the user's mailbox.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Look up Calendar View Stream|Retrieves the list of meeting entries for the specified User ID for the specified time period.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Look up Calendars Stream|Retrieves details of the calendars of all the users.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite|
+|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Look up Event by ID|Retrieves the calendar event details for the specified ID.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read|
+|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read|
+|Application|Calendars.ReadBasic, Calendars.Read|
+|Look up Schedules|Retrieves the list of schedules.|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Not supported.|
+|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
+|Look up Out of Office Settings|Retrieves the details of the out-of-office settings for the specified recipients.|Delegated \(work or school account\)|Mail.Read, Mail.Read.Shared|
+|Delegated \(personal Microsoft account\)|Mail.Read|
+|Application|Mail.Read|
+|Look up Time Zones|Retrieves details of all the available time zones.|Delegated \(work or school account\)|User.Read, User.ReadBasic.All|
+|Delegated \(personal Microsoft account\)|User.Read|
+|Application|User.Read.All|
+|Update Calendar Event|Updates the properties of an event object.|Delegated \(work or school account\)|Calendars.ReadWrite|
+|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
+|Application|Calendars.ReadWrite|
+|Mail Management|Delete Message|Deletes the message in a user's inbox or from a custom folder.|Delegated \(work or school account\)|Mail.ReadWrite|
+|Delegated \(personal Microsoft account\)|Mail.ReadWrite|
+|Application|Mail.ReadWrite|
+|Look Up Mail Folders by User ID|Retrieves all the mail folders for a specified User ID.|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Look Up Messages by Mail Folder ID|Retrieves all the messages in a mail folder.|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Look Up Messages by User ID|Retrieves all the messages in the inbox folder of the user.|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
+|Send Mail|Sends an email with the message subject and message body to the specified list of recipients.|Delegated \(work or school account\)|Mail.Send|
+|Delegated \(personal Microsoft account\)|Mail.Send|
+|Application|Mail.Send|
+|Set Mailbox Auto Reply|Sets the user’s auto-reply message for the given time period.|Delegated \(work or school account\)|MailboxSettings.ReadWrite|
+|Delegated \(personal Microsoft account\)|MailboxSettings.ReadWrite|
+|Application|MailboxSettings.ReadWrite|
+|Webhook Management|Look up Subscription by ID|Retrieves details of the webhook subscription for the specified ID.|Depending on the resource and the permission type \(delegated or application\) requested, the permission specified in the [Get subscription - Permissions](https://learn.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-1.0&tabs=http#permissions) table is the least privileged required to call this API.|
+|Look up Subscriptions Stream|Retrieves details of all webhook subscriptions.|Depending on the resource and the permission type \(delegated or application\) requested, the permission specified in the [List subscription - Permissions](https://learn.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0&tabs=http#permissions) table is the least privileged required to call this API.|
+|Renew Webhook Subscription|Renews the subscription of the specified webhook.|Depending on the resource and the permission type \(delegated or application\) requested, the permission specified in the [Update subscription - Permissions](https://learn.microsoft.com/en-us/graph/api/subscription-update?view=graph-rest-1.0&tabs=http#permissions) table is the least privileged required to call this API.|
+|Subscribe Webhook|Creates a webhook subscription for the specified resource.|Depending on the resource and the permission type \(delegated or application\) requested, the permission specified in the [Create subscription - Permissions](https://learn.microsoft.com/en-us/graph/api/subscription-post-subscriptions?view=graph-rest-1.0&tabs=http#permissions) table is the least privileged required to call this API.|
+|Unsubscribe Webhook|Deletes the specified webhook subscription.|Depending on the resource and the permission type \(delegated or application\) requested, the permission specified in the [Delete subscription - Permissions](https://learn.microsoft.com/en-us/graph/api/subscription-delete?view=graph-rest-1.0&tabs=http#permissions) table is the least privileged required to call this API.|
+|Mailbox Management|Create MailBox|Creates mailboxes and user accounts simultaneously.|These actions uses powershell cmdlets and hence doesn’t requires API permissions.|
 |Delete MailBox|Deletes or disables mailboxes and user accounts simultaneously.|
 |Enable MailBox|Enables a mailbox in Microsoft Exchange Online. The mailbox can be in an archived state.|
 |Look up MailBox|Retrieves the list of mailboxes.|
-|User Management|Look up Relevant Users Stream|Retrieves a stream of users who are most relevant to the specified user, based on collaboration and organizational context. Relevance is determined by the user's communication and collaboration patterns, and business relationships.|
-
-Permissions required to run these actions are:
-
-|Category|Action|Permission type|Permissions \(from least to most privileged\)|
-|--------|------|---------------|---------------------------------------------|
-|Calendar Management|Copy Attachment to Calendar Event|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Create Calendar Event|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Create Recurring Calendar Events|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Delete Attachment|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Delete Calendar Event|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Find Meeting Times|Delegated \(work or school account\)|Calendars.Read, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Not supported.|
-|Application|Not supported.|
-|Look up Attachments by Event ID|Delegated \(work or school account\)|Calendars.Read|
-|Delegated \(personal Microsoft account\)|Calendars.Read|
-|Application|Calendars.Read|
-|Look up Calendar by ID|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Look up Calendar Events by User ID|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Look up Calendar View Stream|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Look up Calendars Stream|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite|
-|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Look up Event by ID|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read|
-|Delegated \(personal Microsoft account\)|Calendars.ReadBasic, Calendars.Read|
-|Application|Calendars.ReadBasic, Calendars.Read|
-|Look up Schedules|Delegated \(work or school account\)|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Not supported.|
-|Application|Calendars.ReadBasic, Calendars.Read, Calendars.ReadWrite|
-|Look up Out of Office Settings|Delegated \(work or school account\)|Mail.Read, Mail.Read.Shared|
-|Delegated \(personal Microsoft account\)|Mail.Read|
-|Application|Mail.Read|
-|Look up Time Zones|Delegated \(work or school account\)|User.Read, User.ReadBasic.All|
-|Delegated \(personal Microsoft account\)|User.Read|
-|Application|User.Read.All|
-|Update Calendar Event|Delegated \(work or school account\)|Calendars.ReadWrite|
-|Delegated \(personal Microsoft account\)|Calendars.ReadWrite|
-|Application|Calendars.ReadWrite|
-|Mail Management|Delete Message|Delegated \(work or school account\)|Mail.ReadWrite|
-|Delegated \(personal Microsoft account\)|Mail.ReadWrite|
-|Application|Mail.ReadWrite|
-|Look Up Mail Folders by User ID|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Look Up Messages by Mail Folder ID|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Look Up Messages by User ID|Delegated \(work or school account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Delegated \(personal Microsoft account\)|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Application|Mail.ReadBasic, Mail.Read, Mail.ReadWrite|
-|Send Mail|Delegated \(work or school account\)|Mail.Send|
-|Delegated \(personal Microsoft account\)|Mail.Send|
-|Application|Mail.Send|
-|Set Mailbox Auto Reply|Delegated \(work or school account\)|MailboxSettings.ReadWrite|
-|Delegated \(personal Microsoft account\)|MailboxSettings.ReadWrite|
-|Application|MailboxSettings.ReadWrite|
-|Mailbox Management|Create MailBox|These actions uses powershell cmdlets and hence doesn’t requires API permissions.|
-|Delete MailBox|
-|Enable MailBox|
-|Look up MailBox|
+|User Management|Look up Relevant Users Stream|Retrieves a stream of users who are most relevant to the specified user, based on collaboration and organizational context. Relevance is determined by the user's communication and collaboration patterns, and business relationships.|Delegated \(work or school account\)|People.Read, People.Read.All|
+|Delegated \(personal Microsoft account\)|People.Read|
+|Application|People.Read.All|
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 

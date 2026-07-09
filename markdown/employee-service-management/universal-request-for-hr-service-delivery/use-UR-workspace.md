@@ -22,8 +22,6 @@ You can start working on Universal Request in the Agent Workspaces from one of t
 -   List queue
 -   Global search
 
-For additional information on working within Agent Workspace, see Using workspace.
-
 **Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 
 ## Create a universal request in Agent Workspace

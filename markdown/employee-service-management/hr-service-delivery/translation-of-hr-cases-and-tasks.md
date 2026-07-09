@@ -78,7 +78,3 @@ Role required: admin
     4.  Click **Update**.
 
 
-### Dental benefits enrollment
-
-This is an example of how the global short description and description displays for the Dental Benefits Enrollment/Modification HR service in the Employee Service Center when the language is set to Spanish.
-

@@ -76,7 +76,7 @@ Learn how to configure the features and components that you need for customer an
 Learn how to configure the order operations applications to help sales and support teams to monitor the sales processes, and manage post-sale support and returns respectively.
 -   **[Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-post-sales-engagement.md)**  
 Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
--   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)**  
+-   **[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)**  
 Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow® Store to enable enterprises to hire partners and improve their sales cycles.
 -   **[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)**  
 Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).

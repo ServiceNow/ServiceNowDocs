@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-05-19"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -112,7 +112,7 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who should sign the agreement.
+List of people from the selected third party who should sign the agreement.**Note:** The **Signatory Role** field appears only when the `sn_cm_core.enable_docusign_signature_roles` system property is set to `true`. The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and defaults to Signer. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr><tr><td>
 

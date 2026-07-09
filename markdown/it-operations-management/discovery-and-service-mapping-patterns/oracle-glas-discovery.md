@@ -537,7 +537,7 @@ For information about privileged user access, see [KB1705845](https://support.se
 
 For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
+For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 -   **Data collected**
 

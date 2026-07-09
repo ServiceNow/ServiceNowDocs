@@ -455,7 +455,7 @@ Cleans the Impact Status \(em\_impact\_status\) table by removing records more t
 |Service Analytics Attribute Populator for Historical Alerts|Populate attributes used in feature identifier for historical alert data using event rules. Runs on demand.|
 |Event Management - Analytics Alert Syncer|Gathers alert data that is used by grouping job.|
 
-## Properties for personalizing domain separation for Event Management connectors
+## Domain separation properties for Event Management connectors
 
 Properties provide the metadata to identify the domain.
 

@@ -16,7 +16,7 @@ breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
 
 Migration accelerator enables seamless, low-effort, cost-efficient migration of UiPath automations to ServiceNow RPA Hub. It’s a solution that minimizes downtime, maximizes reuse, and accelerates time-to-value.
 
-For detailed information, see [Migrating automations from UiPath to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md).
+For detailed information, see [Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md).
 
 **Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-explore.md)
 

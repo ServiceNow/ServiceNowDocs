@@ -42,8 +42,6 @@ Application access settings determine whether script objects from other applicat
 
     For more information on these properties, see [Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-parameters.md).
 
-    \[Omitted image "tb-edit-table-props.png"\] Alt text: Editing table properties.
-
 4.  To close the dialog box, select **Save**.
 
 5.  Select **Save**.

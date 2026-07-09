@@ -1,6 +1,6 @@
 ---
 title: Use Build Agent
-description: Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for vibe coding and AI-assisted development on the ServiceNow AI Platform.
+description: Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for agentic development on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/use-build-agent.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Bui
 
 # Use Build Agent
 
-Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for vibe coding and AI-assisted development on the ServiceNow AI Platform.
+Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for agentic development on the ServiceNow AI Platform.
 
 Available in the ServiceNow IDE and ServiceNow Studio, Build Agent appears as a chat panel with a multi-turn conversation interface. Build Agent processes natural language prompts, autonomously generates full-stack applications, manages the entire build process, and responds to feedback. The agent generates all necessary code, organizes files clearly, and manages both the core logic and user interface components of applications.
 
@@ -43,15 +43,15 @@ Restore your development to a previous state when you want to undo recent change
 -   **[Testing what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**  
 Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 -   **[Document an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-document-an-app.md)**  
-Generate documentation for an application's structure, tables, and UI components. Build Agent reads the codebase and creates a README file describing the application architecture.
--   **[Build Agent conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)**  
-After Build Agent completes the changes you request, you can find information about the updates in the change log that automatically appears in an integrated tab in ServiceNow Studio.
+Generate documentation for the structure, tables, and UI components of an application. Build Agent reads the codebase and creates a README file describing the application architecture.
+-   **[Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)**  
+The conversation change log tracks every change Build Agent makes to your application. It appears automatically in an integrated tab in ServiceNow Studio and lets you view updates, roll back to a previous checkpoint, and deploy changes to an update set.
 -   **[Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md)**  
 When you work with Build Agent, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
 -   **[Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md)**  
 Learn about deployment methods and workflows for moving applications created with Build Agent from development to production environments. Choose the right deployment approach based on your application complexity and organizational requirements.
--   **[Common issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-troubleshooting.md)**  
-Identify and resolve common issues in Build Agent. Use this reference alongside the general debugging approach to identify and fix problems.
+-   **[Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-troubleshooting.md)**  
+Identify and resolve common issues in Build Agent.
 
 **Parent Topic:**[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
 

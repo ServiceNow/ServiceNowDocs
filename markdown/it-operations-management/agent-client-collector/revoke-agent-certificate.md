@@ -46,5 +46,5 @@ Communication between the agent and ITOM cloud services is stopped.
 **Related topics**  
 
 
-[Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md)
+[Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md)
 

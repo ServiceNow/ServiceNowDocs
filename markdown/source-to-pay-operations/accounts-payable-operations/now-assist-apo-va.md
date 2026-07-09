@@ -1,5 +1,5 @@
 ---
-title: Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat
+title: Now Assist for Accounts Payable Operations \(APO\) in Virtual Agent chat
 description: Use the conversational interface of Now Assist for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo-va.html
@@ -13,7 +13,7 @@ keywords: [generative AI, gen AI, genai, artificial intelligence]
 breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat
+# Now Assist for Accounts Payable Operations \(APO\) in Virtual Agent chat
 
 Use the conversational interface of Now Assist for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 

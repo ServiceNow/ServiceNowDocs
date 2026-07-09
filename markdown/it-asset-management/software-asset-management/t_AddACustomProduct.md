@@ -1,5 +1,5 @@
 ---
-title: Add a custom software product in Software Asset Management classic
+title: Add a custom software product in Software Asset Management Core UI
 description: If a software product does not exist in the Software Library, you can add a custom product. Custom products enable you to normalize and account for homegrown software, or software that is not yet part of the Software Library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_AddACustomProduct.html
@@ -7,12 +7,12 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Add a custom software product in Software Asset Management classic
+# Add a custom software product in Software Asset Management Core UI
 
 If a software product does not exist in the Software Library, you can add a custom product. Custom products enable you to normalize and account for homegrown software, or software that is not yet part of the Software Library.
 
@@ -26,7 +26,7 @@ The product and publisher combination is used during discovery model normalizati
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Custom Products** and create a new record \(see table for field descriptions\).
+1.  Navigate to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Custom Products** and create a record \(see table for field descriptions\).
 
 <table id="table_fdn_2pd_c1b"><thead><tr><th>
 
@@ -100,5 +100,5 @@ Option that indicates the rule is active.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

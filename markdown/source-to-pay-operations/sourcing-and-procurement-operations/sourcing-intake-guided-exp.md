@@ -78,7 +78,7 @@ Decide if you want to negotiate with suppliers right away, or skip this step and
 -   **[Set up negotiations with suppliers and manage qualifications in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.md)**  
 Work on a negotiation setup playbook to manage qualification work, and review the sourcing requests, suppliers, and purchase lines, all within the premises of a sourcing event.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

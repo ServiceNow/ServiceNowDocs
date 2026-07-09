@@ -14,7 +14,7 @@ breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer 
 
 Configure the case list page.
 
-This page provides the basic structure for a GDS-conforming case list page that enables a constituent to access all cases they can view or act on in the GDS Service Portal. This may include cases they have submitted, or cases that have been submitted on their behalf.
+By default, users seeking to view the status of a case they have submitted through the GDS Service Portal will be shown the case list page, which enables a constituent to access all cases they can view or act on in the GDS Service Portal. This may include cases they have submitted, or cases that have been submitted on their behalf.
 
 \[Omitted image "psds\_uk\_gds\_case\_list.png"\] Alt text: GDS Portal case list page.
 
@@ -53,6 +53,4 @@ By default, the Case List page contains the following widgets that can be custom
 .
 
 For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

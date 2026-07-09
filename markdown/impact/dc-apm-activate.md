@@ -55,3 +55,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
     3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – APM**.
 
 
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+

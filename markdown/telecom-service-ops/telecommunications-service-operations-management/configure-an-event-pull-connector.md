@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -44,11 +44,15 @@ Role required: TSOM Assurance admin
 
 11. In the **Credential** field, select the valid credentials to access the event source host.
 
-12. Validate the connectivity of the connector before activating it by selecting **Test Connector**.
+12. In the **Metrics collection schedule \(seconds\)** field, enter the polling interval for metric collection.
 
-13. Select **Update**.
+    **Important:** For a CPU usage \(`devicePerformance`\) connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 1800 or greater \(30 minutes minimum\). The system displays a validation error for lower values. For a Fortinet interface logs connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 600 or less \(10 minutes maximum\). The system displays a validation error for higher values.
 
-14. Verify that the pull connector is configured correctly and events are flowing into the system by returning to the Integrations Launchpad.
+13. Validate the connectivity of the connector before activating it by selecting **Test Connector**.
+
+14. Select **Update**.
+
+15. Verify that the pull connector is configured correctly and events are flowing into the system by returning to the Integrations Launchpad.
 
     The tiles appear under the **Installed Integrations** tab.
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
-breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using agentic workflows in Now Assist for HAM
@@ -31,7 +31,7 @@ Available AI agents
 
 </th><th>
 
-Introduced inNow Assist for HAM version
+Introduced in Now Assist for HAM version
 
 </th></tr></thead><tbody><tr><td>
 

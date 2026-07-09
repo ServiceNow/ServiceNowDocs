@@ -1,5 +1,5 @@
 ---
-title: Using Channel Management in Workforce Optimization for Customer Service
+title: Using Channel Management in WFO
 description: Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.Monitor your agents' workload and the status of their work items against each service channel and queue so that you can get an idea of how efficiently work is moving through the queue and to your agents.Allocate pending work items to agents to complete the work. Track your agent's performance in overview so that you can analyze and review how that agent is doing.Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-channels-configurable-wfo-cs.html
@@ -10,7 +10,7 @@ reading_time_minutes: 13
 breadcrumb: [Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Using Channel Management in Workforce Optimization for Customer Service
+# Using Channel Management in WFO
 
 Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.
 
@@ -32,7 +32,7 @@ Review real-time performance as your team is actively working on tasks across ch
 
 **Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)
 
-## Assist agents by joining their chat conversations with their end users
+## Assist agents in live chat conversations
 
 Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
 
@@ -127,15 +127,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d306978e673">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d309275e675">
 
 Navigate To
 
-</th><th align="left" id="d306978e676">
+</th><th align="left" id="d309275e678">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d306978e682">
+</th></tr></thead><tbody><tr><td id="d309275e684">
 
 **Queued Work tab**
 
@@ -143,7 +143,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d306978e691">
+</td></tr><tr><td id="d309275e693">
 
 **Service Channel page**
 
@@ -154,7 +154,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d306978e715">
+</td></tr><tr><td id="d309275e717">
 
 **All Queues**
 
@@ -319,15 +319,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d306978e1173">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d309275e1175">
 
 To set the override capacity
 
-</th><th align="left" id="d306978e1176">
+</th><th align="left" id="d309275e1178">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d306978e1182">
+</th></tr></thead><tbody><tr><td id="d309275e1184">
 
 **From Channels**
 
@@ -338,7 +338,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d306978e1212">
+</td></tr><tr><td id="d309275e1214">
 
 **From Teams**
 

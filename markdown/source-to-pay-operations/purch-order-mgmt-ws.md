@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [source-to-pay workspace, purchase order management landing page]
 breadcrumb: [Explore, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -47,4 +47,13 @@ The Details page is displayed when you select the link of a purchase order excep
 View the purchase order exception record in Source-to-Pay Workspace to take action on your assigned task.
 
 **Parent Topic:**[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+**Related topics**  
+
+
+[Source-to-Pay Operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)
+
+[POM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.md)
+
+[POM list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/pom-list-page.md)
 

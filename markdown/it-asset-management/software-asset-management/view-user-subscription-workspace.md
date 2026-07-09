@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create user subscriptions in the workspace
@@ -30,15 +30,15 @@ If you’re using Software Asset Workspace, the option to create user subscripti
 
 1.  Navigate to the Create New Software Subscription form.
 
-<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d99787e77">
+<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d100503e77">
 
 Interface
 
-</th><th align="left" id="d99787e80">
+</th><th align="left" id="d100503e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d99787e86">
+</th></tr></thead><tbody><tr><td id="d100503e86">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 
-</td></tr><tr><td id="d99787e108">
+</td></tr><tr><td id="d100503e108">
 
 **Software Asset Workspace**
 

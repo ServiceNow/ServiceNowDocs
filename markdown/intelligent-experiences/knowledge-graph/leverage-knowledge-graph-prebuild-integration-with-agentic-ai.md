@@ -8,7 +8,7 @@ product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
@@ -114,4 +114,10 @@ When a user ask a query `What is my Manager's name?`, AI agents reaches out to K
 ```
 
 In this example, the table that is called is `sys_user` and column referred is `user_name`. The output also displays SysId , example: `"sysId": "62826bf03710200044e0bfc8bcbe5df1"`.
+
+## Integration with Now Assist Skill MCP server
+
+Knowledge Graph can now be used as a tool within MCP server console from a subset of Now Assist skills. Knowledge Graph helps AI agents in providing accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships.
+
+Refer [Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md) to add Knowledge Graph as a tool and to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 

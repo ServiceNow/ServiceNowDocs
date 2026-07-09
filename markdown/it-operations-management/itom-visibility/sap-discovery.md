@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -310,9 +310,15 @@ Perform the following steps:
 
     4.  If necessary, fill in the required details and click **Connect**.
 2.  Click the **set variables** step under **Steps**.
-3.  Make sure that the regular expression includes `SYS`.
+3.  Make sure that the regular expression includes `SYS` as shown in the following figure.
+
+    \[Omitted image "SAP-ident-section-set-vars.png"\] Alt text: The set variables step containing SYS.
+
 4.  Click the **set install\_dir** step under **Steps**.
-5.  Make sure that the regular expression includes `sap`.
+5.  Make sure that the regular expression includes `sap` as shown in the following graphic.
+
+    \[Omitted image "SAP-ident-section-set-install-dir.png"\] Alt text: The set install\_dir step containing sap.
+
 
 ### Symptom
 
@@ -341,6 +347,9 @@ The pattern fails at the EVAL function for identifying the web service.
 5.  Pattern Designer opens showing the selected identification section.
 6.  Select the failed step on the right.
 7.  Verify that the function running on EVAL is `com.snc.sw.util.HttpInvokerUtil.post`.
+
+    \[Omitted image "EvalScriptEditorHttpInvokerUtil.png"\] Alt text: Checking the EVAL for the pattern step.
+
 8.  Try to map the application service again and check the result.
 
 ### Cause 2

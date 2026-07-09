@@ -35,6 +35,13 @@ Before you log in to ServiceNow AI Platform using your PIV or CAC card, you must
 -   Make sure that a card reader is connected to your computer and your PIV or CAC card is inserted.
 -   Role required: none
 
+**Note:**
+
+-   Certificate Based Authentication is not supported on the On-Prem and edge encryption enabled instance.
+-   To enable Certificate Based Authentication on self-hosted instance, review this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1272738) and follow the instructions available in the **Native Certificate-Based Authentication** row within the table.
+
+.
+
 ### About this task
 
 If you need an admin to register your client certificate, see [Map PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).

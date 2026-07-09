@@ -46,15 +46,15 @@ With Action planner, you can manage actions in context while reviewing a Health 
 
 7.  To edit or open an action separately, select an option in the **Created actions** section.
 
-<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d731157e158">
+<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d733412e158">
 
 Option
 
-</th><th align="left" id="d731157e161">
+</th><th align="left" id="d733412e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731157e167">
+</th></tr></thead><tbody><tr><td id="d733412e167">
 
 **Edit an existing action**
 
@@ -68,7 +68,7 @@ The inline **Edit action** form opens with the current fields pre-filled.
 3.  Update the fields as needed and select **Save**.
 
 
-</td></tr><tr><td id="d731157e196">
+</td></tr><tr><td id="d733412e196">
 
 **Open an action record in full**
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Virtual Agent, NLU/Keyword, Natural Language Understanding, topic, testing, chat widget, Service Portal]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Testing NLU/Keyword topics
@@ -95,5 +95,5 @@ Use the **NLU Intent** tab to train and try a Natural Language Understanding \(N
 -   **[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)**  
 Automated testing for your Virtual Agent topic flows uses the ServiceNow Automated Test Framework product through Assistant Designer. You can create and run automated tests through the Automated Test Framework to confirm that your topic flow works after making a change.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

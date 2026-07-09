@@ -156,7 +156,7 @@ The request updates the purchase order or line item with revised quantity, locat
 
 Review and confirm your purchase request details from **Procurement Case Management** &gt; **Procurement Cases** &gt; **Purchase Requisitions** &gt; **Purchase lines**, if required.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

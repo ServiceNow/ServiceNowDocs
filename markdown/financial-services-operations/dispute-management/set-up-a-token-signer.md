@@ -48,7 +48,7 @@ Perform the following set up tasks for the token signer:
 
 4.  In the OAuth Entity Profiles list, verify **Is default** is set to `false`.
 
-5.  [Set up an OAuth Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md).
+5.  [Set up a credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md).
 
     In the **OAuth entity profile** field, select the OAuth entity profile created earlier in this procedure.
 

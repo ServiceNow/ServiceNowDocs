@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-30"
 reading_time_minutes: 6
 keywords: [Anomaly details]
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Anomaly insights
@@ -345,12 +345,10 @@ Max
     -   Default chart metric values will not match with anomaly chart metric values for node-level metrics, because the default chart aggregates at the node level whereas the anomaly chart aggregates at the instance level. Note that the aggregation type \(Max\) remains the same across both charts for these metrics.
     -   Anomaly chart data is available for a maximum of 28 days from the current date.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Feature availability based on package]()
 

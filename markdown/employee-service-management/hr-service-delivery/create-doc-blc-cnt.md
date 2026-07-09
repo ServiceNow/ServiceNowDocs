@@ -20,6 +20,12 @@ Each document template block can have multiple block contents. Each content mapp
 
 Role required: sn\_doc.admin
 
+## About this task
+
+Using document block content in an HTML template:
+
+Consider an employee offer letter template as an example. While most of the content applies to all employees, the leave policy clause may vary by geographical region. In this case, a document block can be created with two block contents, one for each regional leave policy, and added to the body field of the offer letter. This enables dynamic generation of the appropriate leave policy content based on the employee's location.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Document Templates** &gt; **Document Template Blocks**.
@@ -100,7 +106,7 @@ Body
 
 </td><td>
 
-Text that you want to include in the block content.
+Text that you want to include in the block content.**Note:** The output of the HTML block content is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

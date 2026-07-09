@@ -81,7 +81,7 @@ Logs output to the Service Portal Log Entries \[sp\_log\] table, when the logged
 
 </td></tr><tr><td>
 
-gs.log\(\)
+[gs.log\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemAPI.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ Logs output to the Log \[syslog\] table.**Note:** gs.log creates records on the 
 
 </td></tr><tr><td>
 
-gs.warn\(\)
+[gs.warn\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Produces warning level output in the Log \[syslog\] table.
 
 </td></tr><tr><td>
 
-gs.error\(\)
+[gs.error\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -117,7 +117,7 @@ Produces error level output in the Log \[syslog\] table.
 
 </td></tr><tr><td>
 
-gs.addInfoMessage\(\)
+[gs.addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Displays a green information message at the top of the browser window.
 
 </td></tr><tr><td>
 
-gs.addErrorMessage\(\)
+[gs.addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Displays a red error message at the top of the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addErrorMessage\(\)
+[spUtil.addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -153,7 +153,7 @@ Displays an error message within the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addInfoMessage\(\)
+[spUtil.addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -165,7 +165,7 @@ Displays an Info message within the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addTrivialMessage\(\)
+[spUtil.addTrivialMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -177,7 +177,7 @@ Displays a message which automatically disappears after a short time.
 
 </td></tr><tr><td>
 
-debugger
+[debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 </td><td>
 

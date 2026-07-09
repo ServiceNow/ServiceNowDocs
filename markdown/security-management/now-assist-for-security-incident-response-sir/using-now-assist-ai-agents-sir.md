@@ -21,11 +21,11 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
+**Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills, agents, or agentic workflows are turned on automatically.
+    When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
 
 -   **Existing customers who are upgrading \(starting with Australia Patch 4\)**
 
@@ -33,12 +33,14 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
     An AI asset is turned on if:
 
-    -   The Now Assist plugin is installed, but the asset was never turned on.
+    -   The AI plugin is installed, but the asset was never turned on.
     -   An admin has never adjusted roles for the skill.
     An AI asset is not turned on if:
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
+
+For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 <table id="table_fsq_52h_m2c"><thead><tr><th>
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Indicators used in the CMDB success advisor for HAM dashboard
@@ -33,6 +33,14 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 -   **CI install status vs. asset state mismatched**
 
     All CI records from the Hardware \[cmdb\_ci\_hardware\] class with an installation status that doesn’t align with the expected asset state, resulting in erroneous asset management.
+
+-   **CI lifecycle stage vs. asset lifecycle stage matched**
+
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage matched between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+
+-   **CI lifecycle stage vs. asset lifecycle stage mismatched**
+
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage mismatch between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
 
 -   **CIs missing asset**
 

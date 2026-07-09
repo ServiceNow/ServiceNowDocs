@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrate with GitHub Enterprise Server
@@ -88,15 +88,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Serv
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d299099e410">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d299820e410">
 
 Interface
 
-</th><th align="left" id="d299099e413">
+</th><th align="left" id="d299820e413">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d299099e419">
+</th></tr></thead><tbody><tr><td id="d299820e419">
 
 **Core UI**
 
@@ -107,7 +107,7 @@ Action
 3.  Select **GitHub Server Subscription Profile**.
 
 
-</td></tr><tr><td id="d299099e461">
+</td></tr><tr><td id="d299820e461">
 
 **Software Asset Workspace**
 
@@ -268,7 +268,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

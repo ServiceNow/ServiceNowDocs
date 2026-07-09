@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Strategic Portfolio Management – Resource Management Workspace
@@ -18,7 +18,7 @@ The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Managemen
 
 ## Accelerator overview
 
-Jumpstart Your Jumpstart Your Strategic Portfolio Management – Resource Management Workspace provides Impact customers with a comprehensive overview of the Resource Management Workspace in SPM, demonstrating how to gain a centralized view of resource allocations and requests to drive more efficient and informed resource management. This accelerator also equips customers with key resources and leading practices to help them get started quickly.
+Jumpstart Your Jumpstart Your Strategic Portfolio Management – Resource Management Workspace provides Impact customers with a comprehensive overview of the Resource Management Workspace in SPM, demonstrating how to gain a centralized view of resource allocations and requests to drive more efficient and informed resource management. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
 ## Package Availability
 

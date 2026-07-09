@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [HR notifications, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -38,15 +38,15 @@ Email notifications can be sent for HR tasks with due dates and can be configure
 
 3.  Enter or edit the fields on the **Email Content** form.
 
-<table id="choicetable_yhq_hsr_mbb"><thead><tr><th align="left" id="d673987e107">
+<table id="choicetable_yhq_hsr_mbb"><thead><tr><th align="left" id="d676121e107">
 
 Field
 
-</th><th align="left" id="d673987e110">
+</th><th align="left" id="d676121e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d673987e116">
+</th></tr></thead><tbody><tr><td id="d676121e116">
 
 **Name**
 
@@ -54,17 +54,17 @@ Description
 
 Enter or edit the name of the email template.
 
-</td></tr><tr><td id="d673987e125">
+</td></tr><tr><td id="d676121e125">
 
 **Type**
 
 </td><td>
 
-Select the type of notification:-   Activity Notification
--   HR Task Reminder
+Select the type of notification:-   Select **Activity Notification** for Lifecycle Event activity alerts.
+-   Select **HR Task Reminder** to send reminders tied to HR task due date.
 
 
-</td></tr><tr><td id="d673987e143">
+</td></tr><tr><td id="d676121e149">
 
 **Subject**
 
@@ -72,23 +72,15 @@ Select the type of notification:-   Activity Notification
 
 Enter or edit the subject line of the reminder notification. The text appears in the subject line of the email sent as a reminder notification.
 
-</td></tr><tr><td id="d673987e152">
+</td></tr><tr><td id="d676121e158">
 
 **Message HTML**
 
 </td><td>
 
-Enter or edit text that is the main body of the email notification. Use the formatting tools to format the text such as bold, italic, underline, font styling, justification, bullets, insert image, and numbers.
+Enter or edit text that is the main body of the email notification. Use the formatting tools to format the text such as bold, italic, underline, font styling, justification, bullets, insert image, and numbers.Use these controls \(- / +\) to add or remove line blocks within the Message HTML editor.
 
-</td></tr><tr><td id="d673987e162">
-
-**- +**
-
-</td><td>
-
-Click the - to delete lines from the message area or + to add lines.
-
-</td></tr><tr><td id="d673987e171">
+</td></tr><tr><td id="d676121e170">
 
 **Select variables**
 
@@ -98,7 +90,7 @@ This section provides a list of variables that can be used in the email template
 
 -   Activity Notification: HR Lifecycle Events Case \[sn\_hr\_le\_case\]
 -   HR Task Reminder: HR Case \[sn\_hr\_core\_case\]
-
+ Click a variable name to insert it at the cursor position in the **Message HTML** field.
 
 </td></tr></tbody>
 </table>4.  Select **Save** to save the record and remain on the **Email Content** form.

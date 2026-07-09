@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Exploring TAXII Outbound Server, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -97,9 +97,17 @@ Read Access
 When the **Access to all TAXII API users** field is not selected, then only the users specified in this field will be able to access the TAXII collection records.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>5.  To copy the discovery URL of the TAXII server, do the following:
 
-6.  **System property to add records**
+    1.  Select the information icon on the record to open **TAXII Server Configuration**.
+
+    2.  Select the copy icon next to the **Discovery URL** field.
+
+        The discovery URL is copied to your clipboard. Share this URL with TAXII clients to connect to your instance and retrieve the threat intelligence shared through the TAXII collection.
+
+6.  Select **Save**.
+
+7.  **System property to add records**
 
     The system property for TAXII collections limits the number of records that can be added to a TAXII collection.
 
@@ -122,23 +130,23 @@ sn\_sec\_tisc.taxii\_server\_collection\_record\_limit
 Maximum number of records that can be added to an outbound TAXII server collection.The default value is 10000.
 
 </td></tr></tbody>
-</table>7.  View the system property information for adding records to the TAXII collection.
+</table>8.  View the system property information for adding records to the TAXII collection.
 
-8.  Navigate to the **Flow Designer** &gt; **Flows**.
+9.  Navigate to the **Flow Designer** &gt; **Flows**.
 
     This navigation displays the template flow for adding TAXII Collections.
 
-9.  Select the **Automatically add threat intelligence to a TAXII Collection** flow.
+10. Select the **Automatically add threat intelligence to a TAXII Collection** flow.
 
-10. Navigate to the **Flow Designer** &gt; **Actions**.
+11. Navigate to the **Flow Designer** &gt; **Actions**.
 
-11. **Adding records to the TAXII Collection**
+12. **Adding records to the TAXII Collection**
 
     Currently, the only method for adding records to the TAXII server collection is via an automated process. The following are the two actions that are provisioned in the base system:
 
     1.  **Add Record to TAXII Server Collection**
     2.  **Add Records to TAXII Server Collection**
-12. View the respective TAXII server collection action.
+13. View the respective TAXII server collection action.
 
 
 **Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)

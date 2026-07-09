@@ -48,5 +48,5 @@ The capability diagram gets created and opened in a new tab. You can add new cap
 
 [Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bc-map.md)
 
-[Add a business capability or business application to the capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
+[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
 

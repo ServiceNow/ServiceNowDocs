@@ -201,6 +201,8 @@ Closed
 
     Review your choices and select **Activate** to complete the skill customization.
 
-    You can now leverage the generative AI skill for matching invoice lines with purchase order.
 
+## Result
+
+You can now leverage the generative AI skill for matching invoice lines with purchase order.
 

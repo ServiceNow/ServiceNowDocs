@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-02-13"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow MCP Registry, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [ServiceNow MCP Registry, Connect, Workflow Data Fabric]
 ---
 
 # Supported APIs

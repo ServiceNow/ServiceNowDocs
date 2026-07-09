@@ -1,5 +1,5 @@
 ---
-title: Monitoring log data flow and optimizing integration settings in Health Log Analytics
+title: Monitor log data flow and optimize integration settings
 description: The Overview screen in Health Log Analytics provides a comprehensive view of the components in the log-processing pipeline of a specific active integration. From this screen, you can troubleshoot any streaming issues for this integration and adjust its settings if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-integration-overview-tab.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Monitoring log data flow and optimizing integration settings in Health Log Analytics
+# Monitor log data flow and optimize integration settings
 
 The Overview screen in Health Log Analytics provides a comprehensive view of the components in the log-processing pipeline of a specific active integration. From this screen, you can troubleshoot any streaming issues for this integration and adjust its settings if needed.
 

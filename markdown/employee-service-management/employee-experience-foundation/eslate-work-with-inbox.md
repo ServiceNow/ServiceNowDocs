@@ -1,5 +1,5 @@
 ---
-title: Work with tasks and approvals
+title: Use tasks and approvals
 description: Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.html
@@ -13,7 +13,7 @@ keywords: [employee communications, announcements, content library, employee sla
 breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Work with tasks and approvals
+# Use tasks and approvals
 
 Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 
@@ -21,7 +21,7 @@ Triage your queue from the Employee Slate Tasks and requests. Review task summar
 
 Verify the Now Assist is active on the instance. AI summaries, AI prioritization, conversational filters, and chat-driven approval actions require Now Assist.
 
-Role required: Employee
+Role required: Employees
 
 ## About this task
 
@@ -39,25 +39,29 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
 
 3.  Open a card to view the task detail and approval checklist.
 
-    The task detail includes a summary of the request and a checklist that highlights which knowledge article conditions the request meets. Use the checklist to make a faster or more informed decision.
+    The task detail includes a summary of the request and a checklist that highlights which knowledge article conditions the request meets.
 
-4.  Apply a conversational filter.
+4.  Review the summaries and insights based on the skill configuration and the mode.
+
+    For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+
+5.  Apply a conversational filter.
 
     Ask the chat to filter, for example by overdue status or by request type. Ask the chat to clear filters to return the full list. Conversational filters are additive to the filter configuration that the administrator sets.
 
-5.  Retrieve tasks or requests through chat.
+6.  Retrieve tasks or requests through chat.
 
     Ask the chat for your tasks or requests to receive a task or request widget that lists matching items. Select **View details** in the widget to open the task detail without leaving the conversation.
 
-6.  Track a specific incident, case, or request through chat.
+7.  Track a specific incident, case, or request through chat.
 
     Ask the chat about a specific record, for example an incident number. The chat returns a single-item widget that you use to review and act on the record.
 
-7.  Approve or reject the item.
+8.  Approve or reject the item.
 
     Take action from the detail page or enter a natural language command in chat such as `Approve this request` or `Reject this request`.
 
-    Based on your action, the state is updated.
+    The system updates the record state based on your action.
 
 
 **Related topics**  

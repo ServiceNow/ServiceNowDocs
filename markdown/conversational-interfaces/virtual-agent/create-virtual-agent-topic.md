@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 10
 keywords: [Create, Virtual Agent, topic, topic, designer, conversations, LLM, NLU, Large language model, Natural Language Understanding]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Creating a Virtual Agent topic
@@ -23,7 +23,7 @@ Use Virtual Agent Designer to create and modify Virtual Agent topics \(conversat
 
 Do the following:
 
--   Review [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+-   Review [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 -   Configure Virtual Agent settings. For example, if you're creating large language model \(LLM\) topics, turn on Now Assist in Virtual Agent. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md). If you're creating Natural Language Understanding \(NLU\) topics, configure NLU settings. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 -   Plan your conversation before you begin. For more information, see [Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/design-va-topic.md).
 -   Verify that you're in the appropriate application scope before you create or update a topic. For example, if you're creating ITSM topics, verify that you're in the **ITSM Virtual Agent Conversations** scope \(and not the scope for the ITSM NLU Model for Virtual Agent Conversations\). For details, see [Change the application scope for Virtual Agent Designer topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/change-application-scope-vad.md).
@@ -156,5 +156,5 @@ Admins and topic authors can enable Virtual Agent to discover topics for use in 
 -   **[Use system-derived entities in an NLU topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-system-entities-va-topic.md)**  
 Associate system-derived entities such as such as date, time, duration, or location with a node in a topic.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

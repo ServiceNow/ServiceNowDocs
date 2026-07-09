@@ -34,34 +34,34 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d98491e107">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d100327e110">
 
 **If you know the automation type**
 
 </td><td>
 
-Click the relevant automation type card to begin a focused search.
+Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d98491e116">
+</td></tr><tr><td id="d100327e119">
 
-**If you do not know the automation type**
+**If you don't know the automation type**
 
 </td><td>
 
-Click the open-ended search button to launch the Now Assist Panel and start an agent-guided conversation.
+Select the open-ended search button to launch the Now Assist Panel and start an agent-guided conversation.
 
 </td></tr></tbody>
 </table>4.  In the Now Assist Panel, respond to the agent prompts to define your search criteria.
 
     The agent asks three questions to scope your search:
 
-    1.  Select the **automation type** you want to search for \(for example, Flows\).
+    1.  Select the automation type you want to search for \(for example, Flows\).
 
-    2.  Select the **time period** in which the automations were executed \(for example, Last 30 days\).
+    2.  Select the time period in which the automations were executed \(for example, Last 30 days\).
 
-        You can also enter a custom time value if the predefined options do not meet your requirements.
+        You can also enter a custom time value if the predefined options don't meet your requirements.
 
-    3.  Select the **application scope** for the search \(for example, All\).
+    3.  Select the application scope for the search \(for example, All\).
 
     The agent scans your instance within the defined scope and retrieves matching automations. This process may take a few minutes depending on the instance size and search scope.
 
@@ -71,8 +71,8 @@ Click the open-ended search button to launch the Now Assist Panel and start an a
 
     The results display all relevant automations on the instance against the search query, including:
 
-    -   AI-estimated **cost saving per run**.
-    -   AI-estimated **time saving per run**.
+    -   AI-estimated cost saving per run.
+    -   AI-estimated time saving per run.
     -   An explanation for the AI-generated estimates.
 6.  Select one or more automations to estimate the value \(time and cost saved\) and then onboard.
 

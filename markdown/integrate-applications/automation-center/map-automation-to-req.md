@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Map automations with automation request
@@ -108,5 +108,5 @@ Specify the percentage of the time that this automation saves for the automation
 10. After creating the mapping, select **Edit mapping** to edit the existing mappings or add new mappings.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
 

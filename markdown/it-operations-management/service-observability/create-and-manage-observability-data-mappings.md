@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-12"
 reading_time_minutes: 4
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -32,6 +32,10 @@ Map your services to the data from a connected external observability vendor ins
 Role required: sn\_sow\_svcobs.admin
 
 ## About this task
+
+**Tip:**
+
+If you want to use MetricBase as your data source, follow the procedure described in [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md) instead.
 
 When a service CI is mapped to specific observability vendor metric tag key/value pairs, Service Observability displays metrics containing those tags for that service. These metrics are grouped by the following entity types:
 

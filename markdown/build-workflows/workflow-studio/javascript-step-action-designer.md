@@ -43,7 +43,7 @@ Required Runtime
 The runtime environment required to support the script. Choices include:
 
 -   **Instance**: The action step runs the script from instance. Select this option when the script needs access to the ServiceNow API or instance data. This is the default value.
--   **MID**: The action step runs the script from the MID Server. Select this option when the script needs access to MID Server script files and APIs. Selecting this option displays the **Select MID Server Using** field.
+-   **MID**: The action step runs the script from the MID Server. Select this option when the script needs access to [MID Server script files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-script-attach.md) and APIs. Selecting this option displays the **Select MID Server Using** field.
 -   **Vanilla \(Core JavaScript\)**: The action step runs the script from either the instance or MID Server. Select this option when the script only needs the core JavaScript APIs and not the ServiceNow API or instance data.
 
  The runtime you select determines the JavaScript objects and methods displayed in the Context-sensitive help.
@@ -90,7 +90,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **MID** is selected from the Required Runtime list, and **Use Inline Selection** is selected from the Select MID Server Using list.

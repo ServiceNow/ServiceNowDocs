@@ -25,12 +25,13 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Supported versions
 
 -   Supported Microsoft SCCM/MECM versions:
+    -   2603
+    -   2509
     -   2503
-    -   2409
 -   Supported ServiceNow versions:
-    -   Xanadu
     -   Yokohama
     -   Zurich
+    -   Australia
 
 ## Use cases
 

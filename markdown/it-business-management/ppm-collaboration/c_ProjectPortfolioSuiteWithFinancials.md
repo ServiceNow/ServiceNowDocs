@@ -48,7 +48,7 @@ PPM Standard provides comprehensive capabilities for project planning and execut
 -   **Installed components:** Review the roles, tables, and configurations installed with PPM Standard. See [Roles installed with PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md).
 
 -   **[Activate Investment Funding for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/activate-investment-funding-ppm.md)**  
-Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 -   **[Currencies and budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md)**  
 The support for use of multiple currencies provides conversions for budget items in different currencies.
 

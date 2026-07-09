@@ -28,7 +28,7 @@ You can also use the HTML editor when creating or editing a knowledge article us
 
 1.  Copy your text from a content source.
 
-2.  Click the paste as text icon \(\[Omitted image "paste-text.png"\] Alt text: Paste as text icon\) on the HTML toolbar.
+2.  Click the paste as text icon on the HTML toolbar.
 
 3.  In the Article body section, place your cursor at the point where you want to paste the content, right-click, and select **Paste** from the context menu.
 

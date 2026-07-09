@@ -9,7 +9,7 @@ classification: health-and-safety-incident-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Managing Health and Safety incidents and observations

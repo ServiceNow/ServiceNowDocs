@@ -18,10 +18,11 @@ Now Assist provides AI-powered capabilities across the Playbook experience, from
 
 Now Assist enhances Playbook with generative AI and agentic capabilities that help you build, discover, and run playbooks more efficiently.
 
-|Feature|Description|Documentation|
-|-------|-----------|-------------|
-|Playbook generation|Generate a complete playbook automatically using a natural language prompt. Now Assist creates the playbook structure, stages, and activities based on your input.||
-|Playbook recommendation|Get AI-powered recommendations for existing playbooks based on the current context, such as a record or case, so the right playbook is surfaced at the right time.||
+|Capability|Description|Documentation|
+|----------|-----------|-------------|
+|Playbook generation|Generate a complete playbook automatically using a natural language prompt. Now Assist creates the playbook structure, stages, and activities based on text prompt or image.|[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md)|
+|Playbook recommendation|Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.|[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-recommendations.md)|
+|Playbook summarization|Use AI-generated overviews of a playbook's stages, activities, triggers, and inputs to understand its purpose and flow without going into the details of what is being done at activity and stage level.|[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-summarization.md)|
 |Agentic Playbooks|Enable AI agents to autonomously execute playbook actions and make decisions at runtime, reducing manual intervention for complex, multi-step processes.|[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/agentic-playbooks-landing.md)|
 
 **Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)

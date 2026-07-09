@@ -9,7 +9,7 @@ classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Model categories, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Model categories, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Create assets manually

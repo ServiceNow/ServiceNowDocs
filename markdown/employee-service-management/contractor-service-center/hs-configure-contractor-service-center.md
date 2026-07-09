@@ -18,7 +18,7 @@ Set up your implementation for Contractor Service Center by installing the plugi
 
 -   **[Install Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-install-contractor-service-center.md)**  
 You can install the Health and safety Contractor safety center \[sn\_hs\_csc\] application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Configure system properties for Save as draft option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-configure-system-properties-contractor-service-center.md)**  
+-   **[Configure the Save as draft option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-configure-system-properties-contractor-service-center.md)**  
 Configure the system properties to enable the **Save as draft** option for some catalog item. For example, on the permit to work form or for password reset.
 -   **[Configure the menu for Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-contractor-service-center-menu-configuration.md)**  
 As an admin you can configure the menu for the contractor service center. You can update the **Quick links to get you started** or the **Explore our categories** menu items, or create a menu item.

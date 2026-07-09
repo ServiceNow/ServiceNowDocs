@@ -21,7 +21,7 @@ There are two methods to calculate the risk of a change. The Best Practice - Cha
 
 The two methods can be used individually or together, depending on your requirements. If the methods are used together, the highest risk value from both methods is always selected.
 
-\[Omitted image "image.risk\_assessment\_calculation"\] Alt text: Risk assessment calculation
+\[Omitted image "risk\_assessment\_calculation.png"\] Alt text: Risk assessment calculation
 
 **Note:** If both Risk Assessment and Risk Calculator are active but you want to use only one method, remove conditions for the method you do not want to use.
 

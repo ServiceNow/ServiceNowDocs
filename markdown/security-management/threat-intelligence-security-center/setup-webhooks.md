@@ -36,15 +36,15 @@ For example, whenever a new observable is added in threat intelligence then a pa
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d47458e102">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d47554e102">
 
 Field
 
-</th><th align="left" id="d47458e105">
+</th><th align="left" id="d47554e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47458e111">
+</th></tr></thead><tbody><tr><td id="d47554e111">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Enter a webhook name.
 
-</td></tr><tr><td id="d47458e120">
+</td></tr><tr><td id="d47554e120">
 
 **Description**
 
@@ -60,7 +60,7 @@ Enter a webhook name.
 
 Add the description of the webhook.
 
-</td></tr><tr><td id="d47458e129">
+</td></tr><tr><td id="d47554e129">
 
 **Configuration Details**
 
@@ -68,7 +68,7 @@ Add the description of the webhook.
 
  
 
-</td></tr><tr><td id="d47458e137">
+</td></tr><tr><td id="d47554e137">
 
 **Use REST message**
 
@@ -76,7 +76,7 @@ Add the description of the webhook.
 
 Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in Webhook URL to send the event information. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on ServiceNow AI Platform documentation.
 
-</td></tr><tr><td id="d47458e162">
+</td></tr><tr><td id="d47554e162">
 
 **REST message**
 
@@ -86,7 +86,7 @@ Select the REST Message record from the list of REST message records which are a
 
 **Note:** The REST message and REST method fields are mandatory when you select the REST message.
 
-</td></tr><tr><td id="d47458e183">
+</td></tr><tr><td id="d47554e183">
 
 **REST method**
 
@@ -94,7 +94,7 @@ Select the REST Message record from the list of REST message records which are a
 
 Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.**Note:** Only POST Rest methods are supported for webhooks.
 
-</td></tr><tr><td id="d47458e201">
+</td></tr><tr><td id="d47554e201">
 
 **Webhook URL**
 
@@ -102,7 +102,7 @@ Select REST Method from the list of available REST Methods configured for the se
 
 A webhook endpoint is a URL that receives webhook event notifications.
 
-</td></tr><tr><td id="d47458e210">
+</td></tr><tr><td id="d47554e210">
 
 **Authentication Required**
 
@@ -110,7 +110,7 @@ A webhook endpoint is a URL that receives webhook event notifications.
 
 Select this check box if the authentication is required.**Note:** This is only applicable when Webhook URL is being used to retrieve the data.
 
-</td></tr><tr><td id="d47458e221">
+</td></tr><tr><td id="d47554e221">
 
 **Authentication Type**
 
@@ -118,7 +118,7 @@ Select this check box if the authentication is required.**Note:** This is only a
 
 The authentication type for the webhook.**Note:** As of now, only Basic authentication type is supported.
 
-</td></tr><tr><td id="d47458e232">
+</td></tr><tr><td id="d47554e232">
 
 **Username**
 
@@ -126,7 +126,7 @@ The authentication type for the webhook.**Note:** As of now, only Basic authenti
 
 Provide a username to your authentication type.
 
-</td></tr><tr><td id="d47458e242">
+</td></tr><tr><td id="d47554e242">
 
 **Password**
 
@@ -134,7 +134,7 @@ Provide a username to your authentication type.
 
 Provide a password to your authentication type.
 
-</td></tr><tr><td id="d47458e251">
+</td></tr><tr><td id="d47554e251">
 
 **Headers to be passed with request**
 

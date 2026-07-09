@@ -32,7 +32,7 @@ In this video, learn about the Model Context Protocol and how to create and use 
 
 </td></tr><tr><td>
 
-[Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Call an MCP server from an MCP client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+[Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Call an MCP server from an MCP client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md)
 
 </td><td>
 

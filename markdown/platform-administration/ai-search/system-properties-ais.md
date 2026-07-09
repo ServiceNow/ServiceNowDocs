@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 14
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -64,8 +64,8 @@ Error
 
 </td><td>
 
-If unsuccessful, possible error messages:-   No BOQ ID passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
--   Invalid BOQ sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
+If unsuccessful, possible error messages:-   No sys\_id passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
+-   Invalid sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
 
 </td></tr></tbody>
 </table>The following example shows how to start a test user for the admin user, get the progress, and cancel the test user. After confirming the locked out user as a valid cloud user, the code sets the cloud user as an ITIL administrator. In the global scope, use the sn\_atf\_tg namespace.
@@ -194,14 +194,14 @@ Object.state
 
 </td><td>
 
-State of the BOQ record.Possible values:
+State of the record.Possible values:
 
--   Pending – The requested test activity has been created and is waiting to be executed.
--   Processing – The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
--   Browsers requested – A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
--   Running – Cloud infrastructure browsers find and execute pending tests.
--   Completed – The test task is complete.
--   Failed state – The test task failed.
+-   `Pending`: The requested test activity has been created and is waiting to be executed.
+-   `Processing`: The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
+-   `Browsers requested`: A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
+-   `Running`: Cloud infrastructure browsers find and execute pending tests.
+-   `Completed`: The test task is complete.
+-   `Failed state`: The test task failed.
 
 Type: String
 
@@ -211,8 +211,8 @@ Error
 
 </td><td>
 
-If unsuccessful, possible error messages:-   No BOQ ID passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
--   Invalid BOQ sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
+If unsuccessful, possible error messages:-   No sys\_id passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
+-   Invalid sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
 
 </td></tr></tbody>
 </table>The following example shows how to start a test user for the admin user, get the progress, and cancel the test user. After confirming the locked out user as a valid cloud user, the code sets the cloud user as an ITIL administrator. In the global scope, use the sn\_atf\_tg namespace.

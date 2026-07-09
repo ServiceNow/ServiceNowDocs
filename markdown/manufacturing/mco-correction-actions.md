@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a correction action
@@ -34,17 +34,10 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see .
+    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md).
 
 6.  Select **Save**.
 
-
--   **[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line.md)**  
-Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
--   **[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-impacted-asset-action.md)**  
-Create the list of assets that are impacted under non-conformance cases.
-
-**Parent Topic:**[Product Non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

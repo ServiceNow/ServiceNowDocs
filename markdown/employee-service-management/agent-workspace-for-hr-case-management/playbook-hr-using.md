@@ -62,31 +62,31 @@ Role required: sn\_hr\_le.case\_writer
 
 2.  Select a lifecycle event case.
 
-3.  Click an activity set.
+3.  Select an activity set.
 
     \[Omitted image "playbook-hr-activity-sets.png"\] Alt text: HR Agent WS - Playbook activity sets
 
-4.  Click an activity within the opened activity set.
+4.  Select an activity within the opened activity set.
 
     \[Omitted image "playbook-hr-activities.png"\] Alt text: HR Agent WS - Playbook activities
 
-5.  Click the **Add note or comment** icon \[Omitted image "playbook-hr-comment-icon.png"\] Alt text: HR Agent WS - Playbook add note or comment icon.
+5.  Select the **Add note or comment** icon \[Omitted image "playbook-hr-comment-icon.png"\] Alt text: HR Agent WS - Playbook add note or comment icon.
 
-    \[Omitted image "playbook-hr-click-comment-icon.png"\] Alt text: HR Agent WS - Playbook click add note or comment
+    \[Omitted image "playbook-hr-click-comment-icon.png"\] Alt text: HR Agent WS - Playbook select add note or comment
 
 6.  Select **Work notes \(Private\)** or **Comments**.
 
     \[Omitted image "playbook-hr-compose-comment.png"\] Alt text: HR Agent WS - Playbook compose note or comment
 
-7.  Enter text and click **Post Work notes \(Private\)** or **Post Comments**.
+7.  Enter text and select **Post Work notes \(Private\)** or **Post Comments**.
 
-8.  Click the **Filter by** icon \[Omitted image "playbook-hr-filter-icon.png"\] Alt text: HR Agent WS - Playbook filter by icon to filter by activities.
+8.  Select the **Filter by** icon \[Omitted image "playbook-hr-filter-icon.png"\] Alt text: HR Agent WS - Playbook filter by icon to filter by activities.
 
     \[Omitted image "playbook-hr-filter-by.png"\] Alt text: HR Agent WS - Filter by
 
 9.  Check the filters you want to show activities under.
 
-10. Click the More Options icon \[Omitted image ""\] Alt text: HR Agent WS - Playbook more options icon.
+10. Select the More Options icon \[Omitted image ""\] Alt text: HR Agent WS - Playbook more options icon.
 
     \[Omitted image "playbook-hr-more-options.png"\] Alt text: HR Agent WS - Playbook more options filter
 
@@ -115,7 +115,7 @@ Role required: sn\_hr\_le.case\_writer
 
     \[Omitted image "playbook-hr-activities.png"\] Alt text: HR Agent WS - Playbook activities
 
-5.  Click the **Open task** icon \[Omitted image "playbook-hr-open-task-icon.png"\] Alt text: HR Agent WS - Playbook open task icon.
+5.  Select the **Open task** icon \[Omitted image "playbook-hr-open-task-icon.png"\] Alt text: HR Agent WS - Playbook open task icon.
 
     \[Omitted image "playbook-hr-open-task.png"\] Alt text: HR Agent WS - Playbook open task
 
@@ -123,9 +123,9 @@ Role required: sn\_hr\_le.case\_writer
 
     \[Omitted image "playbook-hr-opened-task.png"\] Alt text: HR Agent WS - Playbook opened task
 
-7.  You can make edits and click **Save**.
+7.  You can make edits and select **Save**.
 
-8.  To return to Playbook, click the **Details** tab.
+8.  To return to Playbook, select the **Details** tab.
 
 
 ## HR Playbook see activity
@@ -142,15 +142,15 @@ Role required: sn\_hr\_le.case\_writer
 
 2.  Select a lifecycle event case.
 
-3.  Click an activity set.
+3.  Select an activity set.
 
     \[Omitted image "playbook-hr-activity-sets.png"\] Alt text: HR Agent WS - Playbook activity sets
 
-4.  Click an activity within the opened activity set.
+4.  Select an activity within the opened activity set.
 
     \[Omitted image "playbook-hr-activities.png"\] Alt text: HR Agent WS - Playbook activities
 
-5.  Click the **See activity** button.
+5.  Select the **See activity** button.
 
     **Note:** Only agents with access to the case card and not assigned to the case can see this button. The Assigned to agent does not see this button.
 

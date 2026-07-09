@@ -1,6 +1,6 @@
 ---
 title: Cloud Runner Test Generation REST API
-description: Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of each generated test for a provided Browser Orchestration Queue \(BOQ\) record.Sets the test generation job and its associated update set record to complete status. Cancels the root trackers of any generated tests that are running. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.Inserts a record into the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to start a test job.
+description: Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of each generated test for a provided Browser Orchestration Queue \(BOQ\) record.Sets the test generation job and its associated update set record to complete status. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.Inserts a record into the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to start a test job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cloudrunner-testgeneration-api.html
 release: australia
@@ -283,7 +283,7 @@ Response:
 
 ## Cloud Runner Test Generation - POST /now/sn\_atf\_tg/cancel\_test\_generation
 
-Sets the test generation job and its associated update set record to complete status. Cancels the root trackers of any generated tests that are running. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.
+Sets the test generation job and its associated update set record to complete status. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.
 
 Tests can fail or cancel automatically due to business rules or access control rule \(ACL\) issues. View the generated test table for more details about failed or canceled tests.
 

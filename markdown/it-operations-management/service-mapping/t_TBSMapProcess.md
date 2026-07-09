@@ -16,8 +16,6 @@ breadcrumb: [Fix errors in individual application service maps, Application serv
 
 You can troubleshoot mapping errors caused by patterns.
 
-This video provides an alternative way of troubleshooting pattern-related errors.
-
 ## Before you begin
 
 Verify that the mapping error is caused by an inaccurate pattern by checking the discovery message. If the message says "Failed to recognize application", the error is pattern-related.
@@ -90,7 +88,7 @@ You can identify problematic steps in your pattern and fix them without reviewin
 **Related topics**  
 
 
-[Fix errors in individual application services using discovery messages]()
+[Fix service mapping errors using discovery messages]()
 
 [Skip errors to continue discovering an application service]()
 

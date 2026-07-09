@@ -100,7 +100,7 @@ Stores one-time configuration parameters for the initial setup of the HR Service
 
 </td></tr><tr><td>
 
-Workday Learning Skills
+Workday Learning Skills \[sn\_lrn\_workday\_skills\]
 
 </td><td>
 

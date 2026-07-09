@@ -26,9 +26,7 @@ The skills that come with the Now Assist applications have defaults configuratio
 Unified Admin Experience for GenAI Skills:
 
 -   Previously, skills cloned in Now Assist Admin console supported only prompt configuration in Now Assist Skill Kit. Input configuration could not be edited in Now Assist Skill Kit, creating a fragmented setup process. With the new unified admin experience, users can manage GenAI skills seamlessly in Now Assist Skill Kit. This includes adding necessary headers as input, configuring or editing prompts, and maintaining all settings in a single location.
--   The unification migrates the Now Assist Admin console setup experience to Now Assist Skill Kit for all configured skills in Now Assist for HRSD..
-
-\[Omitted image "cloning-in-now-assist-for-csm.png"\] Alt text:
+-   The unification migrates the Now Assist Admin console setup experience to Now Assist Skill Kit for all configured skills in Now Assist for HRSD.
 
 **Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

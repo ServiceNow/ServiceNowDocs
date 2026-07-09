@@ -17,11 +17,11 @@ ServiceNow Impact is built on the ServiceNow AI Platform and combines customized
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-program-features.md)
+[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/servicenow-impact-concept.md)
 
 </td><td>
 
-[Configuring Impact\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to setup and configure Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact.md)
+[Configuring Impact\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to setup and configure Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
 </td></tr><tr><td>
 

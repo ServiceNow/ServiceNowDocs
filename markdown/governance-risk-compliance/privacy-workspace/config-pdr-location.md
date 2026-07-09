@@ -46,7 +46,7 @@ Each location configuration record holds the rules that apply when a requester s
 
     For field descriptions, see [PDR new jurisdiction configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.md).
 
-    **Note:** Don't select the **Active** option. Activate the jurisdiction after you add at least one active data subject type to it.
+    **Note:** Select the **Active** option to activate the jurisdiction after you map at least one active data subject type to it.
 
 5.  Select **Submit**.
 
@@ -69,7 +69,7 @@ Each location configuration record holds the rules that apply when a requester s
 
 When a requester selects a jurisdiction on the external-facing form, the form applies the introductory text, authorized agent option, and the location-specific URLs from the corresponding location configuration.
 
--   **[Personal Data Rights external facing form location configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.md)**  
+-   **[Personal Data Rights location configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.md)**  
 Populate a new location configuration record. Field choices determine whether requesters in the mapped jurisdictions see authorized agent paths, what URLs the form links to, and what introductory text appears at the start of the Personal Data Rights \(PDR\) form.
 
 **Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)

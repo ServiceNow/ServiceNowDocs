@@ -1,5 +1,5 @@
 ---
-title: Track instance performance with the top six timely alerts – Guided users
+title: Use common alerts to track performance \(Guided users\)
 description: Use the Instance Observer alerting feature to receive notifications on the performance of your instance. Monitor the alerts that are system driven.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-alerts-guided-cust.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Alerts in Instance Observer, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Track instance performance with the top six timely alerts – Guided users
+# Use common alerts to track performance \(Guided users\)
 
 Use the Instance Observer alerting feature to receive notifications on the performance of your instance. Monitor the alerts that are system driven.
 
@@ -48,7 +48,7 @@ If you’re an Impact Guided tier customer, then the important top 6 and commonl
 
 7.  To create a notification rule, navigate to **Alerts** &gt; **Configure Notification** and select **Create Rule**.
 
-    You can create a **New Rule** by giving a name and description. You can configure the **Notification Type** by selecting one or more from the options available such as Email, SMS, ServiceNow Integration, and third party integrations. If there are third-party integrations such as AWS, Google Cloud, or Azure an automated notification is sent to the specific URL as a webhook alert.
+    You can create a **New Rule** by giving a name and description. You can configure the **Notification Type** by selecting one or more from the options available such as Email, SMS, ServiceNow Integration, and third-party integrations. If there are third-party integrations such as AWS, Google Cloud, or Azure an automated notification is sent to the specific URL as a webhook alert.
 
     You can set the rule conditions as default, which take precedence over all other conditions of a default rule.
 
@@ -56,8 +56,8 @@ If you’re an Impact Guided tier customer, then the important top 6 and commonl
 
 8.  Select **Save**.
 
-    For more information on configuring alerts and setting notifications, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    For more information on configuring alerts and setting notifications, see [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 
-**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

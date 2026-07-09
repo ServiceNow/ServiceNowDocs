@@ -28,5 +28,5 @@ Add a value stream to a process to create an efficient workflow.
 
 [Exploring value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-streams.md)
 
-[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
+[View value stream stages associated with a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-vs-stages-assoc-with-bp.md)
 

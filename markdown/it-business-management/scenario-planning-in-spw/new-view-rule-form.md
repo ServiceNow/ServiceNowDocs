@@ -65,5 +65,5 @@ Select one of the following:-   APW Default
 **Related topics**  
 
 
-[Create workspace view rules for new planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md)
+[Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md)
 

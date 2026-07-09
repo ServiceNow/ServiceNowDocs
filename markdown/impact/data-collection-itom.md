@@ -23,3 +23,14 @@ Perform the steps in the following order:
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md) and [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md).
 
+-   **[Install the Data Collection Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itom-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itom-config.md)**  
+Configure Data Collection for ITOM.
+-   **[Activate Data Collection for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itom-activate.md)**  
+Activate the Data Collection Pack for ITOM after you enable and configure it.
+-   **[Review ITOM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-itom-install-artifacts.md)**  
+The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application and includes artifact types.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+

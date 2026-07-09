@@ -14,8 +14,6 @@ breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service
 
 Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CSM Configurable Workspace and complete guided activities to resolve customer issues.
 
-\[Omitted image "case-playbook-template-horizontal-stages.png"\] Alt text: Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.
-
 ## Playbook overview
 
 A [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) is an end-to-end workflow that includes the stages, steps, and guidance to lead users through a business process. A playbook visualizes a workflow in a task-oriented view and guides users through sequences of tasks.

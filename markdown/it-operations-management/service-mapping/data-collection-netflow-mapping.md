@@ -24,7 +24,7 @@ The component, which receives data in the Netflow format is the Netflow Collecto
 
 -   **For the test purposes**
 
-    This setup results in half automated data collection flow, where Service Mapping imports data only if you manually copy it from the Netflow Collector. You place the Netflow Collector on a server inside your organization network. This must be a server different from the server hosting the MID Server. You configure and test this setup as described in [Configure onetime data import using Netflow for testing purposes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/test-netflow-service-mapping.md).
+    This setup results in half automated data collection flow, where Service Mapping imports data only if you manually copy it from the Netflow Collector. You place the Netflow Collector on a server inside your organization network. This must be a server different from the server hosting the MID Server. You configure and test this setup as described in [Configure a Netflow data import for testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/test-netflow-service-mapping.md).
 
 -   **For standard operation**
 

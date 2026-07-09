@@ -98,7 +98,7 @@ Date and time your bulk case request was submitted to create cases. The value of
 **Related topics**  
 
 
-[Create a new case form]()
+[Create a case form]()
 
 [Page Configurations reference]()
 

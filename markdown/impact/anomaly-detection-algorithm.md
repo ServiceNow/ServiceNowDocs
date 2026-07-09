@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Anomalies detection, Performance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Anomalies detection in performance metrics, Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Anomaly detection algorithm
@@ -16,7 +16,7 @@ Instance Observer is performing anomalies detection through the Z-score Statisti
 
 Anomaly detection analyzes a set of five metrics, Memory Max, Semaphore Mean, SQL response time, Server Response Time and Transaction count. The detection model has been validated with samplings with multiple instances of daily, weekly, and monthly level data.
 
-Metrics representing anomalies using the Z-score model are Transaction count, Server Response Time &amp; SQL Response time. Metrics representing anomalies using an upper threshold-based approach are Semaphore Mean, Node max Memory, and Job execution. Refer to [Getting started with Performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-getting-started-perf-charts.md) for details on the five metrics.
+Metrics representing anomalies using the Z-score model are Transaction count, Server Response Time &amp; SQL Response time. Metrics representing anomalies using an upper threshold-based approach are Semaphore Mean, Node max Memory, and Job execution. Refer to [Generate performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-getting-started-perf-charts.md) for details on the five metrics.
 
 ## Upper threshold-based methodology
 
@@ -38,5 +38,5 @@ The cyclicity score is the similarity between two series which measure the simil
 
 The cyclical score is calculated at the instance level with a data selection of four weeks divided into two-week vector increments, excluding weekends. The score returns the similarity score between the two, where a higher score indicates a more aligned similarity trend in the compared vector data.
 
-**Parent Topic:**[Anomalies detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomalies-detection.md)
+**Parent Topic:**[Anomalies detection in performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomalies-detection.md)
 

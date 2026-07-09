@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-04-06"
 reading_time_minutes: 5
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Automated Correlation
@@ -271,7 +271,7 @@ Creates a Potential Relationship
 Disabled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

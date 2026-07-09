@@ -20,8 +20,6 @@ The Microsoft SCCM versions supported in the ServiceNow® platform offer identic
 2.  A MID Server retrieves the SCCM data and imports it into staging tables on the instance.
 3.  Transforms run on the data in the staging tables and map the SCCM data to existing fields in the CMDB.
 
-\[Omitted image "SCCMDiagram.png"\] Alt text: SCCM data import process
-
 ## SCCM data imported
 
 This table shows the SCCM source tables, the corresponding import set staging tables in the ServiceNow® instance, and the target tables in the CMDB.

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [disable monitoring, stop monitoring, turn off metrics monitoring, disable application monitoring]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 

@@ -18,7 +18,7 @@ Learn how to configure the Telecommunications Network Inventory application so t
 
 -   **[Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/installing-telecommunications-network-inventory.md)**  
 If you have the admin role, you can install the Telecommunications Network Inventory application. The application includes the demo data and installations that are related ServiceNow® Store applications and plugins, if they aren’t already installed.
--   **[Assign user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)**  
+-   **[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)**  
 You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 -   **[Define a location hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)**  
 Define a location hierarchy for your Telecommunications Network Inventory forms so that you can track and manage your network assets. By defining a location hierarchy, you can see where all your network equipment is located.

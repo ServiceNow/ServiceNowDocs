@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Labor Unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a local chapter
@@ -84,5 +84,5 @@ The website URL of the local union chapter.
     **Note:** For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-contacts.md). For more information on **Employee Union Memberships**, see [Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-employee-membership.md).
 
 
-**Parent Topic:**[Components installed with Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
 

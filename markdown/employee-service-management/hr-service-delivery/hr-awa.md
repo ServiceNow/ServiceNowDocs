@@ -18,9 +18,9 @@ Use the ServiceNow Advanced Work Assignment for HR Service Delivery feature to a
 
 AWA for HR Service Delivery pushes cases and tasks to qualified agents using work item queues, routing conditions, and assignment criteria that you define.
 
-For more information, see Agent Workspace Advanced Work Assignment \(AWA\).
+AWA is also available for HR Service Delivery Agent Workspace.
 
-AWA is also available for HR Service Delivery Agent Workspace. For more information, see .
+For more details about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md).
 
 **Parent Topic:**[HR Service Delivery case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-case-assignment.md)
 

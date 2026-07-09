@@ -51,3 +51,8 @@ Role required: none
 
 Your new password is set.
 
+**Related topics**  
+
+
+[Change password on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm-business-portal.md)
+

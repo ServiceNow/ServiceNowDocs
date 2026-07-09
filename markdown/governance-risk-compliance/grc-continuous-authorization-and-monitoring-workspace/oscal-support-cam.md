@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Export in OSCAL format
@@ -56,7 +56,7 @@ CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by th
 |Reviewed controls|results.reviewed-controls|
 |AP reference|import-ap.href|
 |Control Tailoring Requests|
-|Roles ctr-opened-by, ctr-assigned-to\)|metadata.roles\[\].id, metadata.roles\[\].title|
+|Roles ctr-opened-by, ctr-assigned-to|metadata.roles\[\].id, metadata.roles\[\].title|
 |Users \(Control Tailoring Request Opened by, Control Tailoring Request Assigned to\)|metadata.responsible-parties\[\].role-id, metadata.responsible-parties\[\].party-uuids\[\]|
 |Traceability props|system-characteristics.props|
 

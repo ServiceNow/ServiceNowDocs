@@ -14,7 +14,7 @@ breadcrumb: [Governing the Data Catalog, Data Catalog, Workflow Data Fabric]
 
 Organize data assets by creating hierarchical domain structures that represent business areas, departments, or data categories.
 
-Create and manage catalog domains 
+\[Omitted video\] Description: Create and manage catalog domains
 
 ## Before you begin
 

@@ -569,6 +569,14 @@ os.all.check.internal.get-device-configuration-on-change
 
 Gets the configurations of a device. For example: sudo configured, debug on, agent user, and so on. Runs only if value changes.
 
+</td></tr><tr><td>
+
+os.mac.action-kill-zombie-orphan-process
+
+</td><td>
+
+Takes an app name as input, identifies zombie and orphan processes for that app using the app\_process\_data.sh script, and kills them. Returns output in the format \{isSuccess: true/false, message: "success/failure message", output: \{"killedProcessPids": \[array of pids\]\}\}
+
 </td></tr></tbody>
 </table>## Check definitions — Diagnostic Actions
 

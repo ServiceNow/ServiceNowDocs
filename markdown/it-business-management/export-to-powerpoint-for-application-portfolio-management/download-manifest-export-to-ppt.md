@@ -18,7 +18,7 @@ Configure the user roles and download the add-in manifest file to use the Export
 
 ## Before you begin
 
-Role required: sn\_ppt\_export.ppt\_admin
+Role required: admin
 
 ## Procedure
 

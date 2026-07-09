@@ -25,7 +25,7 @@ Create drafts of knowledge articles that are based on the case descriptions with
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the Knowledge Assist skill from the Now Assist Admin console.
+-   Activate the KB generation skill from the Now Assist Admin console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 
@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d388688e227">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d389655e242">
 
 Option
 
-</th><th align="left" id="d388688e230">
+</th><th align="left" id="d389655e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d388688e236">
+</th></tr></thead><tbody><tr><td id="d389655e251">
 
 **Yes, draft with Now Assist**
 
@@ -76,7 +76,7 @@ Description
 
 Use Now Assist to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d388688e247">
+</td></tr><tr><td id="d389655e262">
 
 **No, write it myself**
 

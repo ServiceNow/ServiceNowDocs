@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 26
+reading_time_minutes: 34
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v2.12.2 is the latest version.
+Workday HR spoke v3.0.1 is the latest version.
 
 ## Supported versions
 
@@ -1007,6 +1007,7 @@ If you’re having trouble installing the app, confirm that these dependent plug
 -   ServiceNow Flow Designer - Dynamic Outputs \(com.glide.hub.dynamic\_outputs\)
 -   Complex Object \(com.glide.cobject\)
 -   System Import Data Source \(glide.system\_import\_data\_source\)
+-   ServiceNow Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)​
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -1038,97 +1039,1340 @@ The Workday HR spoke provides actions to automate Workday tasks when events occu
 
 **Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-wd-hr-spoke.md).
 
-|Actions that use the Workday SOAP APIs|
-|Category|Action|Description|
-|--------------------------------------|
-|--------|------|-----------|
-|Default|Look up Skills|Retrieves the details of the skills from Workday.|
-|Absence Management|Get Time off Balances By Employee ID|Retrieves details of the time off plan balance for the specified employee.|
-|Look up Time Off Balance|Retrieves details of the time off balance, based on the provided filter criteria.|
-|Request Leave Of Absence|Creates a long leave absence request or updates an existing request.|
-|Request Time Off|Creates a short-term leave request.|
-|Approval Management|Approve Business Process|Approves the specified business process in Workday.|
-|Reject Business Process|Rejects the specified business process in Workday.|
-|Benefits Administration|Add Dependent|Adds a dependent to the specified worker.|
-|Change Beneficiaries|Updates beneficiary details of the specified worker.|
-|Cash Management|Update Direct Deposit Information|Updates details of the current payment elections.|
-|Metadata Retrieval|Get Additional Workday Fields|Retrieves all additional fields for each action.|
-|Get Custom Dynamic Input Fields|Retrieves all custom dynamic input fields.|
-|Get Custom Dynamic Output Fields|Retrieves all custom dynamic output fields.|
-|Get Object For Custom Dynamic Fields|Retrieves object for the specified custom dynamic field.|
-|Get Parent Object For Custom Dynamic Fields|Retrieves parent object for the specified custom dynamic field.|
-|Get Reference ID List|Retrieves values of the Reference ID, based on its reference type.|
-|Get References WID|Retrieves reference IDs for the specified reference type.|
-|Get Access Token|Retrieves the access tokens for authenticating SOAP-based actions using OAuth 2.0.|
-|Get Dynamic Response Schema|Retrieves the output schema for the specified query from Workday.|
-|Payroll Management|Get My Tax Withholding Information Canada By Employee ID|Retrieves all types of income withholding orders from Canada for the specified employee.|
-|Get My Tax Withholding Information US By Employee ID|Retrieves all types of income withholding orders from US for the specified employee.|
-|Get Payroll Federal W4 Tax Elections By Employee ID|Retrieves federal W-4 tax election data for the specified employee.|
-|Get Payroll Payee FUTAs By Employee ID|Retrieves FUTA tax election data for the specified employee.|
-|Get Payroll USA And Local Tax Elections By Employee ID|Retrieves information about the tax elections for state and local tax authorities, for the specified employee.|
-|Look up Direct Deposit Information Details|Retrieves information about the specified payee, who belongs to an external pay group.|
-|Look up Payroll Federal W4 Tax Elections|Retrieves the federal W-4 tax election details for the required employees, based on the provided filter criteria.|
-|Look up Payroll Payee FUTAs Details|Retrieves the payroll payee FUTA details for the required employees, based on the provided filter criteria.|
-|Look up Payroll Results|Retrieves payroll results for the required employees, based on the provided filter criteria.|
-|Look up Payroll USA And Local Tax Elections|Retrieves details of worker tax elections for state and local tax authorities for the required employees, based on the provided filter criteria.|
-|Look up Tax Elections Ongoing Work Jurisdiction Details|Retrieves details of the ongoing work jurisdiction tax election for the required employees, based on the provided filter criteria.|
-|Look up Tax Withholding Information Details Canada|Retrieves all types of income withholding orders from Canada for the required employees, based on the provided filter criteria.|
-|Look up Tax Withholding Information Details US|Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.|
-|Resource Management|Change Legal Name|Changes or sets the legal name for the specified employee.|
-|Change Personal Information|Changes the personal information of the specified employee.|
-|Get Employee Documents By Employee ID|Retrieves documents of the specified employee.|
-|Get My Compensation Details By Employee ID|Retrieves the compensation details of the specified employee.|
-|Get My Contact Details By Employee ID|Retrieves contact information of the specified employee, such as address, phone number, email address, and beneficiaries.|
-|Get My Org Structure By Employee ID|Retrieves details of the org structure for the specified employee.|
-|Get Total Benefit Enrollments By Employee ID|Retrieves details of the benefit enrollments for the specified employee.|
-|Get Total Rewards By Employee ID|Retrieves details of the total rewards for the specified employee.|
-|Look up Compensation Details|Retrieves compensation details for the required employees, based on filter criteria.|
-|Look up Contact Details|Retrieves contact details for the required employees, such as address, phone number, email address, and beneficiaries, based on filter criteria.|
-|Look up Employee Documents|Retrieves documents of the required employees, based on the filter criteria.|
-|Look up Holiday Calendars|Retrieves the details of the holiday calendars.|
-|Look up Job Profiles|Retrieves details of the job profile, based on the specified criteria.|
-|Look up Location Details|Retrieves location details, based on the specified criteria.|
-|Look up Organizations|Retrieves details of the organizations, based on the provided filter criteria.|
-|Look up Timesheet Details|Retrieves details of the timesheets, based on the provided filter criteria.|
-|Look up Total Benefit Enrollments|Retrieves details of the benefit enrollments, based on the provided filter criteria.|
-|Look up Total Rewards|Retrieves details of the employee rewards, based on the provided filter criteria.|
-|Look up Work Schedule Calendars|Retrieves details of the work schedule calendars.|
-|Look up Worker Job History Report|Retrieves the job history of a worker.|
-|Look up Worker Profile|Retrieves details of the employee profiles, based on worker type.|
-|Look up Workers|Retrieves details such as, first name, last name, address, phone number, email address, instant messenger, worker position, and management chain, based on the provided filter criteria.|
-|Look up Workers Employment Data|Retrieves details such as, position, position organizations, position management chains, and worker status, based on the provided filter criteria.|
-|Update My Address|Updates employees details, such as address, phone number, email address, instant messenger, and web address.|
-|Look up Workers And Employment Info|Retrieves worker profile information from Workday.|
-|Look up Professional Profiles Stream|Retrieves professional workers profile information from Workday.|
-|Staffing|Change Organization|Assigns values for company, cost center, region, and so on that are configured for staffing usage to a filled position.|
-|Change Roles|Changes roles of the specified employee.|
-|No Show|Rescinds the hiring process if a hired employee doesn't show on joining date.|
-|Offboard Employee|Offboards the specified employee.|
-|Hire Employee|Hires a user as an employee to the specified job.|
-|Set Hiring Restrictions|Creates hiring restrictions for a job management supervisory organization.|
-|Create Position|Creates or opens a position for a supervisory organization using the position management staffing model.|
-|Look up Positions|Retrieves position-related details based on the position ID from Workday.|
-|Edit Position|Edits a position that is already filled.|
-|Edit Hiring Restrictions|Edits the hiring restrictions for a job management supervisory organization.|
-|Change Job|Changes the job of an employee or a contingent worked. The types of changes include transfer, promotion, demotion, lateral moves, and any other change in the information on the job.|
-|Close Position|Closes a position.|
-|Contract Contingent Worker|Hires a user to a contingent position or job.|
-|Talent Management|Create External Skill|Creates a new external skill in Workday and associates it with the specified skill vendor.|
-|Look up External Skills Mapping Stream|Retrieves the external skill mapping records from Workday for the specified skill vendor or mapping criteria.|
-|Look up User Skills Stream|Retrieves skill details for a specified employee from Workday, including associated skills and proficiency attributes.|
-|Manage External Skill Mapping|Manages external skill mapping records in Workday, including creating, updating, or removing skill associations.|
-|Update User Skill Proficiency|Updates the proficiency level of a specified user skill in Workday.|
-|Time Tracking|Update Reported Time Blocks|Updates details of reported time blocks.|
-|Skill Management|Manage Employee Skills|Adds or removes skills associated with an employee.|
-|Look up Employee Skills|Retrieves employees skills from Workday for the specified date range.|
-|Jobs Management|Create Job Requisition|Creates a job requisition in Workday.|
-|Look up Candidates Stream|Retrieves the candidates information like candidate data, social media account data and others from Workday.|
-|Look up Compensation Grades Stream|Retrieves compensation details like the default minimum and maximum of the compensation pay range and others from Workday.|
-|Look up Job Postings Stream|Retrieves job post details like job posting title, job posting description, education data, certification data, and others from Workday.|
-|Look up Job Requisitions Stream|Retrieves job requisition details like recruiting start date, target hire date and others from Workday.|
-|Update Job Requisition|Updates the specified job requisition.|
+<table id="table_h3m_pnh_pmb"><thead><tr><th colspan="3">
 
-## Spoke actions that use Workday REST APIs
+Actions that use the Workday SOAP APIs
+
+</th></tr><tr><th>
+
+Category
+
+</th><th>
+
+Action
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Default
+
+</td><td>
+
+Look up Skills
+
+</td><td>
+
+Retrieves the details of the skills from Workday.
+
+</td></tr><tr><td rowspan="8">
+
+Absence Management
+
+</td><td>
+
+Get Time off Balances By Employee ID
+
+</td><td>
+
+Retrieves details of the time off plan balance for the specified employee.
+
+</td></tr><tr><td>
+
+Look up Time Off Balance
+
+</td><td>
+
+Retrieves details of the time off balance, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Request Leave Of Absence
+
+</td><td>
+
+Creates a long leave absence request or updates an existing request.
+
+</td></tr><tr><td>
+
+Request Time Off
+
+</td><td>
+
+Creates a short-term leave request.
+
+</td></tr><tr><td>
+
+Get Time off Balances By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the time off plan balance for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Time Off Balance \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the time off balance, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Request Leave Of Absence \(Deprecated\)
+
+</td><td>
+
+Creates a long leave absence request or updates an existing request.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Request Time Off \(Deprecated\)
+
+</td><td>
+
+Creates a short-term leave request.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="3">
+
+Approval Management
+
+</td><td>
+
+Approve Business Process
+
+</td><td>
+
+Approves the specified business process in Workday.
+
+</td></tr><tr><td>
+
+Reject Business Process
+
+</td><td>
+
+Rejects the specified business process in Workday.
+
+</td></tr><tr><td>
+
+Approve Business Process \(Deprecated\)
+
+</td><td>
+
+Approves the specified business process in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="4">
+
+Benefits Administration
+
+</td><td>
+
+Add Dependent
+
+</td><td>
+
+Adds a dependent to the specified worker.
+
+</td></tr><tr><td>
+
+Change Beneficiaries
+
+</td><td>
+
+Updates beneficiary details of the specified worker.
+
+</td></tr><tr><td>
+
+Add Dependent \(Deprecated\)
+
+</td><td>
+
+Adds a dependent to the specified worker.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Beneficiaries \(Deprecated\)
+
+</td><td>
+
+Updates beneficiary details of the specified worker.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="2">
+
+Cash Management
+
+</td><td>
+
+Update Direct Deposit Information
+
+</td><td>
+
+Updates details of the current payment elections.
+
+</td></tr><tr><td>
+
+Update Direct Deposit Information \(Deprecated\)
+
+</td><td>
+
+Updates details of the current payment elections.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="11">
+
+Metadata Retrieval
+
+</td><td>
+
+Get Additional Workday Fields
+
+</td><td>
+
+Retrieves all additional fields for each action.
+
+</td></tr><tr><td>
+
+Get Custom Dynamic Input Fields
+
+</td><td>
+
+Retrieves all custom dynamic input fields.
+
+</td></tr><tr><td>
+
+Get Custom Dynamic Output Fields
+
+</td><td>
+
+Retrieves all custom dynamic output fields.
+
+</td></tr><tr><td>
+
+Get Object For Custom Dynamic Fields
+
+</td><td>
+
+Retrieves object for the specified custom dynamic field.
+
+</td></tr><tr><td>
+
+Get Parent Object For Custom Dynamic Fields
+
+</td><td>
+
+Retrieves parent object for the specified custom dynamic field.
+
+</td></tr><tr><td>
+
+Get Reference ID List
+
+</td><td>
+
+Retrieves values of the Reference ID, based on its reference type.
+
+</td></tr><tr><td>
+
+Get References WID
+
+</td><td>
+
+Retrieves reference IDs for the specified reference type.
+
+</td></tr><tr><td>
+
+Get Access Token
+
+</td><td>
+
+Retrieves the access tokens for authenticating SOAP-based actions using OAuth 2.0.
+
+</td></tr><tr><td>
+
+Get Dynamic Response Schema
+
+</td><td>
+
+Retrieves the output schema for the specified query from Workday.
+
+</td></tr><tr><td>
+
+Get Reference ID List \(Deprecated\)
+
+</td><td>
+
+Retrieves values of the Reference ID, based on its reference type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get References WID \(Deprecated\)
+
+</td><td>
+
+Retrieves reference IDs for the specified reference type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="26">
+
+Payroll Management
+
+</td><td>
+
+Get My Tax Withholding Information Canada By Employee ID
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the specified employee.
+
+</td></tr><tr><td>
+
+Get My Tax Withholding Information US By Employee ID
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the specified employee.
+
+</td></tr><tr><td>
+
+Get Payroll Federal W4 Tax Elections By Employee ID
+
+</td><td>
+
+Retrieves federal W-4 tax election data for the specified employee.
+
+</td></tr><tr><td>
+
+Get Payroll Payee FUTAs By Employee ID
+
+</td><td>
+
+Retrieves FUTA tax election data for the specified employee.
+
+</td></tr><tr><td>
+
+Get Payroll USA And Local Tax Elections By Employee ID
+
+</td><td>
+
+Retrieves information about the tax elections for state and local tax authorities, for the specified employee.
+
+</td></tr><tr><td>
+
+Look up Direct Deposit Information Details
+
+</td><td>
+
+Retrieves information about the specified payee, who belongs to an external pay group.
+
+</td></tr><tr><td>
+
+Look up Payroll Federal W4 Tax Elections
+
+</td><td>
+
+Retrieves the federal W-4 tax election details for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Payroll Payee FUTAs Details
+
+</td><td>
+
+Retrieves the payroll payee FUTA details for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Payroll Results
+
+</td><td>
+
+Retrieves payroll results for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Payroll USA And Local Tax Elections
+
+</td><td>
+
+Retrieves details of worker tax elections for state and local tax authorities for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Tax Elections Ongoing Work Jurisdiction Details
+
+</td><td>
+
+Retrieves details of the ongoing work jurisdiction tax election for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details Canada
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details US
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Get My Tax Withholding Information Canada By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Tax Withholding Information US By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll Federal W4 Tax Elections By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves federal W-4 tax election data for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll Payee FUTAs By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves FUTA tax election data for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll USA And Local Tax Elections By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves information about the tax elections for state and local tax authorities, for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Direct Deposit Information Details \(Deprecated\)
+
+</td><td>
+
+Retrieves information about the specified payee, who belongs to an external pay group.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Federal W4 Tax Elections \(Deprecated\)
+
+</td><td>
+
+Retrieves the federal W-4 tax election details for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Payee FUTAs Details \(Deprecated\)
+
+</td><td>
+
+Retrieves the payroll payee FUTA details for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Results \(Deprecated\)
+
+</td><td>
+
+Retrieves payroll results for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll USA And Local Tax Elections \(Deprecated\)
+
+</td><td>
+
+Retrieves details of worker tax elections for state and local tax authorities for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Elections Ongoing Work Jurisdiction Details \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the ongoing work jurisdiction tax election for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details Canada \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details US \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="50">
+
+Resource Management
+
+</td><td>
+
+Change Legal Name
+
+</td><td>
+
+Changes or sets the legal name for the specified employee.
+
+</td></tr><tr><td>
+
+Change Personal Information
+
+</td><td>
+
+Changes the personal information of the specified employee.
+
+</td></tr><tr><td>
+
+Get Employee Documents By Employee ID
+
+</td><td>
+
+Retrieves documents of the specified employee.
+
+</td></tr><tr><td>
+
+Get My Compensation Details By Employee ID
+
+</td><td>
+
+Retrieves the compensation details of the specified employee.
+
+</td></tr><tr><td>
+
+Get My Contact Details By Employee ID
+
+</td><td>
+
+Retrieves contact information of the specified employee, such as address, phone number, email address, and beneficiaries.
+
+</td></tr><tr><td>
+
+Get My Org Structure By Employee ID
+
+</td><td>
+
+Retrieves details of the org structure for the specified employee.
+
+</td></tr><tr><td>
+
+Get Total Benefit Enrollments By Employee ID
+
+</td><td>
+
+Retrieves details of the benefit enrollments for the specified employee.
+
+</td></tr><tr><td>
+
+Get Total Rewards By Employee ID
+
+</td><td>
+
+Retrieves details of the total rewards for the specified employee.
+
+</td></tr><tr><td>
+
+Look up Compensation Details
+
+</td><td>
+
+Retrieves compensation details for the required employees, based on filter criteria.
+
+</td></tr><tr><td>
+
+Look up Contact Details
+
+</td><td>
+
+Retrieves contact details for the required employees, such as address, phone number, email address, and beneficiaries, based on filter criteria.
+
+</td></tr><tr><td>
+
+Look up Employee Documents
+
+</td><td>
+
+Retrieves documents of the required employees, based on the filter criteria.
+
+</td></tr><tr><td>
+
+Look up Holiday Calendars
+
+</td><td>
+
+Retrieves the details of the holiday calendars.
+
+</td></tr><tr><td>
+
+Look up Job Profiles
+
+</td><td>
+
+Retrieves details of the job profile, based on the specified criteria.
+
+</td></tr><tr><td>
+
+Look up Location Details
+
+</td><td>
+
+Retrieves location details, based on the specified criteria.
+
+</td></tr><tr><td>
+
+Look up Organizations
+
+</td><td>
+
+Retrieves details of the organizations, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Timesheet Details
+
+</td><td>
+
+Retrieves details of the timesheets, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Total Benefit Enrollments
+
+</td><td>
+
+Retrieves details of the benefit enrollments, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Total Rewards
+
+</td><td>
+
+Retrieves details of the employee rewards, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Work Schedule Calendars
+
+</td><td>
+
+Retrieves details of the work schedule calendars.
+
+</td></tr><tr><td>
+
+Look up Worker Job History Report
+
+</td><td>
+
+Retrieves the job history of a worker.
+
+</td></tr><tr><td>
+
+Look up Worker Profile
+
+</td><td>
+
+Retrieves details of the employee profiles, based on worker type.
+
+</td></tr><tr><td>
+
+Look up Workers
+
+</td><td>
+
+Retrieves details such as, first name, last name, address, phone number, email address, instant messenger, worker position, and management chain, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Look up Workers Employment Data
+
+</td><td>
+
+Retrieves details such as, position, position organizations, position management chains, and worker status, based on the provided filter criteria.
+
+</td></tr><tr><td>
+
+Update My Address
+
+</td><td>
+
+Updates employees details, such as address, phone number, email address, instant messenger, and web address.
+
+</td></tr><tr><td>
+
+Look up Workers And Employment Info
+
+</td><td>
+
+Retrieves worker profile information from Workday.
+
+</td></tr><tr><td>
+
+Look up Professional Profiles Stream
+
+</td><td>
+
+Retrieves professional workers profile information from Workday.
+
+</td></tr><tr><td>
+
+Change Legal Name \(Deprecated\)
+
+</td><td>
+
+Changes or sets the legal name for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Personal Information \(Deprecated\)
+
+</td><td>
+
+Changes the personal information of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Employee Documents By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves documents of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Compensation Details By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves the compensation details of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Contact Details By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves contact information of the specified employee, such as address, phone number, email address, and beneficiaries.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Org Structure By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the org structure for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Total Benefit Enrollments By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the benefit enrollments for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Total Rewards By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the total rewards for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Compensation Details \(Deprecated\)
+
+</td><td>
+
+Retrieves compensation details for the required employees, based on filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Contact Details \(Deprecated\)
+
+</td><td>
+
+Retrieves contact details for the required employees, such as address, phone number, email address, and beneficiaries, based on filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Employee Documents \(Deprecated\)
+
+</td><td>
+
+Retrieves documents of the required employees, based on the filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Holiday Calendars \(Deprecated\)
+
+</td><td>
+
+Retrieves the details of the holiday calendars.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Profiles \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the job profile, based on the specified criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Location Details \(Deprecated\)
+
+</td><td>
+
+Retrieves location details, based on the specified criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Organizations \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the organizations, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Timesheet Details \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the timesheets, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Total Benefit Enrollments \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the benefit enrollments, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Total Rewards \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the employee rewards, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Work Schedule Calendars \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the work schedule calendars.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Worker Profile \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the employee profiles, based on worker type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers \(Deprecated\)
+
+</td><td>
+
+Retrieves details such as, first name, last name, address, phone number, email address, instant messenger, worker position, and management chain, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers Employment Data \(Deprecated\)
+
+</td><td>
+
+Retrieves details such as, position, position organizations, position management chains, and worker status, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers And Employment Info \(Deprecated\)
+
+</td><td>
+
+Retrieves worker profile information from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Professional Profiles Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves professional workers profile information from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="26">
+
+Staffing
+
+</td><td>
+
+Change Organization
+
+</td><td>
+
+Assigns values for company, cost center, region, and so on that are configured for staffing usage to a filled position.
+
+</td></tr><tr><td>
+
+Change Roles
+
+</td><td>
+
+Changes roles of the specified employee.
+
+</td></tr><tr><td>
+
+No Show
+
+</td><td>
+
+Rescinds the hiring process if a hired employee doesn't show on joining date.
+
+</td></tr><tr><td>
+
+Offboard Employee
+
+</td><td>
+
+Offboards the specified employee.
+
+</td></tr><tr><td>
+
+Hire Employee
+
+</td><td>
+
+Hires a user as an employee to the specified job.
+
+</td></tr><tr><td>
+
+Set Hiring Restrictions
+
+</td><td>
+
+Creates hiring restrictions for a job management supervisory organization.
+
+</td></tr><tr><td>
+
+Create Position
+
+</td><td>
+
+Creates or opens a position for a supervisory organization using the position management staffing model.
+
+</td></tr><tr><td>
+
+Look up Positions
+
+</td><td>
+
+Retrieves position-related details based on the position ID from Workday.
+
+</td></tr><tr><td>
+
+Edit Position
+
+</td><td>
+
+Edits a position that is already filled.
+
+</td></tr><tr><td>
+
+Edit Hiring Restrictions
+
+</td><td>
+
+Edits the hiring restrictions for a job management supervisory organization.
+
+</td></tr><tr><td>
+
+Change Job
+
+</td><td>
+
+Changes the job of an employee or a contingent worked. The types of changes include transfer, promotion, demotion, lateral moves, and any other change in the information on the job.
+
+</td></tr><tr><td>
+
+Close Position
+
+</td><td>
+
+Closes a position.
+
+</td></tr><tr><td>
+
+Contract Contingent Worker
+
+</td><td>
+
+Hires a user to a contingent position or job.
+
+</td></tr><tr><td>
+
+Change Organization \(Deprecated\)
+
+</td><td>
+
+Assigns values for company, cost center, region, and so on that are configured for staffing usage to a filled position.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Roles \(Deprecated\)
+
+</td><td>
+
+Changes roles of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+No Show \(Deprecated\)
+
+</td><td>
+
+Rescinds the hiring process if a hired employee doesn't show on joining date.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Offboard Employee \(Deprecated\)
+
+</td><td>
+
+Offboards the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Hire Employee \(Deprecated\)
+
+</td><td>
+
+Hires a user as an employee to the specified job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Set Hiring Restrictions \(Deprecated\)
+
+</td><td>
+
+Creates hiring restrictions for a job management supervisory organization.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Create Position \(Deprecated\)
+
+</td><td>
+
+Creates or opens a position for a supervisory organization using the position management staffing model.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Positions \(Deprecated\)
+
+</td><td>
+
+Retrieves position-related details based on the position ID from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Edit Position \(Deprecated\)
+
+</td><td>
+
+Edits a position that is already filled.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Edit Hiring Restrictions \(Deprecated\)
+
+</td><td>
+
+Edits the hiring restrictions for a job management supervisory organization.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Job \(Deprecated\)
+
+</td><td>
+
+Changes the job of an employee or a contingent worked. The types of changes include transfer, promotion, demotion, lateral moves, and any other change in the information on the job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Close Position \(Deprecated\)
+
+</td><td>
+
+Closes a position.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Contract Contingent Worker \(Deprecated\)
+
+</td><td>
+
+Hires a user to a contingent position or job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="10">
+
+Talent Management
+
+</td><td>
+
+Create External Skill
+
+</td><td>
+
+Creates a new external skill in Workday and associates it with the specified skill vendor.
+
+</td></tr><tr><td>
+
+Look up External Skills Mapping Stream
+
+</td><td>
+
+Retrieves the external skill mapping records from Workday for the specified skill vendor or mapping criteria.
+
+</td></tr><tr><td>
+
+Look up User Skills Stream
+
+</td><td>
+
+Retrieves skill details for a specified employee from Workday, including associated skills and proficiency attributes.
+
+</td></tr><tr><td>
+
+Manage External Skill Mapping
+
+</td><td>
+
+Manages external skill mapping records in Workday, including creating, updating, or removing skill associations.
+
+</td></tr><tr><td>
+
+Update User Skill Proficiency
+
+</td><td>
+
+Updates the proficiency level of a specified user skill in Workday.
+
+</td></tr><tr><td>
+
+Create External Skill \(Deprecated\)
+
+</td><td>
+
+Creates a new external skill in Workday and associates it with the specified skill vendor.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up External Skills Mapping Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves the external skill mapping records from Workday for the specified skill vendor or mapping criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up User Skills Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves skill details for a specified employee from Workday, including associated skills and proficiency attributes.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Manage External Skill Mapping \(Deprecated\)
+
+</td><td>
+
+Manages external skill mapping records in Workday, including creating, updating, or removing skill associations.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Update User Skill Proficiency \(Deprecated\)
+
+</td><td>
+
+Updates the proficiency level of a specified user skill in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="2">
+
+Time Tracking
+
+</td><td>
+
+Update Reported Time Blocks
+
+</td><td>
+
+Updates details of reported time blocks.
+
+</td></tr><tr><td>
+
+Update Reported Time Blocks \(Deprecated\)
+
+</td><td>
+
+Updates details of reported time blocks.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="3">
+
+Skill Management
+
+</td><td>
+
+Manage Employee Skills
+
+</td><td>
+
+Adds or removes skills associated with an employee.
+
+</td></tr><tr><td>
+
+Look up Employee Skills
+
+</td><td>
+
+Retrieves employees skills from Workday for the specified date range.
+
+</td></tr><tr><td>
+
+Manage Employee Skills \(Deprecated\)
+
+</td><td>
+
+Adds or removes skills associated with an employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="12">
+
+Jobs Management
+
+</td><td>
+
+Create Job Requisition
+
+</td><td>
+
+Creates a job requisition in Workday.
+
+</td></tr><tr><td>
+
+Look up Candidates Stream
+
+</td><td>
+
+Retrieves the candidates information like candidate data, social media account data and others from Workday.
+
+</td></tr><tr><td>
+
+Look up Compensation Grades Stream
+
+</td><td>
+
+Retrieves compensation details like the default minimum and maximum of the compensation pay range and others from Workday.
+
+</td></tr><tr><td>
+
+Look up Job Postings Stream
+
+</td><td>
+
+Retrieves job post details like job posting title, job posting description, education data, certification data, and others from Workday.
+
+</td></tr><tr><td>
+
+Look up Job Requisitions Stream
+
+</td><td>
+
+Retrieves job requisition details like recruiting start date, target hire date and others from Workday.
+
+</td></tr><tr><td>
+
+Update Job Requisition
+
+</td><td>
+
+Updates the specified job requisition.
+
+</td></tr><tr><td>
+
+Create Job Requisition \(Deprecated\)
+
+</td><td>
+
+Creates a job requisition in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Candidates Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves the candidates information like candidate data, social media account data and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Compensation Grades Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves compensation details like the default minimum and maximum of the compensation pay range and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Postings Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves job post details like job posting title, job posting description, education data, certification data, and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Requisitions Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves job requisition details like recruiting start date, target hire date and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Update Job Requisition \(Deprecated\)
+
+</td><td>
+
+Updates the specified job requisition.**Note:** This action uses WS-Security policy.
+
+</td></tr></tbody>
+</table>## Spoke actions that use Workday REST APIs
 
 Workday itself organizes its APIs into two major categories: SOAP Public API and REST API. Thus, the Workday HR spoke also reflects the same. You can use the spoke by using one of these two APIs, but not necessarily both, depending on the spoke actions you must use.
 
@@ -1305,7 +2549,7 @@ Look up Skills
 
 Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/wd-hr-lookup-skills.md).
 
-</td></tr><tr><td rowspan="7">
+</td></tr><tr><td rowspan="8">
 
 Resource Management
 
@@ -1364,6 +2608,14 @@ Look up Total Rewards using Report
 </td><td>
 
 Retrieves the total rewards for the specified report owner and report.
+
+</td></tr><tr><td>
+
+Look up Holiday Calendars Of An Employee \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the holiday calendar for the specified employee.
 
 </td></tr><tr><td rowspan="7">
 
@@ -1440,16 +2692,16 @@ Downloads a specified Workday RAAS report in CSV format and attaches it to the s
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 |AI Agent|Description|
 |--------|-----------|
@@ -1463,9 +2715,9 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see .
 
 <table id="table_emr_pyw_c3c"><thead><tr><th>
 
@@ -1498,7 +2750,7 @@ Retrieves an employee’s profile information, rewards details, and latest perfo
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+No**Note:** To activate the workflow, see .
 
 </td></tr><tr><td>
 
@@ -1515,7 +2767,7 @@ Retrieves employee‑specific time‑off information along with the applicable h
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+No**Note:** To activate the workflow, see .
 
 </td></tr></tbody>
 </table>## Spoke modules

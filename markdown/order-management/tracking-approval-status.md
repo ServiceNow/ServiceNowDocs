@@ -32,11 +32,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-1. Approval request state
+1. Quote state
 
 </td><td>
 
-State of the approval request.
+Quote state:-   Draft: Initial state of the quote. Editable by agent.
+-   In Review: Quote has been submitted for approval. Not editable by agent unless the quote is recalled by the agent, or the quote has been approved or rejected.
+-   Approved: Approvals for the quote are complete.
+-   Rejected: Quote rejected by an approver. Editable by agent so that it can be revised and resubmitted for approval.
 
 </td></tr><tr><td>
 
@@ -52,7 +55,7 @@ Related list for the entity, such as a quote, which displays the approval workfl
 
 </td><td>
 
-Grouping of approval steps that are run in sequential order, based on the order specified for the steps in the approval rules. Each step card represents an approval rule.
+Grouping of approval steps that are run in sequential order, based on the order specified for the steps in the approval rules. Each step card represents an approval rule and its associated approvers.
 
 </td></tr><tr><td>
 
@@ -60,9 +63,10 @@ Grouping of approval steps that are run in sequential order, based on the order 
 
 </td><td>
 
-Card that provides information about the approval step and the rules and conditions for that step. -   If the request was previously recalled during the approval process, an Auto-approved flag indicates at least one or more previously completed approvals are automatically reapplied.
--   Depending on the approval request state and the user role, the card displays the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu for approvers to approve or reject the request in the step.
--   For approval admins that also have the requester role, the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu includes an **Override** option to bypass the step if it's no longer required. For details, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md).
+Card that provides the following information about the approval step and the rules and conditions for that step:-   Approval step state:
+-   If the request was previously recalled during the approval process, an Auto-approved flag indicates at least one or more previously completed approvals are automatically reapplied.
+-   Depending on the approval step state and the user role, the card displays the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu for approvers to approve or reject the request in the step.
+-   For approval admins that also have the requester role, the More options \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu provides an **Override** option to bypass the step if it's no longer required. For details, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md).
 
 </td></tr><tr><td>
 
@@ -70,10 +74,7 @@ Card that provides information about the approval step and the rules and conditi
 
 </td><td>
 
-Options displayed for different approval actions, depending on the user role.For example:
-
--   Requesters have the option to **Recall an approval request**.
--   Requesters and approvers have the option to add an ad-hoc approver to the approval workflow using **Add approver**. For more information, see [Add approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+Options displayed for certain approval actions, depending on the user role.For example, requesters and approvers have the option to add an ad hoc approver to the approval workflow using the **Add approver** option. For more information, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)

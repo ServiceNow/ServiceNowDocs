@@ -50,7 +50,7 @@ Create a business domain to define the context in which data is imported into a 
 -   **[Configure business domain roles for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-business-domain-roles-for-document-designer.md)**  
 Configure role mappings on a business domain to control which users can select the domain when importing data into a Microsoft Word document.
 -   **[AI reporting assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)**  
-The AI reporting assistant is a Document designer feature that uses prompts to generate report from ServiceNow data directly in a Word document.
+The AI reporting assistant uses prompts to generate reports from ServiceNow instance data directly in a Microsoft Word document.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

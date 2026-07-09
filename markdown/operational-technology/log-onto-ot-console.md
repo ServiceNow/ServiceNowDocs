@@ -1,5 +1,5 @@
 ---
-title: Log onto the Discovery Console for OT
+title: Log on to the Discovery Console for OT
 description: This sections describes your initial log onto the OT Discovery Collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/log-onto-ot-console.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Log onto the Discovery Console for OT
+# Log on to the Discovery Console for OT
 
 This sections describes your initial log onto the OT Discovery Collector.
 

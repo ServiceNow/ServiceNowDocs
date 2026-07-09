@@ -46,7 +46,7 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
 -   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)**
 
-    Now Assist is the generative AI experience embedded throughout the ServiceNow AI Platform, delivering skills such as incident summarization, sentiment analysis, reply generation, and case resolution assistance. Now Assist skills are available at every tier, across [ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md), CSM, HRSD, and industry solutions. For a full overview of the Now Assist panel and administration tools, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    Now Assist is the generative AI experience embedded throughout the ServiceNow AI Platform, delivering skills such as incident summarization, sentiment analysis, reply generation, and case resolution assistance. Now Assist skills are available at every tier, across ITSM, CSM, HRSD, and industry solutions. For a full overview of the Now Assist panel and administration tools, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   **[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)**
 
@@ -90,8 +90,8 @@ To begin implementing the capabilities offered at each tier on your instance, se
 -   [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.md)
 -   [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
 -   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-governance.md)
--   [AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
+-   AI Control Tower release notes
 -   Workflow Data Fabric
 -   RaptorDB
--   [Now Assist for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)
+-   Now Assist for ITSM release notes
 

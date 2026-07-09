@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Impact, Impact]
+breadcrumb: [Objectives and Outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Configure Objectives and outcomes
@@ -29,4 +29,12 @@ Select **Manage Objectives and Outcomes** to setup and manage this feature.
 \[Omitted image "value-blueprint-manage.png"\] Alt text: Manage objectives and outcomes
 
 For additional information about the Objectives and outcomes for the Impact Store Application, see [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/impact-in-platform-business-outcomes.md).
+
+## Upgrade to the Impact Store Application
+
+This feature is in the Impact Delivery Instance Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+
+**Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
+
+**Parent Topic:**[Objectives and Outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)
 

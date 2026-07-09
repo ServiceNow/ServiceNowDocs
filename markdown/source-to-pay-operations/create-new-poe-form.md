@@ -202,3 +202,5 @@ Revised delivery quantity.
 
 [Master data tables for Purchase Order Management]()
 
+[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-po-exception-universal-req.md)
+

@@ -65,3 +65,8 @@ Retype the new password.
 </table>4.  Select **Change**.
 
 
+**Related topics**  
+
+
+[Log in to the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/log-in-to-consumer-portal.md)
+

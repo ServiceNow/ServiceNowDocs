@@ -42,6 +42,13 @@ Role required: sn\_customerservice.customer\_admin
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
 
+**Related topics**  
+
+
+[Reject a registration request]()
+
+[Manage customer registration requests from Business Portal]()
+
 ## Reject a registration request
 
 Reject a registration request from a user that was submitted from Business Portal.
@@ -64,4 +71,11 @@ Role required: sn\_customerservice.customer\_admin
 
     A rejection email is sent to the requester’s email address.
 
+
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code on Business Portal]()
+
+[Manage customer registration requests from Business Portal]()
 

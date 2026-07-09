@@ -382,7 +382,7 @@ The default states that are available for a purchase requisition are listed.
 For a list of all purchase requisition states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md).
 
 -   **[Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md)**  
-As an administrator, you can configure the conditions of a purchase request, which when met, adds a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.
+Configure the conditions of a purchase request that, met, add a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.
 
 **Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

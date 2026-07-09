@@ -36,10 +36,15 @@ Ask your admin to install the External User Registration plugin \(ID: com.sn\_ex
 
     A verification email is sent to the email address you provided.
 
-5.  Click the link in the email to verify your email address.
+5.  Select the link in the email to verify your email address.
 
 
 ## Result
 
 Your registration is complete. You can now log in to the Consumer Service Portal.
+
+**Related topics**  
+
+
+[Log in to the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/log-in-to-consumer-service-portal.md)
 

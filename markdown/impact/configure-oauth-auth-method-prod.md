@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 8
-breadcrumb: [Configure the OAuth authentication method development instance, Register your instance, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure the OAuth authentication method development instance, Register your instance, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Configure the OAuth authentication method production instance

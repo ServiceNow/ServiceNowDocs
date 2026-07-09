@@ -17,5 +17,5 @@ Reference tables and forms for configuring and using GOV.UK Developer Toolkit ca
 **Related topics**  
 
 
-[GOV.UK Developer Toolkit GDS Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
+[GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
 

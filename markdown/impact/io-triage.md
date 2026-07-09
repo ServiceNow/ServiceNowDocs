@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/io-triage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Triage a ServiceNow instance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Triage an instance for ongoing operations, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Triaged instance data
@@ -40,5 +40,5 @@ The semaphore sets widget lists the utilization of various semaphores available 
 
 The update sets widget lists all the updates that are applied in the past 24 hours and their completion state. Use this widget to gain insight of any updates that may be responsible to new features or performance changes within your instance.
 
-**Parent Topic:**[Triage a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage-sn-instance.md)
+**Parent Topic:**[Triage an instance for ongoing operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage-sn-instance.md)
 

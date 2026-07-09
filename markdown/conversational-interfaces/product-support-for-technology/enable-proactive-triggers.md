@@ -76,7 +76,7 @@ An admin first enables and then creates rules and actions as separate tasks.
 
     4.  Adjust any settings, as needed.
 
-        **Note:** Your organization may want to update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. Your organization may also want to adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see .
+        **Note:** Your organization may want to update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. Your organization may also want to adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see [ProactiveTriggerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md).
 
     5.  Select **Update**.
 

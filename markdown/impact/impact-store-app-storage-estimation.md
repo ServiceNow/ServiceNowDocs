@@ -1,5 +1,5 @@
 ---
-title: Impact Store Application storage estimation
+title: Impact storage estimation
 description: The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-store-app-storage-estimation.html
@@ -11,7 +11,7 @@ keywords: [Impact, Impact Store App, IIP, storage estimation, storage footprint,
 breadcrumb: [Impact reference, Impact]
 ---
 
-# Impact Store Application storage estimation
+# Impact storage estimation
 
 The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
 
@@ -62,6 +62,10 @@ Usage tier
 
 Typical characteristics
 
+</th><th>
+
+Estimated storage impact
+
 </th></tr></thead><tbody><tr><td>
 
 Small \(light usage\)
@@ -74,17 +78,25 @@ Small \(light usage\)
 -   Limited or no attachments
 -   Low collaboration volume
 
+</td><td>
+
+Less than 0.5 GB
+
 </td></tr><tr><td>
 
 Medium \(moderate usage\)
 
 </td><td>
 
--   Moderate outcomes \(for example, 10–20\)
+-   Moderate outcomes \(for example, 11–25\)
 -   Multiple Product Adoption Roadmaps
 -   Regular Accelerator requests and updates
 -   Moderate use of attachments
 -   Ongoing collaboration and conversations
+
+</td><td>
+
+0.5 GB- 10 GB
 
 </td></tr><tr><td>
 
@@ -97,6 +109,10 @@ Large \(high usage / mature adoption\)
 -   Frequent Accelerator usage
 -   Significant volume of attachments and artifacts, including large PPTs and images
 -   Continuous collaboration with ServiceNow squads
+
+</td><td>
+
+10 GB+
 
 </td></tr></tbody>
 </table>## Key considerations

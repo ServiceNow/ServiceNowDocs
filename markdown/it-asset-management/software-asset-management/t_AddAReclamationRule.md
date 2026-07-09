@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a software reclamation rule
@@ -208,7 +208,7 @@ Amount of time to keep unused software before it’s reclaimed.-   One Month Ago
 
     After the reclamation rule is created, add software products to the reclamation rule. You can also add a custom software product.
 
-    Additionally, you can specify filter conditions on software products that are suite parents. For details on adding a custom software product, see [Add a custom software product in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md). For details on filter conditions, refer to [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md).
+    Additionally, you can specify filter conditions on software products that are suite parents. For details on adding a custom software product, see [Add a custom software product in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md). For details on filter conditions, refer to [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md).
 
 5.  Select **Edit** in the Software Products related list to add software products.
 

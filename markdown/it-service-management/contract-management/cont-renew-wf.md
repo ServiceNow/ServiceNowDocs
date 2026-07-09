@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Contract renewal workflow

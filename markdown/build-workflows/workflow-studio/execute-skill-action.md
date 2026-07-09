@@ -37,31 +37,31 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Choice**
 
-    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
+    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Product**
 
     Data type: **Dynamic Choice**
 
-    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
+    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Feature**
 
     Data type: **Dynamic Choice**
 
-    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
+    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Skill Config**
 
     Data type: **Dynamic Choice**
 
-    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see .
+    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md).
 
 -   **Skill Inputs**
 
     Data type: **Dynamic Inputs**
 
-    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see .
+    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md).
 
 
 ## Outputs

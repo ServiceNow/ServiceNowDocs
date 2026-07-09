@@ -52,15 +52,15 @@ To see documentation for another review phase, click the relevant box in the dia
 
 3.  On the application service map, check that all essential CIs comprising the application service are discovered and mapped correctly.
 
-<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d279383e275">
+<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d280922e275">
 
 Purpose
 
-</th><th align="left" id="d279383e278">
+</th><th align="left" id="d280922e278">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279383e284">
+</th></tr></thead><tbody><tr><td id="d280922e284">
 
 **Verify that there are no missing CI connections.**
 
@@ -70,7 +70,7 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
  If connections and CIs to which they lead are missing, the map does not reflect the real state of the service instance and its operation. Inaccurate data can also be transferred to Event Management, causing imprecise monitoring.
 
-</td></tr><tr><td id="d279383e308">
+</td></tr><tr><td id="d280922e308">
 
 **Verify that there are no CIs that do not belong in the service.**
 
@@ -78,15 +78,15 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
 Check all CIs comprising the application service map to identify CIs not belonging to this application service. Typically, it is applications supporting internal services. For example, Microsoft Internet Information Services \(IIS\) connecting to Active Directory, may be not part of the application service.
 
-</td></tr><tr><td id="d279383e317">
+</td></tr><tr><td id="d280922e317">
 
 **Check that the connections between CIs are correct.**
 
 </td><td>
 
-[View CI connection attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
+[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
 
-</td></tr><tr><td id="d279383e333">
+</td></tr><tr><td id="d280922e339">
 
 **Check that clusters are reflected correctly.**
 
@@ -114,7 +114,7 @@ This type of cluster appears as a CI with a plus sign and the number of CIs in t
 
 \[Omitted image "MapClustersOSClusters.png"\] Alt text: OS cluster
 
-</td></tr><tr><td id="d279383e388">
+</td></tr><tr><td id="d280922e394">
 
 **Check that inclusions are reflected correctly.**
 

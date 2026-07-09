@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-07-03"
 reading_time_minutes: 9
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -112,7 +112,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 ## Interaction with Now Assist Genius Results
 
-If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Now Assist Multi-Content Response Genius Result answers. This includes answers generated for in Now Assist in Virtual Agent chat.
+If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Now Assist Multi-Content Response Genius Result answers. This includes answers generated in Now Assist in Virtual Agent chat.
 
 External content search results are ignored when generating Now Assist Q&amp;A or Now Assist Actions Genius Result answers.
 

@@ -49,6 +49,8 @@ The Service Operations Workspace migration utility uses the following sequence t
 
 The Service Operations Workspace migration utility uses the following sequence to migrate the layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM. All these actions are done by the system.
 
+1.  Searches for UI Action Group \[sys\_aw\_form\_uiaction\_group\] table records that are mapped to UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_group\] table records.
+2.  If a record isn’t found, creates a UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_group\] table record and maps it to the UI Action Group \[sys\_aw\_form\_uiaction\_group\] table record.
 
 The Service Operations Workspace migration utility uses the following sequence to migrate input tables from ITSM Agent Workspace to Service Operations Workspace for ITSM. All these actions are done by the system.
 

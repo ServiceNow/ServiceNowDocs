@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-now-assist-panel-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-13"
 reading_time_minutes: 2
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Use, Now Assist Center, Enable AI experiences]

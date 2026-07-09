@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Connect, Workflow Data Fabric]
 ---
 
 # ServiceNow MCP Registry
@@ -36,5 +36,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Application version
 
-ServiceNow MCP Registry v1.0.1 is the latest version.
+ServiceNow MCP Registry v1.0.2 is the latest application version.
 

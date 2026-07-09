@@ -1,5 +1,5 @@
 ---
-title: Triage a ServiceNow instance
+title: Triage an instance for ongoing operations
 description: Perform a triage on a ServiceNow instance to gather point-in-time telemetry data for troubleshooting using Instance Observer. The triage feature gives a summary of ongoing operations at the time of its execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-triage-sn-instance.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Triage a ServiceNow instance
+# Triage an instance for ongoing operations
 
 Perform a triage on a ServiceNow instance to gather point-in-time telemetry data for troubleshooting using Instance Observer. The triage feature gives a summary of ongoing operations at the time of its execution.
 
@@ -72,5 +72,5 @@ Role required: admin
 -   **[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md)**  
 You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

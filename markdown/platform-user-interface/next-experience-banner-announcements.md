@@ -14,8 +14,6 @@ breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure
 
 Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.
 
-**Note:** Beginning with the San Diego release, configure banner announcements instead of updating the **glide.product.description** system property.
-
 \[Omitted image "pol-banner-announcement.png"\] Alt text: Banner announcement.
 
 You can configure the following aspects of banner announcements:

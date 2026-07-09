@@ -28,7 +28,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, sn\_compliance
 
 3.  Select **All entities** from the Scoping list on the left pane and click the entity record for which you completed the CRI tiering questionnaire.
 
-4.  As an owner of the entity, select the \[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: More actions icon. icon and click the **Initiate CRI profile assessment** option.
+4.  As an owner of the entity, select the More icon and click the **Initiate CRI profile assessment** option.
 
     The CRI profile assessment is created based on the tier value, and you can view the assessments in the **CRI profile assessment** related list, which takes a few seconds to be generated. The controls are also created simultaneously.
 

@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Publish an automation request
@@ -62,5 +62,5 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 After you publish an automation request, the automation is ready for execution, which is the last stage in the automation request life cycle.
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
 

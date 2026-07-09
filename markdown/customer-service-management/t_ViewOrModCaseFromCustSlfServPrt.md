@@ -41,3 +41,10 @@ Depending on the role of the current user, the Case list displays:
 4.  Click **Update**.
 
 
+**Related topics**  
+
+
+[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-close-case-from-portal.md)
+
+[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ComACustServSatSurvey.md)
+

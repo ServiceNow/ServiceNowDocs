@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-re
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [derived pricing, price list line, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -18,7 +18,9 @@ Automatically set the pricing for a product by deriving its pricing from other p
 
 ## Derived pricing overview
 
-As a pricing admin or manager, you can define rules for deriving product pricing dynamically, relative to other products or transactional values such as the total contract value \(TCV\) or annual contract value \(ACV\). When products with derived pricing are added to a transaction, such as a quote or order, the derived pricing is applied automatically. Derived pricing can be used in various scenarios. For example:
+As a pricing admin or manager, you can define rules for deriving product pricing dynamically, relative to other products or transactional values such as the total contract value \(TCV\) or annual contract value \(ACV\). When products with derived pricing are added to a transaction, such as a quote or order, the derived pricing is applied automatically. The system manages the lifecycle of derived lines by adding new system-generated lines when pricing rules require them, updating existing lines when pricing conditions change, and removing lines that no longer apply.
+
+Derived pricing can be used in various scenarios. For example:
 
 |Pricing scenario|Industry use case|
 |----------------|-----------------|
@@ -99,7 +101,11 @@ Aggregate
 Formulas \(SUM, MIN, MAX, AVG\) used to determine a single derived product price when pricing is derived from more than one source product. Percentages and price floor and ceiling amounts are then applied as pricing adjustments to calculate the final derived product price.
 
 </td></tr></tbody>
-</table>## Limitations for derived pricing
+</table>## Scope: Quotes and orders
+
+Derived pricing applies to both quotes and orders. When you configure rules in the Derived Pricing Matrix, the system automatically applies those rules to derived line items in both transaction types. The system handles all line-level changes \(adds, updates, and removals\) without requiring manual edits from agents.
+
+## Limitations for derived pricing
 
 Derived pricing does not work for quotes of type sales agreements.
 

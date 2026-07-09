@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
-breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Software license usage, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a software removal candidate in Software Asset Management classic

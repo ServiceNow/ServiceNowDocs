@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-31"
 reading_time_minutes: 2
-breadcrumb: [Adding AI to your apps, Getting Started guide for developers, Building applications]
+breadcrumb: [Adding AI to your apps, AI-native app development, Getting Started guide for developers, Building applications]
 ---
 
 # AI assets

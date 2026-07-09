@@ -42,7 +42,7 @@ Role required: admin
 
 7.  Select **Delete Assets**.
 
-    You are prompted to confirm that you are deleting assets.
+    You're prompted to confirm deleting assets.
 
 
 ## Result

@@ -18,8 +18,6 @@ The Demand Insights for Cases dashboard enables you as a customer service case m
 
 The Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\) includes the Demand Insights for Cases dashboard. For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md). The navigation path for viewing this dashboard is **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. Using the search field, look for the dashboard.
 
-\[Omitted image "Demand-insights-cases-db.png"\] Alt text: Demand Insights for Cases dashboard
-
 ## End user and roles
 
 |End user and goal|Required roles|
@@ -46,7 +44,7 @@ Candidate Knowledge Gaps for Case
 
 </td><td>
 
-Pareto Chart \[Omitted image "pareto-sm.png"\] Alt text: Pareto report icon
+Pareto Chart
 
 </td><td>
 

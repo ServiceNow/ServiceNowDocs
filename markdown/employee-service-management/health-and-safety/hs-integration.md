@@ -16,7 +16,7 @@ breadcrumb: [Integration with third-party services, Health and Safety, Employee 
 
 Enables you by reducing manual effort in obtaining data, improving data accuracy, and streamlining workflows. This integration promotes easier access and management of information in one unified environment.
 
-Integration with 3E provides following two external APIs:
+Integration with 3E enables the following two external APIs:
 
 -   **[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-protect.md)**  
 3E provides an external API called 3E Protect that integrates with Health and Safety Environmental management to automate chemical safety information retrieval and maintenance.

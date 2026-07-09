@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create and manage enterprise asset inventory
@@ -54,6 +54,4 @@ Enable the Asset put away task explicitly for your stockroom to put away the ass
 As an enterprise asset manager or enterprise asset technician, receive enterprise and consumable assets at stockrooms from any workflow at a centralized location on the stockroom form in the Enterprise Asset Workspace.
 -   **[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)**  
 Track and manage stockrooms efficiently by evaluating the inventory reports in the Enterprise Asset Workspace.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

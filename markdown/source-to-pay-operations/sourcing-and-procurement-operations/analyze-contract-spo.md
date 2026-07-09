@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Contract Management, Source-to-Pay Operations integration Contract Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Now Assist for Contract Management, Source-to-Pay Operations and Contract Management Pro integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Analyze a contract document from Source-to-Pay Workspace
@@ -48,15 +48,15 @@ For more information, see [Contract analysis using Now Assist in Contract Manage
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d89417e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d149789e159">
 
 Method
 
-</th><th align="left" id="d89417e162">
+</th><th align="left" id="d149789e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89417e168">
+</th></tr></thead><tbody><tr><td id="d149789e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d89417e195">
+</td></tr><tr><td id="d149789e195">
 
 **Run Now Assist analysis on multiple contract documents**
 

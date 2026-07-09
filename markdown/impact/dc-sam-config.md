@@ -33,3 +33,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_sam.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-sam.md)
+

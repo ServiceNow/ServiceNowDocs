@@ -32,4 +32,8 @@ Configure a mobile private network \(MPN\) pull connector instance to collect me
 Configure a connector instance to collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management.
 -   **[Override default metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.md)**  
 Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source by creating your own implementation of the `EventFieldMapping` extension point and wiring it into an event field mapping rule.
+-   **[Configure a metric aggregation job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-metric-aggregation-job.md)**  
+Configure a scheduled job to aggregate raw metrics into a calculated metric on a parent or anchor configuration item \(CI\). Aggregated metrics let you view performance data at a higher level of the network.
+-   **[Create a custom metric aggregation implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/create-custom-metric-aggregation-implementation.md)**  
+Create a custom implementation of the metric aggregation scripted extension point when the default aggregation modes don't cover a calculation you need.
 

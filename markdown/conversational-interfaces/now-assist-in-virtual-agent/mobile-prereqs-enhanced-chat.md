@@ -48,7 +48,7 @@ Typing an utterance in the search bar opens a full-screen chat experience. Users
 
 </td><td>
 
-Admins must select the mobile search conﬁguration to be used. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+Admins must select the mobile search conﬁguration to be used. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 </td></tr><tr><td>
 

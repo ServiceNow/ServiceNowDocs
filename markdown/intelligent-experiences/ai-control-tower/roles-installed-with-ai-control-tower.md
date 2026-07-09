@@ -78,22 +78,6 @@ AI steward\[sn\_ai\_governance.ai\_steward\]
 
 </td></tr><tr><td>
 
-AI Control Tower Workspace user \[sn\_ai\_governance\_workspace\_user\]
-
-</td><td>
-
-The AI Control Tower Workspace user is responsible for:
-
- -   Own and manage the AI assets
--   Access the AI Control Tower home page
--   Exclusive access to the AI portfolio tab
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
 AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
 
 </td><td>

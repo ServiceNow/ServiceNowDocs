@@ -62,3 +62,8 @@ You can initiate one of the following assessments:
         In the Risk assessments related list in the regulatory alert record, the new impact assessments are listed.
 
 
+**Related topics**  
+
+
+[Update a regulatory assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/update-reg-assessment-template.md)
+

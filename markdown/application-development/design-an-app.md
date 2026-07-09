@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Plan your app before you start building, Getting Started guide for developers, Building applications]
+breadcrumb: [Plan your app before you start building, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Design an app
@@ -16,8 +16,8 @@ Horizon is a modern UX framework that enables developers to create responsive, a
 
 ## Key design principles
 
-1.  Follow ServiceNow’s design guidelines for consistency.
-2.  Use Horizon components such as cards, lists, and Workspaces for a better enterprise design experience.
+1.  Follow ServiceNow design guidelines for consistency.
+2.  Use Horizon components such as cards, lists, and workspaces for a better enterprise design experience.
 3.  Plan for responsive behavior to support multiple devices.
 4.  Verify accessibility conformance for all UI elements.
 

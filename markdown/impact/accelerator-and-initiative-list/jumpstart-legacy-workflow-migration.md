@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Workflow Automation: Flows
-description: This accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
+description: This Accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.html
 release: australia
@@ -9,18 +9,18 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Workflow Automation: Flows
 
-This accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
+This Accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
 
 ## Accelerator overview
 
 Jumpstart Your Workflow Automation: Flows provides Impact customers with an overview and applied demonstration of Flows in Workflow Studio. Customers learn how to build and configure automated processes using triggers, actions, and reusable sub-flows — replacing complex custom scripts with upgrade-safe, low-code automation.
 
-This accelerator also equips customers with key resources and leading practices to design, test, and scale workflows effectively using ServiceNow’s core actions and spoke library.
+This Accelerator also equips customers with key resources and leading practices to design, test, and scale workflows effectively using ServiceNow’s core actions and spoke library.
 
 ## Package Availability
 

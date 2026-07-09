@@ -1,5 +1,5 @@
 ---
-title: Add an MCP server from AI Agent studio
+title: Add an MCP Server from AI Agent studio
 description: Add an external MCP server from AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.html
@@ -9,10 +9,10 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-23"
 reading_time_minutes: 2
-breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Process flow of MCP Servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from AI Agent studio
+# Add an MCP Server from AI Agent studio
 
 Add an external MCP server from AI Agent Studio.
 
@@ -75,5 +75,5 @@ After synchronizing, the MCP server shows up in the AI asset inventory with its 
 
 ## What to do next
 
-The MCP server approval request must be approved. See [Explore the MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
+The MCP server approval request must be approved. See [MCP Server Approval Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

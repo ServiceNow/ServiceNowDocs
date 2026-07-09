@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-fe
 release: australia
 topic_type: reference
 last_updated: "2026-06-12"
-reading_time_minutes: 304
+reading_time_minutes: 325
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -83,23 +83,23 @@ Create AI system assets to track and manage the complete life cycles of your age
 
 -   **[Define the use and purpose of an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md)**
 
-Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see, [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md) [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-assessment-templates.md)and [Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-rams.md).
+Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see, [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md) and .
 
 -   **[Associate additional related AI asset types with AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md)**
 
 Associate the following additional related AI asset types with your AI systems:
 
-    -   If an AI system has an Asset type of Generative AI or Agentic AI, you can associate it with any of its supported components or subsystems.
-    -   If an AI system has an Asset type of Agentic AI, you can associate it with any of its integrated AI tools.
+    -   If an AI system has an Asset type of generative AI or agentic AI, you can associate it with any of its supported components or subsystems.
+    -   If an AI system has an Asset type of agentic AI, you can associate it with any of its integrated AI tools.
 -   **[Create change and offboarding requests for additional AI asset types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-asset-requests.md)**
 
 Create change requests for the following additional AI asset types:
 
-    -   AI systems with an Asset type of Agentic AI
+    -   AI systems with an Asset type of agentic AI
     -   Datasets
 In addition, create offboarding requests for the following additional AI asset types:
 
-    -   AI systems with an Asset type of Agentic AI
+    -   AI systems with an Asset type of agentic AI
     -   AI models
     -   Datasets
     -   MCP servers
@@ -109,8 +109,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enterprise-ai-discovery.md)**
@@ -125,9 +125,9 @@ The following AI Service Graph Connectors are available from March 2026
     -   [n8n](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/n8n.md)
     -   [LangGraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/langgraph.md)
     -   [Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/salesforce.md)
--   **[Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md)**
+-   **[AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md)**
 
-Managed assets benefit from AI Control Tower features such as governance, lifecycle management, value assessment, risk classification, security, and privacy. Unmanaged assets, on the other hand, do not have access to these AI Control Tower capabilities.
+Managed assets benefit from AI Control Tower features such as governance, lifecycle management, value assessment, risk classification, security, and privacy. Unmanaged assets, on the other hand, don't have access to these AI Control Tower capabilities.
 
 -   **[AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-gateway-overview.md)**
 
@@ -143,6 +143,15 @@ MCP server can be added to an AI Asset inventory from AI Control Tower.
 AI Desktop Actions
 
 </td><td>
+
+-   **[Unified automation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/explore-agentic-desktop.md)**
+
+Use the unified automation creation journey that eliminates manual intervention and saves time.
+
+    -   Request automations from Task Mining to automate desktop activities collected by the Task Mining agent.
+    -   Generate automations in Automation Center to create on-screen and background desktop actions.
+    -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
+    -   Test and deploy the AI agent in AI Agent Studio.
 
 -   **[Record desktop actions with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md)**
 
@@ -210,15 +219,26 @@ AI Risk and Compliance
 
 </td><td>
 
--   **[Risk‑based classification during intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md)**
+-   ****
+
+Use Now Assist for AI Risk and Compliance to get AI-powered assistance throughout the AI asset lifecycle. After upgrading to version 22.4.x, users with the AI Risk and Compliance AI user \[sn\_airc\_gen\_ai.airc\_ai\_user\] and AI Risk and Compliance AI agent user \[sn\_airc\_gen\_ai.airc\_ai\_agent\] roles can access the following capabilities:
+
+    -   Create and document governance, risk, and compliance issues with guided assistance from the employee center.
+    -   Generate concise summaries of complex GRC issues for faster review and decision-making.
+    -   Create executive summaries of risk assessments to communicate findings to stakeholders.
+    -   Generate responses to assessment questions based on past assessments and reference documentation.
+    -   Identify related control objectives from your controls library to reduce duplication.
+Use these capabilities to capture AI risk context early in the development process and address compliance requirements throughout the system lifecycle.
+
+-   **Risk‑based classification during intake**
 
 After upgrading to version 22.0.3, if you have the AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, you can now classify AI systems using a risk‑based approach at intake, enabling organizations to capture AI risk context early and align governance workflows with regulatory and internal risk requirements. This improvement to the AI use case request form supports more accurate AI oversight throughout the system life cycle.
 
--   **[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-ai-case-anon.md)**
+-   ****
 
 After upgrading to version 22.0.3, if you have the AI Case Management \(sn\_ai\_case\_mgmt\) application installed and the AI case business user \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\] role, you can navigate to the Employee Center to access the Anonymous Reporting Center and submit AI cases anonymously, enabling broader participation in AI governance while protecting the identity of reporters. No additional role is required to submit an anonymous report directly through the Anonymous Reporting Center. Broader participation helps organizations identify potential AI risks earlier by removing barriers to case submission.
 
--   **[Offboard AI models and datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-offboarding-ai-assets.md)**
+-   **Offboard AI models and datasets**
 
 After upgrading to version 22.0.3, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role you can manage AI asset offboarding life cycle tasks. Managing these tasks supports completion of governance-related activities, such as risk and impact assessments, conformity reviews, issue closure, and audit documentation, when an AI asset is retired or removed from active use.
 
@@ -228,6 +248,8 @@ After upgrading to version 22.0.3, if you have the AI risk and compliance analys
 AI Search
 
 </td><td>
+
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate_multicontent_sythesized-sources.md)**
 
 -   **[Multimodal captioning for attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-multimodal-captioning.md)**
 
@@ -336,6 +358,31 @@ API
 Endpoints
 
 </th></tr></thead><tbody><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The REST version of this API is .
+
+</td></tr><tr><td>
 
 Lead to Cash Core
 
@@ -469,6 +516,31 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The REST version of this API is .
+
+</td></tr><tr><td>
+
 Lead to Cash Core
 
 </td><td>
@@ -568,6 +640,87 @@ API
 Endpoints
 
 </th></tr></thead><tbody><tr><td>
+
+AI Control Tower
+
+</td><td>
+
+v6.0.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   GET /asset-class
+-   GET /details
+
+</td></tr><tr><td>
+
+Healthcare and Life Sciences Service Management Core
+
+</td><td>
+
+v1.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /message
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /api/sn\_prd\_pm/catalog/search**Note:** The script include version of this API is .
+
+</td></tr><tr><td>
+
+Usage Insight Data Export
+
+</td><td>
+
+1.0.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /sn\_uxa\_data\_export/data\_export
+
+</td></tr><tr><td>
 
 Workplace Service Delivery
 
@@ -724,6 +877,13 @@ Skip the record lookup when associating emails from the email thread. After you 
 Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
 
 
+AI sales activity association
+
+-   **[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)**
+
+Automatically associate inbound sales emails with the correct lead, opportunity, account, or contact using AI-based intent detection and semantic matching. When the agent identifies a confident match, it auto-associates the email to the CRM record so sales representatives see emails already linked in the record's Activity stream.
+
+
 </td></tr><tr><td>
 
 Adoption Services
@@ -740,6 +900,22 @@ Dynamic Guidance provides an assistance that is fully embedded within the produc
 Advanced Approval Management
 
 </td><td>
+
+-   **[Add ad-hoc approvers to approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md)**
+
+As a requester or approver, insert an ad-hoc approver at a specific position within an existing approval chain. The approval engine validates the position to prevent insertion before already requested or completed approvals. Ad-hoc approvers are clearly identified in the chain view and receive approval notifications with requester comments.
+
+-   **[Recall an approval request from the quote header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-approval-requests.md)**
+
+Enable requesters to recall submitted approval requests directly from the quote header in the quote workflow, without navigating to the Approvals tab.
+
+-   **[Rejection reason in Approvals tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
+
+Inform approval requesters of rejected approval requests by displaying the rejection reason near the related step card in the Approvals tab of the entity, reducing the need to contact approvers for clarification
+
+-   **[Configure delegate approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-delegation.md)**
+
+Configure the delegation rules allowing delegate approvers to approve or reject approval requests. Delegate approvers can approve or reject a request directly from the approval step card in the Approvals tab, on behalf of the original approver.
 
 -   **[Flexible approval configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-management.md)**
 
@@ -770,10 +946,6 @@ Inform sales agents and approvers of the status of approval items moving through
 
 Before submitting requests for approval, see the required approvals, approver names, approval reasons, and approval sequencing by creating and previewing approval requests. Requesters can recall approval requests for changes and resubmit them.
 
--   **[Ad-hoc approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md)**
-
-As a requester or an approver, add one or more approvers or approval groups to an approval request, outside of the predefined approvers for a given rule. Enables approval users to add approvers who have more expertise on certain aspects of the request, for example if there are legal or regulatory issues relevant to the request.
-
 -   **[Real-time status tracking and approval history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/tracking-approval-status.md)**
 
 Monitor approval progress and access an audit trail with detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
@@ -788,15 +960,15 @@ Advanced Risk
 
 </td><td>
 
--   **[Worst case aggregation rollup for risk scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/risk-assessment-methodology-form.md)**
+-   **Worst case aggregation rollup for risk scoring**
 
 After upgrading to version 22.3.2, use the worst case aggregation rollup method that derives all scores from a single risk record based on the highest residual risk. You can configure this option on the Risk Assessment Methodology \(RAM\) form. By using a single risk record as the source, this method keeps all rolled-up scores aligned to a real risk scenario, supporting traceability, audit requirements, and enterprise governance.
 
--   **[Hide Not applicable option in control and residual assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/control-assessment-form.md)**
+-   **Hide Not applicable option in control and residual assessments**
 
 After upgrading to version 22.3.2, configure the Risk Assessment Methodology \(RAM\) to hide the Not applicable check box in control effectiveness and residual assessment sections by using the **Hide assessment not applicable** option. This change reduces calculation errors and improves the reliability of assessment results.
 
--   **[Parallel review and feedback for Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/integrate-advanced-risk-with-parallel-review-feedback.md)**
+-   **Parallel review and feedback for Risk assessment project**
 
 Parallel review and feedback is now enabled by default on the risk assessment project record page and the project assessment page, in both stacked view and grid view. You can use collaborative review workflows without manual configuration, which removes the setup overhead previously required by the custom page structure of risk assessment projects.
 
@@ -804,17 +976,17 @@ Parallel review and feedback is now enabled by default on the risk assessment pr
 
 After upgrading to version 22.3.2, redirect to the appropriate workspace when accessing GRC records from email notifications, based on the access and role. This feature improves usability, reduces confusion, and supports adoption of workspace-based workflows.
 
--   **[Template versioning for Risk Identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/template-versioning.md)**
+-   **Template versioning for Risk Identification**
 
 After upgrading to version 22.3.2, Risk Identification supports smart assessment template versioning. New versions can be created from existing templates without creating a new template, and assessments use the latest published version.
 
--   **[Audit entry field on Risk Assessment Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-risk-assessment-project.md)**
+-   **Audit entry field on Risk Assessment Project**
 
 After upgrading to version 22.3.2, Risk Assessment Projects support audit entries to track changes and activity history. An audit entry framework separates audit-specific \(third-line\) records from operational \(second-line\) records and controls visibility.
 
 **Note:** This option is available if Audit Management and Audit Workspace are installed. Assign the sn\_audit\_ws.third\_line\_manager role to a user to use this feature.
 
--   **[Risk event response template enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-risk-event-response-template.md)**
+-   **Risk event response template enhancements**
 
 After upgrading to version 22.0.x, users with the Risk Manager \[sn\_risk.manager\] or Risk Admin \[sn\_risk.admin\] role can configure risk event response templates using dynamic, entity‑driven assignments. These changes enable assignments to be derived from entity data alongside existing static user or group selection.
 
@@ -823,11 +995,11 @@ You can select user fields defined on the entity \(such as Owner or Sub-owner\) 
     -   Risk event owner assignment
     -   Issue creation and assignment
     -   Risk event approvers
--   **[Risk Suggestion AI Agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-risks-for-entity.md)**
+-   **Risk Suggestion AI Agent enhancements**
 
 After upgrading the Now Assist for Integrated Risk Management \(IRM\) application to version 22.x, the Risk Suggestion AI Agent supports a more context‑aware and conversational workflow. After selecting risk types, you can provide additional context to refine search results, with the agent dynamically asking follow‑up questions when needed. Before adding risks to the suggested risk section, you can review and modify suggested risks by updating descriptions, renaming risks, or removing items from the list.
 
--   **[Control Objective workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-control-objective-ws.md)**
+-   **Control Objective workflow**
 
 After upgrading to version 22.0.x, you can use a defined workflow to update control objectives. Changes can be drafted and reviewed without changing the current active version, which helps avoid unintended changes to related controls, and risk records. Only approved updates become active. The workflow also sets clear responsibility for making updates and helps keep control objective information consistent and up to date.
 
@@ -853,22 +1025,22 @@ Agent Workspace for HR Case Management
 
 </td><td>
 
--   **[Integration with Contact Center as a Service \(CCaaS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/enable-hr-icc.md)**
+-   ****
 
 Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
 
--   **[Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recommended-actions-hrsd.md)**
+-   ****
 
 Recommend actions based on the context of the HR case, helping agents resolve case faster.
 
     -   Lists KB articles and similar cases in the context of the current case.
     -   Suggests to add an approval to the case only when an approval is required.
--   **[Case creation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-ws-configurable-hr-create-case.md)**
+-   **Case creation configuration**
 
 Enable an HR agent to quickly review the HR profiles of both **subject person** and **opened for** during the case creation process.
 
 
--   **[Advanced Knowledge Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/advance-knowledge-editor.md)**
+-   ****
 
 Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI powered Article optimizations recommendations to improve the knowledge content quality.
 
@@ -999,6 +1171,15 @@ Application Vulnerability Response
 
 </td><td>
 
+-   **[Enhancements to the Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/invicti-vuln-integration.md)**
+
+Added the Invicti Platform Integration. Support for the Invicti Platform APIs introduces three new integration jobs that connect directly to the Invicti Platform cloud service:
+
+    -   Application Integration — Imports the list of applications being scanned in Invicti Platform into your ServiceNow AI Platform® instance as discovered applications.
+    -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
+    -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform®.
+Enhancements to Application life-cycle management: When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform® automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\), keeping your vulnerability inventory accurate without manual cleanup.
+
 -   **[Configuring lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-lookup-rules.md)**
 
 The Applies to field is added to the Rules page for Configuration \(CI\) lookup rule records. For third-party and ServiceNow® integrations that support both Application Vulnerability Response \(AVR\) and Vulnerability Response \(VR\) lookup rules, like the Vulnerability Response Integration with Wiz, for example, select one for a rule:
@@ -1044,19 +1225,19 @@ Asset Audit Response
 
 </td><td>
 
--   **[Automate the summarization of evidence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+-   **Automate the summarization of evidence requests**
 
 Use generative AI to summarize completed and in-progress evidence requests for your ﬁnancial regulatory audits. Gain insight into the corresponding audit engagements, the associated financial regulations, and the evidence that was submitted for each request. In addition, view details about the remediation rules that were created for each request and the corresponding remediation tasks that were generated based on those rules. Use this information to help plan for and complete other in-progress evidence requests so that you can improve your operational efficiency.
 
--   **[Track impacted records that require remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+-   **Track impacted records that require remediation**
 
 Use the Impacted Records related list in your remediation tasks to track and take any necessary actions on the impacted records, including asset and configuration item \(CI\) records, that are associated with each task. These remediation tasks are automatically generated based on the remediation rules that you define during evidence request fulfillment.
 
--   **[View citations for your evidence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+-   **View citations for your evidence requests**
 
 Gain insight into the citations that are associated with your evidence requests by using the Citation details fields in the Asset Response Guided Experience. Use these fields to identify the name, description, and supplemental guidance for any citation that is associated with a request.
 
--   **[Streamline the fulfillment of evidence requests by using financial regulatory context from the Digital Operational Resilience Act \(DORA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/audit-workspace.md)**
+-   **Streamline the fulfillment of evidence requests by using financial regulatory context from the Digital Operational Resilience Act \(DORA\)**
 
 Associate your evidence requests with financial regulatory requirements and guidelines from the Digital Operational Resilience Act \(DORA\). By aligning the relevant requests with these requirements and guidelines, you can help your asset managers better understand the compliance obligations that are associated with each request. They can then use this information to fulfill each request more accurately and efficiently.
 
@@ -1066,8 +1247,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -1076,7 +1257,7 @@ Audit Management
 
 </td><td>
 
--   **[Audit entry fields on GRC objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-entry-overview.md)**
+-   **Audit entry fields on GRC objects**
 
 Classify the following GRC objects as third-line audit records using the new audit entry option:
 
@@ -1116,6 +1297,19 @@ Build Agent
 
 </td><td>
 
+-   **Web search tool**
+
+Access public web content from Build Agent using two new search tools. Use the web search tool to find information on the public web, and use the web fetch tool to retrieve content from a URL that you supply.
+
+-   **Consolidated update sets**
+
+Track changes generated by Build Agent and manual edits in update sets for checkpointing and rollback. Update sets can be merged into a single update set before deployment. All changes to your application are captured in the same scope, making it easier to review what was modified and merge updates to other environments.
+
+-   **Expanded metadata support**
+
+Work with more metadata types in Build Agent, which now supports connection and credential alias, data lookup, playbooks, rest message/HTTP method, and user criteria.
+
+
 -   **MCP server support in ServiceNow Studio**
 
 Connect Build Agent to external MCP servers in ServiceNow Studio. Previously, MCP server connectivity was only available in the ServiceNow IDE.
@@ -1130,20 +1324,24 @@ View update sets created by Build Agent from within the chat panel in ServiceNow
 
 -   **UI validation tool in ServiceNow Studio**
 
-Validate user interface output during app creation with the UI validation tool in Build Agent, now available in ServiceNow Studio.
+Validate user interface output during app creation with the UI validation tool in Build Agent, available in ServiceNow Studio.
 
 -   **Search retrieval tool support**
 
-Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can surface knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
+Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can retrieve knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
 
 -   **Support for more file types**
 
 Upload more types of files to Build Agent to describe what you want to build, including images, documents, and text and code files.
 
+-   **Expanded metadata support**
+
+Work with more metadata types in Build Agent, which now supports assignment rules, forms, and data policies.
+
 
 -   **MCP Client integration**
 
-Connect Build Agent to external MCP servers to bring tools and data sources directly into your build workflow. External resources participate alongside Build Agent on the ServiceNow AI Platform, which helps reduce context switching and manual data transfer between tools.
+Connect Build Agent to external MCP servers to bring tools and data sources directly into your build workflow. External resources participate alongside Build Agent on the ServiceNow AI Platform, which reduces the need to switch between tools and transfer data manually.
 
 -   ****
 
@@ -1151,7 +1349,7 @@ Turn business requirements into fully configured agents, skills, and agentic wor
 
 -   **Test Agent for Build Agent**
 
-Use Test Agent to execute Automated Test Framework \(ATF\) tests right from the Build Agent chat panel for test artifacts created in the same session. When tests fail, the generated tests and test results are saved in the standard ATF record tables and can be scheduled for continued regression testing for the app. If tests are edited by the test agent after troubleshooting, those edits are automatically saved to the test records.
+Use Test Agent to execute Automated Test Framework \(ATF\) tests right from the Build Agent chat panel for test artifacts created in the same session. When tests fail, the generated tests and test results are saved in the standard ATF record tables and can be scheduled for continued regression testing for the app. If Test Agent modifies tests during troubleshooting, those changes are automatically saved to the test records.
 
 -   **UI validation tool**
 
@@ -1180,8 +1378,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **Additional metadata support**
 
@@ -1214,41 +1412,41 @@ Business Continuity Management
 
 </td><td>
 
--   **[Task template groups and Task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**
+-   **Task template groups and Task templates**
 
 Create reusable Task templates for recovery and event tasks, and organize them into groups with configurable dependencies. Scope groups to all element definitions or a specific type, and define task sequencing within a group to preserve execution order when applied.
 
--   **[Task templates and Task template groups integration in plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**
+-   **Task templates and Task template groups integration in plan templates**
 
 Associate Task template groups and Task templates at the plan, loss scenario, and recovery strategy levels within a plan template. Creating a plan from a template automatically generates all linked records at each level, with a progress tracker showing status throughout.
 
--   **[Task templates and Task template groups support in plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**
+-   **Task templates and Task template groups support in plans**
 
 Add Task template groups and individual Task templates directly from recovery task lists.
 
--   **[Task templates and Task template groups support in Exercises and Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-event-task-to-exercise-event.md)**
+-   **Task templates and Task template groups support in Exercises and Crisis events**
 
 Add task template groups and individual templates directly from event task lists. Select groups, assign an activated plan when required, and the system creates all tasks with dependencies intact. An auto-refresh banner tracks progress and refreshes the list once after all tasks are created.
 
--   **[Recovery strategy templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)**
+-   **Recovery strategy templates**
 
 Create reusable recovery strategy templates with standard fields including name, description, estimated time limit, and maximum duration. Apply a template to auto-populate a recovery strategy, reducing manual entry and keeping strategies consistent across plans.
 
--   **[Gantt chart for recovery tasks in plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**
+-   **Gantt chart for recovery tasks in plans**
 
 Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.
 
 Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
 
--   **[Export and import event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)**
+-   **Export and import event tasks in Microsoft Excel**
 
 Export recovery event tasks to Microsoft Excel from the Event tasks related list. The workbook includes a data sheet, a read-only Event Details tab, and an Instructions sheet. Non-editable columns are locked. Import the updated file when the event is in the Open or Work in progress state. Track import progress in real time, with a full audit trail available on the Recovery Event form.
 
--   **[Role-based Performance Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pa-dashboard-summary.md)**
+-   **Role-based Performance Analytics dashboards**
 
 Access role-based Performance Analytics dashboards directly from the BCM workspace. Four dashboards are available, each tailored to a functional area: Home \(overall BCM status\), BIA \(impact analysis progress\), BCP \(planning records\), and Event \(recovery exercises and activities\). Each dashboard is permission-controlled and views are displayed relevant to the roles.
 
--   **[Assessment template version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md)**
+-   **Assessment template version control**
 
 Track the template version used at the time of assessment creation on Smart Assessment Engine \(SAE\) templates. Assessors and reviewers can clearly see which template version was in effect, making it easier to audit and compare assessments over time.
 
@@ -1278,6 +1476,22 @@ CPQ
 
 </td><td>
 
+-   **Price and quantity ramps in the CPQ Configurator**
+
+Use the CPQ Configurator to configure price and quantity ramps for subscription products with recurring pricing. View and manage ramp segments through a summary table and detailed modal, apply quantity updates as a delta across segments, and relaunch the configurator for ramped products to support MACD scenarios.
+
+-   **Source line configuration field mappings**
+
+Reduce manual data entry during configuration by defining mappings in the CPQ admin UI that automatically populate config fields when a session initializes. Map incoming request data such as line or characteristics to product picker subfields and other config fields, and import or export mappings as part of a blueprint export or standalone CSV.
+
+-   **[Config AI Agent-to-Agent \(A2A\) support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cpq-transaction-manager-rn.md)**
+
+Allow agents to communicate directly with Config AI using the A2A protocol to generate and validate product configurations as part of broader agentic workflows. Onboarding and offboarding of the Config AI agent is handled automatically based on a tenant setting.
+
+-   **[ServiceNow CPQ Configurator guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-cpq-integrator.md)**
+
+Use the guided setup for initial configuration of the ServiceNow CPQ configurator to define product pricing, create pricing rules, and create complex product bundles. The guided setup provides a structured step-by-step process that streamlines the initial setup process.
+
 -   **[Transaction Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-transaction-manager-transaction-access-control.md)**
 
 Control precisely who can view and edit each transaction to improve security and compliance using Transaction Access Control. Admins and creators automatically receive full access and can grant access to others. Any user with access can also grant or remove access for others.
@@ -1290,7 +1504,7 @@ Enables AI column and line item mapping to allow for seamless transition from th
 
 Enables admins to upload business and blueprint related context documents to provide Configuration AI and Transaction AI more context of business, standards product information etc.
 
--   **[Export Lines UI Effect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-layouts-ui-effects.md)**
+-   **Export Lines UI Effect**
 
 Export Transaction Lines to a .csv file via a new UI effect. The exported file includes all lines in the transaction that meet the current line sort, filter, and column show/hide settings.
 
@@ -1304,11 +1518,11 @@ Improve collaboration and user efficiency by sharing saved favorite products and
 
 -   **Tenant-configurable namespace prefixes for Salesforce fields**
 
-Configure a custom namespace at the tenant level to align Salesforce fields and references with your managed package. When a custom namespace is set, CPQ uses it for all generated Salesforce fields and all field lookups instead of the default LGK\_ prefix. If no custom namespace is configured, the system defaults to LGK\_ to preserve compatibility with existing tenants.
+Configure a custom namespace at the tenant level to align Salesforce fields and references with your managed package. When a custom namespace is set, ServiceNow CPQ uses it for all generated Salesforce fields and all field lookups instead of the default LGK\_ prefix. If no custom namespace is configured, the system defaults to LGK\_ to preserve compatibility with existing tenants.
 
--   **Dynamic selection of Sales CRM catalog items in the CPQ admin UI**
+-   **Dynamic selection of Sales CRM catalog items in the ServiceNow CPQ admin UI**
 
-Select product offerings, product specifications, and product characteristic values directly in the CPQ admin UI without manually entering system IDs. Search and select Sales CRM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
+Select product offerings, product specifications, and product characteristic values directly in the ServiceNow CPQ admin UI without manually entering system IDs. Search and select Sales CRM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
 
 -   **[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/node-cloning-for-solution-configuration.md)**
 
@@ -1328,7 +1542,7 @@ Configure complex products using natural language. Buyers can submit a configura
 
     -   Submit product configuration requests using natural language through a prompt field on the landing page.
     -   Complete product configuration through a conversational interface within the buying experience.
-    -   Design the Config Converse landing page using the CPQ layout editor with configurable elements such as text, images, fields, and a prompt component.
+    -   Design the Config Converse landing page using the ServiceNow CPQ layout editor with configurable elements such as text, images, fields, and a prompt component.
     -   Allow buyers to skip the landing page using a dismissal preference in the layout editor.
     -   Check for a predicted configuration after the initial buyer request. Apply it automatically when Smart Predict is enabled for both the tenant and the layout. Smart Predict must be enabled separately at the tenant level and at the layout level.
 -   **Transaction edit history**
@@ -1337,7 +1551,23 @@ Use the event start time column in the transaction edit history to help admins t
 
 -   **Price and quantity ramps in the CPQ Configurator**
 
-Use the CPQ Configurator to configure price and quantity ramps for subscription products with recurring pricing. View and manage ramp segments directly within the configuration session through a summary table and detailed modal. Apply quantity updates as a delta across segments from the effective date, and save all changes back to the source. Relaunch the configurator for ramped products to support MACD scenarios, with child lines inheriting the correct ramp associations.
+Use the ServiceNow CPQ Configurator to configure price and quantity ramps for subscription products with recurring pricing. View and manage ramp segments directly within the configuration session through a summary table and detailed modal. Apply quantity updates as a delta across segments from the effective date, and save all changes back to the source. Relaunch the configurator for ramped products to support MACD scenarios, with child lines inheriting the correct ramp associations.
+
+-   **[Manage quotes using the Quote AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-quote-using-quote-ai-agent.md)**
+
+Automating quote creation, product configuration, discount application, and client communication through the Quote AI Agent in Now Assist.
+
+-   **[Quote Experience in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)**
+
+Create and manage quotes in the Quote Experience within Sales CRM, a modern quoting interface built on the configurable ServiceNow quoting engine. Configure the quote layout with refined UI features. Users can build quotes, submit them for approval directly from the quoting experience, and advance them through configurable approval stages before an order is created. Approvals integrate with the standard ServiceNow approval engine.
+
+-   **[Approvals in the Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-management.md)**
+
+Configure a complete approval framework for quotes in the Quote Experience in Sales CRM. Define approval workflows through configurable stages, rules, and trigger conditions that integrate with the standard ServiceNow approval engine. Set up the approver experience, including notification channels \(email, in-app, and dashboard\), escalation rules for overdue requests, delegation for approver coverage, and comment requirements for audit purposes. Approvers receive notifications through their configured channels and can review, approve, reject, or delegate requests directly from the quote record or approval dashboard before an order is created.
+
+-   **Opportunity and quote synchronization**
+
+Enable sales users to designate a quote as the primary quote for an opportunity and synchronize its lines back to the source opportunity record. The Enable Sync and Disable Sync events, integration, rules, and fields are productized into the Sales CRM quoting experience. Only one quote can be primary at a time per opportunity.
 
 
 </td></tr><tr><td>
@@ -1386,8 +1616,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -1413,8 +1643,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -1440,8 +1670,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -1467,8 +1697,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -1496,15 +1726,15 @@ Case and Knowledge Management
 
 </td><td>
 
--   **[Granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-case-and-knowledge-management.md)**
+-   **Granular roles**
 
 Provide tighter security to HR data using the granular admin roles in Case and Knowledge Management.
 
--   **[Use COE Security Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/coe-diagnostics-tool.md)**
+-   ****
 
 Enable HR administrators to determine which users have access to HR cases within an instance based on COE security policies. HR administrators can also review the specific COE security policies that restrict user access.
 
--   **[ER Consolidated List in HR Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-er-dashboards.md)**
+-   **ER Consolidated List in HR Agent Workspace**
 
 Get a holistic view of all related tables for all the ER cases using the ER cases consolidated view in the Employee relations dashboard.
 
@@ -1568,18 +1798,18 @@ Cloud Cost Management 10.0
 
 </td><td>
 
--   **[Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/schedule-azure-billing-job.md)**
+-   **Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing**
 
 Enhance your ability to manage cloud costs using the FOCUS billing standard that enables better insights. This feature helps you make more informed decisions. Additionally, you experience seamless processing of billing data across multiple Azure billing models such as:
 
     -   Enterprise Agreement \(EA\)
     -   Microsoft Customer Agreement \(MCA\)
     -   Microsoft Partner Agreement \(MPA\)
--   **[View cloud cost data in your preferred currency for multiple cloud service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/operation-view-ccm-ws.md)**
+-   **View cloud cost data in your preferred currency for multiple cloud service providers**
 
 View your cloud cost data in your preferred local currency for better clarity and reporting flexibility. This capability enables you to view cost and usage details from multiple cloud service providers, including AWS, Azure, and GCP, in your selected currency.
 
--   **[Get support for your Azure MPA model when operating under an MSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/azure-pricesht-sched-dwnld-cloudin.md)**
+-   **Get support for your Azure MPA model when operating under an MSP**
 
 Gain full visibility into your cloud costs and actionable insights for your Azure cloud spend when operating under an MSP. Additionally, the feature provides a centralized view to monitor cloud spend and manage budgets.
 
@@ -1627,8 +1857,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Import tasks into CWM Boards using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/importing-tasks-cwm-boards.md)**
 
@@ -1685,11 +1915,11 @@ Common Governance, Risk, and Compliance feature
 
 </td><td>
 
--   **[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/email-notification-redirection.md)**
+-   ****
 
 After upgrading GRC to version 22.0.1, notification links in GRC applications automatically route you to the appropriate workspace view based on your persona and access permissions. If you don't have workspace access, links default to the classic view.
 
--   **[Monitor my tasks in the Tasks page in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-my-tasks-in-ws.md)**
+-   ****
 
 After upgrading GRC to version 22.0.1, the Tasks page loads faster with performance improvements. Task counts display first as an at-a-glance summary, followed by detailed task lists that load progressively. Task data refreshes at regular intervals to keep information current. These improvements provide better scalability for users with high task volumes across multiple task sources.
 
@@ -1700,7 +1930,11 @@ Compliance Case Management
 
 </td><td>
 
--   **[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-compliance-case-anonymously.md)Report compliance cases anonymously**
+-   **Smart assessment versioning of assessment templates**
+
+You can create a version of an existing compliance case assessment template to revise the questionnaire and response options, without disrupting assessments that are already in progress. New assessments use the latest published version of the template.
+
+-   **Report a compliance case anonymously from the Anonymous Reporting Center**
 
 Employees can now use the Anonymous Reporting Center to report compliance violations such as fraud and embezzlement, workplace misconduct \(harassment, discrimination\), bribery and corruption, and other concerns without revealing their identity or location.
 
@@ -1715,9 +1949,9 @@ Throughout the investigation process:
     -   All interactions maintain reporter anonymity at every step; no identity or location data is ever captured or linked
 This enhancement enables organizations to build trust, mitigate risks before escalation, and ensures regulatory compliance with whistleblower protection requirements.
 
--   **[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-summarization-skill.md)AI-driven compliance case summarization**
+-   **GRC case summarization skill for compliance cases**
 
-After upgrading Now Assist for Integrated Risk Management \(IRM\) application to version 22.x, Compliance analysts can use the case summarization feature to quickly understand a compliance case without manually reviewing every field, attachment, or related list. Now Assist analyzes key case attributes—such as timelines, impacted areas, evidence, and actions—and generates a structured summary directly inside the compliance case.
+After upgrading Now Assist for Integrated Risk Management \(IRM\) application to version 22.x, Compliance analysts can use the case summarization feature to quickly understand a compliance case without manually reviewing every field, attachment, or related list.Now Assist analyzes key case attributes—such as timelines, impacted areas, evidence, and actions—and generates a structured summary directly inside the compliance case.
 
 This solves a common problem: case data is often lengthy, scattered across multiple related lists, and difficult for analysts to digest efficiently. Analysts can also save and edit summaries as case data evolves, ensuring the record stays current.
 
@@ -1884,41 +2118,41 @@ Continuous Authorization and Monitoring
 
 After upgrading to version 22.3.3, Continuous Authorization and Monitoring supports import and export of OSCAL data for Assessment Results \(AR\) format.
 
--   **[Skip attestations configuration for controls within a package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/categorize.md)**
+-   **Skip attestations configuration for controls within a package**
 
 After upgrading to version 22.3.3, skip the attestation stage at the package level and move controls directly from Draft to Review without completing the attestation workflow.
 
--   **[Control tailoring request enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-control-tailoring.md)**
+-   **Control tailoring request enhancements**
 
 After upgrading to version 22.3.3, control tailoring requests support changes to overlay controls. You can add new overlay controls or modify existing ones within a control tailoring request.
 
--   **[OSCAL export and import enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **OSCAL export and import enhancements**
 
 After upgrading to version 22.0.2, OSCAL import and export support additional details for various records, including status, frequency, weighting, implementation statement, control tailoring requests, overlays, and activities.
 
--   **[Support for exporting and importing the OSCAL Assessment Plan \(AP\) model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **Support for exporting and importing the OSCAL Assessment Plan \(AP\) model**
 
 After upgrading to version 22.0.2, Continuous Authorization and Monitoring supports import and export of OSCAL data for Assessment Plan \(AP\) format.
 
--   **[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-control-tailoring.md)**
+-   ****
 
 After upgrading to version 22.0.2, make incremental changes to control sets while preserving the state of unchanged controls without having to reset the entire package life cycle. Supported modifications include adding new controls, marking controls as not applicable, changing control allocation \(baseline to inherited or hybrid\), and modifying inheritance configurations.
 
--   **[Inherit from multiple providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/inherit-from-multiple-providers.md)**
+-   ****
 
 After upgrading to version 22.0.2, Controls can inherit individual control requirements from multiple Common Control Providers \(CCPs\) across different authorization packages. Previously, inheritance was limited to a single provider per control, which required creating duplicate inherited controls when requirements came from different sources.
 
--   **[Control grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-controls-in-grid-view.md)**
+-   **Control grid view**
 
 After upgrading to version 22.0.2, edit implementation statements and attestation respondents directly in a hierarchical data grid through the Controls tab in an authorization package.
 
--   **[Control tests grid view in Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-control-tests-in-grid-view.md)**
+-   **Control tests grid view in Engagements**
 
 After upgrading to version 22.0.2, toggle between traditional related list and hierarchical data grid on the Control tests tab. Changes to assessment procedure effectiveness automatically cascade to parent control test effectiveness.
 
 Package detail forms now use a structured vertical layout instead of the previous horizontal tab arrangement.
 
--   **[CAM workflow configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/cam-workflow-configurator.md)**
+-   **CAM workflow configuration enhancements**
 
 After upgrading to version 22.0.2, configure control button visibility, UI page access, and related list actions across different workflow steps. Previously, related list actions \(such as add or remove buttons for information types or baseline control actions\) required manual scripting to support custom workflows.
 
@@ -1939,21 +2173,7 @@ Contract Management Pro
 
 </td><td>
 
--   **[Support for offline signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-signature-workflow.md#section_offline_workflow)**
-
-Record contracts that are signed outside Contract Management Pro, without sending signature request emails to the signatories.
-
-Contract fulfillers and contract users can select **Offline signature** as the signature type on a contract request. The **Initiate offline signature** action moves the contract request to the Awaiting signature state without triggering any signature request notifications. After the signatories sign the contract outside the system, upload the signed document to complete the workflow and create the contract repository record.
-
--   **[Add signatory initials placeholders to contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-addin-add-signatory.md)**
-
-Add initials placeholders to a contract template to mark the locations where signatories provide their initials. In the Microsoft Word add-in, select the **Signatory initials** tag while configuring participants or signature blocks. The initials tag is supported for Adobe Sign and Docusign.
-
-
--   **[Better visibility of undelivered signature requests for a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-cr-state-status.md)**
-
-When an electronic signature request is not delivered, the contract state is updated to Signature delivery failed and the signatory status to Delivery failed, clearly indicating the state of signature request. Contract fulfillers are also notified through in‑product and email alerts. This capability is supported for both Docusign and Adobe Sign.
-
+ 
 
 </td></tr><tr><td>
 
@@ -1975,19 +2195,19 @@ Provide your employees with the AI-native requester experience in CBS.
 
 -   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)[Employee Slate for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-cbs.md)**
 
-Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface for raising issues, asking for information, and submitting business unit-specific service requests. The default employee support portal for CBS brings all of these functionalities together with Employee Slate.
+Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface on Employee Slate. Raise issues, ask for information, or submit business unit-specific service requests conversationally. Employee Slate is the default employee support portal for CBS.
 
 -   **[Core Business Suite setup on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-product-hub-overview.md)**
 
-Install your Core Business Suite application directly from Product Hub, depending on your subscription tier.
+Install your CBS application directly from Product Hub, depending on your subscription tier.
 
 -   **[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)**
 
-Automate assignment of the CBS requester role to enable admins reduce repetitive, manual work.
+Automate assignment of the CBS requester role to enable admins reduce repetitive, manual work of assigning the role to each new employee.
 
 -   **[View Core Business Suite Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/view-cbs-analytics.md)**
 
-Access all Core Business Suite \(CBS\) analytics in one place to monitor and review request activity across departments in detail and in AI-enabled summaries.
+Access all CBS customer insights in one place to monitor and review request activity across departments, both detailed and in AI-enabled summaries on the Core Business Suite Analytics Dashboard.
 
 
 </td></tr><tr><td>
@@ -2063,6 +2283,13 @@ Customer Success Management
 
 </td><td>
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md)**
+
+Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records, giving customer success managers immediate insight into customer objectives and success criteria.
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   **[Adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-adaptive-desktop-actions.md)**
@@ -2078,8 +2305,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
@@ -2202,6 +2429,26 @@ Automatically collect and synchronize metadata from external data platforms usin
 Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
 
 
+-   ****
+
+Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   ****
+
+Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **Data quality for data assets**
+
+Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **Classifier field for columns**
+
+View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **Email notifications for owner and steward assignments for data assets**
+
+When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
+
 -   **[Clone metadata collector connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
 
 Clone an existing metadata collector connection to create data source connection faster. When you clone a connection, the system copies the connection type, collection settings, filters, and advanced parameters to a new connection record with an auto-generated name. Sensitive information is not carried over. Update credentials and any other environment-specific details before activating the new connection.
@@ -2299,6 +2546,18 @@ Create and track service cases for themselves, and for sold products and install
 -   **[Hierarchy-scoped access for business organization members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)**
 
 Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+
+-   **[Create Return Merchandise Authorization case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-return-merchandise-authorization-case-lines.md)**
+
+Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+
+-   **[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)**
+
+Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+
+-   **[How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md)**
+
+Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
 
 
 </td></tr><tr><td>
@@ -2433,8 +2692,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -2443,20 +2702,50 @@ Dispute Rules Content Pack for Mastercard
 
 </td><td>
 
--   **[New data fields for Mastercard chargeback eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+-   **[May Store Release: New data fields for Mastercard chargeback eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
 New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
 
--   **[New eligibility questionnaire questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+New fields on the Financial Transaction Authorization table:
 
-New Mastercard-specific questions have been added to the chargeback eligibility questionnaire.
+    -   `adviceReasonCode`
+    -   `banknetDate`
+    -   `merchantAdviceCode`
+    -   `originalMessageTypeIdentifier`
+    -   `pinServiceCode`
+    -   `retrievalReferenceNumber`
+    -   `stan`
+    -   `transactionAmountLocal`
 
-For Authorization disputes \(all RC 4808 sub-categories\): A new mandatory certification statement appears in the dispute information section. It displays after the dispute amount modification reason field. Dispute agents must confirm that authorization was required for the transaction but was not properly obtained before an Authorization chargeback can proceed.
+**Note:** This field already exists in the Financial Transaction table and is being extended to the Financial Transaction Authorization table in this release.
 
-For Consumer Dispute RC 4853 Failed Travel Merchant: Two new questions support the bond or insurance scheme reimbursement requirement:
+    -   `transactionAmountUsd`
+    -   `transmissionDateAndTime`
+New fields on the Financial Transaction table:
 
-    -   When a bond or insurance scheme exists, agents are asked what response was received from the bonding authority or insurance scheme when reimbursement was requested.
-    -   When no response has been received, agents are asked to provide the date on which the reimbursement request was submitted.
+    -   `businessServiceIdCode`
+    -   `cardDataInputCapability`
+    -   `cardholderAuthenticationCapability`
+    -   `servicecode`
+-   **[July Store Release: New data field for Mastercard chargeback ineligibility rule assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+
+A new Mastercard data field `programRegistrationId` has been added to the Financial Transaction table to support chargeback ineligibility rule evaluation for RC 4853 Cardholder Disputes sub-categories. The field is sourced from the Mastercard clearing API.
+
+This field identifies the program registration associated with a clearing transaction. The field displays both the program code and its description. Supported values include codes for person-to-person transfers, business disbursements, government and non-profit disbursements, merchant-presented QR transactions, and other Mastercard Send program types.
+
+-   **[July Store Release: New input variables for Mastercard chargeback ineligibility rule assessment decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+
+New input variables have been added to support updated chargeback ineligibility rule evaluation for RC 4808 Authorization sub-categories. The following computed values are used as decision inputs across the Required Authorization Not Obtained, Expired Chargeback Protection Period, Stand-in or X-Code Approval after Issuer Decline, CAT 3 Devices, and Transit First Ride Risk Framework Claims decision tables:
+
+    -   `transit_clearing_amount_sum` — the sum of local transaction amounts for matching transit clearing transactions, used to evaluate UK domestic contactless transit split-clearing ineligibility conditions.
+    -   `cpd_minus_declined_transit_auth_date_time` — the number of days between a declined transit authorization and the chargeback protection date \(CPD\), used to assess TFRR/FRIL eligibility windows.
+    -   `financial_local_txn_amt_minus_auth_local_txn_amt` — the difference between the financial and authorization local transaction amounts, used for RANO authorization amount difference conditions.
+-   **[July Store Release: New Mastercard dispute sub-categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+
+The following new Mastercard dispute sub-categories are available:
+
+    -   Installment Billing Dispute-Participating Countries \(RC 4850\)
+    -   Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(RC 4854\)
 
 </td></tr><tr><td>
 
@@ -2515,27 +2804,27 @@ Employee Center
 
 </td><td>
 
--   **[Simplified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/simple-portal-navigation-ec.md)**
+-   ****
 
 Simplify how employees move through Employee Center by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
 
--   **[Manage approvals with Now Assist Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-approvals-with-approvals-agent.md)**
+-   ****
 
 Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
 
--   **[Configure widget heading levels for accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-heading-widget-instance.md)**
+-   ****
 
 Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
 
--   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-requests-update-intro.md)**
+-   ****
 
 Improve the Enhanced Requests Experience functionality by enabling specific tabs created for specific filters. Help employees find relevant requests faster while giving admins, experience owners, and service owners greater control over curating page design for specific purposes.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   ****
 
 Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   ****
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
@@ -2546,15 +2835,15 @@ Employee Center Pro
 
 </td><td>
 
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ex-fdback-ovrvw.md)**
+-   ****
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   ****
 
 Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
--   **[Quick start tests for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center-pro.md)**
+-   ****
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 
@@ -2565,63 +2854,63 @@ Employee Slate
 
 </td><td>
 
--   **[Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-conversation-first.md)**
+-   ****
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[Employee Slate home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-home-page.md)**
+-   ****
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **[Interactive split view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Interactive split view**
 
 Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
--   **[Personalized canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-personalized-canvas.md)**
+-   ****
 
 Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
 
--   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-inbox.md)**
+-   ****
 
 Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-orgchart.md)**
+-   ****
 
 Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
--   **[Employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-employee-comms.md)**
+-   ****
 
 Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **[Visual content authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Visual content authoring**
 
 Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-notifications.md)**
+-   ****
 
 Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
--   **[Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-config-admin-console.md)**
+-   ****
 
 Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
 
--   **[AI-powered widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-ai-widget-builder.md)**
+-   **AI-powered widget builder**
 
 Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
 
--   **[Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-analytics-reporting.md)**
+-   ****
 
 Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
 
--   **[Search and chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-conversational-catalog.md)**
+-   **Search and chat**
 
 Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **[Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md)**
+-   ****
 
 Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
--   **[Calendar and schedule management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-calendar-schedule.md)**
+-   ****
 
 Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 
@@ -2631,8 +2920,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -2666,6 +2955,13 @@ Enterprise Architecture
 
 </td><td>
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **Now Assist for Enterprise Architecture \(EA\) enhancements**
+
+Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
@@ -2694,7 +2990,7 @@ For information, see [Shape connector properties in Enterprise Modeling and Visu
     -   Replace an existing shape or entity in a modeling diagram with a different shape type. Existing connections and relationship lines associated with the shape are preserved after the replacement. For information, see [Replace a shape in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-replace-shape.md).
     -   Upload an image of an existing process diagram to generate a new, editable business process map \(BPM\) diagram in Enterprise Modeling and Visualization, using the ServiceNow AI Lens Now Assist skill. AI Lens identifies shapes, pools, lanes, gateways, and connections from the image, maps recognized shapes to existing records where matching records exist, and stages new records for shapes with no match.
 
-The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review and accept a Now Assist-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review a AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 
 -   **[Sync TRM product names with software product names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**
 
@@ -2755,8 +3051,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
@@ -2857,11 +3153,11 @@ Enterprise Asset Management
 
 </td><td>
 
--   **[Automate enterprise asset sourcing by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)**
+-   **Automate enterprise asset sourcing by using an agentic workflow**
 
 Use the help manage enterprise asset requests agentic workflow to automate the process of sourcing assets for your enterprise asset requests. The workflow uses AI agents to fulfill these requests by allocating assets from local stockrooms, creating transfer orders to move assets between stockrooms, or generating purchase orders for the requested assets.
 
--   **[Automatically generate instructions for enterprise asset repairs by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)**
+-   **Automatically generate instructions for enterprise asset repairs by using an agentic workflow**
 
 Use the help repair enterprise assets agentic workflow, which is driven by AI agents, to automatically generate step-by-step troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs in real time.
 
@@ -2871,11 +3167,11 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/manage-work-order-plans.md)**
+-   **Define, schedule, and track complex asset-centric work tasks through work order plans**
 
 Manage complex asset-centric work tasks with unified work order plans that can be applied across assets, asset groups, or locations. The work order plans offer the following benefits:
 
@@ -2883,7 +3179,7 @@ Manage complex asset-centric work tasks with unified work order plans that can b
     -   Organize sequential operations—shutdowns, safety inspections, calibrations, asset conditions, and restarts—using the structured playbook.
     -   Assign, schedule, and track work order tasks for technicians within the playbook.
     -   Enable technicians to receive assigned work order tasks and update task status through the ServiceNow Mobile Agent application.
--   **[Manage multimedia production equipment models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-model-eam.md)**
+-   **Manage multimedia production equipment models and assets**
 
 Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace. Get a comprehensive view of these models and assets so that you can manage them effectively throughout their life cycles.
 
@@ -2891,7 +3187,7 @@ Create, track, and manage multimedia production equipment models and assets in t
 
 Manage admin access precisely with granular admin roles. Instead of giving full admin privileges to the users, you can assign specific roles based on the tasks they perform.
 
--   **[Enhanced and unified enterprise asset inventory auditing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/audit-eam-assetinventory.md)**
+-   **Enhanced and unified enterprise asset inventory auditing experience**
 
 Streamline and improve your inventory auditing experience with the enhanced and unified enterprise asset inventory process:
 
@@ -2900,6 +3196,10 @@ Streamline and improve your inventory auditing experience with the enhanced and 
     -   The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.
     -   When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.
     -   Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.
+-   **Stockroom audit support for Field Service Management **
+
+Audit personal stockroom assets as an FSM field agent using the ServiceNow Agent mobile application. Access is controlled through new granular audit roles.
+
 
 </td></tr><tr><td>
 
@@ -2934,6 +3234,11 @@ Increase binding accuracy and reliability and improve alert-to-CI binding with e
 External Content Connectors
 
 </td><td>
+
+-   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/filter-content-label-google-drive-external-content-connector.md)**
+
+Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
 
 -   **[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sap-successfactors-external-content-connector.md)**
 
@@ -3054,8 +3359,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Use Now Assist for FSM to manage shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-shift-manage.dita.md)**
 
@@ -3092,11 +3397,11 @@ Flows, Subflows, and Actions
 
 </td><td>
 
--   **[Business calendar as a scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-trigger-business-calendar.md)**
+-   **Business calendar as a scheduled trigger**
 
 Use the business calendar to trigger flows on existing business schedules. The business calendar trigger helps align automation with shifts, holidays, and operating hours.
 
--   **[Flow history compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-history-compare-view.md)**
+-   ****
 
 Compare two flow history entries in a side-by-side view. Use the step highlighting and change type icons to determine what flow components have been added, removed, and changed.
 
@@ -3104,15 +3409,15 @@ Compare two flow history entries in a side-by-side view. Use the step highlighti
 
 Analyze flow execution details to identify errors and suggest potential fixes.
 
--   **[Test conversational action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-conversational-action.md)**
+-   ****
 
 Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
--   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-conversational-subflow.md)**
+-   ****
 
 Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
--   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/use-an-ai-agent-action.md)**
+-   ****
 
 Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 
@@ -3139,8 +3444,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -3153,6 +3458,9 @@ Goal Framework for SPM
 
 Define targets across multiple organizational levels with the **Assigned entity type** and **Assigned entity** fields in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
 
+-   **Status rollup for goals and targets**
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from target breakdowns to the target for targets set to cumulative distribution.
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from targets and subgoals to the goal.
 
 </td></tr><tr><td>
 
@@ -3166,19 +3474,19 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Manage your assets with comprehensive and real-time data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)**
+-   **Manage your assets with comprehensive and real-time data**
 
 View consolidated asset information through AI-generated analysis summary on the asset record. The AI-generated summary dynamically updates based on the asset state and includes context from any active incidents or tasks. The summary displays the asset life cycle, current assignment and location, audit status, financial metrics, and identifies missing data to support asset management activities.
 
 
--   **[Gain visibility into approximated life cycle dates for hardware and consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/approximated-lifecycles-hardware-products.md)**
+-   **Gain visibility into approximated life cycle dates for hardware and consumable model**
 
 Enhance the operational efficiency by gaining visibility into the estimated and approximate life- cycle dates for models when manufacturers haven’t explicitly published key dates, such as End of Life \(EoL\) and End of Service \(EoS\). This insight enables you to manage your asset portfolio strategically, reducing unexpected downtime and improve budgeting.
 
--   **[Enhanced and unified hardware asset inventory auditing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-inventory-audit.md)**
+-   **Enhanced and unified hardware asset inventory auditing experience**
 
 Streamline and improve your inventory auditing experience with the enhanced and unified hardware asset inventory process:
 
@@ -3187,17 +3495,21 @@ Streamline and improve your inventory auditing experience with the enhanced and 
     -   The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.
     -   When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.
     -   Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.
--   **[Enhanced asset disposal workflow to streamline the management of retired assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-resale-order.md)**
+-   **Enhanced asset disposal workflow to streamline the management of retired assets**
 
 Resell the retired assets that are no longer in use to reduce waste and receive credit. The extended asset disposal flow in the Documentation stage enables you to resell planned assets instead of disposing of them, enabling you to receive credit.
 
--   **[Enable your key functional roles or personas to directly manage Advanced Shipment Notification \(ASN\) imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/advanced-shipment-notification.md)**
+-   **Enable your key functional roles or personas to directly manage Advanced Shipment Notification \(ASN\) imports**
 
 Upload ASN files and trigger the import process from the Procurement view within the Hardware Asset Workspace without requiring admin privileges. Users with the ham\_admin, ham\_user, procurement\_admin, or asset role can now initiate the ASN workflow themselves, creating asset records seamlessly.
 
--   **[Streamline model creation by copying a model directly from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/copy-hardware-model.md)**
+-   **Streamline model creation by copying a model directly from the Content lookup portal**
 
 Reduce manual effort by copying a model from the Content lookup portal to create a record in the Product Model \[cmdb\_model\] table. The copied model is automatically normalized, where applicable, and relevant fields are pre-populated with information from the content record.
+
+-   **Gain visibility into the hardware asset life cycle with improved CMDB data quality**
+
+Improve the accuracy and completeness of hardware CI data by identifying and prioritizing remediation for missing, duplicate, and inconsistent hardware CIs using CMDB success advisor for HAM.
 
 
 </td></tr><tr><td>
@@ -3223,8 +3535,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -3249,9 +3561,13 @@ Restrict access to Hermes by enabling IP address access control rules.
 
 Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
--   **Hermes Settings page**
+-   **[Hermes Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c-hermes-settings.md)**
 
 Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
+
+-   **Encryption at rest for Hermes topics**
+
+Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 
 
 </td></tr><tr><td>
@@ -3276,6 +3592,7 @@ Starting in version 3.0, simplify employee experience by leveraging the conversa
     -   A canvas that can be customized for quick reference of employee tasks.
     -   Chat history of active and closed conversations.
     -   Notifications for employee tasks.
+    -   Starting in version 3.1, Employee Slate as primary engagement experience for incident and request notifications.
 -   **[Simplified fulfiller experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)**
 
 Provide an efficient IT support experience for incident and request management by leveraging AI recommendations for the following:
@@ -3301,6 +3618,7 @@ Set up multiple ITSM workflows \(incident management and request management\) by
             -   Configuration items
             -   Core setup areas required to make Change Management operational. See [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md).
         -   Starting in version 3.0, redirection to Service Operations Workspace Admin Center is available to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
+        -   Starting in version 3.1, a guided experience is available for Gmail inbound email configuration.
     -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
@@ -3354,6 +3672,9 @@ Impact
 
 -   **[Now Assist for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-health-agent.md)**
 
+Version 9.00
+
+    -   Directly deactivate base system definitions without requiring an override record or approval.
 Version 8.0.0
 
     -   Access summarized findings in one line grouped by findings level. Use the statistical and sys property scan types to view scan results in a statistical section.
@@ -3376,7 +3697,7 @@ Version 7.0.0
     -   Accelerate your Impact Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub by using technical accelerators.
     -   Improve your change readiness by using the OCM: Preparing for change and adopt AI governance impact strategy accelerators.
     -   Assess your CSDM maturity, improve CSDM Data modeling, and accelerate your portal’s user experience with the help of usage insights and virtual agent experience design provided by the architecture accelerators.
--   **[On-demand accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/on-demand-accelerators.md)**
+-   **[Self-serve Accelerator fulfillment process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/on-demand-accelerators.md)**
     -   Provide Self-service capabilities with improved session persistence, an entitlement-aware catalog, and a downloadable 90-day action plan.
     -   Access engagement-type filtering, progress tracking, questionnaire persistence, and self-serve directly within the catalog.
 -   **[Impact Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-conversations_store.md)**
@@ -3387,7 +3708,7 @@ Collaborate with your Impact squad through organized, category-based conversatio
 
 Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
 
--   **[Configure IO alert notifications for a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-receive-notification-customer-conf-webhook.md)**
+-   **[Configure alert notifications for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-receive-notification-customer-conf-webhook.md)**
 
 Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
 
@@ -3398,7 +3719,7 @@ Receive timely notifications on failures in customer-configured webhook integrat
 
 Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
 
--   **[Manage Capabilities Maps for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capability-maps.md)**
+-   **[Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capability-maps.md)**
 
 Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
 
@@ -3451,8 +3772,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw-mobile.md)**
 
@@ -3713,11 +4034,11 @@ Interview management
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
--   **[Substitute yourself as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/substitute-interviewer-self.md)**
+-   ****
 
 Substitute yourself in interviews when you cannot attend it, to eliminate the time and effort of offline coordination. Initiate the substitution directly from the calendar invite or the application record page in Employee Center.
 
--   **[Tracking interview health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/tracking-interview-health.md)**
+-   ****
 
 Proactively monitor interview health, identify issues, and prioritize resolutions. A configurable, extensible framework is used to define scenarios that help identify items that needs recruiters' attention on an interview record.
 
@@ -3801,13 +4122,13 @@ Legal Conflict of Interest
 
 </td><td>
 
--   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-coi-config-risk-fac.md)**
+-   ****
 
 The risk assessment utility evaluates conflict of interest disclosures against predefined risk factors to calculate a risk score and determine the risk level \(Low, Medium, or High\). The risk level automatically triggers the appropriate approval workflow. The utility supports three evaluation types: Condition, Subflow, and AI skill.
 
 **Note:** AI skill evaluation is available once you have installed and configured Now Assist for Legal Service Delivery \(LSD\).
 
--   **[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
 Using natural language to submit a conflict of interest request from Now Assist in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 
@@ -3820,7 +4141,7 @@ Legal Matter Management
 
 </td><td>
 
--   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-acp-landing.md)**
+-   ****
 
 Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
@@ -3831,7 +4152,7 @@ Legal Request Management
 
 </td><td>
 
--   **[Attorney Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lmm-acp-landing.md)**
+-   ****
 
 Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
@@ -3884,7 +4205,7 @@ Manufacturing Commercial Operations
 
 </td><td>
 
--   **[Manufacturing Commercial Operations landing page \(Agents or CSM/FSM configurable workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-landing-page.md)**
+-   **[Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-landing-page.md)**
 
 The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
 
@@ -3906,8 +4227,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -3937,7 +4258,7 @@ Enable multiple users to securely log into a ServiceNow single account from shar
 
 -   **[Configurable timing for PIN application timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/pin-timeout.md)**
 
-Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users are can remain inactive before being required to reenter their PIN.
+Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users can remain inactive before being required to reenter their PIN.
 
 -   **[Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type.md)**
 
@@ -4035,68 +4356,7 @@ Now Assist
 
 </td><td>
 
--   **[Create knowledge articles using Now Assist and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)**
-
-The Knowledge Center now integrates with Box. This integration enables authors to use stored files as a source for generating knowledge articles with Now Assist.
-
-
--   **[Now Assist Guardian enabled by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**
-
-Detect and log prompt injection attempts across all generative AI applications and features, and offensive content in supported Now Assist skills, by default. You can configure Now Assist Guardian to block AI-generated responses when an attempt is detected.
-
--   **[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)**
-
-Explore additional user interface tabs of a Now Assist skill within a selected workflow. Access the usage and analytics of that skill. You can also view and manage the security and governance details of the selected skills.
-
--   **[Create knowledge articles using Now Assist and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)**
-
-Knowledge Center integrates with **Box**, enabling authors to use stored files as a source for generating knowledge articles with Now Assist.
-
--   **[Article Optimization with Reading Ease scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-reading-ease-scan.md)**
-
-The AI-based **Reading Ease** scan, integrated into the article optimization feature of Knowledge Center, scans articles for readability, provides actionable recommendations, and supports ongoing article improvement.
-
--   **[Configure prompt injection detection for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md)**
-
-Set the prompt injection detection action and severity level for Now Assist skills. Prompt injection detection is enabled by default for all Now Assist skills, except Platform skills and custom skills. When a skill has its own setting, Now Assist Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
-
--   **[Visual Q&amp;A in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-qa-genius-result.md)**
-
-Upload screenshots, error images, or documents in the Now Assist panel and get AI-generated answers about content without leaving your current context.
-
--   **[Catalog experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md)**
-
-Navigate away from a catalog form mid-completion and a modal appears asking whether you want to stay or leave, preventing accidental loss of your work. After you submit a catalog item, you can select View Details to open the submitted record.
-
--   **[Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md)**
-
-Switch between multiple interactive views — such as knowledge articles, catalogs, and org charts — within a single conversation using a new dropdown in the Now Assist panel. When more than six promoted topics are available, you can select a category on the topic menu to see all of them at once.
-
--   **[Image and document upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md)**
-
-Upload images and screenshots directly into the Now Assist panel as part of your conversation and the Now Assist interprets the visual content to answer your questions or generate summaries.
-
--   **[Maintain and display the right context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md)**
-
-Open the Now Assist panel while working on an incident record and you automatically see the most recent conversation tied to that incident. You can continue chatting about the incident or switch to unrelated topics in the same session, keeping your work in context without losing your place.
-
-
--   **[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)**
-
-Explore the archive option from navigation pane within Now Assist Admin and archive custom and copies of Now Assist skills.
-
-
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
-
-The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
-
-    -   Foundation: AI agents and skills to deliver insights
-    -   Advanced: AI agents and skills to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI agents and skills, and create your own
--   **[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/merge-duplicate-articles.md)**
-
-Use Now Assist in Knowledge Management to merge selected duplicate knowledge articles into a single consolidated article, preserving references to the original sources and maintaining a high‑quality, well‑organized knowledge base.
-
+ 
 
 </td></tr><tr><td>
 
@@ -4154,7 +4414,7 @@ Now Assist Center
 
 Use Now Assist Readiness Evaluation to assess your instance readiness for AI adoption, identify areas to prepare for AI, and access direct links to improve those areas.
 
--   **[Activate Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-activate-now-assist-skill.md)**
+-   **Activate Now Assist skills**
 
 Use the conversational experience in the Now Assist panel to activate and set up base system skills.
 
@@ -4217,9 +4477,14 @@ Now Assist for App Engine
 
 </td><td>
 
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **Create AI assets conversationally with Build Agent**
 
-If you have a Now Assist for Creator subscription, you can leverage the power of Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
+If you have a Now Assist for Creator subscription, you can use Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -4227,8 +4492,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -4252,15 +4517,21 @@ Now Assist for Configuration Management Database \(CMDB\)
 
 </td><td>
 
+-   ****
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+
+-   **[Summarize CMDB readiness with the Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md)**
+
+View an AI-generated summary of the CMDB success advisor for Hardware Asset Management \(HAM\) dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and suggests remediation actions to address the findings.
 
 -   **[View CI attribute descriptions on CI forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-ci-form-help.md)**
 
@@ -4281,6 +4552,11 @@ Now Assist for Creator
 
 </td><td>
 
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[Upload brand guidelines to generate theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
 Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
@@ -4300,8 +4576,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   ****
@@ -4312,9 +4588,9 @@ Use Build Agent in ServiceNow Studio to create and edit full-stack applications 
 
 Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **New vibe coding documentation**
+-   **New agentic development documentation**
 
-Read new documentation that introduces vibe coding, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
+Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 </td></tr><tr><td>
@@ -4323,11 +4599,11 @@ Now Assist for Employee Center Pro
 
 </td><td>
 
--   **[Manage approvals with Now Assist Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-approvals-with-approvals-agent.md)**
+-   ****
 
 Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   ****
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
@@ -4344,8 +4620,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **AI agent: Parts Manager**
 
@@ -4359,9 +4635,9 @@ Create work orders by uploading photos of equipment issues. The AI agent extract
 
 Use voice input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app. Tap the microphone icon to dictate messages instead of typing.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **[New third-party AI model provider options available for all AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 </td></tr><tr><td>
@@ -4413,8 +4689,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -4422,6 +4698,19 @@ Depending on your entitlements, you will have access to certain application feat
 Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
+
+-   **[In-form deflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-deflection-overview.md)**
+
+In-form deflection enables end users to find resolutions without creating an incident. When a user describes an issue in the **Short description** field, Now Assist for IT Service Management \(ITSM\) searches the knowledge base and returns relevant solutions tailored to that specific user's context.
+
+-   **[Generate change risk assessment answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/generate-change-risk-assessment-answers-now-assist.md)**
+
+Generate answers and reasoning for each supported question in a change risk assessment, directly from a change request in Core UI or Service Operations Workspace \(SOW\). This Now Assist skill is turned on by default. When you select Generate Answers, Now Assist reviews the change request, related records, and knowledge articles, and then suggests an answer and a reasoning for each supported question. The Reasoning field explains why Now Assist selected each answer, so you can review and adjust the answers before you submit, or complete the assessment manually. The skill supports Likert-scale questions only. In SOW, this skill is available in version 9.2 or later.
+
+-   **[ITSM Virtual Agent topics analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-conversational-dashboard-topics.md)**
+
+Analyze topic-specific performance and user interaction patterns using the enhanced Topics analytics in the ITSM Virtual Agent dashboard. View detailed per-topic drill-downs showing key performance indicators. Track topic trends and failure rates with sortable columns, and identify areas for improvement.
+
 
 -   **[Insights and Opportunities for Incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/insights-opportunities-incident-dashboard.md)**
 
@@ -4443,8 +4732,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[ITSM Virtual Agent resources analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-conversational-dashboard-resources.md)**
 
@@ -4515,7 +4804,7 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
--   **[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
 Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
@@ -4560,8 +4849,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-order-fallout-somt.md)**
 
@@ -4710,13 +4999,13 @@ Now Assist in Contract Management
 
 </td><td>
 
--   **[Feedback for Now Assist contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Feedback for Now Assist contract analysis**
 
 Provide feedback on AI-identified non-standard and missing clauses to help improve AI accuracy over time. When reviewing contracts using Now Assist contract analysis, you can indicate whether the AI suggestions were helpful or not helpful by using the thumbs up or thumbs down feedback options. You can also provide optional qualitative feedback with comments. The feedback option is available in both the workspace and Microsoft Word add-in.
 
 The feedback provided on each clause is captured in the **Contracts Gen AI Feedback** table.
 
--   **[Automatically navigate to non-standard clauses in Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Automatically navigate to non-standard clauses in Microsoft Word add-in**
 
 Locate non-standard clauses easily in Microsoft Word. The document scrolls to the relevant section using AI citations when you select a Now Assist suggestion in the Microsoft Word add-in.
 
@@ -4733,8 +5022,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Document and visual insights AI agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md)**
@@ -4763,46 +5052,46 @@ Operational Resilience
 
 </td><td>
 
--   **[Export action task reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/work-on-action-tasks.md)**
+-   **Export action task reports**
 
 Export DRIR assessment action task reports in Microsoft Word, Microsoft Excel, or JSON format from a drop-down menu. Generate Microsoft Word documents for narrative reports, Microsoft Excel spreadsheets with structured question-answer layouts, or JSON files for system integrations.
 
--   **[Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reporting-configurations.md)**
+-   ****
 
 Manage document outputs centrally with the Reporting Configurations module in Digital resilience incident reporting. Administrators can manage template configurations, content configurations, and data relationship configurations from one place.
 
--   **[Convert and aggregate contractual expenses to regulator-required currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md)**
+-   **Convert and aggregate contractual expenses to regulator-required currencies**
 
 Standardize annual expense values during Register of Information report generation by enabling optional currency conversion and third-party total expense aggregation. The application converts contract amounts to a base currency using 32 European Central Bank \(ECB\) exchange rates based on the reference date. Administrators upload monthly rates into the system. When eligibility criteria are met, expenses across multiple contracts are aggregated by third-party providers or engagements, generating consolidated reports that comply with DORA regulatory requirements.
 
--   **[Validate Legal Entity Identifiers using GLEIF API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md)**
+-   **Validate Legal Entity Identifiers using GLEIF API**
 
 Validate Legal Entity Identifiers \(LEIs\) in real time against the GLEIF API across all four record form types — Legal Entity, Branch, Third Party, and Third Party Engagement. Name and country fields are auto-populated or cross-checked on create and update, with warnings shown on mismatch.
 
 During Microsoft Excel upload, a batch verification consolidates and validates all LEIs against GLEIF before processing, flagging warnings while allowing administrators to save flagged rows for later correction. During CSV package download, a dedicated LEI validation report is generated.
 
--   **[GLEIF API performance using system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-dora.md)**
+-   **GLEIF API performance using system properties**
 
 Configure GLEIF API behavior using the following system properties:
 
     -   **sn\_dora\_accel.gleif\_api\_batch\_size** — Controls how many LEIs are sent per request.
     -   **sn\_dora\_accel.gleif\_api\_timeout\_ms** — Sets the HTTP timeout per API call.
     -   **sn\_dora\_accel.lei\_save\_on\_gleif\_error** — Controls whether rows that fail GLEIF validation during Microsoft Excel upload are saved with warnings or rejected.
--   **[Monetary values for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-dora.md)**
+-   **Monetary values for DORA reporting**
 
 Control monetary value precision in DORA reports using the **sn\_dora\_accel.decimals\_monetary** system property. Set it to 0 to round to whole units, or a negative value \(for example, -3\) to round to thousands, based on regulator requirements.
 
--   **Duplicate record detection and warnings in DORA reporting [Create Microsoft Excel download and upload request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-upload-download-request.md)**
+-   **Duplicate record detection and warnings in reporting**
 
 Detect and prevent duplicate DORA records across key workflows. A business rule blocks saving on the Contractual Arrangement form when a duplicate record is detected. Warnings are displayed when duplicate rows are found during CSV downloads.
 
--   **[Run advanced scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-playbook-experience.md)**
+-   **Run advanced scenario analysis using simulation**
 
 Plan and run advanced scenario analysis on a dedicated Scenario Analysis record, capturing simulation method, dependencies, and assignee. Progress through a guided Playbook with stages for dependency scoping, scenario testing, result review, impact assessment, and final completion.
 
 Execute statistical model profiles to evaluate severe-but-plausible scenarios across services and dependencies. The record is locked once the treatment decision and reason are recorded.
 
--   **[Template versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-sae-templates.md)**
+-   **Template versions**
 
 Track Smart Assessment Engine \(SAE\) template versions across assessment flows. New assessments automatically use the latest published Smart Assessment template version, while existing records on older versions continue to function without disruption. Assessment questions and automation logic handle different template versions correctly within the same flow.
 
@@ -4817,13 +5106,13 @@ Operational Sustainability Management \(formerly Environmental, Social, and Gove
 
 After upgrading GRC: Metrics to version 22.3.1, you can edit a calculated metric definition formula after it has been executed. When you save an edited formula, select a date from which the updated formula applies. Each saved edit creates a new formula version.
 
--   **[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/document-designer-template.md)**
+-   ****
 
 After upgrading Document Designer to version 22.3.2, the Microsoft 365 reporting and Document Designer add-ins are consolidated into a single Document Designer plugin. A Create Claim button is added to the manifest. The repeater limit per document increases from 2 to 5, and the repetition limit per repeater increases from 200 to 500.
 
--   **[AI reporting assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-reporting-assistant.md)**
+-   ****
 
-After upgrading AI for Document Designer to version 22.3.3, you can use the AI reporting assistant in Document designer to generate report content from ServiceNow data using prompts directly within Microsoft Word. The assistant inserts the output into your document as stories, tables, charts, or data points.
+With AI for Document Designer, you can use the AI reporting assistant to generate report content from ServiceNow data using prompts directly within Microsoft Word. The assistant inserts the output into your document as stories, tables, charts, or data points.
 
 -   **[Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md)**
 
@@ -4848,27 +5137,32 @@ Operational Technology Incident Management
 
 </td><td>
 
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
+-   **[Summarize an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
-Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
+With Now Assist for Operational Technology Service Management \(OTSM\), summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes for an Operational Technology incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
+-   **[Generate resolution notes for an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
 
-Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
+With Now Assist for OTSM, automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
+-   **[Generate a KB article using an agentic workflow included in Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
 
-Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
+With Now Assist for OTSM, automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
     -   Site
     -   OT Device
@@ -4888,6 +5182,11 @@ Operational Technology Manager
 
 </td><td>
 
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[Use Enhanced Access Control for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-enhanced-access-control.md)**
 
 Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
@@ -4899,8 +5198,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/utilizing-ot-network-map.md)**
@@ -4970,7 +5269,7 @@ Gain complete visibility into customer engagement by viewing a complete touchpoi
 
 -   **[Add competitors to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)**
 
-Identify and store competitor information for product offerings/product family within an opportunity.​
+Identify and store competitor information for product offerings and product family within an opportunity.​
 
 
 -   **Support for opportunity allocation**
@@ -4985,23 +5284,31 @@ Capture the deal type \(Direct or Indirect\) on customer entities to align oppor
 
 -   **[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)**
 
-Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity is available providing full visibility into customer engagement throughout the sales cycle.
+Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity provides full visibility into customer engagement throughout the sales cycle.
 
 
 -   **[Opportunity probability score and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)**
 
-Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI/ML-powered probability score \(0–100%\) with qualitative ratings, explainability, and trend visibility. The score is integrated into the opportunity workspace and landing page and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
+Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI-powered probability score \(0–100%\) with qualitative ratings. The score is integrated into the opportunity workspace and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
 
 
--   **[Manage opportunities in the Now Assist chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**
+-   **[Manage opportunities in the MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**
 
-Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items by typing a request in the Now Assist chat panel or from any MCP client, without navigating to individual record forms.
+Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items from any MCP client, without navigating to individual record forms.
 
 
 -   **[AI summarization for opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)**
 
 Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
 
+
+-   **Guided selling on opportunity**
+
+Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
+
+    -   Configure mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+    -   Guide sellers with stage-contextual playbook activities, progress indicators, and inline compact playbook views all without leaving the opportunity **Overview** tab.
+    -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
 
 </td></tr><tr><td>
 
@@ -5032,6 +5339,15 @@ Capture Deal Type \(Direct or Indirect\) and Route to Market on every order to e
 
 Create and track tasks at the order and top order line level, independent of order line items, across all stages of the order lifecycle from pre-decomposition through post-fulfillment to support operational tasks such as customer onboarding, compliance review, approval tracking, customer notifications, and post-activation follow-up.
 
+
+-   **Derived pricing on order line items**
+
+Improve pricing accuracy by letting the system automatically manage derived order lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing and copying on system-generated lines to preserve pricing integrity.
 
 </td></tr><tr><td>
 
@@ -5092,21 +5408,21 @@ Playbook
 
 </td><td>
 
--   **[Nested playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/nested-playbooks.md)**
+-   **Nested playbooks**
 
 Nest playbooks as a step within other playbooks to enable the following scenarios:
 
     -   Define sets of activities for reuse across multiple playbooks to help avoid duplication.
     -   Break up large playbooks for easy maintenance and fast load time in Playbook Designer.
--   **[Simplified end-user playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/wizard-layouts-playbooks.md)**
+-   **Simplified end-user playbook experience**
 
 Implement a wizard experience for guiding your end users through a sequence of steps to achieve an outcome, such as servicing a printer.
 
--   **[Automated Test Framework support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/testing-support-playbooks.md)**
+-   **Automated Test Framework support for playbooks**
 
 The Automated Test Framework can be used to create automated tests to confirm your playbooks run as planned.
 
--   **[Use AI agents as a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ai-agent-as-activity.md)**
+-   **Use AI agents as a playbook activity**
 
 Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
 
@@ -5117,12 +5433,12 @@ Policy and Compliance Management
 
 </td><td>
 
--   **[Personal authentication and document access permissions in policy authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/personal-auth-and-document-access-policy-authoring.md)**
+-   **Personal authentication and document access permissions in policy authoring**
 
 After upgrading Policy and Compliance Management to 22.3.2, you can enable personal authentication for policy authoring in Microsoft SharePoint and Google Drive. When enabled, policy authoring uses a hybrid authentication model. Create, connect, and upload operations run under the logged-in user's personal credentials, while document access permission grants and content sync always run under the shared service account. This approach supports audit traceability at the individual user level for document operations and keeps access management and sync consistent regardless of who initiates them.
 
 
--   **[Dashboard access from Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-dashboards-in-compliance-workspace.md)**
+-   **Dashboard access from Compliance Workspace**
 
 After upgrading to 22.3.2, you can access Policy and Compliance Management dashboards directly from the Compliance Workspace.
 
@@ -5135,17 +5451,17 @@ The following dashboards are available:
 These dashboards are also accessible from the Platform Analytics application.
 
 
--   **[Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/template-versioning.md)**
+-   **Assessment template versioning**
 
 After upgrading Policy and Compliance Management to 22.3.2, CRI tiering questionnaire, CRI profile assessment, and control assessment templates support versioning. Template managers can create and publish new versions of these templates over time. When a CRI tiering questionnaire, CRI profile assessment, or control assessment is initiated, the assessment is generated using the latest published version of the template.
 
 
--   **[Role-based workspace redirection for email notification links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-tasks-pol-comp-ws.md)**
+-   **Role-based workspace redirection for email notification links**
 
 After upgrading Policy and Compliance Management to 22.3.2, email notification links for Policy and Compliance Management records redirect users to their appropriate workspace based on their assigned roles. Users without a workspace role are redirected to the GRC Task Page, or to the classic UI if the common workspace is not installed. The following record types support workspace redirection: Controls, Evidence, Control risk indicators, Indicator task, Policy acknowledgments, and Policy exceptions.
 
 
--   **[Control objective workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/concept_cob_workflow.md)**
+-   ****
 
 After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. Enable this feature using the **Enable Control Objective Workflow** property under **Policy and Compliance** &gt; **All** &gt; **Properties** and is disabled by default.
 
@@ -5154,7 +5470,7 @@ After upgrading Policy and Compliance Management to 22.0.1, the new Control obje
     -   Editing a published control objective creates a working draft, keeping the published record active until approved changes are published.
     -   Users must select a revision type: Major or Minor. A Major revision moves associated controls back to Draft. A Minor revision applies updates without moving controls back to Draft.
     -   The Owner and Owning Group fields control who can edit the control objective and perform workflow actions.
--   **[Rationalizing control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Rationalizing control objectives**
 
 After upgrading Policy and Compliance Management to 22.0.1, both Unified Compliance Framework \(UCF\) control objectives and non-UCF control objectives can be rationalized together.
 
@@ -5172,6 +5488,8 @@ Portfolio Planning
 -   **[AI-generated insights for portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/view-portfolio-insights.md)**
 
 Gain AI-generated insights into planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
+
+The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
 
 Users with the sn\_align\_core.apw\_admin role assigned can configure severity thresholds and scoring factors for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
@@ -5214,15 +5532,20 @@ View the financial baselines in investment currency and project currency after m
 
 Using multicurrency, new and existing customers see only investment currency fields in demand and project records. Planned costs, actual costs, planned benefits, actual benefits, and budget fields are included in the financial baselines.
 
-    -   .
-        -           -   
-
 
 </td></tr><tr><td>
 
 Predictive AI for CSM
 
 </td><td>
+
+-   **[Real-time AI assistance for voice interactions using Live Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
+
+Live Agent Assist for Voice provides real-time AI assistance to agents during live voice interactions in Agent Workspace. As conversations unfold, it returns answers drawn from the live call transcript and customer context sources such as the Customer Context Builder, knowledge articles, and the Enterprise Knowledge Graph. Agents receive timely suggestions, which reduces handling time and improves first-contact resolution.
+
+-   **[Add a playbook as an action type in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
+
+As an Admin, you can configure playbooks as an action type in Recommended Actions, and the Recommended Actions rule engine recommends the right playbook based on context. Playbooks surface inline as cards in the Recommended Actions panel in Agent Workspace and walk Agents through branching decision trees for support, sales, and troubleshooting scenarios. Embedded actions such as creating a task or triggering a workflow can be executed from within the playbook in the Recommended Actions panel in Agent Workspace.
 
 -   **[Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md)**
 
@@ -5264,8 +5587,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Now Assist for CSM-AI workflow tab added in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-workflow-pattern-in-customer-service-management.md)**
 
@@ -5334,13 +5657,14 @@ Privacy Management
 
 </td><td>
 
--   ****
-    -   Starting from version 22.3.x of Personal Data Rights, privacy administrators can navigate to **External form configuration** to tailor the public-facing PDR form for their organization. They can map jurisdictions to data subject types and request types, and specify whether an authorized agent can submit a request on behalf of a data subject for each jurisdiction.
+-   **External-facing PDR form configuration**
+    -   Starting from version 22.3.x of Personal Data Rights \(PDR\), privacy administrators can navigate to **External form configuration** to tailor the public-facing PDR form for their organization. They can map jurisdictions to data subject types and request types, and specify whether an authorized agent can submit a request on behalf of a data subject for each jurisdiction.
     -   For each jurisdiction, administrators can add terms and conditions, disclaimers, and guidance text that requesters see when they submit a request from that jurisdiction.
     -   Administrators can also show or hide form fields based on the combination of jurisdiction, data subject type, and request type that a requester selects. The form collects only the information needed, therefore, requesters see only the fields that apply to their request.
--   ****
-    -   Starting from version 22.3.x of Privacy Management, privacy analysts can add any user, including users without privacy roles, as a key stakeholder on a processing activity. Such users are set to **No privilege to respond to assessments** by default, and therefore, can only view the record if they are granted the business user role.
-    -   Key stakeholders with the appropriate business user role can select **Request edit access** to ask the privacy analyst for editing rights to a processing activity.
+-   **Enable key stakeholders to edit processing activities**
+    -   Starting from version 22.3.x of Privacy Management, privacy analysts can add any user, including users without privacy roles, as a key stakeholder on a processing activity. Such users are set to **No privilege to respond to assessments** by default and therefore, can only view the record if they are granted the business user role.
+    -   Key stakeholders with the appropriate business user role can access and view the related lists of a processing activity directly from the Employee Center.
+    -   After they review the processing activity and find that it needs updating, they can select **Request edit access** to ask for editing rights to a processing activity.
 -   **New privacy content in Privacy Management Content**
     -   Starting from version 22.3.x of Privacy Management Content, privacy managers can extend their regulatory library with new ready-to-use authority documents, Digital Personal Data Protection Act 2023 \(DPDPA\), Virginia Consumer Data Protection Act, and Colorado Privacy Act. When activating an authority document, they can select which citations to add to the library, and then select from the AI-generated control objectives already mapped to those citations.
     -   Privacy Management Content also ships an updated version of privacy risk statement that carries forward the AI-generated risk statements from the previous version and adds new ones. Reinstalling the already existing risk statements after the update may overwrite certain changes made to them.
@@ -5349,11 +5673,11 @@ Privacy Management
 Starting from version 22.3.x of Privacy Management and Privacy Case Management, you can create a version of an existing privacy assessment template to revise the questionnaire, response options, or automations without disrupting assessments that are already in progress. New privacy assessments use the latest published version of the template.
 
 
--   **[GRC case summarization skill for privacy cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-case-summarization-skill.md)**
+-   ****
 
 Privacy analysts can now use the Now Assist case summarization feature to quickly understand a privacy case without manually reviewing every field or related list. Now Assist analyzes key case attributes, such as timelines, impacted areas, evidence, and actions, and generates a structured summary directly inside the privacy case. This feature solves a common problem: case data is often lengthy, scattered across multiple related lists, and difficult for analysts to digest efficiently. Analysts can also save and edit summaries as case data evolves, ensuring the record stays current.
 
--   **[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-privacy-case-anonymously.md)**
+-   ****
 
 Employees can now use the Anonymous Reporting Center to report privacy violations such as data breaches or exposure, unauthorized data use, privacy law violations \(GDPR, CCPA\), or other privacy-by-design lapses without revealing their identity or location.
 
@@ -5366,11 +5690,11 @@ Reports are routed to the appropriate compliance team based on the nature of the
     -   All interactions maintain reporter anonymity at every step; no identity or location data is ever captured or linked
 This enhancement enables organizations to build trust, mitigate risks before escalation, and ensures regulatory compliance with whistleblower protection requirements.
 
--   **[Hierarchy and lineage enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/hierarchy-tab.md)**
+-   **Hierarchy and lineage enhancements**
 
 The Hierarchy and lineage enhancements enables privacy teams to identify which systems, vendors, and applications belong to a specific processing activity by marking relationships as “part of a processing activity.” This ability differentiates scoped components from global or shared connections. Users can toggle between a processing‑activity‑scoped view and a full lineage view, helping them understand data flows in the appropriate context.
 
--   **[Privacy content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-content-accelerator.md)**
+-   ****
 
 The privacy regulatory content through Unified Content Management provides pre‑built authority documents, citations, control objectives, and risk statements aligned with major privacy frameworks, including GDPR, CCPA, LGPD, and the NIST Privacy Framework 1.0. These resources are available for download directly from the Privacy Workspace, enabling teams to readily access standardized regulatory content.
 
@@ -5432,6 +5756,10 @@ Quickly analyze process maps with multiple tables through multidimensional maps 
 Product Catalog Management and Pricing Management
 
 </td><td>
+
+-   ****
+
+Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
 
 -   **[Multilingual support for product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-multilingual-support.md)**
 
@@ -5500,8 +5828,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Associate AI systems with demands in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/associate-ai-systems-with-demands.md)**
@@ -5530,6 +5858,16 @@ Project Workspace
 
 </td><td>
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Now assist for SPM enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md)**
+
+Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+-   **[RIDAC enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-ridac-pw.md)**
+    -   The RIDAC menu provides access to AI-Identified Risks, RIDAC by Type \(Risks, Issues, Decisions, Actions, Change Requests tabs\), and All RIDAC.
+    -   Access Risks, Issues, Decisions, Actions, and Change Requests \(RIDAC\) through tabs \(presentation list\) in the RIDAC by Type page.
+
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
 -   **[Auto-sync resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/realign-resource-assignment-to-task.md)**
@@ -5552,7 +5890,7 @@ View task IDs, resource IDs, and other references in the AI Rationale column of 
 
 Export RIDAC data from Project Workspace in CSV, Microsoft Excel, or XML format using the Export RIDAC option in the more actions menu. Select a file type from the export modal to download the data currently visible in the RIDAC grid. Records not visible in the grid aren't included in the export.
 
--   **[Project types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-types-in-pw.md)**
+-   **[Project types and project enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-types-in-pw.md)**
 
 Configure project types with custom fields and tailored form views across different types of projects.
 
@@ -5604,8 +5942,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[AI-generated project status reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-a-status-report-in-project-workspace.md)**
 
@@ -5670,6 +6008,10 @@ Produce clear, accurate, and well-structured case narratives using the Case narr
 -   **Document Screening AI Skill for Social Benefits Playbook**
 
 Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
+
+Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
 
 -   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
 
@@ -5757,6 +6099,24 @@ Generate a summary of a quote to:
     -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
     -   Support internal handoffs by summarizing the quoted offer for internal teams.
 
+-   **Transaction Manager Quote AI Agent**
+
+Use a conversational AI agent to manage quote-level operations directly in Transaction Manager. The agent handles a broad range of quoting tasks through a single interface:
+
+    -   Search for products and match them to your request, then delegate configuration to Config AI for configurable products.
+    -   Update line items and header fields, apply discounts, and trigger events.
+    -   Generate a visible execution plan before acting on complex requests, so you can see what will happen and why.
+    -   Run independent operations in parallel, so multiple configurations can complete simultaneously without blocking other changes.
+
+-   **Derived pricing on quotes**
+
+Improve pricing accuracy by letting the system automatically manage derived quote lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing on system-generated lines to preserve pricing integrity.
+
 </td></tr><tr><td>
 
 RPA Hub
@@ -5774,7 +6134,7 @@ Recommended Actions for HRSD
 
 </td><td>
 
--   **[Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recommended-actions-hrsd.md)**
+-   ****
 
 Help HR agents resolve cases more quickly by listing relevant KB articles and similar cases in the context of the current case. Provide agents with an optimal action such as a suggestion to add an approval to the case if needed.
 
@@ -5784,6 +6144,11 @@ Help HR agents resolve cases more quickly by listing relevant KB articles and si
 Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 </td><td>
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)**
 
@@ -5798,11 +6163,11 @@ Recruitment workspace
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
--   **[Substitute interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   **Substitute interviewer**
 
 Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
 
--   **[List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/list-view-recruit-workspace.md)**
+-   ****
 
 Monitor interview health from the Needs attention list view in Recruitment workspace.
 
@@ -5867,9 +6232,9 @@ Reverse Tunnel
 
 </td><td>
 
--   **[Private connectivity for Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)**
+-   **[Private connectivity for zero copy connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)**
 
-Connect Zero Copy Connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network, without decrypting that traffic.
+Connect zero copy connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network without decrypting that traffic.
 
 -   **[Private relay deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md)**
 
@@ -5940,8 +6305,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-order-fallout-somt.md)**
 
@@ -6044,8 +6409,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[CrowdStrike Next-Gen SIEM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/crowdstrike-next-gen-integration-secops.md)**
@@ -6248,6 +6613,13 @@ Service Exchange \(formerly Service Bridge\)
 
 </td><td>
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Service Exchange Knowledge Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-service-exchange-assistant-se.md)**
+
+Get answers to your Service Exchange questions directly in Now Assist, without leaving your current work. The Service Exchange Knowledge Assistant agentic workflow generates answers grounded in documentation that matches the Service Exchange version installed on your instance, and includes links to the source documentation used for every answer.
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   **[Connections tab in the Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-connections-tab.md)**
@@ -6284,8 +6656,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
@@ -6311,7 +6683,7 @@ Service Operations Workspace for ITSM
 
 -   **[UI16 links to SOW redirection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-admin-console-sow-itsm.md)**
 
-Improve the fulfiller experience by redirecting UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
+Redirect UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
 
 For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center. You can enable this feature for the UI16 links and user groups or specifically for a custom table. You can also enable this feature for specific user groups or all user groups within the custom table or applications in SOW.
 
@@ -6352,6 +6724,11 @@ Configure and apply different authentication configurations for each portal to e
 ServiceNow AI Lens
 
 </td><td>
+
+-   **[Capture and analyze screens from your browser to auto-fill catalog item forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-record-in-the-service-portal.md)**
+
+Capture and analyze the contents of your screen directly from your browser to auto-fill catalog item form fields in Service Portal — no installation required. To specify the area of the captured screen that you want AI Lens to analyze, crop the image before submitting it for analysis.
+
 
 -   **[Excel mapping as a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-lens-action-service-api.md)**
 
@@ -6622,7 +6999,7 @@ Smart Assessment Engine
 
 </td><td>
 
--   **[Now assist for smart assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-for-smart-assessment-engine.md)**
+-   ****
 
 Starting with version 22.3.5, responders can use AI Response Assist to draft answers to assessment questions and auto-apply the top suggestion — drawing from multiple sources with citations instead of starting from scratch.
 
@@ -6630,18 +7007,18 @@ Starting with version 22.3.5, responders can use AI Response Assist to draft ans
     -   **Documents:** Generate answers from documents attached to the assessment or pulled from a document management system \(DMS\). Responders can upload or select PDF, Word, and image \(up to 5 documents, 200 pages each\), preview the document, and trace each answer to a source snippet within the original document.
 Responders choose suggestion only mode \(review each suggestion with Apply or Discard\) or Auto-apply mode \(the top suggestion is applied to each question automatically\). Either way, responders can edit any answer before submission.
 
--   **[Embedded assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/embedded-assessments.md)**
+-   ****
 
 Starting with version 22.3.X, bring assessments directly into the parent workflow. Embedded assessments run inside host record pages, playbooks, and workflow, letting respondents complete their work without leaving the parent context. Configuration is per template category and doesn't require code change. Embedded assessments inherit read access from the parent record—only users with read access to the parent record can read the embedded assessment.
 
--   **[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/template-versioning.md)**
+-   ****
 
 Starting with version 22.3.X, update published assessment templates without copying and deprecating the original. When a template manager publishes a new version, the prior version is automatically retired and future assessments use the new version. Template versioning preserves auditability for in-flight assessments while letting template managers publish new versions to reflect corrections, regulatory changes, or annual content refreshes.
 
     -   A version-info bar on every published template shows the current version and exposes a create new version action that returns the template to Draft.
     -   A full version history view captures who created each version, when, and which prior version it was branched from.
     -   A new Delete template version action is available from the version actions menu.
--   **[SAE Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-template-designer.md)**
+-   **SAE Enhancements**
 
 These SAE enhancements are available in version 22.3.X and later:
 
@@ -6653,11 +7030,11 @@ These SAE enhancements are available in version 22.3.X and later:
     -   View scope item fields directly in the assessment task list so reviewers and assignees can see scope context without opening each assessment.
     -   Programmatically create a combined assessment from multiple assessment IDs using any custom logic, removing the need for manual combine actions. For example, combine all control attestations belonging to an entity group into a single assessment.
 
--   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/collaboration-in-assessments.md)**
+-   ****
 
 Starting with version 22.3.X, use granular delegation as a primary owner to assign individual assessment sections to SMEs. Respondents can view the entire assessment for context but can edit only their assigned sections. Monitor overall assessment progress and maintain final review and submission capabilities.
 
--   **[Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/quick-edit-for-published-templates.md)**
+-   ****
 
 Starting with version 22.3.X, edit published templates inline as a template manager, including edits to the titles, descriptions, and reader roles.
 
@@ -6668,11 +7045,11 @@ Software Asset Management
 
 </td><td>
 
--   **[Streamline entitlement import by resolving import errors with AI-suggested corrections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)**
+-   **Streamline entitlement import by resolving import errors with AI-suggested corrections**
 
 Reduce manual effort and improve data accuracy when reviewing entitlement import errors in the Software Asset Workspace by using AI skills. When publisher or product names in the standard entitlement import template don't match standard content, the Software normalization and Product match reviewer skills provide AI-suggested corrections for review. The feature also identifies potential duplicate entitlements, enabling you to review and dismiss them where appropriate.
 
--   **[Enhance SaaS application usage monitoring by integrating with the Agent Client Collector for Visibility - Content \(ACC-VC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/shadow-saas-analytics.md)**
+-   **Enhance SaaS application usage monitoring by integrating with the Agent Client Collector for Visibility Content \(ACC-VC\)**
 
 Monitor SaaS application usage across your organization by using URL monitoring data through the integration of your Software Asset Management application with ACC-VC. The SaaS Detection Report aggregates this usage data and distinguishes managed applications from the unmanaged ones. This enhancement provides actionable visibility to SAM managers into actual SaaS usage for software spend optimization.
 
@@ -6687,59 +7064,59 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Improve accuracy and productivity by extracting licensing data from contracts and generating software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)**
+-   **Improve accuracy and productivity by extracting licensing data from contracts and generating software entitlements**
 
 Leverage generative AI to upload contract documents and automatically extract licensing data, generating software entitlements. You can review and refine the entitlements prior to finalization. The entitlements are created and linked to the contract records, ensuring a streamlined and accurate process.
 
--   **[Benefit with an integrated troubleshooting experience for SaaS applications by resolving common issues using automated guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)**
+-   **Benefit with an integrated troubleshooting experience for SaaS applications by resolving common issues using automated guidance**
 
 Use generative AI to troubleshoot SaaS integrations with automated guidance and recommendations. By following the resolution guidance, you can significantly reduce downtime, lower the mean time to resolution \(MTTR\), and resolve complex SaaS issues without deep technical intervention.
 
--   **[Use an agentic workflow to automate Microsoft 365 license assignment to users to improve efficiency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**
+-   **Use an agentic workflow to automate Microsoft 365 license assignment to users to improve efficiency**
 
 Use AI agents to assign Microsoft 365 licenses automatically to users on the Microsoft 365 Admin Center without manual intervention. The AI agent analyzes whether there are available licenses and automatically assigns those licenses to the Microsoft 365 Admin Center, ensuring accuracy and compliance.
 
--   **[Software Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sam-integration-cmpro.md)**
+-   **Software Asset Management integration with Contract Management Pro**
 
 Gain centralized visibility into software contract life cycles and streamline contract management by extracting key metadata and obligations from an uploaded signed contract document using the agentic AI workflow. Additionally, you can optimize costs through proactive tracking of contract renewals, expirations, and contractual obligations by integrating Software Asset Management with the Contract Management Pro application. Note that only Software Asset Management Enterprise users can leverage this functionality.
 
 
--   **[Improve user activity tracking with the GitHub integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-github.md)**
+-   **Improve user activity tracking with the GitHub integration**
 
 Achieve more accurate user activity data and improved license reclamation for low or no-activity subscriptions by leveraging the enhanced GitHub integration for broader event coverage and extended retention.
 
--   **[Enhanced integration with OpenLM for tracking subscription and consumption licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/concurrent-licenses.md)**
+-   **Enhanced integration with OpenLM for tracking subscription and consumption licenses**
 
 Gain improved visibility into engineering application licenses across subscription-based and consumption models with the OpenLM integration. This capability provides support for named user allocation and usage tracking. Additionally, you can better monitor compliance risks and note denial patterns through actionable insights into automated processes and dashboards.
 
--   **[Leverage machine learning \(ML\) normalization for managing your software assets in protected government environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ml-learning-sam.md)**
+-   **Leverage machine learning \(ML\) normalization for managing your software assets in protected government environments**
 
 Extend ML normalization capabilities to regulated markets for ServiceNow Protected Platform \(SPP\) in Singapore \(SG\) and Australia \(AU\).
 
--   **[Enhance the security of SAP ABAP on-premise integration using OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/add-sap-connection.md)**
+-   **Enhance the security of SAP ABAP on-premise integration using OAuth 2.0 authentication**
 
 Benefit from enhanced OAuth 2.0 authentication for your SAP ABAP on-premise integrations with improved security. This capability provides a more secure, compliant, and future-proof method for integrating the Software Asset Management application with your SAP systems.
 
--   **[Improve your license management experience through the enhanced support for Oracle WebLogic Suite licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/oracle-licensing-cloud-environments.md)**
+-   **Improve your license management experience through the enhanced support for Oracle WebLogic Suite licensing**
 
 Access flexible licensing options that align with different deployment models and usage patterns through comprehensive license management with support for the Oracle WebLogic Suite for both Per Processor and Named User Plus \(NUP\) metrics. The enhanced support now covers the entire WebLogic product family, including the flagship Suite edition.
 
--   **[Improve software normalization outcomes with expanded pattern-based normalization rules rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SAMDiscovery.md)**
+-   **Improve software normalization outcomes with expanded pattern-based normalization rules rule**
 
 Streamline the software model discovery process by leveraging the expanded pattern-based normalization rule, which eliminates the need to manually update or create new normalization rules for every minor variation in software discovery models. This rule automatically recognizes and matches diverse patterns and variations in software model data. As a result, discovered publisher, product, version, and edition values are seamlessly aligned with the ServiceNow® repository.
 
--   **[Enhanced SQL server enterprise edition license compliance to support Server/CAL licensing model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/mapping-ms-license-metrics.md)**
+-   **Enhanced SQL server enterprise edition license compliance to support Server/CAL licensing model**
 
 Optimize licensing for legacy Microsoft SQL Server Enterprise Edition licenses under the Server+CAL licensing model with Software Assurance \(SA\) by using the enhanced licensing rule. A single server license can cover up to four virtual machines, provided that the combined processing power for these VMs does not exceed twenty hardware threads or cores at any given time.
 
--   **[Generate optimal software lifecycle reports using a guided playbook that ensures adherence to compliance and audit requirements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/guidedplaybook-sw-lifecycle-reports.md)**
+-   **Generate optimal software lifecycle reports using a guided playbook that ensures adherence to compliance and audit requirements.**
 
 Simplify the creation of optimal software life-cycle reports through a guided playbook that assists in defining report scope, identifying gaps, and performing corrective actions. The playbook also integrates with the success portal, enabling you to establish and monitor success metrics, organize tasks and activities, and effectively track progress toward your objectives.
 
--   **[Streamline license management for Microsoft server product Installations and license usage via a single report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/device-license-consumption-report.md)**
+-   **Streamline license management for Microsoft server product Installations and license usage via a single report**
 
 Gain insights to a unified report for all Microsoft server product installations and license usage across license metrics. The Microsoft Server Infrastructure and License consumption report consolidates infrastructure data per device along with license usage and exemptions. Get detailed justifications for exemptions such as unlicensed or ignored installations, making it easier to monitor, analyze, and optimize your IT resources.
 
@@ -6803,6 +7180,8 @@ Automatically evaluate epic health across six risk dimensions using the Epic sta
 
 Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays.View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
 
+The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
+
 Users with the sn\_align\_core.apw\_admin role assigned can configure severity thresholds and scoring factors for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
 -   **[Story generation for epics in Agile Development 2.0 and EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-stories-quickly-for-eap-and-agile-2-0.md)**
@@ -6853,6 +7232,7 @@ Use boards in Strategy and Goals to organize and manage your organization’s st
 -   **[Portfolio plan goals enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-goals-in-alignment-planner-workspace.md)**
     -   Owners and contributors are notified when they’re mentioned in a goal, target, or when comments are added.
     -   Define targets across multiple organizational levels with the Assigned entity field in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from target breakdowns to the target for targets set to cumulative distribution, and from targets and subgoals to the goal.
 -   **[Portfolio plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-portfolio-plans-in-alignment-planner-workspace.md)**
     -   Visualize planning items in lanes with the new Kanban tab in the Planning page and access the Hierarchy tab directly from the same location. These tabs replace the previous access point in the Prioritization tab, offering a more streamlined way to view and manage planning items.
     -   Save filter views specific to the Kanban tab and the Hierarchy tab without affecting views in the Prioritization tab.
@@ -6893,6 +7273,18 @@ Keep working in your hierarchy without breaking your flow each time you create a
 Plan and prioritize without sifting through completed or cancelled work. The Backlog section of the EAP Backlog tab now hides completed and cancelled work items by default, so the list shows only what your teams have to work on. Sprint and Planning Interval \(PI\) sections continue to show all work items, giving you visibility into both ongoing and finished work for each iteration.
 
 Admins can change these settings for either sections using two new system properties: `sn_apw_advanced.show_inactive_items_in_backlog_list` for the Backlog section and `sn_apw_advanced.show_inactive_items_in_iteration` for iteration sections.
+
+-   **[Refresh without losing your place in the EAP Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/eap-hierarchy-tab.md)**
+
+Selecting Refresh in the Hierarchy tab now reloads your data without collapsing the rows you've already expanded or resetting your scroll position. Rows deleted by someone else are removed silently, and new child items appear under their expanded parent. If the grid displays more than 100 non-root items or 100 stories, you're asked to confirm before all rows are collapsed.
+
+-   **[View or delete a dependency directly from the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/work-item-dependencies-in-eap.md)**
+
+Select a dependency line on the Planning board to open the dependency record in a side panel, without navigating to the work item's full details page. Review the dependent and prerequisite items, or select **Delete** to remove the dependency directly from the panel.
+
+-   **[Backlog and Hierarchy access for CWM connected teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/integrate-eap-with-collaborative-work-management.md)**
+
+Teams connected to CWM can now access the Backlog and Hierarchy tabs in EAP. Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams.
 
 -   **[Admin role enhancements in Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/components-installed-with-product-feedback.md)**
 
@@ -7001,8 +7393,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-order-fallout-somt.md)**
 
@@ -7061,12 +7453,11 @@ Remote Hands Request Summarization generates contextual summary of a Remote Hand
 Multi-layer nested IP Subnetworks with CIDR validation: You can now create IP Subnetworks within IP Subnetworks, supporting recursive nesting for both IPv4 and IPv6. When creating a subnetwork at any level, the system validates that the CIDR is correctly formatted, falls within the parent's range, is more specific than the parent, and is unique within the parent.
 
 
--   **[Naming patterns in inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/naming-patterns-in-inventory-templates.md)**
+-   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/naming-patterns-in-inventory-templates.md)**
 
 Author patterns from a variable library with real-time validation, verify resolved names across the full template hierarchy from a new Overview tab at design time, and add custom validation rules.
 
-
--   **[Assign user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-inventory-roles.md)**
+-   **[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-inventory-roles.md)**
 
 Standard ServiceNow platform roles no longer have read access to specific TNI tables. This change affects both new installations and upgrades.
 
@@ -7077,8 +7468,20 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Rack allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/rack-allocation-workflow.md)**
+
+The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
+
+
+-   **[TNI Data Model Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/data-model-navigator.md)**
+
+A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
 
 </td></tr><tr><td>
@@ -7087,7 +7490,74 @@ Telecommunications Service Operations Management \(TSOM\)
 
 </td><td>
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Granularity support for pull connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/pull-connector-granularity.md)**
+
+Configure granularity and polling schedule constraints on Meraki and Fortinet pull connector instances to reduce API call volume and align data sampling with source system capabilities. Per-connector validation prevents unsupported values for metrics collection schedules and granularity windows. For valid values per connector and API type, see [Pull connector granularity constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/pull-connector-granularity-constraints.md).
+
+-   **Discover VeloCloud SD-WAN inventory from both Partner \(MSP\) and Operator accounts**
+
+The Service Graph Connector automatically detects whether the supplied credentials belong to an Enterprise Proxy \(partner\) account or a direct operator account, so the same scheduled import works for either topology without configuring the discovery mode.
+
+-   **[Pagination for Meraki metrics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/meraki-pull-connector-pagination.md)**
+
+Meraki pull connector metrics requests now follow API pagination links automatically, ensuring complete data retrieval for large organizations where a single API response does not return all available records.
+
+-   **[Metric aggregation scripted extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/metric-aggregation-scripted-extension.md)**
+
+Define custom KPI calculations on top of raw metrics using the `TSOMMetricAggregator` scripted extension point. Formulas can combine raw and transformed metrics, apply temporal aggregation operators \(`avg`, `max`, `min`, `p95`\) and spatial aggregation across matching resources, and attach user-defined labels to calculated KPIs.
+
+
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   **[Elastic connector for MPN alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/set-up-connector-instance-nokia-mpn.md)**
+
+Collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management by configuring a connector instance.
+
+-   **[Elastic connector for MPN metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configure-mpn-connectors-for-events-and-metrics.md)**
+
+The MPN connector now supports flexible metrics collection and network-level aggregation for MPN environments.
+
+-   **[MPN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/mpn-data-model.md)**
+
+Model your MPN topology in the CMDB with new CI classes and relationships for physical hardware and virtual network functions. The expanded data model captures connectivity between physical objects \(servers, firewalls, and appliances\) and virtual network functions \(UPF, UDM, and 5G core functions\). MPN infrastructure can be represented, related, and reported on alongside your telecom service operations data.
+
+-   **Network Packet Broker CI class**
+
+Model network packet broker devices in the CMDB with the new Network Packet Broker class \(`cmdb_ci_network_packet_broker`\), a child of Telco Equipment \(`cmdb_ci_telco_equipment`\). Network packet brokers sit between network TAPs or SPAN ports and your security and monitoring tools, aggregating, filtering, and distributing traffic so each tool receives only the data it needs. Example devices include the Iris Packet Broker IPB220 and IPB420, and APCON IntellaFlex XR monitoring switches.
+
+-   **[Bind MPN metrics to configuration items automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/metric-to-ci-binding-tsom-sgc.md)**
+
+The MPN pull connector now ships with a preconfigured event field mapping rule that binds collected metrics to CMDB configuration items automatically. The rule uses a scripted extension to resolve the CI from event fields such as name, distinguished name, serial number, and hardware ID.
+
+-   **[KPI aggregation capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/nokia-mpn-formula-engine.md)**
+
+Use the Formula Engine to process raw KPI formulas into formatted expressions, which are stored in the Formatted KPI Formula field and validated for balanced parentheses before the metric calculation engine references them.
+
+
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+
+-   **[Customize Fortinet license expiration date storage using scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configure-fortinet-allowlist.md)**
+
+By default, the Fortinet SD-WAN connector stores license expiration dates as separate CI key value pairs per device. You can override this behavior and implement alternative storage logic by using a scripted extension point.
+
+-   **[Configure allowlists to scope connector polling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configuring-allowlist.md)**
+
+Limit polling to specific organizations or ADOMs through allowlists on connector instances for Cisco Meraki and Fortinet.
+
+
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
 
 </td></tr><tr><td>
 
@@ -7119,8 +7589,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Override default icons for a fully branded experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-icon-illustrations.md)**
@@ -7142,36 +7612,36 @@ Third-party Risk Management
 
 </td><td>
 
--   **[AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-dms-sae.md)**
+-   ****
 
 After upgrading to version 22.3.3 and activating the Now Assist for Third-party Risk Management \(TPRM\) application, you can use uploaded documents and responses from previous assessments to generate suggested questionnaire responses with source citations. For internal assessments you need the snc\_internal role. For external assessments, primary contacts can complete all assessment response actions; secondary contacts must be assigned read and write access.
 
--   **[Software Bill of Materials \(SBOM\) support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-sbom-exploring.md)**
+-   **Software Bill of Materials \(SBOM\) support**
 
 After upgrading to version 22.3.2 and installing the required SBOM applications, if you have the third-party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] or third-party risk assessor role \[sn\_vdr\_risk\_asmt.vendor\_risk\_assessor\], you can collect and manage SBOM data to support regulatory disclosure requirements.
 
--   **[Standardized Information Gathering \(SIG\) 2026 questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-sig-use-and-support.md)**
+-   **Standardized Information Gathering \(SIG\) 2026 questionnaires**
 
 After upgrading to version 22.3.0, if you have the third-party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], you can use updated SIG Full, SIG Core, and SIG Lite templates for 2026 with expanded coverage across major security and privacy frameworks. Existing SIG questionnaire versions remain available. In‑flight assessments aren't affected.
 
--   **[Smart Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-sae-using.md)**
+-   **Smart Assessment template versioning**
 
 After upgrading to version 22.3.3, if you have the third-party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], you can manage SAE template lifecycles using explicit versioning so that in-flight assessments use the version that was active when they were created.
 
--   **[Legal Entity Identifier \(LEI\) validation for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-valid-lei.md)**
+-   **Legal Entity Identifier \(LEI\) validation for DORA reporting**
 
-After upgrading the Digital Resilience Third-party Information Register application to version 22.3.1, if you have the third-party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], you can validate Legal Entity Identifier codes against the GLEIF database to support regulatory accuracy in Register of Information reporting. For descriptions of validation results and report columns, see [Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-lei-validation-report.md).
+After upgrading the Digital Resilience Third-party Information Register application to version 22.3.1, if you have the third-party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], you can validate Legal Entity Identifier codes against the GLEIF database to support regulatory accuracy in Register of Information reporting. For descriptions of validation results and report columns, see .
 
--   **[Generate aggregate regulatory reports in local currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-dora-currency-aggregation.md)**
+-   **Generate aggregate regulatory reports in local currencies**
 
 After upgrading the Digital Resilience Third-party Information Register application to version 22.0.3, third‑party risk \(TPR\) managers \[sn\_vdr\_risk\_asmt.vendor\_manager\] can standardize annual expense values during Register of Information report generation by enabling currency conversion and third‑party total expense aggregation. To support this process, the generated reporting package includes summary and detail reports that indicate successful conversions, aggregation results, and any skipped providers.
 
--   **[Centralized repository for TPRM SAE templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-integrating-ucm.md)**
+-   **Centralized repository for TPRM SAE templates**
 
 After upgrading to version 22.0.2 and installing the Unified Content Management application, TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] can help ensure consistent and comprehensive assessments by activating and updating ready‑to‑use Smart Assessment Engine questionnaire templates through a single, managed repository in the Vendor Management Workspace.
 
 
--   **[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-tprm-issue.md)**
+-   ****
 
 After upgrading to version 22.0.8 if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the Now Assist for Third-party Risk Management \(TPRM\) application, you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
 
@@ -7181,6 +7651,11 @@ After upgrading to version 22.0.8 if you have the third‑party assessment revie
 Threat Intelligence Security Center
 
 </td><td>
+
+-   **[Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/na-tisc-generate-ai-reports.md)**
+
+Introduced Now Assist Report Authoring skill to generate analyst‑grade threat intelligence reports from threat cases. Supports configurable styling and analyst-defined instructions for content and focus.
+
 
 -   **[Summarize a Case with Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-case-summarization.md)**
 
@@ -7296,11 +7771,11 @@ Universal Request
 
 </td><td>
 
--   **[Inter-department communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-create-universal-request-record.md)**
+-   **Inter-department communication**
 
 Improve inter-departmental communication by enabling agents to effectively collaborate on associated tickets using the **Sidebar discussions** and **Discuss** options. Control agent participation through restricted lists and apply access permissions consistently across associated tickets.
 
--   **[Universal Request Router agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agentic-flow-ur.md)**
+-   ****
 
 Enable employees to request help with services that are hard to locate in the catalog listing or need support from multiple departments.
 
@@ -7345,12 +7820,38 @@ Virtual Agent
 
 </td><td>
 
--   ****
+-   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
+
+Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
+
+By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
+
+The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
+
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+
+Mobile custom apps support configuration of enhanced chat and premium chat display options, with availability dependent on the widget's current configuration.
+
+-   **[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md)**
+
+If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
+
+Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
+
+-   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/edit-assistant.md)**
+
+When editing an assistant with premium chat, create, edit, or delete prompts from the prompt library. Prompts help users ask better questions and get more accurate answers. Use the prompt library to manage prompts that users see in premium chat. Create your own prompts or use the default prompts.
+
+-   **[Prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-prompt-library.md)**
+
+Browse and select from promoted prompt templates or save your own custom prompts, eliminating the need to retype frequently-used prompts within your chats. Access your reusable templates instantly from the omnibar for faster, more consistent conversations.
+
+
 -   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
 
 For premium chat, catalog items have improved fluidity; however, some of them are no longer conversational. They’ll open in a catalog form instead. This applies to Now Assist in Virtual Agent assistants and Now Assist panel – Platform assistant.
 
--   **[Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
     -   If your instance is eligible, you can opt into the premium chat experience. ServiceNow performs a set of readiness checks to see if your instance is eligible for premium chat. Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
     -   An alert is shown when the instance is eligible for premium chat or when there is a possible delay for premium chat to appear as an option on your instance.
     -   When editing the display experience of an existing portal or mobile widget, chat experience options depend on the existing configuration.
@@ -7401,7 +7902,7 @@ Manage the behavior of suggestions that users see when typing in the input box.
 
 If you have the **com.snc.ex\_ai\_portal** \(Employee Slate\) app installed, the default Employee Slate assistant is shown, and Employee Slate is mapped to it by default. The default Employee Slate assistant can be activated, deactivated, edited, and tested. It can’t be deleted.
 
--   **[Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
 
 The default Employee Slate assistant comes with premium chat. Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
 
@@ -7423,14 +7924,19 @@ Test your chat assistant \(standard, enhanced, or premium chat\) to simulate an 
 
 Use the **Test Assistant** button to test your LLM assistant in Standard, Enhanced, and Premium Chat, after adding chat experiences in Assistant Designer's **Assistants** tab.
 
+-   **[Now Assist in Virtual Agent on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-va.md)**
+
+Use the modified version of Now Assist in Virtual Agent on your mobile device. This redesigned version adapts to smaller screens without losing functionality or clarity.
+
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Premium chat experience for Now Assist Panel - Platform \(default\) assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
@@ -7442,6 +7948,15 @@ The Now Assist Panel - Platform \(default\) assistant now has the premium chat e
 Vulnerability Response
 
 </td><td>
+
+-   **[Enhancements to the Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/invicti-vuln-integration.md)**
+
+Added the Invicti Platform Integration. Support for the Invicti Platform APIs introduces three new integration jobs that connect directly to the Invicti Platform cloud service:
+
+    -   Application Integration — Imports the list of applications being scanned in Invicti Platform into your ServiceNow AI Platform® instance as discovered applications.
+    -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
+    -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform®.
+Enhancements to Application life-cycle management: When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform® automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\), keeping your vulnerability inventory accurate without manual cleanup.
 
 -   **[Activate the Wiz Asset Integration and identify resource types for import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-assets-resources-tab.md)**
 
@@ -7544,15 +8059,15 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   **[Support for REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md)**
+-   **[Support for REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-use-rest.md)**
 
 Connect to ERPs using REST APIs for read and write operations.
 
--   **AI agent for SAP OData services**
+-   **[AI agent for SAP OData services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-ai-agent-odata-service-recommender.md)**
 
 Discover relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This reduces missed integration opportunities and accelerates development by finding standard SAP capabilities that align with your use cases.
 
--   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-content-packs.md)**
+-   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-recruit-to-retire-content-pack.md)**
 
 Use the Hire to Retire content pack containing models to get Zero Copy Connector for ERP running on your instance faster.
 
@@ -7566,8 +8081,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>

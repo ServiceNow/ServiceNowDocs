@@ -1,5 +1,5 @@
 ---
-title: Work items in the Impact Store Application
+title: Work items in Impact
 description: Create a Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work item using recommendations and initiatives for faster execution and actionable goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/creating-work-items-using-recommendations-and-initiatives.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
 
-# Work items in the Impact Store Application
+# Work items in Impact
 
 Create a Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work item using recommendations and initiatives for faster execution and actionable goals.
 

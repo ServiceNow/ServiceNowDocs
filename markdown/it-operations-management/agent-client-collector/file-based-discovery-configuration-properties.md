@@ -119,5 +119,5 @@ The throttling properties control how File-Based Discovery manages system resour
 
 Path properties support environment variables and wildcards for flexible directory specification. Use pipe separators \(\|\) for Windows paths and colon separators \(:\) for Linux and macOS paths. The ignore path properties allow you to exclude specific directories from scanning to improve performance and avoid unnecessary data collection.
 
-**Parent Topic:**[Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

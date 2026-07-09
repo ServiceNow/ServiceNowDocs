@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-05-21"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -105,7 +105,7 @@ Execute on
 
 </td><td>
 
-**Specific MID Server** or **Specific MID Server Cluster**, as defined on the specified MID Web Server extension.
+**Specific MID Server** or **Specific MID Server Cluster**, as defined on the specified MID Web Server extension.**Note:** **Specific MID Server Cluster** is only for internal processing of ECC queue record and is not for external API load balancing.
 
 </td></tr><tr><td>
 
@@ -222,6 +222,21 @@ curl --location -g --request POST 'http://{MID_Server_IP}:{MID_Web_Server_Port}/
    ]
 }'
 ```
+
+## Configuring external API integrations with MID Server failover
+
+To ensure high availability for external API integrations, deploy an external load balancer that distributes traffic across multiple MID servers. Note that the MID cluster web server configuration handles internal processing only \(through ecc\_queue\) and can't manage inbound external API traffic.
+
+|Field|Value|
+|-----|-----|
+|MID Server 1|mid-1.internal:8080|
+|MID Server 2|mid-2.internal:8080|
+|External Load Balancer|mid-cluster.example.com:443|
+|API endpoint format|jsonv2|
+
+Reference the external load balancer hostname in your webhook URL rather than individual MID Server addresses. Replace the variables in the default format: `https://<load-balancer>/api/mid/em/inbound_event?Transform=<format>` with values from the preceding table: `https:///mid-cluster.example.com/api/mid/em/inbound_event?Transform=jsonv2`.
+
+This configuration distributes incoming requests across both MID servers, and if one server becomes unavailable, the load balancer automatically routes traffic to the remaining operational server without service interruption.
 
 **Related topics**  
 

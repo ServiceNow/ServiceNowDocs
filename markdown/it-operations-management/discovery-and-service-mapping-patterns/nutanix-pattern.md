@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-06-03"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -46,11 +46,7 @@ The Nutanix VM Event pattern finds events for virtual machines \(VMs\) in the Nu
 -   **Install Nutanix end-point SSL certificates for the MID Server JRE**
     1.  Collect the certificates by browsing the Nutanix Prism console on Internet Explorer.
     2.  Add SSL certificates for the MID Server, as described in [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-ssl-certificates.md).
-    3.  Use the following JRE keytool command to import the SSL certificates in the MID Server's keystore: `<MID Installation>/jre/bin/keytool -import -v -keystore <MID Installation>jre/lib/security/cacerts`.
-
-        If you must enter a password, enter a custom password or the default password - "changeit".
-
-    4.  Install Nutanix end-point SSL certificates for the MID Server JRE.
+    3.  Install Nutanix end-point SSL certificates for the MID Server JRE.
 -   **Verify API permissions for v1-3**
 
     Verify that the user has read-only access to the following API requests:

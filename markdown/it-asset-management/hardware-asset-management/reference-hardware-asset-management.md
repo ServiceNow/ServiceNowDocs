@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware Asset Management reference
@@ -62,6 +62,4 @@ Fields on the variable help you to define variables for a catalog item.
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
 -   **[Read-only and client script modifiable fields in HAM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/read-only-fields-ham.md)**  
 Comprehensive reference of HAM table fields that are restricted from UI editing and those which can be modified using client scripts.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

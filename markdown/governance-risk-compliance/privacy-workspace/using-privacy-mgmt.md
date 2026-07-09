@@ -39,11 +39,11 @@ Add data subject types to privacy impact assessment from the Employee Center.
 -   **[Classify data subject type as vulnerable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/classify-data-subject-type-as-vulnerable.md)**  
 Classify a data subject type as vulnerable. When you mark a data subject type as vulnerable, the criticality score is calculated as High.
 -   **[Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md)**  
-Add key stakeholders to a processing activity and set their privilege to control whether they can view it, respond to its privacy assessments, or edit it.
--   **[Assign a processing activity to a key stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
-Assign a processing activity to a key stakeholder with edit access to let them update it directly from the Employee Center.
--   **[Access a processing activity from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/request-edit-access-pa.md)**  
-Request edit access to a processing activity directly from the Employee Center to update the details your team is responsible for.
+Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
+-   **[Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
+Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
+-   **[Edit a processing activity from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/request-edit-access-pa.md)**  
+Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 -   **[Add a regulatory agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-a-regulatory-agency.md)**  
 Add a regulatory agency in the Privacy Workspace to identify the relevant regulatory authorities that are responsible for overseeing the industries or sectors within each jurisdiction. The jurisdictions consolidate all the regulatory communications via emails and implement the notification rules for data privacy or security breaches for the reported privacy cases.
 -   **[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)**  

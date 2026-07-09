@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure widgets, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -38,7 +38,7 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 
 5.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-6.  On the container, add a set of columns by selecting the plus icon \(\[Omitted image "circle-plus-outline-24.svg"\]\)
+6.  On the container, add a set of columns by selecting the plus icon \(\[Omitted image "circle-plus-outline-24.svg"\] Alt text: plus icon\)
 
 7.  On the Widgets pane, in the **Filter Widget** field, enter the Widget name.
 
@@ -50,6 +50,4 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 ## Result
 
 The widget is added to the page. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets.md)
 

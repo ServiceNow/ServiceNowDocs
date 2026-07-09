@@ -30,6 +30,8 @@ See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     Gain AI-generated insights into planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
 
+    The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
+
     Users with the sn\_align\_core.apw\_admin role assigned can configure severity thresholds and scoring factors for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
 -   **[Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-workspace-ppw.md)**
@@ -71,8 +73,7 @@ See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     Using multicurrency, new and existing customers see only investment currency fields in demand and project records. Planned costs, actual costs, planned benefits, actual benefits, and budget fields are included in the financial baselines.
 
-    -   .
-        -           -   
+
 ## UI changes
 
 -   **[Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-workspace-ppw.md)**

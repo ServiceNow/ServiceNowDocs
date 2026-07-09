@@ -32,7 +32,7 @@ Anomaly alerts indicate deviation from projected metric values for monitored CIs
 Agent Workspace for Metric Intelligence provides easy access to metric charts for a CI. On an alert form, you can drill down to important metric charts for the CI that is associated with the alert.
 -   **[Configure metric charts for Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configure-metric-chart-workspace.md)**  
 Configure the set of Metric Intelligence metric charts, chart types, and other chart characteristics, that appear in Agent Workspace.
--   **[View self-health monitoring statistics for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/xmlstats-oi-self-health.md)**  
+-   **[View Metric Intelligence self-health statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/xmlstats-oi-self-health.md)**  
 Monitor the status of components and processes of Metric Intelligence. Use the XMLStats page to view statistics and diagnostic details that can help with troubleshooting issues with Metric Intelligence.
 -   **[Verify that the definitions for the Advanced Promotion Engine are active](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/verify-ape-definition-active.md)**  
 Verify that the Advanced Promotion Engine definitions that come with the base system are active.

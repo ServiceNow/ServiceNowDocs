@@ -32,15 +32,15 @@ Use a demand as a step to identify cost-saving opportunities on the business app
 
 4.  Select the bubble for the relevant application that you want to create a demand for perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d34670e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d34735e92">
 
 Bubble type
 
-</th><th align="left" id="d34670e95">
+</th><th align="left" id="d34735e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d34670e101">
+</th></tr></thead><tbody><tr><td id="d34735e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-create-demand.png"\] Alt text: Create demand button highlighted.
 
-</td></tr><tr><td id="d34670e139">
+</td></tr><tr><td id="d34735e139">
 
 **Grouped bubble**
 
@@ -77,7 +77,7 @@ Action
 
 [Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-analyze-applications-by-capability.md)
 
-[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 

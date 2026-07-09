@@ -10,6 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Obligation Management]
+audience: [sn\_cm\_obligation.obligation\_fulfiller, sn\_cm\_obligation.obligation\_user]
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 

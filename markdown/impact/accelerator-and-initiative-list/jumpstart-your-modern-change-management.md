@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Modern Change Management
-description: This accelerator provides a demonstration of the possibilities and capabilities of the modernized change management approach.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of the modernized change management approach.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-modern-change-management.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Modern Change Management
 
-This accelerator provides a demonstration of the possibilities and capabilities of the modernized change management approach.
+This Accelerator provides a demonstration of the possibilities and capabilities of the modernized change management approach.
 
 ## Accelerator Overview
 

@@ -37,11 +37,11 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
-
+    [ServiceNow Community](https://community.servicenow.com/community)
 
 -   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 
-
+    [developer.servicenow.com](https://developer.servicenow.com/)
 
 -   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
 
@@ -49,11 +49,11 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-
+    [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
 -   **\[Omitted image "dcx-icon.svg"\] Best Practices**
 
-
+    [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
 
 -   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
 
@@ -69,5 +69,5 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
     -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
-    -   
+    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

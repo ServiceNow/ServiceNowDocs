@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review incoming case filing and appeal
@@ -22,7 +22,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-If you refuse the acquirer’s pre-arbitration request, the acquirer may create an arbitration request. You can review the arbitration and create an appeal, if required.
+If you refuse the acquirer's pre-arbitration request, the acquirer may create an arbitration request. You can review the arbitration and create an appeal, if required.
 
 ## Procedure
 
@@ -38,40 +38,38 @@ If you refuse the acquirer’s pre-arbitration request, the acquirer may create 
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level Playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review incoming case filing appeal** activity.
 
-8.  Select the **Review incoming case filing appeal** activity.
-
-9.  Select **Get case filing detail** to get the details about the amount and reason for case filing.
+7.  Select **Get case filing detail** to get the details about the amount and reason for case filing.
 
     The reason is displayed in the **Reason for filing** field.
 
-10. To withdraw from the case filing:
+8.  To withdraw from the case filing:
 
     -   Select **Withdraw**.
     -   Update the **Case withdrawn status** field to indicate who initiated the withdrawal.
     -   Update the **Reverse provisional credit** field. This field appears only for the IPC policy. If it's no credit, the **Final Credit** field appears.
-11. Select **Close task**.
+9.  Select **Close task**.
 
-12. Select **Get case filing response** to view the case filing decision from Visa.
+10. Select **Get case filing response** to view the case filing decision from Visa.
 
-13. Select your response in the **Response outcome** field.
+11. Select your response in the **Response outcome** field.
 
     -   To accept the outcome, select **Resolved**.
     -   To appeal the outcome, select **Unresolved**.
-14. If the response is **Unresolved**, select `Yes` in the **Create appeal** drop-down.
+12. If the response is **Unresolved**, select `Yes` in the **Create appeal** drop-down.
 
-    An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-workflow.md).
+    An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-workflow.md).
 
-15. Enter the **Appeal amount**.
+13. Enter the **Appeal amount**.
 
-16. Provide the **Reason for appeal**.
+14. Provide the **Reason for appeal**.
 
-17. Select **Create appeal**.
+15. Select **Create appeal**.
 
 
 ## Result

@@ -62,7 +62,7 @@ The ServiceNow AI Lens form auto-filler requires the following plugins:
 
 [Exploring Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
 
-[Smart Assessment Questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
 
 ## Auto-fill a form with ServiceNow AI Lens
 
@@ -151,7 +151,7 @@ An error message is displayed when the icon is selected.To resolve this, ensure 
 
 [Use ServiceNow AI Lens in Now Assist Virtual Agent]()
 
-[Smart Assessment Questionnaires]()
+[Smart Assessment questionnaires]()
 
 [Configuring Smart Assessment questionnaires for Now Mobile Agent]()
 

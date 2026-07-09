@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-ope
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Retail
@@ -52,9 +52,13 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 [Now assist for Retail\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-now-assist-for-retail.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Additional resources
 
--   [Ask questions and explore other resources for Retail Operations in the ServiceNow Community](https://www.servicenow.com/community/)
+-   Learn more about what's new and changed in this release at [Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/retail-rn.md).
+-   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=a4d172da47f33658db63fb25126d43e8&s=1&ssa=3).
+-   Connect with other Retail users in the [Retail and Hospitality community forum](https://www.servicenow.com/community/retail-hospitality/ct-p/industry-retail-hospitality).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

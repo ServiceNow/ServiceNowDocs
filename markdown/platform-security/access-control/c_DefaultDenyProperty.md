@@ -9,7 +9,7 @@ classification: access-control
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contextual Security Manager, Access Control List Rules, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists, Access Management]
 ---
 
 # Default deny property

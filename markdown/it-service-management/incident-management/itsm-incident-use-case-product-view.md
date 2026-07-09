@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -18,14 +18,18 @@ Incident Management supports the incident management process with the ability to
 
 Features of Incident Management that get the most benefit from the CSDM include:
 
--   Agent Workspace gives agents the information they need to quickly prioritize and resolve incidents.
--   The major incident workbench includes a single-pane view you can use to identify, track, and resolve high-impact incidents.
--   The native mobile app allows agents to quickly view and respond to tasks on-the-go, and can approve the requests with a single swipe.
--   Incident deflection encourage self-help by suggesting related knowledge base articles.
--   Improves collaboration on incident tasks by using drag-and-drop functionality on visual task boards.
--   Performance analytics provide detailed insights into performance trends.
+-   Agent Workspace gives agents the information they need to quickly prioritize and resolve incidents. CSDM-populated CI and service data surfaces business impact context directly on the incident form, reducing time spent gathering context.
+-   The major incident workbench provides a single-pane view to identify, track, and resolve high-impact incidents. CSDM service modeling surfaces impact services and dependent CIs in real time on the workbench.
+-   The native mobile app allows agents to quickly view and respond to tasks on-the-go. CSDM-populated CI data ensures that incident context and service relationships are available to agents in the field.
+-   Incident deflection encourage self-help by suggesting related knowledge base articles. Accurate CI classification in CSDM improves the relevance of article suggestions
+-   Drag-and-Drop functionality on visual task board Improves collaboration on incident tasks. CSDM service relationships help route tasks to the correct assignment groups.
+-   Performance analytics provide detailed insights into performance trends. CSDM-aligned service hierarchies enable accurate reporting by business service and service offering.
+
+For more information about CSDM health and data quality, see [Incident Management considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case-trouble.md).
 
 Incident Management includes a form you can use to report incidents.
+
+\[Omitted image "incident-form.png"\] Alt text: Elements on the Incident form with numbered fields.
 
 The incident form references the following attributes and related lists.
 
@@ -35,10 +39,6 @@ The incident form references the following attributes and related lists.
 4.  Affected/Causal CIs — Related list \[task\_ci\] table. \(The Incident form allows Application Services to be chosen as CIs\)
 5.  Impacted Services — Related list \[task\_cmdb\_ci\_service\] table
 6.  Service Offering — Related list \[task\_service\_offering\] table
-
-## For more information
-
-For more details about Incident Management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md).
 
 -   **[Incident Management and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case.md)**  
 Incident Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Incident Management.

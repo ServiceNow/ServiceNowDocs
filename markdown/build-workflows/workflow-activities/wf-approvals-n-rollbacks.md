@@ -36,7 +36,7 @@ To turn approval engines off for the table, navigate to the **System Properties 
 **Related topics**  
 
 
-[bundle-platcap.c_ApprovalAndRollbackActivities]
+[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md)
 
 [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md)
 
@@ -54,7 +54,7 @@ An approval activity might skip for the following reasons:
 
 -   The approval user or group is missing or invalid \(for example, sys\_id\).
 -   The approval user or group became inactive after the approval record was created.
--   The activity is a Dot-walking to data in related tables field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
+-   The activity is a [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md) field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
 -   The business rule on the table that is associated with the workflow is invalid.
 
 To correct a missed approval activity:

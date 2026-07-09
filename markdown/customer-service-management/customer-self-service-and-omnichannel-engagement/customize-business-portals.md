@@ -39,3 +39,10 @@ Role required: sp\_admin
     -   Knowledge base: Configure a knowledge base for the portal to view the associated knowledge articles. For details, see [Configure knowledge bases for a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-search-on-all-kb.md).
     -   Catalog: Configure a catalog for Business and Consumer Portal portal. For details, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
 
+**Related topics**  
+
+
+[Set up Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)
+
+[Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
+

@@ -88,7 +88,7 @@ The following processes outline the timing and methods for responding to interna
 
     For more information about reviewing responses, see [Review responses to external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.md).
 
-    **Note:** Your TPR assessor can export received or returned questionnaires to Microsoft Excel spreadsheets. This option enables your organization to use the spreadsheet environment to review the questions and answers. For more information about exporting questionnaire responses, see [Export questionnaire responses to a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/export-q-and-a-to-excel.md).
+    **Note:** Your TPR assessor can export **Responses received** or **Returned** questionnaires to Microsoft Excel spreadsheets when using the Classic assessment engine. This option enables your organization to use the spreadsheet environment to review the questions and answers. For more information about exporting questionnaire responses, see [Export questionnaire responses to a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/export-q-and-a-to-excel.md).
 
 
 ## Pre-populate questionnaires with responses

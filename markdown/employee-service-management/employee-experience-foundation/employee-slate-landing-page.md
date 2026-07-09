@@ -1,6 +1,6 @@
 ---
 title: Employee Slate
-description: Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one intuitive destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
+description: Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Unified Employee Experience, Employee Service Management]
 
 # Employee Slate
 
-Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one intuitive destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
+Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 
 ## Get started
 
@@ -48,7 +48,7 @@ Employee Slate is your AI-first employee experience that brings search, requests
 ## Additional resources
 
 -   Learn what's new in the [Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-slate-rn.md).
--   Access realtime courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other ServiceNow users at [Now Community](https://www.servicenow.com/community/).
 

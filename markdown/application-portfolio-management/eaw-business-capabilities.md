@@ -40,7 +40,7 @@ You can also view and add business capabilities and perform a host of other task
 
 [Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 
-[Manage architectural artifacts of a business capability in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
+[Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
 
-[Add or remove a business capability from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
 

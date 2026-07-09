@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding a sub-phase, Recall a campaign phase, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Adding a sub-phase, Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Assign or unassign impacted assets
@@ -77,6 +77,4 @@ Install base item.
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-
-**Parent Topic:**[Adding a sub-phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_recall_campaign_phases.md)
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a stock rule
@@ -24,15 +24,15 @@ Role required: inventory\_admin
 
 1.  Create a stock rule.
 
-<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d273976e57">
+<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d274648e57">
 
 Interface
 
-</th><th align="left" id="d273976e60">
+</th><th align="left" id="d274648e60">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d273976e66">
+</th></tr></thead><tbody><tr><td id="d274648e66">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d273976e102">
+</td></tr><tr><td id="d274648e102">
 
 **Hardware Asset Workspace**
 

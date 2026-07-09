@@ -1,6 +1,6 @@
 ---
 title: TuneUp Your Now Assist in Virtual Agent
-description: This accelerator provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
+description: This Accelerator provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-04-27"
 reading_time_minutes: 2
 keywords: [Now Assist, Virtual Agent, TuneUp, AI Search, Conversational AI]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your Now Assist in Virtual Agent
 
-This accelerator provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
+This Accelerator provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
 
 ## Accelerator Overview
 

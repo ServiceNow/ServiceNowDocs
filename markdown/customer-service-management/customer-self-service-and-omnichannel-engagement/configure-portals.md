@@ -33,6 +33,11 @@ Set up and customize self-service portals to provide customers with access to kn
 
 -   **[Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md)**
 
-    Set up the Business and Consumer Portal to provide self-service capabilities for your customers and consumers through configurable portal widgets. Enable low-code customization of portal pages to reduce maintenance effort while delivering essential features like knowledge articles, service catalogs, case management, Virtual Agent, and appointment booking to support consumer needs efficiently.
+    Set up the Business and Consumer Portal to provide self-service capabilities for your users through configurable portal widgets. Enable low-code customization of portal pages to reduce maintenance effort while delivering essential features like knowledge articles, service catalogs, case management, Virtual Agent, and appointment booking to support consumer needs efficiently.
 
+
+**Related topics**  
+
+
+[Set up Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)
 

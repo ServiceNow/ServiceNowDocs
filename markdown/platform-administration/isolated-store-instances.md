@@ -21,5 +21,5 @@ Currently, regulated environments with access to isolated instances of the Servi
 -   ServiceNow Protected Platform: Australia \(SPP-AU\)
 -   ServiceNow Protected Platform: Singapore \(SPP-SG\)
 
-If there isn't an isolated instance of the ServiceNow Store available for your environment, use the commercial .
+If there isn't an isolated instance of the ServiceNow Store available for your environment, use the commercial [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 

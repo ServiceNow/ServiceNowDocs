@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [create insights report, insights report, dex insights, custom report, performance metrics report]
 breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 ---
 

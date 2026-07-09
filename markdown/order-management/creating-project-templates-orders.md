@@ -24,3 +24,5 @@ As an admin or user with the it\_project\_manager role, you create project templ
 
 Before you create your project template and project task templates for the SPM integration, consider the level of project oversight required for customer orders to be fulfilled. For example, in the following SD-WAN fulfillment flow, the top order line is SD-WAN Service Package, which defines the order line project to be created. Next, identify the domain orders and then the order tasks that require project task oversight.
 
+\[Omitted image "fulfill-flow-sd-wan-order.png"\] Alt text: Flow diagram that shows order fulfillment tasks
+

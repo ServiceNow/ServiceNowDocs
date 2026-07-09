@@ -33,3 +33,10 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 If the agent creates a new case or links the discussion to an existing case, you can view these cases from the customer portal by selecting **My Cases** and displaying the case list.
 
+**Related topics**  
+
+
+[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustPortal.md)
+

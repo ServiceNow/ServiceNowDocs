@@ -1,5 +1,5 @@
 ---
-title: View normalization suggestions in Software Asset Management classic
+title: View normalization suggestions in Software Asset Management Core UI
 description: View normalization suggestion records that are created for discovery models. You can accept or reject these suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-norm-suggestions-sam.html
@@ -9,10 +9,10 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# View normalization suggestions in Software Asset Management classic
+# View normalization suggestions in Software Asset Management Core UI
 
 View normalization suggestion records that are created for discovery models. You can accept or reject these suggestions.
 
@@ -45,5 +45,5 @@ When the edition of a software install is not automatically discovered, you can 
 -   **[Discovered engineering licenses in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/discovered-eng-licenses.md)**  
 View a list of all the discovered and normalized software for your engineering applications.
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

@@ -1,18 +1,19 @@
 ---
-title: Provision a Logik.ai instance
-description: Provision a Logik.ai instance by creating a support ticket.
+title: Request a ServiceNow CPQ tenant
+description: Submit a support ticket on Now Support to request a ServiceNow CPQ instance for use with your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-logik-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+keywords: [Logik.ai]
+breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Provision a Logik.ai instance
+# Request a ServiceNow CPQ tenant
 
-Provision a Logik.ai instance by creating a support ticket.
+Submit a support ticket on Now Support to request a ServiceNow CPQ instance for use with your ServiceNow instance.
 
 ## Before you begin
 
@@ -24,7 +25,7 @@ Role required: admin
 
 2.  Select **Create a case**.
 
-3.  In the Now Assist chat, select **click here** to open the case form.
+3.  In the Now Assist chat, select the link to open the case form.
 
 4.  Select **Service request**.
 
@@ -32,11 +33,11 @@ Role required: admin
 
 6.  Select your instance and select **Next**.
 
-    **Note:** Contact Primary Customer Administrator \(PCA\) if your instance is not listed in the instances list.
+    **Note:** Contact the primary customer administrator \(PCA\) if your instance is not listed.
 
 7.  Select **Continue**.
 
-8.  Enter the Client ID and Client secret fetched from Step 2 and the public certificate details.
+8.  Enter the **Client ID** and **Client secret** and the public certificate details.
 
 9.  Select **Continue**.
 
@@ -45,5 +46,5 @@ Role required: admin
 
 ## What to do next
 
-To connect the Logik.io instance with a ServiceNow instance, follow the steps in [Set up a ServiceNow instance connection with a Logik.ai instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/connect-sn-instance-logik.md).
+Connect the ServiceNow CPQ instance to your ServiceNow instance. See [Connect your instance with ServiceNow CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/connect-sn-instance-logik.md).
 

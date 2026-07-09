@@ -24,10 +24,6 @@ To support multiple groups, knowledge bases can be assigned to individual manage
 
 ## Knowledge Management workflow
 
-This infographic shows a sample end-to-end workflow of how different users in an organization work together to create, share, use, and manage articles.
-
-\[Omitted image "KM\_Process\_Flow.png"\] Alt text: Infographic showing how users in an organization work together to create, share, use, and manage articles. For details, refer to the following description.
-
 In this workflow:
 
 1.  The knowledge user needs a new or updated knowledge article and requests it.

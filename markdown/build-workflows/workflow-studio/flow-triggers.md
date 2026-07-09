@@ -42,7 +42,7 @@ Updated
 
 </td><td>
 
-Starts a flow when a record is updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-system field even if the flow is currently running.
+Starts a flow when a record is updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-[system field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) even if the flow is currently running.
 
 **Note:** The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the flow can run. However, if the **State** field then changes back to In Progress, the flow can't run.
 
@@ -58,7 +58,7 @@ Created or Updated
 
 </td><td>
 
-Starts a flow when a record is either created or updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-system field even if the flow is currently running.
+Starts a flow when a record is either created or updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-[system field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) even if the flow is currently running.
 
 **Note:** The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the flow can run. However, if the **State** field then changes back to In Progress, the flow can't run.
 
@@ -156,7 +156,7 @@ Inbound email flows take priority over inbound email actions. If you create flow
 
 With inbound email actions, you don't have full control over email attachment handling or assigning the target record of an email. When you create a flow with an inbound email trigger, you can perform these actions with the [Move Email Attachments to Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/move-email-attachments-action.md) and the [Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/associate-to-email-action.md). For greater control over email attachments, you can also use the [Look up email attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-email-attachment.md) to access a specific attachment as a data pill.
 
-Although you can process an inbound email with multiple inbound email actions, you can't process an inbound email with multiple flows by default. Additional configuration is required. For information on how to stop processing in inbound email actions, see Specifying the inbound email processing order.
+Although you can process an inbound email with multiple inbound email actions, you can't process an inbound email with multiple flows by default. Additional configuration is required. For information on how to stop processing in inbound email actions, see [Specifying the inbound email processing order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_OrderedEmailProcessingPlugin.md).
 
 For more information on running multiple flows on an inbound email, see [Allow multiple triggers to process an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/deactivate-stop-processing.md).
 
@@ -183,7 +183,7 @@ Specify the user session requirements needed to start a flow in the **Advanced O
 
     |Option|Description|
     |------|-----------|
-    |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See Non-interactive sessions.|
+    |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_NonInteractiveSessions.md).|
     |Only Run for User Interactive Session|Flow that is triggered only in interactive sessions.|
     |Run for Both Interactive and Non-Interactive Sessions|Flow that is triggered in all sessions.|
 

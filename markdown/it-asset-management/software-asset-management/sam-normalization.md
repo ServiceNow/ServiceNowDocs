@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Software model normalization, software model normalization rule, software normalization statuses,]
-breadcrumb: [Software discovery and normalization, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software discovery and normalization, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software normalization

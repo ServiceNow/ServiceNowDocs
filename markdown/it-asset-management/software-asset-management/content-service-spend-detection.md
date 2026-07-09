@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Opt in to Content Service, Software Spend Detection, Software Asset Management, IT Asset Management]
+breadcrumb: [Opt in to Content Service, Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Content Service for Software Spend Detection

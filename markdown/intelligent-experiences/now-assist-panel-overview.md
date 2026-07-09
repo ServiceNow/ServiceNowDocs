@@ -17,7 +17,7 @@ With the Now Assist panel, you can get assistance from generative AI experiences
 
 You must fulfill the following conditions to use the Now Assist panel:
 
--   Next Experience must be enabled. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   Next Experience must be enabled. For more information, see .
 -   You must have the now\_assist\_panel\_user role.
 -   Your role must be applied to at least one active Now Assist skill to use skills in the Now Assist panel.
 

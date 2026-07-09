@@ -59,3 +59,8 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
     -   Case opened for customer
     -   Case resolved for customer
 
+**Related topics**  
+
+
+[Customer notification preferences]()
+

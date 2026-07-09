@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create multiple configurations
@@ -20,7 +20,7 @@ Role required:sales\_agent or sn\_ind\_tmt\_orm.order\_agent
 
 ## About this task
 
-If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the legacy product configurator. When creating multiple configurations of child offering, you can do the following:
+If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the product configurator. When creating multiple configurations of child offering, you can do the following:
 
 -   Change the quantity of a child offering that can have multiple configurations.
 -   Clone a child offering or split a child offering that has a quantity greater than 1.
@@ -102,5 +102,5 @@ Removes an existing child offering instance.
 8.  When you finish configuring the child offerings, select **Add** to add each configuration as a separate line item to your opportunity, quote, or order.
 
 
-**Parent Topic:**[Using the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md)
+**Parent Topic:**[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md)
 

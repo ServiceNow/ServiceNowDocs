@@ -25,7 +25,7 @@ The Now Assist context menu unlocks the power of generative AI and is available 
 -   Strategic Portfolio Management \(SPM\)
 -   IT Operations Management \(ITOM\)
 
-The Now Assist context menu isn’t available with Core UI.
+The Now Assist context menu isn't available for Core UI or in any Service Portal, whether you use custom or built-in skills.
 
 ## Using the Now Assist context menu
 
@@ -73,7 +73,7 @@ You can configure the Advanced filter to hide or show the Now Assist Context Men
 
     \[Omitted image "insert-nacm-ai-text.png"\] Alt text: Insert the AI generated text into the Knowledge Base article.
 
-    For more information about generating Knowledge Base articles using the Now Assist context menu, see [Edit an article using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Now-Assist-generate-article-using-context-menu.md).
+    For more information about generating Knowledge Base articles using the Now Assist context menu, see .
 
 -   **Change Tone using Now Assist context menu**
 

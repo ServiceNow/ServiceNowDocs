@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure picklist extensions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure picklist extensions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Creating an associated picklist set
@@ -58,7 +58,7 @@ Note that picklist extension fields can also be used as the associated picklist.
 
 ## Example: A complex rule
 
-The customer has 100 different fees that could be applied to the configuration. To determine the value of these fees, each fee is calculated using a complex formula. Each fee is only be applied once. The formula is the same for all fees. The customer does the following in CPQ:
+The customer has 100 different fees that could be applied to the configuration. To determine the value of these fees, each fee is calculated using a complex formula. Each fee is only be applied once. The formula is the same for all fees. The customer does the following in ServiceNow CPQ:
 
 -   Creates a multi-select picklist field called Fees with 100 field options \(one for each fee\)
 -   Creates an associated picklist set and selects Fees as the associated picklist

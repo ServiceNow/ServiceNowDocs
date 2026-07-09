@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing and Procurement Operations and Employee Center integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Raise a general inquiry for procurement

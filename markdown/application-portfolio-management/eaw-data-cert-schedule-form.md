@@ -1,18 +1,18 @@
 ---
 title: Schedule form
-description: Learn about the fields of the Schedule form. Use this form to define the timing and frequency for executing the certification task.
+description: Timing and frequency settings for running the certification task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-schedule-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-03"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Schedule form
 
-Learn about the fields of the Schedule form. Use this form to define the timing and frequency for executing the certification task.
+Timing and frequency settings for running the certification task.
 
 <table id="table_yxp_gsr_dzb"><thead><tr><th>
 
@@ -63,6 +63,17 @@ Start day and time
 </td><td>
 
 Date and time of first run of the policy.
+
+</td></tr><tr><td>
+
+Run policy scheduled job as
+
+</td><td>
+
+User account that the scheduled job impersonates when it runs the certification policy. The list displays only users who have been granted the **Run as** privilege for scheduled jobs. If the list is empty, ask your system administrator to assign the required privilege to the appropriate user accounts. **Note:**
+
+-   The base system provides an out-of-box service account named DataManager Job Runner for this purpose. Using a dedicated service account rather than a personal user account helps ensure that certification tasks run consistently even if individual user accounts are deactivated. For more information, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-cmdb-data-manager.md).
+-   To run certification policies on tables that are not rooted in the CMDB, the service account in this field must have the **sn\_apm.apm\_analyst** role. Without this role, the scheduled job does not create certification tasks for non-CMDB tables. If you are using the out-of-box DataManager Job Runner account, ask your system administrator to assign the **sn\_apm.apm\_analyst** role to that account.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)

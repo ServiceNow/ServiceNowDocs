@@ -14,7 +14,7 @@ breadcrumb: [Workflow Data Fabric]
 
 Power your AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise using the ServiceNow® Zero Copy Connectors application.
 
-Zero Copy Connectors overview video, approximately 3 minutes and 15 seconds long. 
+\[Omitted video\] Description: Zero Copy Connectors overview video, approximately 3 minutes and 15 seconds long.
 
 Watch this short video to learn more about the Zero Copy Connectors application.
 

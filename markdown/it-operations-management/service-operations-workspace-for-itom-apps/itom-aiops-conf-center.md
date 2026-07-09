@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuring SOW for ITOM, Service Operations Workspace for ITOM, IT
 
 The ITOM AIOps configuration center is a centralized hub to manage AIOps settings. It helps you integrate monitoring tools, optimize alerts, metrics, and logs, manage services, dashboards, teams, and authorization—streamlining event-to-response workflows for better visibility, noise reduction, and operational efficiency.
 
-You can access ITOM AIOps configuration center by navigating to **Workspaces** &gt; **Service Operations Workspace** and then selecting the ITOM AIOps configuration center icon \(\[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon\) that is available at the bottom of the left navigation pane.
+You can access ITOM AIOps configuration center by navigating to **Workspaces** &gt; **Service Operations Workspace** and then selecting the AIOps configuration icon \(\[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon\) that is available at the bottom of the left navigation pane.
 
 The ITOM AIOps configuration center page appears. On the ITOM AIOps configuration center page, under the **Optimize** &gt; **Dashboards** section, select the dashboard.
 

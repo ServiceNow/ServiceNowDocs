@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -138,6 +138,8 @@ Actual project costs come after you create expense lines for cost plans or after
 The Project management application supports two types of external dependencies - hard and soft.
 -   **[Project and portfolio funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectAndPortfolioFunding.md)**  
 Specify the amount of money that projects and portfolios are allowed to have.
+-   **[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-schedules-tasks.md)**  
+Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling. Project scheduling calculates task start and finish dates based on the project start date, task dependencies, constraints, and task duration in forward scheduling mode.
 
 **Parent Topic:**[Exploring Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/exploring-project-management.md)
 

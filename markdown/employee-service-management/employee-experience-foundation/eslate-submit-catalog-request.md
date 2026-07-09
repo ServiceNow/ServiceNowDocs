@@ -1,6 +1,6 @@
 ---
 title: Create a catalog request from chat
-description: Order goods and services by submitting a catalog request from the chat. Describe your need in plain language and review the catalog item that the assistant identifies.
+description: Order goods and services by submitting a catalog request from chat. Enter your request in plain language and review the matched catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-04-26"
 reading_time_minutes: 1
 keywords: [catalog request, conversational catalog, split view, order checkout]
-breadcrumb: [Chat assistance for catalog and knowledge, Employee Slate home, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Chat assistance for catalog and knowledge, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Create a catalog request from chat
 
-Order goods and services by submitting a catalog request from the chat. Describe your need in plain language and review the catalog item that the assistant identifies.
+Order goods and services by submitting a catalog request from chat. Enter your request in plain language and review the matched catalog item.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: Employee
 
 ## About this task
 
-Using the conversational interface, employees select items, fill out forms, submit requests, initiate a workflow, and track approvals and fulfillment. The chat resolves a plain-language request to a matching catalog item. It opens the catalog form in a split view. You complete the request without leaving the conversation.
+Using the conversational interface, employees select items, fill out forms, submit requests, start workflows, and track approvals and fulfillment. The chat resolves a plain-language request to a matching catalog item. It opens the catalog form in a **split view**. You complete the request without leaving the conversation.
 
 ## Procedure
 
@@ -41,9 +41,9 @@ Using the conversational interface, employees select items, fill out forms, subm
 
     Select a citation to open the source panel and confirm that the item matches your requirements.
 
-3.  Select the catalog item to open the form in the split view.
+3.  Select the catalog item to open the form in the **split view**.
 
-    The catalog form opens in the content panel alongside the conversation panel. Ask follow-up questions or add items in the conversation while you complete the form.
+    The catalog form opens in the **content panel** alongside the **conversation panel**. Ask follow-up questions or add items in the conversation while you complete the form.
 
 4.  Complete the required fields in the catalog form and select **Order Now**.
 
@@ -52,5 +52,5 @@ Using the conversational interface, employees select items, fill out forms, subm
 
 ## Result
 
-The request submits through the conversational flow. The submitted request appears as a link in the chat response and in the **Everything Else** tab of Tasks and requests. Track status from either location and receive notifications when the status changes.
+The request submits through the conversational flow. The submitted request appears as a link in the chat response and in the **Everything Else** tab of **Tasks and requests**. Track status from either location and receive notifications when the status changes.
 

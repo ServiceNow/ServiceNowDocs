@@ -14,7 +14,7 @@ breadcrumb: [Grants Management reference, Reference, Public Sector Digital Servi
 
 Budget categories.
 
-By default, Grants Management comes with these categories. To configure these and add more, see .
+By default, Grants Management comes with these categories. To configure these and add more, see [Configure budget categories in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-budget-cat.md).
 
 |Budget Category| |
 |---------------|---|

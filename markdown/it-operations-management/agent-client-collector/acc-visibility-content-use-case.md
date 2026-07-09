@@ -1,6 +1,6 @@
 ---
-title: Agent Client Collector for Visibility - Content use case
-description: The Agent Client Collector for Visibility - Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
+title: Agent Client Collector for Visibility Content use case
+description: The Agent Client Collector for Visibility Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-visibility-content-use-case.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Agent Client Collector for Visibility - Content use case
+# Agent Client Collector for Visibility Content use case
 
-The Agent Client Collector for Visibility - Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
+The Agent Client Collector for Visibility Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
 
 ## Use case overview
 
@@ -28,7 +28,7 @@ A leading financial organization needed to overcome the limitations of tradition
 
 ## Solutions
 
-To address these challenges, the financial organization implemented Agent Client Collector for Visibility - Content \(ACC-VC\) as part of its ITOM strategy.
+To address these challenges, the financial organization implemented Agent Client Collector for Visibility Content \(ACC-VC\) as part of its ITOM strategy.
 
 -   Agent-based data collection for secure environments: Agents were deployed on restricted and high-security systems, enabling:
     -   Secure, outbound communication without violating firewall policies.

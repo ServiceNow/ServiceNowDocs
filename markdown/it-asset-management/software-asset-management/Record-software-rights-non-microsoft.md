@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Create entitlements in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create maintenance entitlements in Software Asset Management classic
@@ -73,5 +73,5 @@ Role required: sam\_admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
 

@@ -1,29 +1,29 @@
 ---
-title: ACL rule types
-description: Create ACL rules on different components of the system.
+title: ACL types
+description: Create ACLs on different components of the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/acl-rule-types.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Explore Access Control Lists, Access Control List Rules, Access Management]
+last_updated: "2026-06-23"
+reading_time_minutes: 4
+breadcrumb: [Explore Access Control Lists, Access Control Lists, Access Management]
 ---
 
-# ACL rule types
+# ACL types
 
-Create ACL rules on different components of the system.
+Create ACLs on different components of the system.
 
-## Record ACL rules
+## Record ACLs
 
-Record ACL rules consist of table and field names.
+Record ACLs consist of table and field names.
 
--   The table name is the table that you want to secure. If other tables extend from this table, then the table is considered a parent table. ACL rules for parent tables apply to any table that extends the parent table.
--   The field name is the field that you want to secure. Some fields are part of multiple tables because of table extension. ACL rules for fields in a parent table apply to any table that extends the parent table.
+-   The table name is the table that you want to secure. If other tables extend from this table, then the table is considered a parent table. ACLs for parent tables apply to any table that extends the parent table.
+-   The field name is the field that you want to secure. Some fields are part of multiple tables because of table extension. ACLs for fields in a parent table apply to any table that extends the parent table.
 
-ACL rules can secure the following record operations:
+ACLs can secure the following record operations:
 
 <table id="table_scf_z22_2r"><thead><tr><th>
 
@@ -170,41 +170,41 @@ data\_fabric
 Allows a data fabric table to reference a local table.
 
 </td></tr></tbody>
-</table>Record ACL rules are processed in the following order:
+</table>Record ACLs are processed in the following order:
 
--   Match the object against table ACL rules.
--   Match the object against field ACL rules.
+-   Match the object against table ACLs.
+-   Match the object against field ACLs.
 
-This processing order ensures that users gain access to more specific objects before gaining access to more general objects. A user must pass both table and field ACL rules to access a record object.
+This processing order ensures that users gain access to more specific objects before gaining access to more general objects. A user must pass both table and field ACLs to access a record object.
 
--   If a user fails a table ACL rule, the user is denied access to all fields in the table, even if the user passes a field ACL rule.
--   If a user passes a table ACL rule, but fails a field ACL rule, the user cannot access the field described by the field ACL rule.
+-   If a user fails a table ACL, the user is denied access to all fields in the table, even if the user passes a field ACL.
+-   If a user passes a table ACL, but fails a field ACL, the user cannot access the field described by the field ACL condition.
 
 \[Omitted image "acl-matching.png"\] Alt text: ACL matching
 
-## Processor ACL rules
+## Processor ACLs
 
-Processor ACL rules specify the processor you want to secure. For a list of available processors, navigate to **System Definition** &gt; **Processors**.
+Processor ACLs specify the processor you want to secure. For a list of available processors, navigate to **System Definition** &gt; **Processors**.
 
-By default, an ACL rule for the EmailClientProcessor is included to restrict the email client to users with the itil role.
+By default, an ACL for the EmailClientProcessor is included to restrict the email client to users with the itil role.
 
-Processor ACL rules honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources.
+Processor ACLs honor the STAR \(\*\) rule if they can't find a more specific ACL for those resources.
 
-## Table ACL rules
+## Table ACLs
 
-The user must first pass the table ACL rule. Since the base system includes STAR \(\*\) table ACL rules that match every table, the user must always pass at least one table ACL rule. The base system provides additional table ACL rules to control access to specific tables.
+The user must first pass the table ACL. Since the base system includes STAR \(\*\) table ACLs that match every table, the user must always pass at least one table ACL. The base system provides additional table ACLs to control access to specific tables.
 
-Table ACL rules are processed in the following order:
+Table ACLs are processed in the following order:
 
 1.  Match the table name. For example, incident.
 2.  Match the parent table name. For example, task.
 3.  Match any table name \(\*\). For example, \*.
 
-If a user fails all table ACL rules, the user cannot access any fields in the table. If a user passes a table ACL rule, the system then evaluates the field ACL rules.
+If a user fails all table ACLs, the user cannot access any fields in the table. If a user passes a table ACL, the system then evaluates the field ACLs.
 
-## Field ACL rules
+## Field ACLs
 
-After a user passes a table ACL rule, field ACL rules are processed in the following order:
+After a user passes a table ACL, field ACLs are processed in the following order:
 
 1.  Match the table and field name. For example, incident.number.
 2.  Match the parent table and field name. For example, task.number.
@@ -213,31 +213,31 @@ After a user passes a table ACL rule, field ACL rules are processed in the follo
 5.  Match the parent table and any field \(\*\). For example, task.\*.
 6.  Match any table \(\*\) and any field \(\*\). For example, \*.\*.
 
-A user must pass the table ACL rule to be granted access to the table's fields. For example, the user must first pass the table ACL rule for the incident table to access the **Number** field in the incident table.
+A user must pass the table ACL to be granted access to the table's fields. For example, the user must first pass the table ACL for the incident table to access the **Number** field in the incident table.
 
-The first successful field ACL evaluation stops ACL rule processing at the field level. When a user passes a field ACL rule, the system stops searching for other matching field ACL rules. For example, if a user passes the field ACL rule for incident.number, the system stops searching for other ACL rules that secure the **Number** field in the incident table.
+The first successful field ACL evaluation stops ACL processing at the field level. When a user passes a field ACL, the system stops searching for other matching field ACLs. For example, if a user passes the field ACL for incident.number, the system stops searching for other ACLs that secure the **Number** field in the incident table.
 
 Access to query information of inferred data is restricted for protected fields, therefore preventing return of predictive information.
 
-## UI page ACL rules
+## UI page ACLs
 
-UI page ACL rules specify the UI page to be secured. For a list of available UI pages, navigate to **System UI** &gt; **UI Pages**. When defining an ACL rule for a UI page, use the fully scoped page name. For example, **x\_myapp\_mypage**.
+UI page ACLs specify the UI page to be secured. For a list of available UI pages, navigate to **System UI** &gt; **UI Pages**. When defining an ACL for a UI page, use the fully scoped page name. For example, **x\_myapp\_mypage**.
 
 **Note:** You can use the STAR \(\*\) character in the **Name** field on **ui\_page** type ACLs to match any UI pages.
 
-UI page ACL rules honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources. For example, if you have a UI page named `mysecretpage` but do not define an ACL for this UI page, the STAR \(\*\) rule for the UI page processor is used for access check.
+UI page ACLs honor the STAR \(\*\) rule if they can't find a more specific ACL for those resources. For example, if you have a UI page named `mysecretpage` but don't define an ACL for this UI page, the STAR \(\*\) rule for the UI page processor is used for access check.
 
-ACL rules can secure the following UI page operation:
+ACLs can secure the following UI page operation:
 
 |Operation|Description|
 |---------|-----------|
 |read|Allows users to display the UI page.|
 
-## Client-callable script include ACL rules
+## Client-callable script include ACLs
 
-Script include ACL rules specify the client-callable script include to be secured. For a list of available script includes, navigate to **System Definition** &gt; **Script Includes**. You can personalize the list to show the Client callable column.
+Script include ACLs specify the client-callable script include to be secured. For a list of available script includes, navigate to **System Definition** &gt; **Script Includes**. You can personalize the list to show the Client callable column.
 
-The base system does not include any ACL rules for client-callable script includes.
+The base system does not include any ACLs for client-callable script includes.
 
-Client-callable script include ACL rules honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources.
+Client-callable script include ACLs honor the STAR \(\*\) rule if they cannot find a more specific ACL for those resources.
 

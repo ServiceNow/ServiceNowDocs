@@ -37,7 +37,7 @@ Role required: agent\_workspace\_user
 
 3.  Click an article link.
 
-4.  In the **Scheduled publish date** field, click the show calendar icon \(\[Omitted image "show-calendar.png"\] Alt text: Show calendar icon\).
+4.  In the **Scheduled publish date** field, click the show calendar icon.
 
 5.  Select any future date in the calendar.
 

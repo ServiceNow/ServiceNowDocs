@@ -1,5 +1,5 @@
 ---
-title: Managing user criteria for event types in Workforce Optimization for Customer Service
+title: Managing user criteria for event types
 description: Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.Add a user criteria record to specify which users, roles, and groups can access event types in Workforce Optimization for Customer Service.Add or remove access to users for any event type so that they can view event types that are relevant only to them.​Check what create, read, update, and delete rights your groups or your team members have for events to make sure that they have the correct permissions that they need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/und-user-criteria-event-types.html
@@ -10,7 +10,7 @@ reading_time_minutes: 6
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Managing user criteria for event types in Workforce Optimization for Customer Service
+# Managing user criteria for event types
 
 Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 
@@ -89,15 +89,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d238506e442">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d240083e440">
 
 To
 
-</th><th align="left" id="d238506e445">
+</th><th align="left" id="d240083e443">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d238506e451">
+</th></tr></thead><tbody><tr><td id="d240083e449">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -116,7 +116,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d238506e508">
+</td></tr><tr><td id="d240083e506">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 
@@ -162,15 +162,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d238506e696">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d240083e694">
 
 To
 
-</th><th align="left" id="d238506e699">
+</th><th align="left" id="d240083e697">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d238506e705">
+</th></tr></thead><tbody><tr><td id="d240083e703">
 
 **Verify user access for all your groups**
 
@@ -178,7 +178,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d238506e717">
+</td></tr><tr><td id="d240083e715">
 
 **Specific groups and team members**
 

@@ -42,7 +42,7 @@ Role required: admin
 
     1.  Enter the latitude and longitude coordinates directly in the provided fields.
 
-    2.  Click on the interactive map to automatically populate the coordinates.
+    2.  Select a location on the interactive map to automatically populate the coordinates.
 
 8.  Select **Next**.
 
@@ -84,7 +84,7 @@ Role required: admin
 
     2.  To add multiple IP Addresses to ignore, select the Add Multiple IP Addresses icon \[Omitted image "add-multiple.png"\] Alt text:, and enter or paste the IP addresses separated by commas.
 
-        **Note:** You cannot include and ignore the same IP address. If you attempt to do so, the system displays an error.
+        **Note:** You can't include and ignore the same IP address. If you attempt to do so, the system displays an error.
 
 16. Include network zones:
 
@@ -98,7 +98,7 @@ Role required: admin
 
     2.  Select one of the Network Zones from the drop-down menu.
 
-    **Note:** The Discovery Console for OT automatically prevents conflicts. When you add a zone to the Include list, it becomes unavailable in the Ignore list, and vice versa. This ensures that each zone is assigned to only one list.
+    **Note:** The Discovery Console for OT automatically prevents conflicts. When you add a zone to the Include list, it is set to unavailable in the Ignore list, and vice versa. This confirms that each zone is assigned to only one list.
 
 18. If you want to prevent overlapping IP address ranges, select the **Prevent Range Overlap** toggle.
 
@@ -106,9 +106,9 @@ Role required: admin
 
 19. On the Sensors page, select Sensor by checking a box next to their name.
 
-    You can select Sensors in the Allow and Deny sections; but do not select the same Sensor in both sections.
+    You can select Sensors in the Allow and Deny sections; but don't select the same Sensor in both sections.
 
-    \[Omitted image "sensors-allow-deny-site.png"\] Alt text: Allow deny Sensors
+    \[Omitted image "sensors-allow-deny-site.png"\] Alt text: Allow or Deny Sensors
 
     **Note:** Sensors are online when the circle next to their name is green. A yellow circle indicates Sensors that are offline.
 

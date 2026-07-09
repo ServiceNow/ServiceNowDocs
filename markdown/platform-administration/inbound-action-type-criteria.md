@@ -14,7 +14,7 @@ breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core
 
 Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
-\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
+\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forwards, reply, or new based on subject line, record matching, and email headers
 
 If you customize or deactivate the default inbound actions, the conditions of the active inbound actions are checked. If an inbound action with matching conditions cannot be found, the state is set to Processed.
 

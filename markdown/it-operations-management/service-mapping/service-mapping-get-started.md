@@ -34,7 +34,7 @@ Service instance maps show infrastructure objects and semantic connections betwe
 
 ## How does Service Mapping work
 
-Service Mapping can deploy different methods for creating application services. The main method of Service Mapping discovering and mapping devices and applications is using patterns. A pattern is a sequence of operations whose purpose is to detect attributes of devices and applications and their outbound connections. If your organization uses tags for asset management, you can use these tags to map service instances. Service Mapping can also discover devices and applications by following traffic connections between them. This method is referred to as traffic-based mapping. For more information, see [Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
+Service Mapping can deploy different methods for creating application services. The main method of Service Mapping discovering and mapping devices and applications is using patterns. A pattern is a sequence of operations whose purpose is to detect attributes of devices and applications and their outbound connections. If your organization uses tags for asset management, you can use these tags to map service instances. Service Mapping can also discover devices and applications by following traffic connections between them. This method is referred to as traffic-based mapping. For more information, see [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
 
 ## What to know before you begin
 
@@ -52,7 +52,7 @@ Service Mapping supports domain separation. If your ServiceNow AI Platform uses 
 
 To view a list of Service Mapping plugin dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 
--   **[Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)**  
+-   **[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)**  
 Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 -   **[Discovery of application services on cloud using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/cloud-discovery-service-mapping.md)**  
 Service Mapping in cloud environments provides critical visibility into application dependencies and connections. By identifying how different application components interact within IaaS and PaaS environments, your organization can gain better insight into its application services and improve overall service management.

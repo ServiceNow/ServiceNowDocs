@@ -8,8 +8,8 @@ product: Service Mapping
 classification: service-mapping
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-keywords: [Service Mapping Plus]
+reading_time_minutes: 2
+keywords: [Service Mapping Plus, CSDM, business context]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -57,11 +57,60 @@ Role required: service\_mapping\_admin
 
     7.  Review the "Selected services" panel and remove service instances if needed.
 
-        Note that the "Delete service" button is for removing the entire unified service.
+        The "Delete service" button is for removing the entire unified service.
 
     8.  Select **Next** when your list of services in the "Selected services" panel is final.
 
-    9.  Review the service details and select **Update**.
+6.  Enrich your service by linking it to its business context.
+
+    Provide the business and operational details that connect this service to the rest of your organization. These details help drive visibility and reporting.
+
+    1.  Set relationships and connect this service to its CSDM components.
+
+        All three fields are optional. Leaving any or all fields empty is valid and does not prevent you from proceeding to the next step.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Business application
+
+</td><td>
+
+Search for and select a business application. This field allows you to link your service instance to the business application it supports.
+
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+
+</td></tr><tr><td>
+
+Parent service
+
+</td><td>
+
+Search for and select a parent application service. Use this field to establish hierarchical relationships and build logical context for your service instance.
+
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+
+</td></tr><tr><td>
+
+Business service offerings
+
+</td><td>
+
+Business service offerings represent specific workflows or solutions that are delivered through business services.
+
+ Select one or more business service offerings. Multiple selections allowed. Selected offerings appear as removable tags.
+
+</td></tr></tbody>
+</table>    2.  Select **Next**.
+
+7.  Review the service details and select **Update**.
 
     Your unified service is updated.
 

@@ -28,15 +28,15 @@ For a custom record producer, if no documents are attached while submitting the 
 
 1.  Open the third-party contract review request.
 
-<table id="d9019e52"><thead><tr><th align="left" id="d255408e65">
+<table id="d9139e52"><thead><tr><th align="left" id="d255973e65">
 
 Method
 
-</th><th align="left" id="d255408e68">
+</th><th align="left" id="d255973e68">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d255408e74">
+</th></tr></thead><tbody><tr><td id="d255973e74">
 
 **Using Legal Service Portal**
 
@@ -49,7 +49,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d255408e123">
+</td></tr><tr><td id="d255973e123">
 
 **Employee Center**
 
@@ -65,15 +65,15 @@ Action
 </td></tr></tbody>
 </table>2.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d255408e180">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d255973e180">
 
 Method
 
-</th><th align="left" id="d255408e183">
+</th><th align="left" id="d255973e183">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d255408e189">
+</th></tr></thead><tbody><tr><td id="d255973e189">
 
 **__Choose a file__**
 
@@ -83,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d255408e214">
+</td></tr><tr><td id="d255973e214">
 
 **__Drag file__**
 
@@ -91,7 +91,7 @@ Actions
 
 Drag files from your local computer into your browser window to attach them to the current record.
 
-</td></tr><tr><td id="d255408e224">
+</td></tr><tr><td id="d255973e224">
 
 **Copy and paste clipboard files**
 
@@ -106,15 +106,15 @@ Drag files from your local computer into your browser window to attach them to t
 
 3.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d255408e254">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d255973e254">
 
 Classification
 
-</th><th align="left" id="d255408e257">
+</th><th align="left" id="d255973e257">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d255408e263">
+</th></tr></thead><tbody><tr><td id="d255973e263">
 
 **Contract document**
 
@@ -127,7 +127,7 @@ Only active contract types are displayed in the list.
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d255408e289">
+</td></tr><tr><td id="d255973e289">
 
 **Supporting document**
 

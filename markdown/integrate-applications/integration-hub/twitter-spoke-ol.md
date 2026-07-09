@@ -64,9 +64,9 @@ Tweets a message or media. Messages and media are tweeted as per X limits.**Note
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Spokes and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Spokes and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
-The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see .
 
 Available AI agents include:
 

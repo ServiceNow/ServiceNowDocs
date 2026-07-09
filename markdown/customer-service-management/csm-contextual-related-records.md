@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-contextual-related-records.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-30"
 reading_time_minutes: 3
 breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -23,8 +23,6 @@ Different types of agents can use dynamic related records to see different infor
 -   A back-office agent can view emails for a selected playbook activity.
 
 To view related records, click the Related Records tab in the Contextual side panel in CSM Configurable Workspace. Records appear in the Related Records list as read-only cards.
-
-\[Omitted image "csm-playbook-related-records-tab.png"\] Alt text: Tab that displays record cards with brief descriptions of recent cases relevant to the current record or playbook task.
 
 ## Configuring dynamic related records
 

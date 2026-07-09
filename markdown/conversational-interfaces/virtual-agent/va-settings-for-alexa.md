@@ -16,7 +16,7 @@ breadcrumb: [Configure Conversational Integration with Alexa, Conversational Int
 
 Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
 
--   Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+-   Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
     **Note:** Be sure that you specify Alexa as the applicable channel in the **Additional channel support** field if you want the topics that you designed using the Virtual Agent Designer to work on Alexa. For more information about the channel selection, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
 

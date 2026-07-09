@@ -1,20 +1,20 @@
 ---
-title: Availability
-description: The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
+title: View instance-level availability
+description: The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-availability.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Availability
+# View instance-level availability
 
-The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
+The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
 
-## Instance Availability
+## Instance availability
 
 1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Go to Instance Observer**.
 2.  Select **Availability** tab and click **Instance Availability** value.
@@ -41,5 +41,5 @@ A problem or defect of an instance that requires proactive mitigation is listed 
 -   **[Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/cloud-availability.md)**  
 Check specific ServiceNow data center availability, service degradation, or for interruption.
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Create an AI connection for Azure AI Foundry
-description: Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+title: Create an AI connection for Azure AI Foundry \(v2.0.1\)
+description: Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-azure-foundry.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Create an AI connection for Azure AI Foundry
+# Create an AI connection for Azure AI Foundry \(v2.0.1\)
 
-Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
 
 ## Before you begin
 
@@ -49,7 +49,7 @@ For each agent discovered across all three variants, the connector collects:
 
 2.  Click **Add**.
 
-3.  Select **AI connector for Microsoft** from all the available connectors.
+3.  Select **AI connector for Microsoft** from the available connectors.
 
 4.  Click **Create connection**.
 
@@ -67,11 +67,11 @@ For each agent discovered across all three variants, the connector collects:
 
     1.  Enter the **Connection Name**
 
-    2.  Enter the **Region URL**
+    2.  Enter the **Regions**
 
-        **Note:** The region field is optional. If the field is empty, it will discover for all the region or If you can give comma- separated value of regions \(e.g., eastus, westus2\).
+        **Note:** The region field is optional. If the field is empty, it will discover for all the region or If you can give comma- separated value of regions \(examples: eastus, westus2\).
 
-    3.  Enter the **OAuth client ID**OAuth client ID
+    3.  Enter the **OAuth client ID**
 
     4.  Enter the **OAuth client secret**
 
@@ -87,7 +87,7 @@ For each agent discovered across all three variants, the connector collects:
 
     1.  Enter the **Connection Name**
 
-    2.  Enter the **Connection URL** \(https://&lt;resource-name&gt;services.ai.azure.com\)
+    2.  Enter the **Connection URL** \(example: https://&lt;resource-name&gt;services.ai.azure.com\)
 
         **Note:** To obtain the resource name, make sure that you're on New Foundry \(Enable the New Foundry toggle\) and select the project. Once you're on the home page, look for the Project endpoint to view the resource name.
 
@@ -105,16 +105,20 @@ For each agent discovered across all three variants, the connector collects:
 
         Ensure to execute the Discovery-scheduled job first.
 
-    2.  Select **Execute now** to run
+    2.  Select Run according to your preference
+
+    3.  To run frequency by demand, select **Execute Now**.
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    3.  Select **Continue**
+    4.  Select **Continue**
 
-    4.  Select **View all connections** to view the newly created connection
+12. Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Azure AI Foundry is created and configured.
 

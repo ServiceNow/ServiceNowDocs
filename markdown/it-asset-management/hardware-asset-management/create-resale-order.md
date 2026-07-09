@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [hardware asset resale, resell retired assets]
-breadcrumb: [Create a disposal order, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Create a disposal order, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Resale hardware assets

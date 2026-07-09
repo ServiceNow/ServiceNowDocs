@@ -47,7 +47,7 @@ By default, the To-dos list sorts by AI prioritization. Items that need immediat
 
 -   The assistant evaluates urgency, due dates, business impact, and dependencies to rank items.
 -   Consumption details are available in the `sn_ex_ai_portal_to_do_activities` table with scores for each task.
--   The daily execution cap is defined in the `smartpriority_daily_assist_consumption_limit` system property.
+-   The `smartpriority_daily_assist_consumption_limit` system property defines the daily execution cap.
 -   Logs are available in the `sys_generative_ai_log_list` table. Search by the skill name to view the reasoning behind a particular task score.
 
 **Note:** When you exhaust the daily execution cap, the skill stops running for the rest of the day. The default is 3,000 executions per day. Administrators can increase the consumption limit based on usage.
@@ -57,13 +57,13 @@ By default, the To-dos list sorts by AI prioritization. Items that need immediat
 For approval items, Now Assist analyzes the approval request. It surfaces a checklist of the conditions that apply to the decision. The insights highlight:
 
 -   Conditions that the request meets based on associated knowledge articles and policies such as keyword, body text, short description, or meta description.
--   Conditions that the request doesn't meet or that need review.
+-   Conditions that the request doesn't meet or that require review.
 
 AI-generated insights may not reflect every relevant policy condition. Verify AI-generated insights against authoritative policy sources before making approval decisions.
 
 ## Conversational filters and chat-driven actions
 
-Access all your tasks, approvals, and requests from a unified space Employee Slate. You can view, track, and act on pending tasks, approvals, and open requests across enterprise systems. These systems include HR approvals, IT tasks, learning content, and surveys.
+Access all your tasks, approvals, and requests from a unified space, Employee Slate. You can view, track, and act on pending tasks, approvals, and open requests across enterprise systems. These systems include HR approvals, IT tasks, learning content, and surveys.
 
 -   Apply a filter by asking the chat to narrow the items, for example by overdue status or by request type.
 -   Clear filters by asking the chat to reset the view.

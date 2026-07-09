@@ -1,5 +1,5 @@
 ---
-title: Install the Discovery Console for OT
+title: Install the Discovery Console for Operational Technology \(OT\)
 description: Install the Service Graph Connector for OT Discovery before accessing the Discovery for OT packages. You must also install a Linux distribution on the same machine the Discovery Console for OT is installed on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-discovery-console-ot.html
@@ -10,13 +10,13 @@ reading_time_minutes: 3
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Install the Discovery Console for OT
+# Install the Discovery Console for Operational Technology \(OT\)
 
 Install the Service Graph Connector for OT Discovery before accessing the Discovery for OT packages. You must also install a Linux distribution on the same machine the Discovery Console for OT is installed on.
 
 ## Before you begin
 
-Role required: user
+Role required: admin
 
 ## About this task
 
@@ -31,7 +31,7 @@ Important when setting up your VM environment:
     **Note:** Be sure you have set this correctly; otherwise, MongoDB may crash when you attempt to restart the VM.
 
 -   Allocate 16 GB RAM for the Linux installation.
--   The OT Discovery Console requires a minimum of 100 GB of storage. Increase the storage based on Deep packet capture inspection requirements. See  or [Operational Technology Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) for information on storage requirements.
+-   The OT Discovery Console requires a minimum of 100 GB of storage. Increase the storage based on Deep packet capture inspection requirements. See [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) for information on storage requirements.
 -   You must be on a VM to access images in the Discovery Console for OT.
 
 ## Procedure
@@ -46,7 +46,7 @@ Important when setting up your VM environment:
 
 4.  Select **Configure** and the **Downloads** page opens.
 
-    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
+    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Discovery Downloads page
 
     **Note:** For information on downloading and installing the containerized Console and Collector packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
@@ -120,7 +120,7 @@ Important when setting up your VM environment:
 
 ## Result
 
-The installation for the Discovery Console for OT is complete. Before you install the Discovery Sensor for OT package, install the Discovery Console for OT certificate.
+The installation for the Discovery Console for OT is complete. Before you install the Discovery Sensor for OT package, install the Discovery Console for OT certificate. See [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md).
 
 **Note:** If you encounter any errors, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 

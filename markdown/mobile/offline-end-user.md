@@ -18,6 +18,8 @@ Plan ahead when you use offline mode. If you're working in an area with no inter
 
 When you're in offline mode, the changes that you make to your records are logged in your outbox. Your outbox tracks all the actions that you made on your cached records. After your device has internet access, you can synchronize your device with the instance. The cached changes in your outbox update to the instance.
 
+For information on configuring mobile offline, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
+
 ## Enable offline mode
 
 Enable offline mode in your **Settings** tab. Tap **Offline** and then toggle on **Offline Mode**.

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Hermes Messaging Service release notes
@@ -18,6 +18,7 @@ The ServiceNow® Hermes Messaging Service application enables you to integrate y
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
 -   Manage Hermes configuration properties and background jobs from the Hermes Settings page.
+-   Protect message data on broker disks with encryption at rest, with support for customer-supplied keys.
 
 See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md) for more information.
 
@@ -39,9 +40,13 @@ See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
--   **Hermes Settings page**
+-   **[Hermes Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c-hermes-settings.md)**
 
     Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
+
+-   **Encryption at rest for Hermes topics**
+
+    Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 
 
 ## Activation information

@@ -57,3 +57,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+

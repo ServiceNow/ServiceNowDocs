@@ -51,6 +51,8 @@ Checklists, as well as tasks, are copied into a project template. You also have 
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
 
 [Save a checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_SaveAChecklistAsATemplate.md)

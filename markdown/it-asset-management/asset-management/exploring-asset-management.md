@@ -8,8 +8,8 @@ product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
 
 # Exploring Asset Management Workspace
@@ -40,5 +40,5 @@ The Asset Workspace contains the following views:
 
 If you’re upgrading to the Vancouver release, you must activate the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
 
-**Note:** After moving to Asset Management Workspace, you can still use the Asset Management classic. For more information, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AssetManagement.md).
+**Note:** After moving to Asset Management Workspace, you can still use the Asset Management classic. For more information, see [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AssetManagement.md).
 

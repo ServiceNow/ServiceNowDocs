@@ -38,9 +38,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** You can also launch the Add form elements panel by clicking the Add \(\[Omitted image "fb-add-icon.png"\] Alt text: Add icon.\) icon above an existing element in the form editor.
 
-4.  Select the **Annotation** elements, and then drag it to the location in the form editor where you'd like to position the annotation text as shown in the following example.
-
-    \[Omitted image "fb-annotation-drag.gif"\] Alt text: Add annotation.
+4.  Select the **Annotation** elements, and then drag it to the location in the form editor where you'd like to position the annotation text.
 
 5.  Select the **Annotation type**.
 
@@ -57,15 +55,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select an option for **Annotation text**.
 
-<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d271301e311">
+<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d271819e296">
 
 Annotation text option
 
-</th><th align="left" id="d271301e314">
+</th><th align="left" id="d271819e299">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d271301e320">
+</th></tr></thead><tbody><tr><td id="d271819e305">
 
 **Plain text**
 
@@ -73,7 +71,7 @@ Description
 
 Text that is entered renders on the form as plain text.
 
-</td></tr><tr><td id="d271301e329">
+</td></tr><tr><td id="d271819e314">
 
 **Rich text**
 

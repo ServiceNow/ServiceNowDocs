@@ -25,17 +25,17 @@ Canvas module is accessible from the side navigation menu and provides employees
 
 Canvas includes three default widgets:
 
--   **Calendar**
+-   **__Calendar__**
 
     Shows upcoming meetings with join buttons for direct access. Employees can open Outlook for detailed views and refresh the widget to pull in the latest meetings. Synchronization occurs based on administrator-configured intervals.
 
--   **My Requests**
+-   **__My Requests__**
 
     Displays all requests sorted by recently updated ones. Employees can view all requests or select individual items for more details.
 
--   **Featured Apps**
+-   **__Featured Apps__**
 
-    Shows an administrator-curated set of applications. Employees can navigate to a full-page My Applications experience to view all available apps, recently opened apps, and sort them alphabetically.
+    Shows an administrator-curated set of applications. Employees can go to a full-page My Applications experience to view all available apps, recently opened apps, and sort them alphabetically.
 
 
 ## Widget customization
@@ -43,7 +43,7 @@ Canvas includes three default widgets:
 Canvas supports the following customization capabilities:
 
 -   Widget addition: Employees can select the plus icon to select and add widgets from the administrator-provided library.
--   Widget resizing: Widgets can be resized to fit employee preferences and information density requirements.
+-   Widget resizing: Employees can resize widgets to fit their preferences and information density requirements.
 -   Widget arrangement: Employees can drag and position widgets anywhere on the canvas.
 -   Save changes: Employees can save their canvas configuration after making position and size adjustments.
 

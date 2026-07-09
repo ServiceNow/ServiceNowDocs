@@ -4,8 +4,9 @@ description: The ServiceNow Now Assist for Creator application includes generati
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-30"
-reading_time_minutes: 6
+last_updated: "2026-06-26"
+reading_time_minutes: 7
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 ---
 
 # Now Assist for Creator release notes
@@ -13,6 +14,10 @@ reading_time_minutes: 6
 The ServiceNow® Now Assist for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. Now Assist for Creator was enhanced and updated in the Australia release.
 
 ## Now Assist for Creator highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Prepare for Now LLM Service to be deprecated in a future release.
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
@@ -29,7 +34,7 @@ Australia early availability
 
 -   Create and update applications in ServiceNow Studio using Build Agent.
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
--   Learn how to vibe code using an AI-first approach to development in the new vibe coding documentation.
+-   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
 See  for more information.
 
@@ -42,6 +47,11 @@ Australia early availability
 -   To upgrade the Build Agent application, upgrade the Now Assist for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
 
 ## New in the Australia release
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[Upload brand guidelines to generate theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
@@ -62,8 +72,8 @@ Australia early availability
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   ****
@@ -74,9 +84,9 @@ Australia early availability
 
     Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **New vibe coding documentation**
+-   **New agentic development documentation**
 
-    Read new documentation that introduces vibe coding, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
+    Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 ## Changed in this release
@@ -147,7 +157,7 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     With the Australia release, the code autocomplete skill of the Now Assist for Code is available in the ServiceNow IDE.
 
--   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)**
+-   **Playbooks**
 
     ServiceNow® Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.
 

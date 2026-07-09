@@ -34,15 +34,15 @@ Configure additional fields that teams can use when setting up escalation trigge
 
     **Note:** Selecting fields not listed in the table might cause performance issues.
 
-<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d390583e110">
+<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d392610e110">
 
 Table
 
-</th><th align="left" id="d390583e113">
+</th><th align="left" id="d392610e113">
 
 Supported fields
 
-</th></tr></thead><tbody><tr><td id="d390583e119">
+</th></tr></thead><tbody><tr><td id="d392610e119">
 
 **em\_alert**
 
@@ -57,7 +57,7 @@ Supported fields
 -   Overall Event Count
 
 
-</td></tr><tr><td id="d390583e153">
+</td></tr><tr><td id="d392610e153">
 
 **incident**
 
@@ -80,7 +80,7 @@ Supported fields
 
 ## What to do next
 
-To set up an escalation trigger, see [Create an escalation trigger for an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md).
+To set up an escalation trigger, see [Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md).
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 

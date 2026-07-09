@@ -63,6 +63,8 @@ For more information, see [Configure the Employee Profile overview widget](https
 
 [Use Employee Center from Zoom]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

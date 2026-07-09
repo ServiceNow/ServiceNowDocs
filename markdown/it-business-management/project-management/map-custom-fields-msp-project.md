@@ -1,5 +1,5 @@
 ---
-title: Create custom field mapping for Microsoft Project file import
+title: Create custom field mapping for Microsoft Project import
 description: Map custom fields from Microsoft Project to ServiceNow fields before importing a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/map-custom-fields-msp-project.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create custom field mapping for Microsoft Project file import
+# Create custom field mapping for Microsoft Project import
 
 Map custom fields from Microsoft Project to ServiceNow fields before importing a project.
 

@@ -81,15 +81,15 @@ Supplier case summarization
 
 9.  Define the availability of the skill by selecting **Define Availability**, and then selecting one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d28912e387">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d118773e387">
 
 Option
 
-</th><th align="left" id="d28912e390">
+</th><th align="left" id="d118773e390">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28912e396">
+</th></tr></thead><tbody><tr><td id="d118773e396">
 
 **Skill is always available**
 
@@ -97,7 +97,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d28912e405">
+</td></tr><tr><td id="d118773e405">
 
 **Customize skill availability**
 

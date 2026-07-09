@@ -22,7 +22,7 @@ Any item that is provided as a service or sold to your customer is tracked as an
 
 -   **Synchronization between asset and IBI**
 
-    By default, the system syncs life-cycle values between asset and IBI using the CSDM **life cycle stage** and **life cycle stage status** life-cycle value pairs.
+    When the model category is configured as a product instance, the system synchronizes the life cycle values between asset and IBI using the CSDM **life cycle stage** and **life cycle stage status** life-cycle value pairs.
 
 -   **Synchronization between asset and CI**
 

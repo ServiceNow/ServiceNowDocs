@@ -55,7 +55,7 @@ CIs that have discovered tag values for the tag categories you selected become p
 
         Repeat this step until you add all tag key variants that your organization uses for the same purpose, for example **Env** and **Environment**.
 
-    **Note:** To see detailed examples of defining tag-based mapping criteria for service families, see [Example definitions for service families in tag-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.md).
+    **Note:** To see detailed examples of defining tag-based mapping criteria for service families, see [Tag-based mapping criteria examples for service families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.md).
 
 4.  Run Discovery to horizontally discover CIs. Discovery populates the CMDB with the CI data, including tags.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-a-calculated-metric-definition-formula.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -22,31 +22,31 @@ Roles required: sn\_esg.metric\_manager, or sn\_esg.program\_manager
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace**.
 
-2.  Select **List** &gt; **Metrics** &gt; **Calculated metric definitions**.
+2.  Select the List icon \(\[Omitted image "icon-lists.png"\] Alt text:\).
 
-3.  Open a calculated metric definition record.
+3.  In the **Lists** tab, select**Metrics** &gt; **Calculated metric definitions**.
 
-4.  Select **Formula builder** from the left panel.
+4.  Open a calculated metric definition record.
 
-5.  Select **Edit**.
+5.  Select **Formula** &gt; **Formula builder** from the navigation panel.
 
-6.  Make the required changes to the formula in the text field.
+6.  Select **Edit**.
 
-7.  Select **Save formula**.
+7.  Make the required changes to the formula in the text field.
 
-    The **Apply changes and save** dialog opens. The changes are applied to future data by default.
+8.  Select **Save formula**.
 
-8.  If you want to apply the changes to historical data, do the following.
+9.  In the **Apply changes and save** dialog box, apply the changes to historical data as well as future data.
 
     1.  Select the **Apply to historical data as well** check box.
 
-    2.  In the **Apply changes from** field, select a period.
+    2.  In the **Apply changes from** field, select a time period from the drop-down list.
 
-        All data records from the selected period onward are reset to Pending and recalculated using the updated formula.
+        All data records from the selected period onward will be reset to Pending and recalculated using the updated formula.
 
-9.  Enter any relevant notes in the **Type your comments here** field.
+10. Enter any relevant notes in the **Type your comments here** field.
 
-10. Select **Save**.
+11. Select **Save**.
 
 
 ## Result

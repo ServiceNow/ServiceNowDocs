@@ -1,18 +1,18 @@
 ---
 title: Create approval rules
-description: Define rules for approval workflows. An approval rule identifies the functional approver for the workflow, such as a Finance Manager or Operations Manager. The rule also associates approvers with the appropriate approval trigger conditions, and defines escalation details for reassiging an approvals to another approver for the rule, when the original approver can't action on the approval step for this rule.
+description: Define rules for approval workflows. An approval rule identifies the functional approver for the workflow, such as a Finance Manager or Operations Manager. The rule also associates approvers with the appropriate approval trigger conditions, and defines escalation details for reassigning approvals to another approver for the rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
-breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create approval rules
 
-Define rules for approval workflows. An approval rule identifies the functional approver for the workflow, such as a Finance Manager or Operations Manager. The rule also associates approvers with the appropriate approval trigger conditions, and defines escalation details for reassiging an approvals to another approver for the rule, when the original approver can't action on the approval step for this rule.
+Define rules for approval workflows. An approval rule identifies the functional approver for the workflow, such as a Finance Manager or Operations Manager. The rule also associates approvers with the appropriate approval trigger conditions, and defines escalation details for reassigning approvals to another approver for the rule.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [View alert information, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -21,6 +21,8 @@ The priority group indicates which alerts should be attended to first. Priority 
 ## Thresholds
 
 Thresholds on the calculated priority are used to determine to which category the alert is mapped to. Alerts with a priority above the value of the **evt\_mgmt.top\_priority\_group\_threshold** property are categorized as **Urgent**, which is the highest priority. The default value of this threshold is 1M.
+
+**Note:** The **evt\_mgmt.top\_priority\_group\_threshold** property is hidden, but can still be configured and used.
 
 ## Priority group categories
 

@@ -38,10 +38,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     Health Log Analytics uses the Webhook to notify about the alerts in the channel.
 
-    Perform the appropriate procedure:
-
-    -   Create a Webhook URL for a channel in Slack
-    -   Create a Webhook URL for a channel in Microsoft Teams
 2.  Map the Webhook URL for the channel to the service instance associated with the alert.
 
     1.  Navigate to **Health Log Analytics Administration** &gt; **Webhook Notification**.

@@ -64,5 +64,5 @@ After deleting CIs that a dependent CI depends on, the dependent relationship is
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 

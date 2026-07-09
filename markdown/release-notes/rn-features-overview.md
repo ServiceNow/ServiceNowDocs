@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-features-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [Australia release notes]
 ---
 
@@ -33,7 +33,7 @@ Get a glimpse of release notes based on what products you have and what informat
 
 </td><td>
 
--   ****
+-   **[Personalized PRB release notes](https://www.servicenow.com/docs/r/release-notes/australia-summary-fixes.html)**
 
 With personalized PRB release notes, collect a list of fixes to fit your specific upgrade scenario. Choosing your current release version and your targeted release version generates a list of all the fixes included in your upgrade. View this list in a table, or download a spreadsheet to sort and review PRBs as needed.
 
@@ -46,10 +46,13 @@ With personalized PRB release notes, collect a list of fixes to fit your specifi
 
 </td><td>
 
--   **Combined product release notes**
+-   **[Combined product release notes](https://www.servicenow.com/docs/r/delta-zurich-australia/rn-combined-intro.html)**
 
 If your upgrade involves skipping one or more family releases, combined product release notes ensure you have all the information you need to prepare for your upgrade. From a list of available products, you can filter changes and features for your specific applications across the relevant releases, and view the information all on one page.
 
+    -   [Combined product release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-zurich-combined-release-notes.md)
+    -   [Combined product release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-yokohama-combined-release-notes.md)
+    -   [Combined product release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-xanadu-combined-release-notes.md)
 \[Omitted image "combined-rn.png"\] Alt text: Personalized PRBs
 
 

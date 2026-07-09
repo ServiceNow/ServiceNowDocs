@@ -18,7 +18,7 @@ Legacy API authentication method using username and password, with restricted us
 
 Basic authentication is a legacy method for authenticating API requests using a username and password combination. While it remains available for compatibility in certain scenarios, its use is strongly discouraged over token-based authentication methods.
 
-Basic authentication should only be used in limited scenarios where alternative methods aren't viable.
+Basic authentication should only be used in limited scenarios where alternative methods aren't viable. To learn more about the basic authentication restrictions, review this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3025707).
 
 ## Behaviour across instance scenarios
 
@@ -43,38 +43,3 @@ The behaviour of basic authentication varies depending on how an instance is pro
     This approach allows existing users to transition to more secure authentication mechanisms without immediate disruption.
 
 
-## Restrictions and limitations
-
-Basic authentication is subject to several restrictions that vary based on system context and applied updates.
-
-<table id="table_mdv_zrl_njc"><thead><tr><th>
-
-Restrictions
-
-</th><th>
-
-Details
-
-</th></tr></thead><tbody><tr><td>
-
-Access restrictions
-
-</td><td>
-
--   Basic authentication may be inactive by default in some scenarios.
--   Access may only be permitted for specific users or roles.
--   Certain environments may enforce stricter controls.
-
-</td></tr><tr><td>
-
-Behavioural restrictions
-
-</td><td>
-
--   Behaviour differs between:
-    -   zBoot instances \(stricter enforcement\)
-    -   Upgraded instances \(transitional behaviour\)
--   Allowed usage may be time-bound or limited in scope depending on configuration.
-
-</td></tr></tbody>
-</table>

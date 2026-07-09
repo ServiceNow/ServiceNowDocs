@@ -78,5 +78,5 @@ First name, last name, and email address of the requester. The email address is 
 |**Data subject details**|First name, last name, and email address of the data subject on whose behalf the request is being submitted.|
 |**Agent details**|First name, last name, and email address of the authorized agent. The agent receives a verification email and subsequent updates about the request.|
 
-**Parent Topic:**[Submit a privacy request using the external-facing PDR form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.md)
+**Parent Topic:**[Submit privacy requests using external-facing PDR form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.md)
 

@@ -44,15 +44,15 @@ Analyze the service issue in an incident, problem, or change record. Generate a 
 
 8.  Select one of the following.
 
-<table id="choicetable_tkw_f4w_t3c"><thead><tr><th align="left" id="d25649e149">
+<table id="choicetable_tkw_f4w_t3c"><thead><tr><th align="left" id="d25833e149">
 
 Option
 
-</th><th align="left" id="d25649e152">
+</th><th align="left" id="d25833e152">
 
  
 
-</th></tr></thead><tbody><tr><td id="d25649e157">
+</th></tr></thead><tbody><tr><td id="d25833e157">
 
 **Generate proactive records with communication**
 
@@ -64,7 +64,7 @@ When you select **Generate proactive records with communication**, the Create cu
 4.  Select **Create proactive records**.
 A proactive case record is created and an email is sent to the customer or consumer account.
 
-</td></tr><tr><td id="d25649e194">
+</td></tr><tr><td id="d25833e194">
 
 **Generate proactive records**
 
@@ -74,7 +74,7 @@ When you select **Generate proactive records**, the Create new case window appea
 2.  Select **Create proactive records**.
 A proactive case record is created and appears in the Affected customers section.
 
-</td></tr><tr><td id="d25649e219">
+</td></tr><tr><td id="d25833e219">
 
 ** **
 

@@ -724,7 +724,7 @@ Displays the **Setup Metric Intelligence** related link on the MID Server form, 
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [MID Server and MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
+-   **Learn more**: [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
 
 </td></tr><tr><td>
 

@@ -21,7 +21,7 @@ The ServiceNow® Employee Center application is a standard multi-department, dyn
 -   Simplify how employees move through by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
 -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -31,27 +31,27 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
 ## New in the Australia release
 
--   **[Simplified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/simple-portal-navigation-ec.md)**
+-   ****
 
     Simplify how employees move through Employee Center by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
 
--   **[Manage approvals with Now Assist Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-approvals-with-approvals-agent.md)**
+-   ****
 
     Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
 
--   **[Configure widget heading levels for accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-heading-widget-instance.md)**
+-   ****
 
     Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
 
--   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-requests-update-intro.md)**
+-   ****
 
     Improve the Enhanced Requests Experience functionality by enabling specific tabs created for specific filters. Help employees find relevant requests faster while giving admins, experience owners, and service owners greater control over curating page design for specific purposes.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   ****
 
     Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   ****
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
@@ -66,13 +66,13 @@ Improve accessibility by allowing admins to configure widget heading levels \(H1
 
 ## Related ServiceNow applications and features
 
--   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)**
+-   ****
 
     Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
 
     Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
 
--   **[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assisit-employee-exp.md)**
+-   ****
 
     Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
 

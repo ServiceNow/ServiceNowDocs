@@ -1,5 +1,5 @@
 ---
-title: Running on-demand scans
+title: Run on-demand scans
 description: You can initiate some scan types on-demand to run whenever they are required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/using-impact-scan-engine.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Run your first scan, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Running on-demand scans
+# Run on-demand scans
 
 You can initiate some scan types on-demand to run whenever they are required.
 

@@ -2169,6 +2169,8 @@ During integration execution, multiple processes are generated, and data is rece
 
 -   **[Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-usem-integrations.md)**  
 The integration dashboard provides an overview of the installed third-party applications and the status of the integration runs.
+-   **[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)**  
+The Early Warning for Security Exposure Management integration, powered by Armis, enriches the Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit, enabling your security team to prioritize and patch vulnerabilities months before threat actors weaponize them.
 
 **Related topics**  
 

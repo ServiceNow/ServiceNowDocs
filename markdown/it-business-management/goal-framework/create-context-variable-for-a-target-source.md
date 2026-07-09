@@ -28,7 +28,7 @@ The Context variable provides information that can be used to fetch the required
 
 Creating a context variable is similar to creating a column on a table.
 
-To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for the target source type PA Indicator]().
+To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for a PA Indicator target source]().
 
 ## Procedure
 

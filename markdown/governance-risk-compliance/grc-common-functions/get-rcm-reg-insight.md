@@ -55,15 +55,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d395016e255">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d391546e255">
 
 Option
 
-</th><th align="left" id="d395016e258">
+</th><th align="left" id="d391546e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d395016e264">
+</th></tr></thead><tbody><tr><td id="d391546e264">
 
 **Add enriched insights**
 
@@ -78,7 +78,7 @@ In the Now Assist panel, ask the agent to enrich a regulatory alert with web sou
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d395016e302">
+</td></tr><tr><td id="d391546e302">
 
 **Recommend impacted areas**
 

@@ -1,6 +1,6 @@
 ---
 title: Naming convention for associated templates
-description: Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
+description: The naming convention for associated templates defines how names are generated automatically when you create an equipment or interface card template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Telecommunications Network Inventory]
 
 # Naming convention for associated templates
 
-Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
+The naming convention for associated templates defines how names are generated automatically when you create an equipment or interface card template.
 
 <table id="table_f4w_r1y_ztb"><thead><tr><th>
 
@@ -26,15 +26,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-position
+*position*
 
 </td><td>
 
-Unit position of either the interface or slot/holder that it is getting applied to. **Note:** The unit position always starts from 0. The slot/interface start number that is configured in the inventory model does not apply to the unit position.
+Unit position of the interface, slot, or holder it applies to. **Note:** The unit position always starts from 0. The slot/interface start number that is configured in the inventory model does not apply to the unit position.
 
 </td></tr><tr><td>
 
-parent\_slot\_name
+*parent\_slot\_name*
 
 </td><td>
 
@@ -42,7 +42,7 @@ Name of the slot that the card is inserted in, if the slot or interface belongs 
 
 </td></tr><tr><td>
 
-parent\_slot\_position
+*parent\_slot\_position*
 
 </td><td>
 
@@ -50,23 +50,23 @@ Unit position of the slot that the card is inserted in, if the slot or interface
 
 </td></tr><tr><td>
 
-equipment\_slot\_name
+*equipment\_slot\_name*
 
 </td><td>
 
-Name of the slot on the equipment where the base card is inserted in, if the slot or interface belongs to a card. The parent\_slot\_name and equipment\_slot\_name hold the same value if the current card is a base card.
+Name of the slot on the equipment where the base card is inserted, if the slot or interface belongs to a card. The *parent\_slot\_name* and *equipment\_slot\_name* hold the same value if the current card is a base card.
 
 </td></tr><tr><td>
 
-equipment\_slot\_position
+*equipment\_slot\_position*
 
 </td><td>
 
-Unit position of the slot on the equipment where the base card is inserted in, if the slot/interface belongs to a card. The parent\_slot\_number and equipment\_slot\_number hold the same value if the current card is a base card.
+Unit position of the slot on the equipment where the base card is inserted, if the slot or interface belongs to a card. The *parent\_slot\_number* and *equipment\_slot\_number* hold the same value if the current card is a base card.
 
 </td></tr><tr><td>
 
-bandwidth
+*bandwidth*
 
 </td><td>
 

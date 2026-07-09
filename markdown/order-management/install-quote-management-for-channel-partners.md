@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-quote-management-for-channel-partners.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Quote Management for Channel Partners
@@ -48,15 +48,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d147617e146">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d155904e146">
 
 Demo data install task
 
-</th><th align="left" id="d147617e149">
+</th><th align="left" id="d155904e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147617e155">
+</th></tr></thead><tbody><tr><td id="d155904e155">
 
 **If demo data is available and you want to install it**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d147617e185">
+</td></tr><tr><td id="d155904e185">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -86,7 +86,7 @@ You have successfully installed the Quote Management for Channel Partners \(com.
 -   **[Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**  
 Quote Self-Service \(com.sn\_quote\_self\_service\) enables channel partners to create and manage quotes directly in the Partner portal through a guided playbook experience.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

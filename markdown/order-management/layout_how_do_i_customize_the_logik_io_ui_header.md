@@ -1,22 +1,22 @@
 ---
-title: Customizing the CPQ UI header
-description: Customize the CPQ UI header to reflect your brand with logos, text, and background styles. Configure header elements and buttons—such as Cancel, Reset, Return, and Switch Layout—through the layout CSV file to create a branded, user-friendly configuration experience.
+title: Customizing the ServiceNow CPQ UI header
+description: Customize the ServiceNow CPQ UI header to reflect your brand with logos, text, and background styles. Configure header elements and buttons—such as Cancel, Reset, Return, and Switch Layout—through the layout CSV file to create a branded, user-friendly configuration experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_how\_do\_i\_customize\_the\_logik\_io\_ui\_header.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Customizing the CPQ UI header
+# Customizing the ServiceNow CPQ UI header
 
-Customize the CPQ UI header to reflect your brand with logos, text, and background styles. Configure header elements and buttons—such as Cancel, Reset, Return, and Switch Layout—through the layout CSV file to create a branded, user-friendly configuration experience.
+Customize the ServiceNow CPQ UI header to reflect your brand with logos, text, and background styles. Configure header elements and buttons—such as Cancel, Reset, Return, and Switch Layout—through the layout CSV file to create a branded, user-friendly configuration experience.
 
 \[Omitted image "cpq-layout-logik-header.png"\] Alt text: Logo
 
-The CPQ header lets you brand the configuration page with a logo. Essential buttons and actions are also customizable. CSV layout upload supports these features.
+The ServiceNow CPQ header lets you brand the configuration page with a logo. Essential buttons and actions are also customizable. CSV layout upload supports these features.
 
 ## Branding options
 
@@ -74,11 +74,11 @@ Here, `http://www.some.url/bg.png` is the location of a publicly available image
 
 Adjust the header definition in your layout spreadsheet. Export to a CSV file and upload to the appropriate blueprint. Navigation:
 
-CPQ Admin -&gt; Blueprints -&gt; \[click appropriate blueprint\] -&gt; Layouts tab -&gt; \[click appropriate layout name\] - Import Layout.
+ServiceNow CPQ Admin -&gt; Blueprints -&gt; \[click appropriate blueprint\] -&gt; Layouts tab -&gt; \[click appropriate layout name\] - Import Layout.
 
 ## Button configurations
 
-The CPQ UI offers four buttons: Cancel, Reset, Return, and Switch Layout. Return, commonly labeled Quote, is required. All others are optional.
+The ServiceNow CPQ UI offers four buttons: Cancel, Reset, Return, and Switch Layout. Return, commonly labeled Quote, is required. All others are optional.
 
 In the following table, bracketed properties are the default values.
 
@@ -201,7 +201,7 @@ To copy this text to your local clipboard for editing, use the code block in the
 
 Adjust the header definition in your layout spreadsheet. Export to a CSV file and upload to the appropriate blueprint. Navigation:
 
-CPQ Admin -&gt; Blueprints -&gt; \[click appropriate blueprint\] -&gt; Layouts tab -&gt; \[click appropriate layout name\] -&gt; Import Layout.
+ServiceNow CPQ Admin -&gt; Blueprints -&gt; \[click appropriate blueprint\] -&gt; Layouts tab -&gt; \[click appropriate layout name\] -&gt; Import Layout.
 
 ## Currency display
 

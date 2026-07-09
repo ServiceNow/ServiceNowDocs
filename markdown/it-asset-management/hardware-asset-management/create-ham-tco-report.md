@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a TCO report in Hardware Asset Workspace

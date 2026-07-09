@@ -18,6 +18,8 @@ Reference topics provide information about roles and key terms.
 Key terms used in Data catalog.
 -   **[Data catalog roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog-roles.md)**  
 Assign roles to specify what different users can see and do.
+-   **[Data quality properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-quality-properties.md)**  
+System property that controls how long data quality records are retained in the data quality audit and unmatched resource queue tables.
 
 **Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
 

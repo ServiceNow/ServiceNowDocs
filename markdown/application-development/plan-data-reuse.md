@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Plan your app before you start building, Getting Started guide for developers, Building applications]
+breadcrumb: [Plan your app before you start building, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Plan data for reuse

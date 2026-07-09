@@ -93,7 +93,7 @@ Under the **Automation** tab of the side panel, each activity has inputs you can
 
 ## Creating static and dynamic values for activity inputs
 
-You can add dynamic data to an activity input. Click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) and navigate, or dot-walk, to the data pill whose dynamic value you want to use when your activity runs. You can select dynamic data from fields in the input record. If your activity has a start rule of **After specific activities**, you can also select dynamic data from the outputs of other activities in your playbook. For more information on dot-walking to related fields and records on the ServiceNow AI Platform, see selecting fields on related tables using dot-walking.
+You can add dynamic data to an activity input. Click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) and navigate, or dot-walk, to the data pill whose dynamic value you want to use when your activity runs. You can select dynamic data from fields in the input record. If your activity has a start rule of **After specific activities**, you can also select dynamic data from the outputs of other activities in your playbook. For more information on dot-walking to related fields and records on the ServiceNow AI Platform, see [selecting fields on related tables using dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 **Note:** You can dot-walk to fields in a Reference but not in a Document ID or Sys ID.
 
@@ -105,7 +105,7 @@ Refer to these design considerations when working with stages and activities:
 
 -   **Keep ServiceNow AI Platform state models in mind when designing your playbook**
 
-    Some record types already have state models that describe their life cycle. Use any existing state model as a template for the design of your playbook. For more information, see State Management.
+    Some record types already have state models that describe their life cycle. Use any existing state model as a template for the design of your playbook. For more information, see [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/state-model.md).
 
 
 -   **[Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md)**  
@@ -130,6 +130,8 @@ Create and define branches with different conditions for different paths between
 Create and define branches with different conditions for different paths between stages.
 -   **[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md)**  
 Collects inputs from a user during a playbook run to use later in the playbook.
+-   **[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/go-back-activity.md)**  
+The Go back activity defines a conditional return point in a playbook, enabling the playbook to loop back to an earlier activity, stage, or the start of the playbook based on an outcome.
 -   **[Parallel branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-parallel-activity.md)**  
 Add branches for activities and stages that run in parallel to another branch of activities and stages.
 -   **[Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-dynamic-inputs-to-activity.md)**  

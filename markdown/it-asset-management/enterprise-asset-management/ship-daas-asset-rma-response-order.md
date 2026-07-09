@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the Ship task for a defective Device as a Service DaaS asset
@@ -32,15 +32,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d244683e122">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d245463e122">
 
 Navigation option
 
-</th><th align="left" id="d244683e125">
+</th><th align="left" id="d245463e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d244683e131">
+</th></tr></thead><tbody><tr><td id="d245463e131">
 
 **Provider RMA response order**
 
@@ -56,7 +56,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d244683e175">
+</td></tr><tr><td id="d245463e175">
 
 **Provider RMA response order line**
 
@@ -70,7 +70,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d244683e210">
+</td></tr><tr><td id="d245463e210">
 
 **Provider asset tasks**
 

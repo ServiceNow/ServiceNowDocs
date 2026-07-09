@@ -9,7 +9,7 @@ classification: service-mapping
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Automated Service Suggestions, Choose method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated Service Suggestions, Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery based on Predictive Intelligence
@@ -57,11 +57,11 @@ Discovery based on Predictive Intelligence works at the product level. The **sa\
 **Related topics**  
 
 
-[Add CIs to multiple application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)
+[Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)
 
-[Add CIs for single application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-single.md)
+[Add CIs to a specific application service using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-single.md)
 
-[Add or remove CIs for multiple application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
+[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
 
-[Add or remove CIs for single application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
+[Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
 

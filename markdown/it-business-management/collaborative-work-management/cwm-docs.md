@@ -181,7 +181,7 @@ Use the generative AI capabilities of Now Assist to create tasks from the contex
 Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
 -   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
 Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
--   **[Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**  
+-   **[Refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**  
 Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
 -   **[Generate and improve Docs content with Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**  
 Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.

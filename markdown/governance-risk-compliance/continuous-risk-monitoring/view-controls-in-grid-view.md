@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [RMF step 3 - Implement controls, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 3 - Implement controls, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # View controls in grid view

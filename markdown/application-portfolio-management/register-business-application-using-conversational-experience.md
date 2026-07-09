@@ -1,5 +1,5 @@
 ---
-title: Register a business application by using the conversational experience
+title: Register a business application conversationally
 description: Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/register-business-application-using-conversational-experience.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
-# Register a business application by using the conversational experience
+# Register a business application conversationally
 
 Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d100183e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d100474e162">
 
 Instruction
 
-</th><th align="left" id="d100183e165">
+</th><th align="left" id="d100474e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d100183e171">
+</th></tr></thead><tbody><tr><td id="d100474e171">
 
 **Short: Register a business application**
 
@@ -63,7 +63,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d100183e221">
+</td></tr><tr><td id="d100474e221">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

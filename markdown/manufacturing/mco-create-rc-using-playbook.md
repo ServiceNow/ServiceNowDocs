@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-18"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a repair claim using playbook
@@ -54,6 +54,4 @@ Role required: Manufacturing operations admin
 
 6.  Select **Submit**.
 
-
-**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-repair-claim.md)
 

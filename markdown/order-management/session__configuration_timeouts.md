@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Session and configuration timeouts
 
 Learn how timeouts for inactive or abandoned configurations improve system efficiency and prevent resource waste.
 
-Because CPQ is a web-based application, we regulate our software usage by implementing certain timeouts on sessions, so as to not waste processing power on abandoned configurations.
+Because ServiceNow CPQ is a web-based application, we regulate our software usage by implementing certain timeouts on sessions, so as to not waste processing power on abandoned configurations.
 
-Timeouts for the CPQ platform have two key mechanisms:
+Timeouts for the ServiceNow CPQ platform have two key mechanisms:
 
 -   Session timeout: Set at 30 minutes of user inactivity.
 
@@ -32,13 +32,13 @@ Here are a few example scenarios.
 -   Scenario 1: If an end user is configuring, or if an Admin is creating a rule and stays on that tab, but does not update the site, the session will time out after 30 minutes.
 -   Scenario 2: If a user calls a runtime API to configure a product, the 15-minute configuration cache timeout applies to make PATCH updates to the configuration, as there is no automatic heartbeat for this method.
 -   Scenario 3: If an end user is actively configuring a product, that configuration session can remain active for up to 2 hours.
--   Scenario 4: If a user navigates to a different tab while in the middle of configuring, that configuration can still remain active for up to 2 hours as long as the user is still actively working with another configuration in CPQ.
+-   Scenario 4: If a user navigates to a different tab while in the middle of configuring, that configuration can still remain active for up to 2 hours as long as the user is still actively working with another configuration in ServiceNow CPQ.
 
-    **Note:** While this behavior works well in CPQ, we cannot guarantee the same functionality in Salesforce iframe tabs. SFDC may not allow JavaScript to run on inactive tabs, potentially affecting the 2-hour timeout in that environment.
+    **Note:** While this behavior works well in ServiceNow CPQ, we cannot guarantee the same functionality in Salesforce iframe tabs. SFDC may not allow JavaScript to run on inactive tabs, potentially affecting the 2-hour timeout in that environment.
 
--   Scenario 5: If the CPQ configurator is in an SFDC iframe and the user navigates to a different tab, the 15-minute cache expiry for inactive sessions may occur.
+-   Scenario 5: If the ServiceNow CPQ configurator is in an SFDC iframe and the user navigates to a different tab, the 15-minute cache expiry for inactive sessions may occur.
 
 The most effective approach to avoid a timeout is to manually save your configurations, especially when working across multiple tabs. This way, progress is not lost when completing other work.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

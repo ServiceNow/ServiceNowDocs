@@ -55,15 +55,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d154702e285">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d185749e285">
 
 Option
 
-</th><th align="left" id="d154702e288">
+</th><th align="left" id="d185749e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154702e294">
+</th></tr></thead><tbody><tr><td id="d185749e294">
 
 **Skill is always available**
 
@@ -71,7 +71,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d154702e303">
+</td></tr><tr><td id="d185749e303">
 
 **Customize skill availability**
 
@@ -84,15 +84,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d154702e339">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d185749e339">
 
 Option
 
-</th><th align="left" id="d154702e342">
+</th><th align="left" id="d185749e342">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154702e348">
+</th></tr></thead><tbody><tr><td id="d185749e348">
 
 **In-product desktop**
 
@@ -100,7 +100,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d154702e359">
+</td></tr><tr><td id="d185749e359">
 
 **Now Assist panel**
 
@@ -135,6 +135,8 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
 9.  On the Purchase order line mapping summarization for the APO specialists feature card, select **Turn on**.
 
-    The generative AI skill auto-generates mappings between invoice lines and purchase order lines.
 
+## Result
+
+The generative AI skill auto-generates mappings between invoice lines and purchase order lines.
 

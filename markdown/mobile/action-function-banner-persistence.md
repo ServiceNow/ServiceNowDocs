@@ -26,13 +26,17 @@ When a function button has multiple messages associated to it, then all associat
 
 Only one banner message is displayed at a time. Newer banner messages replace existing banner messages. This replacement occurs even if the original existing banner contains persistent attributes.
 
+|Banner display for iOS|Banner display for Android|Banner variants according to message|
+|----------------------|--------------------------|------------------------------------|
+|\[Omitted image "toast-alert-ios.png"\] Alt text: iOS interface with green positive banner|\[Omitted image "toast-alert-android.png"\] Alt text: Android interface with red negative error|\[Omitted image "toast-alert-variants.png"\] Alt text: Variants listed showing different colors and messages for banner|
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Mobile** &gt; **Mobile App Builder**.
 
     The Mobile App Builder opens in a new browser tab and displays the application scope selection screen.
 
-2.  Search for the application sope you are working in and then select the name of the application scope.
+2.  Search for the application scope you are working in and then select the name of the application scope.
 
     The Mobile App Builder categories home screen displays.
 
@@ -60,6 +64,4 @@ Only one banner message is displayed at a time. Newer banner messages replace ex
 ## Result
 
 A banner remains on the screen until the user actively dismisses it.
-
-\[Omitted image "banner-persistence.png"\] Alt text: Mobile screen with banner displayed awaiting user to tap the dismiss button.
 

@@ -56,7 +56,7 @@ API key
 </td><td>
 
 -   For Jira Cloud, enter the API token that you generated. For more information, see .
--   For Jira Server/Data Center, enter the PAT that you generated. For more information, see [Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
+-   For Jira Server/Data Center, enter the PAT that you generated. For more information, see [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)

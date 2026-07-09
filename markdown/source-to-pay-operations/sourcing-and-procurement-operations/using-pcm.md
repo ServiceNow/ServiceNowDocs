@@ -46,7 +46,7 @@ Create a knowledge base article about procurement so that you can share procurem
 
 [Using Shopping Hub Mobile]()
 
-[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace]()
+[Working with SPO playbooks in the Source-to-Pay Workspace]()
 
 [Using Spend and Savings Management]()
 

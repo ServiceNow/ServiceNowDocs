@@ -16,7 +16,7 @@ Implement the following steps to set up a specific application or plugin with Se
 
 ## Before you begin
 
-Before performing this task you must install Setup Hub application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
+Before performing this task, you must install Setup Hub application either from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
 This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, Employee Slate and ESM, and Pro+ SKUs for Simplified ITSM, ITOM and HRSD.
 
@@ -78,7 +78,7 @@ Role required: admin
 
     **Note:** This step is applicable only if you need to setup the update set for either ITSM or CBS. See [Manage update set for Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md) for more information.
 
-8.  Expand Whats's included to view the applications included in the app bundle.
+8.  Expand What's included to view the applications included in the app bundle.
 
     You can also explore the Helpful resources section in Product Hub page that include links to configuration guidance, product documentation, release notes, and the ServiceNow Community.
 

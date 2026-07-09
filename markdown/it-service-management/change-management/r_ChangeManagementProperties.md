@@ -132,7 +132,7 @@ Enforce change request process data requirements, so that any data modification 
 
 </td></tr><tr><td>
 
-com.snc.task.populate\_service\_offering
+com.snc.change\_request.populate\_service\_offering
 
 </td><td>
 

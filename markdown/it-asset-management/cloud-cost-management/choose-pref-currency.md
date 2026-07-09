@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up or update preferred currency options, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Choose preferred currency for cost and usage data
@@ -35,5 +35,5 @@ Role required: insights\_admin, insights\_owner or insights\_user
 
 The preferred currency is shown as the display currency in all dashboard widgets, recommendations, budgets, and billing data of the Cloud Cost Management Workspace.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Set up or update preferred currency options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/setup-update-currency.md)
 

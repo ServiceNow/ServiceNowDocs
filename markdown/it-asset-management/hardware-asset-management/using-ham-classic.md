@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using Hardware Asset Management
@@ -82,6 +82,4 @@ Improve the asset utilization by auditing the hardware assets assigned to your e
 After receiving hardware or consumable assets that were in transit and reserved for you, confirm their receipt on the Employee Center portal.
 -   **[Update associated Decision tables for HAM flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/trigger-flow-ham.md)**  
 Update associated Decision tables for Hardware Asset Management \(HAM\) flows to trigger a new or customized HAM flow.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

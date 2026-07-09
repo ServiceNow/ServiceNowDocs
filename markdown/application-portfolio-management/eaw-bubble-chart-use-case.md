@@ -138,7 +138,7 @@ As an admin, navigate to **Workspaces** &gt; **Enterprise Architecture Workspace
 |Business Value|50|
 |Technical Risk|50|
 
-Equal weights mean each indicator contributes equally to the overall application score. Verify that all five business applications have their **Application scoring profile** field set to **Default Application Profile**. For information on how to attach profile indicators to a scoring profile, see [Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).\[Omitted image "bubblechart-scoring-profile.png"\] Alt text: Default scoring profile
+Equal weights mean each indicator contributes equally to the overall application score. Verify that all five business applications have their **Application scoring profile** field set to **Default Application Profile**. For information on how to attach profile indicators to a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).\[Omitted image "bubblechart-scoring-profile.png"\] Alt text: Default scoring profile
 
 ## Step 3: Add indicators to the bubble chart table
 
@@ -431,7 +431,7 @@ The following sequence summarizes how a raw assessment score is set to a bubble 
 
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
-[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 
 [Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)
 

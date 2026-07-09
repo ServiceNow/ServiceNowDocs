@@ -30,7 +30,7 @@ Role required: itil\_admin or admin
 
 3.  Open an incident record with **Resolved** state.
 
-    For more information on viewing and updating incident information and resolution, see [View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+    For more information on viewing and updating incident information and resolution, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
 4.  Select **Close**.
 
@@ -46,7 +46,7 @@ The incident record is closed and a success message is displayed. You cannot fur
 
 [Create an incident in Service Operations Workspace]()
 
-[View and update incident information on the Overview tab in SOW]()
+[View and update incident information on the Overview tab]()
 
 [Viewing incident record information using the Contextual side panel]()
 

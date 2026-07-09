@@ -1,5 +1,5 @@
 ---
-title: Create software models in Software Asset Management classic
+title: Create software models in Software Asset Management Core UI
 description: Create a software model to add product details that are used to connect software rights you purchased with software installations discovered on your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/record-terms-software-licenses.html
@@ -9,10 +9,10 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create software models in Software Asset Management classic
+# Create software models in Software Asset Management Core UI
 
 Create a software model to add product details that are used to connect software rights you purchased with software installations discovered on your system.
 
@@ -83,7 +83,7 @@ If you've installed the SAP publisher pack, see [Record publisher details for SA
 13. Select **Update**.
 
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 
 **Related topics**  
 

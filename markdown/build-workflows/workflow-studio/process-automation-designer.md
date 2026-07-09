@@ -101,11 +101,11 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
 ||Create playbooks for Public Sector Digital Services.|
-||Create playbooks for IT Operations Management.|
+|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
 |[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
-||Create playbooks for IT Service Management.|
+|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
 |[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
-|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
+|[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
 ||Create playbooks for Governance, Risk, and Compliance processes.|
 
 -   **[Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md)**  

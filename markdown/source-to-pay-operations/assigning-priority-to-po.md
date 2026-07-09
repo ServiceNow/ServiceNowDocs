@@ -34,3 +34,5 @@ As an admin, you can configure the **Set Impact and Urgency fields for Priority*
 
 [Domain separation and Purchase Order Management]()
 
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+

@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your IT Asset Management
@@ -18,7 +18,7 @@ Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 
 ## Accelerator Overview
 
-This accelerator provides Impact Customers with an analysis of common IT Asset Management problem areas through HealthScan along with recommendations on addressing those findings. It aims to help customers understand how to identify problem areas within your ITAM setup, including a review of the top challenging areas and leading practices on how to best remediate gaps.
+This Accelerator provides Impact Customers with an analysis of common IT Asset Management problem areas through HealthScan along with recommendations on addressing those findings. It aims to help customers understand how to identify problem areas within your ITAM setup, including a review of the top challenging areas and leading practices on how to best remediate gaps.
 
 ## Package Availability
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: task
 last_updated: "2026-04-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [AI system, business application, associate, AI Control Tower, enterprise architecture workspace, portfolio management, governance]
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Working with an application portfolio, Working with Portfolio list 
 Associate an existing AI Control Tower AI system with a business application from the Enterprise Architecture Workspace.
 
 ## Before you begin
+
+\[Omitted video\] Description: Add an existing AI system to a business application
 
 Role required:
 

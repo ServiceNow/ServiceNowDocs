@@ -1,6 +1,6 @@
 ---
 title: Managing disputes integrated with Visa
-description: To optimize the card dispute process, the playbook integrates with subflows that communicate with Visa, supporting an end-to-end dispute lifecycle from raising an initial dispute to final resolution. These subflows can help you meet Visa's chargeback deadlines and ensure successful dispute resolution.
+description: The Dispute management workflow integrates with subflows that communicate with Visa, supporting an end-to-end dispute lifecycle from raising an initial dispute to final resolution. These subflows can help you meet Visa's chargeback deadlines and ensure successful dispute resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financia
 
 # Managing disputes integrated with Visa
 
-To optimize the card dispute process, the playbook integrates with subflows that communicate with Visa, supporting an end-to-end dispute lifecycle from raising an initial dispute to final resolution. These subflows can help you meet Visa's chargeback deadlines and ensure successful dispute resolution.
+The Dispute management workflow integrates with subflows that communicate with Visa, supporting an end-to-end dispute lifecycle from raising an initial dispute to final resolution. These subflows can help you meet Visa's chargeback deadlines and ensure successful dispute resolution.
 
-This integration enables you to:
+This integration enables you to invoke the following at the transaction level:
 
 -   Conduct cardholder purchase inquiries
 -   Search for specific transactions
@@ -26,10 +26,10 @@ This integration enables you to:
 -   Initiate chargebacks
 -   Submit dispute questionnaires
 
--   **[About pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)**  
-The Card dispute playbook integration with Visa supports pre-arbitration and arbitration workflows. Initiate pre-arbitration and arbitration workflows to resolve unresolved disputes between issuers and acquirers.
--   **[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)**  
-On the **Processing** tab of the card disputes playbook, all disputed transactions in a card dispute case are displayed on a dashboard. The tab also provides transaction information such as dispute amount, transaction date and time, merchant, transaction state, current activity, and activity SLA.
+-   **[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)**  
+ The Dispute management workflow integration with Visa supports pre-arbitration and arbitration workflows. These workflows help resolve disputes between issuers and acquirers.
+-   **[Processing a Visa card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)**  
+When a case is submitted, it automatically moves to the **Initiate** stage. Once the sequence of steps in the **Initiate** stage are completed, it moves to the **Processing** stage. Here, the case playbook displays the disputed transaction details, including customer details, dispute amount, timestamp, card details, merchant, transaction state, current activity, and activity SLA.
 
 **Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 

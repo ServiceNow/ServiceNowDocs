@@ -86,7 +86,7 @@ page parameters
 
 </td><td>
 
-Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see GlideSPScriptable - Scoped.
+Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
  If you don’t include these additional parameters when required, you might get a `You are either not authorized or record is not valid` error message.
 

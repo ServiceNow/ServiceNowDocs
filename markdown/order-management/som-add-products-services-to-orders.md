@@ -32,7 +32,7 @@ When the  product configurator opens you can select from the available options
 -   The option selection displays any available options for the product, service, order lines, and order tasks.
 -   The Current Selection displays the selected products options and the pricing.
 
-Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md) and [Using the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md).
+Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md).
 
 As you configure your product, use the following options:
 

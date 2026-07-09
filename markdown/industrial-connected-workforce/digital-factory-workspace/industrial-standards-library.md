@@ -27,10 +27,6 @@ Standards establish consistency and uniformity in how tasks and activities are p
 
 For more information about Industrial Knowledge Management, see [Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/icw-knowledge-management-landing-page.md).
 
-The following image shows an example of the main page in the Standards hub.
-
-\[Omitted image "standards-hub-home.png"\] Alt text: Standards hub main page
-
 ## Use case example
 
 An equipment owner wants weekly cleaning and inspection tasks for a bottling line to be performed consistently across shifts. Using the Standards hub, they can:

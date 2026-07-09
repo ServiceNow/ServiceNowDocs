@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Microsoft
-description: The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Microsoft Copilot Studio environments into ServiceNow AI Control Tower.
+description: The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Copilot Studio environments into ServiceNow AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/microsoft.html
 release: australia
@@ -8,13 +8,13 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Microsoft
 
-The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Microsoft Copilot Studio environments into ServiceNow AI Control Tower.
+The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Copilot Studio environments into ServiceNow AI Control Tower.
 
 The connector creates separate AI connections for each Microsoft platform, cataloging AI agents, models, and prompts. The usage information is consumed by the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
@@ -70,7 +70,7 @@ To enable data source creation:
 
 1.  Select Global from the application picker.
 2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete checkboxes.
+3.  Select the Can create, Can update, and Can delete check boxes.
 4.  Select Update.
 5.  Switch to the connector application scope.
 
@@ -122,7 +122,7 @@ Filter by resource \(optional\): To limit discovery to specific resources, enter
 
 Filter by region \(optional\): To limit discovery to specific Azure regions, enter region names as comma-separated values \(e.g., eastus, westus2\).
 
-## Microsoft Copilot Studio Prerequisites
+## Microsoft Copilot Studio Prerequisites for Versions 2.0.1 &amp; 2.3
 
 Complete the following steps in your Power Platform environment before creating a Copilot connection.
 
@@ -132,16 +132,16 @@ Register an application to obtain OAuth credentials for the connector.
 
 To register the application:
 
--   Follow the [Microsoft Entra app registration quickstart](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to create a new application.
+-   Follow the [Microsoft Entra app registration quickstart](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to create application.
 -   Record the Client ID and Client Secret from the registration.
 
-Step 2: Grant application access to your Copilot environment
+Grant application access to your Copilot environment
 
 Configure the application as a user in your Copilot environment.
 
 To configure application access:
 
-1.  Open the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home)
+1.  Open the [Power Platform admin Center](https://admin.powerplatform.microsoft.com/home)
 2.  Navigate to Environments and select your Copilot environment
 3.  Go to Settings &gt; Users + Permissions &gt; Application users
 4.  Select New App User and add your application using the Client ID from step 1
@@ -149,14 +149,16 @@ To configure application access:
     -   Basic User
     -   System administrator
 
+If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For creation of the role, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md)
+
 **Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
 
 Multi-Environment Support
 
 You can discover agents from multiple Copilot environments using a single connection. To configure multi-environment discovery:
 
--   Enter multiple environment IDs as comma-separated values in the Environment ID field \(eg.., env-id-1, env-id-2, env-id-3\)
+-   Enter multiple environment IDs as comma-separated values in the Environment ID field \(eg: env-id-1, env-id-2, env-id-3\)
 -   The same OAuth credentials \(Client ID and Client Secret\) are used for all environments
--   Ensure the application user is configured in each environment with the required security roles
+-   Verify the application user is configured in each environment with the required security roles
 -   Each environment will be tested and discovered separately during the import process
 

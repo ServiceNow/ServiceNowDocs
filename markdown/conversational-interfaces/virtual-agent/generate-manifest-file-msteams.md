@@ -154,7 +154,7 @@ Message Extension or Copilot
 
 </td><td>
 
-This section allows you to activate Message extension if your bot is set up for NLU/Keyword, or activate Copilot if your bot is set up for for LLM. \(For more information on activating LLM for your bot, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).\)-   The Message extension check box appears if you configure your bot for NLU/Keyword. Message extension lets users search and share the results through the compose message area of the Microsoft Teams client.
+This section allows you to activate Message extension if your bot is set up for NLU/Keyword, or activate Copilot if your bot is set up for for LLM. \(For more information on activating LLM for your bot, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).\)-   The Message extension check box appears if you configure your bot for NLU/Keyword. Message extension lets users search and share the results through the compose message area of the Microsoft Teams client.
 
 If you're using this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: Now Assist in Virtual Agent conversation with Microsoft Copilot displaying the Message Extension enabled.
 

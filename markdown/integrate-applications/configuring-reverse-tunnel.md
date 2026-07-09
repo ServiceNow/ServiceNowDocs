@@ -20,5 +20,5 @@ Configure Reverse Tunnel to establish secure, private connectivity between your 
 Private relays authenticate with the gateway automatically using certificates issued by the ServiceNow instance. No certificate configuration is required.
 
 1.  [Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md) — Configure and register a private relay to establish an encrypted connection to the Reverse Tunnel Gateway.
-2.  [Configure relay behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-relay-properties.md) — Set relay behavior using the relay properties table or the `config.yaml` file.
+2.  [Configure relay behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-relay-properties.md) — Set relay behavior using the `Relay Property [sn_zc_tunnel_relay_prop]` table or the `config.yaml` file.
 

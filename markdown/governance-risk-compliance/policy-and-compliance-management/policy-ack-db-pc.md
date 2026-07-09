@@ -37,11 +37,11 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Policy acknowledgement status|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon|Displays the overall status of the policy acknowledgements.|
-|Policy acknowledgement status by Policy|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Displays the total number of acknowledgements related to each policy. The chart is stacked to display the overall acknowledgement status for each policy.|
-|Past due acknowledgements|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Displays the total number of past due acknowledgements over a period of time.|
-|Pending acknowledgements|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Displays the total number of pending acknowledgements related to each policy.|
-|Policy Exceptions|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3List|Displays a list of policy exceptions opened for a policy with details of the .|
+|Policy acknowledgement status|Donut chart|Displays the overall status of the policy acknowledgements.|
+|Policy acknowledgement status by Policy|Bar chart|Displays the total number of acknowledgements related to each policy. The chart is stacked to display the overall acknowledgement status for each policy.|
+|Past due acknowledgements|Bar chart|Displays the total number of past due acknowledgements over a period of time.|
+|Pending acknowledgements|Bar chart|Displays the total number of pending acknowledgements related to each policy.|
+|Policy Exceptions|List|Displays a list of policy exceptions.|
 
 **Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

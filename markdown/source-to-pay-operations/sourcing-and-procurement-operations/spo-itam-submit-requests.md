@@ -1,6 +1,6 @@
 ---
-title: Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace
-description: As an Asset Manager, you can create an SR or PR in SPO from the ITAM Workspace to fulfill IT and asset requests submitted through Employee Center.
+title: Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace
+description: As an Asset Manager, you can create an SR or PR in SPO from the Asset Management Workspace to fulfill asset requests submitted through Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.html
 release: australia
@@ -9,12 +9,12 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sourcing Procurement Operations integration Asset, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing and Procurement Operations and Asset Management integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace
+# Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace
 
-As an Asset Manager, you can create an SR or PR in SPO from the ITAM Workspace to fulfill IT and asset requests submitted through Employee Center.
+As an Asset Manager, you can create an SR or PR in SPO from the Asset Management Workspace to fulfill asset requests submitted through Employee Center.
 
 ## Before you begin
 
@@ -22,23 +22,23 @@ Role required: sn\_spend\_asset.spo\_shopper
 
 ## About this task
 
-After an employee submits a request through the Employee Center or an automated stock rule is triggered, the Asset Manager can view the request in the Service Catalog application and start sourcing and procuring the requested items from the appropriate ITAM Workspace.
+After an employee submits a request through the Employee Center or an automated stock rule is triggered, the Asset Manager can view the request in the Service Catalog application and start sourcing and procuring the requested items from the appropriate Asset Management Workspace.
 
-The ITAM workspace used depends on the type of items being requested, such as hardware, software, or enterprise assets.
+The Asset Management workspace used depends on the type of items being requested, such as hardware, software, or enterprise assets.
 
 -   Asset Workspace
 -   Hardware Asset Workspace
 -   Software Asset Workspace
 -   Enterprise Asset Workspace
 
-To ensure a seamless integration between ITAM and SPO, the following updates have been implemented:
+To ensure a seamless integration between Asset Management and SPO, the following updates have been implemented:
 
--   SPO's Purchase Requisition \(PR\), Sourcing Request \(SR\), and Purchase Order \(PO\) tables are mapped to their corresponding tables in ITAM to enable smooth data flow between the two products.
--   When a PR, SR, or PO is created in SPO, the associated data and states are synchronized with the corresponding PO in ITAM.
--   The ITAM Purchase Order \(PO\), generated during the creation of a sourcing request or purchase requisition, provides visibility to both the employee and the asset manager.
--   ITAM Purchase Order Lines \(POLs\) are generated after a supplier has been awarded in the sourcing request flow.
--   The ITAM PO includes references to SPO’s SR, PR, and PO records.
--   The ITAM POL includes references to SPO’s purchase requisition line \(PRL\) or POL records.
+-   SPO's Purchase Requisition \(PR\), Sourcing Request \(SR\), and Purchase Order \(PO\) tables are mapped to their corresponding tables in Asset Management to enable smooth data flow between the two products.
+-   When a PR, SR, or PO is created in SPO, the associated data and states are synchronized with the corresponding PO in Asset Management.
+-   The Asset Management Purchase Order \(PO\), generated during the creation of a sourcing request or purchase requisition, provides visibility to both the employee and the asset manager.
+-   Asset Management Purchase Order Lines \(POLs\) are generated after a supplier has been awarded in the sourcing request flow.
+-   The Asset Management PO includes references to SPO's SR, PR, and PO records.
+-   The Asset Management POL includes references to SPO's purchase requisition line \(PRL\) or POL records.
 
 ## Procedure
 
@@ -62,7 +62,7 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
     \[Omitted image "itam-spo-workspace.png"\] Alt text: Purchase option on the Sourcing page.
 
-    You' are guided through stages that enhance the better together experience using SPO’s Shopping Hub workflows, helping you efficiently source the products you need.
+    You' are guided through stages that enhance the better together experience using SPO's Shopping Hub workflows, helping you efficiently source the products you need.
 
 7.  On the Select the requested items you want to purchase page, select the items that you requested.
 
@@ -80,16 +80,16 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
     One of the following occurs depending on whether the requested items have a price associated with them.
 
-    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md).
+    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md).
 
-    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md).
+    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md).
 11. Select **Checkout**.
 
 
--   **[Create sourcing request from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md)**  
-As an asset manager, use SPO’s sourcing flow from the ITAM Workspace to complete checkout when the requested item doesn’t have contractual pricing.
--   **[Create purchase requisition from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md)**  
-As an asset manager, use SPO’s purchasing flow from the ITAM Workspace to complete checkout when the requested item has contractual pricing.
+-   **[Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md)**  
+As an asset manager, use SPO's sourcing flow from the Asset Management Workspace to complete checkout when the requested item doesn't have contractual pricing.
+-   **[Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md)**  
+As an asset manager, use SPO's purchasing flow from the Asset Management Workspace to complete checkout when the requested item has contractual pricing.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

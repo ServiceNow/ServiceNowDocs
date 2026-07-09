@@ -8,8 +8,8 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+reading_time_minutes: 2
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Convert one RIDAC record to another for a project in Project Workspace
@@ -30,13 +30,15 @@ You can also specify to close the parent record on creation of the new record in
 
 1.  Select the project for which you want to convert one RIDAC entry to another.
 
-    For information on how to navigate to a Project in the Project Workspace, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to a Project in the Project Workspace, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
+2.  Select **RIDAC** and select **RIDAC by Type** or **All RIDAC**.
 
-3.  On the Project form, select **Row context menu** for an individual risk, issue, decision, action, or request change record.
+3.  From RIDAC by type page, select Convert to RIDAC \(\[Omitted image "convert-to-ridac-icon.png"\] Alt text: convert-to-ridac-icon.\) icon to convert a RIDAC record to another record.
 
-4.  Select **Convert to RIDAC**.
+    For more information, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md).
+
+4.  On All RIDAC page, select context menu row for an individual risk, issue, decision, action, or request change record and select **Convert to RIDAC**.
 
 5.  On the Convert dialog box, from the Select task type list, select the RIDAC record to which you want to convert the selected record.
 
@@ -53,5 +55,5 @@ You can also specify to close the parent record on creation of the new record in
 9.  Select **OK**.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
 

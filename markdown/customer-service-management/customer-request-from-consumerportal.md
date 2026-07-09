@@ -94,3 +94,10 @@ Detailed description of the issue.**Note:** When you start entering the subject,
 
 The system processes the request, creates it along with related records, and shows the details on the record view page.
 
+**Related topics**  
+
+
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+
+[View orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-orders.md)
+

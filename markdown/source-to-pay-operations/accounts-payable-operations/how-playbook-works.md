@@ -1,5 +1,5 @@
 ---
-title: View the Playbook activities
+title: Playbook activities
 description: Playbooks in Accounts Payable Operations display the stages and activities for processing invoice cases and tracking progress through each stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/how-playbook-works.html
@@ -13,7 +13,7 @@ keywords: [APO, Accounts Payable Operations, invoice processing, AP case, playbo
 breadcrumb: [Playbook for updating the invoice primary data, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# View the Playbook activities
+# Playbook activities
 
 Playbooks in Accounts Payable Operations display the stages and activities for processing invoice cases and tracking progress through each stage.
 

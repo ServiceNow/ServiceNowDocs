@@ -1,18 +1,18 @@
 ---
 title: Using Opportunity Management
-description: Use the Opportunity Management application to create your opportunity.
+description: Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-mgmt-using.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-12"
 reading_time_minutes: 4
 breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Opportunity Management
 
-Use the Opportunity Management application to create your opportunity.
+Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 
 The Opportunity Management interface has tabs that help you create and manage your opportunities.
 
@@ -106,6 +106,14 @@ Create quotes directly from the Opportunity.
 
 </td></tr><tr><td>
 
+Meetings
+
+</td><td>
+
+Schedule and view client meetings linked to the opportunity. When you schedule a meeting from an opportunity, the system automatically associates the meeting with that opportunity. The tab also displays meetings linked to the opportunity's touchpoints.
+
+</td></tr><tr><td>
+
 Related Channel Partners
 
 </td><td>
@@ -140,6 +148,8 @@ Create opportunity for associated contacts to identify each contact’s role whe
 Create an email to communicate to your customer the product information that meets their business requirements or the product demo as required by your customer.
 -   **[Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-opportunity.md)**  
 Schedule a client meeting directly from an opportunity record to associate it with the opportunity.
+-   **[Use guided selling on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-guided-selling-opportunity.md)**  
+Track stage exit criteria, complete playbook activities, and manage deal-related actions on an opportunity to advance deals through the sales cycle.
 -   **[View an existing opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-viewing-an-opportunity.md)**  
 View an existing opportunity to make changes, such as updating its status or additional details.
 -   **[Track opportunities using Kanban view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-kanban-view.md)**  

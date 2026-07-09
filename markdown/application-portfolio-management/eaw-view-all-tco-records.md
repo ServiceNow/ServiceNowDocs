@@ -46,5 +46,5 @@ Role required: admin
 
 [Create a cost type for Application TCO in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-cost-type.md)
 
-[Set the duration of a fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
+[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
 

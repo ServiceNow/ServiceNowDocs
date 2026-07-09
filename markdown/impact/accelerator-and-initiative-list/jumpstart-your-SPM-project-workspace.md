@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Strategic Portfolio Management - Project Workspace
-description: This accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Strategic Portfolio Management - Project Workspace
 
-This accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
+This Accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
 
 ## Accelerator Overview
 
-Jumpstart Your SPM – Project Workspace provides Impact customers with an applied overview of Project Workspace within SPM, demonstrating how to centralize project data and manage projects and associated information from a single, unified view. This accelerator also equips customers with key resources and leading practices to help them get started quickly.
+Jumpstart Your SPM – Project Workspace provides Impact customers with an applied overview of Project Workspace within SPM, demonstrating how to centralize project data and manage projects and associated information from a single, unified view. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
 ## Package Availability
 

@@ -19,9 +19,13 @@ Workflow Data Fabric Home is ServiceNow's unified data foundation that connects 
 
 Workflow Data Fabric addresses a common enterprise challenge: Data is scattered across dozens of systems, integrations are rebuilt team by team, and AI agents lack the governed context they need to act reliably. Workflow Data Fabric Home addresses this challenge so that once data is connected and governed, any team can discover and reuse it without rebuilding pipelines or compromising data integrity.
 
+-   **Now Assist Panel for Workflow Data Fabric Home**
+
+    The Now Assist panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header provides AI-guided assistance for data integration, discovery, and action-taking tasks without leaving your current work context.
+
 -   **Now Assist for Workflow Data Fabric \(WDF\)**
 
-    The AI-guided entry point and parent interface for Workflow Data Fabric, powered by Now Assist for WDF. Describe what you need and Now Assist for WDF recommends whether to reuse existing data or connect a new source, and then routes you to the right place.
+    Now Assist for WDF search field in the Workflow Data Fabric \(WDF\) home page also provides AI-guided assistance. Describe what you need and Now Assist for WDF recommends whether to reuse existing data or connect a new source, and then routes you to the right place.
 
 -   **Connect Hub**
 
@@ -67,7 +71,7 @@ For more information, see [Workflow Data Fabric Home roles](https://raw.githubus
 To learn more about configuring and using Workflow Data Fabric Home, see:
 
 -   [Configuring Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-workflow-data-fabric.md)
--   [Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-workflow-data-fabric-landing.md)
+-   [Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md)
 -   [Connect to external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 -   [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
 -   [Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md)

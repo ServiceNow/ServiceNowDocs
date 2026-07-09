@@ -26,6 +26,8 @@ The record pages \(incident, problem, change, and so on\) in Service Operations 
 
 When you modify the order of a common tab in multiple record pages and workspaces, the changes are applicable in all those records and workspaces.
 
+**Note:** When you modify the order of a common tab, the change affects that tab in all associated record pages across multiple workspaces. Modify common tabs only if you want the change to apply universally. To restrict changes to a single workspace, modify record page-specific tabs only.
+
 ## Procedure
 
 1.  From the **All** menu, navigate to **sys\_ux\_app\_route.list**.

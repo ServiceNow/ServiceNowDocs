@@ -8,7 +8,7 @@ product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
@@ -18,7 +18,7 @@ Understand how healthcare locations and healthcare organizations function and sh
 
 ## Healthcare organizations
 
-The **healthcare organization** \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance. It’s the authoritative reference for defining the organization hierarchy within a healthcare delivery network, capturing the structure that supports operations like access control, visibility, and routing.
+The **healthcare organization** \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance. The Parent Service Organization field on the linked internal business location or external business location is the authoritative reference for defining the organization hierarchy within a healthcare delivery network, capturing the structure that supports operations like access control, visibility, and routing.
 
 An example healthcare organization hierarchy might look like:
 
@@ -30,7 +30,7 @@ Structuring healthcare organizations correctly is vital to healthcare operations
 
 \[Omitted image "hcls-healthcare-organizations.png"\] Alt text: ERD diagram showing how business locations and healthcare organizations interact.
 
-When a healthcare organization is created, an associated business location is also created with the same name that references the healthcare organization. A bidirectional reference exists between the two tables. A business location is an extension of a service organization.
+When a healthcare organization is created manually, an associated business location is also created with the same name that references the healthcare organization. A bidirectional reference exists between the two tables. A business location is an extension of a service organization.
 
 A healthcare organization is associated with a business location, either internal or external.
 
@@ -38,7 +38,7 @@ It contains specific attributes not found in the service organization table. For
 
 Use the **parent organization** field to create multi-level hierarchies by labeling healthcare organizations as parent to other healthcare organizations.
 
-The **healthcare organization location association** table is used to store the explicit link between healthcare locations and their owning healthcare organization.
+The **healthcare organization location association** table is a M2M table used to store the explicit link between healthcare locations and their owning healthcare organization.
 
 For information on the fields present in the Healthcare organization table, see [Healthcare organization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md).
 

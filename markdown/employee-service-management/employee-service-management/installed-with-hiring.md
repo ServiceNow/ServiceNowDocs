@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Hiring Connector components, staging tables, installed components, connector tables]
 ---
 
 # Components installed with Hiring Connector

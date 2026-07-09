@@ -1,32 +1,32 @@
 ---
-title: Gen AI based consumption report summarization
-description: View a concise summary of the consumption report in the Impact store application including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and instance observer seats.
+title: Summarize Consumption Reports with generative AI
+description: View a concise summary of a Consumption Report in Impact, including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and Instance Observer seats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/gen-ai-based-consumption-report-summarization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Impact, Impact]
+breadcrumb: [Consumption Report, Using Impact, Impact]
 ---
 
-# Gen AI based consumption report summarization
+# Summarize Consumption Reports with generative AI
 
-View a concise summary of the consumption report in the Impact store application including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and instance observer seats.
+View a concise summary of a Consumption Report in Impact, including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and Instance Observer seats.
 
 ## Before you begin
 
-Configure the Now Assist consumption report summarization for Impact application to use the generative AI skills. For more information, see [Activate Now Assist skills in Now Assist for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
+Configure the Now Assist Consumption Report summarization for Impact to use the generative AI skills. For more information, see [Activate Now Assist skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
 
-**Note:** Access to the AI-based consumption report summarization feature requires a Pro Plus license for any ServiceNow product.
+**Note:** Access to the AI-based Consumption Report summarization feature requires a Pro Plus license for any ServiceNow product.
 
 Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
 
 ## About this task
 
-Use the Gen AI based consumption report summary to view the following:
+Use the Gen AI based Consumption Report summary to view the following:
 
--   Details of accelerator usage and its alignment with business objectives.
+-   Details of Accelerator usage and its alignment with business objectives.
 -   Overview of active Now Support cases, with details on response times for P1 and P2 cases and current resolution progress.
 -   Current usage overview for Developer Support and Instance Observer seats highlighting any over or under allocations.
 
@@ -42,7 +42,7 @@ Use the Gen AI based consumption report summary to view the following:
 
 3.  Provide feedback for the summary by selecting the thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\] icons.
 
-4.  Copy the summary to use its information outside the app, for example, for including in an email or editing before forwarding, by selecting the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard.
+4.  Select the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard to use the summary outside of the app \(for example, to include in an email\).
 
 5.  If you think that data might have changed after you viewed the summary, refresh the summary information by selecting the redo icon \[Omitted image "refresh\_aisummary.png"\] Alt text: Refresh.
 

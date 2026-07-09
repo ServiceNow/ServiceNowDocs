@@ -31,7 +31,7 @@ For details on the Agent Client Collector Framework default checks, see [Agent C
 
 For details on the Agent Client Collector Monitoring default checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).
 
-For details on the Agent Client Collector for Visibility - Content default checks and policies, see [Agent Client Collector for Visibility - Content default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-visibility-checks-policies.md).
+For details on the Agent Client Collector for Visibility Content default checks and policies, see [Agent Client Collector for Visibility Content default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-visibility-checks-policies.md).
 
 If checks are not running on the agent's devices, your agent may be in CPU protection mode. CPU protection mode is activated when a device's CPU consumption is too high. To view a list of all disabled checks related to the agent, navigate to the agent record on the Agent Client Collectors page \(**All** &gt; **Agent Client Collector** &gt; **Agents**\), select an agent and select the **Disabled Checks** tab at the bottom of the page.
 

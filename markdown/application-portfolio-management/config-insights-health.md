@@ -1,5 +1,5 @@
 ---
-title: Create and apply a configuration for the Health or Insights section
+title: Configure the Health or Insights section
 description: Create configurations for the Health or Insights section and apply them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/config-insights-health.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create and apply a configuration for the Health or Insights section
+# Configure the Health or Insights section
 
 Create configurations for the Health or Insights section and apply them as needed.
 

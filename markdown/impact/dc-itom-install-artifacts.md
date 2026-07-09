@@ -73,3 +73,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Group Type|Tier 1|
 |Group Type|Tier 2+|
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itom.md)
+

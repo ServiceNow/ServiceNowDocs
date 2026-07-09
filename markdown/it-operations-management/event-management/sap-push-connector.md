@@ -47,7 +47,7 @@ JSON formatted messages are collected using basic authentication. For details on
 
 Create an Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport, as described in [Configure RFC in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-sap-solution-mgr.md).
 
-**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)
 
 **Related topics**  
 

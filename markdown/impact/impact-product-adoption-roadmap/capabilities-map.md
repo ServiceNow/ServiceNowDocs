@@ -1,5 +1,5 @@
 ---
-title: Capabilities maps
+title: Entitlements and usage
 description: See the applications, or capabilities, at your disposal for achieving your objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/capabilities-map.html
@@ -9,10 +9,10 @@ classification: impact-product-adoption-roadmap
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Adoption, Using Impact, Impact]
+breadcrumb: [Product adoption, Using Impact, Impact]
 ---
 
-# Capabilities maps
+# Entitlements and usage
 
 See the applications, or capabilities, at your disposal for achieving your objectives.
 
@@ -28,5 +28,5 @@ If you have more than one instance, select an instance from the drop-down select
 
 On the capabilities maps, see the entire list of applications and a summary of the capabilities based on the filters that you select. When you change the filter options, the data displayed in the map updates accordingly.
 
-The Capability details page displays information for a capability including description, relevant product adoption guidance, and it's alignment to objectives. You can use the **About** section to view detailed capability information to support informed decisions and **Related accelerators** to find relevant tools to help you implement and the capability. For more information, see [Capability Details Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capability-details.md).
+The Capability details page displays information for a capability including description, relevant product adoption guidance, and it's alignment to objectives. You can use the **About** section to view detailed capability information to support informed decisions and **Related accelerators** to find relevant tools to help you implement and the capability. For more information, see [Capability details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capability-details.md).
 

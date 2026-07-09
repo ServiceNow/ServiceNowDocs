@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create fixed assets
@@ -46,8 +46,6 @@ To sum the residual values of all assets in a fixed asset:
 
 **Related topics**  
 
-
-[Mobile app for Hardware Asset Management]()
 
 [Work with Asset and CI]()
 

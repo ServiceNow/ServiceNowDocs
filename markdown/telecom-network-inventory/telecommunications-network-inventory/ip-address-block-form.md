@@ -1,27 +1,29 @@
 ---
 title: IP Address Block form
-description: The IP Address Block form defines a top-level IP address range using CIDR notation. The fields on this form are listed below.
+description: The IP Address Block form defines a top-level IP address range using CIDR notation. Use this reference to understand the available fields and their behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # IP Address Block form
 
-The IP Address Block form defines a top-level IP address range using CIDR notation. The fields on this form are listed below.
+The IP Address Block form defines a top-level IP address range using CIDR notation. Use this reference to understand the available fields and their behavior.
+
+## IP Address Block form fields
 
 |Field|Description|
 |-----|-----------|
 |Name|User-friendly name for the IP Address Block.|
 |CIDR|The Classless Inter-Domain Routing \(CIDR\) notation that defines the address range of this block. Supports IPv4 prefixes /0 to /32 and IPv6 prefixes /0 to /128.|
-|Managed Network|The Managed Network this block belongs to. Optional. If set, the value propagates to all subnetworks beneath this block and cannot be changed at a lower level. To learn more, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).|
-|Description|Free-text description. Optional.|
+|Managed Network|The Managed Network this block belongs to. If set, the value propagates to all subnetworks beneath this block and cannot be changed at a lower level. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).|
+|Description|Free-text description.|
 |Life Cycle Stage|The current lifecycle stage of the block. Default value: Operational. Used together with Life Cycle Stage Status to determine if the block is active.|
 |Life Cycle Stage Status|The current lifecycle stage status. Default value: In Use. The block is active when Life Cycle Stage is Operational and Life Cycle Stage Status is In Use.|
 |Reported Addresses In Use|The count of addresses currently in use under this block.|

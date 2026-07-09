@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 18
+reading_time_minutes: 20
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -22,7 +22,7 @@ The AI Assets Inventory endpoints enable:
 -   Retrieving detailed information about a specific asset including its related assets.
 -   Querying governance data such as lifecycle phase, risk classification, and assessments \(when the GRC AI Governance plugin is active\).
 
-The AI Assets Inventory API requires the sn\_ai\_governance.integration.rest role and the AI Governance \[sn\_ai\_governance\] plugin to access it. The GET /details endpoint requires the sn\_grc\_ai\_gov plugin to be active for Governance, Risk, and Compliance \(GRC\) lookups.
+The AI Assets Inventory API requires the sn\_ai\_governance.integration.rest role and the AI Governance \[sn\_ai\_governance\] plugin to access it. The GET /details endpoint requires the AI Control Tower Core \[sn\_grc\_ai\_gov\] plugin to be active for Governance, Risk, and Compliance \(GRC\) lookups.
 
 This API belongs to the sn\_ai\_governance namespace.
 
@@ -270,7 +270,7 @@ sort\_by
 
 </td><td>
 
-Field to sort by. When sort\_by is not provided, results are ordered by sys\_created\_on descending \(newest first\). Valid values:
+Field to sort by.Valid values:
 
 -   risk\_classification
 -   lifecycle\_phase
@@ -283,6 +283,8 @@ Field to sort by. When sort\_by is not provided, results are ordered by sys\_cre
 -   provider
 
 Data type: String
+
+Default: Filters by the sys\_created\_on table field \(table: \[sn\_ai\_governance\_asset\_governance\_details\]\), descending \(newest first\).
 
 </td></tr><tr><td>
 
@@ -325,48 +327,11 @@ Accept
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
 </td></tr></tbody>
-</table><table class="rest_api_response_headers"><thead><tr><th>
+</table>|Header|Description|
+|------|-----------|
+|None| |
 
-Header
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-**sys\_id**
-
-</td><td>
-
-Sys ID of the governance record. Table: sn\_ai\_governance\_asset\_governance\_details
-
-</td></tr><tr><td>
-
-**asset\_name**
-
-</td><td>
-
-Display name of the underlying digital asset.Table/field: Asset \[asset\], display\_name
-
-</td></tr><tr><td>
-
-**asset\_type**
-
-</td><td>
-
-Name of the underlying asset's model category.Table/field: Asset Model Category \[asset.model\_category\], name
-
-</td></tr><tr><td>
-
-**created\_on**
-
-</td><td>
-
-Display value of the governance record's sys\_created\_on field.Table: sn\_ai\_governance\_asset\_governance\_details
-
-</td></tr></tbody>
-</table>### Status codes
+### Status codes
 
 The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
@@ -419,18 +384,7 @@ Display value of the governance record's sys\_created\_on field.Table: sn\_ai\_g
 </td></tr></tbody>
 </table>### Get All AI Systems
 
-```
-curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset' \ 
-  -u 'username:password' \ 
-  -H 'Accept: application/json'
-```
-
-```
-
-```
-
-### Get All AI Systems
+This example retrieves all AI systems in the given instance.
 
 ```
 curl -X GET \ 
@@ -439,24 +393,79 @@ curl -X GET \
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
+```
+{
+  "result": [
+    {
+      "sys_id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+      "asset_name": "Customer Service Virtual Agent",
+      "asset_type": "AI System",
+      "created_on": "2025-06-18 12:00:00"
+    },
+    {
+      "sys_id": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+      "asset_name": "HR Benefits Chatbot",
+      "asset_type": "Agentic AI",
+      "created_on": "2025-06-04 08:30:00"
+    },
+    {
+      "sys_id": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+      "asset_name": "IT Incident Classifier",
+      "asset_type": "Classic AI",
+      "created_on": "2025-05-21 15:45:00"
+    },
+    {
+      "sys_id": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+      "asset_name": "Fraud Detection System",
+      "asset_type": "AI System",
+      "created_on": "2025-05-07 10:00:00"
+    },
+    {
+      "sys_id": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+      "asset_name": "Document Summarization Agent",
+      "asset_type": "Generative AI",
+      "created_on": "2025-04-23 17:20:00"
+    }
+  ]
+}
 ```
 
 ### Get High-Risk AI Systems in Production
 
+This example retrieves all AI Systems with a high-risk classification in the instance.
+
 ```
-curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset?risk_classification=1&lifecycle_phase=Deploy' \ 
+curl -X GET \ 'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset?risk_classification=1&state=1' \ 
   -u 'username:password' \ 
-  -H 'Accept: application/json'
+  -H 'Accept: application/json' 
 ```
 
-```
+Response body.
 
+```
+{
+  "result": [
+    {
+      "sys_id": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+      "asset_name": "Fraud Detection System",
+      "asset_type": "AI System",
+      "created_on": "2025-05-07 10:00:00"
+    },
+    {
+      "sys_id": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+      "asset_name": "Credit Risk Scoring Engine",
+      "asset_type": "Classic AI",
+      "created_on": "2025-04-07 14:30:00"
+    }
+  ]
+}
 ```
 
 ### Get AI Models with Pagination
+
+The following example retrieves a paginated list of AI Model digital assets of max 50 records starting at the first record.
 
 ```
 curl -X GET \ 
@@ -465,50 +474,112 @@ curl -X GET \
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
 ```
-
-### Get AI Models with Pagination
-
-```
-curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_model_digital_asset?limit=50&offset=0' \ 
-  -u 'username:password' \ 
-  -H 'Accept: application/json'
-```
-
-```
-
+{
+  "result": [
+    {
+      "sys_id": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+      "asset_name": "GPT-4o Fine-tuned – Legal Review",
+      "asset_type": "AI Model",
+      "created_on": "2025-01-31 16:00:00"
+    },
+    {
+      "sys_id": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e",
+      "asset_name": "BERT Sentiment Classifier v2",
+      "asset_type": "AI Model",
+      "created_on": "2025-01-30 12:00:00"
+    },
+    {
+      "sys_id": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+      "asset_name": "Whisper Speech-to-Text",
+      "asset_type": "AI Model",
+      "created_on": "2025-01-29 08:00:00"
+    }
+  ]
+}
 ```
 
 ### Get AI Systems Created in a Date Range
 
+This example retrieves all AI Systems created in Q1 2025 \(January 1 – March 31\) from the AI Governance inventory.
+
 ```
 curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset?created_from=2026-01-01&created_to=2026-01-31' \ 
+  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset?created_from=2025-01-01&created_to=2025-03-31' \  
   -u 'username:password' \ 
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
+```
+{
+  "result": [
+    {
+      "sys_id": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+      "asset_name": "Q1 2025 Sales Forecasting Agent",
+      "asset_type": "Generative AI",
+      "created_on": "2025-03-28 09:00:00"
+    },
+    {
+      "sys_id": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+      "asset_name": "Compliance Monitoring System",
+      "asset_type": "AI System",
+      "created_on": "2025-02-27 11:30:00"
+    },
+    {
+      "sys_id": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+      "asset_name": "Employee Onboarding Assistant",
+      "asset_type": "Agentic AI",
+      "created_on": "2025-01-26 20:00:00"
+    },
+    {
+      "sys_id": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+      "asset_name": "IT Knowledge Base Search",
+      "asset_type": "Classic AI",
+      "created_on": "2025-01-01 04:00:00"
+    }
+  ]
+}
 ```
 
 ### Get AI Prompts by Department and Vendor
 
+This example retrieves all AI Prompts from the Engineering department associated with the Acme vendor from the AI Governance inventory.
+
 ```
 curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_prompt_digital_asset?department=IT%20Department&vendor=ServiceNow' \ 
+  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_prompt_digital_asset?department=Engineering&vendor=Acme' \ 
   -u 'username:password' \ 
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
+```
+{
+  "result": [
+    {
+      "sys_id": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+      "asset_name": "Code Review Prompt Template",
+      "asset_type": "AI Prompt",
+      "created_on": "2025-06-18 12:00:00"
+    },
+    {
+      "sys_id": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+      "asset_name": "Bug Triage Summarization Prompt",
+      "asset_type": "AI Prompt",
+      "created_on": "2025-05-21 15:45:00"
+    }
+  ]
+}
 ```
 
 ### Get AI Systems Managed by a Specific User, Sorted by Department Descending
+
+This example retrieves all AI Systems managed by Jane Smith from the AI Governance inventory, sorted by department in descending order.
 
 ```
 curl -X GET \ 
@@ -517,11 +588,36 @@ curl -X GET \
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
+```
+{
+  "result": [
+    {
+      "sys_id": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+      "asset_name": "Sales Lead Scoring Engine",
+      "asset_type": "Classic AI",
+      "created_on": "2025-05-07 10:00:00"
+    },
+    {
+      "sys_id": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b",
+      "asset_name": "Customer Service Virtual Agent",
+      "asset_type": "AI System",
+      "created_on": "2025-06-18 12:00:00"
+    },
+    {
+      "sys_id": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+      "asset_name": "Code Generation Assistant",
+      "asset_type": "Generative AI",
+      "created_on": "2025-06-04 08:30:00"
+    }
+  ]
+}
 ```
 
 ### Filter AI Models by Provider
+
+This example retrieves all AI Models provided by OpenAI from the AI Governance inventory.
 
 ```
 curl -X GET \ 
@@ -530,32 +626,42 @@ curl -X GET \
   -H 'Accept: application/json'
 ```
 
-```
+Response body.
 
 ```
-
-### Get AI Systems Created in a Date Range
-
+{
+  "result": [
+    {
+      "sys_id": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d",
+      "asset_name": "GPT-4o Fine-tuned – Legal Review",
+      "asset_type": "AI Model",
+      "created_on": "2025-06-18 12:00:00"
+    },
+    {
+      "sys_id": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+      "asset_name": "GPT-4o Mini – Internal Q&A",
+      "asset_type": "AI Model",
+      "created_on": "2025-06-04 08:30:00"
+    },
+    {
+      "sys_id": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f",
+      "asset_name": "text-embedding-3-large",
+      "asset_type": "AI Model",
+      "created_on": "2025-04-23 17:20:00"
+    }
+  ]
+}
 ```
-curl -X GET \ 
-  'https://instance.service-now.com/api/sn_ai_governance/v1/assets/alm_ai_system_digital_asset?created_from=2026-01-01&created_to=2026-01-31' \ 
-  -u 'username:password' \ 
-  -H 'Accept: application/json'
-```
 
-```
-
-```
-
-## AI Assets Inventory - GET /api/sn\_ai\_governance/v1/assets/\{sys\_id\}/details
+## AI Assets Inventory - GET /api/sn\_ai\_governance/assets/\{sys\_id\}/details
 
 Retrieves comprehensive details about a specific AI governance record.
 
 This endpoint retrieves the following record information for a single asset:
 
--   Basic asset information such as display name, asset class, asset type,
--   Life cycle phase and status, risk classification, state,
--   Related assets,
+-   Basic asset information such as display name, asset class, asset type.
+-   Life cycle phase and status, risk classification, state.
+-   Related assets.
 -   Governance, Risk, and Compliance \(GRC\) information \(assessments, risks, issues, policy exceptions\) when the sn\_grc\_ai\_gov plugin is active.
 
 ### URL format
@@ -591,21 +697,6 @@ sys\_id
 Sys\_id of the governance record to retrieve.Table: AI Asset Governance Details \[sn\_ai\_governance\_asset\_governance\_details\]
 
 **Note:** This isn't the sys\_id of the AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\] table.
-
-Data type: String
-
-</td></tr><tr><td>
-
-asset\_class
-
-</td><td>
-
-Required. Asset class table name. The value is matched against the Model Categories table, asset\_class \[cmdb\_model\_category.asset\_class\] field.Valid table values:
-
--   `alm_ai_system_digital_asset`: AI Systems \(skills, agents, use cases\)
--   `alm_ai_model_digital_asset`: AI Models
--   `alm_ai_prompt_digital_asset`: AI Prompts
--   `alm_ai_dataset_digital_asset`: AI Datasets
 
 Data type: String
 
@@ -689,7 +780,7 @@ Successful. The request was successfully processed.
 
 </td><td>
 
-**Sys\_id** or **asset\_class** path parameter missing or empty. Provide a valid **sys\_id** or **asset\_class** in the URL path.
+**Sys\_id** path parameter missing or empty. Provide a valid **sys\_id** in the URL path.
 
 </td></tr><tr><td>
 
@@ -848,7 +939,9 @@ lifecycle\_phase.sys\_id
 
 </td><td>
 
-Sys\_id of the life cycle phase record.Data type: String
+Sys\_id of the life cycle phase record.Table: AI Governance Lifecycle \[sn\_ai\_governance\_lifecycle\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1101,7 +1194,9 @@ input\_outputs
 
 </td><td>
 
-Input/output specifications for this system from the \[AI Input Output\] sn\_ent\_ai\_input\_output table, ordered by io\_category.Data type: Object
+Input/output specifications for this system.Table/field: AI Input Output \[sn\_ent\_ai\_input\_output\], Category \[io\_category\]
+
+Data type: Object
 
 ```
 input_outputs: [
@@ -1121,7 +1216,7 @@ sub\_ai\_systems
 
 </td><td>
 
-AI Systems registered as subcomponents of this system, sourced from the AI System Subcomponent Map \[sn\_ent\_ai\_system\_subcomponent\_m2m\] table where `ai_subcomponent_reference_table = alm_ai_system_digital_asset`.When a governance record exists for the related asset, the governance record's sys\_id, name, and governance fields are included. When no governance record exists, only the base fields are returned.
+AI Systems registered as subcomponents of this system, sourced from the AI System Subcomponent Map \[sn\_ent\_ai\_system\_subcomponent\_m2m\] table where `ai_subcomponent_reference_table = alm_ai_system_digital_asset`; this indicates that the field name ai\_subcomponent\_reference\_table should be filled with the AI Asset tables.When a governance record exists for the related asset, the governance record's sys\_id, name, and governance fields are included. When no governance record exists, only the base fields are returned.
 
 Data type: Array of Objects
 
@@ -1147,7 +1242,7 @@ tools
 
 </td><td>
 
-Enterprise AI tools registered as subcomponents, sourced the AI System Subcomponent Map \[sn\_ent\_ai\_system\_subcomponent\_m2m\] table where `ai_subcomponent_reference_table = sn_ent_ai_tool`.Data type: Array of Objects
+Enterprise AI tools registered as subcomponents, sourced the AI System Subcomponent Map \[sn\_ent\_ai\_system\_subcomponent\_m2m\] table where `ai_subcomponent_reference_table = sn_ent_ai_tool`; this indicates that the field name ai\_subcomponent\_reference\_table should be filled with the tools tables.Data type: Array of Objects
 
 ```
 tools: [
@@ -1180,7 +1275,9 @@ derived\_ai\_models
 
 </td><td>
 
-AI Models whose base\_model points to this model.Data type: Array of Objects
+AI Models whose base\_model points to this model.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 derived_ai_models: [
@@ -1197,7 +1294,9 @@ training\_datasets
 
 </td><td>
 
-Datasets referenced from this model's training\_datasets field.Data type: Array of Objects
+Datasets referenced from this model's training\_datasets field.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 training_datasets: [
@@ -1214,7 +1313,9 @@ evaluation\_datasets
 
 </td><td>
 
-Datasets referenced from this model's evaluation\_datasets field.Data type: Array of Objects
+Datasets referenced from this model's evaluation\_datasets field.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 evaluation_datasets: [
@@ -1231,7 +1332,9 @@ ai\_systems
 
 </td><td>
 
-AI Systems whose ai\_models field contains this model.Data type: Array of Objects
+AI Systems whose ai\_models field contains this model.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 ai_systems: [
@@ -1340,7 +1443,9 @@ ai\_systems
 
 </td><td>
 
-AI Systems whose ai\_prompts field contains this prompt.Data type: Array of Objects
+AI Systems whose ai\_prompts field contains this prompt.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 ai_systems: [
@@ -1366,7 +1471,9 @@ ai\_systems
 
 </td><td>
 
-AI Systems whose evaluation\_datasets field contains this dataset.Data type: Array of Objects
+AI Systems whose evaluation\_datasets field contains this dataset.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 ai_systems: [
@@ -1383,7 +1490,9 @@ ai\_models
 
 </td><td>
 
-AI Models whose training\_datasets or evaluation\_datasets field contains this dataset.Data type: Array of Objects
+AI Models whose training\_datasets or evaluation\_datasets field contains this dataset.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 ai_models: [
@@ -1400,7 +1509,9 @@ parent\_datasets
 
 </td><td>
 
-Datasets referenced from this dataset's base\_datasets field.Data type: Array of Objects
+Datasets referenced from this dataset's base\_datasets field.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 parent_datasets: [
@@ -1417,7 +1528,9 @@ child\_datasets
 
 </td><td>
 
-Datasets whose base\_datasets field contains this dataset.Data type: Array of Objects
+Datasets whose base\_datasets field contains this dataset.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
+
+Data type: Array of Objects
 
 ```
 child_datasets: [

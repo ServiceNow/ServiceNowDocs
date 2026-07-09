@@ -124,5 +124,5 @@ List of fields used as the metrics for the roadmap items.
 **Related topics**  
 
 
-[Customize the planning item display preferences for Prioritization and Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md)
+[Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md)
 

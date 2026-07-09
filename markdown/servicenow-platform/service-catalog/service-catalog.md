@@ -80,7 +80,7 @@ You can create or edit a catalog item \(catalog item or record producer\) using 
 -   **[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)**  
 Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
 -   **[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)**  
-Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
+Provides a conversational experience based on generative AI for submitting catalog item request in Virtual Agent.
 
 **Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-services.md)
 

@@ -21,14 +21,14 @@ ServiceNow teams work together to offer models that apply the artificial intelli
 Following is a listing of some ServiceNow products that use Predictive Intelligence functionality.
 
 -   
--   [Machine learning solutions for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ml-solutions-em.md)
 -   
 -   
 -   
 -   
--   [Machine learning solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/machine-learning-km.md)
--   [Machine learning solutions for Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/machine-learning-search.md)
--   [Machine Learning solutions for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ml_vr.md)
+-   
+-   
+-   
+-   
 -   
 -   
 

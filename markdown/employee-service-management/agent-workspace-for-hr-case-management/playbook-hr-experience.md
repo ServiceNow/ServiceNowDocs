@@ -55,5 +55,3 @@ A Playbook experience is tied to Playbook Configurations and Playbook Activity O
     -   Render a component \(Add Approvers or Close Complete\).
     -   Update the record \(change its state\).
 
-To make changes to the default configurations, see Update playbook experience configurations.
-

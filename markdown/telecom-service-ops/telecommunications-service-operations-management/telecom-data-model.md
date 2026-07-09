@@ -1,24 +1,24 @@
 ---
 title: Telecom data model
-description: The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core Configuration Item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
+description: The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core configuration item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-data-model.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-06-25"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom data model
 
-The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core Configuration Item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
+The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core configuration item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
 
 At its core, the Telecom data model organizes network elements such as equipment, interfaces, ports, sites, and connections, and defines how these elements relate to one another. The model captures both physical and logical aspects of the network and uses containment and consumption relationships to represent how network components are assembled and interconnected. This structure enables accurate modeling of complex telecom environments while remaining aligned with the standard CMDB architecture.
 
-The Telecom data model is designed to be extensible and technology‑agnostic. It provides a common foundation that supports multiple telecommunications domains by reusing existing CMDB classes where possible and introducing new classes only when telecom‑specific representation is required.
+The Telecom data model is extensible and technology‑agnostic. It provides a common foundation that supports multiple telecommunications domains by reusing existing CMDB classes where possible and introducing new classes only when telecom‑specific representation is required.
 
 ## Key components
 
@@ -26,6 +26,14 @@ The Telecom data model is designed to be extensible and technology‑agnostic. I
 -   Interfaces and ports: Network interfaces and ports that enable connectivity between devices and services.
 -   Sites and locations: Logical and physical locations used to group and organize network infrastructure.
 -   Links, circuits, and connections: Physical and logical connections that describe how network elements communicate and exchange data.
+
+## Network equipment classes
+
+The Telecom data model includes network equipment classes that represent specialized telecommunications hardware as children of the Telco Equipment \(`cmdb_ci_telco_equipment`\) class. The following table describes these classes.
+
+|Class|Description|
+|-----|-----------|
+|Network Packet Broker \(`cmdb_ci_network_packet_broker`\)|A specialized device that sits between network TAPs or SPAN ports and security and monitoring tools. A network packet broker aggregates, filters, and distributes traffic so that each connected tool receives only the data it needs, which optimizes monitoring performance across high-speed, complex, and hybrid cloud networks. Example devices include the Iris Packet Broker IPB220 and IPB420, and APCON IntellaFlex XR monitoring switches. This class is a child of the Telco Equipment \(`cmdb_ci_telco_equipment`\) class.|
 
 ## Benefits
 

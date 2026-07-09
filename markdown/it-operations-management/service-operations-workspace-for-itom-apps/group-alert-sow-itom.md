@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 11
 breadcrumb: [Alert automation in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. Use of alert tags is the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, ML, and text-based grouping. Even if a new alert is matched with multiple groups, it is grouped only with the first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
+Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. Use of alert tags is the best way to group alerts when your CMDB or service maps are immature. This complements other grouping algorithms, including alert correlation rules, ML, and text-based grouping. To learn about grouping alerts based on CI relationships in the CMDB, see [CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-groups.md). Even if a new alert is matched with multiple groups, it is grouped only with the first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 
 Alert automation also provides a simulation feature allowing you to test how many alert groups would be formed, how many are left ungrouped, and the compression rate. A higher compression rate means your team is more productive and may be able to identify root causes faster. However, consider whether the groups are accurate, operationally correct, and assigned to the right teams. You may adjust the group criteria until you are satisfied with the resulting groups.
 

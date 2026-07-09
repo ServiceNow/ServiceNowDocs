@@ -14,7 +14,7 @@ breadcrumb: [View data asset details, Finding and accessing data assets, Data Ca
 
 See the data assets, business terms, and governance objects connected to a data asset. Open the relationships view in Graph Explorer to expand, hide, and rearrange the graph.
 
-Explore data asset relationships  
+\[Omitted video\] Description: Explore data asset relationships
 
 ## Before you begin
 

@@ -18,7 +18,7 @@ Define editable fields and store signature mappings using the PDF field mappings
 
 ## Before you begin
 
-Role required: sn\_hr\_core.admin
+Role required: sn\_doc.admin
 
 ## About this task
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow

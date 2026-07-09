@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Virtual Agent API, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -27,8 +27,6 @@ You can configure to store **clientSessionId** to support third-party chat appli
 You can now support your live agents to see chat history in their conversations with the primary bot.
 -   **[Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)**  
 Enable Now Assist experience in Virtual Agent API to support generative AI skills across multiple provider channels.
--   **[Enable premium chat experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-api-enable-premium-chat.md)**  
-Enable premium chat experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 -   **[Configure multiple provider applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.md)**  
 You can configure multiple provider applications to support AI agents where there are multiple primary bots using Virtual Agent API and you need to distinguish between them.
 -   **[Transform Virtual Agent API request and response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.md)**  

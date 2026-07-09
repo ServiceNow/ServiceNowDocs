@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Configure, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Overwrite customizations for Software Asset Management migration

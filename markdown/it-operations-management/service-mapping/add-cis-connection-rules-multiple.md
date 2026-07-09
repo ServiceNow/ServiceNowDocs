@@ -1,5 +1,5 @@
 ---
-title: Add CIs to multiple application services using connection rules
+title: Add CIs to application services using connection rules
 description: Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/add-cis-connection-rules-multiple.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map multiple application services suggested by classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Add CIs to multiple application services using connection rules
+# Add CIs to application services using connection rules
 
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 

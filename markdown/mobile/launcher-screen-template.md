@@ -34,15 +34,15 @@ The launcher screen configuration page contains all the sections that make up a 
 
 3.  Create a launcher screen by using one of the following methods.
 
-<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d82363e92">
+<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d82391e92">
 
 Method
 
-</th><th align="left" id="d82363e95">
+</th><th align="left" id="d82391e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d82363e101">
+</th></tr></thead><tbody><tr><td id="d82391e101">
 
 **Using the Screens menu option**
 
@@ -52,7 +52,7 @@ Procedure
 2.  Select the Launcher screen type, and then select **Continue**.
 
 
-</td></tr><tr><td id="d82363e128">
+</td></tr><tr><td id="d82391e128">
 
 **Using the All mobile records menu option**
 

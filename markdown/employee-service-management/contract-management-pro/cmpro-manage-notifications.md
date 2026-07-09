@@ -34,6 +34,8 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 
 [Auto-populate the start date and end date for contract requests]()
 
+[Enable signatory roles]()
+
 [Activate a system property to generate a certificate of completion]()
 
 [Enable users to view email details in activity stream]()

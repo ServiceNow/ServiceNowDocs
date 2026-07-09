@@ -8,7 +8,7 @@ product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -22,7 +22,7 @@ Now Assist for CMDB provides the following abilities:
 
 -   **Create configuration item agentic workflow**
 
-    Occasionally, you might create a CI manually. To help you, the Create configuration item agentic workflow accepts your natural language request and verifies that it understands which class the new CI should belong to. The workflow then checks Identification and Reconciliation engine \(IRE\) rules to determine the required attributes for the CI and requests that information. After you provide sufficient data, the workflow ensures that the proposed CI includes the attributes that you requested, complies with IRE rules, and is not a duplicate. The workflow then creates the CI.
+    Occasionally, you might create a CI manually. To help you, the Create configuration item agentic workflow accepts your natural language request and verifies that it understands which class the new CI should belong to. The workflow then checks Identification and Reconciliation engine \(IRE\) rules to determine the required attributes for the CI and requests that information. After you provide sufficient data, the workflow promotes that the proposed CI includes the attributes that you requested, complies with IRE rules, and is not a duplicate. The workflow then creates the CI.
 
     The Create configuration item agentic workflow is particularly useful for adding CIs to tables accessed by Operational Technology because users might add physical CIs while unaware of the importance of managing CI data in the CMDB.
 
@@ -36,20 +36,20 @@ Now Assist for CMDB provides the following abilities:
 
 -   **Search CMDB agentic workflow**
 
-    The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
+    The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CIs of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 
     To learn more, see [Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md).
 
 -   **Duplicate CI remediator agentic workflow**
 
-    The Duplicate CI remediator agentic workflow completes the full range of de-duplication tasks. The workflow presents its reasoning for each step so CMDB administrators can review the AI recommendations, modify the remediation actions if needed, and then perform the de-duplication tasks.
+    The Duplicate CI remediator agentic workflow completes the full range of deduplication tasks. The workflow presents its reasoning for each step so CMDB administrators can review the AI recommendations, modify the remediation actions if needed, and then perform the deduplication tasks.
 
 
 ## Now Assist for CMDB skills
 
 -   **Manage duplicate CIs skill**
 
-    Duplicate CIs interfere with the integrity, reliability, and general health of CMDB. Resolve de-duplication tasks with support from the Now Assist Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template. The manage duplicate CIs skill accelerates the work that you normally perform manually.
+    Duplicate CIs interfere with the integrity, reliability, and general health of CMDB. Resolve deduplication tasks with support from the Now Assist Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template. The manage duplicate CIs skill accelerates the work that you normally perform manually.
 
     In this example, the manage duplicate CIs skill presents a list of classes with duplicate CIs and suggests possible actions. You can select an option or enter the action text in your own words:
 
@@ -67,6 +67,14 @@ Now Assist for CMDB provides the following abilities:
     \[Omitted image "na-cmdb-ci-summary-example.png"\] Alt text: Summary information.
 
     To learn more, see [View CI information with the Now Assist CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.md).
+
+-   **Summarize CMDB readiness skill**
+
+    View an AI-generated summary of the CMDB success advisor for HAM dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and recommends remediation actions to address the findings.
+
+    The skill works alongside the HAM tab of the CMDB success advisor dashboard. Each time you change the dashboard filters, you can regenerate the summary against the updated selection.
+
+    To learn more, see [Summarize CMDB readiness with the Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.md).
 
 -   **Service Graph Connector diagnosis**
 

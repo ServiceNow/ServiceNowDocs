@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-27"
 reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Load balancer performance metrics
@@ -42,12 +42,10 @@ Total number of HTTP responses/second with response code 5XX \(server error resp
 
 This represents the total number of active \(processing\) requests at a given timestamp. Note that this is an aggregated value that includes all responses sent for the instance in question.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

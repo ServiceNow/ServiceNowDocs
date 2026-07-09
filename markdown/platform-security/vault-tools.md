@@ -191,7 +191,7 @@ Number of active Field Encryption keys in your instance. Ideally, the number of 
 
 </td></tr><tr><td rowspan="2">
 
-[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time.
+[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time. Default step-up authentication policies are available for Vault customers. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 

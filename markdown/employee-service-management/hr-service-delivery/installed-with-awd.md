@@ -135,7 +135,7 @@ Stores details of work schedule calendars \(such as work schedule calendar name,
 
 </td></tr><tr><td>
 
-Legal Name Change Configuration\[n\_hr\_workday\_adv\_legal\_name\_change\_configuration\]
+Legal Name Change Configuration\[sn\_hr\_workday\_adv\_legal\_name\_change\_configuration\]
 
 </td><td>
 

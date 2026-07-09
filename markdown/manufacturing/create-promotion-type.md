@@ -20,11 +20,15 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Types**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Sales Promotion Setup** &gt; **Promotion Types**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_lmd_qm4_4fc"><thead><tr><th>
 
@@ -59,6 +63,6 @@ Description
 Short description of the sales promotion type.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
 

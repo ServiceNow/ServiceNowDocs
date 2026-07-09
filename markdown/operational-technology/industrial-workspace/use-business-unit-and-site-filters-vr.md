@@ -7,7 +7,7 @@ release: australia
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 1
 breadcrumb: [Site filter in the Industrial Workspace, Use, Industrial Workspace, Operational Technology]
 ---
@@ -28,11 +28,9 @@ Role required: cmdb\_ot\_isa\_viewer with site access
 
 3.  Select either the OT Visibility dashboard or the Operational Technology Vulnerability Response dashboard.
 
-4.  Under the **Site** header, click the **Select** button.
+4.  Select **Site** to display the list of available sites.
 
-    \[Omitted image "select-button-site-filter.png"\] Alt text: Select button under the Site filter that opens the filter menu
-
-5.  To search for a specific site, use the search function.
+5.  Select any site to view the dashboard data.
 
 6.  To apply one or more sites to the dashboard, complete the following actions.
 

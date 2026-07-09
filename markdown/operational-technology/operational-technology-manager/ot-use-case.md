@@ -51,7 +51,7 @@ The numbers in this figure correspond to the CSDM tables managed by Incident Man
 
 3.  OT system service:
     1.  The OT system service class extends the Calculated Application Service and is used to create the OT system service
-    2.  The OT system service can then be associated with equipment model entities, technical services for software applications, and business offerings.
+    2.  The OT system service can then be associated with equipment model entities.
     3.  The OT system service can be related to the following items:
         -   OT devices that are part of the OT system service
         -   Equipment model entities that the OT system service manages

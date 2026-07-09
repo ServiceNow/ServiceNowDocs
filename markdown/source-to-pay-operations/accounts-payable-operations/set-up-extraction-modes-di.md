@@ -38,3 +38,7 @@ Role required: sn\_docintel.manager
 6.  Select **Save**.
 
 
+## Result
+
+Document Intelligence Data extraction mode is activated.
+

@@ -1,6 +1,6 @@
 ---
-title: Using the legacy product configurator
-description: The legacy product configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
+title: Using the Configurator
+description: The configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-som-product-configurator.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Using the legacy product configurator
+# Using the Configurator
 
-The legacy product configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
+The configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
 
-## Legacy product configurator interface
+## Configurator interface
 
 \[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: Interface for adding configurable products that has sections for navigating the product hierarchy, selecting product and characteristic options, and reviewing the current selection with pricing
 

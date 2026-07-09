@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Continuous authorization and monitoring tasks in the CAM Workspace
@@ -30,6 +30,8 @@ Use the authorization boundary overview page to define the parameters of a secur
 Use the authorization package overview page to view documents and evidence that help you to assess your organization's security posture.
 -   **[ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md)**  
 Generate Authority to Operate \(ATO\) artifacts such as System Security Plan \(SSP\), Security Assessment Report \(SAR\), Plan of Actions and Milestones \(POA&amp;Ms\), Security Assessment Plan \(SAP\), Authority to Operate \(ATO Letter\), and Executive Summary from an authorization package in Microsoft Word format. Generating ATO artifacts as Microsoft Word format enhances ease of editing, collaboration, and compliance, confirming professional and portable documents.
+-   **[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.md)**  
+Control tailoring requests enable you to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
 -   **[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)**  
 Open Security Controls Assessment Language \(OSCAL\) provides a standardized way to express control-related information, enabling interoperability, consistency, and automation in IT security. It supports the JSON format only. CAM supports OSCAL version 1.1.2.
 

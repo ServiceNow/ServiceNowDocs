@@ -14,8 +14,6 @@ breadcrumb: [Using Impact, Impact]
 
 Use Impact Platform Health to track Tech Key Performance Indicators \(KPIs\) to show how closely you're aligned to ServiceNow technical leading practices, receive recommendations for improvement, and help you monitor your instance health.
 
-Features may vary between the Impact Store Application and the Impact Delivery Instance and are described accordingly.
-
 ## Get started
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
@@ -32,7 +30,7 @@ Features may vary between the Impact Store Application and the Impact Delivery I
 
 </td><td>
 
-[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
  \[Omitted image "bus-performance-forecasting-1.svg"\] Alt text: Track your instance health and performance in near real-time, while also providing historical insights.
 

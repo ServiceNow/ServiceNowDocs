@@ -35,7 +35,7 @@ The Service Mapping administrator \(service\_mapping\_admin\) manages traversal 
 
 ## Configuring traversal rules
 
-Service Mapping includes predefined traversal rules, simplifying the initial configuration. These rules provide a starting point for your tag-based service mapping setup. For details on the specific predefined rules, see [Predefined traversal rules for application services in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/default-traversal-rules.md).
+Service Mapping includes predefined traversal rules, simplifying the initial configuration. These rules provide a starting point for your tag-based service mapping setup. For details on the specific predefined rules, see [Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/default-traversal-rules.md).
 
 In addition to these predefined traversal rules, you can configure custom traversal rules to meet your organization's specific needs. For detailed instructions on how to configure traversal rules, including information on the required fields and settings, see [Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traversal_rules_form_completion.md).
 

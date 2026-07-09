@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-interface-single-table-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-06-30"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -33,15 +33,21 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
     -   **Application scope**: Select the scope in which to create the data interface.
 4.  On the Select source tables page, select **Add**.
 
-5.  Search for the source table in the Data Catalog and add tables to your selection. \[Omitted image "wdf-data-interface-single-select-table.png"\] Alt text: Select table
+5.  Search for the source table in the Data Catalog and add tables to your selection.
 
+    \[Omitted image "wdf-data-interface-single-select-table.png"\] Alt text: Table selection panel showing available source tables
+
+    **Note:** The following platform table types are not supported as source tables:
+
+    -   Tables with names that begin with `sys_`
+    -   Child tables
 6.  Review the list of tables and select **Continue**.
 
-    The wizard advances to the combination method step. Because you selected one table, the system confirms that no combination method is needed and proceeds to column selection.
+    Because one table is selected, no combination method is required. The wizard advances to column selection.
 
 7.  Select the columns to include in the data interface and select **Continue**.
 
-    Select only the columns that consumers require. Limiting columns makes the data interface easier to understand in the Data Catalog and reduces the impact of future schema changes in the source table.
+    Select only the columns that consumers require. Limiting columns reduces the impact of future schema changes in the source table.
 
     \[Omitted image "wdf-data-interface-single-select-columns.png"\] Alt text: Select columns
 
@@ -71,9 +77,11 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     For data interfaces built entirely on external source tables, the system automatically configures the required access roles.
 
-    **Note:** If the data interface includes any ServiceNow tables, this step requires a manual permissions request. Copy the email template provided and send it to your Security Administrator. The Security Administrator must add the correct read roles to the composite role generated for the data interface. Select the confirmation check box before continuing.
+    **Note:** If the data interface includes any ServiceNow tables, this step requires a manual permissions request. Copy the provided email template and send it to the security administrator. The security administrator must add the correct read roles to the composite role generated for the data interface. Select the confirmation check box before continuing.
 
-12. Review the data interface configuration on the **Review and finalize** page and select **Done**. \[Omitted image "wdf-data-interface-single-review.png"\] Alt text: Review the data interface
+12. Review the data interface configuration on the **Review and finalize** page and select **Done**.
+
+    \[Omitted image "wdf-data-interface-single-review.png"\] Alt text: Review the data interface
 
     The data interface is published and the overview page opens.
 
@@ -82,7 +90,7 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
 The data interface is published and visible in Data Workbench. After the metadata collector runs, the data interface appears in the Data Catalog where consumers can discover and request access to it.
 
-**Important:** There is a delay between publishing a data interface and its appearance in the Data Catalog. The metadata collector must run before the data interface is discoverable. To make the data interface available without waiting for the scheduled run, ask your administrator to run the collector manually from Connect Hub.
+**Note:** A delay occurs between publishing a data interface and its appearance in the Data Catalog. The metadata collector must run before the data interface is discoverable. To make the data interface available without waiting for the scheduled run, ask the administrator to run the collector manually from Connect Hub.
 
 ## What to do next
 

@@ -1,6 +1,6 @@
 ---
 title: Configure the GOV.UK Design System Service Portal Knowledge Pages
-description: The knowledge pages provide the basic, GDS-compliant structure for displaying knowledge base content for constituents using the GDS Service Portal.
+description: Display knowledge base content for UK constituents using the GDS Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-knowl-page-cont.html
 release: australia
@@ -12,9 +12,9 @@ breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer 
 
 # Configure the GOV.UK Design System Service Portal Knowledge Pages
 
-The knowledge pages provide the basic, GDS-compliant structure for displaying knowledge base content for constituents using the GDS Service Portal.
+Display knowledge base content for UK constituents using the GDS Service Portal.
 
-By default, the GOV.UK Developer Toolkit comes with base system knowledge pages, which contain the following widgets.
+By default, the GOV.UK Developer Toolkit comes with four base system knowledge pages, which contain the following widgets.
 
 Most widgets can be configured by cloning and modifying, or you can use the instance options where available to configure widgets for a portal page. For more information on the instance options available for each widget, see [Portal Widget Library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
 
@@ -85,6 +85,4 @@ The Knowledge homepage contains the following widgets:
 
     **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
 
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

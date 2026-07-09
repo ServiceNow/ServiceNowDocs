@@ -114,7 +114,7 @@ ServiceNow® Virtual Agent for Sourcing and Procurement Operations enables shopp
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with third-party sourcing solutions]()
 

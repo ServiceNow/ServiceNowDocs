@@ -24,8 +24,6 @@ The contributor users feature provides unified customer support for internal and
 
 The contributor users feature includes several roles that you can assign to users to control access to cases, case tasks, and case-related information. These roles can be assigned to users based on different business needs. In some cases, these roles also provide access to the parent cases and associated customer information.
 
-\[Omitted image "csm-contributor-user-role-diagram.png"\] Alt text: Table that defines contributor user roles. For a text description, refer to the Contributor user role description and capabilities table.
-
 The contributor users feature also includes viewer roles that enable employees to view cases, cases tasks, or core customer data. These roles include:
 
 -   Case Viewer
@@ -212,7 +210,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Requestor Organization
+Requester Organization
 
 </td><td>
 
@@ -224,7 +222,7 @@ Requested By
 
 </td><td>
 
-This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requestor Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
+This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
 
 </td></tr></tbody>
 </table>The Customer Service plugin adds two fields to the Notes section of the Case form for contributor users.
@@ -259,8 +257,6 @@ When a user with the case task agent role is assigned to a case task, the user's
 </table>## Create Case for Customer record producer
 
 The contributor users feature adds a record producer that contributor users can access from the Customer and Consumer Service Portals and use to create cases. When creating a case, this record producer presents different options for the customer in the **Who are you creating this case for?** field, depending on the roles assigned to the logged-in user.
-
-\[Omitted image "create-case-for-customer-record-producer.png"\] Alt text: Create a Customer Case form to describe who the agent is making a case for: account, consumer, business location, or myself.
 
 When the contributor user selects an option, additional fields related to that customer type are displayed.
 
@@ -316,8 +312,6 @@ Myself
 ## Viewing record lists on the Customer and Consumer Service Portals
 
 The My Lists widget on the Customer and Consumer Service Portals includes different filters for viewing records.
-
-\[Omitted image "contributor-users-portal-my-lists-widget.png"\] Alt text: My Lists widget with filters for sorting case records. For a text description of the filters, refer to the My Lists filters table.
 
 Depending on the roles assigned to the logged-in user, this widget displays the following filters.
 

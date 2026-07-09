@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
@@ -88,10 +88,16 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 6.  Set the plugin file as **active=true**.
 
-7.  Place the `sign.crt` file in the agent's `cert` directory, which is located in the `config` folder.
+7.  Place the `sign.crt` file into one of the following locations:
 
+    -   The Agent Client Collector's `cert` directory, located in the `config` folder.
+    -   On the MID Server, compress the file into a `.zip` file and place it in the `agent/static/cert/customer` folder.
 8.  In the `acc.yml` file, set `verify-plugin-signature` to **true**.
 
+
+## What to do next
+
+Add the self-signed `sign.crt` file to the agent host trust store, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 **Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [file management, track files, monitor exe files, malicious files, security files]
 breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Service Management]
 ---
 

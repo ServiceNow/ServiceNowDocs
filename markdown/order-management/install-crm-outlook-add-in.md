@@ -51,7 +51,7 @@ User roles are installed with CRM Outlook Add-in. For more information, see [Com
 ## What to do next
 
 -   [Configure CRM access from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-crm-outlook-add-in.md)
--   [Make emails associated through the CRM Outlook Add-in visible to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)
+-   [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)
 
 **Related topics**  
 

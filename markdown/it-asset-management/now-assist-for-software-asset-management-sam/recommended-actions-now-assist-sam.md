@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Generate recommended actions for products by using Now Assist for SAM
@@ -21,6 +21,10 @@ Generate a list of recommended actions to manage software license compliance and
 Role required: sam\_user
 
 ## About this task
+
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Recommended actions generative AI skill.
 
 Now Assist for SAM generates the recommended actions for products by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -57,15 +61,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d287215e162">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d287915e183">
 
 Action
 
-</th><th align="left" id="d287215e165">
+</th><th align="left" id="d287915e186">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287215e171">
+</th></tr></thead><tbody><tr><td id="d287915e192">
 
 **Regenerate icon**
 
@@ -75,7 +79,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d287215e186">
+</td></tr><tr><td id="d287915e207">
 
 **Feedback**
 

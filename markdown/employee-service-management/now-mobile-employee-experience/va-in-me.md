@@ -20,7 +20,7 @@ Activate the Chat quick action to allow your users to ask for help from a virtua
 
 Role required: admin
 
-Ensure that the Agent Chat plugin is active. For more information, see Agent Chat.
+Ensure that the Agent Chat plugin is active. For more information, see [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-use-agent-chat.md).
 
 ## About this task
 
@@ -46,9 +46,4 @@ Chat is enabled from the Requests and Knowledge Articles pages by default.
 Users can select Chat in the Homepage quick actions menu to ask for help from a live or virtual agent.
 
 **Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
-
-**Related topics**  
-
-
-[bundle-itsm.itsm-virtual-agent-topics]
 

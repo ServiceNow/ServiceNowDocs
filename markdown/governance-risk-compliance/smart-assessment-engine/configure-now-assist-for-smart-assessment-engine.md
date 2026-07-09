@@ -1,6 +1,6 @@
 ---
 title: Configure Now Assist for Smart Assessment Engine
-description: If you have the admin role, you can configure Now Assist for SAE so that your agents can use the generative AI skills.
+description: Configure Now Assist for SAE to enable generative AI skills for the assessment response assist workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-now-assist-for-smart-assessment-engine.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Now Assist, Smart Assessment Engine, Governance, Risk, and Complian
 
 # Configure Now Assist for Smart Assessment Engine
 
-If you have the admin role, you can configure Now Assist for SAE so that your agents can use the generative AI skills.
+Configure Now Assist for SAE to enable generative AI skills for the assessment response assist workflow.
 
 ## Now Assist for SAE Configuration overview
 

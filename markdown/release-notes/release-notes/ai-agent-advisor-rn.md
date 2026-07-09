@@ -22,7 +22,7 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
--   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
+-   Let AI analyze the CSM cases and ITSM incident records in your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
 See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.

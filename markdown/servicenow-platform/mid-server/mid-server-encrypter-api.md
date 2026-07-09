@@ -37,7 +37,7 @@ Windows Data Protection API \(DPAPI\) encrypts sensitive data from the **config.
 -   **[Use CyberArk as a secure configuration provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/use-cyberark-secure-config-provider.md)**  
 You can use a CyberArk vault to secure any sensitive data from the MID Server **config.xml** file.
 -   **[Change MID Server configuration file security schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/change-mid-server-security-schemes.md)**  
-The MID Server provides several schemes for securing sensitive data in the **config.xml** file and allows you to switch between these options to suit your security requirements.
+A MID Server security scheme is the method the MID Server uses to protect sensitive values stored in its `config.xml` file \(for example, the instance password\). The scheme defines how those values are encrypted and where the encryption key is stored.
 -   **[MID Server ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-secured-config-interface.md)**  
 Use the methods in this interface to create custom providers that manage secured parameter values in the MID Server **config.xml** file.
 -   **[MID Server IMidServerEncrypter interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-encrypter-interface.md)**  

@@ -19,7 +19,7 @@ Cloud discovery can populate Server CIs without running IP-based discovery, redu
 
 ## Server CI cloud discovery overview
 
-By default, cloud discovery creates Virtual Machine \(VM\) Instance CIs only. To populate Server CIs, organizations run IP-based discovery, which triggers a separate schedule that discovers servers alongside applications and other data. In large environments, IP-based discovery schedules can take a significant amount of time. Some organizations require only server records from their cloud environment, without discovering application data.
+By default, cloud discovery creates Virtual Machine \(VM\) Instance CIs only. To populate Server CIs, organizations run IP-based discovery, which triggers a separate schedule that discovers servers alongside applications and other data. In large environments, IP-based discovery schedules can take a long time. Some organizations require only server records from their cloud environment, without discovering application data.
 
 Starting with Discovery and Service Mapping Patterns version 1.31.0, cloud discovery can create Windows Server CIs, Linux Server CIs, or both alongside Virtual Machine Instance CIs, without running IP-based discovery. The **sn\_itom\_pattern.cloud\_discovery\_populate\_server\_ci** system property controls whether Server CIs are created. By default, the property is set to none and Server CIs aren't created. For more information, see [Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md).
 

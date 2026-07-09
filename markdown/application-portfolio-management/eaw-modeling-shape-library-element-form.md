@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -86,7 +86,7 @@ Entity configuration
 
 </td><td>
 
-\(Optional\) Select an entity if you want to associate this shape with an existing entity. This configuration associates the shape with the entity table in the database.
+Select the entity configuration that maps this shape to a platform entity table. This field is required when the diagram action for this shape uses the **CI Item** node type. When an entity configuration is selected, clicking the shape on the canvas displays a properties side panel showing field data from the corresponding entity record.
 
 </td></tr><tr><td>
 

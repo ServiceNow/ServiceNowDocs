@@ -1,5 +1,5 @@
 ---
-title: Restart Populate TPM Discovered Technologies and Lifecycles scheduled job
+title: Restart the TPM Discovered Technologies and Lifecycles job
 description: You can restart the TPM Discovered Technologies and Lifecycles job if it encounters any interruptions or failures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-restart-tpm-scheduled-job.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Restart Populate TPM Discovered Technologies and Lifecycles scheduled job
+# Restart the TPM Discovered Technologies and Lifecycles job
 
 You can restart the **TPM Discovered Technologies and Lifecycles** job if it encounters any interruptions or failures.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 The restart feature enables you to resume the **TPM Discovered Technologies and Lifecycles** job from where it stopped. This ensures that the data population process is completed without having to start the job from the beginning.
 
-The **Restart** button becomes active on the **TPM Discovered Technology Run Log** page after one hour from the time since when there’s no update to the run log. You can determine whether the job faced any interruption or whether it failed by analyzing the **Records Processed** field value and if there’s no update to the count of TPM discovered technologies in the system.
+The **Restart** button is set to active on the **TPM Discovered Technology Run Log** page after one hour from the time since when there’s no update to the run log. You can determine whether the job faced any interruption or whether it failed by analyzing the **Records Processed** field value and if there’s no update to the count of TPM discovered technologies in the system.
 
 ## Procedure
 

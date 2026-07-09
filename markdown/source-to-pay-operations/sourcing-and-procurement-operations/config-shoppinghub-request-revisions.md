@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ShoppingHub configuration, Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ShoppingHub configuration, Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Enable user actions
@@ -59,5 +59,5 @@ Use the same steps to modify the following user action configurations:
 
 You may add additional configurations to suit your business requirements.
 
-**Parent Topic:**[ShoppingHub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
+**Parent Topic:**[ShoppingHub configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

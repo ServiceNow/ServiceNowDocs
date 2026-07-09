@@ -42,6 +42,12 @@ Use\[Omitted image "BUS\_64px\_Optimize-Manage\_YG.png"\] Alt text:
 
  [Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 
+</td></tr><tr><td colspan="2">
+
+Air-gapped Networks
+
+\[Omitted image "BUS\_64px\_Endpoint\_YG.png"\] Alt text:[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)
+
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 

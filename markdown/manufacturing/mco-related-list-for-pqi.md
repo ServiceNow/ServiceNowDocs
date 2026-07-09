@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Related list for quality issues
@@ -23,15 +23,4 @@ In the workspace, you can use the product quality issues related list to log the
 |[Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-action.md)|Create corrective actions.|
 |[Create a preventive action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-preventive-action.md)|Create preventive action.|
 |[View a product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-view-a-product-non-conformance.md)|View the product non-conformance case details.|
-
--   **[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-quality-investigation-task.md)**  
-Create a non-conformance case task report for products that had an issue.
--   **[Create a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-stakeholders.md)**  
-Create a stakeholder who is involved in the product quality investigation.
--   **[Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-action.md)**  
-Create a corrective action for the quality investigation case.
--   **[Create a preventive action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-preventive-action.md)**  
-Create a preventive action for product quality issue case.
-
-**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-product-quality-investigation.md)
 

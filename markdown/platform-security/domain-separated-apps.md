@@ -66,7 +66,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 
 |Product Suite|Application|Support level|
 |-------------|-----------|-------------|
-|[App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|No support|
+|[App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|No support|
 |[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center-landing-page.md)|Basic|
 |[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)|Basic|
 |ServiceNow Studio|No support|

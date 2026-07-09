@@ -88,14 +88,5 @@ The HR admin role can access, read, create, and edit:-   Unions
 -   HR profile writer \[sn\_hr\_core.profile\_reader\]
 
 </td></tr></tbody>
-</table>-   **[Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-create.md)**  
-Create a union with details that identify it.
--   **[Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)**  
-Use Local Chapters to set up and track the chapters of your union. Local chapters are children to labor unions.
--   **[Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-contacts.md)**  
-Union Contacts track the people who work for a union or local chapter organization.
--   **[Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-employee-membership.md)**  
-Use Employee Union Membership to input and track your union employees. Creating union memberships allows you to gain visibility into employee membership through an HR profile and target content or tasks through HR criteria.
-
-**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
+</table>**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
 

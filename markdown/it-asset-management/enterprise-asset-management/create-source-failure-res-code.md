@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a source for failure and resolution codes

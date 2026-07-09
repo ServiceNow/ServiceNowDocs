@@ -1,5 +1,5 @@
 ---
-title: Analyze adherence and conformance from the time worked summary
+title: Analyze conformance from time worked summary
 description: View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Analyze adherence and conformance from the time worked summary
+# Analyze conformance from time worked summary
 
 View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
 

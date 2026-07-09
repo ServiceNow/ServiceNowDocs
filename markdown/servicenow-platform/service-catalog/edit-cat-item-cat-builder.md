@@ -85,5 +85,5 @@ Discard a catalog item that’s in the Draft state in Catalog Builder.
 **Related topics**  
 
 
-[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 

@@ -43,5 +43,5 @@ You can manually refresh the dashboard by using the refresh icon \(\[Omitted ima
 **Related topics**  
 
 
-[View the performance of applications using the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
+[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
 

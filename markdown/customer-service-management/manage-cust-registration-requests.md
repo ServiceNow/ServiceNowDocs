@@ -6,13 +6,20 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/man
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage customer registration requests
 
 Users with the customer administrator role can approve or reject registration requests that customers submit from the Customer Service Portal.
+
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+
+[Reject a registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
 
 ## Approve a registration request with a valid registration code
 
@@ -39,6 +46,13 @@ Role required: sn\_customerservice.customer\_admin
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
 
+**Related topics**  
+
+
+[Reject a registration request]()
+
+[Manage customer registration requests]()
+
 ## Approve a registration request with an invalid registration code
 
 Approve a registration request from a user that was submitted from the Customer Service Portal with an invalid registration code.
@@ -60,6 +74,13 @@ Role required: sn\_customerservice.customer\_admin
     The registration request is sent to the customer administrator of the assigned account.
 
 
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code]()
+
+[Reject a registration request]()
+
 ## Reject a registration request
 
 Reject a registration request from a user that was submitted from the Customer Service Portal.
@@ -80,4 +101,11 @@ Role required: sn\_customerservice.customer\_admin
 
     An email regarding the rejection is sent to the requestor’s email address.
 
+
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code]()
+
+[Manage customer registration requests]()
 

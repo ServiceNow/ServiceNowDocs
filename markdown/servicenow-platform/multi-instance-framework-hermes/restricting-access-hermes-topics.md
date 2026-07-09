@@ -36,3 +36,5 @@ Receive a notification when an attempt to access Hermes is received from an unau
 
 [Revoke a Hermes certificate]()
 
+[Enable encryption at rest for a Hermes topic]()
+

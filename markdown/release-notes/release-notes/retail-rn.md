@@ -14,6 +14,9 @@ The ServiceNow® retail applications streamline frontline operations and custome
 
 ## Retail highlights for the Australia release
 
+-   Enable store staff and HQ support agents to report, resolve, and track equipment failures through a structured break-fix workflow.
+-   Enable HQ to publish standardized audit plans that automatically generate store audit cases and tasks for field auditors.
+-   Enable Moveworks to notify store associates in real time when a break-fix case is assigned, resolved, or needs more information.
 -   Enable HQ to create and distribute standardized questionnaires with stores to capture audit results and operational insights.
 -   Build smart store task questionnaires for Retail with conditional logic, attachment support, and role-based response visibility.
 -   Complete store task questionnaires for Retail directly from the Retail mobile app.

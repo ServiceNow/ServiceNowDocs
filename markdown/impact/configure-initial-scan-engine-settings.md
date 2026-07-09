@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Activate Scan Engine and review settings
@@ -109,15 +109,13 @@ Review and adjust settings, as each tab has default settings that can be adjuste
 </td></tr></tbody>
 </table>4.  Select **Run your first scan** to enable the next step.
 
-    **Important:** The initial setup configures required options to run the first system scan. Subsequent configuration may occur to adjust Scan Engine behavior.
+    **Important:** The initial setup configures required options to run the first system scan. See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) for details.
+
+    Additional and subsequent configuration may occur to adjust Scan Engine behavior.
 
 
 -   **[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)**  
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand and real-time scans.
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/assign-users-scan-engine-groups.md)
-
-**Next topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

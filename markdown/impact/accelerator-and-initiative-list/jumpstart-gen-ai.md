@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your GenAI
@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the capabilities of ServiceNow® Ge
 
 ## Accelerator Overview
 
-This accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various Now Assist and AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their Now Assist journey.
+This Accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various Now Assist and AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their Now Assist journey.
 
 ## Package Availability
 

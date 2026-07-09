@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [RMF step 2 - Select controls for an authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 2 - Select controls for an authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Inherit from a common control
@@ -38,8 +38,6 @@ You are aware that the facility has a fire suppression system, fire alarms, and 
 3.  Select a control that you want to inherit from a common control.
 
 4.  Select **Inherit from Common Control**.
-
-    \[Omitted image "inherit-confirm.png"\] Alt text: Inherit from Common Control
 
 5.  Select the common control you want to inherit protections from and select **Confirm**.
 

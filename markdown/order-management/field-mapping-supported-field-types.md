@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [field mapping, supported field types, source field, target field]
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Field mapping supported field types
@@ -30,7 +30,7 @@ Field types that are supported as source and target fields in solution configura
 |System fields — as source|Yes|System fields can be used as source fields.|
 |System fields — as target|No|System fields cannot be set as target fields.|
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 **Related topics**  
 

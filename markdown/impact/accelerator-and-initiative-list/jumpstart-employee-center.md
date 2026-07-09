@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Employee Center
-description: This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+description: This Accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-employee-center.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Employee Center
 
-This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow® Employee Center portal in your instance.
+This Accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow® Employee Center portal in your instance.
 
 ## Accelerator overview
 
-The Jumpstart Your Employee Center accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
+The Jumpstart Your Employee Center accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see .
 
 ## Package Availability
 

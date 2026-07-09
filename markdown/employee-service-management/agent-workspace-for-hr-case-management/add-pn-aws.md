@@ -1,6 +1,6 @@
 ---
 title: Add personal notes
-description: Personal notes allow agents to record information that remains private and is not visible to other agents working on that case.
+description: Using personal notes agents can record information that remains private and is not visible to other agents working on that case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/add-pn-aws.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Using
 
 # Add personal notes
 
-Personal notes allow agents to record information that remains private and is not visible to other agents working on that case.
+Using personal notes agents can record information that remains private and is not visible to other agents working on that case.
 
 ## Before you begin
 
@@ -22,17 +22,17 @@ Role required: sn\_hr\_core.case\_writer
 
 ## About this task
 
-Unlike working notes, which are accessible to all agents assigned to a case, personal notes provide a secure way to document sensitive information that shouldn't be shared with the broader team. For example, when managing Employee Relations cases, agents can use personal notes to document confidential details.\[Omitted image "personal-notes-aws.png"\] Alt text: Personal notes
+Unlike working notes, which are accessible to all agents assigned to a case, personal notes provide a secure way to document sensitive information that shouldn't be shared with the broader team. For example, when managing Employee Relations cases, agents can use personal notes to document confidential details.\[Omitted image "personal-notes-aws.png"\] Alt text: Personal Notes panel in contextual side panel showing text entry field and add file option
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text:\).
 
 3.  Select an HR case.
 
-4.  In the Contextual Side Panel, select the **Personal Notes** icon\( \[Omitted image "personal-notes.png"\] Alt text: Personal notes\).
+4.  In the Contextual Side Panel, select the **Personal Notes** icon\( \[Omitted image "personal-notes.png"\] Alt text:\).
 
     The case must be in ready, work in progress, or awaiting acceptance state.
 

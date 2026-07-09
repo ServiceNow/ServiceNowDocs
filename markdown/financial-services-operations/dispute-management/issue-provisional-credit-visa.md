@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Issue provisional credit
@@ -40,13 +40,11 @@ A temporary credit is provided to the card holder to notify that the case is und
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the **Processing** tab, select the transaction ID.
+6.  In the **Issue provisional credit** activity, enter the refund amount and details.
 
-7.  In the **Issue provisional credit** activity, enter the refund amount and details.
-
-8.  In the  **Remarks** field, enter any comments.
+7.  In the  **Remarks** field, enter any comments.
 
 
 **Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)

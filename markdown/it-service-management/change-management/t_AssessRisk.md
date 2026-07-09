@@ -30,18 +30,18 @@ The **Risk Assessment** related link is available only when the change request m
 -   **Risk Condition applied**: The result of the risk calculated against pre-defined risk conditions.
 -   **Risk set to**: The final weight of risk based on risk assessment and risk calculation.
 
-    **Note:** If you have filled the Change Risk Assessment form earlier but clicked **Risk Assessment** related list again, a pop-up window appears informing that you have already completed the risk assessment for the change request and confirms whether you want to edit the existing risk assessment. Click **Yes** to fill the Change Risk Assessment form again. Click **No** to use the existing risk assessment to calculate risk.
+    **Note:** If you have filled the Change Risk Assessment form earlier but clicked **Risk Assessment** related list again, a pop-up window appears informing that you have already completed the risk assessment for the change request and confirms whether you want to edit the existing risk assessment. Select **Yes** to fill the Change Risk Assessment form again. Select **No** to use the existing risk assessment to calculate risk.
 
 
 ## Procedure
 
 1.  Open a change request.
 
-2.  Click the **Risk Assessment** related link.
+2.  Select the **Risk Assessment** related link.
 
-3.  Answer the questions and click **Submit**.
+3.  Answer the questions and select **Submit**.
 
-    After submitting the risk assessment, click the **Risk Calculation** related link to calculate the risk. The result of risk assessment, risk calculation, and the value that appears in the **Risk** field of the change request form appears.
+    After submitting the risk assessment, select the **Risk Calculation** related link to calculate the risk. The result of risk assessment, risk calculation, and the value that appears in the **Risk** field of the change request form appears.
 
     \[Omitted image "RSKASS4.png"\] Alt text: risk calculation results
 

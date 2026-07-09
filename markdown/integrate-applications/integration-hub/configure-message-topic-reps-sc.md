@@ -21,7 +21,7 @@ Set up message and topic replications to replicate data between your Apache Kafk
 -   Role required: message\_replication\_admin
 -   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
-    -   [Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
+    -   .
     -   Check the [Key Management Framework Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/kmf_diagnostics.md) to verify that all three items in the Instance PKI section are operational.
 -   Configure and start a MID Server or MID Server cluster. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConfiguration.md) and [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
@@ -154,9 +154,9 @@ Each Kafka Topic Replication record also has a related list named Message Replic
 
 ## What to do next
 
-If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md), [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), or [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md) consumer to process the messages or set up a [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md) to start a flow.
+If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md), [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), or [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md) consumer to process the messages or set up a Kafka Message trigger to start a flow.
 
-If you're replicating messages from ServiceNow to your local Kafka, you can use a [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/kafka-producer-action-designer.md) in Workflow Studio or use the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md) to publish messages to the Hermes topic and your local Kafka.
+If you're replicating messages from ServiceNow to your local Kafka, you can use a  in Workflow Studio or use the ProducerV2 API to publish messages to the Hermes topic and your local Kafka.
 
 **Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

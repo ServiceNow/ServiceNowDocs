@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-related-lists
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+reading_time_minutes: 1
+breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Product Non-conformance without playbook
@@ -24,21 +24,4 @@ In the workspace, you can use the product non-conformance related list to log th
 |[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-containment-actions.md)|Create containment actions.|
 |[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-task-sla.md)|Records task SLA.|
 |[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-relationships.md)|It is used to track similar or duplicate product non-conformance case.|
-
--   **[Create a product non-conformance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-case-task.md)**  
-Create a non-conformance case report for products that had an issue.
--   **[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-root-cause-analysis-task.md)**  
-Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
--   **[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-correction-actions.md)**  
-Create a correction actions for the non-conformance report.
--   **[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-containment-actions.md)**  
-Create a containment action report to address issues for the impacted assets.
--   **[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-work-order.md)**  
-When off-site work is required, create a work order to provide field service agents with the information they must fulfill the request. You can create a work order from scratch or from another existing work order.
--   **[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-task-sla.md)**  
-Create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
--   **[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-relationships.md)**  
-Create the relationship between parent and child and assign the type of relationship.
-
-**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformances.md)
 

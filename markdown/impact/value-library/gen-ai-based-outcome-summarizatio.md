@@ -1,6 +1,6 @@
 ---
-title: Gen AI based outcome summarization
-description: View a concise summary of your operational outcomes in the Impact store application. This summary could include positive or negative outcomes trends, adoption of recommended applications, and consumption of related accelerators.
+title: Summarize outcomes with generative AI
+description: View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/gen-ai-based-outcome-summarizatio.html
 release: australia
@@ -12,17 +12,15 @@ reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---
 
-# Gen AI based outcome summarization
+# Summarize outcomes with generative AI
 
-View a concise summary of your operational outcomes in the Impact store application. This summary could include positive or negative outcomes trends, adoption of recommended applications, and consumption of related accelerators.
+View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 
 ## Before you begin
 
-**Note:**
+**Note:** Access to the Outcomes summarization feature is determined by your Impact Package or a Pro Plus license for any ServiceNow product.
 
-Access to the Outcomes summarization feature is determined by your Impact Package or a Pro Plus license for any ServiceNow product.
-
-Role required:Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
+Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner
 
 ## Procedure
 
@@ -30,32 +28,33 @@ Role required:Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
 
 2.  Select one of the following to open the desired outcomes page.
 
-<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d37236e84">
+<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d37651e81">
 
-Menu Item
+Option
 
-</th><th align="left" id="d37236e87">
+</th><th align="left" id="d37651e84">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37236e93">
+</th></tr></thead><tbody><tr><td id="d37651e90">
 
 **Outcomes Insights**
 
 </td><td>
 
 1.  Select the **Outcomes Insights** menu item under **Value Management**.
-2.  Select the desired insight and in the Quick links section, select the **Outcome details page** link.
+2.  Select the desired insight.
+3.  In the Quick links section, select the **Outcome details page** link.
 
 
-</td></tr><tr><td id="d37236e120">
+</td></tr><tr><td id="d37651e120">
 
 **Objectives and Outcomes**
 
 </td><td>
 
 1.  Select the **Objectives and Outcomes** menu item under **Value Management**.
-2.  SOn the **Manage objectives and outcomes** page, select the row for the outcome you want to review.
+2.  On the **Manage objectives and outcomes** page, select the row for the outcome you want to review.
 3.  Select **View Details** on the side panel with the outcome details.
 
 
@@ -68,7 +67,7 @@ Action
 
 4.  Provide feedback for the summary by selecting the thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\] icons.
 
-5.  Copy the summary to use its information outside the app, for example, for including in an email or editing before forwarding, by selecting the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard.
+5.  Select the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard to access the summary outside of the app \(for example, to include in an email\).
 
 6.  If you think that data might have changed after you viewed the summary, refresh the summary information by selecting the redo icon \[Omitted image "refresh\_aisummary.png"\] Alt text:.
 

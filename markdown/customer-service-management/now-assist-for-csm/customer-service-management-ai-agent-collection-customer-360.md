@@ -21,9 +21,9 @@ This workflow enables agents to retrieve case details, customer information, and
 
 ## Provide customer 360 insights agentic workflow overview
 
-The Provide Customer 360 insights agentic workflow is a GenAI-powered assistant that helps agents to resolve cases more efficiently and effectively. By answering natural language questions about customers, cases, products, catalogs and past interactions, it provides contextual insights that enable agents to make informed decisions and solve issues faster. It provides a seamless, multi-turn Q&amp;A experience, helping agents to:
+The Provide Customer 360 insights agentic workflow is a GenAI-powered assistant that helps agents resolve cases more efficiently and effectively. By answering natural language questions about customers, cases, products, catalogs and past interactions, it provides contextual insights that enable agents to make informed decisions and solve issues faster. It provides a seamless, multi-turn Q&amp;A experience, helping agents to:
 
--   Ask follow-up questions and get context-aware responses in real time.
+-   Ask follow-up questions and get context-aware responses in real-time.
 -   Access critical customer details and history to make informed decisions.
 
 This feature consolidates scattered user and case data, providing agents with timely, accurate insights to make informed decisions, reducing Mean Time To Resolve \(MTTR\) and helping to solve issues. If something isn’t found, the GenAI responds clearly. For example, “I couldn’t find any recent catalog interactions for this customer". If the question is outside its scope, it redirects.
@@ -42,7 +42,7 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-In the data access settings, you must also add the necessary roles to helps agents to resolve cases more efficiently and effectively. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
+In the data access settings, you must also add the necessary roles to helps agents resolve cases more efficiently and effectively. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
 
 ## Setup Provide customer 360 insights Agentic Workflow
 
@@ -139,6 +139,14 @@ Feedback Loop
 </td><td>
 
 Agents can give thumbs up or thumbs down or flag inaccurate responses for retraining.
+
+</td></tr><tr><td>
+
+Enterprise Graph
+
+</td><td>
+
+Enables the agent to connect the case table with one related table at a time in natural language queries- without requiring SQL or schema knowledge.
 
 </td></tr></tbody>
 </table>

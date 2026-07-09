@@ -16,6 +16,8 @@ breadcrumb: [Agentic Playbooks, Workflow Studio, Build workflows]
 
 Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
 
+\[Omitted video\] Description: Agentic Playbooks overview
+
 ## Agentic Playbooks overview
 
 An agentic playbook consists of the same components as a regular \(deterministic\) playbook, except that AI agents are configured to perform certain activities of the playbook. For example, consider an incident management playbook that includes three activities: Finding related incidents, conducting root cause analysis, and identifying remedial actions for an incident. In a traditional setup, the service desk personnel must gather all the necessary information to complete these activities. However, when AI agents are enabled and configured for the playbook, they can perform each activity on behalf of the service desk personnel. The service desk personnel can review, approve, or edit the AI-generated responses to complete the playbook.Alternatively, you can configure AI agents to complete activities without any human intervention.
@@ -51,7 +53,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see 
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-knowledge-graph.md)
 
 </td></tr><tr><td>
 
@@ -108,7 +110,7 @@ Uses web search tools to assist users in resolving issues by analyzing problems 
     |Playbook slot filling script|Fetches the relevant schema required to understand and execute the playbook based on the playbook activity context ID and saves the agent response back to the activity context using the activity context ID. It also consolidates activity form fields and UI visible fields under the schema.|
 
 
-For more information about Now Assist AI agents and their capabilities, refer to .
+For more information about Now Assist AI agents and their capabilities, refer to [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 ## User personas
 

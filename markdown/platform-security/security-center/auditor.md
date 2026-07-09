@@ -1,5 +1,5 @@
 ---
-title: Auditor checks
+title: Security Center Scan Suites
 description: Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/auditor.html
@@ -8,17 +8,32 @@ product: Security Center
 classification: security-center
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 8
 breadcrumb: [Scan suites, Security scanner, Security configuration console, Security Center, Platform Security]
 ---
 
-# Auditor checks
+# Security Center Scan Suites
 
 Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
+
+## Security Center Scan Suites
+
+Security Center provides 4 scan suites that provide schedules to run checks at different cadences. The suites are:
+
+-   Security Center- daily
+-   Security Center- weekly
+-   Security Center- monthly
+-   Security Center- quarterly
+
+You can add custom checks to these suites to automatically perform on the respective cadence.
 
 ## Check information
 
 <table id="table_ez5_r21_qcc"><thead><tr><th>
+
+Cadence
+
+</th><th>
 
 Check Name
 
@@ -30,15 +45,43 @@ Description
 
 Scan finding type
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td rowspan="8">
 
-Identify out of date store apps
+Daily
 
 </td><td>
 
-Identifies apps activated on your instance that have updated versions available.
+Review public knowledge base articles
 
- Verify you’re running to the most up-to-date versions of store applications, which can include fixes to potential security issues.
+</td><td>
+
+Identifies knowledge bases and knowledge base Articles configured to enable access to unauthenticated users.
+
+ Review and confirm that the current configuration aligns with your business needs.
+
+</td><td>
+
+Review and Decide
+
+</td></tr><tr><td>
+
+Review public knowledge bases
+
+</td><td>
+
+Identifies public Knowledge Bases to be reviewed for confirmation that the current configuration aligns with your business needs.
+
+</td><td>
+
+Review and Decide
+
+</td></tr><tr><td>
+
+Users with Direct Role Assignments \(Bypassing Groups\)
+
+</td><td>
+
+Identifies users with roles assigned directly instead of through group inheritance. Direct assignments reduce visibility and complicate access audits — group-based access is preferred for governance.
 
 </td><td>
 
@@ -46,13 +89,23 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
-Insecure GlideRecord calls
+Inactive Users with Assigned Roles
 
 </td><td>
 
-Identifies scripts that are directly invokable by end users \(such as Client-Callable Script Includes, Widgets, Processors, REST Endpoints\)
+Identifies user accounts that are inactive but still holds active role assignments. These should be reviewed and removed to prevent unauthorized access via dormant accounts.
 
- These scripts should respect ACLs and use GlideRecordSecure or GlideRecord with canRead, canWrite, canCreate, canDelete.
+</td><td>
+
+Resolution Recommended
+
+</td></tr><tr><td>
+
+External users with access to classified data
+
+</td><td>
+
+External users are typically given limited access using the snc\_external role. This external user currently has access to one or more classified or sensitive data tables/fields. Such access is needs to be reviewed for external accounts and may result in unauthorized data exposure.
 
 </td><td>
 
@@ -60,21 +113,45 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
-Review allowed JavaScript libraries
+Access controls on Tables
 
 </td><td>
 
-Identifies scripts where JavaScript Content Access Control is used to allow or deny specific third-party JavaScript libraries.
-
- Review instance customizations to verify that libraries aren’t in use before blocking access. The JavaScript Content provider Access Tracking \[sys\_js\_content\_provider\_access\_tracking\] table can be reviewed to see the last date that the library was accessed.
-
- **Note:** This check can be ignored in instances initially provisioned on Tokyo or later. Records on the associated table have deny rules set by default. In instances initially provisioned prior to Tokyo, there may be allow rules in the JavaScript Access Control tables.
+Checks for tables without ACLs.
 
 </td><td>
 
-Resolution Recommended
+Tables should be secured with ACLs. Access to data stored in tables should be limited only to users that need it.
 
 </td></tr><tr><td>
+
+Access controls on UI pages
+
+</td><td>
+
+Checks for UI Pages that aren't secured by ACLs.
+
+</td><td>
+
+Without an ACL securing access to a UI Page, that UI Page is accessible to all logged-in internal users. Without any restrictions logged-in users can potentially make unauthorized changes.
+
+</td></tr><tr><td>
+
+Access Controls on Client callable Script Includes
+
+</td><td>
+
+Checks for client-callable script includes that aren't secured by ACLs.
+
+</td><td>
+
+All client callable script includes should be secured with an ACL using required roles.
+
+</td></tr><tr><td rowspan="3">
+
+Weekly
+
+</td><td>
 
 Review client callable script includes with no corresponding ACL
 
@@ -90,6 +167,34 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
+Dormant user account
+
+</td><td>
+
+Identified active users with no activity in a certain time frame is considered a dormant user. Dormant accounts without proper review can lead to unmanaged, fragmented, or untracked access risks.This flagged user has not logged into the system for configured time frame.
+
+</td><td>
+
+Resolution Recommended
+
+</td></tr><tr><td>
+
+User Account shouldn't have both internal and external roles
+
+</td><td>
+
+Checks for user records with both internal and external roles assigned.
+
+</td><td>
+
+Internal user roles are intended for users within your company. External user roles are intended for external personnel, such as customers and partners.
+
+</td></tr><tr><td rowspan="19">
+
+Monthly
+
+</td><td>
+
 Review custom tables with record producers and no business rule
 
 </td><td>
@@ -104,21 +209,7 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
-Review empty ACLs
-
-</td><td>
-
-Identifies ACL records which have no script, condition, security attribute, or role, or ACLs with the **public** role.
-
- Leaving ACLs empty or using the **public** role provides open access to any content protected by this ACL.
-
-</td><td>
-
-Resolution Recommended
-
-</td></tr><tr><td>
-
-Review fields with HTML Sanitization disabled
+Review fields with HTML Sanitization inactive
 
 </td><td>
 
@@ -150,11 +241,11 @@ Review large allowed IP address ranges
 
 </td><td>
 
-Identifies IP Address Access Control Ranges that contain a large number of IP Addresses.
+Identifies IP Address Access Control Ranges that contain many IP Addresses.
 
  **Note:**
 
-If you’re seeing a large number of false positives, consider adjusting the largestExpectedCIDRBlock variable for your specific business needs.
+If you’re seeing many false positives, consider adjusting the largestExpectedCIDRBlock variable for your specific business needs.
 
 Classless Inter-Domain Routing \(CIDR\) blocks contain a larger amount of IP addresses as the number decreases. For example, the CIDR block size 8 is larger \(contains more IP addresses\) than the CIDR block size 16.
 
@@ -180,17 +271,31 @@ Review and Decide
 
 </td></tr><tr><td>
 
-Review public knowledge base articles
+Identify out of date store apps
 
 </td><td>
 
-Identifies knowledge bases and knowledge base Articles configured to enable access to unauthenticated users.
+Identifies apps activated on your instance that have updated versions available.
 
- Review and confirm that the current configuration aligns with your business needs.
+ Verify you’re running to the most up-to-date versions of store applications, which can include fixes to potential security issues.
 
 </td><td>
 
-Review and Decide
+Resolution Recommended
+
+</td></tr><tr><td>
+
+Insecure GlideRecord calls
+
+</td><td>
+
+Identifies scripts that are directly invokable by end users \(such as Client-Callable Script Includes, Widgets, Processors, REST Endpoints\)
+
+ These scripts should respect ACLs and use GlideRecordSecure or GlideRecord with canRead, canWrite, canCreate, canDelete.
+
+</td><td>
+
+Resolution Recommended
 
 </td></tr><tr><td>
 
@@ -294,6 +399,90 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
+Review public REST API endpoints
+
+</td><td>
+
+Identifies Rest API Endpoints in the Scripted REST Resource \[sys\_ws\_operation\] table that are configured to be available without authentication.
+
+ Depending on the endpoint's functionality, this may allow unauthenticated users to perform unexpected actions or interact with unexpected data.
+
+</td><td>
+
+Review and Decide
+
+</td></tr><tr><td>
+
+UI action visibility
+
+</td><td>
+
+Identifies UI actions that can be accessed by a user with no roles who doesn’t have read access to the table.
+
+ These users may be able to alter data on a table they don’t have access to via these UI actions. Verify that UI actions are only available to users with access to the table they affect.
+
+</td><td>
+
+Resolution Recommended
+
+</td></tr><tr><td>
+
+Publicly accessible knowledge base and articles
+
+</td><td>
+
+Checks for publicly accessible knowledge bases and knowledge base articles
+
+</td><td>
+
+Publicly accessible knowledge bases and articles are visible to all users in the instance. Increase security by limiting knowledge bases and articles to the specific audience that needs them.
+
+</td></tr><tr><td>
+
+Can Contribute / Cannot Contribute user criteria to be defined on each knowledge
+
+</td><td>
+
+Checks for knowledge base records that don't have Can Contribute or Cannot Contribute user criteria defined.
+
+</td><td>
+
+Each knowledge base should have either Can Contribute or Cannot Contribute user criteria defined. Otherwise, any user can contribute content to a knowledge base with no Contribute criteria defined.
+
+</td></tr><tr><td>
+
+All Processors of type - SCRIPT must be protected with CSRF Token
+
+</td><td>
+
+Checks for Processors with the SCRIPT type that aren't protected with a CSRF token.
+
+</td><td>
+
+All Processors with the SCRIPT type should be protected with a Cross-site Request Forgery \(CSRF\) token. These processors should have the CSRF option checked, which prohibits the processor from running unless the instance uses a CSRF token.
+
+</td></tr><tr><td rowspan="3">
+
+Quarterly
+
+</td><td>
+
+Review allowed JavaScript libraries
+
+</td><td>
+
+Identifies scripts where JavaScript Content Access Control is used to allow or deny specific third-party JavaScript libraries.
+
+ Review instance customizations to verify that libraries aren’t in use before blocking access. The JavaScript Content provider Access Tracking \[sys\_js\_content\_provider\_access\_tracking\] table can be reviewed to see the last date that the library was accessed.
+
+ **Note:** This check can be ignored in instances initially provisioned on Tokyo or later. Records on the associated table have deny rules set by default. In instances initially provisioned before Tokyo, there may be allow rules in the JavaScript Access Control tables.
+
+</td><td>
+
+Resolution Recommended
+
+</td></tr><tr><td>
+
 Securing record producers
 
 </td><td>
@@ -308,13 +497,11 @@ Resolution Recommended
 
 </td></tr><tr><td>
 
-UI action visibility
+Deactivated security controls
 
 </td><td>
 
-Identifies UI actions that can be accessed by a user with no roles who doesn’t have read access to the table.
-
- These users may be able to alter data on a table they don’t have access to via these UI actions. Verify that UI actions are only available to users with access to the table they affect.
+Identifies new Security Controls that have been introduced, but could impact to your instance. This is flagged to enable you to review the security control and test it against your instances before activating it.
 
 </td><td>
 

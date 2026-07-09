@@ -1,6 +1,6 @@
 ---
 title: Configure Invoice case summarization
-description: Enable Accounts Payable fulfillers to use generative AI case summarization to quickly analyze invoice cases and determine next steps.
+description: Enable Accounts Payable fulfillers to use generative AI-powered invoice case summarization to quickly analyze invoice cases and determine next steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-invoice-case-summarization.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now A
 
 # Configure Invoice case summarization
 
-Enable Accounts Payable fulfillers to use generative AI case summarization to quickly analyze invoice cases and determine next steps.
+Enable Accounts Payable fulfillers to use generative AI-powered invoice case summarization to quickly analyze invoice cases and determine next steps.
 
 ## Before you begin
 
@@ -52,15 +52,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d203853e246">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d211744e254">
 
 Option
 
-</th><th align="left" id="d203853e249">
+</th><th align="left" id="d211744e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203853e255">
+</th></tr></thead><tbody><tr><td id="d211744e263">
 
 **Skill is always available**
 
@@ -68,7 +68,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d203853e264">
+</td></tr><tr><td id="d211744e272">
 
 **Customize skill availability**
 
@@ -81,15 +81,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d203853e300">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d211744e308">
 
 Option
 
-</th><th align="left" id="d203853e303">
+</th><th align="left" id="d211744e311">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203853e309">
+</th></tr></thead><tbody><tr><td id="d211744e317">
 
 **In-product desktop**
 
@@ -97,7 +97,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d203853e320">
+</td></tr><tr><td id="d211744e328">
 
 **Now Assist panel**
 
@@ -114,4 +114,8 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
     The skill is displayed in the Active skills section.
 
+
+## Result
+
+The Invoice case summarization skill is activated.
 

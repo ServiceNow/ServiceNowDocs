@@ -1,5 +1,5 @@
 ---
-title: Review and accept a Now Assist-generated business process map diagram
+title: Review a AI-generated business process map diagram
 description: After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-review-ai-generated-bpm-diag.html
@@ -10,7 +10,7 @@ reading_time_minutes: 5
 breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
-# Review and accept a Now Assist-generated business process map diagram
+# Review a AI-generated business process map diagram
 
 After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 
@@ -18,11 +18,13 @@ After ServiceNow AI lens generates a business process map \(BPM\) diagram from a
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Before you begin
 
 An AI-generated business process map diagram exists in review state. For instructions on creating a diagram from an image, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md).
+
+The default AI model provider for this skill is Azure OpenAI.
 
 Role required: sn\_apm.apm\_user
 

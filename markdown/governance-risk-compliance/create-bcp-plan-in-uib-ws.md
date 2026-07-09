@@ -112,7 +112,7 @@ The **Asset dependencies** tab provides a Hierarchical view illustrating the rel
 
 You can track dependencies in the Hierarchical view and List view. You have the option to switch from the Hierarchical view to the List view, where all assets are displayed in the list format. The Hierarchical view displays all primary assets and up to 20 child assets. If a primary asset includes more than 20 assets, you can select the primary or related asset and it navigates you to the record view. Related assets are only present for the primary assets.
 
-\[Omitted image "list-view.png"\] Alt text: List view.For example, the Business Application: Acrobat is considered a primary asset, while the Company: Adobe systems is identified as its related asset. The source of the asset is displayed in the Primary source column.
+For example, the Business Application: Acrobat is considered a primary asset, while the Company: Adobe systems is identified as its related asset. The source of the asset is displayed in the Primary source column.
 
 \[Omitted image "pri-source-column.png"\] Alt text: Primary source.You can add details from the dependent items in the plan as shown in the example.
 
@@ -166,7 +166,7 @@ You can create a recovery task within the business continuity plan.\[Omitted ima
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.Beginning with the Xanadu release, the recovery tasks are organized based on their dependencies. You have the flexibility to assign dependencies to the tasks, and the application then determines a sequence for these tasks based on the assigned dependencies. If there are tasks without any dependencies linking them, they can be handled simultaneously. You can edit the **sn\_bcp.sync\_order\_calculation\_task\_limit** property to change the count for the recovery task order so that it’s calculated synchronously.
 
-\[Omitted image "recovery-tasks-order.png"\] Alt text: Order.The sequence of tasks depicted in the illustration is clarified with the example:
+The sequence of tasks depicted in the illustration is clarified with the example:
 
 1.  Task 1 and Task 3 are independent of each other, enabling them to be executed at the same time, and they’re both assigned a planned order of 1.
 2.  Task 5 depends on both Task 1 and Task 3 and therefore, it’s assigned a planned order of 2.

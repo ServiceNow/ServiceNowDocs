@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Read-only fields in Asset Management, Client script modifiable fields in Asset Management, Asset Management, Asset Management tables]
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Read-only and client script modifiable fields in Asset Management tables

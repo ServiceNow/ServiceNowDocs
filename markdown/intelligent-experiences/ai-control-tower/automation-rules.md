@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Automation rules
@@ -18,7 +18,7 @@ The Automation rules define how AI assets are set to be under managed assets.
 
 ## Automation rules Overview
 
-The Automation rules page displays all default rules available in AI Control Tower. The AI Stewards can modify the existing rules or create rules based on their organizational requirements.
+The Automation rules page displays all default rules available in AI Control Tower. The AI stewards can modify the existing rules or create rules based on their organizational requirements.
 
 ## Rule limits
 
@@ -35,7 +35,7 @@ Only active rules are evaluated during scheduled runs; inactive rules are skippe
 
 ## References
 
-For information on managed and unmanaged assets, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md)
+For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-automation-rules.md)
 

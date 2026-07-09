@@ -16,7 +16,7 @@ Premium Chat delivers a hybrid conversational experience that combines the flexi
 
 ## Opening Premium Chat
 
-\[Omitted image "image.na-va-premium-chat"\] Alt text: premium chat welcome screen with prompt suggestions
+\[Omitted image "na-va-premium-chat.png"\] Alt text: premium chat welcome screen with prompt suggestions
 
 To begin using Premium Chat, open your organization's support portal or application on your mobile device. You have two ways to open Premium Chat:
 
@@ -33,7 +33,7 @@ If your request is unclear or ambiguous, the agent displays clarifying questions
 
 ## Suggested actions
 
-\[Omitted image "image.na-va-premium-suggest"\] Alt text: suggestion to ask a follow up
+\[Omitted image "na-va-premium-suggest.png"\] Alt text: suggestion to ask a follow up
 
 Suggested actions provide next steps related to your Virtual Agent conversation. After completing a chat topic or request, suggestions appear as links within the generated AI response. Selecting a suggested action initiates it directly in the same conversation, carrying over relevant details such as your name.
 
@@ -47,7 +47,7 @@ To attach a file to your conversation, tap the plus icon \(**+**\) in your searc
 
 ## Unified search
 
-\[Omitted image "image.na-va-premium-search"\] Alt text: premium chat suggesting options based on user input
+\[Omitted image "na-va-premium-search.png"\] Alt text: premium chat suggesting options based on user input
 
 Premium Chat combines chat and search capabilities in one experience. When using the search bar, standard search results appear alongside the option to direct your query to the Now Assist Virtual Agent.
 
@@ -61,7 +61,7 @@ For additional information, see [Using Now Assist web search on mobile](https://
 
 ## Granular feedback
 
-\[Omitted image "image.na-va-premium-feedback"\] Alt text: suggestions for AI response improvements
+\[Omitted image "na-va-premium-feedback.png"\] Alt text: suggestions for AI response improvements
 
 Rate Virtual Agent responses using the thumbs up or thumbs down icons. Tapping either icon opens a form where you can provide detailed feedback about your Virtual Agent interaction.
 

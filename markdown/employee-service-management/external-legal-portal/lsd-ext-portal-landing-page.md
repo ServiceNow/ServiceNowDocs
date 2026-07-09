@@ -45,7 +45,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
 
-    Find useful resources related to your role and explore best practices at the 
+    Find useful resources related to your role and explore best practices at the [Impact](http://impact.servicenow.com)
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Known Error Portal**
 

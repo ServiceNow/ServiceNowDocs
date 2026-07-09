@@ -14,16 +14,23 @@ breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architectur
 
 A product capability is the specific feature that a business application or a Technology Reference Model \(TRM\) product provides to support business objectives. Product capabilities are used to assess how well a business application or TRM product aligns with strategic goals and operational needs.
 
-Product capabilities help in understanding what a business application or a TRM product can technically deliver. You can use these product capabilities to outline the specific technical capabilities that the business application or TRM product provides.
+Product capabilities help in understanding what a business application or a TRM product can technically deliver.
 
-While business capabilities describe what the organization needs, product capabilities describe how those needs are met through business applications or TRM products.
+Product capabilities and business capabilities are related but distinct concepts:
 
-## Product capability
+-   Business capabilities describe what an organization needs to do to achieve its strategic objectives — for example, "Workforce conformance management."
+-   Product capabilities describe how a specific business application or TRM product fulfills those needs — for example, "conformance reporting" in a payroll management application.
 
-An attendance and payroll management business application is used to manage employee attendance, leave, and payroll processing. For this business application, some product capabilities can be:
+You can use product capabilities to assess how well a business application or TRM product supports your organization's business capabilities and strategic goals.
 
--   Payroll calculation: Computes salary based on attendance, leaves taken, and tax laws
--   Compliance reporting: Generates reports for tax and labor lax compliance.
+## Product capability vs. Business capability
+
+An organization has a business capability called Workforce conformance management — the organizational requirement to manage employee attendance, leave, and payroll in line with legal requirements.
+
+To fulfill this business capability, the organization uses an attendance and payroll management business application. The product capabilities of this application include:
+
+-   Payroll calculation: Computes salary based on attendance, leaves taken, and applicable tax laws.
+-   conformance reporting: Generates reports for tax and labor law conformance.
 
 **Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 
@@ -32,9 +39,9 @@ An attendance and payroll management business application is used to manage empl
 
 [Working with product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-product-capabilities.md)
 
-[View product capabilities associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
+[View product capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
 
-[Create a product capability and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+[Associate a product capability with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
 
 [Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
 
@@ -46,5 +53,5 @@ An attendance and payroll management business application is used to manage empl
 
 [Add an existing product capability to a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-existing-product-capability-to-trm-product.md)
 
-[Remove product capabilities associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.md)
+[Remove product capabilities from a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.md)
 

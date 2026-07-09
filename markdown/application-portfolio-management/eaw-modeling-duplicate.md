@@ -58,7 +58,7 @@ A duplicate diagram is created.
 
 [Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bc-map.md)
 
-[Add a business capability or business application to the capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
+[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
 
 [Create diagram for a business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-ba-map.md)
 

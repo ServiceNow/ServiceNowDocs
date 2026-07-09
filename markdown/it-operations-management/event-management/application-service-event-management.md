@@ -34,7 +34,7 @@ Create service groups to combine similar services. Organize services by groups t
 Assign an Event Management role to the application service group to ensure that group members can manage and act on alerts.
 -   **[Activate and configure Service Mapping for top-down discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMGetBaselineServiceMapping.md)**  
 A top-down discovery provides a list of CIs and their interrelationships. This information is useful for managing software services and hardware issues that are associated with alerts.
--   **[Configure email notification on application service severity change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)**  
+-   **[Configure email notifications for service severity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)**  
 Configure an email notification to notify users when there is an application service severity change.
 
 **Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md)

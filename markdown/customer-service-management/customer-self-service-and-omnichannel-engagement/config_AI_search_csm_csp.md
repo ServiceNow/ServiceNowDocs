@@ -51,3 +51,8 @@ AI Search is inactive by default and you must enable it by updating the portal r
 7.  Navigate to **Page Route Maps** and enable the **CSM AI Search Home Page** route map for CSM and **CSP AI Search Home Page** for CSP as they’re inactive by default.
 
 
+**Related topics**  
+
+
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
+

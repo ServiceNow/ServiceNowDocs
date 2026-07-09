@@ -37,14 +37,14 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Control compliance|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon|Displays the overall compliance of all the controls in the system.|
-|Control details|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon|Displays a breakdown of controls grouped by owner, category, or type.|
-|Compliance score by department|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Overall \(average\) compliance score by assignment group/department|
-|Control Overview|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Displays control counts exempted by entities.|
-|Exempted controls by policy|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Displays the number of controls exempted by policies.|
-|Exempted controls by entity|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Displays a list of control issues that have been closed with a response value of accept, meaning the issue was not remediated.|
-|Control Issues by Policy \(Opened Date\)|Line chart\[Omitted image "line-icon.png"\] Alt text: Line icon|Displays the number of control issues opened each week, grouped by policy.|
-|Total Control Objectives by Policy|Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar icon.|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
+|Control compliance|Donut chart|Displays the overall compliance of all the controls in the system.|
+|Control details|Donut chart|Displays a breakdown of controls grouped by owner, category, or type.|
+|Compliance score by department|Bar chart|Overall \(average\) compliance score by assignment group/department|
+|Control Overview|Bar chart|Displays control counts exempted by entities.|
+|Exempted controls by policy|Bar chart|Displays the number of controls exempted by policies.|
+|Exempted controls by entity|Bar chart|Displays a list of control issues that have been closed with a response value of accept, meaning the issue was not remediated.|
+|Control Issues by Policy \(Opened Date\)|Line chart|Displays the number of control issues opened each week, grouped by policy.|
+|Total Control Objectives by Policy|Bar chart|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
 
 **Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
 

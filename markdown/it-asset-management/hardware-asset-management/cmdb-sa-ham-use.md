@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using CMDB success advisor for HAM

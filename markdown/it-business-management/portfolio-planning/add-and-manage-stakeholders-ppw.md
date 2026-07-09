@@ -1,6 +1,6 @@
 ---
-title: Add and manage stakeholders
-description: Add and manage stakeholders for a demand to delegate assignments and progress the demand in its life cycle.
+title: Add stakeholders to a demand
+description: Delegate assignments and track demand progress by managing the stakeholders associated with a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-and-manage-stakeholders-ppw.html
 release: australia
@@ -9,12 +9,12 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Add and manage stakeholders
+# Add stakeholders to a demand
 
-Add and manage stakeholders for a demand to delegate assignments and progress the demand in its life cycle.
+Delegate assignments and track demand progress by managing the stakeholders associated with a demand.
 
 ## Before you begin
 
@@ -22,45 +22,30 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-When a demand is submitted, the demand stakeholder list is populated automatically from the associated portfolio. You can also add stakeholders.
-
 A demand can have multiple stakeholders and a stakeholder can be associated with multiple demands.
+
+To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the All Demands list.
 
-3.  Select **Stakeholders**.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the **Stakeholders** tab isn’t visible, select **More** and then select **Stakeholders**.
+5.  Select the **Stakeholders** tab.
 
-4.  Add or edit a stakeholder record:
+    **Note:** If the **Stakeholders** tab isn't visible, select **More** and then select **Stakeholders**.
 
-    -   To add a stakeholder, select **New**.
-    -   To update the details of an existing stakeholder, select the record.
-5.  On the Create New Demand Stakeholder form, fill in the fields.
+6.  Select **New**.
 
-    For a description of the field names, see [Create stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-stakeholder-form-ppw.md).
+7.  On the Demand Stakeholder form, fill in the fields.
 
-6.  Select **Save**.
+    For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-stakeholder-form-ppw.md).
 
-    **Note:**
+8.  Select **Save**.
 
-    -   To delete a stakeholder record, select the record and select **Delete** from the More Actions option.
-    -   Alternatively, you can create, edit, or delete stakeholder records using the **Add stakeholders** playbook activity. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
-    After completing your work on the stakeholder record, use the breadcrumb navigation to return to the **Stakeholders** tab.
-
-
-**Related topics**  
-
-
-[Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md)
-
-[Create stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-stakeholder-form-ppw.md)
 

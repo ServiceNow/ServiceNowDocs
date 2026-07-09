@@ -29,7 +29,7 @@ Integrate the local and remote ServiceNow instances by creating an OAuth API end
 
     **Note:** Admin role is required to only set up the spoke.
 
-    To use the spoke, ensure that the spoke users have only the required minimum permissions to access data in ServiceNow tables. Do not assign elevated privilege roles to users of this spoke unless very much required. This practice ensures controlled access to data.
+    To use the spoke, you can either have the admin role or have only the required minimum permissions to access data in the required ServiceNow tables along with the import\_transformer role. Do not assign elevated privilege roles to users of this spoke unless needed. This practice ensures controlled access to data.
 
     The integration users must have the flow\_operator and other required roles to access the table they want to interact with. Also, they need roles to access the Table \[sys\_db\_object\] and Dictionary Entry \[sys\_dictionary\] tables to show dynamic options such as, table names and fields in a table.
 

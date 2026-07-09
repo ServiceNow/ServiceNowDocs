@@ -1,5 +1,5 @@
 ---
-title: Enterprise Architecture AI agent generate enterprise architecture diagram agentic workflow
+title: Enterprise Architecture AI agent diagramming agentic workflow
 description: Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\), Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
-# Enterprise Architecture AI agent generate enterprise architecture diagram agentic workflow
+# Enterprise Architecture AI agent diagramming agentic workflow
 
 Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 

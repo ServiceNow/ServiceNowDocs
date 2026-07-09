@@ -1,5 +1,5 @@
 ---
-title: Transaction Manager: Integrations - Handlebars syntax
+title: ServiceNow Quote Experience Integrations - Handlebars syntax
 description: You can use the Handlebars templating language when you build an integration transformation template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrations-handlebar-syntax.html
@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Transaction Manager, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager: Integrations - Handlebars syntax
+# ServiceNow Quote Experience Integrations - Handlebars syntax
 
 You can use the Handlebars templating language when you build an integration transformation template.
 
-Handlebars is a lightweight templating language used to generate dynamic content. Administrators building integration transformation templates use the following key elements of Handlebars syntax, together with enhancements specific to CPQ:
+Handlebars is a lightweight templating language used to generate dynamic content. Administrators building integration transformation templates use the following key elements of Handlebars syntax, together with enhancements specific to ServiceNow CPQ:
 
 -   Handlebars expressions: Enclosed in double curly braces **\{\{ \}\}**, expressions enable administrators to insert variables, functions, or properties into the template. For example, **\{\{user.name\}\}** renders the value of the name property of the user object.
 -   Built-in helpers include conditional helpers and iteration helpers.
@@ -95,9 +95,9 @@ Here’s an explanation of each syntactical element used in the Integration Temp
 
     The snippet goes through each item in `lines` and puts each item in a paragraph tag.
 
--   **\{\{\#if &lt;logik line-level field varname&gt;\}\} \{\{/if\}\}**
+-   **\{\{\#if &lt;cpq line-level field varname&gt;\}\} \{\{/if\}\}**
 
-    **\{\{\#if &lt;logik ...\}\}** checks whether a specific piece of data is true or exists. It checks whether a specific field or value \(like varname\) in your data exists or is true. It's a way to check for specific information in a more complex structure \(like in a dataset\).
+    **\{\{\#if &lt;cpq ...\}\}** checks whether a specific piece of data is true or exists. It checks whether a specific field or value \(like varname\) in your data exists or is true. It's a way to check for specific information in a more complex structure \(like in a dataset\).
 
     ```
     {{#if logik.lineLevelField.isActive}} 

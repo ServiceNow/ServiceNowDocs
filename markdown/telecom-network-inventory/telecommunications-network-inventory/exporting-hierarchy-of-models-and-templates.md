@@ -1,20 +1,20 @@
 ---
 title: Exporting hierarchy of models and templates
-description: Learn how to export equipment models, inventory templates, and all their related and referred records from one ServiceNow instance to another to support development-to-production migration of network inventory data.
+description: Export equipment models, inventory templates, and related records to support development-to-production migration of network inventory data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-of-models-and-templates.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
 # Exporting hierarchy of models and templates
 
-Learn how to export equipment models, inventory templates, and all their related and referred records from one ServiceNow instance to another to support development-to-production migration of network inventory data.
+Export equipment models, inventory templates, and related records to support development-to-production migration of network inventory data.
 
 ## Exporting hierarchy of models and templates
 
@@ -22,7 +22,7 @@ The Export Hierarchy feature lets you export network equipment models, inventory
 
 |Your scenario|Use this method|
 |-------------|---------------|
-|You need the relationships between records preserved as a single package. JSON moves models, templates, and their complete reference data between ServiceNow instances while preserving system ID continuity. JSON imports handle the full set of inventory model types: equipment, holder, card, interface, facility, topology, cable, strand, and connection models along with their referenced manufacturers, products, classifications, and other supporting data.|Exporting hierarchy via JSON|
+|You need to preserve the relationship records as a single package.|Exporting hierarchy via JSON|
 |You need to export specific related records of a model or template in a chosen format. For example, exporting equipment data as CSV for analysis, as PDF for a stakeholder review, or as XML for selective re-import.|Exporting hierarchy via XML \(or other selected format\)|
 
 Both methods are launched from the Export Hierarchy action on a model or template record. The method you use depends on whether you select Export Hierarchy directly from a record's context menu \(JSON method\) or use the related-records list \(XML or other-format method\).

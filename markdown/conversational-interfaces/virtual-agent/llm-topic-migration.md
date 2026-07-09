@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Migrating NLU/keyword Virtual Agent topics to LLM topics
@@ -49,7 +49,7 @@ The **Detail description** field is required for LLM topics but not for NLU/keyw
 
 **Note:** NLU utterances themselves are not effective if you use them as topic descriptions for LLM topics. Avoid using NLU utterances for LLM topic descriptions. LLM topic descriptions require more specific detailed information.
 
-For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md). For examples of strong topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md). For examples of strong topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 ## Node descriptions
 
@@ -80,7 +80,7 @@ Contains script or data pill
 Migrates using the following template: `Collect + Node name`.For example, if you have an NLU node named `Get incident number` and the **Prompt** field's value contains a script or data pill, then the migrated LLM node's **Detail description** field's value is `Collect Get incident number`.
 
 </td></tr></tbody>
-</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 The following entities can be migrated from NLU nodes to LLM nodes:
 
@@ -107,5 +107,5 @@ Migrate one or more of your existing Natural Language Understanding \(NLU\) or k
 -   **[NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md)**  
 The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table includes data when migrating Natural Language Understanding \(NLU\) topics to large language model \(LLM\) topics such as the migration status, migration issues, and migrated or published topic information.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

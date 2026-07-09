@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/associate-email-crm-outlook.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [ServiceNow CRM for Outlook, associate email, link email, log email]
 breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
@@ -25,7 +25,7 @@ Role required: sn\_crm\_outlook.crm\_outlook\_user
 
 ## About this task
 
-Use these steps to associate any email in your inbox or sent folder. You stay in control of which emails are captured in ServiceNow CRM. Only the emails you choose to open in the ServiceNow CRM for Outlook add-in are associated.
+If your admin has configured the AI sales activity association app, then emails with sales intent will be automatically associated with existing CRM entity. Use these steps to manually associate any email in your inbox or sent folder that has not been auto-associated by the agentic AI workflow.
 
 **Note:** If an email belongs to a thread where you've already associated one message, the ServiceNow CRM for Outlook add-in shows the matched CRM record directly when you launch it. You don't need to search for the record or select **Associate** again. You can skip straight to the optional steps to add details or open the record in CRM.
 
@@ -51,7 +51,7 @@ Use these steps to associate any email in your inbox or sent folder. You stay in
     -   Accounts and contacts: email domain only
     Records matching any of these fields appear in the corresponding tab. The first two recipient addresses are considered for matching.
 
-    For example, to find a lead by email address, set the condition **\[Email\] \[is\] \[**&lt;email address to search for&gt;**\]**.
+    For example, to find a lead by email address, you would set the condition **\[Email\] \[is\] \[**&lt;email address to search for&gt;**\]**.
 
 6.  In the **Search** field, enter the search information such as a name or email address.
 
@@ -62,8 +62,6 @@ Use these steps to associate any email in your inbox or sent folder. You stay in
     The email is linked to the CRM record. The association appears in the record's activity history in ServiceNow CRM.
 
 8.  Enter additional information for your selected CRM entity, and select **Save**.
-
-    For more information about the form fields for the CRM entities, refer to the corresponding topic.
 
     |CRM entity|Form field descriptions|
     |----------|-----------------------|

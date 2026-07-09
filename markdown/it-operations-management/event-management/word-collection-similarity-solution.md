@@ -28,6 +28,8 @@ To train a solution, the filter must return at least one record. If your filter 
 -   Do not use hard-coded dates as filters because these filters are not updated when you retrain solutions unless you update them manually before every retraining. Instead, use relative date filters, for example, the last 3 months, last 6 months, or last 12 months.
 -   Perform training as needed until it provides an acceptable similarity solution. This practice provides you time to review and update your solution definition.
 
+For more information on similarity solution concept, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+
 ## Fields to include in the solution
 
 Record the fields that are likely to contain words and phrases that help the system identify similar records for your solution.

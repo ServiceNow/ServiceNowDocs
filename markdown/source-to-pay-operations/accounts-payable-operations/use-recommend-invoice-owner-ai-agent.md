@@ -1,6 +1,6 @@
 ---
 title: Use Recommend invoice owner AI agent
-description: Use the Recommend invoice owner AI agent to detect business owners for Non-PO invoices and Non-PO credit memos that lack an owner. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
+description: Use the Recommend invoice owner AI agent to identify and assign business owners for Non-PO invoices and credit memos. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Recommend invoice owner AI agent, Using AI agents in Now Assist for
 
 # Use Recommend invoice owner AI agent
 
-Use the Recommend invoice owner AI agent to detect business owners for Non-PO invoices and Non-PO credit memos that lack an owner. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
+Use the Recommend invoice owner AI agent to identify and assign business owners for Non-PO invoices and credit memos. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
 
 ## Before you begin
 

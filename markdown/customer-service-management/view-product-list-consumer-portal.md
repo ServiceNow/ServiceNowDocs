@@ -29,3 +29,10 @@ Role required: sn\_customerservice.consumer
 3.  If desired, click a product to display more information about the product.
 
 
+**Related topics**  
+
+
+[Register a product from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/register-product-consumer-portal.md)
+
+[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
+

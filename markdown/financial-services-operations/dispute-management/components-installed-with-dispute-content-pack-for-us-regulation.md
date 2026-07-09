@@ -33,7 +33,9 @@ The Dispute Content Pack for US Regulations application includes no new tables.
 
 The following SLA definitions are preconfigured with Dispute Content Pack for US Regulations.
 
-**Note:** Billing cycle date and Statement date are retrieved from core banking integrations.
+**Note:** Billing cycle date and Statement date are retrieved from the financial account via core banking integrations.
+
+An SLA will not trigger if the billing cycle days or statement generation date are empty.
 
 SLA durations are calculated from key regulatory dates — primarily the dispute reported date, and, for Reg Z, the statement date and billing cycle date. When a task is created after the dispute is reported \(for example, provisional credit\), the elapsed time between the reported date and task creation is accounted for so the SLA still reflects the regulatory window.
 
@@ -79,7 +81,7 @@ Reg E 45day resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
 
 </td><td>
 
@@ -91,7 +93,7 @@ Reg E 90day resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
 
 </td><td>
 
@@ -103,7 +105,7 @@ Reg E acknowledgement limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
 
 </td><td>
 
@@ -127,7 +129,7 @@ Reg Z acknowledgement limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
 
 </td><td>
 
@@ -139,7 +141,7 @@ Reg Z resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
 
 </td><td>
 

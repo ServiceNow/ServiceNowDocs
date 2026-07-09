@@ -1,6 +1,6 @@
 ---
 title: Configure the Moveworks chatbot for Employee Slate
-description: Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees seamlessly.
+description: Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.html
 release: australia
@@ -15,17 +15,17 @@ breadcrumb: [Employee Slate for Moveworks, Configuration flow, Employee Slate, U
 
 # Configure the Moveworks chatbot for Employee Slate
 
-Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees seamlessly.
+Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
 
 ## Before you begin
 
 Before you configure the Moveworks chatbot, verify the following prerequisites:
 
--   You have the System administrator role.
+-   You have the administrator role.
 -   The Moveworks Setup application is available under **Manage Applications**.
 -   You have the ServiceNow instance URL that you want to register as a trusted issuer.
 
-Role required: System administrator.
+Role required: administrator.
 
 ## About this task
 
@@ -43,15 +43,15 @@ The Moveworks chatbot configuration captures two related setups. The first is th
 
     For each field and the value to use, see the chatbot record table in [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md). The required value is **Surface** = **Unified Front Door**, which lets Employee Slate render the chatbot.
 
+    \[Omitted image "es-moveworks-chat-bot-j.png"\] Alt text: Chatbots ChatVars Edit page showing core configurations for the Moveworks chatbot including Channel, Bot ID, Bot Name, and Channel Configurations
+
 4.  Select **Submit** to save the chatbot record.
 
     The new chatbot appears in the list with a generated **Channel configuration** value.
 
 5.  From the Moveworks Setup navigation, open **Moveworks Setup** and select the chatbot that you created.
 
-    The internal setup experience opens for the chatbot.
-
-6.  Set the internal setup fields for User Inbox, the ServiceNow connector, the trusted issuer, and the Universal Assistance suggested prompts.
+6.  Set the internal setup fields for **User Inbox**, the **ServiceNow connector**, the trusted issuer, and the **Universal Assistance suggested prompts**.
 
     To verify the correct connector label for the instance, open the core platform connector list under **Manage Applications**. The default Moveworks label is **snow**.
 

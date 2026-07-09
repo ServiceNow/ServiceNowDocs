@@ -30,11 +30,13 @@ Role required: admin
 
 4.  Select **Deregister** from the menu.
 
-    When the Sensor is associated to a Site, you get a prompt.\[Omitted image "image.deregister-warning"\] Alt text: Deregistering
+    When the Sensor is associated to a Site, you get a prompt.
+
+    \[Omitted image "deregister-warning.png"\] Alt text: Deregistering
 
 5.  If you select Continue in this window, you receive a prompt:
 
-    \[Omitted image "image.second-deregister-warning"\] Alt text: Deregister Sensor?
+    \[Omitted image "second-deregister-warning.png"\] Alt text: Deregister Sensor?
 
 6.  If you still intend to deregister the Sensor, select the **Deregister** button in this window.
 
@@ -42,6 +44,4 @@ Role required: admin
 ## Result
 
 The Sensor is deregistered, and the Sensor is reset to the default network configuration, which is the DHCP with the link-local fallback.
-
-For removing a lost Sensor, see [Remove a lost Sensor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/remove-lost-sensor-console.md).
 

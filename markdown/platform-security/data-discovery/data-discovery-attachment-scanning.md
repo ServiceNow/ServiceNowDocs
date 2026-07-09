@@ -30,4 +30,7 @@ Sensitive data such as social security Numbers \(SSN\), credit card numbers, and
     -   TXT
     -   XLS
     -   CSV
+    -   HTML
+    -   EML
+    -   MSG
 

@@ -33,7 +33,7 @@ The administrator for Natural Language Query.
 
 Has full access to the following modules:
 
--   NLQ Cmdb Implicit Relationships. For more information see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/intelligent-search-cmdb.md).
+-   NLQ Cmdb Implicit Relationships. For more information see .
 -   [NLQ Query Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md)
 -   [NLQ Semantic Shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
 -   [NLQ Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md).

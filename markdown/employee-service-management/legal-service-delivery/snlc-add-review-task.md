@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Internal review overview, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -108,7 +108,7 @@ Description to specify the content to be reviewed.
 
 ## Result
 
-A review task is created, listed in the Reviews tab and the change request details are added to the Activity stream. The Contract status updates to Awaiting review. If the new task doesn't appear in the list, click the refresh list button \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh list icon.\) to view it.
+A review task is created, listed in the Reviews tab and the change request details are added to the Activity stream. The Contract status updates to Awaiting review. If the new task doesn't appear in the list, select the refresh list button \(\[Omitted image "refresh-icon.png"\] Alt text: refresh icon\) to view it.
 
 **Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

@@ -384,7 +384,7 @@ Contains information about an allegation type and subtype.**Note:** A non-metada
 
 </td></tr><tr><td>
 
-\*Allegation Subtype\[sn\_hr\_core\_allegation\_sub\_type\]
+\*Allegation Subtype\[sn\_hr\_er\_allegation\_sub\_type\]
 
 </td><td>
 
@@ -393,7 +393,7 @@ Metadata table that provides 59 records to the base system. Allegation subtypes 
 
 </td></tr><tr><td>
 
-\*Allegation Type\[sn\_hr\_core\_allegation\_type\]
+\*Allegation Type\[sn\_hr\_er\_allegation\_type\]
 
 </td><td>
 

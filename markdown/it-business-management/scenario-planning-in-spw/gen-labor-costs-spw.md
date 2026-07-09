@@ -36,6 +36,6 @@ When the distribution of effort for a resource assignment is adjusted without ch
 
 5.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Activate scheduled job to generate labor costs for your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

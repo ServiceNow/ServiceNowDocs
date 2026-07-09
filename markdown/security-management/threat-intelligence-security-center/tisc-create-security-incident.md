@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
-breadcrumb: [Access Vulnerability Downstream actions, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Access Vulnerability Downstream actions, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Create Security Incident from a Vulnerability Record

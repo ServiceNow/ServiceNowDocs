@@ -1,5 +1,5 @@
 ---
-title: Display a multi-level BOM in CPQ using simple and advanced product actions
+title: Display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
 description: Two ways to display a bill of materials that includes hierarchical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how\_to\_display\_a\_multi-level\_bom\_in\_logik\_using\_simple\_and\_advanced\_product\_actions.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Display a multi-level BOM in CPQ using simple and advanced product actions
+# Display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
 
 Two ways to display a bill of materials that includes hierarchical relationships.
 
@@ -30,7 +30,7 @@ Image 2: Multi-BOM expanded to display all sub-products in the BOM:
 
 ## Configuration
 
-To begin building a bill of materials, navigate to the Rules section of your CPQ interface and build a new rule. In your rule, add a new product action. From here, add the products as you normally would when building a product action.
+To begin building a bill of materials, navigate to the Rules section of your ServiceNow CPQ interface and build a new rule. In your rule, add a new product action. From here, add the products as you normally would when building a product action.
 
 1.  Add a simple product action rule.
 2.  Add your product list in order, as you would for a basic BOM.
@@ -45,7 +45,7 @@ To begin building a bill of materials, navigate to the Rules section of your CPQ
 
 ## Advanced
 
-When you have many products that require scripted configuration, you can use the CPQ Advanced Function layer to create a multi-BOM. For this, follow the same instructions as above until you begin building your list of products. If you have multiple SKUs and you need the hierarchy to be correct for each SKU on the BOM, use an Advanced Function to better scale your configuration.
+When you have many products that require scripted configuration, you can use the ServiceNow CPQ Advanced Function layer to create a multi-BOM. For this, follow the same instructions as above until you begin building your list of products. If you have multiple SKUs and you need the hierarchy to be correct for each SKU on the BOM, use an Advanced Function to better scale your configuration.
 
 \[Omitted image "cpq-multilevel-bom-advanced-1.png"\] Alt text: Product action
 

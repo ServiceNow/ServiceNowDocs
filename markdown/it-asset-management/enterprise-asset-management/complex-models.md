@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Model types, Enterprise Asset Management data model, Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Model types, Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Multi-component models and assets in Enterprise Asset Management

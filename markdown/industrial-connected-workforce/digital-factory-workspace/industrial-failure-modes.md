@@ -50,8 +50,6 @@ Failure modes can be used to do the following.
 
 The following image shows the **Failure Modes** tab available when viewing part of the equipment model.
 
-\[Omitted image "failure-modes.png"\] Alt text: Overview of failure modes for the selected functional location with the highlighted Failure Modes tab
-
 -   **[Create a failure mode from a functional location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-failure-mode.md)**  
 Create a failure mode from a functional location in the Digital Factory Workspace to help identify and organize equipment or process issues.
 

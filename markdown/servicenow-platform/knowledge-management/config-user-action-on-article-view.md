@@ -26,7 +26,7 @@ The article view page uses the Knowledge Article Content widget to provide user 
 
 Ensure that the application scope on the ServiceNow AI Platform is set to Knowledge Management Service Portal.
 
-User actions available for the article view page appear in a menu after clicking the overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\) in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
+User actions available for the article view page appear in a menu after clicking the overflow icon in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
 
 ## Procedure
 

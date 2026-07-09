@@ -57,6 +57,8 @@ Role required: Accounts Payable admin
 
     For more information on payment fields, see [Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md).
 
-    The ERP integration error tasks are closed and the invoice is successfully processed for payment.
 
+## Result
+
+The ERP integration error tasks are closed and the invoice is successfully processed for payment.
 

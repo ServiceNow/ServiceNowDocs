@@ -8,7 +8,7 @@ product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -148,12 +148,6 @@ When you upgrade to product versions \(from Rome onwards\) that offer the Explic
 
 ## Determining contribute access to a knowledge base and its articles using user criteria
 
-The flowchart in this section illustrates the user criteria checks that determine contribute access at the knowledge base and article levels.
-
-**Note:** In order for an unauthenticated user to view knowledge articles within the knowledge base, ensure that the audience for the Knowledge Management Service Portal pages is set to public; that is, the page can be accessed without the need for authentication. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-\[Omitted image "contribute\_access.png"\] Alt text: Flowchart showing how contribute access to a knowledge base and its article using user criteria is evaluated
-
 When either Cannot Contribute isn’t set or a user doesn’t match Cannot Contribute and additionally Can Contribute is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine contribute access, as explained in the following table.
 
 <table id="table_z2b_hrp_qjb"><thead><tr><th>
@@ -191,10 +185,6 @@ All users, including unauthenticated users, with at least one role can contribut
 |false|Contribute access at the knowledge base level takes precedence over article-level user criteria and the user has contribute access to every article in the knowledge base.|
 
 ## Determining read access to articles in a knowledge base using user criteria
-
-The following flowchart illustrates the user criteria checks that determine read access to a knowledge article.
-
-\[Omitted image "read\_access.png"\] Alt text: Flowchart showing how read access to a knowledge article using user criteria is evaluated.
 
 When either Cannot Read isn’t set or a user doesn’t match Cannot Read and additionally Can Read is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine read access, as explained in the following table.
 

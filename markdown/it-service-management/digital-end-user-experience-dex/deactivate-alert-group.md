@@ -7,8 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
+keywords: [deactivate alert grouping, alert correlation rule, individual alert visibility, alert grouping]
 breadcrumb: [DEX Alerts, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -24,15 +25,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d124212e44">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d124149e58">
 
 Options
 
-</th><th align="left" id="d124212e47">
+</th><th align="left" id="d124149e61">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d124212e53">
+</th></tr></thead><tbody><tr><td id="d124149e67">
 
 **System Properties table \[sys\_properties\]**
 
@@ -40,7 +41,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d124212e68">
+</td></tr><tr><td id="d124149e82">
 
 **Alert Correlation Rules**
 

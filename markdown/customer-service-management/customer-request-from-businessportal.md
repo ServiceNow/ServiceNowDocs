@@ -41,3 +41,8 @@ Users can make requests for a product or service from the business portal. Custo
     The system processes the request, creates it along with related records, and shows the details on the record view page.
 
 
+**Related topics**  
+
+
+[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-records-from-business-portal.md)
+

@@ -20,5 +20,5 @@ A lifecycle event case is an HR case fulfilled by a lifecycle event. For example
 
 **Note:** This section assumes you have Enterprise Onboarding and Transitions activated. For more information, see [Understanding Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.md).
 
-You can see all lifecycle event cases in \[Omitted image "IconList.png"\] Alt text: HR Agent Workspace - Lists icon Lists under the **Lifecycle Events** section.
+You can see all lifecycle event cases by selecting the Lists icon \(\[Omitted image "IconList.png"\] Alt text: Lists icon\) under the **Lifecycle Events** section.
 

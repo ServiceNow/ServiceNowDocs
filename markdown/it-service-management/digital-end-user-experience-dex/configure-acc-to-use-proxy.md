@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [configure acc proxy, acc proxy settings, proxy traffic, route acc through proxy, agent client collector proxy, proxy authentication]
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -39,15 +40,15 @@ Proxy setup is needed in the following use cases:
 
 1.  Run diagnostics to verify that the endpoint can reach ServiceNow before making changes.
 
-<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d354083e113">
+<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d355069e126">
 
 Option
 
-</th><th align="left" id="d354083e116">
+</th><th align="left" id="d355069e129">
 
 Command
 
-</th></tr></thead><tbody><tr><td id="d354083e122">
+</th></tr></thead><tbody><tr><td id="d355069e135">
 
 **Windows**
 
@@ -55,7 +56,7 @@ Command
 
 PowerShell: `.\servicenow-net-check.ps1`
 
-</td></tr><tr><td id="d354083e134">
+</td></tr><tr><td id="d355069e147">
 
 **macOS**
 

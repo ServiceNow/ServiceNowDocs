@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Change management integrations, Reference, Change Management, IT Service Management]
 ---
@@ -23,10 +23,6 @@ This integration requires the Hardware Asset Management Professional \(com.sn\_h
 When the configuration items listed in the Affected CIs related list have an asset associated, then the **Asset action** field is populated.
 
 You can choose an **Asset action** for the CI, from the Affected CI related list. This **Asset action** field provides three possible actions that can be selected which triggers an event.
-
--   **Deploy**: When this action is selected, the **sn\_hamp.asset.deploy** event is triggered.
--   **Update/Repair**: No event is triggered for this action.
--   **Retire**: When this action is selected, the **sn\_hamp.asset.retire** event is triggered.
 
 **Note:** The **Asset action** column can be added to the Affected CI related list if not already available.
 

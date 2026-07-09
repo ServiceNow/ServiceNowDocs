@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 44
+reading_time_minutes: 46
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -669,6 +669,7 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -682,6 +683,14 @@ realizingResource.id
 Sys\_id of the realizing resource. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+realizingResource.name
+
+</td><td>
+
+Name of the realizing resource. Data type: String
 
 </td></tr><tr><td>
 
@@ -704,6 +713,7 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -715,6 +725,16 @@ realizingService.id
 </td><td>
 
 Sys\_id of the realizing service. Data type: String
+
+Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+realizingService.name
+
+</td><td>
+
+Name of the realizing service. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -791,58 +811,170 @@ Response body.
 
 ```
 [
-   {
-      "id": "037fd87ec3603010abc8b5183c40ddf2",
-      "relatedParty": [
-         {
-            "id": "ffc68911c35420105252716b7d40dd55",
-            "name": "Example Company",
-            "@type": "RelatedParty",
-            "@referredType": "Customer"
-         },
-         {
-            "id": "eaf68911c35420105252716b7d40ddde",
-            "name": "Sally Thomas",
-            "@type": "RelatedParty",
-            "@referredType": "CustomerContact"
-         }
-      ],
-      "name": "Routing and Configuration PI0000318",
-      "productSpecification": {
-         "id": "aec57e981bb420106ba59acf034bcb08",
-         "name": "Routing and Configuration",
-         "version": "",
-         "internalVersion": "1",
-         "internalId": "aec57e981bb420106ba59acf034bcb08"
+  {
+    "id": "23562ee2e445b5443110f87235736620",
+    "relatedParty": [
+      {
+        "id": "9e2fd2ee11b43110f877366201dea674",
+        "name": "Startech svcs",
+        "@type": "RelatedParty",
+        "@referredType": "Customer"
       },
-      "status": "Active",
-      "productOffering": {
-         "id": "69017a0f536520103b6bddeeff7b127d",
-         "name": "Premium SD-WAN Offering",
-         "version": "",
-         "internalVersion": "1",
-         "internalId": "69017a0f536520103b6bddeeff7b127d"
+      {
+        "id": "dca96eaa11f43110f877366201dea6c1",
+        "name": "Alex Star",
+        "@type": "RelatedParty",
+        "@referredType": "CustomerContact"
+      }
+    ],
+    "name": "test_098 PI0001002",
+    "productSpecification": {
+      "id": "test_123",
+      "name": "test_123",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "c9b6a51221590f50f877be98c79c230b",
+      "@type": "productSpecificationRef"
+    },
+    "status": "installation_pending",
+    "productOffering": {
+      "id": "test_123",
+      "name": "test_123",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "0308a5d221590f50f877be98c79c2303",
+      "@type": "productOfferingRef"
+    },
+    "productId": "",
+    "place": [
+      {
+        "id": "6774fee611383110f877366201dea64f",
+        "name": "222 Star St, Santa Clara, CA 94560"
+      }
+    ],
+    "productRelationship": [],
+    "realizingService": [],
+    "realizingResource": [],
+    "horizontalRelationship": [],
+    "@type": "Product",
+    "productPrice": [],
+    "href": "/api/sn_prd_invt/product/testt21313",
+    "billingAccount": "Not Specified."
+  },
+  {
+    "id": "02917c3577b301108e191e599a5a99cf",
+    "relatedParty": [
+      {
+        "id": "ffc68911c35420105252716b7d40dd55",
+        "name": "Funco Intl",
+        "@type": "RelatedParty",
+        "@referredType": "Customer"
       },
-      "productId": "ce0b52c7532520103b6bddeeff7b12f5",
-      "place": [
-         {
-            "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
-            "name": "100 South Charles Street, Baltimore, MD"
-         }
-      ],
-      "productCharacteristic": [],
-      "productRelationship": [],
-      "realizingService": [],
-      "realizingResource": [
-         {
-            "id": "9b2fa60b536520103b6bddeeff7b1233",
-            "name": "Route Target"
-         }
-      ],
-      "productPrice": [],
-      "href": "/api/sn_prd_invt/product/037fd87ec3603010abc8b5183c40ddf2",
-      "billingAccount": "Not Specified."
-   }
+      {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": "Sally Thomas",
+        "@type": "RelatedParty",
+        "@referredType": "CustomerContact"
+      }
+    ],
+    "name": "SD WAN Optimization Service PI0000045",
+    "productSpecification": {
+      "id": "16d79ec3532520103b6bddeeff7b12a6",
+      "name": "SD WAN Optimization Service",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "16d79ec3532520103b6bddeeff7b12a6",
+      "@type": "productSpecificationRef"
+    },
+    "status": "active",
+    "productOffering": {
+      "id": "ff93e80477f301108b2a1e599a5a9901",
+      "name": "Premium SD-WAN Offering",
+      "version": "",
+      "internalVersion": "2",
+      "internalId": "69017a0f536520103b6bddeeff7b127d",
+      "@type": "productOfferingRef"
+    },
+    "productId": "28adfdf15b7520102dff5e92dc81c75d",
+    "productCharacteristic": [
+      {
+        "name": "SSL Optimization",
+        "valueType": "Choice",
+        "value": "",
+        "@type": "productCharacteristicRef"
+      },
+      {
+        "name": "CIFS Optimization",
+        "valueType": "Choice",
+        "value": "",
+        "@type": "productCharacteristicRef"
+      }
+    ],
+    "productRelationship": [],
+    "realizingService": [
+      {
+        "id": "42917c3577b301108e191e599a5a99ee",
+        "name": "Deduplication and Compression PI0000046",
+        "@type": "realizingServiceRef"
+      }
+    ],
+    "realizingResource": [],
+    "horizontalRelationship": [],
+    "@type": "Product",
+    "productPrice": [],
+    "href": "/api/sn_prd_invt/product/02917c3577b301108e191e599a5a99cf",
+    "billingAccount": "Not Specified."
+  },
+  {
+    "id": "test_post_new_002",
+    "relatedParty": [
+      {
+        "id": "1d253ada77250110531ba8e48f5a996d",
+        "name": "Valeire Hunt",
+        "@type": "RelatedParty",
+        "@referredType": "Consumer"
+      }
+    ],
+    "name": "test_123 PI0001031 PI0001051",
+    "productSpecification": {
+      "id": "268b81f621e9c314f877be98c79c2362",
+      "name": "test_invt",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "268b81f621e9c314f877be98c79c2362",
+      "@type": "productSpecificationRef"
+    },
+    "status": "active",
+    "productOffering": {
+      "id": "",
+      "name": "",
+      "version": "",
+      "internalVersion": "",
+      "internalId": "",
+      "@type": "productOfferingRef"
+    },
+    "productId": "027ddeb13710200044e0bfc8bcbe5d00",
+    "place": [
+      {
+        "id": "729fd006212d0fd0f877be98c79c23a8",
+        "name": "123"
+      }
+    ],
+    "productRelationship": [],
+    "realizingService": [],
+    "realizingResource": [
+      {
+        "id": "c6d1b09f21edc714f877be98c79c236b",
+        "name": "test_hunt_2 PI0001047",
+        "@type": "realizingResourceRef"
+      }
+    ],
+    "horizontalRelationship": [],
+    "@type": "Product",
+    "productPrice": [],
+    "href": "/api/sn_prd_invt/product/test_post_new_002",
+    "billingAccount": "Not Specified."
+  }
 ]
 ```
 
@@ -1352,6 +1484,7 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -1365,6 +1498,14 @@ realizingResource.id
 Sys\_id of the realizing resource. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+realizingResource.name
+
+</td><td>
+
+Name of the realizing resource. Data type: String
 
 </td></tr><tr><td>
 
@@ -1387,6 +1528,7 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -1398,6 +1540,16 @@ realizingService.id
 </td><td>
 
 Sys\_id of the realizing service. Data type: String
+
+Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+realizingService.name
+
+</td><td>
+
+Name of the realizing service. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -1476,56 +1628,67 @@ Output:
 
 ```
 {
-   "id": "037fd87ec3603010abc8b5183c40ddf2",
-   "relatedParty": [
-      {
-         "id": "ffc68911c35420105252716b7d40dd55",
-         "name": "Example Company",
-         "@type": "RelatedParty",
-         "@referredType": "Customer"
+  "id": "209aa30421710354f877be98c79c2364",
+  "relatedParty": [
+    {
+      "id": "1d253ada77250110531ba8e48f5a996d",
+      "name": "Valeire Hunt",
+      "@type": "RelatedParty",
+      "@referredType": "Consumer"
+    }
+  ],
+  "name": "trert_terewt PI0001072",
+  "productSpecification": {
+    "id": "e9f13b0421b10354f877be98c79c234e",
+    "name": "test_wert",
+    "version": "",
+    "internalVersion": "1",
+    "internalId": "e9f13b0421b10354f877be98c79c234e",
+    "@type": "productSpecificationRef"
+  },
+  "status": "active",
+  "productOffering": {
+    "id": "9732b34421b10354f877be98c79c2378",
+    "name": "test_wert",
+    "version": "",
+    "internalVersion": "1",
+    "internalId": "9732b34421b10354f877be98c79c2378",
+    "@type": "productOfferingRef"
+  },
+  "productId": "ed44fb4821b10354f877be98c79c23c9",
+  "productCharacteristic": [
+    {
+      "name": "ASN Information",
+      "valueType": "Object",
+      "value": {
+        "ASN Type": "",
+        "ASN": "65500",
+        "Area": "42",
+        "Downstream ASNs": []
       },
-      {
-         "id": "eaf68911c35420105252716b7d40ddde",
-         "name": "Sally Thomas",
-         "@type": "RelatedParty",
-         "@referredType": "CustomerContact"
-      }
-   ],
-   "name": "Routing and Configuration PI0000318",
-   "productSpecification": {
-      "id": "aec57e981bb420106ba59acf034bcb08",
-      "name": "Routing and Configuration",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "aec57e981bb420106ba59acf034bcb08"
-   },
-   "status": "Active",
-   "productOffering": {
-      "id": "69017a0f536520103b6bddeeff7b127d",
-      "name": "Premium SD-WAN Offering",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "69017a0f536520103b6bddeeff7b127d"
-   },
-   "productId": "ce0b52c7532520103b6bddeeff7b12f5",
-   "place": [
-      {
-         "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
-         "name": "100 South Charles Street, Baltimore, MD"
-      }
-   ],
-   "productCharacteristic": [],
-   "productRelationship": [],
-   "realizingService": [],
-   "realizingResource": [
-      {
-         "id": "9b2fa60b536520103b6bddeeff7b1233",
-         "name": "Route Target"
-      }
-   ],
-   "productPrice": [],
-   "href": "/api/sn_prd_invt/product/037fd87ec3603010abc8b5183c40ddf2",
-   "billingAccount": "Not Specified."
+      "@type": "productCharacteristicRef"
+    }
+  ],
+  "productRelationship": [],
+  "realizingService": [
+    {
+      "id": "848de83d21f18f54f877be98c79c2357",
+      "name": "Premium SD-WAN Offering PI0001023 PI0001077",
+      "@type": "realizingServiceRef"
+    }
+  ],
+  "realizingResource": [
+    {
+      "id": "286da0f921f18f54f877be98c79c23b3",
+      "name": "SD WAN INVENTORY PI0001076",
+      "@type": "realizingResourceRef"
+    }
+  ],
+  "horizontalRelationship": [],
+  "@type": "Product",
+  "productPrice": [],
+  "href": "/api/sn_prd_invt/product/209aa30421710354f877be98c79c2364",
+  "billingAccount": "Not Specified."
 }
 ```
 
@@ -3710,6 +3873,7 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -3743,6 +3907,7 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -4168,6 +4333,7 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```
@@ -4203,6 +4369,7 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
+  "name": "String",
   "type": "String"
 }
 ```

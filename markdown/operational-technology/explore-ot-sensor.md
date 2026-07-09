@@ -1,5 +1,5 @@
 ---
-title: Explore the Discovery Sensor for OT
+title: Explore the Discovery Sensor for Operational Technology \(OT\)
 description: The Discovery Sensor for OT provides you with enhanced scanning and query functionality to manage your assets in the OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/explore-ot-sensor.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Explore the Discovery Sensor for OT
+# Explore the Discovery Sensor for Operational Technology \(OT\)
 
 The Discovery Sensor for OT provides you with enhanced scanning and query functionality to manage your assets in the OT environment.
 
@@ -24,9 +24,5 @@ The Appliance page displays a list of all Sensors and Collectors that are associ
 
 ## Appliances records
 
-The Discovery Sensor for OT is listed on the Appliances page separately from the Collector. If you select the Sensor name from the list, you can open that Sensor record. You can perform the same actions with the Sensor as you would with the Collector. However, Collectors aren't registered to the Console. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-appliance-record.md) for more information.
-
-## What to do next
-
-To get started with the installation of the Discovery Sensor for OT, see .
+The Discovery Sensor for OT is listed on the Appliances page separately from the Collector. If you select the Sensor name from the list, you can open that Sensor record. You can perform the same actions with the Sensor as you would with the Collector. However, Collectors aren't registered to the Console. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and  for more information.
 

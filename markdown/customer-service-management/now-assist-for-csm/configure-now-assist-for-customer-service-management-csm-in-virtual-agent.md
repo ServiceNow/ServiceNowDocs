@@ -38,7 +38,7 @@ There are 6 main steps to configure Now Assist for CSM in Virtual Agent:
 
 1.  Navigate to **All** &gt; **Conversational interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  Locate and select **Schedule a Walk-up Appointment** topic under Now LLM.
+2.  Locate and select **Schedule a Walk-up Appointment** topic under LLM.
 
 3.  Select the **Properties** tab.
 

@@ -1,5 +1,5 @@
 ---
-title: Translate multiple knowledge articles into different languages
+title: Translate multiple knowledge articles
 description: Translate multiple knowledge articles to localize your content into different locales.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/translate-knowledge-articles.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use Bulk Translation for manual translation, Bulk Translation for knowledge articles, Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Translate multiple knowledge articles into different languages
+# Translate multiple knowledge articles
 
 Translate multiple knowledge articles to localize your content into different locales.
 
@@ -27,7 +27,7 @@ Role required: Localization fulfiller to fulfill translation request
 
 1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Translations** &gt; **My translation request**.
 
-2.  On the Localization Request Items page, select the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon\) to add the **Localization task** to your task list.
+2.  On the Localization Request Items page, select the gear icon to add the **Localization task** to your task list.
 
 3.  Open any localization task.
 

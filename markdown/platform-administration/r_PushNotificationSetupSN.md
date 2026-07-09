@@ -21,7 +21,7 @@ Setting up push notifications involves both the system administrator and users.
 -   Admin creates or updates push notifications for the ServiceNow mobile app. The admin does not need to set up the mobile devices for users nor update their user preferences for receiving push notifications.
 -   Users install the ServiceNow mobile mobile on their iOS or Android mobile devices and set their preferences for receiving notifications on the ServiceNow mobile app.
 
-\[Omitted image "PushNotificationSNSetup.png"\] Alt text: Push notification setup tasks for the ServiceNow mobile app
+\[Omitted image "push-notification-SN-setup.png"\] Alt text: Workflow diagram showing push notification setup for ServiceNow mobile app
 
 ## What to do — admins
 

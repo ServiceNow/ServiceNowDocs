@@ -74,7 +74,11 @@ A broader classification that groups similar capabilities together.
 **Related topics**  
 
 
-[Create a product capability and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+[Add or edit a product capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-product-capability.md)
+
+[Associate a product capability with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+
+[Create product capabilities and associate it with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-product-capability-and-assoc-trm-product.md)
 
 [Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)
 

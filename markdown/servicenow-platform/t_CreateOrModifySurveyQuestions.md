@@ -20,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-Changes to a survey, such as the addition of questions or the modification of question templates, do not apply immediately to the existing survey instances. However, the changes apply immediately to any new survey instances that are created after the changes are saved.
+Changes to a survey, such as the addition of questions or the modification of question templates, do not apply to the existing survey instances. However, the changes apply to any new survey instances that are created after the changes are saved.
 
 ## Procedure
 

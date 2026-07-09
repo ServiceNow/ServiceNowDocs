@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for GCP Vertex AI
-description: Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
+description: Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI \(1.1.1\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-gcp-vertex-ai.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [GCP Vertex AI, Service Graph Connectors for AI Control Tower, AI co
 
 # Create an AI connection for GCP Vertex AI
 
-Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
+Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI \(1.1.1\).
 
 ## Before you begin
 
@@ -23,17 +23,17 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Click **Add**.
 
-3.  Select **GCP Vertex AI** from all the available connectors.
+3.  Select **GCP Vertex AI** from the available connectors.
 
 4.  Click **Create connection**.
 
-    Review setup instructions page displays
+5.  Review setup instructions page displays.
 
-5.  Verify to follow all the prerequisite steps.
+    **Note:** Verify to follow all the prerequisite steps.
 
 6.  Check the option **I have read the setup instructions**.
 
@@ -41,7 +41,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 8.  Create Credential with JSON file upload page appears \(Optional\)
 
-    **Note:** If you're uploading JSON file, ensure to configure MID server in the next steps.If you have JSON file, skip this step and move to step 12.
+    **Note:** If you don't have a JSON file, skip this step and move to step 12.
 
 9.  Enter the Credential name
 
@@ -63,7 +63,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 17. Select **Upload** to upload the JKS file.
 
-18. Select**Save**.
+18. Select **Save**.
 
     The JKS file is added.
 
@@ -87,9 +87,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
         **Note:** Selecting MID server is an option step.
 
-    7.  Select **Update and test connection**.
-
-    8.  Select **Continue**.
+    7.  Select **Continue**.
 
 21. Create and test connection \(With JSON file\)
 
@@ -119,16 +117,18 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     2.  Set the run frequency
 
-    3.  To run frequency by demand, select **Execute now**.
+    3.  To run frequency by demand, select **Execute Now**.
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
     4.  Select **Continue**.
 
-    5.  Select **View all connections** to view the newly created connection.
+23. Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for GCP Vertex AI is created and configured.
 

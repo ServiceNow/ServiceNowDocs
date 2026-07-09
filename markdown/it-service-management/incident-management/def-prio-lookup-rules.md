@@ -55,7 +55,7 @@ Priority lookup rules are organizational configurations set by administrators. T
     |2 - Medium|3 - Low|4 - Low|
     |3 - Low|1 - High|3 - Moderate|
     |3 - Low|2 - Medium|4 - Low|
-    |3 - Low|3 - Low|5 - Planning|
+    |3 - Low|3 - Low|4 - Low|
 
     By default, the **Priority** field is read-only and must be set by selecting the **Impact** and **Urgency** values. To change how the priority is calculated, you can either alter the priority lookup rules or disable the **Priority is managed by Data Lookup - set as read-only** UI policy and create their own business logic.
 

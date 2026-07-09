@@ -1,5 +1,5 @@
 ---
-title: Sections and cards on the Overview tab for a Log Analytics alert in Health Log Analytics
+title: Overview tab sections for Log Analytics alerts
 description: The Overview tab in Health Log Analytics helps you understand Log Analytics alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-single-ci-alerts-sow.html
@@ -13,7 +13,7 @@ keywords: [Health Log Analytics, Overview tab, log analytics alerts, Service Ope
 breadcrumb: [Information on the alert Overview tab, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Sections and cards on the Overview tab for a Log Analytics alert in Health Log Analytics
+# Overview tab sections for Log Analytics alerts
 
 The **Overview** tab in Health Log Analytics helps you understand Log Analytics alerts.
 

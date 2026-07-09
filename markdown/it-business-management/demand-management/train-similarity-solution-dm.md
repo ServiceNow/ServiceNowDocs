@@ -64,7 +64,7 @@ When the solution is complete, the similar demands appear in the Similar demands
 
 [Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand]()
+[RIDACs records for a demand]()
 
 [Reset a demand to Draft state]()
 

@@ -175,10 +175,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 ## Learn more about the Now Mobile app
 
-Use the following links to learn more about on how to use and configure the Now Mobile app.
-
--   Now Mobile app
--   [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md)
+Use the following link to learn more about on how to use and configure the Now Mobile app: [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md).
 
 **Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 

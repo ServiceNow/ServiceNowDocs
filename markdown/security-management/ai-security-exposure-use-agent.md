@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-use-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-07-07"
 reading_time_minutes: 2
 breadcrumb: [Using the AI guardrails helper skill and agentic workflow, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -62,7 +62,7 @@ Before providing the agent with instructions, use the AI guardrails helper skill
 
     The system displays the number of findings associated with your deferral request and prompts you to create an exception rule.
 
-    If you select **Yes**, a rule is created. Select the link to view your new rule. The system displays the record for review. You can modify the conditions of the rule and select **Save** to preserve your changes. Select **Submit** to send your new rule for approval based on your approval hierarchy and approval rules described in &lt;link to Exception Management.&gt;
+    If you select **Yes**, a rule is created. Select the link to view your new rule. The system displays the record for review. You can modify the conditions of the rule and select **Save** to preserve your changes. Select **Submit** to send your new rule for approval based on your approval hierarchy and approval rules described in the Exception Management documentation.
 
     Select the **Approvals** tab on the approval rule record to view the status of your requests.
 

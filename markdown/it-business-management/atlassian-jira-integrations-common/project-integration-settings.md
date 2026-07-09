@@ -1,5 +1,5 @@
 ---
-title: Associate a Jira project and board with an assignment group in Agile Development 2.0
+title: Associate Jira projects with assignment groups in Agile Development 2.0
 description: Associate your Jira projects and boards with assignment groups in Agile Development 2.0 to enable import and export of all available issues between the associated project and assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/project-integration-settings.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Importing issues and sprints from Jira to Agile Development 2.0, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
-# Associate a Jira project and board with an assignment group in Agile Development 2.0
+# Associate Jira projects with assignment groups in Agile Development 2.0
 
 Associate your Jira projects and boards with assignment groups in Agile Development 2.0 to enable import and export of all available issues between the associated project and assignment group.
 

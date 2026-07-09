@@ -1,6 +1,6 @@
 ---
-title: Manufacturing Commercial Operations landing page \(Agents or CSM/FSM configurable workspace\)
-description: Manufacturing Commercial Operations enables OEMs or manufacturers to use Agents workspace as a landing page to create sales promotion and recall campaigns. It also enables the agents to view, submit, review, and approve claims.
+title: Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)
+description: Use the Manufacturing Commercial Operations workspace to manage warranty claims, pre-authorizations, and campaigns. View personalized dashboards, filter records by status, and take action based on AI-suggested dispositions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-landing-page.html
 release: australia
@@ -10,21 +10,29 @@ reading_time_minutes: 4
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
 
-# Manufacturing Commercial Operations landing page \(Agents or CSM/FSM configurable workspace\)
+# Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)
 
-Manufacturing Commercial Operations enables OEMs or manufacturers to use Agents workspace as a landing page to create sales promotion and recall campaigns. It also enables the agents to view, submit, review, and approve claims.
+Use the Manufacturing Commercial Operations workspace to manage warranty claims, pre-authorizations, and campaigns. View personalized dashboards, filter records by status, and take action based on AI-suggested dispositions.
 
-Manufacturing Commercial Operations provides personalized landing pages for key Manufacturing Commercial Operations personas—Recall Manager, Sales Promotions Manager, Claims Agent, MCO admin, and Warranty Assessor—each displaying role-relevant case summaries, charts, and performance analytics widgets.
+## MCO workspace capabilities
 
-\[Omitted image "agents-ws-portal.png"\] Alt text: MCO Agents workspace
+The Manufacturing Commercial Operations workspace provides role-based landing pages that display personalized dashboards, case summaries, and performance metrics. Use the workspace to:
+
+-   Review and approve repair claims with AI-suggested dispositions
+-   Process pre-authorization requests from dealers
+-   Manage sales promotion and recall campaigns
+-   Filter claims and campaigns by status and risk level
+-   Toggle between gallery and list views
+
+**Note:** Users without AI plugins installed can view the non-AI experience.
+
+\[Omitted image "agents-ws-portal.png"\] Alt text: MCO workspace \[Omitted image ""\] Alt text:
 
 The agent workspace landing page includes different sections and components. It has the following capabilities:
 
 -   Toggle between gallery view and list view.
 -   View the isolated view of each module by selecting **View all**
 -   Create records.
-
-**Note:** Users without AI plugins installed can view the non-AI repair view experience.
 
 |Tabs/Fields|Description|
 |-----------|-----------|
@@ -127,12 +135,10 @@ Displays all sales promotions accessible to the logged-in user. Use the filter t
 |Promotion Type|Type of promotion associated with the record.|
 |Owner|User responsible for the promotion.|
 
-**Related topics**  
+## What to explore next
 
+To learn more about configuring and using MCO, see:
 
-[Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
-
-[Set up sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-set-up-sls-prom.md)
-
-[Agent management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agent-management.md)
+-   [Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
+-   [Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agent-management.md)
 

@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -36,6 +36,8 @@ Access all the content recommended for you from from a central location in one-c
 Access and use the ServiceNow® Employee Center capabilities from Zoom client.
 -   **[View employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-employee-profile.md)**  
 View the employee profile with your personal information from the employee portal and Now Mobile.
+-   **[Use Employee Profile with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile.md)**  
+Learn how the Employee Profile plugin works with HR Service Delivery.
 -   **[Use Personalized Answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.md)**  
 Employees can use the AI-search enabled feature to seek information about their leave balance and more on the Employee Center search page.
 -   **[Employee Profile org chart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/view-org-chart.md)**  

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Exploring Hardware Asset Management
@@ -25,7 +25,7 @@ Hardware Asset Management enables you to track and manage the end-to-end life-cy
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Manage your asset life-cycle and keep the asset records accurate and up-to-date through an intuitive, centralized, and single-pane view of the hardware asset estate that directs you to critical Hardware Asset Management priorities and activities.|[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)|Executives/Application owners/Asset managers/Inventory users|
-|Leverage mobile devices to receive assets into stockrooms and conduct on-site audits for accurate inventory checks.|[Mobile asset scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/mobile-my-asset.md)|Asset managers/Asset administrators/Inventory administrators|
+|Leverage mobile devices to receive assets into stockrooms and conduct on-site audits for accurate inventory checks.|[Mobile asset scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/mobile-my-asset.md)|Asset managers/Asset administrators/Inventory administrators|
 |Streamline your asset life-cycle with pre-built and guided workflows of Hardware Asset Management.|[Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)|Asset managers/Asset administrators|
 |Automate Return Merchandise Automation \(RMA\) processes for assets to be returned, replaced, or repaired.|[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/return-merchandise-authorization.md)|Asset managers/Inventory administrators|
 |Manage a complex group of assets as a single parent record.|[Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-bundles-concept.md)|Asset managers/Asset administrators|

@@ -17,7 +17,7 @@ breadcrumb: [Configure multi-theme, Employee Slate for Now Assist, Configuration
 
 Reference information for configuring audience applicability criteria used in multi-theme functionality and other platform features.
 
-## User Criteria form fields
+## User criteria form fields
 
 The User Criteria form contains fields for defining user access criteria and restrictions. For more information, see [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
 
@@ -33,14 +33,14 @@ The User Criteria form contains fields for defining user access criteria and res
 |**Locations**|Locations included in the criteria. Select the reference icon to choose locations.|
 |**Roles**|User roles included in the criteria. Select the reference icon to choose roles.|
 |**Departments**|Departments included in the criteria. Select the reference icon to choose departments.|
-|**Advanced**|When selected, enables advanced criteria configuration options.|
+|**Advanced**|When selected, this option enables advanced criteria configuration options.|
 |**Match All**|When selected, users must match all specified criteria. When cleared, users must match any of the specified criteria.|
 
 ## Criteria structure
 
 Audience applicability criteria define which users receive specific themes, configurations, or features. The system uses a platform construct that wraps user criteria functionality to provide inclusion and exclusion capabilities.
 
-|Criteria Type|Description|Use Cases|
+|Criteria type|Description|Use cases|
 |-------------|-----------|---------|
 |User roles|Target users based on assigned roles and permissions|Admin-specific themes, role-based branding|
 |Departments|Target users based on organizational department|Department-specific branding, divisional themes|

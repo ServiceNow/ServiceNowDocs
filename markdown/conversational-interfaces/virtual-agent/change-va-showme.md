@@ -35,15 +35,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d64833e132">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d65245e132">
 
 Method
 
-</th><th align="left" id="d64833e135">
+</th><th align="left" id="d65245e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64833e141">
+</th></tr></thead><tbody><tr><td id="d65245e141">
 
 **System properties**
 
@@ -54,17 +54,18 @@ Description
 3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text: Save icon..
 
 
-</td></tr><tr><td id="d64833e176">
+</td></tr><tr><td id="d65245e176">
 
 **Virtual Agent Designer**
 
 </td><td>
 
-1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
-2.  Select the copy of the Greetings setup topic that you created.
-3.  In the **Flow** tab, select the node for the Send Topic Picker script action.
-4.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
-5.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
+1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**.
+2.  Select the **Asset library** tab.
+3.  Select the copy of the Greetings setup topic that you created.
+4.  In the **Flow** tab, select the node for the Send Topic Picker script action.
+5.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
+6.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
 
     ```
 (function execute() {
@@ -73,12 +74,12 @@ Description
 })()
     ```
 
-6.  Preview the change in the chat window by selecting **Test** in the header bar. The button text change displays as follows:
+7.  Preview the change in the chat window by selecting **Test** in the header bar. The button text change displays as follows:
 
 \[Omitted image "va-showme-button-chg.png"\] Alt text: Virtual Agent bot displaying the change in the text with the Show me everything option when you tested.
 
-7.  Select **Save** in the header bar.
-8.  When you're ready to make the topic active, select **Publish**.
+8.  Select **Save** in the header bar.
+9.  When you're ready to make the topic active, select **Publish**.
 
 
 </td></tr></tbody>

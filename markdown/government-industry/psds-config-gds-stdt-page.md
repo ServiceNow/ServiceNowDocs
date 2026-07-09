@@ -1,6 +1,6 @@
 ---
-title: Configure the Case Details \(standard ticket\) page for GOV.UK Developer Toolkit GDS Service Portal
-description: Configure individual request types to display case Details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
+title: Configure the GOV.UK Design System Service Portal Case Details \(standard ticket\) page
+description: Configure individual request types to display case details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-stdt-page.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Case Details \(standard ticket\) page for GOV.UK Developer Toolkit GDS Service Portal
+# Configure the GOV.UK Design System Service Portal Case Details \(standard ticket\) page
 
-Configure individual request types to display case Details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
+Configure individual request types to display case details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
 
 The standard ticket case details page provides UK citizens with updates on their submitted cases. Citizen users can view case status, last updated timestamp, and communication history on the Case Detail Page.
 
@@ -58,6 +58,4 @@ You can configure the tabs for standard ticket page. For more information, see [
 ## Customization
 
 You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

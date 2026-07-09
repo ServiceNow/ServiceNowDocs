@@ -1,18 +1,18 @@
 ---
-title: Performance
-description: Monitor all your instances 24x7 in one place with near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
+title: Real-time Instance health monitoring and analysis
+description: You can monitor all your instances 24x7 at one place using near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-observer-performance.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Performance
+# Real-time Instance health monitoring and analysis
 
-Monitor all your instances 24x7 in one place with near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
+You can monitor all your instances 24x7 at one place using near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
 
 Make data-driven decisions based on your users, platform, and applications​, access to near real-time and historical instance performance telemetry, and ​proactively visualize instance performance telemetry across instances with point-in-time metadata​.
 
@@ -51,12 +51,12 @@ The **Performance** tab lists many metrics for several key system components. Th
 1.  To access the Instance Observer page, navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**
 2.  From the **Performance** menu, select the metric for the key system component.
 
--   **[Getting started with Performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-getting-started-perf-charts.md)**  
+-   **[Generate performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-getting-started-perf-charts.md)**  
 Follow these steps to generate Performance charts using Instance Observer.
--   **[Anomalies detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomalies-detection.md)**  
+-   **[Anomalies detection in performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomalies-detection.md)**  
 Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
 -   **[Analyze job details for long pending jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-long-pending-job-alert-card.md)**  
 Stay ahead of job delays by identifying and acting on jobs that breach predefined lateness thresholds. The Long Pending Jobs alert card tracks pending jobs by lateness duration, so you can act on the pending jobs before they affect the downstream workflows and miss the SLAs.
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

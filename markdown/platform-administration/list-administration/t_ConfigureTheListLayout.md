@@ -22,6 +22,8 @@ Role required: personalize\_list
 
 ## About this task
 
+\[Omitted video\] Description: Configure the list layout
+
 ## Procedure
 
 1.  Navigate to the list you want to configure.

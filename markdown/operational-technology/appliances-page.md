@@ -29,11 +29,15 @@ The Appliances page displays the current Sensors and Collectors that have run or
 
 \[Omitted image "appliances-page.png"\] Alt text: Appliances page
 
-Selecting the appliance name in the list, opens its record. See [Edit an Appliance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-appliance-record.md) for more information.
+Selecting the appliance name in the list, opens its record. See  for more information.
 
 ## Search by type
 
-You can search for a type of appliance by entering the type in the Search field. Or you can open the Filter and select by the available labels. For example, if you want to view just the Collectors, you can type Collector in the Search field or check the box next to Type in the filter and then choose Collector. The Appliances list now shows only the current Collectors.
+You can search for a type of appliance by entering the type in the Search field. Or you can open the Filter and select by the available labels. For example, if you want to view just the Collectors, you can type Collector in the Search field. You can also check the box next to Type in the drop-down Search menu.
+
+\[Omitted image "filter-appliances-type.png"\] Alt text: Search menu
+
+Then choose Collector. The Appliances list now shows only the current Collectors.
 
 \[Omitted image "appliances-sort-collector.png"\] Alt text: Sort Collectors
 

@@ -43,7 +43,7 @@ The Project Status mobile application runs on the ServiceNow® mobile platform. 
 
 [View project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-project-status-mobile.md)
 
-[Create RIDAC \(Risk, Issues, Decisions, Actions, and Request Changes\) records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-ridac-mobile.md)
+[Create RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-ridac-mobile.md)
 
 [Collaborate with project stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/collaborate-on-project-mobile.md)
 

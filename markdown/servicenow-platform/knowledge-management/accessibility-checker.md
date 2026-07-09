@@ -28,7 +28,7 @@ Role required: user with contribute access
 
 2.  Select a Knowledge article.
 
-3.  Select the **Accessibility checker** icon \[Omitted image "accessibility-checker-icon.png"\] Alt text: Accessibility checker icon in the toolbar of the article body.
+3.  Select the **Accessibility checker** icon in the toolbar of the article body.
 
 4.  View accessibility-related issues in the **Accessibility Checker** window along with suggestions for resolution of each issue.
 

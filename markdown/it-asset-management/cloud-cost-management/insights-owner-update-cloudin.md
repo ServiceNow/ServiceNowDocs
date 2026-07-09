@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Assign service accounts to an insights\_owner, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Assign service accounts to an insights\_owner, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Update or reassign insights\_owner privileges
@@ -73,7 +73,7 @@ Change template to use to create the change request for this task.The system use
 </td></tr></tbody>
 </table>4.  Specify how to populate the **Owner** field for CIs in service accounts.
 
-<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d97956e178">
+<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d98672e178">
 
 **Assign insights\_owners only to CIs with no owner**
 
@@ -83,7 +83,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
  **Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d97956e199">
+</td></tr><tr><td id="d98672e199">
 
 **Assign insights\_owners to all CIs**
 
@@ -91,7 +91,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
 For the **Owner** property of every CI in the specified service accounts, assign the new insights\_owner.**Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d97956e217">
+</td></tr><tr><td id="d98672e217">
 
 **Do not update any CIs**
 
@@ -109,7 +109,7 @@ Make no changes to CIs in the specified service accounts.
 
     **Important:** Policies owned by users with the insights\_admin role aren’t changed in any way.
 
-<table id="choicetable_kzs_1qm_rkb"><tbody><tr><td id="d97956e259">
+<table id="choicetable_kzs_1qm_rkb"><tbody><tr><td id="d98672e259">
 
 **Yes**
 
@@ -126,7 +126,7 @@ The following process runs:
 4.  The instance sends email notifications to both the original and new owners.
 
 
-</td></tr><tr><td id="d97956e315">
+</td></tr><tr><td id="d98672e315">
 
 **No**
 

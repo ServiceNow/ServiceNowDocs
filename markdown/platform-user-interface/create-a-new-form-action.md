@@ -1,18 +1,18 @@
 ---
 title: Create a form action button
-description: Create a form action button and configure it to appear in a workspace.
+description: Create a form action button for a Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-a-new-form-action.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a form action button
 
-Create a form action button and configure it to appear in a workspace.
+Create a form action button for a Configurable Workspace.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create new action**.
+1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create New Action**.
 
-2.  Select **Form**.
+2.  Select **Form** from the list of action types.
 
     A new Action Assignment record opens.
 
@@ -41,6 +41,10 @@ Role required: admin
         -   **UXF Client Action** applies the action as a UI Builder page event.
         -   **Client Script** applies the action to the web browser as JavaScript.
         -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+    -   **Application**
+
+        The scope that the action exists within.
+
     -   **Table**
 
         Table for the action button to appear on.
@@ -49,30 +53,32 @@ Role required: admin
 
         UI view for the action button to appear on.
 
-4.  Select the Additional actions icon \(\[Omitted image "menu-icon-save.png"\] Alt text:\) and **Save**.
+    -   **Enable for all Configurable Experiences**
 
-5.  From the Layout Items related list, select your action.
+        When selected, the action is visible in all Configurable Experiences.
 
-    You can also select the **UX Form Layout Item** link in the form message.
+    -   **Active**
 
-    A UX Form Actions Layout Item record opens.
+        When selected, the action is active.
 
-6.  Complete the following fields to update the look and feel of the button:
+    -   **Order**
 
-    -   **Icon**
+        Order in which the action appears relative to other actions.
 
-        Icon for the action.
+    -   **Tooltip**
 
-    -   **Color**
+        Tooltip text that appears for the action.
 
-        Colors supported by the button component.
+    -   **Description**
 
-7.  Select **Update**.
+        Description of the action for internal reference.
+
+4.  Select **Submit**.
 
 
 ## Result
 
-The form action button appears within the workspace you specified.
+The form action button is created and scoped to the table and view you specified.
 
 ## What to do next
 

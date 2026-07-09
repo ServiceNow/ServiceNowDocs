@@ -211,7 +211,7 @@ The threshold settings for adherence and conformance indicate how many minutes e
 
 [Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)
 
-[Analyze adherence and conformance from the time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
+[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
 
 ## Modify schedule adherence and conformance formulas by using extension points
 

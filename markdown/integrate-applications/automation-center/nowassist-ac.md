@@ -1,6 +1,6 @@
 ---
 title: Now Assist for Automation Center
-description: Use Now Assist for Automation Center helps you explore existing automations in your ServiceNow instance. You can use it to streamline and simplify automation request setup from Task Mining workspace.
+description: Use Now Assist for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/nowassist-ac.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 
 # Now Assist for Automation Center
 
-Use Now Assist for Automation Center helps you explore existing automations in your ServiceNow instance. You can use it to streamline and simplify automation request setup from Task Mining workspace.
+Use Now Assist for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 
 **Important:**
 
@@ -58,8 +58,6 @@ Explore the benefits of Now Assist for Automation Center.
 Configure Now Assist for Automation Center to use all the features.
 -   **[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)**  
 Use Now Assist for Automation Center to explore available automations in your ServiceNow instance. You can also create an automation request from the Task Mining workspace.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/reference.md)**  
-Reference topics provide additional information about the lists and forms that you use to configure and administer Now Assist for Automation Center.
 
 **Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-use.md)
 

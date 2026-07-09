@@ -1,5 +1,5 @@
 ---
-title: New Inbound integrations experience
+title: New Inbound Integrations experience
 description: The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/new-inbound-integrations.html
@@ -13,7 +13,7 @@ keywords: [New inbound integration experience, Machine Identity Console]
 breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# New Inbound integrations experience
+# New Inbound Integrations experience
 
 The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 

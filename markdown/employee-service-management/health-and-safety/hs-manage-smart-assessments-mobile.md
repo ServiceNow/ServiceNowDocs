@@ -24,7 +24,7 @@ Use the Mobile Agent app to complete a smart assessment questionnaire for Health
 You can create actions or findings for every question in the smart assessment questionnaire. For example, to report a hazard observed while completing the smart assessment questionnaire.
 -   **[View the smart assessment result using the Mobile agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-view-smart-assessment-results.md)**  
 You can view the smart assessment that was completed as part of the safety inspection or audit.
--   **[Assign smart assessment through Mobile agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-assign-smart-assessment-mobile-agent.md)**  
+-   **[Assign another agent's smart assessment to yourself](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-assign-smart-assessment-mobile-agent.md)**  
 You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 
 **Parent Topic:**[Manage safety inspections and audits through the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-inspection-audits-mobile.md)

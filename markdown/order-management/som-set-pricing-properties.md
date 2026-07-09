@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/som-set-pricin
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -23,7 +23,6 @@ Role required: admin
 You can control the following pricing features using pricing system properties:
 
 -   Logging of pricing engine requests for debugging.
--   Parallel processing of a large set of pricing engine requests, typically 100 transaction lines or more, to optimize performance. You can also set the threshold, which is the number of transaction lines that triggers parallel processing.
 -   Multiplier term used when calculating uplifts for contract renewals.
 -   Ramp segment and term basis used when calculating renewal adjustments for products with ramps.
 
@@ -48,22 +47,6 @@ Logging Pricing Requests\(sn\_csm\_pricing.log\_pricingengine\_request\)
 </td><td>
 
 Control the logging of pricing engine requests for debugging. Select **Yes** to activate logging or **No** to turn off the pricing request log.
-
-</td></tr><tr><td>
-
-Pricing Engine Parallel Execution-   Enable the pricing engine to perform parallel processing of transaction lines when a transaction threshold is met.
-
-\(sn\_csm\_pricing.enable\_pricing\_engine\_parallel\_execution\)
-
--   Set the number of transactions that must be met before the pricing engine can run parallel processing.
-
-\(sn\_csm\_pricing.pricing\_engine\_parallelism\_lines\_threshold\)
-
-</td><td>
-
-Set properties that optimize the processing time for pricing transactions.-   The parallel execution property is set to **Yes** by default. Select **No** to turn off parallel execution and process the transaction lines serially. If you select **No**, the system ignores the threshold value.
--   The default threshold value is 100. You can enter a different number that represents the minimum number of transaction lines that must be met before the pricing engine can perform parallel processing using multiple threads.
-**Note:** Parallel processing isn't performed by the pricing engine for calls to the product configurator pricing integrations, even if the number of transaction lines meets the parallelism threshold.
 
 </td></tr><tr><td>
 
@@ -99,7 +82,7 @@ Pricing Session Cache\(sn\_csm\_pricing.enable\_pricing\_session\_cache\)
 
 </td><td>
 
-For testing purposes only. Turn on \(select **Yes**\) or turn off \(select **No**\) the cache for pricing sessions.**Note:** Do not set this to **No** except for testing, as it may negatively impact pricing engine performance.
+For testing purposes only. Turn on \(select **Yes**\) or turn off \(select **No**\) the cache for pricing sessions.**Note:** don't set this property to **No** except for testing, as it may negatively impact pricing engine performance.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

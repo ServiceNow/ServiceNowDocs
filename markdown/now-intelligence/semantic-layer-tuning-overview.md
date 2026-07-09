@@ -40,7 +40,7 @@ Before you tune, verify that the issue is repeatable. The [LLM]() occasionally m
 
 Tune the semantic layer when:
 
--   The system selects the wrong table or cannot find one
+-   The system selects the wrong table or cannot find one. For example, the system could be processing queries on reference fields, and the referenced tables are missing from the semantic layer.
 -   A field is missing or the wrong field is selected
 -   Your organization uses different terminology than the auto-generated labels
 -   The right table or field is selected, but the query is constructed incorrectly

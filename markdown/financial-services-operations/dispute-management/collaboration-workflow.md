@@ -1,5 +1,5 @@
 ---
-title: Collaboration workflow overview
+title: Collaboration workflows
 description: The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/collaboration-workflow.html
@@ -9,22 +9,22 @@ classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Pre-arbitration and arbitration overview, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Pre-arbitration and arbitration overview, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Collaboration workflow overview
+# Collaboration workflows
 
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-\[Omitted image "collab-arb-pre-arb-workflows.png"\] Alt text: Workflow illustrating the order of actions between the issuer, acquirer, and Visa in a collaboration dispute workflow.
+\[Omitted image "collab-arb-pre-arb-workflows.png"\] Alt text: Order of actions between the issuer, acquirer, and Visa in a collaboration dispute workflow.
 
-1.  The issuer creates a dispute for a transaction. The acquirer can send a dispute response either fully accepting, partially accepting, or declining the dispute on behalf of the merchant. If the acquirer fully accepts the dispute, the dispute is closed and the flow ends.
+1.  The issuer creates a dispute for a transaction. The acquirer can send a dispute response either fully accepting, partially accepting, or declining the dispute on behalf of the merchant. If the acquirer fully accepts the dispute, the dispute closes and the flow ends.
 2.  If the acquirer partially accepts or declines the dispute, the flow continues.
-3.  The issuer, after consulting with the card holder, can choose to file a pre-arbitration with the acquirer.
-4.  The acquirer can respond to the pre-arbitration by fully accepting, partially accepting, or declining the dispute. If the acquirer fully accepts the dispute, the dispute is closed and the flow ends.
+3.  The issuer, after consulting with the cardholder, can choose to file a pre-arbitration with the acquirer.
+4.  The acquirer can respond to the pre-arbitration by fully accepting, partially accepting, or declining the dispute. If the acquirer fully accepts the dispute, the dispute closes and the flow ends.
 5.  If the acquirer partially accepts or declines the dispute, the flow continues. The issuer can choose to raise an arbitration case filing with Visa.
 6.  The case is sent to Visa; they adjudicate and provide the final ruling on the case.
-7.  Either party can appeal the decision if they are dissatisfied, provided they meet the appeal guidelines from Visa.
+7.  Either party can appeal the decision if they are dissatisfied and meet the appeal guidelines from Visa.
 
-**Parent Topic:**[About pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 

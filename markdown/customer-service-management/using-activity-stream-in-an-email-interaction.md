@@ -51,9 +51,7 @@ The post is added to the activity stream.
 
 Alternatively, select the Pop out in modeless window icon \( \[Omitted image "Pop-out\_icon\_eaai.png"\] Alt text: Pop out in modeless window\) to compose worknote in a separate dialog. \(include icon\)
 
-The latest work note is annotated with the New Activity marker.
-
-\[Omitted image "Worknotes\_annotated\_eaai.png"\] Alt text: Worknote annotated with New Activity marker
+The latest work note is annotated with the New Activity marker.\[Omitted image "worknotes-new-activity-marker-eaai-new.png"\] Alt text: Worknote annotated with New Activity marker
 
 </td></tr><tr><td>
 

@@ -16,7 +16,7 @@ breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 
 Configure MID Server settings on your ServiceNow instance that enables it to integrate with a third-party application via MID Server after you have set up the connection record for a spoke.
 
-Demonstrates setting up MID Server for a spoke. 
+\[Omitted video\] Description: Demonstrates setting up MID Server for a spoke.
 
 ## Before you begin
 

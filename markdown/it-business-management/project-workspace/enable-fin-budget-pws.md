@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Enable financial budget allocation for projects in Project Workspace
@@ -32,9 +32,9 @@ Enable allocation property after migrating to Next Experience to work on budget 
 
 ## What to do next
 
-Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
 
--   **[Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md)**  
+-   **[Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md)**  
 Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your projects using Project Workspace.
 
 **Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)

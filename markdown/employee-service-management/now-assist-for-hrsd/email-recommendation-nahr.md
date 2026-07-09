@@ -33,7 +33,7 @@ An agent can do these actions by using the Now Assist icon:
 
 **Note:** The email reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204111e154">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204420e151">
 
 Method
 
-</th><th align="left" id="d204111e157">
+</th><th align="left" id="d204420e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204111e163">
+</th></tr></thead><tbody><tr><td id="d204420e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d204111e214">
+</td></tr><tr><td id="d204420e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204111e265">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204420e262">
 
 Email message window
 
-</th><th align="left" id="d204111e268">
+</th><th align="left" id="d204420e265">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d204111e277">
+</th></tr></thead><tbody><tr><td id="d204420e274">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d204111e294">
+</td></tr><tr><td id="d204420e291">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d204111e303">
+</td></tr><tr><td id="d204420e300">
 
 **Use template**
 

@@ -1142,7 +1142,7 @@ Table: User \[sys\_user\]
 
 segment.agent
 
-</td><td id="d3934e468">
+</td><td id="d3986e468">
 
 Sys\_id of the agent assigned to the interaction.Data type: String
 

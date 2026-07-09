@@ -17,7 +17,7 @@ breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance,
 
 Upstream applications can embed the Smart Assessment Engine responder experience directly within their workspace and control which interface components are visible.
 
-Embedded assessments enable upstream applications to integrate the Smart Assessment Engine responder experience within their own workspace. The embedding application controls which interface components are displayed, which affects the availability of certain features. Compact mode does not affect the standard assessment display.
+Embedded assessments enable upstream applications to integrate the Smart Assessment Engine responder experience within their own workspace. The embedding application controls which interface components are displayed, which affects the availability of certain features.
 
 **Note:** Depending on the embedded configuration, some assessment capabilities — such as collaboration features that depend on the reference info pane — may behave differently or be unavailable in the embedded view.
 
@@ -27,30 +27,24 @@ Upstream applications typically embed an assessment in one of the following scen
 
 -   A record page that already represents the entity being assessed. For example, embedding a control attestation inside the Control record, or embedding a vendor security assessment inside the vendor record. Responders complete the assessment without leaving the parent record.
 -   A playbook step that includes an assessment as part of a guided process. Embedding the assessment inline keeps the responder in the playbook flow and avoids opening a separate browser tab for the assessment.
--   A workspace landing page or related-list view that surfaces the assessment alongside other context, such as related incidents or audit history.
+-   A workspace landing page or related-list view that surfaces the assessment with context, such as related incidents or audit history.
 
 In each scenario, the upstream application configures the Smart Assessment component in UI Builder to fit the available space and remove duplicate UI elements, such as a second header or a second reference pane. For the configuration on the SAE side that supports embedding, see [Embed an assessment in a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/embed-assessment-in-record-page.md).
 
 ## Header visibility and mode
 
-In addition to showing or hiding the assessment header, the embedding application can set the header mode to one of the following:
+The embedding application can set the header mode to one of the following:
 
 -   **Standard mode**
 
-    The full assessment header is shown, including the assessment name, scope item, requested and due dates, and the standard assessment actions. Use this mode when the embedded assessment occupies the entire page or when the parent context is not visible elsewhere.
+    The full assessment header is shown, including the assessment name, scope item, and the standard assessment actions. Use this mode when the embedded assessment occupies the entire page or when the parent context is not visible elsewhere.
 
 -   **Compact mode**
 
     A reduced header is shown without the scope item. This mode is intended for cases where the embedded assessment sits inside a parent record page or playbook step that already shows the assessment context, so repeating the scope item would be redundant. The compact header still indicates auto-save status and exposes the assessment-level actions, but uses less vertical space.
 
 
-The embedding application can show or hide the assessment header. When the header is hidden, consider the following:
-
--   Auto-save status must be indicated through an alternate mechanism to prevent data loss from unsaved form changes.
--   Action elements — including **Submit**, **Reassign**, and **Cancel** — must remain accessible through an alternate location. A filter action is optional.
--   Guidance information, including the assessment name and target record details, is not displayed.
-
-**Note:** The header mode and header visibility properties apply in single mode only. In combined mode these property settings have no effect.
+**Note:** Header mode and header visibility properties apply in single mode only. In combined mode these property settings have no effect. Combined mode uses a fixed layout that does not expose individual header controls.
 
 ## Action visibility
 
@@ -77,7 +71,7 @@ When any action is hidden, the embedding application is responsible for exposing
 
 The question filter dropdown is not part of the action set and remains visible in the header even when **Hide all actions** is selected. Responders can continue to filter the question list regardless of which actions are hidden.
 
-**Note:** The action visibility properties apply in single mode only. In combined mode these property settings have no effect.
+**Note:** Action visibility properties apply in single mode only. In combined mode these property settings have no effect. Combined mode uses a fixed layout that does not expose individual header controls.
 
 ## Reference info pane visibility
 
@@ -88,16 +82,13 @@ The embedding application can show or hide the right reference info pane. Hiding
 -   Attachments
 -   Collaboration
 
-**Note:** The reference info pane visibility property applies in single mode only. In combined mode this property setting has no effect.
+**Note:** The reference info pane visibility property applies in single mode only. In combined mode this property setting has no effect. Combined mode uses a fixed layout that does not expose individual header controls.
 
 ## Navigation pane visibility and modes
 
-The embedding application can show or hide the left navigation pane, or make it collapsible. Hiding this pane removes access to the following features:
+The embedding application can show, hide, or collapse the left navigation pane. Use the Pin navigation by default property to control the initial state when the assessment loads. This property is selected by default and can be overridden by the responder at any time.
 
--   Required question indicators
--   Section navigation
-
-Progress indicators for the assessment aren't tied to the navigation pane. The progress remains available whether the navigation pane is pinned, opened through the trigger button, or hidden entirely. When the navigation pane is hidden, all sections are displayed sequentially in the center pane, each following the previous.
+The navigation pane displays section names and required question indicators. Progress indicators for the assessment remain available regardless of the navigation pane state.
 
 A single component property, **Pin navigation by default**, controls how the navigation pane is presented when the assessment loads. The property is selected by default; the responder can pin or unpin the pane at any time during their session:
 
@@ -114,7 +105,7 @@ In combined mode, the navigation pane remains pinned regardless of the **Pin nav
 
 ## Inheriting read access from a parent record
 
-By default, access to an embedded assessment follows standard Smart Assessment role-based access rules. Any user with the relevant smart assessment role and access to parent record can view it. If you want to restrict visibility based on the parent record's audience, you can optionally enable parent record-based access inheritance on the template category. To configure this behavior, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+By default, access to an embedded assessment follows standard Smart Assessment role-based access rules. Any user with the required Smart Assessment role and access to parent record can view it. If you want to restrict visibility based on the parent record's audience, you can optionally enable parent record-based access inheritance on the template category. To configure this behavior, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 Configuring parent record-based access inheritance is optional. Without it, the embedded assessment functions normally with role-based access alone. Enabling it adds an additional access check — users must also have read access to the parent record.
 
@@ -125,7 +116,7 @@ When parent record-based access inheritance is enabled on the template category,
 
 ## Configuration scope
 
-Visibility properties — header mode, action visibility, reference pane visibility, navigation pane visibility, and pin-by-default — are set on the Smart Assessment component as it is added to a UI Builder page. They aren't set per assessment.
+Visibility properties — header mode, action visibility, reference pane visibility, navigation pane visibility, and pin-by-default — are set on the Smart Assessment component as it is added to a UI Builder page.
 
 As a result:
 
@@ -135,7 +126,7 @@ As a result:
 
 For the configuration steps on the SAE side, see [Embed an assessment in a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/embed-assessment-in-record-page.md).
 
-## Companion APIs for embedded scenarios
+## APIs for embedded scenarios
 
 When the standard responder UI elements are hidden or constrained in an embedded view, the embedding application can drive the same operations through public APIs. These APIs are available regardless of how the Smart Assessment component is configured:
 
@@ -145,6 +136,6 @@ When the standard responder UI elements are hidden or constrained in an embedded
 
 -   **Contributor management**
 
-    A public API method on the Smart Assessment responder public API allows the embedding application to add or remove assessment-level contributors and section-level contributors programmatically. This is the recommended way to manage contributors when the reference info pane \(which hosts the standard contributor UI\) is hidden.
+    A public API method on the Smart Assessment responder interface allows the embedding application to add or remove assessment-level contributors and section-level contributors programmatically. This is the recommended way to manage contributors when the reference info pane \(which hosts the standard contributor UI\) is hidden.
 
 

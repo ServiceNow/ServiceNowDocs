@@ -88,7 +88,7 @@ The last time logs streamed into the system from this source.
 
     2.  Use the JavaScript function to manually map a log sample to the correct service instance, component, and source type.
 
-        For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+        For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     3.  Navigate back to the Log Sources page and verify that the status of the new log source is Active.
 

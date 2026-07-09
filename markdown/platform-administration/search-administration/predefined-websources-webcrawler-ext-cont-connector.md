@@ -29,6 +29,7 @@ Predefined public web sources are available for the Webcrawler external content 
 |Box Inc|`https://support.box.com/hc/en-us`|
 |Cisco AnyConnect VPN|`https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/series.html#~tab-documents`|
 |Citrix Receiver VDI|`https://support.citrix.com`|
+|Developer ServiceNow®|`https://developer.servicenow.com`|
 |Dropbox|`https://help.dropbox.com/`|
 |GitHub|`https://docs.github.com/en`|
 |GlobalProtect|`https://knowledgebase.paloaltonetworks.com/`|
@@ -39,6 +40,7 @@ Predefined public web sources are available for the Webcrawler external content 
 |Google Docs, Sheets, Slides|`https://support.google.com/docs`|
 |Google Drive|`https://support.google.com/drive`|
 |Google Meet|`https://support.google.com/meet`|
+|Horizon ServiceNow|`https://horizon.servicenow.com`|
 |HubSpot|`https://knowledge.hubspot.com/`|
 |Microsoft BitLocker|`https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/`|
 |Microsoft Dynamics 365|`https://learn.microsoft.com/en-us/dynamics365/`|
@@ -52,6 +54,10 @@ Predefined public web sources are available for the Webcrawler external content 
 |Okta|`https://support.okta.com/help`|
 |Postman|`https://learning.postman.com/`|
 |Salesforce|`https://help.salesforce.com/`|
+|ServiceNow|`https://www.servicenow.com`|
+|ServiceNow Community|`https://www.servicenow.com/community`|
+|ServiceNow Community Developer Blog|`https://www.servicenow.com/community/developer-blog`|
+|ServiceNow Support|`https://support.servicenow.com`|
 |Slack|`https://slack.com/help`|
 |Splunk|`https://docs.splunk.com/Documentation`|
 |Tableau|`https://www.tableau.com/support/help`|

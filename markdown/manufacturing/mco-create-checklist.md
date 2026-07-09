@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a checklist template
@@ -48,15 +48,6 @@ To duplicate a checklist, do the following:
 
 1.  Select **Edit checklist**.
 2.  Select **Duplicate**.
-
--   **[Create an applicable product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-applicable-prod.md)**  
-Create an applicable product. An applicable product specifies the products to which the sales promotion is applied.
--   **[Create a visibility criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-visibility-criteria.md)**  
-Agents workspaces enables the manufacturers to create the visibility criteria. Manufacturer can filter the dealer name for which the target sales promotion is applicable.
--   **[Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-sls-promotion-cc.md)**  
-Create a sales promotion claim case to claim the reimbursement or discount.
-
-**Parent Topic:**[My promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-my-promotions.md)
 
 **Related topics**  
 

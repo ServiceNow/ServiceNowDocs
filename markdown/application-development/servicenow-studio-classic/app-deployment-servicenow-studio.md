@@ -32,11 +32,11 @@ Available deployment methods vary depending on if you're on the core UI or the N
 
 -   **Next Experience**
 
-    **App Engine Management Center \(AEMC\)**: Deploy custom applications built in App Engine Studio, Creator Studio, and ServiceNow Studio across instances. AEMC uses Pipelines and Deployments to move applications between instances as they progress toward release. From AEMC, admins can customize pipelines, review and approve or reject deployment requests, and schedule deployments. For more information, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md).
+    **App Engine Management Center \(AEMC\)**: Deploy custom applications built in App Engine Studio, Creator Studio, and ServiceNow Studio across instances. AEMC uses Pipelines and Deployments or ReleaseOps to move applications between instances as they progress toward release. From AEMC, admins can customize pipelines, review and approve or reject deployment requests, and schedule deployments. For more information, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md).
 
 -   **Core UI \(lists and forms\)**
 
-    **ReleaseOps**: Automates the deployment process using update sets and customizable pipelines. ReleaseOps orchestrates the entire process of deployment, including moving changes between instances, running scans and tests, and releasing changes, while providing transparency into the process for release managers and teams.
+    **ReleaseOps**: Automates the deployment process using update sets and customizable pipelines. ReleaseOps orchestrates the entire process of deployment, including moving changes between instances, running scans and tests, and releasing changes, while providing transparency into the process for release managers and teams. For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md).
 
     **Application Repository**: Central location for all scoped applications that are published by all ServiceNow customers. After you develop and test a custom application, you can make the application available to company instances by publishing it to this repository.
 

@@ -30,10 +30,10 @@ Complete the following steps on the Apple Messages for Business site to connect 
 ## Set up OAuth on your ServiceNow® instance
 
 1.  Go to your ServiceNow® instance to set up OAuth.
-2.  Create a new record in the Application Registries \(oauth\_entity\) table using these instructions: .
+2.  Create a new record in the Application Registries \(oauth\_entity\) table using these instructions: [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md).
     -   Use the grant type **Authorization code**.
     -   Add the **Token URL**.
-3.  Create a new record in the OAuth Entity Scopes \(oauth\_entity\_scope\) table using these instructions: . If you have multiple scopes, then add a new record for each scope, and create a corresponding Entity Profile Scope record for each scope.
+3.  Create a new record in the OAuth Entity Scopes \(oauth\_entity\_scope\) table using these instructions: [Specify an OAuth scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthScope.md). If you have multiple scopes, then add a new record for each scope, and create a corresponding Entity Profile Scope record for each scope.
 4.  Create a new record in the Connection and Credential Aliases \(sys\_alias\) table using these instructions: [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md). This connection alias is used for fetching the http connection record which you create in the next step.
 5.  Create a new record in the HTTP\(s\) Connection \(http\_connection\) table using these instructions: [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
     -   Type of connection - Select HTTP\(s\) Connection

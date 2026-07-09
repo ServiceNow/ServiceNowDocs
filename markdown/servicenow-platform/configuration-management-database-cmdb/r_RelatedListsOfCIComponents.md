@@ -63,5 +63,5 @@ The Teams related list associates a user group to a CI based on group type, prov
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 

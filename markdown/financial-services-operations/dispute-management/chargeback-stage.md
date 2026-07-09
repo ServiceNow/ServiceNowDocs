@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Chargeback stage
@@ -23,5 +23,5 @@ In the collaboration workflow, dispute agents work to resolve consumer disputes 
 -   **[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)**  
 In the allocation workflow, dispute agents work to resolve fraud and authorization disputes. Acquirers can choose to initiate pre-arbitration and arbitration, and issuers can respond. This is a part of the allocation dispute workflow for the Chargeback stage.
 
-**Parent Topic:**[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)
+**Parent Topic:**[Processing a Visa card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)
 

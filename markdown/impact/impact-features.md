@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Benefits &amp; Usage
@@ -32,9 +32,9 @@ Impact Core
 
 </td><td>
 
--   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-program-features.md)
--   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
--   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-operating-model.md)
+-   
+-   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
+-   
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Experts on Demand
 
 </td><td>
 
--   [Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
+-   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -53,7 +53,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+-   [Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -78,5 +78,5 @@ Premium Technical Support
 -   Enhanced case response time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+</table>**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
 

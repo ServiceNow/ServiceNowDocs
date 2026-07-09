@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Use, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Manage transfer order
@@ -67,8 +67,6 @@ Understand how asset states and stock information update automatically as a tran
 
 **Related topics**  
 
-
-[Mobile app for Hardware Asset Management]()
 
 [Work with Asset and CI]()
 

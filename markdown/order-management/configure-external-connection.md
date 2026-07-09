@@ -1,18 +1,18 @@
 ---
 title: Create an external connection
-description: Create an external connection in CPQ to enable enrichments to retrieve data from an external system for use in configuration rules.
+description: Create an external connection in ServiceNow CPQ to enable enrichments to retrieve data from an external system for use in configuration rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-external-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up External connections for configuration rules, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up External connections for configuration rules, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create an external connection
 
-Create an external connection in CPQ to enable enrichments to retrieve data from an external system for use in configuration rules.
+Create an external connection in ServiceNow CPQ to enable enrichments to retrieve data from an external system for use in configuration rules.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ External connections are used in configuration rules only. They can only be call
 
 \[Omitted image "cpq-enrichments-external-connections.png"\] Alt text: External Connections list view in CPQ Administration
 
-**Note:** To call an external system from a transaction rule instead, add a connection. For more information, see .
+**Note:** To call an external system from a transaction rule instead, add a connection. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ External connections are used in configuration rules only. They can only be call
 
 3.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table><thead><tr><th align="left" id="d103299e146">
+<table><thead><tr><th align="left" id="d110705e156">
 
 Authentication type
 
-</th><th align="left" id="d103299e149">
+</th><th align="left" id="d110705e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103299e155">
+</th></tr></thead><tbody><tr><td id="d110705e165">
 
 **No authentication**
 
@@ -50,7 +50,7 @@ Action
 
 No additional fields are required. The external connection calls the API without credentials.
 
-</td></tr><tr><td id="d103299e164">
+</td></tr><tr><td id="d110705e174">
 
 **Bearer token**
 
@@ -58,15 +58,15 @@ No additional fields are required. The external connection calls the API without
 
 In the **Authentication token** field, enter the bearer token provided by the external service.
 
-</td></tr><tr><td id="d103299e176">
+</td></tr><tr><td id="d110705e186">
 
 **OAuth - Client credentials flow**
 
 </td><td>
 
-Complete the following fields:-   **Client ID**: Client identifier created for CPQ with the authorization server.
+Complete the following fields:-   **Client ID**: Client identifier created for ServiceNow CPQ with the authorization server.
 -   **Client secret**: Tokenized reference to the client secret. The actual value is stored in the GCP secret store. In development environments, the value is stored directly.
--   **Token URL**: URL of the authorization server where CPQ exchanges the client ID and secret for an access token.
+-   **Token URL**: URL of the authorization server where ServiceNow CPQ exchanges the client ID and secret for an access token.
 -   **Scope**: Scopes to include in the token request. This field is available only when OAuth - Client credentials flow is selected in the Authentication type field.
 
 
@@ -86,7 +86,7 @@ Complete the following fields:-   **Client ID**: Client identifier created for C
     let results = External.exchangeRatesAPI(inputs);
     ```
 
-5.  In the **Timeout** field, enter the maximum time in milliseconds that CPQ waits for a response from the external system.
+5.  In the **Timeout** field, enter the maximum time in milliseconds that ServiceNow CPQ waits for a response from the external system.
 
     Start with 500 milliseconds. If the external connection regularly exceeds this limit, increase the value, keeping in mind that higher timeouts may slow the end-user configuration experience.
 

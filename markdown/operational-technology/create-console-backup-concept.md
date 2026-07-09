@@ -25,7 +25,7 @@ To create a backup of the Discovery Console for OT:
 1.  Navigate to **Settings &gt; Export** tab.
 2.  Use the **Database** section to create a backup of the Console MongoDB.
 
-    \[Omitted image "image.database-backup"\] Alt text: Database section
+    \[Omitted image "database-backup.png"\] Alt text: Database section
 
 3.  Select the **Backup Type** and select from the drop-down menu.
     -   A **Full** back up includes:
@@ -61,7 +61,7 @@ To create a backup of the Discovery Console for OT:
     -   NetworkZones
     -   Settings
     -   UnsafePorts
-    Image files are not included in a Partial backup.
+    Image files aren't included in a Partial backup.
 
 5.  Archive data can be included or excluded based on the system configuration.
 6.  You can set system configurations during the Console installation process.
@@ -81,13 +81,13 @@ To create a backup of the Discovery Console for OT:
         -   If `ExcludeArchiveFromPartial = false` Archive **INCLUDED**
 8.  After deciding the **Backup Type**, select the **Backup Database** button.
 
-    \[Omitted image "image.backup-database-button"\] Alt text: Backup Database button
+    \[Omitted image "backup-database-button.png"\] Alt text: Backup Database button
 
 9.  When the backup is finished, the screen displays "Database backup completed successfully."
 10. A backup ZIP file is available to download.
 
-    \[Omitted image "image.ZIP-name"\] Alt text: Zip file
+    \[Omitted image "ZIP-name.png"\] Alt text: Zip file
 
 11. Select the **Download** button and the ZIP is downloaded to your local system.
-12. Once the file is downloaded, select the delete icon \(\[Omitted image "image.trashcan"\] Alt text:\) to remove the archive and free up disk space on the Console.
+12. Once the file is downloaded, select the delete icon \(trash can\) to remove the archive and free up disk space on the Console.
 

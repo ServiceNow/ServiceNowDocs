@@ -32,15 +32,15 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d117403e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d116607e118">
 
 Option
 
-</th><th align="left" id="d117403e121">
+</th><th align="left" id="d116607e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d117403e127">
+</th></tr></thead><tbody><tr><td id="d116607e127">
 
 **From a project**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d117403e166">
+</td></tr><tr><td id="d116607e166">
 
 **From a demand**
 
@@ -184,11 +184,11 @@ Right-click on the user and select **Update Capacity**.
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete a resource plan]()
+[Complete an allocated resource plan]()
 
 [Cancel a resource plan]()
 

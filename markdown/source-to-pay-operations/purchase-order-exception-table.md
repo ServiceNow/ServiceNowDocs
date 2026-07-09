@@ -28,10 +28,17 @@ The Purchase order exception \[sn\_poem\_exception\] table contains the followin
 |Proposed delivery date|Date|Revised delivery date proposed by the supplier.|
 |Related PO line|Reference|Purchase order line number on which the exception is created.|
 |Proposed delivery quantity|Decimal|Revised delivery quantity proposed by the supplier.|
-|Exception type|String|The broad category of the purchase order exception. The exception type supported is delivery plan change.|
+|Exception type|String|Broad category of the purchase order exception. The exception type supported is delivery plan change.|
 |Supplier|Reference|Supplier who fulfills this order|
-|Requested by|Reference|The user that submitted the exception.|
-|Primary contact|Reference|The main point of contact for resolving this exception on the buyer side.|
+|Requested by|Reference|User that submitted the exception.|
+|Primary contact|Reference|Main point of contact for resolving this exception on the buyer side.|
 
 **Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+
+**Related topics**  
+
+
+[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)
+
+[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)
 

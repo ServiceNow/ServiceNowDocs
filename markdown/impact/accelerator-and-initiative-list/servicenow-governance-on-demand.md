@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-05-18"
 reading_time_minutes: 2
 keywords: [AI governance, on demand, governance assessment, 90-day action plan]
-breadcrumb: [ServiceNow Governance, Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [ServiceNow Governance, Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # ServiceNow Governance – On Demand
@@ -23,7 +23,7 @@ ServiceNow Governance – On Demand provides Impact customers with a structured,
 
 ## Package Availability
 
-**Note:** This accelerator is available for Impact Guided + \(Strategic Value\) and Total packages.
+**Note:** This accelerator is available for Impact Guided, Impact Guided + \(Strategic Value\), and Total packages.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ ServiceNow Governance – On Demand provides Impact customers with a structured,
 
 ## Requested Customer Resources
 
-The following are recommended resources suggested to participate and contribute to the outcome of this accelerator. The same personnel may fulfill multiple responsibilities.
+The following are recommended resources suggested to participate and contribute to the outcome of this Accelerator. The same personnel may fulfill multiple responsibilities.
 
 |Customer Resource|Responsibilities|
 |:----------------|:---------------|
@@ -75,5 +75,5 @@ The following are recommended resources suggested to participate and contribute 
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing any of the recommended governance changes in your organization. This accelerator provides assessment and guidance while the implementation of governance structures, policies, and controls is the customer's responsibility.
+ServiceNow is not responsible for implementing any of the recommended governance changes in your organization. This Accelerator provides assessment and guidance while the implementation of governance structures, policies, and controls is the customer's responsibility.
 

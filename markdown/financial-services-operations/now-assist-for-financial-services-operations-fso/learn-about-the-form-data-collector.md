@@ -48,7 +48,7 @@ To view the Form Data Collector flow:
         -   Choice
         -   Glide list
         -   Reference
-    2.  Using the Form Data Collector capability, call Now LLM to determine if the question can be answered using the conversation history, or if a new question should be asked to the customer.
+    2.  Using the Form Data Collector capability, call the large language model \(LLM\) to determine if the question can be answered using the conversation history, or if a new question should be asked to the customer.
 
 <table id="table_pct_dkm_b2c"><tbody><tr><td>
 
@@ -64,7 +64,7 @@ Question cannot be answered using conversation history
 
 </td><td>
 
-Generate a question in a conversational format using Now LLM and present it to the customer.
+Generate a question in a conversational format using the LLM and present it to the customer.
 
 </td></tr></tbody>
 </table>4.  When there are no more fields, the flow returns the response output and the record field value pair.

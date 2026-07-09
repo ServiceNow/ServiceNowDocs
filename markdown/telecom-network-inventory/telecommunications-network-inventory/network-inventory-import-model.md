@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -22,7 +22,7 @@ Equipment models and templates must exist in the system before you can define mo
 
 -   Bring in existing model data from manufacturer datasheets or external network management systems.
 -   Create models and templates in bulk using a structured Excel file.
--   Import models and templates exported as JSON from anotheServiceNowr instance for cross-instance migration.
+-   Import models and templates exported as JSON from another instance for cross-instance migration.
 
 ## Available paths for importing models and templates
 

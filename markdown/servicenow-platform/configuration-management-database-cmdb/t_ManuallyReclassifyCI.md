@@ -85,5 +85,5 @@ For information about CI reclassification by the Identification and Reconciliati
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 

@@ -30,9 +30,9 @@ Role required: admin
 
 4.  In the Case Narrative field, highlight some or all of the case narrative text.
 
-    The AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\) should automatically appear.
+    The AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon\) should automatically appear.
 
-5.  Select the AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\) and select one of the following
+5.  Select the AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon\) and select one of the following
 
     |Case narrative refinement skill options|Action|
     |---------------------------------------|------|

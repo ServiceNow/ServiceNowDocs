@@ -68,3 +68,9 @@ View the consolidated list of plugins, high-level description of each plugin, an
 
 [Domain separation and Purchase Order Management]()
 
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
+
+[Assigning purchase order exceptions to buyers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-po-exceptions-to-buyers.md)
+

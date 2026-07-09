@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [delete application from monitoring, remove monitored application, delete monitored application, remove application from list]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Instance Observer user configurable dashboard
+title: All Instances summary dashboard – snapshot of overall health
 description: The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/user-configurable-dashboard.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Instance Observer user configurable dashboard
+# All Instances summary dashboard – snapshot of overall health
 
 The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
 
@@ -36,8 +36,8 @@ You can select the auto-refresh frequency for the dashboard.
 
 -   **[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/customize-instance-observer-dashboard.md)**  
 Create a dashboard that serves as a home page to assess the health of your instances at a glance.
--   **[Performance insights in user-configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md)**  
+-   **[Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md)**  
 The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

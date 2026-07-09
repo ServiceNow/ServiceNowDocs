@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Sentiment analysis, Analyze sentiment, Procurement cases]
-breadcrumb: [Use, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiment in procurement cases

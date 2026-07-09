@@ -9,7 +9,7 @@ classification: ppm-collaboration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Install Strategic Spend Tracking for PPM, Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Install Strategic Spend Tracking for PPM, Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Components installed with Strategic Spend Tracking for PPM

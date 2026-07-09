@@ -17,6 +17,8 @@ The reference topics provide details of the properties, forms, lists, roles, tab
 
 -   **[Components installed with Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/comp-inst-with-cbs.md)**  
 Various components are installed with Core Business Suite.
+-   **[Core Business Suite terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/core-business-suite-glossary.md)**  
+Glossary of terms used in the Core Business Suite documentation.
 -   **[Help topics instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/helpt-instance-form.md)**  
 The details provide the field and its descriptions of the widget instance options.
 -   **[Employee Slate for Moveworks configuration menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/es-moveworks-cbs-fsummary.md)**  

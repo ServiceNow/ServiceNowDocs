@@ -8,7 +8,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
 breadcrumb: [Use, AI Control Tower, Enable AI experiences]
 ---

@@ -19,68 +19,68 @@ The ServiceNow® Business Continuity Management application enables your organiz
 -   Export event tasks to Microsoft Excel, edit offline, and reimport updated records with validation and progress tracking.
 -   Monitor performance through role-based dashboards with key performance indicators and usage insights.
 
-See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
+See  for more information.
 
 **Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Task template groups and Task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**
+-   **Task template groups and Task templates**
 
     Create reusable Task templates for recovery and event tasks, and organize them into groups with configurable dependencies. Scope groups to all element definitions or a specific type, and define task sequencing within a group to preserve execution order when applied.
 
--   **[Task templates and Task template groups integration in plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**
+-   **Task templates and Task template groups integration in plan templates**
 
     Associate Task template groups and Task templates at the plan, loss scenario, and recovery strategy levels within a plan template. Creating a plan from a template automatically generates all linked records at each level, with a progress tracker showing status throughout.
 
--   **[Task templates and Task template groups support in plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**
+-   **Task templates and Task template groups support in plans**
 
     Add Task template groups and individual Task templates directly from recovery task lists.
 
--   **[Task templates and Task template groups support in Exercises and Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-event-task-to-exercise-event.md)**
+-   **Task templates and Task template groups support in Exercises and Crisis events**
 
     Add task template groups and individual templates directly from event task lists. Select groups, assign an activated plan when required, and the system creates all tasks with dependencies intact. An auto-refresh banner tracks progress and refreshes the list once after all tasks are created.
 
--   **[Recovery strategy templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)**
+-   **Recovery strategy templates**
 
     Create reusable recovery strategy templates with standard fields including name, description, estimated time limit, and maximum duration. Apply a template to auto-populate a recovery strategy, reducing manual entry and keeping strategies consistent across plans.
 
--   **[Gantt chart for recovery tasks in plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**
+-   **Gantt chart for recovery tasks in plans**
 
     Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.
 
     Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
 
--   **[Export and import event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)**
+-   **Export and import event tasks in Microsoft Excel**
 
     Export recovery event tasks to Microsoft Excel from the Event tasks related list. The workbook includes a data sheet, a read-only Event Details tab, and an Instructions sheet. Non-editable columns are locked. Import the updated file when the event is in the Open or Work in progress state. Track import progress in real time, with a full audit trail available on the Recovery Event form.
 
--   **[Role-based Performance Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pa-dashboard-summary.md)**
+-   **Role-based Performance Analytics dashboards**
 
     Access role-based Performance Analytics dashboards directly from the BCM workspace. Four dashboards are available, each tailored to a functional area: Home \(overall BCM status\), BIA \(impact analysis progress\), BCP \(planning records\), and Event \(recovery exercises and activities\). Each dashboard is permission-controlled and views are displayed relevant to the roles.
 
--   **[Assessment template version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md)**
+-   **Assessment template version control**
 
     Track the template version used at the time of assessment creation on Smart Assessment Engine \(SAE\) templates. Assessors and reviewers can clearly see which template version was in effect, making it easier to audit and compare assessments over time.
 
 
 ## UI changes
 
--   **[Recovery strategy templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)**
+-   **Recovery strategy templates**
 
     The Recovery strategy template form is used to create reusable templates that can be applied to recovery strategies across loss scenarios and business continuity plans.
 
--   **[Task template integration in plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**
+-   **Task template integration in plan templates**
 
     Plan templates support two synchronization options: Plan scope asset synchronization and Loss scenario asset synchronization with recovery strategy assets.
 
--   **[Related lists for Plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/plan-template-form.md)**
+-   **Related lists for Plan templates**
 
     The Plan templates record has the following related lists:
 
     -   Task template groups
     -   Task templates
--   **[Related lists for Loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md)**
+-   **Related lists for Loss scenarios**
 
     The Loss scenarios record has the following related lists:
 
@@ -88,7 +88,7 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     -   Task templates
     -   Recovery strategies
     -   Plan templates
--   **[Related lists for Recovery strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-strategy-for-loss-scenario-uib-ws.md)**
+-   **Related lists for Recovery strategies**
 
     The Recovery strategies record has the following related lists:
 
@@ -96,7 +96,7 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     -   Task templates
     -   Loss scenarios
     -   Plan templates
--   **[Recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task.md)**
+-   **Recovery tasks**
 
     The recovery task list includes four additional columns: Plan loss scenario, Plan recovery strategy, Tag, and Task group. Use these columns to filter, group, and report on recovery tasks by scenario, strategy, or template group.
 
@@ -106,11 +106,11 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
 
     A Gantt view is available on the **Recovery tasks** tab of a plan record.
 
--   **Event task list toolbar [Import export options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/export-import-event-tasks-using-excel.md)**
+-   **Event task list toolbar**
 
     The event task list toolbar adds **Export to Excel** and **Import from Excel** actions for managing tasks in bulk and switching between list and Gantt views.
 
--   **Loss scenario Recovery tasks tab [Loss scenario — Recovery tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md)**
+-   **Loss scenario — Recovery tasks tab**
 
     Each loss scenario record includes a **Recovery tasks** tab that lists only the recovery tasks scoped to that scenario.
 
@@ -123,11 +123,11 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-For more information, see [Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md).
+For more information, see .
 
 ## Activation information
 

@@ -29,8 +29,3 @@ For information about copying and then customizing quick start tests, see [Quick
 |Verify cost in demand currency on cost plan|Validates the calculation of cost plan breakdown with budget reference rate. Verifies the roll up to cost plan in demand currency.|
 |Verify benefit in demand currency on benefit plan|Validates the calculation of the benefit plan breakdown with the budget reference rate. Verifies the roll up to benefit plan in demand currency.|
 
-**Related topics**  
-
-
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
-

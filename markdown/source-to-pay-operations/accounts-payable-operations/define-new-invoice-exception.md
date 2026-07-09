@@ -39,7 +39,7 @@ Role required: sn\_ap\_apm.admin
 
 6.  Enter the order number by which the exception must be executed.
 
-7.  Select and hold \(or right-click\) on the form &gt; **Save**.
+7.  Select and hold \(or right-select\) on the form &gt; **Save**.
 
 8.  Configure the subflow that you want to choose from the drop-down list.
 
@@ -47,22 +47,24 @@ Role required: sn\_ap\_apm.admin
 
 9.  Select **Save**.
 
-10. Open the invoice record with all fields configured and click **View invoice processing case**.
+10. Open the invoice record with all fields configured and select **View invoice processing case**.
 
     The exception engine runs and displays exceptions in the **Review exceptions** activity card of the playbook.
 
-11. Click **Resolve exceptions** activity card.
+11. Select **Resolve exceptions** activity card.
 
     The exceptions are displayed. Navigate to the invoice details and populate the valid business owner details.
 
 12. Navigate to the invoice details and populate the valid business owner details.
 
-13. Click **Save**.
+13. Select **Save**.
 
-14. Click **Check exceptions**.
+14. Select **Check exceptions**.
 
-    The exception is raised and resolved successfully.
 
+## Result
+
+The exception is raised and resolved successfully.
 
 -   **[Create subflow in workflow studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-subflow-in-workflow-studio.md)**  
 Use subflows to configure conditions that are applied on the invoice and raise an exception.

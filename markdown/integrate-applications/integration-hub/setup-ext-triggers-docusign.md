@@ -87,7 +87,7 @@ OAuth Application User
 
 </td><td>
 
-User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see .
 
 </td></tr></tbody>
 </table>5.  Right-click the form header and click **Save**.
@@ -252,5 +252,5 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 ### What to do next
 
-Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-flow-with-an-external-trigger-definition.md).
+Create flows in Workflow Studio using these triggers as per your requirement. For more information, see .
 

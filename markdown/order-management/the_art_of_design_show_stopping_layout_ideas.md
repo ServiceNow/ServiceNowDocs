@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The art of design: show-stopping layout ideas
@@ -20,19 +20,19 @@ Here are some real world examples \(with their associated CSV files\) of the lay
 
 ## Manufacturing- Industrial Generator Layout
 
-[Logik.io Industrial Generator Demo: Configure Complex Products Based on Customer Needs](https://www.youtube.com/watch?v=oui_uKAFQtg)
+[Industrial Generator Demo: Configure Complex Products Based on Customer Needs](https://www.youtube.com/watch?v=oui_uKAFQtg)
 
 Download the [Layout CSV file](https://drive.google.com/file/d/1woQgWxVk8pm6RtEyGkFj3cT0JDdtIxeN/view?usp=sharing)
 
 ## Technology- High Tech Configuration Layout
 
-[Logik.io High Tech Configuration Demo](https://youtu.be/rRkmBk-NY58)
+[High Tech Configuration Demo](https://youtu.be/rRkmBk-NY58)
 
 Download the [Layout CSV file](https://drive.google.com/file/d/1vHj21VP9dc5X8fLGjI1EGJz9Niwdm2Eo/view?usp=sharing)
 
 ## Headless- B2B e-commerce w/3D Visualization
 
-[Logik.io for eCommerce](https://youtu.be/Nn2cR_6ZGmA)
+[CPQ for eCommerce](https://youtu.be/Nn2cR_6ZGmA)
 
 Download the [Layout CSV file](https://drive.google.com/file/d/1AjvQI_5jLSlUS6DCEMElC9BunpPC2uFm/view?usp=sharing)
 

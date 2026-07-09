@@ -53,3 +53,8 @@ In the Impact assessments related list, the new impact assessment is listed and 
 
 See [Manage regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.md) for information on marking the alert as applicable and managing the regulatory change tasks.
 
+**Related topics**  
+
+
+[Update a regulatory assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/update-reg-assessment-template.md)
+

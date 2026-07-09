@@ -50,7 +50,7 @@ Use the Mobile Ofﬂine properties area to specify the type and amount of inform
 
     **Note:** **Declarative** and **Scripts** are supported conditional types.
 
-    Scripted data item conditions are evaluated only when the offline cache is generated. Once the data is downloaded and the user is offline, the script no longer runs. Instead, the app uses the pre-generated query string to filter the data as it was prepared at download time. For more information, see [Mobile experience capabilities available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-capabilities.md).
+    Scripted data item conditions are evaluated only when the offline cache is generated. Once the data is downloaded and the user is offline, the script no longer runs. Instead, the app uses the pre-generated query string to filter the data as it was prepared at download time. For more information, see [Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-capabilities.md).
 
 6.  Select **Save**.
 

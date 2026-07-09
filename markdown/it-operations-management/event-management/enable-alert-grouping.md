@@ -39,7 +39,7 @@ The scheduled job Service Analytics: Group Alerts Using RCA/Alert Aggregation he
     -   Use all CMDB relations for CMDB group correlation \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\).
 3.  Select **Save**.
 
-    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
+    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 4.  Set **evt\_mgmt.alert\_groups\_reasoning.enable\_worknotes** to `none` to prevent group reasoning work note display.
 

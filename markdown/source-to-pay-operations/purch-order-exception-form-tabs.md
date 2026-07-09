@@ -52,3 +52,10 @@ Follow-up actions that are created from this exception. For example, supplier ca
 </td></tr></tbody>
 </table>**Parent Topic:**[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
 
+**Related topics**  
+
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+
+[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)
+

@@ -1,6 +1,6 @@
 ---
 title: CSM - Maturity Assessment
-description: This accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
+description: This Accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CSM - Maturity Assessment
 
-This accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
+This Accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 
 ## Accelerator Overview
 
-Customer Service Management \(CSM\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this accelerator helps maximize the value of their ServiceNow investment.
+Customer Service Management \(CSM\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
 ## Package Availability
 

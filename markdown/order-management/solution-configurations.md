@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/solution-confi
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [solution configuration, CPQ, blueprints, solution root]
-breadcrumb: [CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Solution configurations
@@ -21,7 +21,31 @@ Solution configurations suit complex products that span multiple independent blu
 
 A configuration becomes a solution when at least one child configuration is added. The product that a buyer starts from is the solution root. From the root, any number of child configurations — and child-of-child configurations — can be created based on rules defined in the admin.
 
-**Note:** Solution configuration is an environment-level feature that is off by default. Contact Support to enable it for your environment by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+**Note:** Solution configuration is an environment-level feature that is off by default. Contact Support to enable it for your environment by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
+## What is solution configuration
+
+Configurable product actions are a specialized type of product action that can be added to rules. They are similar to standard product actions, but have a blueprint defined and can include field mapping to pass data between configurations. Advanced configurable product actions require that the product ID and the blueprint fields are defined outside of the script.
+
+Solution configuration enables you to create interconnected blueprint hierarchies where:
+
+-   A solution root is the topmost configurable product that is launched by the end user.
+-   A parent \(source\) blueprint includes a rule with a configurable product action for another blueprint.
+-   A child \(target\) blueprint is used to create a child configuration when a configurable product action is triggered.
+-   A solution BOM is the aggregated bill of materials that rolls up across all configurations in the solution.
+
+## Benefits of solution configuration
+
+Solution configuration provides distinct advantages for both ServiceNow CPQ administrators and end users.
+
+-   **For administrators**
+    -   Independent deployment: Each blueprint can be deployed independently, allowing for finer granularity when making changes or updates to a blueprint.
+    -   Separation of concerns: Segment logical components from a configuration and allow different teams to work on blueprints without conflicting.
+    -   Blueprint reusability: Blueprints can be reused as part of a solution, multiple solutions, or as independently configurable products, reducing duplication and maintenance overhead.
+-   **For end users**
+    -   End users can seamlessly work through multiple configurations without needing to relaunch ServiceNow CPQ each time.
+    -   Users can clone valid child configurations in set-based solutions, with cloned nodes being fully independent of the original.
+    -   Users can add blank nodes or remove nodes from the solution navigation sidebar as needed.
 
 ## Key concepts
 

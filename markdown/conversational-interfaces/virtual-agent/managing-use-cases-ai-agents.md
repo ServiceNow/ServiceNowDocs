@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, AI Agents]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Managing AI agents in Assistant Designer
@@ -108,7 +108,7 @@ For detailed information about creating AI agents, see [Create an AI agent](http
 -   **[Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
 Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 

@@ -53,15 +53,17 @@ Role required: atf\_triager + now\_assist\_panel\_user
 
     **Note:** You can access the Test Results form by selecting **Go to Result** on the Run Test modal or from the Test Results related list.
 
-7.  Select **Triage test failure** on the Test Results form.
+7.  Select **Triage with Otto** on the Test Results form.
 
-    The Triage test failure modal shows up with the progress bar.
+    The ServiceNow IDE or ServiceNow Studio interface shows up.
 
-    The ATF troubleshooting agent shows up.
+8.  Review the prompt that is pre-populated depending on the test you're running and the selected summary record with a Failure status.
 
-8.  Review the information in the ATF troubleshooting agent.
+9.  Follow the automatic triaging process for the failed record.
 
-    You can read the complete analysis of the failed summary record. The ATF troubleshooting agent modal first starts with the planning of next steps that includes figuring out the next steps, executing the troubleshooting agent, analyzing the test steps and logs, traced, and changed metadata. The ATF troubleshooting agent finally gives you the root cause of the failure of the selected summary record. Select Show more to view the detailed analysis of the root cause. You can also see some tips suggested by the agent to fix the issue.
+    When a test fails, the agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The agent then recommends possible fixes. After you select a recommended option, the agent applies the fix, updates the test code, and reruns the test automatically. When the test passes, it provides a summary of the changes made to resolve the failure.
+
+    **Note:** See [Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md) if you want to execute a new application or a test.
 
 
 **Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
