@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 12
+last_updated: "2026-07-09"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Financial Services Operations Financial Services Operati
 
 ## Version history
 
+-   **Version 12.3.0 - July 2026**
+    -   New: A new field has been added to the Financial transaction table to capture additional transaction details.
+    -   Fixed: Tightened access security on financial transaction detail records by correcting query-range access controls, addressing identified security \(MSI\) issues.
+-   **Version 11.0.6 - July 2026 \(Zurich\)**
+    -   New: A new field has been added to the Financial transaction table to capture additional transaction details.
+    -   Fixed: Tightened access security on financial transaction detail records by correcting query-range access controls, addressing identified security \(MSI\) issues.
 -   **Version 12.2.0 - June 2026**
     -   New:
         -   Added relationships for Insurance policies

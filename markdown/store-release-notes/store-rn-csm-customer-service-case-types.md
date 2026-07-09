@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-service-case-types.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Customer Service Case Types application on the ServiceNo
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.4.1 - July 2026**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 4.3.1 - May 2026**
     -   Changed:

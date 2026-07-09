@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -16,6 +16,13 @@ Version history for the ServiceNow® ITOM - Prime application on the ServiceNow 
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.1.0 - July 2026**
+    -   ITOM - Prime provides the following capabilities:
+        -   AI agents for AIOps - Automate alert triage, impact analysis, and root cause investigation with an AI-driven agentic workflow that transforms manual operator processes, typically 30+ clicks and 15+ minutes, into a streamlined, autonomous flow. The workflow processes incoming IT alerts end-to-end, correlating observability data, analyzing affected services, and identifying probable root causes before an operator touches the alert. Consolidated insights are surfaced through the Express List interface, giving operators immediate visibility into what happened, what's affected, and recommended next steps, enabling faster resolution while keeping humans in control of final decisions.
+        -   AI agents for Observability - Helps IT operators assess business and application service impact, formulate probable cause theories, and prioritize investigations by analyzing data from ServiceNow and seamlessly collaborating with third-party AI agents from leading APM and observability vendors, including New Relic, Dynatrace, and Kentik. Using natural language, IT operators can understand the blast radius of an alert, pinpoint affected services, assess business impact, formulate probable cause theories, and help track down the right teams to drive towards problem resolution.
+        -   AIOps Learning Enhanced Automation Playbooks - Leverages AI-driven insights to mine historical incident data, dynamically prioritize tasks, and generate actionable resolution playbooks. By automating workflows and enhancing knowledge sharing, AIOps Learning Enhanced Automation Playbooks empowers teams to address issues proactively and efficiently. It reduces mean time to resolution \(MTTR\), increases automation coverage, streamlines processes like certificate renewals, and improves team productivity. This ultimately leads to measurable cost savings and operational excellence.
+        -   AI agents for HLA - Automate the most complex and time-consuming steps in setting up and operating HLA — mapping business context, classifying log fields, and investigating alerts. Powered by Now Assist, these agents bring AI-driven recommendations directly into HLA workflows, reducing the expertise required to configure the system and helping operators respond to alerts faster and more confidently.
+        -   AI agents for SLO - Automates the creation of service level objectives \(SLOs\) based on operational data for services and configuration items \(CIs\), helping teams adopt SLOs faster and improve service reliability.
 -   **Version 1.0.6 - June 2026**
 
     See the Now Assist for Platform and AIOps Experience release notes.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-hardware-asset-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Hardware Asset Management - Advanced applic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.2 - July 2026**
+
+    This app is a subscription layer on Now Assist for HAM. This release updates Now Assist for HAM only; the Hardware Asset Management - Advanced app version remains unchanged.
 
 -   **Version 1.0.1 - June 2026**
 

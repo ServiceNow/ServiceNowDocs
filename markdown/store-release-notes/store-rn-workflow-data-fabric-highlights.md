@@ -32,6 +32,8 @@ Version history for the ERP Content Packs for Source to Settle application on th
 Version history for the ERP Data Product for Enterprise Data Foundation application on the ServiceNow Store.
 -   **[ERP Semantic Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-erp-semantic-mining.md)**  
 Version history for the ERP Semantic Mining application on the ServiceNow Store.
+-   **[MCP Client release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-mcp-client.md)**  
+Version history for the ServiceNow® MCP Client application on the ServiceNow Store.
 -   **[Now Assist for Zero Copy Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-now-assist-zero-copy-connector.md)**  
 Version history for the ServiceNow® Now Assist for Zero Copy Connector application on the ServiceNow Store.
 -   **[Reverse Tunnel Relay release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-reverse-tunnel-relay.md)**  

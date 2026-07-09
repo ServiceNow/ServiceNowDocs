@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-lease-admin.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Workplace Lease Administration application on the Servic
 
 ## Version history
 
+-   **Version 1.8.5 - July 2026**
+    -   Fixed:
+        -   Certain UI actions were not showing up in Workplace central if Asset management workspace plugin was not installed.
+        -   Filters for the location related lists after creating a lease contract could change.
 -   **Version 1.8.0 - June 2026**
     -   Changed: Unified record page experience. Lease custom record pages have been migrated to the standard record page layout for a consistent experience across Workplace products.
     -   Fixed: Record creation from within Workplace Central workspace lists now works as expected \(Lease Management Module\).  \{PRB2019165\}

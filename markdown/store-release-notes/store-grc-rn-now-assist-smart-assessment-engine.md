@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-now-assist-smart-assessment-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® Now Assist for Smart Assessment Engine appl
 
 ## Version history
 
+-   **Version 22.4.1 - July 2026 \(Australia\)**
+    -   Changed:
+        -   Updated LLM provider model versions for Smart Assessment Response Assist skill for Google Gemini \(Chat Completions\) to gemini-3.5-flash, Azure OpenAI \(Chat Completions\) to gpt-5.4, and AWS Claude \(Amazon Bedrock Chat Completions\) to claude-sonnet-4-6.
+        -   Changed the default LLM provider for Smart Assessment Response Assist skill from Now LLM Service \(Now LLM Generic\) to Google Gemini \(Chat Completions\).
 -   **Version 22.3.5 - June 2026 \(Australia\)**
 
     This application brings AI assistance into Smart Assessments to help responders work faster without losing accuracy. When a question comes up, Now Assist surfaces answers from similar past assessments, with sources, instead of starting from scratch. Responders can review, edit, or accept suggestions, giving them full control and less repetitive work.

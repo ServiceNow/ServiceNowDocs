@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-admin-center.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,9 @@ Version history for the Admin Center application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.1.3 - July 2026**
+    -   New: PoCs to explore LitJS and AIUX \(Horizon 2.0\) for Admin Home redesign/uplifts
+    -   Fixed: GA defect fixes
 -   **Version 6.1.1 - June 2026**
     -   Minor UX enhancements
     -   Pre-installed applications — In sub-prod, customers will see the non-AI version of Implementation Agent installed before first login

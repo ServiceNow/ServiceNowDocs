@@ -210,6 +210,8 @@ Version history for the ServiceNow® Integrated Risk Management Professional app
 Version history for the ServiceNow® Integrated Risk Management Standard application on the ServiceNow Store.
 -   **[Matrix report release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-matrix-report.md)**  
 Version history for the Matrix report application on the ServiceNow Store.
+-   **[Now Assist for release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-airc.md)**  
+Version history for the ServiceNow® Now Assist for AIRC application on the ServiceNow Store.
 -   **[Now Assist for IRM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-irm.md)**  
 Version history for the Now Assist for IRM application on the ServiceNow Store.
 -   **[Now Assist for Privacy Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-privacy-management.md)**  

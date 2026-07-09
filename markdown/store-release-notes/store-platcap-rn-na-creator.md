@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-na-creator.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 23
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Now Assist for Creator application on the ServiceNow Sto
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.4.1 - July 2026 \(Australia\)**
+
+    Please click on the individual dependent apps included with this package for detailed release note information.
+
+-   **Version 28.9.4 - July 2026 \(Zurich\)**
+
+    Please click on the individual dependent apps included with this package for detailed release note information.
 
 -   **Version 29.2.5 - June 2026 \(Australia\)**
     -   New:

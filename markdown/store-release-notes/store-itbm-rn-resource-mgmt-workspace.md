@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-resource-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,17 @@ Version history for the Resource Management Workspace application on the Service
 
 ## Version history
 
+-   **Version 5.9.1 - July 2026**
+    -   New: Using common schedule for group resource assignments
+    -   Fixed:
+        -   Resolved error when dragging and dropping resource assignments to other users
+        -   Preserved custom field values when unassigning resources
+        -   Fixed filtering by Parent Item and Owner in Resource Management Workspace
+        -   Resolved error when displaying custom date fields as workspace columns
+        -   Hidden inactive skills from the Skills display in Resource Management Workspace
+        -   Improved performance when loading resource cards in the workspace
+        -   Fixed error when editing text and dropdown fields in the Unassigned Work tab
+        -   Fixed filtering for integer-based dropdown fields in workspace columns
 -   **Version 5.7.0 - June 2026**
     -   Features:
         -   Copy a Resource Assignment

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-cc-containers.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 15
+last_updated: "2026-07-09"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the Vulnerability Response and Configuration Compliance for 
 
 ## Version history
 
+-   **Version 30.4.4 - July 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue where state changes on a remediation task were not propagated to its associated vulnerable items \(VITs, AVITs, and CVITs\) if the item count exceeded the max\_inline\_limit property.
+        -   An issue where container vulnerable items \(CVITs\) from unrelated deployments were incorrectly closed during the first import of a new container image.
+-   **Version 2.19.5 - July 2026**
+    -   Fixed:
+        -   An issue where state changes on a remediation task were not propagated to its associated vulnerable items \(VITs, AVITs, and CVITs\) if the item count exceeded the max\_inline\_limit property.
+        -   An issue where container vulnerable items \(CVITs\) from unrelated deployments were incorrectly closed during the first import of a new container image.
 -   **Version 30.4.2 - June 2026 \(USEM\)**
     -   New: A link lets you navigate from the Wiz configuration module directly to the Configure VI Granularity module where you can configure the keys that generate Container Vulnerability Response findings.
     -   Changed: Enhancements and changes to support internal security directives for container vulnerability and configuration data.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the ServiceNow® ITOM - Advanced application on the ServiceN
 
 ## Version history
 
+-   **Version 1.1.0 - July 2026**
+    -   AI agent for Agent Client Collector \(ACC\) – Autonomously monitors ACC deployments across endpoints, ensuring agent health, version compliance, and seamless data collection without manual intervention, and provides guided troubleshooting experience.
+    -   AI agent for Discovery – Proactively tracks and renews digital certificates enterprise-wide, eliminating outages by auto-detecting expirations and creating firewall rules.
+    -   MID Guardian agent – Continuously monitors MID Server health and connectivity, providing guided troubleshooting of MID Server issues to resolve them seamlessly.
+    -   ITOM AI agent for Service Mapping – Intelligently discovers application dependencies and maps services to infrastructure, autonomously resolving gaps to keep service maps accurate and business-ready.
+    -   AI agent Topology Mapping – Discovery, classifies, and syncs AI agents deployed in cloud including the AI model metadata the agent deployed.
+    -   AIOps Learning Enhanced Automation Playbooks - Amplifies efficiency by mining historical incident data to generate dynamic resolution playbooks, automate workflows, and reduce MTTR.
+    -   ITOM URL Discovery - Discover URLs and SaaS applications from ITOM Browser Plugin .
 -   **Version 1.0.10 - June 2026**
     -   New in ITOM - Advanced:
         -   Added AI agents to automate monitoring and remediation for Discovery, MID Servers, Certificate Management, Service Mapping, and LEAP.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ai-data-explorer.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Sto
 Version history for the ServiceNow® AI Data Explorer application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 5.1.6 - July 2026**
+
+    New: Delivered support for automated indicators in AI Data Explorer. You can ask questions or add to AI Data Explorer any data visualization based on an automated indicator.
 
 -   **Version 5.0.8 - June 2026**
     -   Improved keyboard navigation in explorations:

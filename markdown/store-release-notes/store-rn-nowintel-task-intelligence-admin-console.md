@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-task-intelligence-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Task Intelligence Admin Console application on the Servi
 
 ## Version history
 
+-   **Version 5.4.0 - July 2026**
+    -   Fixed:
+        -   Fixed issue in the auto retrain notification email
+        -   Fixed security issue in Task Intel Data Export
+    -   Added: Added Query ACLs for the tables to comply with the Cobalt Raven security directive
 -   **Version 5.3.0 - March 2026**
     -   New: Added contextual UI information notes on the Task Intelligence Monitoring page.
     -   Fixed:

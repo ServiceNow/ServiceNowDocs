@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-modeling-viz.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
+last_updated: "2026-07-09"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Enterprise Modeling and Visualization application on the
 
 ## Version history
 
+-   **Version 6.2.4 - July 2026**
+    -   Changes: Default AI model provider for the Now Assist skills associated with Enterprise Modeling and Visualization changed from Now LLM to Azure Open AI
+    -   Fixed: Fixed an issue where on replacing a text shape with any other shape, the name on the text shape was not copied to the replaced shape.
+-   **Version 6.2.3 - July 2026 \(Zurich\)**
+    -   New: Generate a business process map \(BPM\) diagram in the Enterprise Modeling &amp; Visualization by uploading an image of an existing process diagram.
+    -   Changed: Default AI model provider for the Now Assist skills associated with Enterprise Modeling and Visualization changed from Now LLM to Azure Open AI
+    -   Fixed: Fixed an issue where on replacing a text shape with any other shape, the name on the text shape was not copied to the replaced shape.
 -   **Version 6.2.2 - June 2026 \(Australia\)**
     -   New:
         -   Generate a business process map \(BPM\) diagram in the Enterprise Modeling &amp; Visualization by uploading an image of an existing process diagram.

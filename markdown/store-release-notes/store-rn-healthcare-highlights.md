@@ -32,6 +32,8 @@ Version history for the Care Team Portal application on the ServiceNow Store.
 Version history for the Care Team Work Management on the ServiceNow Store.
 -   **[EMR Help release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-emr-help.md)**  
 Version history for the EMR Help application on the ServiceNow Store.
+-   **[EMR Provider Directory Sync release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-hcls-emr-provider-directory-sync.md)**  
+Version history for the ServiceNow® EMR Provider Directory Sync application on the ServiceNow Store.
 -   **[HCLS - Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-hcls-foundation.md)**  
 Version history for the ServiceNow® HCLS - Foundation application on the ServiceNow Store.
 -   **[HCLS - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-hcls-prime.md)**  
@@ -46,6 +48,8 @@ Version history for the Healthcare Computerized Maintenance Management System on
 Version history for the Healthcare Operations Core application on the ServiceNow Store.
 -   **[Healthcare Operations Orchestration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-ops-orch.md)**  
 Version history for the ServiceNow® Healthcare Operations Orchestration application on the ServiceNow Store.
+-   **[HL7 v2.x Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-hcls-hl7-v2.x-int.md)**  
+Version history for the ServiceNow® HL7 v2.x Integration application on the ServiceNow Store.
 -   **[Now Assist for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-now-assist-care-team-ops.md)**  
 Version history for the ServiceNow® Now Assist for Care Team Operations application on the ServiceNow Store.
 -   **[Patient Support Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-patient-support-services.md)**  

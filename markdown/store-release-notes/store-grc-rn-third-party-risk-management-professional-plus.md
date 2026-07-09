@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-third-party-risk-management-professional-plus.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Third-party Risk Management Professional Pl
 
 ## Version history
 
+-   **Version 22.3.4 - July 2026**
+    -   New: Added support for Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models
+    -   Changes: Updated Azure OpenAI gpt-5.4-mini as default model for issue recommendation skill
 -   **Version 22.3.2 - June 2026**
 
     Third-party Risk Management\(TPRM\) professional plus brings generative AI capabilities to streamline and automate risk management processes.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-impact-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Impact Common application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.0.3 - July 2026**
+
+    What's New Starting July 9th: Enabling customers on the Impact Guided package to independently access and complete on-demand Accelerators \(specifically the Staffing &amp; Roles Review and the AI Governance Maturity Assessment\) without needing to schedule an expert-led squad engagement. With the June release, on-demand Accelerators were surfaced to non-Guided customers. The July release closes the gap by updating the Impact Store Application and Impact Delivery Instance catalog UIs, backend fetch/filter logic, and modal flows so Guided customers can discover, initiate, and complete these Accelerators at their own pace, producing structured downloadable outputs.
 
 -   **Version 8.0.7 - June 2026**
     -   What's New Starting June 11th:

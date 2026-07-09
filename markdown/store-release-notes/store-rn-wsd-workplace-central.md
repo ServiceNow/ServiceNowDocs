@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-central.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the WSD Workplace Central application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 1.16.5 - July 2026**
+    -   Fixed:
+        -   Security fixes.
+        -   UI actions on the Reservation record page now display correctly — the Record Page action script no longer incorrectly filters out valid UI action types.
+        -   The Close button and related UI text are now properly right-to-left \(RTL\) aligned for languages such as Arabic.
+        -   The Workplace Central landing page workspace layout now renders correctly for RTL languages.
 -   **Version 1.16.1 - June 2026**
     -   New:
         -   Introducing the new &amp; improved Space Planning module in Workplace Central

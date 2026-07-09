@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-deal-registration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,14 @@ Version history for the ServiceNow® Deal Registration application on the Servic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.2.2 - July 2026 \(Zurich\)**
+
+    Fixes: Fixed sentence casing- Making account/consumer/account name/first name mandatory on workspace for B2C &amp; B2B agents
+
+-   **Version 3.2.2 - July 2026**
+    -   Fixes for
+        -   Making account/consumer/account name/first name mandatory on workspace for B2C &amp; B2B agents
+        -   Fixing first step of deal submission playbook form to ensure it is not empty
 -   **Version 3.2.0 - June 2026**
     -   Minor enhancements:
         -   Enhanced field validations on deal registration table

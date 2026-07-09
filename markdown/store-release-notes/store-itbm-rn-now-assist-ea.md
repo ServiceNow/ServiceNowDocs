@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-ea.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the Now Assist for Enterprise Architecture \(EA\) applicatio
 
 ## Version history
 
+-   **Version 7.4.1 - July 2026 \(Australia\)**
+    -   New:
+        -   Default AI model provider for the Now Assist for Enterprise Architecture skills changed from Now LLM to Azure Open AI
+        -   Added support for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+    -   Changed: The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+-   **Version 7.4.0 - July 2026**
+    -   New:
+        -   Default AI model provider for the Now Assist for Enterprise Architecture skills changed from Now LLM to Azure Open AI
+        -   Added support for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+        -   Use the Enterprise Architecture query agent to ask natural language questions about your enterprise architecture portfolio. The agent supports multi-condition queries, quarterly trend comparisons, and impact analysis for scenarios such as application decommissioning, and suggests related questions after answering.
+        -   Generate a business process map \(BPM\) diagram in the Enterprise Modeling &amp; Visualization by uploading an image of an existing process diagram.
+    -   Changed: The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 -   **Version 7.3.1 - June 2026**
     -   New:
         -   Use the Enterprise Architecture query agent to ask natural language questions about your enterprise architecture portfolio. The agent supports multi-condition queries, quarterly trend comparisons, and impact analysis for scenarios such as application decommissioning, and suggests related questions after answering.

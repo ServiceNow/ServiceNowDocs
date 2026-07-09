@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-reporting-ui-component-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Reporting UI Component for Workspace application on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.0 - July 2026**
+
+    New: Enhanced reporting infrastructure to support Now Assist for Threat Intelligence Security Center with AI-powered authoring and customizable styling capabilities.
 
 -   **Version 2.4.0 - June 2026**
 

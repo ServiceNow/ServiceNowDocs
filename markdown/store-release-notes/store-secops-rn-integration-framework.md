@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-integration-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Security Operations Shared apps for release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Security Integration Framework on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 13.13.0 - July 2026**
+    -   New:
+        -   Added support for Invicti Platform as a new integration instance, available alongside the existing Invicti Enterprise integration
+        -   Administrators can now configure parameters for both Invicti Platform and Enterprise instances from a unified configurations page
+        -   Added the ability to select which Invicti integration instance to use in general settings
+        -   The classifier automatically distinguishes between Invicti Platform and Enterprise instances
 -   **Version 13.12.3 - April 2026**
     -   New: Administrators can now configure a Configuration Item \(CI\) lookup strategy at the individual integration level, overriding the global system property. A new CI Lookup Strategy field has been added to the integration form with three options: Use System Property \(default, preserves existing behavior using the global sn\_vul.use\_product\_model property\), Force CI Lookup \(always creates configuration items for scanned applications — required for integrations such as Tenable WAS\), and Force Product Model \(always creates a Product Model\). All existing integrations default to Use System Property, ensuring no errors occur as a result of an upgrade.
     -   Fixed:

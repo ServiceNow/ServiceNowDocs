@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-recall-claim-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Manufacturing Recall Claim Management application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.2 - July 2026**
+
+    No release notes.
+
+-   **Version 3.0.3 - July 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 2.5.0 - June 2026**
 

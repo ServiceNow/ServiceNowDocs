@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-cornerstone.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Integration Hub Cornerstone spoke on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 1.6.0 - July 2026**
+    -   Changed: Migrated DEAPI \(Data Exporter API\) datastreams to OData Change Tracking for the Cornerstone HRSD integration, improving the reliability and efficiency of incremental data retrieval.
+    -   Fixed:
+        -   Resolved an HTTP 415 error in the "Create Assignment" action caused by a missing Content-Type header on the request.
+        -   Corrected the data type of the is\_latest\_reg\_num attribute in the "Look up Transcripts From Data Exporter Data Stream" output, which now returns a Boolean value to match the Cornerstone API specification \(previously returned as an integer\).
 -   **Version 1.5.1 - May 2026**
     -   New: Added DEAPI-based datastreams for the Training catalog: training\_core, training\_local\_core, and training\_type\_core, replacing the deprecated vw\_rpt\_training Reporting API \(deprecated by Cornerstone in November 2025\).- Added new staging and persistent tables for Training Type data to support the normalized DEAPI structure.- Added type propagation logic that batches Training Type description updates to the target table after transform.- Added a new Integration Service for Training Types.
     -   Changed: Migrated Training catalog ingestion from the deprecated vw\_rpt\_training server-side JOIN to three normalized DEAPI endpoints \(training\_core, training\_local\_core, training\_type\_core\).- Updated the Training transform map with conditional field mapping using delta\_source\_core and delta\_source\_local boolean flags to prevent null overwrites on partial deltas.- Modified the existing Integration Service to handle Core + Local delta and full pulls under the new DEAPI model.- Improved upgrade handling to migrate existing customers from vw\_rpt\_training to the new datastreams without data loss.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-proactive-customer-service-operations-event-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Proactive Customer Service Operations with 
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 25.1.0 - July 2026**
+    -   Changed:
+        -   Access to real-time health status data in the Proactive CS workspace is now granted via the dedicated Proactive CS Operations - Event Management Operator \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_operator\) role instead of the generic platform role.
+        -   Existing customers: Nothing changes. Your current setup stays as-is.
+        -   New customers: Assign sn\_pro\_cs\_ops.csm\_evt\_mgmt\_operator to Event Management operators instead of the platform-level evt\_mgmt\_operator role.
 -   **Version 25.0.2 - March 2026**
 
     Provides integration between Customer Service Management \(CSM\) and ITOM Event Management. It enables customers to create cases proactively from alerts either manually or through automation and track accounts and corresponding install base items.

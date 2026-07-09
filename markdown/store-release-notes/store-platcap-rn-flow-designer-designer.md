@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-flow-designer-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,15 @@ Version history for the Workflow Studio - Designer application on the ServiceNow
 
 ## Version history
 
+-   **Version 28.5.1 - July 2026 \(Zurich\)**
+
+    Fixed: PRB2021871: \[Security\] Removed JavaScript reference qualifiers.
+
+-   **Version 29.4.1 - July 2026 \(Australia\)**
+    -   Fixed:
+        -   PRB2021871: \[Security\] Removed JavaScript reference qualifiers.
+        -   PRB2031633: Australia Upgrade Issues - Flow Designer Data Pills not operating as expected
+        -   PRB2033536: Flow Designer freezes when testing a subflow that includes dependent inputs such as Table, Conditions, and Field List.
 -   **Version 29.3.1 - June 2026 \(Australia\)**
     -   New:
         -   Flow Execution Analysis

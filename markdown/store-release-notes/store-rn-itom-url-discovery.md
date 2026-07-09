@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-url-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,10 @@ Version history for the ServiceNow® ITOM URL Discovery application on the Servi
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.2.1 - July 2026**
+    -   New: Application Service and SAM Product are now optional when monitoring URLs, so you can track URLs and domains that aren't tied to a specific service or product.
+    -   Create, bulk-upload, and monitor without a service or product: Add URLs individually or through bulk upload and monitor them for URL Discovery and Broad URL Discovery without associating an Application Service or SAM Product. URLs with no Service or Product are tracked as standalone domains.
+    -   URL-only metric collection: Per-domain usage metrics are collected through the browser extension and data model updates, even when no Service or Product is mapped.
 -   **Version 1.1.1 - June 2026**
     -   Fixed:
         -   URLs can now be removed from the Targeted URL Discovery monitoring list.

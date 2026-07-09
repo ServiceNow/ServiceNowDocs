@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-now-assist-tisc.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Now Assist for Threat Intelligence Security
 
 ## Version history
 
+-   **Version 2.2.0 - July 2026**
+    -   New: Introduced Report Authoring capability with customizable styling options. Analysts can now generate AI-powered threat intelligence reports directly from threat case data with simple instructions to guide content, focus, and formatting.
+    -   Fixed: Enhanced case summarization with improved performance and faster response times while maintaining summary quality.
 -   **Version 2.0.0 - June 2026**
 
     Now Assist for Threat Intelligence Security Center brings generative AI directly into the analyst workflow. Get AI-generated case summaries for instant situational awareness, natural language querying across threat intelligence data, and contextual recommendations — enabling analysts to investigate faster, hand off seamlessly, and focus on high-priority threats instead of manual triage.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -16,6 +16,18 @@ Version history for the ServiceNow® Exception Management for Unified Security E
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.6.1 - July 2026 \(USEM\)**
+    -   New:
+        -   Added bulk edit support for Risk modification requests, enabling users to evaluate and process multiple vulnerable items at once.
+        -   Added Smart Assessment support to the Risk Reduction option in Request Exception workflows.
+    -   Changed:
+        -   Updated security exception form configuration, simplifying maintenance and enabling faster future updates.
+        -   Updated access controls to correctly display the Request Exception action for authorized users.
+        -   Enhanced application to align with security directives.
+    -   Fixed:
+        -   Fixed an issue where exception request types in multi-language environments caused incorrect behavior in False Positive auto-rejection and Deferred item reopen actions.
+        -   Fixed a layout overlap on the Approvals page at narrow viewport widths.
+        -   Fixed remediation task deferral extension workflow issues in Application Vulnerability Response and Container Vulnerability Response.
 -   **Version 30.5.0 - June 2026 \(USEM\)**
     -   New: Bulk edit now supports Risk Reduction, letting users evaluate and process risk reduction requests across multiple vulnerable items at once. - The Risk Reduction option via the Request Exception option now supports Smart Assessment.
     -   Changed:

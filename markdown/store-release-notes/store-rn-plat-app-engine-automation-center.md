@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-automation-center.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 10
+last_updated: "2026-07-09"
+reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the App Engine Automation Center application on the ServiceN
 
 ## Version history
 
+-   **Version 15.0.1 - July 2026**
+    -   Automate Task Mining tasks in Automation Center
+        -   Automation Center transforms task recordings from Task Mining, decomposes them into discrete automations, and generates an AI agent in AI Agent Studio that executes those automations using AI Desktop Actions.
+        -   Automation Center analyzes Task Mining recordings and identifies discrete tasks—on-screen actions and background actions—eliminating manual analysis and reducing time-to-automation from hours to minutes.
+        -   This multi-tool solution ensures that any repetitive task in Task Mining can be automated to be run as desktop actions.This feature currently supports only Excel-to-browser interactions, where data is copied from a Microsoft Excel file and is entered into a form in a browser.
+        -   You must have the User Task Summarization skill and Now Assist AI Agents skill activated to use this feature.
+        -   Task Mining recording and AI Desktop Actions agent execution require a Windows machine.For detailed information, see the Automation Center documentation.
+    -   Kanban Board Enhancements: Create tasks from the Request board in Kanban board. Earlier, you could create tasks only from the Task Board in Kanban board. Also, there's a contextual panel to the right of the Kanban board that helps you create a task.
 -   **Version 14.0.1 - April 2026**
     -   Automation Explorer enables you to scan your ServiceNow instance and discover relevant automations based on a targeted query using natural language. You can filter by automation type, execution time period, and application scope, then onboard high-value automations directly to Automation Center for ROI tracking.
     -   For full access to this feature, ensure that Now Assist for Automation Center is installed and that the Saving Estimator skill is activated.

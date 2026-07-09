@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-request-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 16
+last_updated: "2026-07-09"
+reading_time_minutes: 17
 breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Legal Request Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 10.2.0 - July 2026**
+    -   New: Resolution time for legal requests is now calculated automatically based on calendar duration and terminal state.
+    -   Fixed:
+        -   Security fixes
+        -   OneDrive permission issues fixed.
+        -   The milestone overdue message no longer appears when the associated due date is still in the future.
+        -   The Approvals tab in the ServiceNow Portal is visible to appropriate users.
 -   **Version 10.1.4 - June 2026**
     -   Changed:
         -   The platform\_ml\_read ACL on legal tables has been removed as part of a role cleanup, simplifying permission management.

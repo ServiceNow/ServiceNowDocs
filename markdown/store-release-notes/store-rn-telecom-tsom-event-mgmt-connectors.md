@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,21 @@ Version history for the ServiceNow® TSOM Event Management Connectors applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.9.1 - July 2026**
+    -   This release makes EM Connectors enterprise-ready at scale with more reliable data collection, direct operator control, and configuration-time failure detection.
+        -   What's new
+            -   Configurable metric granularity for Fortinet and Meraki
+            -   Configuration-time validation
+            -   Meraki rate-limit resilience
+            -   Complete data retrieval for large deployments
+            -   Reduced installation footprint
+        -   Issues fixed
+            -   Fortinet API efficiency improvements
+            -   SLA accuracy corrections
+            -   Collection scheduling fixes
+        -   Before you upgrade
+            -   Update metricNamingModetodynamicMetricNamingMode.
+            -   Ensure kpi\_definitionsaccess roles includetsom\_assurance\_admin.
 -   **Version 2.5.1 - June 2026**
     -   New:
         -   Provides a full Nokia MPN Pull Connector for Fault Management \(FM\) and Performance Management \(PM\)

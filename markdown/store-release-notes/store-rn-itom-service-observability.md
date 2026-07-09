@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-observability.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Service Observability application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 1.14.4 - July 2026**
+    -   New: Service Observability now supports using MetricBase running on ACC as a data source for data mappings.
+    -   Note that the resulting dashboards contain only CMDB-based data. To view metrics from MetricBase in charts, you need to customize the default dashboards to add that data.
 -   **Version 1.13.3 - June 2026**
     -   Improved:
         -   Service Observability roles now see the default alert view and havefull-read data access to alerts and incidents.

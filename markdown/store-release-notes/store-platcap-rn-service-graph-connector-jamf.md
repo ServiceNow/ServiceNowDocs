@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-jamf.html
 release: store
 topic_type: reference
-last_updated: "2025-09-10"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
 
 ## Version history
 
+-   **Version 2.15.0 - July 2026**
+    -   Fixed:
+        -   Implemented security fixes by adding query range ACLs, with a fix script for customization scenarios.
+        -   Enforced cross-scope access restrictions on
 -   **Version 2.14.4 - September 2025**
 
     Fixed: Fixed the discovery source in samp\_sw\_usage for SG-JAMF.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-wiz.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Service Graph Connector for Wiz on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.6.0 - July 2026**
+    -   New:
+        -   Query ACLs are now built into the application.
+        -   Auditor scripts don't need to be manually re-run after each new installation.
 -   **Version 1.5.0 - March 2026**
 
     Fixed: Fixed the issue that was causing partial payloads in delta pulls when a resource was created and deleted in a very short time.

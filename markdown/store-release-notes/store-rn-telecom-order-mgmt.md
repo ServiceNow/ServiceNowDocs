@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Order Management application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 18.1.0 - July 2026 \(Australia\)**
+
+    New: Support Billing Accounts on Order Lines
+
+-   **Version 17.2.0 - July 2026 \(Zurich\)**
+    -   New: Supporting billing account on order line
+    -   Fixed: Minor defects fixes
 -   **Version 18.0.1 - June 2026 \(Australia\)**
 
     New: Support order header and top order line tasks to track and coordinate activities throughout the order life cycle.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-search-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the AI Search Admin Console application on the ServiceNow St
 
 ## Version history
 
+-   **Version 9.1.1 - July 2026**
+    -   New:
+        -   Updated navigation behavior for Search Application Configuration and Search Profile to dynamically adjust based on sharing settings when Now Assist is enabled for an application.
+        -   Added support for configuring additional sources for inclusion in the Now Assist Multi-Content Response Genius Result.
+    -   Fixed: Fixed an issue where multi-modal captioning could be enabled on tables other than the parent Knowledge table. Enabling is now correctly limited to the parent Knowledge table only.
 -   **Version 9.0.5 - June 2026**
     -   New:
         -   Added support for auto-enabling hybrid search using the hybrid search attribute, with status visibility surfaced on the AI Search Admin Console home page.

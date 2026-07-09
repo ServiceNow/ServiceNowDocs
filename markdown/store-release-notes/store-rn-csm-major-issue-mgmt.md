@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-major-issue-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Major Issue Management application on the S
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 4.1.0 - July 2026**
+    -   Changed: Internal code updates with no impact to existing functionality or user-facing behavior.
+    -   Fixed: Defect fix - When a Major Case is accepted via the "Approve Major Case Candidate" UI action, the suggested child cases \(SMCs — cases whose suggested\_major\_case points at the candidate\) were not being promoted \(linked as children\) to the major case.
 -   **Version 4.0.0 - June 2026**
     -   New: Added new reference field on Case \(sn\_customerservice\_case\) table: 'Suggested major case'
     -   Changed: Added logic to maintain 'Suggested major case' through a Major Case's lifecycle \(major\_case\_state as Proposed or Accepted\)

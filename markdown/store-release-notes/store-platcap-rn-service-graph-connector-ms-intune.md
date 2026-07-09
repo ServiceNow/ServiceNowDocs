@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-ms-intune.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
 
 ## Version history
 
+-   **Version 2.9.0 - July 2026**
+    -   Added support for configuring the user lookup field during connection setup, enabling user matching by using either user principal name \(UPN\) or email address.
+    -   Addressed security gaps by adding query range ACLs across application-owned tables with a fix script for customization scenarios.
 -   **Version 2.8.1 - March 2026**
 
     New: Added retry logic for reports data source when sending requests to trigger reports.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-sgc-meraki.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -16,6 +16,15 @@ Version history for the ServiceNow® Service Graph Connector for Meraki applicat
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.9.0 - July 2026**
+    -   This release improves device data accuracy, adds flexibility for custom attribute mapping, and introduces batch processing controls for large-scale deployments.
+        -   What's new
+            -   Custom attribute mapping — Operators can define how Meraki device attributes map into TSOM without modifying core connector code. Customizations are upgrade-safe and compatible with existing workflows. Part of a coordinated rollout across Fortinet and VeloCloud connectors.
+            -   Orchestrator URL in device records — The Meraki Orchestrator URL is now surfaced in device metadata, enabling direct navigation from TSOM records to the Meraki dashboard for faster troubleshooting and audit tracing.
+            -   Accurate network identification — Network keys and display names now align with Meraki's official network taxonomy, reducing discrepancies between TSOM and actual network configurations.
+        -   Issues fixed
+            -   Configurable batch size for large environments — A hardcoded discovery sync batch limit that caused timeouts in deployments exceeding 500 devices has been replaced with an administrator-configurable system property.
+            -   Localization strings updated.
 -   **Version 2.4.1 - June 2026**
     -   New:
         -   Adds license expiration date tracking for co-term organizations

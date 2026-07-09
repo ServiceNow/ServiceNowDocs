@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-amazon-connect.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Voice, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow Voice with Amazon Connect application on the 
 
 ## Version history
 
+-   **Version 5.4.0 - July 2026**
+    -   New:
+        -   ServiceNow Voice AI integration with Amazon Connect
+            -   ServiceNow Voice AI now integrates with Amazon Connect through an updated setup guide. Voice AI handles inbound calls and routes them to live agents when needed, with end-to-end call flow continuity.
 -   **Version 5.3.0 - June 2026**
     -   New in the release: SAML 2.0 SSO with third-party identity providers — Agents can now sign in to Amazon Connect via SAML 2.0 SSO using third-party IdPs such as Okta or Ping Federate
     -   Fixed in the release:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-integration-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Vulnerability Response Integration Framework application
 
 ## Version history
 
+-   **Version 1.6.0 - July 2026**
+    -   New: Added \_determineStartTime\(\)toVRIntegrationFrameworkBase, giving integration implementations a standardized hook to compute the delta start time for incremental imports.
+    -   Fixed:
+        -   Resolved an issue where the integration import queue would get stuck when a job was in an Error state with a non-empty "Processed by \(Trigger\)" value, blocking all subsequent queued entries from processing.
+        -   Applied a security fix to enforce read-only field restrictions, addressing the Australia Security Directive for field-level access control.
+    -   Changed: Added the integration run number to the integration run list view for easier identification.
 -   **Version 1.5.0 - June 2026**
 
     Changed: Migrated query ACL definitions to the standard product codebase in Vulnerability Intelligence, improving maintainability and ensuring consistent access control enforcement.

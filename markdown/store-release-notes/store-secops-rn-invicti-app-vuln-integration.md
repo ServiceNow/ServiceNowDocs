@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-invicti-app-vuln-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,9 +18,17 @@ Version history for the Invicti Application Vulnerability Integration applicatio
 
 ## Version history
 
+-   **Version 30.2.4 - July 2026 \(USEM\)**
+    -   New:
+        -   Invicti Platform Integration
+            -   Added support for the Invicti Platform APIs and introduced three new integration jobs that connect directly to the Invicti Platform cloud service:
+                -   Application Integration — Imports the list of applications being scanned in Invicti Platform into ServiceNow as discovered applications.
+                -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
+                -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform.
+        -   Application lifecycle management — When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\),  keeping your vulnerability inventory accurate without manual cleanup.
 -   **Version 30.1.3 - April 2026 \(USEM\)**
     -   Fixed:
-        -   Fixed Invicti Configuration Page cross-scope credentials saving issue. You'll now receive a warning when opening Invicti configurations page from a scope different than the one associated with the Invicti account. This ensures scope alignment before accessing sensitive configuration data. Additionally, an error displays if you attempt to save credentials from a mismatched scope, preventing potential security misconfigurations.
+        -   Fixed Invicti Configuration Page cross-scope credentials saving issue. You will now receive a warning when opening Invicti configurations page from a scope different than the one associated with the Invicti account. This ensures scope alignment before accessing sensitive configuration data. Additionally, an error displays if you attempt to save credentials from a mismatched scope, preventing potential security misconfigurations.
         -   Fixed warning messages in Invicti Application Vulnerable Item Integration caused by populating a threat field that does not exist in the Application Vulnerable Item table.
 -   **Version 1.2.1 - November 2024**
 

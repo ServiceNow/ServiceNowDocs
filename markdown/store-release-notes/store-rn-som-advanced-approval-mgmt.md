@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-advanced-approval-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,12 @@ Version history for the ServiceNow® Advanced Approval Management application on
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.3.0 - July 2026**
+    1.  Enable requesters and approvers to add ad-hoc approvers to specific positions within an approval chain.
+    2.  Enable requesters to recall submitted quotes directly from the quote header in the quote workflow.
+    3.  Inform requesters of the reason for an approval rejection on the approval step card.
+    4.  Enableapprovers to delegate approval authority to other users with the Approver ACL role.
+    5.  Assign the approval\_request\_submitter role to partner sales reps who submit approval requests from the Partner Portal.
 -   **Version 2.2.3 - June 2026 \(Australia\)**
     -   Approvers can act on approval requests directly from consolidated email notifications by approving or rejecting individual requests or all requests.
     -   Approval Reminders — Email reminders sent to approvers after a configurable pending period.

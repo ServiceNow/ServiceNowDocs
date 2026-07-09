@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-connect-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® Connect Hub application on the ServiceNow S
 
 ## Version history
 
+-   **Version 2.3.2 - July 2026**
+    -   Defect fixes for Build Agent
+    -   Story for Build Agent requirements
+    -   Project greenlight stories
 -   **Version 2.1.0 - June 2026**
 
     New: One‑Click MCP Connector creation from MCP Registry.

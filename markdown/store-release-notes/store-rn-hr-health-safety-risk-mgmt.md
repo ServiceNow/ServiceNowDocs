@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Health and Safety Risk Management application on the Ser
 
 ## Version history
 
+-   **Version 9.2.2 - July 2026**
+    -   Fixed:
+        -   Resolved an issue where the Approval Task Creator tool failed to read manager details when the application was installed.
+        -   Corrected the Health and Safety Ask attachment field to render as mandatory when configured as required on a Smart Assessment template question.
+        -   Resolved a timezone issue that caused the Inspection Schedule flow to run incorrectly for daily frequency schedules.
+        -   Resolved a "Component not configured" dialog box error that appeared when scheduling audits.
 -   **Version 9.2.0 - June 2026**
     -   Fixed:
         -   Security issue where multiple flows were configured to run as System user instead of scoped credentials

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-strategic-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 23
+last_updated: "2026-07-09"
+reading_time_minutes: 25
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,24 @@ Version history for the Strategic Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.16.0 - July 2026**
+    -   New:
+        -   Enterprise Agile Planning now shows the Backlog and Hierarchy pages when a team is connected to CWM.
+        -   Added the ability to view changes for a dependency.
+        -   The hierarchy view now preserves expanded rows on refresh.
+        -   Added spillover calculation using metric definitions and metric instances.
+        -   The Now Assist panel for Portfolio AI Insights now shows the last-generated timestamp and an on-demand Regenerate control.
+        -   The grid now auto-refreshes for the AI-forecasted status field.
+        -   Drag-and-drop is now enabled for any user who can edit records on the grid.
+        -   The Delete button in the dependency record side panel now displays in red.
+    -   Fixed:
+        -   Resolved an issue where Agile Boards and their associated stories were not visible after upgrading the Advanced \(sn\_apw\_advanced\) plugin.
+        -   Resolved a sprint status mismatch between the Agile Board and Enterprise Agile Planning after a sprint was closed.
+        -   Resolved an unexpected error on the Product Feedback list page when SPM GenAI apps were not installed.
+        -   Resolved an issue where creating a dependency unexpectedly opened the dependent story in the side panel.
+        -   Resolved an issue with the order of sections \(Notes, Business Case, Preferences, and Details\) on the Demand form in Strategic Planning Workspace.
+        -   Resolved an issue where the Portfolio Insight regenerate button disappeared on the second regeneration.
+        -   Resolved empty space appearing to the left of the planning page caused by a modeless dialog.
 -   **Version 4.15.0 - June 2026**
     -   New:
         -   Enterprise Agile Planning:

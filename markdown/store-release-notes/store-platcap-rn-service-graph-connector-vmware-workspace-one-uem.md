@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-vmware-workspace-one-uem.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Service Graph Connector for VMware Workspace ONE UEM on 
 
 ## Version history
 
+-   **Version 1.9.1 - July 2026**
+    -   Fixed:
+        -   Implemented security fixes by adding query range ACLs, with a fix script for customization scenarios.
+        -   Enforced cross-scope access restrictions on
 -   **Version 1.9.0 - March 2026**
     -   Fixed:
         -   Fixed RAM value handling from Workspace ONE to ensure accurate memory representation across all device types.

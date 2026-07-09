@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,14 @@ Version history for the ITAM Software Asset Management application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.4 - July 2026 \(Australia\)**
+
+    Minor defect fixes related to reconciliation flow performance and lifecycle report.
+
+-   **Version 3.2.8 - July 2026 \(Zurich\)**
+
+    Minor defect fixes related to reconciliation flow performance and lifecycle report.
 
 -   **Version 4.1.3 - June 2026 \(Australia\)**
 

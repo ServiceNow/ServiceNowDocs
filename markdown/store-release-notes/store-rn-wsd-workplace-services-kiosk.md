@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-services-kiosk.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Workplace Services Kiosk application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.5.6 - July 2026**
+    -   Fixed:
+        -   Fixed an issue causing the Kiosk to continuously reload during setup.
+        -   Enhanced the Kiosk display on small screens.
+        -   Fixed an issue causing Kiosk pages to flicker.
 -   **Version 1.5.4 - June 2026**
     -   Fixed:
         -   Fixed an issue with displaying additional check-in options.

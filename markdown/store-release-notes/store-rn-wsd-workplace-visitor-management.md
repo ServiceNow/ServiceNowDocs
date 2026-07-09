@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-visitor-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
+last_updated: "2026-07-09"
+reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,37 @@ Version history for the Workplace Service Delivery Workplace Visitor Management 
 
 ## Version history
 
+-   **Version 2.0.11 - July 2026**
+    -   This release introduces breaking changes. Please review the impact on your current configuration and user experience before upgrading.
+    -   New:
+        -   Added a Receptionist page to manage the full visitor flow from a single place.
+        -   Introduced a Host page for employees to view, update, or cancel visits.
+        -   Launched a secure Visitor portal to complete pre-visit steps and access visit details.
+        -   Enabled dynamic, condition-based visitor check-in flows.
+        -   Introduced the Workplace Concierge AI agent to automate visit creation and management from email, calendar invites, and Now Assist.
+    -   Changed:
+        -   Migrated the product to use Workplace locations instead of CMN locations.
+        -   Replaced the record producer in the 'Register a guest' page with the new requirements configuration.
+        -   Centralized the check-in configuration flow into the Visit Requirements model, enabling dynamic, condition-based configurations.
+        -   Replaced the record producer in the kiosk self-registration with the new requirements configuration.
+        -   Updated kiosk self-registration to display forms instead of one question per page.
+    -   Fixed:
+        -   Removed an issue affecting the phone number self check-in option.
+        -   Enabled support for phone numbers formatted with dashes during kiosk check-in and check-out.
+        -   Fixed an issue where visitor QR codes did not display correctly on Windows devices.
+        -   Resolved several badge printing issues.
+        -   Resolved multiple issues affecting the Register a Guest experience, including validation, draft saving, mobile display, and email formatting.
+        -   Applied security fixes.
+        -   Improved support for overnight and multi-day visits.
+        -   Applied translation improvements.
+        -   Corrected recurring invitations creating visits beyond the configured end date.
+        -   Improved the Visitor Portal mobile experience.
+        -   Reduced excessive logging in Visitor Management.
+        -   Corrected duplicate or blank policy acknowledgments during kiosk check-in.
+-   **Version 1.19.20 - July 2026**
+    -   Fixed:
+        -   Improved access to visitor policies across time zones.
+        -   Resolved an issue causing errors when submitting visitor registration requests.
 -   **Version 2.0.9 - June 2026**
     -   Fixed:
         -   All-day visitor registration schedule collapses to 1-hour window when location is changed to a different timezone

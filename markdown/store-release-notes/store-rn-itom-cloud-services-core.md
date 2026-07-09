@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cloud-services-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the ITOM Cloud Services Core application on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.1.16 - July 2026**
+    -   New:
+        -   ACC agents now work on non-persistent VDI desktops.
+        -   Optional KMF-based token signing for enhanced security.
+        -   Automatic cleanup of expired tokens.
+    -   Fixed: ICS Diagnostic page now renders correctly when some checked packages are missing or inactive.
 -   **Version 4.1.15 - June 2026**
 
     Improved onboarding job logging: Enhanced log formatting with structured execution tracking for easier troubleshooting.Accessibility improvements: Updated the Diagnostics page and Classic UI dialogs to meet WCAG 2.2 AA standards.Security hardening: Tightened ACL role assignments for improved access control.

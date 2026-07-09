@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-patterns.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 91
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -21,6 +21,10 @@ Version history for the IT Operations Management Discovery and Service Mapping P
 The ServiceNow Store documentation for IT Operations Management patterns is now in the release family sections of the ServiceNow Product Documentation site. To read about Discovery and Service Mapping features from the ServiceNow Store and the family releases, navigate to the [Product Documentation site homepage](https://docs.servicenow.com) and select your release family.
 
 ## Version history
+
+-   **Version 1.31.2 - July 2026**
+
+    Changed: AWS is updating its account information structure. AWS discovery patterns have been updated accordingly. Upgrade to this release to maintain AWS discovery. For more information, see https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB3120531.
 
 -   **Version 1.31.0 - June 2026**
     -   New:

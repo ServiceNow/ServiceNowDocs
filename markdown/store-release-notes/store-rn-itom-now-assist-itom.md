@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-now-assist-itom.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Now Assist for ITOM application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.8.0 - July 2026**
+    -   Changed:
+        -   Azure OpenAI is now the default model provider for AI skills and agents. Now LLM is no longer the default. Customers can choose the default and choose their own third-party providers.
+        -   Implemented secure-by-default configurations for the 5 new agentic ACLs.
+    -   Fixed:
+        -   A formatting issue in alert analysis responses caused by the \` character has been resolved. HTML formatting in NAP now displays correctly.
+        -   The autonomous workflow has been updated to support AWS Claude as an AI agent provider, resolving compatibility issues and enabling seamless integration
 -   **Version 2.6.16 - June 2026**
     -   New:
         -   AIOps AI Specialist — Autonomous Alert Management\(Limited Availability\) The AIOps AI Specialist is ServiceNow's purpose-built AI agent for IT Operations. It autonomously monitors, triages, and resolves infrastructure and application alerts, executing the full NOC workflow without requiring human intervention on every event. In this release, the AI Specialist can:

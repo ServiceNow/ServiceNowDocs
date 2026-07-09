@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt-for-telecom.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Telecommunications Service Management Order Management f
 
 ## Version history
 
+-   **Version 14.2.1 - July 2026**
+    -   Changed: Changed the Logic in TMF 632- Party Management API to handle any values present in dictionary for the List value attributes types rather than the current approach of only support OOB values.
+    -   Fixed: Business rule which auto closed Domain Orders for Task plan templates generated tasks was removed as it was interfering with Flow designer task generation logic.
 -   **Version 14.1.0 - June 2026**
     -   Changed:
         -   TMF 637 -  Fixed the Product Inventory Response Structure

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-case-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Workplace Service Delivery Workplace Case Management on 
 
 ## Version history
 
+-   **Version 1.28.8 - July 2026**
+    -   Fixed:
+        -   JSON payloads sent through case utilities are now correctly formatted, preventing processing errors in downstream integrations.
+        -   Workplace cases now appear correctly on the My Requests page, ensuring employees can track all their submitted requests in one place.
+        -   Access control for Move and Maintenance cases is now consistent with Workplace cases, closing a gap in permission enforcement.
+        -   Lead Time unavailable state now applies reliably in all scenarios, eliminating intermittent failures in availability calculations.
 -   **Version 1.28.3 - June 2026**
     -   New: List &amp; Calendar for cases. View and manage workplace cases on a new Calendar view in Workplace Central under Case Management module, with click-through to a side panel for quick case details and actions. Unified filters apply and retain across the Calendar and List View with ability to Group Cases on the Calendar View.
     -   Changed:

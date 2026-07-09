@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-mapping-plus.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Service Mapping Plus application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.22.0 - July 2026**
+
+    New: Enrich Your Service : the multi-source service mapping flow includes a new enrichment step when creating or editing services. This step lets you connect your service to business context using CSDM fields. New widgets on the Service Mapping workspace stating the number of services instances created by AI agent and Business Applications linked by AI Agent
 
 -   **Version 1.21.0 - June 2026**
 

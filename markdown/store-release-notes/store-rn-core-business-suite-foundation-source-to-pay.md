@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-foundation-source-to-pay.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Core Business Suite Foundation for Source t
 
 ## Version history
 
+-   **Version 3.0.7 - July 2026**
+    -   Supplier Collaboration Portal form redirection: Changed redirection after invoice case creation to request detail page instead of category page on Supplier Collaboration Portal
+    -   Defect fix: Now Assist skills listing correction on product console for Human Resources Foundation to reflect only the skills included in Foundation
 -   **Version 3.0.5 - June 2026**
 
     Shipped out-of-the-box assignment rules for the Core Business Suite Foundation for Source to Pay. The goal is to give S2P admins immediate visibility into existing rule configurations without manual setup, so they can review and understand which rules are active by default.

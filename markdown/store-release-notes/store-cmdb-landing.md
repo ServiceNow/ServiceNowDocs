@@ -42,6 +42,8 @@ Version history for the CLI Metadata on the ServiceNow Store.
 Version history for the ServiceNow AI Platform capabilities CMDB and CSDM Data Foundations Dashboards on the ServiceNow Store.
 -   **[CMDB Coverage release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-cmdb-coverage.md)**  
 Version history for the ServiceNow® CMDB Coverage application on the ServiceNow Store.
+-   **[CMDB MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-cmdb-mcp-server.md)**  
+Version history for the ServiceNow® CMDB MCP Server application on the ServiceNow Store.
 -   **[CMDB success advisor release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-success-advisor.md)**  
 Version history for the ServiceNow® CMDB success advisor application on the ServiceNow Store.
 -   **[CMDB Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-workspace.md)**  
@@ -84,6 +86,8 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
 Version history for the ServiceNow® Service Graph Connector for Fortinet application on the ServiceNow Store.
 -   **[Service Graph Connector for GCP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-gcp.md)**  
 Version history for the Service Graph Connector for GCP application on the ServiceNow Store.
+-   **[Service Graph Connector for Google Chromebooks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-sgc-google-chromebooks.md)**  
+Version history for the ServiceNow® Service Graph Connector for Google Chromebooks application on the ServiceNow Store.
 -   **[Service Graph Connector for Jamf release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-jamf.md)**  
 Version history for the ServiceNow AI Platform capabilities Service Graph Connector for Jamf integration on the ServiceNow Store.
 -   **[Service Graph Connector for Infoblox release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-infoblox.md)**  

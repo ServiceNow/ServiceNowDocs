@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-rma-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the RMA Case Management application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.2.1 - July 2026**
+    -   New: Agents can now initiate RMA cases directly from Sold Product records. The RMA Case form supports Sold Product as a source, enabling agents to select and process returns, exchanges, repairs, or upgrades tied to original sales transactions.
+    -   Changed: RMA playbook stages now display list views dynamically based on the Requested Source field.The Add case lines, Propose issue solutions, and resolve case stages fetch and display views according to the selected source, improving workflow flexibility and accuracy.
 -   **Version 2.1.0 - March 2026**
     -   Changed:
         -   Added ACLs on RMA case and RMA case lines for customer persona.

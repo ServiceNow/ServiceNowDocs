@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-integration-commons.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow AI Platform capabilities Integration Commons 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.25.8 - July 2026**
+
+    Fixed: Fixed issues in Automated Test Framework \(ATF\) tests. No functional changes.
 
 -   **Version 2.25.0 - June 2026**
     -   New: Introduced a reusable extension point \(sn\_cmdb\_int\_util.ADMPayloadEnrichment\) for the data enrichment of process and Application CIs. This enables the population of additional attributes required for identification and reconciliation of child Application classes by Service Graph Connectors.

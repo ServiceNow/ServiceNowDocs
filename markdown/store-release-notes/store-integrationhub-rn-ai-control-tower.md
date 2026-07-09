@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-control-tower.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,20 @@ Version history for the AI Control Tower application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.0.0 - July 2026**
+    -   New:
+        -   Assign unique asset IDs for each asset
+        -   Opt-in to model preview program
+    -   Changed:
+        -   Post-upgrade fix: Auto-flag existing active assets as "Managed" for AICT Enterprise SKU customers upgrading from pre-March release
+        -   Simplified asset state and status values - replaces lifecycle states
+-   **Version 5.1.0 - July 2026 \(Zurich\)**
+    -   New:
+        -   Assign unique asset IDs for each asset
+        -   Opt-in to model preview program
+    -   Changed:
+        -   Post-upgrade fix: Auto-flag existing active assets as "Managed" for AICT Enterprise SKU customers upgrading from pre-March release
+        -   Simplified asset state and status values - replaces lifecycle states
 -   **Version 5.0.0 - June 2026**
 
     This is a "marker app" with no new functionality added; its purpose is to automatically trigger installation of other apps.

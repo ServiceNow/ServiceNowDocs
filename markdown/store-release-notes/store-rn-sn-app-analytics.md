@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sn-app-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
+last_updated: "2026-07-09"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,28 @@ Version history for the Platform Analytics application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 8.4.1 - July 2026**
+    -   Fixed:
+        -   Dashboards and Visualizations
+            -   Strategy Execution Dashboard: Resolved permission error \("You do not have permission to access this page"\) when clicking widgets.
+            -   Dashboard Data Integrity: Fixed issue where visualizations on dashboard tabs were unexpectedly overwritten with data from other sources.
+            -   Widget Interactions: Restored drag-and-resize functionality for widgets in Platform Analytics Experience Bundle.
+            -   Visualization Rendering: Resolved delay when adding visualizations to dashboards from Explorer with the 'Show data for selected period as = Avg' option.
+            -   Chart Display: Fixed column chart bars widening unexpectedly when hiding a data source on Business Calendar monthly charts.
+        -   Filters and Date Handling
+            -   "Today" Predefined Range: Corrected "Today" filter to display the full calendar day instead of starting from the current hour.
+            -   Date Field Filters: Fixed timezone handling for "ON" and "NOT ON" operators, and resolved date field filters \(Created, Updated, Viewed\) returning records from previous dates.
+            -   Dashboard Drilldown: Fixed full page refresh during drilldown actions in Service Operations Workspace that caused loss of unsaved work notes.
+        -   Exports and Scheduled Reports
+            -   Scheduled Exports: Improved validation messaging when attempting to save without completing mandatory fields.
+            -   Migrated Scheduled Reports: Resolved case sensitivity issue preventing report owners from editing or deleting migrated scheduled reports.
+            -   Export Visibility: Updated export button display to respect dashboard and visualization designer export properties.
+        -   Navigation and Accessibility
+            -   Cross-tab Navigation: Enabled CTRL + Click to open dashboards and visualizations in new tabs or windows from Platform Analytics on Windows.
+            -   Visualization Properties: Improved clarity between widget-level and visualization-level properties in the config panel.
+        -   Internationalization
+            -   Text Localization: Fixed hardcoded "activate," "deactivate," and "delete" text in analytics overview to support translation.
+            -   RTL Support: Corrected dashboard title order and close button orientation for right-to-left languages \(Arabic, Hebrew\) in Service Operations Workspace.
 -   **Version 7.4.1 - June 2026**
     -   Fixed:
         -   Platform Analytics

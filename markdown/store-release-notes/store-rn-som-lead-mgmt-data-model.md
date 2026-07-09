@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-lead-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Lead Management Data Model application on the ServiceNow
 
 ## Version history
 
+-   **Version 6.1.0 - July 2026**
+    -   New: Introduced AI Search Indexed Sources for Lead table.
+    -   Fixed: Minor defect fixes.
 -   **Version 6.0.0 - June 2026**
     -   This release includes:
         1.  CRM touchpoints and meetings support within the Lead record, aligning Lead Management with the broader CRM engagement model. Agents can now log, view, and schedule interactions directly from a lead without navigating away.

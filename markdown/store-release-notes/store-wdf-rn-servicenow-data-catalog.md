@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-servicenow-data-catalog.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the ServiceNow® Data Catalog application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.2.0 - July 2026**
+    -   New:
+        -   Amazon S3 Collector
+        -   Teradata Collector
+        -   Catalog Discovery Agent available for Otto
+        -   Process nodes available in Graph Explorer Lineage
+    -   Changed: Notifications now trigger when user is attributed to an asset
+    -   Fixed: Embedded search component - back button state preserved
 -   **Version 1.1.3 - June 2026**
     -   New:
         -   End-to-end column-level lineage view in Graph Explorer

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-it
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store release notes]
 ---
 
@@ -34,10 +34,14 @@ Version history for the Agent Client Collector Log Analytics application on the 
 Version history for the IT Operations Management Agent Client Collector Monitoring integration on the ServiceNow Store.
 -   **[AI Agent Topology Mapping release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-agent-topology-mapping.md)**  
 Version history for the ServiceNow® AI Agent Topology Mapping application on the ServiceNow Store.
--   **[Alert Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-alert-assist.md)**  
-Version history for the ITOM Alert Assist application on the ServiceNow Store.
 -   **[AI agents for Synthetic Monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-agents-synthetic-monitoring.md)**  
 Version history for the ServiceNow® AI agents for Synthetic Monitoring application on the ServiceNow Store.
+-   **[AI Service Graph Connector for OCI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-sgc-oci.md)**  
+Version history for the ServiceNow® AI Service Graph Connector for OCI application on the ServiceNow Store.
+-   **[AI Service Graph Connector for IBM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-sgc-ibm.md)**  
+Version history for the ServiceNow® AI Service Graph Connector for IBM application on the ServiceNow Store.
+-   **[Alert Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-alert-assist.md)**  
+Version history for the ITOM Alert Assist application on the ServiceNow Store.
 -   **[Application Service Extensions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-application-service-extensions.md)**  
 Version history for the ITOM Application Service Extensions application on the ServiceNow Store.
 -   **[Cloud Discovery Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-ops-workspace.md)**  

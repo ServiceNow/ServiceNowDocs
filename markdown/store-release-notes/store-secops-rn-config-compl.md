@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-config-compl.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 22
+last_updated: "2026-07-09"
+reading_time_minutes: 23
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,24 @@ Version history for the Security Operations Configuration Compliance application
 
 ## Version history
 
+-   **Version 30.6.5 - July 2026 \(USEM\)**
+    -   Changed: Improved performance when updating test findings.
+    -   Fixed:
+        -   Fixed an issue where re-detected test findings lost their remediation target date when reopened, ensuring deferred items retain their assigned dates.
+        -   Resolved an issue where the Request Exception button appeared twice on the same form.
+        -   Fixed the test findings form layout to display only relevant fields, removing outdated ones.
+        -   Fixed an issue where the short description entered in the split dialog was not applied to newly created remediation tasks.
+        -   Fixed an issue where installing Vulnerability Response with demo data created exception rules without conditions.
+        -   Fixed an issue where reassignment property flags were ignored in Unified Exception Management, preventing proper exception reassignment.
+        -   Resolved a performance degradation that could occur during upgrades.
+        -   Security fixes.
+-   **Version 15.9.4 - July 2026**
+    -   Fixed:
+        -   Fixed an issue where re-detected test findings lost their remediation target date when reopened, ensuring deferred items retain their assigned dates.
+        -   Fixed an issue where the test findings escalating from a risk score of None without a remediation target date did not have a target date calculated, ensuring proper escalation tracking.
+        -   Fixed an issue where the deferral reason was not saved when an Auto Exception Rule deferred a configuration compliance test result.
+        -   Fixed an issue where the short description entered in the split dialog was not applied to newly created remediation tasks.
+        -   Security fixes.
 -   **Version 30.6.0 - June 2026 \(USEM\)**
     -   New:
         -   Added configurable uniqueness for Tenable compliance tests, allowing administrators to control how test results are identified and preventing unintended overwrites.

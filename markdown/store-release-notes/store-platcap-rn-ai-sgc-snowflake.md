@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-sgc-snowflake.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® AI Service Graph Connector for Snowflake ap
 
 ## Version history
 
+-   **Version 2.0.5 - July 2026**
+    -   Integration with Snowflake which would allow discovery and inventory of AI agents, related models, prompts, tools and dataset information. Also include tracking usage of AI agents.
+    -   The AI Control Tower \(AICT\) imports the discovered artifacts into its AI inventory, where the AI steward and Product Owner can access and review them.
 -   **Version 2.0.3 - June 2026**
     -   Integration with Snowflake which would allow discovery and inventory of AI agents, related models, prompts, tools and dataset information. Also include tracking usage of AI agents.
     -   The AI Control Tower \(AICT\) imports the discovered artifacts into its AI inventory, where the AI steward and Product Owner can access and review them.

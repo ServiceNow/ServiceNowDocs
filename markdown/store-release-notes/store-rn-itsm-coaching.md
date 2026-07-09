@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-coaching.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,16 @@ Version history for the ITSM Coaching application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.9.0 - July 2026**
+    -   New: These are new tables that will be in the coaching application:
+        -   Quality metric type
+        -   Quality metric category
+        -   Quality metric category m2m
+        -   Quality metric
+        -   Quality metric results
+    -   Changed:
+        -   Updated coaching opportunity form
+        -   Updated coaching assessment form
 -   **Version 9.8.1 - March 2026**
 
     Fixed: Granular admin roles.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-knowledge-center.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Knowledge Center application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 31.11.3 - July 2026 \(Zurich, Australia\)**
+
+    No feature release, ECE defect
 
 -   **Version 31.10.8 - June 2026 \(Zurich, Australia\)**
     -   The Knowledge Center centralized hub for Knowledge Admin and Manager:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-employee-slate-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Employee Slate Advanced application on the 
 
 ## Version history
 
+-   **Version 2.1.1 - July 2026 \(Australia\)**
+    -   Improved the content management experience to delete, duplicate, or inactivate content directly from the library
+    -   Enhanced comms to publish EC Pro news and events within the Employee Slate content feed widget
+-   **Version 1.2.4 - July 2026 \(Zurich\)**
+    -   Improved the content management experience to delete, duplicate, or inactivate content directly from the library
+    -   Enhanced comms to publish EC Pro news and events within the Employee Slate content feed widget
 -   **Version 2.0.2 - June 2026 \(Australia\)**
     -   Enhanced canvas with a feed widget to give employees a robust news experience.
     -   Enhanced the authoring and usability experience for content managers.

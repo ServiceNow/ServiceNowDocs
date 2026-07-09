@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-opportunity-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,14 @@ Version history for the Opportunity Management Data Model application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.1.0 - July 2026 \(Australia\)**
+
+    New: Introduced default OOB sales types and sales cycle stage values.
+
+-   **Version 12.0.0 - July 2026 \(Zurich\)**
+
+    New: Introduced default OOB sales types and sales cycle stage values.
 
 -   **Version 11.1.0 - June 2026 \(Australia\)**
 

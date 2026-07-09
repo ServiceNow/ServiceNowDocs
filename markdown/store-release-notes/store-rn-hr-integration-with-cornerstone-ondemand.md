@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-integration-with-cornerstone-ondemand.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the HR Service Delivery Integration with Cornerstone OnDeman
 
 ## Version history
 
+-   **Version 1.4.0 - July 2026**
+    -   Changed:
+        -   Migrated the "Pull Training Types" subflow to OData Change Tracking \(training\_type\_core\) for more efficient incremental sync.
+        -   Migrated the "Pull Learning Objects" subflow to OData Change Tracking \(training\_local\_core\) and \(training\_core\).
+        -   Migrated the "Cornerstone Transcript Mapping" subflow to OData Change Tracking \(transcript\_core\).
+    -   Fixed:
+        -   Corrected the "Cornerstone Transcript Mapping" subflow so the affected condition is evaluated as a separate clause, fixing inaccurate mapping behaviour.
+        -   Fixed the "Trigger CSOD Sync" flow where the Run As field on the trigger auto-script record was mapped to an invalid user.
 -   **Version 1.3.0 - May 2026**
     -   New: Not provided for this release.
     -   Changed: Applied non-Glide Cobalt Raven ACL pattern across spoke actions to align with the latest platform security guidance.

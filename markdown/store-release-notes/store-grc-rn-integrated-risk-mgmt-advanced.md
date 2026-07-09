@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-integrated-risk-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, 
 Version history for the ServiceNow® Integrated Risk Management Advanced application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 22.4.0 - July 2026 \(Australia\)**
+
+    Changed: Updated dependent plug-in versions to incorporate the default LLM model updates.
 
 -   **Version 22.3.3 - June 2026 \(Australia\)**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-move-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Workplace Move Management application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.14.5 - July 2026**
+    -   Fixed:
+        -   Security fixes.
+        -   Bulk upload in Move Management now processes files correctly, resolving multiple issues that caused uploads to fail or produce incorrect results.
 -   **Version 1.14.0 - June 2026**
     -   Changed: Unified record page experience in Workplace Central. Under the Move Management module, Move case and move project pages now use the standard record page layout for a consistent experience across Workplace products.
     -   Fixed: Security fixes - Add profile reader to Move writer and remove the read ACL role for move writer from workplace\_profile

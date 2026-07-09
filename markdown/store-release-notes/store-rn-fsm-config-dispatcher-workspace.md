@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-config-dispatcher-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 24
+last_updated: "2026-07-09"
+reading_time_minutes: 26
 breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the FSM Configurable Dispatcher Workspace application on the
 
 ## Version history
 
+-   **Version 28.5.2 - July 2026**
+    -   Fixed an issue where a newly added resource was not appearing or behaving correctly when navigating between dates in the dispatcher workspace when no territories or groups were selected.
+    -   Fixed an issue where agents were not displayed in the dispatcher workspace when filtering resources by skill.
+    -   Fixed an issue where the selected date was not retained when switching between calendar views in the dispatcher workspace.
+    -   Fixed an issue where the task assignment confirmation modal displayed incorrect task details when a task event on the agent calendar was resized.
+    -   Fixed an issue where tasks were not populating for an assignment group in the dispatcher workspace.
+    -   Fixed an issue where marking an agent inactive in a source territory following a territory relocation caused an incorrect all-white span to appear for that agent on their calendar for the remainder of the day.
+    -   Fixed an issue where the optimization label in the on-demand scheduling module became stuck in a loading state when multiple or overlapping intraday qualifier jobs were running.
+    -   Strengthened default access controls in the task bundling filter to ensure record visibility is properly enforced when adding tasks to a bundle.
+-   **Version 27.7.1 - July 2026**
+    -   Task assignment confirmation modal now shows the correct task details after resizing a calendar event. Previously, resizing a task event on the agent calendar caused the assignment confirmation modal to display details for the wrong task. The modal now correctly reflects the resized task.
+    -   The task bundle "Add Task" filter now correctly enforces access controls when querying tasks. In certain configurations, the filter used to retrieve available tasks for bundling did not apply the expected access restrictions, which could cause tasks outside the user's permitted scope to appear in the list. This has been corrected.
+    -   Agent availability spans now display correctly after a territory relocation mid-shift. When an agent was marked inactive in their source territory partway through a working day following a territory change, the dispatcher timeline displayed an incorrect all-white span for that agent's day. The timeline now reflects the correct availability markings.
+    -   Minor date format display correction. A small inconsistency in date formatting within the workspace has been resolved.
 -   **Version 30.0.2 - June 2026**
     -   New Features &amp; Enhancements:
         -   Viewport Scroll \(Dynamic Resource Loading\): Progressively loads resources with debounce as dispatchers scroll. Reduces initial page load times for large territories. Soft/auto-refresh and "View on Calendar" respect the active viewport. Hides off-shift agents until requested. Preserves focus, pinned/adhoc resources, metric counts, group expansion, filters, and window positioning across dates and scrolls.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-expanded-model-asset-classes.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 7
+last_updated: "2026-07-09"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Expanded Model and Asset Classes application on the Serv
 
 ## Version history
 
+-   **Version 2.16.2 - July 2026**
+    -   New:
+        -   Added a new Graphics Processing Unit \(GPU\) model category with the following configuration. Please note that the CI class already exists, but this is to align with the enterprise architecture standard:
+            -   Model category name: Graphics Processing Unit
+            -   Parent model category: Server
+            -   Product model class: Hardware model \(cmdb\_hardware\_product\_model\)
+            -   CMDB CI class: cmdb\_ci\_gpu
+            -   Asset class: Hardware \(alm\_hardware\)
+        -   Created a new Multimedia Production Equipment General model category that is associated with the cmdb\_ci\_multimedia\_production\_equipmentCI class.
+    -   Changed: Renamed the UPS model category Uninterruptible Power Supply to distinguish it from an existing duplicate UPS model category.
+    -   Fixed:
+        -   Fixed the firmware install table to correctly reference discovered firmware model records during discovery operations.
+        -   Removed the incorrect association of cmdb\_ci\_multimedia\_production\_equipmentfrom the Multimedia Production Equipment model category.
+    -   Removed: Removed the association of cmdb\_ci\_multimedia\_production\_equipmentfrom the top-level Multimedia Production Equipment model category.
 -   **Version 2.16.1 - May 2026**
 
     In this version, an issue has been resolved where the Activity log displayed only the new value of a field \(such as State\) after an update, without showing the previous value or the change history.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Integration Hub Workday HR Spoke on the ServiceNow Store
 
 ## Version history
 
+-   **Version 3.0.1 - July 2026**
+    -   Added new SOAP actions that can support both personal authentication and service account authentication by using OAuth
+    -   Deprecated the original service account SOAP actions, but all are still maintained and usable in the existing flow/subflow
 -   **Version 2.12.2 - June 2026**
     -   Security patch on non-glide ACLs
     -   Fixed Hire Employee and Contract Contingent Worke for v45.2 Workday API compatibility

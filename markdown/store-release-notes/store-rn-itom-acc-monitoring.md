@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 12
+last_updated: "2026-07-09"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the IT Operations Management Agent Client Collector Monitori
 
 ## Version history
 
+-   **Version 3.18.2 - July 2026**
+    -   New: Query ACLs are now maintained directly in the product code. Customers benefit from consistent ACL management, reduced reliance on manual write audits, and improved upgrade stability. ACL changes have been tested and verified to work correctly on both zbooted and upgraded instances.
+    -   Fixed:
+        -   PRB1977071 - Metrics filters for Linux Server and Windows Server dashboards now apply correctly. The issue where "Metrics by selected OS filter" and "Metrics by selected CI filter" were not applied to all metrics has been resolved.
+        -   PRB2027045 - The system network metrics check for Windows hosts with virtual adapters \(Npcap Loopback Adapter\) now passes. The check no longer fails when hardware-level performance counters are unsupported by the adapter.
 -   **Version 3.17.1 - April 2026**
     -   Fixed:
         -   PRB1993711 - Optimize/reduce frequency of the most CPU-intensive default Windows checks \(disk/memory/network metrics\) in upcoming releases.

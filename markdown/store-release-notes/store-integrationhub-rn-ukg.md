@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ukg.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the UKG spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.6.1 - July 2026**
+    -   Fixed:
+        -   The "Kronos - Refresh The Access Token" flow was failing for Auth0 authentication after 24 hours, preventing tokens from refreshing correctly to maintain the connection.
+        -   The Run As field on the trigger auto-script record was mapped to an invalid user in the UKG flows.
 -   **Version 3.6.0 - June 2026**
     -   Changed:
         -   Added automatic OAuth token refresh to align with the latest UKG API requirements.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-remediation-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,12 @@ Version history for the ServiceNow® Remediation for Security Exposure Managemen
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 31.0.3 - July 2026**
+    -   Fixed:
+        -   Remediation task rules now correctly unlink findings that no longer match the rule's conditions when rules are re-evaluated
+        -   Significantly improved the performance of the "Reapply remediation task rules" operation
+        -   Remediation task lookups now correctly apply query limits
+        -   Configuration records shipped with the product now use valid unique identifiers
 -   **Version 31.0.2 - June 2026 \(USEM\)**
     -   Fixed:
         -   Resolved an issue where vulnerable items remained linked to a remediation task after the task's rule conditions no longer matched during a re-evaluate operation.

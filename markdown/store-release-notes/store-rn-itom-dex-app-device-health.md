@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-dex-app-device-health.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 17
+last_updated: "2026-07-09"
+reading_time_minutes: 19
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -20,6 +20,17 @@ Version history for the DEX Application and Device Health application on the Ser
 
 See the [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-service-management/store-rn-itsm-now-assist.html) release notes for information on agentic AI in DEX.
 
+-   **Version 5.0.1 - July 2026**
+    -   Changed: The Windows system-metrics check used by the DEX Windows Device Metrics and Windows Non-Persistent VDI Device Metrics policies has been split into separate check instances so the processing load is distributed more evenly. Previously the combined check could exceed its time-out, which stopped the flow of device-metrics data on affected devices; splitting it keeps device-metrics collection running.
+    -   Fixed: Fixed an issue where Windows registry monitoring failed to collect data for keys under the HKEY\_CURRENT\_USER hive. Monitoring now works correctly across both HKEY\_LOCAL\_MACHINE and HKEY\_CURRENT\_USER registry paths.
+    -   Resolved a DEX-P001 PowerShell error caused by a Windows security event-log query returning empty output due to a query compatibility issue, which had produced an incorrect Last Access Time. This issue has now been corrected.
+    -   DEX Content Playbook
+        -   New: New “kill zombie/orphan process” remedial action for Windows and macOS endpoints. When an application has zombie or orphaned processes, the remedial action can be triggered to terminate them, preventing stale processes from impacting device health monitoring.
+        -   Fixed: Security fixes.
+    -   DEX for Zoom
+        -   Fixed: In the Zoom Rooms “by issue count” view, rooms are now counted correctly when multiple issues share the same name. Previously the count could show no value or only the most recent record instead of the aggregated total across rooms for the selected date range.
+    -   DEX Self-Service
+        -   Fixed: Fixed error message when no metric data is present
 -   **Version 4.3.0 - June 2026**
     -   Fixed:
         -   Fixed an issue where Metric Rule alerts generated under the count condition displayed an incorrect impacted user and configuration item. Alerts now resolve and surface the correct user and CI context.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-space-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 16
+last_updated: "2026-07-09"
+reading_time_minutes: 17
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Workplace Space Management application on the ServiceNow
 
 ## Version history
 
+-   **Version 1.20.5 - July 2026**
+    -   Fixed:
+        -   Security fixes.
+        -   Space selection and allocation interactions in the space assignment flow now work correctly, resolving multiple UI interaction issues.
+        -   Translation strings and UI labels in Space Management now display accurately across supported languages.
+        -   Visual padding and spacing in the Space selection panel and Neighborhood panel are now consistent and properly aligned.
+        -   Scenario planning views now accurately reflect space groups when grouped by workplace entity or neighborhood, eliminating display gaps.
+        -   The floor styles REST API now returns a proper 400 error response when required query parameters are missing, instead of an unhelpful 500 error.
+        -   Padding and spacing are now consistent throughout the Space Management application.
+        -   The Assign Users modal in space selection now functions correctly.
+        -   Removing a neighborhood space no longer incorrectly deletes the associated Space Details record in Space Optimization.
+        -   The scenario list view now refreshes correctly, and the processing state filter in View Scenarios works as expected.
+        -   Scenario readers can now access query results correctly — an access control issue affecting read-only scenario roles has been resolved.
 -   **Version 1.20.1 - June 2026**
     -   New:
         -   Introducing the new &amp; improved Space Planning module in Workplace Central

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-ai-helper-galileo-inside.html
 release: store
 topic_type: reference
-last_updated: "2025-10-16"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Now Assist AI Helper - Galileo Inside application on the
 
 ## Version history
 
+-   **Version 2.2.1 - July 2026**
+    -   Security fixes
+    -   Updates to token refresh process
 -   **Version 2.1.2 - October 2025**
 
     This plugin was updated to be compatible with the October version of Now Assist.

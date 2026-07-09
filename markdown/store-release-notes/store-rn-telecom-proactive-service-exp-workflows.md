@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-proactive-service-exp-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
+last_updated: "2026-07-09"
+reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,27 @@ Version history for the Proactive Service Experience Workflows application on th
 
 ## Version history
 
+-   **Version 8.5.3 - July 2026 \(Zurich\)**
+    -   This release extends the Customer Impact notification workflow to Problem records, upgrades the notification composer to a rich text editor, and hardens the security of the customer notification flow.
+        -   Proactive case generation for Problems — The "Generate Proactive Cases for Accounts and Consumers" workflow now supports Problem records alongside Incidents and Changes. A new dedicated subflow handles proactive case creation triggered by Problems, and the GenerateProactiveCasesUtilOOB utility is updated to route Problem-sourced records through the correct case-type selection logic.
+        -   Rich text editor in the Notify Customers modal — The plain textarea in the "Notify Customers via Related Cases" notification composer has been replaced with the Activity Stream Compose component, giving agents text formatting options when drafting customer notifications. The submit button activates as soon as the composer has content. Message persistence is unchanged — notifications are still posted to the case and task comment journals.
+        -   Message button enabled for Reactive cases — The message button in the Customer Impact component is now active for Reactive cases, not only Proactive ones, so agents can send notifications from either case type without switching context.
+        -   Consumer communication options — email removed — Email is no longer offered as a communication channel for consumer contacts in the Customer Impact notification flow, reflecting the channels that are actually reachable for consumer-type accounts.
+        -   Security hardening — Notify Customers query — The CustomerImpactUtilOOB Script Include and the "Notify Customers via Related Cases" data broker transform now use GlideRecordSecure for all task and customer case lookups, and an allowed-task-tables check is enforced to prevent unauthorised data access through the notification flow.
+-   **Version 8.6.2 - July 2026 \(Australia\)**
+    -   This release extends the Customer Impact notification workflow to Problem records, upgrades the notification composer to a rich text editor, and hardens the security of the customer notification flow.
+    -   Proactive case generation for Problems — The "Generate Proactive Cases for Accounts and Consumers" workflow now supports Problem records alongside Incidents and Changes. A new dedicated subflow handles proactive case creation triggered by Problems, and the GenerateProactiveCasesUtilOOB utility is updated to route Problem-sourced records through the correct case-type selection logic.
+    -   Rich text editor in the Notify Customers modal — The plain textarea in the "Notify Customers via Related Cases" notification composer has been replaced with the Activity Stream Compose component, giving agents text formatting options when drafting customer notifications. The submit button activates as soon as the composer has content. Message persistence is unchanged — notifications are still posted to the case and task comment journals.
+    -   Message button enabled for Reactive cases — The message button in the Customer Impact component is now active for Reactive cases, not only Proactive ones, so agents can send notifications from either case type without switching context.
+    -   Consumer communication options — email removed — Email is no longer offered as a communication channel for consumer contacts in the Customer Impact notification flow, reflecting the channels that are actually reachable for consumer-type accounts.
+    -   Security hardening — Notify Customers query — The CustomerImpactUtilOOB Script Include and the "Notify Customers via Related Cases" data broker transform now use GlideRecordSecure for all task and customer case lookups, and an allowed-task-tables check is enforced to prevent unauthorised data access through the notification flow.
+-   **Version 8.4.3 - July 2026 \(Yokohama\)**
+    -   This release extends the Customer Impact notification workflow to Problem records, upgrades the notification composer to a rich text editor, and hardens the security of the customer notification flow.
+    -   Proactive case generation for Problems — The "Generate Proactive Cases for Accounts and Consumers" workflow now supports Problem records alongside Incidents and Changes. A new dedicated subflow handles proactive case creation triggered by Problems, and the GenerateProactiveCasesUtilOOB utility is updated to route Problem-sourced records through the correct case-type selection logic.
+    -   Rich text editor in the Notify Customers modal — The plain textarea in the "Notify Customers via Related Cases" notification composer has been replaced with the Activity Stream Compose component, giving agents text formatting options when drafting customer notifications. The submit button activates as soon as the composer has content. Message persistence is unchanged — notifications are still posted to the case and task comment journals.
+    -   Message button enabled for Reactive cases — The message button in the Customer Impact component is now active for Reactive cases, not only Proactive ones, so agents can send notifications from either case type without switching context.
+    -   Consumer communication options — email removed — Email is no longer offered as a communication channel for consumer contacts in the Customer Impact notification flow, reflecting the channels that are actually reachable for consumer-type accounts.
+    -   Security hardening — Notify Customers query — The CustomerImpactUtilOOB Script Include and the "Notify Customers via Related Cases" data broker transform now use GlideRecordSecure for all task and customer case lookups, and an allowed-task-tables check is enforced to prevent unauthorised data access through the notification flow.
 -   **Version 8.3.4 - June 2026 \(Australia\)**
     -   No new features are being released in this version. This release focuses on platform compliance, security hardening, and quality improvements to keep the application current with the latest platform standards.
         -   Platform compliance — Updates to meet platform-wide security directives including default-deny agentic AI ACLs, cross-scope access enforcement, and CSRF protection on public APIs.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-process-automation-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 12
+last_updated: "2026-07-09"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,24 @@ Version history for the Process Automation Designer application on the ServiceNo
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.4.2 - July 2026 \(Australia\)**
+    -   New:
+        -   KB to Playbook Generation — Generate structured playbooks directly from existing Knowledge Base articles, turning documented processes into executable workflows.
+        -   Activity UI Preview in Playbook Designer — Preview how activity forms will appear to playbook users at runtime directly within Workflow Studio, without needing to test.
+        -   Go Back in Playbooks — Playbook authors can design processes to let users navigate back to a previously completed activity within a running playbook.
+-   **Version 28.6.3 - July 2026 \(Zurich\)**
+
+    New: KB to Playbook Generation — Generate structured playbooks directly from existing Knowledge Base articles, turning documented processes into executable workflows.
+
+-   **Version 29.4.1 - July 2026 \(Australia\)**
+    -   New:
+        -   KB to Playbook Generation — Generate structured playbooks directly from existing Knowledge Base articles, turning documented processes into executable workflows.
+        -   Activity UI Preview in Playbook Designer — Preview how activity forms will appear to playbook users at runtime directly within Workflow Studio, without needing to test.
+        -   Go Back in Playbooks — Playbook authors can design processes to let users navigate back to a previously completed activity within a running playbook.
+-   **Version 28.6.2 - July 2026 \(Zurich\)**
+
+    New: KB to Playbook Generation — Generate structured playbooks directly from existing Knowledge Base articles, turning documented processes into executable workflows.
 
 -   **Version 29.3.2 - June 2026 \(Australia\)**
     -   New:

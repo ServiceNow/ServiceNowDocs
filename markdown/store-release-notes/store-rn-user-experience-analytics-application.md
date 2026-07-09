@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-user-experience-analytics-application.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Usage Insights application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.3.9 - July 2026**
+    -   What's new?
+        -   Conversations — A dedicated view of chat activity from chat assistants like Now asisst virtual agent, including total chat users, live agent transfers, and the full sequence of chat events from conversation start to response. Analyze trends over time and drill into any individual conversation.
+        -   Cross-application conversion funnels — Build funnels where each step can belong to a different application, so you can follow a user journey as it spans multiple workspaces and portals.
+        -   Session-based and user-based funnels — Choose whether steps must complete within one session \(time-to-value\) or across multiple sessions over time \(overall task completion\).
+        -   Previous period comparison in conversion funnel — Compare completion rate, step conversion, and transition timing against a prior period. Each metric shows its delta, and a step comparison table breaks down engaged users, sessions, and conversion time side by side — turning a snapshot into an adoption trend.
 -   **Version 6.2.2 - June 2026**
     -   Added AI Native Experience channel with metric support and a dedicated Conversations page.
     -   Custom dashboard creation extended to Zurich customers

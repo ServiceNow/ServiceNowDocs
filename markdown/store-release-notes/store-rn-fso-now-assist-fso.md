@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-now-assist-fso.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Now Assist for Financial Services Operations application
 
 ## Version history
 
+-   **Version 3.3.1 - July 2026**
+    -   New: Added AI model options across Now Assist for FSO summarization skills, including Claude 4.5 Sonnet, Claude Haiku 4.5, Gemini 3.5 Flash, and GPT-5.4 mini — giving more provider and model choices.
+    -   Changed:
+        -   Updated the default AI models for Claim, Dispute, Banking Customer Profile, Insurance Customer Profile, and Insurance Interaction Context summarization to newer model versions.
+        -   Set default model versions and tuned per-model token limits for more consistent summarization output.
 -   **Version 3.2.0 - June 2026**
     -   New:
         -   Added Insurance Customer Profile Summarization skill for Customer 360

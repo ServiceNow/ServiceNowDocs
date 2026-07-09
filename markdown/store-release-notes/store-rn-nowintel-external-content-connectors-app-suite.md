@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-external-content-connectors-app-suite.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the External Content Connectors Application Suite applicatio
 
 ## Version history
 
+-   **Version 8.1.0 - July 2026**
+    -   Changed:
+        -   Filter by labels for Google Drive connector
+        -   Crawl depth for Webcrawler has been increased to 1,000
+    -   Fixed:
+        -   UTF-8 encoding issue of ZIP file is fixed for SAP SuccessFactors connector
+        -   Authentication related certificate failures
+        -   Custom metadata fields related issues for Custom Connector Gateway connector
 -   **Version 8.0.10 - June 2026**
     -   New:
         -   SAP SuccessFactors external content connector

@@ -19,7 +19,7 @@ Version history for the ServiceNow® Unified Security Exposure Management applic
 -   **Version 31.2.0 - June 2026**
     -   New:
         -   Added a warning in the upgrade tool alerting administrators that upgrade duration may be significantly longer when Configuration Compliance test results exceed 30 million records.
-        -   Extended the ability for remediation owners to create remediation tasks directly from the list page in the Security Event Management \(SEM\) workspace, bringing this capability in line with the Remediation View page and IT Remediation workspace.
+        -   Extended the ability for remediation owners to create remediation tasks directly from the list page in the Security Exposure Management \(SEM\) workspace, bringing this capability in line with the Remediation View page and IT Remediation workspace.
 -   **Version 31.0.2 - April 2026**
     -   Changed: Migration state is now detected using a data-based check for more reliable accuracy during active migrations.
     -   Fixed: Non-admin users are now correctly directed to the Security Exposure Management Workspace instead of the Migration Assistant during an active migration.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Goal Framework for SPM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.9.0 - July 2026**
+    -   New:
+        -   Added status rollup from target breakdowns to targets for targets with cumulative target distribution.
+        -   Added status rollup from targets to goals.
 -   **Version 2.8.0 - June 2026**
 
     Changed: Updated platform directives for Cobalt Raven ACLs and scoping bypass.

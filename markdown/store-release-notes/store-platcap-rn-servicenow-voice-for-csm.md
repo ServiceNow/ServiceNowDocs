@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-for-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Voice, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the ServiceNow AI Platform capabilities ServiceNow Voice for
 
 ## Version history
 
+-   **Version 3.12.0 - July 2026**
+    -   New:
+        -   ServiceNow Voice AI-enabled Amazon Connect inbound contact flows:
+            -   ServiceNow Voice for CSM now provides Voice AI-enabled Amazon Connect inbound contact flows. When Voice AI is enabled during setup, customers receive pre-configured flows for bot routing with live agent transfer. Standard flows are available for non-Voice AI deployments. Voice service IDs are automatically passed through for seamless bot-to-agent handoff.
 -   **Version 3.11.1 - April 2026**
 
     Fixed in this Release: Resolved "out of memory" and performance issues that occurred when a form contained unused fields with scripted conditions

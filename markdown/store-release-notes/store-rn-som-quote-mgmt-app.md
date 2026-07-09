@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-app.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-07-09"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Quote Management Application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 11.0.1 - July 2026 \(Australia\)**
+    -   Automatic pricing recalculation on characteristic changes
+    -   Automatic pricing recalculation on manual adjustments
+    -   Automatic pricing recalculation on quantity changes
+-   **Version 10.5.1 - July 2026 \(Zurich\)**
+    -   New:
+        -   Automatic pricing recalculation on characteristic changes
+        -   Automatic pricing recalculation on manual adjustments
+        -   Automatic pricing recalculation on quantity changes
 -   **Version 11.0.0 - June 2026 \(Australia\)**
     -   Integration Guided Setup
     -   Quote AI Agent

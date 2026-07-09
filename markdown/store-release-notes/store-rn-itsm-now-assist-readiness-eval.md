@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-assist-readiness-eval.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-07-09"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Now Assist Readiness Evaluation application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.4.2 - July 2026**
+
+    Fixed: Agentic AI Assessment dashboard tab correctly displays finding cards only by default \(Assessment Findings, Findings by Category, Finding Trends\), consistent with the Now Assist Assessment tab behavior. Previously, the Agentic AI Assessment tab incorrectly displayed effort-related cards when the sn\_assess.effort\_visibility system property was set to its default value of false.
 
 -   **Version 1.4.0 - June 2026**
     -   Changed: The Ready/Action Required readiness percentage calculation has been updated across all module cards on both the Agentic AI Assessment and Now Assist Assessment tabs. The percentage now reflects the ratio of passed assessment questions to total questions of interest for the current run, replacing the previous effort-based calculation. This change ensures readiness scores accurately reflect the current state of your instance across all assessed modules: Agentic AI ITSM, CSM, and HRSD; and Now Assist ITSM, CSM, HRSD, AI Search, and Virtual Agent.

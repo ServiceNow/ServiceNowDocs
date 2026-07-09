@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Now Assist for CSM application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 14.1.1 - July 2026**
+    -   Changed:
+        -   New AI assets now default to third-party LLM providers with model version updates. Existing configurations using Now LLM Service stay unchanged, and the service remains available for manual selection.
+        -   Admins can view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities.
 -   **Version 14.0.3 - June 2026 \(Australia\)**
 
     New: Dependency on store app Now Assist for CSM Major Issue Management

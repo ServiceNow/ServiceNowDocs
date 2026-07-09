@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-rec-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Recommended Actions application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 42.1.0 - July 2026**
+
+    New: The Now Assist Multi-Content Response \(MCR\) Genius Model is now supported in Recommended Actions.
+
+-   **Version 43.0.0 - July 2026**
+
+    New: Added playbooks as a new action type in Recommended Actions.
 
 -   **Version 42.0.0 - June 2026**
     -   New:

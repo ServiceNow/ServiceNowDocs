@@ -1,22 +1,26 @@
 ---
-title: Now Assist in Conversational Spokes release notes
-description: Version history for the Now Assist in Conversational Spokes on the ServiceNow Store.
+title: ServiceNow Otto in Conversational Spokes release notes
+description: Version history for the ServiceNow Otto in Conversational Spokes on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-na-conversational-spokes.html
 release: store
 topic_type: reference
-last_updated: "2024-11-07"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
-# Now Assist in Conversational Spokes release notes
+# ServiceNow Otto in Conversational Spokes release notes
 
-Version history for the Now Assist in Conversational Spokes on the ServiceNow Store.
+Version history for the ServiceNow Otto® in Conversational Spokes on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.1 - July 2026**
+
+    Rebranding from Now Assist to ServiceNow Otto
 
 -   **Version 1.0.0 - November 2024**
 

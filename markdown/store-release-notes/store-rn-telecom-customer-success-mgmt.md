@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-customer-success-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,24 @@ Version history for the Customer Success Management application on the ServiceNo
 
 ## Version history
 
+-   **Version 6.5.3 - July 2026 \(Zurich\)**
+    -   This release brings Customer Discovery Healthboard data directly into Engagements, lays the data foundation for the Engagement AI Agent, and tightens security and access control across the app.
+        -   Customer Discovery integration — Business Challenges, Business Needs, Business Expectations, and Customer Use Cases from Customer Discovery Healthboard are now visible within Engagements via a new Customer Use Cases related list, with owner, complexity, and product capability context surfaced alongside each engagement. Existing CSM roles automatically inherit the corresponding Discovery Viewer and Writer permissions — no manual role reassignment required.
+        -   Engagement AI Agent — The data access layer for the Engagement AI Agent is now in place, exposing sold products, contract links, and segment configuration as context inputs to the agent runtime. The integration is plugin-gated and has no impact on deployments that do not activate the Customer Success AI Agent plugin.
+        -   Access control hardening — An ACL bypass in the Leadership Adoption data broker has been closed so that the Adoption tab's visualization data is restricted to CSM roles. Field-level query range for the Customer Success Viewer role is now tightened on Touchpoint, Success Initiative, and Success Case to exclude internal-only fields such as work notes.
+        -   Security compatibility — Related list candidate filtering now uses GlideRecordSecure. Performance — A query-layer regression that slowed Touchpoint, Success Case, Risk Signal, Success Task, and Contract list pages under high data volumes has been resolved.
+-   **Version 6.6.3 - July 2026 \(Australia\)**
+    -   This release brings Customer Discovery Healthboard data directly into Engagements, lays the data foundation for the Engagement AI Agent, and tightens security and access control across the app:
+        -   Customer Discovery integration — Business Challenges, Business Needs, Business Expectations, and Customer Use Cases from Customer Discovery Healthboard are now visible within Engagements via a new Customer Use Cases related list, with owner, complexity, and product capability context surfaced alongside each engagement. Existing CSM roles automatically inherit the corresponding Discovery Viewer and Writer permissions — no manual role reassignment required.
+        -   Engagement AI Agent — The data access layer for the Engagement AI Agent is now in place, exposing sold products, contract links, and segment configuration as context inputs to the agent runtime. The integration is plugin-gated and has no impact on deployments that do not activate the Customer Success AI Agent plugin.
+        -   Access control hardening — An ACL bypass in the Leadership Adoption data broker has been closed so that the Adoption tab's visualization data is restricted to CSM roles. Field-level query range for the Customer Success Viewer role is now tightened on Touchpoint, Success Initiative, and Success Case to exclude internal-only fields such as work notes.
+        -   Security compatibility — Related list candidate filtering now uses GlideRecordSecure. Performance — A query-layer regression that slowed Touchpoint, Success Case, Risk Signal, Success Task, and Contract list pages under high data volumes has been resolved.
+-   **Version 6.4.3 - July 2026 \(Yokohama\)**
+    -   This release brings Customer Discovery Healthboard data directly into Engagements, lays the data foundation for the Engagement AI Agent, and tightens security and access control across the app:
+        -   Customer Discovery integration — Business Challenges, Business Needs, Business Expectations, and Customer Use Cases from Customer Discovery Healthboard are now visible within Engagements via a new Customer Use Cases related list, with owner, complexity, and product capability context surfaced alongside each engagement. Existing CSM roles automatically inherit the corresponding Discovery Viewer and Writer permissions — no manual role reassignment required.
+        -   Engagement AI Agent — The data access layer for the Engagement AI Agent is now in place, exposing sold products, contract links, and segment configuration as context inputs to the agent runtime. The integration is plugin-gated and has no impact on deployments that do not activate the Customer Success AI Agent plugin.
+        -   Access control hardening — An ACL bypass in the Leadership Adoption data broker has been closed so that the Adoption tab's visualization data is restricted to CSM roles. Field-level query range for the Customer Success Viewer role is now tightened on Touchpoint, Success Initiative, and Success Case to exclude internal-only fields such as work notes.
+        -   Security compatibility — Related list candidate filtering now uses GlideRecordSecure. Performance — A query-layer regression that slowed Touchpoint, Success Case, Risk Signal, Success Task, and Contract list pages under high data volumes has been resolved.
 -   **Version 6.3.2 - June 2026 \(Australia\)**
     -   This release delivers a unified Touchpoint data model, AI Web Agent enablement for customer experimentation, accessibility upgrades, and a set of productivity enhancements that help Customer Success Managers work faster and more proactively.
         -   General CSM improvements — Auto-initiation of Success Initiatives, outcome templates enriched with metric data, AI-driven search, internal-only touchpoints, and play sequencing.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,13 @@ Version history for the Financial Services Operations Integration with Mastercar
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.3.0 - July 2026**
+    -   Changed: Updated the Mastercard \(Mastercom\) clearing transaction lookup to include the program registration ID.
+    -   Fixed: Corrected an incorrect date format when looking up Mastercard \(Mastercom\) transaction details, so dates now match the expected format.
+-   **Version 2.0.2 - July 2026 \(Zurich\)**
+
+    Changed: Updated the Mastercard \(Mastercom\) clearing transaction lookup to include the program registration ID
 
 -   **Version 2.2.0 - May 2026**
     -   Changed:

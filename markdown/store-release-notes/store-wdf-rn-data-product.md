@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-data-product.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the ServiceNow® Data Product application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.1.3 - July 2026**
+    -   Data Interface Creation &amp; Editing:
+        -   Fixed an issue that prevented users from creating a Data Interface in the global scope.
+        -   Resolved a broken edit flow that occurred when a user landed directly on the Define Target Table tab instead of stepping through the edit sequence in order.
+        -   Addressed multiple issues on the Define Target Table step.
+        -   Fixed interface corruption when adding a translated field, which previously caused the interface to show 0 fields with no error surfaced to the user.
+    -   Permissions &amp; Data Product Connectivity
+        -   Resolved scope, permissions, and role-related issues.
+        -   Fixed a Data Product connect-and-verify issue.
+    -   Error Handling: Replaced a generic HTTP 500 response with a proper, user-facing error message.
+    -   UI/Styling: Corrected CSS styling issues on the review and source tables.
 -   **Version 1.1.1 - June 2026**
     -   Data Interface editing is now available: Added full edit capabilities for published Data Interfaces, enabling modifications without recreating the interface.
     -   Supported changes include:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-workflow-data-fabric-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Workflow Data Fabric Hub application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.2.0 - July 2026**
+
+    Fixed: A performance issue that occurred when a large number of schemas and tables were retrieved and rendered in the UI.
+
+-   **Version 2.2.2 - July 2026**
+
+    Fixed: A performance issue that occurred when a large number of schemas and tables were retrieved and rendered in the UI.
 
 -   **Version 3.1.0 - April 2026**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-control-tower-enterprise-ai-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® AI Control Tower for Enterprise AI Foundati
 
 ## Version history
 
+-   **Version 1.2.1 - July 2026**
+    -   New: Now Assist powers new agentic and Gen AI capabilities in AI Risk and Compliance, providing built-in regulatory alignment and ethical AI governance for responsible deployment.
+    -   Changed: All Now Assist skills are now integrated with the latest third-party models for Claude, Gemini, and ChatGPT. This enables better performance and broader compatibility across your AI workflows.
 -   **Version 1.1.1 - June 2026**
     -   New:
         -   Manage Smart Assessment templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.

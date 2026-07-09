@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,24 @@ Version history for the Quote Management Data Model on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 12.1.0 - July 2026 \(Australia\)**
+    -   New:
+        -   Quote Advanced data entity for Transaction Manager integration
+        -   Original Line reference field to track split line relationships
+        -   Quote Type and Line Type fields to distinguish New vs Amendment quotes
+        -   Delta pricing fields \(Delta Unit Net Price, Delta One Time Price, Delta Monthly Recurring Price, Delta Cumulative Net Price\)
+        -   Renewal and Upsell/Downsell amount tracking on quote lines
+        -   Delta price treatment field for pricing context
+    -   Changed: Quote-to-Order and Oppty-to-Quote entity mappings now use Quote Advanced entity
+-   **Version 11.2.3 - July 2026 \(Zurich\)**
+    -   New:
+        -   Quote Advanced data entity for Transaction Manager integration
+        -   Original Line reference field to track split line relationships
+        -   Quote Type and Line Type fields to distinguish New vs Amendment quotes
+        -   Delta pricing fields \(Delta Unit Net Price, Delta One Time Price, Delta Monthly Recurring Price, Delta Cumulative Net Price\)
+        -   Renewal and Upsell/Downsell amount tracking on quote lines
+        -   Delta price treatment field for pricing context
+    -   Changed: Quote-to-Order and Oppty-to-Quote entity mappings now use Quote Advanced entity
 -   **Version 12.0.2 - June 2026 \(Australia\)**
     -   Integration Guided Setup
     -   Quote AI Agent

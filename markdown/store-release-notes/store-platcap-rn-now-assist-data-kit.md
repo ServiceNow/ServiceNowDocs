@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-now-assist-data-kit.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Now Assist Data Kit application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 8.1.6 - July 2026**
+    -   Data Creation updates — Data Kit Admins can now create a dataset with as few as 1 record \(reduced from 10\) and dataset names now support up to 200 characters.
+    -   Push to Table — Data Kit Admins can now push generated synthetic data directly to the respective target tables for Multi-table Data Generator requests \(advised for Sub Prod Environment\), using script assistance available within the Data Kit screen.
 -   **Version 7.1.2 - April 2026**
 
     We have given the ability for users to move the data from Data kit to Instance tables like incident or Case

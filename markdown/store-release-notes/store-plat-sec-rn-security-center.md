@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-security-center.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the Security Center on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.4.2 - July 2026**
+    -   New: ServiceNow Announcements have been added to push urgent security notifications from ServiceNow to Security Center.
+    -   Changed:
+        -   Accurate Scan Totals: Findings reports and list views now display only the sum of findings from thelatest scan per suite, removing cumulative historical totals that previously caused inflated counts.
+        -   Streamlined Resolution: A new scan finding record page makes it easier to troubleshoot. You can now easily view specific finding details and follow direct source record links to resolve issues faster.
+        -   Auditor Checks Reorganized: Scan findings in the auditor suite have been reorganized into cadence-oriented suites.
+        -   Auditor Trend Page Renamed: Auditor Trend was renamed to "Findings Trend"
+    -   Fixed: Defect fixes.
 -   **Version 3.3.1 - April 2026**
 
     Defect fixes.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-intel-now-assist-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 15
+last_updated: "2026-07-09"
+reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,28 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
 
 ## Version history
 
+-   **Version 10.1.5 - July 2026**
+    -   1.The Now LLM LTS \(Long-Term Stable\) model provider has been decommissioned and is no longer available in Now Assist Admin. This change affects the model provider selection surface, skill compliance messaging, and the model provider settings page.
+        -   What has changed:
+            -   Model provider selection — Now LLM LTS is no longer available as a selectable model provider when configuring skills or setting instance-level defaults. Administrators will no longer see Now LLM LTS in the provider dropdown.
+            -   Skill compliance messaging — Skills will no longer display out-of-compliance warnings related to Now LLM LTS. Any skill previously flagged as non-compliant due to Now LLM LTS provider assignment will no longer surface this alert.
+            -   Model provider banner removed — The informational banner previously displayed on the Manage Model Providers page referencing Now LLM LTS compatibility and upgrade guidance has been removed.
+    -   2.Deprecated Skills Section
+        -   Administrators can now view all deprecated Now Assist skills across products like ITSM,CSM and others in a dedicated section within the Now Assist Admin Console. This change provides full transparency into the skill lifecycle — including skills removed across products, skills replaced by newer versions, and skills that were available in a previous quarter but are no longer available in the current one.
+    -   3.Common Skills Product Visibility
+        -   Administrators can now see all products associated with a Common skill directly on the Skills page in Now Assist Admin. Common skills — those that apply across multiple Now Assist products simultaneously — are now clearly identified and display the full list of products they support, giving administrators complete visibility before activation or configuration.
+        -   A common skill will be mapped across multiple products,however its activation and deactivation can be done from any one individual product only
+-   **Version 10.1.3 - July 2026**
+    -   The Now LLM LTS \(Long-Term Stable\) model provider has been decommissioned and is no longer available in Now Assist Admin. This change affects the model provider selection surface, skill compliance messaging, and the model provider settings page.
+        -   What has changed:
+            -   Model provider selection — Now LLM LTS is no longer available as a selectable model provider when configuring skills or setting instance-level defaults. Administrators will no longer see Now LLM LTS in the provider dropdown.
+            -   Skill compliance messaging — Skills will no longer display out-of-compliance warnings related to Now LLM LTS. Any skill previously flagged as non-compliant due to Now LLM LTS provider assignment will no longer surface this alert.
+            -   Model provider banner removed — The informational banner previously displayed on the Manage Model Providers page referencing Now LLM LTS compatibility and upgrade guidance has been removed.
+    -   Deprecated Skills Section
+        -   Administrators can now view all deprecated Now Assist skills across products like ITSM,CSM and others in a dedicated section within the Now Assist Admin Console. This change provides full transparency into the skill lifecycle — including skills removed across products, skills replaced by newer versions, and skills that were available in a previous quarter but are no longer available in the current one.
+    -   Common Skills Product Visibility
+        -   Administrators can now see all products associated with a Common skill directly on the Skills page in Now Assist Admin. Common skills — those that apply across multiple Now Assist products simultaneously — are now clearly identified and display the full list of products they support, giving administrators complete visibility before activation or configuration.
+        -   A common skill will be mapped across multiple products,however its activation and deactivation can be done from any one individual product only
 -   **Version 10.0.11 - June 2026**
     -   Skill Archival: Instance and system administrators can now archive custom skills directly from the Now Assist Skills page. Archiving is not supported for ServiceNow out-of-box \(OOB\) skills. Archived skills can be restored at any time.
     -   Skill Details Page: View Detail button is now available alongside the Activate button for OOB skills on the Now Assist Skills page. The Skill detail view provides administrators and users with key information about a skill including its benefits, prerequisites, recommended model provider, and related skills — enabling informed activation decisions.

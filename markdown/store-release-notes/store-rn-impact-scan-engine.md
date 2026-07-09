@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-scan-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Scan Engine application on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.0.3 - July 2026**
+    -   New: Statistical Definitions framework introduced
+    -   Fixed:
+        -   Cross-Instance Exception User References - Fixed an issue where exception records could contain invalid user references when user sys\_id values differed across instances.
+        -   Improved memory handling during scans to reduce the risk of excessive memory consumption and improve scan stability on large instances.
 -   **Version 3.0.4 - June 2026**
     -   What's New Starting June 11th:
         -   Real-Time Prevention Messaging Redesign — When the scan engine catches a problem in your code, developers now see a cleaner, easier-to-read breakdown of what needs attention. Issues are organized by severity — Act, Recommend, and Suggest — in a persistent side panel with improved contrast and reduced scrolling. Exception requests appear right next to the relevant finding, and developers get a clear confirmation once something is resolved.

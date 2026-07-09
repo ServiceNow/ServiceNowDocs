@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-modeling-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Enterprise Modeling Common application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.8.1 - July 2026**
+
+    Fixed: Fixed an issue where on replacing a text shape with any other shape, the name on the text shape was not copied to the replaced shape.
 
 -   **Version 3.8.0 - June 2026**
     -   New:

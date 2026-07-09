@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cmdb-class-models.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 49
+last_updated: "2026-07-09"
+reading_time_minutes: 50
 breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the IT Operations Management CMDB CI Class Models on the Ser
 
 ## Version history
 
+-   **Version 1.87.0 - July 2026**
+    -   New: Discovered Subnet \(cmdb\_ci\_discovered\_subnet\) — Collected by discovery tools. Stores discovered subnet information, including network partition identifier, netmask, and CIDR.
+    -   Fixed:
+        -   Fixed an issue where certain cloud organization tables \(cmdb\_ci\_cloud\_organd its child tables\) were created as empty placeholder tables on new instances.
+        -   The unused tables are now automatically removed during upgrade. A safeguard preserves any table that contains data.
 -   **Version 1.86.2 - June 2026**
     -   Added:
         -   There were 23 new CMDB CI classes added in this release.

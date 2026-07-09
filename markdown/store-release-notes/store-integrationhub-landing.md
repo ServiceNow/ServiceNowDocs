@@ -322,10 +322,6 @@ Version history for the Integration Hub monday.com Spoke on the ServiceNow Store
 Version history for the Navex EthicsPoint Spoke on the ServiceNow Store.
 -   **[Now Assist for Spoke Generation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-na-spoke-generation.md)**  
 Version history for the Now Assist for Spoke Generation application on the ServiceNow Store.
--   **[Now Assist for Spokes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-now-assist-spokes.md)**  
-Version history for the Now Assist for Spokes application on the ServiceNow Store.
--   **[Now Assist in Conversational Spokes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-na-conversational-spokes.md)**  
-Version history for the Now Assist in Conversational Spokes on the ServiceNow Store.
 -   **[ODBC Driver release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software-odbc.md)**  
 Version history for the ODBC Driver in ancillary software on the ServiceNow Store.
 -   **[ODBC Driver Dependencies release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software-odbc-dependencies.md)**  
@@ -420,6 +416,10 @@ Version history for the Integration Hub SCCM Usage Metering spoke on the Service
 Version history for the Integration Hub Secureworks CTP spoke on the ServiceNow Store.
 -   **[ServiceNow Kafka Consumer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-kafka-consumer.md)**  
 Version history for the ServiceNow Kafka Consumer on the ServiceNow Store.
+-   **[ServiceNow Otto in Conversational Spokes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-na-conversational-spokes.md)**  
+Version history for the ServiceNow Otto® in Conversational Spokes on the ServiceNow Store.
+-   **[ServiceNow Otto for Spokes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-now-assist-spokes.md)**  
+Version history for the ServiceNow Otto® for Spokes application on the ServiceNow Store.
 -   **[ServiceNow Remote Instance spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-sn-remote-instance.md)**  
 Version history for the Integration Hub ServiceNow Remote Instance spoke on the ServiceNow Store.
 -   **[Shodan Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-shodan-spoke.md)**  

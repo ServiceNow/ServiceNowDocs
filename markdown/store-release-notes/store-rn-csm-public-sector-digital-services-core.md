@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-public-sector-digital-services-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Public Sector Digital Services Core application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 14.1.0 - July 2026**
+
+    Fix the plugin dependency issue from the previous release and deliver a Zurich-compatible version.
 
 -   **Version 14.0.1 - June 2026**
     -   Security Enhancements

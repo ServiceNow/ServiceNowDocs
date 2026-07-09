@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-sgc-fortinet.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,17 @@ Version history for the ServiceNow® Service Graph Connector for Fortinet applic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.9.0 - July 2026**
+    -   This release enhances attribute mapping extensibility, improves device data completeness, and gives administrators greater control over performance tuning.
+        -   What's new
+            -   Custom attribute mapping — Operators can extend or override Fortinet device attribute mappings to TSOM records without modifying core connector code. Part of a platform-wide rollout across Fortinet, Meraki, and VeloCloud connectors.
+            -   Connection URLs for discovered devices — Discovered devices now include connection URLs in TSOM for better traceability and source device linking.
+            -   Configurable ETL batch size — Administrators can adjust the number of records processed per batch to match instance capacity.
+        -   Issues fixed
+            -   Corrected device port attribute mapping errors.
+            -   Removed redundant configuration entries that could cause unexpected behavior.
+        -   Before you upgrade: If your organization has customized attribute mappings, review the new extension point for a supported, upgrade-safe alternative.
+        -   Other: Localization strings updated.
 -   **Version 2.4.1 - June 2026**
     -   Adds Logical Interfaces Discovery
     -   Adds device attributes: High Availability mode, first tunnel up time, and ADOM ID

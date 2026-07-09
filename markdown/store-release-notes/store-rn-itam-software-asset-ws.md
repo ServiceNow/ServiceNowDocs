@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,18 @@ Version history for the ServiceNow® Software Asset Workspace application on the
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 11.0.15 - July 2026 \(Australia\)**
+    -   In this version, the Software Asset Workspace includes the following fixes:
+        -   Security fix for Multi Record Associator pop-up page
+        -   Fixed incompatible script in 'SAM - Software Estate Weekly Job' PA Job
+-   **Version 11.0.10 - July 2026 \(Australia\)**
+
+    In this version, the Software Asset Workspace includes the following fix: Security fix for Multi Record Associator pop-up page
+
+-   **Version 10.0.16 - July 2026 \(Zurich\)**
+    -   In this version, the Software Asset Workspace includes the following fixes:
+        -   Security fix for Multi Record Associator pop-up page
+        -   Fixed incompatible script in 'SAM - Software Estate Weekly Job' PA Job
 -   **Version 11.0.9 - June 2026 \(Australia\)**
     -   In this version, the Software Asset Workspace includes the following enhancements:
         -   Value Builder tasks can now be added through the Multi Record Associator \(MRA\) pop-up.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-sn-legal-contracts.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Contract Management Pro for Legal Service Delivery appli
 
 ## Version history
 
+-   **Version 3.7.2 - July 2026**
+    -   New: Requestor can add signatories with different signature roles via employee center for DocuSign electronic signature.
+    -   Fixed: The Non-Disclosure Agreement \(NDA\) category now have a description.
 -   **Version 3.6.1 - June 2026**
 
     Changed: Enhanced the category description for the Non-Disclosure Agreement contract.

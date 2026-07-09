@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-common-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-07-09"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the Vulnerability Response Common Workspace application on t
 
 ## Version history
 
+-   **Version 30.5.9 - July 2026 \(USEM\)**
+    -   New: Users with the Approval role can now view data pills in the workspace
+    -   Changed:
+        -   Performance improvements to active findings queries
+        -   Boolean \(yes/no\) fields in risk rule scoring criteria now display as True/False options
+        -   Users can now adjust the risk rating through the compensating controls bulk edit workflow
+    -   Fixed: The bulk edit workflow now correctly enforces the maximum exception durationSecurity fixes
+-   **Version 2.1.1 - July 2026**
+    -   Fixed:
+        -   Security fixes
+        -   Bulk edit workflow now correctly enforces the maximum allowed exception duration when setting deferral end date.
 -   **Version 30.5.2 - June 2026 \(USEM\)**
     -   New:
         -   Bulk edit now supports updating Risk Reduction and Compensating Controls fields directly from the workspace.

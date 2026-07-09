@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-employee-slate-for-moveworks.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,21 @@ Version history for the ServiceNow® Employee Slate for Moveworks application on
 
 ## Version history
 
+-   **Version 1.2.0 - July 2026 \(Australia\)**
+    -   This release provides the following updates:
+        -   Enhanced Org chart and profile with visual updates and profile image edits
+        -   Introduced an option to configure a custom AI insights skill
+        -   Introduced Home page widget configuration from the admin console, starting with Quick links
+        -   Improved performance and accessibility support
+        -   Introduced a mandatory consent where you can accept terms and conditions on the portal based on the Moveworks consent enforcement
+-   **Version 1.1.4 - July 2026 \(Zurich\)**
+    -   This release provides the following updates and enhancements:
+        -   Enhanced Org chart and profile with visual updates and profile image edits
+        -   Introduced an option to configure a custom AI insights skill
+        -   Enhanced the Approval checklist skill with its default admin configuration to On-Demand for Employee Slate
+        -   Introduced Home page widget configuration from the admin console, starting with Quick links
+        -   Improved performance and accessibility support
+        -   Introduced a mandatory consent where you can accept terms and conditions on the portal based on the Moveworks consent enforcement
 -   **Version 1.1.2 - June 2026 \(Australia\)**
     -   This release provides the following enhancements and improvements:
         -   Enhanced accessibility support

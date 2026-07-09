@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-now-assist-irm.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Now Assist for IRM application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 22.4.0 - July 2026 \(Australia\)**
+    -   New: Now Assist for IRM is now managed as a platform dependency. The application is delivered as an installed-as-dependency plugin, hidden from the main user interface and no longer appears as a standalone application tile in the ServiceNow App Store. AI-driven IRM functionality remains available and operates as before.
+    -   Changed: AI features are now accessed through IRM Native SKU applications. Users interact with AI capabilities via the IRM Native SKU apps; the AI dependency loads transparently, requiring no customer action to maintain existing functionality.
+    -   Removed: The Now Assist for IRM standalone application is no longer available. The application tile has been removed from the ServiceNow App Store and is not visible in the main user interface. Customers now use IRM Native SKU applications for AI features.
 -   **Version 22.2.0 - May 2026 \(Australia\)**
 
     Fixed: Updated the protection policy for the 'Suggest Potential Risks use case and the Risk Identification Agent' to read-only to ensure seamless functionality for customers on the IRM Advanced tier.

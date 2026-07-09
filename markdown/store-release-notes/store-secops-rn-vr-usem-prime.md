@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-usem-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® USEM - Prime application on the ServiceNow 
 
 ## Version history
 
+-   **Version 2.1.0 - July 2026 \(USEM\)**
+    -   New: Added support for Azure OpenAI and Google Gemini models across all Now Assist AI features, giving you more flexibility in LLM provider selection
+    -   Changed: Now Assist skills now use third-party LLM providers as the default for the following capabilities: Remediation Assistance, Vulnerable Item Deduplication, Approver Recommendation, Security Exposure Management \(SEM\) Important Insights, and SPC Setup Connector
 -   **Version 2.0.0 - June 2026 \(USEM\)**
 
     New: The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data — across all types of findings within USEM.
