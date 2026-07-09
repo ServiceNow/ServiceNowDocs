@@ -13,6 +13,8 @@ is republished to [the product documentation site](https://www.servicenow.com/do
 normally at least monthly, sometimes more often.
 
 ## Change log
+- __09 July 2026__:
+  * July docs refresh
 - __25 June 2026__:
   * Fixed build bug resulting in many empty markdown files. Any remaining empty markdown files are the result of other minor build issues that will be resolved as time allows.
 - __24 June 2026__:
