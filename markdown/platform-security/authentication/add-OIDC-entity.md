@@ -7,8 +7,8 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-06-12"
+reading_time_minutes: 5
 breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
@@ -18,13 +18,13 @@ Configure an OAuth OpenID Connect \(OIDC\) provider to accept identity tokens ge
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## About this task
 
 The ServiceNow AI Platform supports OpenID Connect \(OIDC\) through the external Single Sign-On \(SSO\) implementation in addition to inbound API calls.
 
-For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-OIDC-configuration-SSO.md).
+For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
@@ -118,7 +118,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
     The record is saved in the Application Registries \[oauth\_entity\] table.
 
-    When your instance issues tokens and authorization codes it creates a record in the Application Registries \[oauth\_entity\] table with type **External OIDC Provider**. See for more information.
+    When your instance issues tokens and authorization codes it creates a record in the Application Registries \[oauth\_entity\] table with type **External OIDC Provider**. For more information, see .
 
 4.  Go to the related list on the record OAuth Entity Profiles to validate a system-generated default profile for the new OAuth provider without any scope.
 
@@ -130,7 +130,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d168753e305">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d221218e308">
 
 **Automatically provision users**
 
@@ -138,7 +138,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d168753e314">
+</td></tr><tr><td id="d221218e317">
 
 **Provision data source**
 
@@ -146,7 +146,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d168753e335">
+</td></tr><tr><td id="d221218e338">
 
 **User roles applied to provisioned users**
 
@@ -162,9 +162,9 @@ Invoke a REST API call.
 
 Perform the following steps:
 
--   Register the app in the OpenID Connect Provider.
--   Configure the OAuth OIDC Entity.
--   Configure the OIDC Provider:
+1.  Register the app in the OpenID Connect Provider.
+2.  Configure the OAuth OIDC Entity.
+3.  Configure the OIDC Provider:
 
 <table id="table_wmd_ddz_gbc"><thead><tr><th>
 
@@ -215,9 +215,24 @@ Enable JTI claim verification
 When enabled, the ServiceNow JWT token validation will also validate the JTI sent by the provider. **Note:** If validation isn’t checked, the `jti` can’t be validated, regardless if it’s present in the JWT token. The claim name in the token must be `jti`. This information is used to help prevent replay attacks.
 
 </td></tr></tbody>
-</table>-   Get a JWT token.
--   Invoke a REST API call.
-    -   The ID token in the Authorization header to access Table API or scripted web service.
+</table>4.  Get a JWT token from your OIDC provider. The method depends on your provider and the OAuth flow your application uses. For example, to get an ID token from Okta using a resource owner password grant:
+
+    ```
+    curl -X POST https://<your-okta-domain>/oauth2/default/v1/token \
+      -H "Accept: application/json" \
+      -H "Content-Type: application/x-www-form-urlencoded" \
+      --data-urlencode "grant_type=password" \
+      --data-urlencode "username=<user@example.com>" \
+      --data-urlencode "password=<password>" \
+      --data-urlencode "scope=openid" \
+      --data-urlencode "client_id=<client_id>" \
+      --data-urlencode "client_secret=<client_secret>"
+    ```
+
+    Copy the `id_token` value from the response. Use this as the Bearer token in the next step.
+
+5.  Invoke a REST API call.
+    1.  Use the ID token in the Authorization header to access the Table API or a scripted web service.
 
         ```
         curl -X GET --header "Accept:application/json" https://<instance_name>.service-now.com/api/now/table/incident/897b04f2dbd4a300a135364e9d961952 -k 
@@ -231,7 +246,7 @@ When enabled, the ServiceNow JWT token validation will also validate the JTI sen
         Zq2v_mjproXwKk5euJKrVrar2lQ4adZCOSTRuTf3ThMO5WDh0sel-82LngXtLzRJJ51IqxAsXns0kJHLLqLtH1hXNRKfwT1ScQoE_OfWm4t0KryI2j4wSMEanFtLXIw"
         ```
 
-    -   If the user is authenticated, a valid application/json response is returned. Otherwise, a "User Not Authenticated" error message is returned.
+    2.  If the user is authenticated, a valid application/json response is returned. Otherwise, a "User Not Authenticated" error message is returned.
 
         ```
         User Not Authenticated

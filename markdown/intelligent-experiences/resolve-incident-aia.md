@@ -14,7 +14,7 @@ breadcrumb: [Examples of using AI agents, Now Assist AI agents, Enable AI experi
 
 Help your live agents resolve an incident faster with Now Assist AI agents by using the Now Assist panel.
 
-Description of resolving a request with AI agents and the behind the scenes of how AI agents work 
+\[Omitted video\] Description: Description of resolving a request with AI agents and the behind the scenes of how AI agents work
 
 ## Before you begin
 

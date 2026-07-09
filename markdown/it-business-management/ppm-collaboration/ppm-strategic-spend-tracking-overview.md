@@ -7,7 +7,7 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---

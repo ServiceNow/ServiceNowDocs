@@ -46,15 +46,15 @@ To map conditions to a client role:
 
     You can also click the **Preview this record** icon to open the record.
 
-<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d329723e147">
+<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d359239e147">
 
 Field
 
-</th><th align="left" id="d329723e150">
+</th><th align="left" id="d359239e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d329723e156">
+</th></tr></thead><tbody><tr><td id="d359239e156">
 
 **Name**
 
@@ -62,7 +62,7 @@ Description
 
 Name of the HR condition.
 
-</td></tr><tr><td id="d329723e165">
+</td></tr><tr><td id="d359239e165">
 
 **Table**
 
@@ -70,7 +70,7 @@ Name of the HR condition.
 
 Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table only.Changing the table for client role assignment is not recommended.
 
-</td></tr><tr><td id="d329723e177">
+</td></tr><tr><td id="d359239e177">
 
 **Active**
 
@@ -78,7 +78,7 @@ Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table onl
 
 Check box for enabling condition.**Note:** Deactivate at the client role assignment level and not the conditions level.
 
-</td></tr><tr><td id="d329723e189">
+</td></tr><tr><td id="d359239e189">
 
 **User column**
 
@@ -86,7 +86,7 @@ Check box for enabling condition.**Note:** Deactivate at the client role assignm
 
 Together with the HR profile \[sn\_hr\_core\_profile\] table, filters users when evaluating a condition.
 
-</td></tr><tr><td id="d329723e199">
+</td></tr><tr><td id="d359239e199">
 
 **Condition**
 

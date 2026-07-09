@@ -141,7 +141,7 @@ To create a Microsoft Entra ID integration profile, request the Software Asset M
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d66475e584">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d68877e584">
 
 Interface
 
-</th><th align="left" id="d66475e587">
+</th><th align="left" id="d68877e587">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d66475e593">
+</th></tr></thead><tbody><tr><td id="d68877e593">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d66475e635">
+</td></tr><tr><td id="d68877e635">
 
 **Software Asset Workspace**
 

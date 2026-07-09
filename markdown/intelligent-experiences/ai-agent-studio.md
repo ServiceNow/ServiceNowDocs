@@ -15,7 +15,7 @@ breadcrumb: [Exploring Now Assist AI agents, Now Assist AI agents, Enable AI exp
 
 Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 
-AI Agent Studio description and example guided setups for agents and agentic workflows 
+\[Omitted video\] Description: AI Agent Studio description and example guided setups for agents and agentic workflows
 
 ## AI Agent Studio overview
 

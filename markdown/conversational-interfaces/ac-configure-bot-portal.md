@@ -135,7 +135,7 @@ Your end users can initiate and maintain an Agent Chat or Virtual Agent conversa
 
 -   **Configure other Service Portal Agent Chat features**
 
-    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
+    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-va-in-sp.md).
 
 
 **Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/ci-configuring-chat-features.md)

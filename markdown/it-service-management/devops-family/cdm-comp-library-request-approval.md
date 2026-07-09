@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d44342e141">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d392099e141">
 
 Approval action
 
-</th><th align="left" id="d44342e144">
+</th><th align="left" id="d392099e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44342e150">
+</th></tr></thead><tbody><tr><td id="d392099e150">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d44342e220">
+</td></tr><tr><td id="d392099e220">
 
 **Reject a request**
 

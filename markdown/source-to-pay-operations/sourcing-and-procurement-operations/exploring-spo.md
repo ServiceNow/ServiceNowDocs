@@ -151,7 +151,7 @@ Process Mining for Source-to-Pay Operations
 
 </td><td>
 
-With this application, provide your customers with the ability to use Platform's Process Mining capabilities on the Source-to-Pay workflows to which customers are entitled to analyze and improve source-to-pay processes.For more information on this, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/process-mining.md).
+With this application, provide your customers with the ability to use Platform's Process Mining capabilities on the Source-to-Pay workflows to which customers are entitled to analyze and improve source-to-pay processes.For more information on this, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md).
 
 </td></tr><tr><td>
 

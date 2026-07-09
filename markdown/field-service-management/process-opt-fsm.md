@@ -20,7 +20,7 @@ Use Process Mining Content Pack for FSM \(com.snc.fsm\_process\_optimization\) p
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Overview of the Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
+If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Overview of the Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analyst-workbench-overview.md).
 
 The following roles are required for using the Process Mining Content Pack for FSM.
 
@@ -40,14 +40,14 @@ The **Work order tasks** process model definition includes default activity defi
 
 ## Continual Improvement Management initiative for work order tasks
 
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for work order tasks. The improvement initiative and Process Mining model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
+If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for work order tasks. The improvement initiative and Process Mining model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/integrate-with-continuous-i.md).
 
 ## Performance Analytics for work order tasks
 
-If the Performance Analytics application is enabled, you can also use the available template configurations to open the Process Mining application from a Performance Analytics \(PA\) indicator based on the work order task data. For more information, see [Integration with Performance Analytics \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/integrate-pa.md).
+If the Performance Analytics application is enabled, you can also use the available template configurations to open the Process Mining application from a Performance Analytics \(PA\) indicator based on the work order task data. For more information, see [Integration with Performance Analytics \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/integrate-pa.md).
 
 **Related topics**  
 
 
-[Example of content pack for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/example-po-fsm.md)
+[Example of content pack for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/example-po-fsm.md)
 

@@ -23,7 +23,7 @@ Not all monitoring sources can send events to multiple target instances. In such
 -   **[Set up event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-event-forwarding-em.md)**  
 Create an event forwarding configuration record to enable events to flow from one ServiceNow instance to another instance. Forwarding events to multiple target instances requires creating separate configuration records for each target instance.
 -   **[Periodically run an event forwarding job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configuration-management-job-em.md)**  
-Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
+Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 -   **[Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-credentials-basic-auth.md)**  
 Create credentials to access a ServiceNow instance.
 

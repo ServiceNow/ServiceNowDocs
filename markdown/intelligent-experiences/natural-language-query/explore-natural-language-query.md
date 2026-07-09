@@ -41,7 +41,7 @@ NLQ doesn't support domain separation. It also doesn't support on-premise instan
 
 NLQ supports American English by default. For all applications and features except CMDB, NLQ also supports queries in Spanish, French, French Canadian, German, and Japanese.
 
-Note that you must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+Note that you must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateALanguage.md).
 
 ## Using NLQ in other applications and features
 
@@ -61,7 +61,7 @@ Analytics Q &amp; A
 
 </td><td>
 
-[Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md)
+[Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_CreateYourOwnReport.md)
 
 </td></tr><tr><td>
 
@@ -69,8 +69,8 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-Query your CMDB data without needing to know table relationships or data structures.-   [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md)
--   [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md)
+Query your CMDB data without needing to know table relationships or data structures.-   [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/querying-cmdb.md)
+-   [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/intelligent-search-cmdb.md)
 
 English is the only supported language for CMDB.
 
@@ -80,7 +80,7 @@ NLQ with AI Search in global search
 
 </td><td>
 
-[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/genius-result-nlq-ais.md) in AI Search \(supports English only\)
+[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/genius-result-nlq-ais.md) in AI Search \(supports English only\)
 
 </td></tr><tr><td>
 

@@ -37,11 +37,11 @@ Each skill must have its own unique ACL. You can't create a skill or save change
 
 ## Role restrictions
 
-Role restrictions define the specific roles under which a skill in ServiceNow executes. While ACLs determine which user roles are permitted to trigger the skill, role restrictions determine the roles the skill will operate with during execution.
+Role restrictions define the specific roles under which a skill in ServiceNow executes. While ACLs determine which user roles are permitted to trigger the skill, role restrictions determine the roles under which the skill operates during execution.
 
-For example, if a skill has and ACL of itil-admin and a role restriction of itil, only users with the itil\_admin role can trigger the skill. However, when the skill is executed, it will execute with the permissions and access of the itil role.
+For example, if a skill has and ACL of **itil-admin** and a role restriction of **itil**, only users with the **itil\_admin** role can trigger the skill. However, when the skill is executed, it executes with the permissions and access of the **itil** role.
 
-Role restrictions for skills enhances security by enabling users to limit their users during skill execution, verifying that skills run with least-access privileges.
+Role restrictions for skills enhance security by enabling users to limit their users during skill execution, verifying that skills run with least-access privileges.
 
 To configure role restrictions for a skill, see .
 

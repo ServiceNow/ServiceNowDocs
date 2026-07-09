@@ -1,5 +1,5 @@
 ---
-title: Create list views for new planning item tables in Strategic Planning
+title: Create list views for planning item tables in Strategic Planning
 description: For every new planning item table that you create, you must create the necessary list views. You can also customize the views for existing planning items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Define a new planning item type in Strategic Planning, Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Define a planning item type in Strategic Planning, Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create list views for new planning item tables in Strategic Planning
+# Create list views for planning item tables in Strategic Planning
 
 For every new planning item table that you create, you must create the necessary list views. You can also customize the views for existing planning items.
 
 ## Before you begin
 
--   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
+-   [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 -   Ensure that the application scope in your instance is set to Portfolio Planning.
 
 Role required: admin
@@ -56,5 +56,5 @@ Create the APW Default and APW Prioritization list views for the planning item t
 
 ## What to do next
 
-[Create related list views for new planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md)
+[Create related list views for planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md)
 

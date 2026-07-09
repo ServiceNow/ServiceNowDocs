@@ -25,5 +25,5 @@ After you install or upgrade to the latest Journey designer application from Ser
 -   **[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-configuration.md)**  
 Administrators configure Journey designer for the needs of their organization.
 
-**Parent Topic:**[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Journey designer]()
 

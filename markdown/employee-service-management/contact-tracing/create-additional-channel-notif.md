@@ -86,7 +86,7 @@ For example, if your company's IT network group has a Slack channel that they mo
 
     1.  Create a subflow to use in the notification.
 
-        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md).
+        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md).
 
         Use the following inputs in the subflow that you create:
 

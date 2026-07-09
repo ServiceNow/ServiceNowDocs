@@ -27,5 +27,5 @@ Dashboards are configurable graphic displays of key metrics, reports, and other 
 -   **[Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jd-va-topic.md)**  
 Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
 
-**Parent Topic:**[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Journey designer]()
 

@@ -41,9 +41,9 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
     **Note:** Because some sections on the **Overview** tab show only a portion of the information, many sections include a link that displays different or more complete information.
 
 
--   **[Sections and cards on the Overview tab for a Component-based alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-comp-based-alerts-sow.md)**  
+-   **[Overview tab sections for Component-based alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-comp-based-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Component-based alerts.
--   **[Sections and cards on the Overview tab for a Log Analytics group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)**  
+-   **[Overview tab sections for Log Analytics alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics groups.
 -   **[Information on the Overview tab for a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics alerts.

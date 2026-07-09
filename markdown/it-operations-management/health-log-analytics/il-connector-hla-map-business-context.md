@@ -1,5 +1,5 @@
 ---
-title: Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics
+title: Map logs to service instances, components, source types
 description: Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.html
@@ -13,7 +13,7 @@ keywords: [integration, mapping, automatic, log context, ServiceNow, Health Log 
 breadcrumb: [Mapping logs for contextual alerts, Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics
+# Map logs to service instances, components, source types
 
 Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 

@@ -20,5 +20,7 @@ You can view information about all the license management servers by navigating 
 
 Information such as the name of the server, the current status of the server, and the last connection time is displayed in the Engineering Application License Servers form layout.
 
+For more information, see [Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/concurrent-licenses.md) and [Engineering License overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/engineering-license-dashboard-workspace.md).
+
 **Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

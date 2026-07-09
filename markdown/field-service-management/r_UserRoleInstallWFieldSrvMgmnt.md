@@ -40,12 +40,13 @@ Manages data related to field service management. Field service management admin
 -   View expense lines.
 -   View certain fields in non-subscription-based contracts.
 -   Create questionnaires.
+-   Assign skills to agents.
 -   Book an appointment.
 
 </td><td>
 
 -   wm\_approver\_user
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   dynamic\_scheduling\_admin
 -   wm\_agent
 -   skill\_model\_admin
@@ -211,7 +212,6 @@ Initiator-qualifiers can:-   Create work orders.
 -   Create tasks.
 -   Add part requirements.
 -   Source parts.
--   Assign skills to agents.
 -   View incidentals.
 
 </td><td>
@@ -229,7 +229,6 @@ Initiator-qualifier-dispatchers can:-   Create work orders.
 -   Create tasks.
 -   Add parts requirements.
 -   Source parts.
--   Assign skills to agents.
 -   Assign work to agents.
 -   Manage agent tasks.
 -   View incidentals.
@@ -249,11 +248,12 @@ Field Service Management Manager\[wm\_manager\]
 Field Service Managers can:-   Manage agent skills
 -   Manage time cards
 -   View and maintain work schedules
+-   Assign skills to agents
 -   View and maintain personal events
 
 </td><td>
 
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   wm\_agent
 -   timecard\_manager
 -   agent\_schedule\_manager

@@ -238,5 +238,5 @@ usecase-agent mapping
 All usecase-agent mappings
 
 </td></tr></tbody>
-</table>For more information on model, dataset, prompt, and skill sync process, see [KB2674041](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2674041) article in the Now Support Knowledge Base.
+</table>Refer to the [KB2674041](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2674041) article in the Now Support Knowledge Base to learn about Model, dataset, prompt, and skill sync process.
 

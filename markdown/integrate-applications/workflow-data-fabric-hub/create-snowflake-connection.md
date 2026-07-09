@@ -129,15 +129,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure secure authentication by uploading a private key file or by entering the private key details manually.
 
-<table id="choicetable_imc_rnn_k2c"><thead><tr><th align="left" id="d451477e272">
+<table id="choicetable_imc_rnn_k2c"><thead><tr><th align="left" id="d461255e272">
 
 Option
 
-</th><th align="left" id="d451477e275">
+</th><th align="left" id="d461255e275">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d451477e281">
+</th></tr></thead><tbody><tr><td id="d461255e281">
 
 **Upload private key file**
 
@@ -147,7 +147,7 @@ Description
 2.  Browse and select the PEM file.
 
 
-</td></tr><tr><td id="d451477e302">
+</td></tr><tr><td id="d461255e302">
 
 **Enter private key contents manually**
 

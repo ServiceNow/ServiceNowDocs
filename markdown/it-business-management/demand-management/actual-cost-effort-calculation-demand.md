@@ -1,5 +1,5 @@
 ---
-title: Actual cost and effort calculation for a demand and demand task
+title: Actual cost and effort calculation for demands
 description: The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/actual-cost-effort-calculation-demand.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Actual cost and effort calculation for a demand and demand task
+# Actual cost and effort calculation for demands
 
 The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
 

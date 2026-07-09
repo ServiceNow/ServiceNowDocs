@@ -37,7 +37,7 @@ These jobs are set for manual execution to import the [badge access data](https:
 
 3.  Review and modify the settings as required.
 
-    For more information on configuring a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+    For more information on configuring a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_ScheduleADataImport.md).
 
 4.  Click **Update**.
 
@@ -47,5 +47,5 @@ These jobs are set for manual execution to import the [badge access data](https:
 **Related topics**  
 
 
-[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
+[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_ScheduleADataImport.md)
 

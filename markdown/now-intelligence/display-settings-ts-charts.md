@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/displ
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -72,7 +72,7 @@ Show 0 when no data available
 
 </td><td>
 
-Choose whether to show 0 when there is no value in the selected dataset or for the configuration.
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Show continuous line
 Available when **Show 0 when no data available** is not selected. When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>## Scatter chart display settings
+</table>## Scatter visualization display settings
 
 <table id="table_v5y_nkv_c2c"><thead><tr><th>
 
@@ -125,10 +125,10 @@ Show 0 when no data available
 
 </td><td>
 
-Choose whether to show 0 when there is no value in the selected dataset or for the configuration.
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr></tbody>
-</table>## Column chart display settings
+</table>## Column visualization display settings
 
 <table id="table_mjd_wkv_c2c"><thead><tr><th>
 
@@ -173,7 +173,7 @@ Show data table
 Shows a table with chart and graph data for easier screen reader access. Data includes the percentage of the total for each value, when appropriate.
 
 </td></tr></tbody>
-</table>## Spline, line, and step chart display settings
+</table>## Spline, line, and step visualization display settings
 
 <table id="table_xvh_rlv_c2c"><thead><tr><th>
 
@@ -224,6 +224,14 @@ Show markers
 </td><td>
 
 Display a symbol at each data point on the chart to simplify identifying specific values. Available for line, spline, area, and step charts.
+
+</td></tr><tr><td>
+
+Show 0 when no data available
+
+</td><td>
+
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr><tr><td>
 

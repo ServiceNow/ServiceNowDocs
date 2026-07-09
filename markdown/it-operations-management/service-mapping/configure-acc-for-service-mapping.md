@@ -18,7 +18,7 @@ Configure Agent Client Collector to discover and map application services withou
 
 ## Before you begin
 
-Confirm that you have installed both Agent Client Collector for Visibility - Content version 3.5.0 and the Kubernetes Visibility Agent \(KVA\) from the ServiceNow® Store.
+Confirm that you have installed both Agent Client Collector for Visibility Content version 3.5.0 and the Kubernetes Visibility Agent \(KVA\) from the ServiceNow® Store.
 
 Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/application-patterns-acc.md).
 

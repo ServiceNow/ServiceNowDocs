@@ -1,5 +1,5 @@
 ---
-title: Manage architectural artifacts of a digital interface in EA Workspace
+title: Manage architectural artifacts of a digital interface
 description: You can create new, add, or remove the architectural artifacts that are associated with a digital interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-manage-artifacts-digital-interface.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Digital interfaces in Enterprise Architecture Workspace, Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Manage architectural artifacts of a digital interface in EA Workspace
+# Manage architectural artifacts of a digital interface
 
 You can create new, add, or remove the architectural artifacts that are associated with a digital interface.
 

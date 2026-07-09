@@ -1,5 +1,5 @@
 ---
-title: Configure non-planning items for feedback or product ideas records
+title: Configure non-planning items for feedback or ideas
 description: Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/product-feedback/config-items-sp.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Feedback, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure non-planning items for feedback or product ideas records
+# Configure non-planning items for feedback or ideas
 
 Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 
@@ -53,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-[Associate a feedback or a product idea record with a non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 
 **Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

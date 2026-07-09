@@ -126,5 +126,5 @@ All instance question records that store user response values for each question 
 **Related topics**  
 
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ScheduleEvents.md)
 

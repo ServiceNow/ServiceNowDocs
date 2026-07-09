@@ -44,5 +44,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
+[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ServicePortfolioManagementv2.md)
 

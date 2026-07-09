@@ -58,7 +58,7 @@ Using the calendar, you can do the following:
 
     **Note:**
 
-    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
+    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
     Overlapping time-off requests by an agent will be rejected.
 

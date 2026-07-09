@@ -22,7 +22,7 @@ To customize the Next Experience keyboard shortcuts for your instance, see [Cust
 
 Learn more about Next Experience keyboard shortcuts from the following tutorial:
 
-Next Experience keyboard shortcuts 
+\[Omitted video\] Description: Next Experience keyboard shortcuts
 
 The keyboard shortcut modal contains a search field which searches available keyboard shortcuts specific to the screen you're viewing. The available shortcuts are grouped by category: Page Action, Page Navigation, Global Navigation, and General.
 

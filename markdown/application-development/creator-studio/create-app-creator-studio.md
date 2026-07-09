@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [App creation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -22,7 +22,7 @@ If you don't have permission to create an app, you can request that a teammate c
 
 You can also watch a short video on how to create an app.
 
-Video on how to create an app 
+\[Omitted video\] Description: Video on how to create an app
 
 Your administrator must add you to the Creator Studio Users group.
 

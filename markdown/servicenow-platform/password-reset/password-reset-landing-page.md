@@ -7,7 +7,7 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabili
 # Password Reset
 
 The ServiceNow® Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
+
+\[Omitted video\] Description: Password Reset Overview
 
 ## Password Reset for Virtual Agent
 

@@ -1,5 +1,5 @@
 ---
-title: Request approval for an architectural artifact version of type Architectural Decision Record
+title: Request approval for an ADR version
 description: Send a version of architectural artifacts of the type Architectural Decision Record \(ADR\) for approval to an Enterprise Architect user. The user reviews and approves the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-request-approval-adr.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Request approval for an architectural artifact version of type Architectural Decision Record
+# Request approval for an ADR version
 
 Send a version of architectural artifacts of the type Architectural Decision Record \(ADR\) for approval to an Enterprise Architect user. The user reviews and approves the request.
 

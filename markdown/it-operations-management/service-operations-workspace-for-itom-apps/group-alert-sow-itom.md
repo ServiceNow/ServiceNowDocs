@@ -7,7 +7,7 @@ release: yokohama
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-06-16"
 reading_time_minutes: 7
 breadcrumb: [Alert automation in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. It’s the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, CMDB, ML, and text-based grouping. Alerts are grouped with their first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
+Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. It’s the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, CMDB, ML, and text-based grouping. To learn about grouping alerts based on CI relationships in the CMDB, see [CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/cmdb-alert-groups.md). Alerts are grouped with their first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 
 Alert automation also provides a simulation feature allowing you to test how many alert groups would be formed, how many are left ungrouped, and the compression rate. A higher compression rate means your team will be more productive and may be able to identify root causes faster. However, consider whether the groups are accurate, operationally correct, and assigned to the right teams. You may adjust the group criteria until you are satisfied with the resulting groups.
 
@@ -82,7 +82,7 @@ For users familiar with the classic Event Management experience, this feature of
 
         For example, if you have alerts from USA, CA, and USA, NY, and you want to group the alerts by country, you would set the **Source** field to USA. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, then alerts will be grouped if they are at least 50% similar, meaning they share the country "USA" as a common attribute.
 
-    4.  When you select a value for the pattern match method in the grouping field, the pattern matching field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_PatternMatching.md).
+    4.  When you select a value for the pattern match method in the grouping field, the pattern matching field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_PatternMatching.md).
 
         Use asterisks \(\*\) in the search string to match any number of characters or a question mark \(?\) to match any single character. Everything else in the search string matches itself. For example, use "HTTP Error 5??" to match all HTTP 500 errors.
 

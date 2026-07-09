@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d252353e83">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d445317e83">
 
 Field
 
-</th><th align="left" id="d252353e86">
+</th><th align="left" id="d445317e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d252353e92">
+</th></tr></thead><tbody><tr><td id="d445317e92">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name for this identity.When referring to a specific entity \(an individual or organization\), this property must contain the canonical name of the specific entity.
 
-</td></tr><tr><td id="d252353e104">
+</td></tr><tr><td id="d445317e104">
 
 **Identity Class**
 
@@ -50,7 +50,7 @@ Enter a descriptive name for this identity.When referring to a specific entity \
 
 The type of entity that this identity describes. For example, individual or organization.
 
-</td></tr><tr><td id="d252353e116">
+</td></tr><tr><td id="d445317e116">
 
 **Source**
 
@@ -58,7 +58,7 @@ The type of entity that this identity describes. For example, individual or orga
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d252353e125">
+</td></tr><tr><td id="d445317e125">
 
 **Description**
 
@@ -66,7 +66,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the identity, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d252353e135">
+</td></tr><tr><td id="d445317e135">
 
 **Source ID**
 
@@ -74,7 +74,7 @@ A description that provides more details and context about the identity, potenti
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d252353e144">
+</td></tr><tr><td id="d445317e144">
 
 **Created Time in Source**
 
@@ -82,7 +82,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d252353e153">
+</td></tr><tr><td id="d445317e153">
 
 **Modified Time in Source**
 

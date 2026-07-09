@@ -7,7 +7,7 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [Integrating Now Assist in Virtual Agent with Microsoft Copilot, Using Now Assist in Virtual Agent conversations with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Use Now Assist plugins in Microsoft Copilot to connect with the Copilot by provi
 
 ## Copilot Conversations
 
-Demonstration of Now Assist and Microsoft Copilot capabilities.
+\[Omitted video\] Description: Demonstration of Now Assist and Microsoft Copilot capabilities.
 
 The Copilot integration doesn’t follow a conversational flow like the Virtual Agent. It uses a non-conversational flow and provides synchronous responses with Now Assist that are primarily built on AI Search. Therefore, any search term that you input is passed to AI Search and the results are returned from AI Search. You're then able to render the response and share it as a card in Message Extension.
 

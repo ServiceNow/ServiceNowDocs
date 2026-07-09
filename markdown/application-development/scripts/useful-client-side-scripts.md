@@ -34,8 +34,8 @@ This field passes a provided value to the **Company** field of the Service Catal
 
 This example makes the following assumptions:
 
--   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md).
--   This example populates the **Company** field on the Service Catalog Request form. If the field does not appear on the form, configure the form before beginning. For instructions, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md).
+-   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_EnableATwoStepCheckout.md).
+-   This example populates the **Company** field on the Service Catalog Request form. If the field does not appear on the form, configure the form before beginning. For instructions, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 ### Procedure
 
@@ -458,5 +458,5 @@ Action name. This value is provided in the record listed in the UI Actions \[sys
 
 [GlideUser - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_GlideUserAPI.md)
 
-[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_UIActions.md)
+[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md)
 

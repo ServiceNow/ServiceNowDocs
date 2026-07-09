@@ -20,7 +20,7 @@ Get the latest in ServiceNow® products and services on the ServiceNow AI Platfo
 
 </td><td>
 
-[Upgrades and Conversions \[Omitted image "bus-management-console.svg"\] Alt text: Take advantage of tools to bring you the latest releases for your instance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md)
+[Upgrade Console \[Omitted image "bus-management-console.svg"\] Alt text: Streamline upgrades with a single destination for tools, insights, and progress tracking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md)
 
 </td></tr></tbody>
 </table>## Upgrade Center

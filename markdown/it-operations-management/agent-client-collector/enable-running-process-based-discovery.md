@@ -1,6 +1,6 @@
 ---
 title: Enable running process-based discovery
-description: Enable running process-based discovery so that the Agent Client Collector for Visibility - Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
+description: Enable running process-based discovery so that the Agent Client Collector for Visibility Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/enable-running-process-based-discovery.html
 release: yokohama
@@ -15,13 +15,13 @@ breadcrumb: [Running process-based discovery, Agent Client Collector File-Based 
 
 # Enable running process-based discovery
 
-Enable running process-based discovery so that the Agent Client Collector for Visibility - Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
+Enable running process-based discovery so that the Agent Client Collector for Visibility Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
 
 ## Before you begin
 
 File-Based Discovery must be active on the configuration console.
 
-The Agent Client Collector for Visibility - Content Windows agent must be deployed on the endpoints.
+The Agent Client Collector for Visibility Content Windows agent must be deployed on the endpoints.
 
 Role required: disco\_admin
 

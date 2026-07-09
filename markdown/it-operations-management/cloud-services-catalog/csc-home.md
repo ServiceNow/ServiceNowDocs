@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 
 With the ServiceNow® Cloud Services Catalog application, you can use a simplified interface to access cloud resources. You can publish cloud offerings to a catalog and manage the usage and life cycle of those resources.
 
-Integrated with cloud providers, including Amazon Web Services, Microsoft Azure and Google Cloud Platform, Cloud Services Catalog \(CSC\) enables you to use the [Azure DevOps and CI-CD Pipeline Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md). You can [integrate Ansible](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md) with Cloud Services Catalog as a Day 1 activity to deploy an Ansible job template via a ServiceNow catalog item. Utilize the multi-repo support with Terraform Connector IaC Discover capabilities, for improved hierarchical structure of multiple repositories.
+Integrated with cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform, Cloud Services Catalog \(CSC\) enables you to use the [Azure DevOps and CI-CD Pipeline Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md). You can [integrate Ansible](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md) with Cloud Services Catalog as a Day 1 activity to deploy an Ansible job template via a ServiceNow catalog item. Use the multi-repo support with Terraform Connector IaC Discover capabilities, for improved hierarchical structure of multiple repositories.
+
+**Note:** Cloud Services Catalog supports self-hosted environment. Make sure that the MID Server has the internet access. For more information, see the [Deployment Guide for the self-hosted environment \[KB0563731\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563731) article in the Now Support Knowledge Base.
 
 [AWS, Azure and Google Cloud Platform Out Of Box Catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md) are available with this release of Cloud Services Catalog. You can either order one of the catalog items as demonstrated in this video, or create one.
 

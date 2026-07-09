@@ -56,7 +56,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/aes-overview.md)
+[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Now Assist in Conversational Spokes application to utilize the conversational ab
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
+[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence-landing.md)
 
 </td><td>
 
@@ -136,7 +136,7 @@ Integration Hub Remote Process Sync enables you to set up one-way or bidirection
 
 </td></tr><tr><td>
 
-[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/process-mining.md)
+[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ Process Mining helps analysts and process owners quickly analyze and optimize th
 
 </td></tr><tr><td>
 
-[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
+[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
@@ -177,19 +177,19 @@ Power AI agents and enrich workflows on the ServiceNow AI Platform with real-tim
 </td></tr></tbody>
 </table>## Related ServiceNow applications and features
 
--   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)**
+-   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication.md)**
 
     ServiceNow® Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances. IDR enables you to maintain consistent data across different instances. For example, you can synchronize data between different organizations in your company or even between different companies with separate instances.
 
--   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_InboundEmailActions.md)**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md)**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 
--   **[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/actions.md)**
+-   **[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/actions.md)**
 
     Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 

@@ -31,7 +31,7 @@ By editing the definition check, you can change description and script.
 
 **Parent Topic:**[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
 
-**Previous topic:**[URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)
+**Previous topic:**[URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)
 
 **Next topic:**[Run Tuning checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/run-tuning-checks.md)
 

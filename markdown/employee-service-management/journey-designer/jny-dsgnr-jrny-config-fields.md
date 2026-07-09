@@ -60,7 +60,7 @@ A Journey type is a category used to identify the intention of the journey, such
 
 </td><td>
 
-Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events]().
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Option to enable a change in manager. Selecting this option will update the jour
 -   Approvals: Assigned to
 -   Requests: Requested for
 
-**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flow-activate.md). Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
+**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-activate.md). Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
 
 </td></tr><tr><td>
 

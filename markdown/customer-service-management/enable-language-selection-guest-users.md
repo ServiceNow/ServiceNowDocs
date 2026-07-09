@@ -33,9 +33,9 @@ If languages aren’t grouped, users can view all available languages as a full-
 **Related topics**  
 
 
-[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/configure-header-menu.md)
+[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-header-menu.md)
 
-[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/properties-service-portal.md)
+[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/properties-service-portal.md)
 
-[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization/create-regions.md)
+[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-regions.md)
 

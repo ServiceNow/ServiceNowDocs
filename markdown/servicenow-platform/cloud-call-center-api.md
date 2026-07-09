@@ -18,7 +18,7 @@ The CTIOperationRequest API provides methods to set and get data on the current 
 
 The CTIOperationResponse API provides methods to set and get data on the current CTIOperationResponse object. For information on this API, see [CTIOperationResponse - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/CTIOperationResponseAPI.md).
 
-The CTI API provides REST resources that enable Computer Telephony Integration \(CTI\) providers to interact with the Voice framework. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/cti-api.md).
+The CTI API provides REST resources that enable Computer Telephony Integration \(CTI\) providers to interact with the Voice framework. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cti-api.md).
 
 -   **[Provider configuration in Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/provider-configuration-ccc.md)**  
 For both inbound and outbound calls, a provider configuration contains settings about the involved components and message transformers for a specific third-party phone system provider. Any request from that phone system provider is handled within ServiceNow based on these settings.

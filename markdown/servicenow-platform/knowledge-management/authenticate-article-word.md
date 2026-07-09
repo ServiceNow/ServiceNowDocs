@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,6 +21,8 @@ Author and collaborate on knowledge articles in Microsoft Word by logging in to 
 You must have contribute access to the knowledge base within which you want to create the knowledge article.
 
 The system administrator and Office 365 administrator have configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
+
+Role required: agent
 
 ## About this task
 
@@ -36,7 +38,7 @@ You need to authenticate with your ServiceNow instance credentials for accessing
 
 3.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-4.  On the Home tab, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
+4.  On the Home tab, click the Knowledge icon .
 
 5.  In the Knowledge Management pane of the Word document, click **Log in to ServiceNow**.
 

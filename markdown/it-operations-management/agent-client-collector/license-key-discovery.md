@@ -1,6 +1,6 @@
 ---
 title: License key discovery
-description: License key discovery in Agent Client Collector for Visibility - Content automatically collects software license keys from the Windows registry on managed endpoints.
+description: License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/license-key-discovery.html
 release: yokohama
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [license key discovery, ACC-VC, Windows registry, software license, agent client collector]
-breadcrumb: [Using Agent Client Collector for Visibility - Content, Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # License key discovery
 
-License key discovery in Agent Client Collector for Visibility - Content automatically collects software license keys from the Windows registry on managed endpoints.
+License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
 
-License key discovery enables the Agent Client Collector for Visibility - Content \(ACC-VC\) Windows agent to read software license keys stored in the Windows registry on managed endpoints. When a device is discovered, the agent reads registry values defined by an admin-configured list of registry paths and value names, and reports the results in your instance.
+License key discovery enables the Agent Client Collector for Visibility Content \(ACC-VC\) Windows agent to read software license keys stored in the Windows registry on managed endpoints. When a device is discovered, the agent reads registry values defined by an admin-configured list of registry paths and value names, and reports the results in your instance.
 
 The feature is off by default and must be explicitly enabled using a system property.
 
@@ -32,7 +32,7 @@ Specific roles are required to configure and view license key discovery data. Fo
 No role can delete license key records. If a key that was previously detected is no longer found on a device, it is marked as **Absent** rather than deleted, preserving the audit trail.
 
 -   **[Configure license key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/configure-license-key-discovery.md)**  
-Enable license key discovery and define the registry paths and values you want the Agent Client Collector for Visibility - Content Windows agent to collect from managed endpoints.
+Enable license key discovery and define the registry paths and values you want the Agent Client Collector for Visibility Content Windows agent to collect from managed endpoints.
 
-**Parent Topic:**[Using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

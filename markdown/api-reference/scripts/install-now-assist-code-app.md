@@ -42,7 +42,7 @@ Role required: admin
 
         \[Omitted image "now-assist-code-skill.png"\] Alt text: Now Assist skills are active.
 
-    For more information about Now Assist Admin, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+    For more information about Now Assist Admin, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 
 ## What to do next
@@ -54,5 +54,5 @@ Grant the now.assist.creator role to each user you want to use code generation.
 **Related topics**  
 
 
-[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
 

@@ -41,6 +41,8 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 </table>## Additional resources
 
 -   Learn more about what's new and changed in this release at [Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/financial-services-operations-rn-landing.md).
--   Log into your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/now/lxp/home). For example, there are suite certifications for [FSO Insurance Professional](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=33a55c0147ee3d9050593369126d4306&s=1&ssa=3) and [FSO Banking and Wealth Management Professional](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=7765d8cd47ae3d9050593369126d4381&s=1&ssa=3).
+-   Connect with other Financial Services Operations users in the [FSO community forum](https://www.servicenow.com/community/fso/ct-p/financial-services-operations).
 

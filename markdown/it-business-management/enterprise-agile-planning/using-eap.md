@@ -55,7 +55,7 @@ For example, in the screenshot, **Capability** is the default item type mapped t
 
 View the details of any work item in the side panel by selecting its primary column. To access all the fields and related lists of the work item, select **Full details** from the side panel.
 
-**Note:** The Backlog page for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Backlog might show only Features by default. If you want to view other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP Backlog and Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
+**Note:** The Backlog page for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Backlog might show only Features by default. If you want to view other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
 
 ## Completed and cancelled items in Backlog
 

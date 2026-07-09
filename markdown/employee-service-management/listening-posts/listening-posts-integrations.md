@@ -23,5 +23,5 @@ Listening Posts integration with Usage Insights provides an interpretation of an
 -   **[Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/integrating-li-jny.md)**  
 Use Listening Posts with Journey designer to embed pulse surveys to get insight into employees' experiences and share those insights with managers.
 
-**Parent Topic:**[Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Listening Posts]()
 

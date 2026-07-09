@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -105,7 +105,7 @@ Translates text from the source language to the target language using AWS Transl
 -   If you select **Auto** from the **Source Language** list, the AWS Translate API uses the AWS Comprehend service to automatically detect the language. In this case, you must provide the region that supports Amazon Comprehend. Else, the request returns an error indicating the auto-detect is not supported.
 
 </td></tr></tbody>
-</table>**Note:** The actions have **Region** as an input. To retrieve the list of available regions, use the List Regions action from the [Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+</table>**Note:** The actions have **Region** as an input. To retrieve the list of available regions, use the List Regions action from the [Amazon EC2 Spoke]().
 
 ## Connection and credential alias requirements
 

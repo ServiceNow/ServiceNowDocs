@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -73,10 +73,4 @@ From an article
         -   For a user with no access to this article, which user criteria may be modified to grant the access.
         **Note:** Members of an ownership group are automatically given **Can Contribute** access to knowledge articles that their ownership group is associated with.
 
-
-## Example
-
-The following image shows an example of a diagnosis where the user Adela Cervantsz has read access to the KB article, KB0000001 v5.0, in the IT knowledge base because Adela belongs to one of the **Can Read** user criteria defined in the knowledge base.
-
-\[Omitted image "user-crit-diag-article.png"\] Alt text: User criteria diagnosis for an article.
 

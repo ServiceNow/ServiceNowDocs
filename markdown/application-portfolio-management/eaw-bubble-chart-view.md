@@ -26,7 +26,7 @@ You can also create your own application indicators to analyze business applicat
 
 **Note:**
 
--   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
+-   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
 -   If the created indicator isn’t displayed in the bubble size list, verify that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
 
 ## Bubbles displayed on the chart
@@ -70,7 +70,7 @@ You can perform the following by hovering over a bubble in the chart and then se
 
 -   Create a demand for a business application. For more information, see [Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md).
 -   Set the planned disposition of a business application. For more information, see [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md).
--   Add business application lifecycle data. For more information, see [Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md).
+-   Add business application lifecycle data. For more information, see [Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md).
 
 ## Zoom or pan on the bubble chart
 
@@ -153,7 +153,7 @@ Create a system property to view indicator scores of a custom scoring profile on
 Create a demand for an application from the bubble chart.
 -   **[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)**  
 Set the planned disposition of a business application to track decisions on the plan of the application.
--   **[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)**  
+-   **[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)**  
 Create or edit the life cycle of a business application to manage the business application.
 -   **[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)**  
 You can make updates to the business application record directly from the list, without leaving the bubble chart view.

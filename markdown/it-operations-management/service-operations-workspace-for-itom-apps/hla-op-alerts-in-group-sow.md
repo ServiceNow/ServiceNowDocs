@@ -1,5 +1,5 @@
 ---
-title: View the list of Log Analytics alerts in a Log Analytics group
+title: View Log Analytics alerts in a group
 description: View the list of all Log Analytics alerts in a Log Analytics group on the Related records tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alerts-in-group-sow.html
@@ -9,10 +9,10 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Sections and cards on the Overview tab for a Log Analytics group, Take action on a Health Log Analytics alert from the Overview tab, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Overview tab sections for Log Analytics alert groups, Take action on a Health Log Analytics alert from the Overview tab, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# View the list of Log Analytics alerts in a Log Analytics group
+# View Log Analytics alerts in a group
 
 View the list of all Log Analytics alerts in a Log Analytics group on the **Related records** tab.
 
@@ -155,5 +155,5 @@ Most recent time when the alert information or state was updated.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Sections and cards on the Overview tab for a Log Analytics group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
+**Parent Topic:**[Overview tab sections for Log Analytics alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
 

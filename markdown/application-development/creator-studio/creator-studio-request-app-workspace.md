@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -30,11 +30,11 @@ Each app has its own section in the workspace, with lists to filter for submitte
 
 ## Using lists to find tickets in various states
 
-Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
+Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-filtered-list-agent-workspace.md).
 
 \[Omitted image "crs-form-sub-workspace.png"\] Alt text: Fulfillers work on requests in the workspace
 
-The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out [Using lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/list-menu.md).
+The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out [Using lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-menu.md).
 
 ## Using dashboards to analyze request fulfillment
 
@@ -50,8 +50,8 @@ After you find the subset of requests you need, such as open requests assigned t
 
 The submitted request record has various tabs that help you do your work. For details on using records to fulfill requests, see the following topics:
 
--   [Working on records in your Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/working-on-requests-in-your-workspace.md)
--   [Responding to issues in an open record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/finding-answers.md)
+-   [Working on records in your Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/working-on-requests-in-your-workspace.md)
+-   [Responding to issues in an open record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/finding-answers.md)
 
 **Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

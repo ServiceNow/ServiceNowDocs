@@ -20,7 +20,7 @@ The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table stores
 
 The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see Customizations tracked by update sets.
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/customizations-tracked-update-sets.md).
 -   Models a request parameter originating from an EMR system.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.
@@ -97,7 +97,7 @@ True/False
 
 Used to classify whether the information received by this parameter is sensitive or not.
 
- **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled. To learn more bout column level encryption, see: [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/encryption-landing.md) .
+ **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled. To learn more bout column level encryption, see: [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md) .
 
 </td></tr><tr><td>
 

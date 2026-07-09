@@ -40,5 +40,5 @@ Variable editor displays variable values in fulfiller forms. A requester, while 
 
 [Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
 
-[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/use-service-catalog-variables-in-report.md)
+[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
 

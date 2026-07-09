@@ -154,7 +154,7 @@ AI Health Monitor
 
 </td><td>
 
-If this flag is enabled, the engagement health is monitored by the Monitor engagement health agentic workflow. See [Now Assist for Telecommunications, Media and Technology \(TMT\) Monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) for details.
+If this flag is enabled, the engagement health is monitored by the Monitor engagement health agentic workflow. See [Now Assist for Telecommunications, Media and Technology \(TMT\) Monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-monitor-health.md) for details.
 
 </td></tr><tr><td>
 

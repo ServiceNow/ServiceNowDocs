@@ -28,7 +28,7 @@ Watch this video for an overview of how the Agent Client Collector works.
 
 </td><td>
 
-[Agent Client Collector for Visibility - Content\[Omitted image "bus-extend-visability.svg"\] Alt text:Collect host data on servers using Agent Client Collector for Visibility - Content.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-visibility-landing-page.md)
+[Agent Client Collector for Visibility Content\[Omitted image "bus-extend-visability.svg"\] Alt text:Collect host data on servers using Agent Client Collector for Visibility Content.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-visibility-landing-page.md)
 
 </td></tr><tr><td>
 

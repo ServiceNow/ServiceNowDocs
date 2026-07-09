@@ -19,7 +19,7 @@ Use the IT Service Management AI agents within an agentic workflow to complete t
 
 ## Overview of Incident triaging and resolution agentic workflows
 
-Incident triaging and resolution agentic workflows 
+\[Omitted video\] Description: Incident triaging and resolution agentic workflows
 
 ## Agentic workflows for Now Assist IT Service Management
 

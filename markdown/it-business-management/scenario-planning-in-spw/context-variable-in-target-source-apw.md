@@ -26,7 +26,7 @@ The mandatory context variables are created when you've selected the Goal Framew
 
 -   \(For target source type, PA Indicator\) On the Target Source form, the **Type** field is set to **PA Indicator** and the value populated in the **Breakdown** field isn't of Choice list type.
 
-    To create a context variable for the target source type, PA Indicator, where the Breakdown field is of Choice list type, see [Create a context variable for the target source type PA Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-type-pa-indicator-apw.md).
+    To create a context variable for the target source type, PA Indicator, where the Breakdown field is of Choice list type, see [Create a context variable for a PA Indicator target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-type-pa-indicator-apw.md).
 
 
 **Note:** Mandatory context variables can't be deleted.

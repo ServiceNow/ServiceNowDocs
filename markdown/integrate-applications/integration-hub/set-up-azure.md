@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Director
 
 Integrate the ServiceNow instance and your Microsoft Entra account by creating a custom OAuth application in Microsoft Entra ID to authenticate ServiceNow requests.
 
-Demonstrates how to set up theMicrosoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\). 
+\[Omitted video\] Description: Demonstrates how to set up theMicrosoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\).
 
 ## Before you begin
 

@@ -26,7 +26,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 3.  Fill in the fields on the Create New pop-up window.
 
-    For more information about these fields, see [Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md).
+    For more information about these fields, see [Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-an-investment-report.md).
 
 4.  Click **Create**.
 

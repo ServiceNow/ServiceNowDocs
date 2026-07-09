@@ -27,7 +27,7 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-A pure IPv6 MID Server does not need to be configured for IPv6. It connects to IPv6 by default, and the **ecc\_agent** record for the MID Server is automatically populated with IPv6. Contact Support to ensure your instance is IPv6 enabled.
+A pure IPv6 MID Server does not need to be configured for IPv6. It connects to IPv6 by default, and the **ecc\_agent** record for the MID Server is automatically populated with IPv6. Contact Support to ensure your instance is IPv6 enabled. To enable inbound IPv6 for your instance, see [How to enable inbound IPv6 for an instance using a Service Catalog \[KB1166209\].](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1166209)
 
 On a dual stack host, the MID Server defaults to using IPv4. The following procedure configures a dual stack MID Server to use IPv6. The following tables are automatically updated during upgrade to Tokyo to support IPv4 and IPv6:
 

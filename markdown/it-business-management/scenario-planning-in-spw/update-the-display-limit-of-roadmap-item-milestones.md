@@ -1,5 +1,5 @@
 ---
-title: Update the display limit of items on Prioritization and Roadmap
+title: Update the display limit of Prioritization and Roadmap items
 description: Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update the display limit of items on Prioritization and Roadmap
+# Update the display limit of Prioritization and Roadmap items
 
 Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 
@@ -27,12 +27,12 @@ Role required: admin
 
 The default display limit for Prioritization and Roadmap pages are:
 
--   Planning items shown in the prioritization view = 250
--   Roadmap items shown in the roadmap view = 250
--   Goals shown in the hierarchy view =250
--   Item-level milestones in the roadmap view = 100
--   Items shown in all the Kanban views = 250
--   Lanes shown in all the Kanban views = 30
+-   Planning items shown in the Prioritization tab = 250
+-   Roadmap items shown in the Roadmap tab = 250
+-   Goals shown in the Hierarchy tab =250
+-   Item-level milestones in the Roadmap view = 100
+-   Items shown in the Kanban tab = 250
+-   Lanes shown in the Kanban tab = 30
 
 If the total number exceeds these default limits, the additional number of planning items, milestone indicators, and vertical lanes are not visible in the workspace. To overwrite this default setting, create a system property and set its value to a desired limit of display.
 
@@ -48,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d49150e153">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d264130e159">
 
 Field
 
-</th><th align="left" id="d49150e156">
+</th><th align="left" id="d264130e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49150e162">
+</th></tr></thead><tbody><tr><td id="d264130e168">
 
 **Name**
 
@@ -67,7 +67,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d49150e188">
+</td></tr><tr><td id="d264130e194">
 
 **Type**
 
@@ -75,7 +75,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d49150e197">
+</td></tr><tr><td id="d264130e203">
 
 **Value**
 
@@ -84,7 +84,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Select **Submit**.
 

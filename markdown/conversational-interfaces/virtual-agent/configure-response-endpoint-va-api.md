@@ -45,7 +45,7 @@ Role required: admin
 
 5.  Review the JSON response returned from the endpoint call.
 
-    For a description of the Virtual Agent API response parameters and an example of a successful response, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/bot-api.md).
+    For a description of the Virtual Agent API response parameters and an example of a successful response, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/bot-api.md).
 
 
 **Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-api.md)

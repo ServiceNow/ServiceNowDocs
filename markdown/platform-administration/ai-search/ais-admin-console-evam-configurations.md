@@ -77,21 +77,21 @@ Add a new result-card interface for your search application
 
 5.  From the Select a bundle to edit list, select an EVAM configuration bundle.
 
-    You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
+    You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/define-composite-dataset.md).
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d87816e252">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d381841e252">
 
 Option
 
-</th><th align="left" id="d87816e255">
+</th><th align="left" id="d381841e255">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d87816e261">
+</th></tr></thead><tbody><tr><td id="d381841e261">
 
 **Create an EVAM view configuration**
 
@@ -101,7 +101,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d87816e285">
+</td></tr><tr><td id="d381841e285">
 
 **Edit the existing EVAM view configuration**
 

@@ -18,11 +18,11 @@ ServiceNow AI Platform® utilises large language models \(LLM\) for generative A
 
 ## Third-party model strategy
 
-ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. The Now LLM Service is the default LLM. Find the supported model providers, the LLM services and the version.
+ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. Find the supported model providers, the LLM services and the version.
 
 |Model provider|Large language model|Version|Deployment policy|
 |--------------|--------------------|-------|-----------------|
-|ServiceNow®|Now LLM Service|Latest update for your instance|Default|
+|ServiceNow®|Now LLM Service|Latest update for your instance| |
 |Microsoft Azure|Azure OpenAI|OpenAI GPT-4.1 and GPT-4.1-mini|[https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types\#global-standard](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-standard)|
 |Google|Google Gemini|Gemini 2.5 Flash and 2.5 Pro|[https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations)|
 |AWS|AWS Claude|Claude 3.7 Sonnet|[https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)|

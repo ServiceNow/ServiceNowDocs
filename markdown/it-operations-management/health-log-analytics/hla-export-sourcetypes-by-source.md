@@ -1,6 +1,6 @@
 ---
-title: Export source types to an update set by log source in Health Log Analytics
-description: Export all source types related to one or more selected log sources to an update set together. You can then import the update set to the target environment.
+title: Export source types by log source
+description: Export all source types related to one or more selected log sources to an update set together in Health Log Analytics. You can then import the update set to the target environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [ServiceNow, Health Log Analytics, HLA, source types, log source, migr
 breadcrumb: [Migrating Health Log Analytics data input configurations between instances, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Export source types to an update set by log source in Health Log Analytics
+# Export source types by log source
 
-Export all source types related to one or more selected log sources to an update set together. You can then import the update set to the target environment.
+Export all source types related to one or more selected log sources to an update set together in Health Log Analytics. You can then import the update set to the target environment.
 
 ## Before you begin
 

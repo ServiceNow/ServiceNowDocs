@@ -67,7 +67,7 @@ Role required: admin
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_PersonalizeAForm.md)
 
 ## Manage personalized forms
 
@@ -91,9 +91,9 @@ Role required: admin
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_PersonalizeAForm.md)
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Disable form personalization
 
@@ -119,5 +119,5 @@ Activating the Personalize Forms plugin sets the **glide.ui.personalize\_form** 
 **Related topics**  
 
 
-[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
+[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_PersonalizeAForm.md)
 

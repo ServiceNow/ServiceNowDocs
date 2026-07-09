@@ -20,8 +20,8 @@ ITOM Visibility offers several methods for AWS cloud discovery. Each method supp
 
 ## AWS cloud discovery use cases
 
-|Use case|Cloud Discovery \(Pattern-based\)|Horizontal discovery with AWS Systems Manager \(AWS SSM\)|Service Graph Connectors|Agent Client Collector for Visibility - Content \(without MID Server\)|Agent Client Collector for Visibility - Content \(with MID Server\)|IP-based Horizontal Discovery \(Pattern-based\)|
-|--------|---------------------------------|---------------------------------------------------------|------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
+|Use case|Cloud Discovery \(Pattern-based\)|Horizontal discovery with AWS Systems Manager \(AWS SSM\)|Service Graph Connectors|Agent Client Collector for Visibility Content \(without MID Server\)|Agent Client Collector for Visibility Content \(with MID Server\)|IP-based Horizontal Discovery \(Pattern-based\)|
+|--------|---------------------------------|---------------------------------------------------------|------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------|
 |IT Service Management \(ITSM\) - basic and generic virtual CI classes|Yes|Yes|Yes|No|No|No|
 |ITSM - extended virtual CI classes|Yes|Yes|No|No|No|No|
 |ITSM - hardware CI classes|No|Yes|Yes|Yes|Yes|Yes|
@@ -54,11 +54,11 @@ Service Graph Connectors
 
 </th><th>
 
-Agent Client Collector for Visibility - Content \(without MID Server\)
+Agent Client Collector for Visibility Content \(without MID Server\)
 
 </th><th>
 
-Agent Client Collector for Visibility - Content \(with MID Server\)
+Agent Client Collector for Visibility Content \(with MID Server\)
 
 </th><th>
 

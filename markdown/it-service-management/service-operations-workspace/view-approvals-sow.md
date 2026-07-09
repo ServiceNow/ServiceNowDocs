@@ -20,11 +20,15 @@ Access the My Approvals in SOW to manage the approval requests for change, reque
 
 Role required: itil, sn\_change\_read, sn\_request\_read
 
+**Note:** The **Approvals** section is visible only when approval requests are actively assigned to your user account. If you have the required role but no approvals are displayed, it implies that currently no pending requests are assigned to you.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
 2.  Navigate to **List** &gt; **Approvals** &gt; **My Approvals**.
+
+    **Note:** If **My Approvals** doesn't appear under **List**, verify that approval requests are actively assigned to you and that you have one of the required roles: itil, sn\_change\_read, or sn\_request\_read
 
 3.  Select a record to approve or reject the request.
 

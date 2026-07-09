@@ -16,7 +16,7 @@ breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Managemen
 
 The ServiceNow® Cloud Discovery Workspace dashboard provides a summary of the cloud operations of your organization and shows the ServiceNow applications that you can use to manage them.
 
-**Note:** To access the in-product help, [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md). You can improve the visual experience by using the dark theme. For more information, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
+**Note:** To access the in-product help, [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md). You can improve the visual experience by using the dark theme. For more information, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Required ServiceNow AI Platform roles
 
@@ -109,5 +109,5 @@ This report displays the trend of the cloud events received over the last 24 hou
 **Related topics**  
 
 
-[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/list-of-workspaces.md)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-of-workspaces.md)
 

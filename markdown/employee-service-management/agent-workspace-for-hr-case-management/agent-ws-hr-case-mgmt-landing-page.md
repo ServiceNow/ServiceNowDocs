@@ -16,7 +16,7 @@ breadcrumb: [HR Service Delivery, Employee Service Management]
 
 Agent Workspace for HR Case Management \(Configurable\) is one of two workspaces available for the HR Service Delivery application and uses the Next Experience user interface. It is built on a configurable UI Builder version, which makes it easy to configure and extend according to business needs.
 
-
+\[Omitted video\]
 
 ## Comparison between HR Service Delivery Core UI, HR Service Delivery Agent Workspace \(Classic\), and Agent Workspace for HR Case Management \(Configurable\)
 

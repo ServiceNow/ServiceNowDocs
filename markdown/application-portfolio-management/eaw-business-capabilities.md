@@ -33,11 +33,11 @@ You can view the list of all available capabilities in the Enterprise Architectu
 Create or edit a business capability to align your organization’s business goals.
 -   **[Create a sub-capability from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-sub-capability-from-the-portfolio-page.md)**  
 You can add a sub-capability to a capability.
--   **[Create a Lucidchart diagram for a business capability in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-lucid-diagram-cap.md)**  
+-   **[Create a Lucidchart diagram for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-lucid-diagram-cap.md)**  
 Create a diagram in Lucidchart for your business capability maps and associate it with an architectural artifact.
--   **[View value stream stages associated with a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.md)**  
+-   **[View value stream stages for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.md)**  
 You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
--   **[Manage architectural artifacts of a business capability in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-bc.md)**  
+-   **[Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-bc.md)**  
 You can create new, add, or remove the artifacts that are associated with a business capability.
 
 **Parent Topic:**[Working with business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)

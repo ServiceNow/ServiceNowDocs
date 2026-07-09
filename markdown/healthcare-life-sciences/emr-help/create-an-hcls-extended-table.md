@@ -24,7 +24,7 @@ Set your scope to Healthcare and Life Sciences Service Management Core.
 
 ## About this task
 
-Video showing how to create a custom healthcare case type.
+\[Omitted video\] Description: Video showing how to create a custom healthcare case type.
 
 ## Procedure
 

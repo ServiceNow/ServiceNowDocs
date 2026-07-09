@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Creating a connection for the Anglepoint integration, Authorized SAM Provider \(ASP\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Creating a connection for the Anglepoint integration, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # Create an API user for the Anglepoint integration
@@ -116,7 +116,7 @@ Web service access only
 
 </td><td>
 
-Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md) for more information on non-interactive users.**Note:** This option must be enabled.
+Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_NonInteractiveSessions.md) for more information on non-interactive users.**Note:** This option must be enabled.
 
 </td></tr><tr><td>
 

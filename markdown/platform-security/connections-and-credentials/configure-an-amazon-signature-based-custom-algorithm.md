@@ -7,7 +7,7 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Authentication Algorithms, Connections and Credentials, Access Management]
 ---
@@ -143,11 +143,16 @@ Input REST step with AWS as follows:
 -   **HTTPS Method**: In this case it is GET method.
 -   **Query Parameters**: **Action** as **DescribeRegions**.
 
-\[Omitted image "aws-regions-get.png"\] Alt text: GET AWS Region
-
 You can test the action, the associated regions are displayed. The response body is as follows:
 
 \[Omitted image "response-body-aws.png"\] Alt text: Code Snippet sample
 
 Amazon V4 is defined with standard set of algorithm that supports authentication mechanism. This algorithm when used adds the signature as authorization header for authentication \(HTTP request\) using REST step.
+
+**Note:** If there's the following response code displayed, create `com.glide.aws.auth.calculate.region.and.service` property and set it to `True`.
+
+```
+{"message":"Credential should be scoped to a valid region. Credential should be scoped to correct service: 'execute-api'. "}
+
+```
 

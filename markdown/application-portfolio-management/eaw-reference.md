@@ -18,11 +18,11 @@ Reference topics that provide additional details about Enterprise Architecture W
 An Enterprise architect can create a diagram using a diagramming tool for a business application hierarchy and associate it with an architectural artifact.
 -   **[Create diagram for a business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-diagram-bc.md)**  
 An Enterprise architect can create a diagram using Lucidchart for a business capability maps and associate it with an architectural artifact.
--   **[Create new TRM product request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-req-form.md)**  
+-   **[Create TRM product request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-req-form.md)**  
 Create a new request to include a new software product to the TRM library. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[Create new TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-new-trm-prod-form.md)**  
 As an Enterprise Architect, you can add a new software product to the TRM library. It creates the record directly without sending a request for approval.
--   **[Create new TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md)**  
+-   **[Create TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md)**  
 Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
 Add a new request to create a lifecycle for a TRM product. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
@@ -126,7 +126,7 @@ Architectural artifacts describe a system, solution, or state of an enterprise. 
 Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products. These associations creates a relationship between the artifact and related entities.
 -   **[Create diagram action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-diagram-action-form.md)**  
 The diagram action form helps you to create action for a custom shape that can be used in the Enterprise Modeling and Visualization.
--   **[New image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-image-form.md)**  
+-   **[Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-image-form.md)**  
 The image form helps you to create an image file in the database for a custom shape that can be used in the Enterprise Modeling and Visualization.
 -   **[Certification policy form in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-certification-policy-form.md)**  
 A system administrator with Enterprise Architecture \(formerly APM\) admin role can create and assign data certification tasks to the system owners for certifying business application data.

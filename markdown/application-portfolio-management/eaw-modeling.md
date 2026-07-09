@@ -14,7 +14,7 @@ breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(former
 
 The Enterprise Modeling and Visualization functionality in EA Workspace helps you with diagramming and modeling capabilities, and enable you to model the future state of your IT and its relationship to the business landscape.
 
-Enterprise Modeling and Visualization overview 
+\[Omitted video\] Description: Enterprise Modeling and Visualization overview
 
 You can use the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] functionality in EA Workspace to create diagrams for your applications hierarchy and associate them with architectural artifacts. These diagrams enable decision makers to make informed decisions.
 
@@ -101,7 +101,7 @@ Create a diagram and synchronize it to the ServiceNow database.
 Create and model your business capability map using the Enterprise Modeling and Visualization.
 -   **[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-update-bc-map.md)**  
 Modify an existing business capability map by adding new capabilities, business applications, or changing the hierarchy of the existing capabilities.
--   **[Add a business capability or business application to the capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)**  
+-   **[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)**  
 Add a new or existing business capability or business application to the capability map using the Enterprise Modeling and Visualization.
 -   **[Create diagram for a business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-ba-map.md)**  
 Create and model your business application hierarchy map using the Enterprise Modeling and Visualization.

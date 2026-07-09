@@ -22,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-This video demonstrates how to create a policy for Schedule Optimization. 
+\[Omitted video\] Description: This video demonstrates how to create a policy for Schedule Optimization.
 
 Policies help achieve your optimization goals by combining objectives and constraints. Understanding your goals lets you customize optimization strategies.
 

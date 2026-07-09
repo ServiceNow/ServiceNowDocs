@@ -53,7 +53,7 @@ The base system landing pages can only be modified if you make a copy first.
 
 In order to modify a landing page supplied by the base system, you must first make a copy.
 
-To make a copy of your landing page, use the UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/ui-builder-overview.md).
+To make a copy of your landing page, use the UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
 ## Classic HR Service Delivery Agent Workspace Create a new case form
 
@@ -230,7 +230,7 @@ SLA timer configuration
 
 </td><td>
 
-The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see [SLA timer configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
+The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see [SLA timer configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sla-timer-configurations.md).
 
  Field appears when you select **SLA Timer** in the **Type** field.
 

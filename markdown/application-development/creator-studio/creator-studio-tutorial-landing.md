@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 14
 breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -50,7 +50,7 @@ Role required: Creator Studio User
 
 You can also watch a short video on how to create an app.
 
-Video on how to create an app 
+\[Omitted video\] Description: Video on how to create an app
 
 ### Procedure
 

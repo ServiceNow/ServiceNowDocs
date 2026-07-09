@@ -43,5 +43,5 @@ You can also configure the following widget options:
 
 To configure the widget options, navigate to the **Service Portal Configuration** module, select the widget editor, search for **Relevant for you**, and click **Edit Option Schema**.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery]()
 

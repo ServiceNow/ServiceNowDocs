@@ -29,8 +29,8 @@ Complete the following tasks to set up and configure an Idea Portal for your pro
 Configure the Idea Portal URL to enable access to the Idea Portal from the application navigator.
 2.  [Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/create-idea-module.md)  
 An Idea module defines the ideas and categories that are displayed in the Idea Portal. Create an Idea module to store and group ideas, and define categories based on product, department, or business unit.
-3.  [Define new idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/define-idea-categories.md)  
-Create new idea categories that a user can select to associate with a submitted idea. You can also add custom idea categories.
+3.  [Define idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/define-idea-categories.md)  
+Create idea categories that a user can select to associate with a submitted idea. You can also add custom idea categories.
 
 **Parent Topic:**[Managing Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/idea-portal.md)
 

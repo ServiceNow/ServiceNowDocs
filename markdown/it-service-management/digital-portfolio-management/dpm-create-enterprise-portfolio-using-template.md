@@ -20,7 +20,7 @@ Admins can create enterprise portfolios from scratch or by using a template. Ent
 
 Role required: admin
 
-Create and edit portfolios in enterprise portfolio builder. 
+\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ Create and edit portfolios in enterprise portfolio builder.
 
 5.  In the dialog box, choose to build your portfolio from scratch or use a template.
 
-<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d61633e114">
+<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d62641e114">
 
 Option
 
-</th><th align="left" id="d61633e117">
+</th><th align="left" id="d62641e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d61633e123">
+</th></tr></thead><tbody><tr><td id="d62641e123">
 
 **Build your own portfolio**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the form, fill in the fields.
 
 
-</td></tr><tr><td id="d61633e144">
+</td></tr><tr><td id="d62641e144">
 
 **Use a template for creating a service portfolio**
 

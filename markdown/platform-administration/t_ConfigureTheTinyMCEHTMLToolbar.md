@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Update the toolbar options for your preferred HTML field editor.
 
-<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d124555e57">
+<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d141622e57">
 
 **htmlArea toolbar**
 
@@ -33,7 +33,7 @@ Role required: admin
 3.  Select the **glide.ui.html.toolbar** property.
 
 
-</td></tr><tr><td id="d124555e90">
+</td></tr><tr><td id="d141622e90">
 
 **TinyMCE**
 
@@ -45,7 +45,7 @@ Role required: admin
 
 
 </td></tr></tbody>
-</table>2.  In the **Value** field, enter or remove buttons for each toolbar as a comma-separated list without spaces.
+</table>2.  In the **Value** field, enter or remove buttons for each toolbar as a space-separated list without commas.
 
     For the TinyMCE toolbar, all the toolbar buttons mentioned in the TinyMCE button options table are available in the **glide.ui.html.editor.toolbar.valid\_buttons**. You can choose from the list found there and add it to the System properties \[sys\_properties\] **glide.ui.html.editor.toolbar**. Use a vertical bar \("\|"\) to add a section separator.
 

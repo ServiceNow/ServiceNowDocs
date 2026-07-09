@@ -1,5 +1,5 @@
 ---
-title: Add CIs for single application services using connection rules
+title: Add CIs to a specific application service using connection rules
 description: Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Add CIs to specific application services using connection rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/add-cis-connection-rules-single.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Add CIs for single application services using connection rules
+# Add CIs to a specific application service using connection rules
 
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Add CIs to specific application services using connection rules.
 

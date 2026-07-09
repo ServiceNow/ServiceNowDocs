@@ -32,7 +32,7 @@ Product models provide dealers and manufacturers with a detail of the products b
 
 4.  On the Model form, fill in the fields.
 
-    For a description of the field values, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/product-catalog/r_ModelFormFields.md).
+    For a description of the field values, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ModelFormFields.md).
 
 5.  Select **Update**.
 

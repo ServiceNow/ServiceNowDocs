@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Role required: user with contribute access
 
 2.  Select a Knowledge article.
 
-3.  Select the **Accessibility checker** icon \[Omitted image "accessibility-checker-icon.png"\] Alt text: Accessibility checker icon in the toolbar of the article body.
+3.  Select the **Accessibility checker** icon in the toolbar of the article body.
 
 4.  View accessibility-related issues in the **Accessibility Checker** window along with suggestions for resolution of each issue.
 

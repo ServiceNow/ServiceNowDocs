@@ -31,5 +31,7 @@ You can use the following transform types in the Transform Framework for your re
     **Note:** A matching company or account specific transform overrides the Global transform option.
 
 
+**Note:** A transform runs twice on every update to determine which of the mapped fields have changed. If the transform includes a condition, that condition can be met on both runs, causing the action tied to it to run twice instead of once and produce a false positive. To learn more about the behavior, see [Service Bridge: Preventing False Positives in Service Bridge Transform Conditions](https://www.servicenow.com/community/technology-articles/service-bridge-preventing-false-positives-in-service-bridge/ta-p/3481929) on the ServiceNow Community.
+
 To learn how to create a transform, see [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-transform.md).
 

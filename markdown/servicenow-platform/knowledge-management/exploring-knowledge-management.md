@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,10 +23,6 @@ Knowledge Management supports processes for creating, categorizing, reviewing, a
 To support multiple groups, knowledge bases can be assigned to individual managers. Separate workflows can be used for publishing and retiring articles, and separate access controls can be used to control reading and contributing.
 
 ## Knowledge Management workflow
-
-This infographic shows a sample end-to-end workflow of how different users in an organization work together to create, share, use, and manage articles.
-
-\[Omitted image "KM\_Process\_Flow.png"\] Alt text: Infographic showing how users in an organization work together to create, share, use, and manage articles. For details, refer to the following description.
 
 In this workflow:
 
@@ -45,7 +41,7 @@ In this workflow:
 |Create multiple knowledge bases for different groups within your organization|[Knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md)|Knowledge administrator and manager|
 |Create a category structure for each knowledge base with any number of levels|[Knowledge article categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)|Knowledge manager|
 |Define permissions per knowledge base|[User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/user-access-knowledge.md), [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md)|Knowledge administrator and manager|
-|Integrate with and search external knowledge sources|[External content integration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-external-content-integration.md) and [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/external-content-ais.md)|Administrator|
+|Integrate with and search external knowledge sources|[External content integration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-external-content-integration.md) and [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/external-content-ais.md)|Administrator|
 |Create knowledge articles using generative AI|[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)|Knowledge contributor|
 |Import Word documents into knowledge articles and/or author knowledge in Word|[Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-article-authoring-word.md), [Word document importing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/t_ImportADocument.md)|Knowledge contributor|
 |Subscribe to relevant articles|[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)|Knowledge user|

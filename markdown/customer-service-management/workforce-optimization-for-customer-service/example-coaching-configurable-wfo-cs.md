@@ -9,7 +9,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Coaching in Workforce Optimization for Customer Service, Exploring Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Coaching, Exploring Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Example- Coaching using Workforce Optimization for Customer Service

@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d68672e69">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d143753e66">
 
 Location
 
-</th><th align="left" id="d68672e72">
+</th><th align="left" id="d143753e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68672e78">
+</th></tr></thead><tbody><tr><td id="d143753e75">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the **Portfolio** list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d68672e111">
+</td></tr><tr><td id="d143753e108">
 
 **From the portfolio list**
 

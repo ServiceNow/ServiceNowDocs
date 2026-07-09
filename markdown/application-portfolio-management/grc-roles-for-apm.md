@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance, Integrate, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Install Enterprise Architecture GRC integrations, Integrate, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Governance, Risk, and Compliance \(GRC\) roles required for Enterprise Architecture \(formerly Application Portfolio Management \(APM\)\)
@@ -21,7 +21,7 @@ Add roles to the sn\_apm.apm\_user role to be able to access GRC information fro
 |sn\_audit.user|Enables read access to the Audit Engagements tab.|
 |grc\_business\_user|Enables an application owner to respond to a risk assessment questionnaires and control attestation surveys.|
 
-For information on how to assign a role to a user, see the [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md) topic.
+For information on how to assign a role to a user, see the [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md) topic.
 
-**Parent Topic:**[Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/install-grc-application-risk-assesment.md)
+**Parent Topic:**[Install Enterprise Architecture GRC integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/install-grc-application-risk-assesment.md)
 

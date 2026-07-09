@@ -109,7 +109,7 @@ Result: When the form refreshes, an information message appears with the inciden
 **Related topics**  
 
 
-[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/agent-intelligence-api.md)
+[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agent-intelligence-api.md)
 
 [MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
 

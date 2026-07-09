@@ -34,7 +34,7 @@ Role required: sn\_apm.apm\_user
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Create new related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/related-entities-form.md).
+    For field information, see [Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/related-entities-form.md).
 
 6.  Select **Submit**.
 

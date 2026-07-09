@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,17 +70,4 @@ From a knowledge base
         -   Which user criteria provides read or read and contribute access for this user to the knowledge base and what type of [user criteria definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) enables this access.
         -   Whether a role that the user has \(knowledge\_manager, knowledge\_admin, or owner of the knowledge base\) enables this access.
         -   For a user with no access to this knowledge base, which user criteria may be modified to grant the access.
-
-## Example
-
-The following image shows an example of a diagnosis where the user Alene Reback does not have access to the IT knowledge base.
-
-Alena can get access to the knowledge base if:
-
--   Alena is added to one of the existing user criteria defined in the knowledge base.
--   Alena is added to a new user criteria that is defined and added to the knowledge base.
-
-Click the IT knowledge base link and provide the access by adding Alena to a user criteria for this knowledge base.
-
-\[Omitted image "user-crit-diag-kb.png"\] Alt text: User criteria diagnosis for a knowledge base.
 

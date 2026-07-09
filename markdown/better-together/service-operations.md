@@ -260,7 +260,7 @@ In this workflow:
     3.  Install Service Operations Workspace ITSM Applications from the ServiceNow® Store. For information about installing this application, see Install Service Operations Workspace ITSM Applications.
 2.  Ensure that the following conditions are met for Service Operations Workspace for ITOM.
     1.  Procure the ITOM Professional license or later for ServiceNow® IT Operations Management applications. Contact your ServiceNow account manager or sales representative.
-    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
+    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/install-sow-itom-apps.md).
 
 ## Get started with Service Operations Workspace for ITSM and ITOM
 
@@ -271,11 +271,11 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: admin.
 
-    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-operations-workspace/set-up-investigate.md).
+    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/set-up-investigate.md).
 
         Role: admin.
 
-    3.  Configure Recommendation Framework for an incident. See [Configuring Recommendation Framework in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-operations-workspace/set-up-recommendation-framework-sow.md).
+    3.  Configure Recommendation Framework for an incident. See [Configuring Recommendation Framework in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/set-up-recommendation-framework-sow.md).
 
         Role: admin.
 
@@ -284,7 +284,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_operator.
 
-    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.md).
+    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/configure-alert-metrics-itom.md).
 
         Role: evt\_mgmt\_operator.
 
@@ -296,7 +296,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_admin.
 
-    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-operations-workspace/create-list-sow.md).
+    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-list-sow.md).
 
         Role: itil.
 

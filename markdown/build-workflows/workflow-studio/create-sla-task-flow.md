@@ -18,7 +18,7 @@ Configure your Service Level Agreement \(SLA\) definition to run a flow as the a
 
 ## Before you begin
 
--   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
+-   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-app.md) to store Workflow Studio content.
 -   Role required: flow\_designer or admin
 
 ## About this task
@@ -102,7 +102,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
     Once behaving as desired, activate the flow.
 
-8.  [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md)
+8.  [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAnSLADefinition.md)
 
     1.  In the **Flow** field, select the SLA Task flow you previously created.
 

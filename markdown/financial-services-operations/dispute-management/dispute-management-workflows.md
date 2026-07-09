@@ -26,13 +26,13 @@ When a dispute agent initiates a case, the case begins in the Initiate stage. Di
 
 During this phase, you can identify the disputed transaction, add more transactions \(if the dispute category is Fraud\), select associated transactions, complete the dispute questionnaire, and upload any supporting documentation. Dispute cases created using Now Assist for FSO are populated with information collected and inferred from the customer's responses in the Virtual Agent chat.
 
-When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as Ethoca Consumer Clarity and Order Insight Digital Management.
+When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/ethoca-spoke.md) and [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md).
 
 The system evaluates decision rules and determines policy rules for each transaction in the case \(for example, which transaction qualifies for a provisional credit as opposed to a final credit\).
 
 The system generates tasks based on the policy rules that are evaluated when a case is submitted. For instance, when a case has a dispute category of Fraud, the system creates a task to block and reissue the card.
 
-For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
+For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md).
 
 For information about Now Assist for FSO, see [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md).
 

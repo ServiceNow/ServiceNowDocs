@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d393264e91">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d429099e91">
 
 Option
 
-</th><th align="left" id="d393264e94">
+</th><th align="left" id="d429099e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d393264e100">
+</th></tr></thead><tbody><tr><td id="d429099e100">
 
 **Internal**
 
@@ -54,7 +54,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d393264e141">
+</td></tr><tr><td id="d429099e141">
 
 **External**
 
@@ -69,5 +69,5 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Use self-served contract request]()
 

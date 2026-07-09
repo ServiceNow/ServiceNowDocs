@@ -23,7 +23,7 @@ This feature is supported in the Health Log Analytics application, Version 25.0.
 
 **Note:** Using HLA configuration migration with ServiceNow AI Platform versions prior to the Tokyo release requires you to import an update set. For more information, see the [HLA Configuration Migration Enablement \[KB1274850\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1274850) article in the Now Support Knowledge Base.
 
-For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/system-update-sets.md).
+For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
 
 -   **[Export a data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-migrate.md)**  
 Export the configuration of a Health Log Analytics data input with or without the related source types to an update set. You can then import the update set to the target environment.
@@ -31,8 +31,8 @@ Export the configuration of a Health Log Analytics data input with or without th
 Import a Health Log Analytics data input configuration that you've exported from another instance as an update set.
 -   **[Export source types to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types-migrate.md)**  
 Export source types to an update set separate from the Health Log Analytics data input configuration. You can then import the update set to the target environment.
--   **[Export source types to an update set by log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md)**  
-Export all source types related to one or more selected log sources to an update set together. You can then import the update set to the target environment.
+-   **[Export source types by log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md)**  
+Export all source types related to one or more selected log sources to an update set together in Health Log Analytics. You can then import the update set to the target environment.
 -   **[Import source types to a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types-import.md)**  
 Import source types that you've exported separate from the Health Log Analytics data input configuration.
 

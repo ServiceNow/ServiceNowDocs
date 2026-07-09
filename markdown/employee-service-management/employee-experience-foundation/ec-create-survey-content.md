@@ -75,6 +75,6 @@ Option to indicate that the pulse content is active and available for use.
     -   To add a question from Question Bank, click **From Question Bank**.
     Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
-    **Note:** For more information, see [Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+    **Note:** For more information, see [Listening Posts]().
 
 

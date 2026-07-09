@@ -22,7 +22,7 @@ Role required: none
 
 Learn more about customizing keyboard shortcuts from the following tutorial:
 
-Customize the Next Experience keyboard shortcuts 
+\[Omitted video\] Description: Customize the Next Experience keyboard shortcuts
 
 ## Procedure
 

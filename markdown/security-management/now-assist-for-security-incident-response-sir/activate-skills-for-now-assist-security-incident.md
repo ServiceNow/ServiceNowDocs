@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -74,15 +74,15 @@ Role required: admin
 
 8.  Choose one of the following options to define availability.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d74933e304">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d394828e304">
 
 Option
 
-</th><th align="left" id="d74933e307">
+</th><th align="left" id="d394828e307">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74933e313">
+</th></tr></thead><tbody><tr><td id="d394828e313">
 
 **Skill is always available**
 
@@ -90,7 +90,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d74933e322">
+</td></tr><tr><td id="d394828e322">
 
 **Customize skill availability**
 
@@ -103,15 +103,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 10. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d74933e357">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d394828e357">
 
 Option
 
-</th><th align="left" id="d74933e360">
+</th><th align="left" id="d394828e360">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74933e366">
+</th></tr></thead><tbody><tr><td id="d394828e366">
 
 **In-product**
 
@@ -119,7 +119,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d74933e377">
+</td></tr><tr><td id="d394828e377">
 
 **User roles**
 
@@ -127,17 +127,17 @@ Now Assist skills are displayed on forms and workspaces.
 
 Select the expand icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\)
 
-</td></tr><tr><td id="d74933e393">
+</td></tr><tr><td id="d394828e393">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 
-</td></tr><tr><td id="d74933e423">
+</td></tr><tr><td id="d394828e423">
 
 **Conversational experiences**
 

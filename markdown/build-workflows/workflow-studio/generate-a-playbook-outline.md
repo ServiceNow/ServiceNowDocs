@@ -16,7 +16,7 @@ breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio
 
 Generate a playbook with Now Assist by providing text directions or image.
 
-Generate a playbook outline and get recommendations for placeholder activities 
+\[Omitted video\] Description: Generate a playbook outline and get recommendations for placeholder activities
 
 ## Before you begin
 
@@ -66,7 +66,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 ## Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
+When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
 
 ## What to do next
 

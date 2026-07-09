@@ -67,5 +67,5 @@ One or more terms and conditions associated with the contact. Options include:- 
 **Related topics**  
 
 
-[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/contract-management/c_TermsAndConditions.md)
+[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_TermsAndConditions.md)
 

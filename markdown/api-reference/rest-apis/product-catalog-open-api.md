@@ -1143,7 +1143,7 @@ bundledProductOffering.​externalId
 
 </td><td id="prodCat-offering-bundledProductOffering_externalId-entry">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -1586,7 +1586,7 @@ productOfferingCharacteristic
 
 </td><td id="prodCat-offering-productOfferingCharacteristic-entry">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 
@@ -2435,7 +2435,7 @@ bundledProductOffering.​externalId
 
 </td><td id="prodCat-offering-bundledProductOffering_externalId-entry">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -2880,7 +2880,7 @@ productOfferingCharacteristic
 
 </td><td id="prodCat-offering-productOfferingCharacteristic-entry">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 
@@ -6661,7 +6661,7 @@ bundledProductOffering.​externalId
 
 </td><td id="prodCat-offering-bundledProductOffering_externalId-entry">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -7092,7 +7092,7 @@ productOfferingCharacteristic
 
 </td><td id="prodCat-offering-productOfferingCharacteristic-entry">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 
@@ -7608,7 +7608,7 @@ bundledProductOffering.​externalId
 
 </td><td id="d3379e480">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -8031,7 +8031,7 @@ productOfferingCharacteristic
 
 </td><td id="d3379e892">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 
@@ -11504,7 +11504,7 @@ bundledProductOffering.​externalId
 
 </td><td id="prodCat-offering-bundledProductOffering_externalId-entry">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -11939,7 +11939,7 @@ productOfferingCharacteristic
 
 </td><td id="prodCat-offering-productOfferingCharacteristic-entry">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 
@@ -12447,7 +12447,7 @@ bundledProductOffering.​externalId
 
 </td><td id="d3379e480">
 
-External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-offering-relationships.md).
+External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
 Data type: String
 
@@ -12882,7 +12882,7 @@ productOfferingCharacteristic
 
 </td><td id="d3379e892">
 
-Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md).
+Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
 Data type: Array of Objects
 

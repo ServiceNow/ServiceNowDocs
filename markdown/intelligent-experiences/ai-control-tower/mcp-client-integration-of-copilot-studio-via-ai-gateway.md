@@ -1,5 +1,5 @@
 ---
-title: Set up AI Gateway and Client Registration
+title: Configure Client Registration and AI Gateway Setup
 description: Set up the AI Gateway tab and create the MCP Client registration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, Explore AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Set up AI Gateway and Client Registration
+# Configure Client Registration and AI Gateway Setup
 
 Set up the AI Gateway tab and create the MCP Client registration.
 
 ## Before you begin
 
-Role required: sn\_ai\_governance.ai\_steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Role required: sn\_ai\_governance.ai\_steward
     The redirect URL for the MCP clients is unique to each:
 
     -   AI Agent Studio: https://&lt;instance\_name&gt;.service-now.com/oauth\_redirect.do
-    -   Copilot studio: Unique to the tool or connection that customers create inside their Copilot agent
+    -   Copilot studio: Unique to the tool or connection that you can create inside your Copilot agent
     -   Postman: https://oauth.pstmn.io/v1/browser-callback
     -   Other platforms: Consult the platform's OAuth documentation
 6.  Select **Save**.
@@ -47,9 +47,9 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Result
 
-A connection to the MCP server is set up via the AI Gateway.
+A connection to an MCP server is set up via the AI Gateway.
 
 **Note:** The Client ID and Client secret are automatically generated and available in the MCP server record. These credentials are used to authenticate the client when connecting to the AI Gateway.
 
-To connect with Copilot Studio via AI Gateway, see [Connecting with Microsoft Copilot Studio Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.md).
+To connect with Copilot Studio via AI Gateway, see [Connecting with Microsoft Copilot Studio Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 

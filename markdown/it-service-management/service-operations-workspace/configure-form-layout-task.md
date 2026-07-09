@@ -27,6 +27,13 @@ A task record, for example, problem or incident, has the following editable view
 -   The view while creating the record.
 -   The **Details** tab view after the record is saved.
 
+## Filter experience in Service Operations Workspace and Classic UI
+
+The form layout changes you make in the classic ServiceNow AI Platform determine the fields that should be appear in both the creation form and the record details in Service Operations Workspace However, filtering records works differently between the two interfaces.
+
+-   **Classic UI:** Select the column header filter icon to filter list records.
+-   **Service Operations Workspace:** Use the filter panel on the left side of the list view to filter records.
+
 ## Procedure
 
 1.  Open a task record, for example, in an incident or problem, in the classic ServiceNow AI Platform user interface.

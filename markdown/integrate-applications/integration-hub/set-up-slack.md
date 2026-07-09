@@ -33,6 +33,6 @@ Perform these steps to set up the Slack spoke.
 1.  [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-slack-workspace.md).
 2.  [Add Slack connection in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-slackspoke-fd.md).
 3.  [Provide Signing Key in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/provide-signingkey-slack.md).
-4.  [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+4.  [Configure outbound configurations in ServiceNow instance]().
 5.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-inbound-slack.md).
 

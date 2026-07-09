@@ -18,13 +18,13 @@ The Healthcare case \[sn\_hcls\_case\] table is an abstract table and is extenda
 
 ## Key features
 
--   Extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see, Tables installed with Customer Service Management.
+-   Extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see, [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_TIWCustomerService.md).
 -   Includes the **Patient** field as an optional field anda reference to the Patient \[sn\_hcls\_patient\] table. For more information, see [Patient table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-table.md).
 -   Enables healthcare case types including drug program enrollment, clinical trial enrollment, billing inquiry, and patient appointment request.
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 **Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

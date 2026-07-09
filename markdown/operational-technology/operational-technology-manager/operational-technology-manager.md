@@ -16,7 +16,7 @@ breadcrumb: [Operational Technology]
 
 The Operational Technology Manager application creates the foundational data and relationships that enable your organization to use the ServiceNow® Operational Technology solution. Operational Technology Manager supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform.
 
-Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
+Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.\[Omitted video\] Description: Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 

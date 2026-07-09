@@ -1,6 +1,6 @@
 ---
 title: Now Assist Admin roles
-description: Certain roles are required to use Now Assist Admin functionality.This user can create and update the Now Assist Admin experience by editing and configuring skills.This user can access the console and view skills and their configurations, but cannot make edits.Users who have access to the Now Assist panel.
+description: Certain roles are required to use Now Assist Admin functionality.This user can create and update the Now Assist Admin experience by editing and configuring skills.This user role can access the console and view skills, but can't configure or edit.Users who have access to the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/roles-installed-with-now-assist-admin.html
 release: yokohama
@@ -39,7 +39,7 @@ Avoid granting an admin role when more specialized roles are available.
 
 ## Now Assist Admin console user \[sn\_nowassist\_admin.user\]
 
-This user can access the console and view skills and their configurations, but cannot make edits.
+This user role can access the console and view skills, but can't configure or edit.
 
 ### Contains Roles
 

@@ -1,5 +1,5 @@
 ---
-title: Review the TRM lifecycle status in the Technology Portfolio Management page
+title: Review TRM lifecycle status in TPM
 description: View the TRM lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/review-trm-status-tpm-view.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Review the TRM lifecycle status in the Technology Portfolio Management page
+# Review TRM lifecycle status in TPM
 
 View the TRM lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
 

@@ -26,7 +26,7 @@ Create an update set without having to leave ServiceNow Studio. For more informa
 
 You can also watch this short video on how to create an update set.
 
-Video on how to create an update set in ServiceNow Studio 
+\[Omitted video\] Description: Video on how to create an update set in ServiceNow Studio
 
 ## Procedure
 

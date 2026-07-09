@@ -38,6 +38,8 @@ The state transitions are a list of conditions for entering or exiting each stat
 
 6.  To enable the automatic transition of the workflow state, select the **Automatic transition** option.
 
+    **Note:** Selecting **Automatic transition** does not, by itself, move the state when the conditions are met. The state model applies the transition only when something triggers it to check the conditions, such as a business rule or flow. Your implementation must provide this trigger for the transition to occur automatically.
+
 7.  Open the form context menu and select **Save**.
 
     The GRC model state transition conditions related list appears.

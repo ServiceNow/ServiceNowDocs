@@ -18,7 +18,7 @@ Add the address that can be selected by the user to have the product delivered. 
 
 ## About this task
 
-Shows how to add a delivery location. 
+\[Omitted video\] Description: Shows how to add a delivery location.
 
 ## Before you begin
 

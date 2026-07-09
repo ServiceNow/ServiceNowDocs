@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,13 +24,13 @@ Role required: knowledge
 
 ## About this task
 
-You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) or [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
 
 ## Procedure
 
 1.  In the Article body section, place the cursor where you want to insert the code snippet.
 
-2.  Click the insert/edit code sample icon \(\[Omitted image "insert-code.png"\] Alt text: Insert/Edit code sample icon\) on the HTML toolbar.
+2.  Click the insert/edit code sample icon on the HTML toolbar.
 
 3.  In the Insert/Edit code sample dialog box, select a markup or programming language from the Language list.
 
@@ -38,8 +38,8 @@ You can also use the HTML editor when creating or editing a knowledge article us
 
     Alternatively, you can copy the code from an external source and paste it.
 
-5.  Click **Ok**.
+5.  Click **OK**.
 
-6.  Edit the code by clicking the code snippet, and then clicking the insert/edit code sample icon \(\[Omitted image "insert-code.png"\] Alt text: Insert/Edit code sample icon\).
+6.  Edit the code by clicking the code snippet, and then clicking the insert/edit code sample icon .
 
 

@@ -55,7 +55,7 @@ The live agent support enables a chat interaction between an employees and legal
 **Related topics**  
 
 
-[Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/live-agent-overview.md)
+[Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/live-agent-overview.md)
 
-[Interaction records in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/interaction-message-agent-workspace.md)
+[Interaction records in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/interaction-message-agent-workspace.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [data, storage, lookups, key-value, splunk, tisc, tisc integrations]
 breadcrumb: [Configure TISC add-on in Splunk, TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
@@ -23,7 +23,7 @@ Lookup
 
 </th><th>
 
-Lookup Description
+Description
 
 </th></tr></thead><tbody><tr><td>
 

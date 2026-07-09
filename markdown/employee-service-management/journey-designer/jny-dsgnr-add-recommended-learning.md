@@ -34,7 +34,7 @@ Role required: Manager or mentor
 
 4.  Select a course by typing the name in the search bar or choose a course from the list.
 
-    Your organization must have a compatible learning system configured and running with the Learning Posts app installed and configured. See, [Learning Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+    Your organization must have a compatible learning system configured and running with the Learning Posts app installed and configured. See, [Learning Posts]().
 
 5.  Click the **+Add** button by the course to add it.
 

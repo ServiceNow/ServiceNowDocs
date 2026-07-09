@@ -30,15 +30,15 @@ You can update the header and footer images that appear in email notifications. 
 
 2.  Update the header or footer image by completing one of these actions.
 
-<table id="choicetable_ef1_czf_rhc"><thead><tr><th align="left" id="d136910e107">
+<table id="choicetable_ef1_czf_rhc"><thead><tr><th align="left" id="d139453e107">
 
 Action
 
-</th><th align="left" id="d136910e110">
+</th><th align="left" id="d139453e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136910e116">
+</th></tr></thead><tbody><tr><td id="d139453e116">
 
 **Update the header**
 
@@ -48,7 +48,7 @@ Description
 2.  Update the image by selecting **Update** in the image section of the form and then choose your image file.
 
 
-</td></tr><tr><td id="d136910e140">
+</td></tr><tr><td id="d139453e140">
 
 **Update the footer**
 

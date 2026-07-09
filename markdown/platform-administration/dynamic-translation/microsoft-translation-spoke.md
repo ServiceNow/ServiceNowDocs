@@ -16,7 +16,7 @@ breadcrumb: [Integration with other translation services, Dynamic Translation, T
 
 Microsoft Azure Translator Service spoke provides subflows and actions to detect and translate user-entered text, using the Microsoft machine translation service. Dynamic Translation supports detection and translation of single texts and multiple texts.
 
-Configure Microsoft as a third-party machine translation provider in the Dynamic Translation app. 
+\[Omitted video\] Description: Configure Microsoft as a third-party machine translation provider in the Dynamic Translation app.
 
 ## Activation
 
@@ -57,7 +57,7 @@ For information on Microsoft Translator Text API, see the [Microsoft](https://do
 
 ## Connection and credential alias requirements
 
-IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r-credentials.md).
+IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md).
 
 To use the spoke connection aliases, create an associated connection record and a credential record for each alias.
 

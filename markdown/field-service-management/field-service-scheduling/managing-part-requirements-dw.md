@@ -22,5 +22,5 @@ Enabling the Apply Work Order template in draft status option, allows you to cre
 
 Watch this short video to understand more about managing part requirements in Dispatcher Workspace.
 
-Managing part requirements in Dispatcher Workspace
+\[Omitted video\] Description: Managing part requirements in Dispatcher Workspace
 

@@ -56,7 +56,7 @@ For additional information on how you can benefit from implementing life-cycle v
 
 ## Example hardware classes
 
-View attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class. See [Hardware \[cmdb\_ci\_hardware\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/class-hardware.md).
+View attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class. See .
 
 ## How retiring a service instance might affect a hardware CI
 

@@ -109,7 +109,7 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Install the .pem file in the MID unified keystore and set up the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/set-mid-web-server.md).
+[Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/set-mid-web-server.md).
 
 **Parent Topic:**[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 

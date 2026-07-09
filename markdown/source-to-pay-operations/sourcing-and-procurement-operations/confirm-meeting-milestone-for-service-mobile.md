@@ -36,15 +36,15 @@ You can provide confirmation on whether the supplier has met a milestone for a s
 
 4.  On the **To-do** tab, do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d116800e89">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d189349e89">
 
 Action
 
-</th><th align="left" id="d116800e92">
+</th><th align="left" id="d189349e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116800e98">
+</th></tr></thead><tbody><tr><td id="d189349e98">
 
 **Confirm milestone**
 
@@ -52,7 +52,7 @@ Description
 
 Select **Confirm milestone** and provide your response, if any, in the **Additional comments** field.
 
-</td></tr><tr><td id="d116800e113">
+</td></tr><tr><td id="d189349e113">
 
 **Defer completion**
 
@@ -60,7 +60,7 @@ Select **Confirm milestone** and provide your response, if any, in the **Additio
 
 Tap on the Actions icon, and select **Defer completion** to push the milestone to a later date.On the **Defer completion** screen, pick a new completion date and provide your reason for changing the date.
 
-</td></tr><tr><td id="d116800e131">
+</td></tr><tr><td id="d189349e131">
 
 **Cancel milestone**
 

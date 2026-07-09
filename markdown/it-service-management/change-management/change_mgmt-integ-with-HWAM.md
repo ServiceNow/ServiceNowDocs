@@ -24,17 +24,13 @@ When the configuration items listed in the Affected CIs related list have an ass
 
 You can choose an **Asset action** for the CI, from the Affected CI related list. This **Asset action** field provides three possible actions that can be selected which triggers an event.
 
--   **Deploy**: When this action is selected, the **sn\_hamp.asset.deploy** event is triggered.
--   **Update/Repair**: No event is triggered for this action.
--   **Retire**: When this action is selected, the **sn\_hamp.asset.retire** event is triggered.
-
 **Note:** The **Asset action** column can be added to the Affected CI related list if not already available.
 
 When a change request is in the **Implement** state, the proposed asset action triggers the corresponding event. When the workflow is complete, the asset action updates the asset and the related records and progresses to the **Review** state.
 
 **Note:** If the asset action is not selected, then the change request will not progress to the **Review** state.
 
-For more information, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
+For more information, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ham-landing-page.md)
 
 **Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-mgmt-integrations.md)
 

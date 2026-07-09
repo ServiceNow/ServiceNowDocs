@@ -1,6 +1,6 @@
 ---
 title: Running process-based discovery
-description: Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility - Content agent to detect software running outside of standard configured scan directories.
+description: Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/running-process-based-discovery.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Agent Client Collector File-Based Discovery, Configuring Agent Clie
 
 # Running process-based discovery
 
-Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility - Content agent to detect software running outside of standard configured scan directories.
+Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
 
 ## Why use running process-based discovery
 

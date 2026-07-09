@@ -1,5 +1,5 @@
 ---
-title: Add a self-signed certificate to your operating system's truststore
+title: Add a self-signed certificate to the OS truststore
 description: Add a self-signed certificate to the truststore of your operating system \(OS\). By adding a certificate to the truststore, you can verify that the certificate is authentic and that your connections are secure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/add-certificate-trust-store.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
-# Add a self-signed certificate to your operating system's truststore
+# Add a self-signed certificate to the OS truststore
 
 Add a self-signed certificate to the truststore of your operating system \(OS\). By adding a certificate to the truststore, you can verify that the certificate is authentic and that your connections are secure.
 

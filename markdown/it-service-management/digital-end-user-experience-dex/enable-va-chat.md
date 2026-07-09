@@ -30,7 +30,7 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select **Use Virtual Agent \(must be configured\)**.
 
-    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md).
+    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-virtual-agent.md).
 
 3.  Select **Update**.
 

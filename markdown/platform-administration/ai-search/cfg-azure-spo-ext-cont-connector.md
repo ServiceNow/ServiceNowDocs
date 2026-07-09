@@ -1,13 +1,13 @@
 ---
 title: Configure Microsoft SharePoint Online for external content indexing
-description: Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft SharePoint Online external content connector to access your Microsoft SharePoint Online source system.
+description: Register an OAuth 2.0 application in the Microsoft Entra admin center to grant the Microsoft SharePoint Online external content connector access to your Microsoft SharePoint Online source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-06-17"
 reading_time_minutes: 8
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,7 +15,7 @@ breadcrumb: [Microsoft SharePoint Online external content connector, Configure, 
 
 # Configure Microsoft SharePoint Online for external content indexing
 
-Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft SharePoint Online external content connector to access your Microsoft SharePoint Online source system.
+Register an OAuth 2.0 application in the Microsoft Entra admin center to grant the Microsoft SharePoint Online external content connector access to your Microsoft SharePoint Online source system.
 
 ## Before you begin
 

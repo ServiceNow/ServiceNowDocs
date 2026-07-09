@@ -32,7 +32,7 @@ Select an option below.
 
 </td><td>
 
-[Learn about the ServiceNow platform \[Omitted image "icon-learn.png"\] See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-platform/servicenow-ai-platform/now-platform-landing.md)
+[Learn about the ServiceNow platform \[Omitted image "icon-learn.png"\] See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-platform/now-platform-landing.md)
 
 </td><td>
 

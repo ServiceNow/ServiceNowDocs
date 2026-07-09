@@ -283,7 +283,7 @@ For more information, see [UI macros](https://raw.githubusercontent.com/ServiceN
 
 This tag puts buttons on the UI page that run a specified processing script if the tag returns true.
 
-If your UI page contains a form \(uses the &lt;g:form&gt; tag\), you can submit the form and have the Processing Script run. The Processing Script can naturally access fields on the form. For example, if your form contained the application\_sys\_id field:
+If your UI page contains a form \(uses the &lt;g:ui\_form&gt; tag\), you can submit the form and have the Processing Script run. The Processing Script can naturally access fields on the form. For example, if your form contained the application\_sys\_id field:
 
 ```
 <g:ui_form>

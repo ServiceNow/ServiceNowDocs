@@ -22,7 +22,7 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 ## About this task
 
-Add instructions and questions to an assessment template 
+\[Omitted video\] Description: Add instructions and questions to an assessment template
 
 ## Procedure
 

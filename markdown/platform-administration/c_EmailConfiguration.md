@@ -43,7 +43,7 @@ Use [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
 ## Designate untrusted and trusted email domains
 
-Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/designate-untrusted-trusted-email-domains.md).
+Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/designate-untrusted-trusted-email-domains.md).
 
 ## Next steps after enabling email
 

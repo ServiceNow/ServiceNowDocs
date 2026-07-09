@@ -24,7 +24,7 @@ Enabling Document Intelligence for FSO requires the following plugins:
 
 -   Financial Services Operations Core \(sn\_bom\)
 -   Financial Services Document Processor \(sn\_doc\_processor\)
--   Document Intelligence \(sn\_docintel\): [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md)
+-   Document Intelligence \(sn\_docintel\): [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-document-intelligence.md)
 -   Document Intelligence UIB Component \(com.sn\_docintel\_iframe\)
 
 ## Procedure

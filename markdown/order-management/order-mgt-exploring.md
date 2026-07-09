@@ -60,6 +60,6 @@ With the Order Management application, you get an order management system that i
     -   Configure product options for complex products.
     -   Create orders and view products in their shopping carts.
     -   Review the fulfillment process to check the progress of their orders.
-    For more information on setting up the Business Portal, see [Configure the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
+    For more information on setting up the Business Portal, see [Configure the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md).
 
 

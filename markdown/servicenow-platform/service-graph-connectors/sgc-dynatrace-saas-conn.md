@@ -2,7 +2,7 @@
 title: Accessing the connection details of the Service Graph Connector for Observability - Dynatrace SaaS
 description: You can access the connection details of the Service Graph Connector for Observability - Dynatrace SaaS in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of a Dynatrace SaaS connection configured for the Service Graph Connector for Observability - Dynatrace SaaS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-graph-connectors/sgc-observability-dynatrace-saas-conn.html
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-conn.html
 release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors

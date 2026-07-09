@@ -16,7 +16,7 @@ The Impact Store Application, a centralized, interactive portal where you can ac
 
 **Important:** If you are an Impact user and have migrated from the Impact Delivery Instance, you will have a different Store App experience to access features that have not been migrated yet.
 
-See the Impact overview video to get started with the Impact Store Application.ServiceNow Impact Store Application overview 
+See the Impact overview video to get started with the Impact Store Application.\[Omitted video\] Description: ServiceNow Impact Store Application overview
 
 ## Get started
 

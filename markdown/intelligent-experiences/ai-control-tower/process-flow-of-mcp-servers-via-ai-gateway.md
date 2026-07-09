@@ -22,5 +22,5 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 1.  Adding an MCP server from [AI Agent studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.md)
 2.  [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
-3.  [Set up AI Gateway and Client Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
+3.  [Configure Client Registration and AI Gateway Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
 

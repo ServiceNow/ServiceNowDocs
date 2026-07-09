@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-dom-sep-prop-overrides.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -16,7 +16,7 @@ When you use domain separation, you can create overrides to existing Security Op
 
 ## Before you begin
 
-Requires that [Domain Support - Domain Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/list-of-plugins.md) be activated. You can also learn about the [Domain Override Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/domain-sep-override-viewer.md).
+Requires that [Domain Support - Domain Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md) be activated. You can also learn about the [Domain Override Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-override-viewer.md).
 
 Role required: admin
 
@@ -53,5 +53,5 @@ Role required: admin
 **Related topics**  
 
 
-[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparation.md)
+[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_DomainSeparation.md)
 

@@ -34,6 +34,8 @@ Role required: sn\_cmdb\_admin
 
     **Tip:** The **Recommended** group, shown at the top of the Group list, includes CI classes based on the recent incident, problem, and change \(IPC\) activity, ranked by task volume. You can start with these recommended principal classes to improve foundational CMDB data and maximize operational value. To learn more, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
 
+    **Note:** CI classes on the exclusion list aren't shown in the **Available classes** column.
+
 3.  To remove a CI class, select X icon next to the class in the **Selected classes** column.
 
 4.  Select **Done** to build the CMDB success advisor for Data Foundations dashboard.

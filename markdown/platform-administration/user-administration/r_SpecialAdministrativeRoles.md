@@ -46,7 +46,7 @@ None.
 
 ## Business rule administrator \[business\_rule\_admin\]
 
-Create, modify, and delete [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+Create, modify, and delete [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
 
 ### Contains Roles
 

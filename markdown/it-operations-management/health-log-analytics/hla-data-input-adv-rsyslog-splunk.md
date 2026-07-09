@@ -1,6 +1,6 @@
 ---
 title: Configure advanced settings for Rsyslog, Splunk, or TCP data inputs
-description: Configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents.
+description: Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Advanced data input configuration, Setting up Health Log Analytics 
 
 # Configure advanced settings for Rsyslog, Splunk, or TCP data inputs
 
-Configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents.
+Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 
 ## Before you begin
 

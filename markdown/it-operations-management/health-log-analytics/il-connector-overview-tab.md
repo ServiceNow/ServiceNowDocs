@@ -1,5 +1,5 @@
 ---
-title: Review log data streaming status and sources of an integration
+title: Review log data streaming status for an integration
 description: Review the log data streaming status and streaming sources of an active integration for Health Log Analytics on the integration's Overview screen. From this tab, you can investigate streaming issues and refine the integration settings. Leverage the displayed data to refine how HLA reads the log data by adjusting the integration's configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [log data, streaming, sources, status, overview, integration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Log data flow monitoring and configuration optimization, Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor log data flow and optimize integration settings, Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Review log data streaming status and sources of an integration
+# Review log data streaming status for an integration
 
 Review the log data streaming status and streaming sources of an active integration for Health Log Analytics on the integration's Overview screen. From this tab, you can investigate streaming issues and refine the integration settings. Leverage the displayed data to refine how HLA reads the log data by adjusting the integration's configuration.
 
@@ -27,7 +27,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-For more information about the data shown in the **Overview** screen, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
+For more information about the data shown in the **Overview** screen, see [Review log data streaming status for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
 ## Procedure
 

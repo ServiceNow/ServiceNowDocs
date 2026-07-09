@@ -22,7 +22,7 @@ Ensure the following:
 
 -   Setup Zoom to enable virtual meeting.
 
-    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-zoom.md).
+    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-zoom.md).
 
     **Note:** While setting up zoom, ensure the following:
 

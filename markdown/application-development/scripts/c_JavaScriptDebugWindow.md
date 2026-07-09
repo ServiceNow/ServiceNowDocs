@@ -16,7 +16,7 @@ breadcrumb: [Debugging scripts, Scripting, Building pro-code applications, Devel
 
 The JavaScript debug window appears in a bottom pane of the user interface when an administrator turns on debugging.
 
-**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
+**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 Use the debug window to access these tools.
 
@@ -39,7 +39,7 @@ Role required: admin
 
 The steps to access the JavaScript debug window depend on which UI version you are using.
 
-**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
+**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ### Procedure
 

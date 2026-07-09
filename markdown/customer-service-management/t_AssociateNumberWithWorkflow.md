@@ -47,7 +47,7 @@ Role required: admin
 **Related topics**  
 
 
-[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/c_NumberGroups.md)
+[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_NumberGroups.md)
 
-[Configure Notify with\\n Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+[Configure Notify with\\n Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md)
 

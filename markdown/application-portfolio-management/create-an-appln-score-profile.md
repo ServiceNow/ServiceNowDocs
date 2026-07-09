@@ -1,5 +1,5 @@
 ---
-title: Create an application score profile and attach profile indicators
+title: Create an application score profile
 description: You can create an application score profile and update the default application profile with new profile indicators per your requirements. After you create a score profile, you have to associate it with indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/create-an-appln-score-profile.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create an application score profile and attach profile indicators
+# Create an application score profile
 
 You can create an application score profile and update the default application profile with new profile indicators per your requirements. After you create a score profile, you have to associate it with indicators.
 

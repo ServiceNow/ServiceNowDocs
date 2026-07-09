@@ -28,15 +28,15 @@ Role required: admin
 
 4.  Create a reference to one or more dynamic schema attributes, groups, or categories.
 
-<table id="choicetable_dx5_4lv_gbc"><thead><tr><th align="left" id="d207422e87">
+<table id="choicetable_dx5_4lv_gbc"><thead><tr><th align="left" id="d333527e87">
 
 Reference Type
 
-</th><th align="left" id="d207422e90">
+</th><th align="left" id="d333527e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207422e96">
+</th></tr></thead><tbody><tr><td id="d333527e96">
 
 **Dynamic attribute reference**
 
@@ -46,7 +46,7 @@ Steps
 2.  Enter a name for the dynamic attribute that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d207422e117">
+</td></tr><tr><td id="d333527e117">
 
 **Dynamic attributes reference**
 
@@ -56,7 +56,7 @@ Steps
 2.  Enter a name for the dynamic attributes that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d207422e138">
+</td></tr><tr><td id="d333527e138">
 
 **Dynamic attribute group reference**
 
@@ -66,7 +66,7 @@ Steps
 2.  Enter a name for the dynamic attribute group that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d207422e159">
+</td></tr><tr><td id="d333527e159">
 
 **Dynamic attribute groups reference**
 
@@ -76,7 +76,7 @@ Steps
 2.  Enter a name for the dynamic attribute groups that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d207422e181">
+</td></tr><tr><td id="d333527e181">
 
 **Dynamic category reference**
 
@@ -86,7 +86,7 @@ Steps
 2.  Enter a name for the dynamic category that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d207422e202">
+</td></tr><tr><td id="d333527e202">
 
 **Dynamic categories**
 

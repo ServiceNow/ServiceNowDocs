@@ -14,7 +14,7 @@ breadcrumb: [Now Assist AI agents, Enable AI experiences]
 
 Evaluate agentic workflow and AI agents against datasets of your choice to monitor performance and evaluate against different benchmarks.
 
-Process for guided setup for executing an agentic evaluation run 
+\[Omitted video\] Description: Process for guided setup for executing an agentic evaluation run
 
 ## Before you begin
 

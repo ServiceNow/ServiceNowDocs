@@ -1,5 +1,5 @@
 ---
-title: Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a demand
+title: Convert one RIDAC record to another for a demand
 description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/convert-ridac-for-demand.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a demand
+# Convert one RIDAC record to another for a demand
 
 Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 
@@ -53,5 +53,5 @@ You can also view the consolidated list of all the converted RIDAC records using
 9.  Click **OK**.
 
 
-**Parent Topic:**[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)
 

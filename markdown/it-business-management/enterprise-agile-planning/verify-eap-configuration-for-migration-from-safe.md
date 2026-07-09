@@ -24,7 +24,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-Verify EAP configuration to start migration of SAFe data. 
+\[Omitted video\] Description: Verify EAP configuration to start migration of SAFe data.
 
 ## Procedure
 

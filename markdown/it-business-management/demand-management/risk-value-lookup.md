@@ -1,5 +1,5 @@
 ---
-title: Configure custom Risk rank and Risk value for a demand
+title: Configure custom Risk rank and Risk value
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/risk-value-lookup.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Add risks for a demand, RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure custom Risk rank and Risk value for a demand
+# Configure custom Risk rank and Risk value
 
 Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 

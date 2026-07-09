@@ -1,14 +1,14 @@
 ---
 title: Integrating with Jira Software Cloud
-description: Integrating your Software Asset Management application with Atlassian Jira Software Cloud enables you to track your software subscriptions and to reclaim unused licenses.Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.Create an API token in Jira to authenticate requests.Integrate the Software Asset Management application with your Jira account using OAuth to authenticate ServiceNow requests.Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.Obtain the value of the Cloud ID of the Jira cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
+description: Integrating your Software Asset Management application with Atlassian Jira Software Cloud enables you to track your software subscriptions and to reclaim unused licenses.Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.Create an API token in Jira to authenticate requests.Configure the default connection and credential alias record to authenticate the requests from ServiceNow.Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.Integrate the Software Asset Management application with your Jira account using OAuth to authenticate ServiceNow requests.Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.Obtain the value of the Cloud ID of the Jira cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-jira.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
+last_updated: "2026-03-12"
+reading_time_minutes: 22
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
@@ -19,11 +19,15 @@ Integrating your Software Asset Management application with Atlassian Jira Softw
 **Note:** Currently this integration supports only one site integration per profile.
 
 -   If your installed Jira spoke version is 4.1.0 or higher, you can integrate Jira with your ServiceNow instance by using one of the following methods:
-    -   [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
+    -   [Basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
 
-    -   [Using OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
+    -   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
 
--   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) method.
+-   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) method.
+
+## Integrate with Jira Software Cloud using basic authentication
+
+Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 
@@ -49,10 +53,7 @@ Permission to access Jira
 
 </td><td>
 
--   read:application-role:jira
--   read:group:jira
--   read:user:jira
--   read:avatar:jira
+None
 
 </td></tr><tr><td>
 
@@ -68,12 +69,7 @@ If issue-level security is configured, issue-level security permission to view t
 
 </td><td>
 
--   read:user:jira
--   read:issue-details:jira
--   read:audit-log:jira
--   read:avatar:jira
--   read:field-configuration:jira
--   read:issue-meta:jira
+None
 
 </td></tr><tr><td>
 
@@ -85,15 +81,10 @@ Site administration, that is, member of the site-admin group
 
 </td><td>
 
--   read:group:jira
--   write:group:jira
+None
 
 </td></tr></tbody>
-</table>## Using basic authentication
-
-Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.
-
-You can integrate a ServiceNow instance with multiple Jira instances. For this integration, create a connection and credential alias record and a connection record for each Jira instance.
+</table>You can integrate a ServiceNow instance with multiple Jira instances. For this integration, create a connection and credential alias record and a connection record for each Jira instance.
 
 ### Create an Jira account API token
 
@@ -116,15 +107,347 @@ Jira Role required: Refer the [Minimal user permissions](https://raw.githubuserc
     You’ll use the token later.
 
 
-## Using OAuth authentication
+### Create the child alias record for Jira
+
+Configure the default connection and credential alias record to authenticate the requests from ServiceNow.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for Jira that is shipped with the spoke.
+
+    Verify that the ID of the alias record is **sn\_jira\_spoke\_jira**.
+
+3.  Create the child alias by navigating to the Related Links section and selecting the Child Aliases tab.
+
+    The **Application scope** must be Jira Spoke.
+
+4.  Select **New**.
+
+5.  Enter a unique and descriptive name for the child alias.
+
+6.  Select **Submit**.
+
+
+#### Result
+
+The child alias appears in the list on the Child Aliases tab. You can select the child alias and verify the values in the **ID** and **Application** fields.
+
+### Create a Jira Software Cloud integration profile
+
+Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
+
+#### Before you begin
+
+To create a Jira integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
+
+To enable the integration profile to retrieve and update user activity through the Jira Update User Activity subflow, set the **com.glide.transform.json.max-partial-length** system property **Value** to `32768`.
+
+Atlassian Role required: site admin
+
+ServiceNow Role required: sam\_integrator
+
+**Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+
+#### About this task
+
+If you’re using Software Asset Workspace, the option to create the Jira integration profile in Core UI is inactive.
+
+#### Procedure
+
+1.  Navigate to the integration profile.
+
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d182943e656">
+
+Interface
+
+</th><th align="left" id="d182943e659">
+
+Action
+
+</th></tr></thead><tbody><tr><td id="d182943e665">
+
+**Core UI**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**.
+2.  Select **New**.
+3.  Select **Jira Integration Profile**.
+
+
+</td></tr><tr><td id="d182943e707">
+
+**Software Asset Workspace**
+
+</td><td>
+
+1.  Navigate to **License operations** &gt; **User Subscriptions** &gt; **Direct integration profiles**.
+2.  Select **New**.
+3.  Select **Jira** from the drop-down list.
+4.  Select **Continue**.
+
+
+</td></tr></tbody>
+</table>2.  On the form, fill in the fields.
+
+<table id="table_iqh_2y5_mjb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+Display name
+
+</td><td>
+
+Name of your choice. For example, Jira integration.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Status of the integration profile.-   If you have not published the integration profile, this field is automatically set to **Draft**.
+-   If you have already published the integration profile, this field is automatically set to **Published**.
+
+
+</td></tr><tr><td>
+
+Profile type
+
+</td><td>
+
+Jira Subscription. This field is automatically populated.
+
+</td></tr></tbody>
+</table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
+
+    **Note:** For more information, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
+
+    1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Jira Download Subscriptions**.
+
+        **Note:** The **Download subscriptions** check box is selected by default and you can't clear it.
+
+    2.  In the Calculate Activity Subflow section, verify that the **Subflow** field is set to **Jira Update User Activity**.
+
+        **Note:** The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Activity** isn't created.
+
+        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+
+        **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
+
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+
+    3.  In the Reclaim Subscription Subflow section, verify that the **Subflow** field is set to **Jira Reclaim Subscription**.
+
+        **Note:** The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
+
+4.  Select **Save**.
+
+    A draft integration profile is created.
+
+    The **Connection &amp; Credential** field appears and is automatically set to **sn\_jira\_spoke.jira\_subscription\_activity\_reclaim**.
+
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "search-icon.png"\] Alt text: Search icon. next to the **Connection &amp; Credential** field and then selecting the child alias that you had created in [Create the child alias record for Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md).
+
+6.  Select **Save**.
+
+7.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon. next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+
+8.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
+
+9.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection URL|URL of your Jira instance in `https://api.atlassian.com/ex/jira/<Cloud-Id>` format.|
+    |User Name|Email address of the user.|
+    |API Key|The API token that you generated for Jira.|
+
+10. Select **Create**.
+
+11. On your ServiceNow instance, specify the groups that have access to Jira products.
+
+    By specifying these groups on your ServiceNow instance, you can retrieve data and manage licenses for only the users within these groups.
+
+    1.  In a new tab, open the [Atlassian Administration portal](https://admin.atlassian.com/).
+
+    2.  Log in to your site admin account.
+
+    3.  Select the **Select** button against the required organization.
+
+    4.  Select the **Products** tab.
+
+    5.  On the Products page, select **Manage product** on the Jira product row.
+
+    6.  View the list of groups that have access to Jira Software.
+
+        Take note of this information for later use.
+
+    7.  Return to your ServiceNow instance and navigate to **Jira** &gt; **Jira Groups**.
+
+    8.  On the Jira Groups form, select the **Add Groups** related link.
+
+        The Add Jira Groups dialog box opens.
+
+    9.  In the Available list, select the groups that have access to Jira products.
+
+        **Tip:** The Available list includes all groups that are associated with your Atlassian account. Select only the groups that have access to Jira products.
+
+    10. Select the right arrow button to move the groups from the Available list to the Selected list.
+
+    11. Select **OK**.
+
+12. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+
+    Validating the connection verifies the Download Subscriptions and Calculate Activity APIs, but not the Reclaim Subscriptions APIs.
+
+13. After the connection is verified, select **Publish**.
+
+14. In the Publish Confirmation dialog box, select **OK**.
+
+    **Note:** If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections and then republish the integration profile because the following events occur:
+
+    -   The **Status** field on the integration profile form changes to **Draft**.
+    -   The **Validate connection** button shows up on the form.
+    -   The current **SAM - Refresh &lt;displayname&gt; Activity** job gets deleted.
+
+#### What to do next
+
+After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Jira integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-jira.md).
+
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+
+Create software entitlements for the automatically generated software models to track used software against owned software.
+
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
+
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-recon-workspace.md).
+
+## Integrate with Jira Software Cloud using OAuth 2.0
 
 Integrate the Software Asset Management application with your Jira account using OAuth to authenticate ServiceNow requests.
 
-### Create an OAuth 2.0 integration in Jira account
+**Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
+
+<table id="table_box"><thead><tr><th>
+
+Process
+
+</th><th>
+
+Required user role in the Jira Software Cloud application
+
+</th><th>
+
+Authentication scopes
+
+</th></tr></thead><tbody><tr><td>
+
+Download subscriptions
+
+</td><td>
+
+Permission to access Jira
+
+</td><td>
+
+Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 15.4.2.
+
+-   read:application-role:jira
+-   read:group:jira
+-   read:user:jira
+-   read:avatar:jira
+
+ Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 15.4.2 or later.
+
+-   read:user:jira
+-   read:group:jira
+-   read:avatar:jira
+
+</td></tr><tr><td>
+
+Pull user activity
+
+</td><td>
+
+-   Administer Jira global permission
+-   Browse projects permission for the project containing the issue.
+
+If issue-level security is configured, issue-level security permission to view the issue.
+
+
+</td><td>
+
+Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 15.4.2.
+
+-   read:user:jira
+-   read:issue-details:jira
+-   read:audit-log:jira
+-   read:avatar:jira
+-   read:field-configuration:jira
+-   read:issue-meta:jira
+
+ Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 15.4.2 or later.
+
+-   read:jira-user
+-   read:audit-log:jira
+-   read:jira-work
+
+</td></tr><tr><td>
+
+Reclaim subscription
+
+</td><td>
+
+Site administration, that is, member of the site-admin group
+
+</td><td>
+
+Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 15.4.2.
+
+-   read:group:jira
+-   write:group:jira
+
+ Applicable for Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 15.4.2 or later.
+
+-   read:group:jira
+-   manage:jira-configuration
+
+</td></tr></tbody>
+</table>### Create an OAuth 2.0 integration in Jira account
 
 Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.
 
 #### Before you begin
+
+**Important:** This procedure is applicable for the Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 15.4.1 or earlier. If you're on version 15.4.2 or later, skip this task and proceed directly to [Obtain the Cloud ID value of Jira instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md).
 
 Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
@@ -193,11 +516,11 @@ Jira Role required: admin
 5.  Copy the value of Cloud ID and secure it for later use.
 
 
-## Create a Jira Software Cloud integration profile
+### Create a Jira Software Cloud integration profile
 
 Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
 
-### Before you begin
+#### Before you begin
 
 To create a Jira integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
@@ -205,27 +528,27 @@ To enable the integration profile to retrieve and update user activity through t
 
 Atlassian Role required: site admin
 
-ServiceNow Role required: admin or sam\_integrator
+ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
-### About this task
+#### About this task
 
 If you’re using Software Asset Workspace, the option to create the Jira integration profile in Core UI is inactive.
 
-### Procedure
+#### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129115e967">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d182943e2293">
 
 Interface
 
-</th><th align="left" id="d129115e970">
+</th><th align="left" id="d182943e2296">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129115e976">
+</th></tr></thead><tbody><tr><td id="d182943e2302">
 
 **Core UI**
 
@@ -236,7 +559,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d129115e1018">
+</td></tr><tr><td id="d182943e2344">
 
 **Software Asset Workspace**
 
@@ -288,7 +611,7 @@ Jira Subscription. This field is automatically populated.
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
+    **Note:** For more information, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Jira Download Subscriptions**.
 
@@ -323,21 +646,74 @@ Jira Subscription. This field is automatically populated.
     |Only **Reclaim subscriptions** is selected.|sn\_jira\_spoke.jira\_subscription\_reclaim|
     |Both **Download activity** and **Reclaim subscriptions** aren’t selected.|sn\_jira\_spoke.jira\_subscription|
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon. next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
-7.  On the form, fill in the fields.
+7.  In the dialog box, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Connection URL|URL of your Jira instance in `https://api.atlassian.com/ex/jira/<Cloud-Id>` format.|
-    |User Name|Email address of the user.|
-    |API Key|The API token that you generated for Jira.|
+<table id="table_ujr_ps1_wmb_legacy"><thead><tr><th>
 
-8.  Select **Create**.
+Field
 
-9.  On your ServiceNow instance, specify the groups that have access to Jira products.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Connection Name
+
+</td><td>
+
+Name of the connection.
+
+</td></tr><tr><td>
+
+Connection URL
+
+</td><td>
+
+Base URL for the Jira API. This field is automatically set to `https://api.atlassian.com/ex/jira/<Cloud-ID>`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+The following fields are applicable for the Yokohama release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 15.4.1 or earlier. If you're on version 17.4.2 or later, these fields won't appear.
+
+</td></tr><tr><td>
+
+OAuth Client ID
+
+</td><td>
+
+Client ID that is assigned to your Jira application.
+
+</td></tr><tr><td>
+
+OAuth Client Secret
+
+</td><td>
+
+Client secret that is assigned to your Jira application.
+
+</td></tr><tr><td>
+
+OAuth Redirect URL
+
+</td><td>
+
+URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based and contains the URL of the ServiceNow instance that you specified in [Create an OAuth 2.0 integration in Jira account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md).
+
+</td></tr></tbody>
+</table>8.  Select **Create and Get OAuth Token**.
+
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
+
+9.  When the dialog box appears, grant permission to the Jira application.
+
+    The dialog box closes and you automatically return to the Connection &amp; Credential Aliases form.
+
+10. On your ServiceNow instance, specify the groups that have access to Jira products.
 
     By specifying these groups on your ServiceNow instance, you can retrieve data and manage licenses for only the users within these groups.
 
@@ -353,7 +729,7 @@ Jira Subscription. This field is automatically populated.
 
     6.  View the list of groups that have access to Jira Software.
 
-        Take note of this information for later use.
+        Secure this information for later use.
 
     7.  Return to your ServiceNow instance and navigate to **Jira** &gt; **Jira Groups**.
 
@@ -361,21 +737,23 @@ Jira Subscription. This field is automatically populated.
 
         The Add Jira Groups dialog box opens.
 
-    9.  In the Available list, select the groups that have access to Jira products.
+    9.  Select the Connection &amp; Credential that was set on the integration profile.
+
+    10. In the Available list, select the groups that have access to Jira products.
 
         **Tip:** The Available list includes all groups that are associated with your Atlassian account. Select only the groups that have access to Jira products.
 
-    10. Select the right arrow button to move the groups from the Available list to the Selected list.
+    11. Select the right arrow button to move the groups from the Available list to the Selected list.
 
-    11. Select **OK**.
+    12. Select **OK**.
 
-10. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+11. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
     Validating the connection verifies the Download Subscriptions and Calculate Activity APIs, but not the Reclaim Subscriptions APIs.
 
-11. After the connection is verified, select **Publish**.
+12. After the connection is verified, select **Publish**.
 
-12. In the Publish Confirmation dialog box, select **OK**.
+13. In the Publish Confirmation dialog box, select **OK**.
 
     **Note:** If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections and then republish the integration profile because the following events occur:
 
@@ -383,7 +761,7 @@ Jira Subscription. This field is automatically populated.
     -   The **Validate connection** button shows up on the form.
     -   The current **SAM - Refresh &lt;displayname&gt; Activity** job gets deleted.
 
-### What to do next
+#### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
@@ -394,8 +772,6 @@ After creating an integration profile, view information about the profile in the
 -   Scheduled Jobs
 -   Scheduled Job Results
 -   Software Subscriptions
--   Subscription Identifier Exclusion Rule
--   Subscription User Exclusion Rule
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Jira integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-jira.md).
 

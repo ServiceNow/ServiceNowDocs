@@ -16,7 +16,7 @@ The Impact Delivery Instance \(IDI\) is a centralized, interactive portal where 
 
 ## IDI Overview
 
-See the Impact overview video to get started with Impact.ServiceNow Impact overview 
+See the Impact overview video to get started with Impact.\[Omitted video\] Description: ServiceNow Impact overview
 
 **Note:** Your Impact Squad sends you login information to access your IDI portal.
 

@@ -22,6 +22,10 @@ Show, hide, or rearrange columns and apply sorting or filters to personalize the
 
 Role required: sn\_cwm.cwm\_user
 
+## About this task
+
+The columns available to show or hide are determined by the default list layout of the table. To configure which columns are available, see [Configure columns available for personalization in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/configure-column-personalization-in-cwm.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Collaborative Work Management**.
@@ -32,15 +36,15 @@ Role required: sn\_cwm.cwm\_user
 
 4.  Update the display of the view on the Board or hide views.
 
-<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d129924e103">
+<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d263224e123">
 
 Choice
 
-</th><th align="left" id="d129924e106">
+</th><th align="left" id="d263224e126">
 
 Options
 
-</th></tr></thead><tbody><tr><td id="d129924e112">
+</th></tr></thead><tbody><tr><td id="d263224e132">
 
 **Personalize List and Gantt**
 
@@ -50,7 +54,7 @@ Options
 -   Show or hide the columns in the view.
 \[Omitted image "cwm-personalize-list.png"\] Alt text: Personalize List and Gantt views.
 
-</td></tr><tr><td id="d129924e139">
+</td></tr><tr><td id="d263224e159">
 
 **Personalize Kanban**
 
@@ -60,7 +64,7 @@ Change the vertical categorization of task cards using the **Vertical lane** fie
 
  \[Omitted image "cwm-personalize-kanban.png"\] Alt text: Personalize Kanban vertical lane.
 
-</td></tr><tr><td id="d129924e161">
+</td></tr><tr><td id="d263224e181">
 
 **Show or hide views**
 

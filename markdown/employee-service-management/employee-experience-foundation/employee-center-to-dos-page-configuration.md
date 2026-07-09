@@ -38,7 +38,7 @@ For more information, see [Enable task configuration for approvals](https://raw.
 
 Ask a question is a widget that establishes a communication link between a user with an HR Agent or queue to discuss HR tasks or cases. These configurations determine which HR agent or queue to use for communication. For HR tasks, the **Task support team** field defines the HR agent or queue that picks up any communication about the task when a user selects the Ask a question link. To use this option, activate the Connect Service Portal Widgets \(com.glide.connect.sp\_widgets\) plugin.
 
-**Note:** For more information about **Connect**, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/connect/c_Connect.md).
+**Note:** For more information about **Connect**, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Connect.md).
 
 For HR cases, define configuration under **Conversational Interfaces**.
 

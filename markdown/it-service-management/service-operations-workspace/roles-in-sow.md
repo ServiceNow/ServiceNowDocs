@@ -16,6 +16,8 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
 
+**Important:** Install and activate the ITSM Roles plugin `(com.snc.itsm.roles)` before assigning the SOW user roles. Without this plugin, role inheritance chains such as \(`sn_incident_read` inheriting `sn_sow.sow_home` and `sn_sow.sow_list`\) may not function correctly and users may not be able to access the SOW workspace even with the expected roles assigned.
+
 <table id="table_qkn_j4g_1cc"><thead><tr><th>
 
 Role
@@ -369,4 +371,5 @@ Users with the oc\_read role can access the On-call Schedules, Experts On-call, 
 -   The ITSM Role plugin `com.snc.itsm.roles` is installed and active.
 -   The user was assigned the role directly or via group membership.
 -   No custom ACL is overriding the default role-based access for SOW pages.
+-   For ACL-level issues, contact [ServiceNow Support](https://support.servicenow.com/now?draw=case).
 

@@ -22,7 +22,7 @@ Role required: sn\_ap\_apm.admin
 
 This video shows you how to perform the following procedure.
 
-Create an invoice exception definition
+\[Omitted video\] Description: Create an invoice exception definition
 
 ## Procedure
 

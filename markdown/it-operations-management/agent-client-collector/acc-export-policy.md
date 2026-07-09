@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create a new Agent Client Collector policy, Collect data from your system devices, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create an ACC policy, Collect data from your system devices, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Export and import an Agent Client Collector policy

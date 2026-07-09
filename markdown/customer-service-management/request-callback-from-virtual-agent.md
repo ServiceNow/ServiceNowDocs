@@ -14,7 +14,7 @@ breadcrumb: [Working with callback requests from an agent, Using Omnichannel Cal
 
 As a customer, you can request a callback from a customer service agent through a Virtual Agent conversation. You can request an immediate voice callback or schedule a voice or video callback that you can reschedule or cancel.
 
-For more information about setting up Omnichannel Callback, refer to [Configuring Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/omnichannel-callback/configuring-omnichannel-callback.md)
+For more information about setting up Omnichannel Callback, refer to [Configuring Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuring-omnichannel-callback.md)
 
 ## Request a callback from a Virtual Agent chat
 
@@ -44,15 +44,15 @@ You can request an immediate callback only for a voice channel. Use the **Schedu
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d78720e181">
+<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d79587e181">
 
 Type of callback
 
-</th><th align="left" id="d78720e184">
+</th><th align="left" id="d79587e184">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d78720e190">
+</th></tr></thead><tbody><tr><td id="d79587e190">
 
 **Immediate voice callback**
 
@@ -60,7 +60,7 @@ Action
 
 Select **Right now**.
 
-</td></tr><tr><td id="d78720e202">
+</td></tr><tr><td id="d79587e202">
 
 **Scheduled voice or video callback**
 

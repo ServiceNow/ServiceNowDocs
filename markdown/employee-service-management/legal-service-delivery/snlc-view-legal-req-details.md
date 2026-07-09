@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d121194e66">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d632784e66">
 
 Method
 
-</th><th align="left" id="d121194e69">
+</th><th align="left" id="d632784e69">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d121194e75">
+</th></tr></thead><tbody><tr><td id="d632784e75">
 
 **__Employee Center__**
 
@@ -43,7 +43,7 @@ Actions
 3.  Open your submitted non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d121194e108">
+</td></tr><tr><td id="d632784e108">
 
 **__Legal Service Portal__**
 
@@ -112,5 +112,5 @@ Preview
 </table>3.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

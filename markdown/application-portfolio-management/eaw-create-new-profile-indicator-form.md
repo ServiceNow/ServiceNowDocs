@@ -77,3 +77,8 @@ Numeral value for the indicator. The weight provided in the application score pr
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
+**Related topics**  
+
+
+[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)
+

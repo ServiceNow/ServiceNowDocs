@@ -36,15 +36,15 @@ For the time duration configuration, if the time value is set to one second, the
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d40154e101">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d48260e101">
 
 Action
 
-</th><th align="left" id="d40154e104">
+</th><th align="left" id="d48260e104">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d40154e110">
+</th></tr></thead><tbody><tr><td id="d48260e110">
 
 **Add time duration for a new overlay**
 
@@ -58,7 +58,7 @@ Details
 6.  In the Condition section, add the time duration values for the new overlay.
 
 
-</td></tr><tr><td id="d40154e159">
+</td></tr><tr><td id="d48260e159">
 
 **Edit time duration for an existing overlay**
 
@@ -66,7 +66,7 @@ Details
 
 In the Time Duration Value section, edit the time duration for the overlay that you want to customize.
 
-</td></tr><tr><td id="d40154e168">
+</td></tr><tr><td id="d48260e168">
 
 **Delete time duration for an overlay**
 

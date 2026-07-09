@@ -16,7 +16,7 @@ breadcrumb: [Listening Posts, Employee Journey Management, HR Service Delivery, 
 
 Reference topics provide additional information about Listening Posts.
 
-**Parent Topic:**[Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Listening Posts]()
 
 ## Components installed with Listening Posts
 

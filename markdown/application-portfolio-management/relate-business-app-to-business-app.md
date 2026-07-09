@@ -1,5 +1,5 @@
 ---
-title: Relate a business application to another business application
+title: Relate business applications to each other
 description: Relate a business application to another business application using the CI relationship \[cmdb\_rel\_ci\] table of type Interfaced by::Interfaces. Use this suggested relationship to get the information of other business applications, which are interfaced with the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/relate-business-app-to-business-app.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Relate a business application to another business application
+# Relate business applications to each other
 
 Relate a business application to another business application using the CI relationship \[cmdb\_rel\_ci\] table of type Interfaced by::Interfaces. Use this suggested relationship to get the information of other business applications, which are interfaced with the business application.
 

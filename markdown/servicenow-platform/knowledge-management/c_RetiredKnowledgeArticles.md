@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,11 +33,7 @@ You can provide a replacement article while retiring a knowledge article. When t
 -   Article without any replacement returns a 404 code.
 -   The retire action on classic workspace will just retire the article and not provide a replacement irrespective of the setting of **glide.knowman.enable\_article\_replacement\_on\_retire**.
 
-## Instant retire and Approval retire workflows
-
-\[Omitted image "Instant-retire-knowledge-article-workflow.png"\] Alt text: Instant retire knowledge article workflow \[Omitted image "Approval-retire-knowledge-article-workflow.png"\] Alt text: Approval retire knowledge article workflow
-
 ## Delete a knowledge article
 
-Users with the admin role can delete a published knowledge article. On an article record, select **Delete**. If the **Delete** button isn't displayed, select the more actions icon \(\[Omitted image "more.png"\] Alt text: More actions icon\), and then select **Delete**.
+Users with the admin role can delete a published knowledge article. On an article record, select **Delete**. If the **Delete** button isn't displayed, select the more actions icon , and then select **Delete**.
 

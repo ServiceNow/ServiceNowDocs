@@ -74,6 +74,10 @@ Automate routine agent interactions and increase the speed of resolution from th
 
 Reduce the number of separate tools your company uses to provide a consistent service experience regardless of the issue or the request. Consolidating IT services enables you to better manage and allocate resources and track performance. You can have a single reliable source of information where performance is monitored in real time and data is easy to capture and report.
 
+## Enable self-service
+
+Reduce the ticket volume by enabling employees to find answers without contacting the service desk. ITSM integrates with [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/knowledge-articles-sow.md) and the [Employee Center dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center.md) to provide searchable knowledge articles and automated request fulfillment through a single self-service portal.
+
 ## Improve IT productivity
 
 Accelerate resolution with built-in machine learning. Chatbots provide immediate resolution to common questions. With ITSM Virtual Agent in action, you can have employees with 24\*7 support service. Service desk agents can take advantage of machine-learning automation to resolve incidents and recommend resolutions for agents based on similar incidents solved in the past.
@@ -92,17 +96,17 @@ Stay connected and access information in real time using the ITSM mobile agent. 
 
 Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow instance.
 
-See [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md).
+See [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_EdgeEncryptionOverview.md).
 
 Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required.
 
-See [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md).
+See [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_EdgeEncryptionPlanning.md).
 
-To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md).
+To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_InstallEdgeEncryptionProxy.md).
 
-To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/edge-config.md).
+To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-config.md).
 
-**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/edge-encryption-limitations.md).
+**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption-limitations.md).
 
 ## Get started
 
@@ -143,17 +147,18 @@ To configure edge encryption, see [Edge Encryption configuration](https://raw.gi
 -   [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-landing.md)
 -   [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-landing.md)
 -   [Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/expense-line/c_ExpenseLine.md)
--   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+-   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md)
 -   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
 -   [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 -   [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md)
 -   [ITSM Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md)
+-   [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/knowledge-articles-sow.md)
 -   [ITSM Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-dashboards-content-pack.md)
 -   [ITSM Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-landing-page.md)
 -   [On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
--   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
--   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
+-   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-incident-management-landing-page.md)
+-   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-change-management-landing-page.md)
 -   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/procurement/c_Procurement.md)
 -   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/c_ProductCatalog.md)
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/c_ProblemManagement.md)

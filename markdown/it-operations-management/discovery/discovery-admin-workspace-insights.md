@@ -27,13 +27,13 @@ You can access the following information through the Insights page:
 -   [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 -   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md)
 -   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
--   [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md)
+-   [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerDashboard.md)
 -   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/agent-health-dashboard.md)
 -   [Missing compute resources from Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discover-missing-compute-resources.md)
 -   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/shazzam-insights.md)
 -   [Tag Governance Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/tag-governance-insights-dashboard.md)
 -   [Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md)
--   [URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)
+-   [URL Discovery insights for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)
 
 -   **[Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/disco-operations-monitor.md)**  
 The Discovery Operations Monitor dashboard displays performance metrics for your Discovery environment. Use this dashboard to monitor discovery health and identify issues across your IT landscape.
@@ -45,8 +45,8 @@ The Discovery Admin Workspace displays your port scanning information, IP addres
 View metrics like tag policy coverage, compliance status, and usage trends directly from the Discovery Admin Workspace.
 -   **[Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md)**  
 The Discovery Admin Workspace Virtual Machine Explorer dashboard displays information on the activity and capacity of your virtual machine \(VM\) instances as revealed by the discovery process.
--   **[URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)**  
-The Discovery Admin Workspace URL Discovery Insights dashboard displays captured data and analytics for web domains accessed on managed Windows and macOS devices.
+-   **[URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)**  
+The Discovery Admin Workspace URL Discovery insights dashboard displays captured data and analytics for web domains accessed on managed Windows and macOS devices.
 
 **Parent Topic:**[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
 

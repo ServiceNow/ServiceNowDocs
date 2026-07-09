@@ -32,7 +32,7 @@ Role required: sn\_apm.apm\_user
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Create new TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md).
+    For field information, see [Create TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md).
 
 6.  Select **Create**.
 

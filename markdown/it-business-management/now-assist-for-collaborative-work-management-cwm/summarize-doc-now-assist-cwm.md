@@ -1,5 +1,5 @@
 ---
-title: Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)
+title: Refine content of a Doc page in Collaborative Work Management \(CWM\)
 description: Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/summarize-doc-now-assist-cwm.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)
+# Refine content of a Doc page in Collaborative Work Management \(CWM\)
 
 Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
 

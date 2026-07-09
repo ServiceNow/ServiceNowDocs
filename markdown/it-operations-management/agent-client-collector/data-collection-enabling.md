@@ -22,6 +22,8 @@ Create a background script to send an `osquery` request. The `osquery` request e
 Run data collection on an agent's host to discover the components that are running on the host.
 -   **[Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md)**  
 Specify the checks to be included in the list of checks that are enabled to run on the agent.
+-   **[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
+Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.
 -   **[Run host data collection on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-run-discovery.md)**  
 You can perform host data collection on demand, if you need to perform data collection before the job is scheduled to run.
 -   **[Pause Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-enable-silent-mode.md)**  

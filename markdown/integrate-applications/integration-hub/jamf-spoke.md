@@ -58,7 +58,7 @@ The Jamf spoke provides sample subflows to demonstrate automating tasks. To cust
 |Revoke Application|Removes the provided user or device from the given group in the Jamf Server.|
 |Look up Configuration Data|Retrieves configuration data for the specified requested item or software configuration record.|
 
-**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) is installed.
+**Note:** These subflows are available only when the [Client Software Distribution 2.0 application]() is installed.
 
 ## Spoke actions
 
@@ -170,7 +170,7 @@ Removes a target computer group from a Mac application given the current scope o
 
 </td></tr><tr><td rowspan="2">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application]() is installed.
 
 </td><td>
 
@@ -509,9 +509,9 @@ The Jamf spoke adds the Jamf application to your instance. The application inclu
 |Policies|Displays the list of policies from the Jamf server.|Policy \[sn\_jamf\_spoke\_policy\]|
 |Server Instances|Stores details of the provider servers.|Server Instance \[sn\_jamf\_spoke\_server\]|
 
-**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) is installed.
+**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application]() is installed.
 
-Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application]().
 
 ## Spoke triggers
 

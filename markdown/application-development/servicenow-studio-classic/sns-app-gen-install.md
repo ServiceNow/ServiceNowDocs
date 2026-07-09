@@ -53,7 +53,7 @@ Role required: admin
 
         \[Omitted image "app-generation-install-turn-on-button-ys2.png"\] Alt text: App generation skill card with turn on button highlighted.
 
-    For more information about setting up, configuring, and monitoring Now Assist, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+    For more information about setting up, configuring, and monitoring Now Assist, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 8.  Activate the Now Assist panel.
 
@@ -89,5 +89,5 @@ To begin generating applications, see [Generate apps with Now Assist for app gen
 **Related topics**  
 
 
-[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
 

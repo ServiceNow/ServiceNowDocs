@@ -30,7 +30,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 2.  Open the task one of the following ways.
 
-<table><tbody><tr><td id="d113030e72">
+<table><tbody><tr><td id="d113728e72">
 
 **From the landing page**
 
@@ -38,7 +38,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d113030e81">
+</td></tr><tr><td id="d113728e81">
 
 **From the Commercial lines claims approvals list**
 

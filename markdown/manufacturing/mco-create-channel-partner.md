@@ -34,5 +34,5 @@ Role required: admin
 **Related topics**  
 
 
-[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/configure-partner-relationship-management.md)
+[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/configure-partner-relationship-management.md)
 

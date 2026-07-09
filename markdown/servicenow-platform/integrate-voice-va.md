@@ -28,7 +28,7 @@ To use our pre-built adapter connector with ServiceNow Voice with Virtual Agent,
 -   **Calling and routing**
     -   Make outbound calls via click to call or via auto-connecting the Omnichannel Callback feature.
 
-        For more information, see [Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md).
+        For more information, see [Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-va-ivr.md).
 
     -   Transfer to external phone number using the Amazon Connect Softphone.
     -   Skills-based call assignment using the Advanced Work Assignment.
@@ -60,5 +60,5 @@ The following example workflow shows the use of ServiceNow Voice for Virtual Age
 **Related topics**  
 
 
-[Integrating Virtual Agent with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/va-ivr-voice.md)
+[Integrating Virtual Agent with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-ivr-voice.md)
 

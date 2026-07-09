@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Oracle GlassFish Servers
+title: Application services with Oracle GlassFish Servers
 description: Service Mapping can discover application services containing Oracle GlassFish Servers.Map an service instance containing an Oracle GlassFish Server correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/mapping-services-glassfish.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Oracle GlassFish Servers
+# Application services with Oracle GlassFish Servers
 
 Service Mapping can discover application services containing Oracle GlassFish Servers.
 
@@ -111,9 +111,9 @@ Map an service instance containing an Oracle GlassFish Server correctly.
 
 ### Before you begin
 
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
--   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 Role required: service\_mapping\_admin
 

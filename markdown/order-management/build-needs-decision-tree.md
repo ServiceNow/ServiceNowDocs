@@ -52,15 +52,15 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34524e173">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34634e173">
 
 Option
 
-</th><th align="left" id="d34524e176">
+</th><th align="left" id="d34634e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34524e182">
+</th></tr></thead><tbody><tr><td id="d34634e182">
 
 **[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-path-in-gdb.md)**
 
@@ -68,7 +68,7 @@ Steps
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d34524e193">
+</td></tr><tr><td id="d34634e193">
 
 **[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
@@ -76,7 +76,7 @@ Configure a path to set the conditions for when the next question is displayed i
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d34524e204">
+</td></tr><tr><td id="d34634e204">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -91,7 +91,7 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d34524e255">
+</td></tr><tr><td id="d34634e255">
 
 **[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-guided-decision-tree.md)**
 

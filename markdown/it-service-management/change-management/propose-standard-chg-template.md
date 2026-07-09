@@ -31,29 +31,35 @@ As an IT technician, you can propose a new change template for a change request 
     |Field|Description|
     |-----|-----------|
     |Short description|Short description of the standard change proposal template.|
+    |Requester|User who requests the standard change template.|
     |Category|Category under which the template is published. For example, Server Standard Changes.|
-    |Sample Change Requests|Change requests that are available as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
-    |Change Request values|Text which appears as default text in the standard change proposal template.|
+    |Configuration item|Configuration item affected by change requests created from the standard change template.|
+    |Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
+    |Change Request values|Default field values applied to change requests created from the standard change template. The available fields are governed by the catalog properties. For more information, see[Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|
 
-2.  Click **Save**.
+2.  Select **Save**.
 
     The proposal is created with the status **New**.
 
-3.  Click **Request Approval**.
+3.  Select **Request Approval**.
 
-    The proposal is created with the status **In Progress**.
+    After you submit the proposal, the status changes to **In Progress** and the Change Management team reviews the sample change requests. The team either approves or rejects the template.
 
+    When the team approves or rejects the template, the system automatically notifies members of the Change Management group. The proposal remains in **In Progress** status until the review is complete.
+
+    -   **Approved:** The template publishes to the Standard Change Catalog and is set to available for creating standard change requests.
+    -   **Rejected:**The proposal reverts to **New** status for modifications.
 4.  Create a standard change template from a change that exists by completing the following steps.
 
-    1.  Navigate to **Change** &gt; **Open** and click the change whose information you want to use in the standard change template.
+    1.  Navigate to **Change** &gt; **Open** and select the change whose information you want to use in the standard change template.
 
-    2.  Open the form context menu and click **Propose a Standard Change Template**.
+    2.  Open the form context menu and select **Propose a Standard Change Template**.
 
     **Note:**
 
     -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
     -   By default, approval records are created for members of the Change Management group.
-    Alternatively, as a change manager, create and submit a standard change proposal that can be utilized as a template to draft a standard change request that occurs frequently and is of low risk. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Click **New**, fill the form, and then click **Submit**.
+    Alternatively, as a change manager, create and submit a standard change proposal that can be utilized as a template to draft a standard change request that occurs frequently and is of low risk. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Select **New**, fill the form, and then select **Submit**.
 
     To view standard change templates, users must have the appropriate roles. Users with the following roles can view the standard change templates:
 

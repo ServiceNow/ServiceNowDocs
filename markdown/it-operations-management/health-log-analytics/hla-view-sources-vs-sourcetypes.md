@@ -1,6 +1,6 @@
 ---
-title: View the relationships between source types and log sources
-description: Explore the many-to-many relationships between source types and log sources in Health Log Analytics to help you optimize your data input mapping.
+title: Source type and log source relationships
+description: Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [ServiceNow, Health Log Analytics, HLA, relationship, source type, log
 breadcrumb: [Log data auto-mapping and mapping, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# View the relationships between source types and log sources
+# Source type and log source relationships
 
-Explore the many-to-many relationships between source types and log sources in Health Log Analytics to help you optimize your data input mapping.
+Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 
 ## Before you begin
 

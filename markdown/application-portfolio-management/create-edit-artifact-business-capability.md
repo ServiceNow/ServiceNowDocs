@@ -18,7 +18,7 @@ View and manage the artifacts that are associated with a business capability.
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Architectural Artifacts module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage architectural artifacts of a business capability in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-bc.md).
+Starting with the Xanadu release, the legacy Architectural Artifacts module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-bc.md).
 
 Role required: sn\_apm.apm\_analyst
 

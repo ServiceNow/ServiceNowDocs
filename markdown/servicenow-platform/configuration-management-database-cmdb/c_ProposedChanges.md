@@ -222,7 +222,7 @@ Before applying proposed changes to affected CIs, use proposed change verificati
 
 ### Before you begin
 
-Create or edit the rules used to verify proposed changes. For details, see [Create or edit a proposed change verification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Create or edit the rules used to verify proposed changes. For details, see [Create or edit a proposed change verification rule]().
 
 Role required: none
 
@@ -336,5 +336,5 @@ To correctly determine the validity of a change, examine the parameters and appl
 **Related topics**  
 
 
-[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/c_HistoryTimeline.md)
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_HistoryTimeline.md)
 

@@ -32,9 +32,9 @@ For example, the tag key Application might belong to both the Application and Co
 
 1.  Navigate to **All** &gt; **Tag Governance** &gt; **Tag Categories**.
 
-2.  Verify that you are in the leaf domain.
+2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\] Alt text:.
+    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 

@@ -26,11 +26,11 @@ Use the following steps as guidelines for setting targets and automating the act
 
 -   **[Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/context-variable-in-target-source.md)**  
 The context variable is an additional configuration for the target source that can be used on the Target form to fetch the required data and auto-update the **Actual value** field on the Target form. A context variable is required for target source types Assessment/Survey and PA Indicator.
--   **[Create a target source for automating the Actual value of the targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/create-target-source.md)**  
+-   **[Create a target source to automate target actual values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/create-target-source.md)**  
 Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 -   **[Create context variable for a target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/create-context-variable-for-a-target-source.md)**  
 Create a context variable manually if you want to configure more context variables for a target source.
--   **[Create a context variable for the target source type PA Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/create-context-variable-for-a-target-source-type-pa-indicator.md)**  
+-   **[Create a context variable for a PA Indicator target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/create-context-variable-for-a-target-source-type-pa-indicator.md)**  
 Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 
 **Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/configuring-goal-framework.md)

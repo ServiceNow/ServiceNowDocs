@@ -40,9 +40,13 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-reference.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Additional resources
 
--   [Ask questions and explore other resources for Retail Operations in the ServiceNow Community](https://www.servicenow.com/community/)
+-   Learn more about what's new and changed in this release at [Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/rahi-retail-rn-landing.md).
+-   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=a4d172da47f33658db63fb25126d43e8&s=1&ssa=3).
+-   Connect with other Retail users in the [Retail and Hospitality community forum](https://www.servicenow.com/community/retail-hospitality/ct-p/industry-retail-hospitality).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

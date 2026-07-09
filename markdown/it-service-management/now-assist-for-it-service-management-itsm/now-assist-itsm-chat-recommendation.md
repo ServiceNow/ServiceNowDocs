@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -18,6 +18,8 @@ breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(IT
 Generate a reply based on the context of the chat conversation using the Now Assist icon. Chat reply recommendations provide agents with quick replies to common questions.
 
 ## Before you begin
+
+Your admin must have enabled Virtual Agent and configured the chat assistant on the portal. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/display-assistant-portal-channel.md) and [Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md).
 
 Role required: itil
 
@@ -46,15 +48,15 @@ You can do these actions by using Now Assist icon:
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d269264e164">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d280386e193">
 
 Chat message window
 
-</th><th align="left" id="d269264e167">
+</th><th align="left" id="d280386e196">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d269264e175">
+</th></tr></thead><tbody><tr><td id="d280386e204">
 
 **Typed response**
 
@@ -66,7 +68,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d269264e195">
+</td></tr><tr><td id="d280386e224">
 
 **Left blank**
 

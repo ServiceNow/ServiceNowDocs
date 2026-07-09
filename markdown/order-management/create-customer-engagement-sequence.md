@@ -64,7 +64,7 @@ Setting up a sequence is based on playbooks and requires you to be familiar with
 
         For example, to trigger the sequence when a new record is created in the Lead \[sn\_lead\_mgmt\_core\_lead\] table, you would set the condition **\[Stage\]****\[is\]****\[New\]**.
 
-        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     6.  Select the frequency for your trigger from **Run my trigger** drop-down list.
 
@@ -88,13 +88,13 @@ Setting up a sequence is based on playbooks and requires you to be familiar with
 
 8.  In the sequence diagram, configure sequence steps in the Configure sequence activities stage.
 
-    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/add-configure-activity.md).
+    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-configure-activity.md).
 
     You can add any number of activities to this stage in your sequence.
 
 9.  Exit early from the sequence by selecting the **Customer Engagement Sequences** &gt; **Update Sequence Task** activity from the activity picker.
 
-    For more information on adding an activity, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/add-configure-activity.md).
+    For more information on adding an activity, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-configure-activity.md).
 
 10. Review the configuration in the Tear Down stage.
 
@@ -116,11 +116,11 @@ View sequence tasks and execute sequence steps. See [Using Customer Engagement S
 **Related topics**  
 
 
-[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer-lanes-activities.md)
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer-triggers.md)
 
-[Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md)
+[Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-extension-and-classes.md)
 
-[Restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/restart.md)
+[Restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/restart.md)
 

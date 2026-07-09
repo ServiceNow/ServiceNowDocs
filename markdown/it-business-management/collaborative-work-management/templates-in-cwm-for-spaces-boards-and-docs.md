@@ -16,7 +16,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 By enabling creation of Boards and Docs from predefined or custom templates, Collaborative Work Management \(CWM\) helps improve efficiency, save time, and reduce inconsistencies in format.
 
-Overview of templates for Boards and Docs in CWM. 
+\[Omitted video\] Description: Overview of templates for Boards and Docs in CWM.
 
 Creating Boards and Docs from scratch across similar processes often consumes time and effort, and could also lead to differences in their structure. With templates in CWM, you get a predefined format for Boards and Docs, which you can use as-is or customize to suit your workflow. You can use templates for new Boards and Docs or apply them to existing ones. You can also save an existing Board or Doc in its current format as templates.
 

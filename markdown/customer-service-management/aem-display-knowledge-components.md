@@ -16,8 +16,8 @@ Use knowledge components available within Adobe Experience Manager \(AEM\) to ac
 
 ## Before you begin
 
--   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/knowledge-api.md).
--   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+-   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/knowledge-api.md).
+-   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM]().
 
 Role required: AEM author
 
@@ -118,7 +118,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Custom CSS class for applying custom styles to this component. For more information, see []().
 
 </td></tr></tbody>
 </table>8.  Set the Search Box component properties to display a search box for users to enter search text and find knowledge articles in the ServiceNow instance matching the search text.
@@ -218,7 +218,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Custom CSS class for applying custom styles to this component. For more information, see []().
 
 </td></tr></tbody>
 </table>9.  Set the Article View component properties to display knowledge articles and their attachments, if available, from a ServiceNow instance.
@@ -269,7 +269,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Custom CSS class for applying custom styles to this component. For more information, see []().
 
 </td></tr></tbody>
 </table>10. Set the Article List component properties to display a list of knowledge articles depending on the list criteria.
@@ -335,7 +335,7 @@ Criteria
 
 </td><td>
 
-List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md) and [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_PinAnArticle.md) and [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_KnowledgeProperties.md).
 -   **Most Viewed**: List of knowledge articles with the most views.
 
 
@@ -369,7 +369,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Custom CSS class for applying custom styles to this component. For more information, see []().
 
 </td></tr></tbody>
 </table>

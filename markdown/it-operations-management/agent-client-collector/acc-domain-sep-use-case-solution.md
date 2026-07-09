@@ -1,5 +1,5 @@
 ---
-title: Use case: Regulatory compliance in a financial services solution
+title: Use case: Regulatory compliance in financial services
 description: A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-domain-sep-use-case-solution.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Domain separation and Agent Client Collector, Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
-# Use case: Regulatory compliance in a financial services solution
+# Use case: Regulatory compliance in financial services
 
 A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
 

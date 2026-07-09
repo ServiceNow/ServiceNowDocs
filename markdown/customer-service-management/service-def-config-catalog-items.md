@@ -46,7 +46,7 @@ A variable set for service definitions is available with the Customer Service Ca
 **Related topics**  
 
 
-[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IntroductionToCatalogItems.md)
 
-[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_DefineACatalogItem.md)
 

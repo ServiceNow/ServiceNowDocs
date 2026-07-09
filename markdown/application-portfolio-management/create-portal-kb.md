@@ -24,3 +24,8 @@ Create a new portal knowledge base to associate a portal with a knowledge base s
 
 **Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-reference.md)
 
+**Related topics**  
+
+
+[Associate a portal with a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/associate-portal-to-trm-cat.md)
+

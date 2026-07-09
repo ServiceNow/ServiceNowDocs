@@ -26,8 +26,8 @@ You can use tag-based relationship mapping for:
 
 To create CMDB relationships between APIs and application services or business applications based on API tags, follow these steps:
 
-1.  [Define tag-based mapping rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
-2.  [Schedule the tag-based mapping rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+1.  [Define tag-based mapping rules]().
+2.  [Schedule the tag-based mapping rule]().
 
 ## Define tag-based mapping rules
 
@@ -67,7 +67,7 @@ Tag-based mapping rules enable you to automatically create relationships between
 
 You can use a scheduled job to automatically create CMDB relationships between APIs and application services or business applications based on API tags.
 
-Scheduled jobs automate tasks that run at a specific time or on a recurring schedule. You need the admin role to configure and run a scheduled job. For more information on configuring a scheduled job, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/time-configuration/c_ScheduledJobs.md).
+Scheduled jobs automate tasks that run at a specific time or on a recurring schedule. You need the admin role to configure and run a scheduled job. For more information on configuring a scheduled job, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ScheduledJobs.md).
 
 The **Tag based relationship mapping** scheduled job is available to schedule applying tag-based mapping rules between APIs and application services or business applications. By default, this job is inactive. As a user with the admin role, you can configure and activate it to run at regular intervals.
 

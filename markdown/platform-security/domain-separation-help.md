@@ -59,7 +59,7 @@ Classes
 
 </td><td>
 
-[Safe Workplace suite and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/safe-workplace/domain-separation-safe-workplace.md)
+[Safe Workplace suite and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/domain-separation-safe-workplace.md)
 
  ServiceNow Safe Workplace applications help you reopen your workplaces and support the health and safety of your employees after emergencies and pandemics such as COVID-19. The suite has many applications to help your organization mobilize, recover, and rebuild.
 

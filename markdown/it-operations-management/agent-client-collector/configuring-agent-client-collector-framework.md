@@ -23,7 +23,7 @@ Agent Client Collector Framework configuration typically follows these steps:
 3.  [Configure a websocket endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-websocket-endpoint.md).
 4.  [Configure the frequency of updating the agent MID Server list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-update-mid-server-list.md).
 5.  [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/create-edit-assets.md).
-6.  [Incorporating the Agent Client Collector into a custom base image for mass deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
+6.  [Deploy the Agent Client Collector using a custom base image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
 7.  [Install the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
 
     The installation procedure to follow depends on the OS you are performing installation on \(Linux, Windows, or macOS\).

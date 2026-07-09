@@ -40,7 +40,7 @@ Documents are uploaded and accessed from the Managed Documents application in th
 
 The base system provides the Non-Disclosure Agreement document template as an example of a PDF document template.
 
-**Note:** See . [Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
+**Note:** See . [Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_ManagedDocumentFeatures.md)
 
 ## Procedure
 

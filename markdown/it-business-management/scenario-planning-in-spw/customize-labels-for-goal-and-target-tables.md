@@ -30,15 +30,15 @@ When you rename the label for the Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goa
 
 2.  Customize the label name for the tables according to your requirement.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d99183e89">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d103129e89">
 
 For this table
 
-</th><th align="left" id="d99183e92">
+</th><th align="left" id="d103129e92">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d99183e98">
+</th></tr></thead><tbody><tr><td id="d103129e98">
 
 **Goal**
 
@@ -49,7 +49,7 @@ Perform these steps
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d99183e128">
+</td></tr><tr><td id="d103129e128">
 
 **Target**
 

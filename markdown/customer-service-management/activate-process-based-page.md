@@ -53,11 +53,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/reuse-page-definitions.md)
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/reuse-page-definitions.md)
 
-[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/edit-page.md)
+[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/edit-page.md)
 
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/create-variant.md)
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-variant.md)
 
-[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/edit-variant-settings.md)
+[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/edit-variant-settings.md)
 

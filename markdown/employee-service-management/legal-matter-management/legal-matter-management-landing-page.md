@@ -33,7 +33,7 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage contract requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage contract requests.]()
 
 </td><td>
 

@@ -18,7 +18,7 @@ Set a wait time by using the Wait For Time component in RPA Desktop Design Studi
 
 Watch this video to learn how to use the Wait For Time component.
 
-How to use the Wait For Time component. 
+\[Omitted video\] Description: How to use the Wait For Time component.
 
 ## Before you begin
 

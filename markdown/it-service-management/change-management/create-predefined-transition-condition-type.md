@@ -26,7 +26,7 @@ Role required: change\_manager
 
     A list of transition conditions for Change requests appears.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -39,8 +39,8 @@ Role required: change\_manager
     |Condition \(Condition builder\)|Conditions that must be fulfilled for processing the transition.|
     |Condition \(Script\)|Script that must be fulfilled for processing the transition. If passed, it returns a value of **true**.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
-
+5.  
 **Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-change-model.md)
 

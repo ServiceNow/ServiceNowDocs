@@ -1,5 +1,5 @@
 ---
-title: Create a context variable for the target source type PA Indicator
+title: Create a context variable for a PA Indicator target source
 description: Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/goal-framework/create-context-variable-for-a-target-source-type-pa-indicator.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring target source for target automation, Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
-# Create a context variable for the target source type PA Indicator
+# Create a context variable for a PA Indicator target source
 
 Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 
@@ -38,7 +38,7 @@ Creating a context variable is similar to creating a column on a table.
 
 4.  On the form, fill in the **Type** field as Choice and the other fields as needed.
 
-    For a description of the field values, see [Context Variable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+    For a description of the field values, see [Context Variable form]().
 
 5.  Click **Submit**.
 

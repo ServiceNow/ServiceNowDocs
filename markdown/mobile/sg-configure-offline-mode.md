@@ -32,7 +32,7 @@ Role required: admin
 
     Use the information in the description to determine a value for the property.
 
-    **Note:** For more detail on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
+    **Note:** For more detail on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 <table id="table_myv_c2n_vnb"><thead><tr><th>
 

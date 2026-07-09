@@ -27,7 +27,7 @@ For alert notifications in Slack channels, verify that the plugin Slack Webhooks
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 2.  Find the plugin using the filter criteria and search bar.
 
-    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_RequestAPlugin.md).
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_RequestAPlugin.md).
 
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
@@ -38,10 +38,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     Health Log Analytics uses the Webhook to notify about the alerts in the channel.
 
-    Perform the appropriate procedure:
-
-    -   Create a Webhook URL for a channel in Slack
-    -   Create a Webhook URL for a channel in Microsoft Teams
 2.  Map the Webhook URL for the channel to the service instance associated with the alert.
 
     1.  Navigate to **Health Log Analytics Administration** &gt; **Webhook Notification**.

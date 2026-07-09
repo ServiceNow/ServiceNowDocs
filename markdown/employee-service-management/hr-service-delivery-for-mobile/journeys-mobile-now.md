@@ -40,5 +40,5 @@ Journeys are created in the ServiceNow® Journey designer application to help em
 -   Complete learning courses added by the organization or their manager.
 -   Receive notifications when a journey is created for them.
 
-**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery for mobile]()
 

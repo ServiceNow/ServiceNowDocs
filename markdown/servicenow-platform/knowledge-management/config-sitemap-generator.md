@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Include knowledge articles in your sitemap by activating the sitemap configurati
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
+-   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activate-sitemap-generator.md)
 -   Verify that an unauthenticated user can access the knowledge base article by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article View form.
 
@@ -40,7 +40,7 @@ Beginning with the Yokohama release, the Sitemap Generator configuration is avai
 
     2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
 
-    3.  Select the Save icon \(\[Omitted image "save-km.png"\] Alt text: Save icon\).
+    3.  Select the **Save** icon .
 
 4.  Select **Update**.
 

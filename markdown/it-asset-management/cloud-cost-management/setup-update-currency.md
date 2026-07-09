@@ -51,5 +51,8 @@ Setting up currency options enables Cloud Cost Management users to choose from t
 
 After the **Status** field changes to Ready, the selected currencies become available for selection in the **Currency preference** list on the Operations view.
 
+-   **[Choose preferred currency for cost and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/choose-pref-currency.md)**  
+Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation/savings plan\), budgets, and billing data.
+
 **Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

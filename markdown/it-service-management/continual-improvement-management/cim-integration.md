@@ -28,23 +28,23 @@ An improvement initiative can be created from these applications.
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 -   Configuration Management Database \(CMDB\)
 -   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)
--   [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/demand-management/c_DemandManagement.md)
--   [Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+-   [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_DemandManagement.md)
+-   [Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 -   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/c_ProblemManagement.md)
--   [Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md)
+-   [Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_SurveyManagementLandingPage.md)
 
 As part of an improvement initiative, these records can be created.
 
 -   Demand record
--   [Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md) \(optional\)
+-   [Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_ProjectApplicationOverview.md) \(optional\)
 
 As part of a CIM task, these records can be created:
 
 -   [change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ITILChangeManagement.md) record
 -   [Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md)
--   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
--   [Create a story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/agile-development/create-a-story.md)
+-   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-knowledge-article.md)
+-   [Create a story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-a-story.md)
 
 ## Integration property
 
@@ -326,7 +326,7 @@ No change.
 </td></tr></tbody>
 </table>-   **Create PA Indicator** related link
 
-    [Create a Performance Analytics automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/t_CrtIndctrIndctrWzrd.md).
+    [Create a Performance Analytics automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_CrtIndctrIndctrWzrd.md).
 
 -   **Show Benchmarks** related link
 

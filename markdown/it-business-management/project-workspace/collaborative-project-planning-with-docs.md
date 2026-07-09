@@ -24,7 +24,7 @@ Role required: it\_project\_user
 
 1.  Open a project in Project Workspace.
 
-    For more information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For more information, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the docs page of the project by selecting **Docs** from the list.
 

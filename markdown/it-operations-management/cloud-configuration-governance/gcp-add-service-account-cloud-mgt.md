@@ -60,7 +60,7 @@ Discovery credentials
 
 </td><td>
 
-Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that Cloud Provisioning and Governance: Google Cloud Connector uses to access Google Cloud Platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that Cloud Provisioning and Governance: Google Cloud Connector uses to access Google Cloud Platform data]().
 
 </td></tr><tr><td>
 

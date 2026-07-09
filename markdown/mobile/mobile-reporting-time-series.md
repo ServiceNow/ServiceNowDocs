@@ -35,7 +35,7 @@ Scroll along the lines to display the number of records contained in your select
 
     Mobile dashboards support the following time series report types:
 
-    -   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
-    -   [Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
-    -   [Step line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/step-reports.md)
+    -   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateLineCharts.md)
+    -   [Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateAreaAndSplineCharts.md)
+    -   [Step line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/step-reports.md)
 

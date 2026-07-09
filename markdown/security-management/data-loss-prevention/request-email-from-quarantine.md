@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Data Loss Prevention Incident Response with Microsoft, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -39,7 +39,7 @@ By default, the base system provides the **Request email release from quarantine
 
     **Note:** This step is required to connect to Exchange online using Service principle.
 
--   You should also need **Security Administrator** role in Service Principle,
+-   The least-privileged built-in role that supports these operations is the Transport Hygiene role in Service Principle.
     -   Search for **Microsoft Entra ID roles and Administrators** in Microsoft Azure portal, and add assignment to the registered app \(Service Principle\) and then follow the procedure explained on the Microsoft Documentation on how to [assign a role](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role).
 -   This option is applicable only for Microsoft Exchange incidents which have the **Policy Action** option as **ExQuarantine** on the incident form view.
 
@@ -55,13 +55,13 @@ The following procedure explains on how to submit this action from the DLP User 
 
     Verify that the incident **Policy Action** is set to ExQuarantine.
 
-3.  Click **Respond**.
+3.  Select **Respond**.
 
 4.  Select **Request release mail from Quarantine** option from the Response drop down list.
 
     \[Omitted image "dlp-respond-quarantined-email-release.png"\] Alt text: Submit incident response for Microsoft Exchange
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     **Note:** When an approval rule is configured for this action, the approval flow will be triggered first and after receiving all the approvals, the Request email release from quarantine flow will be triggered and the email will be released from quarantine. The state of the DLP Incident will be updated to **Released from Quarantine** after successful release.
 

@@ -50,7 +50,7 @@ To see the changes that have been made to the software library, review the SAM C
 
 **Note:** Content updates don't have an impact on any custom products or custom discovery maps.
 
-For more information on how to send your content to ServiceNow and include it in the content updates, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_EnableSAMContentService.md). For more information on content updates, see [KB0824127](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824127).
+For more information on how to send your content to ServiceNow and include it in the content updates, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_EnableSAMContentService.md).
 
 **Parent Topic:**[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMContentService.md)
 

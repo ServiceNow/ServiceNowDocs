@@ -1,5 +1,5 @@
 ---
-title: Train the similarity solution for Enterprise Architecture to categorize applications while registering
+title: Train the similarity solution for Enterprise Architecture to categorize applications
 description: Train the business application similarity definition included within the Predictive Intelligence for Enterprise Architecture to suggest a category for a business application when it is being registered or on-boarded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/similarity-solution-apm.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Train the similarity solution for Enterprise Architecture to categorize applications while registering
+# Train the similarity solution for Enterprise Architecture to categorize applications
 
 Train the business application similarity definition included within the Predictive Intelligence for Enterprise Architecture to suggest a category for a business application when it is being registered or on-boarded.
 
@@ -30,7 +30,7 @@ Role required: ml\_admin
 
 3.  On the Similarity Definition Business Application Similarity \[ML view\] form, verify the default values for business application similarity.
 
-    For more information on the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
+    For more information on the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-similarity-solution.md).
 
     **Note:** Set the application scope to Enterprise Architecture – Predictive Intelligence to edit the form. Click the word here at the end of the warning message that appears.
 

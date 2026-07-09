@@ -38,7 +38,7 @@ On applying any filter, the filter criteria are applied to all available widgets
 
 You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
 
--   **[View the performance of applications using the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)**  
+-   **[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)**  
 Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 
 **Parent Topic:**[Working with the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-workspace-dashboard.md)

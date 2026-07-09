@@ -30,15 +30,15 @@ Role required: sn\_dex\_desktop.admin
 
     **Note:** Employee Center \(EC\) Theme is the default theme applied for Desktop Assistant.
 
-<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d124742e165">
+<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d166266e165">
 
 Method
 
-</th><th align="left" id="d124742e168">
+</th><th align="left" id="d166266e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d124742e174">
+</th></tr></thead><tbody><tr><td id="d166266e174">
 
 **Apply another available theme**
 
@@ -52,7 +52,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d124742e219">
+</td></tr><tr><td id="d166266e219">
 
 **Customize the default theme by modifying specific CSS variables**
 
@@ -67,7 +67,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d124742e289">
+</td></tr><tr><td id="d166266e289">
 
 **Customize a theme other than the default theme**
 

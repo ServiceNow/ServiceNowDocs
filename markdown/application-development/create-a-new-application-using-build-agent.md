@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/create-a-new-application-using-build-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Use, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---
@@ -38,15 +38,15 @@ Role required: admin
 
 2.  In the chat panel, describe the application that you want to create in plain English.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d191865e142">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d252767e142">
 
 Scenario
 
-</th><th align="left" id="d191865e145">
+</th><th align="left" id="d252767e145">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d191865e151">
+</th></tr></thead><tbody><tr><td id="d252767e151">
 
 **First-time use of Build Agent**
 
@@ -56,7 +56,7 @@ Describe the application that you want to create, and then select **Send**. For 
 
 You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d191865e172">
+</td></tr><tr><td id="d252767e172">
 
 **Creating another app using Build Agent**
 

@@ -16,7 +16,7 @@ breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio 
 
 Learn about the process required For a successful migration of data from Scaled Agile Framework applications to Enterprise Agile Planning.
 
-Step by step guidance on migrating SAFe data to EAP. 
+\[Omitted video\] Description: Step by step guidance on migrating SAFe data to EAP.
 
 ## Guided Setup to migrate data from SAFe to EAP
 
@@ -36,12 +36,12 @@ The following tasks are included in the guided setup.
 
     Verify that the tables, columns, choice fields, and custom tables of your SAFe application are correctly mapped to those in EAP.
 
-    **Note:** By default, all columns of SAFe Story \[sn\_safe\_story\] and SAFe Scrum Task \[sn\_safe\_scrum\_task\] tables are migrated to the Story \[rm\_story\] and Scrum Task \[rm\_scrum\_task\] tables. To include or exclude any columns, see [Modify columns to migrate from SAFe story and SAFe Scrum task tables to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/modify-columns-to-migrate-safe-story-task-tables-to-eap.md).
+    **Note:** By default, all columns of SAFe Story \[sn\_safe\_story\] and SAFe Scrum Task \[sn\_safe\_scrum\_task\] tables are migrated to the Story \[rm\_story\] and Scrum Task \[rm\_scrum\_task\] tables. To include or exclude any columns, see [Modify columns to migrate from SAFe story tables to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/modify-columns-to-migrate-safe-story-task-tables-to-eap.md).
 
 3.  [Start migration of SAFe data to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/migrate-safe-data-to-eap.md).
 4.  Add **Agile Team** as the type for existing SAFe groups. See [Add Agile Team type to SAFe groups for EAP migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/change-safe-groups-type-to-agile-team.md).
 5.  Assign the EAP roles sn\_apw\_advanced.eap\_read\_only, sn\_apw\_advanced.eap\_user, and sn\_apw\_advanced.eap\_admin to your SAFe groups or to individual users in your teams.
 
-    See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md) or [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md) or [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 

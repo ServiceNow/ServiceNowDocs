@@ -1,5 +1,5 @@
 ---
-title: Tables installed with PPM Standard \(Project Portfolio Management\)
+title: Tables installed with Project Portfolio Management Standard
 description: Tables are added with activation of PPM Standard plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/ppm-collaboration/table-installed-with-PPS-finance.html
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Tables installed with PPM Standard \(Project Portfolio Management\)
+# Tables installed with Project Portfolio Management Standard
 
 Tables are added with activation of PPM Standard plugin.
 

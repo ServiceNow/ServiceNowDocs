@@ -31,7 +31,7 @@ The following items are installed with Quote Management:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d26950e187">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d26970e187">
 
 Demo data install task
 
-</th><th align="left" id="d26950e190">
+</th><th align="left" id="d26970e190">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26950e196">
+</th></tr></thead><tbody><tr><td id="d26970e196">
 
 **If demo data is available and you want to install it**
 
@@ -67,7 +67,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d26950e226">
+</td></tr><tr><td id="d26970e226">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

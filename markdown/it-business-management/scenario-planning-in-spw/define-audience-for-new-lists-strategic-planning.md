@@ -1,5 +1,5 @@
 ---
-title: Define audience for new lists in Strategic Planning
+title: Define audience for lists in Strategic Planning
 description: Manage who can view the newly created categories and lists in the Lists page of Strategic Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/define-audience-for-new-lists-strategic-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing Lists in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Define audience for new lists in Strategic Planning
+# Define audience for lists in Strategic Planning
 
 Manage who can view the newly created categories and lists in the Lists page of Strategic Planning Workspace.
 
