@@ -18,7 +18,7 @@ As a member of the legal contracts support team, review and revise a contract do
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 
@@ -36,15 +36,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d320734e120">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d349607e120">
 
 Option
 
-</th><th align="left" id="d320734e123">
+</th><th align="left" id="d349607e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d320734e129">
+</th></tr></thead><tbody><tr><td id="d349607e129">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d320734e158">
+</td></tr><tr><td id="d349607e158">
 
 **As a collaborator**
 

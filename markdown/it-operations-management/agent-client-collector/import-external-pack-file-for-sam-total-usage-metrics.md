@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [Using push-based Discovery and SAM together, Using Agent Client Collector for Visibility - Content, Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using push-based Discovery and SAM together, Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure Osqueryd schedule for SAM total usage metrics

@@ -15,7 +15,7 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
-[Account Lifecycle Events \[Omitted image "bus-events-tmt.svg"\] Alt text: Provide a structured, onboarding experience for technology industry providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md)
+[Account Lifecycle Events \[Omitted image "bus-events-tmt.svg"\] Alt text: Provide a structured, onboarding experience for technology industry providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 
 </td><td>
 
@@ -27,11 +27,11 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 </td></tr><tr><td>
 
-[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
+[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/assurance-workflows.md)
 
 </td><td>
 
-[Sales and Order Management\[Omitted image "bus-customer-and-contract-management-tmt.svg"\] Alt text:Capture, manage, and fulfill customer and external service orders.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/order-mgt-overview.md)
+[Sales and Order Management\[Omitted image "bus-customer-and-contract-management-tmt.svg"\] Alt text:Capture, manage, and fulfill customer and external service orders.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-overview.md)
 
 </td><td>
 
@@ -43,11 +43,11 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 </td><td>
 
-[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
+[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/telecom-network-inventory.md)
 
 </td><td>
 
-[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-service-operations-mgt-overview.md)
+[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-service-operations-mgt-overview.md)
 
 </td></tr></tbody>
 </table>

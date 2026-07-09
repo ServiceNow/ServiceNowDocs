@@ -24,7 +24,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **UX Themes**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes**.
+
+    The UX Themes table is displayed.
 
 2.  Select your custom theme from the UX Themes table.
 
@@ -89,7 +91,7 @@ Role required: admin
             **Note:** Verify that your image is in SVG format.
 
         6.  Enter the file name of the asset in the **Name** field and select **Submit**. The asset is added to the UX Style Assets list.
-        7.  Select and hold \(or right-click\) on the asset from the UX Style Assets list, and select **Copy sys\_id**.
+        7.  In the UX Style Assets tab, select and hold \(or right-click\) the asset and select **Copy sys\_id**.
         8.  Enter the sys\_id into the Style field using the following format:`"/uxta/ENTERYOURSYSID.assetx"`
     -   Add your custom image to the Images \[db\_images\_list.do\] table.
 

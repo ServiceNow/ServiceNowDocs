@@ -30,7 +30,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/aes-overview.md)
+[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)
 
 </td><td>
 
@@ -39,7 +39,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/integrationhub.md)
+[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)
 
 </td><td>
 
@@ -57,7 +57,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-main-landing-page.md)
+[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)
 
 </td><td>
 

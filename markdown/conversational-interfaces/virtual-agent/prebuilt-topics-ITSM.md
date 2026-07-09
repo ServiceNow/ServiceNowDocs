@@ -40,7 +40,7 @@ com.sn\_csm.virtualagent
 
 </td></tr><tr><td>
 
-[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
+[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-virtual-agent-conversations.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ Request the HR Service Delivery Virtual Agent Conversations from the ServiceNow 
 
 </td></tr><tr><td>
 
-[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
+[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -84,9 +84,9 @@ For details on creating, testing \(previewing\), duplicating, and publishing a t
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 
 -   Reviewing a prebuilt NLU model – After you install the plugins for predefined topics, you can view the prebuilt models in NLU Workbench. The prebuilt NLU models for ServiceNow applications define the intents, entities, and utterances used for the predefined topics. These models are also trained and published. You can also review the utterances for a prebuilt model in Virtual Agent Designer. However to copy a prebuilt model, you use NLU Workbench.
--   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md) from prebuilt models or other NLU models that you create in NLU Workbench.
+-   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-nlu-model.md) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/import-nlu-intent.md) from prebuilt models or other NLU models that you create in NLU Workbench.
 
-For details on creating, training, and publishing ServiceNow NLU models, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
+For details on creating, training, and publishing ServiceNow NLU models, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-landing.md).
 
 **Parent Topic:**[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-virtual-agent.md)
 

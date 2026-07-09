@@ -20,7 +20,7 @@ Test your ServiceNow apps.
 
 </td><td>
 
-[Test Management \[Omitted image "icon-test.png"\] Alt text: Test Management. Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/test-management/test-management-overview.md)
+[Test Management \[Omitted image "icon-test.png"\] Alt text: Test Management. Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/test-management-overview.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Test your ServiceNow apps.
 
 </td><td>
 
-[User impersonation \[Omitted image "icon-user.png"\] Alt text: User impersonation. Impersonate other authenticated users for testing purposes and view impersonation logs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)
+[User impersonation \[Omitted image "icon-user.png"\] Alt text: User impersonation. Impersonate other authenticated users for testing purposes and view impersonation logs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ImpersonateAUserInUI16.md)
 
 </td></tr><tr><td>
 

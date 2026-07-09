@@ -18,7 +18,7 @@ Get visibility into your license position and usage of your engineering applicat
 
 Watch this short video for an introduction to engineering license management.
 
-Overview of Engineering license management 
+\[Omitted video\] Description: Overview of Engineering license management
 
 **Note:** To access all the benefits of the Software Asset Management Professional for engineering applications, request the Software Asset Management Professional for Engineering Applications plugin \(com.sn\_samp\_eng\_app\). For more information, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 

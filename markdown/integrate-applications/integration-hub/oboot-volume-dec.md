@@ -36,7 +36,7 @@ This spoke was built for Oracle Boot Volume API version 20160918, but may be com
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Oracle Cloud IAM Spoke]()
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   Complex Object \(com.glide.cobject\)
@@ -73,7 +73,7 @@ The Oracle Boot Volume spoke provides actions to automate  tasks when events occ
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md).
 
 For information about setting up the spoke, see [Set up the Oracle Boot Volume spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/oboot-vol-setup-dec.md).
 

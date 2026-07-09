@@ -55,15 +55,15 @@ After creating a case action summary, the record is added to the Case form in th
 
 7.  Publish the case action summary using one of the following actions.
 
-<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d68007e238">
+<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d68718e238">
 
 Action
 
-</th><th align="left" id="d68007e241">
+</th><th align="left" id="d68718e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68007e247">
+</th></tr></thead><tbody><tr><td id="d68718e247">
 
 **Publish to Case**
 
@@ -73,7 +73,7 @@ Updates the case with the case action summary. -   Information from the customer
 -   Information from the case action summary is added to the **Work notes** field on the Case form.
 
 
-</td></tr><tr><td id="d68007e271">
+</td></tr><tr><td id="d68718e271">
 
 **Publish to Case &amp; Notify**
 

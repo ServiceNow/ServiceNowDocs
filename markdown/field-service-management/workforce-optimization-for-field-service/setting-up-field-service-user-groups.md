@@ -22,7 +22,7 @@ Additionally, you can create optional group types based on your specific needs, 
 
 For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-For information about assigning a role to a user group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+For information about assigning a role to a user group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 Location also plays an important role in configuring field service user groups. It ensures that qualifiers, dispatchers, and agents only engage with tasks that align with their assigned locations and groups.
 
@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d95886e417">
+<table><tbody><tr><td id="d100719e417">
 
 **Roles**
 
@@ -286,9 +286,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d95886e446">
+</td></tr><tr><td id="d100719e446">
 
 **Group Members**
 
@@ -296,9 +296,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more agents from the list of available agents to the user group.
 
- For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d95886e465">
+</td></tr><tr><td id="d100719e465">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d95886e474">
+</td></tr><tr><td id="d100719e474">
 
 **Skills**
 
@@ -316,7 +316,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d95886e496">
+</td></tr><tr><td id="d100719e496">
 
 **Locations Covered**
 
@@ -326,7 +326,7 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d95886e519">
+</td></tr><tr><td id="d100719e519">
 
 **Covered by Dispatch Groups**
 
@@ -334,7 +334,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d95886e531">
+</td></tr><tr><td id="d100719e531">
 
 **Product Models**
 
@@ -366,7 +366,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d95886e648">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d100719e648">
 
 **Roles**
 
@@ -374,9 +374,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d95886e677">
+</td></tr><tr><td id="d100719e677">
 
 **Group Members**
 
@@ -384,9 +384,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more qualifiers from the list of available qualifiers to the user group.
 
- For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d95886e696">
+</td></tr><tr><td id="d100719e696">
 
 **Groups**
 
@@ -394,7 +394,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d95886e705">
+</td></tr><tr><td id="d100719e705">
 
 **Locations Covered**
 
@@ -430,7 +430,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d95886e846">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d100719e846">
 
 **Roles**
 
@@ -438,9 +438,9 @@ Role required: admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md) .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md) .
 
-</td></tr><tr><td id="d95886e875">
+</td></tr><tr><td id="d100719e875">
 
 **Group Members**
 
@@ -448,9 +448,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more dispatchers from the list of available dispatchers to the user group.
 
- For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAGroup.md).
 
-</td></tr><tr><td id="d95886e894">
+</td></tr><tr><td id="d100719e894">
 
 **Groups**
 
@@ -458,7 +458,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d95886e903">
+</td></tr><tr><td id="d100719e903">
 
 **Locations Covered**
 
@@ -468,7 +468,7 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d95886e922">
+</td></tr><tr><td id="d100719e922">
 
 **Assignment Groups Covered\|**
 
@@ -484,7 +484,7 @@ Assign one or more agent groups to the dispatch user group.
 
 You can set up other types of user groups.
 
-In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/service-management-legacy/t_CreateAGroup.md).
+In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/t_CreateAGroup.md).
 
 |User|Locations|User Group|User Group Roles|Manager-Initiator Group Relationship|
 |----|---------|----------|----------------|------------------------------------|

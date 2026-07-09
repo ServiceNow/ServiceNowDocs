@@ -8,7 +8,7 @@ product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
 last_updated: "2026-05-27"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
 breadcrumb: [Enable AI experiences]
 ---
@@ -62,6 +62,22 @@ These model cards are for skills that use the Now LLM Service. There are certain
     Model used for AI-driven solutions for text generation, summarization, and conversational AI.
 
     This model card is available in Yokohama patch 1 and later.
+
+
+## July 2026
+
+The July release introduces three new third-party model offerings and shifts the platform default away from Now LLM. Teams must update their generative AI configuration records to reflect these changes.
+
+-   New model offerings: The following models are introduced and supported in the July release.
+
+    -   Google Gemini 3.5 Flash, which replaces Gemini 2.5 Flash
+    -   OpenAI GPT 5.1
+    -   OpenAI GPT 5.4 Mini
+-   Third-party provider required as default: As of the July release, Now LLM must not be the default model for skills or agents. Teams should select an optimal small third-party model as their default. The Generative AI Controller version required to route to the new July models will be announced separately.
+
+-   Large model exception: Teams that require a large model must request an exception and demonstrate that no small model is a viable option. The exception process is expected to follow the prior process format, with an updated form and test reference materials. Final details are pending PM approval.
+
+-   Explicit model names required: Generic model references such as `cloud_small` and `cloud_large` are no longer supported. Teams must update prompt configuration records and generative AI config records to use explicit model names.
 
 
 ## June 2026

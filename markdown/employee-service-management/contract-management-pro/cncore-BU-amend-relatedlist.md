@@ -1,0 +1,85 @@
+---
+title: Add amendment tabs to contract repository record
+description: To view the details of the contract amendment, add the amendment related tabs to the contract repository record.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-BU-amend-relatedlist.html
+release: yokohama
+product: Contract Management Pro
+classification: contract-management-pro
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+keywords: [Contract requests, Related list, Uptake steps for CM Pro, BU configuration]
+breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+---
+
+# Add amendment tabs to contract repository record
+
+To view the details of the contract amendment, add the amendment related tabs to the contract repository record.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+Once the contract amendment is signed, you can see the details in the following tabs of the contract repository record:
+
+-   Contract Documents: Provides access to all signed documents related to the contract, including those generated or updated as part of amendment processes.
+-   Contract Requests: Displays all contract and amendment requests associated with the contract.
+-   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
+
+You must add these tabs to the contract repository record for your workspace.
+
+\[Omitted image "lsd-amend-related-lists.png"\] Alt text: Contract repository record showing amendment related details
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**
+
+2.  Select the table to which your form is associated.
+
+3.  Select \[Omitted image "context-menu.png"\] Alt text: Context menu icon and select **Configure** &gt; **Related Lists**.
+
+4.  In the **View** list, select the workspace view that should include the amendment related tab.
+
+5.  Add the Contract requests tab by moving **Contract Request**, **Contract documents**, and **Amendment history-&gt;Contract** from the Available list to the Selected list.
+
+    \[Omitted image "cmpro-bu-add-cr-related-list.png"\] Alt text: Moving related lists from Available list to Selected list.
+
+6.  Select **Save**.
+
+7.  Select **Update**.
+
+
+## Result
+
+The Contract amendment related tabs are available from your workspace to view the amendment details.
+
+For more information on contract amendment, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
+
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+
+**Related topics**  
+
+
+[Configure non-task tables for contract templates]()
+
+[Add a workspace action button for initiating a contract request]()
+
+[Add Contract requests tab to your workspace]()
+
+[Display contract documents in a contract repository record]()
+
+[Copy fields from parent request to contract request]()
+
+[Group contract documents by contract type in the contract request form]()
+
+[Add access to obligation management from contract repository records]()
+
+[Configure the contract request form header for your workspace]()
+
+[Provide permissions to configure default contract document information]()
+
+[Provide access to contract request fields in condition builders]()
+

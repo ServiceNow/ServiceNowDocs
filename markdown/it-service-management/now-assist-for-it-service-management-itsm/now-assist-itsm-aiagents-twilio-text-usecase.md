@@ -21,7 +21,7 @@ Use the Twilio SMS text AI agent to help streamline communication processes and 
 
 Using the Notify users with Twilio agentic workflow, send text messages via SMS to recipients manually to help improve the time required for subject matter expert response.
 
-To modify the Notify users with Twilio agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Notify users with Twilio agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -34,7 +34,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Twilio texting**.
 
-**Important:** To enable the display of the Notify users with Twilio agentic workflow, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see [Twilio Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/twilio-spoke.md).
+**Important:** To enable the display of the Notify users with Twilio agentic workflow, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see [Twilio Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/twilio-spoke.md).
 
 ## AI agents used in the Notify users with Twilio agentic workflow
 
@@ -52,5 +52,5 @@ In the ServiceNow AI Agent Studio, the human agent gets notified as soon as a te
 **Related topics**  
 
 
-[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Example definitions for service families in tag-based mapping
+title: Tag-based mapping criteria examples for service families
 description: When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Example definitions for service families in tag-based mapping
+# Tag-based mapping criteria examples for service families
 
 When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 

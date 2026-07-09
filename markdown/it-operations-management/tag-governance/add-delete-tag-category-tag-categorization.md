@@ -26,23 +26,23 @@ Role required: tag\_governance\_admin
 
 1.  Navigate to **All** &gt; **Tag Governance** &gt; **Tag Categories**.
 
-2.  Verify that you are in the leaf domain.
+2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\] Alt text:.
+    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
 3.  Add or delete a tag category.
 
-<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d458037e132">
+<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d531752e129">
 
 Action
 
-</th><th align="left" id="d458037e135">
+</th><th align="left" id="d531752e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d458037e141">
+</th></tr></thead><tbody><tr><td id="d531752e138">
 
 **Add a tag category**
 
@@ -61,7 +61,7 @@ Description
 8.  Select **Submit** on the CI tag category - New Record page.
 
 
-</td></tr><tr><td id="d458037e202">
+</td></tr><tr><td id="d531752e199">
 
 **Delete a tag category**
 

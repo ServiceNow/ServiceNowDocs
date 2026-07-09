@@ -24,7 +24,7 @@ Role required: user\_admin, pps\_admin
 
 ## About this task
 
-To understand how your organizational strategies are performing, see the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md) topic. It provides comprehensive visualization to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
+To understand how your organizational strategies are performing, see the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-strategic-spend-tracking-dashboard.md) topic. It provides comprehensive visualization to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ To understand how your organizational strategies are performing, see the [Strate
     -   **Organization** &gt; **Goals** and click **New**.
 2.  Fill in the form fields.
 
-    For field information, see [New Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/new-goal-form.md).
+    For field information, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/new-goal-form.md).
 
 3.  Click **Save**.
 
@@ -58,5 +58,5 @@ You can [create a program](https://raw.githubusercontent.com/ServiceNow/ServiceN
 **Related topics**  
 
 
-[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)
+[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/associate-goal-strategy-prj.md)
 

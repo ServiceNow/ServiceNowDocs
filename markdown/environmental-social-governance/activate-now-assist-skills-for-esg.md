@@ -39,9 +39,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 If you have the sn\_generative\_ai.nsa\_admin role, you can perform the following actions on Now Assist skills:
 
--   Edit a Now Assist skill.
--   Make a copy of a Now Assist skill.
--   Troubleshoot a Now Assist skill.
+-   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+-   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+-   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 
 **Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)
 

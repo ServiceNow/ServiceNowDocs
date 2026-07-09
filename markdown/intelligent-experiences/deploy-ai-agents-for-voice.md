@@ -27,7 +27,7 @@ AI voice agents are associated with voice assistants, which act as a virtual hel
 To get started with AI voice agents, perform the following steps.
 
 1.  [Install Now Assist AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-ai-voice-agents-plugins.md)
-2.  [Configure user identification and authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
+2.  [Configure user identification and authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md)
 3.  [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-an-ai-voice-service.md)
 4.  [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-a-voice-enabled-ai-agent.md)
 
@@ -52,5 +52,5 @@ By using this feature, you confirm that your use \(including use by your service
 **Related topics**  
 
 
-[Using the IT Service Management Now Assist Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.md)
+[Using the IT Service Management Now Assist Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-voice.md)
 

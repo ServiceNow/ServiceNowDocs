@@ -20,8 +20,6 @@ Create a change approval policy using the Change approval policy decision builde
 
 The Decision Builder \[sn\_decision\_design\] plugin must be installed.
 
-A change approval policy can be applied to a change request. An approval policy can contain multiple decisions allowing a single policy to handle every approval required for a change type. When a decision condition matches, the related approval definition is evaluated.
-
 Role required: admin or change\_manager
 
 ## Procedure
@@ -34,7 +32,7 @@ Role required: admin or change\_manager
 
 4.  In the **Execution** field, select an option to determine the approach to implement your decision.
 
-<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d114444e105">
+<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d117501e109">
 
 **First decision that matches**
 
@@ -42,7 +40,7 @@ Role required: admin or change\_manager
 
 Uses the first matching decision in ascending order of the value defined in the **Order** column of the **Decisions** list. The associated approval definition is applied.
 
-</td></tr><tr><td id="d114444e123">
+</td></tr><tr><td id="d117501e127">
 
 **Run all decisions that match**
 

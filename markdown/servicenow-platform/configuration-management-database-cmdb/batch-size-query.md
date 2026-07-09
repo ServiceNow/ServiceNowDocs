@@ -23,7 +23,7 @@ Batch size is applicable and behaves the same in all query run scenarios, regard
 -   Query Builder user interface \(ad hoc or saved query\)
 -   [Query Builder Scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md)
 -   Scheduled jobs
--   [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [CMDB groups]()
 
 The batch size for query runs is allocated in the following priority order:
 

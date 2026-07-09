@@ -29,7 +29,7 @@ Integrate the local and remote ServiceNow instances by creating an OAuth API end
 
     **Note:** Admin role is required to only set up the spoke.
 
-    To use the spoke, ensure that the spoke users have only the required minimum permissions to access data in ServiceNow tables. Do not assign elevated privilege roles to users of this spoke unless very much required. This practice ensures controlled access to data.
+    To use the spoke, you can either have the admin role or have only the required minimum permissions to access data in the required ServiceNow tables along with the import\_transformer role. Do not assign elevated privilege roles to users of this spoke unless needed. This practice ensures controlled access to data.
 
     The integration users must have the flow\_operator and other required roles to access the table they want to interact with. Also, they need roles to access the Table \[sys\_db\_object\] and Dictionary Entry \[sys\_dictionary\] tables to show dynamic options such as, table names and fields in a table.
 
@@ -41,7 +41,7 @@ Register remote ServiceNow instance as an OAuth provider so that the local Servi
 ### Before you begin
 
 -   In the remote ServiceNow instance:
-    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_CreateEndpointforExternalClients.md).
     -   Copy and record the values of Client ID and Client Secret.
 -   Role required: admin
 

@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Define the budget allocation attribute to allocate budget by cost type or expense type.
 
-    For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+    For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
 
 5.  Enable the expense type attribute for resource assignments to capture relevant expenses for the work.
 

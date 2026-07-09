@@ -17,7 +17,7 @@ breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Config
 When you have configured a data input successfully, Health Log Analytics adds a record to the Data Inputs table and attaches the configuration file to it. You can configure advanced settings for your data input. Configuring advanced settings is optional.
 
 -   **[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)**  
-Configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents.
+Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 -   **[Configure advanced settings for Beats data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)**  
 Configure advanced settings for data inputs that use Beats agents.
 -   **[Configure advanced settings for Elasticsearch data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-elastic.md)**  

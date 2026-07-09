@@ -16,7 +16,7 @@ Data Visualizations use graphics to show table, indicator, and other data. They 
 
 **Important:** You cannot place reports or Performance Analytics widgets on a Platform Analytics dashboard. You must create data visualizations instead.
 
-Covers data visualization concept; creating, editing, and sharing visualizations; and adding them to dashboards 
+\[Omitted video\] Description: Covers data visualization concept; creating, editing, and sharing visualizations; and adding them to dashboards
 
 To access data visualizations, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. Owners of a data visualization can access and share that visualization. Users whom the owner has shared a visualization with can access that visualization. Any user with access to data can create a data visualization based on that data.
 

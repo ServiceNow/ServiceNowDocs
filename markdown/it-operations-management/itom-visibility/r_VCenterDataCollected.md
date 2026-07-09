@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2025-12-02"
-reading_time_minutes: 9
+reading_time_minutes: 10
 keywords: [data Vmware vCenter, data Vmware server, Data vCenter server]
 breadcrumb: [Discovery for VMware vCenter, Discovery for VMware virtualization, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -306,19 +306,21 @@ This diagram illustrates vCenter relationships:
 
 <table id="table_fzd_bly_5p"><thead><tr><th>
 
-Parent class
+CI
 
 </th><th>
 
-Relationship type
+Relationship
 
 </th><th>
 
-Child class
+CI
 
 </th></tr></thead><tbody><tr><td>
 
-Computer \[cmdb\_ci\_computer\]
+One of the following server CIs:-   Server \[cmdb\_ci\_server\]
+-   Windows Server \[cmdb\_ci\_win\_server\]
+-   Linux Server \[cmdb\_ci\_linux\_server\]
 
 </td><td>
 
@@ -326,11 +328,13 @@ Virtualized by::Virtualizes
 
 </td><td>
 
-ESX Server \[cmdb\_ci\_esx\_server\]**Note:** The relationship created from ESX Server and VM Instance to the Guest are created by business rule "Virtual Computer Check." The guest machine needs to be discovered after the VCenter is discovered to trigger the business rule and create such relationships.
+ESX Server \[cmdb\_ci\_esx\_server\]\*†
 
 </td></tr><tr><td>
 
-Computer \[cmdb\_ci\_computer\]
+One of the following server CIs:-   Server \[cmdb\_ci\_server\]
+-   Windows Server \[cmdb\_ci\_win\_server\]
+-   Linux Server \[cmdb\_ci\_linux\_server\]
 
 </td><td>
 
@@ -338,7 +342,43 @@ Instantiates::Instantiated by
 
 </td><td>
 
-VM Instance \[cmdb\_ci\_vmware\_instance\]**Note:** The relationship created from ESX Server and VM Instance to the Guest are created by business rule "Virtual Computer Check." The guest machine needs to be discovered after the VCenter is discovered to trigger the business rule and create such relationships.
+VM Instance \[cmdb\_ci\_vmware\_instance\]\*†
+
+</td></tr><tr><td>
+
+ESX Server \[cmdb\_ci\_esx\_server\]
+
+</td><td>
+
+Hosted on::Hosts
+
+</td><td>
+
+VMware vCenter datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td></tr><tr><td>
+
+VMware vCenter Network \[cmdb\_ci\_vcenter\_network\]
+
+</td><td>
+
+Provided by::Provides
+
+</td><td>
+
+ESX Server \[cmdb\_ci\_esx\_server\]
+
+</td></tr><tr><td>
+
+VMware vCenter Cluster \[cmdb\_ci\_vcenter\_cluster\]
+
+</td><td>
+
+Members::Member of
+
+</td><td>
+
+ESX Server \[cmdb\_ci\_esx\_server\]\*
 
 </td></tr><tr><td>
 
@@ -378,27 +418,15 @@ VMware vCenter Network \[cmdb\_ci\_vcenter\_network\]
 
 </td></tr><tr><td>
 
-VMware vCenter Network \[cmdb\_ci\_vcenter\_network\]
+Virtual Machine Template \[cmdb\_ci\_vmware\_template\]
 
 </td><td>
 
-Provided by::Provides
+Registered on::Has registered
 
 </td><td>
 
 ESX Server \[cmdb\_ci\_esx\_server\]
-
-</td></tr><tr><td>
-
-VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
-
-</td><td>
-
-Provides storage for::Stored on
-
-</td><td>
-
-VMware Virtual Machine Instance \[cmdb\_ci\_vmware\_instance\]
 
 </td></tr><tr><td>
 
@@ -426,7 +454,67 @@ Virtual Machine Template \[cmdb\_ci\_vmware\_template\]
 
 </td></tr><tr><td>
 
+VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
+
+</td><td>
+
+Provides storage for::Stored on
+
+</td><td>
+
+VMware Virtual Machine Instance \[cmdb\_ci\_vmware\_instance\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
+
+</td><td>
+
+Provided by::Provides
+
+</td><td>
+
+Datastore Disk \[cmdb\_ci\_vcenter\_datastore\_disk\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\] \(parent\)
+
+</td><td>
+
+Cluster of::Cluster
+
+</td><td>
+
+VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\] \(child\)
+
+</td></tr><tr><td>
+
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
+
+</td><td>
+
+Defines resources for::Get resources from
+
+</td><td>
+
 VMware vCenter Cluster \[cmdb\_ci\_vcenter\_cluster\]
+
+</td></tr><tr><td>
+
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
+
+</td><td>
+
+Defines resources for::Get resources from
+
+</td><td>
+
+ESX Server \[cmdb\_ci\_esx\_server\]
+
+</td></tr><tr><td>
+
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
 
 </td><td>
 
@@ -434,31 +522,19 @@ Members::Member of
 
 </td><td>
 
-ESX Server \[cmdb\_ci\_esx\_server\]
+VMware Virtual Machine Instance \[cmdb\_ci\_vmware\_instance\]
 
 </td></tr><tr><td>
 
-ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\] \(parent\)
 
 </td><td>
 
-Defines resources for::Get resources from
+Contains::Contained by
 
 </td><td>
 
-VMware vCenter Cluster \[cmdb\_ci\_vcenter\_cluster\]
-
-</td></tr><tr><td>
-
-ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
-
-</td><td>
-
-Defines resources for::Get resources from
-
-</td><td>
-
-ESX Server \[cmdb\_ci\_esx\_server\]
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\] \(child\)
 
 </td></tr><tr><td>
 
@@ -471,18 +547,6 @@ Contains::Contained by
 </td><td>
 
 VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
-
-</td></tr><tr><td>
-
-VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\]
-
-</td><td>
-
-Contains::Contained by
-
-</td><td>
-
-VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\]
 
 </td></tr><tr><td>
 
@@ -510,7 +574,55 @@ VMware Virtual Machine Instance \[cmdb\_ci\_vmware\_instance\]
 
 </td></tr><tr><td>
 
+VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\] \(parent\)
+
+</td><td>
+
+Contains::Contained by
+
+</td><td>
+
+VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\] \(child\)
+
+</td></tr><tr><td>
+
 VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td><td>
+
+Managed by::Manages
+
+</td><td>
+
+VMware vCenter Instance \[cmdb\_ci\_vcenter\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td><td>
+
+Contains::Contained by
+
+</td><td>
+
+VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td><td>
+
+Contains::Contained by
+
+</td><td>
+
+VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
+
+</td></tr><tr><td>
+
+VMware vCenter datacenter \[cmdb\_ci\_vcenter\_datacenter\]
 
 </td><td>
 
@@ -530,7 +642,31 @@ Contains::Contained by
 
 </td><td>
 
+Virtual Machine Template \[cmdb\_ci\_vmware\_template\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td><td>
+
+Contains::Contained by
+
+</td><td>
+
 VMware Virtual Machine Instance \[cmdb\_ci\_vmware\_instance\]
+
+</td></tr><tr><td>
+
+VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+
+</td><td>
+
+Contains::Contained by
+
+</td><td>
+
+ESX Resource Pool \[cmdb\_ci\_esx\_resource\_pool\]
 
 </td></tr><tr><td>
 
@@ -554,46 +690,28 @@ Contains::Contained by
 
 </td><td>
 
-VMware vCenter Datastore \[cmdb\_ci\_vcenter\_datastore\]
-
-</td></tr><tr><td>
-
-VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
-
-</td><td>
-
-Contains::Contained by
-
-</td><td>
-
-VMware vCenter Folder \[cmdb\_ci\_vcenter\_folder\]
-
-</td></tr><tr><td>
-
-VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
-
-</td><td>
-
-Contains::Contained by
-
-</td><td>
-
 VMware vCenter Cluster \[cmdb\_ci\_vcenter\_cluster\]
 
 </td></tr><tr><td>
 
-VMware vCenter Datacenter \[cmdb\_ci\_vcenter\_datacenter\]
+Datastore Disk \[cmdb\_ci\_vcenter\_datastore\_disk\]
 
 </td><td>
 
-Contains::Contained by
+Exports to::Imports from
 
 </td><td>
 
-Virtual Machine Template \[cmdb\_ci\_vmware\_template\]
+Disk \[cmdb\_ci\_disk\]
 
 </td></tr></tbody>
-</table>## Cloud Management relationships
+</table>\* These relationships are part of Software Asset Management \(SAM\) use case.
+
+† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule "Virtual Computer Check." The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
+
+**Note:** Software installation records appear as a related list on Server \[cmdb\_ci\_server\], Windows Server \[cmdb\_ci\_win\_server\], and Linux Server \[cmdb\_ci\_linux\_server\] CI records.
+
+## Cloud Management relationships
 
 These additional relationships are created when Cloud Management \(CMP\) is active.
 

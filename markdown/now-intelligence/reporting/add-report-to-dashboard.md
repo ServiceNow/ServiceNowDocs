@@ -22,7 +22,7 @@ Role required: Any user who can create a report can add it to a responsive dashb
 
 This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md).
 
-Watch this eight-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports. How to generate new reports, create Core UI reports in the Report Designer, share reports, and schedule reports. 
+Watch this eight-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports. \[Omitted video\] Description: How to generate new reports, create Core UI reports in the Report Designer, share reports, and schedule reports.
 
 ## Procedure
 

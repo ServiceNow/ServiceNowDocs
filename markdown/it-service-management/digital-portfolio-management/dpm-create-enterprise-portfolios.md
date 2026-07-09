@@ -21,7 +21,7 @@ Admins create enterprise portfolios for business applications and application se
 -   Plugin required: enterprise portfolios
 -   Role required: sn\_dpm.dpm\_admin
 
-Create and edit portfolios in enterprise portfolio builder. 
+\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
 
 ## About this task
 

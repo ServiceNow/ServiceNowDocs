@@ -64,15 +64,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d450750e273">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d552776e273">
 
 Version
 
-</th><th align="left" id="d450750e276">
+</th><th align="left" id="d552776e276">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d450750e282">
+</th></tr></thead><tbody><tr><td id="d552776e282">
 
 **List v3**
 
@@ -82,7 +82,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d450750e306">
+</td></tr><tr><td id="d552776e306">
 
 **List v2**
 
@@ -119,7 +119,7 @@ Right-click any column header and select **Configure** &gt; **Dictionary**.
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Prevent users from following records in Connect for all tables
 
@@ -181,7 +181,7 @@ To disable record conversations for a specific table, prevent the **Follow** but
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Disable Connect Chat
 

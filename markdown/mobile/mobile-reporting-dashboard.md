@@ -22,17 +22,17 @@ For more information about accessibility features supported in the analytics pre
 
 Data visualizations reporting charts display views of current state instance data. These charts display information such as the number of high priority work orders or the number of pending approvals over a defined period.
 
-The available score report in mobile is [single score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
+The available score report in mobile is [single score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_SingleScoreCharts.md).
 
-The available bar report in mobile is [vertical bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateBarCharts.md).
+The available bar report in mobile is [vertical bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateBarCharts.md).
 
-The available donut report in mobile is [donut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateDonutCharts.md).
+The available donut report in mobile is [donut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateDonutCharts.md).
 
-The available pie report in mobile is [Pie charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreatePieCharts.md).
+The available pie report in mobile is [Pie charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreatePieCharts.md).
 
 The available time series trend-by charts in mobile are:
 
--   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
--   [Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
--   [Step line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/step-reports.md)
+-   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateLineCharts.md)
+-   [Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_CreateAreaAndSplineCharts.md)
+-   [Step line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/step-reports.md)
 

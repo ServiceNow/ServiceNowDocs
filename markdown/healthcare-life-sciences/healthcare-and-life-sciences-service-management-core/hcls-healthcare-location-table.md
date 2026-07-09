@@ -26,7 +26,7 @@ The Healthcare Location \[sn\_hcls\_location\] table stores details of the locat
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_ync_1ts_mpb"><thead><tr><th>
 

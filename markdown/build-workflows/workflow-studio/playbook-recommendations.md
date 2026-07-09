@@ -16,7 +16,7 @@ breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio
 
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 
-Generate a playbook outline and get recommendations for placeholder activities 
+\[Omitted video\] Description: Generate a playbook outline and get recommendations for placeholder activities
 
 ## Activation
 
@@ -85,7 +85,7 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
 ### Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
+When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
 
 ### What to do next
 

@@ -83,7 +83,7 @@ Work notes
 
 Information specific to the case that can help other HR agents. **Work Notes** are not visible to the **Subject person**.The sn\_hr\_core.restrict\_guest\_email system property allows a user to send an email from a personal email account referencing an HR case. When the property has a value of false \(default\), the text from the email appears in the Work notes field. To access system properties, enter `sys_properties.list` in the navigation filter.
 
- **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
+ **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md).
 
 </td></tr></tbody>
 </table>8.  Select **Create Case**.
@@ -199,7 +199,7 @@ Assignment group
 
 The group the record is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. Assignment groups are restricted to those groups with a type of human\_resources.To change the **Assignment group**, the **Assigned to** agent must be a member of the new group and the **State** must be **Ready**.
 
- **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) and [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
+ **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR]() and [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
 
 </td></tr><tr><td>
 

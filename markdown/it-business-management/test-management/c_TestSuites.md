@@ -23,7 +23,7 @@ A test suite is made up of one or more test cases that are grouped for execution
 -   **[Create a copy of an existing test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/t_CopyATestSuite.md)**  
 Create a test suite with the details of an existing test suite.
 -   **[Add a test case to a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/t_AddANewTestCaseToATestSuite.md)**  
-Create and add a new test case to an existing test suite.
+Create and add test case to an existing test suite.
 
 **Parent Topic:**[Setting up the manual testing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/c_TestManager.md)
 

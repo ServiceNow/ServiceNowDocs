@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-column-level-encryption.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-06-26"
 reading_time_minutes: 3
 breadcrumb: [Column Level Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Column Level Encryption enables you to encrypt selected database fields and stor
 
 After the context is created, you can associate it to a user role. Users assigned to this role, either directly of through a group, are able to access the encrypted data.
 
-Because Column Level Encryption bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/ua-creating-roles.md).
+Because Column Level Encryption bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ua-creating-roles.md).
 
 ## Column Level Encryption benefits
 
@@ -206,7 +206,15 @@ Updated `getDisplayValue()` and `setDisplayValue()` APIs
 security admin, developer
 
 </td></tr></tbody>
-</table>-   **[Column Level Encryption Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cle-tour.md)**  
+</table>## Cloning considerations
+
+When you clone an instance that uses Column Level Encryption, the encrypted field data and encryption modules are copied to the target instance. Because encryption keys are re-encrypted with a secondary key that is unique to the source instance, the target instance can't decrypt the field data after cloning.
+
+Until a key exchange is performed, encrypted fields on the cloned instance appear empty or unreadable. This is expected behavior and does not indicate data corruption or loss.
+
+To restore access to encrypted fields on the target instance, complete a key exchange from the source instance. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/configure-key-exchange.md).
+
+-   **[Column Level Encryption Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cle-tour.md)**  
 The tour gives a brief overview of the Column Level Encryption Enterprise setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Enterprise Overview course.​
 -   **[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configuring-column-level-encryption-2.md)**  
 Learn how to activate and configure Column Level Encryption Enterprise, and manage migration from Encryption Support.

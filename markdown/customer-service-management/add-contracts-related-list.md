@@ -28,15 +28,15 @@ To see the contracts associated with Accounts, Consumers, and Households, respec
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d226614e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d271563e65">
 
 Add to
 
-</th><th align="left" id="d226614e68">
+</th><th align="left" id="d271563e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d226614e74">
+</th></tr></thead><tbody><tr><td id="d271563e74">
 
 **Accounts**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the account.
 
 
-</td></tr><tr><td id="d226614e107">
+</td></tr><tr><td id="d271563e107">
 
 **Consumers**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select the consumer.
 
 
-</td></tr><tr><td id="d226614e140">
+</td></tr><tr><td id="d271563e140">
 
 **Households**
 

@@ -20,7 +20,7 @@ View user experiences while taking pulse surveys to better understand overall em
 
 -   Role required: sn\_lp.admin
 -   Plugins required: Listening Posts \[sn\_lp\], User Experience Analytics \[com.glide.appsee\], and Service Portal Analytics plugin \[com.glide.service-portal.analytics\]. For more information, see [Integrating Listening Posts with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/lp-apps.md).
--   Ensure that the application scope is set to Listening Posts. For more information, see [Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+-   Ensure that the application scope is set to Listening Posts. For more information, see [Listening Posts]().
 
 ## About this task
 

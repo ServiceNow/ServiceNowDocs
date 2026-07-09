@@ -28,7 +28,7 @@ The following plugins are required to implement third-party data integration:
 
 -   Remote Tables \(com.glide.script.vtable\): Adds the Remote Table Script Definition table \(sys\_script\_vtable\) and adds the **Remote Table** flag to the Tables \(sys\_db\_object\) table. Active on the base instance.
 -   OAuth 2.0 \(com.snc.platform.security.oauth\): Adds the OAuth-related tables and extension points needed to support **OAuth 2.0 –JWT Bearer grant type**. Active on the base instance.
--   IntegrationHub \(com.glide.hub.integrations\): Provides the ability to build reusable integrations with third-party systems and call them from anywhere in the platform. IntegrationHub requires subscription and is available in several subscription packages. Different packages allow for different levels of automation and provide different subsets of predefined third-party integrations, or spokes. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/request-ih-overview.md) and [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/spokes-list.md).
+-   IntegrationHub \(com.glide.hub.integrations\): Provides the ability to build reusable integrations with third-party systems and call them from anywhere in the platform. IntegrationHub requires subscription and is available in several subscription packages. Different packages allow for different levels of automation and provide different subsets of predefined third-party integrations, or spokes. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md) and [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md).
 -   Customer Service \(com.sn\_customerservice\)
 
 ## Configuring third-party data integration
@@ -59,15 +59,15 @@ Remote table script definitions are domain separated. If users do not have acces
 
 The data within the remote table is not domain separated.
 
-For more information, see [Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md).
+For more information, see [Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-remote-tables.md).
 
 ## Related documentation
 
 -   Authentication and credentials
-    -   [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
-    -   [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r-credentials.md)
--   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/integrationhub.md)
--   [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/flow-designer.md)
--   [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md)
--   [Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/salesforce-spoke.md)
+    -   [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/JWT-Bearer-token-support.md)
+    -   [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md)
+-   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)
+-   [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md)
+-   [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables.md)
+-   [Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/salesforce-spoke.md)
 

@@ -18,7 +18,7 @@ The Digital Portfolio Management \(DPM\) Workspace is a unified environment to v
 
 ## Getting started with the DPM Workspace
 
-Getting started with DPM. 
+\[Omitted video\] Description: Getting started with DPM.
 
 This video provides getting started steps to use the DPM Workspace.
 

@@ -36,15 +36,15 @@ To set a personal target, you need the sn\_vlm.vendor\_manager role.
 
 5.  Set the KPI target.
 
-<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d160794e104">
+<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d286330e104">
 
 To
 
-</th><th align="left" id="d160794e107">
+</th><th align="left" id="d286330e107">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d160794e113">
+</th></tr></thead><tbody><tr><td id="d286330e113">
 
 **To create a target**
 
@@ -63,7 +63,7 @@ Do this
 6.  Click **Save**.
 
 
-</td></tr><tr><td id="d160794e172">
+</td></tr><tr><td id="d286330e172">
 
 **To update an existing target**
 
@@ -86,5 +86,5 @@ Do this
 **Related topics**  
 
 
-[Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-targets.md)
+[Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-targets.md)
 

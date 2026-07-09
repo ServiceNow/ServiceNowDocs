@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-studio-config-action-function.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-06-21"
+reading_time_minutes: 9
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -330,6 +330,11 @@ Specifies an additional attribute for a button. Select **New** to configure this
 -   **used\_for\_deeplink**: The button attribute when set to `true` determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to `true` triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
 -   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to `true`, any field in the URL string is checked against the ACL \(access control list\). For example, a string like \{\{meeting\_id\}\}. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is not checked against the ACL for backward compatibility.
+-   **refresh\_parameter\_screen\_after\_action **: When enabled for write-back action buttons in input form screens, the input form automatically reloads after the action completes. This attribute keeps field values current and prevents you from working with stale data. The default value is false.
+
+**Note:** To keep the fields up to date with the latest database values, you must configure either a data source or an auto-fill variable for the relevant fields. This ensures the fields display the value that was just inserted or updated in the database. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/loading-mechanisms.md).
+
+-   **retain\_parent\_parameter\_screen **: When enabled for write-back actions in input form screens, the button keeps the user on the current input form instead of opening a new one. This attribute is required when configuring input form actions. For more information, see [Input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/input-form-screen-input-actions.md).
 
 
 </td></tr><tr><td>

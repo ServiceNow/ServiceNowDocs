@@ -52,5 +52,5 @@ The legal matter is assigned to the selected member of the user group. The state
 
 ## What to do next
 
-The assigned member can start [working on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+The assigned member can start [working on the legal matter]().
 

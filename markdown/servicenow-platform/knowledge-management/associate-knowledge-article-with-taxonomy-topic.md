@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: knowledge
 
 ## About this task
 
-The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md)
+The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-taxonomy.md)
 
 **Note:** You can associate only articles in the Draft, Review, or Published state.
 
@@ -39,8 +39,6 @@ The taxonomy feature enables you to link an article to one or more topics from m
     **Note:** As an admin, you may need to configure the form to include the Connected Content → Knowledge in the related list. Click the form context menu icon \[Omitted image "ContextMenu.png"\] Alt text: context menu icon and navigate to **Configure** &gt; **Related Lists**. Using slushbucket, add the Connected Content → Knowledge.
 
 4.  Select a Taxonomy category from the list in the topic picker dialog box.
-
-    \[Omitted image "topic-picker.png"\] Alt text: The screenshot displaying topic picker pop-window to associate knowledge article with a taxonomy category.
 
 5.  Select a topic from a topic picker list and click **OK**.
 

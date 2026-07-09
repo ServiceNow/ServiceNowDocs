@@ -29,5 +29,5 @@ Onboarding cases that are shown in the Track new hires section do not appear und
 
 To learn more about new hire onboarding and lifecycle events, see [Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md).
 
-**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery for mobile]()
 

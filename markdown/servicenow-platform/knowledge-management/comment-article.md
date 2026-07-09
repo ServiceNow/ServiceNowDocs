@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,8 +35,6 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 3.  Select **Post a comment**.
 
     If you want to reply to an existing comment, select **Reply**
-
-    \[Omitted image "post-comment.png"\] Alt text: post a comment
 
 4.  Enter your comment or reply and add links, images, and attachments as required.
 

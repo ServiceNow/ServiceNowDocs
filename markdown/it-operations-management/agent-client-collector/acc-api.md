@@ -27,7 +27,7 @@ The ACC API enables seamless integration and automation for executing queries an
 
 For details on agent APIs, see [Enable agent APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/AccAgentsAPIAPIScoped.md).
 
-For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
+For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agnt_clnt_cll-api.md).
 
 **Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/nava-csp-csm-portals.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Virtual Agent in Customer and Consumer Service Portals, Automate and optimize, Using Customer Service Management, Customer Service Management]
 ---
@@ -14,24 +14,31 @@ breadcrumb: [Using Virtual Agent in Customer and Consumer Service Portals, Autom
 
 Integrate the Now Assist in Virtual Agent in Virtual Agent with Customer and Consumer Service Portals to enable generative AI skills in your conversational experiences. It helps create a natural-language conversational experience that can improve the success of your self-service workflows.
 
-## Now Assist in Virtual Agent benefits in Customer and Consumer Service Portals
+## Now Assist benefits in self service Portals
 
 The key benefits of adopting Now Assist in Virtual Agent for your portals include:
 
 -   Conversational responses: Now Assist in Virtual Agent uses large language models \(LLMs\) to deliver natural-language responses, making interactions more human-like and improving user satisfaction.
 -   Improved self-service: It helps improve productivity and efficiency by providing faster answers and recommended actions.
 -   Enhanced search: Enhances search capabilities by guiding users through more refined, AI-driven searches, helping them locate the information they need with greater accuracy and efficiency. Users can also search for public content in the Now Assist in Virtual Agent and get the search results. The source of the search results are available as internal or external with the links to it.
--   
-\[Omitted image "VA-self-service-portal.png"\] Alt text: A portal screen showing the Virtual Agent with Now Assist enabled, providing options for user support and information retrieval.
 
 ## Getting started with Now Assist in Virtual Agent in Customer and Consumer Service portals
 
-Understand the Now Assist in Virtual Agent in Customer and Consumer Service Portals.
+Use the following steps to get started with Now Assist in Virtual Agent in Customer and Consumer Service portals.
 
--   To enable Now Assist in Virtual Agent in your portals, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
--   In the **Display experience** tab, remember to select **Customer Service for Customer Service Portal** or **Customer Support for Consumer Service Portal** from the **Portals** tab and select the Chat widget
--   In the **Information Sources** tab, you can also control the specific information available to the assistant. You can create or select the **Copy existing configuration** and select the search profile CSM Portal Default Search Application for CSM or CSP Portal Default Search Application for CSP.
+-   To enable Now Assist in Virtual Agent in your portals, verify that the experience is configured by the virtual\_agent\_admin or admin role. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   In the **Display experience** tab, select **Customer Service for Customer Service Portal** or **Customer Support for Consumer Service Portal** from the **Portals** tab, then select the Chat widget.
+-   In the **Information Sources** tab, control the information available to the assistant. Select **Copy existing configuration** and select the search profile: CSM Portal Default Search Application for CSM, or CSP Portal Default Search Application for CSP.
 
-    **Note:** Each assistant comes with its own search configuration. For a smooth experience, if the assistant appears on a portal or mobile app that already has AI search configured, consider duplicating that setup to maintain consistency.
+    **Note:** Each assistant has its own search configuration. If the assistant appears on a portal or mobile app that already has AI search configured, copy that configuration to maintain consistency.
 
+
+**Related topics**  
+
+
+[Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nass-portal.md)
+
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/va-csp-csm-portal.md)
+
+[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)
 

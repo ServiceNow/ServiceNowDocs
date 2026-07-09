@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -27,10 +27,10 @@ Role required: admin
 
 The default display limit for Prioritization and Roadmap pages are:
 
--   Planning items shown in the prioritization view = 250
--   Roadmap items shown in the roadmap view = 250
--   Item-level milestones in the roadmap view = 100
--   Items shown in all the Kanban views = 250
+-   Planning items shown in the Prioritization tab = 250
+-   Roadmap items shown in the Roadmap tab = 250
+-   Item-level milestones in the Roadmap tab = 100
+-   Items shown in the Kanban tab = 250
 
 If the total number exceeds these default limits, the additional number of planning items, milestone indicators, and vertical lanes are not visible in the workspace. To overwrite this default setting, create a system property and set it value to a desired limit of display.
 
@@ -46,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d48994e137">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d78306e144">
 
 Field
 
-</th><th align="left" id="d48994e140">
+</th><th align="left" id="d78306e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48994e146">
+</th></tr></thead><tbody><tr><td id="d78306e153">
 
 **Name**
 
@@ -65,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d48994e172">
+</td></tr><tr><td id="d78306e179">
 
 **Type**
 
@@ -73,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d48994e181">
+</td></tr><tr><td id="d78306e188">
 
 **Value**
 
@@ -82,7 +82,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Select **Submit**.
 

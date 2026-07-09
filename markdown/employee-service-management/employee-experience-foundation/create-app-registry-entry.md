@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Integrating Notify connector self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -19,6 +19,54 @@ Register your Microsoft Teams application with your ServiceNow instance for OAut
 ## Before you begin
 
 Role required: admin
+
+## Procedure
+
+1.  Log in to your ServiceNow instance.
+
+2.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
+
+3.  Select **New**.
+
+4.  Select **Connect to a third-party OAuth Provider**.
+
+5.  On the form, fill in the fields.
+
+    -   Name: Name to uniquely identify the record, for example, Microsoft Teams for Notify Self-configured app.
+    -   Client ID: Application \(client\) ID or Bot ID created and copied during the app creation in Microsoft Teams.
+
+        Copy the Application \(client\) ID from the Microsoft Azure portal. Bot ID created in the Microsoft Teams Developer portal and Application \(client\) ID in the Microsoft Azure portal are the same. For the Application \(client\) ID or Bot ID information, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-app-ms-teams.md).
+
+        Do not copy the App ID of the Microsoft Teams app created on the Microsoft Teams Developer Portal.
+
+    -   Client Secret: The password you generated when creating the bot in the Microsoft Teams Developer Portal \(step 3h\).
+
+        For the Client Secret information on the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-app-ms-teams.md).
+
+    -   Default Grant Type: `Client Credentials`.
+    -   Token URL: Token endpoint URL that includes the Directory ID of your app with the structure `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`, where `<Directory ID>` is the tenant ID created during the app/bot creation in Microsoft Teams Developer Portal. For the tenant ID information in the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-app-ms-teams.md).
+
+        Or follow this procedure.
+
+        1.  Log in to the [Microsoft Azure portal](https://portal.azure.com/).
+        2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
+        3.  Search and open the new bot created for Notify connector by name or by Application \(client\) ID.
+        4.  Copy the Directory \(tenant\) ID value.
+        5.  Go to **Endpoints** &gt; **Get the OAuth 2.0 token endpoint \(v2\)**.
+        6.  Replace `common` with the copied Directory \(tenant\) ID value.
+6.  Select **OAuth Entity Scopes** in related list and add a scope record
+
+    Set the following values:
+
+    -   **Name**: `Default`
+    -   **OAuthscope**`.default`
+    **Note:** The `.default` scope grants the minimum set of permissions required for Microsoft Graph API calls used by the Notify Connector.
+
+7.  Configure the Service user Azure ID on the Microsoft Teams Notify Connector configuration record.
+
+    1.  Navigate to the Microsoft Teams configuration records in your ServiceNow instance.
+    2.  In the **Service user Azure ID** field, enter the Object ID of the Azure service principal associated with the bot application.
+    3.  To find the Object ID, in the Microsoft Azure portal, navigate to **Azure Active Directory** &gt; **Enterprise applications** and search for the bot application by name.
 
 ## Result
 

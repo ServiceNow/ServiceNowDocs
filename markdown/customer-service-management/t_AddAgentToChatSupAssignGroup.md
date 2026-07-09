@@ -34,5 +34,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/connect/c_ConnectSupport.md)
+[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ConnectSupport.md)
 

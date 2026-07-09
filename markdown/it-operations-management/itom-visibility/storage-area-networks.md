@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ This diagram shows the tables in the SAN schema and the default references defin
 
 ## Multipath SAN storage example
 
-This diagram shows the relationship of SAN storage volumes to a host computer. Storage accessible to the Linux host consists of two physical fibre channel \(FC\) disks, mpatha and mpathb, connected to the host via a multipath FC SAN. The two HBAs on the host interface are connected with two fibre cables each to separate FC switches for failover capability. The FC fabric switches are connected to two FC storage processors on the storage server. In this example, each storage processor is connected to the storage volume's, **LUN 1** and **LUN 2**.
+This diagram shows the relationship of SAN storage volumes to a host computer.Storage accessible to the Linux host consists of two physical fibre channel \(FC\) disks, mpatha and mpathb, connected to the host via a multipath FC SAN. The two HBAs on the host interface are connected with two fibre cables each to separate FC switches for failover capability. The FC fabric switches are connected to two FC storage processors on the storage server. In this example, each storage processor is connected to the storage volume's, **LUN 1** and **LUN 2**.
 
 \[Omitted image "SimpleLinuxMultipathDiagram.png"\] Alt text: Multipath SAN storage
 

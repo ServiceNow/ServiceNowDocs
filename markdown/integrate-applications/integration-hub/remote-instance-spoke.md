@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-10-28"
+last_updated: "2026-07-02"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -349,6 +349,10 @@ Updates the required record in the remote instance.
 </td></tr></tbody>
 </table>**Note:** The **Company** field is required to import or export records using the default transform maps. However, users can modify the transform maps as per their requirement. Also, use the import sets when working with integration involving data transfer.
 
+## Spoke user role
+
+The ServiceNow Remote Instance spoke provides the Remote Instance Admin \(sn\_now\_remote\_spk.Remote Instance Admin\) role that provides administrative rights for all tables that are avaiable with the ServiceNow Remote Instance spoke.
+
 ## Spoke transform maps
 
 The ServiceNow Remote Instance spoke provides sample transform maps in active state and associated sample target tables to demonstrate using transform maps to save the remote ServiceNow instance data in your local ServiceNow tables. You can use these sample transform maps and target tables as reference to create transform maps as per your requirement.
@@ -363,7 +367,7 @@ For more information, see [Transform maps](https://raw.githubusercontent.com/Ser
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md).
 
 Two connection and credential aliases are required for this spoke; one for the local instance and other for the remote instance. For information about setting up the spoke, see [Set up the ServiceNow Remote Instance spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-rem-instance.md).
 

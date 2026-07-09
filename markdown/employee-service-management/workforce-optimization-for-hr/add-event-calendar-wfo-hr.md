@@ -32,15 +32,15 @@ Role required: sn\_hr\_wfo.admin
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d107138e99">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d549602e99">
 
 To
 
-</th><th align="left" id="d107138e102">
+</th><th align="left" id="d549602e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d107138e108">
+</th></tr></thead><tbody><tr><td id="d549602e108">
 
 **Create a meeting, training, or time-off request.**
 
@@ -65,7 +65,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d107138e212">
+</td></tr><tr><td id="d549602e212">
 
 **Create a work shift**
 

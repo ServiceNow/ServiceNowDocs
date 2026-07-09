@@ -1,5 +1,5 @@
 ---
-title: Create and apply a new configuration for the Overview section
+title: Create and apply a configuration for the Overview section
 description: Create visualization configurations for the Overview section and apply them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/config-overview.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create and apply a new configuration for the Overview section
+# Create and apply a configuration for the Overview section
 
 Create visualization configurations for the Overview section and apply them as needed.
 

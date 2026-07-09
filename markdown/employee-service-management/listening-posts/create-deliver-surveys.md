@@ -27,5 +27,5 @@ Use the Content Type Pulse Survey to create pulse surveys that can be delivered 
 -   **[Delivering pulse surveys in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/delivery-pulse-content2.md)**  
 Deliver pulse surveys to employees from various applications such as Listening Posts, Content Automation, and Content Delivery.
 
-**Parent Topic:**[Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Listening Posts]()
 

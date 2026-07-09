@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/explore-apm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
@@ -42,5 +42,10 @@ Enterprise Architecture uses the following key solution components:
     -   Integrates with PPS to assess planned investments for applications.
     -   Integrates with ITSM to assess the incidents, problems, and changes for the applications.
     -   Integrates with Service Administration to generate an assessment questionnaire to a user or user group who use the business application and can assess its performance.
-    -   Integrates with Agile Development 2.0 Digital Portfolio Management \(DPM\) so that the DPM managers gain a comprehensive understanding of business applications that helps in taking informed decisions to invest, sustain, or replace them. DPM provides a unified workspace for owners to view and collectively manage their services and applications through the full life cycle. For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md).
+    -   Integrates with Agile Development 2.0 Digital Portfolio Management \(DPM\) so that the DPM managers gain a comprehensive understanding of business applications that helps in taking informed decisions to invest, sustain, or replace them. DPM provides a unified workspace for owners to view and collectively manage their services and applications through the full life cycle. For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-explore-cfw.md).
+
+**Related topics**  
+
+
+[How the ServiceNow AI Platform works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/how-now-platform-works.md)
 

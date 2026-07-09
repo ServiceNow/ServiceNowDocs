@@ -1,5 +1,5 @@
 ---
-title: Activate scheduled jobs to generate labor costs for your planning items
+title: Scheduled jobs to generate labor costs
 description: Activate scheduled jobs to automatically generate labor costs for attribute-based resource assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure financials for planning items in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Activate scheduled jobs to generate labor costs for your planning items
+# Scheduled jobs to generate labor costs
 
 Activate scheduled jobs to automatically generate labor costs for attribute-based resource assignments.
 

@@ -41,7 +41,7 @@ Contact your company's Customer Admin to unlock or add user accounts, perform re
 
 Following is the intro video about the table builder.
 
-Table Builder Overview 
+\[Omitted video\] Description: Table Builder Overview
 
 -   [Ask or answer questions in the Table Builder community forum](https://community.servicenow.com/community?id=community_forum&sys_id=75291a2ddbd897c068c1fb651f9619f3)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)

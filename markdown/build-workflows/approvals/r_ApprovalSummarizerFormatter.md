@@ -29,5 +29,5 @@ The **Reject** button allows the approver to deny one or more requested items in
 **Related topics**  
 
 
-[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_Formatters.md)
+[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_Formatters.md)
 

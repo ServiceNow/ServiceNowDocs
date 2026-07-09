@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-05-04"
 reading_time_minutes: 3
 keywords: [File-Based Discovery, configuration, properties, Agent Client Collector]
-breadcrumb: [Agent Client Collector for Visibility - Content reference, Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector File-Based Discovery properties

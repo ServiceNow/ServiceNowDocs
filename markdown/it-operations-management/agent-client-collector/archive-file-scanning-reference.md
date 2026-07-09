@@ -1,6 +1,6 @@
 ---
 title: Archive file scanning filtering rules and limits
-description: Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility - Content scans ZIP and JAR archive files during File-Based Discovery.
+description: Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility Content scans ZIP and JAR archive files during File-Based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/archive-file-scanning-reference.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [archive file scanning, File-Based Discovery, ZIP, JAR, agent client collector, ACC-VC]
-breadcrumb: [Agent Client Collector for Visibility - Content reference, Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Archive file scanning filtering rules and limits
 
-Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility - Content scans ZIP and JAR archive files during File-Based Discovery.
+Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility Content scans ZIP and JAR archive files during File-Based Discovery.
 
 ## Filtering rules
 

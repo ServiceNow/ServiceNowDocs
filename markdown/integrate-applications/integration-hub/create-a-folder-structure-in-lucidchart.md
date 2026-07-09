@@ -43,7 +43,7 @@ You must have a folder structure in place in the Lucidchart portal for the Creat
 **Related topics**  
 
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 
-[Create a Lucidchart diagram for a business capability in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/eaw-create-lucid-diagram-cap.md)
+[Create a Lucidchart diagram for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 

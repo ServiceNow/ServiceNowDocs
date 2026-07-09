@@ -32,7 +32,7 @@ Role required: sn\_apm.apm\_analyst
 
 5.  On the form, fill in the fields.
 
-    For field information, see [New TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-product-form.md).
+    For field information, see [TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-product-form.md).
 
 6.  Select **Create**.
 

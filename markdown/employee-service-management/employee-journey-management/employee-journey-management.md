@@ -22,23 +22,23 @@ Employee Journey Management integrates HR Service Delivery features and applicat
 
 <table id="table_z3y_d1g_h2c" class="nav-card presentation"><tbody><tr><td>
 
-[Journey Designer\[Omitted image "bus-service-aware.svg"\] Alt text:Personalize employee journeys to enhance their experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Journey Designer\[Omitted image "bus-service-aware.svg"\] Alt text:Personalize employee journeys to enhance their experience.]()
 
 </td><td>
 
-[Journey Accelerator\[Omitted image "bus-rocketship.svg"\] Alt text:Use Journey Accelerator to create personalized journey plans for key employee transitions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Journey Accelerator\[Omitted image "bus-rocketship.svg"\] Alt text:Use Journey Accelerator to create personalized journey plans for key employee transitions.]()
 
 </td><td>
 
-[Lifecycle Events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Lifecycle Events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.]()
 
 </td></tr><tr><td>
 
-[Learning Posts\[Omitted image "bus-learn.svg"\] Alt text:Use Learning Posts to deliver employee-centric learning experiences with personalized recommendations based on job position and interests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Learning Posts\[Omitted image "bus-learn.svg"\] Alt text:Use Learning Posts to deliver employee-centric learning experiences with personalized recommendations based on job position and interests.]()
 
 </td><td>
 
-[Listening Posts\[Omitted image "bus-mobile-native.svg"\] Alt text:Use Listening Posts to capture in-moment employee feedback to provide administrators with insights and enable quick actions to enhance the employee self-service experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Listening Posts\[Omitted image "bus-mobile-native.svg"\] Alt text:Use Listening Posts to capture in-moment employee feedback to provide administrators with insights and enable quick actions to enhance the employee self-service experience.]()
 
 </td><td>
 

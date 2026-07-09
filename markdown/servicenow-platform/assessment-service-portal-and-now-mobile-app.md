@@ -18,9 +18,9 @@ If you've installed Service Portal, you can use the My Assessments and Surveys w
 
 To create an intuitive interface for your users, you can set up assessments in Service Portal. Activate Service Portal to view the My Assessments and Surveys widget, which appears on the Service Portal home page.
 
-To learn more about activating Service Portal, see [Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/activate-service-portal.md).
+To learn more about activating Service Portal, see [Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activate-service-portal.md).
 
-To learn more about configuring a widget, see [configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md) .
+To learn more about configuring a widget, see [configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConfigureWidgetInstances.md) .
 
 To configure an Assessments and Surveys widget on a Service Portal home page, press the CTRL key, right-click the widget heading, and select **Instance Options**.
 
@@ -83,5 +83,5 @@ When users open an assessment either in Service Portal or the Now Mobile app, th
 **Related topics**  
 
 
-[Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/activate-service-portal.md)
+[Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activate-service-portal.md)
 

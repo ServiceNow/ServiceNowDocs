@@ -20,7 +20,7 @@ Configure Innovation Management application to analyze, track, and promote ideas
 You can install the Idea Manager dashboard application from ServiceNow Store if you have the admin role. This application includes demo data and installs the related plugins if they are not already installed.
 -   **[Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/category-configuration-existing-table.md)**  
 Map an idea category table with an Idea module to specify the category options listed on the Idea Portal and the create an idea form.
--   **[Configure idea categories for transferring a request as an Idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/direct-transfer-req-idea.md)**  
+-   **[Configure idea categories for transferring request as Idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/direct-transfer-req-idea.md)**  
 Configure idea states to use when directly transferring an HR case, incident, or a custom task from your department as an idea.
 -   **[Migrating from the legacy Ideas application to Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/innovation-management/migrate-legacy-to-new-ideas.md)**  
 If you are upgrading to the Yokohama release, complete the migration tasks after the upgrade to start using the new Idea Portal.

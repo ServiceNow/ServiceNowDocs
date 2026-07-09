@@ -24,11 +24,11 @@ Configure the following before starting this task:
 -   Install the Agent Chat plugin \(com.glide.interaction.awa\).
 -   If you want to use the Profanity Filter, activate the Profanity Filter plugin \(sn\_va\_profanity\).
 -   In Advanced Work Assignment:
-    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
-    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-queues.md).
-    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-assignment.md).
--   [Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/live-feed/t_UpdateYourProfile.md) to display agent names and avatars in the chat client.
--   [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/configure-va-in-sp.md)
+    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
+    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-assignment.md).
+-   [Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_UpdateYourProfile.md) to display agent names and avatars in the chat client.
+-   [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-va-in-sp.md)
 
 Role required: workspace\_admin
 

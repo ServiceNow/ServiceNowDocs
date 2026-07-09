@@ -45,7 +45,7 @@ One option for creating a data table in Guided Application Creator is to copy an
 
 Extending a base table incorporates all the fields of the original table and creates system fields for the new table. If they are in the same scope or if they can be configured from other scopes, you can extend tables that are marked as extensible.
 
-For more information on extension models, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
+For more information on extension models, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-extension-and-classes.md).
 
 ## Table creation guidelines
 

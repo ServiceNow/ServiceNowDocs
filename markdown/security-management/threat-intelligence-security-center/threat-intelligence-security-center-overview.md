@@ -18,7 +18,7 @@ Threat Intelligence Security Center \(TISC\) enables you to collaborate with the
 
 Watch an overview about the Threat Intelligence Security Center application.
 
-Threat Intelligence Security Center \(TISC\) Overview 
+\[Omitted video\] Description: Threat Intelligence Security Center \(TISC\) Overview
 
 Threat Intelligence Security Center is enhanced with capabilities to manage data collection, data processing such as DE-duplication, normalization and aggregation, analysis of threat intelligence, dissemination of threat intelligence, and also workspace that provides the administration tasks.
 

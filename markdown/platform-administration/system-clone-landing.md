@@ -14,7 +14,7 @@ breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 
 Clone copies data and metadata from one ServiceNow instance \(source instance\) to another ServiceNow instance \(target instance\).
 
-Clone Admin Console overview video 
+\[Omitted video\] Description: Clone Admin Console overview video
 
 Watch this short video to see an overview of the Clone Admin Console.
 

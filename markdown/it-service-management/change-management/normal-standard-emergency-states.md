@@ -16,7 +16,9 @@ breadcrumb: [Exploring Change Management, Change Management, IT Service Manageme
 
 Each change request model progresses through a number of state values in a specific order.
 
-To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/attach-process-change-model.md).
+To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/attach-process-change-model.md).'
+
+## State transition triggers
 
 <table id="table_bls_cnj_11b"><thead><tr><th>
 

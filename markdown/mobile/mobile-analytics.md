@@ -14,7 +14,7 @@ breadcrumb: [Building mobile apps, Mobile Platform]
 
 Usage Insights helps you understand usage and adoption of your mobile applications.
 
-Video showing how to navigate and use User Experience Analytics 
+\[Omitted video\] Description: Video showing how to navigate and use User Experience Analytics
 
 This video shows you how to analyze the user experience within your applications using Usage Insights.
 
@@ -40,5 +40,5 @@ There are two mobile applications with the primary difference being the personas
 **Related topics**  
 
 
-[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md)
 

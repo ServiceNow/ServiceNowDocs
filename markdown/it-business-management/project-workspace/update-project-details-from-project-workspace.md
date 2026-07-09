@@ -28,7 +28,7 @@ You can edit the Project, project dates, business case, financials, score, notes
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the details page of the project by selecting **Details** from the list.
 

@@ -52,7 +52,7 @@ New Yokohama release versions are released throughout the year. Here are the cur
 
 Learn how to navigate the redesigned release notes and find the information you’re looking for. Use new release notes tools to improve your upgrade experience.
 
-How to use release notes
+\[Omitted video\] Description: How to use release notes
 
 ## Release notes tools
 

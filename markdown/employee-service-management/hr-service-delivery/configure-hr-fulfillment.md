@@ -62,7 +62,7 @@ Conditions under which the fulfillment instructions are made available for an HR
 
 **Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
- For additional information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+ For additional information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 

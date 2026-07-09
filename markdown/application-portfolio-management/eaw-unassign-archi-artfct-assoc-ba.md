@@ -1,5 +1,5 @@
 ---
-title: Remove architectural artifacts associated with a business application
+title: Remove architectural artifacts from a business application
 description: You can remove the architectural artifacts associated with business applications in the EA Workspace, ensuring that only relevant and current architectural artifacts are associated with the business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Remove architectural artifacts associated with a business application
+# Remove architectural artifacts from a business application
 
 You can remove the architectural artifacts associated with business applications in the EA Workspace, ensuring that only relevant and current architectural artifacts are associated with the business applications.
 

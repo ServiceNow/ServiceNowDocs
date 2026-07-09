@@ -16,7 +16,7 @@ breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfol
 
 Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 
-Sprint planning in Collaborative Work Management 
+\[Omitted video\] Description: Sprint planning in Collaborative Work Management
 
 Within the Sprint Planning view of your CWM Board, you can manage your team's backlog, create sprints, plan work into sprints, and execute them seamlessly. All existing work items on your CWM Board are automatically added to the Backlog pane in the Sprint Planning view. This means that whether the work items are old or new, they will all be visible in the Backlog. From this pane, you can easily schedule these items into sprints for execution.
 

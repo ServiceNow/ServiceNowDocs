@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Teams Graph Spoke, Integration Hub available spokes, Buil
 
 Configure a webhook to subscribe to Microsoft Teams with a ServiceNow callback URL.
 
-Demonstrates how to set up bi-directional webhook for the Microsoft Teams Graph spoke. 
+\[Omitted video\] Description: Demonstrates how to set up bi-directional webhook for the Microsoft Teams Graph spoke.
 
 ## Before you begin
 
@@ -87,7 +87,7 @@ Role required: admin
 
     Subscription for the required channel is created.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md) for more information about testing subflows.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md) for more information about testing subflows.
 
 
 ## Customize a spoke subflow
@@ -120,7 +120,7 @@ Role required: admin
 
 7.  Customize the subflow according to your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md) for more information about creating and using subflows.
 
 
 ## Configure Microsoft Teams Graph webhook decision policy

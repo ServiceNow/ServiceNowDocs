@@ -28,15 +28,15 @@ The retail customer complaint case type enables customers to submit complaints a
 
 2.  Select **New** and fill in the information about the customer complaint.
 
-<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d21031e91">
+<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d22507e91">
 
 Fields
 
-</th><th align="left" id="d21031e94">
+</th><th align="left" id="d22507e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21031e102">
+</th></tr></thead><tbody><tr><td id="d22507e102">
 
 **Service**
 
@@ -44,7 +44,7 @@ Description
 
 Type of service request.
 
-</td></tr><tr><td id="d21031e112">
+</td></tr><tr><td id="d22507e112">
 
 **Customer name**
 
@@ -52,7 +52,7 @@ Type of service request.
 
 Name of the customer. **Note:** The name of the customer may not get registered in the system.
 
-</td></tr><tr><td id="d21031e123">
+</td></tr><tr><td id="d22507e123">
 
 **Customer email**
 
@@ -60,7 +60,7 @@ Name of the customer. **Note:** The name of the customer may not get registered 
 
 Email address of the customer.
 
-</td></tr><tr><td id="d21031e134">
+</td></tr><tr><td id="d22507e134">
 
 **Priority**
 
@@ -68,7 +68,7 @@ Email address of the customer.
 
 Sequence in which this case must be resolved, based on the impact and urgency.
 
-</td></tr><tr><td id="d21031e145">
+</td></tr><tr><td id="d22507e145">
 
 **Assignment group**
 
@@ -76,7 +76,7 @@ Sequence in which this case must be resolved, based on the impact and urgency.
 
 Associated assignment group that is responsible for working on this request.
 
-</td></tr><tr><td id="d21031e157">
+</td></tr><tr><td id="d22507e157">
 
 **Reported Retail Organization**
 
@@ -84,7 +84,7 @@ Associated assignment group that is responsible for working on this request.
 
 Retail organization from which this request has been created.
 
-</td></tr><tr><td id="d21031e166">
+</td></tr><tr><td id="d22507e166">
 
 **Assigned to**
 
@@ -92,7 +92,7 @@ Retail organization from which this request has been created.
 
 Person who is responsible for working on this request.
 
-</td></tr><tr><td id="d21031e175">
+</td></tr><tr><td id="d22507e175">
 
 **Short description**
 
@@ -100,7 +100,7 @@ Person who is responsible for working on this request.
 
 Short description about this request.
 
-</td></tr><tr><td id="d21031e184">
+</td></tr><tr><td id="d22507e184">
 
 **Description**
 

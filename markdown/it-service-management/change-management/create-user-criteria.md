@@ -20,6 +20,8 @@ Create a user criteria record to control user access to widgets.
 
 Role required: admin
 
+## About this task
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Models**.

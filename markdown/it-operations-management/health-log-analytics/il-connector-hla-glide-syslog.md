@@ -81,7 +81,7 @@ Log data starts streaming from the ServiceNow System Log table to the Health Log
 
 ## What to do next
 
-Use the information in the **Overview** tab to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
+Use the information in the **Overview** tab to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
 **Note:**
 

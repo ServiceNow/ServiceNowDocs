@@ -17,7 +17,7 @@ breadcrumb: [Building no-code applications, Developing your application, Buildin
 
 If you've ever wanted to create an application but you don't know how to code, then Creator Studio was designed for you!
 
-Creator Studio introduction video 
+\[Omitted video\] Description: Creator Studio introduction video
 
 Creator Studio specializes in helping you craft request-fulfillment applications, such as for your company's service desk. Service Desk apps enable users to submit requests, report issues, and access support related to services within your company. In these types of apps, one person makes a request, such as for a new keyboard, and another person fulfills the request by providing them with one.
 

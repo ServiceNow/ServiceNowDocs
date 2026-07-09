@@ -14,7 +14,7 @@ breadcrumb: [Platform Analytics experience, Platform Analytics]
 
 Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value, by whether the value is true or false, or by date.
 
-Add an interactive filter to a Platform Analytics dashboard 
+\[Omitted video\] Description: Add an interactive filter to a Platform Analytics dashboard
 
 The preceding video illustrates how to create a filter, in this case a multi-select filter for table data.
 

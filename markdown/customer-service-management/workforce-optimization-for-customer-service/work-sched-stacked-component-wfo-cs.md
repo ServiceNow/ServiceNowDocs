@@ -44,12 +44,12 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## What to do next
 
-[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)
+[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/work-sched-avatar-component.md)
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
+[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/manage-the-visual-style-of-ui-builder-experiences.md)
 

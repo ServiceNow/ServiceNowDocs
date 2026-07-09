@@ -26,5 +26,5 @@ Several of the additional contextual search resources used by the similar case/r
 **Related topics**  
 
 
-[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-similarity-solution.md)
 

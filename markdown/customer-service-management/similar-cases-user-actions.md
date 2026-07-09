@@ -100,5 +100,5 @@ The current case is added as a child to the major case.
 </table>**Related topics**  
 
 
-[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/event-management/word-collection-similarity-solution.md)
+[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/word-collection-similarity-solution.md)
 

@@ -21,7 +21,7 @@ Alert automations also support both centralized administrator and distributed te
 
 For users familiar with our classic experience, alert automation offers an easier user interface and better team support for event rules, tag-based clustering definitions and alert management rules. Some advanced features are currently only available to admins in the classic experience. These two experiences use the same backend tables. You can use whichever experience is most convenient, and changes in one will also update the other.
 
-An overview of automation types available in Event Management: Ignore, enrich, group, and respond. 
+\[Omitted video\] Description: An overview of automation types available in Event Management: Ignore, enrich, group, and respond.
 
 ## Alert automation types
 

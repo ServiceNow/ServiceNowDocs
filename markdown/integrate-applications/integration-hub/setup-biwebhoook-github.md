@@ -16,7 +16,7 @@ breadcrumb: [GitHub Spoke, Integration Hub available spokes, Building integratio
 
 Configure webhook to subscribe to GitHub with a ServiceNow callback URL.
 
-Demonstrates setting up bi-directional webhook for the GitHub spoke. 
+\[Omitted video\] Description: Demonstrates setting up bi-directional webhook for the GitHub spoke.
 
 ## Before you begin
 
@@ -113,7 +113,7 @@ The default routing policy in the GitHub WebHook Routing Policies modules trigge
 
 4.  Customize the required subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
 
 5.  Navigate to **GitHub Webhooks** &gt; **GitHub WebHook Routing Policies**.
 

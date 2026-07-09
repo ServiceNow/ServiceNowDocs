@@ -48,5 +48,5 @@ Administrators Create recommended learning records for Journey Configurations th
 
 Journey owners or mentors with the **Can add recommended learning** permission for a journey configuration are able to add recommended courses to individual journeys. See, [Add recommended learning to a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-add-recommended-learning.md).
 
-**Parent Topic:**[Integrations for Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Integrations for Journey designer app]()
 

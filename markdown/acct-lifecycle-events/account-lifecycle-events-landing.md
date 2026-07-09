@@ -15,7 +15,7 @@ The ServiceNow® Customer Success Management application enables service provide
 
 Watch this short video for an introduction to the Customer Success Management application.
 
-Overview of Account Lifecycle Events 
+\[Omitted video\] Description: Overview of Account Lifecycle Events
 
 By embedding workflow automation into customer success management, Customer Success Management helps providers enhance customer experiences, accelerate time to value, and maximize return on investment. It also fosters seamless collaboration between the accounts, sales, and delivery teams, all within the unified ServiceNow AI Platform. 
 

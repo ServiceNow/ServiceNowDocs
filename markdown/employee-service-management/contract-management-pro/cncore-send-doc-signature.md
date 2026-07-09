@@ -18,7 +18,7 @@ After a contract document has been reviewed and finalized, send the document for
 
 ## Before you begin
 
-The contract document must have been reviewed and finalized, and the contract status must be set to Document ready. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md) and [Work on a contract change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+The contract document must have been reviewed and finalized, and the contract status must be set to Document ready. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md) and [Work on a contract change request]().
 
 If the contract request is linked to a parent contract request, the parent request must be in Contract signed or Closed complete state.
 

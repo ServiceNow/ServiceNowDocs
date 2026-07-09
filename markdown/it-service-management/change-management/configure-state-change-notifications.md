@@ -28,13 +28,17 @@ By default, the notification is sent to the user who originally requested the ch
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**.
 
-2.  Locate and open **Change request state change notification**.
+2.  If the **All** menu is not visible, use the filter navigator instead.
 
-3.  On the form, modify information in the following form sections: **When to send**, **Who will receive**, **What it will contain**.
+    **Note:** Enter `sysevent_email_action.list` in the filter navigator to open the notifications list directly.
 
-    For more information about email notifications and the fields in the form, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
+3.  Locate and open **Change request state change notification**.
 
-4.  Click **Update**.
+4.  On the form, modify information in the following form sections: **When to send**, **Who will receive**, **What it will contain**.
+
+    For more information about email notifications and the fields in the form, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md).
+
+5.  Select **Update**.
 
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/exploring-change-management.md)

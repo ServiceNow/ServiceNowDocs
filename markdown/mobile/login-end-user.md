@@ -1,0 +1,87 @@
+---
+title: Add a ServiceNow instance to ServiceNow mobile apps
+description: Learn how to access an instance using a ServiceNow mobile app.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/login-end-user.html
+release: yokohama
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Working with mobile instances, Using the mobile apps, Mobile Platform]
+---
+
+# Add a ServiceNow instance to ServiceNow mobile apps
+
+Learn how to access an instance using a ServiceNow mobile app.
+
+## Before you begin
+
+Role required: user
+
+## About this task
+
+After you add ServiceNow mobile apps to your mobile device, you must connect them to the web-based UI instance that you work with. When working with the Now Mobile app and the Mobile Agent, you must add the same instance to both apps.
+
+**Note:** For more information about working with more than one instance on your mobile device, see [Working with multiple ServiceNow instances on a single mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/instance-multiple.md).
+
+If you download the mobile app from an enterprise mobility management \(EMM\) suite, enter your user credentials as prompted. For more details on EMM, see [Enterprise mobility management \(EMM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/enterprise-mobility-management.md). If you didn't download the mobile app from an EMM suite, follow the steps in this topic.
+
+## Procedure
+
+1.  Tap the icon for one of the ServiceNow mobile apps.
+
+    The mobile instance login screen displays.
+
+    \[Omitted image "log-in-screen.png"\] Alt text: The mobile instance log in screen.
+
+2.  In the instance address field, enter the instance address in one of two ways.
+
+<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d44583e109">
+
+Option
+
+</th><th align="left" id="d44583e112">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d44583e118">
+
+**Manual entry**
+
+</td><td>
+
+Type the instance address in the instance address field.
+
+**Note:** You don't need to include  `.service-now.com ` at the end of the instance name.
+
+</td></tr><tr><td id="d44583e135">
+
+**Scan QR code**
+
+</td><td>
+
+Tap the QR icon \(\[Omitted image "mobile-qr-scan.png"\] Alt text: Mobile QR scan code.\), and then scan the QR code given by your administrator.
+
+ The QR code automatically fills in the name of the instance.
+
+</td></tr></tbody>
+</table>    **Note:** For both the Now Mobile app and Mobile Agent app, there's an option to test with a demo account, where you can select a role that matches the demo you would like to see. For more information, see [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sg-mobile-demo.md) and [Mobile Agent app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-agent-demo.md).
+
+3.   Enter a nickname for this instance to help you easily locate changes you make within the instance.
+
+4.  Tap **Save and Login**.
+
+    The mobile app login screen displays.
+
+    \[Omitted image "mobile-app-login.png"\] Alt text: Mobile app login screen.
+
+5.  Enter your **User name** and **Password** and then tap **Log in**.
+
+    The mobile app landing page displays and you can start your work.
+
+
+**Related topics**  
+
+
+[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-authentication.md)
+

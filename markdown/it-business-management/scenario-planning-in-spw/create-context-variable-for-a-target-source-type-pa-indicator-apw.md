@@ -1,5 +1,5 @@
 ---
-title: Create a context variable for the target source type PA Indicator
+title: Create a context variable for a PA Indicator target source
 description: Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-type-pa-indicator-apw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring target source for target automation, Configuring goals in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a context variable for the target source type PA Indicator
+# Create a context variable for a PA Indicator target source
 
 Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 

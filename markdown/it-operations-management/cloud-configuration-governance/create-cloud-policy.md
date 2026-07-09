@@ -18,12 +18,12 @@ A cloud policy can override a property value set by a user, create an approval t
 
 ## Before you begin
 
--   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+-   Optional: [Create one or more cloud policy groups]().
 -   Role required: sn\_cmp.cloud\_governor or admin
 
 ## About this task
 
-This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) for instructions on creating a policy with an approval trigger.
+This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy]() for instructions on creating a policy with an approval trigger.
 
 ## Procedure
 
@@ -71,7 +71,7 @@ Policy Trigger
 
 </td><td>
 
-A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies]().
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Order of Execution
 
 Specify a number that represents the order in which the policy is applied. A policy with a lower number runs before a policy with a higher number. For example, a policy with **Order** of **100** runs before a policy with an **Order** of **200**.
 
- **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) for details.
+ **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy]() for details.
 
 </td></tr><tr><td>
 
@@ -149,5 +149,5 @@ Status
 
 ## What to do next
 
-[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) for the policy.
+[Configure a cloud policy rule]() for the policy.
 

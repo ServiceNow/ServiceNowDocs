@@ -1,5 +1,5 @@
 ---
-title: Agent Client Collector for Visibility - Content reference
+title: Agent Client Collector for Visibility Content reference
 description: Review this information for details on OS query scripts, data collected, and definition of terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.html
@@ -10,14 +10,14 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
-# Agent Client Collector for Visibility - Content reference
+# Agent Client Collector for Visibility Content reference
 
 Review this information for details on OS query scripts, data collected, and definition of terms.
 
-## OS module scripts for Agent Client Collector for Visibility - Content \(ACC-VC\)
+## OS module scripts for Agent Client Collector for Visibility Content \(ACC-VC\)
 
 These platform-specific plugins invoke platform-specific module scripts. Each script outputs to a standard JSON payload regardless of the platform.
 
@@ -236,7 +236,7 @@ ACC-VC uses the same classification criteria as IP-based Discovery for classifyi
 
     A ServiceNow scoped application enabling monitoring use cases.
 
--   **Agent Client Collector for Visibility - Content \(ACC-VC\)**
+-   **Agent Client Collector for Visibility Content \(ACC-VC\)**
 
     A ServiceNow scoped application that implements push-based Discovery leveraging ACC and ACC-F.
 

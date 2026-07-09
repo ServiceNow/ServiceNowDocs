@@ -18,9 +18,9 @@ A policy that is triggered by one of the approval triggers can start approval wo
 
 ## Before you begin
 
-Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Optional: [Create one or more cloud policy groups]().
 
-[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) and associated conditions.
+[Configure a cloud policy rule]() and associated conditions.
 
 Role required: sn\_cmp.cloud\_governor or admin
 

@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Agent Client Collector Monitoring default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---
 
 # Azure cloud metrics
@@ -18,7 +18,7 @@ Azure cloud metrics are gathered from Azure virtual machines \(VMs\) and Azure s
 
 ## Azure cloud metrics collection - Overview
 
-To begin collecting Azure cloud metrics, you must select the metrics that you want to add to the CMDB and set the relevant system configurations. For example, you can monitor the number of bytes sent and received from Azure resources. For details, see [Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md).
+To begin collecting Azure cloud metrics, you must select the metrics that you want to add to the CMDB and set the relevant system configurations. For example, you can monitor the number of bytes sent and received from Azure resources. For details, see [Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md).
 
 ## Using Azure policies
 

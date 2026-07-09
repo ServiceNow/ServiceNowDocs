@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ The option to use Investment Funding for funding your portfolios is available on
 
 3.  Configure the planning type and scope.
 
-<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d68659e97">
+<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d85427e94">
 
 Planning type
 
-</th><th align="left" id="d68659e100">
+</th><th align="left" id="d85427e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68659e106">
+</th></tr></thead><tbody><tr><td id="d85427e103">
 
 **If you want to plan for a single fiscal year and single portfolio**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **Single Selected Portfolio** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d68659e130">
+</td></tr><tr><td id="d85427e127">
 
 **If you want to plan for a single fiscal year and all portfolios**
 
@@ -62,7 +62,7 @@ Steps
 2.  Select **All Portfolios** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d68659e154">
+</td></tr><tr><td id="d85427e151">
 
 **If you want to plan for multiple years and single portfolio**
 
@@ -74,7 +74,7 @@ Steps
 
 When you select a planning window, all the demands and projects falling within the selected duration appear on the Portfolio Planning Workbench.
 
-</td></tr><tr><td id="d68659e186">
+</td></tr><tr><td id="d85427e183">
 
 **If you want to plan for multiple years and all portfolios**
 

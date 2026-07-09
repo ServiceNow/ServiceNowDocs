@@ -18,7 +18,7 @@ Automate integration tasks using ServiceNow components for ServiceNow® Workflow
 
 Watch this video for an overview of Integration Hub.
 
-An overview of Integration Hub. 
+\[Omitted video\] Description: An overview of Integration Hub.
 
 ## Get started
 

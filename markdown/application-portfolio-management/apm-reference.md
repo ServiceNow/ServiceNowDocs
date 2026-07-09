@@ -42,7 +42,7 @@ The data classification groups help admin users to categorize the classification
 Entity is used to scope risk exposure and perform risk assessments on business applications.
 -   **[Create new architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/architectural-artifact-form.md)**  
 Architectural artifacts describe a system, solution, or state of an enterprise. The Architectural artifacts in Enterprise Architecture \(formerly APM\) enable Enterprise Architects to create and manage the artifacts used in their organization.
--   **[Create new related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/related-entities-form.md)**  
+-   **[Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/related-entities-form.md)**  
 Enterprise Architecture \(formerly APM\) enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities or business applications. These associations creates a relationship between the artifact and related entities.
 -   **[Architectural category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/architectural-category-form.md)**  
 Architectural category enables Enterprise architects to categorize and manage artifacts efficiently.
@@ -66,7 +66,7 @@ The script to recalculate the scores of all indicators, the scoring profiles to 
 This form helps to change the configurations of a bubble chart.
 -   **[Application bubble chart form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/application-bubble-chart-form.md)**  
 A bubble chart helps the admin to compare and evaluate the relative standing of application in selected categories.
--   **[New Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/new-goal-form.md)**  
+-   **[Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/new-goal-form.md)**  
 Use the Goal form to create goals for your organizational strategic priorities.
 -   **[Update Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-goal-form.md)**  
 After assessing the applications and deciding on strategies, an admin can update goals to maximize or minimize depending on the indicators for the selected fiscal period.
@@ -86,7 +86,7 @@ Track your equipment assets such as computers and servers using hardware models.
 Business applications have multiple instances such as development, QA, and production. Instances are nothing but application services. Hence application services must be associated with software models \(to the respective full versions\) to know the risk of the application service.
 -   **[Risk Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/risk-parameter-form.md)**  
 Risk Parameter is a common table used within Enterprise Architecture \(formerly Application Portfolio Management\) application.
--   **[New TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-product-form.md)**  
+-   **[TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-product-form.md)**  
 As a member of the Enterprise Architect group, you can add a Technology Reference Model \(TRM\) product to the TRM library.
 -   **[Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-product-request-form.md)**  
 The Request TRM product form is used for adding or editing a request to include a new software or hardware product to the Technology Reference Model \(TRM\) library.

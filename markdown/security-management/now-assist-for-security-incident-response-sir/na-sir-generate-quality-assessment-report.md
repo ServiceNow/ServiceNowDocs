@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Generate quality assessment report, quality report, security incident quality analysis]
 breadcrumb: [Explore Security Incident Quality Assessment, Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
@@ -23,11 +23,11 @@ Role required: sn\_sec\_gen\_ai.qa\_reviewer
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Security Incident Response Workspace**.
 
 2.  Open a security incident that is assigned to you.
 

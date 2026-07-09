@@ -60,13 +60,13 @@ The Service Map tab displays a visual representation of the service.
 **Related topics**  
 
 
-[Document life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+[Document life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-lifecycle-document.md)
 
-[Hardware life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
+[Hardware life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-lifecycle-hardware.md)
 
-[Location life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
+[Location life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-lifecycle-location.md)
 
-[Logical life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+[Logical life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-lifecycle-logical.md)
 
-[Product life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
+[Product life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-lifecycle-product.md)
 

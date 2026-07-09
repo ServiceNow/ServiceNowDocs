@@ -34,6 +34,8 @@ Role required: sn\_cmdb\_admin
     |Remove a CI class group|Clear the check box for the CI class group.|Excludes all CI classes associated with the removed group.|
     |Remove a selected CI class|Select X icon next to the category in the **Selected classes** column.|CI class is removed from scope.|
 
+    **Note:** CI classes on the exclusion list aren't shown in the **Available classes** column.
+
 3.  Select **Done** to apply the changes.
 
 

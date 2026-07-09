@@ -1,5 +1,5 @@
 ---
-title: Configure onetime data import using Netflow for testing purposes
+title: Configure a Netflow data import for testing
 description: Configure and test Service Mapping discovery process based on data collected using the Netflow protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/test-netflow-service-mapping.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Data collection and discovery using Netflow, Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure onetime data import using Netflow for testing purposes
+# Configure a Netflow data import for testing
 
 Configure and test Service Mapping discovery process based on data collected using the Netflow protocol.
 

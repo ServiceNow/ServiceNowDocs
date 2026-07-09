@@ -18,6 +18,6 @@ Explore examples of connecting to an MCP servers via AI Gateway.
 
 Explore two examples of connecting MCP servers.
 
--   [Connecting with Microsoft Copilot Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.md)
--   [Connecting with AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/connecting-with-servicenow-ai-agent-studio-via-ai-gateway.md)
+-   [Connecting with Microsoft Copilot Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Connecting with AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

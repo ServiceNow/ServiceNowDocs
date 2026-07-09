@@ -52,5 +52,5 @@ if(curNum) {
 **Related topics**  
 
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
 

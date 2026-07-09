@@ -1,5 +1,5 @@
 ---
-title: Set the duration of a fiscal period property for TCO dashboards
+title: Set the fiscal period property for TCO dashboards
 description: Set the system property \(com.glide.fiscal\_calendar.fiscal\_unit\) to view TCO dashboards for a specific duration of the fiscal period in the Dashboard page of the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-set-property-tco-dashboards.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Set the duration of a fiscal period property for TCO dashboards
+# Set the fiscal period property for TCO dashboards
 
 Set the system property \(**com.glide.fiscal\_calendar.fiscal\_unit**\) to view TCO dashboards for a specific duration of the fiscal period in the Dashboard page of the Enterprise Architecture Workspace.
 

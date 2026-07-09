@@ -36,7 +36,7 @@ As a live agent interacting with a requester over the SMS service channel, you c
 -   Share any URLs as links.
 -   Share any images as attachments.
 
-**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
+**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/conversation-sms-service-channel-store-app.md).
 
 ## Initiating SMS conversations
 

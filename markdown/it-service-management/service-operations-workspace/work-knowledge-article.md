@@ -26,15 +26,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d130088e61">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d133811e61">
 
 Option
 
-</th><th align="left" id="d130088e64">
+</th><th align="left" id="d133811e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d130088e70">
+</th></tr></thead><tbody><tr><td id="d133811e70">
 
 **Create a new version of the knowledge article that we can publish**
 
@@ -42,7 +42,7 @@ Description
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d130088e82">
+</td></tr><tr><td id="d133811e82">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
@@ -53,7 +53,7 @@ Select **Checkout**.
 
 **Note:** If Dynamic Translation is enabled, click **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d130088e112">
+</td></tr><tr><td id="d133811e112">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -61,15 +61,15 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d130088e124">
+</td></tr><tr><td id="d133811e124">
 
 **Initiate the retirement workflow associated with the article**
 
 </td><td>
 
-From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d130088e147">
+</td></tr><tr><td id="d133811e147">
 
 **Translate an article into multiple languages**
 
@@ -80,7 +80,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d130088e180">
+</td></tr><tr><td id="d133811e180">
 
 **Copy the record page URL to easily access the record**
 
@@ -88,7 +88,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d130088e198">
+</td></tr><tr><td id="d133811e198">
 
 **Reuse a knowledge block when creating or editing the article**
 
@@ -98,7 +98,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d130088e222">
+</td></tr><tr><td id="d133811e222">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -110,7 +110,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d130088e259">
+</td></tr><tr><td id="d133811e259">
 
 **Add attachments**
 
@@ -118,7 +118,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d130088e283">
+</td></tr><tr><td id="d133811e283">
 
 **Create templates for reuse**
 

@@ -61,5 +61,5 @@ You can add additional self-service capabilities such as order management by ins
 **Related topics**  
 
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md)
 

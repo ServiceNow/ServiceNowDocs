@@ -16,7 +16,7 @@ breadcrumb: [Using Procurement Case Management, Using Sourcing and Procurement O
 
 As a procurement specialist, create a procurement case from the list view of Source-to-Pay Workspace to address your procurement-related business needs.
 
-Describes the procedure for creating a procurement case from the Procurement workspace. 
+\[Omitted video\] Description: Describes the procedure for creating a procurement case from the Procurement workspace.
 
 ## Before you begin
 

@@ -18,7 +18,7 @@ Use Impact Guided Setup to complete the configuration of the Impact Store Applic
 
 Guided setup provides a sequence of tasks that help you configure the Impact Store Application on your ServiceNow instance.
 
-For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
+For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
 There are three main steps in the Impact Guided Setup:
 

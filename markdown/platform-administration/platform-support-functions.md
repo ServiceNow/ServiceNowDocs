@@ -48,7 +48,7 @@ Because function field calculations are not stored in the database, some operati
 
 -   Function fields cannot be encrypted, since a function field value is never stored in the database.
 -   Function fields cannot be converted to regular fields or vice versa.
--   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/configure-function-fields.md).
+-   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-function-fields.md).
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not permitted to see are hidden from the user.
 -   Field function names must be unique.
 
@@ -454,7 +454,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md).
+**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -465,7 +465,7 @@ For example, the following function definition creates a field that shows the sh
 
 7.  Add the function field to the list.
 
-    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_UseSlushbuckets.md).
+    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_UseSlushbuckets.md).
 
 
 ### Result

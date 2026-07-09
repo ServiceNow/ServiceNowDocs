@@ -36,7 +36,7 @@ Legal services
 
 </td><td>
 
-Submit and manage general legal requests. See [Install Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-request-management/install-legal-request-management.md).
+Submit and manage general legal requests. See [Install Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/install-legal-request-management.md).
 
 </td><td>
 
@@ -49,7 +49,7 @@ Human Resources \(HR\) services
 
 </td><td>
 
-Manage payroll inquiries, benefits questions, and general HR requests. See [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
+Manage payroll inquiries, benefits questions, and general HR requests. See [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/activate-case-and-knowledge-management-scoped.md).
 
 </td><td>
 
@@ -66,7 +66,7 @@ Workplace Services Delivery
 
 </td><td>
 
-Handle general service requests and managing space arrangements efficiently.See [Install Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/workplace-case-management/install-workplace-case-mgmt.md).
+Handle general service requests and managing space arrangements efficiently.See [Install Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/install-workplace-case-mgmt.md).
 
 </td><td>
 
@@ -81,7 +81,7 @@ Health and Safety services
 
 </td><td>
 
-Enable employees to make health and safety related inquiries. See [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.md).
+Enable employees to make health and safety related inquiries. See [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/install-hs-risk-mgmt.md).
 
 </td><td>
 
@@ -94,7 +94,7 @@ Procurement services
 
 </td><td>
 
-Enable employees to make procurement related inquiries. See [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md).
+Enable employees to make procurement related inquiries. See [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/activate-finance-spend-central.md).
 
 </td><td>
 
@@ -111,7 +111,7 @@ Finance services
 
 </td><td>
 
-Enable employees to make finance related inquiries. See [Install Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/finance-case-management/install-fin-case-mgmt.md).
+Enable employees to make finance related inquiries. See [Install Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/install-fin-case-mgmt.md).
 
 </td><td>
 
@@ -128,7 +128,7 @@ Supplier Lifecycle Operations
 
 </td><td>
 
-Streamline procurement, supplier, and invoice requests from submission to fulfillment. See [Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md).
+Streamline procurement, supplier, and invoice requests from submission to fulfillment. See [Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/install-supp-mgmt.md).
 
 </td><td>
 
@@ -143,7 +143,7 @@ Accounts Payable Operations
 
 </td><td>
 
-Enable suppliers to view purchase orders, invoices, and inquiry cases, and submit invoice-related questions. See [Install Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.md).
+Enable suppliers to view purchase orders, invoices, and inquiry cases, and submit invoice-related questions. See [Install Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/install-acc-pay-mgmt.md).
 
 </td><td>
 

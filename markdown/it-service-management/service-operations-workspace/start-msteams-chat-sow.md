@@ -1,6 +1,6 @@
 ---
 title: Collaborate on a task record using Microsoft Teams in Service Operations Workspace
-description: Start or import a Microsoft Teams chat from a task record in .
+description: Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/start-msteams-chat-sow.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [ServiceNow integrations with Microsoft Teams in Service Operations 
 
 # Collaborate on a task record using Microsoft Teams in Service Operations Workspace
 
-Start or import a Microsoft Teams chat from a task record in .
+Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.
 
 ## Before you begin
 
@@ -50,15 +50,15 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d127262e213">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d292181e216">
 
 Option
 
-</th><th align="left" id="d127262e216">
+</th><th align="left" id="d292181e219">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127262e222">
+</th></tr></thead><tbody><tr><td id="d292181e225">
 
 **Import a chat from any conversation**
 
@@ -69,7 +69,7 @@ Description
 3.  Select the chat and click **Import**.
 
 
-</td></tr><tr><td id="d127262e252">
+</td></tr><tr><td id="d292181e255">
 
 **Import a chat from a conversation in which you are a member**
 

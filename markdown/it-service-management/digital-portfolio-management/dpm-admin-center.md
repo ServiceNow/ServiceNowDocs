@@ -20,7 +20,7 @@ With a DPM admin role \[sn\_dpm.dpm\_admin\], access the DPM Admin Center to set
 
 **Note:** An administrator \[admin\] must install plugins.
 
-Let's review the Digital Portfolio Management Admin Center. 
+\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
 
 ## Access the DPM Admin Center
 

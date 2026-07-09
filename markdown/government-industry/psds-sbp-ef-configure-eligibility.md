@@ -137,7 +137,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 
@@ -267,15 +267,15 @@ Role required: admin
 
 3.  Do one of the following, depending on what information you want to update.
 
-<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d51113e768">
+<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d51433e768">
 
 Select...
 
-</th><th align="left" id="d51113e771">
+</th><th align="left" id="d51433e771">
 
 To...
 
-</th></tr></thead><tbody><tr><td id="d51113e777">
+</th></tr></thead><tbody><tr><td id="d51433e777">
 
 **Select the Details tab.**
 
@@ -283,7 +283,7 @@ To...
 
 Edit details such as the policy name, category, date, and description.
 
-</td></tr><tr><td id="d51113e786">
+</td></tr><tr><td id="d51433e786">
 
 **Select the Policy Builder tab.**
 
@@ -291,7 +291,7 @@ Edit details such as the policy name, category, date, and description.
 
 Make changes to the policy logic, and switch between versions to take various actions at the version level. **Note:** Published versions of policies cannot be updated. To make changes to the logic of an existing policy, select **Create a copy** to create a new version of the existing policy that can be updated accordingly.
 
-</td></tr><tr><td id="d51113e800">
+</td></tr><tr><td id="d51433e800">
 
 **Select the Version Management tab.**
 
@@ -299,7 +299,7 @@ Make changes to the policy logic, and switch between versions to take various ac
 
 Manage different versions of a policy.
 
-</td></tr><tr><td id="d51113e809">
+</td></tr><tr><td id="d51433e809">
 
 **Select the Mappings tab.**
 
@@ -307,7 +307,7 @@ Manage different versions of a policy.
 
 Update or review the benefits to which the given policy is mapped.
 
-</td></tr><tr><td id="d51113e819">
+</td></tr><tr><td id="d51433e819">
 
 **Select the Executions tab.**
 
@@ -464,7 +464,7 @@ Date and time when the policy template was created.
 
 6.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then select **Save**.
 
-    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
+    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-policy-logic-fields.md).
 
 
 ### What to do next

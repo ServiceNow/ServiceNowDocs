@@ -16,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 The ServiceNow® Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/exploring-asset-management.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/exploring-asset-management.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-landing-page.md).
 
 Asset management business practices have a common set of goals.
 
@@ -30,7 +30,7 @@ Asset management business practices have a common set of goals.
 
 Most successful ITAM programs involve various people and departments, including IT, finance, services, and end users.
 
-For detailed documentation about Asset Management features, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/am-landing-page.md).
+For detailed documentation about Asset Management features, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/am-landing-page.md).
 
 Asset Management and the Configuration Management Database \(CMDB\) are related, but have different goals. Asset Management focuses on the financial tracking of company property. Configuration management focuses on building and maintaining elements that create an available network of services.
 
@@ -48,5 +48,5 @@ The product catalog is a set of information about individual models. Models are 
 **Related topics**  
 
 
-[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/domain-separation-asset-management.md)
+[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/domain-separation-asset-management.md)
 

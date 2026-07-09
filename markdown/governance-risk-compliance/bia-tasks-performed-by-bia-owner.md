@@ -26,7 +26,7 @@ Typically, the business impact analysis owner performs the following tasks:
 -   As the BCM lead, approve the BIA. For more information, see [Approve the business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/approve-bia-in-uib-ws.md).
 -   Generate and save the PDF of the analysis for reference.
 
-An overview of how to update dependencies 
+\[Omitted video\] Description: An overview of how to update dependencies
 
 The video shows how BCM Managers can use the CMDB as a source to update dependencies in a Business Impact Analysis \(BIA\). The same process applies to Business Continuity Plans \(BCPs\) and events.
 

@@ -29,5 +29,5 @@ Use the Public Services Performance Overview dashboard to assess key performance
 **Related topics**  
 
 
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/platform-analytics/content-packs-in-form-analytics.md)
+[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

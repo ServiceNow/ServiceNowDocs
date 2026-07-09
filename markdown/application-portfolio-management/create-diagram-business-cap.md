@@ -18,14 +18,14 @@ Create a diagram in Lucidchart for your business capability maps and associate i
 
 **Important:**
 
-Starting with the Xanadu release, the Create Diagram feature is moved to the Enterprise Architecture Workspace. To learn more, see [Create a Lucidchart diagram for a business capability in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-lucid-diagram-cap.md).
+Starting with the Xanadu release, the Create Diagram feature is moved to the Enterprise Architecture Workspace. To learn more, see [Create a Lucidchart diagram for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-lucid-diagram-cap.md).
 
 Install the following store apps:
 
 -   Lucidchart Diagramming Spoke
 -   Lucidchart Integration
 
-Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

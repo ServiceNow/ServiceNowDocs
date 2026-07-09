@@ -100,7 +100,7 @@ View analytics and data visualizations that help you improve your business proce
 
 </td><td>
 
-[]()
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-dashboard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-dashboard.md)
 
 </td><td>
 

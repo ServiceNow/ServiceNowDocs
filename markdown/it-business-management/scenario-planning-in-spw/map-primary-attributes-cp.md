@@ -18,7 +18,7 @@ Locate and map the primary group, primary role, and primary skill for the resour
 
 ## Before you begin
 
-[Generate employee profiles for resources to work with Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
+[Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
 
 Role required: admin
 

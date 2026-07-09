@@ -28,7 +28,7 @@ Before using MID-less Agent Client Collector, do the following:
 
 2.  Install the ITOM Cloud Services Core \(sn\_itom\_cloud\_svc\) scoped app plugin.
 
-    If you’re using Agent Client Collector for Visibility - Content, install the Agent Client Collector for Visibility - Content \(sn\_acc\_vis\_content\) plugin.
+    If you’re using Agent Client Collector for Visibility Content, install the Agent Client Collector for Visibility Content \(sn\_acc\_vis\_content\) plugin.
 
 3.  Configure an agent registration key on the instance. For details, see [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 

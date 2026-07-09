@@ -18,7 +18,7 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_lg\_cnt.contract\_fulfiller
 
@@ -30,7 +30,7 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Assign a legal request to yourself or to someone in your assignment group.
 
-    For more information, see [Assign a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+    For more information, see [Assign a legal request]()
 
 2.  Start working on a legal request.
 
@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d84152e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d524837e172">
 
 Option
 
-</th><th align="left" id="d84152e175">
+</th><th align="left" id="d524837e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84152e181">
+</th></tr></thead><tbody><tr><td id="d524837e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d84152e202">
+</td></tr><tr><td id="d524837e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d84152e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d524837e342">
 
 Option
 
-</th><th align="left" id="d84152e345">
+</th><th align="left" id="d524837e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84152e351">
+</th></tr></thead><tbody><tr><td id="d524837e351">
 
 **Internal**
 
@@ -125,7 +125,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d84152e392">
+</td></tr><tr><td id="d524837e392">
 
 **External**
 
@@ -211,7 +211,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/using-email.md).
+        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/using-email.md).
 
     7.  Either send the email immediately or indicate that it should be sent later.
 
@@ -236,5 +236,5 @@ After a non-disclosure agreement contract document has been reviewed and finaliz
 -   **[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)**  
 Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

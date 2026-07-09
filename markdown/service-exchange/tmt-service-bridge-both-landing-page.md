@@ -13,7 +13,7 @@ reading_time_minutes: 1
 
 ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance.
 
-Watch this short video for an introduction to the Service Exchange application.An overview of Service Exchange 
+Watch this short video for an introduction to the Service Exchange application.\[Omitted video\] Description: An overview of Service Exchange
 
 ## Get started
 
@@ -30,4 +30,14 @@ Watch this short video for an introduction to the Service Exchange application.A
 [Service Exchange Knowledge Base\[Omitted image "bus-knowledge-management.svg"\] Alt text:Review the Service Exchange knowledge base articles.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/service-bridge-rn.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see .
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/service-bridge-for-implementers?id=learning_path_prev&path_id=995e40f5c3008ad45922751ce00131cf&s=1&ssa=3).
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+-   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   View KB articles at [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
+-   Access Service Exchange product page from [Service Exchange product](https://www.servicenow.com/products/service-bridge.html).
+

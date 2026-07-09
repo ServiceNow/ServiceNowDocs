@@ -16,7 +16,7 @@ breadcrumb: [Conversational Interfaces]
 
 Unlock your enterprise productivity with ServiceNow® Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring pre-built conversations powered by artificial intelligence.
 
-This video explains what Virtual Agent is and includes an example demonstration that shows how you can help your users address many common issues without an agent. 
+\[Omitted video\] Description: This video explains what Virtual Agent is and includes an example demonstration that shows how you can help your users address many common issues without an agent.
 
 ## Get started with ServiceNow AI Platform Virtual Agent
 
@@ -53,7 +53,7 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 <table id="table_wlx_qdm_v4b" class="nav-card"><tbody><tr><td>
 
-[Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
+[Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -61,11 +61,11 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 </td><td>
 
-[Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
+[Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-virtual-agent-conversations.md)
 
 </td><td>
 
-[Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/workplace-core/va-conversations-wsd.md)
+[Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/va-conversations-wsd.md)
 
 </td></tr><tr><td>
 
@@ -73,11 +73,11 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 </td><td>
 
-[Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/project-management/ppm-va-overview.md)
+[Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-va-overview.md)
 
 </td><td>
 
-[Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
+[Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-va-conversations.md)
 
 </td><td>
 

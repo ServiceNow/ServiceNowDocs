@@ -16,7 +16,7 @@ breadcrumb: [Conversational Interfaces]
 
 Agents can collaborate with others through Sidebar discussions, either as standalone conversations or linked to a Workspace record.
 
-Getting started with Sidebar 
+\[Omitted video\] Description: Getting started with Sidebar
 
 ## Get started
 

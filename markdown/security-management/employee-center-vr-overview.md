@@ -29,7 +29,7 @@ For Exception Rules:
 -   Creation
 -   Extension
 
-These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md)
 
 -   **[Managing Approvals via the Employee Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/manage-approvals-ec.md)**  
 The updated Employee Service Center experience consolidates vulnerability approvals under one interface.This allows customers to efficiently manage security exceptions without navigating multiple systems or UIs.

@@ -30,15 +30,15 @@ Role required: admin
 
 3.  Configure the following system properties for the script field.
 
-<table id="choicetable_jlb_wgy_fyb"><thead><tr><th align="left" id="d73645e97">
+<table id="choicetable_jlb_wgy_fyb"><thead><tr><th align="left" id="d77013e97">
 
 System property
 
-</th><th align="left" id="d73645e100">
+</th><th align="left" id="d77013e100">
 
 Configuration
 
-</th></tr></thead><tbody><tr><td id="d73645e106">
+</th></tr></thead><tbody><tr><td id="d77013e106">
 
 **glide.ui.workspace.script.code\_editor.enable**
 
@@ -46,7 +46,7 @@ Configuration
 
 Determines whether to show script fields in forms with a code editor component.
 
-</td></tr><tr><td id="d73645e118">
+</td></tr><tr><td id="d77013e118">
 
 **glide.ui.workspace.script.code\_editor.autoresize\_line\_limit**
 

@@ -34,11 +34,11 @@ Set up your Financial Services Operations application by importing financial ser
 
     Create structured and flexible data models to represent the need across various industries.
 
-6.  [Creating an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/t_CreateNewACL.md)
+6.  [Creating an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateNewACL.md)
 
     Create an access control rule \(ACL\) to prevent the Needs review field from being modified after it has been set.
 
-7.  [Setting up form views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/form-configurable-workspace.md)
+7.  [Setting up form views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/form-configurable-workspace.md)
 
     Form views refer to the user interfaces or screens that allow users to input, edit, and view data related to tables.
 
@@ -46,7 +46,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Configure and modify service definitions for Financial Services Operations applications, including reviewing or adding new ones.
 
-9.  [Creating a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/t_CreateNewUIAction.md)
+9.  [Creating a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateNewUIAction.md)
 
     Create UI actions.
 
@@ -54,11 +54,11 @@ Set up your Financial Services Operations application by importing financial ser
 
     Review the CSM Configurable Workspace in Financial Services Operations applications to ensure it meets your business needs. Customize its components as needed and set it up for agents to engage with customers, answer questions, create cases, and resolve issues.
 
-11. Setting up decision tables
+11. [Setting up decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md)
 
     Create decision tables.
 
-12. [Setting up approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/approvals/t_SetupAnApprovalEngine.md)
+12. [Setting up approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/t_SetupAnApprovalEngine.md)
 
     Set up insurance claim core as per the business requirements.
 

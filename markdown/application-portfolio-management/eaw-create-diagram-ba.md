@@ -1,5 +1,5 @@
 ---
-title: Create a diagram for a business application in the EA Workspace
+title: Create a diagram for a business application
 description: Create a diagram for your business application hierarchy and associate it with an architectural artifact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-diagram-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create a diagram for a business application in the EA Workspace
+# Create a diagram for a business application
 
 Create a diagram for your business application hierarchy and associate it with an architectural artifact.
 
@@ -28,7 +28,7 @@ For creating the diagram using the Lucidchart, you must activate the following S
 -   Lucidchart Integration \[sn\_lcdchart\_int\] \(v 2.3.0 or later\)
 -   Personal Authentication \[sn\_ihub\_personal\_auth\] \(v 27.0.0 or later\)
 
-To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

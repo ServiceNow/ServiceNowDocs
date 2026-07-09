@@ -24,9 +24,9 @@ As a case owner or fulfiller, initiate a self-served or non-self-served contract
 As a contract user or contract administrator, view the details and track the activities of the contract request.
 -   **[Assign a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-assign-con-req.md)**  
 As a contract fulfiller or contract administrator, assign a contract request to yourself or to someone in your assignment group.
--   **[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+-   **[Use self-served contract request]()**  
 Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
--   **[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+-   **[Use non-self-served contract request]()**  
 Use Contract Management Pro yto submit non self-served contract requests for review of contracts based on third-party templates.
 -   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-amend-landing.md)**  
 The contract amendment workflow enables you to initiate, manage, and track changes to existing contracts through amendment requests.

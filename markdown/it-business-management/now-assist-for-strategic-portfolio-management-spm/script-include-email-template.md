@@ -1,5 +1,5 @@
 ---
-title: Update the project summary header and footer of your email using script include
+title: Update the project insights header and footer of email
 description: Use the script include to modifying the email template for project summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/script-include-email-template.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
-# Update the project summary header and footer of your email using script include
+# Update the project insights header and footer of email
 
 Use the script include to modifying the email template for project summary.
 
 ## Before you begin
 
-Ensure the Now Assist for SPM is installed and email project summary skill is active.
+Verify that Now Assist for SPM is installed and project insights generation skill is active.
 
 Role required: admin
 

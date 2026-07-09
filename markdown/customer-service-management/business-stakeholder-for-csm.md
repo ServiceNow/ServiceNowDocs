@@ -496,9 +496,9 @@ Internal
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md)
+[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/business-stakeholder-role-ppm.md)
 
-[Business stakeholder role for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/business-stakeholder-role-apm.md)
+[Business stakeholder role for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/business-stakeholder-role-apm.md)
 
-[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)
+[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/installed-with-business-stakeholder.md)
 

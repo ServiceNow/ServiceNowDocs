@@ -24,7 +24,7 @@ The Healthcare organization \[sn\_hcls\_organization\] table stores the details 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_egs_nss_mpb"><thead><tr><th>
 

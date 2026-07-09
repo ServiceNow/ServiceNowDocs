@@ -314,5 +314,5 @@ Primary Utility function for the Evaluator.
 **Related topics**  
 
 
-[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md)
+[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables.md)
 

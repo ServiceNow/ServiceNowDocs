@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-25"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,8 +17,6 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, CMDB schema mod
 Improve Data Foundations coverage by analyzing existing and suggested data integrations, including Discovery patterns and Service Graph Connectors.
 
 Use the **Data integrations** tab in the CMDB success advisor for Data Foundations to assess the effectiveness of your current data integration sources in the Configuration Management Database \(CMDB\) and identify opportunities to improve coverage across your principal classes. The **Data integrations** tab provides a breakdown of active Discovery patterns and installed Service Graph Connectors, including how many key configuration item \(CI\) attributes each integration source is populating.
-
-For a quick reference to improve Data Foundations coverage, see [Data integration checklist for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integ-checklist.md).
 
 ## Access data integrations
 

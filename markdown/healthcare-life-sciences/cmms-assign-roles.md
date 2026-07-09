@@ -20,7 +20,7 @@ Assign roles to control access to features, capabilities, and data in the Health
 
 To use maintenance and servicing workflows or inventory and management workflows, please see [Clinical Device Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/clinical-device-mgmt-overview.md).
 
-Set the application scope to Healthcare Computerized Maintenance Management System using the application picker. For more information, see Application picker.
+Set the application scope to Healthcare Computerized Maintenance Management System using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_hcls\_cmms.clinical\_engineering\_admin or admin
 
@@ -146,6 +146,6 @@ Accesses and views all device data and medical device cases.
 
 -   Assign roles to users and groups using the user administration feature in ServiceNow AI Platform.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md).
+    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md).
 

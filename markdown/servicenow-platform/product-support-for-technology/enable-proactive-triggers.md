@@ -22,7 +22,7 @@ Use Proactive Triggers to create and view context-specific messages and use rele
 
 For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/product-support-for-technology/proactive-triggers.md).
 
-The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/bp-what-is-domain-separation.md).
+The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/bp-what-is-domain-separation.md).
 
 Role required: admin
 

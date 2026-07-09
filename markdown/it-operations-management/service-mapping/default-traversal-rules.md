@@ -1,5 +1,5 @@
 ---
-title: Predefined traversal rules for application services in Service Mapping
+title: Predefined traversal rules for application services
 description: Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/default-traversal-rules.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Predefined traversal rules for application services in Service Mapping
+# Predefined traversal rules for application services
 
 Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 

@@ -1,5 +1,5 @@
 ---
-title: Use Business Application Lifecycle Management to request an architecture review
+title: Request an architecture review
 description: You can request a review of your new architecture design proposal on the technology of a business application by presenting it to the architecture review board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/balm-request-arb-review.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use Business Application Lifecycle Management to request an architecture review
+# Request an architecture review
 
 You can request a review of your new architecture design proposal on the technology of a business application by presenting it to the architecture review board.
 

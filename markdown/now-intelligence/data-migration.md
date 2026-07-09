@@ -19,7 +19,7 @@ When you migrate your Core UI data, your existing dashboards, reports, interacti
 
 To learn more about Platform Analytics and the Migration Center, see the [Platform Analytics enablement toolkit](https://sn.works/analytics/pae) on the ServiceNow Community.
 
-Introduction to the Migration Center including both partial and full migration and review 
+\[Omitted video\] Description: Introduction to the Migration Center including both partial and full migration and review
 
 The Migration Center is only available when Next Experience is enabled. To enable Next Experience, set the value of the **glide.ui.polaris.experience** property to true.
 
@@ -74,5 +74,5 @@ You can disable the **Start Moving** and **Activate** Platform Analytics experie
 
 If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

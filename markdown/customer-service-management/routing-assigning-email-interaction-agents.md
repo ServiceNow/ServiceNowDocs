@@ -17,7 +17,7 @@ Route and assign email interactions to the appropriate agents based on predefine
 
 When agents accept email interactions routed by Advanced Work Assignment \(AWA\), the interaction state changes from New to Work in progress and it’s assigned to the agent.
 
-For information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment route email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-advanced-work-assignment-route-email-interactions.md).
+For information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment for routing email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-advanced-work-assignment-route-email-interactions.md).
 
 Alternatively, agents can assign the email interactions manually.
 

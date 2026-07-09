@@ -1,5 +1,5 @@
 ---
-title: Create a Lucidchart diagram for a business capability in the EA Workspace
+title: Create a Lucidchart diagram for a business capability
 description: Create a diagram in Lucidchart for your business capability maps and associate it with an architectural artifact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-lucid-diagram-cap.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage business capabilities, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create a Lucidchart diagram for a business capability in the EA Workspace
+# Create a Lucidchart diagram for a business capability
 
 Create a diagram in Lucidchart for your business capability maps and associate it with an architectural artifact.
 
@@ -22,7 +22,7 @@ Ensure the following ServiceNow Store applications are installed:
 -   Lucidchart Integration \[sn\_lcdchart\_int\] \(v 2.3.0\)
 -   Personal Authentication \[sn\_ihub\_personal\_auth\] \(v 27.0.0\)
 
-Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 
 Role required: sn\_apm.apm\_analyst
 

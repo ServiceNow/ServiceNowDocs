@@ -33,6 +33,6 @@ Here's the high-level process for creating a custom usage scenario.
 
 For more information, see
 
--   [Predictive Intelligence REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/agent-intelligence-api.md)
+-   [Predictive Intelligence REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agent-intelligence-api.md)
 -   [MLSolutionFactory - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md)
 

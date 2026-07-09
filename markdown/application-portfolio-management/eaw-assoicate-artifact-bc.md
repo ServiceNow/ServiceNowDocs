@@ -1,5 +1,5 @@
 ---
-title: Manage architectural artifacts of a business capability in EA Workspace
+title: Manage architectural artifacts of a business capability
 description: You can create new, add, or remove the artifacts that are associated with a business capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-assoicate-artifact-bc.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage business capabilities, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Manage architectural artifacts of a business capability in EA Workspace
+# Manage architectural artifacts of a business capability
 
 You can create new, add, or remove the artifacts that are associated with a business capability.
 

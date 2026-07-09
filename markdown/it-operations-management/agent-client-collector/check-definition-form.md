@@ -7,8 +7,8 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
@@ -90,14 +90,6 @@ Command
 
 </td></tr><tr><td>
 
-Configuration Data Files
-
-</td><td>
-
-Select the configuration data files to be downloaded when the check runs.
-
-</td></tr><tr><td>
-
 Description
 
 </td><td>
@@ -123,13 +115,41 @@ When upgrading to version 2.9.0, if this field is read-only, ensure that you dis
 
 </td></tr><tr><td>
 
+Interval-based scheduling
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
 Interval
 
 </td><td>
 
 The amount of time, in seconds, to wait between check executions.For example, a value of 60 means that the check runs every 60 seconds.
 
- Specified value must be an integer.
+Specified value must be an integer.
+
+</td></tr><tr><td>
+
+Cron-based scheduling
+
+</td><td>
+
+In the **How to send the check results** field, select the frequency with which check results are to be sent.-   When event severity changes \(default for event checks\)
+-   Always send check results \(default for non-event checks\)
+-   Do not send check results
+-   When the check results change
+-   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results are not sent.
+
+</td></tr><tr><td>
+
+When to send the check results
+
+</td><td>
+
+
 
 </td></tr><tr><td>
 

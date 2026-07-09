@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Customizing highlighted fields on prioritization page of Portfolio Planning workspace, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Customizing highlighted fields, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Modify Script Includes for Prioritization page in Portfolio Planning
@@ -40,7 +40,7 @@ Role required: admin
 
 ## What to do next
 
-[Create new highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
+[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
 
-**Parent Topic:**[Customizing highlighted fields on prioritization page of Portfolio Planning workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

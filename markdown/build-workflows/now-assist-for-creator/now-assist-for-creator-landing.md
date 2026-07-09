@@ -24,15 +24,15 @@ Now Assist for Creator includes generative AI skills that can make developing on
 
 </td><td>
 
-[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-now-assist-app-gen-landing.md)
 
 </td><td>
 
-[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-now-assist-app-summarize-landing.md)
 
 </td></tr><tr><td>
 
-[Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+[Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-for-catalog-generation.md)
 
 </td><td>
 
@@ -60,11 +60,11 @@ Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate rec
 
 </td><td>
 
-[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/now-assist.md)
+[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/now-assist.md)
 
 </td><td>
 
-[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)
+[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-bot-generation.md)
 
 </td></tr><tr><td>
 
@@ -72,11 +72,11 @@ Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate rec
 
 </td><td>
 
-[Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/test-generation/test-generation-intro.md)
+[Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/test-generation-intro.md)
 
 </td><td>
 
-[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/ui-generation-landing.md)
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-generation-landing.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -102,7 +102,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

@@ -34,15 +34,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d78601e109">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d102928e109">
 
 Choice
 
-</th><th align="left" id="d78601e112">
+</th><th align="left" id="d102928e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78601e118">
+</th></tr></thead><tbody><tr><td id="d102928e118">
 
 **Work with content of the whole page**
 
@@ -58,7 +58,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d78601e166">
+</td></tr><tr><td id="d102928e166">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
@@ -72,9 +72,9 @@ Some examples are:
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-\[Omitted image "na-inline-open-text.png"\] Alt text: Example of a Now Assist inline prompt for selected content on the page.
+\[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d78601e211">
+</td></tr><tr><td id="d102928e211">
 
 **Take assistance on a blank page.**
 
@@ -89,7 +89,7 @@ Some examples are:
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-\[Omitted image "na-blank-page-nacm.png"\] Alt text: Example of creating first draft for a page using Now Assist.
+\[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
 
 </td></tr></tbody>
 </table>    Now Assist analyzes the text and generates an output in a separate pop-up.

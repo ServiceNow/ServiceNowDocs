@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## About this task
 
-Create a quote PDF document 
+\[Omitted video\] Description: Create a quote PDF document
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Create a quote PDF document
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d24261e107">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d24883e107">
 
 **Document template**
 
@@ -40,7 +40,7 @@ Create a quote PDF document
 
 A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d24261e126">
+</td></tr><tr><td id="d24883e126">
 
 **External signer**
 
@@ -48,7 +48,7 @@ A document template is required to create a quote document PDF. A standardized t
 
 Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d24261e153">
+</td></tr><tr><td id="d24883e153">
 
 **Internal signer**
 

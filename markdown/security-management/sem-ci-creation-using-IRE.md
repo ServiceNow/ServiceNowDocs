@@ -87,7 +87,7 @@ Starting with Vulnerability Response v20.0, you can categorize the unmatched clo
 **Related topics**  
 
 
-[CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)
+[CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models.md)
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md)
+[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ire.md)
 

@@ -22,7 +22,7 @@ Role required: admin
 
 Currently, mobile instances can only accommodate one published theme at a time.
 
-If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mab-concept.md). Any themes that are created using Theme Builder are available for publishing in [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mab-concept.md).
+If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md). Any themes that are created using Theme Builder are available for publishing in [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ If you want to publish a theme to specific mobile applications, you can use [Mob
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d30923e118">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d113148e118">
 
 Option
 
-</th><th align="left" id="d30923e121">
+</th><th align="left" id="d113148e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d30923e127">
+</th></tr></thead><tbody><tr><td id="d113148e127">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -56,7 +56,7 @@ From the Unpublished section, select the More actions \(\[Omitted image "tb-more
 
 **Note:** A confirmation dialog box appears.\[Omitted image "tb-test-theme-dialog-box.png"\] Alt text: Publish the theme dialog box.
 
-</td></tr><tr><td id="d30923e155">
+</td></tr><tr><td id="d113148e155">
 
 **Publish using the List view drag-and-drop feature**
 
@@ -91,7 +91,7 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
     **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can’t be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
 
-    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mab-concept.md).
+    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md).
 
 
 -   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-the-default-theme.md)**  

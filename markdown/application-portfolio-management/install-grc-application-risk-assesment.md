@@ -1,24 +1,24 @@
 ---
-title: Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance
-description: Install Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance from the ServiceNow Store.
+title: Install Enterprise Architecture GRC integrations
+description: Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/install-grc-application-risk-assesment.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Integrate, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance
+# Install Enterprise Architecture GRC integrations
 
-Install Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance from the ServiceNow Store.
+Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance from the ServiceNow Store.
 
 ## Before you begin
 
 Role required: admin
 
-Before installing Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md) topic.
+Before installing Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/download-grc-first-time.md) topic.
 
 ## About this task
 
@@ -26,8 +26,8 @@ Activate the following plugins:
 
 |Name|Description|
 |----|-----------|
-|Application Portfolio Management integration with Risk Management \(com.snc.apm\_risk\_assessment\)|Activates the Application Portfolio Management integration with the GRC Risk Management plugin.|
-|Application Portfolio Management integration with Policy and Compliance \(com.snc.apm\_control\_management\)|Activates the Application Portfolio Management integration with the GRC Controls plugin.|
+|Enterprise Architecture integration with Risk Management \(com.snc.apm\_risk\_assessment\)|Activates the Enterprise Architecture integration with the GRC Risk Management plugin.|
+|Enterprise Architecture integration with Policy and Compliance \(com.snc.apm\_control\_management\)|Activates the Enterprise Architecture integration with the GRC Controls plugin.|
 
 ## Procedure
 

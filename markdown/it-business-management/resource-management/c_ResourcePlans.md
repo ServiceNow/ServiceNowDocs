@@ -18,7 +18,7 @@ Resource plans are the key element in resource management.
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Resource requesters, such as project managers, [create resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) to ask for resources, track effort, and track costs. Resource managers modify and approve resource plans before the plans are used.
 
@@ -175,7 +175,7 @@ As a resource manager, you can confirm or block the resources after a resource p
 After the resource plan is requested, as a resource manager, you can directly allocate the resources. To confirm and allocate, the resource plan must be in the Requested state.
 -   **[Request a change to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md)**  
 Request a change to the resource plan to modify a resource plan after you’ve submitted it for review.
--   **[Recalculate costs of a resource plan of a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md)**  
+-   **[Recalculate costs of a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md)**  
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 -   **[Update cost plan related to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_UpdateRelatedCostPlan.md)**  
 If a resource plan is associated to a project, project task, or demand and has a related cost plan, then a requester or a resource manager can update the related cost plan after updating the resource plan.

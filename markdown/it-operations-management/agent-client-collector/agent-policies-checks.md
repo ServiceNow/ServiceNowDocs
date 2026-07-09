@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 36
+reading_time_minutes: 35
 breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---
 
@@ -479,7 +479,7 @@ os.windows.check-system-patch
 
 </td><td>
 
-Verifies system patch installation. Returns either a **WARNING** or **OK** value.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Verifies system patch installation. Returns either a **WARNING** or **OK** value.
 
 </td></tr><tr><td>
 
@@ -527,7 +527,7 @@ os.windows.check-windows-pagefile
 
 </td><td>
 
-Collects page file usage and compares it to the Warning and Critical thresholds.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Collects page file usage and compares it to the Warning and Critical thresholds.
 
 </td></tr><tr><td>
 
@@ -539,7 +539,7 @@ os.windows.check-windows-process
 
 </td><td>
 
-Checks if a user input process is running.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Checks if a user input process is running.
 
 </td></tr><tr><td>
 
@@ -565,7 +565,7 @@ os.windows.metrics-process-status
 
 </td><td>
 
-Retrieves the number of running instances, the percentage of CPU utilization, and the memory usage \(in kilobytes\) of the specified Windows process.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Retrieves the number of running instances, the percentage of CPU utilization, and the memory usage \(in kilobytes\) of the specified Windows process.
 
 </td></tr><tr><td>
 
@@ -601,7 +601,7 @@ os.windows.metrics-system-disk-usage
 
 </td><td>
 
-Collects disk usage metrics.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Collects disk usage metrics.
 
 </td></tr><tr><td>
 
@@ -613,7 +613,7 @@ os.windows.metrics-system-memory-percent
 
 </td><td>
 
-Collects RAM usage per second, providing free physical, free virtual, total physical and total virtual memory percentage.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Collects RAM usage per second, providing free physical, free virtual, total physical and total virtual memory percentage.
 
 </td></tr><tr><td>
 
@@ -1364,13 +1364,78 @@ Creates a formatted metric for the length of a MySQL query result set.
 |Event|app.mongodb.check-mongodb-metrics|Creates alerts for any of the MongoDB metrics, based on the threshold limit.| |
 |Metric|app.mongodb.metrics-mongodb|Returns metrics of the MongoDB server and all databases.| |
 
-|Type|Event/Metric|Description|Minimum version|
-|----|------------|-----------|---------------|
-|Event|app.oracle.check-oracle-alive|Checks if the Oracle database is running.|12c, 18c|
-|Metric|app.oracle.metrics-oracle|Returns Oracle database metrics.|12c, 18c|
-|Metric|util.metrics-oracle-query|Generic Oracle query class that accepts a query and dumps metrics.|12c, 18c|
+<table id="table_sd5_ccz_dkb"><thead><tr><th>
 
-<table id="table_wjj_pcz_dkb"><thead><tr><th>
+Type
+
+</th><th>
+
+Event/Metric
+
+</th><th>
+
+Description
+
+</th><th>
+
+Minimum version
+
+</th></tr></thead><tbody><tr><td>
+
+Event
+
+</td><td>
+
+app.oracle.check-oracle-alive
+
+</td><td>
+
+Checks if the Oracle database is running.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION database privilege is activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr><tr><td>
+
+Metric
+
+</td><td>
+
+app.oracle.metrics-oracle
+
+</td><td>
+
+Returns Oracle database metrics.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION and SELECT database privileges are activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr><tr><td>
+
+Metric
+
+</td><td>
+
+util.metrics-oracle-query
+
+</td><td>
+
+Generic Oracle query class that accepts a query and dumps metrics.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION and SELECT database privileges are activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr></tbody>
+</table><table id="table_wjj_pcz_dkb"><thead><tr><th>
 
 Type
 
@@ -1462,40 +1527,11 @@ Collects Windows service status, providing metric of number of services running.
 |Metric|zscaler-monitoring-check|Verifies whether the Zscaler app is running properly.|
 |Metric|zscaler-remediation-check|Shuts down and restarts the Zscaler app, and creates an incident. Runs only when the zscaler-monitoring-check fails.|
 
-<table id="table_wfb_gkh_twb"><thead><tr><th>
+|Type|Event/Metric|Description|Command|
+|----|------------|-----------|-------|
+|Metric|os.windows.metrics-system-cpu|Collects CPU core metrics.|`winchecks metric-windows-cpu --scheme hostname.proc`|
 
-Type
-
-</th><th>
-
-Event/Metric
-
-</th><th>
-
-Description
-
-</th><th>
-
-Command
-
-</th></tr></thead><tbody><tr><td>
-
-Metric
-
-</td><td>
-
-os.windows.metrics-system-cpu
-
-</td><td>
-
-Collects CPU core metrics.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks metric-windows-cpu --scheme hostname.proc`
-
-</td></tr></tbody>
-</table>|Event/Metric|Description|Command|
+|Event/Metric|Description|Command|
 |------------|-----------|-------|
 |os.linux.check-disk-ioTimeWeighted|Measures the `disk ioTimeWeighted` value, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-disk-ioTimeWeighted.rb`|
 |os.linux.check-disk-sectorsWritten|Measures the total number of sectors written successfully, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-disk-sectorsWritten.rb`|
@@ -1509,68 +1545,14 @@ Collects CPU core metrics.If the Windows server in use does not support Windows 
 |os.linux.check-disk-ioInProgress|Measures the `disk ioInProgress` value, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-disk-ioInProgress.rb`|
 |os.linux.check-disk-iotime|Measures the `disk ioTime` value, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-disk-ioTime.rb`|
 
-<table id="table_xsr_1zg_twb"><thead><tr><th>
+|Event/Metric|Description|Command|
+|------------|-----------|-------|
+|os.windows.check-disk-AvgSecWrite|Measures average disk writes per second, returning a **CRITICAL\\WARNING\\OK** message, according to the specified in the parameters.|`winchecks check-windows-AvgDisksec-write -w 1 -c 0`|
+|os.windows.check-disk-ReadBytes-sec|Measures the `disk ReadBytes` value per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`winchecks check-windows-DiskReadBytes-sec -w 1 -c 0`|
+|os.windows.check-disk-WriteBytes-sec|Measures the `disk WriteBytes` value per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`winchecks check-windows-DiskWriteBytes-sec -w 1 -c 0`|
+|os.windows.check-disk-AvgSecRead|Measures the average disk reads per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`winchecks check-windows-AvgDisksec-read -w 1 -c 0`|
 
-Event/Metric
-
-</th><th>
-
-Description
-
-</th><th>
-
-Command
-
-</th></tr></thead><tbody><tr><td>
-
-os.windows.check-disk-AvgSecWrite
-
-</td><td>
-
-Measures average disk writes per second, returning a **CRITICAL\\WARNING\\OK** message, according to the specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-AvgDisksec-write -w 1 -c 0`
-
-</td></tr><tr><td>
-
-os.windows.check-disk-ReadBytes-sec
-
-</td><td>
-
-Measures the `disk ReadBytes` value per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-DiskReadBytes-sec -w 1 -c 0`
-
-</td></tr><tr><td>
-
-os.windows.check-disk-WriteBytes-sec
-
-</td><td>
-
-Measures the `disk WriteBytes` value per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-DiskWriteBytes-sec -w 1 -c 0`
-
-</td></tr><tr><td>
-
-os.windows.check-disk-AvgSecRead
-
-</td><td>
-
-Measures the average disk reads per second, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-AvgDisksec-read -w 1 -c 0`
-
-</td></tr></tbody>
-</table><table id="table_ksf_ndh_twb"><thead><tr><th>
+<table id="table_ksf_ndh_twb"><thead><tr><th>
 
 Event/Metric
 
@@ -1592,8 +1574,6 @@ Collects the following disk metrics:-   AvgDiskSecPerRead
 -   AvgDiskSecPerWrite
 -   DiskReadBytesPerSec
 -   DiskWriteBytesPerSec
-
-If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
 
 </td><td>
 
@@ -1658,7 +1638,7 @@ os.windows.check-free-physical-memory
 
 </td><td>
 
-Measures the free physical memory percentage of the Windows system, returning a **CRITICAL\\WARNING\\OK** event message, according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Measures the free physical memory percentage of the Windows system, returning a **CRITICAL\\WARNING\\OK** event message, according to the thresholds specified in the parameters.
 
 </td><td>
 
@@ -1674,7 +1654,7 @@ os.windows.check-free-virtual-memory
 
 </td><td>
 
-Measures the free virtual memory percentage of the Windows system, returning a **CRITICAL\\WARNING\\OK** event message, according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
+Measures the free virtual memory percentage of the Windows system, returning a **CRITICAL\\WARNING\\OK** event message, according to the thresholds specified in the parameters.
 
 </td><td>
 
@@ -1702,120 +1682,16 @@ Collects the following memory metrics:-   FreePhysicalMemory
 `winchecks metric-windows-memory --scheme hostname.proc`
 
 </td></tr></tbody>
-</table><table id="table_u4h_1lh_twb"><thead><tr><th>
+</table>|Type|Event/Metric|Description|Command|
+|----|------------|-----------|-------|
+|Event \(Linux\)|os.linux.check-process-cpu|Measures the Linux process CPU usage, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-process-cpu.rb -p acc -c 95 -w 85`|
+|Event \(Linux\)|os.linux.check-process-memory|Measures the Linux process memory usage, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.|`check-process-memory.rb -p acc -c 95 -w 85`|
+|Metric \(Linux\)|os.linux.metrics-process-usage|Collects the Linux process status, including the CPU and memory data used by the process.|`metrics-process-usage.rb -p acc -s hostname.proc`|
+|Event \(Windows\)|os.windows.check-process-cpu|Measures the Windows process CPU usage, returning a **CRITICAL\\WARNING\\OK** message according to the thresholds specified in the parameters.|`winchecks check-windows-process-cpu-p acc -c 95 -w 85`|
+|Event \(Windows\)|os.windows.check-process-memory|Measures the Windows process memory usage, returning a **CRITICAL\\WARNING\\OK** message according to the thresholds specified in the parameters.|`winchecks check-windows-process-memory-p acc -c 95 -w 85`|
+|Metric \(Windows\)|os.windows.metrics-process-usage|Collects the Windows process status, including the CPU and memory data used by the process.|`winchecks metric-windows-process-status -n Svchost -s hostname.proc`|
 
-Type
-
-</th><th>
-
-Event/Metric
-
-</th><th>
-
-Description
-
-</th><th>
-
-Command
-
-</th></tr></thead><tbody><tr><td>
-
-Event \(Linux\)
-
-</td><td>
-
-os.linux.check-process-cpu
-
-</td><td>
-
-Measures the Linux process CPU usage, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.
-
-</td><td>
-
-`check-process-cpu.rb -p acc -c 95 -w 85`
-
-</td></tr><tr><td>
-
-Event \(Linux\)
-
-</td><td>
-
-os.linux.check-process-memory
-
-</td><td>
-
-Measures the Linux process memory usage, returning a **CRITICAL\\WARNING\\OK** message, according to the thresholds specified in the parameters.
-
-</td><td>
-
-`check-process-memory.rb -p acc -c 95 -w 85`
-
-</td></tr><tr><td>
-
-Metric \(Linux\)
-
-</td><td>
-
-os.linux.metrics-process-usage
-
-</td><td>
-
-Collects the Linux process status, including the CPU and memory data used by the process.
-
-</td><td>
-
-`metrics-process-usage.rb -p acc -s hostname.proc`
-
-</td></tr><tr><td>
-
-Event \(Windows\)
-
-</td><td>
-
-os.windows.check-process-cpu
-
-</td><td>
-
-Measures the Windows process CPU usage, returning a **CRITICAL\\WARNING\\OK** message according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-process-cpu-p acc -c 95 -w 85`
-
-</td></tr><tr><td>
-
-Event \(Windows\)
-
-</td><td>
-
-os.windows.check-process-memory
-
-</td><td>
-
-Measures the Windows process memory usage, returning a **CRITICAL\\WARNING\\OK** message according to the thresholds specified in the parameters.If the Windows server in use does not support Windows Management Instrumentation Command-line \(WMIC\), this check does not run.
-
-</td><td>
-
-`winchecks check-windows-process-memory-p acc -c 95 -w 85`
-
-</td></tr><tr><td>
-
-Metric \(Windows\)
-
-</td><td>
-
-os.windows.metrics-process-usage
-
-</td><td>
-
-Collects the Windows process status, including the CPU and memory data used by the process.
-
-</td><td>
-
-`winchecks metric-windows-process-status -n Svchost -s hostname.proc`
-
-</td></tr></tbody>
-</table>## Supported Agent policies
+## Supported Agent policies
 
 This table lists the supported Agent Client Collector for Monitoring policies that the check definitions are associated with. The policies consist of the monitored CIs and the checks that run on them.
 
@@ -1904,7 +1780,7 @@ Monitors Azure databases on an Azure datacenter.To enable the policy's checks:
 
 The default monitored CI Type is cmdb\_ci\_azure\_datacenter, but the binding occurs on the Cloud Database \(cmdb\_ci\_cloud\_database\).
 
-For details on configuring a policy, see [Create a new Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/create-edit-policies.md).
+For details on configuring a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/create-edit-policies.md).
 
 </td><td>
 

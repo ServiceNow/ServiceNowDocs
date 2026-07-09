@@ -42,7 +42,7 @@ You can allocate the licenses to users or devices. If no one needs the unallocat
 **Related topics**  
 
 
-[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/c_StockRules.md)
+[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_StockRules.md)
 
-[Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/hardware-asset-management/t_CreateAStockRule.md)
+[Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_CreateAStockRule.md)
 

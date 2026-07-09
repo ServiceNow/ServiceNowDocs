@@ -1,5 +1,5 @@
 ---
-title: Associate or update the primary goal or target for a planning item
+title: Associate or update the primary goal for a planning item
 description: Associate a primary goal or target for the planning items where the items contribute to achieving the goal or target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Associate or update the primary goal or target for a planning item
+# Associate or update the primary goal for a planning item
 
 Associate a primary goal or target for the planning items where the items contribute to achieving the goal or target.
 
@@ -37,15 +37,15 @@ After you associate planning items with goals or targets, you can check these re
 
 1.  Open the required planning item form using one of the following options.
 
-<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d169983e106">
+<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d178864e115">
 
 Option
 
-</th><th align="left" id="d169983e109">
+</th><th align="left" id="d178864e118">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d169983e115">
+</th></tr></thead><tbody><tr><td id="d178864e124">
 
 **From the Portfolio Plans tab**
 
@@ -54,22 +54,23 @@ Navigation
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
 2.  From the list of portfolio plans, select the required portfolio plan that the planning item belongs to.
 3.  Select **Planning**.
-4.  Select **Prioritization** or **Roadmap** tab.
+4.  Select the **Prioritization**, **Roadmap**, or **Hierarchy** tab.
 5.  Select a planning item that you want to associate or update the primary goal or target with.
 
 The side panel opens with the **Details** tab.
 
 Alternatively, you can select **Full details** and open the item's record page. Select the **Details** tab from the record page.
 
-</td></tr><tr><td id="d169983e177">
+</td></tr><tr><td id="d178864e189">
 
 **From the Free-form Roadmaps tab**
 
 </td><td>
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
-2.  From the list of roadmaps, select the required roadmap that the planning item belongs to.
-3.  Select a planning item that you want to associate or update the primary goal or target with.
+2.  On the Portfolio Planning page, select **Free-form Roadmaps**.
+3.  From the list of roadmaps, select the required roadmap that the planning item belongs to.
+4.  Select a planning item that you want to associate or update the primary goal or target with.
 
 The side pane opens with the **Details** tab.
 

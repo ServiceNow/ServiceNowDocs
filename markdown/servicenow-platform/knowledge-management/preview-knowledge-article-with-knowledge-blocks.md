@@ -1,20 +1,20 @@
 ---
 title: Preview a knowledge article with knowledge blocks
-description: Preview a knowledge article with knowledge blocks by user or, if published, by date. For an unpublished article, you can preview the article by user by impersonating different users to see how the article displays or hides block content \(based on the user criteria set at the knowledge base and knowledge block level\). For published articles, you can preview the article by both user and date to see how the article appears in past versions for different users.
+description: Preview knowledge articles by user or date. For unpublished articles, impersonate different users to see how blocks display based on user criteria. For published articles, preview by user and date to see past versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/preview-knowledge-article-with-knowledge-blocks.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Preview a knowledge article with knowledge blocks
 
-Preview a knowledge article with knowledge blocks by user or, if published, by date. For an unpublished article, you can preview the article by user by impersonating different users to see how the article displays or hides block content \(based on the user criteria set at the knowledge base and knowledge block level\). For published articles, you can preview the article by both user and date to see how the article appears in past versions for different users.
+Preview knowledge articles by user or date. For unpublished articles, impersonate different users to see how blocks display based on user criteria. For published articles, preview by user and date to see past versions.
 
 ## Before you begin
 
@@ -28,19 +28,17 @@ Role required: user must have contributor access to the knowledge base.
 
 3.  In the **Related Links** section, click **Preview Article with Blocks**.
 
-    \[Omitted image "knowledge-blocks-preview-article-with-blocks.png"\] Alt text: Preview article with knowledge blocks.
-
 4.  Preview the article as one of the following.
 
-<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d137450e104">
+<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d142529e92">
 
 Option
 
-</th><th align="left" id="d137450e107">
+</th><th align="left" id="d142529e95">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d137450e113">
+</th></tr></thead><tbody><tr><td id="d142529e101">
 
 **Unpublished article**
 
@@ -48,7 +46,7 @@ Details
 
 Preview the article by user. In the **View As** field, you can search for and impersonate different users to see how the article appears based on the can and cannot read access of the user.
 
-</td></tr><tr><td id="d137450e125">
+</td></tr><tr><td id="d142529e113">
 
 **Published article**
 

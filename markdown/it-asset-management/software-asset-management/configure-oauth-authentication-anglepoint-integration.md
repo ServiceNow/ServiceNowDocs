@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring the API authentication method for the Anglepoint integration, Creating a connection for the Anglepoint integration, Authorized SAM Provider \(ASP\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Configuring the API authentication method for the Anglepoint integration, Creating a connection for the Anglepoint integration, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # Configure OAuth 2.0 authentication for the Anglepoint integration
@@ -26,7 +26,7 @@ Role required: admin
 
     The Anglepoint Elevate platform uses the OAuth API endpoint to request the OAuth tokens that authorize access to the Anglepoint integration resources on your ServiceNow instance.
 
-    Refer to [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md) for instructions on how to create an OAuth API endpoint.
+    Refer to [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_CreateEndpointforExternalClients.md) for instructions on how to create an OAuth API endpoint.
 
     **Important:** After you successfully create an OAuth API endpoint, copy the values in the **Client ID** and **Client Secret** fields. Save them in a secure location for later use.
 

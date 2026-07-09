@@ -17,7 +17,7 @@ breadcrumb: [Using Sourcing Pipeline Management, Using Sourcing and Procurement 
 
 Create a pipeline project manually to record project details that aren’t automatically generated through an intake request.
 
-Describes a procedure to create a pipeline manually in the Source-to-Pay Workspace. 
+\[Omitted video\] Description: Describes a procedure to create a pipeline manually in the Source-to-Pay Workspace.
 
 ## Before you begin
 

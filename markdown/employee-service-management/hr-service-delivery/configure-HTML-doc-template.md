@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
 ---
 
@@ -19,6 +19,10 @@ Create or modify the document template with your unique company logo and audienc
 ## Before you begin
 
 Role required: sn\_hr\_core.admin and Delegated developer
+
+## About this task
+
+\[Omitted video\] Description: Configure an HTML document template
 
 ## Procedure
 
@@ -86,7 +90,7 @@ Use the formatting tools in the **Body** to apply formatting options, such as bo
 
 -   Jelly and CSS Styling are not supported.
 -   You can also use [Document template scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/document-template-scripts.md) to dynamically change the text in the HTML body.
-
+**Note:** When the **Sanitize** option is enabled, final HTML generated after token replacement \(field tokens, document template scripts, template blocks, and similar elements\) is sanitized. Always enable the **Sanitize** option to secure your HTML templates.
 
 </td></tr><tr><td>
 
@@ -117,6 +121,21 @@ Format in which you want the date to appear when an agent previews the document,
 -   When signing using a ServiceNow application or the AdobeSign application: If no value is selected in **Template date format**, the value specified in the **template\_date\_format** system property is considered. If both **Template date format** and **template\_date\_format** system property are empty, the value in the Date format field from the agent's user profile is considered.
 -   When signing using a DocuSign application: The date format selected in Signing settings in the DocuSign application is considered over **Template date format** in the configured HTML template in a ServiceNow instance.
 
+
+</td></tr><tr><td>
+
+Sanitize
+
+</td><td>
+
+Option to remove potentially unsafe HTML from template-generated content. The **Sanitize** option is hidden by default; users with the `sn_doc.admin` role can access by selecting the Advanced View in Related Links.-   For new HTML templates: The Sanitize option is enabled by default.
+-   For existing HTML document templates: The **Sanitize** option is inactive by default. Enabling sanitization on existing templates may remove some HTML content from the output. Review your templates before enabling this option to verify no critical information is lost.
+
+**Note:** Always enable the Sanitize option to secure your HTML templates.
+
+The sanitization happens using the default HTML sanitizer. See [Exploring HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/exploring.md-sanitizer.md) for more details.
+
+By default, the HTML sanitizer works by checking the built-in inclusion list for HTML markup. To make configuration changes \(including or excluding HTML attributes or elements\) to the HTML sanitizer, see [Configuring HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_ConfigureHTMLSanitizer.md).
 
 </td></tr><tr><td>
 

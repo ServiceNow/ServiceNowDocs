@@ -20,6 +20,10 @@ Configure the data displayed in donuts in the **Overview** section of the tier 2
 
 Role required: admin
 
+## About this task
+
+You can customize the header label, data source, metric, group by field, `viewAllQuery`and `roles` for each donuts. The `roles` property is required and controls which users can view each donut.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview**.
@@ -102,7 +106,7 @@ Role required: admin
     
     ```
 
-
+    **Important:** The `roles` property is required in each donut configuration object. It accepts an array of role name strings and controls which users can view the donut. Omitting `roles` or providing an empty array makes the donut visible to all users regardless of their role.
 
     Add below snippet object to add Catalog Tasks donut to tier2 landing page.
 

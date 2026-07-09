@@ -57,7 +57,7 @@ The current release includes these external content connectors:
 
 Connector administrators can schedule content and user permission crawls to suit your indexing requirements. If the need arises, connector administrators can also run either type of crawl on demand.
 
-**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/use-the-integration-hub-usage-dashboard.md).
+**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/use-the-integration-hub-usage-dashboard.md).
 
 Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexed-sources-ais.md).
 
@@ -103,7 +103,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 ## Interaction with Now Assist Genius Results
 
-If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Now Assist Multi-Content Response Genius Result answers. This includes answers generated for in Now Assist in Virtual Agent chat.
+If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Now Assist Multi-Content Response Genius Result answers. This includes answers generated in Now Assist in Virtual Agent chat.
 
 External content search results are ignored when generating Now Assist Q&amp;A or Now Assist Actions Genius Result answers.
 

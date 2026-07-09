@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility, CNO for Visibility]
-breadcrumb: [Using Agent Client Collector for Visibility - Content, Agent Client Collector for Visibility - Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Cloud Native Operations for Visibility
@@ -19,5 +19,5 @@ Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed K
 
 For the Kubernetes Visibility Agent documentation, see [Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/acc-kubernetes-visibility-landing-page.md).
 
-**Parent Topic:**[Using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

@@ -43,7 +43,7 @@ Role required: sn\_apm.apm\_analyst
 **Related topics**  
 
 
-[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/c_GenerateReports.md)
+[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_GenerateReports.md)
 
-[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-and-edit-dashboards.md)
 

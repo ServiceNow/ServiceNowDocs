@@ -18,7 +18,7 @@ Enable dispatchers to be a member of different user groups so they can efficient
 
 Role required: admin
 
-Configuring user groups 
+\[Omitted video\] Description: Configuring user groups
 
 ## About this task
 

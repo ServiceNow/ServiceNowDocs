@@ -1,0 +1,613 @@
+---
+title: Combined Supplier Lifecycle Operations release notes for upgrades from Washington DC to Yokohama
+description: Consolidated page of all release notes for Supplier Lifecycle Operations from Washington DC to Yokohama.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-supplierlifecycleoperations-release-notes.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-07-09"
+reading_time_minutes: 15
+breadcrumb: [Products combined by family]
+---
+
+# Combined Supplier Lifecycle Operations release notes for upgrades from Washington DC to Yokohama
+
+Consolidated page of all release notes for Supplier Lifecycle Operations from Washington DC to Yokohama.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Supplier Lifecycle Operations release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Washington DC to Yokohama.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Supplier Lifecycle Operations to Yokohama
+
+Before you upgrade to Yokohama, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+After upgrading from the Vancouver release to the Washington DC release, you will see only the Source-to-Pay Workspace on the **All** navigation tab. You don't have to do anything if you choose to continue to use the Source-to-Pay Workspace.
+
+ However, you will see both the Source-to-Pay Workspace and Supplier Manager Workspace on the **Workspaces** tab. If you want to use the Supplier Manager Workspace instead of the default Source-to-Pay Workspace, ensure that you run the `fixscript_migrate_workspace_to_smw.xml` fix script after upgrading to the Washington DC release. You can download the `fixscript_migrate_workspace_to_smw.xml` file from the ServiceNow Store.
+
+ If you want to revert to using the Source-to-Pay Workspace, run the `fixscript_migrate_workspace_to_s2p.xml` fix script. You can download the `fixscript_migrate_workspace_to_smw.xml` file from the ServiceNow Store. For more information about how to run a fix script, see [Run fix scripts](https://www.servicenow.com/docs/access?context=t_RunFixScripts&family=washingtondc&ft:locale=en-US).
+
+ After you upgrade to Washington DC, you must review all the post-upgrade tasks and complete them as needed. For more information, see [Post-upgrade tasks for Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=post-upgrade-tasks-slo&family=washingtondc&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Yokohama, new features were introduced for Supplier Lifecycle Operations.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=washingtondc&ft:locale=en-US)**
+
+Introduced in-product assistance, also known as Help Center, for the landing, list, and analytics pages of Source-to-Pay Workspace.​ Select the Help Center icon \[Omitted image "image.help-icon"\] to access the help information directly from within your workspace.
+
+-   **[Offboard a supplier from the Procurement Workspace](https://www.servicenow.com/docs/access?context=offboard-supplier&family=washingtondc&ft:locale=en-US)**
+
+The supplier offboarding playbook has been introduced that enables you to do the following:
+
+    -   Create a supplier offboarding case to offboard a supplier.
+    -   Create a Due Diligence request if the GRC: Third-party Risk Due Diligence Request \[com.sn\_tprm\_onboarding\] plugin is installed.
+    -   Displays a list of pending supplier cases and tasks.
+    -   Ability to check contract and invoices.
+    -   Maintain communication with the internal stakeholders and the supplier throughout the offboarding process.
+-   **[Supplier Lifecycle Management integration framework](https://www.servicenow.com/docs/access?context=slo-int-framework&family=washingtondc&ft:locale=en-US)**
+
+The Supplier Lifecycle Operations \(SLO\) integration framework enables you to exchange supplier data with any third-party ERP system. The SLO integration framework facilitates inbound and outbound integration with third-party applications and ERP systems.
+
+-   **[Configure due dates for tasks](https://www.servicenow.com/docs/access?context=configure-task-due-date&family=washingtondc&ft:locale=en-US)**
+
+Configure due dates for different task types so that the **Due date** field is auto-populated when you create tasks.
+
+-   **[Complete a risk assessment from the Supplier Collaboration Portal](https://www.servicenow.com/docs/access?context=complete-risk-assessments&family=washingtondc&ft:locale=en-US)**
+
+View supplier risk assessment details from the My active items widget in the Supplier Collaboration Portal. In the My active items widget, the Risk Assessments tile shows assessments only if you've installed the Third-party Risk Management \[com.sn\_vdr\_risk\_asmt\] plugin. Select the **Risk Assessments** tile to open the Assessment Summary page, which displays a list of risk assessments for a supplier and for an engagement.
+
+-   **[View risk assessment details in Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=supp-ws-details-page&family=washingtondc&ft:locale=en-US)**
+
+A new **Risk** tab has been added on the Supplier record page in the Source-to-Pay Workspace. The Risk tab displays supplier risk assessment details, such as third-party name and process information, summary reports, risk intelligence scores, and tracking data for issues and tasks. The **Risk** tab is displayed only if you have installed the Third-party Risk Management \[com.sn\_vdr\_risk\_asmt\] and GRC: Vendor Risk Management Workspace \(com.sn\_vdr\_risk\_asmt\_workspace\) plugins.
+
+-   **[Assign tasks to internal users](https://www.servicenow.com/docs/access?context=create-new-task-for-supp-case&family=washingtondc&ft:locale=en-US)**
+
+Previously, tasks were only assigned to external users \(supplier contacts\). You can now assign tasks also to internal users. A new field **Task audience** has been added on the **Details** tab of the task to identify tasks as internal or external.
+
+-   **[Organization Tax Details table](https://www.servicenow.com/docs/access?context=installed-with-supp-mgmt&family=washingtondc&ft:locale=en-US)**
+
+A new table, Organization Tax Details \(sn\_fin\_org\_tax\_detail\) has been added that enables you to store multiple tax registration details for each individual supplier. This table has been added in the Finance Common Architecture \(com.sn\_fin\) plugin.
+
+-   **[Restructured Supplier Task table](https://www.servicenow.com/docs/access?context=supplier-task-table-restructure&family=washingtondc&ft:locale=en-US)**
+
+The Supplier Task table architecture has been restructured. Starting with the Washington DC release, the Supplier Task \[sn\_slm\_task\] table extends the Service Task \[sn\_spend\_sdc\_service\_task\] table.
+
+**Note:**
+
+You can experience a longer upgrade time if you’re upgrading from Vancouver or an older release to Washington DC or any latest release. This delay is due to a mandatory script that runs for restructuring the Supplier Task \[sn\_slm\_task\] table and the duration of upgrade depends on the number of records in this table.
+
+-   **[Risk Assessments for Supplier Lifecycle Operations plugin introduced](https://www.servicenow.com/docs/access?context=use-playbooks-onboard-supp&family=washingtondc&ft:locale=en-US)**
+
+A new plugin, Risk Assessments for Supplier Lifecycle Operations \(com.snc.sn\_supplier\_tprm\) has been added that provides an integration with third-party risk assessment application to conduct risk assessments when onboarding new suppliers using the Supplier onboarding playbook.
+
+-   **[Using the supplier onboarding playbook to onboard suppliers](https://www.servicenow.com/docs/access?context=use-playbooks-onboard-supp&family=washingtondc&ft:locale=en-US)**
+
+The Supplier onboarding playbook now includes a new Perform risk assessment playbook that triggers two different flows to conduct supplier risk assessments, depending on the plugins that you have installed:
+
+    -   If you have installed only the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin, the Perform risk assessment playbook triggers the flow that includes activities to verify the eligibility of the supplier by creating risk assessments.
+    -   If you have installed both the Risk Assessments for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence Request \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party or an engagement.
+-   **[Create a case on behalf of a supplier from the Procurement Workspace](https://www.servicenow.com/docs/access?context=create-new-supplier-case&family=washingtondc&ft:locale=en-US)**
+
+The supplier manager can create cases on behalf of suppliers in the Source-to-Pay Workspace.
+
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
+
+With the Now Assist for Supplier Lifecycle Operations \(SLO\) application, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
+
+-   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=xanadu&ft:locale=en-US)**
+    -   Manage supplier relationship and performance to optimize the value and quality of the products and services delivered by suppliers.
+    -   Establish clear expectations and criteria for measuring supplier performance, monitor and assess their performance against those criteria, provide feedback and recognition, and implement corrective actions and improvement plans when needed.
+-   **[Supplier Lifecycle Management integration framework](https://www.servicenow.com/docs/access?context=slo-int-framework&family=xanadu&ft:locale=en-US)**
+
+Exchange supplier data with any third-party ERP system using enhanced transform maps and inbound and outbound integration tables.
+
+-   **[View supplier details in the Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=supp-ws-details-page&family=xanadu&ft:locale=en-US)**
+    -   View supplier details such as contracts and supplier products in the Related Links section on the **About** tab of the Source-to-Pay Workspace supplier page.
+    -   View supplier details such as purchase orders and invoices on the **Related work** tab of the Source-to-Pay Workspace supplier page.
+-   **[View supplier details in the Supplier Collaboration Portal](https://www.servicenow.com/docs/access?context=supplier-central&family=xanadu&ft:locale=en-US)**
+
+View supplier details in the following tiles in the My active items widget:
+
+    -   Contracts
+    -   Supplier Products
+    -   Purchase Orders
+    -   Invoices
+**Note:** These new tiles are displayed if you have installed the Sourcing and Purchasing Automation \(com.snc.sn\_pr\) and Source-to-Pay Common Architecture \(com.snc.sn\_shop\) plugins.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Supplier Operations](https://www.servicenow.com/docs/access?context=supplier-operations&family=yokohama&ft:locale=en-US)**
+
+Supplier Operations ​ provides support for advanced case management capabilities to handle key supplier lifecycle events such as onboarding, offboarding, and ongoing operations. It includes the ability to resolve cases via Playbooks for a structured and consistent approach.
+
+-   **[Supplier Payment Optimization](https://www.servicenow.com/docs/access?context=supplier-pmnt-opt&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can identify, prioritize, and track suppliers with high potential for accepting credit card payments.
+
+    -   Supplier Managers can initiate credit card enablement cases, enabling suppliers to use a credit card as their preferred payment method.
+    -   They can initiate credit card enablement journey for new or existing suppliers after checking their propensity scores \(currently requires manual updates\).
+    -   They can view the saving estimates associated with the card for a given supplier using the **Savings calculator** tool. They can also view the calculation details of the savings estimator formulas.
+
+-   **[Relish Integration](https://www.servicenow.com/docs/access?context=relish-slo-connector&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can conduct sanction screening, validate banking details change requests, and supplier location change requests via Relish integration.
+
+-   **[Mapping multiple internal stakeholders to a supplier](https://www.servicenow.com/docs/access?context=manage-internal-stakeholders&family=yokohama&ft:locale=en-US)**
+
+This feature enhances supplier governance in SLO by enabling the mapping of multiple internal stakeholders such as legal, business, technical, and risk teams to suppliers, improving visibility and management of supplier relationships.
+
+-   **[Universal Request](https://www.servicenow.com/docs/access?context=universal-request&family=yokohama&ft:locale=en-US)**
+
+Supplier contacts can create generic cases by selecting **Request Help** in the Supplier Collaboration Portal, if they can't find the relevant search results or are unsure of which department to contact for help. These cases are triaged and routed internally to appropriate case types. Universal requests remove ambiguity and improve efficiency for both suppliers and internal operations.
+
+-   **[Overall supplier dashboard](https://www.servicenow.com/docs/access?context=overall-supplier-db&family=yokohama&ft:locale=en-US)**
+
+The overall supplier performance dashboard provides detailed information about overall supplier scores, count of all active suppliers, their all-time spend, and overall risk ratings. It also includes the Supplier Insights section and the Action plans section showing relevant details.
+
+
+-   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=yokohama&ft:locale=en-US)**
+    -   **Flexible KPI tracking**: Supplier managers can create KPIs directly without predefined templates, which results in simplified KPI creation, enabling faster and more efficient performance tracking.
+    -   **Enhanced KPI management**: Improved threshold setup, error messaging, and dashboard visualizations for KPI tracking.
+    -   **Multiple dimensions for KPI tracking**: Create supplier-level and contract-level KPIs using KPI templates to measure supplier performance. Contract-level KPIs are created under supplier-level KPIs. The overall KPI value of a supplier is calculated based on the latest aggregated values of all the related contract-level KPIs.
+    -   **Action Plans for under-performing KPIs**: Address performance gaps by creating Action Plans linked to the under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the Action Plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal, streamlining the overall KPI remediation process.
+    -   **Automated KPIs**: Enables automated data collection, KPI template modifications, and calculation at supplier and contract levels. The automated KPI system integrated into action plans can be used for comprehensive performance monitoring.
+-   **[Many-to-many \(M2M\) mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US)**
+    -   Supplier contacts can manage multiple supplier records under a single login, with the ability to toggle between records in the Supplier Collaboration Portal. One supplier contact can be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
+    -   M2M mapping between supplier contact and suppliers also enables supplier contacts to register using a company name across different email domains, thus simplifying onboarding for distributed supplier teams.
+    -   M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable this feature, see [Enable M2M mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US).
+
+-   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
+    -   View the summarized details of supply-related cases within the **Now Assist Panel** to keep the supplier managers and fulfillers informed about their progress and action items.
+    -   Case summarization supports multiple languages.
+-   **[Using agentic workflows in Now Assist for Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=agentic-workflows-na-slo&family=yokohama&ft:locale=en-US)**
+
+Use agentic workflows in Now Assist for Supplier Lifecycle Operations \(SLO\) to streamline the supplier onboarding process by automating supplier registration.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Yokohama, some changes were made to existing Supplier Lifecycle Operations features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   **[Case playbook for specific supplier case types](https://www.servicenow.com/docs/access?context=gen-playbook-cases&family=washingtondc&ft:locale=en-US)**
+
+The Case playbook has been updated to no longer include approval activities for completing the following supplier case types:
+
+    -   Supplier support request
+    -   General inquiry
+-   **[Playbook for updating the supplier primary data](https://www.servicenow.com/docs/access?context=primary-playbook-cases&family=washingtondc&ft:locale=en-US)**
+
+The Review supplier primary data playbook has been updated to no longer include approval activities for completing the following supplier case types:
+
+    -   Banking information change request
+    -   Supplier information change request
+    -   Supplier location change request
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Yokohama, some Supplier Lifecycle Operations features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Yokohama, some Supplier Lifecycle Operations features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   **[Procurement Workspace](https://www.servicenow.com/docs/access?context=supplier-manager-workspace&family=washingtondc&ft:locale=en-US)**
+
+Starting with the Washington DC release, Supplier Manager Workspace is being prepared for future deprecation. It will be hidden and no longer be activated on new instances but will continue to be supported. Source-to-Pay Workspace provides the latest experience for this functionality.
+
+-   **[Enable deprecated case types after upgrade](https://www.servicenow.com/docs/access?context=enable-deprecated-case-types&family=washingtondc&ft:locale=en-US)**
+
+The **Conduct a risk assessment** and **Conduct a tiering risk assessment** case types have been deprecated. However, you can enable both the case types for use after you upgrade to Washington DC. A new case type, Due diligence has been added that provides the functionality for conducting risk assessments.
+
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Procurement Workspace](https://www.servicenow.com/docs/access?context=supplier-manager-workspace&family=xanadu&ft:locale=en-US)**
+
+Starting with the Washington DC release, Supplier Manager Workspace is being prepared for future deprecation. It will be hidden and no longer be activated on new instances but will continue to be supported. Source-to-Pay Workspace provides the latest experience for this functionality.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Procurement Workspace](https://www.servicenow.com/docs/access?context=supplier-manager-workspace&family=yokohama&ft:locale=en-US)**
+
+Supplier Manager Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances. Source-to-Pay Workspace provides the latest experience for this functionality.
+
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Supplier Lifecycle Operations.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=washingtondc&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Supplier Lifecycle Operations we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Supplier Lifecycle Operations we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Supplier Lifecycle Operations, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Supplier Lifecycle Operations we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Supplier Lifecycle Operations we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   Supplier Lifecycle Operations uses the Source-to-Pay Workspace instead of the Supplier Manager Workspace.
+-   Complete the Case playbook and Review supplier primary data playbook without requiring to approve activities to complete the supplier cases.
+-   Onboard suppliers using the enhanced Supplier onboarding playbook that provides integration with Third-party Risk Management \(TPRM\) to conduct risk assessments when onboarding new suppliers.
+
+ See [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=washingtondc&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   View the summarized details of supply-related records to keep the supplier managers and fulfillers informed about their progress and action items.
+-   Manage supplier relationship and performance to optimize the value and quality of the products and services delivered by suppliers.
+-   Exchange supplier data accurately with external ERP systems using additional fields in the inbound and outbound tables.
+-   View supplier details such as supplier products, contracts, purchase orders, and invoices directly from the Source-to-Pay Workspace and the Supplier Collaboration Portal.
+-   Support for many-to-many \(M2M\) mapping between supplier contact and suppliers: A single supplier contact can be the contact for multiple suppliers, if the suppliers share a parent-subsidiary relationship. M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards.
+
+ See [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Advanced case management for supplier lifecycle events including onboarding, offboarding, and ongoing operations.
+-   Identify and prioritize suppliers for credit card payment adoption.
+-   Estimate card payment benefits using the savings calculator tool.
+-   Conduct sanction screening and validate banking details and supplier location change requests via Relish integration.
+-   Map multiple internal stakeholders \(legal, business, technical, risk teams\) to suppliers to improve visibility and governance of supplier relationships.
+-   Support for many-to-many \(M2M\) mapping between supplier contacts and suppliers. A single supplier contact can be the contact for multiple suppliers, if the suppliers share a parent-subsidiary relationship.
+-   Automated KPI templates for automated data collection, KPI template modifications, and calculations.
+-   KPI Management enhancements enable improved threshold setup, error messaging, and dashboard visualizations for KPI tracking.
+-   Support for self-registration for supplier contacts. They can register with a supplier company name, enabling multiple domains under a single supplier.
+
+ See [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+**Note:**
+
+You can experience a longer upgrade time if you’re upgrading from Vancouver or an older release to Washington DC or any latest release. This delay is due to a mandatory script that runs for restructuring the Supplier Task \[sn\_slm\_task\] table and the duration of upgrade depends on the number of records in this table.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-washingtondc-yokohama/rn-combined-intro.md)
+

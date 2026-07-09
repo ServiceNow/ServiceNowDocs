@@ -34,7 +34,7 @@ Create a change task to implement a controlled process for modifying approved an
 
 **Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Previous topic:**[Create an escalation trigger for an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)
+**Previous topic:**[Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)
 
 **Next topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-alerts-expresslist.md)
 

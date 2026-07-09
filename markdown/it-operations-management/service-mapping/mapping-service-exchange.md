@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Microsoft Exchange Server
+title: Application services with Microsoft Exchange Server
 description: Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.Map an application service containing an Microsoft Exchange Server and verify that Service Mapping discovered all Microsoft Exchange Server components correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/mapping-service-exchange.html
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Microsoft Exchange Server
+# Application services with Microsoft Exchange Server
 
 Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.
 
@@ -165,11 +165,11 @@ Map an application service containing an Microsoft Exchange Server and verify th
 
 ### Before you begin
 
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md). Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_WindowsCredentialsForm.md). Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
 
     **Note:** If you configure Windows credentials for a user different from the Microsoft Exchange Server administrator, Service Mapping uses traffic-based discovery that results in mapping all Microsoft Exchange clients.
 
--   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/applicative-creds.md), setting the CI type to Exchange Mailbox.
+-   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/applicative-creds.md), setting the CI type to Exchange Mailbox.
 
     **Warning:** Do not confuse the Exchange Mailbox CI type with the Exchange Mailbox Server CI type.
 
@@ -187,9 +187,9 @@ Map an application service containing an Microsoft Exchange Server and verify th
 -   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/upload-rctrlx-file.md).
 -   \(For Microsoft Exchange CAS 2007 and 2010\) Provide an Exchange Mailbox OS user with the rights to run Exchange services on Windows and has permission to query Exchange repository:
 
-    On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+    On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 -   Verify that you know the entry point necessary for discovering the Microsoft Exchange Server. Use the URL for the Outlook web access in the following format:
 
     `http(s)://<hostname>:<port>/owa`

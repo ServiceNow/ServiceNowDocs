@@ -18,6 +18,8 @@ Use event rules to generate alerts for tracking and remediation. Event rules are
 
 Event rules do not change the event records in the Event table. Changes to event data are stored in the ServiceNow instance memory.
 
+For a workspace-based interface for Event Management automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md).
+
 \[Omitted image "event-rule-designer.png"\] Alt text: Event Management rule
 
 Use the Event rule designer to create and configure event rules. You can use the default event rules or event rules that you have created to:

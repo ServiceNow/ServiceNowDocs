@@ -16,7 +16,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_bom.admin
 
@@ -32,15 +32,15 @@ Role required: sn\_bom.admin
 
     The imported data is now available in the new Import Set table.
 
-    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
+    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
-5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
+5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
     For information on target tables, see [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-banking-tables.md).
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see Run an import.
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_RunImport.md).
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

@@ -8,8 +8,8 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+reading_time_minutes: 4
+breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB classifications and class dependency
@@ -49,8 +49,12 @@ You can upgrade, downgrade, or switch the class of a CI by modifying its **Class
 You can use the CI Class Manager to delete CIs that are no longer needed.
 -   **[View and edit class definitions and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewTableDefinitions.md)**  
 Use the CI Class Manager as a central location to explore the CMDB class hierarchy, CI table definitions, and class CIs. View the details of each table such as its label and fields, relationships, and all related metadata definitions.
+-   **[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)**  
+A Principal Class is a designation for these CMDB classes that are most critical for foundational data health and governance in the organization. Those designated classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
 -   **[Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md)**  
-Manage the list of classes that are included in the Principal Class filter to restrict the CIs that appear in CIs list views to only specific classes that you need. You can add or remove CMDB classes from the Principal Class filter.
+Manage the list of classes in the Principal Class filter so that those classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
+
+**Parent Topic:**[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 
 **Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
 

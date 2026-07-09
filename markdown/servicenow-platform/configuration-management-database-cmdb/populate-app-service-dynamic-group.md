@@ -23,7 +23,7 @@ The Dynamic CI Group is one of several methods for populating an application ser
 **Note:**
 
 -   The number of CIs in an application service that is populated by the Dynamic CI Group method, is limited to 10,000, even if the associated CMDB group has more than 10,000 CIs.
--   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+-   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups]().
 -   A dynamic CI group contains CIs but can't contain other groups.
 
 For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
@@ -80,7 +80,7 @@ The alert impact on dynamic CI groups is calculated on the following CIs:
 -   Children of current CIs with a relationship of: **Runs on::Runs**
 -   CIs related to either the current CIs or their children, with a relationship of: **Virtualized by::Virtualizes**
 
-For more information, see [alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
+For more information, see [alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EMImpactCalculation.md).
 
 ## What to do next
 

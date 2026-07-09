@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-hierarchial-list-view-for-product-inventories.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
@@ -36,6 +36,6 @@ The hierarchical list view needs to be manually enabled via the UI builder for c
 
 5.  Use the controls to manage the product inventories.
 
-    To learn more about the controls, see [Use hierarchical list view for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/quote-management-view-hierarchical-line-items.md).
+    To learn more about the controls, see [Use hierarchical list view for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/quote-management-view-hierarchical-line-items.md).
 
 

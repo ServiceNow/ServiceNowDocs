@@ -22,7 +22,7 @@ Role required: resource\_manager
 
 ## Procedure
 
-1.  Navigate to **Resource** &gt; **Resource Plans** &gt; **All**.
+1.  Navigate to **All** &gt; **Resource** &gt; **Resource Plans** &gt; **All**.
 
 2.  Select a plan **Number**.
 

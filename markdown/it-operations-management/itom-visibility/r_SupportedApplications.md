@@ -6088,7 +6088,7 @@ Kubernetes
 
 </td></tr><tr><td>
 
-[Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Linux Server]()
 
 </td><td>
 
@@ -6317,7 +6317,7 @@ IIFP On Windows Pattern
 
 </td></tr><tr><td>
 
-Microsoft Internet Information Services
+[Microsoft Internet Information Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoMicrosoftIISServers.md)
 
 </td><td>
 

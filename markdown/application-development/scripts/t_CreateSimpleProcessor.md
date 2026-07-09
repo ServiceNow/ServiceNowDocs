@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d197364e103">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d266012e103">
 
 Field
 
-</th><th align="left" id="d197364e106">
+</th><th align="left" id="d266012e106">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d197364e112">
+</th></tr></thead><tbody><tr><td id="d266012e112">
 
 **Name**
 
@@ -50,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d197364e121">
+</td></tr><tr><td id="d266012e121">
 
 **Type**
 
@@ -58,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d197364e130">
+</td></tr><tr><td id="d266012e130">
 
 **Path**
 
@@ -66,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d197364e139">
+</td></tr><tr><td id="d266012e139">
 
 **Script**
 

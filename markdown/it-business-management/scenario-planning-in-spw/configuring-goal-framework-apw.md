@@ -33,7 +33,7 @@ Configure a table for an assigned entity type, so that the goal user can associa
 Run the **Create Goals Demo Data with Target Breakdowns** schedule job to create goals demo data with target breakdowns, so that you can view the target breakdowns section on the Goals page.
 -   **[Import goals and targets data from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/import-goals-and-targets-data-from-a-spreadsheet-apw.md)**  
 With the admin role, you can import your existing goals and targets data from a spreadsheet to the Goal Framework tables.
--   **[Update a schedule job to automate Actual value of the targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/schedule-a-job-to-automate-actual-value-of-the-targets-apw.md)**  
+-   **[Update scheduled job to automate target actual values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/schedule-a-job-to-automate-actual-value-of-the-targets-apw.md)**  
 Use the Goal Framework for SPM application to modify the run time for the scheduled job according to your preference to auto-update the actual value of the targets for which a target source has been configured.
 -   **[Set display limit for goals and targets in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-display-limits-for-goals-and-targets-spw.md)**  
 Update system property value to set the display limit for goals on the Goals page in Strategic Planning.

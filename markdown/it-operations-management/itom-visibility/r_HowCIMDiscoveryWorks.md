@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---

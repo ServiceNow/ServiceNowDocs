@@ -1,5 +1,5 @@
 ---
-title: Use Business Application Lifecycle Management to request a digital integration
+title: Request a digital integration
 description: Submit a request using the Application Lifecycle Management module to request a digital integration in Enterprise Architecture \(formerly Application Portfolio Management\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/balm-req-digital-integration.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Digital integrations, Manage digital integrations, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use Business Application Lifecycle Management to request a digital integration
+# Request a digital integration
 
 Submit a request using the Application Lifecycle Management module to request a digital integration in Enterprise Architecture \(formerly Application Portfolio Management\).
 

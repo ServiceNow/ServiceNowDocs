@@ -34,7 +34,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Credentials**
 
-    Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md) or \(optionally\) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SNMPCredentials.md) or \(optionally\) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Discovery and Service Mapping Patterns application**
 
@@ -594,8 +594,6 @@ Source NAT IP Pool \[cmdb\_ci\_snat\_ip\_pool\]
 </table>## Data collected by Service Mapping during top-down discovery
 
 Service Mapping discovers the connections between the A10 load balancers and applications in the deployment.
-
-\[Omitted image "A10LoadBalancerServiceWatchMap.png"\] Alt text: A10 load balancer application service map
 
 **Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Add or delete tag keys for Tag Categorization
-description: Add or delete tag keys to ensure that they align with your requirements for data management and classification.
+description: Tag keys define the values available within a tag category. Add or delete tag keys to keep your tag categorization structure current as data management and classification requirements change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/tag-governance/update-tag-keys-tag-categorization.html
 release: yokohama
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2025-07-06"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Add or delete tag keys for Tag Categorization
 
-Add or delete tag keys to ensure that they align with your requirements for data management and classification.
+Tag keys define the values available within a tag category. Add or delete tag keys to keep your tag categorization structure current as data management and classification requirements change.
 
 ## Before you begin
 
@@ -26,25 +26,25 @@ Role required: tag\_governance\_admin
 
 1.  Navigate to **All** &gt; **Tag Governance** &gt; **Tag Categories**.
 
-2.  Verify that you are in the leaf domain.
+2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\] Alt text:.
+    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
 3.  Select the tag category to which you want to add or delete tag keys.
 
-4.  Under **CI tag keys**, either add a new tag key or delete an existing tag key.
+4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d486721e142">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d562925e139">
 
 Action
 
-</th><th align="left" id="d486721e145">
+</th><th align="left" id="d562925e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d486721e151">
+</th></tr></thead><tbody><tr><td id="d562925e148">
 
 **Add a tag key**
 
@@ -52,18 +52,18 @@ Steps
 
 1.  Double-click the empty row under **Tag key**, where you see **Insert a new row**.
 2.  In the field, add a key name.
-3.  Select the Save icon \[Omitted image "icon-check-mark.png"\] Alt text: Check mark.
+3.  Select the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: Check mark\) to save the tag key.
 4.  Repeat the previous steps to add more tag keys.
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d486721e191">
+</td></tr><tr><td id="d562925e188">
 
 **Delete a tag key**
 
 </td><td>
 
-1.  Under **Tag key**, select the Mark for deletion icon \[Omitted image "marked-for-deletion.png"\] next to the tag key you want to remove.
+1.  Under **Tag key**, select the delete icon \(\[Omitted image "marked-for-deletion.png"\]\) next to the tag key you want to remove.
 2.  Select **Update** to save your changes.
 
 

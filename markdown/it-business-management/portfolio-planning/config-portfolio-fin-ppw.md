@@ -36,6 +36,6 @@ Role required: admin
 
 4.  Activate the data generation scheduled job to view portfolio financials.
 
-    For more information, see [Activate a scheduled job to generate data to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.md).
+    For more information, see [Scheduled job to generate data to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.md).
 
 

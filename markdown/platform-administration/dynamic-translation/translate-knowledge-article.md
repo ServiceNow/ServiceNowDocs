@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,7 +19,7 @@ Start translating articles once they are published and assigned to you for trans
 ## Before you begin
 
 -   Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
--   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/translation-management.md).
+-   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/translation-management.md).
 
 Role required: admin, knowledge\_admin, or knowledge
 

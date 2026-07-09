@@ -1,5 +1,5 @@
 ---
-title: Create new highlighted values for Prioritization columns in Portfolio Planning
+title: Create highlighted values for Prioritization columns in Portfolio Planning
 description: Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Customizing highlighted fields on prioritization page of Portfolio Planning workspace, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Customizing highlighted fields, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create new highlighted values for Prioritization columns in Portfolio Planning
+# Create highlighted values for Prioritization columns in Portfolio Planning
 
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
@@ -52,5 +52,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Customizing highlighted fields on prioritization page of Portfolio Planning workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

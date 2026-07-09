@@ -1,5 +1,5 @@
 ---
-title: Create a business rule to apply a custom table map configuration
+title: Apply a custom table map using a business rule
 description: Create a business rule to enable export from your new custom map configuration of an Agile Development 2.0 table to your Azure DevOps projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.html
@@ -9,10 +9,10 @@ classification: microsoft-azure-devops-integrations-comm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customizing your map configuration for Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Create a business rule to apply a custom table map configuration
+# Apply a custom table map using a business rule
 
 Create a business rule to enable export from your new custom map configuration of an Agile Development 2.0 table to your Azure DevOps projects.
 
@@ -32,7 +32,7 @@ After you create a custom table map for an Azure DevOps process type, create a b
 
 3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: context menu icon\), perform an Insert and Stay operation on this business rule.
 
-    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/advanced-form-administration.md).
+    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/advanced-form-administration.md).
 
 4.  On the business rule form, edit the following fields.
 
@@ -64,5 +64,5 @@ Select the table in Agile Development 2.0 for which you've created the custom ma
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

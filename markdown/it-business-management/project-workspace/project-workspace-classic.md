@@ -78,7 +78,7 @@ The project workspace comprises of the following tabs described at a high level:
 
 -   **[Access the classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-the-project-workspace.md)**  
 Open the project workspace to display all your projects at a single location.
--   **[Configure parameters displayed on project cards in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-project-card-parameters.md)**  
+-   **[Configure parameters on project cards in classic workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-project-card-parameters.md)**  
 Configure the parameters that are displayed on a project card in **My Projects Space** page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 -   **[View project analytics in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-project-summary.md)**  
 View the summary of a project in **Analytics** tab of classic Project Workspace.

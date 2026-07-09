@@ -53,8 +53,8 @@ The ServiceNow® Customer Service Management product enables you to provide the 
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/customer-service-mgmt-rn-landing.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Best Practices Library](https://learning.servicenow.com/nowcreate).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=94d7ead147e4fd102a090dcbd36d43c7&s=1&ssa=3)
+-   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/csm/ct-p/customer-service-management).
 

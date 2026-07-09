@@ -1,6 +1,6 @@
 ---
 title: Periodically run an event forwarding job
-description: Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
+description: Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/configuration-management-job-em.html
 release: yokohama
@@ -14,13 +14,15 @@ breadcrumb: [Event forwarding, Configuring Event Management, Event Management, I
 
 # Periodically run an event forwarding job
 
-Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
+Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
 
 ## About this task
+
+Event forwarding requires both an active event forwarding configuration record and an active **Event Management - Event Forwarding Job** scheduled job.
 
 You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-properties-em.md).
 

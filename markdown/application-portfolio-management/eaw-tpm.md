@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -28,13 +28,13 @@ Creating an inventory of all technologies used in the enterprise helps to:
 -   Plan to retire them just like the applications they support, at a definite date
 -   Support upgrade processes
 
-The data for the software products are populated from the Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\) tables, by default. However, if you want to include other CMDB tables that contain software products, you must update the system property **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls**. For information on how to update the system property, see [Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md).
+The data for the software products are populated from the Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\) tables, by default. However, if you want to include other CMDB tables that contain software products, you must update the system property **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls**. For information on how to update the system property, see [Update the system property for CMDB software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md).
 
 ## Installing the Technology Portfolio Management plugin
 
 For instructions to install Technology Portfolio Management, see [Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md).
 
-**Important:** Technology Portfolio Management \(TPM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMMigrationSAMF.md) documentation.
+**Important:** Technology Portfolio Management \(TPM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation.
 
 ## TPM indicators in EA Workspace
 
@@ -93,7 +93,7 @@ Hardware requires the Hardware Model reference on the Computer be populated.
 
 ## Update TPM Data for a business application or application service
 
-You can manually refresh the TPM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/run-scheduled-job-update-tpm-data.md)
+You can manually refresh the TPM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TPM data for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/run-scheduled-job-update-tpm-data.md)
 
 ## View insights for technology life-cycle risks
 
@@ -127,15 +127,15 @@ In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applica
 Activate the Technology Portfolio Management \(TPM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
 -   **[Filter software results using an encoded query in TPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/use-tpm-encoded-query.md)**  
 Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TPM picks licensable software. Use this encoded query when you want TPM to include other software \(non-licensable\) and filter the result.
--   **[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md)**  
+-   **[Update TPM data for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md)**  
 Manually update the Technology Portfolio Management \(TPM\) lifecycle data including end of support date, end of extended support date, and end of life date for your software and hardware models for your business applications and application services.
--   **[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**  
+-   **[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**  
 You can restart the **TPM Discovered Technologies and Lifecycles** job if it encounters any interruptions or failures.
 -   **[View technology lifecycle details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tech-lifecycle.md)**  
 You can view the Technology Portfolio Management \(TPM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
 -   **[View TPM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tech-risk.md)**  
 View all the Technology Portfolio Management \(TPM\) risk data for software products that are facing high and moderate technology risks.
--   **[Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)**  
+-   **[Update the system property for CMDB software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)**  
 You can optionally customize the default values of the **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls** system property, to capture the details of Technology Portfolio Management \(TPM\) software products that aren’t stored in the default CMDB tables, Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\).
 -   **[Working with technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
 The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.

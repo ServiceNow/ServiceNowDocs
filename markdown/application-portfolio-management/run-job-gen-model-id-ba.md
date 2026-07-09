@@ -1,5 +1,5 @@
 ---
-title: Run a scheduled job to generate an application model for business applications
+title: Generate an application model for business applications
 description: Execute a script to generate the application model for existing business applications. An application model is a structured representation of a business application's components and their relationships and interactions within your application landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/run-job-gen-model-id-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Run a scheduled job to generate an application model for business applications
+# Generate an application model for business applications
 
 Execute a script to generate the application model for existing business applications. An application model is a structured representation of a business application's components and their relationships and interactions within your application landscape.
 

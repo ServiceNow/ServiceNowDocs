@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Observables, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define an Observable
@@ -34,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
 4.  On the form, fill in the fields.
 
-    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-workspace-preferences.md).
+    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-workspace-preferences.md).
 
 <table id="table_hmw_qzm_2yb"><thead><tr><th>
 

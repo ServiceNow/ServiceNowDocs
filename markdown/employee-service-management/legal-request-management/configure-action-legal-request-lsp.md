@@ -19,8 +19,8 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 ## Before you begin
 
 -   Review the configuration of the script include, scripted extension points and service portal widgets for legal services installed with the Legal Service Delivery apps.
--   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/standard-ticket-page.md) and [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
--   For more information about configuring service portal widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
+-   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/standard-ticket-page.md) and [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md).
+-   For more information about configuring service portal widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal-widgets.md).
 -   For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
 -   Ensure that you've set the application scope to Legal Request Management.
 

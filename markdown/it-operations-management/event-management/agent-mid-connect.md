@@ -18,7 +18,7 @@ Connect the agent to the MID Web Server to enable configuring mTLS on your MID W
 
 ## Before you begin
 
-Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Install the .pem file in the MID unified keystore and set up the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/set-mid-web-server.md).
+Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/set-mid-web-server.md).
 
 Role required: agent\_client\_collector\_admin
 

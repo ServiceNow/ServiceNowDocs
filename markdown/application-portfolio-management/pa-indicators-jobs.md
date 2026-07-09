@@ -1,5 +1,5 @@
 ---
-title: Performance Analytic indicators to measure application performance
+title: Performance Analytics indicators for applications
 description: Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/pa-indicators-jobs.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Preconfigured indicators and their source applications, Framework setup for application assessment, Application assessment, Explore, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Performance Analytic indicators to measure application performance
+# Performance Analytics indicators for applications
 
 Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
 

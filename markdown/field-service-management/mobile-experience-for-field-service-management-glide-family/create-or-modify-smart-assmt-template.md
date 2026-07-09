@@ -30,15 +30,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 2.  Either create a template or select an existing template.
 
-<table id="choicetable_lml_jwt_dcc"><thead><tr><th align="left" id="d82268e100">
+<table id="choicetable_lml_jwt_dcc"><thead><tr><th align="left" id="d133215e100">
 
 Option
 
-</th><th align="left" id="d82268e103">
+</th><th align="left" id="d133215e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82268e109">
+</th></tr></thead><tbody><tr><td id="d133215e109">
 
 **Select an existing template**
 
@@ -48,7 +48,7 @@ Description
 2.  In the **General** tab, select **Settings**.
 
 
-</td></tr><tr><td id="d82268e133">
+</td></tr><tr><td id="d133215e133">
 
 **Create a new template**
 
@@ -138,14 +138,14 @@ Role required to view an assessment generated from the template.
 
     |Description|Location|
     |-----------|--------|
-    |Create and configure text type questions.|[Create a text question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-text-create.md)|
-    |Create and configure drop-down list type questions.|[Create a drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-drop-down-create.md)|
-    |Create and configure radio button type questions.|[Create a radio button question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-radio-button-create.md)|
-    |Create and configure check box type questions.|[Create a check box question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-check-box-create.md)|
-    |Create and configure number type questions.|[Create a number question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-number-create.md)|
-    |Create and configure reference type questions.|[Create a reference question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-reference-create.md)|
-    |Create and configure attachment type questions.|[Create an attachment question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-attachment-create.md)|
-    |Create and configure date type questions.|[Create a date question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.md)|
+    |Create and configure text type questions.|[Create a text question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-text-create.md)|
+    |Create and configure drop-down list type questions.|[Create a drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-drop-down-create.md)|
+    |Create and configure radio button type questions.|[Create a radio button question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-radio-button-create.md)|
+    |Create and configure check box type questions.|[Create a check box question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-check-box-create.md)|
+    |Create and configure number type questions.|[Create a number question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-number-create.md)|
+    |Create and configure reference type questions.|[Create a reference question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-reference-create.md)|
+    |Create and configure attachment type questions.|[Create an attachment question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-attachment-create.md)|
+    |Create and configure date type questions.|[Create a date question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-date-create.md)|
 
 8.  Select **Save**.
 
@@ -169,7 +169,7 @@ The Smart Assessment template is created or modified.
 **Related topics**  
 
 
-[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md)
+[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md)
 
-[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
+[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-template-designer.md)
 

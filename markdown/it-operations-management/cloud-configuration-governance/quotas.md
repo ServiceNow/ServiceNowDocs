@@ -20,7 +20,7 @@ You apply quotas to a resource, such as a virtual server, datacenter, or a gener
 
 After this kind of quota is set, users who try to provision additional virtual servers will receive an error message and they will not be able to proceed with provisioning virtual servers until the resource count is under the quota limit. If a user belongs to more than one group, they receive the total quota limit from both groups combined.
 
-**Note:** You can also set per-datacenter limitations on resources by using capacity limits in cloud accounts. See [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+**Note:** You can also set per-datacenter limitations on resources by using capacity limits in cloud accounts. See [Set capacity limits on user requests for resources]().
 
 ## Resource block types, quota types, and attributes
 

@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, then select **New** to create subflows to detect the language of the input text and translate the input text, as well as actions, using the following guidance.
 
-    For information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md).
+    For information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md).
 
     1.  Map error codes from your machine translation provider to the error codes and standardized error messages supported by ServiceNow.
 

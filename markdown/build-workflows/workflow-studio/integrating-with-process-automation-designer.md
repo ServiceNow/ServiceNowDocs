@@ -24,21 +24,21 @@ Subscribing to ServiceNow AI Platform® features and applications adds Playbooks
 
 |Integration|Content available|
 |-----------|-----------------|
-|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/aes-overview.md)|Build playbooks from App Engine Studio.|
-|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)|Build playbooks from App Engine Studio.|
+|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
 |[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
-|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr.md)|Create playbooks for HR services.|
-|[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
-|[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
-|[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/financial-services/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
-|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/public-sector-digital-services/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
-|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
-|[Exploring account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
-|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
-|[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-incident-response/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
-|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
-|[Complete publishing checklist and request policy approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md)|Create playbooks for Governance, Risk, and Compliance processes.|
+|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|
+|[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
+|[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
+|[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
+|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
+|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
+|[Exploring account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
+|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
+|[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
+|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
+|[Complete publishing checklist and request policy approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/complete-publishing-checklist-redlining.md)|Create playbooks for Governance, Risk, and Compliance processes.|
 
 ## Playbook Experience
 

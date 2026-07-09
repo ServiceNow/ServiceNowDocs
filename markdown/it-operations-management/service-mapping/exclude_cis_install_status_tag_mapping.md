@@ -1,5 +1,5 @@
 ---
-title: Exclude CIs based on their installation status in tag-based discovery
+title: Exclude CIs by installation status in tag-based discovery
 description: Use the CI installation status to create CI classes and exclude CIs from application services during tag-based discovery. By default, application services based on tags exclude CIs with the Retired or Absent install status. You can expand this list of excluded CIs to include additional installation statuses such as Pending install or Stolen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/exclude\_cis\_install\_status\_tag\_mapping.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Tag-based discovery configuration, Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Exclude CIs based on their installation status in tag-based discovery
+# Exclude CIs by installation status in tag-based discovery
 
 Use the CI installation status to create CI classes and exclude CIs from application services during tag-based discovery. By default, application services based on tags exclude CIs with the Retired or Absent install status. You can expand this list of excluded CIs to include additional installation statuses such as Pending install or Stolen.
 

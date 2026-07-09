@@ -40,7 +40,7 @@ Notify must be set up before you can use Notify on task. Ensure there are Notify
 **Related topics**  
 
 
-[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/start-a-conference-call.md)
+[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/start-a-conference-call.md)
 
-[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/t_StartAConferenceCallFromATask.md)
+[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_StartAConferenceCallFromATask.md)
 

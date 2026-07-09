@@ -1,5 +1,5 @@
 ---
-title: Use similarity solution to categorize applications and integrate with service catalog
+title: Categorize applications and integrate with service catalog
 description: Use the machine-learning engine to suggest a category for a business application that you are registering into the APM inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/categorize-similarity-solution-integrate-service-cat.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Integrate, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use similarity solution to categorize applications and integrate with service catalog
+# Categorize applications and integrate with service catalog
 
 Use the machine-learning engine to suggest a category for a business application that you are registering into the APM inventory.
 

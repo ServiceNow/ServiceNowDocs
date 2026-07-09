@@ -1,0 +1,87 @@
+---
+title: View mentoring requests
+description: Track any mentoring requests you've sent or received from others.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/view-mentoring-requests.html
+release: yokohama
+product: Mentoring
+classification: mentoring
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Using Mentoring, Mentoring, Talent Development, Employee Service Management]
+---
+
+# View mentoring requests
+
+Track any mentoring requests you've sent or received from others.
+
+## Before you begin
+
+Enroll as a mentee or a mentor. See [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/enroll-mentoring.md).
+
+Role required: none
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Your career** &gt; **Mentoring** &gt; **Overview**.
+
+2.  In the **Mentoring requests** section, you can choose to view information from the following information.
+
+<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d613054e88">
+
+Option
+
+</th><th align="left" id="d613054e91">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d613054e97">
+
+**Requests from others**
+
+</td><td>
+
+View a list of requests you have received from others. You can use the **Viewing**filter to select the type of request you want to view among the following: -   Waiting for response
+-   Accepted
+-   Declined
+-   Withdrawn
+-   All
+
+
+</td></tr><tr><td id="d613054e126">
+
+**Your requests**
+
+</td><td>
+
+View a list of requests you have sent to others. You can use the **Viewing** filter to select the type of request you want to view among the following: -   Waiting for response
+-   Accepted
+-   Declined
+-   Withdrawn
+-   All
+
+
+</td></tr></tbody>
+</table>    **Note:** You can also sort the requests lists by **Most recent** and **Oldest**.
+
+
+**Parent Topic:**[Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/using-mentoring-egd.md)
+
+**Related topics**  
+
+
+[Enroll as a mentor or mentee]()
+
+[Search for a mentor]()
+
+[Edit mentee preferences]()
+
+[Edit mentor preferences]()
+
+[Request a connection]()
+
+[View suggested mentors]()
+
+[View match insights]()
+

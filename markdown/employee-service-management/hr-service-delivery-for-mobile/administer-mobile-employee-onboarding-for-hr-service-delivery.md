@@ -29,5 +29,5 @@ Activate the Chat quick action so that your new hires can chat with a live or vi
 -   **[Configure Journeys for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/configure-journeys-now-mobile.md)**  
 Configure Journey designer in Now Mobile to enable managers, mentors, and employees to interact with their journeys from their mobile devices.
 
-**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery for mobile]()
 

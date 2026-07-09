@@ -54,7 +54,7 @@ The customer update record specifies:
 **Related topics**  
 
 
-[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/compare-two-article-versions.md)
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/compare-two-article-versions.md)
 
-[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/upgrade-management/um-resolve-conflict.md)
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/um-resolve-conflict.md)
 

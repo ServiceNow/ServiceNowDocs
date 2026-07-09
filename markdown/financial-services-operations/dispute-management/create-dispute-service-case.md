@@ -32,15 +32,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d41060e109">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d95955e109">
 
 Option
 
-</th><th align="left" id="d41060e112">
+</th><th align="left" id="d95955e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41060e118">
+</th></tr></thead><tbody><tr><td id="d95955e118">
 
 **Dispute case from the dispute case list**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d41060e148">
+</td></tr><tr><td id="d95955e148">
 
 **Dispute case from an interaction record**
 
@@ -59,7 +59,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/interaction-management/create-interactions.md).
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select **Card disputes services** from the category list.

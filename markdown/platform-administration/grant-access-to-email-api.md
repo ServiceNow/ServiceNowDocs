@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/email-api.md) .
+For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/email-api.md) .
 
 ## Procedure
 

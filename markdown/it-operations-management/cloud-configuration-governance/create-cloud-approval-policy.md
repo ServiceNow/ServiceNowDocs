@@ -18,7 +18,7 @@ A cloud approval policy specifies the users who must approve a specified cloud a
 
 ## Before you begin
 
-Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+Optional: [Create one or more cloud policy groups]().
 
 Role required: sn\_cmp.cloud\_governor or admin
 
@@ -152,5 +152,5 @@ A new policy is in **Draft** state. Click **Publish** on the form header to enfo
 
 ## What to do next
 
-[Configure one or more cloud policy rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+[Configure one or more cloud policy rules]().
 

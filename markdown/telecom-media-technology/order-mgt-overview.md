@@ -16,19 +16,19 @@ Learn how you can use the ServiceNow® Sales Customer Relationship Management \(
 
 <table id="table_qq4_trz_3tb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-exploring.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-configuring.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-configuring.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-using.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-using.md)
 
 </td></tr><tr><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/order-mgt-integrating.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-integrating.md)
 
 </td><td>
 

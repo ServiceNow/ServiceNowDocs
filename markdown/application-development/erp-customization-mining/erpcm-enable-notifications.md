@@ -18,13 +18,13 @@ Enable notifications to find out when ERP Semantic Mining \(ERP-CM\) succeeds or
 
 ## Before you begin
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Semantic Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+Before you can set up notifications for yourself, your admin must add you to the ERP Semantic Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
 
 Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
 ## About this task
 
-For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/advanced-notification-prefrences.md).
+For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/advanced-notification-prefrences.md).
 
 ## Procedure
 

@@ -1,5 +1,5 @@
 ---
-title: Update UI scripts to use customized indicators for Agile 2.0 dashboards
+title: Use customized indicators for Agile 2.0 dashboards
 description: Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Customizing Agile 2.0 dashboard reports, Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Update UI scripts to use customized indicators for Agile 2.0 dashboards
+# Use customized indicators for Agile 2.0 dashboards
 
 Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
 

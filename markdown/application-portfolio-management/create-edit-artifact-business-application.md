@@ -18,7 +18,7 @@ View and manage the artifacts that are associated with a business application.
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Architectural Artifacts module is moved to the Enterprise Architecture Workspace. To learn more, see [Create an architectural artifact and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-ba.md).
+Starting with the Xanadu release, the legacy Architectural Artifacts module is moved to the Enterprise Architecture Workspace. To learn more, see [Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-ba.md).
 
 Role required: sn\_apm.apm\_analyst
 

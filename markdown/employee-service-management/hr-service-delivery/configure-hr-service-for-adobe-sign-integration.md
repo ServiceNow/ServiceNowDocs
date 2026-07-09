@@ -18,7 +18,7 @@ If you are using the Adobe Sign integration, configure an HR PDF document templa
 
 ## Before you begin
 
-Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See [Sync Adobe Sign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-adobe-sign.md) for more information.
+Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See [Sync Adobe Sign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-adobe-sign.md) for more information.
 
 **Note:** Each Adobe Sign in template must have one associated document. Multiple documents per template are not supported.
 

@@ -39,5 +39,5 @@ Role required: admin
 **Related topics**  
 
 
-[Add an asset to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/contract-management/t_AddAnAssetToAContract.md)
+[Add an asset to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_AddAnAssetToAContract.md)
 

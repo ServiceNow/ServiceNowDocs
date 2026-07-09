@@ -20,7 +20,7 @@ The Advanced Work Assignment for Public Sector Digital Services feature is avail
 
 To use the chat feature with AWA for Public Sector Digital Services, you must also activate the Agent Chat plugin \(com.glide.interaction.awa\).
 
-For more information, see [Activate related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+For more information, see [Activate related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md).
 
 ## Inbox layouts
 
@@ -41,16 +41,16 @@ Two case inbox layouts are included with the Case service channel.
 
 ## Variable work item sizing
 
-Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channel-capacity.md).
+Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channel-capacity.md).
 
 ## Agent affinity
 
-Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see [Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md).
+Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see [Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-agent-affinity-concept.md).
 
 **Related topics**  
 
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md)
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md)
 
 ## Automatically route social benefit requests using Advanced Work Assignment
 
@@ -73,29 +73,29 @@ Change the default Social Benefit Requests service channel attributes in Advance
 
 ### Before you begin
 
--   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
--   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+-   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md).
 -   [Install the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-social-benefits-playbook.md).
 
 Role required: admin, awa\_admin
 
 ### About this task
 
-You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md) in AWA. For the Social Benefit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling social benefit requests. You can also add advanced conditions to filter the routing conditions in the Social Benefit Request service channel, or change queue settings, such as assignment rules.
+You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) in AWA. For the Social Benefit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling social benefit requests. You can also add advanced conditions to filter the routing conditions in the Social Benefit Request service channel, or change queue settings, such as assignment rules.
 
 ### Procedure
 
 1.  Configure the Social Benefit Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23512e446">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32116e446">
 
 Options
 
-</th><th align="left" id="d23512e449">
+</th><th align="left" id="d32116e449">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23512e455">
+</th></tr></thead><tbody><tr><td id="d32116e455">
 
 **Enable the Social Benefit Request service channel**
 
@@ -108,7 +108,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23512e512">
+</td></tr><tr><td id="d32116e512">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -128,7 +128,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23512e594">
+</td></tr><tr><td id="d32116e594">
 
 **Configure the Social Benefit Requests queue**
 
@@ -140,9 +140,9 @@ Use the examples to determine the government agents, managers, and their associa
 3.  Change other settings as needed, for example the assignment rule that determines Assignment Eligibility.
 
 4.  Select **Update**.
-For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
+For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md).
 
-</td></tr><tr><td id="d23512e646">
+</td></tr><tr><td id="d32116e646">
 
 **Change Inbox card layouts for Social Benefit request items in CSM Configurable Workspace**
 
@@ -152,7 +152,7 @@ For more information on queue settings, see [Create a work item queue](https://r
 2.  Select the **Inbox Layouts** related link.
 3.  Select the layout and edit the fields to be updated.
 4.  Select **Update**.
-For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
+For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-modify-inbox-layout.md).
 
 </td></tr></tbody>
 </table>
@@ -177,29 +177,29 @@ Change the default License and Permit Requests service channel attributes in Adv
 
 ### Before you begin
 
--   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
--   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+-   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md).
 -   [Install the License and Permit Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-license-permit-request-playbook.md).
 
 Role required: awa\_admin, admin
 
 ### About this task
 
-You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md) in AWA. For the License and Permit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling license and permit requests. You can also add advanced conditions to filter the routing conditions in the License and Permit Request service channel, or change queue settings, such as assignment rules.
+You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) in AWA. For the License and Permit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling license and permit requests. You can also add advanced conditions to filter the routing conditions in the License and Permit Request service channel, or change queue settings, such as assignment rules.
 
 ### Procedure
 
 1.  Configure the License and Permits Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23512e905">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32116e905">
 
 Options
 
-</th><th align="left" id="d23512e908">
+</th><th align="left" id="d32116e908">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23512e914">
+</th></tr></thead><tbody><tr><td id="d32116e914">
 
 **Enable the License and Permit Request service channel**
 
@@ -212,7 +212,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23512e971">
+</td></tr><tr><td id="d32116e971">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -232,7 +232,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23512e1053">
+</td></tr><tr><td id="d32116e1053">
 
 **Configure the License and Permit Requests queue**
 
@@ -244,9 +244,9 @@ Use the examples to determine the government agents, managers, and their associa
 3.  Change other settings as needed, for example the assignment rule that determines Assignment Eligibility.
 
 4.  Select **Update**.
-For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
+For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md).
 
-</td></tr><tr><td id="d23512e1105">
+</td></tr><tr><td id="d32116e1105">
 
 **Change Inbox card layouts for License and Permits request items in CSM Configurable Workspace**
 
@@ -256,7 +256,7 @@ For more information on queue settings, see [Create a work item queue](https://r
 2.  Select the **Inbox Layouts** related link.
 3.  Select the layout and edit the fields to be updated.
 4.  Select **Update**.
-For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
+For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-modify-inbox-layout.md).
 
 </td></tr></tbody>
 </table>
@@ -282,29 +282,29 @@ Change the default Information Requests service channel attributes in Advanced W
 
 ### Before you begin
 
--   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
--   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+-   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md).
 -   [Install the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm\_info\_req.admin, awa\_admin, admin
 
 ### About this task
 
-You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md) in AWA. For the Information Requests service channel, use the Public Sector Requests assignment group to specify the agents handling information requests. You can also add advanced conditions to filter the routing conditions in the Information Request service channel, or change queue settings, such as assignment rules.
+You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) in AWA. For the Information Requests service channel, use the Public Sector Requests assignment group to specify the agents handling information requests. You can also add advanced conditions to filter the routing conditions in the Information Request service channel, or change queue settings, such as assignment rules.
 
 ### Procedure
 
 1.  Configure the Information Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23512e1373">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32116e1373">
 
 Options
 
-</th><th align="left" id="d23512e1376">
+</th><th align="left" id="d32116e1376">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23512e1382">
+</th></tr></thead><tbody><tr><td id="d32116e1382">
 
 **Enable the Information Request service channel**
 
@@ -317,7 +317,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23512e1439">
+</td></tr><tr><td id="d32116e1439">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -337,7 +337,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23512e1517">
+</td></tr><tr><td id="d32116e1517">
 
 **Configure the Information Requests queue**
 
@@ -349,9 +349,9 @@ Use the examples to determine the government agents, managers, and their associa
 3.  Change other settings as needed, for example the assignment rule that determines Assignment Eligibility.
 
 4.  Select **Update**.
-For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
+For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md).
 
-</td></tr><tr><td id="d23512e1565">
+</td></tr><tr><td id="d32116e1565">
 
 **Change Inbox card layouts for information request items in CSM Configurable Workspace**
 
@@ -361,7 +361,7 @@ For more information on queue settings, see [Create a work item queue](https://r
 2.  Select the **Inbox Layouts** related link.
 3.  Select the layout and edit the fields to be updated.
 4.  Select **Update**.
-For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
+For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-modify-inbox-layout.md).
 
 </td></tr></tbody>
 </table>
@@ -387,29 +387,29 @@ Change the default Service Requests service channel attributes in Advanced Work 
 
 ### Before you begin
 
--   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
--   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+-   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md).
 -   [Install the Service Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-service-request-playbook.md).
 
 Role required: awa\_admin or admin
 
 ### About this task
 
-You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md) in AWA. For the Service Requests service channel, use the Public Sector Requests assignment group to specify the agents handling service requests. You can also add advanced conditions to filter the routing conditions in the Service Request service channel, or change queue settings, such as assignment rules.
+You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) in AWA. For the Service Requests service channel, use the Public Sector Requests assignment group to specify the agents handling service requests. You can also add advanced conditions to filter the routing conditions in the Service Request service channel, or change queue settings, such as assignment rules.
 
 ### Procedure
 
 1.  Configure the Service Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23512e1834">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32116e1834">
 
 Options
 
-</th><th align="left" id="d23512e1837">
+</th><th align="left" id="d32116e1837">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23512e1843">
+</th></tr></thead><tbody><tr><td id="d32116e1843">
 
 **Enable the Service Request service channel**
 
@@ -421,7 +421,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d23512e1894">
+</td></tr><tr><td id="d32116e1894">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -441,7 +441,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23512e1972">
+</td></tr><tr><td id="d32116e1972">
 
 **Configure the Public Service Requests queue**
 
@@ -453,9 +453,9 @@ Use the examples to determine the government agents, managers, and their associa
 3.  Change other settings as needed, for example the assignment rule that determines Assignment Eligibility.
 
 4.  Select **Update**.
-For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
+For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md).
 
-</td></tr><tr><td id="d23512e2020">
+</td></tr><tr><td id="d32116e2020">
 
 **Change Inbox card layouts for service request items in CSM Configurable Workspace**
 
@@ -465,7 +465,7 @@ For more information on queue settings, see [Create a work item queue](https://r
 2.  Select the **Inbox Layouts** related link.
 3.  Select the layout and edit the fields to be updated.
 4.  Select **Update**.
-For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
+For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-modify-inbox-layout.md).
 
 </td></tr></tbody>
 </table>

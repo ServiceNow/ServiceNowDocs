@@ -47,9 +47,9 @@ B2B customers can perform the following order management tasks using the Busines
 
 The following topics provide more information about configuring and using the Business Portal:
 
--   Getting started with the Business Portal: [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md)
+-   Getting started with the Business Portal: [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md)
 -   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/use-the-business-portal.md) \(All features and capabilities\)
 -   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-configure-business-portal.md)
 -   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
--   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/r_BusinessPortalUserRoles.md)
+-   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 

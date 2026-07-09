@@ -55,5 +55,5 @@ For more information of configuring lists in a workspace, see [Lists](https://ra
 
 ## What to do next
 
-[Define audience for new lists in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/define-audience-for-new-lists-strategic-planning.md).
+[Define audience for lists in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/define-audience-for-new-lists-strategic-planning.md).
 

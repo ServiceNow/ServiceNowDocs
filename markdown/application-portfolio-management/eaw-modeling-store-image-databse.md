@@ -30,7 +30,7 @@ Every shape in Enterprise Modeling and Visualization is associated with an image
 
 3.  Fill in the details in the new image form.
 
-    For more details, see [New image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-image-form.md).
+    For more details, see [Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-image-form.md).
 
 
 **Parent Topic:**[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shapes.md)

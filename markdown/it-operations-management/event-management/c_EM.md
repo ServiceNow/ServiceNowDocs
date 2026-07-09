@@ -7,7 +7,7 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
@@ -45,7 +45,11 @@ Event Management seamlessly integrates with various monitoring tools via connect
 [Reference \[Omitted image "bus-manage.svg"\] Alt text: Get details about domain separation in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/domain-separation-event-management.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Dependencies
+
+For a list of Event Management plugin dependencies, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-app-itom-health.md).
+
+## Troubleshoot and get help
 
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Ask or answer questions in the Event Management community](https://community.servicenow.com/community/operations-management)

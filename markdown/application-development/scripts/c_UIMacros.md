@@ -34,9 +34,9 @@ Administrators can create their own UI macros to provide custom controls or inte
 **Related topics**  
 
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md)
 
-[Create a UI macro for a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreateAUIMacro.md)
+[Create a UI macro for a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAUIMacro.md)
 
 ## UI macro basics
 

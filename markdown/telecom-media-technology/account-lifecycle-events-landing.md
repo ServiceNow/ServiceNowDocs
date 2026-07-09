@@ -16,7 +16,7 @@ The ServiceNow® Customer Success Management application enables service provide
 
 Watch this short video for an introduction to the Customer Success Management application.
 
-Overview of Account Lifecycle Events 
+\[Omitted video\] Description: Overview of Account Lifecycle Events
 
 By embedding workflow automation into customer success management, Customer Success Management helps providers enhance customer experiences, accelerate time to value, and maximize return on investment. It also fosters seamless collaboration between the accounts, sales, and delivery teams, all within the unified ServiceNow AI Platform. 
 
@@ -24,15 +24,15 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_g2h_5s3_ccc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore Account Lifecycle Events\[Omitted image "bus-learn.svg"\] Alt text:Learn about the Account Lifecycle Events application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-explore.md)
+[Explore Account Lifecycle Events\[Omitted image "bus-learn.svg"\] Alt text:Learn about the Account Lifecycle Events application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-explore.md)
 
 </td><td>
 
-[Account onboarding \[Omitted image "bus-3-person.svg"\] Alt text: Define a structured, repeatable, onboarding experience with the preconfigured playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing-page.md)
+[Account onboarding \[Omitted image "bus-3-person.svg"\] Alt text: Define a structured, repeatable, onboarding experience with the preconfigured playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 
 </td><td>
 
-[Customer success \[Omitted image "bus-customer-happy.svg"\] Alt text: Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-customer-success-landing-page.md)
+[Customer success \[Omitted image "bus-customer-happy.svg"\] Alt text: Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 
 </td></tr></tbody>
 </table>## Additional resources

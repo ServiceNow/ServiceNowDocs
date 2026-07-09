@@ -1,5 +1,5 @@
 ---
-title: Use Business Application Lifecycle Management to request or retire an application
+title: Request or retire a business application
 description: If you are an Enterprise Architecture user, you should use the Business Application Lifecycle Management services to request or register a new business application for your business. You can request a business application like you place an order for any other service catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/balm-request-retire-bus-application.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use Business Application Lifecycle Management to request or retire an application
+# Request or retire a business application
 
 If you are an Enterprise Architecture user, you should use the Business Application Lifecycle Management services to request or register a new business application for your business. You can request a business application like you place an order for any other service catalog item.
 

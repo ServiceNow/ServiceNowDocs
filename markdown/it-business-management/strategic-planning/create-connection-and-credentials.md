@@ -19,13 +19,13 @@ Using your Jira instance details, create a connection and credential for the chi
 ## Before you begin
 
 1.  [Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
-2.   or [Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
+2.   or [Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
 Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
+This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-jira-spk-opt2.md).
 
 ## Procedure
 

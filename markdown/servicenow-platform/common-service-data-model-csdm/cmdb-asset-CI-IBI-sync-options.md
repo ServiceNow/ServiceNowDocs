@@ -93,5 +93,5 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 **Related topics**  
 
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManagingAssets.md)
 

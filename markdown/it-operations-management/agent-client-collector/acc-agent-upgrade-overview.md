@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-05-28"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ACC agent upgrade, auto-upgrade, agent upgrade overview]
 breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
@@ -18,6 +18,18 @@ breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collecto
 The Agent Client Collector Framework manages agent upgrades directly from the instance, with no manual action required on individual agent hosts.
 
 You can upgrade Agent Client Collector agents one at a time through the UI, or upgrade all eligible agents at once using the auto-upgrade feature. After an upgrade starts, each agent downloads the new version, installs it, restarts, and reports the result back to the instance.
+
+## Before you upgrade
+
+Configure the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-web-server.md).
+
+Ensure that the MID Server, MID Web Server, and the MID Server websocket server are running.
+
+Roles required: agent\_client\_collector\_admin
+
+-   In a Windows environment: Local SYSTEM account
+-   In a Linux environment: sudo rpm/dpkg
+-   In a macOS environment: sudo pkg
 
 ## Upgrade methods
 
@@ -50,6 +62,19 @@ Both single and mass upgrade attempts, progress through the following stages. Ea
 
 
 For details on the required properties for agent overview, see [Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.md).
+
+High-volume upgrade does not support Agent Client Collector to MID Server communication via mTLS.
+
+When performing high-volume upgrade, all agents that aren't using the most up-to-date version are upgraded. No upgrade is performed on agents already using the upgraded version.
+
+No upgrade is performed on agents that are outside the application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
+
+An agent is excluded from high-volume upgrade when you reach the failed upgrade limit for an agent. The failed upgrade limit is specified in the **sn\_agent.auto\_upgrade.retry\_limit** system property. The default value for this property is 3.
+
+-   This property applies to both high-volume and selective upgrades that have failed.
+-   When an agent reaches the failed upgrade limit, an Agent Client Collector administrator can still run selective upgrade on the agent.
+-   You can manually reset the failed upgrade limit by selecting the **Reset failed upgrade attempts** option on the agent page \(select **All** &gt; **Agent Client Collector** &gt; **Agents** and select an agent\).
+-   After a successful upgrade, the upgraded agent is considered to have zero failed upgrades \(for future upgrades\).
 
 ## Agent eligibility
 

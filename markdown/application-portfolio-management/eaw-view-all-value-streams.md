@@ -1,0 +1,58 @@
+---
+title: View all value streams
+description: You can value stream details in the Enterprise Architecture Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-all-value-streams.html
+release: yokohama
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Manage value streams, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# View all value streams
+
+You can value stream details in the Enterprise Architecture Workspace.
+
+## Before you begin
+
+Role required: sn\_apm.apm\_user
+
+## About this task
+
+The value stream record page displays information on the following:
+
+-   Details: The details of the particular value stream record
+-   Value stream stages: The value stream stages associated with the current value stream. Users with the sn\_apm.apm\_user role can create new stages from this tab.
+-   Application models: The application models associated with the value stream
+
+## Procedure
+
+1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
+
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
+
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Business Architecture**.
+
+4.  Select **Value Streams**.
+
+5.  Select a particular value stream that you want to view details for.
+
+    The Value stream details page appears.
+
+6.  Select the **Value Stream Stages** tab to view the value stream stages associated with the value stream.
+
+    **Note:** Select a value stream stage to view more details.
+
+
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+
+**Related topics**  
+
+
+[Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
+
+[Add an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
+
+[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+

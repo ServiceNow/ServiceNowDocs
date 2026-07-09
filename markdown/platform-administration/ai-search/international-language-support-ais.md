@@ -24,7 +24,7 @@ To view the full list of languages offered as ServiceNow AI Platform plugins and
 
 Language settings determine how AI Search separates the text of indexed content and search queries into individual terms. This process, called tokenization, is handled differently for each supported language, using language-specific settings. For example, most languages use spaces and punctuation to separate words and sentences, but when tokenizing Chinese or Japanese text, AI Search instead uses contextual interpretation to correctly identify word and sentence breaks. When tokenizing Japanese text, AI Search additionally recognizes the nakaguro \(middle dot\) as a word separator.
 
-**Note:** If you indexed content in any of the following languages prior to the specified date, you should reindex it to benefit from improved tokenization and feature support added in the AI Search back end.
+**Note:** If you indexed content in any of the following languages before the specified date, reindex that content to benefit from improved tokenization and feature support added in the AI Search back end.
 
 |Date|Languages to reindex|
 |----|--------------------|
@@ -39,11 +39,11 @@ When indexing content and metadata from a ServiceNow AI Platform source record o
 
 <table id="table_kkt_zpc_pvb"><thead><tr><th>
 
-Record or Document
+Record or document
 
 </th><th>
 
-Tokenization Settings
+Tokenization settings
 
 </th></tr></thead><tbody><tr><td>
 

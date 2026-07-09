@@ -16,7 +16,7 @@ breadcrumb: [GitHub Spoke, Integration Hub available spokes, Building integratio
 
 Set up the trigger to generate the secret and callback URL on your ServiceNow instance.
 
-Demonstrates setting up triggers for the GitHub spoke. 
+\[Omitted video\] Description: Demonstrates setting up triggers for the GitHub spoke.
 
 ## Before you begin
 

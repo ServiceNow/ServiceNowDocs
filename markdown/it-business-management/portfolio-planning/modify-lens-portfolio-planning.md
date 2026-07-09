@@ -64,7 +64,7 @@ For a lens, add entities to modify its existing structure. You can add up to six
     -   APW Default
 3.  Update the roadmap configuration for the tables of all planning item types that you associate with this lens:
 
-    Add the bottom entity of this lens structure and its parent to **Group by fields** and **Color by fields**. These fields are used as the default group by and color by settings for the portfolio roadmap. See [Customize the display preferences for Prioritization and Roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
+    Add the bottom entity of this lens structure and its parent to **Group by fields** and **Color by fields**. These fields are used as the default group by and color by settings for the portfolio roadmap. See [Customize planning item display preferences in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
 
 4.  Validate your lens configuration and activate it. See [Activate a lens in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/activate-lens-portfolio-planning.md).
 

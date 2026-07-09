@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 10
+reading_time_minutes: 9
 breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -18,17 +18,17 @@ Learn how to use the features of Enterprise Architecture to identify business ap
 Use the Business application form to add the applications that your organization uses based on their functions and the business processes they fulfill. In Enterprise Architecture, add any business application that is used to assess and track costs, usage, business value, functional fitment, and risks.
 -   **[View business application roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-business-application-roadmap.md)**  
 Use the graphical, high-level overview of the application roadmap to view the investments made in the business application.
--   **[Associate suggested technology models to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/associate-application-service-software-models.md)**  
+-   **[Associate technology models to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/associate-application-service-software-models.md)**  
 As an application owner, you can run the software model suggestions engine to fetch software models. These models can be related to an application service instead of mapping them manually.
 -   **[Assess business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/establish-CI-relationship.md)**  
 Assess the business capabilities within the indicator framework and based on the score you can make strategic decisions on the business applications that support the business capability.
--   **[Create business capability and relate the capability with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-a-business-capability.md)**  
+-   **[Create and relate a business capability to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-a-business-capability.md)**  
 Business capabilities are the abilities of an organization to do an activity to fulfill its business goals. Align your organization goals with business capabilities by creating capabilities.
 -   **[Use capability map for planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-capability-based-planning.md)**  
 Capability-based planning helps you to understand your business capabilities, and the business applications that support them, to achieve your business goals.
 -   **[View technology risks in timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-technology-risks-in-timeline.md)**  
 View the internal and external life-cycle phases of all technologies or the product models that are used in your organization in the Technology Portfolio Management timeline. You can identify the stages at which the technology is, in terms of the risk factor by their color code.
--   **[Relate business application to application service using CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/relate-business-application-to-business-service.md)**  
+-   **[Relate a business application to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/relate-business-application-to-business-service.md)**  
 Business applications can have multiple instances. Application instances are nothing but application services. Relate business applications to instances by relating business applications to application services. Business application and application service are two different configuration items which must be related through a CI relationship.
 -   **[Associate an application service to hardware model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/associate-application-service-hardware-model.md)**  
 Track your equipment assets such as computers and servers using hardware models.
@@ -56,15 +56,15 @@ You can approve an architecture review request if you are part of the Enterprise
 Create a diagram in for your business application hierarchy and associate it with an architectural artifact. Use the ServiceNow Enterprise Modeling and Visualization or Lucidchart to create a diagram for your business hierarchy.
 -   **[Create a Lucid diagram for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-diagram-business-cap.md)**  
 Create a diagram in Lucidchart for your business capability maps and associate it with an architectural artifact.
--   **[Use Business Application Lifecycle Management to request or retire an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/balm-request-retire-bus-application.md)**  
+-   **[Request or retire a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/balm-request-retire-bus-application.md)**  
 If you are an Enterprise Architecture user, you should use the Business Application Lifecycle Management services to request or register a new business application for your business. You can request a business application like you place an order for any other service catalog item.
--   **[Manage Business Application Lifecycle Management service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/manage-balm-service-requests.md)**  
+-   **[Manage BALM service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/manage-balm-service-requests.md)**  
 You can approve requests raised by an Enterprise Architecture user either for a new business application or retire an application that the user no longer requires.
--   **[Use Business Application Lifecycle Management to request an architecture review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/balm-request-arb-review.md)**  
+-   **[Request an architecture review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/balm-request-arb-review.md)**  
 You can request a review of your new architecture design proposal on the technology of a business application by presenting it to the architecture review board.
 -   **[Create or edit an indicator to assess an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-application-indicators.md)**  
 Application indicators are business metrics that assess the applications across dimensions such as cost, quality, technical risk, investments, user satisfaction, and business value.
--   **[Create an application score profile and attach profile indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-an-appln-score-profile.md)**  
+-   **[Create an application score profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-an-appln-score-profile.md)**  
 You can create an application score profile and update the default application profile with new profile indicators per your requirements. After you create a score profile, you have to associate it with indicators.
 -   **[View application indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-application-indicator-scores.md)**  
 View the application indicator scores that are sourced and computed based on the sourcing setup defined for the application indicators. The assessment framework calculates the score only for those indicators which are attached to at least one scoring profile. The indicator scores help you to evaluate the applications and make strategic decisions on them.
@@ -104,7 +104,7 @@ View all your product requests, track their statuses, and edit your existing req
 View all your product lifecycle requests, track their status, and edit your existing requests. You can also manage the approvers for your request.
 -   **[Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/define-trm-phases.md)**  
 Define your own TRM phase or edit an existing TRM phase.
--   **[Review the TRM lifecycle status in the Technology Portfolio Management page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/review-trm-status-tpm-view.md)**  
+-   **[Review TRM lifecycle status in TPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/review-trm-status-tpm-view.md)**  
 View the TRM lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
 -   **[Configure the business application form for risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-related-lists-risk.md)**  
 Configure the business application form to enable application managers to provide risk and control information associated with a business application through a risk assessment questionnaire or a control attestation survey.
@@ -120,7 +120,7 @@ Create an information object to capture the logical data for the business applic
 Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object, which can be used to leverage the business application.
 -   **[Relate the information object to the database catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/relate-info-object-database-catalog.md)**  
 The information object draws the physical data from the database catalog, which references the database instances. Hence, create a relationship that is suggested between the information object and the database catalog.
--   **[Relate a business application to another business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/relate-business-app-to-business-app.md)**  
+-   **[Relate business applications to each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/relate-business-app-to-business-app.md)**  
 Relate a business application to another business application using the CI relationship \[cmdb\_rel\_ci\] table of type Interfaced by::Interfaces. Use this suggested relationship to get the information of other business applications, which are interfaced with the business application.
 -   **[Visualize Enterprise Architecture reports using CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-apm-reports-cmdb-query-builder.md)**  
 Enterprise Architecture uses CMDB Query Builder to query on a list of configuration items used in Enterprise Architecture and visualize them as reports.

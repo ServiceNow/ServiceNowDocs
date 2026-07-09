@@ -9,7 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Related Lists of CI components, CMDB classifications and class dependency, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Related Lists of CI components, CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Teams related list

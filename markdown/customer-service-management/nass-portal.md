@@ -1,22 +1,22 @@
 ---
-title: Using the Now Assist in Virtual Agent enhanced chat in self-service portals
+title: Now Assist conversational experience in self-service portals
 description: Learn about the Now Assist enhanced chat feature in the Self-service portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/nass-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automate and optimize, Using Customer Service Management, Customer Service Management]
 ---
 
-# Using the Now Assist in Virtual Agent enhanced chat in self-service portals
+# Now Assist conversational experience in self-service portals
 
 Learn about the Now Assist enhanced chat feature in the Self-service portals.
 
 Now Assist enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
 
-You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
 ## Enhanced chat experience on self-service portal
 
@@ -37,13 +37,18 @@ You can enable enhanced chat experience from the Now Assist in Virtual Agent gui
     The new theme is visually appealing, engaging, and user-friendly, with a focus on enhancing productivity.
 
 
-\[Omitted image "enhanced-chat-NASS.png"\] Alt text: Portal homepage with enhanced chat
-
-## Search experience 
+## Search experience
 
 When you search for information using the Now Assist enhanced chat on your self-service portals, you receive comprehensive and detailed answers compared to the traditional AI search.
 
 Unlike the traditional AI search page, the Now Assist enhanced chat helps you find the information you need and combines them into a synthesized comprehensive answer. It searches information from KB articles, external content, Virtual Agent topics, catalog items, and people citations.
 
 The search results include links to the sources of information and related actions. When you select the citation, different information is displayed depending on the type of source.
+
+**Related topics**  
+
+
+[Now Assist in Virtual Agent in Customer and Consumer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nava-csp-csm-portals.md)
+
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/va-csp-csm-portal.md)
 

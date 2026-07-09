@@ -63,7 +63,7 @@ The Automation Anywhere spoke provides actions to automate Automation Anywhere t
 
 ## Spoke module
 
-The Automation Anywhere spoke adds the Automation Anywhere application to your instance and includes the Authentication module. In this module, you should provide details in the default credential record to authentication the ServiceNow requests. See [Create a Credential record for the Automation Anywhere spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) for more information.
+The Automation Anywhere spoke adds the Automation Anywhere application to your instance and includes the Authentication module. In this module, you should provide details in the default credential record to authentication the ServiceNow requests. See [Create a Credential record for the Automation Anywhere spoke]() for more information.
 
 ## Connection and credential alias requirements
 
