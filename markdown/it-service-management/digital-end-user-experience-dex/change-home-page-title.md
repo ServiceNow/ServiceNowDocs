@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -89,8 +89,10 @@ Option to enable or disable the chat icon.
 </td></tr></tbody>
 </table>3.  Customize the logo for the Desktop Assistant home page.
 
-    **Note:** By default, the ServiceNow logo is applied.
+    **Note:**
 
+    -   By default, the ServiceNow logo is applied. The base system logo measures 253  px by 73  px.
+    -   When uploading a custom company logo, make sure it does not exceed the maximum supported size of 10 rem by 5 rem \(approximately 160 px by 80 px\).
     1.  In the Logo field, select **Update**.
 
     2.  Select **Choose File** and select an image from your system.

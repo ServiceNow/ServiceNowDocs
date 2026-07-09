@@ -16,7 +16,7 @@ breadcrumb: [Digital End-User Experience, IT Service Management]
 
 Digital Experience Score​ provides comprehensive insight into the digital experience of your employees, enabling you to identify areas of improvement to enhance overall employee experience.
 
-Overview of DEX Score
+\[Omitted video\] Description: Overview of DEX Score
 
 The video provides an overview of the DEX Score application, highlighting its key features and how it enhances digital experience of employees in an organization.
 

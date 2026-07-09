@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -196,6 +196,18 @@ API
 
 </td></tr><tr><td>
 
+LogicMonitor
+
+</td><td>
+
+API
+
+</td><td>
+
+Access token
+
+</td></tr><tr><td>
+
 New Relic
 
 </td><td>
@@ -299,6 +311,7 @@ Service Observability supports the following observability vendors:
 -   Cisco ThousandEyes synthetic tests
 -   Datadog
 -   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
 -   Prometheus on-premise
@@ -308,10 +321,8 @@ Service Observability supports the following observability vendors:
 
 ## Procedure
 
-1.  Navigate based on your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data sources**
-    -   Version 1.6 or later: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
 2.  Select your observability vendor.
 
 3.  On the **Add connection** form, fill in the fields.

@@ -30,7 +30,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -44,7 +44,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 6.  Enter the URL to the site in the **Site URL** field of the Create a Word document pop-up.
 
-    You can get the site URL location information if you hover over the Site URL \[Omitted image "icon-information.png"\] Alt text: Site URL icon icon.
+    You can get the site URL location information if you hover over the Site URL information icon.
 
     1.  To get the site URL, log in to the Microsoft SharePoint site.
 
@@ -86,7 +86,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
     You can also verify the users' access rights by navigating to the Microsoft SharePoint document, selecting the **Share** list in the Microsoft SharePoint document and clicking **Manage Access**. Sometimes the access rights that users have on the ServiceNow policy document may not be the same as the rights that users have when they collaborate on the document in the Microsoft SharePoint site. This is because of the root permissions that are set in Microsoft SharePoint site, which get inherited to the folders within the site. The users of the folders within the site inherit those permissions. You can override the permissions.
 
-    1.  To override the Microsoft SharePoint site permission, select the settings icon \(\[Omitted image "gear-outline-24.svg"\] Alt text: Settings icon.\).
+    1.  To override the Microsoft SharePoint site permission, select the Settings icon.
 
     2.  Select **Site permissions** option in the **Settings** list.
 
@@ -124,7 +124,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
     After the publishing process is complete, you can either attach the policy as a PDF to the policy record or generate a Knowledge Base article when the policy moves to the Published state.
 
-15. Select the attachments icon \(\[Omitted image "Form\_Attachment.png"\] Alt text: Attachment icon.\) in the sidebar of the policy's Overview related list to see the PDF version of the Knowledge Base article.
+15. Select the Attachments icon in the sidebar of the policy's overview related list to see the PDF version of the Knowledge Base article.
 
 16. To view the history of the policy, select the Policy history related list.
 

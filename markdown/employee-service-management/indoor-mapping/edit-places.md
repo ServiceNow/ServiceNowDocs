@@ -22,7 +22,7 @@ You can also configure shapes, names, and titles for a place type.
 
 ## Before you begin
 
-Configure places in the Indoor Mapping application. 
+\[Omitted video\] Description: Configure places in the Indoor Mapping application.
 
 Role required: sn\_map\_core.map\_admin
 

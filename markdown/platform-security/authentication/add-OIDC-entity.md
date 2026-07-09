@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
+last_updated: "2026-06-12"
+reading_time_minutes: 5
+breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Configure an OAuth OIDC provider for accepting third-party token
@@ -18,35 +18,119 @@ Configure an OAuth OpenID Connect \(OIDC\) provider to accept identity tokens ge
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## About this task
 
 The ServiceNow AI Platform supports OpenID Connect \(OIDC\) through the external Single Sign-On \(SSO\) implementation in addition to inbound API calls.
 
-For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-OIDC-configuration-SSO.md).
+For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
 
-2.  Select **Submit**.
+2.  Select **New**, then select **Configure an OIDC provider to verify ID tokens**, and then fill in the form.
+
+    Alternately, you can select an existing template for an OIDC provider \(ADFS, Auth0, Azure AD, Google, Okta\), and then fill in the form.
+
+<table id="table_sgc_qqv_yq"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+A unique name that identifies the OAuth OIDC entity.
+
+</td></tr><tr><td>
+
+Client ID
+
+</td><td>
+
+The client ID of the application registered in the third-party OAuth OIDC server. This value should be the same as the value of the `aud` claim in the JWT token.
+
+</td></tr><tr><td>
+
+OAuth API Script
+
+</td><td>
+
+A script you can use to customize requests and responses to an external OAuth provider.
+
+</td></tr><tr><td>
+
+OAuth OIDC Provider Configuration
+
+</td><td>
+
+The OIDC providers \(ADFS, Auth0, Azure AD, Google, Okta\) can be used to validate the JWT token. Select the record of your OIDC provider configuration to validate the **User Claim** and **User Field** are set appropriately. Also, make sure to fill the following fields:
+
+-   **Enable JTI claim verification**: When enables,the ServiceNow JWT token validation also validates the JTI sent by the provider.
+-   **OIDC Metadata URL**: Details of the Well-known configuration of the OIDC provider.
+**Note:** If validation isn’t checked, the `jti` can’t be validated, regardless if it’s present in the JWT token. The claim name in the token must be `jti`.
+
+</td></tr><tr><td>
+
+Clock Skew
+
+</td><td>
+
+The number, in seconds, for the constraint to be considered valid. The default is 300.
+
+</td></tr><tr><td>
+
+Enforce Token Restrictions
+
+</td><td>
+
+Select this option to allow only tokens used with APIs set to enable the authentication profile. You can grant access using an API access policy. For more information, see [Create REST API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-api-access-policy.md).
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Select the check box to make the OAuth application active.
+
+</td></tr><tr><td>
+
+Client Type
+
+</td><td>
+
+Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
+-   **Integration as a User**
+-   **Integration as a Service**
+To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
+
+</td></tr></tbody>
+</table>3.  Select **Submit**.
 
     The record is saved in the Application Registries \[oauth\_entity\] table.
 
-    When your instance issues tokens and authorization codes it creates a record in the Application Registries \[oauth\_entity\] table with type **External OIDC Provider**. See for more information.
+    When your instance issues tokens and authorization codes it creates a record in the Application Registries \[oauth\_entity\] table with type **External OIDC Provider**. For more information, see .
 
-3.  Go to the related list on the record OAuth Entity Profiles to validate a system-generated default profile for the new OAuth provider without any scope.
+4.  Go to the related list on the record OAuth Entity Profiles to validate a system-generated default profile for the new OAuth provider without any scope.
 
     You can change or add an OAuth provider profile including the name, grant type, and OAuth Scope.
 
-4.  Go to the related list on the record OAuth Entity Scopes to define all available OAuth scopes for this OAuth provider.
+5.  Go to the related list on the record OAuth Entity Scopes to define all available OAuth scopes for this OAuth provider.
 
     The scopes defined can be selected when you create or update a profile. Each OAuth scope defined contains a name and a scope that you must get from the provider specification, such as a read-scope or a write-scope. Each scope must be defined separately.
 
-5.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
+6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d182413e126">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d240203e308">
 
 **Automatically provision users**
 
@@ -54,7 +138,7 @@ For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d182413e135">
+</td></tr><tr><td id="d240203e317">
 
 **Provision data source**
 
@@ -62,7 +146,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d182413e156">
+</td></tr><tr><td id="d240203e338">
 
 **User roles applied to provisioned users**
 
@@ -78,9 +162,9 @@ Invoke a REST API call.
 
 Perform the following steps:
 
--   Register the app in the OpenID Connect Provider.
--   Configure the OAuth OIDC Entity.
--   Configure the OIDC Provider:
+1.  Register the app in the OpenID Connect Provider.
+2.  Configure the OAuth OIDC Entity.
+3.  Configure the OIDC Provider:
 
 <table id="table_wmd_ddz_gbc"><thead><tr><th>
 
@@ -131,9 +215,24 @@ Enable JTI claim verification
 When enabled, the ServiceNow JWT token validation will also validate the JTI sent by the provider. **Note:** If validation isn’t checked, the `jti` can’t be validated, regardless if it’s present in the JWT token. The claim name in the token must be `jti`. This information is used to help prevent replay attacks.
 
 </td></tr></tbody>
-</table>-   Get a JWT token.
--   Invoke a REST API call.
-    -   The ID token in the Authorization header to access Table API or scripted web service.
+</table>4.  Get a JWT token from your OIDC provider. The method depends on your provider and the OAuth flow your application uses. For example, to get an ID token from Okta using a resource owner password grant:
+
+    ```
+    curl -X POST https://<your-okta-domain>/oauth2/default/v1/token \
+      -H "Accept: application/json" \
+      -H "Content-Type: application/x-www-form-urlencoded" \
+      --data-urlencode "grant_type=password" \
+      --data-urlencode "username=<user@example.com>" \
+      --data-urlencode "password=<password>" \
+      --data-urlencode "scope=openid" \
+      --data-urlencode "client_id=<client_id>" \
+      --data-urlencode "client_secret=<client_secret>"
+    ```
+
+    Copy the `id_token` value from the response. Use this as the Bearer token in the next step.
+
+5.  Invoke a REST API call.
+    1.  Use the ID token in the Authorization header to access the Table API or a scripted web service.
 
         ```
         curl -X GET --header "Accept:application/json" https://<instance_name>.service-now.com/api/now/table/incident/897b04f2dbd4a300a135364e9d961952 -k 
@@ -147,7 +246,7 @@ When enabled, the ServiceNow JWT token validation will also validate the JTI sen
         Zq2v_mjproXwKk5euJKrVrar2lQ4adZCOSTRuTf3ThMO5WDh0sel-82LngXtLzRJJ51IqxAsXns0kJHLLqLtH1hXNRKfwT1ScQoE_OfWm4t0KryI2j4wSMEanFtLXIw"
         ```
 
-    -   If the user is authenticated, a valid application/json response is returned. Otherwise, a "User Not Authenticated" error message is returned.
+    2.  If the user is authenticated, a valid application/json response is returned. Otherwise, a "User Not Authenticated" error message is returned.
 
         ```
         User Not Authenticated

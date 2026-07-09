@@ -28,7 +28,7 @@ You can also select the characteristic options of the quantity characteristic fo
 
 Optionally, you can create decomposition rules for the selected source and target specification relationships. The specification relationships can have product, service, or resource specifications as the source specifications.
 
-**Note:** To learn more, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-order-decomposition.md).
+**Note:** To learn more, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/order-mgt-order-decomposition.md).
 
 ## Procedure
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [REST API Auth Scope, REST API access policies, API access policy, Authentication, Access Management]
+breadcrumb: [REST API Auth Scope, REST API access policies, API access policy, Access Management]
 ---
 
 # Configure REST API Auth scope

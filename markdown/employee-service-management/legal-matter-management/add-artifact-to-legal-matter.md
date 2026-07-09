@@ -32,19 +32,19 @@ Apart from the matter owner, a collaborator or a task fulfiller can also add an 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d66413e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d768142e108">
 
 Option
 
-</th><th align="left" id="d66413e111">
+</th><th align="left" id="d768142e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d66413e117">
+</th></tr></thead><tbody><tr><td id="d768142e117">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d66413e146">
+</td></tr><tr><td id="d768142e146">
 
 **As a collaborator**
 
@@ -121,5 +121,5 @@ Upload supporting documentation, such as documents, email copies, images, or any
 -   **[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/document-access-legal-matter.md)**  
 Documents attached to legal matters are uploaded to the configured external storage system when the external storage option is enabled on an intake form with All or matter type selected. The access permission of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

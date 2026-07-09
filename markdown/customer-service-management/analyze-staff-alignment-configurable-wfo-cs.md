@@ -32,23 +32,23 @@ Using Demand Forecast, you can:
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
+2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
-3.  Click the **Team Calendar** tab.
+3.  Select the **Team Calendar** tab.
 
 4.  Analyze staff alignment for each shift.
 
-    You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
+    You can Select the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d42802e117">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d43082e117">
 
 To analyze staff alignment
 
-</th><th align="left" id="d42802e120">
+</th><th align="left" id="d43082e120">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d42802e126">
+</th></tr></thead><tbody><tr><td id="d43082e126">
 
 **For each day**
 
@@ -67,7 +67,7 @@ The time slots are color-coded as below to show the coverage of agents in a part
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d42802e208">
+</td></tr><tr><td id="d43082e208">
 
 **For a given week**
 
@@ -83,10 +83,10 @@ The **Total coverage/demand** row has indicators for the staff alignment.
     |An arrow points upward|The predicated forecast is higher than the number of agents you need for that day|
     |A checkmark|The perfect alignment of the predicted forecast and the required number of agents.|
 
-2.  Click any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
+2.  Select any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
  You can also view the coverage and demand for every hour for each group.
 
-</td></tr><tr><td id="d42802e291">
+</td></tr><tr><td id="d43082e291">
 
 **For a given month**
 
@@ -108,7 +108,7 @@ Up to four weeks starting the week containing this date appear on the team calen
     |An arrow points upward|The predicated forecast is higher than the number of agents you need for that day|
     |A checkmark|The perfect alignment of the predicted forecast and the required number of agents.|
 
-4.  Click any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
+4.  Select any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
  You can also view the full day's coverage and demand for 28 days in a single view.
 
  The training, time-off, and meeting events that are less than four hours are hidden in the Month view.

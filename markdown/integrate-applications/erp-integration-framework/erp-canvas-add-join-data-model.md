@@ -40,7 +40,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add a join to.
 
@@ -52,7 +52,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
     For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
-    \[Omitted image "erpc-tables-with-joins-ys2.png"\] Alt text: Multiple tables are joined.
+    \[Omitted image "image.erpc-tables-with-joins-ys2"\] Alt text: Multiple tables are joined.
 
 7.  Rearrange the tables on the **Manage entities** tab to place the parent table for the join as the first table listed on the ERP model manager page.
 
@@ -84,7 +84,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
     5.  Select **Save**.
 
-    \[Omitted image "erpc-join-parameters.png"\] Alt text: Specify inputs page showing all tables and fields.
+    \[Omitted image "image.erpc-join-parameters"\] Alt text: Specify inputs page showing all tables and fields.
 
 10. Add or update any output parameters as needed in the Output parameters section.
 

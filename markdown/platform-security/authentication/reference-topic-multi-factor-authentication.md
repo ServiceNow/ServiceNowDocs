@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Reference topic - Multi-factor Authentication

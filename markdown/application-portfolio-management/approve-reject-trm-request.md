@@ -1,5 +1,5 @@
 ---
-title: Approve or reject a TRM product or product lifecycle request - Legacy
+title: Approve or reject TRM requests - Legacy
 description: As an Enterprise Architect, approve or reject a TRM product version request submitted by other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/approve-reject-trm-request.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Approve or reject a TRM product or product lifecycle request - Legacy
+# Approve or reject TRM requests - Legacy
 
 As an Enterprise Architect, approve or reject a TRM product version request submitted by other users.
 

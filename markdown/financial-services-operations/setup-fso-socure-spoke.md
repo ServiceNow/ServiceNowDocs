@@ -20,6 +20,6 @@ Role required: admin
 
 ## Procedure
 
-1.  To set up the Socure spoke, follow the instructions in Set up the Socure spoke.
+1.  To set up the Socure spoke, follow the instructions in [Set up the Socure spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-socure.md).
 
 

@@ -1,5 +1,5 @@
 ---
-title: Monitor performance, costs, and workloads in Application 360 - Legacy
+title: Monitor Application 360 dashboard - Legacy
 description: Application 360 dashboard performs as a reporting tool and uses Performance Analytics to provide a decision-making approach to Enterprise Architecture by identifying which business application requires focus and attention. The dashboard helps you to analyze the indicator scores and execute effective decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/applications-360-dashboard.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Monitor performance, costs, and workloads in Application 360 - Legacy
+# Monitor Application 360 dashboard - Legacy
 
 Application 360 dashboard performs as a reporting tool and uses Performance Analytics to provide a decision-making approach to Enterprise Architecture by identifying which business application requires focus and attention. The dashboard helps you to analyze the indicator scores and execute effective decisions.
 
@@ -41,7 +41,7 @@ Role required: sn\_apm.apm\_analyst
 **Related topics**  
 
 
-[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_GenerateReports.md)
+[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_GenerateReports.md)
 
-[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-and-edit-dashboards.md)
 

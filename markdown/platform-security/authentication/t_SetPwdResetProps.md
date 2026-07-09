@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Password Reset, Local authentication, Authentication, Access Management]
+breadcrumb: [Password Reset, Local authentication, Access Management]
 ---
 
 # Configure Password Reset properties
@@ -30,7 +30,7 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 1.  Navigate to **All** &gt; **Password Reset** &gt; **Properties**.
 
-    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/password-reset-global-properties.md).
+    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset-global-properties.md).
 
 2.  Update settings as needed and then click **Save**.
 

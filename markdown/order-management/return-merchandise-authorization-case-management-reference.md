@@ -20,6 +20,8 @@ Information about Return Merchandise Authorization \(RMA\) case table fields.
 Information about Return Merchandise Authorization \(RMA\) case line table fields.
 -   **[Return Merchandise Authorization roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization-roles.md)**  
 Information about Return Merchandise Authorization \(RMA\) roles.
+-   **[RMA case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rma-case-line-form.md)**  
+Fields on the Return Merchandise Authorization \(RMA\) case line form.
 
 **Parent Topic:**[Order operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-order-operations.md)
 

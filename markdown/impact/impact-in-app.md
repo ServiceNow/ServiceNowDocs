@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-in-app.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-06-26"
 reading_time_minutes: 2
 breadcrumb: [Impact]
 ---
@@ -45,18 +45,6 @@ Details
 
 </td></tr><tr><td align="center">
 
-\[Omitted image "bus-featured.svg"\] Alt text:
-
-</td><td>
-
-[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/using-recommendations-iip-ws.md)
-
-</td><td>
-
-Use the recommendations full list to view the recommendations tailored for you.
-
-</td></tr><tr><td align="center">
-
 \[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:
 
 </td><td>
@@ -66,6 +54,18 @@ Use the recommendations full list to view the recommendations tailored for you.
 </td><td>
 
 Use diagnostic tools that help you understand the current health of your instance, identify potential issues and setbacks, and take quick corrective action.​
+
+</td></tr><tr><td align="center">
+
+\[Omitted image "bus-featured.svg"\] Alt text:
+
+</td><td>
+
+[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/using-recommendations-iip-ws.md)
+
+</td><td>
+
+Use the recommendations full list to view the recommendations tailored for you.
 
 </td></tr><tr><td align="center">
 
@@ -118,5 +118,5 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 View your tier features across various accounts including used and unused accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
 
 </td></tr></tbody>
-</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Manage Impact users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md) for additional information.
+</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md) for additional information.
 

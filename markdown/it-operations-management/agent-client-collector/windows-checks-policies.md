@@ -405,7 +405,7 @@ User Name and Status
 
 </td></tr><tr><td>
 
-os.windows.check-windows-service
+util.windows.check-windows-service
 
 </td><td>
 

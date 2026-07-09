@@ -14,7 +14,7 @@ breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 
 If you have the admin role, you can configure the Now Assist for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in CSM Configurable Workspace and in Core UI.
 
-Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the available Now Assist plugins and configure generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the available Now Assist plugins and configure generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that are available for use with Now Assist for Public Sector Digital Services \(PSDS\) and are accessible through the Now Assist Admin console.
 
@@ -57,5 +57,5 @@ Search
 </td></tr></tbody>
 </table>**Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 

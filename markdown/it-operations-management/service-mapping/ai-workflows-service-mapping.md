@@ -20,9 +20,9 @@ Service Mapping AI capabilities helps Service Mapping Administrators speed-up ma
 ## Available AI agents and MCP tools
 
 -   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
-AI Agents for Service Mapping are autonomous AI agents that automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
+The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 -   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
-The Service Mapping tools, delivered as part of the Now Assist CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology and mapping gaps in natural language.
+The Service Mapping tools, delivered as part of the CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology, identify mapping gaps, and create new application services in natural language.
 
 **Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/using-service-mapping.md)
 

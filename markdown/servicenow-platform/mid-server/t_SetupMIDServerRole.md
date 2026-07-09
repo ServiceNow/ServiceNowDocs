@@ -9,7 +9,7 @@ classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create the MID Server user and grant the role

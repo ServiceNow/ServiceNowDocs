@@ -1,5 +1,5 @@
 ---
-title: Assign user roles
+title: Telecom Network Inventory roles
 description: You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.html
@@ -7,19 +7,19 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Assign user roles
+# Telecom Network Inventory roles
 
 You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 
 You assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 The Telecommunications Network Inventory provides the following roles:
 
@@ -53,7 +53,7 @@ Inventory Template Manager \[sn\_ni\_core.inventory\_template\_manager\]
 
 </td><td>
 
-Role that enables a user with create, read, edit, and delete access to the network inventory templates for the new or existing entities. Also, this role enables the user to perform a Create, Read, Update, Delete \(CRUD\) operation on the default template.
+Role that enables a user with create, read, edit, and delete access to the network inventory templates for new or existing entities. This role also enables CRUD \(create, read, update, delete\) operations on the default template.
 
 </td></tr><tr><td>
 
@@ -77,5 +77,19 @@ Role that enables a user with the following permissions:-   Read access to all t
 -   Write, update, and delete access to the telephone number tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
+</table>Starting with the Telecommunications Network Inventory June 2026 release, the following standard ServiceNow platform roles no longer have read access to specific TNI tables. This change was made to ensure that subscription consumption accurately reflects only the products a customer has purchased.
+
+Users assigned any of the roles in the following table can no longer read or query the affected tables. You can explicitly grant access by assigning the appropriate TNI-specific roles to those users.
+
+|Table|Role removed|ACL type removed|
+|-----|------------|----------------|
+|tni\_entity|asset|Read, Report view|
+|tni\_entity|sn\_cmdb\_user|Read, Report view|
+|tni\_entity|cmdb\_read|Read|
+|tni\_entity|itil|Read, Report view|
+|sn\_ni\_core\_licensing\_resource\_count|usage\_admin|Read, Report view|
+
+**Note:** The tni\_entity table is owned by TNI Core and is populated when a CI \(configuration item\) is created via TNI. The sn\_ni\_core\_licensing\_resource\_count table is owned by TNI Core and stores licensing resource count data.
+
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

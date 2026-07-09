@@ -15,7 +15,7 @@ Use ServiceNow® for Operational Technology \(OT\) to help your organization str
 
 ## Operational Technology overview
 
-Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
+Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.\[Omitted video\] Description: Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
 
 \[Omitted image "ot-benefits-landing.png"\] Alt text: Overview explanation of benefits in Operational Technology, Core Operations, and empowering factory workers.
 
@@ -70,7 +70,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
     Helps streamline processes in the Industrial Workspace related to your OT device data.
 
--   
+-   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-discovery-landing.md)
 
     Amplifies the visibility of devices in your OT environment.
 
@@ -119,7 +119,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
     User interface that provides you with the tools you need to manage your OT data.
 
 -   Service Management: [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ITServiceManagement.md)
--   Security: [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vulnerability-response/vuln-landing-page.md)
+-   Security: [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vuln-landing-page.md)
 -   Visibility: [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_ITOMApplications.md)
 
 ## Get started

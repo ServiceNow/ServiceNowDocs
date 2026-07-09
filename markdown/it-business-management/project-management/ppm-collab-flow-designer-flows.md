@@ -1,5 +1,5 @@
 ---
-title: Flows designed to synchronize projects with your collaboration tool
+title: Flows to synchronize projects with collaboration tools
 description: Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/ppm-collab-flow-designer-flows.html
@@ -9,10 +9,10 @@ classification: project-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Collaboration application overview, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Flows designed to synchronize projects with your collaboration tool
+# Flows to synchronize projects with collaboration tools
 
 Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 
@@ -163,16 +163,16 @@ Risk Flow Teams\[risk\_created\_teams\]
 Posts a message to the project channel or team whenever a Risk with probability **High** or **Absolute** is created or if the probability of an existing risk is updated to **High** or **Absolute**.
 
 </td></tr></tbody>
-</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-activate.md).
+</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-activate.md).
 
-If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-edit.md).
+If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-edit.md).
 
 **Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md)
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md)
 

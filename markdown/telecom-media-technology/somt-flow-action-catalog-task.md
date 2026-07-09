@@ -16,7 +16,7 @@ Use the task plan template to define tasks and their dependencies that are neede
 
 A no-code approach in ServiceNow® that allows you to create task orchestration workflows using task plan templates. It as an alternative to flow designer, giving more options for implementing product configurations.
 
-For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-flow-actions-fulfillment-subflows.md).
+For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/order-mgt-flow-actions-fulfillment-subflows.md).
 
 When the template is configured for a specification, the out of box logic, on domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/task-plan-templates.md).
 

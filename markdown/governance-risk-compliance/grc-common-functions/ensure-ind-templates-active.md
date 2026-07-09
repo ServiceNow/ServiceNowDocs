@@ -30,8 +30,6 @@ Starting with version 12.0.1 of the Technology Controls Monitoring Accelerator a
 
 2.  Locate and open **GRC: Update Plugin Activation Status in Indicator-Plugin Mapping table**.
 
-    \[Omitted image "sched-job.png"\] Alt text: Scheduled Script Execution
-
 3.  Click **Execute Now**.
 
     The job scans the Indicator Template to Plugin Mapping table \[sn\_grc\_ind\_template\_plugin\_mapping\_details\] on your instance, and 1\) determines which applications that can use the Technology Controls Monitoring Accelerator for monitoring indicator templates are installed on your instance, and 2\) automatically activates the indicator templates that are mapped to tables in those applications.

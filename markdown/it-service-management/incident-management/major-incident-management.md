@@ -16,7 +16,7 @@ breadcrumb: [Incident Management, IT Service Management]
 
 A major incident \(MI\) is an incident that results in significant disruption to the business. A major incident demands a response beyond the routine incident management process. Major incidents have a separate procedure with shorter timescales and higher priority, so that there is a faster resolution process for incidents with high business impact.
 
-Introduction to Major Incident Management 
+\[Omitted video\] Description: Introduction to Major Incident Management
 
 The definition of what constitutes a major incident must be determined and agreed on. For example, a major incident can be created if a critical business service is impacted or if there is a service outage that affects many users.
 
@@ -34,7 +34,7 @@ As a major incident manager, you can do the following:
 -   Create a new major incident by clicking **Create Major Incident** from the left navigation pane.
 -   Promote an incident to a major incident without going through the proposal process.
 
-When responding to a major incident, some crucial actions involve finding the right resources, communicating updates to users and stakeholders, setting up conference calls to investigate and resolve the incident, and escalating the incident when required. Using [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/tcm-landing-page.md), you can define communication plans that are associated with a major incident based on pre-defined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. Thereafter, tasks get executed as defined in the attached incident communication.
+When responding to a major incident, some crucial actions involve finding the right resources, communicating updates to users and stakeholders, setting up conference calls to investigate and resolve the incident, and escalating the incident when required. Using [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/tcm-landing-page.md), you can define communication plans that are associated with a major incident based on pre-defined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. Thereafter, tasks get executed as defined in the attached incident communication.
 
 -   **[Major Incident Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-management-process.md)**  
 A major incident is a highest-impact, highest-urgency incident that affects a large number of users, depriving the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.

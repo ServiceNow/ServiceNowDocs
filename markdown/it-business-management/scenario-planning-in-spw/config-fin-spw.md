@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Enable budget allocation and define a budget attribute, cost type or expense type, to allocate budget for your planning items.
 
-    For more information see [Enable financial budget allocation for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md)
+    For more information see [Enable financial budget allocation for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md)
 
 5.  Enable financial benefit planning for planning items in workspace view.
 
@@ -68,7 +68,7 @@ Role required: admin
 
 12. Activate and define scheduled job to automatically migrate budget for your planning items.
 
-    For more information, see [Activate a scheduled job to migrate budget of your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+    For more information, see [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
 13. Activate and define a scheduled job to migrate financial baselines for your planning items.
 
@@ -76,10 +76,10 @@ Role required: admin
 
 14. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
 
-    For more information, see [Activate scheduled job to create financial baselines for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md).
+    For more information, see [Activate scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md).
 
 15. Activate and define scheduled jobs to automatically generate labor costs for your planning items based on the attribute-based resource assignments at a defined cadence.
 
-    For more information, see [Activate scheduled job to generate labor costs for your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

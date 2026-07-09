@@ -1,6 +1,6 @@
 ---
 title: Configure a connection for the UKG spoke
-description: Add and configure a connection using the UKG spoke connection template in Flow Designer to authenticate ServiceNow requests to your Kronos instance.
+description: Add and configure a connection using the UKG spoke connection template in Flow Designer to authenticate ServiceNow requests to your UKG instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/configure-connection-ukg-spoke.html
 release: zurich
@@ -8,13 +8,13 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [UKG Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Configure a connection for the UKG spoke
 
-Add and configure a connection using the UKG spoke connection template in Flow Designer to authenticate ServiceNow requests to your Kronos instance.
+Add and configure a connection using the UKG spoke connection template in Flow Designer to authenticate ServiceNow requests to your UKG instance.
 
 ## Before you begin
 
@@ -25,6 +25,10 @@ Activate the UKG Spoke.
 Role required: admin
 
 **Note:** If you're updating from a previous version \(before version 3.3.0\) of the spoke, first you must remove the current connection record, credentials record, and Kronos user credentials. Then, you can set up the connection.
+
+UKG has updated its authentication mechanism from legacy Auth to AuthN. If you're setting up the spoke for the first time, use AuthN to configure the spoke. If you have previously configured the spoke using the legacy Auth, you can continue using your existing configuration or migrate to AuthN.
+
+**Note:** Verify that the application registry, connections, and credentials are within the application scope.
 
 ## Procedure
 
@@ -70,11 +74,27 @@ URL of the Kronos instance.
 
 </td></tr><tr><td>
 
-App Key
+Realm
 
 </td><td>
 
-Application key of the Kronos instance.
+Realm of the Kronos instance.
+
+</td></tr><tr><td>
+
+Username
+
+</td><td>
+
+Username to log in to the user's account in Kronos.
+
+</td></tr><tr><td>
+
+Password
+
+</td><td>
+
+Password of the Kronos user account.
 
 </td></tr><tr><td>
 
@@ -82,7 +102,9 @@ OAuth Entity Name
 
 </td><td>
 
-Unique name to identify the OAuth entity profile of the UKG spoke. For example, select `UKG OAuth entity`.
+Unique name to identify the OAuth entity profile of the UKG spoke. For example, select `UKG OAuth entity`
+
+.
 
 </td></tr><tr><td>
 
@@ -114,6 +136,20 @@ OAuth server token endpoint. For example, `https://<Kronos-Instance>.com/api/aut
     A modal page displays to enter your Kronos credentials.
 
 7.  Enter your Kronos username and password and select **Get OAuth Token**.
+
+8.  If you're using the legacy Auth mechanism, you must provide user credentials.
+
+    For more information, see [Provide Kronos user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-user-cred-kronos.md).
+
+9.  If you're using the legacy Auth mechanism, you must set the refresh token lifespan.
+
+    1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
+
+    2.  Open the record for the Kronos spoke.
+
+    3.  On the form, navigate to the **Refresh Token Lifespan** field.
+
+    4.  Enter `28800`.
 
 
 ## Result

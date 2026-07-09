@@ -17,7 +17,7 @@ Legal and Contract Operations empowers organizations to accelerate the delivery 
 Through Legal Service Delivery \(LSD\) and Contract Management Pro \(CM Pro\) of Legal and Contract Operations, transform fragmented and manual legal and contract processes into efficient and structured workflow. By replacing fragmented, manual processes with centralized request handling, automated workflows, and intuitive self-service, empower teams to operate with greater speed, precision, and agility.
 
 -   Legal Service Delivery provides a unified experience between the employees requesting legal support and the legal teams serving them.
--   Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+-   Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 
 \[Omitted image "MMASSET0021500\_LCO.png"\] Alt text: Overview image of Legal and Contract Operations displaying the various components of Legal Service Delivery and Contract Management Pro.
 

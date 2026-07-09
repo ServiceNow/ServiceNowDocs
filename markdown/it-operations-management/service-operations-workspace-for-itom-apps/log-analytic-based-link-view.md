@@ -1,5 +1,5 @@
 ---
-title: Viewing links between alerts in log analytics-based alert groups
+title: Viewing alert links in log analytics-based groups
 description: Use Link View in Express List to see why alerts in a log analytics-based alert group are correlated together through the visualization of shared attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/log-analytic-based-link-view.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Viewing links between alerts in log analytics-based alert groups
+# Viewing alert links in log analytics-based groups
 
 Use Link View in Express List to see why alerts in a log analytics-based alert group are correlated together through the visualization of shared attributes.
 

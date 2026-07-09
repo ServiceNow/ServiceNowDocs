@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -46,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d52608e143">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d86127e144">
 
 Field
 
-</th><th align="left" id="d52608e146">
+</th><th align="left" id="d86127e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52608e152">
+</th></tr></thead><tbody><tr><td id="d86127e153">
 
 **Name**
 
@@ -65,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d52608e178">
+</td></tr><tr><td id="d86127e179">
 
 **Type**
 
@@ -73,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d52608e187">
+</td></tr><tr><td id="d86127e188">
 
 **Value**
 
@@ -82,7 +82,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Select **Submit**.
 

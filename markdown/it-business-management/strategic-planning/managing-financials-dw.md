@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-01-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -52,5 +52,5 @@ Portfolio managers can manage and approve the budget for demands. The approved b
 
 ## Benefit plans
 
-Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create and manage benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.md).
+Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.md).
 

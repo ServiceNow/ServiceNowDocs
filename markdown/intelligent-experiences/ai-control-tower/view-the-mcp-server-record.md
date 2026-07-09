@@ -43,7 +43,7 @@ The MCP server record has the following tabs:
     }
     ```
 
-    For more information on workflow of MCP server approval request, see [Explore the MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md).
+    For more information on workflow of MCP server approval request, see [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md).
 
 3.  KPIs &amp; Metrics: Displays the MCP tools observability metrics for each server, which is approved and running. In the **KPIs &amp; Metrics** tab, the AI steward can view different tools, which have been invoked across gateway usage from different hosts. The tab shows the total number of requests sent, the success rate, and any latency observed.
 
@@ -64,7 +64,7 @@ The MCP server record has the following tabs:
 
     -   MCP Client Integration: Displays Registered clients for the server. Each agent builder requires its own client registration and MCP client Integration generates a client ID and client secret. If you want to enable AI Agent Studio for a linear MCP server, you can create an MCP client integration by selecting **Add**.
 
-        **Note:** For more information Gateway setup and MCP Client Integration, see [Set up the AI Gateway and Client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md).
+        **Note:** For more information Gateway setup and MCP Client Integration, see [Configure Client registration and AI Gateway Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md).
 
     -   Global MCP Clients: Global MCP clients are set up separately from server records. You can configure them on the Configurations page of AI Control Tower in the [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-gateway.md) section. Once they're created, they're automatically available across all MCP servers, so there's no need to set up individual client integrations for each server.
 5.  Related Variants: The **Related Variants** tab provides a one-to-one mapping of all the MCP server entries from AI Agent Studio, so that each entry is visible and trackable in AI Control Tower. In the **Related Variants** tab, you can have multiple MCP servers of the same variant.

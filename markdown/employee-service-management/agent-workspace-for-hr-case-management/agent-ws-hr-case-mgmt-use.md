@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -31,11 +31,9 @@ You can start work in the Agent Workspace for HR Case Management from one of the
 -   Phone
 -   Global search
 
-For additional information on working within Agent Workspace, see [Using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-workspace.md).
-
 HR case form enables you to manage multiple cases, view information that is related to a case, and use knowledge articles or similar cases to manage the case.
 
-\[Omitted image "agent-ws-hr-case-mgmt-explore.png"\] Alt text: Agent Workspace for HR Case Management - Case form
+\[Omitted image "agent-ws-hr-case-mgmt-explore.png"\] Alt text: HR case form in Agent Workspace showing tabs, form header, UI actions, related items, case details, activity stream, and contextual side panel
 
 <table id="table_obz_g2x_gjb"><thead><tr><th>
 
@@ -139,16 +137,14 @@ Contextual side panel
 
 </td><td>
 
-Manage and work on the case using various task-oriented icons. The icons appearing on the Contextual side panel depend on the type of case that you are working on. For more information, see .
+Manage and work on the case using various task-oriented icons. The icons appearing on the Contextual side panel depend on the type of case that you're working on. For more information, see [Agent Workspace for HR Case Management contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md).
 
 </td></tr></tbody>
 </table>## HR profile icons
 
 Icons that enable you to get quick access to information about the opened for and subject person.
 
--   \[Omitted image "hr-profile-icon.png"\] Alt text: HR profile icon: Select the **Open HR Profile** icon to access detailed information related to the person in the HR case. You will see details like HR profile, employee information, contact information, cases opened for the person etc. The same information is briefly displayed in the At-a-glance side panel.
--   \[Omitted image "magnifying-glass.png"\] Alt text: Search for record icon: Select the **Search for Record** icon to access a list of all related records within your company. The list is displayed relevant to the field on which you are searching. You can filter or sort in the list to refine your search results.
--   \[Omitted image "deep-link-icon.png"\] Alt text: Open deep link icon: Select the Open deep link icon to access information outside of the application to help fulfill the case. For information about configuring deep links, see [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
-
-**Note:** For information on how to set up custom actions on record fields, see Set up custom actions on record fields in Workspace.
+-   \[Omitted image "hr-profile-icon.png"\] Alt text:: Select the **Open HR Profile** icon to access detailed information related to the person in the HR case. You will see details like HR profile, employee information, contact information, cases opened for the person etc. The same information is briefly displayed in the At-a-glance side panel.
+-   \[Omitted image "magnifying-glass.png"\] Alt text:: Select the **Search for Record** icon to access a list of all related records within your company. The list is displayed relevant to the field on which you're searching. You can filter or sort in the list to refine your search results.
+-   \[Omitted image "deep-link-icon.png"\] Alt text:: Select the Open deep link icon to access information outside of the application to help fulfill the case. For information about configuring deep links, see [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
 

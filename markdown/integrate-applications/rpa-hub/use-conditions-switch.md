@@ -18,7 +18,7 @@ Find the exact match of a value among multiple values as part of an automation W
 
 Watch this video to learn how to use the Switch component.
 
-How to use the Switch component. 
+\[Omitted video\] Description: How to use the Switch component.
 
 ## Before you begin
 

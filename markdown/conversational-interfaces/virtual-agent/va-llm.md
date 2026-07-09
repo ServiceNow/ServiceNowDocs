@@ -20,7 +20,7 @@ Large language models \(LLMs\) enable Virtual Agent to process user statements i
 
 Watch this video to learn about LLM topics in Virtual Agent Designer.
 
-Virtual Agent Designer LLM topic authoring video 
+\[Omitted video\] Description: Virtual Agent Designer LLM topic authoring video
 
 When you create a topic in Virtual Agent Designer, you can select LLM as the model type for your topic whenever Now Assist in Virtual Agent is turned on. Virtual Agent then uses LLM generative AI to discover topics that match the user's intent.
 
@@ -33,7 +33,7 @@ With LLMs, Virtual Agent can do the following:
 -   Extract entity values without prior mapping as in NLU modeling.
 -   Handle multiple conversation topic switches in a single conversation session.
 
-For more information about LLMs, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+For more information about LLMs, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Topic discovery
 
@@ -51,7 +51,7 @@ Topic switching is faster and easier with LLMs compared to NLU topics. The LLM p
 
 For example, if you start a conversation by asking for a mobile phone, you don't have to cancel the order first or restart the conversation. Instead, you can ask Virtual Agent to order a laptop instead. Virtual Agent immediately switches from the mobile phone topic to the laptop topic. Topic switching can be done during a query, but not within a catalog ordering flow.
 
-Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-small-talk.md) and [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
+Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-small-talk.md) and .
 
 ## Additional resources
 

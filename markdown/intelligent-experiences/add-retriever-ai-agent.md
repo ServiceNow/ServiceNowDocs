@@ -66,7 +66,7 @@ Search profile
 
 </td><td>
 
-Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-profiles-ais.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Search sources
 
 </td><td>
 
-One or multiple sources that you want to add to your search profile. To learn more about the search sources, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+One or multiple sources that you want to add to your search profile. To learn more about the search sources, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-profiles-ais.md).
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Zabbix templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---

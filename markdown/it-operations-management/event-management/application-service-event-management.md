@@ -16,7 +16,7 @@ breadcrumb: [Configuring Event Management, Event Management, ITOM AIOps, IT Oper
 
 An application service is a set of interconnected applications and hosts which are configured to offer a service to the organization.
 
-For general information on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For general information on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/application-services.md).
 
 -   **[Manually create an application service in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-an-application-service.md)**  
 You can manually create an application services. Event Management can use application services to monitor service performance and identify health issues.
@@ -34,7 +34,7 @@ Create service groups to combine similar services. Organize services by groups t
 Assign an Event Management role to the application service group to ensure that group members can manage and act on alerts.
 -   **[Activate and configure Service Mapping for top-down discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMGetBaselineServiceMapping.md)**  
 A top-down discovery provides a list of CIs and their interrelationships. This information is useful for managing software services and hardware issues that are associated with alerts.
--   **[Configure email notification on application service severity change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)**  
+-   **[Configure email notifications for service severity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)**  
 Configure an email notification to notify users when there is an application service severity change.
 
 **Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EM.md)

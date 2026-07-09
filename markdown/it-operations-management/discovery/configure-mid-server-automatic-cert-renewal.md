@@ -79,5 +79,5 @@ Your MID Server is configured for automatic certificate renewal.
 
 ## What to do next
 
-To complete the process of configuring yourself for automatic certificate renewal, you must complete the required steps to [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md) and [Configure System Properties for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md).
+To complete the process of configuring yourself for automatic certificate renewal, you must complete the required steps to [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md) and [Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md).
 

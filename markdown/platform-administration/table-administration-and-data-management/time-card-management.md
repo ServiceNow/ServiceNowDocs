@@ -16,7 +16,7 @@ breadcrumb: [Working with Task table, Table admin, Tables and data, Configure co
 
 The Time Card Management feature enables time card users such as task assignees to report and track their time for the assigned tasks.
 
-Video explaining how to set up the time tracking feature for projects, enter time, and approve time cards.Watch this three-minute video to learn about setup of the time tracking feature, entering time and approvals.
+\[Omitted video\] Description: Video explaining how to set up the time tracking feature for projects, enter time, and approve time cards.Watch this three-minute video to learn about setup of the time tracking feature, entering time and approvals.
 
 Time Card Management works with the Task table to record time worked on various task types, such as projects, incidents, problems, and change requests.
 
@@ -36,7 +36,7 @@ With the Time Card Management feature:
 
 -   The time card admin can create and manage [time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md), and can also approve or reject by exception and process the time sheets. Time card admin can also create or edit time cards of any users if the time cards are in Pending or Rejected state.
 
-**Note:** The [Time Card Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md) \(com.snc.financial\_planning\_pmo\).
+**Note:** The [Time Card Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/c_ProjectApplicationOverview.md) \(com.snc.financial\_planning\_pmo\).
 
 ## Domain separation in Time Card Management
 

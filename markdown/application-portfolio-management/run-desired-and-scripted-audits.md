@@ -1,5 +1,5 @@
 ---
-title: Run audits to determine invalid and missing configuration data - Legacy
+title: Run configuration data audits - Legacy
 description: Run the scripted audits and desired state audit to determine invalid and missing information in the configuration data. These audits help you find the gaps in business capability, business application, software models, and the life-cycle information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/run-desired-and-scripted-audits.html
@@ -10,7 +10,7 @@ reading_time_minutes: 5
 breadcrumb: [Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Run audits to determine invalid and missing configuration data - Legacy
+# Run configuration data audits - Legacy
 
 Run the scripted audits and desired state audit to determine invalid and missing information in the configuration data. These audits help you find the gaps in business capability, business application, software models, and the life-cycle information.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: knowledge\_admin or admin
 
 3.  Click the lock icon to unlock the **Languages** field in the Knowledge base form.
 
-    **Note:** You may need to configure the knowledge base form to include the **Languages** field. Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: context menu\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
+    **Note:** You may need to configure the knowledge base form to include the **Languages** field. Click the form context menu icon and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
 
 4.  Click **Submit**.
 

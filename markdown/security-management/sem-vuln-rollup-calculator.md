@@ -56,8 +56,6 @@ Also, consider the following weights in the vulnerability rollup calculator:
 -   Average risk score: 5
 -   Count of vulnerable items: 15
 
-\[Omitted image "RollupCalculator.png"\] Alt text: Vulnerability rollup calculator example with a maximum risk score of 80, an average risk score of 5, and a count of vulnerable items of 15.
-
 In the Vulnerability rollup calculator example, the formula for determining the remediation task **Risk Score** is:
 
 \(**Maximum risk score**/100\) \* 80 + \(**Average risk score** /100\) \* 5 + \(factor \* 15\)
@@ -80,8 +78,6 @@ So, for the remediation task, VUL324567:
 -   Factor is 0.2
 
 The **Risk Score** would be 45 \[\(50/100\) \* 80 + \(40/100\) \* 5 + 0.2 \* 15 = 40 + 2 + 3 = 45\]
-
-\[Omitted image "epss-rollup-calculator.png"\] Alt text: EPSS rollup calculator script.
 
 ## EPSS Rollup calculator - Example
 

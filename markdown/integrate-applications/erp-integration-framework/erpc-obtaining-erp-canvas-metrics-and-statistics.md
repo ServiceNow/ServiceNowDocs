@@ -24,7 +24,7 @@ To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** 
 
 Select areas or items in the charts, graphs, and lists on the dashboard to view the underlying records. For example, select a section of a donut chart to see a list of the records for that section.
 
-\[Omitted image "erpc-home-page-records.png"\] Alt text: Donut chart with one section selected.
+\[Omitted image "image.erpc-home-page-records"\] Alt text: Donut chart with one section selected.
 
 ## Dashboard tabs
 
@@ -32,7 +32,7 @@ The **Recent overview** tab contains information obtained in the last 24 hours.
 
 The **Historical overview** tab contains all information.
 
-\[Omitted image "erpc-home-page-dashboard.png"\] Alt text: Zero Copy Connector for ERP dashboard with recent overview tab open.
+\[Omitted image "image.erpc-home-page-dashboard"\] Alt text: Zero Copy Connector for ERP dashboard with recent overview tab open.
 
 |Title|Type|Description|
 |-----|----|-----------|

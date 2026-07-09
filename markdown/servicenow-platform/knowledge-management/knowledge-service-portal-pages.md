@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,7 +66,7 @@ This action is available to logged-in users with the knowledge role. Click **Ask
 
 </td></tr><tr><td>
 
-Overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\)
+Overflow icon
 
 </td><td>
 

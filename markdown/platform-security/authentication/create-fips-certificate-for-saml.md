@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2026-02-01"
 reading_time_minutes: 2
-breadcrumb: [\(Optional\) Set keystore properties for signing logout requests for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [\(Optional\) Set keystore properties for signing logout requests for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Create self-signed BCFKS keystore for SAML

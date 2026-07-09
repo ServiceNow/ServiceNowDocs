@@ -63,7 +63,7 @@ Role required: agent\_client\_collector\_admin
 
     4.  Create a new policy and add the newly created check definition.
 
-        For details on creating a policy, see [Create a new Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
+        For details on creating a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
 
     5.  Select the check definition and in the **Related Links** section, select **Test check**.
 
@@ -75,7 +75,7 @@ Role required: agent\_client\_collector\_admin
 
     3.  Select the type of credentials you want to create.
 
-        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
+        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
     4.  Enter values in the fields on the page to assign credentials to your selected credential type.
 

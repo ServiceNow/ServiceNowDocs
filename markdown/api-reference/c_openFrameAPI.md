@@ -581,7 +581,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)
+-   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_EncodedQueryStrings.md)
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -3387,7 +3387,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/transfer-chat-queue.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -3427,7 +3427,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/transfer-chat-queue.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.

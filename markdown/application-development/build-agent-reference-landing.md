@@ -16,7 +16,7 @@ breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Dev
 Reference topics provide additional information about using Build Agent to create and edit apps, as well as ServiceNow metadata.
 
 -   **[Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-supported-metadata.md)**  
-Metadata and app file types that Build Agent can create and manage. Ask Build Agent or Build Agent use this reference when determining compatibility for your development workflow.
+Metadata and app file types that Build Agent can create and manage.
 -   **[Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md)**  
 Explore example prompts for building apps, as well as adding governance, UI and other ServiceNow metadata to help you get started with prompting Build Agent.
 -   **[Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-supported-file-types.md)**  

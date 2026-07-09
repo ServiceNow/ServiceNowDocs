@@ -30,19 +30,19 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d66422e116">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d210498e116">
 
 Option
 
-</th><th align="left" id="d66422e119">
+</th><th align="left" id="d210498e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d66422e125">
+</th></tr></thead><tbody><tr><td id="d210498e125">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d66422e154">
+</td></tr><tr><td id="d210498e154">
 
 **As a collaborator**
 

@@ -23,7 +23,7 @@ Agents can work on the records for the following callback scenarios.
 -   Recurring callback: AWA routes a callback work item to an available agent based on the predefined callback attempt interval. The agent then receives a **Callback** work item. When the agent accepts the callback work item, auto-dial initiates a call to the user. Based on the resolution, the agent can either close the interaction or requeue the callback.
 -   Click to call: The agent can directly call the end user using the phone icon in the interaction record if auto-dial is not enabled or the initial call did not succeed.
 -   Scheduled voice callback: When a user requests a voice callback at their preferred date and time, an interaction record with callback details is created a minute before the scheduled call time and an agent receives the callback work item. When the agent accepts the callback work item, auto-dial initiates a call to the user. Based on the outcome, the agent can either close the interaction as **Closed Complete** or **Closed Abandoned**.
--   Scheduled video callback: When a user requests a video callback at their preferred date and time, an interaction record with callback details is created which includes a URL to initiate the video call. Based on the outcome, the agent can either close the interaction as **Closed Complete** or **Closed Abandoned**.
+-   Scheduled video callback: When a user requests a video callback at their preferred date and time, an interaction record with callback details is created which includes a URL to initiate the video call. Based on the outcome, the agent can either close the interaction **Closed Complete** or **Closed Abandoned**.
 
 <table id="table_ch5_5nf_jvb"><thead><tr><th>
 

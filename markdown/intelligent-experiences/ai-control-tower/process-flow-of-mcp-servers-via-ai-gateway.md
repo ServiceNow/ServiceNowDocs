@@ -25,6 +25,6 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
     -   [ServiceNow AI Agent studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.md)
     -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-contol-tower.md)
     -   [MCP Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/add-an-mcp-server-from-mcp-catalog.md)
-2.  [Explore the MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
-3.  [Set up the AI Gateway and Client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
+2.  [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
+3.  [Configure Client registration and AI Gateway Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
 

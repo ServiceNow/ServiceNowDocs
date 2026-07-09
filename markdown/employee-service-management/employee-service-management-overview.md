@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-managem
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 ---
 
 # Employee Service Management
@@ -76,6 +76,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+[Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+
+</td><td>
+
+The ServiceNow® Employee Slate is an AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one intuitive destination.
+
+</td></tr><tr><td>
+
 [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md)
 
 </td><td>
@@ -128,7 +136,7 @@ ServiceNow® Legal Service Delivery provides a unified experience between the em
 
 </td><td>
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 
 </td></tr><tr><td>
 
@@ -172,7 +180,7 @@ The ServiceNow® Health and Safety Incident Management application is a solution
 
 </td></tr><tr><td>
 
-[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Journey designer]()
 
 </td><td>
 

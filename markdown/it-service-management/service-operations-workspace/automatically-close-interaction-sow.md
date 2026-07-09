@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center**.
+1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Configurations**.
 
 2.  Select **Interaction Management.**
 

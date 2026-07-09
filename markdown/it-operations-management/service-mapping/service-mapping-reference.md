@@ -18,7 +18,7 @@ Reference topics provide additional information about mapping and fine-tuning ap
 
 -   **[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-dashboard.md)**  
 The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
--   **[Predefined traversal rules for application services in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/default-traversal-rules.md)**  
+-   **[Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/default-traversal-rules.md)**  
 Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 -   **[Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traversal_rules_form_completion.md)**  
 To edit an existing CI relationship or add a new CI relationship during the tag-based discovery process, complete the Traversal Rules for Application Services form.
@@ -46,7 +46,7 @@ Several preconfigured CI relationships participate in tag-based discovery, by de
 The Service Mapping plugin includes several properties specifically related to tag-based discovery.
 -   **[Keyboard shortcuts for operating Service Mapping in accessibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/shortcuts-service-mapping-accessibility.md)**  
 You can access all service instance maps and service forms using a keyboard in the accessibility mode.
--   **[Example definitions for service families in tag-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.md)**  
+-   **[Tag-based mapping criteria examples for service families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.md)**  
 When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 -   **[Traffic-based connections list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traffic-based-connections-list.md)**  
 Refer to this chart for information about traffic-based connections when you remove CIs from an application service.

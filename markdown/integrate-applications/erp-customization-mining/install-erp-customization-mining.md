@@ -24,7 +24,7 @@ You must:
 
 -   Have a license and get entitlement to ERP Semantic Mining before you can install the application.
 
-    For more information, see .
+    For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/licensing.md).
 
 -   Install Zero Copy Connector for ERP. Use the application to configure connections to the system of record, as well as ERP \(Enterprise Resource Planning\) data models.
 -   Configure the JCO connector before you install ERP Semantic Mining. See the SAP documentation for more information.

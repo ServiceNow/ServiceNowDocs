@@ -16,7 +16,7 @@ Review the playbooks that are available with Financial Services Operations appli
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -37,7 +37,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer.md) basics.
+The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) basics.
 
 For information on playbooks that are installed with Financial Services Operations applications, see [Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/playbooks-fso-apps.md).
 
@@ -51,12 +51,12 @@ For information on playbooks that are installed with Financial Services Operatio
 
     -   To create a playbook, click **New**.
     -   To modify a predefined playbook, open the playbook from the list.
-    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-process-definition.md).
+    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-process-definition.md).
 
 3.  Click **Save**.
 
 4.  Test your playbook and click **Activate**.
 
-    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/test-process.md).
+    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/test-process.md).
 
 

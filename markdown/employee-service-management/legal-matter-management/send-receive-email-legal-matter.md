@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d601040e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d656671e110">
 
 Option
 
-</th><th align="left" id="d601040e113">
+</th><th align="left" id="d656671e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d601040e119">
+</th></tr></thead><tbody><tr><td id="d656671e119">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d601040e148">
+</td></tr><tr><td id="d656671e148">
 
 **As a collaborator**
 
@@ -69,7 +69,7 @@ The state of the legal matter updates to Work in Progress.
 
 5.  In the **New Email Draft** tab, compose a new email or respond to the email received and send it right away or save it as a draft to send later.
 
-    For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
+    For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
 
 
 ## Result
@@ -78,5 +78,5 @@ After the email is sent, it is added to the activity stream on the legal matter 
 
 Legal matters marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

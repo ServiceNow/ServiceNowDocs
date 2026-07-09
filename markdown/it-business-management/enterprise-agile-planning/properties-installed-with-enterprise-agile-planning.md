@@ -44,7 +44,7 @@ sn\_align\_core\_scrum\_epic,sn\_align\_core\_capability,sn\_align\_core\_featur
 **Important:** Any item, which is an extension of the Enterprise agile planning item \[sn\_align\_core\_eap\_planning\_item\] table must be entered before **rm\_story**.
 
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure display of other work item types in EAP Backlog and Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md)
+-   Learn more: [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md)
 
 </td></tr><tr><td>
 

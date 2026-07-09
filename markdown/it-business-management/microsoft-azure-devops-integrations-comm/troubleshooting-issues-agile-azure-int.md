@@ -93,7 +93,7 @@ The work item is deleted in Azure DevOps but not deleted in Agile Development 2.
 
 Ensure that the **Can Delete** field in the Application access of the respective tables is set to **true**.
 
- For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/r_TableApplicationAccessFields.md).
+ For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/r_TableApplicationAccessFields.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ New Azure DevOps projects are not imported automatically.
 
 </td><td>
 
-Manually discover projects from the Azure DevOps instance record to immediately synch the project updates or schedule a job to discover and import these updates on a daily basis.For more details on the scheduled jobs, see [Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
+Manually discover projects from the Azure DevOps instance record to immediately synch the project updates or schedule a job to discover and import these updates on a daily basis.For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Changes made to iterations in Azure DevOps are not reflecting immediately in Agi
 
 </td><td>
 
-Manually import iterations from the Azure DevOps project record or schedule a job to discover and import these updates daily. For more details on the scheduled jobs, see [Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
+Manually import iterations from the Azure DevOps project record or schedule a job to discover and import these updates daily. For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 </td></tr><tr><td>
 

@@ -16,13 +16,13 @@ breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI a
 
 This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 
-Now Assist Conversational Help overview
+\[Omitted video\] Description: Now Assist Conversational Help overview
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The Now Assist Conversational Help skill displays as **Get Help** on the Now Assist panel.
 
-**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the Now Assist Admin **Settings**. The ServiceNow Now LLM Service \(Large Language Model\) is the default model provider for this Now Assist skill to retrieve precise answers to the users' questions.
+**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the Now Assist Admin **Settings**.
 
 You can ask your question in two ways:
 

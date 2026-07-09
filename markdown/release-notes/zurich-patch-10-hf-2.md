@@ -72,19 +72,21 @@ Platform Analytics Dashboard API
 
 </td><td>
 
-The pa\_dashboard transaction response time increased over 126% \(1,092ms → 2,466ms\) in the Australia release
+User can't configure filters on a table field which is of type 'String'
 
 </td><td>
 
-The issue is reproducible with background jobs enabled.
+**Short\_description** \(a string field\) can't be enabled.
 
 </td><td>
 
-1.  Upgrade to Australia.
-2.  Run the loadsim performance test with background jobs enabled.
-3.  Compare the results with Zurich.
+1.  Create a filter.
+2.  Select the source as 'Table' and the table name as 'Incident'.
+3.  Try to enable **Short\_description** as the field.
 
- Observe that the pa\_dashboard transaction response time increased over 126% \(1,092ms → 2,466ms\).
+ Expected behavior: **Short\_description** \(a string field\) is enabled for configuration.
+
+ Actual behavior: It's not enabled.
 
 </td></tr></tbody>
 </table>## Fixes included

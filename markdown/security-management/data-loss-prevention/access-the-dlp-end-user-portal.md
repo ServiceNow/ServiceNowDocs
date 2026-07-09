@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Data Loss Prevention Incident Response User Workspace, Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---

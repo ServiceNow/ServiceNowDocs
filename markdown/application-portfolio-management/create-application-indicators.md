@@ -1,5 +1,5 @@
 ---
-title: Create or edit an indicator to assess an application - Legacy
+title: Create or edit an application indicator - Legacy
 description: Application indicators are business metrics that assess the applications across dimensions such as cost, quality, technical risk, investments, user satisfaction, and business value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/create-application-indicators.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create or edit an indicator to assess an application - Legacy
+# Create or edit an application indicator - Legacy
 
 Application indicators are business metrics that assess the applications across dimensions such as cost, quality, technical risk, investments, user satisfaction, and business value.
 
@@ -71,7 +71,7 @@ Each indicator periodically captures related application data which is used to c
 
 Use the [preconfigured indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/preconfigured-indicators-and-sources.md) to assess the applications based on cost, quality, and risk.
 
--   **[Generate survey assessments and view the results within Enterprise Architecture - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-survey-assessments-results-apm.md)**  
+-   **[Generate survey assessments and view results - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-survey-assessments-results-apm.md)**  
 Within Enterprise Architecture you can assign an assessment questionnaire to a user who uses a business application and get the feedback about the application.
 
 **Parent Topic:**[Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/using-apm.md)

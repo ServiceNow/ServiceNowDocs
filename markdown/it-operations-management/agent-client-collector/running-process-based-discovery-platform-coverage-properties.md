@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-06-05"
 reading_time_minutes: 1
 keywords: [running process-based discovery, platform coverage, system property, file-based discovery, FBD, agent client collector]
-breadcrumb: [Agent Client Collector for Visibility - Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Running process-based discovery platform coverage and properties

@@ -1,18 +1,18 @@
 ---
-title: Set up Logik.ai instance
-description: Request a Logik.ai instance by contacting Logik DevOps, then add the public certificate from the publickkey.cer.
+title: Request a ServiceNow CPQ instance
+description: Request a ServiceNow CPQ instance by submitting a support ticket.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/set-up-logik-instance.html
 release: zurich
 topic_type: task
 last_updated: "2025-12-07"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up Logik.ai instance
+# Request a ServiceNow CPQ instance
 
-Request a Logik.ai instance by contacting Logik DevOps, then add the public certificate from the publickkey.cer.
+Request a ServiceNow CPQ instance by submitting a support ticket.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Select **Create a case**.
 
-3.  In the Now Assist chat, select **click here** to open the case form.
+3.  In the Now Assist chat, select the option to open a case form.
 
 4.  Select **Service request**.
 

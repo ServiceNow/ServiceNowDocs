@@ -23,21 +23,21 @@ Role required: none
 
 ## About this task
 
-Canvas enables you to personalize your workspace by adding widgets from the library, resizing them, and arranging them according to your preferences. Changes are saved automatically when you update widget positions.
+Canvas enables you to personalize your workspace by adding widgets from the library, resizing them, and arranging them according to your preferences. Canvas saves automatically when you update widget positions.
 
 ## Procedure
 
-1.  Navigate to Canvas from the side navigation menu.
+1.  Go to **Canvas** from the side navigation menu.
 
-    The canvas opens with default widgets: Calendar, My Requests, and Featured Apps.
+    The canvas opens with default widgets: **Calendar**, **My Requests**, and **Featured Apps**.
 
-2.  Select the plus icon to add widget.
+2.  Select the **plus icon** to add a widget.
 
     A widget selection dialog appears showing available widgets from the library.
 
-3.  Select the widget you want to add from the available options.
+3.  Select the widget to add from the available options.
 
-    Available widgets depend on administrator configuration and may include Quick Links, Announcements, or other custom widgets.
+    Available widgets depend on administrator configuration and may include **Quick Links**, **Announcements**, or other custom widgets.
 
     The selected widget appears on the canvas.
 
@@ -47,7 +47,7 @@ Canvas enables you to personalize your workspace by adding widgets from the libr
 
 5.  Select **Save changes** to preserve your canvas configuration.
 
-    Your personalized canvas layout is saved and will appear the same way when you return to Canvas.
+    Your personalized canvas layout is saved and appears the same way when you return to **Canvas**.
 
 
 ## Result

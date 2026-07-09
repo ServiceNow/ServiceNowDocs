@@ -20,7 +20,7 @@ Roles required: now\_assist\_explorer\_admin or higher
 
 ## About this task
 
-Record-level analysis provides deeper insights into your data. You can activate it as an administrator. You can activate it as an opt-in, where you specify the tables to which it applies, or as an opt-out, where it applies to all tables you don't specify. Whether activated or not, queries that touch on more than 50 records in a table aren’t supported.
+Record-level analysis provides deeper insights into your data. You can activate it as an administrator. You can activate it as an opt-in, where you specify the tables to which it applies, or as an opt-out, where it applies to all tables you don't specify. Whether activated or not, queries on indicators orthat touch on more than 50 records in a table aren’t supported.
 
 **Warning:** Take care when activating record-level analysis for a table with record-level security. The LLM applies the record-level security when analyzing records, but it applies only report\_view ACLs when the exploration is shared. Therefore, users may see data about records that they are not authorized to access when an exploration is shared with them.
 
@@ -38,7 +38,7 @@ Record-level analysis provides deeper insights into your data. You can activate 
 
     \[Omitted image "ai-data-expl-edit-skill.png"\] Alt text: Tile for the Analytics exploration skill showing the Edit button.
 
-6.  Select **Advanced analysis** from the menu, which opens the Record level analysis page.
+6.  Under Advanced options, look for Record level analysis.
 
 7.  Toggle on **Enable record analysis**.
 
@@ -55,7 +55,7 @@ Record-level analysis provides deeper insights into your data. You can activate 
 
 10. Select **Save and continue**.
 
-11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-now-ass-explorer.md), or exit if the skill is already activated and you don’t wish to make further changes.
+11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-now-ass-explorer.md), or exit if the skill is already activated and you don’t want to make further changes.
 
 
 ## Simple request with and without record level analytics

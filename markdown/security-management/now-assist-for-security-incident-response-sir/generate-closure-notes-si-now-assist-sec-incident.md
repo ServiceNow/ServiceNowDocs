@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
 breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
@@ -25,10 +25,6 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 If the Close code or Close notes fields are already updated for a security incident, Now Assist will not modify these fields, regardless of the incident’s current state. To enable Now Assist to update these fields, ensure that both the Close Code and Closure Notes fields are left blank.
 
-## About this task
-
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
-
 ## Procedure
 
 1.  In the legacy Core UI, navigate to **All** &gt; **Security Incident** &gt; **Incidents** and open a security incident that is assigned to you.
@@ -37,15 +33,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d112126e130">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d296421e103">
 
 Option
 
-</th><th align="left" id="d112126e133">
+</th><th align="left" id="d296421e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112126e139">
+</th></tr></thead><tbody><tr><td id="d296421e112">
 
 **Close the security incident in legacy Core UI16**
 
@@ -66,7 +62,7 @@ The resolution summary is displayed in the Resolution Information section on the
 
 **Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d112126e209">
+</td></tr><tr><td id="d296421e182">
 
 **Close the security incident from the Security Incident Response Workspace**
 

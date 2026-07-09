@@ -39,7 +39,7 @@ Configure the user experience in the DPM Workspace. You can also configure it us
 
 See configuring DPM user views in action.
 
-Configure DPM user views. 
+\[Omitted video\] Description: Configure DPM user views.
 
 ## Procedure
 
@@ -75,7 +75,7 @@ Configure DPM user views.
 **Related topics**  
 
 
-[Open a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/open-your-configurable-workspace-experience-in-ui-builder.md)
+[Open a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
 

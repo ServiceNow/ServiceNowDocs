@@ -1,5 +1,5 @@
 ---
-title: Associate epic to business application for Application Backlog view - Legacy
+title: Associate epic to business application - Legacy
 description: An epic must reference the business application for it to be displayed in the Application Backlog view of the timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/reference-epic-business-app-unified-backlog-view.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Application Backlog view - Legacy, Multiple views in TPM - Legacy, Technology risks in timeline - Legacy, Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Associate epic to business application for Application Backlog view - Legacy
+# Associate epic to business application - Legacy
 
 An epic must reference the business application for it to be displayed in the Application Backlog view of the timeline.
 

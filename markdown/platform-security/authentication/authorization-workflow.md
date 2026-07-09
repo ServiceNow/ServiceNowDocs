@@ -1,20 +1,20 @@
 ---
 title: Authorization code grant workflow
-description: The OAuth authorization code grant is a secure and widely used flow for web, mobile, or desktop apps that access user data with user consent. It supports both private clients \(using a client secret\), and public clients \(using PKCE\).
+description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/authorization-workflow.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
-breadcrumb: [Authorization Code Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Auth Code Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Authorization code grant workflow
 
-The OAuth authorization code grant is a secure and widely used flow for web, mobile, or desktop apps that access user data with user consent. It supports both private clients \(using a client secret\), and public clients \(using PKCE\).
+ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 ## About this task
 
-This topic collection provides information on how a client application can use the Authorization code grant flow to obtain a token from ServiceNow and make API calls with that token. Private clients use client secret, while public clients use PKCE code challenge.
+This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code ensures that ServiceNow retains control over token issuance and access to protected resources.
 
 \[Omitted image "mic-authorization-flow.png"\] Alt text: Authorization Workflow
 

@@ -52,9 +52,9 @@ Frequency
 
 </td><td>
 
-Frequency at which the communication must be composed and sent. Possible values are:-   One time – The communication message is composed and sent only once.
--   Recurring - The communication message is composed and sent after a repeated time interval.
-
+Frequency at which the communication must be composed and sent. Possible values are:-   One time – The communication message is composed and sent only once. After the message is sent, the task is marked as complete.
+-   Recurring - The communication message is composed and sent after a repeated time interval. The timer is displayed that shows when the next communication is due to be sent.
+**Note:** For both the frequency settings, you must manually compose, review and sent the message.
 
 </td></tr><tr><td>
 

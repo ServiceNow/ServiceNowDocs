@@ -9,7 +9,7 @@ classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Agent Workspace for HR Case Management

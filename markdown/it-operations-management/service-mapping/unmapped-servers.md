@@ -39,15 +39,15 @@ Role required: service\_mapping\_admin
 
 2.  Select the unmapped server that you want to use to create an application service.
 
-<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d299916e133">
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d575302e133">
 
 Version of Service Mapping Plus
 
-</th><th align="left" id="d299916e139">
+</th><th align="left" id="d575302e139">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d299916e145">
+</th></tr></thead><tbody><tr><td id="d575302e145">
 
 **Versions released before version 1.16.3**
 
@@ -60,13 +60,13 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
 
 4.  Select the preferred candidate.
 5.  Select **Map application service**.
 
 
-</td></tr><tr><td id="d299916e227">
+</td></tr><tr><td id="d575302e225">
 
 **Starting with version 1.16.3**
 
@@ -82,7 +82,7 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
 
 4.  Select the preferred server or candidate.
 5.  Select **Map application service**.

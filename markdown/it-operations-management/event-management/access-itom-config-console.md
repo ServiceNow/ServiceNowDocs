@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [IT Operations Management, configuration console, Event Management, ITOM, AIOps, Now Assist]
-breadcrumb: [ITOM Configuration console for Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Access Event Management configuration console

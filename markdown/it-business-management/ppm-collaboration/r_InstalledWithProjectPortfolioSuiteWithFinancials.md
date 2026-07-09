@@ -20,7 +20,7 @@ Demo data is available with PPM Standard. The demo data provides sample projects
 
 -   **[Plugins installed with PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/plugins-installed-with-PPS-finance.md)**  
 Multiple plugins are installed with activation of PPM Standard plugin, if they are not already active.
--   **[Tables installed with PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/table-installed-with-PPS-finance.md)**  
+-   **[Tables installed with Project Portfolio Management Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/table-installed-with-PPS-finance.md)**  
 Tables are added with activation of PPM Standard plugin.
 -   **[Roles installed with PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md)**  
 Roles are added with activation of PPM Standard plugin.

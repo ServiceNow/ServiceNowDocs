@@ -1,5 +1,5 @@
 ---
-title: Generate survey assessments and view the results within Enterprise Architecture - Legacy
+title: Generate survey assessments and view results - Legacy
 description: Within Enterprise Architecture you can assign an assessment questionnaire to a user who uses a business application and get the feedback about the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/generate-survey-assessments-results-apm.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Create or edit an indicator - Legacy, Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Generate survey assessments and view the results within Enterprise Architecture - Legacy
+# Generate survey assessments and view results - Legacy
 
 Within Enterprise Architecture you can assign an assessment questionnaire to a user who uses a business application and get the feedback about the application.
 
@@ -62,7 +62,7 @@ Your business application is the assessable record and it’s linked to a metric
 
     The user can view and take the assigned assessments by navigating to **Self-Service** &gt; **My Assessments &amp; Surveys**.
 
-    For more information, see [Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/t_TakeASurvey.md).
+    For more information, see [Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_TakeASurvey.md).
 
     After the user submits the assessments, the **State** of the assessment instance in the **Assessments Instances** tab changes to **Complete**.
 
@@ -76,8 +76,8 @@ Your business application is the assessable record and it’s linked to a metric
 
 12. Select the **Metric Category Results** tab to view the weight, rating, and normalized value of each business application that was assessed by the user or the user group.
 
-    For more information, see [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/t_ViewACategoryResult.md) to know how the assessment results are calculated.
+    For more information, see [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ViewACategoryResult.md) to know how the assessment results are calculated.
 
 
-**Parent Topic:**[Create or edit an indicator to assess an application - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-application-indicators.md)
+**Parent Topic:**[Create or edit an application indicator - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-application-indicators.md)
 

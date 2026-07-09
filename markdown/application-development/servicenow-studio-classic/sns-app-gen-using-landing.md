@@ -19,7 +19,7 @@ Have a conversation with the Now Assist for app generation to start building app
 
 This video shows you how to perform the following procedure.
 
-Generate application with Now Assist for app gen and ServiceNow Studio. 
+\[Omitted video\] Description: Generate application with Now Assist for app gen and ServiceNow Studio.
 
 ## Before you begin
 

@@ -22,13 +22,13 @@ Role required: sn\_invst\_pln\_v2.investment\_planner
 
 ## About this task
 
-A top-level investment does not have a source investment or source investment entity. Once created, a top-level investment cannot be converted to a normal investment later.
+A top-level investment does not have a source investment or source investment entity. Once created, a top-level investment can't be converted to a normal investment later.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Investment Funding** &gt; **Top level Investments**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -79,7 +79,7 @@ Top investment
 Option that indicates that this is a top-level investment. This setting cannot be changed.
 
 </td></tr></tbody>
-</table>4.  Click **Create**.
+</table>4.  Select **Create**.
 
 
 ## What to do next

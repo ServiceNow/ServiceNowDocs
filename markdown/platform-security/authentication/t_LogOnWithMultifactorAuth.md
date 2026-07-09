@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up MFA on your user profile, Using MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Set up MFA on your user profile, Using MFA, Multi-factor authentication, Access Management]
 ---
 
 # Log in with Multi-factor Authentication

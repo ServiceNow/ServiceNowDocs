@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create REST API access policy, REST API access policies, API access policy, Authentication, Access Management]
+breadcrumb: [Create REST API access policy, REST API access policies, API access policy, Access Management]
 ---
 
 # API access policy prioritization

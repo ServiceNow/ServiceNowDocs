@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-mobile-interface.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-26"
 reading_time_minutes: 2
 breadcrumb: [Schedules and sites, Use, Customer Service Management]
 ---
@@ -20,9 +20,7 @@ Activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) to use the a
 
 **Note:** The Customer Service Management mobile application supports product cases.
 
-For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
-
-\[Omitted image "csm-mobile-agent.png"\] Alt text: Customer service mobile launcher screen that displays the agent's cases needing attention and cases that are new, active, and active critical.
+For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
 
 With the customer service agent role \(sn\_customerservice\_agent\), you can:
 
@@ -40,8 +38,6 @@ With the system administrator role, you can configure the Customer Service Manag
 -   Configure pages to display the desired data.
 -   Configure the functions associated with swipe actions and top menu actions.
 -   Configure and create push notifications.
-
-\[Omitted image "csm-mobile-manager.png"\] Alt text: Customer Service mobile launcher screen that displays the manager's cases that are new, active, and active critical, and also approvals needed for escalations and change requests.
 
 With the customer service manager role \(sn\_customerservice\_manager\) you can:
 
@@ -65,7 +61,7 @@ Once the Customer Service Management mobile application is activated and configu
 
 **Note:** You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) from the Customer Service Management guided setup.
 
-For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
 
 -   **[CSM application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-mobile-overview.md)**  
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
@@ -77,5 +73,5 @@ Use the ServiceNow Agent mobile app to access the Customer Service mobile applic
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-experience.md)
+[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-experience.md)
 

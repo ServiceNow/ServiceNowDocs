@@ -25,13 +25,13 @@ You must have already added the read, write, or create operation before you can 
 
 This video was recorded in the Zurich release.
 
-Video that shows how to add and delete a model operation entity in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to add and delete a model operation entity in Zero Copy Connector for ERP.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add an operation entity to.
 
@@ -43,19 +43,19 @@ Video that shows how to add and delete a model operation entity in Zero Copy Con
 
 7.  Select **Select entity** on the **Manage entities** tab.
 
-    \[Omitted image "erpc-manage-entities-manager-ys22.png"\] Alt text: Add operation entities on the manage models tab.
+    \[Omitted image "image.erpc-manage-entities-manager-ys22"\] Alt text: Add operation entities on the manage models tab.
 
 8.  In **Select type**, select **Function call \(BAPIs\)**.
 
 9.  In **Select entity**, specify the BAPI to use.
 
-    \[Omitted image "erp-add-bapi-entity-to-model1.png"\] Alt text: Select the type of entity you're adding and the specific entity.
+    \[Omitted image "image.erp-add-bapi-entity-to-model1"\] Alt text: Select the type of entity you're adding and the specific entity.
 
 10. When you're finished, select **Add entity**.
 
     The entity card shows the date and time information was last retrieved.
 
-    \[Omitted image "erp-add-bapi-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
+    \[Omitted image "image.erp-add-bapi-entity-to-model2"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
 
 **Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)

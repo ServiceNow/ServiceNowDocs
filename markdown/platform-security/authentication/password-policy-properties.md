@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Enable password policies on your instance, Password complexity requirements, Local authentication, Authentication, Access Management]
+breadcrumb: [Enable password policies on your instance, Password complexity requirements, Local authentication, Access Management]
 ---
 
 # Password policy properties

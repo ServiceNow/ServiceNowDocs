@@ -22,7 +22,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 ## About this task
 
-Breakdown work into child work items. 
+\[Omitted video\] Description: Breakdown work into child work items.
 
 From the full details page of a work item, you can create all types of associated child work items. For example, based on the EAP configuration, the full details page of an Epic shows separate tabs for its child work items \(Capabilities, Features, or Stories\) and the full details page of a Capability shows separate tabs for Features and Stories.
 
@@ -59,7 +59,7 @@ This task provides guidance to create child items directly from the parent work 
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
 
     This feature requires activating the Write planning item skill of Now Assist for SPM.
 

@@ -27,7 +27,7 @@ You must have already added the read, write, or create operation before you can 
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add an operation entity to.
 
@@ -39,7 +39,7 @@ You must have already added the read, write, or create operation before you can 
 
 7.  Select **Select entity** on the **Manage entities** tab.
 
-    \[Omitted image "erpc-manage-entities-manager-ys22.png"\] Alt text: Add operation entities on the manage models tab.
+    \[Omitted image "image.erpc-manage-entities-manager-ys22"\] Alt text: Add operation entities on the manage models tab.
 
 8.  In **Select type**, select **OData**.
 
@@ -47,13 +47,13 @@ You must have already added the read, write, or create operation before you can 
 
 10. Wait for the **OData Endpoints** field to load and then in **Select the endpoints**, specify an endpoint.
 
-    \[Omitted image "erp-add-odata-entity-to-model1.png"\] Alt text: Select the type of entity , the odata service, and an odata endpoint.
+    \[Omitted image "image.erp-add-odata-entity-to-model1"\] Alt text: Select the type of entity , the odata service, and an odata endpoint.
 
 11. When you're finished, select **Add entity**.
 
     The entity card shows the date and time information was last retrieved.
 
-    \[Omitted image "erp-add-odata-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
+    \[Omitted image "image.erp-add-odata-entity-to-model2"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
 
 **Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)

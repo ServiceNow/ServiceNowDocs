@@ -235,7 +235,7 @@ N
 
     **Note:** The availability of each option depends on the status of the attestation that is opened in the designer.
 
-<table id="choicetable_gdn_d5c_rw"><tbody><tr><td id="d86384e535">
+<table id="choicetable_gdn_d5c_rw"><tbody><tr><td id="d87583e535">
 
 **New Attestation**
 
@@ -243,7 +243,7 @@ N
 
 Opens a fresh canvas for a new attestation.
 
-</td></tr><tr><td id="d86384e544">
+</td></tr><tr><td id="d87583e544">
 
 **Load Attestation**
 
@@ -315,8 +315,6 @@ If you do not want your users to access to this capability, navigate to **All** 
 2.  Select the attestations you want to group.
 
 3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
-
-    \[Omitted image "group-assessments.png"\] Alt text: Group assessments
 
 4.  In **Response Type**, select **Provide same response for all assessments**.
 
@@ -401,8 +399,6 @@ When you consolidate control attestations or risk assessments using the Differen
 
 3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
 
-    \[Omitted image "group-assessments.png"\] Alt text: Group assessments
-
 4.  In **Response Type**, select **Provide different response for each assessment**.
 
 5.  Fill in the fields, as needed.
@@ -476,11 +472,7 @@ Role required: sn\_compliance.admin, sn\_compliance.manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Administration** &gt; **Assessment Grouping Criteria**.
 
-    \[Omitted image "assess-group-criteria.png"\] Alt text: Assessment grouping criteria
-
 2.  Click **New**.
-
-    \[Omitted image "assess-group-criteria-new.png"\] Alt text: Create a new assessment grouping criteria record
 
 3.  On the form, fill in the fields.
 

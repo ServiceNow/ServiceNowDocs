@@ -1,0 +1,60 @@
+---
+title: View customizations and compare with current version
+description: View the customizations that make up an update set and compare the update to the current version.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/view-customer-update-records.html
+release: zurich
+product: System Update Sets
+classification: system-update-sets
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
+---
+
+# View customizations and compare with current version
+
+View the customizations that make up an update set and compare the update to the current version.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+The Customer Update **\[sys\_update\_xml\]** table contains one record per customized object.
+
+The customer update record specifies:
+
+-   The update set containing the customized object.
+-   The type of action applied to the customized object.
+    -   INSERT
+    -   INSERT\_OR\_UPDATE
+    -   UPDATE
+    -   DELETE
+-   The type of object customized.
+-   The target object of the update.
+-   The sys\_id of the customized object \(if it is a change to a particular record\).
+-   The user who customized the object.
+-   The date and time the object was customized.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets**.
+
+2.  Click the update set name.
+
+3.  View the Customer Updates related list.
+
+    You can compare any update to the current version. Right-click the update record and select **Compare to Current**.
+
+    \[Omitted image "image.update-set-record"\] Alt text: Update set with addition of the 'Incident Table' table
+
+
+**Related topics**  
+
+
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
+
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+

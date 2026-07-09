@@ -20,7 +20,7 @@ Use the Service Graph Connector for Microsoft Excel Excel guided setup and compl
 
 Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Guided Setup**, open the following guided setups, and complete the tasks.
 
-For more information on using guided setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
+For more information on using guided setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md).
 
 -   **[Assign Pre-import OT Worksheet Entry Review roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/assign-pre-import-ot-worksheet-entry-review-tool-for-sgc-import-roles.md)**  
 Assign roles to the users  or user groups so that you can manage the Service Graph Connector for Microsoft Excel staging table and ETL.
@@ -34,6 +34,8 @@ With the Service Graph Connector for Microsoft Excel, add a custom field to the 
 Customize the base system classification of an device based on the type, os\_version, and firmware\_version.
 -   **[Add a custom validation for devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/add-custom-validation-for-devices.md)**  
 Customize the validation for your OT devices.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/add-custom-column-staging-table.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)**  
+
 -   **[Test the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.md)**  
 The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 -   **[View script includes used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/view-script-includes-used-by-service-graph-connector.md)**  

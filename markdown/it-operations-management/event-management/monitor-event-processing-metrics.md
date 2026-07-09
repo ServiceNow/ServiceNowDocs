@@ -26,7 +26,7 @@ Role required: evt\_mgmt\_operator
 
 ## About this task
 
-You can view key metrics from the instance to ensure that performance is not affected and monitor the status of the processing of events. For more information about viewing self-health monitoring statistics, see [View self-health monitoring statistics for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/xmlstats-oi-self-health.md).
+You can view key metrics from the instance to ensure that performance is not affected and monitor the status of the processing of events. For more information about viewing self-health monitoring statistics, see [View Metric Intelligence self-health statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/xmlstats-oi-self-health.md).
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-walkup-view-manage-appointments.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
@@ -42,13 +42,13 @@ Upcoming appointments also display with a small calendar icon next to the user n
 
 4.  Select an appointment number to view details, such as the requester name, the interaction number and description, and the appointment time.
 
-    1.  To open the associated interaction to view details, select the Open record icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Open record icon. next to the interaction number.
+    1.  To open the associated interaction to view details, select the Open record icon next to the interaction number.
 
     2.  Select **Accept appointment** to begin working on the interaction.
 
         If necessary, you can assign the appointment to another agent and add work notes.
 
-        If a significant amount of time has passed and the requester doesn’t show up for the appointment, you can delete the appointment by selecting the More UI actions icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: More UI actions icon. in the interaction header and choosing **Delete**.
+        If a significant amount of time has passed and the requester doesn’t show up for the appointment, you can delete the appointment by selecting the More UI actions icon in the interaction header and choosing **Delete**.
 
     3.  Select **Save** to save any changes you make to the appointment interaction.
 

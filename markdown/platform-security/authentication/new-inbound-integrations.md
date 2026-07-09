@@ -1,5 +1,5 @@
 ---
-title: New Inbound integrations experience
+title: New Inbound Integrations experience
 description: The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/new-inbound-integrations.html
@@ -7,13 +7,13 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [New inbound integration experience, Machine Identity Console]
-breadcrumb: [OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth inbound, OAuth authentication, Access Management]
 ---
 
-# New Inbound integrations experience
+# New Inbound Integrations experience
 
 The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 

@@ -41,8 +41,6 @@ Create a scheduled job that automatically converts your IT hardware to Operation
 Use Configuration Management Database \(CMDB\) groups to group IT configuration items \(CIs\) based on additional information, like installed software. Then you can add Operational Technology \(OT\) context to the IT CIs.
 -   **[Create CMDB Data Certification Policy for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-cmdb-data-certification.md)**  
 Create a CMDB Data Certification Policy for Operational Technology \(OT\) to validate and maintain accurate configuration item \(CI\) data.
--   **[View SIR tasks related to an OT CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/view-sir-tasks-related-to-ot.md)**  
-View Security Incident Response \(SIR\) tasks related to an Operational Technology \(OT\) configuration item \(CI\) in the Industrial Workspace. Viewing SIR tasks maintains visibility for changes made to an OT CI.
 
 **Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

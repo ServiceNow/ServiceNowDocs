@@ -18,7 +18,7 @@ ServiceNow Studio provides a unified experience for all ServiceNow development a
 
 ## Overview of ServiceNow Studio
 
-Learn about ServiceNow Studio in this overview video. 
+\[Omitted video\] Description: Learn about ServiceNow Studio in this overview video.
 
 ## Get started
 

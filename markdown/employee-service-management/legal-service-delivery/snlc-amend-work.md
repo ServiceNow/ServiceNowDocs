@@ -18,7 +18,7 @@ Review and work on an amendment request for an existing contract.
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_lg\_cnt.contract\_fulfiller
 
@@ -73,15 +73,15 @@ Identify the legal and contract requests created for amendment using the followi
 
 3.  Modify legal request.
 
-<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d446095e246">
+<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d743652e246">
 
 Options
 
-</th><th align="left" id="d446095e249">
+</th><th align="left" id="d743652e249">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d446095e255">
+</th></tr></thead><tbody><tr><td id="d743652e255">
 
 **Add collaborators**
 
@@ -91,7 +91,7 @@ If you need help from other fulfillers to work on the legal request, add them in
 
 The collaborators are notified via email that they’ve been added as collaborators to a legal request.
 
-</td></tr><tr><td id="d446095e274">
+</td></tr><tr><td id="d743652e274">
 
 **Update the users in watch list and requested for**
 

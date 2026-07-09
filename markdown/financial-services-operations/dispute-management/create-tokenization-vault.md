@@ -16,7 +16,7 @@ breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applicat
 
 As part of the onboarding procedure, you will create a card vault table in the FSO tokenizer service to manage tokenized data for use in Dispute Cases and Dispute Transactions.
 
-For more information on creating a card vault table in the tokenizer service, see [Initial steps to setup schema and connections for Card data security \(KB2238661\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2238661).
+For more information on creating a card vault table in the tokenizer service, see [Initial steps to setup schema and connections for Card data security \(KB2238661\)](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=6b89cc7593daea94d744b94c5cba10c6).
 
 After the card vault table is created, it will contain the empty table configuration defined in the schema JSON provided in the KB article above.
 

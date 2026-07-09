@@ -24,8 +24,6 @@ Role required: sn\_compliance.manager
 
 1.  When defining the [Policy Exception Integration Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/enable-other-apps-to-request-policy-exceptions.md), click the lock icon on the **Policy categories** field.
 
-    \[Omitted image "policy-cat.png"\] Alt text: Policy category
-
 2.  In the Policy categories form, click **New**.
 
 3.  Enter the name and description of the category you want to define.

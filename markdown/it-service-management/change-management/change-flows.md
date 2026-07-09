@@ -7,8 +7,8 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 1
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
@@ -25,9 +25,9 @@ You can use ServiceNow® Workflow Studio to create, operate, and troubleshoot fl
 -   Runtime information.
 -   Consolidated configuration.
 
-The provided flows are read-only to ensure that they can be upgraded. To change the behavior of these flows, make a copy of the read-only flow, and contact Support to deactivate the read-only flow. Deactivating the read-only flow ensures that the copied flow is the only version that is triggered.
+You can deactivate an out-of-box change flow directly after you copy it, without logging a support case. To activate the change flows in the base system, contact Support to request activation. For more information on the plugin activation, see
 
-If you need to activate the change flows in the base system, you must contact the support to log a case to activate the change flows.
+.
 
 By default, these Change flows are provided:
 

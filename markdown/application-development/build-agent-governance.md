@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-governance.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-06-16"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -23,11 +23,11 @@ Governance addresses the following:
 -   Quality assurance: Automated code is validated through testing and review.
 -   Visibility and control: Prevents shadow IT and enforces lifecycle transparency.
 
-Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's vibe coded and developed with AI on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
+Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's developed agentically on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
 
 Build Agent supports the full set of native ServiceNow security controls, not only ACLs and roles. For example, Build Agent can create Security Attributes for attribute-based access control and Security Data Filters for row-level data restriction.
 
--   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see [Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/security-attributes-landing.md).
+-   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see [Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/security-attributes-landing.md).
 -   Security Data Filters restrict which rows a user can see on a table, for example, so that managers see only their team's records.
 
 All four security metadata types can be combined in a single application for layered access control.
@@ -48,9 +48,9 @@ AI Control Tower identifies specific security considerations for generated agent
 
 If your organization uses AI Risk and Compliance, generated agents can be evaluated against organizational policies and regulatory frameworks such as the NIST AI Risk Management Framework and the EU Artificial Intelligence Act. Risk classification and compliance posture are surfaced on the Risk and Compliance tab of each AI asset record.
 
-For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
+For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
-For more information on governance, vibe coding and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-governance.md).
+For more information on governance, agentic development and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-governance.md).
 
 ## Cross-scope privileges
 

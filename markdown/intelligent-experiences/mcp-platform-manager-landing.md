@@ -14,7 +14,7 @@ breadcrumb: [Enable AI experiences]
 
 MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol.
 
-MCP Server Console overview 
+\[Omitted video\] Description: MCP Server Console overview
 
 In this video, learn about the Model Context Protocol and how to create and use MCP servers with MCP Server Console.
 

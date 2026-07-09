@@ -33,11 +33,11 @@ You can create multiple ERP extraction tables, and multiple extraction tables ca
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\] Alt text: in the side panel.
 
 3.  Select the **New** button.
 
-    \[Omitted image "erpc-new-extraction-table.png"\] Alt text: New extraction table fields.
+    \[Omitted image "image.erpc-new-extraction-table"\] Alt text: New extraction table fields.
 
 4.  On the form, fill in the fields.
 

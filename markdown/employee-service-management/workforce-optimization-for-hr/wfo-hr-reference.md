@@ -353,7 +353,7 @@ Runs the job and collects historic data for all teams indicators.
 Runs the job weekly and collects data for all indicators in Manager Workspace.
 
 </td></tr></tbody>
-</table>**Setting the due date for time-off and shift-swap request approvals:**Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/build-your-first-flow.md).
+</table>**Setting the due date for time-off and shift-swap request approvals:**Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/build-your-first-flow.md).
 
 ### Demand Forecast
 
@@ -897,7 +897,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
+You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
 
 </td></tr><tr><td>
 

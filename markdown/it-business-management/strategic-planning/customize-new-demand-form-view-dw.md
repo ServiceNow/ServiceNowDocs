@@ -1,6 +1,6 @@
 ---
 title: Customize the demand record form
-description: You can customize the fields displayed on the demand new record form in Next Experience for Demand Management by modifying the APW New view.
+description: Customize the demand form in Next Experience for Demand Management to configure which fields appear when users create a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/customize-new-demand-form-view-dw.html
 release: zurich
@@ -9,35 +9,39 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [Create a demand, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Customize the demand record form
 
-You can customize the fields displayed on the demand new record form in Next Experience for Demand Management by modifying the APW New view.
+Customize the demand form in Next Experience for Demand Management to configure which fields appear when users create a demand.
 
 ## Before you begin
 
 Role required: admin
 
-## About this task
-
-By default, the demand new record form in Next Experience for Demand Management displays a predefined set of fields. Modifying the APW New view allows you to add, remove, or reorder fields to meet your organization's requirements.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Demands** &gt; **Demand** &gt; **All** &gt; **New**.
+1.  Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **All**.
 
-2.  Select **Additional actions** and navigate to **Configure** &gt; **Form Layout**.\[Omitted image "demand-new-record-layout.png"\] Alt text: Navigation path from Configure to Form Layout.
+2.  Select **New**.
 
-3.  In the **View name** field, select **APW New**.
+3.  In the form context menu in the record header, select **Configure** &gt; **Form Layout**.
 
-4.  Add, remove, or reorder fields as needed.
+4.  In the **View name** field, select **APW New**.
 
-5.  Select **Save**.
+5.  In response to the Form Builder prompt, select **Not Now**.
+
+6.  In the message regarding the application scope, select **Edit this section in Portfolio Planning**.
+
+7.  Determine the fields you want to appear on the form by moving field names between the Selected and Available lists.
+
+8.  Set the field order in the Selected list using the up and down arrows.
+
+9.  Select **Save**.
 
 
 ## Result
 
-The updated field layout is applied to the demand new record form for all users.
+The customized form layout is applied to the demand record form.
 

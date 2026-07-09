@@ -16,7 +16,7 @@ breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operat
 
 Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 **Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 
@@ -431,7 +431,7 @@ Cleans the Impact Status \(em\_impact\_status\) table by removing records more t
 |Service Analytics Attribute Populator for Historical Alerts|Populate attributes used in feature identifier for historical alert data using event rules. Runs on demand.|
 |Event Management - Analytics Alert Syncer|Gathers alert data that is used by grouping job.|
 
-## Properties for personalizing domain separation for Event Management connectors
+## Domain separation properties for Event Management connectors
 
 Properties provide the metadata to identify the domain.
 

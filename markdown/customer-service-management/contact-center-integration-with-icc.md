@@ -32,7 +32,7 @@ See [Implement the Interaction Controls Component \(ICC\) for contact center voi
 
 The following visual displays the voice workflow when CCaaS integrates with ICC within the CSM Configurable Workspace.
 
-\[Omitted image "icc-integration-with-nvc-workflow-MMASSET0020993.png"\] Alt text: Voice Call flow via ICC
+\[Omitted image "icc-integration-with-nvc-workflow-brand2-updated-MMASSET0020993.png"\] Alt text: Voice Call flow via ICC
 
 ## Key benefits
 

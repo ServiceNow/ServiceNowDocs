@@ -1,5 +1,5 @@
 ---
-title: Associate suggested technology models to an application service - Legacy
+title: Associate technology models to application services
 description: As an application owner, you can run the software product suggestions engine to fetch software products. These models can be related to an application service instead of mapping them manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/associate-application-service-software-models.html
@@ -10,7 +10,7 @@ reading_time_minutes: 5
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Associate suggested technology models to an application service - Legacy
+# Associate technology models to application services
 
 As an application owner, you can run the software product suggestions engine to fetch software products. These models can be related to an application service instead of mapping them manually.
 

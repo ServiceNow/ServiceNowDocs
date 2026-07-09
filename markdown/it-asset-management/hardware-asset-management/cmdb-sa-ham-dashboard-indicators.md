@@ -34,6 +34,14 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
     All CI records from the Hardware \[cmdb\_ci\_hardware\] class with an installation status that doesn’t align with the expected asset state, resulting in erroneous asset management.
 
+-   **CI lifecycle stage vs. asset lifecycle stage matched**
+
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage matched between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+
+-   **CI lifecycle stage vs. asset lifecycle stage mismatched**
+
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage mismatch between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+
 -   **CIs missing asset**
 
     Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class missing a linked asset, measured daily, where the life cycle stage of CI is operational and no asset is associated with the CI.

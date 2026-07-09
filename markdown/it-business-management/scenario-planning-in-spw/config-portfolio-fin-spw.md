@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Enable the roll up system property to true to view financials.
 
-    For more information, see [Activate rollup property for projects to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-activate-system-rollup-prop-spw.md).
+    For more information, see [Activate rollup property view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-activate-system-rollup-prop-spw.md).
 
 4.  Activate the data generation scheduled job to view portfolio financials.
 

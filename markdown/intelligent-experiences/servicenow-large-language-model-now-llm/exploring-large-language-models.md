@@ -18,7 +18,7 @@ ServiceNow AI Platform® utilizes large language models \(LLM\) for generative A
 
 ## Third-party model providers
 
-ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. The Now LLM Service is the default LLM. Find the supported model providers, the LLM services and the version.
+ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. Find the supported model providers, the LLM services and the version.
 
 <table id="table_l55_qlf_xfc"><thead><tr><th>
 
@@ -50,7 +50,7 @@ Latest update for your instance
 
 </td><td>
 
-Default
+ 
 
 </td></tr><tr><td>
 

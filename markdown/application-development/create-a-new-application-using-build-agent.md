@@ -19,7 +19,7 @@ Build custom ServiceNow applications by describing your requirements in plain la
 
 You can watch a short video on how to create an application in Build Agent.
 
-Create an application in Build Agent 
+\[Omitted video\] Description: Create an application in Build Agent
 
 Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md).
 
@@ -45,15 +45,15 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d178421e223">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d236365e223">
 
 Scenario
 
-</th><th align="left" id="d178421e226">
+</th><th align="left" id="d236365e226">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d178421e232">
+</th></tr></thead><tbody><tr><td id="d236365e232">
 
 **Describe the app you want to create**
 
@@ -63,7 +63,7 @@ Describe the application that you want to create, and then select the Send icon\
 
 You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d178421e253">
+</td></tr><tr><td id="d236365e253">
 
 **Select a predetermined prompt**
 
@@ -95,13 +95,13 @@ You can also attach images, such as architectural diagrams or UI wireframes, to 
 
 ## Result
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
 \[Omitted image "ba-create-app-4.png"\] Alt text: App details panel showing the Planner Tracker application metadata organized in a hierarchical tree structure
 
 When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 
-For information on troubleshooting issues, see [Common issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-troubleshooting.md).
+For information on troubleshooting issues, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-troubleshooting.md).
 
 After the application is built, Build Agent displays a success message. For example:
 

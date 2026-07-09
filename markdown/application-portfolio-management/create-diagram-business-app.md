@@ -18,7 +18,7 @@ Create a diagram in for your business application hierarchy and associate it wit
 
 **Important:**
 
-Starting with the Xanadu release, the legacy create diagram feature is moved to the Enterprise Architecture Workspace. To learn more, see [Create a Lucidchart diagram for a business application in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-lucid-diagram-ba.md).
+Starting with the Xanadu release, the legacy create diagram feature is moved to the Enterprise Architecture Workspace. To learn more, see [Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-lucid-diagram-ba.md).
 
 For creating the diagram using the ServiceNow Enterprise Modeling and Visualization, you must activate the following ServiceNow Store applications. For more information, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling.md).
 
@@ -31,7 +31,7 @@ For creating the diagram using the Lucidchart, you must activate the following S
 -   Lucidchart Diagramming Spoke
 -   Lucidchart Integration
 
-To establish a connection with Lucid, see Create OAuth 2.0 Client in Lucidchart and Create a connection and credential alias for the Lucidchart diagramming spoke.
+To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

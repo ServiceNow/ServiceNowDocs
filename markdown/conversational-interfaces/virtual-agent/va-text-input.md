@@ -74,7 +74,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r-IPAddressFieldType.md).
+For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -193,7 +193,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r-IPAddressFieldType.md).
+For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td>
 

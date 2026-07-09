@@ -1,6 +1,6 @@
 ---
-title: Activate user task summarization skill
-description: Activate the user task summarization skill to create an automation request from the Task Mining workspace.
+title: Activate skills
+description: Activate the user task step summarization skill to create an automation request from the Task Mining workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/activate-skill.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Activate user task summarization skill
+# Activate skills
 
-Activate the user task summarization skill to create an automation request from the Task Mining workspace.
+Activate the user task step summarization skill to create an automation request from the Task Mining workspace.
 
 ## Before you begin
 
@@ -30,6 +30,8 @@ Role required: sn\_generative\_ai.nsa\_admin
 
     The skill is activated on your instance.
 
+    -   User task step summarization skill: Creates automation requests from the Task Mining Workspace
+    -   Saving Estimator skill: Explores and discovers automations from your ServiceNow instance.
 
 **Parent Topic:**[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-na-ac.md)
 

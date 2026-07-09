@@ -1,6 +1,6 @@
 ---
 title: Create an AWS IAM user policy for Cloud Cost Management
-description: If you manage users with IAM, you must create an IAM user profile that enables access to AWS data.
+description: Create an Identity and Access Management \(IAM\) user profile that enables access to AWS data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Mana
 
 # Create an AWS IAM user policy for Cloud Cost Management
 
-If you manage users with IAM, you must create an IAM user profile that enables access to AWS data.
+Create an Identity and Access Management \(IAM\) user profile that enables access to AWS data.
 
 ## Before you begin
 
@@ -28,6 +28,10 @@ On the AWS Management Console: AWS Management Console administrator.
 
 Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin.
 
+## About this task
+
+The following procedure describes the process of creating an AWS IAM user policy and configuring credentials-based authentication for Cloud Cost Management. If you prefer to use Assume Role authentication, see .
+
 ## Procedure
 
 1.  Log in to the AWS Management Console and create a user in IAM.
@@ -38,177 +42,201 @@ Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or adm
 
     -   Grant administrator access to the user by attaching the Administrator Access policy.
     -   Create an IAM policy with a descriptive name and use the following JSON for billing, cloud watch, forecast, and actions.
-        -   **Billing**
 
-            ```
-            {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Sid": "VisualEditor0",
-                        "Effect": "Allow",
-                        "Action": [
-                            "s3:GetObjectVersion",
-                            "s3:GetObjectTorrent",
-                            "s3:GetObject",
-                            "s3:ListBucket",
-                            "s3:GetObjectTagging",
-                            "s3:ListMultipartUploadParts",
-                            "s3:ListBucketMultipartUploads",
-                            "s3:GetObjectVersion"
-                        ],
-                        "Resource": [
-                            "arn:aws:s3:::<S3BucketName>/*",
-                            "arn:aws:s3:*:<AWS Master Account ID>:job/*",
-                            "arn:aws:s3:::<S3BucketName>"
-                        ]
-                    },
-                    {
-                        "Sid": "VisualEditor1",
-                        "Effect": "Allow",
-                        "Action": [
-                            "s3:GetAccountPublicAccessBlock",
-                            "s3:ListAllMyBuckets",
-                            "s3:ListJobs"
-                        ],
-                        "Resource": "*"
-                    }
-                ]
-            }
-            ```
+<table id="table_p3c_lhv_njc"><thead><tr><th>
 
-        -   **Cloud watch**
+Operation
 
-            ```
-            {
-               "Version": "2012-10-17",
-               "Statement": [
-                   {
-                       "Sid": "VisualEditor0",
-                       "Effect": "Allow",
-                       "Action": [
-                           "cloudwatch:GetMetricData",
-                           "cloudwatch:ListMetrics"
-                       ],
-                       "Resource": "*"
-                   }
-               ]
-            }
-            
-            ```
+</th><th>
 
-        -   **Describe Report Definitions**
+Policy
 
-            ```
-            {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Sid": "VisualEditor0",
-                        "Effect": "Allow",
-                        "Action": "cur:DescribeReportDefinitions",
-                        "Resource": "<BillingReportName>"
-                    }
-                ]
-            }
-            ```
+</th></tr></thead><tbody><tr><td>
 
-        -   **Actions**
+Billing
 
-            ```
-            {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Sid": "VisualEditor0",
-                        "Effect": "Allow",
-                        "Action": [
-                            "ec2:DescribeInstances",
-                            "ec2:StartInstances",
-                            "ec2:ModifyInstanceAttribute",
-                            "ec2:StopInstances",
-                            "ec2:DescribeInstanceStatus"
-                        ],
-                        "Resource": "*"
-                    }
-                ]
-            }
-            
-            ```
+</td><td>
 
-        -   **Use this policy to grant access to AWS Cost Explorer, Forecast, and Reservation Purchase Recommendation APIs for the IAM user that you configure to access billing data on the Service account**
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObjectVersion",
+                "s3:GetObjectTorrent",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:GetObjectTagging",
+                "s3:ListMultipartUploadParts",
+                "s3:ListBucketMultipartUploads",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<S3BucketName>/*",
+                "arn:aws:s3:*:<AWS Master Account ID>:job/*",
+                "arn:aws:s3:::<S3BucketName>"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetAccountPublicAccessBlock",
+                "s3:ListAllMyBuckets",
+                "s3:ListJobs"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
 
-            ```
-            {
-               "Version": "2012-10-17",
-               "Statement": [
-                   {
-                       "Sid": "VisualEditor0",
-                       "Effect": "Allow",
-                       "Action": [
-                           "ce:GetCostAndUsage",
-                           "ce:GetCostForecast",
-                           "ce:GetReservationPurchaseRecommendation"
-                       ],
-                       "Resource": "*"
-                   }
-               ]
-            }
-            
-            ```
+</td></tr><tr><td>
 
-        -   **Use this policy to get AWS Auto-scale instances \(Auto-scale instances aren’t included in Business Hours recommendations\)**
+Cloud watch
 
-            ```
-            {
-                 "Version": "2012-10-17",
-                 "Statement": [{
-                       "Sid": "VisualEditor0",
-                       "Effect": "Allow",
-                       "Action": [
-                            "autoscaling:DescribeAutoScalingInstances",
-                            "autoscaling:DescribeAutoScalingGroups"
-                       ],
-                       "Resource": "*"
-                 }]
-            }
-            ```
+</td><td>
 
-        -   **Use this policy for the AWS trusted advisor roles**
+```
+{
+   "Version": "2012-10-17",
+   "Statement": [
+       {
+           "Sid": "VisualEditor0",
+           "Effect": "Allow",
+           "Action": [
+               "cloudwatch:GetMetricData",
+               "cloudwatch:ListMetrics"
+           ],
+           "Resource": "*"
+       }
+   ]
+}
 
-            ```
-            {
-            
-                "Version":"2012-10-17",		 	 	 
-            
-                "Statement": [
-            
-                    {
-            
-                        "Effect": "Allow",
-            
-                        "Action": [
-            
-                            "support:DescribeTrustedAdvisorCheckRefreshStatuses",
-            
-                            "support:DescribeTrustedAdvisorCheckResult",
-            
-                            "support:DescribeTrustedAdvisorChecks",
-            
-                            "support:DescribeTrustedAdvisorCheckSummaries",
-            
-                            "support:RefreshTrustedAdvisorCheck",
-            
-                            "trustedadvisor:Describe*"
-            
-                        ],
-            
-                        "Resource": "*"
-            
-                    }
-                ]
-            
-            }
-            ```
+```
 
+</td></tr><tr><td>
 
+Describe Report Definitions
+
+</td><td>
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "cur:DescribeReportDefinitions",
+            "Resource": "<BillingReportName>"
+        }
+    ]
+}
+```
+
+</td></tr><tr><td>
+
+Actions
+
+</td><td>
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ec2:StartInstances",
+                "ec2:ModifyInstanceAttribute",
+                "ec2:StopInstances",
+                "ec2:DescribeInstanceStatus"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+```
+
+</td></tr><tr><td>
+
+AWS Cost Explorer, Forecast, and Reservation Purchase Recommendation APIs for the IAM user that you configure to access billing data on the Service account
+
+</td><td>
+
+```
+{
+   "Version": "2012-10-17",
+   "Statement": [
+       {
+           "Sid": "VisualEditor0",
+           "Effect": "Allow",
+           "Action": [
+               "ce:GetCostAndUsage",
+               "ce:GetCostForecast",
+               "ce:GetReservationPurchaseRecommendation"
+           ],
+           "Resource": "*"
+       }
+   ]
+}
+
+```
+
+</td></tr><tr><td>
+
+AWS Auto-scale instances \(Auto-scale instances aren’t included in Business Hours recommendations\)
+
+</td><td>
+
+```
+{
+     "Version": "2012-10-17",
+     "Statement": [{
+           "Sid": "VisualEditor0",
+           "Effect": "Allow",
+           "Action": [
+                "autoscaling:DescribeAutoScalingInstances",
+                "autoscaling:DescribeAutoScalingGroups"
+           ],
+           "Resource": "*"
+     }]
+}
+```
+
+</td></tr><tr><td>
+
+AWS trusted advisor roles
+
+</td><td>
+
+```
+{
+
+    "Version":"2012-10-17",		 	 	 
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeTrustedAdvisorChecks",
+                "support:DescribeTrustedAdvisorCheckSummaries",
+                "support:RefreshTrustedAdvisorCheck",
+                "trustedadvisor:Describe*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+</td></tr></tbody>
+</table>

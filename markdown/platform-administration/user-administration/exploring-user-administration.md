@@ -1,26 +1,26 @@
 ---
 title: Exploring user administration
-description: Learn more about user administration for your instance.
+description: User administration controls who can access features and data on your instance by managing users, groups, and roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/exploring-user-administration.html
 release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [User admin, Configure core features, Administer]
 ---
 
 # Exploring user administration
 
-Learn more about user administration for your instance.
+User administration controls who can access features and data on your instance by managing users, groups, and roles.
 
-## User administration overview
+## Overview of user administration
 
-Creating users, groups, and roles provide a flexible and scalable way to manage access to features on the ServiceNow AI Platform. By creating user accounts, assigning users to groups, and defining roles and permissions, administrators can ensure that users have the appropriate level of access to applications and data. This enables organizations to control access to sensitive data, maintain conformance with regulatory requirements, and improve overall security. Additionally, users, groups, and roles can be easily managed and modified over time as organizational needs change.
+Creating users, groups, and roles provide a flexible and scalable way to manage access to features on the ServiceNow AI Platform. By creating user accounts, assigning users to groups, and defining roles and permissions, administrators can verify that users have the appropriate level of access to applications and data. This enables organizations to control access to sensitive data, support organizational policies, and improve overall security. Additionally, users, groups, and roles can be easily managed and modified over time as organizational needs change.
 
-## Work flow
+## Workflow
 
 Subscriptions, users, groups, and roles work together to help you define who can access features on your instance.
 
@@ -54,14 +54,12 @@ Subscriptions, users, groups, and roles work together to help you define who can
 
 6.  [Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/user-admin-tools-landing.md)
 
-    Users with the admin role can impersonate users, manage user sessions, and leverage non-interactive sessions.
+    Users with the admin role can impersonate users, manage user sessions, and use non-interactive sessions.
 
-
-\[Omitted image "users-groups-roles.png"\] Alt text: Create users and add them to groups. Create and assign roles to both users and groups.
 
 ## User preferences
 
-Users can configure many UI features. Some examples include the number of rows per page in a list or whether the response time displays at the bottom of a list or form. Administrators can modify or delete these preferences as needed. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_UserPreferences.md).
+Users can configure many UI features. Some examples include the number of rows per page in a list or whether the response time displays at the bottom of a list or form. Administrators can modify or delete these preferences as needed. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_UserPreferences.md).
 
 ## User groups
 
@@ -69,7 +67,9 @@ A group is a set of users who share a common purpose. Groups may perform tasks s
 
 When possible, simplify user administration by assigning roles to groups. Create groups that contain all the roles necessary for specific personas, and then assign users to those groups.
 
-**Note:** You can view group members by navigating to **All** &gt; **User Administration** &gt; **Groups**. Select a group name and view the members in the **Group Members** related list.
+**Note:**
+
+You can view group members by navigating to **All** &gt; **User Administration** &gt; **Groups**. Select a group name and view the members in the **Group Members** related list.
 
 Group records are stored in the Groups \[sys\_user\_group\] table.
 

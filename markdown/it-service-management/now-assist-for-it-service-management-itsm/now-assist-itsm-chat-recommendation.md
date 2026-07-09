@@ -19,6 +19,8 @@ Generate a reply based on the context of the chat conversation using the Now Ass
 
 ## Before you begin
 
+Your admin must have enabled Virtual Agent and configured the chat assistant on the portal. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md) and [Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md).
+
 Role required: itil
 
 ## About this task
@@ -30,7 +32,7 @@ You can do these actions by using Now Assist icon:
 
 **Note:** The Chat reply recommendation skill is on the Chat skill card in the Technology group.
 
-The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -48,15 +50,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d268057e171">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d280010e200">
 
 Chat message window
 
-</th><th align="left" id="d268057e174">
+</th><th align="left" id="d280010e203">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d268057e182">
+</th></tr></thead><tbody><tr><td id="d280010e211">
 
 **Typed response**
 
@@ -68,7 +70,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d268057e202">
+</td></tr><tr><td id="d280010e231">
 
 **Left blank**
 

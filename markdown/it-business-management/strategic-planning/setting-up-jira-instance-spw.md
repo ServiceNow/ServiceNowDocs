@@ -22,7 +22,7 @@ Based on the type of your Jira instance, perform the following steps:
 
 -   For Jira Cloud:
     1.  [Create a child alias for the Jira Spoke alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md).
-    2.  Integrate your ServiceNow instance with your Jira account using OAuth. See [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md)
+    2.  Integrate your ServiceNow instance with your Jira account using OAuth. See [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-jira-spk-opt2.md)
 
         **Note:** To create credential record and connection record in this task, use the child alias that you created earlier and not the parent Jira Spoke.
 
@@ -38,7 +38,7 @@ After successfully setting up the Jira instance record, proceed to connect Strat
 
 -   **[Create a child alias for Jira Spoke alias for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.md)**  
 Create a child connection &amp; credential alias that will be used to connect to Jira later, to enable integration between Strategic Planning and Jira.
--   **[Create Personal Access Token in Jira Server/Data Center for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md)**  
+-   **[Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md)**  
 Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance, which is later used to create a connection between Strategic Planning and Jira.
 -   **[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-connection-and-credentials.md)**  
 Using your Jira instance details, create a connection and credential for the child alias, which is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.

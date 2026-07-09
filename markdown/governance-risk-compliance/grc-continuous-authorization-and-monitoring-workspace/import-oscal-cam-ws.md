@@ -31,7 +31,7 @@ The OSCAL catalog import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
+2.  In the CAM Workspace, select \[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -109,7 +109,7 @@ The OSCAL catalog import is a synchronous process.
 
 12. If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
 
-    You can also select the attachments action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments.\) on the **Attachments** tab to select **Restart Stage** to restart the attachments.\[Omitted image "cam-oscal-import-catalog5.png"\] Alt text: Restarting attachment stage.
+    You can also select the More actions icon on the **Attachments** tab to select **Restart Stage** to restart the attachments.
 
     **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 

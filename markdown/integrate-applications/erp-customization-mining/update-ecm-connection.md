@@ -32,7 +32,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  Select the connection status icon \[Omitted image "configuration-alias-icon.png"\] Alt text: in the side panel.
+2.  Select the connection status icon \[Omitted image "image.configuration-alias-icon"\] Alt text: in the side panel.
 
 3.  Select the **Change system** button.
 
@@ -44,7 +44,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
     ERP Semantic Mining begins to delete current data and restarts the data integration process.
 
-7.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \[Omitted image "refresh-icon.png"\] Alt text:.
+7.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \[Omitted image "image.refresh-icon"\] Alt text:.
 
 
 ## What to do next

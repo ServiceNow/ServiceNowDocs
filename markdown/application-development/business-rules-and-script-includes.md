@@ -44,7 +44,7 @@ Store any code that might need to be used elsewhere in a Script Include. Call th
 
 Keeping functions in a Script Include allows testing of the function before deploying the function in other scripted areas, thus reducing overall development and testing time.
 
-For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md).
 
 **Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-form-and-business-logic.md)
 

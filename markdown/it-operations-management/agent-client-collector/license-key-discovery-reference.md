@@ -1,6 +1,6 @@
 ---
 title: License key discovery and access control tables
-description: Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility - Content.
+description: Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/license-key-discovery-reference.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [license key discovery, ACC-VC, license keys table, license registry configuration, agent client collector]
-breadcrumb: [Agent Client Collector for Visibility - Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
 
 # License key discovery and access control tables
 
-Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility - Content.
+Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
 
 ## Tables
 

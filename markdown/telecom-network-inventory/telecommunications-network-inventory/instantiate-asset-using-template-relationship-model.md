@@ -1,5 +1,5 @@
 ---
-title: Instantiating inventory using design and assign
+title: Instantiating your network inventory by using design and assign
 description: By instantiating your network inventory in the Telecommunications Network Inventory application, you can generate and validate your inventory records at the site level. You can also generate your individual network instances from your defined inventory templates and models and then verify that they’re properly configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
-# Instantiating inventory using design and assign
+# Instantiating your network inventory by using design and assign
 
 By instantiating your network inventory in the Telecommunications Network Inventory application, you can generate and validate your inventory records at the site level. You can also generate your individual network instances from your defined inventory templates and models and then verify that they’re properly configured.
 
@@ -62,8 +62,6 @@ Modify a network topology record using the design and assign function in the Tel
 Create a cable record using the design and assign function in the Telecommunications Network Inventory application. By creating the cable and related strand records, you can fulfill an order request for a fiber optical cable record.
 -   **[Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md)**  
 Create an equipment record using the design and assign function in the Telecommunications Network Inventory application. By creating the equipment and its related inventory records, you can fulfill an order request for an equipment record.
--   **[Add a card to equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/add-card-equipment-design-assign-function.md)**  
-Add a card to equipment record using design and assign function in the Telecommunications Network Inventory application. By adding a card, you can fulfill an order request for a customer requirement.
 -   **[Add an equipment or rack to logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/add-equipment-rack-logical-composite.md)**  
 Add equipment or rack to a logical composite using design and assign.
 -   **[Remove an equipment or rack from logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-rack-logical-composite.md)**  
@@ -72,6 +70,8 @@ Remove a rack or equipment from a logical composite using design and assign.
 Add equipment to a rack or cabinet using design and assign function in the Telecommunications Network Inventory application. By adding the equipment to rack, you can fulfill a customer order request.
 -   **[Remove an equipment or shelf from a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-shelf-rack-cabinet.md)**  
 Remove an equipment or shelf from a rack or cabinet using design and assign function in the Telecommunications Network Inventory application. By removing the equipment from rack, you can fulfill a customer order request.
+-   **[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)**  
+Data center infrastructure allocation reserves rack unit space in a data center based on the requirements specified in a change request and the placement policies you have configured.
 -   **[Create logical connection record using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-using-design-assign.md)**  
 Create a logical connection record using the design and assign function in the Telecommunications Network Inventory application. By creating the logical connection and its related inventory records, you can fulfill an order request for an equipment record.
 -   **[Create physical connection using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-design-assign.md)**  

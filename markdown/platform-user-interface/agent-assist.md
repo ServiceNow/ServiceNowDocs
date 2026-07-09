@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Responding to issues in an open record in Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 

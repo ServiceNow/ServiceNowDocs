@@ -1,5 +1,5 @@
 ---
-title: Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility - Content
+title: Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility Content
 description: To update the Assigned To attribute of the Computer CI, you need to collect information from the logged in user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/fetching-logged-in-user-information-for-acc-v.html
@@ -13,7 +13,7 @@ keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC fo
 breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
-# Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility - Content
+# Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility Content
 
 To update the Assigned To attribute of the Computer CI, you need to collect information from the logged in user.
 
@@ -21,7 +21,7 @@ To update the Assigned To attribute of the Computer CI, you need to collect info
 
 Role required: admin
 
-You can automatically populate Assigned to for Windows endpoint devices and macOS devices, like workstations or employee laptops, as part of agent-based Discovery using ACC-VC with the following system properties. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) for more information.
+You can automatically populate Assigned to for Windows endpoint devices and macOS devices, like workstations or employee laptops, as part of agent-based Discovery using ACC-VC with the following system properties. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md) for more information.
 
 -   **sn\_acc\_vis\_content.set\_assigned\_to**
 -   **sn\_acc\_vis\_content.assigned\_to\_user\_order**

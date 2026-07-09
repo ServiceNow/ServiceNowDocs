@@ -23,7 +23,7 @@ Lookup
 
 </th><th>
 
-Lookup Description
+Description
 
 </th></tr></thead><tbody><tr><td>
 

@@ -35,33 +35,35 @@ Employee Slate supports two deployment paths — one with Moveworks and one with
 
 2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the Product Configuration console or the admin console. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
+    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the **Product Configuration console** or the **admin console**. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
 
 3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
 4.  [Configure the home page for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-home-page.md) to set the default home page layout and [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md) to set the personalized canvas.
 
-5.  [Search sources for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
-
-6.  Configure the org chart and employee profile.
+5.  Configure the org chart and employee profile.
 
     -   Set the eligible users and the card fields in [Configure the organization chart for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.md).
     -   Set the field groups and the editable fields in [Configure the employee profile for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.md).
-7.  [Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
+6.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
 
-8.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
+7.  [Search sources for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
 
-9.  Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+8.  [Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
 
-10. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
+9.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
-11. [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) for employees to stay engaged with relevant communications.
+10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-12. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+11. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
 
-13. Roll out to employees and configure analytics.
+12. [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) for employees to stay engaged with relevant communications.
 
-    Share the portal URL with employees. Track engagement, content performance, and AI assistant quality from [Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.md) and see funnels and events from [Configure analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.md).
+13. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+
+14. Roll out to employees and configure analytics.
+
+    Share the portal URL with employees. Track engagement, content performance, and AI assistant quality from [Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.md) and check funnels and events from [Configure analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.md).
 
 
 ## Result

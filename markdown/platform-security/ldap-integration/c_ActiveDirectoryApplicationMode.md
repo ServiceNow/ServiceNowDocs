@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [LDAP integration, Authentication, Access Management]
+breadcrumb: [LDAP integration, Access Management]
 ---
 
 # Active Directory Application Mode \(ADAM\)

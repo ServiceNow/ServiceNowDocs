@@ -44,7 +44,7 @@ The order task progresses through several stages from start to closure. It begin
 
 6.  Diagnose the order task to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

@@ -59,7 +59,7 @@ Focal point
 
 </td><td>
 
-Positioning coordinates for the image focal point. You can set this by clicking and dragging within the image preview or entering precise coordinates.
+Positioning coordinates for the image focal point. You can set this by selecting and dragging within the image preview or entering precise coordinates.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Link
 
 </td><td>
 
-Link to a knowledge article, catalog item, or external URL. Links are managed through the ServiceNow reusable links table.
+Link to a knowledge article, catalog item, or external URL. The ServiceNow reusable links table manages links.
 
 </td></tr><tr><td>
 
@@ -172,8 +172,8 @@ To create an announcement through chat, see [Conversational authoring for announ
 
 |Priority level|Behavior|
 |--------------|--------|
-|Critical|Highest priority level. Critical announcements appear first in the carousel, but newer high-priority content can still appear ahead of older critical content.|
-|High|High priority level. Balances with content freshness to determine position in the carousel.|
-|Medium|Default priority level for announcements created from existing content.|
-|Low|Lowest priority level. Low-priority announcements typically appear later in the carousel unless they are very recent.|
+|**Critical**|Highest priority level. Critical announcements appear first in the carousel, but newer high-priority content can still appear ahead of older critical content.|
+|**High**|High priority level. Balances with content freshness to determine position in the carousel.|
+|**Medium**|Default priority level for announcements created from existing content.|
+|**Low**|Lowest priority level. Low-priority announcements typically appear later in the carousel unless they are very recent.|
 

@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-05"
 reading_time_minutes: 2
-breadcrumb: [About Report Templates in TISC, Administer, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure report templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System properties for TISC Reports

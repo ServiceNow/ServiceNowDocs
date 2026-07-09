@@ -126,7 +126,7 @@ The audience determines who can see the page variant. The CSM centered chat inte
 
 By default, agents who belong to the **CSM - Front-line Agent** audience will see the CSM centered chat interaction record page in the CSM Configurable Workspace. This is the default for both new \(zboot\) and upgrade customers.
 
-For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/add-audiences.md).
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -162,7 +162,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 

@@ -16,7 +16,7 @@ breadcrumb: [Workflow Data Fabric]
 
 Power your AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise using ServiceNow® Workflow Data Fabric Hub.
 
-Workflow Data Fabric Hub overview video, approximately 3 minutes and 15 seconds long. 
+\[Omitted video\] Description: Workflow Data Fabric Hub overview video, approximately 3 minutes and 15 seconds long.
 
 Watch this short video to see an overview of Workflow Data Fabric Hub.
 

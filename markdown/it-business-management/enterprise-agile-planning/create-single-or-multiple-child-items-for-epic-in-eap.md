@@ -38,15 +38,15 @@ This task details the procedure of creating stories for work items such as Epic,
 
 5.  From the work item details page, create stories manually or with Now Assist.
 
-<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d137188e131">
+<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d180701e131">
 
 Choice
 
-</th><th align="left" id="d137188e134">
+</th><th align="left" id="d180701e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d137188e140">
+</th></tr></thead><tbody><tr><td id="d180701e140">
 
 **Creating manually**
 
@@ -59,7 +59,7 @@ Action
 
 The full details page of the created story is displayed.
 
-</td></tr><tr><td id="d137188e172">
+</td></tr><tr><td id="d180701e172">
 
 **Using Now Assist**
 
@@ -80,7 +80,7 @@ See [Create stories agentic workflow using Now Assist for Strategic Portfolio Ma
 
     From the full details page of a story, you can perform the following actions:
 
-    -   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+    -   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
 
         This feature requires activating the Write planning item skill of Now Assist for SPM.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-06-09"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -18,8 +18,7 @@ Set up your Hardware Asset Management \(HAM\) specific advisor dashboard by sele
 
 ## Before you begin
 
--   Install Hardware Asset Management \(sn\_hamp\) on your instance.
--   Obtain entitlement for Hardware Asset Management \(ham\_hamp\_license\).
+-   Obtain entitlement for HAM Pro. See [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-licensing.md).
 -   Opt in HAM resource categories. See [Managing opt-in and opt-out resource categories for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md)
 
 Role required: sn\_cmdb\_admin
@@ -28,13 +27,15 @@ Role required: sn\_cmdb\_admin
 
 Selecting model categories defines which hardware asset types CMDB success advisor monitors for HAM data quality. The selected categories determine the scope of the HAM advisor dashboard, including the KPIs, data integrations, and settings that are tracked.
 
+If the HAM advisor dashboard was configure using auto-setup during install or upgrade, you don't need to perform this task. Open the CMDB success advisor landing page to confirm the dashboard setup state. For more information on eligibility conditions and the auto-setup process, see [Automatic dashboard setup for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-auto-setup.md)
+
 **Important:** To determine which model categories to select, review the count of operational assets under each category in the Hardware Asset Workspace, or consult with your IT Asset Management \(ITAM\) or HAM administrator for guidance. See [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md).
 
 ## Procedure
 
 1.  On the CMDB success advisor landing page, select **Select model categories** within the HAM card.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
+    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-sa-landing-page.md).
 
 2.  On the Select model categories dialog box, select a resource category to choose all its model categories or expand a resource category to select individual categories, then move them from the **Available resource and model categories** column to the **Selected** column.
 

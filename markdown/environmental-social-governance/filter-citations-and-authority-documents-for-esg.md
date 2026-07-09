@@ -40,5 +40,5 @@ When you view the citations and authority documents in an instance, all the cita
 **Related topics**  
 
 
-[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)
+[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/t_CreateCitations.md)
 

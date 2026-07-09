@@ -29,9 +29,9 @@ ERP extraction tables extract and save data to a transform table on the ServiceN
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\] Alt text: in the side panel.
 
-    \[Omitted image "erpc-extraction-tables-ys2.png"\] Alt text: ERP extraction tables list.
+    \[Omitted image "image.erpc-extraction-tables-ys2"\] Alt text: ERP extraction tables list.
 
 3.  View the list of ERP extraction tables.
 

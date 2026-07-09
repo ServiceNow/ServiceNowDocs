@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/create-partition-ewd.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -17,13 +17,15 @@ Create a partition to control record visibility for users within a specific func
 ## Before you begin
 
 -   Identify the reference field, such as Department or Business Unit, to use as the partition criteria for each supported table. The reference field can be different for each table within the same partition.
--   Create a dedicated role for this partition to control record visibility for its users. For details, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateARole.md).
+-   Create a dedicated role for this partition to control record visibility for its users. For details, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateARole.md).
 
 Role required: sn\_spm\_ewd.ewd\_admin
 
 ## About this task
 
 Partitions are created per function — such as a department, business unit, or investment type — based on your organization's needs. Each partition requires a unique label and a dedicated role. After a partition is created, the partition criteria field selected for a partitioned table is set to read-only and can't be changed. Plan your partition structure before creating partitions. Changing the partition criteria field to a different function type — for example, from department to business unit — after data has been populated requires deleting and recreating the affected partitions.
+
+\[Omitted video\] Description: Create and configure a partition to control record visibility for users within a specific function
 
 ## Procedure
 

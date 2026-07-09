@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-07-07"
+reading_time_minutes: 7
 breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d586423e83">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d641001e81">
 
 Option
 
-</th><th align="left" id="d586423e86">
+</th><th align="left" id="d641001e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586423e92">
+</th></tr></thead><tbody><tr><td id="d641001e90">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d586423e121">
+</td></tr><tr><td id="d641001e119">
 
 **As a collaborator**
 
@@ -105,15 +105,15 @@ The state and the Contract status of the contract request is Work in progress.
 
 12. Add the internal or external signatories needed for e-signatures on the contract.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d586423e374">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d641001e372">
 
 Option
 
-</th><th align="left" id="d586423e377">
+</th><th align="left" id="d641001e375">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586423e383">
+</th></tr></thead><tbody><tr><td id="d641001e381">
 
 **Internal**
 
@@ -121,9 +121,15 @@ Steps
 
 1.  In the **Internal Signer** field, enter the name of the signer. The **Authorized signatory name**, **Signatory**, and **Signatory email** fields are automatically populated.
 2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value must be unique. For example: Enter the order numbers as 10, 20, 30, and so on, increasing by 10 each time. The system starts sending the contract to the internal signer with the lowest number.
+3.  In the **Signatory Role** field, select the role for the signatory.
 
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
 
-</td></tr><tr><td id="d586423e416">
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+</td></tr><tr><td id="d641001e465">
 
 **External**
 
@@ -133,22 +139,28 @@ Steps
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
 4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value must be unique. For example: Enter the order numbers as 10, 20, 30, and so on, increasing by 10 each time. The system starts sending the contract to the external signer with the lowest number.
+5.  In the **Signatory Role** field, select the role for the signatory.
 
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr></tbody>
 </table>13. When all stakeholders have agreed on a contract document revision, send the contract for signature.
 
     The action you take depends on the signature type.
 
-<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d586423e468">
+<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d641001e569">
 
 Signature type
 
-</th><th align="left" id="d586423e471">
+</th><th align="left" id="d641001e572">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586423e477">
+</th></tr></thead><tbody><tr><td id="d641001e578">
 
 **Electronic signature**
 
@@ -161,7 +173,7 @@ The document opens on the configured e-signature portal.
 2.  In the e-signature portal, complete the document by adding the required fields, including the **Signature** field, and then select **Send**.
  An e-signature envelope is created and sent to all signatories. If the system receives a success notification from the e-signature provider, the state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d586423e512">
+</td></tr><tr><td id="d641001e613">
 
 **Wet signature**
 
@@ -169,7 +181,7 @@ The document opens on the configured e-signature portal.
 
 Select **Send for signature**. A signature request email is sent to all the signatories. The state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d586423e527">
+</td></tr><tr><td id="d641001e628">
 
 **Offline signature**
 
@@ -190,10 +202,10 @@ Select **Initiate offline signature**. Signature request emails are not sent to 
     For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
 -   Check the contract request state and the contract document status in the request:
-    -   If all signatories sign the contract document, the contract document status updates to **Contract signed**. On the **Signatories** tab, the status of all signatories updates to **Signed**. You can access the contract repository record from the **Contracts Repository** tab.
+    -   If all signatories sign the contract document, the contract document status updates to **Contract signed**. On the **Signatories** tab, the status of all signatories updates to **Completed**. You can access the contract repository record from the **Contracts Repository** tab.
     -   If any signatory declines to sign the contract document, the contract status updates to **Signing Declined**. If more changes are required in the contract document, update it and resend it to the signatories for their signatures.
     -   After all the signatories have signed the document, an email is sent to the signatories with the finalized contract document attached.
 -   If all signatories sign the contract, you can close the request by selecting **Close Complete**.
 
-**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Use non-self-served contract request]()
 

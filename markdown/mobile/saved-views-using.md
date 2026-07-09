@@ -34,15 +34,15 @@ Role required: user
 
 5.  Deselect a saved view either from a bookmarked screen or from the Saved items list.
 
-<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d41932e119">
+<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d42483e119">
 
 Option
 
-</th><th align="left" id="d41932e122">
+</th><th align="left" id="d42483e122">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41932e128">
+</th></tr></thead><tbody><tr><td id="d42483e128">
 
 **From a bookmarked screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 The icon's appearance changes to an unfilled state \(\[Omitted image "saved-view-empty.png"\] Alt text: Saved view icon.\), indicating that the screen is no longer saved.
 
-</td></tr><tr><td id="d41932e172">
+</td></tr><tr><td id="d42483e172">
 
 **From the Saved items list**
 

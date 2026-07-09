@@ -20,7 +20,7 @@ Administrators can show up to five fields on the event body in Dispatcher Worksp
 
 ## Before you begin
 
-Configure Event Body Fields 
+\[Omitted video\] Description: Configure Event Body Fields
 
 Role required: admin
 

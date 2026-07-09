@@ -7,8 +7,8 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-07-07"
+reading_time_minutes: 4
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -112,7 +112,7 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who should sign the agreement.
+List of people from the selected third party who should sign the agreement.**Note:** The **Signatory Role** field appears only when the `sn_cm_core.enable_docusign_signature_roles` system property is set to `true`. The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and defaults to Signer. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr><tr><td>
 
@@ -164,5 +164,5 @@ The default signature type is Electronic Signature.
 
 For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

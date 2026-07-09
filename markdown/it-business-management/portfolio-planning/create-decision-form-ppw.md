@@ -1,20 +1,20 @@
 ---
-title: Create decision form
-description: The decision form information is used to create a decision for a demand.
+title: Decision form
+description: The decision form enables you to create a decision or plan for a demand to resolve or mitigate a risk or issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-decision-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create decision form
+# Decision form
 
-The decision form information is used to create a decision for a demand.
+The decision form enables you to create a decision or plan for a demand to resolve or mitigate a risk or issue.
 
 <table id="table_ckc_gs2_1vb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ State
 
 </td><td>
 
-Current state of the decision. All new decision records are created with the Open state.The available states are:
+Current state of the decision. Decisions are created in the Open state.The available values are:
 
 -   Pending
 -   Open
@@ -53,7 +53,13 @@ Priority
 
 </td><td>
 
-Urgency of approving or implementing the decision based on the possible impact.
+Urgency of approving or implementing the decision based on the possible impact. Decisions are created with Low priority.The available values are:
+
+-   Critical
+-   High
+-   Moderate
+-   Low
+-   Planning
 
 </td></tr><tr><td>
 
@@ -61,9 +67,7 @@ Decision status
 
 </td><td>
 
-Status of the decision. The available options are: -   Pending
--   Approved
--   Rejected
+Status of the decision. The available values are Pending, Approved, and Rejected.
 
 </td></tr><tr><td>
 
@@ -71,7 +75,11 @@ Impact
 
 </td><td>
 
-Impact on the outcome of the demand if you don’t implement the decision.
+Impact of the decision on the demand. Decisions are created with Low impact.The available values are:
+
+-   High
+-   Medium
+-   Low
 
 </td></tr><tr><td>
 
@@ -79,7 +87,7 @@ Approval required
 
 </td><td>
 
-Option for determining whether approval of the decision is required.
+Indicates whether approval of the decision is required.
 
 </td></tr><tr><td>
 
@@ -87,7 +95,7 @@ Estimated Cost
 
 </td><td>
 
-Estimated cost of implementing the decision in the selected currency.
+Estimated cost of implementing the decision.
 
 </td></tr><tr><td>
 
@@ -95,7 +103,7 @@ Due date
 
 </td><td>
 
-Requested date on which the decision must be approved or implemented.
+Requested date for decision approval or implementation.
 
 </td></tr><tr><td>
 
@@ -103,7 +111,7 @@ Assigned to
 
 </td><td>
 
-Primary resource assigned to work on the decision. The default value is the name of the user creating the decision record.
+Resource assigned to work on the decision. The default value is the name of the user creating the decision is populated.
 
 </td></tr><tr><td>
 
@@ -111,7 +119,7 @@ Parent
 
 </td><td>
 
-Demand number to which this decision belongs.
+Demand associated with the decision. This field is auto-populated.
 
 </td></tr><tr><td>
 
@@ -119,7 +127,7 @@ Short description
 
 </td><td>
 
-Brief description of the decision such as what the decision is about, who made it, what it affects, and the decision outcome.
+Brief summary of the decision.
 
 </td></tr><tr><td>
 
@@ -127,7 +135,7 @@ Description
 
 </td><td>
 
-Details of the decision and its potential impact.
+Brief description of the decision and its impacts on the demand.
 
 </td></tr><tr><td>
 
@@ -135,7 +143,7 @@ Work notes
 
 </td><td>
 
-Information to record and track the status of decision implementation or approvals.
+Information about the decision.
 
 </td></tr></tbody>
 </table>

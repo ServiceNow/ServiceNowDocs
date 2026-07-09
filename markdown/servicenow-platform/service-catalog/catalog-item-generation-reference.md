@@ -25,6 +25,8 @@ In addition to catalogs, categories, and topics, Now Assist allows you to set th
 Now Assist can generate UI policies with multiple actions from simple natural language.
 -   **[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)**  
 Now Assist uses the description that you write to generate a catalog item for you. If you're using Now Assist for creating a catalog item, use these suggestions to describe your catalog item.
+-   **[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)**  
+The Catalog Item Standards knowledge base contains a knowledge base article. This article called Catalog Best Practices, has best practices that help Now Assist provide guidance during catalog item creation in Catalog Builder.
 -   **[Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-catalog-item-generation.md)**  
 Use the Catalog item generation skill to create catalog items of your choice using Now Assist.
 -   **[Refine content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-refine-content.md)**  

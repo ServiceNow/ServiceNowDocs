@@ -26,7 +26,7 @@ Setting up your own email environment can be useful if you want to use existing 
 The following procedures assume that you [enabled basic email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfiguringStandardEmail.md).
 
 -   **[Enable using your own SMTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailUsgOwnSMTP.md)**  
-Enable using your own SMTP server so that you can leverage the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
+Enable using your own SMTP server so that you can use the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
 -   **[Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailConfPOP3Server.md)**  
 You can use your own POP3 server to store and receive email for the instance.
 -   **[Enable using your own SMTP and POP3 servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailConfServers.md)**  

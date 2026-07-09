@@ -25,7 +25,7 @@ Install the following store apps:
 -   Lucidchart Diagramming Spoke
 -   Lucidchart Integration
 
-Ensure a connection is established with Lucid. For details, see Create OAuth 2.0 Client in Lucidchart and Create a connection and credential alias for the Lucidchart diagramming spoke.
+Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

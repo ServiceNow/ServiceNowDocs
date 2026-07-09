@@ -44,7 +44,7 @@ Supported. Separation is based on the domain user that sent events. User access 
 
 In a multi-domain environment, each MID Server can serve only one domain according to the integration user that it uses. In the configuration of the connector instance, make sure that the MID Server have same domain as Connector instance.
 
-To configure pull connectors to support custom domain separation, see [Personalize domains for pull connector events to use in event creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md).
+To configure pull connectors to support custom domain separation, see [Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md)
+For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-domain-separation.md)
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,9 +25,9 @@ Role required: admin, knowledge\_admin, or knowledge
 
 ## About this task
 
-**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/lf-support-for-kb-articles.md). This information is provided for legacy context.
+**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/lf-support-for-kb-articles.md). This information is provided for legacy context.
 
-For information about how administrators configure the translation API, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/dyn-translation-apis.md).
+For information about how administrators configure the translation API, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dyn-translation-apis.md).
 
 ## Procedure
 

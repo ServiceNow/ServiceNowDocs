@@ -14,7 +14,7 @@ breadcrumb: [AI agents best practices, Explore, Now Assist AI agents, Enable AI 
 
 By following some general guidelines for creating AI agents and agentic workflows, you can create clear and effective instructions that help maximize their efficiency and effectiveness.
 
-Discussing when to create a flow, conversational topic, AI agent, or agentic workflow to accomplish a task on the Now Platform 
+\[Omitted video\] Description: Discussing when to create a flow, conversational topic, AI agent, or agentic workflow to accomplish a task on the Now Platform
 
 ## Creating AI agents and agentic workflows overview
 

@@ -1,18 +1,18 @@
 ---
 title: Schedule appointments or join a queue from the Customer Service Management portal
-description: Customers must invest time in coming to a physical location for service. Ability to book appointments at a specific time helps plan visits to the service location. A slot is pre-assigned based on the appointment booking.
+description: Customers must invest time in coming to a physical location for service. The ability to book appointments at a specific time helps plan visits to the service location. A slot is preassigned based on the appointment booking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-walkup-checkin-online.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Using Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # Schedule appointments or join a queue from the Customer Service Management portal
 
-Customers must invest time in coming to a physical location for service. Ability to book appointments at a specific time helps plan visits to the service location. A slot is pre-assigned based on the appointment booking.
+Customers must invest time in coming to a physical location for service. The ability to book appointments at a specific time helps plan visits to the service location. A slot is preassigned based on the appointment booking.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ Role required: sn\_walkup.walkup\_login
 
     The application searches for your nearest service center.
 
-3.  Select **Change location** and select the location you prefer from the drop-down list if you want to change the default location.
+3.  Select **Change location** and select the location you prefer from the drop-down list.
 
-    The default location is set to the nearest service center based on your location information, once you allow the browser to access your location. You can pick the location manually if do now want to allow browser to detect your location.
+    The default location is set to the nearest service center based on your location information if you enable the browser to access your location. You can select the location manually if you don't want the browser to detect your location.
 
 4.  Go to the **Schedule an appointment** tab to book an appointment.
 
@@ -38,7 +38,7 @@ Role required: sn\_walkup.walkup\_login
 
 6.  Select a reason for your visit from the drop-down list.
 
-7.  Select the Calendar icon \(\[Omitted image "calendar.jpg"\] Alt text: Calendar icon.\) and select the date and time of the appointment.
+7.  Select the Calendar icon and then select the date and time of the appointment.
 
 8.  Select **Schedule Appointment**.
 

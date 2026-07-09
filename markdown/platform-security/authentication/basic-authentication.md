@@ -18,7 +18,7 @@ Legacy API authentication method using username and password, with restricted us
 
 Basic authentication is a legacy method for authenticating API requests using a username and password combination. While it remains available for compatibility in certain scenarios, its use is strongly discouraged over token-based authentication methods.
 
-Basic authentication should only be used in limited scenarios where alternative methods aren't viable.
+Basic authentication should only be used in limited scenarios where alternative methods aren't viable. To learn more about the basic authentication restrictions, review this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3025707).
 
 ## Behaviour across instance scenarios
 

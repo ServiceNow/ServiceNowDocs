@@ -39,7 +39,7 @@ Role required: agent\_client\_collector\_admin
         -   **Monitored CI type by filter**: Select the monitored CI type. You can narrow down the CIs that will be monitored by using filter conditions.
         -   **Monitored CI type by script**: Specify the monitored CIs by using a script.
         -   **Monitored CI type by CMDB Group**: Specify the monitored CIs by using CMDB group queries.
-        For more information about choosing monitored CI types, see [Create a new Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
+        For more information about choosing monitored CI types, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
 
     2.  Monitor only CIs that are associated with an Application Service by selecting **Filter Monitored CIs by Application Service**.
 

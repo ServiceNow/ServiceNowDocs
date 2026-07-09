@@ -1,6 +1,6 @@
 ---
 title: Define temporary variables for a pattern allowlist
-description: Define temporary variables by assigning values such as executable paths, config file paths, and so forth. If a Linux command contains a string that isn’t defined, the command fails when run.
+description: Define temporary variables by assigning values such as executable paths, config file paths, and so forth. Defining temporary variables ensures that runtime commands are successful.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/define-temp-variables.html
 release: zurich
@@ -14,7 +14,13 @@ breadcrumb: [Generate a Pattern allowlist, ACC deployment - endpoints, Agent Cli
 
 # Define temporary variables for a pattern allowlist
 
-Define temporary variables by assigning values such as executable paths, config file paths, and so forth. If a Linux command contains a string that isn’t defined, the command fails when run.
+Define temporary variables by assigning values such as executable paths, config file paths, and so forth. Defining temporary variables ensures that runtime commands are successful.
+
+## About this task
+
+If a Linux command executable relies on an undefined temporary variable, the command fails at runtime.
+
+For example, for the command `$pathToCmd "/log/acc.log"`, if a value is not defined for `$pathToCmd`, the command will fail.
 
 ## Before you begin
 

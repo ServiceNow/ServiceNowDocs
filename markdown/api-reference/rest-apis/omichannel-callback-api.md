@@ -24,7 +24,7 @@ The Omnichannel Callback API allows agents to programmatically call users back r
 
 This API belongs to the sn\_omni\_callback namespace and requires the Administrator with callback API \[sn\_omni\_callback.callback\_api\] role.
 
-For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md).
+For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/omnichannel-callback.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
@@ -42,7 +42,7 @@ The /actions endpoint intelligently routes callback requests based on the **rout
 
 If **routingContext** is omitted or no routing rule matches, the API falls back to default ServiceNow behavior and expects the standard payload format of the corresponding POST /create, PATCH /update, or PATCH /cancel endpoints.
 
-For more information about configuring subflow and routing rules, see [Configure callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/omnichannel-callback/configure-callback-route-ccaas-api.md) and [Copy subflow template for callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/omnichannel-callback/configure-callback-route-copy-subflow-template.md).
+For more information about configuring subflow and routing rules, see [Configure callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-callback-route-ccaas-api.md) and [Copy subflow template for callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-callback-route-copy-subflow-template.md).
 
 ### Supported actions
 
@@ -179,7 +179,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_TimeZones.md).
 
 Data type: String
 
@@ -1143,7 +1143,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_TimeZones.md).
 
 Data type: String
 
@@ -2474,7 +2474,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_TimeZones.md).
 
 Data type: String
 

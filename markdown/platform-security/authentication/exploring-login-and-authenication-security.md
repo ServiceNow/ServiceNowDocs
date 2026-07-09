@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Login and authentication security, Local authentication, Authentication, Access Management]
+breadcrumb: [Login and authentication security, Local authentication, Access Management]
 ---
 
 # Explore Login and authentication security

@@ -1,5 +1,5 @@
 ---
-title: Convert standard control to common control and add reliant entities
+title: Convert standard control to common control
 description: Mark a control as common and associate reliant entities to it. Test the common control tied to the primary entity. The reliant entities inherit the results of the common control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.html
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Test common control and implement results, Manage controls, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Convert standard control to common control and add reliant entities
+# Convert standard control to common control
 
 Mark a control as common and associate reliant entities to it. Test the common control tied to the primary entity. The reliant entities inherit the results of the common control.
 
@@ -28,7 +28,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
+2.  In the Compliance Workspace sidebar, select \[Omitted image "ws-list-icon.png"\] Alt text: List.
 
 3.  Navigate to **Compliance library** &gt; **All controls**.
 
@@ -36,7 +36,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
     **Note:** Before you convert a control from standard to common, ensure that you select a value in the **Control objective** field, and save the form details. Control objective is required for a common control as there are validations to ensure that the common control does not have the same Name, Entity \(primary or reliant\), and Control objective combination as any other control.
 
-4.  Click the More Actions \[Omitted image "MoreActionsbutton.png"\] Alt text: More actions button. on the top right.
+4.  Select the More Actions on the top right.
 
 5.  Select the **Convert to common** list UI action.
 

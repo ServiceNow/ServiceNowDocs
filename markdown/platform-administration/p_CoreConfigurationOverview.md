@@ -24,6 +24,8 @@ Learn about these ServiceNow AI Platform basic system components and settings:
 
 -   **[Experimentation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 The experimentation framework enables ServiceNow to test feature variants on customer instances and collect feedback to improve product experiences.
+-   **[Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/feature-preview-program.md)**  
+The Feature Preview Program provides access to pre-release capabilities on your instance. You can activate, test, and provide feedback on individual features before they are generally available.
 -   **[ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ServiceNowPlugins.md)**  
 Plugins are software components that provide features and functionalities within a ServiceNow instance.
 -   **[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md)**  

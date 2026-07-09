@@ -42,7 +42,7 @@ The following graphic provides a quick overview of finding and solving an issue.
 
     The first thing to do is find out what to work on. You can do that by looking at what's on the landing page, as shown in this image. Or, you can go directly to the list of open issues to solve. Let's see how to do both.
 
-4.  View P1 incidents that haven't been solved by clicking **Open P1 Incidents** on the landing page.
+4.  View P1 incidents that haven't been solved by clicking **Open P1 Incidents** on the landing page as shown below. \[Omitted image "landing-page.png"\] Alt text: Landing page example
 
     A list of P1 incidents open.
 

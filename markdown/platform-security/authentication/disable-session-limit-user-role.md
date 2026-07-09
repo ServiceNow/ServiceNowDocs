@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Limit concurrent sessions, Authentication, Access Management]
+breadcrumb: [Limit concurrent sessions, Access Management]
 ---
 
 # Disable a concurrent session limit by user or role

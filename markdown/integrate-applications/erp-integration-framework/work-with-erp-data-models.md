@@ -1,6 +1,6 @@
 ---
 title: Building and managing models to work with ERP data
-description: Models in Zero Copy Connector for ERP function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform.
+description: Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/work-with-erp-data-models.html
 release: zurich
@@ -15,11 +15,13 @@ breadcrumb: [Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 
 # Building and managing models to work with ERP data
 
-Models in Zero Copy Connector for ERP function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform.
+Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform
 
 ## Models represent datasets and create a staging area
 
-A model represents the logical structure and organization of data coming from the ERP system. Models define the entities, attributes, read/update operations, and table join relationships that capture and represent business processes and data elements in the ERP system.When you first open Zero Copy Connector for ERP, you view a list of the models for your instance.
+A model represents the logical structure and organization of data coming from the ERP system. Models define the entities, attributes, read/update operations, and table join relationships that capture and represent business processes and data elements in the ERP system. When you first open Zero Copy Connector for ERP, you view a list of the models for your instance.
+
+\[Omitted image "image.MMASSET0021842-erp-data-model-Horizontal"\] Alt text: Infographic showing the relationship between models, model operations, ERP systems, and applications.
 
 There are two types of models:
 

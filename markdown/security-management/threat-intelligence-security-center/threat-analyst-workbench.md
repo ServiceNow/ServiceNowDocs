@@ -32,8 +32,8 @@ The Investigation Canvas is a key significant feature, which provides more valua
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 -   **[Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/run-enrichment-results.md)**  
 Use this section to understand how enrichments actions are performed on case\(s\).
--   **[View Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/view-case-reports.md)**  
-Use the case reports feature to generate reports related to the cases. These reports include post investigation report or an executive summary report.
+-   **[Generate a Case Report using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/view-case-reports.md)**  
+Use a predefined report template to generate case reports. These reports include post investigation report or an executive summary report.
 -   **[Create a security incident from a TISC case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-si-case.md)**  
 Create security incidents and associate observables to the security incidents from a TISC case.
 -   **[Upload Secure File Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/secure-file-attachments.md)**  

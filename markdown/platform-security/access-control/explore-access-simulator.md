@@ -18,7 +18,7 @@ Access Simulator helps you simulate how access to the specified table would chan
 
 Administrators can use the Access Simulator to simulate the access requirements of their users on a specified table and understand how the access controls changes for a user. It helps in quickly understanding the present access of the users and understand the impacts of providing or removing roles to the users.
 
-Access Simulator 
+\[Omitted video\] Description: Access Simulator
 
 Access Simulator can be used for the simulating access on a user for the following scenarios:
 

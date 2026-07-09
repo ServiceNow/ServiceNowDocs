@@ -30,11 +30,11 @@ To set up your integration, complete the following application setup actions.
 
 2.  Request an Integration Hub subscription.
 
-    To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+    To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-ih-overview.md).
 
 3.  Install the Financial Services Operations Integration with Guidewire application from the ServiceNow Store, which automatically activates the Guidewire spoke.
 
-    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see .
+    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/guidewire-spoke.md).
 
 
 **Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-integration-with-guidewire-landing-page.md)

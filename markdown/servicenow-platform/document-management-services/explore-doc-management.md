@@ -22,7 +22,7 @@ With the Document Management application, you can create, upload, track and mana
 
 Use the document repository to easily upload, retrieve, share, delete and sign documents. Documents can also be linked to other records in the system.
 
-Document Management Overview 
+\[Omitted video\] Description: Document Management Overview
 
 ## Document Management benefits
 

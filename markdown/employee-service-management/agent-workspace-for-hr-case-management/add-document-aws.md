@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Secure documents
@@ -20,7 +20,7 @@ Add an extra layer of security on documents that are linked to a case. Grant acc
 
 Role required: sn\_hr\_core.case\_writer
 
-**Note:** Ensure that the Document Management \[com.snc.platform\_document\_management\] plugin is installed.
+**Note:** Confirm that the Document Management \[com.snc.platform\_document\_management\] plugin is installed.
 
 ## Procedure
 
@@ -56,10 +56,10 @@ Role Permissions
 
 </td><td>
 
-To grant access to a document based on a role:1.  Click **New**. The Role Permissions modal opens.
+To grant access to a document based on a role:1.  Select **New**. The Role Permissions modal opens.
 2.  In the **Permission** list, select **Reader** or **Writer**.
 3.  In the **User Role** field, select a value.
-4.  Click **Save**.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -68,10 +68,10 @@ User Criteria Permissions
 
 </td><td>
 
-To grant access to a document based on user criteria:1.  Click **New**. The User Criteria Permissions modal opens.
+To grant access to a document based on user criteria:1.  Select **New**. The User Criteria Permissions modal opens.
 2.  In the **Permission** list, select **Reader** or **Writer**.
 3.  In the **User Criteria** field, select a value.
-4.  Click **Save**.
+4.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -80,12 +80,12 @@ User Permissions
 
 </td><td>
 
-To grant access to a document based on user permissions:1.  Click **More**.
+To grant access to a document based on user permissions:1.  Select **More**.
 2.  Select **User Permissions**.
-3.  Click **New**. The User Permissions modal opens.
+3.  Select **New**. The User Permissions modal opens.
 4.  In the **Permission** list, select **Reader** or **Writer**.
 5.  In the **User** field, select a value.
-6.  Click **Save**.
+6.  Select **Save**.
 
 
 </td></tr><tr><td>
@@ -94,12 +94,12 @@ Group Permissions
 
 </td><td>
 
-To grant access to a document based on group permissions:1.  Click **More**.
+To grant access to a document based on group permissions:1.  Select **More**.
 2.  Select **Group Permissions**.
-3.  Click **New**. The Group Permissions modal opens.
+3.  Select **New**. The Group Permissions modal opens.
 4.  In the **Permission** list, select **Reader** or **Writer**.
 5.  In the **User Group** field, select a value.
-6.  Click **Save**.
+6.  Select **Save**.
 
 
 </td></tr></tbody>

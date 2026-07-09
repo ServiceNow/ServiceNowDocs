@@ -20,7 +20,7 @@ Role required: wm\_admin, admin
 
 You must have the property `work.management.task_state_color.use_hex` enabled to change work order tasks state colors.
 
-Define colors for work order states 
+\[Omitted video\] Description: Define colors for work order states
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Templates in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_hr\_core.case\_writer
 
     In the **HR service** field, make sure that an HR service that has document template is selected. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 
-3.  Click the **Start Work** button.
+3.  Select the **Start Work** button.
 
 4.  Select the **Preview document** option.
 
@@ -36,7 +36,7 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  Select the **Initiate document task** button.
 
-    \[Omitted image "initiate-tasks.png"\] Alt text: Initiating document tasks
+    \[Omitted image "initiate-tasks.png"\] Alt text: Preview document dialog showing employment verification letter with Initiate document tasks button
 
     For more information, see [Document tasks generation in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
@@ -52,7 +52,7 @@ Role required: sn\_hr\_core.case\_writer
 
     **Note:** If the **Signing type** in the template is Adobe Acrobat Sign or Docusign, on clicking **Sign Document**, you will be redirected to the respective application page for signing the document.
 
-9.  Click **Sign** to complete the signing process.
+9.  Select **Sign** to complete the signing process.
 
     The status of the document task is automatically set to **Closed**.
 

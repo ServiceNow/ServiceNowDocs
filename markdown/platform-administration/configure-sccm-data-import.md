@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Microsoft SCCM integration, ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer]
 ---
 
@@ -36,17 +36,13 @@ The system uses the details of the database connection you create in this proced
 
 1.  Navigate to **All** &gt; **Integration - Microsoft SCCM &lt;version&gt;** &gt; **Setup**.
 
-2.  Complete the required fields to configure connection to the SCCM SQL database. Make sure to include a valid MID Server that has access to the SQL database server.
-
-    \[Omitted image "SCCMIntegrationSetup.png"\] Alt text: SCCM data import setup
+2.  Complete the required fields to configure connection to the SCCM SQL database, including a valid MID Server that has access to the SQL database server.
 
 3.  Under Related Links, click **Test data source connections** to test the connection to the SCCM database.
 
 4.  If the data source connects to the SCCM database, navigate to **Integration - Microsoft SCCM** &gt; **Scheduled Import**.
 
     The Scheduled Data Import form appears for your version of the SCCM integration. The Computer Identity data source runs first. The other data sources listed on the form run in sequence, based on their default order.
-
-    \[Omitted image "SCCM\_Import\_Schedule.png"\] Alt text:
 
 5.  Select a calendar interval \(Day, Week, etc.\) in the **Run** field and specify the time of day the import should run.
 

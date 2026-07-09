@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-04-02"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses  to reduce manual overhead in task creation and content generation.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and content generation.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 |SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
@@ -255,7 +255,9 @@ Share Doc content with stakeholders who don't have access to CWM by exporting pa
 Knowledge worker
 
 </td></tr></tbody>
-</table>## What to explore next
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+## What to explore next
 
 To learn more about configuring and using Collaborative Work Management, see:
 

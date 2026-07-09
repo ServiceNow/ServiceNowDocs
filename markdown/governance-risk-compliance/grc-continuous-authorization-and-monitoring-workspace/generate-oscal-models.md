@@ -24,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
+2.  In the CAM Workspace, select \[Omitted image "ws-list-icon.png"\] Alt text: List from the sidebar.
 
 3.  Select **Authorization packages** from the **RMF** list.
 

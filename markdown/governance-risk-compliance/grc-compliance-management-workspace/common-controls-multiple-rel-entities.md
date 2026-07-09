@@ -18,8 +18,6 @@ Instead of generating controls for individual entities and testing each entity s
 
 Test the common control for control tests, indicators, attestations, issues, and policy exceptions. Use the test results that are inheritable and implement them on all the reliant entities associated to the common control.
 
-\[Omitted image "CommonControlOverview.png"\] Alt text: Multiple entities linked to a common control.
-
 Using common controls gives you the ability to:
 
 -   Mark a control as common and associate reliant entities to it.

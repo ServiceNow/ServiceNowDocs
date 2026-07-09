@@ -108,6 +108,7 @@ Business stakeholder\[business\_stakeholder\]
 
 -   Can create and update portfolio plans and free-form roadmaps.
 -   Can add notes, comments, or attachments to portfolio plans and roadmaps that are shared with them.
+-   Can fill out the assessments for scoring and reviews demands before they are approved.
 -   Can personalize the roadmaps.
 -   Can view generated resource capacity for planning items in the Capacity Planning screen.
 -   Can view goals and related records using the platform view.

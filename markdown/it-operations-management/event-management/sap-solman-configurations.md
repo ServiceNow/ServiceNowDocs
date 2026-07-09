@@ -29,5 +29,5 @@ View your SAP Solution Manager certificate, and update the certificate if necess
 -   **[View the SAP interface log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sapsolman-view-interface-debugging-table.md)**  
 View the SAP interface log to help you debug issues.
 
-**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sap-manager-connector.md)
 

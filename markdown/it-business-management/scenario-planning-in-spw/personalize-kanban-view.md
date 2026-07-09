@@ -39,15 +39,15 @@ Kanban preferences are saved in the portfolio plan level. So, these settings are
 
 4.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\) to update the view, based on your preferences.
 
-<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d139627e176">
+<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d199477e176">
 
 Choice
 
-</th><th align="left" id="d139627e179">
+</th><th align="left" id="d199477e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d139627e185">
+</th></tr></thead><tbody><tr><td id="d199477e185">
 
 **Update Vertical lane and Horizontal lane values**
 
@@ -55,7 +55,7 @@ Action
 
 Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.\[Omitted image "lanes.gif"\] Alt text: Update the Vertical and Horizontal lane values.**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for the Kanban tab.
 
-</td></tr><tr><td id="d139627e207">
+</td></tr><tr><td id="d199477e207">
 
 **Edit the items to show on card**
 
@@ -64,7 +64,7 @@ Choose your desired values from the vertical lane and horizontal lane fields, us
 Choose the fields that you want to view on the cards. Use the toggle buttons for the **Owner** and **Item type** fields, for the other fields use the drop-downs.\[Omitted image "show-on-card.gif"\] Alt text: update the fields to show on the card.**Note:** Your Kanban preferences will be saved at the portfolio plan level.
 
 </td></tr></tbody>
-</table>    See [Customize the planning item display preferences for Prioritization and Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).\[Omitted image "using-kanban.gif"\] Alt text: Using the Kanban side-panel, drag and drop, and changing the lanes functionality.
+</table>    See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).\[Omitted image "using-kanban.gif"\] Alt text: Using the Kanban side-panel, drag and drop, and changing the lanes functionality.
 
     **Important:** The default display limit of vertical lanes and horizontal lanes shown on a Kanban board is 30 and 30 respectively. These lanes support only reference and choice fields. As you user, you will not be able to change the field metrics on a Kanban card.
 

@@ -105,17 +105,17 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
 9.  Choose one of the following scenarios.
 
-    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see .
+    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
-<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d77608e496">
+<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d116114e500">
 
 Option
 
-</th><th align="left" id="d77608e499">
+</th><th align="left" id="d116114e503">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77608e505">
+</th></tr></thead><tbody><tr><td id="d116114e509">
 
 **Edit topic description**
 
@@ -130,7 +130,7 @@ All topic descriptions, either migrated from the existing NLU topic description 
 4.  Repeat this process until all topic descriptions are reviewed and edited.
 
 
-</td></tr><tr><td id="d77608e537">
+</td></tr><tr><td id="d116114e541">
 
 **Edit topic description and test utterances**
 

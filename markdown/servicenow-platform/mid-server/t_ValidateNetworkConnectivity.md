@@ -8,8 +8,8 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+reading_time_minutes: 4
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Test MID Server connectivity
@@ -51,7 +51,7 @@ The computer that hosts the MID Server must be able to access one of these URLs 
 6.  Verify that the MID Server service is running on the host:
 
     -   Windows: In the Windows Services console, locate the **ServiceNow \[MID Server name\]** and confirm that each MID Server has the **Started Status** value.
-    -   Linux: Ensure that the `agent0.log.0.lck` appears in the `/servicenow/ MID Server name]/agent` folder.
+    -   Linux: Ensure that the `agent0.log.0.lck` appears in the `/servicenow/[MID Server name]/agent/logs` folder.
 7.  After each MID Server restart, open the `agent0.log.0` and address all error messages.
 
 8.  From the ServiceNow instance, navigate to **MID Server** &gt; **Servers**.

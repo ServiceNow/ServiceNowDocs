@@ -30,6 +30,8 @@ You can specify details about the import group and select users who must be noti
 You can define the behavior of sync operations by configuring the Enhanced Sync properties.
 7.  [Bulk upload Excel columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/bulk-template-columns.md)  
 Use the bulk upload template to provide information about your campuses, buildings, and floors.
+8.  [Resolving cloning issues in Indoor Mapping instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/troubleshooting-clone-issues.md)  
+After cloning a Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
 
 **Parent Topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

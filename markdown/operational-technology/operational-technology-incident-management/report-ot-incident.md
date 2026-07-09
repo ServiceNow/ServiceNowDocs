@@ -22,7 +22,7 @@ Role required: sn\_ot\_incident\_write
 
 ## About this task
 
-For a walkthrough of how to report an OT incident, watch this video.Reporting an OT incident in the Industrial Workspace 
+For a walkthrough of how to report an OT incident, watch this video.\[Omitted video\] Description: Reporting an OT incident in the Industrial Workspace
 
 ## Procedure
 

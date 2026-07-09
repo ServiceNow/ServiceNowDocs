@@ -7,7 +7,7 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating users, Creating users, companies, departments, User admin, Configure core features, Administer]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [Creating users, Creating users, companies, departments, User admin,
 
 The User Registration Request \[com.snc.user\_registration\] plugin provides the ability for unregistered users to request access to a ServiceNow instance. An administrator can activate the plugin.
 
-A user can request an account by navigating to the instance. If the plugin is installed, the following section is added to the welcome screen.
-
-\[Omitted image "WelcomeScreen.png"\] Alt text: Welcome screen
+A user can request an account by navigating to the instance. If the plugin is installed, a new section is added to the welcome screen to allow users to request a user account.
 
 The user can complete and submit the self-registration form, and see a confirmation that it was submitted. The user receives an email when the account is registered.
 
@@ -66,5 +64,5 @@ Role required: admin
 
 ### What to do next
 
-Request activation of the [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md) \(`com.glide.explicit_roles`\) plugin. The Explicit Roles plugin creates two roles to differentiate between internal and external users.
+Request activation of the [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/explicit-roles.md) \(`com.glide.explicit_roles`\) plugin. The Explicit Roles plugin creates two roles to differentiate between internal and external users.
 

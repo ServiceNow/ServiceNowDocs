@@ -37,10 +37,6 @@ Role required: ui\_builder\_admin
 
 Use the default alert message configuration for simple notifications. In this example, the alert displays a personalized greeting using the logged-in user's full name.
 
-\[Omitted image "comp-ex-cam-anatomy.png"\] Alt text: Alert appearing under the header menu, greeting the logged-in user, with a highlight over the component.
-
-1. **Alert**: Displays the welcome message.
-
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
 -   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md)
@@ -80,7 +76,7 @@ Alert
 
     1.  In the content tree, select **+ Add content**.
 
-    2.  Search for `alert` and add it from the toolbox.
+    2.  Search for `alert` and then select **Add** to place the component on your page.
 
     3.  In the content tree, hover over **Alert 1** and select the configure icon \[Omitted image "uib-configure-icon.png"\] Alt text:, then select **Rename**.
 
@@ -90,7 +86,7 @@ Alert
 
         The **Component ID** field auto-populates.
 
-    5.  Select **Apply.**
+    5.  Select **Apply**.
 
 5.  Configure the alert message.
 
@@ -100,9 +96,9 @@ Alert
         |-----|-----|
         |Type|**Info**|
         |Icon|**circle-info-outline**|
-        |Header|Empty \(delete any text inside of the field\)|
-        |Link|Empty \(select **Edit**, then delete any text inside **Label** and **Href**\)|
-        |Action|Empty \(select **Edit**, set **Type** to **-- None --**, then delete any text inside **Label** and **Href**\)|
+        |Header|**Heads up!**|
+        |Link|\(Leave blank\) — select **Edit**, then delete any text inside **Label** and **Href**|
+        |Action|\(Leave blank\) — select **Edit**, set **Type** to **-- None --**, then delete any text inside **Label** and **Href**|
 
         Your configuration panel should look like this:
 
@@ -116,7 +112,7 @@ Alert
 
     4.  Double-click **value1** to select the field, then select again to insert text.
 
-    5.  Enter `"Welcome! "`, making sure to include a trailing space after the exclamation point.
+    5.  Enter `"You're logged in as "`, making sure to include a trailing space after the exclamation point.
 
     6.  Double-click **values** to select the field, then select again to insert text.
 
@@ -134,7 +130,7 @@ Alert
 
     2.  Select **Preview**.
 
-    The alert appears at the top of the page with the text "Welcome!" followed by the logged-in user's name.
+    The alert appears at the top of the page with the text "Heads up! You're logged in as " followed by the logged-in user's name.
 
     \[Omitted image "comp-ex-cam-alert.png"\] Alt text: Alert appearing under the header menu, greeting the logged-in user.
 

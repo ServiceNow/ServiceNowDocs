@@ -36,8 +36,6 @@ The documents can be updated on pre-defined intervals. You must have a UCF Commo
 
 2.  Click the UCF configuration.
 
-    \[Omitted image "ucf-config-oauth.png"\] Alt text: UCF Configuration for Oauth
-
 3.  On the form, fill in the fields.
 
 <table id="table_epy_qrq_f5"><thead><tr><th>

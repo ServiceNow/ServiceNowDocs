@@ -37,8 +37,6 @@ When creating an account relationship type, you define the following information
 -   The relationship between the source account and the target account.
 -   The reverse relationship between the source account and the target account.
 
-\[Omitted image "CSMAccountRelationshipTypeForm.png"\] Alt text: Account Relationship form displaying an instance of the relationship between two accounts.
-
 **Note:** One default account relationship type is provided for partner accounts.
 
 ## Account relationship records
@@ -56,8 +54,6 @@ View a relationship record from either account:
 -   The reverse relationship \(**Account To** &gt; **Account From**\) appears in the **Account Relationships** related list on the target account record.
 
 Select the account relationship record from either account to see the Account Relationship form.
-
-\[Omitted image "CSMAccountRelationshipForm.png"\] Alt text: Account Relationship Type form displaying various fields related to customer and partner accounts.
 
 You can also view account relationship records that use a specific account relationship type. This information appears as a related list on the Account Relationship Type form. This list shows the source account \(**Account From** field\) and the target account \(**Account To** field\) for each account relationship record.
 

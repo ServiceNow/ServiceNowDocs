@@ -8,7 +8,7 @@ product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage zero copy connections, Workflow Data Fabric Hub, Workflow Data Fabric]
 ---
 
@@ -20,20 +20,17 @@ Primary connectors are developed, made available, and supported by ServiceNow.
 
 |Primary connector|Minimum compatibility|
 |-----------------|---------------------|
-|[Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/databricks-wdf.md)|Yokohama Patch 5, Zurich|
-|[Google BigQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/bigquery-wdf.md)|Yokohama Patch 5, Zurich|
-|[Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/oracle-wdf.md)|Yokohama Patch 5, Zurich|
-|[Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/snowflake-wdf.md)|Yokohama Patch 5, Zurich|
-|[Amazon Redshift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/amazon-redshift-wdf.md)|Yokohama Patch 5, Zurich|
-|[SAP ECC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/sap-ecc-primary-wdf.md)|Yokohama Patch 5, Zurich|
-|[SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/sap-s4hana-primary-wdf.md)|Yokohama Patch 5, Zurich|
-|[Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/teradata-wdf.md)|Yokohama Patch 5, Zurich|
-|[Amazon S3 Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/amazon-s3-tables-wdf.md)|Yokohama Patch 5, Zurich|
-|[Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/apache-iceburg-primary-wdf.md)|Yokohama Patch 5, Zurich|
-|[Cloudera](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/cloudera-wdf.md)|Yokohama Patch 5, Zurich|
-|[Microsoft OneLake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/microsoft-onelake-wdf.md)|Yokohama Patch 5, Zurich|
-|[Prometheus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/prometheus-wdf.md)|Yokohama Patch 5, Zurich|
-|[ServiceNow Remote Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/servicenow-remote-instance-wdf.md)|Yokohama Patch 5, Zurich|
+|[Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/databricks-wdf.md)|starting with Yokohama Patch 5|
+|[Google BigQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/bigquery-wdf.md)|starting with Yokohama Patch 5|
+|[Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/oracle-wdf.md)|starting with Yokohama Patch 5|
+|[Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/snowflake-wdf.md)|starting with Yokohama Patch 5|
+|[Amazon Redshift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/amazon-redshift-wdf.md)|starting with Yokohama Patch 5|
+|[SAP ECC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/sap-ecc-primary-wdf.md)|starting with Yokohama Patch 5|
+|[SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/sap-s4hana-primary-wdf.md)|starting with Yokohama Patch 5|
+|[Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/apache-iceburg-primary-wdf.md)|starting with Zurich Patch 9|
+|[Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/teradata-wdf.md)|starting with Zurich Patch 4|
+|[Amazon S3 Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/amazon-s3-tables-wdf.md)|starting with Zurich Patch 9|
+|[ServiceNow Remote Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/servicenow-remote-instance-wdf.md)|starting with Zurich Patch 4|
 
 For additional information on data types and authentication methods that aren't supported with primary connectors, see [KBB0010487](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 

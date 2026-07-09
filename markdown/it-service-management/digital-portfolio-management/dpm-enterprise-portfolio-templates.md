@@ -16,7 +16,7 @@ breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Mana
 
 Navigate three service enterprise portfolio templates: EDUCAUSE Higher Education IT Service Portfolio, IT Service Portfolio, and Sample Organizational Structure.
 
-Create and edit portfolios in enterprise portfolio builder. 
+\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
 
 Navigate the three enterprise service portfolio templates and decide which one to use. Templates are structured in a nesting content tree format with taxonomy nodes and services with descriptions. This structure helps you easily navigate your portfolio. For more information on creating a portfolio using one of these templates, see [Create enterprise service portfolios using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.md).
 

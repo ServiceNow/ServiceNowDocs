@@ -19,7 +19,7 @@ Allocate, manage, and approve budget for your projects. Lean budgeting enables y
 ## Before you begin
 
 -   As an Admin, enable the property to work on budgeting. For more information, see [Enable financial budget allocation for projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/enable-fin-budget-pws.md).
--   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+-   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
 -   Role required: it\_portfolio\_manager
 
 ## Procedure

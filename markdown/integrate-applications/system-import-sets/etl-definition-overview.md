@@ -8,7 +8,7 @@ product: System Import Sets
 classification: system-import-sets
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
 
@@ -18,7 +18,7 @@ ETL definitions extract data from a source table, transform the data as desired,
 
 ## ETL definitions specify how to map data
 
-Importing data starts with a [data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/c_DataSources.md). A data source specifies the type of data that you want to extract and its location. After the data is extracted, it's loaded into a staging, or import set, table. Then an ETL definition specifies how to map the data into one or more target tables in ServiceNow. You can create ETL definitions that map data to ServiceNow tables while still maintaining the foreign key and unique key constraints. \[Omitted image "etl-definition-overview.png"\] Alt text: Overview of the import process using an ETL definition.
+Importing data starts with a [data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/c_DataSources.md). A data source specifies the type of data that you want to extract and its location. After the data is extracted, it's loaded into a staging, or import set, table. Then an ETL definition specifies how to map the data into one or more target tables in ServiceNow. You can create ETL definitions that map data to ServiceNow tables while still maintaining the foreign key and unique key constraints.
 
 ## ETL entities represent input data and target tables
 

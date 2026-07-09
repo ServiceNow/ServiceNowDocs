@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Configure a task record form in Service Operations Workspace by modifying the fo
 
 ## Before you begin
 
-Role required: sn\_sow\_admin.sn\_sow\_admin and form\_admin, or admin
+Role required: admin
 
 ## About this task
 
@@ -26,6 +26,13 @@ A task record, for example, problem or incident, has the following editable view
 
 -   The view while creating the record.
 -   The **Details** tab view after the record is saved.
+
+## Filter experience in Service Operations Workspace and Classic UI
+
+The form layout changes you make in the classic ServiceNow AI Platform determine the fields that should be appear in both the creation form and the record details in Service Operations Workspace However, filtering records works differently between the two interfaces.
+
+-   **Classic UI:** Select the column header filter icon to filter list records.
+-   **Service Operations Workspace:** Use the filter panel on the left side of the list view to filter records.
 
 ## Procedure
 

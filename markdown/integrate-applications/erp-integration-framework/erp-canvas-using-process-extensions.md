@@ -35,29 +35,29 @@ Before completing the procedure, it may be helpful to review the following pages
 
 1.  Navigate to **All** &gt; **Workflow Studio** and select **Subflows**.
 
-    \[Omitted image "erpc-process-extensions-explore1.png"\] Alt text: Workflow Studio subflows list.
+    \[Omitted image "image.erpc-process-extensions-explore1"\] Alt text: Workflow Studio subflows list.
 
 2.  In the **Name** column, select the filter icon, set the filter to **starts with ERP DP**, and select **Apply**.
 
-    \[Omitted image "erpc-process-extensions-explore2.png"\] Alt text: Workflow Studio filter opened on name column.
+    \[Omitted image "image.erpc-process-extensions-explore2"\] Alt text: Workflow Studio filter opened on name column.
 
 3.  Select a process extension to copy, for example, **ERP DP: Read Blocked Sales Orders**.
 
 4.  Select the more actions menu icon and select **Copy subflow**.
 
-    \[Omitted image "erpc-process-extension-use1.png"\] Alt text: More actions menu icon expanded with copy subflow option highlighted.
+    \[Omitted image "image.erpc-process-extension-use1"\] Alt text: More actions menu icon expanded with copy subflow option highlighted.
 
 5.  Specify a unique name for the subflow.
 
 6.  In **Application**, select the application scope containing the model you want to use in the subflow.
 
-    \[Omitted image "erpc-process-extension-use2.png"\] Alt text: Create copy of subflow modal with name and application fields.
+    \[Omitted image "image.erpc-process-extension-use2"\] Alt text: Create copy of subflow modal with name and application fields.
 
 7.  Select **Copy**.
 
 8.  In the new copied subflow record, select **Use ERP data** and replace the models used by the action to use cloned models instead.
 
-    \[Omitted image "erpc-process-extension-use3.png"\] Alt text: Subflow displayed in flow view with use erp data link highlighted.
+    \[Omitted image "image.erpc-process-extension-use3"\] Alt text: Subflow displayed in flow view with use erp data link highlighted.
 
     For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 

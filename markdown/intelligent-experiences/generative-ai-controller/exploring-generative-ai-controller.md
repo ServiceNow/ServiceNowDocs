@@ -20,7 +20,7 @@ Learn more about generative AI concepts and how to integrate third-party generat
 
 Complex algorithms and deep learning models learn patterns and use that knowledge to generate new outputs. With Generative AI Controller, you can generate content directly within the ServiceNow AI Platform.
 
-Generative AI Controller integrates with external LLMs, including ones by OpenAI, Azure OpenAI, Google Cloud \(AI Studio and Vertex\), Aleph Alpha, IBM watsonx, and Amazon Bedrock. These capabilities are available in Workflow Studio flows, Virtual Agent topics, and scripting like background scripts and business rules.
+Generative AI Controller integrates with external LLMs, including ones by OpenAI, Azure OpenAI, Google Cloud \(AI Studio and Vertex\), IBM watsonx, and Amazon Bedrock. These capabilities are available in Workflow Studio flows, Virtual Agent topics, and scripting like background scripts and business rules.
 
 ## Generative AI Controller benefits
 

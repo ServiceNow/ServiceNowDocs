@@ -56,5 +56,5 @@ The filter criteria is saved. The Goal insights generation job processes the goa
 
 ## What to do next
 
-Activate the Goal insights generation scheduled job to automatically generate AI-driven insights for a predefined set of goals at a scheduled frequency. For details, see [Activate and configure the Goal insights generation job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+Activate the Goal insights generation scheduled job to automatically generate AI-driven insights for a predefined set of goals at a scheduled frequency. For details, see .
 

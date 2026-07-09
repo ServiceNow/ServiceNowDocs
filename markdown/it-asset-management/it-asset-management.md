@@ -223,9 +223,9 @@ The [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/Service
 -   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
 -   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
 -   [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/asset-audit-response.md)
--   [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/contract-management/c_ContractManagement.md)
--   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/procurement/c_Procurement.md)
--   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/product-catalog/c_ProductCatalog.md)
+-   [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ContractManagement.md)
+-   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_Procurement.md)
+-   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ProductCatalog.md)
 -   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/content-request-itam.md)
 -   [Licensing for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/subscription-itam-licensing.md)
 

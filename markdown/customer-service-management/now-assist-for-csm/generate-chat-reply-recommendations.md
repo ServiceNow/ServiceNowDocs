@@ -17,7 +17,7 @@ breadcrumb: [Use generative AI skills, Now Assist for CSM, Customer Service Mana
 
 Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
-See the video to understand how generative AI provides agents with suggested, personalized responses during live chat interactions. Chat reply recommendation 
+See the video to understand how generative AI provides agents with suggested, personalized responses during live chat interactions. \[Omitted video\] Description: Chat reply recommendation
 
 ## Before you begin
 
@@ -48,15 +48,15 @@ You can do these actions by using the Now Assist icon:
 
     \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33335e170">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33377e170">
 
 Chat message window
 
-</th><th align="left" id="d33335e173">
+</th><th align="left" id="d33377e173">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d33335e181">
+</th></tr></thead><tbody><tr><td id="d33377e181">
 
 **Typed response**
 
@@ -73,7 +73,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d33335e215">
+</td></tr><tr><td id="d33377e215">
 
 **Left blank**
 

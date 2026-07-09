@@ -35,7 +35,7 @@ The connected model, which is defined on the remote table **Details** tab, contr
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\] Alt text: in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "image.erpc-remote-table-icon"\] Alt text: in the side panel.
 
 3.  Select a table to work with by selecting the **Name**.
 

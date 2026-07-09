@@ -1,5 +1,5 @@
 ---
-title: Maintaining Certificate chain relationships via certificate import
+title: Configure IDs for Certificate Management credentials
 description: Maintaining certificate chain relationships via certificate import ensures the integrity and security of digital certificates, validating their authenticity in a system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/maintain-cert-chain-relationships.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Maintaining Certificate chain relationships via certificate import
+# Configure IDs for Certificate Management credentials
 
 Maintaining certificate chain relationships via certificate import ensures the integrity and security of digital certificates, validating their authenticity in a system.
 

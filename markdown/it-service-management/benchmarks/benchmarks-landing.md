@@ -18,7 +18,7 @@ The ServiceNow® Benchmarks application gives you instant visibility into your k
 
 ## Benchmarks overview
 
-This video provides you with an overview of Benchmarks.
+This video provides you with an overview of Benchmarks.\[Omitted video\] Description: Benchmarks Overview
 
 ## Get started
 

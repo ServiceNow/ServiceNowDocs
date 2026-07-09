@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-22"
 reading_time_minutes: 1
 keywords: [Discovery, ITOM, AIOps, configuration, infrastructure, CMDB]
-breadcrumb: [ITOM Configuration console for Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Install Discovery

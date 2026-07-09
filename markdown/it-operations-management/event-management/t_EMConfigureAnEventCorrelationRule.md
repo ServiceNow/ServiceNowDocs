@@ -20,11 +20,17 @@ Create an alert correlation rule to designate primary and secondary alerts. The 
 
 Role required: evt\_mgmt\_admin
 
+## About this task
+
+Grouping automation helps you manage alerts more effectively by collecting similar alerts together. This makes it easier to see patterns, quickly identify issues, and respond efficiently. For more information on how to group alerts easily, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Alert Correlation Rules**.
 
-2.  Click **New**.
+    You can also [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md)
+
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 

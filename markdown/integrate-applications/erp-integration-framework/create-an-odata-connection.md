@@ -39,13 +39,13 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     For more information, see:
 
-    -   [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md)
-    -   [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md)
-    -   [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/API-key-credential-form.md)
-    -   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    -   [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_BasicAuthCredentialsForm.md)
+    -   [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-2-credentials.md)
+    -   [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/API-key-credential-form.md)
+    -   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 3.  Create an HTTP connection and associate it with the new alias.
 
-    **Note:** For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
+    **Note:** For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
 
 4.  Create a system with the HTTP connection.
 
@@ -81,7 +81,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     3.  In **Select the endpoints**, search for and select an endpoint, for example **A\_BusinessPartnerType**.
 
-        \[Omitted image "erp-create-odata-conn1.png"\] Alt text: Add entity modal with OData service and endpoint specified.
+        \[Omitted image "image.erp-create-odata-conn1"\] Alt text: Add entity modal with OData service and endpoint specified.
 
     4.  Select **Add entity**.
 
@@ -95,17 +95,17 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-13. Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+13. Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
 14. Select the system.
 
 15. Check the heartbeat and retrieval status until they're successful.
 
-    \[Omitted image "erp-create-odata-conn2.png"\] Alt text: ERP system record with HTTP heartbeat status and OData retrieval status highlighted.
+    \[Omitted image "image.erp-create-odata-conn2"\] Alt text: ERP system record with HTTP heartbeat status and OData retrieval status highlighted.
 
 16. Create a model.
 
-    1.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+    1.  Open the ERP models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
     2.  Select **New**.
 

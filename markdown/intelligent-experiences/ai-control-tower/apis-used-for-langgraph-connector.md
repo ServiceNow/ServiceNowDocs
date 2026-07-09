@@ -1,5 +1,5 @@
 ---
-title: APIs used for LangGraph
+title: LangGraph APIs
 description: Explore the APIs used in AI Service Graph Connector for LangGraph.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/apis-used-for-langgraph-connector.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used for LangGraph
+# LangGraph APIs
 
 Explore the APIs used in AI Service Graph Connector for LangGraph.
 

@@ -65,7 +65,7 @@ Manage pattern identifier
 
 </td><td>
 
-Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
+Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 </td><td>
 
@@ -132,7 +132,7 @@ To identify an issue, the system utilizes a combination of Configuration Items \
 
 By default, a Pattern Identifier is defined as the Metric Name, but this can be modified. Two alerts are considered similar if they share the same CI and Pattern Identifier, although fields such as Source, Severity, Description, and others may differ.
 
-For more information, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
+For more information, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
 
 In some cases, you can create patterns from alerts where the CIs share the same value in a specified field. For example, to build patterns from alerts with the same CI **Location** field, enter `location` in the **sa\_analytics.agg.learner\_group\_by\_property** property. For more information, [Configure scheduled job-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enable-alert-grouping.md).
 

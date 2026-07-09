@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Authentication, Access Management]
+breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Access Management]
 ---
 
 # Exclude passwords through password policies on your instance

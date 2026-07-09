@@ -29,7 +29,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model with the operation that you want to add inputs to.
 
@@ -54,7 +54,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
         Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
-    \[Omitted image "erpc-specify-inputs-manager-ys2.png"\] Alt text: Specify inputs page with validation rules and table sections expanded.
+    \[Omitted image "image.erpc-specify-inputs-manager-ys2"\] Alt text: Specify inputs page with validation rules and table sections expanded.
 
 8.  Define whether the operation inputs are required by expanding the **Validation rules** section and selecting an option in **Query validation rule**.
 
@@ -71,7 +71,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
     1.  Select **+ New input** below the last-defined parameter in the table.
 
-        \[Omitted image "erpc-specify-input-new-input.png"\] Alt text: Table expanded to show inputs and new input button highlighted.
+        \[Omitted image "image.erpc-specify-input-new-input"\] Alt text: Table expanded to show inputs and new input button highlighted.
 
         **Note:** When you add an input field, the field is automatically added as a field in the output. The field is listed and is read only in the **Prepopulated outputs** section on the output page.
 
@@ -140,7 +140,7 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 
     The following example shows an input with nested inputs for a BAPI.
 
-    \[Omitted image "erpc-specify-input-nested.png"\] Alt text: Table expanded to show inputs with a nested input highlighted.
+    \[Omitted image "image.erpc-specify-input-nested"\] Alt text: Table expanded to show inputs with a nested input highlighted.
 
 13. Select **Save**.
 

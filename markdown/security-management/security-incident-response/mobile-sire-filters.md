@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Time to complete this task: 5 minutes.
 
 ## Procedure
 
-1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(\[Omitted image "grc-filter-image.png"\] Alt text: Filter icon.\).
+1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\).
 
 2.  With the Filters screen displayed, tap a field to expand it.
 

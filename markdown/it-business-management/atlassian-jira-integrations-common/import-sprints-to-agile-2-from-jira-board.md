@@ -18,7 +18,7 @@ Import sprints from a Jira board so that you can track progress of these sprints
 
 ## Before you begin
 
--   Ensure that the Jira board from which you want to import the sprints has team integration settings. For more information, see [Associate a Jira project and board with an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md).
+-   Ensure that the Jira board from which you want to import the sprints has team integration settings. For more information, see [Associate Jira projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md).
 -   Role required: sn\_jira\_int.user
 
 ## About this task

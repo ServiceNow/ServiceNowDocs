@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Use Facebook-based Single Sign-On \(SSO\)

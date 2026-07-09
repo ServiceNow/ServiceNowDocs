@@ -1,5 +1,5 @@
 ---
-title: Add an MCP server from the AI Control Tower
+title: Add an MCP server from AI Control Tower
 description: Add an Model Context Protocol \(MCP\) server from the AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-contol-tower.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from the AI Control Tower
+# Add an MCP server from AI Control Tower
 
 Add an Model Context Protocol \(MCP\) server from the AI Control Tower.
 

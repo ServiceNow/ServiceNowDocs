@@ -1,5 +1,5 @@
 ---
-title: View portfolio insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM
+title: View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM
 description: View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, monitor active projects showing early risk indicators, analyze root causes, and review recommended actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/view-portfolio-insights.html
@@ -7,18 +7,18 @@ release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
-# View portfolio insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM
+# View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM
 
 View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, monitor active projects showing early risk indicators,analyze root causes, and review recommended actions.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -42,6 +42,8 @@ The insights are generated for the following categories for a portfolio plan:
 2.  From the list of portfolio plans, select the portfolio plan to view insights.
 
 3.  From the portfolio plan header, select **Portfolio insights**.
+
+    **Note:** If insights were generated previously, the AI Insights window displays the timestamp of the last generation. You can select **Regenerate** or Refresh icon to generate updated insights and recommendations based on the latest available data.
 
     Portfolio Insights displays risk signals across the following areas: delayed planning items, projects at risk, delayed starts, and planned versus approved date misalignments.
 

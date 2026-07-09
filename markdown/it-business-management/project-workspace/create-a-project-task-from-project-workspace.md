@@ -24,13 +24,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task below icon.\). This action adds a new task right after the task that you selected.
+    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task icon.\). This action adds a new task right after the task that you selected.
 
 3.  Edit the details of the task.
 

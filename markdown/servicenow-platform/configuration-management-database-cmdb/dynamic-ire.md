@@ -67,6 +67,14 @@ To start using Dynamic IRE exclusively, a general guideline is to test it first 
 
 Alternatively, you can use the **glide.identification\_engine.dynamic\_ire\_enabled** system property to enable or disable Dynamic IRE, and by so, switching between Dynamic and Static IRE. For more information about this property, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
+## Switch back to Static IRE
+
+When the system is using Dynamic IRE, you can switch back to Static IRE:
+
+1.  In CI Class Manager, select **Hierarchy** and then select the Hardware class.
+2.  In the Hardware navigation panel, select **Identification Rule**.
+3.  In the Dynamic IRE section, select **Change to IRE**.
+
 ## Comparison of the results of Dynamic IRE and Static IRE
 
 In simulation mode, you can see a comparison of the activities and outcome between Dynamic IRE and Static IRE, at a high level and at a record level. Examine the details in this comparison carefully, to help you evaluate the effectiveness of Dynamic IRE in your environment before committing to using it.

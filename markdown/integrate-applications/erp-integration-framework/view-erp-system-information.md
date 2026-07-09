@@ -25,13 +25,13 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
 3.  Open a system.
 
 4.  Select the **Software info** tab.
 
-    \[Omitted image "erpc-software-info-tab.png"\] Alt text: Zero Copy Connector for ERP system record with software info tab displayed.
+    \[Omitted image "image.erpc-software-info-tab"\] Alt text: Zero Copy Connector for ERP system record with software info tab displayed.
 
     View software information including ERP family and generation. All fields are read only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.md).
 

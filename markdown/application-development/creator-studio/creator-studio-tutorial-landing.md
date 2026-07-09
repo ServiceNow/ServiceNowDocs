@@ -47,7 +47,7 @@ Role required: Creator Studio User
 
 You can also watch a short video on how to create an app.
 
-Video on how to create an app 
+\[Omitted video\] Description: Video on how to create an app
 
 ### Procedure
 

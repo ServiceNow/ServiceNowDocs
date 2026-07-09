@@ -1,37 +1,39 @@
 ---
 title: Submit a demand
-description: Submit the demand record once the necessary details are provided for a demand.
+description: Submit a demand record after the required details are complete to progress the demand from the Draft state to the next states of its life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/submit-a-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Submit a demand
 
-Submit the demand record once the necessary details are provided for a demand.
+Submit a demand record after the required details are complete to progress the demand from the Draft state to the next states of its life cycle.
 
 ## Before you begin
 
 Role required: it\_demand\_manager, it\_demand\_user
 
+## About this task
+
+The submit option is available only when the demand is in the Draft state.
+
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the All Demands list.
 
-3.  Select **Submit demand**.\[Omitted image "submit-demand-button.png"\] Alt text: Use the Submit demand button to submit a demand.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** The submit option is available only when the demand is in the Draft state.
-
-    The demand moves to the Submitted state.
+5.  Select **Submit demand**.
 
 

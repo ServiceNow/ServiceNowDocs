@@ -8,7 +8,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
@@ -31,7 +31,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-AI steward\[sn\_ai\_governance\_ai\_steward\]
+AI steward\[sn\_ai\_governance.ai\_steward\]
 
 </td><td>
 
@@ -75,22 +75,6 @@ AI steward\[sn\_ai\_governance\_ai\_steward\]
 -   it\_demand\_manager- User who manages the inflow, screening and facilitates the prioritization of IT demands
 -   it\_project\_manager- User of the project management application, and manager of IT projects
 -   sn\_apw\_advanced.pf\_user- Can create, view, update, and delete the Product Feedback records
-
-</td></tr><tr><td>
-
-AI Control Tower Workspace user \[sn\_ai\_governance\_workspace\_user\]
-
-</td><td>
-
-The AI Control Tower Workspace user is responsible for:
-
- -   Own and manage the AI assets
--   Access the AI Control Tower home page
--   Exclusive access to the AI portfolio tab
-
-</td><td>
-
-None
 
 </td></tr><tr><td>
 

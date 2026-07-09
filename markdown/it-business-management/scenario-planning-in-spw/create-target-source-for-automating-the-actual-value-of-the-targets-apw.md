@@ -1,5 +1,5 @@
 ---
-title: Create a target source for automating the Actual value of the targets
+title: Automate target Actual values using a target source
 description: Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-target-source-for-automating-the-actual-value-of-the-targets-apw.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring target source for target automation, Configuring goals in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a target source for automating the Actual value of the targets
+# Automate target Actual values using a target source
 
 Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 

@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [OpenLDAP minor schema modification, LDAP integration, Authentication, Access Management]
+breadcrumb: [OpenLDAP minor schema modification, LDAP integration, Access Management]
 ---
 
 # Modify the OpenLDAP schema

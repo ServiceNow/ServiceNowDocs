@@ -20,13 +20,15 @@ Role required: admin
 
 ## About this task
 
-**Important:** You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
+**Important:** This procedure applies only to Next Experience themes that use the now-illustration component. You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **UX Themes**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes**.
 
-2.  Select your theme from the UX Themes table.
+    The UX Themes table is displayed.
+
+2.  Select your custom theme from the UX Themes table.
 
     The UX Theme record for your chosen theme appears.
 
@@ -50,7 +52,7 @@ Role required: admin
             "--now-illustration--error-md--url": "",
             "--now-illustration--error-lg--url": "",
             "--now-illustration--first-time-user-sm--url": "",
-            "--now-illustration--first-time-user-md--url": ""
+            "--now-illustration--first-time-user-md--url": "",
             "--now-illustration--first-time-user-lg--url": "",
             "--now-illustration--interrupted-sm--url": "",
             "--now-illustration--interrupted-md--url": "",
@@ -72,7 +74,7 @@ Role required: admin
             "--now-illustration--unconfigured-lg--url": "",
             "--now-illustration--no-activities-sm--url": "",
             "--now-illustration--no-activities-md--url": "",
-            "--now-illustration--no-activities-lg--url": "",
+            "--now-illustration--no-activities-lg--url": ""
         }
     }
     ```
@@ -81,15 +83,15 @@ Role required: admin
 
     -   Add image to UX Style Assets list.
         1.  On the **UX Style Assets** tab, select **New**.
-        2.  Select the search icon\[Omitted image "SearchIcon.png"\] Alt text: Searchnext to the **Asset** item.
+        2.  Select the Lookup icon\(\[Omitted image "SearchIcon.png"\] Alt text: Lookup icon.\) next to the **Asset** item.
         3.  In the UX Theme Assets list, select **New**.
-        4.  Select the Manage Attachments icon \[Omitted image "icon-manage-attachment.png"\] Alt text: to add an image.
+        4.  Select the Manage Attachments icon \(\[Omitted image "icon-manage-attachment.png"\] Alt text: Manage attachments icon\) to add an image.
         5.  When the image asset is uploaded, close the Attachments window.
 
             **Note:** Verify that your image is in SVG format.
 
         6.  Enter the file name of the asset in the **Name** field and select **Submit**. The asset is added to the UX Style Assets list.
-        7.  Select and hold \(or right-click\) on the asset from the UX Style Assets list, and select **Copy sys\_id**.
+        7.  In the UX Style Assets tab, select and hold \(or right-click\) the asset and select **Copy sys\_id**.
         8.  Enter the sys\_id into the Style field using the following format:`"/uxta/ENTERYOURSYSID.assetx"`
     -   Add your custom image to the Images \[db\_images\_list.do\] table.
 

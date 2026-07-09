@@ -30,7 +30,7 @@ Use case\(s\)
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
+[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-designer-overview.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Determine a customer discount rate for a product given two inputs \(number of un
 
 </td></tr><tr><td>
 
-[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-template.md)
+[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-template.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ Create a flow template to use as the basis for all request approvals within an I
 
 </td></tr><tr><td>
 
-[Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/integrate-pa.md)
+[Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/integrate-pa.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Visualize the execution of processes or a customer journey, show insight into ad
 
 </td></tr><tr><td>
 
-[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md)
+[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mab-concept.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Streamline mobile configurations by organizing records in a hierarchical layout 
 
 </td></tr><tr><td>
 
-[Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-card-builder.md)
+[Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-card-builder.md)
 
 </td><td>
 
@@ -100,7 +100,7 @@ Create cards for launcher screen record sections, calendar screens, form screens
 
 </td></tr><tr><td>
 
-[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-service/model-management-phases.md)
+[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/model-management-phases.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ Configure the ability for users to ask natural language questions and be shown t
 
 </td></tr><tr><td>
 
-[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/reporting-landing-page.md)
+[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting-landing-page.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ Show the number of open incidents at an organization that also displays the prio
 
 </td></tr><tr><td>
 
-[Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/create-a-portal.md)
+[Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-portal.md)
 
 </td><td>
 
@@ -170,7 +170,7 @@ Create an online food order form in an food delivery application for customers. 
 
 </td></tr><tr><td>
 
-[Themes in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md)
+[Themes in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-theming.md)
 
 </td><td>
 
@@ -198,7 +198,7 @@ Create a new standard record page variant to show specific incident records, edi
 
 </td></tr><tr><td>
 
-[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
 
 </td><td>
 

@@ -22,7 +22,7 @@ Role required: workspace\_user
 
 ## About this task
 
-Screen Summarization overview and instructions on how to use it 
+\[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
 
 ## Procedure
 

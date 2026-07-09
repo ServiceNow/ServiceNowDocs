@@ -86,5 +86,5 @@ Enable or disable the rerouting of interactions that are currently on hold.-   T
 </table>**Related topics**  
 
 
-[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/configure-last-viewed-timestamps-activity-stream.md)
+[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-last-viewed-timestamps-activity-stream.md)
 

@@ -28,7 +28,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the Tasks \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon icon on the left pane.
+2.  Select \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon from the sidebar.
 
 3.  Select the attestation records in the My pending tasks tab that you'd like to group.
 
@@ -61,8 +61,6 @@ In Configurable Workspace, you can only group control attestations, and not risk
     **Note:** You can group the assessments that are in **Ready to take** or **In progress** state, but not the assessments that are in **Complete** or **Canceled** state.
 
     If the status of a record that you’ve selected for grouping has changed and is being assessed before you select the **Group** button to group the assessments, then such a record can’t be grouped.
-
-    \[Omitted image "group-assess-no-grouping-ui.png"\] Alt text: Error message indicating the assessments could not be grouped.
 
 8.  Select the link to the grouped assessment in the UI message.
 

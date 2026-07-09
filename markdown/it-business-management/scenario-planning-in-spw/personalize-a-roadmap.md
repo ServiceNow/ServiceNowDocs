@@ -30,15 +30,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d280981e79">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d293220e79">
 
 Roadmap type
 
-</th><th align="left" id="d280981e82">
+</th><th align="left" id="d293220e82">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d280981e88">
+</th></tr></thead><tbody><tr><td id="d293220e88">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d280981e109">
+</td></tr><tr><td id="d293220e109">
 
 **Free-form roadmap**
 
@@ -71,7 +71,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         You can group the roadmap items by up to two attributes and color-code them by one attribute.
 
-        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize the planning item display preferences for Prioritization and Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
+        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
 
         **Important:** Don't group your roadmap items by the name attribute because the application renames the roadmap item when you move the item bar from one group to another.
 
@@ -89,7 +89,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     6.  If your roadmap items have dependencies, adjust how they’re displayed using the toggles in the Dependencies section.
 
-        For more information, see [Customizing the dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md).
+        For more information, see [Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md).
 
     7.  Identify the current date on your timeline using the current date indicator.
 

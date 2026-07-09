@@ -66,7 +66,7 @@ The following workflow describes the tasks involved in configuring and using the
 
 To learn more about configuring and using the CPQ Configurator, see:
 
--   [Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-servicenow-cpq.md)
+-   [Configuring CPQ Configurator without guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-servicenow-cpq.md)
 -   [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-configurable-prod-offerings.md)
 -   [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-servicenowcpq.md)
 -   Online help \(access Logik help topics in the CPQ Configurator interface for product catalog admins\)

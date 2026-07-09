@@ -9,7 +9,7 @@ classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Transfer a case in Agent Workspace for HR Case Management
@@ -52,6 +52,6 @@ For information on configuring HR case transfer or classification properties, se
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False, text from an email appears in the Work notes field when the employee is responding from a personal email account. False is the default property.
 
-    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailConfiguration.md).
+    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailConfiguration.md).
 
 

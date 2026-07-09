@@ -7,8 +7,8 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-07-07"
+reading_time_minutes: 9
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_lg\_cnt.contract\_fulfiller
 
@@ -30,7 +30,7 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Assign a legal request to yourself or to someone in your assignment group.
 
-    For more information, see [Assign a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+    For more information, see [Assign a legal request]()
 
 2.  Start working on a legal request.
 
@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d86219e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d556259e172">
 
 Option
 
-</th><th align="left" id="d86219e175">
+</th><th align="left" id="d556259e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86219e181">
+</th></tr></thead><tbody><tr><td id="d556259e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d86219e202">
+</td></tr><tr><td id="d556259e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d86219e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d556259e342">
 
 Option
 
-</th><th align="left" id="d86219e345">
+</th><th align="left" id="d556259e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86219e351">
+</th></tr></thead><tbody><tr><td id="d556259e351">
 
 **Internal**
 
@@ -121,11 +121,19 @@ Steps
 
 The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
 
-2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique
-3.  Select **Add**.
+2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
+3.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+4.  Select **Add**.
 
 
-</td></tr><tr><td id="d86219e392">
+</td></tr><tr><td id="d556259e444">
 
 **External**
 
@@ -135,7 +143,15 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
 4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value should be unique.
-5.  Select **Add**.
+5.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+6.  Select **Add**.
 
 
 </td></tr></tbody>
@@ -203,7 +219,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
     5.  Select whether the file source is your computer or an attachment to a record and select the file to be attached.
 
-        If you’ve marked a contract document revision as Ready, it’s attached to the email by default.
+        If you've marked a contract document revision as Ready, it's attached to the email by default.
 
     6.  Either enter your own message in the email body or copy and paste the content from an email response template into the email body.
 
@@ -211,7 +227,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
+        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
 
     7.  Either send the email immediately or indicate that it should be sent later.
 
@@ -236,5 +252,5 @@ After a non-disclosure agreement contract document has been reviewed and finaliz
 -   **[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)**  
 Contract Management Pro for Legal Service Delivery supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

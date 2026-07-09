@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/inbound-request-configuration-table.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Inbound Request, Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -153,7 +153,7 @@ The security roles for the Inbound Request Configuration table \(sn\_tmt\_core\_
 |----|------|
 |sn\_tmt\_core.inbound\_queue\_admin|Create, read, update, delete, report\_view, report\_on|
 
-**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see .
 
 **Related topics**  
 

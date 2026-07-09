@@ -18,7 +18,7 @@ Whether you're starting or expanding your implementation of the Retail applicati
 
 The Retail applications streamline operations and optimize communication within retail organizations and with headquarters. By building on the existing functionalities of Customer Service Management and Field Service Management, this application optimizes workflows, improves coordination, and supports both frontline and backend operations to run smoothly and efficiently.
 
-Retail overview 
+\[Omitted video\] Description: Retail overview
 
 Retail helps you accomplish the following:
 

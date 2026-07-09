@@ -81,7 +81,7 @@ Numerical value to indicate the probability of the risk. This value is multiplie
 -   1 = Absolute
 -   1 = High
 -   2 = Moderate
--   3 = Low
+-   3 = Lows
 
 </td></tr></tbody>
 </table>

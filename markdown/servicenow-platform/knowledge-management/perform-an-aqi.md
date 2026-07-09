@@ -47,27 +47,25 @@ Configure the **glide.knowman.aqi.article\_workflow\_states** property to set th
 
     **Note:** The associated **Weighted Score** is applied to the AQI score when the answer is set to **true.**
 
-    \[Omitted image "KnowledgeTrueFalse.png"\] Alt text: AQI Checklist Summary..
-
     **Note:**
 
     -   If you perform several AQI reviews for the same version, the latest AQI score appears in the **Latest AQI** field in the article.
-    -   If you’re using Knowledge Management within the Customer Service Management application, you can automatically make knowledge public by running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
+    -   If you're using Knowledge Management within the Customer Service Management application, you can automatically make knowledge public by running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
     Standard Pagination - Displays the search results in multiple pages.
 
     Infinite Scroll - Displays the search results while scrolling.
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d305638e216">
+<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d371813e207">
 
 To
 
-</th><th align="left" id="d305638e219">
+</th><th align="left" id="d371813e210">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d305638e225">
+</th></tr></thead><tbody><tr><td id="d371813e216">
 
 **Submit the completed AQI review.**
 
@@ -82,7 +80,7 @@ Click **Submit**. The form refreshes and the total score of the AQI review is di
 
 **Note:** The notification includes the AQI review score and AQI review result. You can customize the content and design of the notification emails. In cases where the Ownership Group is enabled, the email notifications are sent to the Ownership Group as well.
 
-</td></tr><tr><td id="d305638e259">
+</td></tr><tr><td id="d371813e250">
 
 **Save the pending review to complete later.**
 

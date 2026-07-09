@@ -17,7 +17,7 @@ breadcrumb: [Building no-code applications, Developing your application, Buildin
 
 Creator Studio is a no-code application builder on the ServiceNow AI Platform that lets non-developers create request-fulfillment apps without writing code. Use Creator Studio to build apps that manage employee requests, approvals, and fulfillments, such as equipment requests or travel approvals, directly on the ServiceNow AI Platform.
 
-Creator Studio introduction video 
+\[Omitted video\] Description: Creator Studio introduction video
 
 Creator Studio specializes in Service Desk request-fulfillment applications, where one person submits a request and another person fulfills it. Service Desk apps enable users to submit requests, report issues, and access support related to services within your company. Use ServiceNow AI Platform to build apps that handle common workplace requests, so your team can submit, review, approve, and fulfill them in one place.
 

@@ -190,11 +190,11 @@ In this workflow:
 
 Get started with Sustainable IT by completing these tasks:
 
-1.  [Activate the Sustainable IT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/activate-the-sustainable-it-plugin.md).
-2.  [Filter and activate the Sustainable IT metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/filter-sustainable-it-metric-definitions.md).
-3.  [Create new entities for data centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/create-a-new-entity-for-data-centers.md).
-4.  [Manually set up entities for Sustainable IT data centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/set-up-entities-for-sustainable-it.md).
-5.  [Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/configure-sustainable-it.md).
+1.  [Activate the Sustainable IT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/activate-the-sustainable-it-plugin.md).
+2.  [Filter and activate the Sustainable IT metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/filter-sustainable-it-metric-definitions.md).
+3.  [Create new entities for data centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/create-a-new-entity-for-data-centers.md).
+4.  [Manually set up entities for Sustainable IT data centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/set-up-entities-for-sustainable-it.md).
+5.  [Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/configure-sustainable-it.md).
 
 **Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/better-together/solutions-gallery.md)
 

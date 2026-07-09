@@ -46,8 +46,6 @@ All the controls are generated in the **Implement** state, however you can still
 
 4.  Select the control to modify its setup.
 
-    \[Omitted image "cam-implement-setup.png"\] Alt text: UI setup actions on a control when the authorization package is in Implement state.
-
 5.  To change the provider for a particular requirement, select the control requirement in the Control requirements related list.
 
     1.  Select **Change Provider**.

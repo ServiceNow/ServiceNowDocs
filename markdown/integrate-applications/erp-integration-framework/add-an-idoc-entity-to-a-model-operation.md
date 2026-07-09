@@ -25,13 +25,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
 You must have already added the create or update operation before you can add an entity to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see .
+Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add an IDoc operation entity to.
 
@@ -53,11 +53,11 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 
 11. When you're finished, select **Add entity**.
 
-    \[Omitted image "erp-add-idoc-entity-to-model1.png"\] Alt text: Add idoc entity details filled in and add entity button highlighted.
+    \[Omitted image "image.erp-add-idoc-entity-to-model1"\] Alt text: Add idoc entity details filled in and add entity button highlighted.
 
     The metadata is retrieved. The entity card shows the date and time information was last retrieved.
 
-    \[Omitted image "erp-add-idoc-entity-to-model2.png"\] Alt text: IDoc operation entities card with retrieval date and time.
+    \[Omitted image "image.erp-add-idoc-entity-to-model2"\] Alt text: IDoc operation entities card with retrieval date and time.
 
 
 **Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)

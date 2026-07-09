@@ -1,0 +1,79 @@
+---
+title: IP addresses allocation
+description: Using the IP address allocation, you can create, view, and update IP Address Blocks and IP Subnetworks. You can also manage allocated IP addresses and IP addresses.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/exploring-ip-addresses-allocation.html
+release: zurich
+product: Telecommunications Network Inventory
+classification: telecommunications-network-inventory
+topic_type: concept
+last_updated: "2026-07-09"
+reading_time_minutes: 4
+breadcrumb: [IP address management, Explore, Telecommunications Network Inventory]
+---
+
+# IP addresses allocation
+
+Using the IP address allocation, you can create, view, and update IP Address Blocks and IP Subnetworks. You can also manage allocated IP addresses and IP addresses.
+
+## IP address tables
+
+-   **IP Address Block**
+
+    A top-level range of IP addresses expressed as a CIDR. The user interface label IP Address Block refers to the underlying Managed IP Pool class.
+
+-   **IP Subnetwork**
+
+    An operational subdivision of an IP Address Block. An IP Subnetwork can itself contain further nested IP Subnetworks, which lets you subdivide IP address space to any depth.
+
+-   **Allocated IP address**
+
+    A single address slot within an IP Subnetwork's CIDR. Allocated IP address records carry two flags. **Is Reserved** is set automatically for structurally unassignable addresses. **Is Managed** is set automatically when an IP Address record is created from this slot.
+
+-   **IP address**
+
+    The active CMDB record for an address. It can represent a single host address within a subnetwork, created from an allocated IP. Alternatively, it can represent the entire subnetwork by using the subnetwork's CIDR as its value.
+
+-   **Managed Network**
+
+    A network scope within which an IP Address Block's CIDR must be unique. The same CIDR may exist in different Managed Networks without conflict. The Managed Network assigned to an IP Address Block propagates to its IP Subnetworks and cannot be changed at a lower level. For more information, see [Create a Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md).
+
+
+## IP allocation methods
+
+An IP Subnetwork uses one of two methods to create IP address records. The two methods are mutually exclusive: A subnetwork may use one or the other, but never both at the same time.
+
+-   From allocated IPs: The user selects one or more allocated IP records on a subnetwork and creates a corresponding IP address record for each selected slot. Each new IP address record uses the host address as its value. This method is appropriate when individual addresses are being assigned to devices, interfaces, or services.
+-   At subnet level: A single IP address record is created for the subnetwork as a whole. The IP address record uses the subnetwork's CIDR as its value, rather than a single host address. This method is appropriate when the subnetwork is bound to a service, port, customer, or interface.
+
+After the first IP address record is created on a subnetwork by either method, the other method is locked for that subnetwork. To switch methods, delete the existing IP address records. Deleting IP address records preserves the underlying allocated IP slots.
+
+## Active state required for operations
+
+A record must be in an active state before child records or IP allocations can be created against it. A record is active when the Life Cycle Stage is **Operational** and the Life Cycle Stage Status is **In Use**. Any other combination of values prevents the creation of subnetworks beneath the record or the allocation of addresses from it.
+
+## Reserved addresses
+
+When allocated IP records are generated for a subnetwork, addresses that are structurally unassignable are flagged automatically with **Is Reserved** = **True**. The rule differs by protocol. For IPv4, the first address \(the network address\) and the last address \(the broadcast address\) are reserved. A /31 IPv4 subnet reserves no addresses \(RFC 3021\); a /32 IPv4 subnet reserves no addresses. For IPv6, only the first address — the Subnet Router Anycast address \(RFC 4291\) — is reserved. IPv6 has no broadcast address. A /128 IPv6 subnet reserves no addresses.
+
+## CMDB relationships
+
+Every IP Address record participates in standard ServiceNow CMDB relationships. The relationships created depend on the method used. When IP Address records are created from selected Allocated IPs, the system writes two relationships per record. The first is an IP Address Manages Allocated IP relationship, linking the new record to its source slot. The second is an IP Subnetwork Contains IP Address relationship, linking it to the subnetwork. When a single IP Address record is created at the subnetwork level, only the IP Subnetwork Contains IP Address relationship is created.
+
+Both relationship types are visible on each IP Address record's Related Items panel and in the Dependency View.
+
+**Related topics**  
+
+
+[Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
+
+[Create an IP Subnetwork Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+
+[Allocate IP Address Slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md)
+
+[Create IP Address Records from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+
+[Create an IP Address Record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
+
+[Create a Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+

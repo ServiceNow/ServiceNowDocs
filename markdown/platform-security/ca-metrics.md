@@ -1,0 +1,42 @@
+---
+title: Metrics
+description: View the different metrics for continuous authentication.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ca-metrics.html
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Explore CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
+---
+
+# Metrics
+
+View the different metrics for continuous authentication.
+
+To access the metrics page, navigate to **All** &gt; **Continuous Authentication**, select **Metrics** tab.
+
+Following are the different KPI details that you can view for continuous authentication:
+
+|Metrics|Description|
+|-------|-----------|
+|Total policies|KPI for number of continuous authentication policy that are created for the users.|
+|Total protected classifications|KPI for number of classification that are protected due to the CA policy creation.|
+|Failed step-up or re-authentication|KPI for the number of failed step-up \(MFA\) or re-authentication \(SSO\).|
+|No of times policies invoked|KPI for the total number of times CA policies invoked.|
+
+\[Omitted image "ca-metrics-page.png"\] Alt text: CA Metrics page
+
+**Note:** The KPI details are displayed for 180 days. To view more than 180 days of historical data you must license **Performance Analytics**.
+
+**Related topics**  
+
+
+[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ca-policies.md)
+
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ca-metrics.md)
+
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ca-system-properties.md)
+
+[Explore Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/explore-continuous-auth.md)
+

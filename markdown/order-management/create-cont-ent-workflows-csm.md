@@ -28,7 +28,7 @@ For every order with multiple product offerings, a single contract with multiple
 
 ## Creating contracts from product inventory records
 
-If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see [Product inventory configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/product_inventory_configurations.md). Product inventory records trigger updates to contracts and entitlements under the following conditions:
+If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see . Product inventory records trigger updates to contracts and entitlements under the following conditions:
 
 -   Process Telecom Order Line flow: The ADD flow creates contract and entitlement records from the product inventory. The MODIFY flow updates the states of the contract line items and entitlements.
 -   Post Process Telecom Top Domain Order flow: The MODIFY flow updates the states, fields, and characteristics for contract line items and entitlements.
@@ -42,7 +42,7 @@ Customer Life Cycle Workflows Policy decision table decides the target entity wh
 
 \[Omitted image "customer-lc-decision-table-conditions.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 
-You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.Using Customer Life Cycle Workflows Policy Decision Table 
+You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.\[Omitted video\] Description: Using Customer Life Cycle Workflows Policy Decision Table
 
 <table id="table_khy_45b_v2c"><thead><tr><th>
 

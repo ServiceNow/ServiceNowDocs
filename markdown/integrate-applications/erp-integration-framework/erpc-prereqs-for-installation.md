@@ -19,14 +19,14 @@ Before you install Zero Copy Connector for ERP, you must complete several config
 
 ## Licensing
 
-You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see .
+You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
 The following plugins and servers are required for installing Zero Copy Connector for ERP:
 
 -   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/request-ih-overview.md)\)
--   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md)\)
+-   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
 -   MID Server: The MID Server must be configured to install Zero Copy Connector for ERP. See the following section for more information.
 
 ## MID Server requirements
@@ -44,12 +44,12 @@ Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, a
 1.  In the **Supported applications** tab, edit the list to include Zero Copy Connector for ERP.
 2.  In the **Capabilities** tab, in addition to **ALL**, edit the list to include Zero Copy Connector for ERP.
 
-    \[Omitted image "erpc-mid-server-capabilities.png"\] Alt text: MID server record related lists with capabilities tab displayed showing Zero Copy Connector for ERP.
+    \[Omitted image "image.erpc-mid-server-capabilities"\] Alt text: MID server record related lists with capabilities tab displayed showing Zero Copy Connector for ERP.
 
 
-For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
-Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md) to use the ImportSet API to send data to the ServiceNow instance.
+Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md) to use the ImportSet API to send data to the ServiceNow instance.
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users**
 2.  Find and select the **mid\_user**.
@@ -101,7 +101,7 @@ Contact the admin of your SAP ECC RFC account to obtain the following SAP propri
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Eco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
 
 The MID Server restarts multiple times during this process.
 

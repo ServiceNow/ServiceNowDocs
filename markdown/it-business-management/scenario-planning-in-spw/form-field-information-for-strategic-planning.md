@@ -91,7 +91,7 @@ Learn about the fields of the view rule form. Use this form to define workspace 
 -   **[Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md)**  
 Use these form fields to associate a widget with project table and view it on financials.
 -   **[Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/widget-new-record-form.md)**  
-Use these form fields to create a new widget for your project administration.
+Use these form fields to create widget for your project administration.
 
 **Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

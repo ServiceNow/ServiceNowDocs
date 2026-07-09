@@ -1,6 +1,6 @@
 ---
 title: Customise cost plan form
-description: Manage the fields required on the new cost plan form as per your organization needs.
+description: Manage the fields required on the new cost plan form according to your organization needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/customise-cost-plan-form-fin-prj-wrkspc.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure financials for Project Workspace, Configure, Project Work
 
 # Customise cost plan form
 
-Manage the fields required on the new cost plan form as per your organization needs.
+Manage the fields required on the new cost plan form according to your organization needs.
 
 ## Before you begin
 

@@ -33,9 +33,9 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\] Alt text: in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "image.erpc-remote-table-icon"\] Alt text: in the side panel.
 
-    \[Omitted image "erpc-remote-tables-list.png"\] Alt text: Remote tables list
+    \[Omitted image "image.erpc-remote-tables-list"\] Alt text: Remote tables list
 
 3.  View the details for a remote table by selecting the remote table **Name**.
 

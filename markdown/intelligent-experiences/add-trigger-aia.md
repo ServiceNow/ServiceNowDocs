@@ -111,7 +111,7 @@ Alerts appear in the selected channel.
 
     **Note:** When running a scheduled trigger, not every record is included in the execution. By default, the value is 10. If you want to change this number, you must set the **sn\_aia.max\_scheduled\_trigger\_query** system property to a different value.
 
-    If you choose an email trigger, the target emails must exist on the Reply \[sys\_reply\] table. New emails aren’t available as triggers.
+    If you choose an email trigger, the target emails must exist on the Reply \[sys\_email\] table. New emails aren’t available as triggers.
 
 3.  Select **Add**.
 

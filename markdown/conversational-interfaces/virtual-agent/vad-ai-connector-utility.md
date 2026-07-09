@@ -17,6 +17,8 @@ breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface 
 
 Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
 ## AI Connector utility properties
 
 Specify the flow action properties for the node that you want to create.
@@ -59,7 +61,7 @@ Input and Output mappings
 
 </td><td>
 
-All input and output mappings are based on the custom skill you select. For more information on custom skills, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-custom-skills.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md).
+All input and output mappings are based on the custom skill you select. For more information on custom skills, see , [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-custom-skills.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

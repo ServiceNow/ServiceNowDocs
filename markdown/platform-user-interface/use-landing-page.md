@@ -22,7 +22,9 @@ Role required: agent
 
 The landing page is the first page you land on when opening a workspace. It can contain high-level information, such as unassigned, high-priority tasks, or tasks assigned to you. For example, the following landing page shows unassigned, high priority cases, such as open P1 incidents. The page also shows tasks assigned to you under **My Work**.
 
-Landing pages are configurable by your system administrator so yours might look different.
+Landing pages are configurable by your system administrator so yours might look different, as shown below.
+
+\[Omitted image "landing-page.png"\] Alt text: Landing page example
 
 ## Procedure
 

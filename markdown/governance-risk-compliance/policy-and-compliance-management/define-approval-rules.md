@@ -36,8 +36,6 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
 2.  Click **New**.
 
-    \[Omitted image "approval-rules.png"\] Alt text: Approval rules
-
 3.  On the form, fill in the fields.
 
     |Field|Description|
@@ -57,11 +55,7 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
     The Approver Levels related list appears. This related list allows you to define multiple approver levels for a rule. One or more users, or a group of users can be selected as approvers for each level. Approvers must be assigned the survey\_reader role. You can make it mandatory for all selected users to approve the exception or optionally allow a single user to approve on behalf of all approvers.
 
-    \[Omitted image "approval-levels.png"\] Alt text: Approver levels
-
 5.  Click **New**.
-
-    \[Omitted image "approver-level-new.png"\] Alt text: New approval level
 
 6.  On the form, fill in the fields.
 

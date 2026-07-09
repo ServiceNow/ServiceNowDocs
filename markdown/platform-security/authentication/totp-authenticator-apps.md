@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1
 keywords: [Time-based one-time password, TOTP, authenticator apps, ServiceNow, user authentication, authentication factor, Okta Verify]
-breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Access Management]
 ---
 
 # Time-based one-time password \(TOTP\) authentication

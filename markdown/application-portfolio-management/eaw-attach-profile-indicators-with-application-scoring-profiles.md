@@ -1,5 +1,5 @@
 ---
-title: Attach a profile indicator with an application scoring profile
+title: Attach a profile indicator to a scoring profile
 description: You must associate scoring profiles with profile indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Add or edit a scoring profile, Configure scoring profiles, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Attach a profile indicator with an application scoring profile
+# Attach a profile indicator to a scoring profile
 
 You must associate scoring profiles with profile indicators.
 

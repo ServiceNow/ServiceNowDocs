@@ -97,5 +97,5 @@ Granular role for organization staff to ensure consistent sales quote experience
 None
 
 </td></tr></tbody>
-</table>**Note:** For more information on channel partners see, [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/quote-management.md).
+</table>**Note:** For more information on channel partners see, [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/quote-management.md).
 

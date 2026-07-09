@@ -86,7 +86,7 @@ Glossary terms are grouped alphabetically.
 
 A customer data model is a structured framework that defines how customer-related information is stored, organized, and managed across an organization. It standardizes key data elements such as customer profiles, accounts, contacts, and relationships, ensuring consistency and accuracy across systems.
 
-To learn more about customer data models for B2B2C, see [Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-data-model-b2b2c.md).
+To learn more about customer data models for B2B2C, see [Customer data models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-data-model-b2b2c.md).
 
 -   **Also known as**
 
@@ -122,7 +122,7 @@ Feature that customers can use to integrate the Customer Service Management \(CS
 
 External organizations like resellers or system integrators that collaborate with an enterprise to sell products and services, and can be managed through Partner Relationship Management.
 
-To learn more about channel partners, see [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/partner-relationship-management.md).
+To learn more about channel partners, see [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-relationship-management.md).
 
 ### customer central
 

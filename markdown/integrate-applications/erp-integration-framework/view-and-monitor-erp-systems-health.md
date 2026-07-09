@@ -28,9 +28,9 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
-    \[Omitted image "erpc-system-list-ys2.png"\] Alt text: Zero Copy Connector for ERP systems list.
+    \[Omitted image "image.erpc-system-list-ys2"\] Alt text: Zero Copy Connector for ERP systems list.
 
 3.  Select a system **Name**.
 

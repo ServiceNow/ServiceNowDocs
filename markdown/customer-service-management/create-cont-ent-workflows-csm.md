@@ -42,7 +42,7 @@ Customer Life Cycle Workflows Policy decision table decides the target entity wh
 
 \[Omitted image "customer-lc-decision-table-conditions.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 
-You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.Using Customer Life Cycle Workflows Policy Decision Table 
+You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.\[Omitted video\] Description: Using Customer Life Cycle Workflows Policy Decision Table
 
 <table id="table_khy_45b_v2c"><thead><tr><th>
 
@@ -87,8 +87,8 @@ Opportunity and quote together**Note:** You cannot create opportunities and quot
 </td></tr></tbody>
 </table>**Note:** To create an opportunity or opportunity and quote together during renewal, the admin needs to set up the following records:
 
--   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.md).
--   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
+-   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-management-sales-cycle-types.md).
+-   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-management-opportunity-stages.md).
 
 If the user selects an opportunity and a quote as target entities, a renewal opportunity and a quote is created. The opportunity and the quote are associated to each other.
 

@@ -30,19 +30,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290681e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d662191e108">
 
 Option
 
-</th><th align="left" id="d290681e111">
+</th><th align="left" id="d662191e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d290681e117">
+</th></tr></thead><tbody><tr><td id="d662191e117">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d290681e146">
+</td></tr><tr><td id="d662191e146">
 
 **As a collaborator**
 
@@ -82,5 +82,5 @@ A phase is added to the matter.
 
 [Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to manage activities in the matter. If the task has to be done by a different user, assign it to them.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

@@ -23,8 +23,6 @@ The Front-line case page focuses on the essential functionality that front-line 
 
 The Front-line case page is included with the CSM Configurable Workspace application.
 
-\[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
-
 ## Front-line case page variant
 
 The Front-line case page variant is included with the CSM Configurable Workspace application. This variant includes the following settings.
@@ -69,7 +67,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/add-audiences.md).
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -113,7 +111,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -238,8 +236,8 @@ The Front-line case page action bar includes the **Follow** action in the More A
 
 You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
 
--   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-notifications-preferences.md)
--   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/follow-records-in-next-experience.md)
+-   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+-   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/follow-records-in-next-experience.md)
 
 When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
@@ -298,8 +296,6 @@ To use the case summarization component with the Front-line case page, activate 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
-
-\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -440,8 +436,6 @@ For more information, see the [Related lists component](https://raw.githubuserco
 
 The related lists component provides access to the case related lists. This component uses an expandable accordion format. Agents can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
 
-\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items
-
 Related lists include the following actions:
 
 -   **Create**: Opens a blank record in a sub tab that the agent can use to create a new item.
@@ -466,7 +460,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Select the number icon to see more information about the additional users.
 
-For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_UserPresence.md).
+For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_UserPresence.md).
 
 ## Requesting information from customers
 

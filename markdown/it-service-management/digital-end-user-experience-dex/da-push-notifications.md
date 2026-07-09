@@ -57,7 +57,7 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
 
 As a DEX administrator, you can configure and manage Desktop Assistant notifications.
 
-You can configure API parameters to enable Desktop Assistant to send notifications for any update or activity. For more information, see [API parameters to customize Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md).
+You can configure API parameters to enable Desktop Assistant to send notifications for any update or activity. For more information, see [API parameters to configure Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md).
 
 You can define how long the system attempts to deliver notifications by configuring the time-to-live \(TTL\) value using the **sn\_dex\_desktop.sn\_desktop\_assistant.notification\_time\_to\_live** property. The TTL can be set to a maximum of seven days. Older notifications exceeding the TTL are automatically discarded.
 

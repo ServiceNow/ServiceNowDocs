@@ -8,7 +8,7 @@ product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Import in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
@@ -31,7 +31,7 @@ The OSCAL SSP import is an asynchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
+2.  In the CAM Workspace, select \[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -42,8 +42,6 @@ The OSCAL SSP import is an asynchronous process.
 6.  Enter the **Import status recipients** name.
 
     Recipients receive an email notification about the import status.
-
-    \[Omitted image "cam-oscal-import-ssp1.png"\] Alt text: OSCAL import SSP details tab.
 
 7.  Select **Next** to continue to the next step in the OSCAL import process.
 
@@ -63,8 +61,6 @@ The OSCAL SSP import is an asynchronous process.
 
     You can also upload multiple overlay files.
 
-    \[Omitted image "cam-oscal-import-ssp4.png"\] Alt text: Attach OSCAL SSP files.
-
 10. Select **Add file** to attach the POA&amp;Ms file, then select **Next**.
 
     **Note:**
@@ -72,13 +68,7 @@ The OSCAL SSP import is an asynchronous process.
     -   You can upload multiple POA&amp;M files.
     -   You can’t import a POA&amp;M file, which is already linked to another active authorization package.
     -   If there are any errors in the uploaded files for import, an error message is displayed, select **Restart** to upload a valid file.
-
-        \[Omitted image "cam-oscal-import-ssp9.png"\] Alt text: Import error message.
-
     -   If a warning appears, you can choose to skip it and select **Next** to proceed with the import process.
-
-        \[Omitted image "cam-oscal-import-ssp10.png"\] Alt text: Import warning message.
-
     You’re directed to the **User and Group Mapping** tab to map the users for the import process.
 
 11. Select the users in the **User mapping** section, then select **Next**.
@@ -93,17 +83,11 @@ The OSCAL SSP import is an asynchronous process.
 
     Assign users to specific roles for the imported files. These users retain their roles throughout each step in the authorization package.
 
-    \[Omitted image "cam-oscal-import-ssp3.png"\] Alt text: User and group mapping for OSCAL import SSP.
-
-14. You can also select the attachments, package mapping, or user and group mapping action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments or roles and responsibilities.\) on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
-
-    \[Omitted image "cam-oscal-import-ssp8.png"\] Alt text: Restarting stage.
+14. You can also select the attachments, package mapping, or user and group mapping action icon on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
 
 15. Select **Next** to verify the files you uploaded.
 
     **Preview and Override** tab displays.
-
-    \[Omitted image "cam-oscal-import-ssp5.png"\] Alt text: OSCAL SSP import.
 
 16. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 

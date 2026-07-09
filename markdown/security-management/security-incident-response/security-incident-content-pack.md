@@ -25,9 +25,9 @@ The Security Incident Response Performance Analytics Solution is available from 
 -   You cannot create new indicators.
 -   You cannot collect data older than 180 days.
 
-For full functionality, license Performance Analytics. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+For full functionality, license Performance Analytics. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
-**Important:** By default, the data collection limit for the `(com.snc.pa.dc.max_records)` property in Performance Analytics is set as 5,000 records. But you can increase this limit per your requirements, such as 50,000 records. However, increasing this limit may impact performance during data collection or when performing operations on the Snapshot table. To learn more about the Performance Analytics properties, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-properties.md).
+**Important:** By default, the data collection limit for the `(com.snc.pa.dc.max_records)` property in Performance Analytics is set as 5,000 records. But you can increase this limit per your requirements, such as 50,000 records. However, increasing this limit may impact performance during data collection or when performing operations on the Snapshot table. To learn more about the Performance Analytics properties, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/pa-properties.md).
 
 -   **[CISO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ciso-dashboard.md)**  
 This dashboard reveals the overall security posture of your organization, including security vulnerability and incidents.
@@ -45,5 +45,5 @@ Security operations center \(SOC\) managers can view overall efficiency metrics 
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
+breadcrumb: [REST API access policies, API access policy, Access Management]
 ---
 
 # Create REST API access policy

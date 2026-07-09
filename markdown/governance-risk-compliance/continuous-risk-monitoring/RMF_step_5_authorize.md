@@ -26,7 +26,7 @@ Before you authorize the authorization package the system owner must review and 
 
 1.  When the review is complete for an authorization package in the Access state, select **Authorize**.
 
-2.  You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.\[Omitted image "rmf-5-authorize-ssp.png"\] Alt text: Authorizing the Authorization Package
+2.  You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.
 
 3.  When you’re satisfied that all is in order, select **Request Approval**.
 

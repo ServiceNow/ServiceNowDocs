@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Test IdP connections, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Test IdP connections, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Common IdP connection errors

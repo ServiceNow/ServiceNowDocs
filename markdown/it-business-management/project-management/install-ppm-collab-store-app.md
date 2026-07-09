@@ -9,7 +9,7 @@ classification: project-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Collaboration application overview, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install PPM Collaboration

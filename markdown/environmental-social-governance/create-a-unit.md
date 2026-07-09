@@ -20,9 +20,9 @@ Role required: sn\_esg.metric\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Units**.
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Metrics** &gt; **Units**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -32,7 +32,7 @@ Role required: sn\_esg.metric\_manager
     |Format|Format of the unit. For example, `{0} MWh` gives you the number of Megawatt-hours with the abbreviation MWh.|
     |Unit family|Family to which the unit belongs. For example, Gallon can be associated with the Volume unit family.|
 
-4.  To save the metric unit, click **Save**.
+4.  Select **Save**.
 
 
 ## Result

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Test the SAML integration, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Test the SAML integration, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Multi-SSO \(SAML 2.0\) errors and fixes

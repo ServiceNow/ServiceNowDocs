@@ -32,15 +32,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d87111e88">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d142279e88">
 
 Interface
 
-</th><th align="left" id="d87111e91">
+</th><th align="left" id="d142279e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d87111e97">
+</th></tr></thead><tbody><tr><td id="d142279e97">
 
 **ServiceNow AI Platform interface**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d87111e120">
+</td></tr><tr><td id="d142279e120">
 
 **CSM Configurable Workspace**
 
@@ -61,15 +61,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to service contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d87111e170">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d142279e170">
 
 Add to
 
-</th><th align="left" id="d87111e173">
+</th><th align="left" id="d142279e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d87111e179">
+</th></tr></thead><tbody><tr><td id="d142279e179">
 
 **Service Contracts**
 
@@ -83,7 +83,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d87111e220">
+</td></tr><tr><td id="d142279e220">
 
 **Service Contract Lines**
 
@@ -98,7 +98,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it's not added to the related entitlements.
 
-</td></tr><tr><td id="d87111e273">
+</td></tr><tr><td id="d142279e273">
 
 **Entitlements**
 
@@ -129,7 +129,7 @@ Procedure
     -   The state of the entity shouldn't be Expired or Cancelled.
 3.  On the Sold Product Covered form, fill in the fields.
 
-    For a description of the field values, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md).
+    For a description of the field values, see .
 
 4.  Select **Submit**.
 

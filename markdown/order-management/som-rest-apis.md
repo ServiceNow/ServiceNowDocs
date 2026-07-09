@@ -16,19 +16,19 @@ Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to c
 
 |REST API|Description|
 |--------|-----------|
-|[Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/entitlement-api.md)|The Entitlement API provides endpoints to create and retrieve entitlement records from an instance.|
-|[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/lead-api.md)|The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.|
-|[Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/order_csm-api.md)|The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.|
-|[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/product-inventory-open-api.md)|The Product Inventory Open API provides endpoints to create and retrieve product inventories.|
-|[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/sales_agreement-api.md)|The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.|
-|[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/work-order-mgmt-api.md)|The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
+|[Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/entitlement-api.md)|The Entitlement API provides endpoints to create and retrieve entitlement records from an instance.|
+|[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/lead-api.md)|The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.|
+|[Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/order_csm-api.md)|The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.|
+|[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-inventory-open-api.md)|The Product Inventory Open API provides endpoints to create and retrieve product inventories.|
+|[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/sales_agreement-api.md)|The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.|
+|[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/work-order-mgmt-api.md)|The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-reference.md)
 
 **Related topics**  
 
 
-[TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/telecommunications-media-and-technology-core/tmt-api-reference.md)
+[bundle-telmt.tmt-api-reference]
 
 [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-product-type.md)
 

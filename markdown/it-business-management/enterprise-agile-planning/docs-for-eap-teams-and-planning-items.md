@@ -16,7 +16,7 @@ breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portf
 
 Store and manage all kinds of documentation for Agile teams and their planning items \(Epics, Capabilities, and Features\) from a centralized location of Enterprise Agile Planning workspace.
 
-Overview of Docs for Enterprise Agile Planning. 
+\[Omitted video\] Description: Overview of Docs for Enterprise Agile Planning.
 
 ## Docs overview
 

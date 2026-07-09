@@ -33,7 +33,7 @@ The migration process takes your dashboard content and migrates it from Core UI 
 
 ## What isn't migrated
 
-The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics experience. Some content doesn’t have an analogous Platform Analytics feature. Any dashboard with content that isn't migrated and is migrated into a container, also called an iframe. This is called Compatibility mode. For detailed information about content that isn't migrated, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-mig-unmigrated-content.md).
+The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics experience. Some content doesn’t have an analogous Platform Analytics feature. Any dashboard with content that isn't migrated and is migrated into a container, also called an iframe. This is called Compatibility mode. For detailed information about content that isn't migrated, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-mig-unmigrated-content.md).
 
 ## What is the migration process
 
@@ -72,5 +72,5 @@ You can disable the **Start Moving** and **Activate** Platform Analytics experie
 
 If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

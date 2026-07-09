@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-01-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -78,7 +78,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
+Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_FiscalCalendar.md).
 
 </td></tr><tr><td>
 

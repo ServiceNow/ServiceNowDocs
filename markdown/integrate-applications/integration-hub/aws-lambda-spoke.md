@@ -37,7 +37,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
--   [AWS IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(sn\_aws\_iam\_spoke\)
+-   [AWS IAM Spoke]() \(sn\_aws\_iam\_spoke\)
 
 **Note:** Some of these plugins are licensable features and require an appropriate license if used outside the spoke implementation. For information on licenses, contact your account manager.
 

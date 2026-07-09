@@ -24,21 +24,15 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Audience**.
 
-    \[Omitted image "audiences.png"\] Alt text: Define audiences for acknowledgements
-
 2.  Click **New**.
-
-    \[Omitted image "new-audience.png"\] Alt text: Defining a new audience
 
 3.  Enter a name and description for the new audience, and save the record.
 
 4.  Additional tabs appear.
 
-    \[Omitted image "audiences-tabs.png"\] Alt text: Defining users and groups in audiences
-
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d155614e131">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d158568e101">
 
 **Users**
 
@@ -46,7 +40,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d155614e143">
+</td></tr><tr><td id="d158568e113">
 
 **Groups**
 
@@ -54,7 +48,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d155614e155">
+</td></tr><tr><td id="d158568e125">
 
 **User Filters**
 

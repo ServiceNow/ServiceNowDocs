@@ -7,7 +7,7 @@ release: zurich
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer]
 ---
@@ -38,11 +38,12 @@ Enable sorting \(for lists\) in the user's session language when the language is
 
 Enable sorting string values in a column according to the rules of the user's session language. If this option isn’t selected, field values are sorted according to the English alphabet.-   Options: Yes \| No
 -   Default value: No
+-   When this property is set to Yes, and Locale Text Match is true, then the `i18n_session_language_sortable` column attribute must be set to false. See [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/sl-locale-text-match.md).
 -   Learn more: [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/sorting-session-language.md)
 
 </td></tr><tr><td>
 
-Show the language select box on the login page to allow the user to specify the language they would like to be logged in with.
+Show the language select box on the login page so the user can specify the language they would like to be logged in with.
 
  **glide.ui.login.language.select**
 
@@ -124,7 +125,7 @@ Determines the system's default currency into which all prices are automatically
 -   Default value: None
 -   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md)
 
- **Note:** You have already set a value on this system property, do not change this value once a system has gone into production. If a user's locale must be changed, update the "Country code" field on the user record.
+ **Note:** After you have set a value on this system property and your system has gone into production, do not change this value. If a user's locale must be changed, update the "Country code" field on the user record.
 
 </td></tr><tr><td>
 

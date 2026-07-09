@@ -35,7 +35,7 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 
 2.  On the read operation, add a read table entity, for example, on the T005 Countries table.
 
-    \[Omitted image "erpc-mapped-value-example1.png"\] Alt text: Add entity page with T005 entity selected.
+    \[Omitted image "image.erpc-mapped-value-example1"\] Alt text: Add entity page with T005 entity selected.
 
     For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
@@ -45,28 +45,28 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 
 5.  Select **Country/Region Key** and select **OK**.
 
-    \[Omitted image "erpc-mapped-value-example2.png"\] Alt text: Mandatory inputs for countries organized into available columns and selected columns.
+    \[Omitted image "image.erpc-mapped-value-example2"\] Alt text: Mandatory inputs for countries organized into available columns and selected columns.
 
     The system-generated mapped value is countries\_country\_region\_key. The operation parameter value is set to the same name.
 
-    \[Omitted image "erpc-mapped-value-example3-ys2.png"\] Alt text: Specify inputs page with required parameter and mapped value fields highlighted.
+    \[Omitted image "image.erpc-mapped-value-example3-ys2"\] Alt text: Specify inputs page with required parameter and mapped value fields highlighted.
 
 6.  Change the mapped value to, for example, **country\_region\_key** and select **Save**.
 
     The updated mapped value is displayed and the operation parameter value changes to match automatically.
 
-    \[Omitted image "erpc-mapped-value-example4-ys2.png"\] Alt text: Updated field with edited mapped value and updated, matching required parameter.
+    \[Omitted image "image.erpc-mapped-value-example4-ys2"\] Alt text: Updated field with edited mapped value and updated, matching required parameter.
 
 7.  If a new input is added, the mapped value is system-generated but is editable.
 
     For example, add the **Nationality** field and edit the name from **countries\_nationality** to **country\_nationality** so it's more consistent with the **country\_region\_key** name.
 
-    \[Omitted image "erpc-mapped-value-example5-ys2.png"\] Alt text: New field added and mapped value is displayed as editable.
+    \[Omitted image "image.erpc-mapped-value-example5-ys2"\] Alt text: New field added and mapped value is displayed as editable.
 
 
 -   If a new child \(nested\) input is added, the system-generated mapped value doesn't contain the parent name. You can edit the child name for inputs and outputs. For input, the edited name is used in the operational parameter. In this example, the **UDAT** and **BASXML\_SUPPORTED** fields were added and their system-generated names can be edited to contain or more closely match the parent name.
 
-    \[Omitted image "erpc-mapped-value-example6-ys2.png"\] Alt text: Function call displayed with function names parent field and several child fields.
+    \[Omitted image "image.erpc-mapped-value-example6-ys2"\] Alt text: Function call displayed with function names parent field and several child fields.
 
 -   If a join is used, the changed name should be available on the join fields as well. For more information about joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 -   If the same field exists in both input and output, but they have different mapped values, the name of the output field is given precedence and used.

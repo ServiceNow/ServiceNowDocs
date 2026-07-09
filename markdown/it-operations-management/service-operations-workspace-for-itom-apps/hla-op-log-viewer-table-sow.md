@@ -65,5 +65,5 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 The **Log viewer** table shows the customized view from the current session onward until you change your preferences.
 
-**Parent Topic:**[Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
+**Parent Topic:**[Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
 

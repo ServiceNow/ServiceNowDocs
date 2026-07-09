@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Client Credentials Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Client Credentials Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Client credentials grant workflow

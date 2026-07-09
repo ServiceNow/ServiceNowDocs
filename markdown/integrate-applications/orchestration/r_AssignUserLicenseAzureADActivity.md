@@ -18,7 +18,7 @@ The Assign User License activity assigns an additional Office 365 software licen
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md).
 
-**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/c_OAuthApplications.md).
+**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_OAuthApplications.md).
 
 ## Input variables
 
@@ -41,4 +41,6 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |---------|-----------|
 |Success|Activity successfully assigned an Office 365 license to a user.|
 |Failure|Activity failed to assigned an Office 365 license to a user, or the activity failed to connect to Azure AD.|
+
+**Parent Topic:**[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_AzureADActivityPack.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [API Authentication Policies, API access policy, Authentication, Access Management]
+breadcrumb: [API Authentication Policies, API access policy, Access Management]
 ---
 
 # Configure global blocking policy for APIs
@@ -18,11 +18,11 @@ Global blocking policy denies the authentication requests of users and APIs base
 
 ## Before you begin
 
-Role required: admin
+Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Web Services** &gt; **API Access Policies** &gt; **Global Blocking Policy**.
+1.  Navigate to **All** &gt; **System Web Services** &gt; **API Authentication Policy** &gt; **Global Blocking Policy**.
 
 2.  From the **Policy Inputs** tab, click **Edit**.
 

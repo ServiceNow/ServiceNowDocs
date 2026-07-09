@@ -18,43 +18,30 @@ Learn how Telecommunications Service Operations Management \(TSOM\) empowers com
 
 <table id="table_acr_hnj_wfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how telecom service providers use Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/exploring-tsom.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how telecom service providers use Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/exploring-tsom.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/configuring-tsom.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/using-tsom.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Telecommunications Service Operations Management reference information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Telecommunications Service Operations Management reference information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/components-installed-with-tsom.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
-Some ServiceNow resources that can provide you with helpful information are:
-
--   **\[Omitted image "dcx-icon-impact.svg"\] Release Notes**
-
-    Learn more about what's new and changed in this release at [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md)
-
--   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
-
-    Connect with other Telecommunications Service Operations Management users at [ServiceNow Community](https://community.servicenow.com/community)
-
--   **\[Omitted image "dcx-icon.svg"\] ServiceNow Impact**
-
-    Find useful resources related to your role and explore best practices at the [ServiceNow Impact](http://impact.servicenow.com)
-
--   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
-
-    Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
-
--   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-    Contact customer service support at [https://support.servicenow.com/now](https://support.servicenow.com/now)
-
+-   Learn more about what's new and changed, see the [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/what-is-servicenow-telecommunications?id=learning_course_prev&course_id=34950e3d53e00b58c2245a01a0490e6d&s=1&ssa=3).
+-   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Telecommunications Service Operations Management users at [Now Community](https://www.servicenow.com/community/).
+-   Access Telecommunications Service Operations Management product page from [https://www.servicenow.com/products/telecommunications-service-operations.html](https://www.servicenow.com/products/telecommunications-service-operations.html).
+-   Explore the CI classes and relationships that represent telecom network elements in the CMDB at [Telecom data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecom-data-model.md).
 

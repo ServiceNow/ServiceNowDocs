@@ -16,8 +16,8 @@ breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 
 Reference topics provide additional information about Agent Workspace for HR Case Management components and forms.
 
--   **[Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md)**  
-The Create a new case form allows you to create a new case in Agent Workspace for HR Case Management.
+-   **[Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md)**  
+The Create a case form allows you to create a case in Agent Workspace for HR Case Management.
 -   **[Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md)**  
 A description of the page configuration settings in Agent Workspace for HR Case Management.
 -   **[Highlighted value condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.md)**  

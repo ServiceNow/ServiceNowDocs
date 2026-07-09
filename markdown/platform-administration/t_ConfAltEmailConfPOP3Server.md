@@ -22,7 +22,9 @@ You can use your own POP3 server to store and receive email for the instance.
 
 ## Procedure
 
-1.  On your POP3 server, create a mailbox for your instance that has a custom email address. For example, create a mailbox for `service-desk@company.com`.
+1.  On your POP3 server, create a mailbox for your instance that has a custom email address.
+
+    For example, create a mailbox for `service-desk@company.com`.
 
 2.  Navigate to **System Mailboxes** &gt; **Administration** &gt; **Email Accounts**.
 
@@ -32,7 +34,7 @@ You can use your own POP3 server to store and receive email for the instance.
 
     An instance can receive email from multiple POP3 accounts at the same time. Leaving the **ServiceNow POP3** account active permits the instance to receive email sent to the default email address.
 
-4.  Click **New**.
+4.  Select **New**.
 
     The system displays an empty email Account form.
 
@@ -134,7 +136,7 @@ System Address Filter
 
 </td><td>
 
-System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
+System address filter to apply to the email account. If left empty, the system uses the default system address filter for inbound or outbound email.
 
  For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-address-filters.md).
 
@@ -165,16 +167,16 @@ Option to create node logs for the raw data that is exchanged with the email ser
  You can enable this field temporarily to diagnose issues related to receiving or sending email.
 
 </td></tr></tbody>
-</table>7.  From **Related Links**, click **Test Connection**.
+</table>7.  From **Related Links**, select **Test Connection**.
 
     If the email account is valid, the system returns a success message.
 
-    \[Omitted image "test-pop3-connection.png"\] Alt text: Example successful Completion code status for testing POP3 connection
+    \[Omitted image "connection-successful.png"\] Alt text: Connection dialog showing a successful connection test results for a POP3 email account
 
 
 ## Example
 
-\[Omitted image "AlternateEmailConfigurationUsingYourOwnPOP3Server.png"\] Alt text: Flow diagram that shows the steps that show how email is received on your POP3 server
+\[Omitted image "alt-email-configuration-pop3-server.png"\] Alt text: Diagram showing ServiceNow email flow using POP3 server, where outbound messages from the instance and user are routed through mail servers and DNS, and inbound messages are received through an incoming mail server after spam filtering
 
 **Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_AlternateEmailConfigurations.md)
 

@@ -34,10 +34,6 @@ Role required: admin
 
 3.  Click **Open a Case**.
 
-    \[Omitted image "open-case.png"\] Alt text: Open a case
-
-    \[Omitted image "request.png"\] Alt text: Issue typ
-
 4.  Fill out the **Create Case** form.
 
 <table id="table_hi_serv_portal"><thead><tr><th>

@@ -7,7 +7,7 @@ release: zurich
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---

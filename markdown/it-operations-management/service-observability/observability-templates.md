@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -30,6 +30,10 @@ Templates used to create Cisco ThousandEyes synthetics dashboard in Service Obse
 Templates used to create Datadog dashboards in Service Observability. You can edit these templates as needed.
 -   **[Dynatrace templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/dynatrace-templates.md)**  
 Templates used to create Dynatrace dashboards in Service Observability. You can edit these templates as needed.
+-   **[LogicMonitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/logic-monitor-templates.md)**  
+Templates used to create LogicMonitor dashboards in Service Observability. You can edit these templates as needed.
+-   **[MetricBase templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/metricbase-templates.md)**  
+Templates used to create MetricBase dashboards in Service Observability. You can edit these templates as needed.
 -   **[New Relic templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/new-relic-templates.md)**  
 Templates used to create New Relic dashboards in Service Observability. You can edit these templates as needed.
 -   **[Prometheus templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/prometheus-templates.md)**  

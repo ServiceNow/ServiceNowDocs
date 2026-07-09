@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Add MetricBase data to charts on Service Observability dashboard templates when 
 
 ## About this task
 
-You can add metrics that are stored in the [MetricBase application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/metricbase.md) to your Service Observability dashboards. These charts display with data scoped to the selected service.
+You can add metrics that are stored in the [MetricBase application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase.md) to your Service Observability dashboards. These charts display with data scoped to the selected service.
 
 ## Before you begin
 

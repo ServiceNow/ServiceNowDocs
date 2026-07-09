@@ -25,9 +25,9 @@ A batch can contain any combination of the following types:
 
 ## Batch installation methods
 
-For details on installing applications in a batch via the REST API see [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/cicd-api.md).
+For details on installing applications in a batch via the REST API see [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/cicd-api.md).
 
-For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/cicd-spoke.md).
+For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/cicd-spoke.md).
 
 **Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-legacy-application-manager.md)
 

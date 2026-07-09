@@ -21,7 +21,7 @@ As an Administrator, set up and configure Health Log Analytics for Operators to 
 
 Complete the following tasks for a successful setup and configuration of Health Log Analytics.
 
-**Important:** Regardless of how you implement Health Log Analytics, for log data ingestion via a MID Server you must first configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
+**Important:** Regardless of how you implement Health Log Analytics, for log data ingestion via a MID Server you must first configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
 
 For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
 
@@ -51,7 +51,7 @@ For MID Server proxy requirements, see [MID Server proxy preconditions for strea
 
     Configure mapping for your raw log data so that Health Log Analytics can correctly parse and analyze it.
 
-    **Note:** The user-friendly Log context mapping interface in the new HLA UI is simpler to use than Data input mapping in HLA's classic interface \(UI16\). For more information about Log context mapping, see [Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+    **Note:** The user-friendly Log context mapping interface in the new HLA UI is simpler to use than Data input mapping in HLA's classic interface \(UI16\). For more information about Log context mapping, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 6.  [Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 

@@ -17,7 +17,7 @@ View the customer's account and contact details on the interaction record and th
 
 ## Before you begin
 
-Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist_0.md).
+Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see .
 
 Role required: sn\_order\_case.order\_agent, awa\_agent, and now\_assist\_panel\_user
 
@@ -47,5 +47,5 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 **Related topics**  
 
 
-[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
+[bundle-csm.csm-case-mgmt-order-ops]
 

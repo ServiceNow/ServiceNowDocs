@@ -119,7 +119,7 @@ Manage your ${NOTIF_PREFS} or ${NOTIF_PREFS+link_text="click here"}.
 
 When rendered in an email notification, the unsubscribe links display only the link text.
 
-\[Omitted image "example-unsubscribe-links.png"\] Alt text: An email with unsubscribe and notification preferences links.
+\[Omitted image "example-unsubscribe-links.png"\] Alt text: An email with unsubscribe and notification preferences links
 
 If the **Unsubscribe** link is selected, the email client creates a message similar to the one shown in the following figure.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer]
 ---
 
@@ -15,6 +15,10 @@ breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core
 The system determines which inbound actions to run by comparing the inbound email type and inbound action conditions to the incoming email message. Certain properties are available to set the reply and forwarding prefixes in the email subject lines that your instance recognizes when processing inbound emails.
 
 **Note:** Inbound email flows take priority over inbound email actions. If you create flows with inbound email triggers, emails are first processed by the inbound email triggers before they are processed by inbound email actions.
+
+The system follows this processing flow to determine whether to run an inbound action.
+
+\[Omitted image "inbound-action-processing.png"\] Alt text: Inbound action processing workflow
 
 The system only runs an inbound action when:
 

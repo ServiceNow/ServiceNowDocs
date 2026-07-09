@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # SMS as an MFA factor

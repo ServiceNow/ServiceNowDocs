@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-02-23"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -26,7 +26,7 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open AI insights page by selecting **AI insights** from the list.
 
@@ -38,6 +38,14 @@ Role required: it\_project\_manager
 
 4.  Review the generation project insights.
 
+    -   Project insights
+    -   Executive summary
+    -   Overall project health
+    -   RAG status \(These appear as widgets on the AI insights page\).
+    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, as well as budget and cost status to verify that financials remain within limits.
+
+    The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits.
+
 
 ## Result
 
@@ -45,6 +53,12 @@ The project insights are generated from the AI insights page with access to curr
 
 ## What to do next
 
+-   Modify the project insights admin configurations:
+    1.  Navigate to **All** and type `sn_spm_gen_ai_insight_topic.list` and press enter to open the configuration table.\[Omitted image "insight-topics-table.png"\] Alt text: Insights topic configuration table.
+    2.  Locate the topic you want to update from the Topic name column.
+    3.  Double-click \(or use the keyboard shortcut\) the Default topic config field to edit the required topic.
+    4.  Update the values for threshold or critical state or time ranges according to your requirement.
+    5.  Select the check mark or press enter to save the changes.
 -   View and reuse stored insights:
     -   Generated insights are stored and reused based on a defined date threshold.
     -   When you revisit the AI Insights page, previously generated insights are displayed if they are still within the threshold.

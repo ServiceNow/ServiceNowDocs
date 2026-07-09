@@ -62,13 +62,13 @@ You can create, review, update, or close a change request task in the Telecommun
     -   View or update a summary of this change request.
     -   Add scopes.
 
-        To learn more, see [Scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-plan-asset-scope-bcp.md).
+        To learn more, see Scopes.
 
     -   Assign this change request to a group or a person.
 
         **Note:** To assign this change request, select **Assign** &gt; **fill in the assignment group and assigned to** &gt; **Save**.
 
-    -   Set a schedule for this change request. To learn more, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+    -   Set a schedule for this change request. To learn more, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseSchedules.md).
     -   Calculate the risks for this change request.
 
         When you select **Calculate Risk**, it analyzes an update in the **Risk** field on the **Details** tab.
@@ -94,5 +94,5 @@ Create, review, update, or close the change tasks.
 
 For more information, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
-**Parent Topic:**[Instantiating inventory using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

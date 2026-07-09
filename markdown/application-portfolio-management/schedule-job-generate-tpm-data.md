@@ -35,7 +35,7 @@ Role required: admin
 
 The job will run as scheduled to generate the TPM lifecycle data.
 
-**Note:** You can also run the job on-demand. For details, see [Run a scheduled job to generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md).
+**Note:** You can also run the job on-demand. For details, see [Generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md).
 
 **Parent Topic:**[Configuring Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-apm.md)
 

@@ -28,7 +28,7 @@ Before connecting Claude Desktop to the Service Mapping MCP Server, confirm the 
     -   MCP Server URL
     -   OAuth Client ID
     -   OAuth Client Secret
-    For more information, see: [Activate the Now Assist CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+    For more information, see: [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-mcp-server.md)
 
 -   Verify that you have the required role configuration. For more information, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 

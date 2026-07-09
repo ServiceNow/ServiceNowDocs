@@ -27,7 +27,7 @@ You can see the following details:
 -   Engagement details: This section shows the details of the engagement for which the risk signal has been generated. It includes the Contract value, Stage, Next Renewal date, Health, and so on.
 -   Risk signal details: The risk signal details including probability, tracking method, category, and so on. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.md) for the details.
 -   Risk occurrence timeline: List of risk occurrences based on the scheduled job. This includes the dates on which the scheduled job was created, executed, the current value, engagement health, and the threshold value.
--   Summarize: Generates a summary from a risk signal and issues summarization record and all associated tasks. See [Summarize a risk signal and issues using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-risk-signals-issues.md) to generate the summary.
+-   Summarize: Generates a summary from a risk signal and issues summarization record and all associated tasks. See [Summarize a risk signal and issues using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-summarize-risk-signals-issues.md) to generate the summary.
 
 The following options are available:
 

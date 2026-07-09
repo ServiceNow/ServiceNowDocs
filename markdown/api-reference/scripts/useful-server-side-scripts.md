@@ -106,13 +106,9 @@ while(ri.next()) {
 
 Often you may need to provide users with a way to specify when a task or process is due. Using the DurationCalculator script include, you can calculate the due date using either a simple duration or relative duration.
 
-Typically, setting a due date requires that you calculate work time rather than the total time. Only the part of the day when work is performed is considered when determining the due date. For example, a task is due in 10 hours, but is restricted to a business day schedule. If the work starts at 10am on Monday, it is due on Tuesday at 12pm as calculated below.
+Typically, setting a due date requires that you calculate work time rather than the total time. Only the part of the day when work is performed is considered when determining the due date. For example, a task is due in 10 hours, but is restricted to a business day schedule. If the work starts at 10am on Monday, it is due on Tuesday at 12pm: 10am-5pm on Monday \(7 hours\) + 8am-12pm on Tuesday \(4 hours\).
 
-```
-10am-5pm on Monday (6 hours) + 8am-12pm on Tuesday (4 hours)
-```
-
-For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseSchedules.md).
 
 This script demonstrates how to use DurationCalculator to compute a due date.
 
@@ -131,7 +127,8 @@ executeSample();
  * Function to house the sample script.
  */function executeSample(){
  
-    // First we need a DurationCalculator object.var dc =new DurationCalculator();
+    // First we need a DurationCalculator 
+    object.var dc =new DurationCalculator();
  
     // --------------- No schedule examples ------------------
  
@@ -194,7 +191,7 @@ To calculate a relative duration, the calendar and time zone must be considered 
 
 **Note:** Next business day is often defined by a starting day and time. For example, "next business day at 4pm if before 2pm" indicates that if the current time is after 2pm on a business day, then "Next business day" really means 2 business days since today does not count.
 
-For more information on relative durations, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_DefineARelativeDuration.md).
+For more information on relative durations, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DefineARelativeDuration.md).
 
 #### Calculating a simple duration
 

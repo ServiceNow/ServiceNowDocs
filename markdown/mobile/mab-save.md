@@ -18,7 +18,7 @@ Save all the changes you make within the Mobile App Builder with a single action
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 

@@ -16,7 +16,7 @@ breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 
 Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 
-Feedback overview video.
+\[Omitted video\] Description: Feedback overview video.
 
 ## Feedback overview
 

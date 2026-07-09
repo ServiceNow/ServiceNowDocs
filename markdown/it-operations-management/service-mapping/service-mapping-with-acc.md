@@ -9,7 +9,7 @@ classification: service-mapping
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Choose method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping with Agent Client Collector
@@ -20,5 +20,5 @@ Using Agent Client Collector, you can deploy both top-down and machine learning-
 
 For information on configuring Service Mapping to work with Agent Client Collector, see [Configure Agent Client Collector for use with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/configure-acc-for-service-mapping.md).
 
-**Parent Topic:**[Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/choose-mapping-method.md)
+**Parent Topic:**[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/choose-mapping-method.md)
 

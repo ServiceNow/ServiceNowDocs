@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create SOAP API access policy, SOAP API access policies, API access policy, Authentication, Access Management]
+breadcrumb: [Create SOAP API access policy, SOAP API access policies, API access policy, Access Management]
 ---
 
 # Create a global API access policy to protect SOAP APIs

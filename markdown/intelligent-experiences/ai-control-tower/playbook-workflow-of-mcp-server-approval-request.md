@@ -1,6 +1,6 @@
 ---
-title: Explore the MCP server approval workflow
-description: Explore the Model Context Protocol \(MCP\) server approval workflow.
+title: MCP server approval workflow
+description: Explore the MCP server approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Explore the MCP server approval workflow
+# MCP server approval workflow
 
-Explore the Model Context Protocol \(MCP\) server approval workflow.
+Explore the MCP server approval workflow.
 
 ## Before you begin
 

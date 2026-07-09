@@ -9,7 +9,7 @@ classification: certificate-based-authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Certificate-based authentication, Authentication, Access Management]
+breadcrumb: [Certificate-based authentication, Access Management]
 ---
 
 # Log in using Certificate-based authentication

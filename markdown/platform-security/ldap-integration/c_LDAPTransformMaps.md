@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Import and map data, LDAP integration, Authentication, Access Management]
+breadcrumb: [Import and map data, LDAP integration, Access Management]
 ---
 
 # LDAP transform maps

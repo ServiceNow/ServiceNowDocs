@@ -28,19 +28,19 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d103523e82">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d132286e82">
 
 Option
 
-</th><th align="left" id="d103523e85">
+</th><th align="left" id="d132286e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103523e91">
+</th></tr></thead><tbody><tr><td id="d132286e91">
 
 **Project**
 
@@ -55,7 +55,7 @@ If you have attachment, select the Add file icon \(\[Omitted image "icon-add-fil
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d103523e135">
+</td></tr><tr><td id="d132286e135">
 
 **Project task**
 
@@ -76,15 +76,15 @@ If you have attachment, select the Add File icon \(\[Omitted image "icon-add-fil
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d103523e188">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d132286e188">
 
 Option
 
-</th><th align="left" id="d103523e191">
+</th><th align="left" id="d132286e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103523e197">
+</th></tr></thead><tbody><tr><td id="d132286e197">
 
 **Project**
 
@@ -98,7 +98,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d103523e230">
+</td></tr><tr><td id="d132286e230">
 
 **Project task**
 

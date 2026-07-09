@@ -16,6 +16,10 @@ Service provider \(SP\) customers can access SP services by using a portal to a 
 
 ## Dedicated instances
 
+Refer to the following image about dedicated instances.
+
+\[Omitted image "bp-sp-reference-architecture-dedicated.png"\] Alt text: SP reference dedicated architecture
+
 ## Attributes
 
 -   Dedicated instances require that you have separate administration and dedicated teams. You need multiple licenses for the administrators and developers who log in to multiple instances.
@@ -26,6 +30,8 @@ Service provider \(SP\) customers can access SP services by using a portal to a 
 \[Omitted image "bp-dedicated-vs-shared.png"\] Alt text: Dedicated vs shared
 
 
+
+\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: SP reference architecture comparison
 
 **Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/bp-sp-reference-arch-ds.md)
 

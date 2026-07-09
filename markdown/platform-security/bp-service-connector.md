@@ -117,7 +117,7 @@ Instance data replication \(IDR\)
 </td><td>
 
 When replication is the goal:-   Can be used for process integration, but can be too rigid depending on the complexity integration logic based on state transition
--   To learn more, see [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)
+-   To learn more, see [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/instance-data-replication.md)
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ IntegrationHub
 </td><td>
 
 When process integration is the goal:-   Easier to inject in the middle of a process, as part of complex or conditional step in the middle of a flow
--   To learn more, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub.md)
+-   To learn more, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md)
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Remote Tables
 </td><td>
 
 When external data usage without storage is the goal:-   Used to connect an instance to third-party sources, or to another instance, to retrieve external data and optionally cache it in the memory. The data is treated as a table in the instance for read-only purposes such as group, sort, aggregate, and filter.
--   To learn more, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md)
+-   To learn more, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md)
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Flow Designer
 </td><td>
 
 When process design is the goal-   Used for automating processes in a single design environment. Process owners can use natural language to automate approvals, tasks, notifications, and record operations without coding.
--   To learn more, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md)
+-   To learn more, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
 </td></tr></tbody>
 </table>Learn more about the [Service Connector proof of concept](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817720) on the ServiceNow Knowledge site.

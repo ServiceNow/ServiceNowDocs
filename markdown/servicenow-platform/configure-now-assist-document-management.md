@@ -19,5 +19,7 @@ If you have the admin role, you can configure Now Assist in Document Management 
 
 Configure how agents use generative AI capabilities to generate the document insights.
 
-[Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-skill-smart-documents.md)
+For Zurich Patch 11, Australia Patch 4, and later releases, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-skill-smart-documents.md).
+
+For Zurich Patch 10, Australia Patch 3, and earlier releases, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/activate-smart-documents.md).
 

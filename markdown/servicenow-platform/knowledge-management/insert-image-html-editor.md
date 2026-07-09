@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,9 +28,9 @@ Role required: user with contribute access
 
 3.  On the knowledge article form, in the **Article body** field, place the cursor where you want to insert an image.
 
-4.  On the HTML editor toolbar, select the Insert/edit image icon \(\[Omitted image "TinyMCEV4Image.png"\] Alt text: Insert or edit image icon\).
+4.  On the HTML editor toolbar, select the Insert/edit image icon .
 
-5.  On the Insert/Edit Image dialog box, select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\).
+5.  On the Insert/Edit Image dialog box, select the Upload icon \(.
 
 6.  Select an image.
 

@@ -9,14 +9,14 @@ classification: agent-workspace-for-hr-case-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # UI Builder for Agent Workspace for HR Case Management
 
 Use UI Builder to build pages in Agent Workspace for HR Case Management using Next Experience and custom web components.
 
-For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
 
 -   **[Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md)**  
 Create a variant of your landing page to build a custom portal experience for your users.

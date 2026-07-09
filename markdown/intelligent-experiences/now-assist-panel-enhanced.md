@@ -16,8 +16,8 @@ Now Assist panel enhanced chat is a conversational support experience within a d
 
 **Note:** Please note these important considerations:
 
--   Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
--   To use the full capabilities of Now Assist panel enhanced chat, AI Search must be enabled for your portal. Without it, Now Assist panel enhanced chat functions in a limited capacity. Basic conversational interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+-   Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   To use the full capabilities of Now Assist panel enhanced chat, AI Search must be enabled for your portal. Without it, Now Assist panel enhanced chat functions in a limited capacity. Basic conversational interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-ais-sp.md).
 
 Agents can use the Now Assist panel enhanced chat to interact with and get assistance from generative AI. You can move the chat window by selecting the header and dragging the chat window to the desired location. You can resize the chat window by using the window's edges to resize to your desired size or use the toolbar icons.
 
@@ -231,7 +231,7 @@ After you enter a question or request on the Now Assist panel, Now Assist gather
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when Now Assist didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
 

@@ -41,7 +41,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 ## What to do next
 
-Create a network instance instantiation. For information, see [Instantiating inventory using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md).
+Create a network instance instantiation. For information, see [Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md).
 
 **Parent Topic:**[Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
 

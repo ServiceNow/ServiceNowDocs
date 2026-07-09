@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Configure a third party ID token
@@ -18,36 +18,15 @@ Configure a third-party ID token to enable secure authentication by verifying us
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: `admin`
 
 ## Procedure
 
-1.  Navigate to **Machine Identity Console** &gt; **** &gt; **Inbound integrations** &gt; **New integration** &gt; **Third party ID token**.
+1.  Navigate to **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration** &gt; **Third party ID token issued by OIDC supporting identity provider**.
 
 2.  Update the text fields in the **Details** form with the appropriate information.
 
-    |Field|Description|
-    |-----|-----------|
-    |**Name**|The name provided by the resource owner \(user\) during authentication.|
-    |**Provider name**|Enter the name of the service provider you want to integrate with. Example: Microsoft, Google, Zoom, SAP, etc|
-    |**Client ID**|The unique ID assigned to identify the application.|
-    |**Client secret**|The secret key that only the application and the authorization server can identify. The application uses this key to authenticate and obtain access tokens.|
-
-    Enforcing token restriction applies limitations on how an OAuth access token can be used, enhancing security by verifying tokens are valid only under specific conditions. Enable the **Enforce token restriction** check box to limit OAuth access tokens to specific APIs defined in the API access policy. If **Enforce token restriction** is turned off, the token can be used across other REST APIs.
-
-3.  Update the text fields in the **Auth scope \(optional\)** form with the appropriate information. The authentication scope defines the level of access an application has to a resource. Select the authentication scope for the specific REST APIs you want to access.
-
-    |Field|Description|
-    |-----|-----------|
-    |**Auth scope**|The level of access an application has to a resource. The authentication scope restricts the actions that an access token can perform on APIs or data.|
-    |**Limit authorization**|The names of the APIs for which you want to restrict authorization.|
-    |**Allow access only to APIs in selected scope**|Enable the option for the integration to only access APIs that are explicitly listed in the selected scopes.|
-
-    1.  Select **Create new auth scope** to add a new auth scope.
-
-4.  Update the text fields in the **Advanced options \(optional\)** form with the appropriate information.
-
-<table id="table_qdq_bw2_s2c"><thead><tr><th>
+<table id="table_nwn_z3x_r2c"><thead><tr><th>
 
 Field
 
@@ -57,25 +36,142 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Access token lifespan**
+**Name**
 
 </td><td>
 
-The duration \(in seconds\) for which the OAuth access token remains valid before it expires.**Note:** The default value is 1800 seconds.
+The name provided by the resource owner \(user\) during authentication.
 
 </td></tr><tr><td>
 
-**Refresh token lifespan**
+**Provider name**
 
 </td><td>
 
-The duration \(in seconds\) for which the OAuth refresh token remains valid before it expires.**Note:** The default value is 8,640,000 seconds.
+Enter the name of the service provider you want to integrate with. Example: Microsoft, Google, Zoom, SAP, etc.**Note:** Provider name is a mandatory field.
+
+</td></tr><tr><td>
+
+**Client ID**
+
+</td><td>
+
+The unique ID assigned to identify the application. Unique ID is the Audience value.
+
+</td></tr><tr><td>
+
+**Comments**
+
+</td><td>
+
+Add any notes about this configuration.
+
+</td></tr><tr><td>
+
+**Active**
+
+</td><td>
+
+Select to use for authentication and authorization requests; when unselected, the record is saved but remains inactive and will not process any requests.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>3.  Choose one of the two options from the OAuth OIDC provider configuration:
 
-    A new third-party ID token is created.
+    1.  Use **Select an existing configuration** when an OIDC provider configuration already exists and provide the following details:
 
-6.  Go to **All** &gt; **Inbound integrations** &gt; **Application Registries** to view the newly created third party ID token.
+        |Field|Description|
+        |-----|-----------|
+        |**OIDC provider** \(required\)|Use the drop-down list to select the saved OIDC provider configuration.|
+        |**OIDC provider name** \(auto-filled, read-only\)|Displays the name of the configuration selected in the drop-down.|
+        |**OIDC metadata URL** \(auto-filled, read-only\)|The provider's well-known discovery endpoint, which exposes the signing keys and endpoints used to validate tokens. Example: `https://login.microsoftonline.com/common/.wellknown/openid-configuration`|
+        |**OIDC configuration cache lifespan \(hours\)** \(auto-filled, read-only\)|How long, in hours, the system caches the provider's metadata before refetching it.|
+        |**User claim** \(read-only\)|The token claim used to identify the user. Example: The claim whose value maps to a user record.|
+        |**User field** \(read-only\)|The local user-record field that the user claim is matched against. Determines how an incoming token is mapped to an existing user. Example: `Email`.|
+        |**Enable JTI verification**|When enabled, the system checks the token's JTI \(JWT unique ID\) to prevent token replay.|
+
+        **Note:** Because these values are inherited, the metadata URL, cache lifespan, user claim/field, and JTI settings can't be edited directly here. Use the pencil icon option to modify the source configuration.
+
+    2.  Use **Create a new configuration** when you want to define a new OIDC provider configuration and provide the following details:
+
+<table id="table_cdd_hwg_pjk"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**New OAuth OIDC provider Configuration Name** \(required\)
+
+</td><td>
+
+A unique name for the configuration you're creating.
+
+</td></tr><tr><td>
+
+**OIDC metadata UR**L \(required\)
+
+</td><td>
+
+The provider's well-known discovery endpoint, which exposes the signing keys and endpoints used to validate tokens. Example: `https://login.microsoftonline.com/common/.wellknown/openid-configuration`
+
+</td></tr><tr><td>
+
+**OIDC configuration cache lifespan \(hours\)** \(required\)
+
+</td><td>
+
+How long, in hours, the system caches the provider's metadata before refetching it.
+
+</td></tr><tr><td>
+
+**User claim** \(optional\)
+
+</td><td>
+
+The token claim used to identify the user. Example: The claim whose value maps to a user record. `User claim` default is `sub`
+
+</td></tr><tr><td>
+
+**User field** \(optional\)
+
+</td><td>
+
+The local user-record field that the user claim is matched against. Determines how an incoming token is mapped to an existing user. Example: `Email`.
+
+</td></tr><tr><td>
+
+**Enable JTI verification**
+
+</td><td>
+
+When enabled, the system checks the token's JTI \(JWT unique ID\) to prevent token replay.
+
+</td></tr><tr><td>
+
+**JTI claim**
+
+</td><td>
+
+The name of the token claim that carries the JTI value the system should validate. Defaults to the standard `jti` claim. Example: `jti`**Note:** Appears when JTI verification is enabled.
+
+</td></tr></tbody>
+</table>4.  Perform the following steps to add auth scope to the configuration:
+
+    1.  Select **Create auth scope** if you want to define a new scope.
+
+    2.  Select a scope from the **Auth scope** drop-down.
+
+    3.  Enter API names in **Limit authorization to the following APIs** to narrow access.
+
+    4.  Use **+ Add another row** to assign additional scopes to your configuration.
+
+5.  Select **Allow access only to APIs in selected scope** in the Scope validation settings to restricts access to listed scopes only.
+
+    **Note:** You can choose not to select **Set Allow access only to APIs in selected scope** for broader access permitted by user controls and API policies.
+
+6.  Select **Save** to create the configuration.
 
 

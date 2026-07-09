@@ -20,7 +20,7 @@ Organize HR data, services, and processes by functional discipline with the HR C
 
 The HR Centers of Excellence \(COEs\) data model provides a structured approach to organizing HR services by functional discipline. This model helps organizations standardize processes, improve service delivery, and maintain consistent reporting across different HR domains.
 
-The HR Centers of Excellence video provides an overview of the HR Centers of Excellence \(COEs\), their benefits, the COE data model, how to configure and use the COE data model, and how to handle a request for a new COE.
+\[Omitted video\] Description: The HR Centers of Excellence video provides an overview of the HR Centers of Excellence \(COEs\), their benefits, the COE data model, how to configure and use the COE data model, and how to handle a request for a new COE.
 
 Each COE can be configured to its unique function, such as payroll or employee relations. The COE data model allows you to limit access to sensitive information, promote consistency for metrics and reporting, and help drive automation by defining the request to fulfillment process at the HR service level.
 

@@ -11,7 +11,7 @@ last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [certificate-based authentication, mutual authentication, PIV, CAC, PEM certificate, inbound web services, REST, SOAP, sso\_config\_admin, ADCv2]
 audience: administrator
-breadcrumb: [Certificate-based authentication, Authentication, Access Management]
+breadcrumb: [Certificate-based authentication, Access Management]
 ---
 
 # Set up Certificate-based authentication
@@ -59,7 +59,7 @@ The following Tables are installed with Certificate-based authentication:
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 
 ## Register CA certificate

@@ -16,15 +16,15 @@ breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset M
 
 The CMDB success advisor for HAM dashboard enables CMDB administrators to identify and address data quality issues specific to HAM in the Configuration Management Database \(CMDB\).
 
-**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.md).
+**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.md).
 
 \[Omitted image "cmdb-sa-ham-dashboard.png"\] Alt text: CMDB success advisor for HAM dashboard overview.
 
-**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-dc-props.md).
+**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/pa-dc-props.md).
 
 ## Access the dashboard
 
-To open the dashboard, select **View insights** for HAM on the CMDB success advisor landing page. See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
+To open the dashboard, select **View insights** for HAM on the CMDB success advisor landing page. See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-sa-landing-page.md).
 
 **Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
@@ -33,6 +33,7 @@ To open the dashboard, select **View insights** for HAM on the CMDB success advi
 |Role|Description|
 |----|-----------|
 |sn\_cmdb\_admin|Required to access the dashboard.|
+|sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.|
 
 ## Use cases
 
@@ -68,15 +69,64 @@ Targeted CMDB metrics focus remediation efforts. Regularly monitor these metrics
 
 **Important:** The dashboard data is filtered based on the Selected model categories and Date range filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md).
 
-|Feature|Description|
-|-------|-----------|
-|CIs by model category|Displays the breakdown of operational CIs by associated model category to highlight CI distribution in the CMDB.|
-|CIs by data integration source|Displays the breakdown of operational CIs by data integration source to highlight their contribution to CMDB population.|
-|[CIs missing model data and other key attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)|Displays key metrics related to CIs missing model details, ownership, and other key attributes, leading to incomplete records and operational inefficiencies.|
-|[CI data quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)|Displays key metrics related to CIs that have not been updated or may have duplicate records, leading to outdated information and inconsistencies in the CMDB.|
-|[CI and asset-related issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)|Displays key metrics related to mismatches and missing links between CIs and assets, leading to incomplete asset life cycle tracking and reporting issues.|
+<table><thead><tr><th>
 
-## Filters
+Feature
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+CMDB data quality insights generated by AI
+
+</td><td>
+
+Displays an AI-generated summary of CMDB data quality for HAM outcomes and lists the top 5 issues with guided remediation actions.**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-config-summ-rdy.md).
+
+</td></tr><tr><td>
+
+CIs by model category
+
+</td><td>
+
+Displays the breakdown of operational CIs by associated model category to highlight CI distribution in the CMDB.
+
+</td></tr><tr><td>
+
+CIs by data integration source
+
+</td><td>
+
+Displays the breakdown of operational CIs by data integration source to highlight their contribution to CMDB population.
+
+</td></tr><tr><td>
+
+[CIs missing model data and other key attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to CIs missing model details, ownership, and other key attributes, leading to incomplete records and operational inefficiencies.
+
+</td></tr><tr><td>
+
+[CI data quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to CIs that have not been updated or may have duplicate records, leading to outdated information and inconsistencies in the CMDB.
+
+</td></tr><tr><td>
+
+[CI and asset-related issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to mismatches and missing links between CIs and assets, leading to incomplete asset life cycle tracking and reporting issues.
+
+</td></tr></tbody>
+</table>## Filters
 
 Enables narrowing the data shown in graphs and metrics based on model category, date range, or stale CI threshold.
 
@@ -216,6 +266,10 @@ All CIs where the install status matches or differs from the corresponding asset
 </td><td>
 
 [CI install status vs. asset state matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)[CI install status vs. asset state mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+[CI lifecycle stage vs. asset lifecycle stage matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+[CI lifecycle stage vs. asset lifecycle stage mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
 
 </td></tr></tbody>
 </table>

@@ -38,16 +38,16 @@ When you replatform a custom app from the system of record, you don't have to re
 
 ## ServiceNow low- and pro-code builders
 
-After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see .
+After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_DelegatedDevelopment.md).
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   ServiceNow Studio
--   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
--   Playbooks in Workflow Studio
--   Table Builder
--   UI Builder
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md)
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md)
+-   [Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/workspace-builder-landing.md)
 
 For example, use in ServiceNow Studio, use a template \(or build the app from the ground up\) and incorporate remote tables using ERP models and remote tables. You can combine legacy data from the ERP models and remote tables with other ServiceNow data in tables.
 

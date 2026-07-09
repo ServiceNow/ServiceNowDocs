@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/r\
 release: zurich
 topic_type: reference
 last_updated: "2026-04-22"
-reading_time_minutes: 9
+reading_time_minutes: 10
 ---
 
 # IT Service Management
@@ -68,11 +68,15 @@ Provide mobile connectivityEnable employees to find answers and get work done fr
 
 \[Omitted image "employee-center-home-page.png"\] Alt text: Employee Center home page
 
-Automate routine agent interactions and increase the speed of resolution from the Employee Center portal. With supervised machine learning, you can automate incident categorization and assignment and eliminate bottlenecks created by manual incident triaging. Meet increasing demands without further adding staff and empower existing IT staff to focus on more meaningful work. For more information on the Employee Center portal and the features, see [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.md).
+Automate routine agent interactions and increase the speed of resolution from the Employee Center portal. With supervised machine learning, you can automate incident categorization and assignment and eliminate bottlenecks created by manual incident triaging. Meet increasing demands without further adding staff and empower existing IT staff to focus on more meaningful work. For more information on the Employee Center portal and the features, see [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/itsm-n-ec-integration.md).
 
 ## Consolidate IT services
 
 Reduce the number of separate tools your company uses to provide a consistent service experience regardless of the issue or the request. Consolidating IT services enables you to better manage and allocate resources and track performance. You can have a single reliable source of information where performance is monitored in real time and data is easy to capture and report.
+
+## Enable self-service
+
+Reduce the ticket volume by enabling employees to find answers without contacting the service desk. ITSM integrates with [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/knowledge-articles-sow.md) and the [Employee Center dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center.md) to provide searchable knowledge articles and automated request fulfillment through a single self-service portal.
 
 ## Improve IT productivity
 
@@ -92,17 +96,17 @@ Stay connected and access information in real time using the ITSM mobile agent. 
 
 Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow instance.
 
-See [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md).
+See [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_EdgeEncryptionOverview.md).
 
 Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required.
 
-See [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md).
+See [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_EdgeEncryptionPlanning.md).
 
-To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md).
+To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_InstallEdgeEncryptionProxy.md).
 
-To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption/edge-config.md).
+To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-config.md).
 
-**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption/edge-encryption-limitations.md).
+**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/edge-encryption-limitations.md).
 
 ## Get started
 
@@ -143,17 +147,18 @@ To configure edge encryption, see [Edge Encryption configuration](https://raw.gi
 -   [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-landing.md)
 -   [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-landing.md)
 -   [Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/expense-line/c_ExpenseLine.md)
--   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+-   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center-landing-page.md)
 -   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
 -   [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 -   [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md)
 -   [ITSM Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md)
+-   [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/knowledge-articles-sow.md)
 -   [ITSM Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-dashboards-content-pack.md)
 -   ITSM Predictive Intelligence Workbench
 -   [On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
--   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
--   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
+-   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-incident-management-landing-page.md)
+-   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-change-management-landing-page.md)
 -   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/procurement/c_Procurement.md)
 -   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/product-catalog/c_ProductCatalog.md)
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/c_ProblemManagement.md)

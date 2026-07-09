@@ -17,7 +17,7 @@ breadcrumb: [Reference, Zero Copy Connector for ERP overview, Workflow Data Fabr
 
 Zero Copy Connector for ERP includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 
-You don't need to do anything to activate the flows, but you can customize them in Workflow Studio. For example, to change the time that they run daily. For more information, see .
+You don't need to do anything to activate the flows, but you can customize them in Workflow Studio. For example, to change the time that they run daily. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-edit.md).
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
 

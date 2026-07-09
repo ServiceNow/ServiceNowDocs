@@ -21,11 +21,11 @@ Role required: admin
 
 ## About this task
 
-A font family is a grouping of fonts that share a common design and may include different font faces, like regular, bold, or italic. For example, Ariel is a font family and within the Ariel font family you may find font faces such as Ariel Regular, Ariel Bold, and Ariel Italic.
+A font family is a grouping of fonts that share a common design and may include different font faces, like regular, bold, or italic. For example, Arial is a font family and within the Arial font family you may find font faces such as Arial Regular, Arial Bold, and Arial Italic.
 
-Upload only one font family at a time. Theme Builder does not yet support variable type fonts.
+Upload only one font family at a time. Theme Builder does not support variable type fonts.
 
-**Important:** Only upload a font that you’re licensed to use. Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Always test and preview your fonts before publishing your theme to your instance.
+**Note:** Only upload a font that you're licensed to use. Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Test and preview your fonts before publishing your theme to your instance.
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Upload only one font family at a time. Theme Builder does not yet support variab
 
 4.  From the Overview panel, navigate to the Typography section and select **Add custom font family**.
 
-    \[Omitted image "tb-overview-add-custom-font.png"\] Alt text: Overview panel Topography section with Add custom font family selected.
+    \[Omitted image "tb-overview-add-custom-font.png"\] Alt text: Overview panel Typography section with Add custom font family selected.
 
     **Note:** You can also upload a font directly from the Typography panel.
 
@@ -57,7 +57,7 @@ Upload only one font family at a time. Theme Builder does not yet support variab
 
     -   Select **Browse**, choose your custom font family file from your computer's file browser, and select **Open**.
     -   Drag your custom font file from your computer's file browser and drop the file directly into the modal.
-    **Note:** Make sure that the font family file meets the following guidelines or the file isn't saved.
+    **Note:** The file must meet the following requirements to be saved.
 
     -   Under 2 MB
     -   WOFF, TTF, or ZIP format
@@ -82,7 +82,7 @@ Upload only one font family at a time. Theme Builder does not yet support variab
 
 ## Result
 
-Once you have uploaded your custom font, you can select it as your default font and apply it to your theme. For information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font.md). The most recently added font family appears at the bottom of the **Manage custom fonts** list.
+After you upload your custom font, you can select it as your default font and apply it to your theme. For information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font.md). The most recently added font family appears at the bottom of the **Manage custom fonts** list.
 
 -   **[Add a font face](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/add-font-face.md)**  
 Add a new style such as bold or italic to your custom font family in Theme Builder.

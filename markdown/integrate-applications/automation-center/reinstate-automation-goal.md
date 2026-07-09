@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Reinstate an automation goal
@@ -43,5 +43,5 @@ Role required: sn\_ac.automation\_business\_user
 7.  Select **Save**.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-and-define.md)
 

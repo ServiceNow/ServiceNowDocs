@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-responsibilities-to-prm-roles.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -36,15 +36,15 @@ Related party configurations define the title of a relationship between an entit
 
 2.  Open a channel partner record and add an external staff member or an enterprise partner relationship manager based on your requirement.
 
-<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d62510e124">
+<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d63507e124">
 
 Task
 
-</th><th align="left" id="d62510e127">
+</th><th align="left" id="d63507e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62510e133">
+</th></tr></thead><tbody><tr><td id="d63507e133">
 
 **Register External staff member**
 
@@ -55,7 +55,7 @@ Description
 3.  Select **Submit**.
  To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/member-registration-form.md).
 
-</td></tr><tr><td id="d62510e173">
+</td></tr><tr><td id="d63507e173">
 
 **Register Enterprise Partner Relationship Manager**
 

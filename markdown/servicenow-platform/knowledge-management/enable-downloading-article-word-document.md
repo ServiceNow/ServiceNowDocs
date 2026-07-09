@@ -28,9 +28,11 @@ When a knowledge article is created using Microsoft Word, users accessing the kn
 
 ## Procedure
 
-1.  In the navigation filter, enter `sys_properties.list`.
+1.  Navigate to **All****&gt;System Properties****&gt;All Properties** .
 
-2.  Search for the **sn\_km\_word.glide.knowman.enable\_document\_download** property.
+    Alternatively, in your instance, enter `sys_properties.list` in the filter navigator.
+
+2.  Search for the **sn\_km\_word.glide.knowman.enable\_document\_download** system property.
 
 3.  In the **Value** field, enter `true`.
 

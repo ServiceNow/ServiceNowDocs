@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -31,10 +31,8 @@ Create flows that run with TISC roles. In TISC the flows are created for the fol
 
 |Flow action|Description|
 |-----------|-----------|
-|Add Tag To Entity|Adding tags support to entities representing observables, indicators, and objects.|
-|Remove tag from entity|Removing tags support to entities representing observables, indicators, and objects.|
-|Add Taxonomy To Entity|Adding taxonomy values support to entities representing observables, indicators, and objects.|
-|Remove Taxonomy from entity|Removing taxonomy values support to entities representing observables, indicators, and objects.|
+|Add Tag To Entity|Adding tag to an entity which supports it \(observable/indicator/object\).|
+|Remove tag from entity|Removing tag to an entity which supports it \(observable/indicator/object\).|
 |Check if IP address is in CIDR range|Checking if an IP address in inside a CIDR range.|
 |Check if IP address is in range|Checking if an IP address is in between from and to range.|
 

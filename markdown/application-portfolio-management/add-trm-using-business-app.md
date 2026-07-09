@@ -1,5 +1,5 @@
 ---
-title: Request a TRM product lifecycle using the TRM Catalog - Legacy
+title: Request TRM product lifecycle - Legacy
 description: Request a TRM product lifecycle using the TRM catalog to add the lifecycle for a TRM product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/add-trm-using-business-app.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Request a TRM product lifecycle using the TRM Catalog - Legacy
+# Request TRM product lifecycle - Legacy
 
 Request a TRM product lifecycle using the TRM catalog to add the lifecycle for a TRM product.
 

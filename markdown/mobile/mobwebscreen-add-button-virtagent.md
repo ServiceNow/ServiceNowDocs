@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-To add a button to your mobile web screen, you must use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
+To add a button to your mobile web screen, you must use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
 
 ## Procedure
 

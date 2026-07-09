@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: reference
 last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [LLM topic blocks, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Fulfillers can request catalog items for others
@@ -33,5 +33,5 @@ Now Assist reformulates questions with precision tailored to fulfillers. Because
 
 Once a request is submitted, all details and associated information are automatically linked to the parent record, completing the fulfiller’s workflow and ensuring thorough documentation.
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 

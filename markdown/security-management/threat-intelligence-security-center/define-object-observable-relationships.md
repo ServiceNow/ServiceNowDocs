@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define object-observable relationships
@@ -32,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d139827e98">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d435810e98">
 
 Field
 
-</th><th align="left" id="d139827e101">
+</th><th align="left" id="d435810e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139827e107">
+</th></tr></thead><tbody><tr><td id="d435810e107">
 
 **Observable**
 
@@ -48,7 +48,7 @@ Description
 
 Select and define the observable.
 
-</td></tr><tr><td id="d139827e116">
+</td></tr><tr><td id="d435810e116">
 
 **Object**
 
@@ -56,7 +56,7 @@ Select and define the observable.
 
 Select and define the object.
 
-</td></tr><tr><td id="d139827e125">
+</td></tr><tr><td id="d435810e125">
 
 **Relationship Type**
 
@@ -68,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d139827e144">
+</td></tr><tr><td id="d435810e144">
 
 **Start Time**
 
@@ -76,7 +76,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d139827e154">
+</td></tr><tr><td id="d435810e154">
 
 **Stop Time**
 
@@ -84,7 +84,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d139827e163">
+</td></tr><tr><td id="d435810e163">
 
 **Description**
 

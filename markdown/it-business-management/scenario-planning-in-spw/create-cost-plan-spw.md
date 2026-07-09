@@ -20,6 +20,10 @@ Create a cost plan for a required duration to track your planned and actual expe
 
 Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+The video is recorded using the Project Workspace view. Navigate to your portfolio to use cost plans in Strategic Planning.\[Omitted video\] Description: Manage cost plans for your planning items.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** and select portfolio plan.
@@ -28,15 +32,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Select the **Financials** tab.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d202819e77">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d264273e98">
 
 Choice
 
-</th><th align="left" id="d202819e80">
+</th><th align="left" id="d264273e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202819e86">
+</th></tr></thead><tbody><tr><td id="d264273e107">
 
 **To create a cost plan**
 
@@ -53,7 +57,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d202819e136">
+</td></tr><tr><td id="d264273e157">
 
 **To edit a cost plan**
 
@@ -62,9 +66,9 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 You can edit a cost plan by one of the following ways.1.  Select the name of the cost plan, in the cost plan side panel, edit the required details and select **Update**.
 2.  Double-click the cell for a future fiscal period and edit the cost plan value.
 
-**Tip:** Use Tab key to navigate to next fiscal period and continue editing.
+**Tip:** Use the Tab key to navigate to the next fiscal period and continue editing.
 
-</td></tr><tr><td id="d202819e161">
+</td></tr><tr><td id="d264273e182">
 
 **To delete a cost plan**
 
@@ -73,7 +77,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 1.  Select the Row context menu \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) against the cost plan name.
 2.  Select **Delete Row**.
 3.  On the Delete selected cost plans window, select **Delete** \(\[Omitted image "delete-option-red-colour.png"\] Alt text: Delete option button with red background and white text.\).
- **Note:** Deleted cost plans and the associated expense lines cannot be recovered.
+ **Note:** Deleted cost plans and the associated expense lines can’t be recovered.
 
 </td></tr></tbody>
 </table>    **Tip:** [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.

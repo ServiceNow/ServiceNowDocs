@@ -1,20 +1,20 @@
 ---
 title: Import models and templates
-description: Import models and templates to ensure consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
+description: Import models and templates to verify consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Import models and templates
 
-Import models and templates to ensure consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
+Import models and templates to verify consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
 
 -   **[Import a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/import-models.md)**  
 Create an import model request to import your collection of models, and streamline the workflow using the Telecommunications Network Inventory application.

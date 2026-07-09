@@ -1,5 +1,5 @@
 ---
-title: Relate business application to application service using CI relationship editor - Legacy
+title: Relate business application to application service - Legacy
 description: Business applications can have multiple instances. Application instances are nothing but application services. Relate business applications to instances by relating business applications to application services. Business application and application service are two different configuration items which must be related through a CI relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/relate-business-application-to-business-service.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Relate business application to application service using CI relationship editor - Legacy
+# Relate business application to application service - Legacy
 
 Business applications can have multiple instances. Application instances are nothing but application services. Relate business applications to instances by relating business applications to application services. Business application and application service are two different configuration items which must be related through a CI relationship.
 
@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 2.  To relate the business application with an application service, click open a business application.
 
-3.  Click the Add CI relationship \(\) icon in the **Related Items** section of the business application form to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
+3.  Click the Add CI relationship \(\) icon in the **Related Items** section of the business application form to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCIRelationship.md).
 
 4.  Select one or more application services from the **Configuration Items** section.
 

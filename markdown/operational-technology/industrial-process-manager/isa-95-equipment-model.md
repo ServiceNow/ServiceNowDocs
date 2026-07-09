@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-16"
 reading_time_minutes: 3
 breadcrumb: [Explore, Industrial Process Manager, Operational Technology]
 ---

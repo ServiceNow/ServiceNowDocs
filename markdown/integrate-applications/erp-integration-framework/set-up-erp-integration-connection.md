@@ -21,7 +21,7 @@ Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) direct
 
 Role required: admin
 
-Identify an existing connection to use or create a new connection. For more information, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-information.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+Identify an existing connection to use or create a new connection. For more information, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-information.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
 
 Note the following:
 
@@ -34,7 +34,7 @@ Note the following:
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
 3.  Open a system record.
 
@@ -42,7 +42,7 @@ Note the following:
 
     To see a list of all available RFC or HTTP connections, select the search for record icon \(magnifying glass\) in the field.
 
-    \[Omitted image "erp-set-up-connection1.png"\] Alt text: New system record with filled in fields.
+    \[Omitted image "image.erp-set-up-connection1"\] Alt text: New system record with filled in fields.
 
 5.  Select **Save**.
 

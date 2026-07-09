@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Access Management]
 ---
 
 # Sample digest token implementations

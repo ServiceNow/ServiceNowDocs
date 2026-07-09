@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/explore-ewd.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 # Exploring SPM Enterprise-Wide Deployment
 
 SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units.
+
+\[Omitted video\] Description: SPM Enterprise-Wide Deployment overview
 
 EWD is a Strategic Portfolio Management \(SPM\) product for enterprise-scale organizations that must balance centralized platform management with department-level data isolation. Administrators can create and configure partitions that separate data across functions such as IT Operations, HR, and Finance. Each partition is governed by a dedicated role that determines which records users can access, reducing the need for separate ServiceNow instances for each function.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-invoice-operations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-30"
 reading_time_minutes: 4
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Ser
 # Case Management for Invoice Operations
 
 The Case Management for Invoice Operations application enables customer service agents to create cases for specific lines from a single invoice or for multiple invoices.
-
-\[Omitted image "invoice-operations-case-form.png"\] Alt text: Invoice case page with case details and the activity stream. This page also includes the configurable side panel.
 
 The Case Management for Invoice Operations application includes the [Invoice case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/invoice-ops-installed-components.md). This case type provides the ability to reference multiple invoices or invoice lines as case lines on an invoice case record. By using case lines, agents can track multiple issues for the same invoice case and resolve the issues in each case line independently before resolving and closing the invoice case.
 

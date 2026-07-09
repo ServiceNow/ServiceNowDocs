@@ -19,7 +19,7 @@ Use the Lead Management to create your lead.
 -   **[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)**  
 Empower sales teams to automate and optimize customer engagement at every stage from initial outreach to renewal and expansion. By orchestrating both automated and manual steps, provide timely, relevant, and consistent engagement experience to every prospect and customer.
 -   **[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)**  
-Use the Opportunity Management application to create your opportunity.
+Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 -   **[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)**  
 Sales Forecasting uses the current opportunities in the system to predict future opportunity amounts.​ The Opportunity Management application contains the list of opportunities created for the customers and each of these opportunities are in different stages of the sales cycles.
 -   **[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)**  

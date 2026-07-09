@@ -1,37 +1,30 @@
 ---
-title: Create an automation request from Process Mining Workspace
+title: Integration with Process Mining
 description: Create an automation request from the Process Mining Workspace, which is outside of the Automation Center. If you have installed Process Mining and Automation Center, then you can create an automation request from the Process Mining Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/create-autreq-po.html
 release: zurich
 product: Automation Center
 classification: automation-center
-topic_type: task
-last_updated: "2025-07-31"
+topic_type: concept
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Creating an automation request, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Integration with Task Mining, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Create an automation request from Process Mining Workspace
+# Integration with Process Mining
 
 Create an automation request from the Process Mining Workspace, which is outside of the Automation Center. If you have installed Process Mining and Automation Center, then you can create an automation request from the Process Mining Workspace.
 
-## Before you begin
+If you have installed Process Mining and Automation Center, then you can create an automation request from the Process Mining Workspace.
 
-\(Optional\) Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-automation-goal.md).
+You need the following roles:
 
-Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin
+-   sn\_ac.automation\_business\_user
+-   sn\_ac.automation\_technical\_user
+-   sn\_ac.automation\_admin
 
-## Procedure
+For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/submit-automation-idea.md).
 
-1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
-
-    For more information, see the Process Mining documentation.
-
-
-## What to do next
-
-Move the automation request to the planned state. For more information, see [Move an automation request to the planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/move-automation-request-to-planned.md).
-
-**Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-automation-request.md)
+**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)
 

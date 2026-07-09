@@ -20,6 +20,8 @@ With the Now Assist for Health and Safety application, safety agents and manager
 
 The Now Assist for Health and Safety application includes the skills and features of generative AI to support safety teams working on resolving safety issues.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
 Use the following skill provided by the Now Assist for Health and Safety application.
 
 -   **Health and safety incident summarization**

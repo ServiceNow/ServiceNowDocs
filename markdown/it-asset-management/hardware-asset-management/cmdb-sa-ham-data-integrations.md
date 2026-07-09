@@ -18,11 +18,9 @@ Improve HAM data coverage by analyzing existing and suggested data integrations,
 
 Use the **Data integrations** tab in the CMDB success advisor for HAM to assess the effectiveness of your current data integration sources in the Configuration Management Database \(CMDB\) and identify opportunities to improve HAM data coverage. The **Data integrations** tab provides a breakdown of active Discovery patterns and installed Service Graph Connectors, including how many key configuration item \(CI\) attributes each integration source is populating.
 
-For a quick reference to improve HAM data coverage, see [Data integration checklist for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-integ-checklist.md).
-
 ## Access data integrations
 
-Navigate to the CMDB success advisor, and on the HAM card, select **View insights**. Select the **Data integrations** tab. To access the dashboard, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
+Navigate to the CMDB success advisor, and on the HAM card, select **View insights**. Select the **Data integrations** tab. To access the dashboard, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-sa-access.md).
 
 **Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 

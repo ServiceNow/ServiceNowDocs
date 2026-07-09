@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Use Service Portal with Multi-Provider SSO to redirect a URL
@@ -26,8 +26,8 @@ If you are using the system property to automatically redirect to your primary I
 
 ## Procedure
 
-1.  [Configure the Service Portal login page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md)
+1.  [Configure the Service Portal login page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
 
-2.  [Redirect to Service Portal after login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md)
+2.  [Redirect to Service Portal after login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
 
 

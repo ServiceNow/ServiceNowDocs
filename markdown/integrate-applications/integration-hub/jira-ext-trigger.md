@@ -16,7 +16,7 @@ breadcrumb: [Jira Spoke, Integration Hub spokes, Build integrations, Integration
 
 Set up triggers for the Jira spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.
 
-Demonstrates setting up triggers for the Jira spoke. 
+\[Omitted video\] Description: Demonstrates setting up triggers for the Jira spoke.
 
 ## Before you begin
 

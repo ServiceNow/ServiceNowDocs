@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Access Management]
 ---
 
 # Configure push notification \(Okta Verify\)

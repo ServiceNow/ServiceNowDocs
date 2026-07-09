@@ -32,9 +32,7 @@ As your business changes, and your IT data, processes, and technology improve, r
 
 ## Consolidate your controls
 
-Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls = control framework, performing and preserving the cross mapping of controls is critical for audits.
-
-\[Omitted image "industry-regulations.png"\] Alt text: Industry regulations and requirements overlap
+Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls: control framework, performing and preserving the cross mapping of controls is critical for audits.
 
 ## Define controls and business rules
 

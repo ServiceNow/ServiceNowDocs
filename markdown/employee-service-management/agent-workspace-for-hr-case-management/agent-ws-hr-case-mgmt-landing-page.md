@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [HR Service Delivery, Employee Service Management]
 
 Agent Workspace for HR Case Management \(Configurable\) is one of two workspaces available for the HR Service Delivery application and uses the Next Experience user interface. It is built on a configurable UI Builder version, which makes it easy to configure and extend according to business needs.
 
-
+\[Omitted video\] Description: Video demonstration of the Agent Workspace for HR Case Management \(Configurable\), showing the Next Experience user interface and key features for managing HR cases
 
 ## Comparison between HR Service Delivery Core UI, HR Service Delivery Agent Workspace \(Classic\), and Agent Workspace for HR Case Management \(Configurable\)
 

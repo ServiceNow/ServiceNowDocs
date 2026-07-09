@@ -75,5 +75,5 @@ After synchronizing, the MCP server shows up in the AI asset inventory with its 
 
 ## What to do next
 
-The MCP server approval request must be approved. See [Explore the MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
+The MCP server approval request must be approved. See [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
 

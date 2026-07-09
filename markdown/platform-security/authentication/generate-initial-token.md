@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Personal authentication, Authentication, Access Management]
+breadcrumb: [Personal authentication, Access Management]
 ---
 
 # Generate Personal Auth Initiator URL

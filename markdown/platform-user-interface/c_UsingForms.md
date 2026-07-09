@@ -119,5 +119,5 @@ Checklists provide a simple way to track the progress of tasks without creating 
 **Related topics**  
 
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md)
+[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UIActions.md)
 

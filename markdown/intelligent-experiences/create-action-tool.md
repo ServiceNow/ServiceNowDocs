@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 1
-keywords: [Create an action tool type for MCP server]
+keywords: [Create subflow tool type for MCP server]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
 
@@ -21,7 +21,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 Perform these steps before creating a tool:
 
-1.  Create an action in Flow Designer using supported input and output data types. See [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center/create-action.md) to learn more.
+1.  Create an action in Flow Designer using supported input and output data types. See [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-action.md) to learn more.
 2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create AI ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-ai-acl.md) to learn more.
 3.  Confirm the compatibility status in the staging table. See [Check compatibility of Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
 4.  Register the component as a tool within the MCP Server.
@@ -64,6 +64,14 @@ An internal name for the tool.
 
 </td></tr><tr><td>
 
+MCP app
+
+</td><td>
+
+An active MCP app linked to this action.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -86,5 +94,5 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended. With the tool you registered, open your to test end-to-end execution.
+Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution.
 

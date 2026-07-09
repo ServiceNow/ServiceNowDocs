@@ -22,7 +22,7 @@ Roles required are sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analys
 
 The AI Guardrails Helper is a combination of an AI skill and an AI agent. Together, they can help you identify existing mitigations in the form of guardrails for AI validation findings and automatically defer the findings with guardrails already mapped or create exception rules to auto-defer future findings.
 
-The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 See [Use the AI guardrails helper skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-use-aiskill.md) and [Use the AI guardrails helper agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-use-agent.md) for steps to use the skill and the agentic workflow.
 
@@ -30,6 +30,8 @@ See [Use the AI guardrails helper skill](https://raw.githubusercontent.com/Servi
 Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper, automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
 -   **[Use the AI guardrails helper skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-use-aiskill.md)**  
 This AI skill can help you identify finding types, understand the guardrails that might be already mapped to findings, and see why they were selected by the skill to map to specific findings. This information can help you determine which findings might be already mitigated or deferred for later review or remediation.
+-   **[Components installed with AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/installed-with-aisecmanagement.md)**  
+Components installed with the AI Security Exposure Management application.
 
 **Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-ai-security-exposure.md)
 

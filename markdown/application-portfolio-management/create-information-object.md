@@ -1,5 +1,5 @@
 ---
-title: Create an information object referencing a data domain - Legacy
+title: Create information object with data domain - Legacy
 description: Create an information object to capture the logical data for the business application. This data becomes information when it’s applied to the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/create-information-object.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create an information object referencing a data domain - Legacy
+# Create information object with data domain - Legacy
 
 Create an information object to capture the logical data for the business application. This data becomes information when it’s applied to the business application.
 

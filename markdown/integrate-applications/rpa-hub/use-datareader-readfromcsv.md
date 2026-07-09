@@ -18,7 +18,7 @@ Read data from a CSV file by using the ReadFromCSV component in RPA Desktop Desi
 
 Watch this video to learn how to use the ReadFromCSV component.
 
-How to use the ReadFromCSV component. 
+\[Omitted video\] Description: How to use the ReadFromCSV component.
 
 ## Before you begin
 

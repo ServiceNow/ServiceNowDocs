@@ -23,7 +23,7 @@ Ensure that you’ve qualified all the relevant suppliers, and have received all
 
 Role required: sn\_shop.procurement\_specialist
 
-Describes a procedure to close a pipeline project in Source-to-Pay Workspace. 
+\[Omitted video\] Description: Describes a procedure to close a pipeline project in Source-to-Pay Workspace.
 
 ## Procedure
 

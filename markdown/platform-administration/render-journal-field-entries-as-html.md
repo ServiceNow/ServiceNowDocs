@@ -93,5 +93,5 @@ The system renders the text within code tags as HTML.
 
 [bundle-psec.r_GeneralSecuritySettings]
 
-[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md)
+[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_HTMLSanitizer.md)
 

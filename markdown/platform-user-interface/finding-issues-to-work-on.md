@@ -24,7 +24,7 @@ The first step in your workflow is finding issues to solve. You can find issues 
 
     Clicking a link takes you either to list view or a specific record. You get to the landing page by clicking the home icon \(\[Omitted image "home-icon-smaller.png"\] Alt text: Home icon\). For more information, see [Use the landing page to find issues to work on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/use-landing-page.md).
 
--   List view—Displays lists of records to work on. Records are grouped by the table they're in, for example, Task, SLA, Incident.
+-   List view—Displays lists of records to work on. Records are grouped by the table they're in, for example, Task, SLA, Incident, as shown in the following image\[Omitted image "list-view.png"\] Alt text: List View example.
 
     Clicking a link takes you to the record so you can work on it. You get to list view by clicking the list icon \(\[Omitted image "IconList.png"\] Alt text: list icon\). For more information about list view, see [Use lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/list-menu.md).
 

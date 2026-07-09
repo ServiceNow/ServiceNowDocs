@@ -30,5 +30,5 @@ You can use the following keyboard shortcuts.
 **Related topics**  
 
 
-[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_KeyboardShortcuts.md)
+[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/r_KeyboardShortcuts.md)
 

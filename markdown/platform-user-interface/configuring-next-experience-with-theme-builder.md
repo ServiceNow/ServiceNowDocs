@@ -16,7 +16,7 @@ Reflect your company's brand on your ServiceNow instance by managing, editing, a
 
 ## Theme Builder overview
 
-Theme Builder overview 
+\[Omitted video\] Description: Theme Builder overview
 
 ## Theme Builder main features
 

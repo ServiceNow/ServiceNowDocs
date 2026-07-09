@@ -18,9 +18,7 @@ The ServiceNow® Accounts Payable Operations application enables you to efficien
 
 This video provides a visual overview of Accounts Payable Operations and its key capabilities.
 
-Accounts Payable Operations overview 
-
-\[Omitted image "apm-value-proposition.png"\] Alt text: The value proportion of Accounts Payable Operations.
+\[Omitted video\] Description: Accounts Payable Operations overview
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [SAML 2.0 troubleshooting, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [SAML 2.0 troubleshooting, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Monitor the event queue for login activities

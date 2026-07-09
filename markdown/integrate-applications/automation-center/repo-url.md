@@ -35,7 +35,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
         For more information, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-instance.md).
 
-    3.  **Base URL**: This field auto-populates with the corresponding value when an alias is selected.
+    3.  **Base URL**: This field auto-populates with the corresponding value when an alias is selected. This field is provided by the sn\_ac.rpamigration.base.url system property. For more information about the system property, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-properties.md).
 4.  Select **Generate report**.
 
     A dialog box is displayed with details of the migration. You can choose to run it in the background.

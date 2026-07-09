@@ -57,16 +57,12 @@ Role required: sn\_irm\_cont\_auth.admin
 
 4.  On the **Model State Transitions** tab, select **New**.
 
-    \[Omitted image "WF-state-transition1.png"\] Alt text: Selecting Model State Transitions tab.
-
 5.  On the **Model State Transition New record** form, fill in the fields.
 
     |Fields|Descriptions|
     |------|------------|
     |From|The current state is automatically populated.|
     |To|Select the state that this transition leads to.|
-
-    \[Omitted image "WF-state-transition2.png"\] Alt text: State transition fields.
 
 6.  Select **Submit** to create the state transition to the selected workflow state.
 

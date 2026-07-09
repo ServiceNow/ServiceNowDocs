@@ -30,8 +30,6 @@ The **Controls** related list contains all of the controls created from the cont
 
 1.  From the list of controls, select the control number \(with a CTRL prefix\) to open the control.
 
-    \[Omitted image "control-implement.png"\] Alt text: Control
-
 2.  The implementation process performed by your system owner and other technical or security personnel employs the control management workflow inherent in the base GRC system.
 
     For details, see the following:

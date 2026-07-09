@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-12-05"
 reading_time_minutes: 3
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up ServiceNow instance for CPQ Integration

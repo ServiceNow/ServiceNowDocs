@@ -18,7 +18,7 @@ Register an application through the Microsoft Entra ID portal.
 
 Watch this short video for an introduction to registering an application through the Microsoft Entra ID portal.
 
-Overview of Register a Microsoft Entra ID application
+\[Omitted video\] Description: Overview of Register a Microsoft Entra ID application
 
 ## Before you begin
 

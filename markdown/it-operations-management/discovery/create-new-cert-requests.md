@@ -1,6 +1,6 @@
 ---
-title: Create new certificate requests
-description: Create new certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
+title: Create certificate requests
+description: Create certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-new-cert-requests.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Manual flow for certificate requests, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Create new certificate requests
+# Create certificate requests
 
-Create new certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
+Create certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 
 ## Before you begin
 

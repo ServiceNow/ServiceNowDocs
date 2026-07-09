@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ The article view page uses the Knowledge Article Content widget to provide user 
 
 Ensure that the application scope on the ServiceNow AI Platform is set to Knowledge Management Service Portal.
 
-User actions available for the article view page appear in a menu after clicking the overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\) in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
+User actions available for the article view page appear in a menu after clicking the overflow icon in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
 
 ## Procedure
 
@@ -60,7 +60,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/scss-primer.md).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/scss-primer.md).
 
 </td></tr><tr><td>
 

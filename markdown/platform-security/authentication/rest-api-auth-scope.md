@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
+breadcrumb: [REST API access policies, API access policy, Access Management]
 ---
 
 # REST API Auth Scope

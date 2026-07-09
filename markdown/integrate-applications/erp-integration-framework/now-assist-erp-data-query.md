@@ -21,7 +21,7 @@ Use the Now Assist ERP data query skill in Now Assist for Zero Copy Connector to
 
 This feature is available starting with the Zurich Patch 4 release.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The ERP data query skill helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to obtain an OData endpoint.
 
@@ -36,19 +36,19 @@ Follow the instructions in [Configure Now Assist for Zero Copy Connector](https:
 
 ## Asking Now Assist to identify SAP objects
 
-Select the Now Assist icon \(\[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text:\) from anywhere in your instance to open the Now Assist panel.
+Select the Now Assist icon \(\[Omitted image "image.now-assist-sparkle-icon-dark"\] Alt text:\) from anywhere in your instance to open the Now Assist panel.
 
 Ask for information in plain language. For example, `Fetch routing operations for material 12345 in work center WC-10`.
 
-\[Omitted image "erp-data-query-skill1.png"\] Alt text: Now Assist panel with entered question highlighted.
+\[Omitted image "image.erp-data-query-skill1"\] Alt text: Now Assist panel with entered question highlighted.
 
 Now Assist responds with the table and filter condition it will use and asks for your confirmation. You select **Yes**.
 
-\[Omitted image "erp-data-query-skill2.png"\] Alt text: Now Assist panel with information about the table and a confirmation option.
+\[Omitted image "image.erp-data-query-skill2"\] Alt text: Now Assist panel with information about the table and a confirmation option.
 
 Now Assist provides the information you requested.
 
-\[Omitted image "erp-data-query-skill3.png"\] Alt text: Now assist panel with information retrieved listed.
+\[Omitted image "image.erp-data-query-skill3"\] Alt text: Now assist panel with information retrieved listed.
 
 ## Licensing requirements
 

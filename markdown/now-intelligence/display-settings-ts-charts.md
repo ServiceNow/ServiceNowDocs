@@ -1,16 +1,16 @@
 ---
-title: Display settings for different time series data visualizations
+title: Display settings for time series data visualizations
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/display-settings-ts-charts.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-06-15"
+reading_time_minutes: 4
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Display settings for different time series data visualizations
+# Display settings for time series data visualizations
 
 Each time series visualization type has a different set of display settings.
 
@@ -72,7 +72,7 @@ Show 0 when no data available
 
 </td><td>
 
-Choose whether to show 0 when there is no value in the selected dataset or for the configuration.
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Show 0 when no data available
 
 </td><td>
 
-Choose whether to show 0 when there is no value in the selected dataset or for the configuration.
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr><tr><td>
 
@@ -248,6 +248,14 @@ Show markers
 </td><td>
 
 Display a symbol at each data point on the chart to simplify identifying specific values. Available for line, spline, area, and step charts.
+
+</td></tr><tr><td>
+
+Show 0 when no data available
+
+</td><td>
+
+Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
 
 </td></tr><tr><td>
 

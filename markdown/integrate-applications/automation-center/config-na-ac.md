@@ -20,10 +20,15 @@ Configure Now Assist for Automation Center to use all the features.
 
 To work with generative AI capabilities, you need Now Assist for Automation Center plugin. You can install this plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-The Now Assist for Automation Center plugin helps you create an agent for your automation requests.
+The Now Assist for Automation Center plugin helps you to:
 
--   **[Activate user task summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
-Activate the user task summarization skill to create an automation request from the Task Mining workspace.
+-   Create an agent for your automation requests
+-   Explore all automations in your instance
+-   Automatically create automation requests from Task Mining Workspace
+-   Automate Task Mining recording to desktop actions
+
+-   **[Activate skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
+Activate the user task step summarization skill to create an automation request from the Task Mining workspace.
 
 **Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
 

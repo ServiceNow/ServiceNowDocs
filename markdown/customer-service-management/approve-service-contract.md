@@ -30,7 +30,7 @@ Role required: sn\_customerservice\_manager or admin
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d93937e106">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d238074e106">
 
 **Approve**
 
@@ -38,7 +38,7 @@ Role required: sn\_customerservice\_manager or admin
 
 The review state changes to **Approved** on the Approvals list.
 
-</td></tr><tr><td id="d93937e118">
+</td></tr><tr><td id="d238074e118">
 
 **Reject**
 
@@ -51,5 +51,5 @@ The review state changes to **Rejected** on the Approvals list. If you reject a 
 **Related topics**  
 
 
-[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/contract-management/c_ContractManagement.md)
+[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ContractManagement.md)
 

@@ -38,8 +38,6 @@ The Success report page contains the following tabs:
 -   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Provides details on customer progress on onboarding and product adoption.
 -   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Lists key metrics related to revenue growth opportunities and contract renewals.
 
-\[Omitted image "account-lifecycle-success-report.png"\] Alt text: Success report landing page.
-
 ## Overview \(Success report\)
 
 This tab provides a high-level overview of the success portfolio. You can click on any of the sections in this page to drill down to the Details page. It includes the following details:
@@ -51,8 +49,6 @@ This tab provides a high-level overview of the success portfolio. You can click 
 -   Engagements with upcoming QBRs: Shows a list of engagements with upcoming QBRs.
 -   Engagement health by stage: Shows engagements grouped by the stage in the engagement lifecycle \(onboarding, adoption, and so on\).
 -   Success manager tasks: Shows the tasks handled by the success managers grouped by status \(in progress, overdue, and so on\).
-
-\[Omitted image "success-portfolio-over.png"\] Alt text: Success report overview
 
 ## Risk
 
@@ -67,8 +63,6 @@ This tab provides an identification of potential issues that could impact engage
 -   Risk signals by scope: Risk signals grouped by scope or state of the engagement such as adoption, onboarding, and so on.
 -   Risk signals by probability: Risk signals grouped by probability such high, moderate, low, and so on.
 
-\[Omitted image "success-portfolio-risk.png"\] Alt text: Success report risk
-
 ## Adoption
 
 This tab shows the current customer adoption status. It includes the following details:
@@ -80,8 +74,6 @@ This tab shows the current customer adoption status. It includes the following d
 -   Engagements with &gt;80% objective completion: List of engagements for which more than 80% of the success objectives have been completed.
 -   Success objective progress: Success objectives grouped by state such as new, on-track, at risk, completed, and so on.
 -   Engagements with low adoption score products: List of products with a low adoption score and the associated customer and business priority. See [Product adoption and capability usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-product-adopt.md) for details.
-
-\[Omitted image "success-portfolio-adopt.png"\] Alt text: Success report adoption
 
 ## Renewal
 
@@ -102,12 +94,10 @@ This tab shows the renewal details for all contracts associated with the engagem
 
     **Note:** The date used to plot the x-axis on the graph is based on one of the following:
 
-    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/opportunity-management.md).
+    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-management.md).
     -   Date specified in the **Renewal finalized on** field in the Contracts table. The Renewals won and Renewals lost bar charts show the month in which the renewal was either approved or rejected.
 -   Engagements with lost contracts: List of engagements with contracts that were rejected or not renewed.
 -   YTD total contract value by month: Monthly breakdown of total contract value, year-to-date.
-
-\[Omitted image "success-portfolio-renewal.png"\] Alt text: Success report renewal
 
 **Parent Topic:**[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report-overview.md)
 

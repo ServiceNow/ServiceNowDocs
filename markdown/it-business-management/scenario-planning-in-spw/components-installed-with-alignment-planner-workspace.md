@@ -16,7 +16,7 @@ breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Stra
 
 Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 ## Roles installed with Strategic Planning Workspace
 
@@ -119,13 +119,16 @@ Business stakeholder\[business\_stakeholder\]
 -   Can add notes, comments, or attachments to portfolio plans and roadmaps that are shared with them.
 -   Can personalize the roadmaps.
 -   Can view generated resource capacity for planning items in the Capacity Planning screen.
+-   Can fill out the assessments for scoring and reviews demands before they are approved.
 -   Can view goals defined for the portfolio plan.
+-   In Enterprise Agile Planning, can view EAP planning items and stories across teams and iterations in the Backlog, planning board, hierarchy tabs, dashboard widgets on the Home tab, and team-level Docs.
 
  **Note:** Users with this role do not have access to create or edit any roadmap items.
 
 </td><td>
 
 -   sn\_align\_core.ap\_read\_only
+-   sn\_align\_core.eap\_read\_only
 -   sn\_align\_ws.spw\_capacity\_read
 -   sn\_apw\_advanced.spw\_goal\_user\_read
 

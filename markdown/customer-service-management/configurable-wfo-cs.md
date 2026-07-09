@@ -16,7 +16,7 @@ Manage and maintain the productivity of your workforce from a single application
 
 Watch this short video to see how managers use Workforce Optimization for Customer Service.
 
-Workforce Optimization for Customer Service 
+\[Omitted video\] Description: Workforce Optimization for Customer Service
 
 The application is available on configurable workspaces. Administrators can configure and customize the workspace using the application capabilities to complete the service objectives efficiently.
 

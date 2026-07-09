@@ -33,12 +33,12 @@ The Now Assist for Zero Copy Connector application includes the generative AI sk
 
     Gives you the ability to query SAP standard database tables for data and transactional records based upon natural language queries.
 
-    \[Omitted image "erp-data-discovery-skill1.png"\] Alt text: Now Assist panel with entered question highlighted.
+    \[Omitted image "image.erp-data-discovery-skill1"\] Alt text: Now Assist panel with entered question highlighted.
 
 -   **ERP data query**
 
     Helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to fetch routing operations for a specific material in work center.
 
-    \[Omitted image "erp-data-query-skill1.png"\] Alt text: Now Assist panel with entered question highlighted.
+    \[Omitted image "image.erp-data-query-skill1"\] Alt text: Now Assist panel with entered question highlighted.
 
 

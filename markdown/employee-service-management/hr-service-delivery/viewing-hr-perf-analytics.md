@@ -26,19 +26,19 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     -   \[PA HR Case\] Daily Data Collection
     -   \[PA HR Case\] Historic Data Collection
-    See [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
+    See [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_CreatASchedDataCollJob.md).
 
 -   **Indicators**
 
     Each job has indicators to make data collection efficient and defines what data to collect.
 
-    See [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
+    See [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/configure-job-indicator.md).
 
 -   **View dashboards**
 
     After the PA jobs run, you can view the collected data from the **Dashboard**.
 
-    See [Dashboards overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/dashboards-overview.md).
+    See [Dashboards overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/dashboards-overview.md).
 
 -   **HR Manager**
 
@@ -90,7 +90,7 @@ The **Performance Analytics** dashboard provides the following reports.
 -   More info: A description of the logic that generates the report, how often the job runs, and when the data was last collected.
 -   If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.
 
-For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md) .
+For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PerformanceAnalytics.md) .
 
 **Parent Topic:**[Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md)
 

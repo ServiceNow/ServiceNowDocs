@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [servicenow OAuth, Servicenow OAuth, ServiceNow OAuth, OAuth authentication, inbound authentication, outbound authentication, OAuth 2.0, OAuth provider, OAuth client, token endpoint, authorization server, resource server, OAuth scope, OAuth grant types]
-breadcrumb: [OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth authentication, Access Management]
 ---
 
 # OAuth 2.0

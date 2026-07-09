@@ -65,7 +65,7 @@ Use the bubble chart to plot the indicator scores of the applications in X and Y
 
 Point to the bubble in the chart and click the application or right-click the bubble and select **Create Demand** to [create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-an-idea.md) for the application.
 
--   **[Create or edit a bubble chart for application strategies - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/setup-bubble-chart-for-appln-strategy.md)**  
+-   **[Create bubble charts for application strategies - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/setup-bubble-chart-for-appln-strategy.md)**  
 Set up a bubble chart to compare and evaluate the relative standing of applications in selected categories. The chart helps you determine which applications to invest more in, keep, replace, or eliminate.
 
 **Parent Topic:**[Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/using-apm.md)

@@ -1,5 +1,5 @@
 ---
-title: Register a digital integration by using the conversational experience
+title: Register a digital integration conversationally
 description: Use the conversational experience of Now Assist in Virtual Agent to register a digital integration from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/register-digital-integration-using-conv-exp.html
@@ -10,13 +10,13 @@ reading_time_minutes: 2
 breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Register a digital integration by using the conversational experience
+# Register a digital integration conversationally
 
 Use the conversational experience of Now Assist in Virtual Agent to register a digital integration from any application that supports Virtual Agent.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Ensure that the following tasks are completed:
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a business application** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38227e165">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d39808e162">
 
 Instruction
 
-</th><th align="left" id="d38227e168">
+</th><th align="left" id="d39808e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38227e174">
+</th></tr></thead><tbody><tr><td id="d39808e171">
 
 **Short: Request a digital integration**
 
@@ -65,7 +65,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d38227e232">
+</td></tr><tr><td id="d39808e229">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

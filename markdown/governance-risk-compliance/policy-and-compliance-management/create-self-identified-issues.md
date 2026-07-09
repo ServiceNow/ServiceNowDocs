@@ -34,11 +34,7 @@ There are multiple methods you can use to report an issue using the Service Port
 
     2.  Press the Return key.
 
-
-
 2.  In the screen header, navigate to **GRC** &gt; **My Issues** to view issues already assigned to you.
-
-
 
 3.  Click **Report an Issue**.
 

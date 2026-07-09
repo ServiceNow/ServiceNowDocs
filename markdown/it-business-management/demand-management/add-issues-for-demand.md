@@ -8,7 +8,7 @@ product: Demand Management
 classification: demand-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -47,8 +47,8 @@ Role required: it\_demand\_manager
 
 ## What to do next
 
--   Convert an existing issue to a decision, action, or request change and close the issue. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the issue with your existing risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(risks, issues, actions, decisions, and request changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert an existing issue to a decision, action, or request change and close the issue. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the issue with your existing risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/reassociate-ridac-demand.md).
 
-**Parent Topic:**[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/ridac-entries-for-demand.md)
 

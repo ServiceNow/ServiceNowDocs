@@ -1,5 +1,5 @@
 ---
-title: Exclude preconfigured CI relationships in tag-based discovery
+title: Exclude CI relationships from tag-based discovery
 description: Exclude preconfigured CI relationships from the tag-based discovery process to refine the application services created. Service Mapping consists of preconfigured CI relationships and includes CIs in these relationships even if they do not have assigned tags. Choose which preconfigured CI relationships to exclude and the remaining CI relationships participate in tag-based discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/exclude\_ci\_relationships\_tag\_mapping.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Tag-based discovery configuration, Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Exclude preconfigured CI relationships in tag-based discovery
+# Exclude CI relationships from tag-based discovery
 
 Exclude preconfigured CI relationships from the tag-based discovery process to refine the application services created. Service Mapping consists of preconfigured CI relationships and includes CIs in these relationships even if they do not have assigned tags. Choose which preconfigured CI relationships to exclude and the remaining CI relationships participate in tag-based discovery.
 

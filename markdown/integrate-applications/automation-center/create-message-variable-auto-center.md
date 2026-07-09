@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Write a script for an automation message variable
@@ -106,5 +106,5 @@ Text field that accepts JavaScript code input and provides controls, such as syn
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-insight-rule.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/creating-insights.md)
 

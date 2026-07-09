@@ -8,7 +8,7 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -73,7 +73,7 @@ If set to false, when the job or pipeline has completed, the change request isnâ
 Set change request field values within the pipeline for the change request template specified.
 
 -   Use the **attributes:** parameter to set field values.
--   Use the [DevOps - POST /devops/orchestration/changeControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/devops-api.md) endpoint of the DevOps API.
+-   Use the [DevOps - POST /devops/orchestration/changeControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/devops-api.md) endpoint of the DevOps API.
 
 **Note:**
 
@@ -92,7 +92,7 @@ When attributes are passed for change, the order of priority is as follows:
 
 **Note:** When configuring change requests from within the pipeline, change type and template fields are always taken from one source. You canâ€™t use a combination of attributes from the API request and the change request form.
 
-All fields in the Change Request \[change\_request\] table are supported except where specified.
+You can update change fields by passing values from the pipeline for all the supported change fields. The only exception is the list of unsupported fields in the following table.
 
 <table id="table_jtr_dbr_54b"><tbody><tr><td>
 
@@ -102,8 +102,6 @@ Unsupported fields
 
 -   risk
 -   impact
--   number
--   sys\_id
 -   risk\_impact\_analysis
 
 </td></tr><tr><td>
@@ -115,7 +113,9 @@ Supported fields
 All remaining fields in the Change Request \[change\_request\] table.
 
 </td></tr></tbody>
-</table>**Note:** The attribute name must match the change request field name, and the value specified must be valid.
+</table>Fields such as **risk** and **impact** are calculated fields and therefore can't be entered as user inputs. These values are automatically derived based on the change data and the configured risk and impact conditions. To understand how risk and impact are calculated, see [Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/define-risk-and-impact-conditions.md). Once the risk and impact values are calculated, the **Risk impact analysis** field is automatically populated with the resulting risk and impact information.
+
+**Note:** The attribute name must match the change request field name, and the value specified must be valid.
 
 ## Sample JSON payload
 

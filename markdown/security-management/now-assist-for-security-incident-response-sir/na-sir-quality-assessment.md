@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2025-12-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Generative AI, Gen AI, Now Assist, Security Operations, quality assessment, security incident response]
 breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]

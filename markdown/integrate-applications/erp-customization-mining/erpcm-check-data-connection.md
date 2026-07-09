@@ -32,7 +32,7 @@ You can receive email notifications for connection task success and failures. Fo
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  In the side panel, select the connection status icon \[Omitted image "configuration-alias-icon.png"\] Alt text:.
+2.  In the side panel, select the connection status icon \[Omitted image "image.configuration-alias-icon"\] Alt text:.
 
     The **Overview** tab displays a summary of connection issues to review, as well as a list of the most recent active connection tasks.
 
@@ -47,15 +47,15 @@ You can receive email notifications for connection task success and failures. Fo
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d124485e215">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d344256e215">
 
 Tab
 
-</th><th align="left" id="d124485e218">
+</th><th align="left" id="d344256e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124485e224">
+</th></tr></thead><tbody><tr><td id="d344256e224">
 
 **All tasks**
 
@@ -63,7 +63,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d124485e233">
+</td></tr><tr><td id="d344256e233">
 
 **Task issues**
 
@@ -71,7 +71,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d124485e248">
+</td></tr><tr><td id="d344256e248">
 
 **Snapshots**
 
@@ -108,7 +108,7 @@ List of scan results that have been saved, exported, and imported.
 
     3.  Update the **Status** on the task record to **Resolved** or **Irrelevant**.
 
-8.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \[Omitted image "refresh-icon.png"\] Alt text:.
+8.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \[Omitted image "image.refresh-icon"\] Alt text:.
 
 
 **Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/configuring-ecm.md)

@@ -23,11 +23,13 @@ Open the workspace by navigating to **Workspaces** &gt; **Service Operations Wor
 
 ## Home page
 
-To access information on the Home page, select the home icon \(\[Omitted image "sow-home-itom.png"\] Alt text: Home icon\).
+The **Overview** tab is your team's command center. It gives you a real-time snapshot of alert activity, workload distribution, and the impact AI is having on your team's performance — all in one place. Spanning four key areas — AI efficiency, team workload, alert and incident severity, and individual team member assignments — it highlights the impact AI is having on resolution speed and gives you a clear picture of where work is piling up.
 
-The home page provides operators with a comprehensive snapshot of the current operational landscape. The Overview section presents vital insights, including alerts assigned to the operator, team-based alerts, unassigned team alerts, monitored services, and open alerts. This Alerts Assigned to You section furnishes operators with specific details regarding alerts tailored to their responsibilities. Information includes the alert number, initial event generation time, description, priority group, severity, source, group, configuration item, state, node, metric name, and last updated timestamp. Both sections streamline operations by offering operators a concise overview and personalized insights into alerts relevant to their responsibilities, facilitating swift prioritization and proactive resolution of critical issues.
+Use it to spot imbalances, track resolution speed, and see at a glance whether your team is keeping up with incoming alerts.
 
-\[Omitted image "home-tab-sow.png"\] Alt text: Home page information.
+\[Omitted image "sow-ai-specialist-dashboard-overview.png"\] Alt text: Dashboard showing alerts, workload, and MTTR metrics.
+
+**Note:** If you don't install the Now Assist for IT Operations Management \(ITOM\) plugin, AI-related KPIs aren't visible.
 
 ## List page
 

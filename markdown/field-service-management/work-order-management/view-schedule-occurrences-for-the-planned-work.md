@@ -28,7 +28,7 @@ A schedule occurrence in Planned Work Management is a particular event within a 
 
 For duration-based schedules \(**Trigger** in the work schedule is **Duration**\), the schedule occurrences are created immediately when a work schedule is configured.
 
-For meter-based schedules \(**Trigger** in the work schedule is **Duration**\), the schedule occurrences are created only when the meter threshold is reached.
+For meter-based schedules \(**Trigger** in the work schedule is **Meter**\), the schedule occurrences are created only when the meter threshold is reached.
 
 Schedule occurrences are numbered sequentially based on the creation order. Upon configuring the schedule, schedule occurrences with **Pending** state are created for the next immediate maintenance work required. Once the work orders for these schedule occurrences are created, the state is updated to **Scheduled** and new schedule occurrences for the next maintenance is generated.
 

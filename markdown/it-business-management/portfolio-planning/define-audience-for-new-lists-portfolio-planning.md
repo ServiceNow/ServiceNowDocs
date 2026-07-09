@@ -1,5 +1,5 @@
 ---
-title: Define audience for new lists in Portfolio Planning
+title: Define audience for lists in Portfolio Planning
 description: Manage who can view the newly created categories and lists in the Lists page of Portfolio Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/define-audience-for-new-lists-portfolio-planning.html
@@ -7,13 +7,13 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing Lists in Portfolio Planning Workspace, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Define audience for new lists in Portfolio Planning
+# Define audience for lists in Portfolio Planning
 
 Manage who can view the newly created categories and lists in the Lists page of Portfolio Planning Workspace.
 

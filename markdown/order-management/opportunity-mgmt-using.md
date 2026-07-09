@@ -1,18 +1,18 @@
 ---
 title: Using Opportunity Management
-description: Use the Opportunity Management application to create your opportunity.
+description: Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-mgmt-using.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-06-12"
+reading_time_minutes: 3
 breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Opportunity Management
 
-Use the Opportunity Management application to create your opportunity.
+Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 
 The Opportunity Management interface has tabs that help you create and manage your opportunities.
 
@@ -106,6 +106,14 @@ Create quotes directly from the Opportunity.
 
 </td></tr><tr><td>
 
+Meetings
+
+</td><td>
+
+Schedule and view client meetings linked to the opportunity. When you schedule a meeting from an opportunity, the system automatically associates the meeting with that opportunity. The tab also displays meetings linked to the opportunity's touchpoints.
+
+</td></tr><tr><td>
+
 Related Channel Partners
 
 </td><td>
@@ -124,6 +132,8 @@ Use the Details tab to add and view information about your opportunity, includin
 Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales opportunities.
 -   **[Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-line-items-tab.md)**  
 Create a new product line item for your opportunity by entering the details, such as product offering and quantity.
+-   **[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-touchpoints-opportunity.md)**  
+View, create, and delete touchpoints associated with an opportunity from the touchpoints related list.
 -   **[Add competitors to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-competitors-tab.md)**  
 Capture competitor details for your opportunity so that you can have winning sales conversations with your customer.
 -   **[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-tasks-tab.md)**  
@@ -134,6 +144,10 @@ Create an opportunity team member for a structured collaboration among multiple 
 Create opportunity for associated contacts to identify each contact’s role when multiple stakeholders are involved.
 -   **[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-emails-tab.md)**  
 Create an email to communicate to your customer the product information that meets their business requirements or the product demo as required by your customer.
+-   **[Use guided selling on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-guided-selling-opportunity.md)**  
+Track stage exit criteria, complete playbook activities, and manage deal-related actions on an opportunity to advance deals through the sales cycle.
+-   **[Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/schedule-meeting-opportunity.md)**  
+Schedule a client meeting directly from an opportunity record to associate it with the opportunity.
 -   **[View an existing opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-viewing-an-opportunity.md)**  
 View an existing opportunity to make changes, such as updating its status or additional details.
 -   **[Track opportunities using Kanban view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-kanban-view.md)**  

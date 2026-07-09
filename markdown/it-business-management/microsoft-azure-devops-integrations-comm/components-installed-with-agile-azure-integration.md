@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Integrate
 
 Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -69,7 +69,7 @@ Azure DevOps integration user\[sn\_ado\_int.user\]
 |Import Azure DevOps Teams Areas and Iterations|Imports teams, areas, and iterations from Azure DevOps automatically at a scheduled time.|
 |Import Azure DevOps Work Items|Imports work items from Azure DevOps automatically at a scheduled time.|
 
-All the scheduled jobs are inactive by default. For more information, see [Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
+All the scheduled jobs are inactive by default. For more information, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 ## Tables installed
 

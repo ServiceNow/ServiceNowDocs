@@ -1,6 +1,6 @@
 ---
-title: How Agent Client Collector for Visibility - Content works
-description: Agent Client Collector for Visibility - Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
+title: How Agent Client Collector for Visibility Content works
+description: Agent Client Collector for Visibility Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/how-acc-v-works.html
 release: zurich
@@ -13,9 +13,9 @@ keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC fo
 breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
-# How Agent Client Collector for Visibility - Content works
+# How Agent Client Collector for Visibility Content works
 
-Agent Client Collector for Visibility - Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
+Agent Client Collector for Visibility Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
 
 ## ACC-VC use cases
 

@@ -1,5 +1,5 @@
 ---
-title: Generate a knowledge article for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Generate a knowledge article for a service problem case using Now Assist for TMT
 description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate a knowledge article for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate a knowledge article for a service problem case using Now Assist for TMT
 
 Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
 
@@ -20,7 +20,7 @@ Generate the knowledge articles for resolved and closed cases within the CSM Con
 
 To generate a knowledge article for a case, the case must be in the resolved and closed state, and must not already have a knowledge article linked to it.
 
-Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
 
 Make sure that your administrator enables Now Assist experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
@@ -94,5 +94,5 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

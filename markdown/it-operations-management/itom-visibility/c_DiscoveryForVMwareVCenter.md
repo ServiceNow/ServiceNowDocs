@@ -1,13 +1,13 @@
 ---
 title: Discovery for VMware vCenter
-description: Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for disocvery in VMware vCenter.
+description: Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_DiscoveryForVMwareVCenter.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-12-02"
+last_updated: "2026-07-06"
 reading_time_minutes: 3
 keywords: [VMware vCenter, Discovery VMware vCenter]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 # Discovery for VMware vCenter
 
-Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for disocvery in VMware vCenter.
+Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 
 **Note:**
 
@@ -27,7 +27,7 @@ When a vCenter application is running on a dedicated vCenter appliance, a "Runs 
 
 The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Zurich release:
 
--   vCenter versions 8.0 and earlier
+-   vCenter versions 9.0 and earlier
 -   vCenter appliance version 6.7 and earlier
 
 For installations based on the vCenter appliance, a server CI is created for the vCenter appliance and the following fields are populated:
@@ -51,15 +51,15 @@ After classifying vCenter, Discovery launches the VMware - vCenter Datacenters p
 
 To access vCenter with a domain account, specify the domain with the user name in the credential record using a supported format, such as **Domain\\UserName**. The VMware credentials must have a read-only role in vCenter. For Software Asset Management \(SAM\) tracking, the credentials also require the "Assign license" privilege in vCenter, also known as the License Admin privilege.
 
-**Important:** Windows credentials aren't necessary for vCenter Discovery when valid [VMware credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_VMwareCredentialsForm.md) are used.
+**Important:** Windows credentials aren't necessary for vCenter Discovery when valid [VMware credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_VMwareCredentialsForm.md) are used.
 
 ## Updating the CMDB with vCenter event collector
 
-In addition to finding vCenter data through the standard discovery process, Discovery can also update the CMDB by detecting vCenter events through a MID Server extension called the [vCenter event collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_VCenterEventProcessorExtension.md).
+In addition to finding vCenter data through the standard discovery process, Discovery can also update the CMDB by detecting vCenter events through a MID Server extension called the [vCenter event collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_VCenterEventProcessorExtension.md).
 
 The event collector allows the CMDB to be updated with changes to virtual machines \(VMs\), in addition to the updates detected by Discovery. A change to a VM is sent as an event from the vCenter server to the vCenter event collector. When an event is received, the CMDB is updated accordingly. Full vCenter Discovery does not need to rerun. For some events, such as powered on and powered off events, Discovery does not need to run again at all. For most events, Discovery runs only on the necessary vCenter resource.
 
-For instructions on configuring vCenter events, see [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_VCenterEventProcessorExtension.md).
+For instructions on configuring vCenter events, see [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_VCenterEventProcessorExtension.md).
 
 ## VM deleted from vCenter
 
@@ -69,14 +69,14 @@ If the VM is deleted from vCenter, the cmdb\_ci\_vm\_instance state changes to t
 
 When a vCenter CI, such as a virtual machine, is removed, the ServiceNow instance marks it as "stale" in the CMDB, using either of these procedures:
 
--   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
+-   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
 -   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table from the VmRemovedEvent event, without having to run Discovery.
 
 **Note:** When the **Staleness** setting is configured, the dependency view \(BSM map\) grays out stale CIs in its relationship diagram to indicate that they were removed from vCenter.
 
-To avoid stale CI health indicators from being generated during VMware discovery, set the system property **glide.cmdb.health.src.cmdb\_health\_audit\_only** to **true**. This disables stale CI reporting from the VMware discovery source, enabling you to manage the CI life cycle through other means. For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md).
+To avoid stale CI health indicators from being generated during VMware discovery, set the system property **glide.cmdb.health.src.cmdb\_health\_audit\_only** to **true**. This disables stale CI reporting from the VMware discovery source, enabling you to manage the CI life cycle through other means. For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_CMDBHealthProperties.md).
 
-You have the option of creating a [CMDB remediation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBRemediationRule.md) to automatically execute a remediation workflow that can, for example, delete stale CIs. For more information on stale CIs, see [CMDB Health Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
+You have the option of creating a [CMDB remediation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCMDBRemediationRule.md) to automatically execute a remediation workflow that can, for example, delete stale CIs. For more information on stale CIs, see [CMDB Health Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_CMDBHealthMetrics.md).
 
 ## vCenter Discovery on Windows host
 

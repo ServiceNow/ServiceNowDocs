@@ -1,5 +1,5 @@
 ---
-title: Generate tasks for a project using project plan generation skill
+title: Generate tasks using project plan generation skill
 description: Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/generate-tasks-using-ai-pw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate tasks for a project using project plan generation skill
+# Generate tasks using project plan generation skill
 
 Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 
@@ -41,7 +41,7 @@ Role required: it\_project\_manager
 4.  Provide your project task input using one or more of these methods.
 
     -   In the text field, describe your project tasks using natural language. If you provide only natural language input, the document intelligence skill is not required.
-    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. A preview of the attachment appears before you proceed. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
+    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. A preview of the attachment appears before you proceed. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-in-document-intelligence-skill.md).
     **Note:** Attach a file or enter context as free-form text before proceeding. No input returns an error. Insufficient context may also trigger an error.
 
 5.  Select **Submit** to generate the project.

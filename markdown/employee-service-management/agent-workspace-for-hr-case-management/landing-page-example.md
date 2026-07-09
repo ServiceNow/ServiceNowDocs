@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a landing page variant, UI Builder for Agent Workspace for HR Case Management, Configure, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a landing page variant, UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Landing page configuration example
@@ -34,11 +34,11 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
 3.  Select the **Editor** tab if it is not already selected.
 
-4.  In the Page content panel, select **Container 7**.\[Omitted image "uib-container-seven.png"\] Alt text: Container 7 in the Page content panel
+4.  In the Page content panel, select **Container 7**.\[Omitted image "uib-container-seven.png"\] Alt text: Page content panel in UI Builder with Container 7 highlighted for selection
 
-5.  In the Configuration panel, create three columns by entering `3` in the **Columns** field.\[Omitted image "uib-container-seven-config.png"\] Alt text: Column entry in the Configuration panel
+5.  In the Configuration panel, create three columns by entering `3` in the **Columns** field.\[Omitted image "uib-container-seven-config.png"\] Alt text: Configuration panel showing Columns field set to 3 for Container 7
 
-6.  Select the more icon \(\[Omitted image "menu-icon.png"\] Alt text: More icon\) beside **Column 2**.
+6.  Select the more icon \(\[Omitted image "menu-icon.png"\] Alt text:\) beside **Column 2**.
 
 7.  Select **Add after**.
 
@@ -46,7 +46,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
     A container is an area of the page where you add information, images, or functionality \(your components\). You can have several containers on a page, nest containers within containers, and include several components in the containers.
 
-9.  Add a component by selecting **+Add component** under the container.\[Omitted image "add-component.png"\] Alt text: Add component
+9.  Add a component by selecting **+Add component** under the container.\[Omitted image "add-component.png"\] Alt text: Add component button displayed under Container 23 in UI Builder
 
     This example uses **Container 23**.
 
@@ -54,7 +54,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
 11. Add a data source.
 
-    1.  In the Configuration panel, select **+ Add data source**.\[Omitted image "add-data-source.png"\] Alt text: Adding a data source
+    1.  In the Configuration panel, select **+ Add data source**.\[Omitted image "add-data-source.png"\] Alt text: Configuration panel with Add data source button for data visualization component
 
     2.  In the **Select a source** field, enter `HR Case`.
 
@@ -78,7 +78,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
         -   Enter value: `Last week`
     8.  Select **Add this source**.
 
-12. In the Configurations panel, expand **Additional settings**.\[Omitted image "additional-settings.png"\] Alt text: Additional settings in the Configuration panel
+12. In the Configurations panel, expand **Additional settings**.\[Omitted image "additional-settings.png"\] Alt text: Additional settings section expanded in Configuration panel showing metric label and score update time options
 
 13. Add additional data to display by enabling **Show metric label** and **Show score update time**.
 

@@ -26,6 +26,8 @@ The record pages \(incident, problem, change, and so on\) in Service Operations 
 
 When you modify the order of a common tab in multiple record pages and workspaces, the changes are applicable in all those records and workspaces.
 
+**Note:** When you modify the order of a common tab, the change affects that tab in all associated record pages across multiple workspaces. Modify common tabs only if you want the change to apply universally. To restrict changes to a single workspace, modify record page-specific tabs only.
+
 ## Procedure
 
 1.  From the **All** menu, navigate to **sys\_ux\_app\_route.list**.
@@ -36,7 +38,7 @@ When you modify the order of a common tab in multiple record pages and workspace
     -   To modify the order of a record page-specific tab. For example, the **Overview** tab of the incident record page in Service Operations Workspace, select **Overview** whose **App Configuration** is **Service Operations Workspace** and **Parent macroponent** is **Record Page Tabs**. Any changes made are applicable only to the **Overview** tab of the incident record page in Service Operations Workspace.
 3.  On the UX App Route form, modify the **Order** field.
 
-    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select **Update**.
 

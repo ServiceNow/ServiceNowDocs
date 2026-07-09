@@ -16,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 The CMDB Workspace is an efficient, central, and modernized way for you to work. Use CMDB Workspace to search and explore the CMDB, examine health and recent activities, and access CMDB dashboards and tools to support tasks in your organization.
 
-Watch the following video to get started with CMDB Workspace. Depending on the version of your CMDB Workspace, some UI elements and features might differ.Introduction to CMDB Workspace 
+Watch the following video to get started with CMDB Workspace. Depending on the version of your CMDB Workspace, some UI elements and features might differ.\[Omitted video\] Description: Introduction to CMDB Workspace
 
 ## Get started
 

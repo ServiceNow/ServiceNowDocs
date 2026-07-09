@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Configure MFA Provider
@@ -65,7 +65,7 @@ Provider
 
 </td><td>
 
-Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
+Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
  When choosing **Custom**, you need to specify the following fields:
 

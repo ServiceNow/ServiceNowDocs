@@ -1,5 +1,5 @@
 ---
-title: Using a Response template in an HR case or HR task record
+title: Use response templates in HR cases or tasks
 description: Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Response templates, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
-# Using a Response template in an HR case or HR task record
+# Use response templates in HR cases or tasks
 
 Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 
@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d282833e85">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d307434e83">
 
 Item
 
-</th><th align="left" id="d282833e88">
+</th><th align="left" id="d307434e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d282833e94">
+</th></tr></thead><tbody><tr><td id="d307434e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d282833e121">
+</td></tr><tr><td id="d307434e119">
 
 **HR task**
 
@@ -57,7 +57,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>4.  From the contextual side panel, select the Response templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
+</table>4.  From the contextual side panel, select the Response templates icon \(\[Omitted image "response-template-icon.png"\]\).
 
 5.  Select the View response templates icon \(\[Omitted image "view-response-templates.png"\] Alt text: View response templates icon\) to display templates based on the language preference of the selected user.
 

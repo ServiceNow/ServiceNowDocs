@@ -1,5 +1,5 @@
 ---
-title: Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance - Legacy
+title: Install Enterprise Architecture integrations with GRC - Legacy
 description: Install Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/install-grc-application-risk-assesment.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Integrate - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance - Legacy
+# Install Enterprise Architecture integrations with GRC - Legacy
 
 Install Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance from the ServiceNow Store.
 
@@ -18,7 +18,7 @@ Install Application Portfolio Management integration with Risk Management and Ap
 
 Role required: admin
 
-Before installing Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md) topic.
+Before installing Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/download-grc-first-time.md) topic.
 
 ## About this task
 

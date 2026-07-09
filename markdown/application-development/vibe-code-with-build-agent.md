@@ -20,7 +20,7 @@ For more information on Build Agent, see [Build Agent](https://raw.githubusercon
 
 ## Build Agent and agentic app development
 
-Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for vibe coding and AI-assisted development on the ServiceNow AI Platform.
+Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for agentic development on the ServiceNow AI Platform.
 
 Available in the ServiceNow IDE and ServiceNow Studio, Build Agent appears as a chat panel with a multi-turn conversation interface. Build Agent processes natural language prompts, autonomously generates full-stack applications, manages the entire build process, and responds to feedback. The agent generates all necessary code, organizes files clearly, and manages both the core logic and user interface components of applications.
 

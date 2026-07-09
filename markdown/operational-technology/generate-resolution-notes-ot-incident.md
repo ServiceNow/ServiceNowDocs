@@ -51,15 +51,15 @@ OT incident resolution notes are generated from the following information:
 
 8.  When you're finished generating OT resolution notes, you can insert the resolution notes, refine the resolution notes, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d60220e190">
+<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d66686e190">
 
 Option
 
-</th><th align="left" id="d60220e193">
+</th><th align="left" id="d66686e193">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d60220e199">
+</th></tr></thead><tbody><tr><td id="d66686e199">
 
 **Insert the resolution notes**
 
@@ -67,7 +67,7 @@ Procedure
 
 To insert the generated OT resolution notes in the **Resolution note** field, select **Insert**.
 
-</td></tr><tr><td id="d60220e214">
+</td></tr><tr><td id="d66686e214">
 
 **Refine the resolution notes by elaborating or shortening**
 
@@ -75,7 +75,7 @@ To insert the generated OT resolution notes in the **Resolution note** field, se
 
 If you want to provide more details in the OT resolution notes, select **Refine** and then **Elaborate**. If you want to shorten the resolution notes, select **Shorten**.
 
-</td></tr><tr><td id="d60220e232">
+</td></tr><tr><td id="d66686e232">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ If you want to provide more details in the OT resolution notes, select **Refine*
 
 If you think that the OT resolution notes were helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the resolution notes weren't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d60220e255">
+</td></tr><tr><td id="d66686e255">
 
 **Copy the resolution notes**
 
@@ -91,7 +91,7 @@ If you think that the OT resolution notes were helpful, select the helpful icon 
 
 If you want to reuse the OT resolution notes, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d60220e271">
+</td></tr><tr><td id="d66686e271">
 
 **View the information about the resolution notes**
 

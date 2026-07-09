@@ -37,7 +37,7 @@ Administrators complete the following tasks to enable Now Assist for Employee Sl
 |Task|Description|
 |----|-----------|
 |[Configure the admin console for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)|Set the portal name, URL suffix, logos, favicon, and palette colors for the Now Assist deployment.|
-|[Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)|Set the content, the trigger conditions, and the recipients for the 14 out-of-the-box notifications shipped with Now Assist.|
+|[Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)|Set the content, the trigger conditions, and the recipients for the 14 default notifications shipped with Now Assist.|
 |[Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md)|Set the scope, the role access, and the chat panel that drives widget generation.|
 
 ## Employee tasks
@@ -50,7 +50,7 @@ The following tasks cover the core employee workflows on Now Assist:
 |[Find a policy in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-find-policy.md)|Ask conversationally for a policy and receive an answer with citations to the source article.|
 |[Create an announcement with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)|Draft and publish an announcement with conversational authoring in Now Assist.|
 |[Use the calendar assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-use-calendar-assistant.md)|Manage meetings, agendas, and follow-ups from the calendar widget with Now Assist.|
-|Use the home page widgets|Use Tasks and requests, announcements, popular content, upcoming holiday, and quick links widgets on the home page.|
+|[Employee Slate home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-home-page.md)|Use Tasks and requests, announcements, popular content, upcoming holiday, and quick links widgets on the home page.|
 
 ## What employees can do with Now Assist
 

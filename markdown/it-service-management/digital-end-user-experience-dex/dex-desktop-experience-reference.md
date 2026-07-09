@@ -22,8 +22,8 @@ Usage metrics dashboard enables you to monitor the connection status of your dev
 Several types of components are installed with activation of the Desktop Assistant \[sn\_dex\_desktop\] plugin, including user roles and tables.
 -   **[Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/application-registries-form.md)**  
 The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
--   **[API parameters to customize Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md)**  
-Use these parameters in the API to customize Desktop Assistant notifications.
+-   **[API parameters to configure Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md)**  
+sendDANotification\(\) method parameters in the `DesktopAppNotificationUtils` script include for configuring Desktop Assistant notifications.
 -   **[Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/da-theme-variables.md)**  
 You can modify specific CSS variables to customize themes for Desktop Assistant.
 -   **[Resolve Desktop Assistant screen loading issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/resolve-loading-da-screen.md)**  

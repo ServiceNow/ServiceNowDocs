@@ -31,7 +31,7 @@ You can query the system of record to create an ERP model for your ERP processes
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\] Alt text: in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "image.erpc-remote-table-icon"\] Alt text: in the side panel.
 
 3.  Select the remote table in the **Name** column, such as **SAP Country**.
 
@@ -41,7 +41,7 @@ You can query the system of record to create an ERP model for your ERP processes
 
     For example, you can select and hold \(or right-click\) on a column, such as **Storage location**, and select **Show Matching** records.
 
-    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 
 **Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)

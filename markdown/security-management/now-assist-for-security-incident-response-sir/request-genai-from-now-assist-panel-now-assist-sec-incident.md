@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist Security Operations]
 breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
@@ -19,7 +19,7 @@ Request a security incident summary or closure notes from the Now Assist panel.
 
 ## Before you begin
 
-See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
+See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
 
 Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
 4.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d112134e143">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d300597e143">
 
 Option
 
-</th><th align="left" id="d112134e146">
+</th><th align="left" id="d300597e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112134e152">
+</th></tr></thead><tbody><tr><td id="d300597e152">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d112134e189">
+</td></tr><tr><td id="d300597e189">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d112134e223">
+</td></tr><tr><td id="d300597e223">
 
 **Generate correlation insights**
 

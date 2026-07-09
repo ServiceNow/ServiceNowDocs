@@ -32,8 +32,8 @@ Configure advanced settings for data inputs used for streaming log data from Mic
 Configure advanced settings for data inputs used for streaming log data from Microsoft Azure Log Analytics to your instance.
 -   **[Configure advanced settings for MID Server data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-mid-server.md)**  
 Configure advanced settings for data inputs that are used for collecting and streaming MID Server log messages.
--   **[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)**  
-Configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents.
+-   **[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)**  
+Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 
 **Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

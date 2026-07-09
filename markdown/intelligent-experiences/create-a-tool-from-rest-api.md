@@ -7,7 +7,6 @@ release: zurich
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 1
-keywords: [Create REST API tool for MCP]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
 
@@ -19,7 +18,7 @@ Create a tool from REST APIs to expose it to Model Context Protocol \(MCP\) clie
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
-See [Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md) to learn more about creating REST APIs.
+See [Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/t_CreateAScriptedRESTAPIResource.md) to learn more about creating REST APIs.
 
 ## Procedure
 
@@ -56,6 +55,14 @@ Label
 </td><td>
 
 An internal name for the tool.
+
+</td></tr><tr><td>
+
+MCP app
+
+</td><td>
+
+An active MCP app linked to this REST API.
 
 </td></tr><tr><td>
 

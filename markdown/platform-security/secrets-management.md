@@ -16,7 +16,7 @@ Secrets Management lets you control which applications and users can access sens
 
 **Important:**
 
-Secrets Management has begun its End of Life process, and has reached the End Of Sale and End of Renewal milestones as of the Yokohama release. For support storing passwords with two-way encryption, see [Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/password-2way-encrypted-fields.md).
+Secrets Management Enterprise has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Yokohama release. For support storing passwords with two-way encryption, see [Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/password-2way-encrypted-fields.md).
 
 Use Secrets Management to restrict access to passwords and other sensitive credentials beyond standard role-based controls, such as when different teams or applications share an instance but shouldn't have access to each other's credentials, or when your organization's security policies require fine-grained control over who can decrypt specific secrets.
 

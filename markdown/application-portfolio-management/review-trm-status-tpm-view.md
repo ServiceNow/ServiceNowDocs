@@ -1,5 +1,5 @@
 ---
-title: Review the TRM lifecycle status in the Technology Portfolio Management page - Legacy
+title: Review TRM lifecycle status - Legacy
 description: View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/review-trm-status-tpm-view.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Review the TRM lifecycle status in the Technology Portfolio Management page - Legacy
+# Review TRM lifecycle status - Legacy
 
 View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
 

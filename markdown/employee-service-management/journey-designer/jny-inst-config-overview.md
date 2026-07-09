@@ -27,5 +27,5 @@ Administrators configure Journey designer for the needs of their organization.
 -   **[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)**  
 Enable access to the Pre-hire experience and configure its components so your organization can use the Journey designer app to facilitate the preboarding process. You must activate and configure the components for the Pre-hire experience so newly hired employees can use the onboarding portal to embark on their first journey.
 
-**Parent Topic:**[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Journey designer]()
 

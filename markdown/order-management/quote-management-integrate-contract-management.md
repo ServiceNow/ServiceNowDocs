@@ -26,7 +26,7 @@ Manually run fix scripts if you have not installed the demo data at the time of 
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for Contract Management for Sales and Order Management \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
+2.  Search for Contract Management for Sales CRM \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
 
     **Note:** To activate this plugin, there’s a dependency on the Contracts core plugin \(com.sn\_cm\_core\). Verify that it’s installed to use the contract creation workflow from a quote.
 
@@ -34,10 +34,10 @@ Manually run fix scripts if you have not installed the demo data at the time of 
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md).
+    For more information on setting up Contract Management Pro, see .
 
 
 ## What to do next
 
-To learn more, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md) and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-create-contract.md).
+To learn more, see  and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-create-contract.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configure, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -18,13 +18,13 @@ Define actions and the order of actions for participants. The type of action and
 
 ## Before you begin
 
--   Role required: sn\_hr\_core.admin
--   You need to define participants only when you want to use the document template flow. If you only want to generate a PDF document, defining participants is not mandatory.
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
+-   Role required: sn\_doc.admin
+-   You must define participants only when you want to use the document template flow. If you only want to generate a PDF document, defining participants is not mandatory.
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\).
 
 ## About this task
 
-Creating participants and mapping signature blocks 
+\[Omitted video\] Description: Creating participants and mapping signature blocks
 
 ## Procedure
 
@@ -32,9 +32,9 @@ Creating participants and mapping signature blocks
 
 2.  Select the template you want to use.
 
-3.  Configure the required template and click **Submit**.
+3.  Configure the required template and select **Submit**.
 
-4.  In the **Participants** related list, click **New**.
+4.  In the **Participants** related list, select **New**.
 
 5.  On the form, fill in the fields:
 
@@ -80,7 +80,7 @@ Mapping user field to a participant.**Note:**
 
 -   When you select a value, the participant is considered to be an internal user. If Participant Name and Participant Email fields \(optional for internal user\) are filled along with User field, the electronic signature task will be sent to Participant Name and Participant Email, not the Name and Email from the User field.
 
-When you do not select a value in the User field, the participant will be considered an external user \(Participant who does not have access to ServiceNow system\). For such participants, Participant Name, Participant Email are to be specified.
+When you don't select a value in the User field, the participant will be considered an external user \(Participant who does not have access to ServiceNow system\). For such participants, Participant Name, Participant Email are to be specified.
 
 -   The value in the User field is cleared when you save or update the template with the Advanced script field selected.
 
@@ -93,7 +93,7 @@ Participant name
 
 Option to specify the name when the defined participant is an external user.**Note:**
 
--   When you select a value in User field, the Participant name field will be an optional field. When you do not select a value in User field, the Participant name field will be a mandatory field.
+-   When you select a value in User field, the Participant name field will be an optional field. When you don't select a value in User field, the Participant name field will be a mandatory field.
 -   The value in the Participant name field is cleared when you save or update the template with the Advanced script field selected.
 -   This field is available only when signing type is AdobeSign or DocuSign.
 
@@ -106,7 +106,7 @@ Participant email
 
 Option to specify an email address when the defined participant is an external user.**Note:**
 
--   When you select a value in User field, the Participant email field will be an optional field. When you do not select a value in User field, the Participant email field will be a mandatory field.
+-   When you select a value in User field, the Participant email field will be an optional field. When you don't select a value in User field, the Participant email field will be a mandatory field.
 -   The value in the Participant email field is cleared when you save or update the template with the Advanced script field selected.
 -   This field is available only when signing type is AdobeSign or DocuSign.
 
@@ -117,7 +117,7 @@ Table
 
 </td><td>
 
-Table \(sys\_user table or any table extending sys\_user table\) from which you are choosing to populate the variables.
+Table \(sys\_user table or any table extending sys\_user table\) from which you're choosing to populate the variables.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Document task template
 
 </td><td>
 
-Template selected on the Document Template task table to populate additional details for the document task, such as description and short description for fill, sign and review tasks. **Note:** If additional details are not defined, the default values of the template are used in the document template task.
+Template selected on the Document Template task table to populate additional details for the document task, such as description and short description for fill, sign and review tasks. **Note:** If additional details aren't defined, the default values of the template are used in the document template task.
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Optional
 When enabled, a participant will be skipped if the participant user and participant email is not available. This check is done during runtime only and not while configuring the template.
 
 </td></tr></tbody>
-</table>6.  Click **Submit**.
+</table>6.  Select **Submit**.
 
 
 ## Result

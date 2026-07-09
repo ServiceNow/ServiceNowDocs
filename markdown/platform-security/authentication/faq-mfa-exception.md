@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Access Management]
 ---
 
 # MFA enforcement exception

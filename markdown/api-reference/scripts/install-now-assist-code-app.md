@@ -46,5 +46,5 @@ Role required: admin
 **Related topics**  
 
 
-[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
 

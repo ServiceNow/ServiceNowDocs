@@ -9,7 +9,7 @@ classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using guided decision trees to resolve HR cases, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use recommended actions, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # View a sample decision tree in Agent Workspace for HR Case Management

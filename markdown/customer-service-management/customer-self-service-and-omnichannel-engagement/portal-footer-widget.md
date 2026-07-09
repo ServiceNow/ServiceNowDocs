@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -24,6 +24,8 @@ Include the Portal Footer widget on your portal page to display information abou
 -   Footer links at the bottom right of the footer
 -   Social media at the bottom right of the footer
 -   Copyright text on the bottom-right corner of the footer
+
+\[Omitted image "portal-footer-widget.png"\] Alt text: Portal Polaris Footer widget displaying sitemap links in different categories.
 
 For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md).
 

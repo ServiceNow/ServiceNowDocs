@@ -25,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP monitor page by selecting the monitor icon \[Omitted image "erp-monitor-icon-sidebar.png"\] in the side panel.
+2.  Open the ERP monitor page by selecting the monitor icon \[Omitted image "image.erp-monitor-icon-sidebar"\] in the side panel.
 
 3.  Select the **Asynchronous transactions** or **Synchronous transactions** tab.
 
@@ -33,7 +33,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
     For example, filter the **Status** column to only show errors. You can apply filters to multiple columns.
 
-    \[Omitted image "erp-export-transaction-data1.png"\] Alt text: Status column filter with error selected.
+    \[Omitted image "image.erp-export-transaction-data1"\] Alt text: Status column filter with error selected.
 
 5.  Select **Export**.
 

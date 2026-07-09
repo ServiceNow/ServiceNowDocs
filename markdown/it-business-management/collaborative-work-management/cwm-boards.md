@@ -16,7 +16,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 
-Overview of Boards in the CWM workspace. 
+\[Omitted video\] Description: Overview of Boards in the CWM workspace.
 
 Using the following sections, get started with Boards in the CWM workspace.
 

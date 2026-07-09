@@ -24,7 +24,7 @@ The manage order operations AI agent uses default email templates to keep custom
 |ordercase.opened.for.customer|When the manage order operations AI agent opens a new order case for the customer from a Business Portal chat conversation.|The order case number and a link that the customer can use to view the case on the Business Portal.|
 |order.exception.case.closed|When the order case is closed and resolved successfully.|The order case number, the resolution details, and the quote details when a quote was generated for the case.|
 
-To customize the subject, content, or formatting of these default email templates, see [Apply a template to an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ApplyATemplateToAnEmailNotif.md).
+To customize the subject, content, or formatting of these default email templates, see .
 
 The application scope must be set to Manage Order Operations. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
@@ -33,5 +33,5 @@ The application scope must be set to Manage Order Operations. You can change the
 **Related topics**  
 
 
-[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md)
+[bundle-platadm.c_EmailTemplates]
 

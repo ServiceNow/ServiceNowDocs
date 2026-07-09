@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Import and map data, LDAP integration, Authentication, Access Management]
+breadcrumb: [Import and map data, LDAP integration, Access Management]
 ---
 
 # Set choice action for reference field imports

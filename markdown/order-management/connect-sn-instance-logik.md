@@ -1,18 +1,18 @@
 ---
-title: Set up a ServiceNow instance connection with a Logik.ai instance
-description: Set up the connections between the ServiceNow instance and the Logik.ai instance.
+title: Set up ServiceNow instance connection with CPQ instance
+description: Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/connect-sn-instance-logik.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up a ServiceNow instance connection with a Logik.ai instance
+# Set up ServiceNow instance connection with CPQ instance
 
-Set up the connections between the ServiceNow instance and the Logik.ai instance.
+Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ Role required: admin
 
 2.  Navigate to `https://<service_instance_url>/oauth_entity.do?sys_id=3b119df83b566210a0c0989e53e45a15`.
 
-    1.  Update the Redirect URL to `https://<logik-tenant-url>/login/oauth2/code/<logik-tenant-name>-login`.
+    1.  Update the Redirect URL to `https://<tenant-url>/login/oauth2/code/<tenant-name>-login`.
 
-        -   The logik-tenant-name is the name of the logik site \(for example, logiksite-som\). The logik-tenant-url is the full URL of the site \(for example, logiksite-som.test.logik.io\)
+        -   The tenant-name is the name of the logik site \(for example, logiksite-som\). The tenant-url is the full URL of the site \(for example, logiksite-som.test.logik.io\)
         -   Example: `https://logiksite-som.test.logik.io/login/oauth2/code/logiksite-som-login`
     2.  Select the **Activate** property.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  Open the **sn\_cpq\_intg.tenant\_url** system property.
 
-    2.  Set the **Value** to `https://<logik-tenant-url>.logik.io`
+    2.  Set the **Value** to `https://<tenant-url>.logik.io`
 
     3.  Select **Update**.
 

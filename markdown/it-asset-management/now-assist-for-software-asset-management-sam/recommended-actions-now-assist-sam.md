@@ -22,7 +22,11 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Recommended actions generative AI skill.
 
 Now Assist for SAM generates the recommended actions for products by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -59,15 +63,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d204307e175">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d216527e193">
 
 Action
 
-</th><th align="left" id="d204307e178">
+</th><th align="left" id="d216527e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204307e184">
+</th></tr></thead><tbody><tr><td id="d216527e202">
 
 **Regenerate icon**
 
@@ -77,7 +81,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d204307e199">
+</td></tr><tr><td id="d216527e217">
 
 **Feedback**
 

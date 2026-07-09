@@ -1,20 +1,20 @@
 ---
 title: Using the activity stream in Agent Workspace for HR Case Management
-description: Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to email, or view the state of the HR case.
+description: Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to emails, or view the state of the HR case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-activity-stream.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Using the activity stream in Agent Workspace for HR Case Management
 
-Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to email, or view the state of the HR case.
+Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to emails, or view the state of the HR case.
 
 ## Before you begin
 
@@ -28,8 +28,8 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Type your inputs in the space provided.
 
-4.  Click **Post Comments**.
+4.  Select **Post Comments**.
 
-    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(\[Omitted image "playbook-accordion-icon.png"\] Alt text: Accordion icon\). After entering text, click **Save**.
+    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(\[Omitted image "playbook-accordion-icon.png"\] Alt text: Accordion icon\). After entering text, select **Save**.
 
 

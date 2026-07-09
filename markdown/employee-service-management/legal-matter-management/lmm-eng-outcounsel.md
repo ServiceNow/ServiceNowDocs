@@ -52,5 +52,5 @@ As a legal fulfiller, view the external matter details fetched from in the legal
 -   **[Delete outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-delete-ocer.md)**  
 As a legal fulfiller, you can delete outside counsel engagement request that is no longer required.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

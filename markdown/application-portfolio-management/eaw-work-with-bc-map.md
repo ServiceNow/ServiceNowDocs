@@ -18,7 +18,7 @@ Model your business capabilities map using the Enterprise Modeling and Visualiza
 Create and model your business capability map using the Enterprise Modeling and Visualization.
 -   **[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-update-bc-map.md)**  
 Modify an existing business capability map by adding new capabilities, business applications, or changing the hierarchy of the existing capabilities.
--   **[Add a business capability or business application to the capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)**  
+-   **[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)**  
 Add a new or existing business capability or business application to the capability map using the Enterprise Modeling and Visualization.
 
 **Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)

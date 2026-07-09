@@ -37,7 +37,7 @@ Clone ERP models to make customizations so that your changes don't break connect
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] in the side panel.
+2.  Open the ERP models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] in the side panel.
 
 3.  Select the name of the ERP model that you want to clone.
 
@@ -45,7 +45,7 @@ Clone ERP models to make customizations so that your changes don't break connect
 
 5.  In the **Clone this model** modal, enter the new **ERP model name**.
 
-    \[Omitted image "erpc-clone-model.png"\] Alt text: Clone this model modal.
+    \[Omitted image "image.erpc-clone-model"\] Alt text: Clone this model modal.
 
     **Note:** The **Target application** field lists the scope in which the original model was created. The same scope is used for the clone.
 

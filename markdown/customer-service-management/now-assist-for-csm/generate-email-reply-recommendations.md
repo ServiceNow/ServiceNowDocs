@@ -17,7 +17,7 @@ breadcrumb: [Use generative AI skills, Now Assist for CSM, Customer Service Mana
 
 Generate an email response that is based on the case and email context by using the Now Assist icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 
-Configure email response generation. 
+\[Omitted video\] Description: Configure email response generation.
 
 ## Before you begin
 
@@ -40,15 +40,15 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d35385e129">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d171278e129">
 
 Method
 
-</th><th align="left" id="d35385e132">
+</th><th align="left" id="d171278e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35385e138">
+</th></tr></thead><tbody><tr><td id="d171278e138">
 
 **Compose email from More actions**
 
@@ -61,7 +61,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d35385e189">
+</td></tr><tr><td id="d171278e189">
 
 **Compose an email from Activity stream**
 
@@ -77,15 +77,15 @@ Description
 
     \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d35385e257">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d171278e257">
 
 Email message window
 
-</th><th align="left" id="d35385e260">
+</th><th align="left" id="d171278e260">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d35385e269">
+</th></tr></thead><tbody><tr><td id="d171278e269">
 
 **Typed response**
 
@@ -100,7 +100,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d35385e299">
+</td></tr><tr><td id="d171278e299">
 
 **Left blank**
 
@@ -108,7 +108,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d35385e308">
+</td></tr><tr><td id="d171278e308">
 
 **Use template**
 

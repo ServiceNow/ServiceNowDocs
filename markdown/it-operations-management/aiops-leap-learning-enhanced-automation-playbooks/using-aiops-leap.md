@@ -43,7 +43,7 @@ The Now Assist Explore feature streamlines artifact creation. Select **Explore**
 
     View and understand how automation helps LEAP to achieve cost and time savings.
 
-4.  [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+4.  [Create LEAP problem records]()
 
     Create a problem record using the resolution steps of an AO. The problem record helps you perform an in-depth analysis to find the root cause of the incident.
 

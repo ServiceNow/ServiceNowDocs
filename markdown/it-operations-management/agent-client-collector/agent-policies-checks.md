@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 34
+reading_time_minutes: 35
 breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
 ---
 
@@ -1364,13 +1364,78 @@ Creates a formatted metric for the length of a MySQL query result set.
 |Event|app.mongodb.check-mongodb-metrics|Creates alerts for any of the MongoDB metrics, based on the threshold limit.| |
 |Metric|app.mongodb.metrics-mongodb|Returns metrics of the MongoDB server and all databases.| |
 
-|Type|Event/Metric|Description|Minimum version|
-|----|------------|-----------|---------------|
-|Event|app.oracle.check-oracle-alive|Checks if the Oracle database is running.|12c, 18c|
-|Metric|app.oracle.metrics-oracle|Returns Oracle database metrics.|12c, 18c|
-|Metric|util.metrics-oracle-query|Generic Oracle query class that accepts a query and dumps metrics.|12c, 18c|
+<table id="table_sd5_ccz_dkb"><thead><tr><th>
 
-<table id="table_wjj_pcz_dkb"><thead><tr><th>
+Type
+
+</th><th>
+
+Event/Metric
+
+</th><th>
+
+Description
+
+</th><th>
+
+Minimum version
+
+</th></tr></thead><tbody><tr><td>
+
+Event
+
+</td><td>
+
+app.oracle.check-oracle-alive
+
+</td><td>
+
+Checks if the Oracle database is running.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION database privilege is activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr><tr><td>
+
+Metric
+
+</td><td>
+
+app.oracle.metrics-oracle
+
+</td><td>
+
+Returns Oracle database metrics.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION and SELECT database privileges are activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr><tr><td>
+
+Metric
+
+</td><td>
+
+util.metrics-oracle-query
+
+</td><td>
+
+Generic Oracle query class that accepts a query and dumps metrics.When using this check, add the OS user \(servicenow\) to the **oinstall** group to ensure that the user has execute permissions for the sqlplus tool.
+
+Ensure that the CREATE SESSION and SELECT database privileges are activated.
+
+</td><td>
+
+12c, 18c
+
+</td></tr></tbody>
+</table><table id="table_wjj_pcz_dkb"><thead><tr><th>
 
 Type
 
@@ -1715,7 +1780,7 @@ Monitors Azure databases on an Azure datacenter.To enable the policy's checks:
 
 The default monitored CI Type is cmdb\_ci\_azure\_datacenter, but the binding occurs on the Cloud Database \(cmdb\_ci\_cloud\_database\).
 
-For details on configuring a policy, see [Create a new Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
+For details on configuring a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-policies.md).
 
 </td><td>
 

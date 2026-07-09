@@ -22,7 +22,7 @@ Role required: sn\_shop.procurement\_administrator
 
 ## About this task
 
-Shows how to configure an approval rule for a delegate. 
+\[Omitted video\] Description: Shows how to configure an approval rule for a delegate.
 
 In Shopping Hub, when a delegate checks out on behalf of the delegator, the default workflow assumes the delegate has full permissions to submit purchase requests \(PRs\). However, you can configure an approval rule to ensure that the first approval request is sent to the business owner \(delegator\). This configuration enables the delegator to review the approval request and decide whether to approve or reject it.
 

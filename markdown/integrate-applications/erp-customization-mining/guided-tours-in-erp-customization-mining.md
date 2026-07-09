@@ -22,7 +22,7 @@ Learn about ERP Semantic Mining guided tours, including how to access and take t
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/exploring-guided-tours.md).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/exploring-guided-tours.md).
 
 ## How to access and use ERP Semantic Mining guided tours
 
@@ -41,10 +41,10 @@ At the end of the guided tour, select **Complete**.
 |Guided tour name|Start page|Path to start page|
 |----------------|----------|------------------|
 |Exploring mining results and candidates|ERP Semantic Mining home page|Navigate to ERP Semantic Mining|
-|ERP Semantic Mining Candidates|ERP Semantic Mining Candidates page|Navigate to ERP Semantic Mining and select the candidates icon \[Omitted image "erpcm-candidates-icon.png"\]|
-|Configuring ERP Semantic Mining|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon \[Omitted image "configuration-alias-icon.png"\]|
-|Export snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon \[Omitted image "configuration-alias-icon.png"\]|
-|Import snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
+|ERP Semantic Mining Candidates|ERP Semantic Mining Candidates page|Navigate to ERP Semantic Mining and select the candidates icon \[Omitted image "image.erpcm-candidates-icon"\]|
+|Configuring ERP Semantic Mining|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon \[Omitted image "image.configuration-alias-icon"\]|
+|Export snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon \[Omitted image "image.configuration-alias-icon"\]|
+|Import snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon \[Omitted image "image.configuration-alias-icon"\]|
 
 **Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

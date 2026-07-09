@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [SMS conversations, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [SMS conversations in HR Service Delivery Agent Workspace, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Set up HR Service Delivery Conversational SMS service channel
@@ -28,40 +28,40 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
 1.  Navigate to **All** &gt; **Advanced Work Assignment** &gt; **Service Channels**.
 
-2.  Click the **SMS** service channel.
+2.  Select the **SMS** service channel.
 
 3.  On the Service Channel SMS form, select the **Active** check box to activate the service channel.
 
     **Note:** By default, most of the form is populated for you. **Capacity and Utilization** fields are set to 1 for **Default work item size** and 4 for **Default capacity**. You can change these, and any form values, if desired.
 
-    \[Omitted image "setup-hr-sms-service-channel.png"\] Alt text: HR SMS Service Channel SMS form
+    \[Omitted image "setup-hr-sms-service-channel.png"\] Alt text: Service Channel SMS form showing Active check box and capacity settings for HR SMS
 
-4.  Click the Queues related list to view and configure the HR SMS queue.
+4.  Select the Queues related list to view and configure the HR SMS queue.
 
-    \[Omitted image "Queues-related-list-hr-sms.png"\] Alt text: HR SMS Queues related list
+    \[Omitted image "Queues-related-list-hr-sms.png"\] Alt text: Queues related list displaying HR SMS queue configuration
 
 5.  View the default configurations on the Queue HR SMS form, ensuring the **Active** check box is checked.
 
 6.  Modify values as you desire.
 
-    \[Omitted image "hr-sms-queue-configuration.png"\] Alt text: Queue HR SMS form configuration
+    \[Omitted image "hr-sms-queue-configuration.png"\] Alt text: Queue HR SMS form showing Active check box and default configuration settings
 
-7.  Click on any of the related lists to view or modify default configured values.
+7.  Select on any of the related lists to view or modify default configured values.
 
-    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md) to learn how to add users to this group.
+    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAGroup.md) to learn how to add users to this group.
 
-8.  Click **Update** to save any changes you made.
+8.  Select **Update** to save any changes you made.
 
 9.  Update the Advanced Work Assignment Presence States by navigating to **Advanced Work Assignment** &gt; **Settings** &gt; **Presence States**.
 
-10. Click **Available** in the Presence States list.
+10. Select **Available** in the Presence States list.
 
 11. In the Presence State Available form, select **SMS** in the **Service channels Available** column and move it to the **Selected** column using the right-pointing arrow.
 
-    \[Omitted image "sms-hr-presence-state-config.png"\] Alt text: HR SMS Advanced Work Assignment Presence States configuration
+    \[Omitted image "sms-hr-presence-state-config.png"\] Alt text: Presence State Available form with SMS moved to Selected service channels column
 
-12. Click **Update**.
+12. Select **Update**.
 
-    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
+    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-sms-service-channel-store-app.md).
 
 

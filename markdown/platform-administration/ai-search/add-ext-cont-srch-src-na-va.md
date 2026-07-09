@@ -1,13 +1,13 @@
 ---
 title: Add an external content search source to Now Assist in Virtual Agent
-description: Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent conversations.
+description: Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent chats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/add-ext-cont-srch-src-na-va.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-06"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, External Content Connectors, ServiceNow Store applicatio
 
 # Add an external content search source to Now Assist in Virtual Agent
 
-Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent conversations.
+Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent chats.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required: ais\_admin
 
 ## About this task
 
-Linking a search source to the **Now Assist in VA** search profile makes its filtered content available in Now Assist in Virtual Agent conversations. AI Search only uses content from the search profile's linked search sources when generating responses for Now Assist in Virtual Agent conversations.
+Linking a search source to the **Now Assist in VA** search profile makes its filtered content available in Now Assist in Virtual Agent chats. AI Search only uses content from the search profile's linked search sources when generating responses for Now Assist in Virtual Agent chats.
 
-When linking a search source to the **Now Assist in VA** search profile, you can specify options that control how the search source's content is accessed for Now Assist in Virtual Agent conversations. You can exclude the search source's content from being considered when finding standard search results, or prevent it from being considered during Genius Result answer generation.
+When linking a search source to the **Now Assist in VA** search profile, you can specify options that control how the search source's content is accessed for Now Assist in Virtual Agent chats. You can exclude the search source's content from being considered when finding standard search results, or prevent it from being considered during Genius Result answer generation.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ When linking a search source to the **Now Assist in VA** search profile, you can
 
 ## Result
 
-The new search source appears in the Search Sources related list. Now Assist in Virtual Agent conversations immediately reflect changes to the set of records searchable through the search profile.
+The new search source appears in the Search Sources related list. Now Assist in Virtual Agent chats immediately reflect changes to the set of records searchable through the search profile.
 
 ## What to do next
 

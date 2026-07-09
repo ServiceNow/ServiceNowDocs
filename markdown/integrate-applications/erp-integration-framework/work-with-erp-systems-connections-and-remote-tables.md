@@ -67,7 +67,7 @@ Extraction tables use an ETL process to extract large amounts of data from the E
 
 </td></tr></tbody>
 </table>-   **[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)**  
-Models in Zero Copy Connector for ERP function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform.
+Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform
 -   **[Next steps after extracting data from your ERP system using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpi-next-steps-replatforming.md)**  
 After you identify and extract ERP data with Zero Copy Connector for ERP, you can use that data on the ServiceNow AI Platform as the data source for products and apps.
 -   **[Managing ERP development pipelines in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/manage-erp-tables-pipelines.md)**  

@@ -18,7 +18,7 @@ Reference information to provide additional details about Demand Management such
 
 -   **[Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-task.md)**  
 A demand task is a unit of work, created within a demand, to break down initial planning activities before converting the demand into a project, change, enhancement, or defect.
--   **[Actual cost and effort calculation for a demand and demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/actual-cost-effort-calculation-demand.md)**  
+-   **[Actual cost and effort calculation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/actual-cost-effort-calculation-demand.md)**  
 The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
 -   **[Demand Management key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/r_DemandManagementKeyTerms.md)**  
 Important terms in Demand Management are listed in the table.

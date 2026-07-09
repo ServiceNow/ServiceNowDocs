@@ -1,6 +1,6 @@
 ---
 title: Employee Slate home
-description: Access services, tasks, and announcements from a AI-first dashboard that helps with your daily work.
+description: Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-home-page.html
 release: zurich
@@ -8,20 +8,20 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-01-27"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Employee Slate home page, home experience, personalized home, widgets, Employee Slate]
 breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Employee Slate home
 
-Access services, tasks, and announcements from a AI-first dashboard that helps with your daily work.
+Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 
 Employee Slate is an employee engagement layer that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost work productivity.
 
 Employee Slate provides a set of default widgets on the home page that surface actionable information and give employees a consolidated view.
 
-\[Omitted image "es-home-page.png"\] Alt text: Employee Slate home
+\[Omitted image "es-home-page.png"\] Alt text: Employee Slate home page showing widgets including Tasks and requests, Employee Comms, Popular Content, Quick Links, and Upcoming Holiday
 
 -   Homepage displays a dashboard with widgets and shortcuts relevant to your daily work.
 -   Widget content is updated to reflect current priorities, pending tasks, and relevant announcements. The page provides a starting point for accessing all the capabilities and services.
@@ -30,14 +30,7 @@ Employee Slate provides a set of default widgets on the home page that surface a
 
 The homepage features a prominent AI-powered chat and search bar. Employees can interact with the chat in natural language. When employees submit the initial query, it expands into a full-page conversation view powered by Moveworks or Now Assist, capable of answering questions, submitting requests, and surfacing relevant content.
 
-## Suggested prompts
-
-Suggested prompts help employees get started with common actions and queries.
-
--   With Moveworks, your admins can configure these prompts based on organizational requirements.
--   With Now Assist, your admins can configure promoted assets as prompts.
-
-For a set of prompts that you can use across Employee Slate features, see [Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
+**Important:** AI-generated outputs may be inaccurate or incomplete. Review all AI-generated content before taking action.
 
 ## Home widgets
 
@@ -45,7 +38,7 @@ Employee Slate includes the following widgets on the home page. Use the flexible
 
 -   **Tasks and requests**
 
-    Surfaces priority tasks and approvals for your employees to act right from Tasks and requests. The widget highlights the top two AI-prioritised to-do items for immediate attention and action. Tasks and requests provides quick access to the full task or approval record.
+    Surfaces priority tasks and approvals for your employees to act directly from **Tasks and requests**. The widget highlights the top two AI-prioritized to-do items for immediate attention and action. Tasks and requests provides quick access to the full task or approval record.
 
 -   **Employee Comms**
 
@@ -64,5 +57,21 @@ Employee Slate includes the following widgets on the home page. Use the flexible
     Shows upcoming company holidays relevant to the employee location. The widget uses the location to display the upcoming holiday schedule.
 
 
-Administrators control which widgets are available on the home page from the widget instance at Employee Home Page &gt; Container. The home page does not support arbitrary addition of custom widgets outside of the widget library managed through the console.
+Administrators control which widgets are available on the home page from the widget instance at **Employee Home Page** &gt; **Container**. The home page does not support arbitrary addition of custom widgets outside of the widget library managed through the console.
+
+## Guided widget configuration
+
+The **Home** section of the admin console lets administrators manage all default home page widgets in one place. Instead of editing widget properties directly, administrators select a widget, make changes in a dedicated page, and preview the result before saving.
+
+-   Widget selection: The **Home** section lists the default home page widgets.
+-   Live preview: Changes appear immediately in a preview panel with light/dark theme and desktop/mobile layout options.
+
+## Suggested prompts
+
+Suggested prompts help employees get started with common actions and queries.
+
+-   With Moveworks, your admins can configure these prompts based on organizational requirements.
+-   With Now Assist, your admins can configure promoted assets as prompts.
+
+For a set of prompts that you can use across Employee Slate features, see [Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
 

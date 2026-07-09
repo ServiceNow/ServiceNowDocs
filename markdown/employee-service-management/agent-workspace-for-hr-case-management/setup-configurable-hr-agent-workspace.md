@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -20,16 +20,16 @@ Set up Agent Workspace for HR Case Management so that your agents can engage wit
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   Install the application Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\].
+-   Install the application Agent Workspace for HR Case Management \[com.sn\_hr\_agent\_ws\].
 -   Set up these components:
     -   Communication channels and routing.
     -   Additional components and settings that are specific to HR Service Delivery.
     -   Forms in workspace. See [Customize fields in a form in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.md).
-    -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md).
+    -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_set-up-configurable-workspace.md).
 
 ## Roles installed
 
-By installing the HR Service Delivery Configurable Workspace \[sn\_hr\_agent\_ws\], you install the following roles:
+By installing the HR Service Delivery Configurable Workspace \[com.sn\_hr\_agent\_ws\], you install the following roles:
 
 <table><thead><tr><th>
 
@@ -51,7 +51,7 @@ HR manager \[sn\_hr\_core.manager\]
 
 Grants access to all HR cases, profiles, and secure information.With this role, you can manage Agent Workspace for HR Case Management lists and categories.
 
- This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_ElevatedPrivilege.md).
+ This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_ElevatedPrivilege.md).
 
  The Workspace user \[workspace\_user\] role allows you to access Agent Workspace for HR Case Management and create and access interactions.
 

@@ -46,5 +46,5 @@ For more information, see [Taxonomy and connected content](https://raw.githubuse
 **Related topics**  
 
 
-[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
+[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ServiceCatalogCategories.md)
 

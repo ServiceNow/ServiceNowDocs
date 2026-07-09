@@ -26,7 +26,7 @@ To complete the activation process, create a new Now Assist context menu configu
 Create a new Now Assist context Menu configuration to deploy and activate a custom skill.
 -   **[Create multiple Now Assist context menu skill configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-multple-nacm-skill-configuration.md)**  
 Create multiple Now Assist context menu configuration for the same field and table.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nacm-variable-set-description.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nacm-variable-set-description.md)**  
 
 
 **Parent Topic:**[Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-write-overview.md)

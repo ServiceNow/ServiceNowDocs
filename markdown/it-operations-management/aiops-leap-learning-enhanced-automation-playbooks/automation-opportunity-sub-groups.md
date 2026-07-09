@@ -7,7 +7,7 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 keywords: [automation opportunities, LEAP, sub-groups]
 breadcrumb: [Automation opportunities, Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
@@ -50,5 +50,5 @@ For example: An automation opportunity for "email delivery failures" has resolut
 -   Enables more effective management of large automation opportunities
 -   Supports operational efficiency by reusing prior resolutions where appropriate
 
-See [Create sub-groups for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/creating-subgroups-for-automation-opportunities.md) for detailed steps to create sub-groups.
+For detailed steps, see [Create sub-groups for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/creating-subgroups-for-automation-opportunities.md).
 

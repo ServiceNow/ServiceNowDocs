@@ -1,6 +1,6 @@
 ---
-title: Configure the Smart Documents Skill for Now Assist in Document Management
-description: Configure the Smart Document skill to get document insights through seamless conversational interactions by using Now Assist in Document Management application.
+title: Configure the smart documents skill
+description: The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configure-skill-smart-documents.html
 release: zurich
@@ -10,13 +10,17 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure the Smart Documents Skill for Now Assist in Document Management
+# Configure the smart documents skill
 
-Configure the Smart Document skill to get document insights through seamless conversational interactions by using Now Assist in Document Management application.
+The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions
 
 ## Before you begin
 
 Role required: sn\_nowassist\_admin.nsa\_admin
+
+**Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. Disable it if not required on any table.
+
+For earlier versions, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/activate-smart-documents.md).
 
 ## Procedure
 
@@ -24,28 +28,32 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 2.  In the workflow list, select **Platform**.
 
-3.  In the Now Assist skills for Platform, go to the Smart Documents skill and select **Activate skill**.
+3.  In the Now Assist skills for Platform, locate the **Smart Documents** skill.
 
-4.  In the Define availability section, select the tables that you want to activate the smart documents for.
+    **Note:** The smart documents skill is enabled by default. You can configure it to specify which tables should have the feature, manage user access, or customize display settings.
 
-5.  Select **Save and continue** to go to the next step in the guided setup.
+4.  Select options icon \[Omitted image "icon-um-more-options-vertical.png"\] Alt text: Options icon.
 
-    A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
+5.  Select **Edit**.
 
-6.  In the Define access section, determine the roles that have access to this skill.
+6.  In the Define Availability section, specify the tables where you want the smart documents skill to be enabled.
+
+    **Note:** If you leave this section empty, the skill remains enabled on all tables. If you specify particular tables, the skill will be enabled only on those tables.
 
 7.  Select **Save and continue** to go to the next step in the guided setup.
 
-8.  In the select display section, choose where to display the smart documents.
+    A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill.
 
-9.  Select **Save and continue**.
+8.  In the Define access section, determine the roles that have access to this skill.
 
-10. Review your selection and select **Activate**.
+9.  Select **Save and continue** to go to the next step in the guided setup.
 
-    The guided setup is complete and the skill is activated.
+10. In the Select Display section, choose where to display the Smart Documents.
 
+11. Select **Save and continue**.
 
-## What to do next
+12. Review your selection and select **Done**.
 
-System property to use Smart Documents skill features [System property for Smart Documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/system-property-smart-documents.md).
+    Your changes are applied. The smart documents skill is now enabled only on the tables you specified or on all the tables if left empty. The Ask Now Assist button displays according to your display preferences and role-based access settings.
+
 

@@ -1,20 +1,20 @@
 ---
-title: Resolve HR cases using guided decision trees in Agent Workspace for HR Case Management
-description: Quickly resolve HR cases using guided decision trees that provide a predetermined sequence of questions to triage employee cases.
+title: Use recommended actions
+description: Provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
-# Resolve HR cases using guided decision trees in Agent Workspace for HR Case Management
+# Use recommended actions
 
-Quickly resolve HR cases using guided decision trees that provide a predetermined sequence of questions to triage employee cases.
+Provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
 
 ## Before you begin
 
@@ -22,24 +22,28 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 ## About this task
 
-For more information about guided decision trees, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/setting-up-guided-decisions.md).
+**Note:** If there are any existing guided decisions, add those decisions within the HR case context in .
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text:\).
 
 3.  Select an HR case.
 
-4.  In the contextual side panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text: Recommendations icon\).
+4.  In Contextual Side Panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text:\).
 
-5.  Select **Start**\[Omitted image "guided-trees-start.png"\] Alt text: Guided trees - start.
+5.  Review similar cases, relevant KB articles, and suggested actions in the context of the current case.
 
-6.  Select your response and then select **Next** to progress through the decision tree.
+    |Option|Description|
+    |------|-----------|
+    |**Similar cases**|Use the View case option to review the full details of the case.|
+    |**KB search**|Use the following options as needed: Attach and add link in comment, Read article, Attach and add link in email, Add link in worknote, and Copy link.|
+    |**Suggested actions**|Use the Create an HR approval option to add an approval to the case as needed.|
 
-7.  When you want to end the decision tree, select **Dismiss**.
+    \[Omitted image "image.recommendation-hrsd"\] Alt text: Recommendations panel showing similar cases, KB search results, and suggested actions for HR case
 
-8.  Select **View my responses** to view all the responses chosen in the decision tree\[Omitted image "guided-trees-aws.png"\] Alt text: Guided decision tree.
+    \[Omitted image "image.rec-hr-case-approval"\] Alt text: Create HR approval dialog with approval details and assignment options
 
 

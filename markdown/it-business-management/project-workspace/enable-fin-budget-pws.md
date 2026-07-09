@@ -32,9 +32,9 @@ Enable allocation property after migrating to Next Experience to work on budget 
 
 ## What to do next
 
-Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
 
--   **[Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md)**  
+-   **[Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md)**  
 Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your projects using Project Workspace.
 
 **Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-fin-pws.md)

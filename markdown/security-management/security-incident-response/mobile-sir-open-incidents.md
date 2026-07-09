@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,8 +36,6 @@ From the list of records, assign an open security incident to yourself, or reass
 
     The Open Incidents screen is displayed with a list of open security incident records.
 
-    \[Omitted image "mobile-sir-si-list.png"\] Alt text: Open Incidents list.
-
 3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
     Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
@@ -46,15 +44,15 @@ From the list of records, assign an open security incident to yourself, or reass
 
 5.  Choose one from the menu that is displayed to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d290575e174">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d312824e165">
 
 Option
 
-</th><th align="left" id="d290575e177">
+</th><th align="left" id="d312824e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d290575e183">
+</th></tr></thead><tbody><tr><td id="d312824e174">
 
 **Assign to Me**
 
@@ -62,7 +60,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d290575e192">
+</td></tr><tr><td id="d312824e183">
 
 **Reassign**
 
@@ -81,35 +79,33 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-    \[Omitted image "mobile\_SIR-opnesi-record.jpg"\] Alt text: Tabs on open security incident record highlighted.
-
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d290575e268">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d312824e247">
 
 Option
 
-</th><th align="left" id="d290575e271">
+</th><th align="left" id="d312824e250">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d290575e277">
+</th></tr></thead><tbody><tr><td id="d312824e256">
 
-**Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) on the upper right of the screen.**
+**Menu icon**
 
 </td><td>
 
 From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Security Incident screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
 -   To reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
- After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the security incident.
+ After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d290575e322">
+</td></tr><tr><td id="d312824e289">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
+With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d290575e340">
+</td></tr><tr><td id="d312824e301">
 
 **Related List tab**
 
@@ -119,7 +115,7 @@ With the Related List tab selected, view the items of any Related Lists of the s
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d290575e355">
+</td></tr><tr><td id="d312824e316">
 
 **Screen icons at the bottom of the screen.**
 

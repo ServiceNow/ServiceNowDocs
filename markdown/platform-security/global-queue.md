@@ -14,7 +14,7 @@ breadcrumb: [Concepts for service providers, Exploring domain separation, Domain
 
 The global queue concept provides a single virtual view of tasks that reside in multiple instances. The concept creates a custom application to provide a fulfiller view of work that resides in multiple instances without having to replicate tasks or data.
 
-## Overview
+## Global queue overview
 
 \[Omitted image "global-queue.png"\] Alt text: Global queue
 

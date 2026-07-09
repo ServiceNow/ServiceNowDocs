@@ -28,6 +28,8 @@ A search source defines a subset of indexed content that users can search using 
 Search profiles define search sources and settings for linguistic search query features. Each search profile represents an individual search experience that you want to offer users in a supported ServiceNow AI Platform® application.
 -   **[Enable AI Search in supported ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-now-platform-apps-ais.md)**  
 Provide multiple search entry points across your organization by enabling AI Search as the search engine for search applications. The base system enables AI Search as the search engine for global and workspace search, Customer Service Management, Now Mobile, Service Portal, and Virtual Agent.
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/generate_multicontent_sythesized-sources.md)**  
+Multi-content source synthesis lets AI Search gather and combine information from any indexed source in your system to provide comprehensive AI-generated responses to your questions.
 -   **[Provide users with powerful and flexible search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-features-search-ais.md)**  
 AI Search includes search features that help users find the answers they need.
 -   **[Enable search result refinement filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-features-refine-ais.md)**  

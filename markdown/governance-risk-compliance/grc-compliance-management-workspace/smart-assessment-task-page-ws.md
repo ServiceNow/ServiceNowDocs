@@ -28,7 +28,7 @@ As an attestation respondent of the control you can log in to the Compliance Wor
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
+2.  Select \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
 
     You can view the Control attestations on the left panel.
 

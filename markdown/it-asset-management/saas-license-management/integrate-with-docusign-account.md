@@ -8,7 +8,7 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2025-11-07"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
@@ -41,111 +41,53 @@ Docusign Role required: admin
 
 1.  Log in to your Docusign demo \(non-production\) account.
 
-2.  Select your profile picture.
+    You can use any subaccount for logging in that is later promoted to the corresponding production account.
 
-3.  Select **My Apps and Keys**.
+2.  Go to the Admin tab.
 
-    -   If you already have an API integration key from a previous integration ready for use in production, [skip to step 33](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-account.md).
-    -   If you don't have your client secret saved, you must generate a new one.
-4.  On the side pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
+    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 14](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-account.md).
+    -   If you don't have your API integration key saved, you must generate a new one.
+3.  On the side navigation pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
 
-5.  In the **Apps and Integration Keys** section, select **ADD APP AND INTEGRATION KEY**.
+4.  In the **Apps and Integration Keys** section, select **Add App and Integration key**.
 
-6.  On the Add Integration Key form, provide a name in the **App Name** field and select**CREATE APP**.
+5.  On the Add Integration Key form, enter a unique name for your application in the **App Name** field and select **CREATE APP**.
 
-7.  Select **ADD URI** under the **Redirect URIs** field in the **Additional Settings** section.
+6.  On the profile page of your application, select **Third-party integration key** in the **Integration Type** field.
 
-8.  Add `https://oauth.pstmn.io/v1/browser-callback`.
+7.  Copy the value of the **Integration Key** and secure it for later use.
 
-9.  Select **ADD URI** again and add`https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
+    Save the Integration Key \(Client ID\) in a secure location to use it later for integration with the ServiceNow instance.
 
-10. Select **ADD SECRET KEY**.
+8.  Select **Save**.
 
-    Save the Integration Key \(Client ID\) and Secret Key \(Client secret\) in a secure location to use them later in the Postman App and the Integration Key \(Client ID\) in the ServiceNow instance.
+9.  In the **Apps and Integration Keys** section, locate the application that you just created in the App Name list.
 
-11. Select **Save**.
+10. Select **Actions** &gt; **Select Go-Live account**.
 
-12. Download the latest version of [Postman App](https://www.getpostman.com/) and skip the login.
+    A Docusign login window pops up prompting you to enter the credentials for your Docusign account.
 
-13. Select **New Collection** and provide a name to the collection.
+11. Enter your Docusign credentials.
 
-14. Select the **Authorization** tab.
+12. Select a production account on the window that pops up prompting you to choose a production account to which you want to promote your integration key.
 
-15. From the Type list menu, select **OAuth 2.0**.
+    The **Go Live Status** field changes to **Pending approval**. For a successful Go-Live review, your app must meet the requirements for Go-Live for each API that it uses. For more information on the Go-Live review stages, see [Docusign documentation](https://developers.docusign.com/platform/go-live/).
 
-16. Provide a name and complete the fields on the **Configuration Options** tab to create a token:
+13. After the integration is approved, the **Go Live Status** changes to **View in production**.
 
-    |Field|Value|
-    |-----|-----|
-    |Callback URL|`https://oauth.pstmn.io/v1/browser-callback`|
-    |Auth URL|`https://account-d.docusign.com/oauth/auth`|
-    |Access Token URL|`https://account-d.docusign.com/oauth/token`|
-    |Client ID|The integration key from your Docusign demo account created in [step 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-account.md).|
-    |Client Secret|The secret key from your Docusign demo account [step 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-account.md).|
+14. Log in to your Docusign production account and verify that the same integration key has been promoted to the production account.
 
-17. Select **Get New Access Token**.
+15. On the side navigation pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
 
-    You're redirected to Docusign.
+16. Next to your application, select **Actions** &gt; **Edit**.
 
-18. Select **Accept**.
+17. Select **ADD URI** and add `https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
 
-19. After the access token is collected and authentication is complete, copy the Access Token to use it later.
+18. Select **ADD SECRET KEY**.
 
-20. Select **New Request** to create a GET request for your account id.
+    Save the Secret Key \(Client secret\) for your production account in a secure location to use it later for integration with the ServiceNow instance.
 
-21. Enter the URL in the GET field as `https://account-d.docusign.com/oauth/userinfo`.
-
-22. On the Headers tab, select **Authorization** under **KEY** and enter `Bearer *&lt;Access Token that you copied during authentication&gt;*` under **Value**.
-
-23. Select **Send** and verify that your request is complete.
-
-    The account id is displayed in the response body.
-
-24. Duplicate the GET request.
-
-    Copy the authorization key and value under **Headers**.
-
-25. Update the URL in the GET field to `https://demo.docusign.net/restapi/v2/accounts/<account-id>/users`.
-
-    Here, *account-id* is the ID that you saved from the previous request.
-
-26. Select **Send** 20 times to make 20 API calls.
-
-    You must invoke a minimum of 20 API calls to register your application through the Docusign admin portal.
-
-27. Navigate to **Apps and Integration Keys** on the Docusign admin portal.
-
-28. Select **Actions** &gt; **View API Dashboard** next to your application.
-
-29. Wait a few minutes for Docusign to register all the 20 API calls.
-
-30. Navigate to **INTEGRATIONS** &gt; **Apps and Keys** and select **Submit for review**.
-
-    After 5-20 minutes, your application review is complete. You can promote the application to your production account.
-
-31. Select **Actions** &gt; **Start-Go- Live review** to promote the application to the production account.
-
-32. Select an eligible production account to manage the integration key.
-
-33. Log in to your Docusign production account.
-
-34. Select your profile picture.
-
-35. Select **Go to Admin**.
-
-36. On the side pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
-
-    Locate your API Account ID to use for the integration profile in your ServiceNow instance.
-
-37. Next to your application, select **Actions** &gt; **Edit**.
-
-38. Select **ADD URI** and add `https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
-
-39. Select **ADD SECRET KEY**.
-
-    Save the Secret Key \(Client secret\) for your production account in a secure location to use it in your ServiceNow instance.
-
-40. Select **Save**.
+19. Select **Save**.
 
 
 ## Create a Docusign integration profile at Account level
@@ -166,15 +108,15 @@ If you’re using Software Asset Workspace, the option to create the Docusign in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d65959e871">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d67857e550">
 
 Interface
 
-</th><th align="left" id="d65959e874">
+</th><th align="left" id="d67857e553">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d65959e880">
+</th></tr></thead><tbody><tr><td id="d67857e559">
 
 **Core UI**
 
@@ -185,7 +127,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d65959e922">
+</td></tr><tr><td id="d67857e601">
 
 **Software Asset Workspace**
 

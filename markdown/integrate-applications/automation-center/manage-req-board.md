@@ -8,7 +8,7 @@ product: Automation Center
 classification: automation-center
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Kanban board, Explore, Automation Center, Workflow Data Fabric]
 ---
 
@@ -80,6 +80,16 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
     -   View if an automation request has a task assigned to it. If yes, then how many tasks have been completed.
     -   View if an automation request has automations associated with it.
+    -   View details of the automation request and create tasks.
+        1.  Double-click a request that is in **Planned** state or any state after that.
+
+            The contextual panel opens to the right of the screen.
+
+        2.  View any details or comments in the **Details** and **Comments** tab of the contextual panel.
+        3.  In the **Tasks** tab, select the **Add Task** button.
+
+            The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-task-form.md).
+
 
 -   **[Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/run-fix-scripts.md)**  
 To view automation requests from the demo data in your Kanban board, you must run the fix script.

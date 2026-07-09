@@ -1,26 +1,26 @@
 ---
 title: Escalating a case in Agent Workspace for HR Case Management
-description: Escalate an HR case when you are unable to resolve an issue and must amplify the importance of a case.
+description: Escalate an HR case when you're unable to resolve an issue and must amplify the importance of a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-escalate-case.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Escalating a case in Agent Workspace for HR Case Management
 
-Escalate an HR case when you are unable to resolve an issue and must amplify the importance of a case.
+Escalate an HR case when you're unable to resolve an issue and must amplify the importance of a case.
 
 ## Before you begin
 
 Role required: sn\_hr\_core.case\_writer
 
-The matching rules you have implemented will determine the group and agent the case is escalated to. For more information, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) and [Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
+The matching rules you have implemented will determine the group and agent the case is escalated to. For more information, see [Assignment and matching rules in HR]() and [Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ The matching rules you have implemented will determine the group and agent the c
 
 5.  In the Work notes, enter a reason for escalating the case.
 
-6.  Click **OK**.
+6.  Select **OK**.
 
     The form refreshes and is now assigned to the next tier assignment group.
 

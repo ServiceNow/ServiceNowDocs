@@ -36,5 +36,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/configure-my-requests.md)
+[Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-my-requests.md)
 

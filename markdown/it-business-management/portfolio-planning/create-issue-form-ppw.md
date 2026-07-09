@@ -1,20 +1,20 @@
 ---
-title: Create issue form
-description: The issue form information is used to create an issue for the demand.
+title: Issue form
+description: The issue form enables you to create an issue for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-issue-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create issue form
+# Issue form
 
-The issue form information is used to create an issue for the demand.
+The issue form enables you to create an issue for a demand.
 
 <table id="table_kxv_nr2_1vb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ State
 
 </td><td>
 
-Current state of the issue. All new issue records are created in the Open state.The available states are:
+Current state of the issue. Issues are created in the Open state.The available values are:
 
 -   Pending
 -   Open
@@ -53,7 +53,13 @@ Priority
 
 </td><td>
 
-Urgency of resolving or managing the issue based on possible impact.
+Urgency and importance of the issue based on the possible impact. Issues are created with Low priority.The available values are:
+
+-   Critical
+-   High
+-   Moderate
+-   Low
+-   Planning
 
 </td></tr><tr><td>
 
@@ -69,7 +75,11 @@ Impact
 
 </td><td>
 
-Impact on the outcome of the demand if the issue remains unresolved.
+Impact of the issue on the demand. Issues are created with Low impact.The available values are:
+
+-   High
+-   Medium
+-   Low
 
 </td></tr><tr><td>
 
@@ -77,8 +87,8 @@ Due date
 
 </td><td>
 
-Requested date for one of the following situations:-   If the issue has an assigned resource, then the due date is the date for resolving the issue.
--   If the issue isn’t assigned to any resource, then the due date is the date when the issue must be closed or addressed.
+Requested date for issue resolution or closure.-   If the issue has an assigned resource, the due date is for resolving the issue.
+-   If the issue isn’t assigned to any resource, the due date is for closing or addressing the issue.
 
 </td></tr><tr><td>
 
@@ -86,7 +96,7 @@ Assigned to
 
 </td><td>
 
-Primary resource assigned to work on the issue resolution.
+Resource assigned to work on the issue.
 
 </td></tr><tr><td>
 
@@ -94,7 +104,7 @@ Parent
 
 </td><td>
 
-Demand to which this issue belongs.
+Demand associated with the issue. This field is auto-populated.
 
 </td></tr><tr><td>
 
@@ -102,7 +112,7 @@ Short description
 
 </td><td>
 
-Brief description of the issue and its potential impact on the success of the demand.
+Brief summary of the issue.
 
 </td></tr><tr><td>
 
@@ -110,7 +120,7 @@ Description
 
 </td><td>
 
-Details of the issue and its potential impact.
+Brief description of the issue and its impacts on the demand.
 
 </td></tr><tr><td>
 
@@ -118,7 +128,7 @@ Work notes
 
 </td><td>
 
-Information to record and track the work accomplished for resolving the issue.
+Information about the issue.
 
 </td></tr></tbody>
 </table>

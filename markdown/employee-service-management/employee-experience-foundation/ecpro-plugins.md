@@ -95,7 +95,7 @@ Package your content into a campaign using multiple channels to deliver the righ
 [Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md)
 
 </td></tr></tbody>
-</table>To learn about the tables, roles, and widgets installed, see [Components installed with Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+</table>To learn about the tables, roles, and widgets installed, see [Components installed with Employee Center Pro]()
 
 ## Plugins to extend Employee Center Pro capabilities
 
@@ -125,7 +125,7 @@ Communities \(com.sn\_communities\)
 
 The Communities plugin supports [Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-[Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/communities/activate-communities.md)
+[Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-communities.md)
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ Content Governance provides a streamlined way for employees to request content t
 [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 </td></tr></tbody>
-</table>For more information, see the [List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md).
+</table>For more information, see the [List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md).
 

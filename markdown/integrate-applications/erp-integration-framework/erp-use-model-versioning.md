@@ -33,17 +33,17 @@ As you work with model records on a development instance, at certain intervals y
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] in the side panel.
+2.  Open the ERP models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] in the side panel.
 
     View the **Version** column in the list.
 
-    \[Omitted image "erp-model-versions1.png"\] Alt text: Model list with version column highlighted.
+    \[Omitted image "image.erp-model-versions1"\] Alt text: Model list with version column highlighted.
 
 3.  Select a model in the list to open a record.
 
 4.  View the version on the individual model record.
 
-    \[Omitted image "erp-model-versions2.png"\] Alt text: Model record with version number highlighted.
+    \[Omitted image "image.erp-model-versions2"\] Alt text: Model record with version number highlighted.
 
 
 **Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)

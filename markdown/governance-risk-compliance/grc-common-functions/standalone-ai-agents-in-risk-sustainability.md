@@ -27,6 +27,6 @@ The following AI agents are available in the Now Assist for IRM application:
 
 -   Control Objective Change Agent
 
-    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.md).
+    For more information, see [Use the control objective change agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.md).
 
 

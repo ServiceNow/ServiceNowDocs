@@ -40,7 +40,7 @@ The DEX Self-service plugin gets installed automatically with the Digital End-Us
 
     Configure or customize device health categories and subcategories for issues to enable end users to troubleshoot and resolve issues.
 
-6.  [Configure DEX Self-service device actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.md)
+6.  [Configure device actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.md)
 
     Configure device actions that end users can initiate from DEX Self-service even when no issues are detected.
 

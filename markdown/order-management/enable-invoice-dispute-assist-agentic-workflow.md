@@ -56,12 +56,12 @@ Agentic workflows that are installed with Now Assist applications aren’t autom
 
 ## What to do next
 
-Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist_0.md).
+Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see .
 
 **Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 
 **Related topics**  
 
 
-[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md)
+[bundle-platai.activate-aia-use-case]
 

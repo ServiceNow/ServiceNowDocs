@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configuring an external or custom embedding model, AI Search Retrieval Augmented Generation \(RAG\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring an external or custom embedding model, Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Set up a connection and credential alias for a third-party embedding model
@@ -39,7 +39,7 @@ The system provides the default connection and credential alias for the Azure Op
 
     2.  On the form, fill in the fields.
 
-        For a description of the field values, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+        For a description of the field values, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
 
     3.  Select **Submit**.
 
@@ -61,7 +61,7 @@ The system provides the default connection and credential alias for the Azure Op
         -   To create a credential record for the Amazon Sagemaker Voyage alias, select **AWS Credentials**.
     4.  On the form, fill in the fields.
 
-        For a description of the field values, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/API-key-credential-form.md) for the Azure OpenAI alias, [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md) for the Google Gemini API alias, or [AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/aws-credentials-form.md) for the Amazon Sagemaker Voyage alias.
+        For a description of the field values, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/API-key-credential-form.md) for the Azure OpenAI alias, [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-2-credentials.md) for the Google Gemini API alias, or [AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/aws-credentials-form.md) for the Amazon Sagemaker Voyage alias.
 
     5.  Select **Submit**.
 

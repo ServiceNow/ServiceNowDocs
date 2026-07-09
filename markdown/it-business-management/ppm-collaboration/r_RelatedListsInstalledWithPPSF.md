@@ -27,7 +27,7 @@ This table explains the related lists and how to create or use the records in th
 |Cost Plans|Lists the cost plans of projects and demands that are part of the portfolio.|
 |Monetary Benefit Plans|Lists the financial benefit plans of projects and demands that are part of the portfolio.|
 |Portfolio Target|Lists the portfolio capital and operational expense target for different fiscal years. The values are displayed from the project\_funding table. You can create targets for different financial periods.|
-|Planning &amp; Budgeting|Planning &amp; Budgeting of the project. For more information, see []().|
+|Planning &amp; Budgeting|Planning &amp; Budgeting of the project. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).|
 
 ## Project related lists for financials
 
@@ -39,7 +39,7 @@ This table explains the related lists for financials in a project record.
 |--------------------------|-----------|
 |Cost Plans|Costs of the project for a specific fiscal period. Cost plans can also have an associated expense line.|
 |Monetary Benefit Plans|Potential financial benefits which can be accrued by the project spanning one or more fiscal periods, if the project is executed.|
-|Project Budget|Budget of the project. For more information, see []().|
+|Project Budget|Budget of the project. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).|
 |Expense Lines|Aggregated actual costs associated with a specific source, such as a user, fixed asset, or a CI.|
 
 **Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)

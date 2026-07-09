@@ -20,13 +20,13 @@ Configure an external storage system to store signed contract documents.
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure.
 
--   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/googledrive-spoke.md) v1.3.0 or later version**
+-   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/googledrive-spoke.md) v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-gdrive.md).
+    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-gdrive.md).
 
--   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/onedrive-spoke.md) v2.1.0 or later version**
+-   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/onedrive-spoke.md) v2.1.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-msonedrive.md) .
+    For more information on the setup and creating the Google Drive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-msonedrive.md) .
 
 
 Role required: sn\_lg\_cnt.contract\_admin

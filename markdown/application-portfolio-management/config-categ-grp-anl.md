@@ -1,5 +1,5 @@
 ---
-title: Configure categories to display in Group Analysis page - Legacy
+title: Configure categories in Group Analysis page - Legacy
 description: Configure the categories to display in the Categories list of the Group Analysis page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/config-categ-grp-anl.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Rationalization of applications - Legacy, Management of business capability - Legacy, Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Configure categories to display in Group Analysis page - Legacy
+# Configure categories in Group Analysis page - Legacy
 
 Configure the categories to display in the Categories list of the Group Analysis page.
 

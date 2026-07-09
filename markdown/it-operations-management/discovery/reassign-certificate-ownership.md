@@ -28,7 +28,7 @@ Role required: pki\_admin or admin
 
 3.  Select the certificate you want to reassign.
 
-4.  Select the Search for Record \[Omitted image "icon-search-sow.png"\] Alt text: Search icon. icon in the **Assigned to** field.
+4.  Select the Search for Record \[Omitted image "icon-search-sow.png"\] icon in the **Assigned to** field.
 
 5.  Select a new user to assign the certificate.
 

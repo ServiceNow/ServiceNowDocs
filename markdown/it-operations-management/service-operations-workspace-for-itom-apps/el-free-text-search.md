@@ -39,7 +39,7 @@ Event Management searches through the alerts that you're currently seeing in the
 
 4.  Expand the search to all alerts, including secondary alerts that are a part of alert groups, by selecting **Switch search scope** and then selecting **Extended**.
 
-5.  Perform the search by selecting the check icon \[Omitted image "check-icon.png"\] Alt text: check icon or pressing **Enter**.
+5.  Perform the search by selecting the check icon \[Omitted image "check-icon.png"\] or pressing **Enter**.
 
 
 ## Result

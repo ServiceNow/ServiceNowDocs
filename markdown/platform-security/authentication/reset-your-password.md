@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Authentication, Access Management]
+breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Access Management]
 ---
 
 # Configure password for a user
@@ -18,7 +18,7 @@ Set your user's password for the instance based on the password policy that is c
 
 ## Before you begin
 
-Users created for setting the password for their first login. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md).
+Users created for setting the password for their first login. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md).
 
 To populate the **Password** field directly on the user form, enable the **Enable to show the password field on the sys\_user Form** \(glide.user.show.password.field\). To know more about the properties, see [Password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/password-policy-properties.md).
 

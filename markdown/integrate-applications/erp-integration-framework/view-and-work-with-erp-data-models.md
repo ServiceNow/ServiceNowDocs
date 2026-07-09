@@ -35,9 +35,9 @@ Zero Copy Connector for ERP provides a standard set of models, such as SAP Mater
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
-    \[Omitted image "erp-canvas-models-ys2.png"\] Alt text: Zero Copy Connector for ERP models page
+    \[Omitted image "image.erp-canvas-models-ys2"\] Alt text: Zero Copy Connector for ERP models page
 
 3.  Review the list of ERP models.
 
@@ -192,7 +192,7 @@ Number of times the model entity was updated.
 
     For a description of the field values, see [Zero Copy Connector for ERP ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
 
-    \[Omitted image "erpc-material-stock.png"\] Alt text: Table entity fields for an ERP model
+    \[Omitted image "image.erpc-material-stock"\] Alt text: Table entity fields for an ERP model
 
 
 ## What to do next

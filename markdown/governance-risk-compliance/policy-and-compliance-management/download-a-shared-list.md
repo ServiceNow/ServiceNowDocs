@@ -36,8 +36,6 @@ All data imported from UCF Authority Documents is read-only and must be protecte
 
     A progress bar shows the progress of downloading and importing the documents.
 
-    \[Omitted image "ucf-download-complete.png"\] Alt text: Download complete shown
-
     You may encounter any of the following errors:
 
 <table id="table_jdb_xkg_n1b"><thead><tr><th>
@@ -97,8 +95,6 @@ If the selected UCF Shared List that you are downloading does not include all th
 
 </td></tr></tbody>
 </table>5.  Click **Review Changed Records** to review the list of changed records.
-
-    \[Omitted image "ucf-review-records.png"\] Alt text: List of changed records
 
     Authority documents in the UCF content are organized and mapped to their proper citations, which in turn are mapped to a common set of controls. The terminology between UCF and the GRC applications differs slightly as explained in the following table.
 

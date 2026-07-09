@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [theme builder, add font face, font face]
 breadcrumb: [Upload custom font, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---

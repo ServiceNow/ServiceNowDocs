@@ -24,5 +24,7 @@ Use these decision trees to help your customers decide whether to use a managed 
 
 ## SP reference architecture comparison
 
+\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: Dedicated DS hybrid SIAM
+
 **Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/bp-sp-reference-arch-ds.md)
 

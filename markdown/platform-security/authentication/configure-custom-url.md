@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Custom instance URLs, Authentication, Access Management]
+breadcrumb: [Custom instance URLs, Access Management]
 ---
 
 # Set a custom URL as the instance URL

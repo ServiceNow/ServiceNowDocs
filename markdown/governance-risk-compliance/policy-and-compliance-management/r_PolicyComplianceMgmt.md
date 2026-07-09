@@ -30,7 +30,7 @@ The ServiceNow® Policy and Compliance Management product provides a centralized
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Compliance Workspace for compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/work-in-compliance-ws.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Use the Compliance Workspace for compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/work-in-compliance-ws.md)
 
 </td><td>
 

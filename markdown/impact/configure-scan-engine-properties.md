@@ -28,15 +28,15 @@ Role required: Scan Engine admin and Impact admin
 
 3.  Select **Run Scheduled Scan** to schedule nightly, weekly, or monthly scans, and then configure the following options.
 
-<table id="choicetable_rs4_qpx_2hc"><thead><tr><th align="left" id="d26583e99">
+<table id="choicetable_rs4_qpx_2hc"><thead><tr><th align="left" id="d26750e99">
 
 Schedule option
 
-</th><th align="left" id="d26583e102">
+</th><th align="left" id="d26750e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26583e108">
+</th></tr></thead><tbody><tr><td id="d26750e108">
 
 **Run**
 
@@ -44,7 +44,7 @@ Description
 
 Daily, Weekly, or Monthly scheduled scan run times.
 
-</td></tr><tr><td id="d26583e117">
+</td></tr><tr><td id="d26750e117">
 
 **Day of Week**
 
@@ -52,7 +52,7 @@ Daily, Weekly, or Monthly scheduled scan run times.
 
 The day of the week on which to run weekly scans.
 
-</td></tr><tr><td id="d26583e126">
+</td></tr><tr><td id="d26750e126">
 
 **Day of Month**
 
@@ -60,7 +60,7 @@ The day of the week on which to run weekly scans.
 
 The day of the month on which to run monthly scans.
 
-</td></tr><tr><td id="d26583e135">
+</td></tr><tr><td id="d26750e135">
 
 **Time Zone**
 
@@ -68,7 +68,7 @@ The day of the month on which to run monthly scans.
 
 Your time zone.
 
-</td></tr><tr><td id="d26583e145">
+</td></tr><tr><td id="d26750e145">
 
 **Time**
 
@@ -81,15 +81,15 @@ Your time zone.
 </td></tr></tbody>
 </table>4.  Choose what to scan and how to track the findings.
 
-<table id="choicetable_a4y_xpx_2hc"><thead><tr><th align="left" id="d26583e174">
+<table id="choicetable_a4y_xpx_2hc"><thead><tr><th align="left" id="d26750e174">
 
 Setting
 
-</th><th align="left" id="d26583e177">
+</th><th align="left" id="d26750e177">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26583e183">
+</th></tr></thead><tbody><tr><td id="d26750e183">
 
 **Scan Non-Configuration Records**
 
@@ -97,7 +97,7 @@ Description
 
 Includes non-configuration tables \(which do not extend `sys_metadata`\) in the scan.
 
-</td></tr><tr><td id="d26583e195">
+</td></tr><tr><td id="d26750e195">
 
 **Scan Read-Only Records**
 
@@ -108,7 +108,7 @@ Includes non-configuration tables \(which do not extend `sys_metadata`\) in the 
 -   Read-only records are scanned by default.
 
 
-</td></tr><tr><td id="d26583e221">
+</td></tr><tr><td id="d26750e221">
 
 **Track Resolved Findings**
 
@@ -116,7 +116,7 @@ Includes non-configuration tables \(which do not extend `sys_metadata`\) in the 
 
 Logs any resolved findings as part of the scan and includes them in the View Resolved Findings module of the dashboard.
 
-</td></tr><tr><td id="d26583e230">
+</td></tr><tr><td id="d26750e230">
 
 **Scan Findings Limit**
 
@@ -128,7 +128,7 @@ Logs any resolved findings as part of the scan and includes them in the View Res
 -   Prevents excessive or redundant findings and optimizes scan performance.
 
 
-</td></tr><tr><td id="d26583e257">
+</td></tr><tr><td id="d26750e257">
 
 **Custom Workday**
 
@@ -136,7 +136,7 @@ Logs any resolved findings as part of the scan and includes them in the View Res
 
 By default, technical debt is calculated as a 24-hour day, which allows you to specify a number of hours for a workday. For example, developer workdays can be set to 8 hours instead of 24.**Note:** This is used to calculate various metrics that appear in the Analytics Dashboards.
 
-</td></tr><tr><td id="d26583e268">
+</td></tr><tr><td id="d26750e268">
 
 **Average hourly rate of development**
 
@@ -144,7 +144,7 @@ By default, technical debt is calculated as a 24-hour day, which allows you to s
 
 This figure calculates the cost of technical debt that displays on your dashboard by multiplying it by the estimated time to resolve each finding in the system.
 
-</td></tr><tr><td id="d26583e277">
+</td></tr><tr><td id="d26750e277">
 
 **Batch Record Size**
 
@@ -158,7 +158,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 **Note:** This is a read-only system property that cannot be modified through the UI.
 
-</td></tr><tr><td id="d26583e308">
+</td></tr><tr><td id="d26750e308">
 
 **Scheduled Scan Logging Frequency**
 
@@ -168,7 +168,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 -   Leave blank to disable verbose logging. When set, logs scan progress after processing the specified number of records
 
 
-</td></tr><tr><td id="d26583e328">
+</td></tr><tr><td id="d26750e328">
 
 **Days of scan finding histories to keep**
 
@@ -179,7 +179,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 **Note:** This controls how long historical scan data is retained, not the findings themselves.The default value is 30 days.
 
-</td></tr><tr><td id="d26583e350">
+</td></tr><tr><td id="d26750e350">
 
 **Include review findings in technical debt**
 
@@ -187,7 +187,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 Displays findings on the dashboard where the level of the rule is equal to Review.
 
-</td></tr><tr><td id="d26583e360">
+</td></tr><tr><td id="d26750e360">
 
 **Enable instance specific definitions**
 
@@ -200,7 +200,7 @@ Displays findings on the dashboard where the level of the rule is equal to Revie
 
 **Note:** Configuration option that controls whether definitions run only on specified instances.
 
-</td></tr><tr><td id="d26583e388">
+</td></tr><tr><td id="d26750e388">
 
 ** **
 
@@ -208,7 +208,7 @@ Displays findings on the dashboard where the level of the rule is equal to Revie
 
  
 
-</td></tr><tr><td id="d26583e395">
+</td></tr><tr><td id="d26750e395">
 
 **Scan Out Of Box Records**
 
@@ -221,7 +221,7 @@ Displays findings on the dashboard where the level of the rule is equal to Revie
 
 **Note:** This setting does not apply to real-time scans or update set scans, where base system records are always scanned.
 
-</td></tr><tr><td id="d26583e425">
+</td></tr><tr><td id="d26750e425">
 
 **Scan Non-Configuration Records**
 

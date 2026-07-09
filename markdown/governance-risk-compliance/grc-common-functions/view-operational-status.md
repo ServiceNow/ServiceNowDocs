@@ -30,17 +30,11 @@ Beginning with the Zurich release, Technology Controls Monitoring Accelerator pr
 
 1.  Navigate to **All** &gt; **Technology Controls Monitoring** &gt; **Operational Status**.
 
-    You can view the module as shown in the example.
-
-    \[Omitted image "tech-controls-monitoring.png"\] Alt text: Technology Controls Monitoring module.
-
     **Note:** The CIS controls module is renamed from CIS controls @R to Cybersecurity Controls. The Indicator Templates module is renamed to CIS Indicator Templates.
 
 2.  Select either **CIS Controls** or **Technology Controls**.
 
     **Note:** The screen shown below results from selecting **CIS Controls**. The default columns will be slightly different if you select **Technology Controls**. However, you can select the gear icon to add or remove columns as needed.
-
-    \[Omitted image "operational-status.png"\] Alt text: Indicator templates operational status
 
     Each control includes the following information.
 
@@ -85,9 +79,7 @@ Implementation Group \(IG\)
 
 </td><td>
 
-The implementation group to which the control is included: IG1, IG2, or IG3. IG1 covers most of the essential security controls to serve as a foundation. Then, as needed to improve your security posture, you can add IG2 and IG3 to provide additional levels of support. As illustrated here, IG2 includes all of the controls included in IG1, and IG3 includes all of the controls in IG1 and IG2.
-
-\[Omitted image "target-01.png"\] Alt text: Implementation group hierarchy
+The implementation group to which the control is included: IG1, IG2, or IG3. IG1 covers most of the essential security controls to serve as a foundation. Then, as needed to improve your security posture, you can add IG2 and IG3 to provide additional levels of support.
 
 </td></tr><tr><td>
 

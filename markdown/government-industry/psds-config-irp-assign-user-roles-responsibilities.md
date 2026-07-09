@@ -56,5 +56,5 @@ To create a user assignment group:
 8.  Add the desired roles to the group.
 9.  Select **Save**.
 
-For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and []().
+For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md).
 

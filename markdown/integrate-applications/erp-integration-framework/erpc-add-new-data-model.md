@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 This video was recorded in the Zurich release.
 
-Video that shows how to create a custom model in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to create a custom model in Zero Copy Connector for ERP.
 
 ## About this task
 
@@ -33,7 +33,7 @@ A model functions as a staging area that contains all potential fields you can a
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
@@ -43,7 +43,7 @@ A model functions as a staging area that contains all potential fields you can a
 
 5.  Select **Save**.
 
-6.  Open the ERP models page again by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:.
+6.  Open the ERP models page again by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text:.
 
 7.  Update the page by selecting the refresh list icon.
 

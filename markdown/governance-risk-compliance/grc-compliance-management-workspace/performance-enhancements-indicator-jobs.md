@@ -16,7 +16,7 @@ breadcrumb: [Manage control indicators, Use, GRC Compliance Workspace, Use, Poli
 
 To support parallel processing capabilities, two additional custom queues such as the Indicator Data Queue for processing indicators, and the Supporting Data Queue for handling events related to control, risk, and issue updates and to collect the supporting data, have been introduced.
 
-## New architecture for effective processing of indicators
+## Architecture for effective processing of indicators
 
 The execution of indicators has been optimized by implementing a three-step process, utilizing two custom queues for efficient processing.
 
@@ -27,8 +27,6 @@ In the second step, the Indicator Supporting Data Processor picks up the indicat
 Finally, the Supporting Data Collection Job picks up the indicator records from the Supporting Data Statistics Table, starts collecting supporting data for the indicators, and leverages both the default queue and additional custom queues for efficient processing.
 
 **Note:** Indicator result business rules are not executed during the indicator job run. However, the same business rules are used while completing the indicator task. The indicator business rules are moved to the indicator job for achieving better performance during the execution.
-
-\[Omitted image "indicator-enhance-architect.png"\] Alt text: Workflow illustrating the processing of indicator jobs using additional queues
 
 This architecture supports execution of a large number of indicators in significant time. The Supporting Data Collection Job introduced to collect supporting data improves the data handling process considerably. Moreover, the time taken to execute the data is considerably less.
 

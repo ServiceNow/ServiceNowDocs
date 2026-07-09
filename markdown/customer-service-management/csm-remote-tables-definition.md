@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-remote-tables-definition.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-26"
 reading_time_minutes: 1
 breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,9 +14,12 @@ breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce 
 
 Once you have the spoke custom actions working, you need to create a remote table that describes the schema for the data to be retrieved from the Salesforce Opportunity table.
 
-Create a remote table as shown in the following example.
+Create a remote table with the following information:
 
-\[Omitted image "remote-table-salesforce-opportunity.jpg"\] Alt text: Salesforce Opportunity remote table listing data in columns.
+-   Label: Salesforce Opportunity
+-   Name: u\_st\_salesforce\_opportunity
+-   Application: Global
+-   Remote table: true
 
 Create the script definition for the remote table \(u\_st\_salesforce\_opportunity\), which does the following:
 

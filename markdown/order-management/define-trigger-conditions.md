@@ -16,7 +16,7 @@ Define trigger conditions that start a sequence by configuring simple triggers o
 
 ## Before you begin
 
-**Note:** Multi-trigger capability is available only with at least Playbooks version 28.1 on the Zurich release. For more information, see [Playbooks in Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/process-automation-designer-rn.md).
+**Note:** Multi-trigger capability is available only with at least Playbooks version 28.1 on the Zurich release. For more information, see .
 
 Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/grant-delegated-developer-permissions.md).
 
@@ -47,7 +47,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     To trigger the sequence when a new record is created in the Lead \[sn\_lead\_mgmt\_core\_lead\] table, you would set the condition **\[State\]****\[is\]****\[New\]**.
 
-    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+    For more information, see .
 
 8.  Select **Save and close**.
 
@@ -67,7 +67,5 @@ The new triggers appear in the Record based triggers section of the Triggers pan
 **Related topics**  
 
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
-
-[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/add-configure-trigger.md)
+[bundle-crworkflow.process-automation-designer-triggers]
 

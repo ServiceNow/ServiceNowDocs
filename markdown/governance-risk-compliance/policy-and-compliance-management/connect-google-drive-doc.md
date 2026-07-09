@@ -26,7 +26,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -42,7 +42,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     2.  Select the document that you want to connect to the policy.
 
-    3.  Select the More actions icon \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: More actions icon.\) in the document that you want to connect.
+    3.  Select the More actions icon in the document that you want to connect.
 
     4.  Select the **Copy link** option from the **Share** list.
 

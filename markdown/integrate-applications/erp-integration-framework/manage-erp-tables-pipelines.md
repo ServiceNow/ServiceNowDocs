@@ -29,10 +29,10 @@ Changes that you could promote from a development instance to a production insta
 
 There are several ways to move changes to your production instance on the ServiceNow AI Platform:
 
-1.  Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
-2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see .
+1.  Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md).
+2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see [Publish an application to an Update Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_PublishApplicationsToAnUpdateSet.md).
 
-For more information on ways to publish your ERP updates, see .
+For more information on ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_SharingApplications.md).
 
 **Parent Topic:**[Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

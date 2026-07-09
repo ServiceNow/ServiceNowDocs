@@ -20,7 +20,7 @@ Request renewal for a certificate and automatically retrieve the certificate for
 
 [Set up routing policy for automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/setup-routing-policy.md) to ensure the Certificate Management catalog is enabled.
 
-To renew an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request new certificate using automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-cert-automated-flow.md).
+To renew an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request certificates using automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-cert-automated-flow.md).
 
 Role required: PKI Admin, Admin, Certificate Owner, or Users that are part of the Certificate Owner Group.
 
