@@ -16,7 +16,9 @@ normally at least monthly, sometimes more often.
 
 * Point your AI at `llms.txt` and it should be able to find everything, i.e. "Read https://github.com/ServiceNow/ServiceNowDocs/edit/australia/llms.txt and explain AI Control Tower".
 * **Windows Users:** If you encounter "filename too long" errors when cloning, run:
-   git config --global core.longpaths true
+  ```
+  git config --global core.longpaths true
+  ```
 
 ## Change log
 - __09 July 2026__:
