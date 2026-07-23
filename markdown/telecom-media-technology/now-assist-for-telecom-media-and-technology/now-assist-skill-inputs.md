@@ -24,9 +24,9 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Domain separation is possible at the skill level and at the individual configuration level.
 
-Enable security for Now Assist skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+Enable security for Now Assist skills and flows through access control lists \(ACLs\) and user identities. For more information, see Configure ACLs for AI agents and agentic workflows.
 
-To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
+To understand more about the ServiceNow domain separation, see .
 
 ## Service Problem Case sentiment analysis skill
 

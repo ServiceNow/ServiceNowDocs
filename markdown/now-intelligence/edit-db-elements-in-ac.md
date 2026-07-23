@@ -41,15 +41,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 6.  Perform any of the following actions on the element.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d91758e173">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d91795e173">
 
 Action
 
-</th><th align="left" id="d91758e176">
+</th><th align="left" id="d91795e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91758e182">
+</th></tr></thead><tbody><tr><td id="d91795e182">
 
 **Configure an element**
 
@@ -59,7 +59,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 **Note:** There are role and ownership requirements for editing a component that is shared from a library. If you aren’t allowed to edit an element, create a local version that is not linked to the library and edit that one. For more information, see [Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/editing-local-copy-saved-dv.md).
 
-</td></tr><tr><td id="d91758e219">
+</td></tr><tr><td id="d91795e219">
 
 **Resize the element**
 
@@ -67,7 +67,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 Focus on the element. To increase its height, press **Resize**. To decrease its height, press Shift-**Resize**. To change its width or overall size, select a corner of the element and drag it.
 
-</td></tr><tr><td id="d91758e234">
+</td></tr><tr><td id="d91795e234">
 
 **Add an element to the Library**
 
@@ -84,7 +84,7 @@ Role required for data visualization: itil, report\_user, viz\_creator, or highe
 4.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d91758e280">
+</td></tr><tr><td id="d91795e280">
 
 **Delete an element from the dashboard**
 
@@ -97,7 +97,7 @@ The data visualization is available in the Visualization library for use on othe
 
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d91758e316">
+</td></tr><tr><td id="d91795e316">
 
 **Move an element between or above tabs**
 
@@ -111,7 +111,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d91758e359">
+</td></tr><tr><td id="d91795e359">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -119,7 +119,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 
 Data visualizations follow filters by default. A data visualization follows filters in the same tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.For configuration instructions, see [Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md).
 
-</td></tr><tr><td id="d91758e377">
+</td></tr><tr><td id="d91795e377">
 
 **Set drilldown options**
 

@@ -49,7 +49,7 @@ Reference
 
 Represents the record producer associated with the remote request definition.
 
- For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
+ For more information, see 
 
 </td></tr><tr><td>
 

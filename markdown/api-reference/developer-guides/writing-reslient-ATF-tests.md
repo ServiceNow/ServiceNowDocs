@@ -7,7 +7,7 @@ release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 breadcrumb: [Run UI Test Script Developer Guide, Developer guides, API implementation and reference]
 ---

@@ -38,7 +38,7 @@ After upgrading to Zurich and setting the Smart Assessment Engine enabled \(**sn
     -   Smart Assessment Response Automation plugin \[com.sn\_smart\_resp\_auto\]
     -   Smart Assessment Scoring plugin \[com.sn\_smart\_scoring\]
 
-**Note:** For more information on these plugins, see  and .
+**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine-cf-config.md) and [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-sae-assessment-config.md).
 
 ## Migrating to Smart Assessment Engine
 
@@ -59,7 +59,7 @@ The following diagram shows the questionnaire to TPRM SAE template migration wor
 
 4.  Review each assessment template to confirm it’s marked as Supports smart assessment. If an assessment template isn’t marked as Supports smart assessment, manually adding a new TPRM SAE questionnaire template to it updates its status.
 
-For more information, see , , , and .
+For more information, see [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-asmnt-tmplt-migrate-metrics-to.md), [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sae-q-template.md), [Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-vendor-risk-assess-temp.md), and [Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-generate-issue-rule.md).
 
 ## Classic assessment engine to Smart Assessment Engine comparison
 
@@ -108,11 +108,11 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see  and .
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sae-q-template.md).
 
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-    For more information, see  and .
+    For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-scoring-for-assessments.md) and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/normalization-in-assessment.md).
 
 -   Event-driven management rules are the default option for scheduling assessments and replaces Repeating assessments.
 
@@ -125,7 +125,7 @@ When you enable the Smart Assessment Engine \(SAE\) after upgrading to Zurich, e
 |**Responses received**|**Submitted to third party**|
 |**Returned**|**In progress**|
 
-These status changes apply only when SAE is enabled. Assessments that continue to use the Classic engine retain the original states. For more information about the SAE assessment and questionnaire lifecycle, see .
+These status changes apply only when SAE is enabled. Assessments that continue to use the Classic engine retain the original states. For more information about the SAE assessment and questionnaire lifecycle, see [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-external-assessment-lifecycle.md).
 
 ## Important information for upgrading Vendor Risk Management to Australia
 
@@ -144,7 +144,7 @@ VRM
 -   Activate the Vendor Risk Management application \[com.sn\_vdr\_risk\_asmt\].
 -   Activate the Vendor Risk Management Workspace application \[sn\_vrm\_ws\] if you want to use the Vendor Risk Management workspace.
 
-For more information on licensing or metering, see , [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
+For more information on licensing or metering, see [Tracking a managed activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-managed-activity.md), [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
 
 ## VRM to TPRM changes
 

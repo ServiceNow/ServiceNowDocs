@@ -16,7 +16,7 @@ Several types of components are installed when you activate the Customer Service
 
 |Products|Components installed|
 |--------|--------------------|
-|Customer Service Management||
+|Customer Service Management|[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCustomerService.md)|
 |Lead-to-Cash Process Management|[Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-lead-cash-process-management.md)|
 
 **Parent Topic:**[Components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-components-installed.md)

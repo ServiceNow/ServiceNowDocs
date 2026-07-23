@@ -57,7 +57,7 @@ Consider the following when using this feature:
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in Now Assist AI Agent studio, see .
+    For the detailed procedure to create an agent in Now Assist AI Agent studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 

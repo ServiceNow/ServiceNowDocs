@@ -13,7 +13,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Telecommunications, Media, and Technology \(TMT\) unifies customer care, order management, network operations, and partner ecosystems on one AI-powered platform to modernize service provider operations.
 
-Built for service providers and technology companies, it enables businesses to scale and capitalize on the fast-growing "everything-as-a-service" opportunity by streamlining complex processes, automating workflows, and improving service delivery across customer, network, and partner interactions.
+Built for service providers and technology companies, it enables businesses to scale and capitalize on the fast-growing "everything-as-a-service" opportunity. It streamlines complex processes, automates workflows, and improves service delivery across customer, network, and partner interactions.
 
 TMT brings together legacy systems, streamlines service fulfillment workflows through automation, enables real-time management of network inventory, and coordinates complex processes involving customers, the network, and partners.
 
@@ -110,15 +110,17 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 
 </td><td>
 
-[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md)
+
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Learn about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
--   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
--   Find useful resources related to your role and explore general guidelines at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Telecommunications, Media, and Technology \(TMT\) users at [Now Community](https://www.servicenow.com/community/crm-and-industry-solutions/ct-p/industry-solutions).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications, Media, and Technology features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=3436f09887952e9024e0bb39dabb3504&s=1&ssa=3).
+-   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with Telecommunications, Media, and Technology users at the ServiceNow Community:
+    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication) users.
+    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology).
 

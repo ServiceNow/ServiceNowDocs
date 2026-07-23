@@ -26,8 +26,8 @@ For detailed information about roles that are installed with Data Products, see 
 
 -   Assign roles to users and groups using the Data Products feature.
 
-    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
-    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+    -   Assign a role to a user
+    -   Assign a role to a group
 
 **Parent Topic:**[Configure data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-data-products.md)
 

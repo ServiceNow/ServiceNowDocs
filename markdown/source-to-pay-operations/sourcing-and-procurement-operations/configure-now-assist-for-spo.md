@@ -141,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d210095e696">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d209966e696">
 
 Option
 
-</th><th align="left" id="d210095e699">
+</th><th align="left" id="d209966e699">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210095e705">
+</th></tr></thead><tbody><tr><td id="d209966e705">
 
 **Skill is always available**
 
@@ -157,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d210095e714">
+</td></tr><tr><td id="d209966e714">
 
 **Customize skill availability**
 
@@ -170,15 +170,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d210095e750">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d209966e750">
 
 Option
 
-</th><th align="left" id="d210095e753">
+</th><th align="left" id="d209966e753">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210095e759">
+</th></tr></thead><tbody><tr><td id="d209966e759">
 
 **In-product desktop**
 
@@ -186,7 +186,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d210095e770">
+</td></tr><tr><td id="d209966e770">
 
 **Now Assist panel**
 

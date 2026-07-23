@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 12
 breadcrumb: [OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---

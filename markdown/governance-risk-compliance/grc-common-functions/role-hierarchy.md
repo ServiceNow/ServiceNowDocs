@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 breadcrumb: [Licensing summary dashboard, Common GRC features, Governance, Risk, and Compliance]
 ---

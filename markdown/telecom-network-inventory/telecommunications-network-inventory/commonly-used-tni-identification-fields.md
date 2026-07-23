@@ -141,7 +141,7 @@ Location
 
 </td><td>
 
-Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [1364cf968f9d77022f95a095981a18e979c26f54.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [e60d99dc4f9bc01614dc89ea28ed71afa7376ccc.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 </td></tr><tr><td>
 

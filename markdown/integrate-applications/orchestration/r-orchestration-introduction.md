@@ -35,7 +35,7 @@ Orchestration Core provides entitlements to use specific applications:
 
     An application that automates software delivery from the Service Catalog. Provides OOB support for SCCM. Partner solutions support Macs using JAMF. Other third-party solutions provide support through the extension framework.
 
--   **Configuring Password Reset**
+-   **[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-admin-guide.md)**
 
     An application for users to reset their password in Active Directory. It can expand to communicate with other third-party systems.
 
@@ -50,9 +50,9 @@ Orchestration can automate tasks such as employee onboarding, user access rights
 
 If Orchestration does not provide the activities you need for an integration, create the necessary activities using the templates in the [Orchestration Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The external systems that Orchestration can automate for:
 
--   Any system exposing web services \(SOAP, [REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md)\)
+-   Any system exposing web services \([SOAP,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASOAPWebServiceActivity.md) [REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md)\)
 -   Any system accessible from the command line \(such as a UNIX system accessible through [SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSSHActivity.md), a Windows system enabled for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAPowershellActivity.md) remoting or WMI\)
--   Numerous proprietary services: Windows Active Directory, Microsoft [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) mail servers, [InfoBlox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md), and [F5 Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md).
+-   Numerous proprietary services: Windows [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md), Microsoft [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) mail servers, [InfoBlox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md), and [F5 Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md).
 
     **Note:** For a full list of Activity Pack service offerings, see [Orchestration Core Activity Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationActivityPacks.md).
 

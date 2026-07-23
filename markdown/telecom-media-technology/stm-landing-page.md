@@ -21,8 +21,8 @@ The Service Test Management product enables the you with the ability to precisel
 ## Additional resources
 
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Test Management features at [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/strategic-portfolio-management/test-management-2-0-implementation?id=learning_course_prev&course_id=fd0bc2174700b2944f97dc84f16d43d7&s=1&ssa=3)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Service Test Management users at [Now Community](https://www.servicenow.com/industries/telecom.html).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Test Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=service%20test%20management&spa=1)
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Service Test Management users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 

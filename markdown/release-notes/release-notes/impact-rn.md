@@ -147,7 +147,7 @@ On-demand value report and Value potential accelerators have been removed.
 
 ## Related ServiceNow applications and features
 
--   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center-intro.md) **
+-   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center-intro.md) [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md)**
 
     Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 

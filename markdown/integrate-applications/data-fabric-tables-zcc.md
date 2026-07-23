@@ -71,7 +71,7 @@ View a list of all the data fabric tables that data stewards have created on the
 
 -   **Enhancing the performance of AI experiences using the Knowledge Graph**
 
-    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see .
+    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md).
 
 
 ## Differences between data fabric tables and remote tables

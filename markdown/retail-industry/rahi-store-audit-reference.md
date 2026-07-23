@@ -86,7 +86,7 @@ The application defines six scoped roles. All `sys_name` values are prefixed `sn
 
 [Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)
+[rahi-store-audit-generation-flow]
 
 [Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 

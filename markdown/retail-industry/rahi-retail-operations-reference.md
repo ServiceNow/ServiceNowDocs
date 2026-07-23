@@ -20,6 +20,8 @@ Several types of components such as tables, user roles, and business rule are in
 Learn about the Retail Core application by viewing the data model and role relationship diagrams. This diagram shows the relationship between the tables and roles within the application.
 -   **[Retail unified case and task data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-unified-cas-task-data-model.md)**  
 Learn about the unified retail case and task data model which helps understand the relationships between various case and task tables within retail. These extensions are designed to support distinct operational needs such as managing customer complaints, store inquiries, in-store operations, and HQ communications.
+-   **[Field Service for Audit data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-data-model.md)**  
+The Field Service for Audit data model shows how the audit task table extends the work-management task type provided by Field Service Management.
 -   **[Domain Separation in Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-domain.md)**  
 Domain separation is supported for Retail Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 

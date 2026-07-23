@@ -34,15 +34,15 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 6.  Edit or delete the event.
 
-<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d50661e102">
+<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d50556e102">
 
 Selection
 
-</th><th align="left" id="d50661e105">
+</th><th align="left" id="d50556e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d50661e111">
+</th></tr></thead><tbody><tr><td id="d50556e111">
 
 **Delete**
 
@@ -52,7 +52,7 @@ Action
 2.  Tap **Yes** to delete an event.
 
 
-</td></tr><tr><td id="d50661e137">
+</td></tr><tr><td id="d50556e137">
 
 **Edit**
 

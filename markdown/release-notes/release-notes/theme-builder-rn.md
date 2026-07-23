@@ -96,11 +96,11 @@ Theme Builder is included as a core plugin with the Next Experience application 
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)**
 
     Use ServiceNow® App Engine Studio for developing rich web applications to store information, automate business processes, and solve business problems.
 
--   ****
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     Use ServiceNow® UI Builder to build pages for workspaces that are generated with App Engine Studio or custom web experiences by using Next Experience Components and custom web components.
 
@@ -108,7 +108,7 @@ Theme Builder is included as a core plugin with the Next Experience application 
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   ****
+-   **[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md)**
 
     ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently.
 

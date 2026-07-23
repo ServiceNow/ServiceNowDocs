@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-working-with-sales-promotion.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Data model provides the information on the entities and their connectives, see [
 
 Complete the following tasks in order:
 
-1.  Install Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]: [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-apps-app-manager.md).
+1.  Install Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]: .
 2.  Set up product models and parts: 
 3.  Set up assets and install base items: [Viewing assets for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-assets.md) and [Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md)
 4.  Set up dealers: 

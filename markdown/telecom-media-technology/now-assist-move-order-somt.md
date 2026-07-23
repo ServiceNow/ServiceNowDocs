@@ -29,9 +29,9 @@ To create a move order, AI agent collects these details:
 -   Product or services to be moved
 -   New service location
 
-To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see .
 
-To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) for details.
+To add tools and information, see  for details.
 
 Role required: sn\_customerservice.consumer
 
@@ -45,7 +45,7 @@ To configure the AI agent:
 2.  In Now Assist Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
-To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).
+To create SoftPIN, see .
 
 ## Move order voice AI agent
 

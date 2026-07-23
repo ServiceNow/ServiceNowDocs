@@ -36,11 +36,11 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 </td></tr><tr><td>
 
-Flow generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using AI
+[Flow generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-generation-landing.md)
 
 </td><td>
 
-Playbook generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using AI
+[Playbook generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/playbook-assist-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

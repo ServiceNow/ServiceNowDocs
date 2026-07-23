@@ -64,6 +64,6 @@ You can export ETL configurations from one instance and import them into another
 
     5.  Verify all the steps in ETL configuration to make sure everything is mapped correctly, and run the integration and perform rollback.
 
-        For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
+        For details, see .
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---

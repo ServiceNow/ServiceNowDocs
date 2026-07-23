@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-return-merchandise-authorization-case-lines.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
 ---

@@ -14,7 +14,7 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 Use the ServiceNow® Now Assist for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Get started
 

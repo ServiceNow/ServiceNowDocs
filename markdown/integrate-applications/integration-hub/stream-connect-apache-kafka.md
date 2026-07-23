@@ -52,7 +52,7 @@ Stream Connect uses the following terms.
 
     Events are organized and stored in topics. A topic stores events of the same type. Topics are partitioned. Events have a key. Events with the same key are stored in the same partition.
 
-    Topics link to a topic namespace. You can use namespaces to organize topics in logical ways. For example, you can group topics together based on which Kafka cluster they come from. You can also use namespaces to configure which domains can access which topics on a domain-separated instance. For more information, see .
+    Topics link to a topic namespace. You can use namespaces to organize topics in logical ways. For example, you can group topics together based on which Kafka cluster they come from. You can also use namespaces to configure which domains can access which topics on a domain-separated instance. For more information, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/managing-namespaces-topics-hermes.md).
 
 -   **Topic aliases**
 
@@ -77,7 +77,7 @@ Stream Connect uses the following terms.
     A Kafka stream is a record that defines the data stream for a consumer. If you're using the Kafka Message trigger in Workflow Studio, the Kafka stream is automatically created for you. If you're using a different consumer, you’ll need to create one manually.
 
 
-To link your Kafka environment to your ServiceNow instance, Stream Connect uses the Hermes Messaging Service. The Hermes Messaging Service enables your instance to produce and consume large volumes of Kafka events. It manages the flow of data between your Kafka environment and your instance. For more information, see Hermes Messaging Service.
+To link your Kafka environment to your ServiceNow instance, Stream Connect uses the Hermes Messaging Service. The Hermes Messaging Service enables your instance to produce and consume large volumes of Kafka events. It manages the flow of data between your Kafka environment and your instance. For more information, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
 
 The following diagram shows some of the key components of Stream Connect.
 
@@ -139,7 +139,7 @@ For more information, see [Stream Connect Message Replication](https://raw.githu
 
 Log messages for producers and consumers are stored in the Stream Connect Logs \[sys\_consumer\_log\] table. Each log entry shows when the log was created; its level, message, and source; and links to any related Alert or Subscription records.
 
-You can enable more detailed logging by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
+You can enable more detailed logging by adding the system property **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
 ## Unprocessed and undelivered messages
 
@@ -155,7 +155,7 @@ Specify a compression format for Stream Connect producers with the **com.glide.k
 -   GZIP
 -   LZ4
 
-This property is not in the System Properties \[sys\_properties\] table by default, so it must be [added manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md). This property sets the compression format for all Stream Connect producers.
+This property is not in the System Properties \[sys\_properties\] table by default, so it must be added manually. This property sets the compression format for all Stream Connect producers.
 
 **Note:** To consume a compressed message, it must have been compressed using GZIP or LZ4.
 

@@ -55,11 +55,11 @@ You can create a record in the ServiceNow instance in two ways:
 
 1.  Create a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d129026e257">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d127553e257">
 
 Method
 
-</th><th align="left" id="d129026e260">
+</th><th align="left" id="d127553e260">
 
 Steps
 
@@ -219,15 +219,15 @@ The form is auto-filled.
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d129026e924">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d127553e924">
 
 Option
 
-</th><th align="left" id="d129026e927">
+</th><th align="left" id="d127553e927">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129026e933">
+</th></tr></thead><tbody><tr><td id="d127553e933">
 
 **If the auto-filled text looks good**
 
@@ -235,7 +235,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d129026e945">
+</td></tr><tr><td id="d127553e945">
 
 **If the auto-filled text requires changes**
 

@@ -42,7 +42,7 @@ Attachment
 
 </td><td>
 
-Add and manage attachments a file to the record and import that file in an import set.
+[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) a file to the record and import that file in an import set.
 
 </td></tr><tr><td>
 

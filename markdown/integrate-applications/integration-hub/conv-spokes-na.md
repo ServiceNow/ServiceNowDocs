@@ -44,7 +44,7 @@ ServiceNow Otto for Conversational Spokes application offers generative AI capab
 After installing the ServiceNow Otto for Conversational Spokes application, you can configure the available conversational spoke actions.
 
 -   See  to learn more about configuring the conversational settings.
--   See  in  to learn more about conversation experience and skills.
+-   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 **Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 
