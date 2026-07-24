@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -18,7 +18,7 @@ The rack allocation agentic workflow reserves rack unit space in a datacenter by
 
 ## Rack allocation workflow overview
 
-The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints. The workflow processes change requests that require rack unit allocation and creates Affected CI records. You can resolve infrastructure requests faster and reduce queue delays. To learn more see 
+The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints. The workflow processes change requests that require rack unit allocation and creates Affected CI records. You can resolve infrastructure requests faster and reduce queue delays. To learn more see [Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/data-center-infra-rack-allocation.md)
 
 ## Role required
 
@@ -38,7 +38,7 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Rack allocation workflow**.
 
-To test the use case, see .
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
 ## AI agents in the rack allocation workflow
 
@@ -72,5 +72,5 @@ Tools used by the agent
 </table>**Related topics**  
 
 
-[bundle-telninv.data-center-infra-rack-allocation]
+[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/data-center-infra-rack-allocation.md)
 

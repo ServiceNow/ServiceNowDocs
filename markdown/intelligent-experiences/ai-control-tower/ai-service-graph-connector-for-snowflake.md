@@ -8,7 +8,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-05-01"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -20,12 +20,12 @@ The connector integrates with your Snowflake account to catalog AI systems, agen
 
 Key capabilities:
 
--   Automated discovery of Cortex agents and models.
--   Fine-tuning job monitoring and metadata capture.
--   AI asset lineage and dependency tracking.
--   Usage analytics and session monitoring.
--   Integration with ServiceNow CMDB for comprehensive asset management.
--   Support for multi-account Snowflake deployments.
+-   Automated discovery of Cortex agents and models
+-   Fine-tuning job monitoring and metadata capture
+-   AI asset lineage and dependency tracking
+-   Usage analytics and session monitoring
+-   Integration with ServiceNow CMDB for comprehensive asset management
+-   Support for multi-account Snowflake deployments
 
 ## Download apps from the Store
 
@@ -59,10 +59,10 @@ The connector requires write permissions to the Data Source table to create data
 
 To enable data source creation:
 
-1.  Select **Global** from the application picker.
-2.  Navigate to **Application Access**.
-3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
-4.  Select **Update**.
+1.  Select Global from the application picker.
+2.  Navigate to Application Access.
+3.  Select the Can create, Can update, and Can delete check boxes.
+4.  Select Update.
 5.  Switch to the connector application scope.
 
 Clear cache
@@ -71,8 +71,8 @@ Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to **System Definition** &gt; **Background Scripts**.
-2.  Enter the following script in the **Run Script** text box:
+1.  Navigate to System Definition &gt; Background Scripts
+2.  Paste the following script into the Run Script text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -82,29 +82,27 @@ To clear the cache:
     
     ```
 
-3.  Select **Run Script**.
+3.  Select Run Script.
 
-    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
+    **Note:** The script may take several minutes to complete.
 
 4.  After completion, switch to the connector application scope.
 
 ## Snowflake Prerequisites
 
-To configure a Snowflake service user for Key-Pair Authentication instead of a Programmatic Access Token \(PAT\), generate an RSA key pair and assign the public key to a Snowflake user profile.
-
-Verify that the user's [Authentication Policy](https://docs.snowflake.com/en/user-guide/key-pair-auth) allows key-pair connections.
+To configure a Snowflake service user for Key-Pair Authentication instead of a Programmatic Access Token \(PAT\), you must generate an RSA key pair, assign the public key to the Snowflake user profile, and verify the user's [Authentication Policy](https://docs.snowflake.com/en/user-guide/key-pair-auth) allows key-pair connections.
 
 Complete the following configuration steps in your Snowflake environment before creating a connection.
 
 Network Configuration
 
-**Note:** The outbound integration IP addresses for your ServiceNow instance must be allowed in your Snowflake network policies. See [How to find IP address and datacenter information for your instance \[KB0538621\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0538621) article in the Now Support Knowledge Base to find the Source address used for integrations into customer network IP address range.
+**Note:** The outbound integration IP addresses for your ServiceNow instance must be allowed in your Snowflake network policies. See the [How to find IP address and datacenter information for your instance \[KB0538621\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0538621) article in the Now Support Knowledge Base to find the Source address used for integrations into customer network IP address range.
 
 Account Identifier Format
 
 **Note:** The Snowflake Statements API requires account identifiers in LDF \(Lowercase-Digit-Hyphen\) format in the connection URL. Account identifiers with uppercase letters or special characters must be converted to lowercase or replaced with the account locator.
 
-We should always use the following format for connection url:
+We should always use the following format for connection url.
 
 -   https://&lt;account\_identifier&gt;.snowflakecomputing.com
 -   If account identifier contains uppercase letters or special characters, use your account locator in connection URL as follows https://&lt;account\_locator&gt;.snowflakecomputing.com
@@ -117,7 +115,7 @@ Create a dedicated service account in Snowflake with least-privilege access. The
 
 Create a Role with Required Privileges
 
-Create role for the connector and grant the following privileges:
+create role for the connector and grant the following privileges:
 
 Core Discovery Access:
 
@@ -141,13 +139,104 @@ Configure JWT Key-Pair Authentication
 
 The connector uses JWT key-pair authentication to securely connect to Snowflake.
 
-For detailed steps on generating RSA key pairs and configuring key-pair authentication in Snowflake, see [Configuring Keystore for Snowflake Keypair authentication \[KB2834688\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB2834688) article in the Now Support Knowledge Base.
+For detailed steps on generating RSA key pairs and configuring key-pair authentication in Snowflake, see the [Configuring Keystore for Snowflake Keypair authentication \[KB2834688\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB2834688) article in the Now Support Knowledge Base.
 
 ## Data Mapping
 
 The connector maps Snowflake AI assets to ServiceNow CMDB tables and custom tables for comprehensive asset management.
 
 <table><tbody><tr><td>
+
+Data Source
+
+</td><td>
+
+Import Set Table
+
+</td><td>
+
+Target Table\(s\)
+
+</td></tr><tr><td>
+
+SG-Snowflake Agents
+
+</td><td>
+
+sn\_ai\_disc\_sgc\_sno\_sgc\_snowflake\_agents
+
+</td><td>
+
+cmdb\_ci\_function\_ai
+
+ cmdb\_ci\_ai\_model\_deployment
+
+ cmdb\_ai\_model\_product\_model
+
+ cmdb\_ai\_dataset\_product\_model
+
+ cmdb\_ai\_prompt\_product\_model
+
+ cmdb\_ai\_system\_component\_product\_model
+
+ alm\_ai\_model\_digital\_asset
+
+ alm\_ai\_dataset\_digital\_asset
+
+ alm\_ai\_system\_digital\_asset
+
+ cmdb\_ci\_ai\_model\_deployment
+
+ cmdb\_rel\_ci
+
+ sn\_ai\_disc\_ai\_lineage
+
+ sn\_ai\_disc\_ai\_tool
+
+ sn\_ai\_disc\_ai\_prompt
+
+ sn\_ai\_disc\_ai\_usage
+
+ sn\_ent\_ai\_system\_subcomponent\_m2m
+
+</td></tr><tr><td>
+
+SG-Snowflake Usage
+
+</td><td>
+
+sn\_ai\_disc\_sgc\_sno\_sgc\_snowflake\_usage
+
+</td><td>
+
+sn\_ai\_disc\_ai\_usage
+
+</td></tr></tbody>
+</table>## Snowflake Service Account Role with Least Privileges
+
+Create a role and set the privileges.
+
+Set Privileges:
+
+-   Core discovery access
+    -   Grant usage on database
+    -   Grant usage on schema
+-   Cortex access
+-   Grant manage accounts
+-   Grant database role \(SNOWFLAKE.CORTEX\_USER\)
+
+Create a service account user and assign the role to the user.
+
+-   Applies to the user
+-   Grant role to the user
+-   Set a default warehouse for the user
+-   Alter user is to SET DEFAULT\_WAREHOUSE
+
+## Data Mapping
+
+The following table lists the data sources, the staging tables, and the target tables CMDB CI classes and non-CMDB classes where data is stored for Snowflake connector.
+
+<table id="table_ktv_2nr_djc"><tbody><tr><td>
 
 Data Source
 

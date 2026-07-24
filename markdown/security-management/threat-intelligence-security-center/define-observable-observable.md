@@ -32,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d384003e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d384954e98">
 
 Field
 
-</th><th align="left" id="d384003e101">
+</th><th align="left" id="d384954e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d384003e107">
+</th></tr></thead><tbody><tr><td id="d384954e107">
 
 **Source Observable**
 
@@ -48,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d384003e116">
+</td></tr><tr><td id="d384954e116">
 
 **Target Observable**
 
@@ -56,7 +56,7 @@ Select and define the source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d384003e125">
+</td></tr><tr><td id="d384954e125">
 
 **Relationship Type**
 
@@ -68,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d384003e144">
+</td></tr><tr><td id="d384954e144">
 
 **Basis For Correlation**
 

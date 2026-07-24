@@ -56,6 +56,8 @@ You can extract data related to entitlements from an existing or a new contract 
 
 8.  Select **Next** once the extraction process is complete.
 
+    The extract entitlements page opens.
+
     \[Omitted image "extractentitlements.png"\] Alt text: Extract entitlements page
 
 9.  Select the Open tables down arrow next to **Tables**.

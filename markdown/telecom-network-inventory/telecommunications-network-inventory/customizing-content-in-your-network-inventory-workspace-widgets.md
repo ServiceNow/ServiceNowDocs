@@ -103,7 +103,7 @@ A pre-defined CMDB group structure supports retrieval of the data that appears i
 
 To add or change the data in a widget, use the CMDB Groups function to create CMDB group codes or modify the accompanying query conditions for existing ones. To update any of the existing CMDB groups, you must follow the standard CMDB group naming convention used for the Network Inventory Workspace widgets.
 
-**Note:** To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-groups.md).
+**Note:** To learn more about creating, updating, or naming CMDB groups, see CMDB groups.
 
 For example, let's say that you want to add another equipment manufacturer to the widget. To accomplish this task, you can use existing CMDB groups for a manufacturer, for each of the network domains, as the base for the new manufacturer. In this example, you use the existing CMDB groups for Ericsson as the base for the CMDB groups that you create for the new manufacturer.
 

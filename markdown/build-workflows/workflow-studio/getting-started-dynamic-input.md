@@ -790,7 +790,7 @@ This custom action includes these elements.
 
 -   An input of type Dynamic Choice to select a table
 -   An input of type Dynamic Template to select and set field values
--   A script step to create a record from the [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   A script step to create a record from the 
 -   An action output variable named `output` to store the sys\_id of the record created
 
 ### Procedure

@@ -75,12 +75,12 @@ Creating an audit plan and generating its cases and tasks is a two-phase process
 
 A published audit plan exists with Store Audit Cases and Audit Tasks created for all selected store locations. Cases are in state New and automatically routed to Auditors via assignment rules.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
-
 **Related topics**  
 
 
-[rahi-store-audit-plan-playbook]
+[Audit plan and playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-plan-playbook.md)
+
+[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)
 
 [Override audit assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

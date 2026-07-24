@@ -36,7 +36,7 @@ Australia early availability
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 **Important:** Now Assist for Creator is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -58,7 +58,7 @@ Australia early availability
     Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
 
 
--   **[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/release-lifecycle-documentation-agent-landing.md)**
+-   ****
 
     Improve transparency across your app development environment using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
 
@@ -76,22 +76,22 @@ Australia early availability
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   ****
 
     Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
--   **[Generate modules using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-ai-modules.md)**
+-   ****
 
     Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **[New agentic development documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
+-   **New agentic development documentation**
 
     Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 ## Changed in this release
 
--   **[Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-use-app-gen-skill.md)**
+-   ****
 
     Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
 
@@ -121,15 +121,15 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
 ## Related ServiceNow applications and features
 
--   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md)**
+-   ****
 
     Track and manage application requests, deployments, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\).
 
--   **[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-landing-page.md)**
+-   ****
 
     ServiceNow®Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making changes.
 
--   **[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)**
+-   ****
 
     The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through ac conversational interface.
 
@@ -137,7 +137,7 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     ServiceNow® Catalog Builder enables you to create or edit catalog items \(or record producers\) using a visual and guided experience along with specified restrictions. The Catalog Builder experience enables you to delegate the creation and maintenance of the catalog.
 
--   **[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md)**
+-   ****
 
     The ServiceNow® Creator Studio application is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development.
 
@@ -149,19 +149,19 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     Use AI recommendations to select the next component in your flow. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 
--   **[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**
+-   ****
 
     ServiceNow® Now Assist for App Engine enables you to enhance custom applications with AI capabilities, such as AI agents and skills, that you can use at runtime.
 
--   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   ****
 
     With the Australia release, the code autocomplete skill of the Now Assist for Code is available in the ServiceNow IDE.
 
--   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)**
+-   **Playbooks**
 
     ServiceNow® Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.
 
--   **[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops-landing.md)**
+-   ****
 
     ReleaseOps is a solution to problem of deploying changes, customizations, and custom apps on the ServiceNow AI Platform. By automating the deployment process, ReleaseOps helps to increase the predictability and reliability of deployments, while also reducing the risk of releasing unwanted changes to production.
 
@@ -169,11 +169,11 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
--   **[ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-landing.md)**
+-   ****
 
     The ServiceNow® integrated development environment \(IDE\) application enables developers to create scoped applications in source code in an IDE based on Visual Studio Code for the Web on the ServiceNow AI Platform.
 
--   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)**
+-   **ServiceNow Studio**
 
     ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps.
 
@@ -181,7 +181,7 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     The ServiceNow® Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand.
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
+-   ****
 
     The ServiceNow® UI Builder application is a web user interface builder for building pages for workspaces and portals or custom web experiences with Next Experience Components.
 

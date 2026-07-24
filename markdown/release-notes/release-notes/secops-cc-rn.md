@@ -15,7 +15,7 @@ The ServiceNow® Configuration Compliance application enables you to prioritize 
 ## Configuration Compliance highlights for the Australia release
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import Wiz issues and configuration test results from the Wiz scanners into test results in the Configuration Compliance application with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vulc.remediation\_owner role, create remediation tasks manually in the IT Remediation Workspace.
 -   With the sn\_vulc.admin role, create remediation tasks manually in the Vulnerability Manager Workspace.

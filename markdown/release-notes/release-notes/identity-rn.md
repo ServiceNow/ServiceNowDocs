@@ -27,6 +27,7 @@ Australia
 -   Configure AI Agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
 -   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.
 -   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
+-   Use the Identity sub-type field to categorize the identity type while creating a user.
 
 See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity-landing.md) for more information.
 

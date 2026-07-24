@@ -28,7 +28,7 @@ Leverage your digital healthcare platform with the ServiceNow® Healthcare and L
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Healthcare and Life Sciences features at [Best Practices Library](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=c7e5d84147ee3d9050593369126d4301&s=1&ssa=3).
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).

@@ -47,7 +47,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
     **Note:** You can **Copy** or **Delete** the tasks and create a task using the **New** option in the Approval tasks list.
 
-8.  **Approval/Reject**- AI stewards can select the Risk score and log the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
+8.  **Approval/Reject**- AI Stewards can select the Risk score from the drop-down menu and enter the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
 
 9.  Select **Reject** or **Approve asset** to complete the workflow.
 

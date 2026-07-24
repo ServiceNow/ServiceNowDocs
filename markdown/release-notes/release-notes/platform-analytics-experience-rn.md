@@ -33,7 +33,7 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
 ## New in the Australia release
 
--   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
+-   **Use new UI Builder templates for Dashboards and Data visualization libraries**
 
     Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 

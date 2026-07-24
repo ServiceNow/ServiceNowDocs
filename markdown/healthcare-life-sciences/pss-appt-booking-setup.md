@@ -614,5 +614,5 @@ By default, the **Program service appointment** record producer is available for
 
 As an administrator, you can include the record producer for appointment booking in a service  catalog and display the service  catalog  as a module on a patient portal. Patients can then use the module to book appointments for a training request.
 
-For more information, see Record Producer and Set up a service catalog . 
+For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpAServiceCatalog.md) . 
 

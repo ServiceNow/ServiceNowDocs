@@ -51,7 +51,7 @@ Import data from external systems and transform it into ServiceNow AI Platform r
 
     Easy import is a simplified import process that enables you to import only the columns you want.
 
--   **Inbound email actions**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 

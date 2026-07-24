@@ -7,7 +7,7 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
@@ -17,7 +17,9 @@ breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI C
 
 Explore the AI model providers section in AI Control Tower.
 
-AI model providers enable you to select data routing and manage third-party LLMs \(Large Language Models\) and SLMs \(Small Language Models\). You can also configure third-party LLMs by selecting the allowed model providers.
+Role required: AI steward
+
+AI model providers enable you to select data routing, manage third-party LLMs \(Large Language Models\) and SLMs \(Small Language Models\), and configure the third-party LLMs by selecting the allowed model providers.
 
 ## Data routing and model providers
 
@@ -90,14 +92,14 @@ Let's review the Impact Summary table data for the following two scenarios.
     -   AI systems supported by allowed providers- Shows AI systems with skill sets that are supported by the providers.
     -   AI systems require deactivation- Lists all active AI systems that lack provider support and must be deactivated because the fallback option isn’t enabled.
     -   AI systems can’t be activated- Shows all those systems, which are currently inactive and aren’t supported by any provider.
-    \[Omitted image "ai-activate-no.png"\] Alt text: Fallback activation screen.
+    \[Omitted image "ai-activate-no.png"\] Alt text: \[Omitted image ""\] Alt text: Fallback activation screen.
 
 -   **Activate fallback- Yes**
     -   Total AI systems- Shows all AI systems that are supported by the allowed model providers.
     -   AI systems supported by allowed providers- Shows all AI systems with skill sets that are supported by the providers.
     -   AI systems supported by fallback providers- Shows AI systems that are non-compliant as fallback providers aren’t permitted providers.
 
-\[Omitted image "ai-activate-yes.png"\] Alt text: Activate fallback option screen.
+\[Omitted image "ai-activate-yes.png"\] Alt text: \[Omitted image ""\] Alt text: Activate fallback option screen.
 
 **Note:** The entries in the Impact summary table change based on the fallback status.
 
@@ -105,7 +107,7 @@ When you select an entry from the table, the support matrix page appears with th
 
 The support matrix presents all AI systems in a table format, along with their respective AI model providers. You are able to view the support matrix table and categories such as AI system, type, activation status and more, as well as the selected AI model provider.
 
-If you have selected an AI provider supported, which is supported by your organization or a third party provider, the selected provider will show up in the AI systems and model provider support table.
+If you have selected an AI provider, which is supported by your organization or a third party provider, the selected provider will show up in the AI systems and model provider support table.
 
 \[Omitted image "ai-support-matrix.png"\] Alt text: Support matrix.
 

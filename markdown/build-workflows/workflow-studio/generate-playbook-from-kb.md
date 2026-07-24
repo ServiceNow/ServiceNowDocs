@@ -25,7 +25,7 @@ Verify that the Now Assist for Creator plugin is installed and the **Playbook Ge
 
 \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing Now Assist for Creator, see 
 
 Verify that the knowledge base article describes a process with steps. Articles that contain only definitions or reference information can't be used to generate a playbook.
 
@@ -71,7 +71,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 

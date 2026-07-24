@@ -91,7 +91,7 @@ Encoded query
 
 Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:\[Omitted image "erpc-schedule-extraction-encoded-query.png"\] Alt text: Sample encoded query.
 
-For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+For more information, see .
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
@@ -48,5 +48,5 @@ Domain‑specific data models build on the Telecom data model by refining and sp
 
 [SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md)
 
-[bundle-telninv.uses-for-network-inventory-data]
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/uses-for-network-inventory-data.md)
 

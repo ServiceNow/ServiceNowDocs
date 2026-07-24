@@ -72,7 +72,7 @@ Variables
 
 </td><td>
 
-Values to use for [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) defined in the HTTP Method record. Use the following format for the string:
+Values to use for Variable substitution in outbound REST messages defined in the HTTP Method record. Use the following format for the string:
 
 ```
 name1=value1, name2=value2, . . .

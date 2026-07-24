@@ -24,11 +24,11 @@ See  for more information.
 
 ## New in the Australia release
 
--   **[Smart assessment versioning of assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-ccm-asmt-template.md)**
+-   **Smart assessment versioning of assessment templates**
 
     You can create a version of an existing compliance case assessment template to revise the questionnaire and response options, without disrupting assessments that are already in progress. New assessments use the latest published version of the template.
 
--   **[Report a compliance case anonymously from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-compliance-case-anonymously.md)**
+-   **Report a compliance case anonymously from the Anonymous Reporting Center**
 
     Employees can now use the Anonymous Reporting Center to report compliance violations such as fraud and embezzlement, workplace misconduct \(harassment, discrimination\), bribery and corruption, and other concerns without revealing their identity or location.
 
@@ -43,7 +43,7 @@ See  for more information.
     -   All interactions maintain reporter anonymity at every step; no identity or location data is ever captured or linked
     This enhancement enables organizations to build trust, mitigate risks before escalation, and ensures regulatory compliance with whistleblower protection requirements.
 
--   **[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-summarization-skill.md)**
+-   **GRC case summarization skill for compliance cases**
 
     After upgrading Now Assist for Integrated Risk Management \(IRM\) application to version 22.x, Compliance analysts can use the case summarization feature to quickly understand a compliance case without manually reviewing every field, attachment, or related list.Now Assist analyzes key case attributes—such as timelines, impacted areas, evidence, and actions—and generates a structured summary directly inside the compliance case.
 

@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 14
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---

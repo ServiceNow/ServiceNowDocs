@@ -24,7 +24,7 @@ Role required: flow\_designer or admin
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content allows you to deploy it using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -210,7 +210,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 

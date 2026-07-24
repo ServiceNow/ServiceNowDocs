@@ -32,15 +32,15 @@ The following procedure describes the process for manually adding a request sche
 
     If you navigate through a scripted REST API record, most fields in the REST Request record are pre-populated.
 
-<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d465008e70">
+<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d465004e70">
 
 Option
 
-</th><th align="left" id="d465008e73">
+</th><th align="left" id="d465004e73">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d465008e79">
+</th></tr></thead><tbody><tr><td id="d465004e79">
 
 **Navigate through a scripted REST API record**
 
@@ -52,7 +52,7 @@ Procedure
 4.  In the **Request Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d465008e124">
+</td></tr><tr><td id="d465004e124">
 
 **Navigate directly to a new REST Request record**
 

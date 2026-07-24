@@ -67,15 +67,15 @@ If you’re using Software Asset Workspace, the option to create the Looker inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d259299e341">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d260436e341">
 
 Interface
 
-</th><th align="left" id="d259299e344">
+</th><th align="left" id="d260436e344">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d259299e350">
+</th></tr></thead><tbody><tr><td id="d260436e350">
 
 **Core UI**
 
@@ -86,7 +86,7 @@ Action
 3.  Select **Looker Integration Profile**.
 
 
-</td></tr><tr><td id="d259299e392">
+</td></tr><tr><td id="d260436e392">
 
 **Software Asset Workspace**
 

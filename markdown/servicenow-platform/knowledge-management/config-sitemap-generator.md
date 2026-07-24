@@ -1,0 +1,53 @@
+---
+title: Activate the sitemap configuration and definition records for the Knowledge Portal
+description: Include knowledge articles in your sitemap by activating the sitemap configuration and definition records.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-sitemap-generator.html
+release: australia
+product: Knowledge Management
+classification: knowledge-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Activate the sitemap configuration and definition records for the Knowledge Portal
+
+Include knowledge articles in your sitemap by activating the sitemap configuration and definition records.
+
+## Before you begin
+
+-   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activate-sitemap-generator.md)
+-   Verify that an unauthenticated user can access the knowledge base article by accessing it as a guest user.
+-   Verify that the Public option is selected on the Knowledge Article View form.
+
+Role required: admin
+
+## About this task
+
+Beginning with the Australia release, the Sitemap Generator configuration is available with the base system and is inactive by default.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Sitemap Generator** &gt; **Sitemap Configuration**.
+
+2.  In the UX Sitemap Configurations \[sys\_ux\_seo\_sitemap\_config\] table, select the sitemap\_config\_KB record.
+
+3.  Enable the generation of sitemaps.
+
+    1.  On the form, select the **Active** check box.
+
+    2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
+
+    3.  Select the **Save** icon .
+
+4.  Select **Update**.
+
+
+## Result
+
+All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+

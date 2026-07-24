@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Retail case types, Explore, Retail]
+breadcrumb: [Explore, Retail]
 ---
 
 # Retail case overview
@@ -24,5 +24,5 @@ You can extend your own case types. For information on using retail case types, 
 
 For retail case table attributes, see [Retail organization data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-data-model-tables.md). For unified data model of cases and tasks, see [Retail unified case and task data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-unified-cas-task-data-model.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
 

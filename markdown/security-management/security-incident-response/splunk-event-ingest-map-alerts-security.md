@@ -140,15 +140,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d504923e472">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d505318e472">
 
 Option
 
-</th><th align="left" id="d504923e475">
+</th><th align="left" id="d505318e475">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d504923e481">
+</th></tr></thead><tbody><tr><td id="d505318e481">
 
 ** **
 
@@ -156,7 +156,7 @@ Description
 
  
 
-</td></tr><tr><td id="d504923e488">
+</td></tr><tr><td id="d505318e488">
 
 **Continue**
 
@@ -164,7 +164,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d504923e505">
+</td></tr><tr><td id="d505318e505">
 
 **Update**
 
@@ -172,7 +172,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d504923e514">
+</td></tr><tr><td id="d505318e514">
 
 **Previous**
 
@@ -180,7 +180,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d504923e524">
+</td></tr><tr><td id="d505318e524">
 
 **Delete**
 

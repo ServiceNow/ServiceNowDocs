@@ -22,6 +22,7 @@ The AI systems are synchronized from source Now Assist skill config record \(sn\
     1.  If active, insert
     2.  If not active, insert only if it belongs to the custom skill category and is published
 2.  If the skill exists in AI Control Tower and the source Now Assist skill config record is updated, those changes are applied to the AI system record in AI Control Tower. The state for the AI system is mapped as follows based on source Now Assist skill config record state:
+
     1.  Active: Mark as Deployed
 
         **Note:** All the active models are being marked as deployed; however, in environments like GCC \(Government Community Cloud\) and others, this status means they have not yet been used and are still available for deployment.

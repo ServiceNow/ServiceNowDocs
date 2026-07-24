@@ -149,7 +149,7 @@ Securely connect to an external data source and access external data directly fr
 
     ServiceNow® Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances. IDR enables you to maintain consistent data across different instances. For example, you can synchronize data between different organizations in your company or even between different companies with separate instances.
 
--   **Inbound email actions**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 

@@ -33,17 +33,13 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 </td><td>
 
-[Manage Break-Fix cases\[Omitted image "bus-work-order.svg"\] Alt text:Report, track, and resolve equipment failures through Break-Fix cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-manage-cases.md)
-
-</td><td>
-
-[Manage Store Audit\[Omitted image "bus-audit-management.svg"\] Alt text:Create, generate, and complete store audit cases and tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
-
-</td></tr><tr><td>
-
 [Track store inquiry cases\[Omitted image "bus-management-console.svg"\] Alt text:Track store inquiry cases from the Retail portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-navigating-retail.md)
 
 </td><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
+
+</td></tr><tr><td>
 
 [Manage store plans\[Omitted image "bus-task-list.svg"\] Alt text:Manage store plans to plan and schedule generation of cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 
@@ -51,24 +47,16 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 [Track and monitor store plans\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Track and monitor store plans from the workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/track-monitor-store-plans.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Now assist for Retail\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-now-assist-for-retail.md)
-
-</td><td>
-
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Additional resources
 
 -   Learn more about what's new and changed in this release at [Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/retail-rn.md).
 -   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
--   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=a4d172da47f33658db63fb25126d43e8&s=1&ssa=3).
 -   Connect with other Retail users in the [Retail and Hospitality community forum](https://www.servicenow.com/community/retail-hospitality/ct-p/industry-retail-hospitality).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)

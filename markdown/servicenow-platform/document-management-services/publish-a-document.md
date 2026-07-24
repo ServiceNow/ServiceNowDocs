@@ -1,0 +1,41 @@
+---
+title: Publish a document
+description: Publish a document revision that has been approved.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/publish-a-document.html
+release: australia
+product: Document Management Services
+classification: document-management-services
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Document approval and publish process, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Publish a document
+
+Publish a document revision that has been approved.
+
+## Before you begin
+
+Role required: none
+
+## About this task
+
+After a document has been created and edited, a version can be submitted for draft review and final approval. After the final approval, the document can be published. The published version becomes the default version of the document.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Documents** &gt; **Documents**.
+
+2.  Select the document record.
+
+3.  Scroll down to the **Versions** tab.
+
+4.  Select the document version that has been approved.
+
+5.  Select **Publish Version**.
+
+
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
+

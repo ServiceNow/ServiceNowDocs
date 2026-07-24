@@ -1,0 +1,30 @@
+---
+title: Managing HTML content in knowledge articles
+description: You can manage HTML content in knowledge articles by using the HTML editor.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/including-html-content.html
+release: australia
+product: Knowledge Management
+classification: knowledge-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Managing HTML content in knowledge articles
+
+You can manage HTML content in knowledge articles by using the HTML editor.
+
+You can perform the following functions for HTML content in knowledge articles:
+
+-   Insert a hyperlink by using the insert/edit link icon available on the HTML toolbar. For more information, see [Link to a website in HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_LinkingToAWebsiteInHTMLFields.md).
+-   Insert an image by using the insert/edit image icon available on the HTML toolbar. For more information, see [Embed images in HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EmbeddingImagesInHTMLFields.md).
+-   Embed a video from the video library, an attachment, or URL by using the insert/edit video icon available on the HTML toolbar. You can also add videos to the video library. For more information, see [Embed videos in HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EmbeddingVideoInHTMLFields.md).
+-   Copy content from external sources and paste them as simple text into the editor. For more information, see [Paste content into the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/paste.md-editor.md).
+-   View and edit the HTML source code by using the source code iconavailable on the HTML toolbar. For more information, see [Extended functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExtendedFunctions.md).
+
+    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/insert-code-html-editor.md).
+
+-   Expand the HTML field to use the full form view for easier editing by using the full screen icon . For more information, see [Extended functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExtendedFunctions.md).
+

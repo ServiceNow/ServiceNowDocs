@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/location\_based\_transactions\_for\_opportunity.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---

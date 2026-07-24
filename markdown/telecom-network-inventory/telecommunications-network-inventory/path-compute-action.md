@@ -187,7 +187,7 @@ Option to select the action when the function fails. You can select an action fr
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see Flow Designer input and output data variables.
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 

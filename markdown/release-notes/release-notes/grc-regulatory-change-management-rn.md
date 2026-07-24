@@ -22,13 +22,13 @@ Review the updated skill family name for Regulatory change management Now Assist
 
 Review the updated AI experience with three licensing tiers.
 
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Smart assessment versioning of regulatory assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-reg-assessment-template.md)**
+-   **Smart assessment versioning of regulatory assessment templates**
 
     You can create a version of an existing regulatory assessment template to revise the questionnaire and response options, without disrupting assessments that are already in progress. New regulatory assessments use the latest published version of the template.
 
@@ -46,11 +46,11 @@ See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
--   **[Default AI model provider for regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recommendation-skill-for-a-regulatory-alert.md)**
+-   **Default AI model provider for regulatory alert recommendation skills**
 
     After upgrading to version 22.4.0, the regulatory alert recommendation skills in Now Assist for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
 
--   **[Default AI model provider for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-agentic-ai-workflows.md)**
+-   **Default AI model provider for agentic workflows**
 
     After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows in Now Assist for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
 

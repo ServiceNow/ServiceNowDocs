@@ -20,11 +20,3 @@ The ServiceNow Field Service Management for Telecommunications \(FSMT\) applicat
 
 To learn more about Field Service Management application, see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md).
 
-## Additional resources
-
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Field Service Management for Telecommunication features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=field%20service%20management%20for%20telecommunications&spa=1)
--   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Field Service Management for Telecommunication users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
-

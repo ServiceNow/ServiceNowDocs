@@ -52,7 +52,7 @@ https://&lt;domain\_name&gt;.salesforce.com/services/data/v65.0/ssot/machine-lea
 
 </td><td>
 
-Fetch Models configured in Salesforce Einstein Studio.
+Fetch Models configured in Salesforce Einstein Studio
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ https://&lt;domain\_name&gt;.salesforce.com/services/data/v65.0/query?q=SELECT i
 
 </td><td>
 
-Fetch all the tools details used by AI Agents.
+Fetch all the tools details used by AI Agents
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ https://&lt;domain\_name&gt;.salesforce.com//services/data/v65.0/query?q=SELECT 
 
 </td><td>
 
-Fetch all prompts information associated or used by AI Agents.
+Fetch all prompts information associated or used by AI Agents
 
 </td></tr><tr><td>
 

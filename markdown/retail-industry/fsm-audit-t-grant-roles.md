@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-t-grant-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -49,12 +49,12 @@ The Auditor, Audit Admin, or Author can perform the operations permitted by the 
 
 ## What to do next
 
-When custom access rules are active, granting `sn_fsm_audit.auditor` is the first step — but access to a specific task also depends on rules the Audit Admin has configured. See [How access to audit tasks works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+When custom access rules are active, granting `sn_fsm_audit.auditor` is the first step — but access to a specific task also depends on rules the Audit Admin has configured. See [How access to audit tasks works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-access-control.md).
 
 **Related topics**  
 
 
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-roles.md)
 
 [Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)
 

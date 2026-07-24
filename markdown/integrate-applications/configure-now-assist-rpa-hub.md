@@ -32,15 +32,15 @@ Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servic
 
 1.  Perform any of the following tasks to install the Now Assist for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d106751e136">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d111219e136">
 
 Option
 
-</th><th align="left" id="d106751e139">
+</th><th align="left" id="d111219e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d106751e145">
+</th></tr></thead><tbody><tr><td id="d111219e145">
 
 **From Now Assist Admin**
 
@@ -53,7 +53,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d106751e207">
+</td></tr><tr><td id="d111219e207">
 
 **From System Applications**
 

@@ -52,15 +52,15 @@ For more information on Now Assist Guardian, see .
 
     Now Assist Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d181030e225">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d183673e225">
 
 Guardrail
 
-</th><th align="left" id="d181030e228">
+</th><th align="left" id="d183673e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181030e234">
+</th></tr></thead><tbody><tr><td id="d183673e234">
 
 **Prompt injection detection**
 
@@ -72,7 +72,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  For more information on how to configure this guardrail, see .
 
-</td></tr><tr><td id="d181030e258">
+</td></tr><tr><td id="d183673e258">
 
 **Offensiveness detection**
 
@@ -84,7 +84,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see .
 
-</td></tr><tr><td id="d181030e285">
+</td></tr><tr><td id="d183673e285">
 
 **Sensitive topic filters**
 

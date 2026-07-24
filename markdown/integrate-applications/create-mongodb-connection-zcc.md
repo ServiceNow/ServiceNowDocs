@@ -85,15 +85,15 @@ URL to establish the connection. For example:`mongodb://<host>:<port>/database_n
 </td></tr></tbody>
 </table>4.  Configure secure authentication by providing truststore information.
 
-<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d418847e218">
+<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d423312e218">
 
 Option
 
-</th><th align="left" id="d418847e221">
+</th><th align="left" id="d423312e221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d418847e227">
+</th></tr></thead><tbody><tr><td id="d423312e227">
 
 **Upload truststore file**
 
@@ -103,7 +103,7 @@ Description
 2.  Browse and select the truststore file.
 
 
-</td></tr><tr><td id="d418847e248">
+</td></tr><tr><td id="d423312e248">
 
 **Enter truststore contents manually**
 
@@ -114,15 +114,15 @@ Copy and paste the contents of the keystore file.
 </td></tr></tbody>
 </table>5.  Configure secure authentication by providing keystore information.
 
-<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d418847e266">
+<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d423312e266">
 
 Option
 
-</th><th align="left" id="d418847e269">
+</th><th align="left" id="d423312e269">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d418847e275">
+</th></tr></thead><tbody><tr><td id="d423312e275">
 
 **Upload keystore file**
 
@@ -132,7 +132,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d418847e296">
+</td></tr><tr><td id="d423312e296">
 
 **Enter keystore contents manually**
 

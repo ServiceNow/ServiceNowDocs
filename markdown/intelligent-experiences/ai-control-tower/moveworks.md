@@ -26,8 +26,8 @@ Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.d
 
 |Release|Status|
 |-------|------|
-|Australia|Supported \(Patch 4\)|
-|Zurich|Supported \(Patch 11\)|
+|Australia|Supported|
+|Zurich|Supported|
 
 ## User Roles
 
@@ -50,10 +50,10 @@ The connector requires write permissions to the Data Source table to create data
 
 To enable data source creation:
 
-1.  Select **Global** from the application picker.
-2.  Navigate to **Application Access**.
-3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
-4.  Select **Update**.
+1.  Select Global from the application picker.
+2.  Navigate to Application Access.
+3.  Select the Can create, Can update, and Can delete check boxes.
+4.  Select Update.
 5.  Switch to the connector application scope.
 
 Clear cache
@@ -62,8 +62,8 @@ Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to **System Definition** &gt; **Background Scripts**.
-2.  Enter the following script in the **Run Script** text box:
+1.  Navigate to System Definition &gt; Background Scripts
+2.  Paste the following script into the Run Script text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -73,15 +73,15 @@ To clear the cache:
     
     ```
 
-3.  Select **Run Script**.
+3.  Select Run Script.
 
-    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
+    **Note:** The script may take several minutes to complete.
 
 4.  After completion, switch to the connector application scope.
 
 ## Moveworks Prerequisites
 
-Moveworks setup Instructions:
+Movework Setup Instructions:
 
 An API key is required to integrate with Moveworks. Refer to the [Moveworks API reference documentation](https://help.moveworks.com/api-reference/api-credentials#rotation--revocation) for instructions on how to create an API key.
 

@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the Adobe Cloud
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d291494e98">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d291502e98">
 
 Interface
 
-</th><th align="left" id="d291494e101">
+</th><th align="left" id="d291502e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d291494e107">
+</th></tr></thead><tbody><tr><td id="d291502e107">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **Adobe Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d291494e150">
+</td></tr><tr><td id="d291502e150">
 
 **Software Asset Workspace**
 

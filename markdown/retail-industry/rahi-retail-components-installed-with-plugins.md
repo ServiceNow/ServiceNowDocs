@@ -41,16 +41,14 @@ Certain roles and dependencies must be considered when using the Retail Playbook
 Certain roles and dependencies must be considered when using the Task Plan Template Playbook.
 -   **[Components installed with PWM Playbook Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-pwm-playbook-activities.md)**  
 Certain roles and dependencies must be considered when using the PWM Playbook Activities.
--   **[Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-smart-assessments.md)**  
-Smart Assessment support in Customer Service Management \(CSM\) and Field Service Management \(FSM\) workspaces provides a unified experience for creating, configuring, and viewing assessment templates and instances.
 -   **[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-reference.md)**  
 Reference information for roles, tables, fields, and workspace configuration artifacts for Retail Store Audit Operations.
 -   **[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)**  
 Several types of components such as tables, user roles, script includes, and access control rules are installed when the Field Service for Audit plugin is activated.
 -   **[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-reference.md)**  
 Technical reference for Break-Fix case states, available actions, critical fields, tables, and data relationships.
--   **[Components for Moveworks integration for break-fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Technical reference for webhook events, authentication types, platform artifacts, and troubleshooting.
+-   **[Components Moveworks Integration for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+Technical reference for webhook events, supported authentication types, platform artifacts, and troubleshooting.
 
 **Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
 

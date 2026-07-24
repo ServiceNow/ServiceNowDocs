@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/otm-licensing-dashboard.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

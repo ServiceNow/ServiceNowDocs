@@ -79,15 +79,15 @@ To create an activity manually, see [Create an activity manually in RPA Desktop 
 
     \[Omitted image "new-activity-options.png"\] Alt text: New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d358690e358">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d363155e358">
 
 Option
 
-</th><th align="left" id="d358690e361">
+</th><th align="left" id="d363155e361">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d358690e367">
+</th></tr></thead><tbody><tr><td id="d363155e367">
 
 **Regenerate preview**
 
@@ -95,7 +95,7 @@ Procedure
 
 If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
-</td></tr><tr><td id="d358690e393">
+</td></tr><tr><td id="d363155e393">
 
 **Clear**
 
@@ -103,7 +103,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by the Now Assist instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d358690e411">
+</td></tr><tr><td id="d363155e411">
 
 **Cancel**
 
@@ -111,7 +111,7 @@ If you want to clear the workflow that was created by the Now Assist instruction
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d358690e428">
+</td></tr><tr><td id="d363155e428">
 
 **Add activity**
 

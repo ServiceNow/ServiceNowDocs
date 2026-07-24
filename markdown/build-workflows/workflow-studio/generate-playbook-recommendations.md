@@ -25,7 +25,7 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
     \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-    For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+    For information about installing Now Assist for Creator, see 
 
 -   You can only generate recommendations for placeholder activities in a generated playbook outline. To learn how to generate a playbook outline, see [Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md).
 -   Role required:

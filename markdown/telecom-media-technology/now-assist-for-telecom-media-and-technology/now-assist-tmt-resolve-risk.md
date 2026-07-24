@@ -33,7 +33,7 @@ You can trigger this workflow in two ways:
     1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
     2.  From the **Customer Success** menu, select **All Risks and issues** and open a risk signal record.
     3.  Select the **Recommend solutions** button in the risk record
-2.  Navigate to the  panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
+2.  Navigate to the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
 
 For information on how risks are generated, see [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
 
@@ -46,7 +46,7 @@ Before you use the agentic workflow, do the following:
     -   Rank: The order in which the conditions are evaluated.
     -   Category: The category of the risk signal, from the Risk Signal and Issues table.
     -   Customer Success Definition: The Customer Success definition to use for the risk category. Each Customer Success definition specifies the subflow to execute when the solution option is selected. See [Create a customer success definition record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-ale-defn.md) for details. You can map multiple definitions to the same category.\[Omitted image "risk-decision-table.jpg"\] Alt text: Engagement risk definition table
-    See  for details on configuring the decision table.
+    See [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md) for details on configuring the decision table.
 
 -   The solution subflow must contain the following input:
 

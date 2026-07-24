@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-channel-partner-information-on-partner-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---

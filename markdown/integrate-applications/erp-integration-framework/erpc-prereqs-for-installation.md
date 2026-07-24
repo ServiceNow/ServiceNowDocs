@@ -26,7 +26,7 @@ You must have a license and get entitlement to Zero Copy Connector for ERP for i
 The following plugins and servers are required for installing Zero Copy Connector for ERP:
 
 -   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)\)
--   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
+-   Financial Services Remote Tables plugin \(for more information, see \)
 
 ## MID Server requirements
 
@@ -100,7 +100,7 @@ Contact the admin of your SAP ECC RFC account to obtain the following SAP propri
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Eco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see .
 
 The MID Server restarts multiple times during this process.
 

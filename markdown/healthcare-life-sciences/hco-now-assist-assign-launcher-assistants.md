@@ -40,5 +40,5 @@ Role required: admin
 
 ## Result
 
-The chat and voice assistants are now available from the prominent action button in the mobile app. For additional configuration, see .
+The chat and voice assistants are now available from the prominent action button in the mobile app. For additional configuration, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 

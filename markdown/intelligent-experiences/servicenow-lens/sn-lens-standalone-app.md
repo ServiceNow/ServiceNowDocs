@@ -57,15 +57,15 @@ Role required: lens\_user
 
 6.  Perform any one of the following methods to capture screenshots or upload files and analyze the data.
 
-<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d184451e297">
+<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d187094e297">
 
 Method
 
-</th><th align="left" id="d184451e300">
+</th><th align="left" id="d187094e300">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d184451e306">
+</th></tr></thead><tbody><tr><td id="d187094e306">
 
 **Capture a single screenshot of a document and analyze the data.**
 
@@ -93,7 +93,7 @@ The default character limit is 500. Users with the admin role can increase this 
 
 \[Omitted image "lens-single-scrnsht-analysis.png"\] Alt text: Preview of the analysis of single image.
 
-</td></tr><tr><td id="d184451e389">
+</td></tr><tr><td id="d187094e389">
 
 **Capture multiple screenshots from one or more documents.**
 

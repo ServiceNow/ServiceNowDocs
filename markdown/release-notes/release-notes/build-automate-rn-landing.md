@@ -12,6 +12,8 @@ reading_time_minutes: 5
 
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
 
+-   **[App Engine for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-erp-rn.md)**  
+The ServiceNow® App Engine for ERP application contains rapid deployment packs that provide templates for specific business processes in enterprise ERP workflows that you can use as a starting point.App Engine for ERP is a new application in the Australia release.
 -   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/aemc-rn.md)**  
 The ServiceNow® App Engine Management Center \(AEMC\) application enables admins to manage app development from intake to deployment to production monitoring. AEMC was enhanced and updated in the Australia release.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)**  

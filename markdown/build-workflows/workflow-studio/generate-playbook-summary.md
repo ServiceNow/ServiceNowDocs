@@ -25,7 +25,7 @@ Verify that the Now Assist for Creator plugin is installed and the **Playbook Su
 
 \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing Now Assist for Creator, see 
 
 The playbook must have at least one stage and activity before a summary can be generated.
 

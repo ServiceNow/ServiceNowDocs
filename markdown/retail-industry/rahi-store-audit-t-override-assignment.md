@@ -55,8 +55,6 @@ Store Audit Cases and Audit Tasks are automatically assigned to Auditors via pla
 
 The Store Audit Case or Audit Task is reassigned to the selected Auditor and the assignment change is logged in the activity stream.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
-
 **Related topics**  
 
 

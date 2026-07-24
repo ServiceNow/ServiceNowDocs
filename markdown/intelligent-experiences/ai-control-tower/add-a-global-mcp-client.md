@@ -1,0 +1,47 @@
+---
+title: Add a Global MCP Client
+description: Add a Global MCP client from the AI Gateway configuration page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-a-global-mcp-client.html
+release: australia
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+---
+
+# Add a Global MCP Client
+
+Add a Global MCP client from the AI Gateway configuration page.
+
+## Before you begin
+
+Role required: AI steward
+
+## Procedure
+
+1.  Navigate to **Al Control Tower** &gt; **Configurations** &gt; **AI Gateway** &gt; **Global MCP clients**.
+
+2.  Select **Add**.
+
+3.  Enter the Client ID.
+
+4.  Select **Next**.
+
+5.  Select the Metadata sync mode.
+
+    Selecting the **Live** mode is preferred.
+
+6.  Change the Security controls according to the requirements of the agent builder.
+
+7.  Select **Submit**.
+
+    A Global MCP client is created.
+
+
+## Result
+
+The MCP client is created and appears in the **Global MCP client** tab.
+

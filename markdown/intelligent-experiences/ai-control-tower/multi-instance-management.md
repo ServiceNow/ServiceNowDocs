@@ -52,7 +52,7 @@ If there’s any upgrade to version 6.2.4 in a sub-prod, then it’s advisable t
 
 **Note:** All the preferences mentioned earlier for a sub-prod instance are available in read-only mode, when Multi-instance is configured and enabled.
 
-For information about configuring Multi-instance management for AI Control Tower, see [Configure Multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
+For information about configuring Multi-instance management for AI Control Tower, see [Configure multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
 
 For information about Data section, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md)
 

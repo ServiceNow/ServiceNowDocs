@@ -51,21 +51,7 @@ Connect your Five9 contact center to a ServiceNow voice assistant using the Sess
 
     \[Omitted image "voice-agents-five9-integration.png"\] Alt text: Five9 integration configuration showing the Transfer method, ServiceNow SIP Trunk information, and x-snc-param fields.
 
-8.  Enable context data persistence for the voice service.
-
-    1.  Navigate to `sys_now_assist_deployment_config_attributes.list` and check whether a `persist_context_data` attribute exists for your voice service.
-
-    2.  If the attribute exists, open it and set **Value** to `true`.
-
-        \[Omitted image "image.voice-agents-persist-context-data"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
-
-    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its `sys_id`.
-
-        To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
-
-    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
-
-9.  In your Five9 IVR, add the **x-snc-param** as a SIP custom header using the Set Variable Module.
+8.  In your Five9 IVR, add the **x-snc-param** as a SIP custom header using the Set Variable Module.
 
     In the Set Variable Module, use the following function to pass the **x-snc-param** value generated in the previous step:
 

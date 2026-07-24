@@ -60,7 +60,7 @@ Channel Support Operations for Manufacturing Commercial Operations enables:
 </table>**Related topics**  
 
 
-[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+[bundle-csm.c_CustomerServiceManagement]
 
 [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

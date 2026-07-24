@@ -74,15 +74,15 @@ If you’re using Software Asset Workspace, the option to create the Smartsheet 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d297468e384">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d297476e384">
 
 Interface
 
-</th><th align="left" id="d297468e387">
+</th><th align="left" id="d297476e387">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d297468e393">
+</th></tr></thead><tbody><tr><td id="d297476e393">
 
 **Core UI**
 
@@ -93,7 +93,7 @@ Action
 3.  Select **Smartsheet Integration Profile**.
 
 
-</td></tr><tr><td id="d297468e435">
+</td></tr><tr><td id="d297476e435">
 
 **Software Asset Workspace**
 

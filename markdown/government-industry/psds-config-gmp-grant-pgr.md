@@ -28,8 +28,6 @@ Configure the budget categories that appear in the Program budget activity of th
 
 7.  [Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-config-spending-overview-widget.md)  
 Use script includes to configure the **Spending Overview** widget and filter pills on the **Funding Allocation** tab for the rolling grant approvals feature. Admins can add, remove, relabel, and reorder chart widgets and filter pills, and create custom ones to match program requirements.
-8.  [Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)  
-Control the visibility of the program lifecycle stepper on the Grant Program record page. The stepper is turned off by default and can be enabled at the instance level for deployments that follow a batch or competitive grant lifecycle.
 
 **Parent Topic:**[Configuring Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-grants-management-playbook.md)
 

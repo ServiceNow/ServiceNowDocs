@@ -18,7 +18,7 @@ Service Order Management \(SOM\) is a domain of order management that is respons
 
 Use service orders for the activation of new services or for the post-sales requests for the services that were activated for and delivered to customers at earlier dates. By using this process, you ensure that service orders are correct and handled efficiently throughout the entire fulfillment process.
 
-Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see Service Order Open API.
+Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
 
 ## Service order direct entry
 

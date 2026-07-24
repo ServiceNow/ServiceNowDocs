@@ -35,7 +35,7 @@ Refer to the [Hardening settings](https://raw.githubusercontent.com/ServiceNow/S
 
 3.  In the Hardening Compliance chart, view the statistics for compliant and non-compliant security configuration properties.
 
-<table id="choicetable_lvw_mhf_kfb"><tbody><tr><td id="d94583e125">
+<table id="choicetable_lvw_mhf_kfb"><tbody><tr><td id="d94580e125">
 
 **__Compliant__**
 
@@ -43,7 +43,7 @@ Refer to the [Hardening settings](https://raw.githubusercontent.com/ServiceNow/S
 
 Number of security configuration properties that comply with the compliance values in the Instance Security Hardening Settings.**Note:** You cannot change the settings for compliant security properties in the Hardening Compliance Configuration. If you want to do so, you must update them in System Properties. To learn more, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-</td></tr><tr><td id="d94583e144">
+</td></tr><tr><td id="d94580e144">
 
 **__Non-Compliant__**
 
@@ -58,7 +58,7 @@ Number of security configuration properties that do not comply with the complian
 
 4.  In the **Show** list below the chart, specify whether you want to access all security configuration properties, or only recommended ones.
 
-<table id="choicetable_kwb_2q5_mlb"><tbody><tr><td id="d94583e183">
+<table id="choicetable_kwb_2q5_mlb"><tbody><tr><td id="d94580e183">
 
 **__All__**
 
@@ -66,7 +66,7 @@ Number of security configuration properties that do not comply with the complian
 
 \(Default\) All compliant and non-compliant security configuration properties in each selected category.
 
-</td></tr><tr><td id="d94583e195">
+</td></tr><tr><td id="d94580e195">
 
 **__Recommended__**
 
@@ -83,7 +83,7 @@ Only recommended security configuration properties appear in each selected categ
 
     \[Omitted image "isc-hardening-4.png"\] Alt text: Instance security center page
 
-<table id="choicetable_lbl_dnx_lgb"><tbody><tr><td id="d94583e257">
+<table id="choicetable_lbl_dnx_lgb"><tbody><tr><td id="d94580e257">
 
 **__Access Control__**
 
@@ -91,7 +91,7 @@ Only recommended security configuration properties appear in each selected categ
 
 Access controls determine whether to grant or deny user access to a particular resource based on who is permitted to use those resources. To learn more, see [Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e279">
+</td></tr><tr><td id="d94580e279">
 
 **__Attachments__**
 
@@ -99,7 +99,7 @@ Access controls determine whether to grant or deny user access to a particular r
 
 Attachment security controls enable validation of incoming attachments to protect your instance against malicious files sent by attackers. To learn more, see [Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e303">
+</td></tr><tr><td id="d94580e303">
 
 **__Email Security__**
 
@@ -107,7 +107,7 @@ Attachment security controls enable validation of incoming attachments to protec
 
 Email security encompasses security configuration properties an administrator can configure to ensure that proper security policies are in place for all inbound emails. To learn more, see [Enable email spam scoring and filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e331">
+</td></tr><tr><td id="d94580e331">
 
 **__Input Validation__**
 
@@ -115,7 +115,7 @@ Email security encompasses security configuration properties an administrator ca
 
 Input validation includes security-related properties that an administrator can configure to minimize entry of malformed data, regardless of source. To learn more, see [Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e353">
+</td></tr><tr><td id="d94580e353">
 
 **__Secure communications__**
 
@@ -123,7 +123,7 @@ Input validation includes security-related properties that an administrator can 
 
 Secure communications properties are those that an administrator can configure to secure the transportation of HTTP traffic. To learn more, see [Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-communications.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e376">
+</td></tr><tr><td id="d94580e376">
 
 **__Security Best Practices__**
 
@@ -131,7 +131,7 @@ Secure communications properties are those that an administrator can configure t
 
 Security best practices encompass Security Tasks that an administrator should perform periodically, within a certain interval of time, and include related configuration properties. To learn more, see [Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md) in the Instance Security Hardening Settings.
 
-</td></tr><tr><td id="d94583e401">
+</td></tr><tr><td id="d94580e401">
 
 **__Security Inclusion Listing__**
 
@@ -139,7 +139,7 @@ Security best practices encompass Security Tasks that an administrator should pe
 
 Security inclusion listing includes security-related properties that an administrator can configure to restrict behavior to known inclusion listings.
 
-</td></tr><tr><td id="d94583e415">
+</td></tr><tr><td id="d94580e415">
 
 **__Session Management__**
 

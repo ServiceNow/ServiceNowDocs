@@ -29,7 +29,7 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## New in the Australia release
 
--   **[Added SHA512 support for message digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)**
+-   **Added SHA512 support for message digests**
 
     GlideDigest has been updated to allow creation and verification of message digests using the SHA512 cryptographic hash function.
 
@@ -37,7 +37,7 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 
--   **[Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**
+-   **Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation**
 
     The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
@@ -60,7 +60,7 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Use the streamlined workflow designed for faster, easier creation of cryptographic modules.
 
--   **[SecurityUtils Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.md)**
+-   **SecurityUtils Enhancements**
 
     The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for WDF. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the Now Assist Admin console to configure Now Assist for WDF. For additional information, see .
 
 The oneExtend LLM skill is included in Now Assist for WDF.
 
@@ -62,7 +62,5 @@ The oneExtend LLM skill is included in Now Assist for WDF.
 **Related topics**  
 
 
-[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
-
-[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[bundle-platai.configuring-now-assist]
 

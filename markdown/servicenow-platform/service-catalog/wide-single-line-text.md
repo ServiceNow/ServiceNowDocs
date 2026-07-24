@@ -1,0 +1,79 @@
+---
+title: Wide single-line text
+description: The wide single-line text variable creates a field that spans the form, letting users enter longer lines of text.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/wide-single-line-text.html
+release: australia
+product: Service Catalog
+classification: service-catalog
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Wide single-line text
+
+The wide single-line text variable creates a field that spans the form, letting users enter longer lines of text.
+
+For attributes supported by this variable, see variable attributes.
+
+\[Omitted image "VariableWideSingleLineG.png"\] Alt text: A wide single-line text variable
+
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+
+**Related topics**  
+
+
+[Attachment]()
+
+[Break]()
+
+[Check box]()
+
+[Container start, container split, and container end]()
+
+[Date, Date and time, and Duration]()
+
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+
+[HTML]()
+
+[IP Address]()
+
+[Label]()
+
+[List collector]()
+
+[Lookup multiple choice]()
+
+[Lookup select box]()
+
+[Custom and Custom with label]()
+
+[Masked]()
+
+[Multi-line text]()
+
+[Multiple choice]()
+
+[Numeric scale]()
+
+[Reference]()
+
+[Requested for]()
+
+[Rich Text Label]()
+
+[Select box]()
+
+[Single-line text]()
+
+[UI page]()
+
+[URL]()
+
+[Yes/No]()
+
+[Variable support in various channels]()
+

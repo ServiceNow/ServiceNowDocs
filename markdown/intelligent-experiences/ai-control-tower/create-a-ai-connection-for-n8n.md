@@ -34,43 +34,43 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     **Note:** Verify to follow all the prerequisite steps.
 
-6.  Enter the details on Configure and test connection:
+6.  Configure and test connection.
 
-    1.  Enter the **Connection Name**.
+    1.  Enter the **Connection Name**
 
-    2.  Enter the **Connection URL**\(https://&lt;n8n-instance&gt;\).
+    2.  Enter the **Connection URL**\(https://&lt;n8n-instance&gt;\)
 
-    3.  Enter the **API Key**.
+    3.  Enter the **API Key**
 
-    4.  Select **Create and test connection**.
+    4.  Select **Create and test connection**
 
-    5.  Select **Continue**.
+    5.  Select **Continue**
 
-        Setup page appears.
+        Setup page appears
 
-7.  Configure import schedule:
+7.  Configure import schedule
 
-    1.  Select a parent import schedule job.
+    1.  Select a parent import schedule job
 
-    2.  Select the Active check box.
+    2.  Select the Active check box
 
-    3.  Select run and time to schedule the job.
+    3.  Select run and time to schedule the job
 
-    4.  Select all the additional settings if necessary.
+    4.  Select all the additional settings if necessary
 
-    5.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
+    5.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
-    6.  Select Run according to your preference.
+    6.  Select Run according to your preference
 
-    7.  To run frequency by demand, select **Execute now**.
+    7.  To run frequency by demand, select **Execute now**
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    8.  Select **Save**.
+    8.  Select **Save**
 
-    9.  Select **Continue**.
+    9.  Select **Continue**
 
 8.  Select **View all connections** to view the newly created connection.
 

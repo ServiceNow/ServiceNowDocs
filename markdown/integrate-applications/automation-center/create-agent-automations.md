@@ -74,7 +74,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     **Important:** If you notice that no UI-block tool is created for your on-screen automations, then the reason could be that the recording did not have screenshots. Contact the Task Mining user to provide the recording with screenshots.
 
-    To test a UI-block tool, open it in AI Desktop Actions and run a test on the Windows machine where the AI Desktop Actions agent application is installed. For more information, see [Test an AI agent or agentic workflow for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-test.md).
+    To test a UI-block tool, open it in AI Desktop Actions and run a test on the Windows machine where the AI Desktop Actions agent application is installed. For more information, see .
 
     Anchors identify the UI elements that AI Desktop Actions interacts with, such as the field to select or the button to activate. Anchors generated from Task Mining recordings may not match the format that AI Desktop Actions expects. Common anchor issues include:
 

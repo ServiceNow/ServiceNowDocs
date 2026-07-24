@@ -46,10 +46,9 @@ Watch this short video for an introduction to the Telecommunications Network Inv
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Telecommunications Network Inventory Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-network-inventory-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Network Inventory features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University.](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
--   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Learn more about what's new and changed, see the [Telecommunications Network Inventory Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-network-inventory-rn.md)
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
+-   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Connect with other Telecommunications Network Inventory users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 

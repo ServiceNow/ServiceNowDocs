@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for Copilot Studio \(v2.0.1\)
-description: Create an AI connection for Copilot Studio in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
+description: Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-copilot-studio-v2-0-1.html
 release: australia
@@ -8,44 +8,13 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-07-03"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Create an AI connection for Copilot Studio \(v2.0.1\)
 
-Create an AI connection for Copilot Studio in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
-
-## Copilot Studio prerequisites
-
-Complete the following steps in your Power Platform environment before creating a Copilot connection.
-
-Register an Application in Microsoft Entra ID
-
-Register an application to obtain OAuth credentials for the connector.
-
-To register the application:
-
--   Follow the [Microsoft Entra app registration quickstart](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to create application.
--   Record the Client ID and Client Secret from the registration.
-
-Grant application access to your Copilot environment
-
-Configure the application as a user in your Copilot environment.
-
-To configure application access:
-
-1.  Open the [Power Platform admin Center](https://admin.powerplatform.microsoft.com/home).
-2.  Navigate to Environments and select your Copilot environment.
-3.  Go to Settings &gt; Users + Permissions &gt; Application users.
-4.  Select New App User and add your application using the Client ID from step 1.
-5.  Assign the following security roles to the application user:
-    -   Basic User
-    -   System administrator
-
-If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For custom role creation, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md).
-
-**Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
+Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
 
 ## Before you begin
 
@@ -53,56 +22,62 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**
 
-2.  Select **AI connector for Microsoft** from the available connectors and then select **Create connection**.
+2.  Click **Add**
 
-3.  Select the Microsoft Copilot check box.
+3.  Select **AI connector for Microsoft** from the available connectors
 
-4.  Review setup instructions page displays.
+4.  Click **Create connection**.
+
+5.  Select the Microsoft Copilot check box
+
+6.  Review setup instructions page displays
 
     **Note:** Verify to follow all the prerequisite steps.
 
-5.  Select **Continue**.
+7.  Select **Continue**.
 
-6.  Setup page appears.
+8.  Setup page appears
 
-7.  Enter the details on Configure and Test Pilot connection:
+9.  **Configure and Test Pilot connection**
 
-    1.  Enter the **Connection name**.
+    1.  Enter the **Connection name**
 
-    2.  Enter the **Environment IDs**.
+    2.  Enter the **Environment IDs**
 
         **Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
 
-    3.  Enter the **OAuth Client ID**.
+    3.  Enter the **OAuth Client ID**
 
-    4.  Enter the **OAuth Client Secret**.
+    4.  Enter the **OAuth Client Secret**
 
-    5.  Enter the **Tenant ID**.
+    5.  Enter the **Tenant ID**
 
-    6.  Select **Create and test connection**.
+    6.  Select **Create and test connection**
 
-    7.  Select **Continue**.
+    7.  Select **Continue**
 
-8.  Configure Copilot import schedule:
+10. **Configure Copilot import schedule**
 
-    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped base system inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped base system inactive
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
-    2.  Set to run frequency.
+    2.  Set to run frequency
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    3.  To run frequency by demand, select **Execute now** to run.
+    3.  To run frequency by demand, select **Execute now** to run
 
-    4.  Select **Continue**.
+    4.  Select **Continue**
 
-    5.  Select **View all connections** to view the newly created connection.
+    5.  Select **View all connections** to view the newly created connection
 
 
 ## Result
 
-Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
+Click **View all connections** to view the newly created connection.
+
+The AI connection for Copilot Studio is created and configured.
 

@@ -54,11 +54,11 @@ Install Data Center and Network Asset Management by requesting it from the Servi
 
     Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services.
 
--   **[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md)**
+-   ****
 
     Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes.
 
--   **[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md)**
+-   ****
 
     Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment.
 

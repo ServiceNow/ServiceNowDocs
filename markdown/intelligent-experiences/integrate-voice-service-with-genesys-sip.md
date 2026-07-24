@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Genesys, Genesys Cloud, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
 breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
@@ -52,21 +52,7 @@ Connect your Genesys Cloud contact center to a ServiceNow voice assistant using 
 
     \[Omitted image "voice-agents-genesys-sip-integration.png"\] Alt text: Genesys SIP integration configuration showing the Transfer number/address, Transfer method, ServiceNow SIP Trunk information, and x-snc-param fields.
 
-8.  Enable context data persistence for the voice service.
-
-    1.  Navigate to `sys_now_assist_deployment_config_attributes.list` and check whether a `persist_context_data` attribute exists for your voice service.
-
-    2.  If the attribute exists, open it and set **Value** to `true`.
-
-        \[Omitted image "image.voice-agents-persist-context-data"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
-
-    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its `sys_id`.
-
-        To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
-
-    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
-
-9.  In your Genesys Cloud account, configure the SIP trunk using the ServiceNow SIP FQDN and authentication token.
+8.  In your Genesys Cloud account, configure the SIP trunk using the ServiceNow SIP FQDN and authentication token.
 
     Use the **ServiceNow SIP Trunk information** and the **x-snc-param** token generated in the previous step. For SIP trunk configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).
 

@@ -72,8 +72,6 @@ Auditors access assigned work from the CSM/FSM Workspace. Work notes capture int
 
 All Audit Tasks are Closed Complete, observations are recorded in the activity stream, and the Store Audit Case is Closed. The Store Audit Manager has full visibility into all recorded findings.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
-
 **Related topics**  
 
 

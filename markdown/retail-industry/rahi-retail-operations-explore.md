@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-ope
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Retail]
 ---
 
@@ -47,10 +47,10 @@ Retail case types are designed to address various business needs and streamline 
 
 The case types available are:
 
--   [HQ communications case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-hq-operations.md): Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
--   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-store-services.md): Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
--   [In-store operations case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-in-store-operations.md): Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
--   [Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-customer-complaint.md): Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
+-   : Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
+-   : Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
+-   : Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
+-   : Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
 
 ## Retail data model
 
@@ -74,12 +74,12 @@ To learn more about configuring and using Retail, see:
 -   [Track cases and tasks from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-navigating-retail.md)
 -   [Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
 
+-   **[Retail case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-case.md)**  
+The Retail case table stores information about your retail case types and provides the base for retail case creation. This table extends the Customer Service Management case table. All fields utilized through Customer Service Management case remain intact.
 -   **[Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-portal.md)**  
 Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 -   **[Retail mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-mobile.md)**  
 The Retail mobile plugin offers a customized mobile experience for retail operations, enabling frontline teams to manage efficiently store activities and resolve issues on the go. It provides real-time insights into key KPIs, supports issue tracking, and is compatible with both Android and iOS platforms.
--   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-A case type represents the processes, data, and automation needed to resolve a specific type of retail issue. Use case types to create and configure the types of cases your retail organization handles.
 -   **[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-multistore-operational-planning.md)**  
 The Retail store plan provides a centralized way to plan, schedule, and manage operational work across multiple stores, giving HQ and regional teams full visibility while simplifying execution for store teams.
 -   **[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)**  

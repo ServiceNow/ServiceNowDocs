@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highli
 release: australia
 topic_type: reference
 last_updated: "2026-06-12"
-reading_time_minutes: 112
+reading_time_minutes: 111
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -115,7 +115,7 @@ AI Risk and Compliance
 -   Submit AI cases anonymously to report potential AI risks or concerns without disclosing your identity, helping improve early risk visibility and participation in AI governance.
 -   Offboard AI assets with structured life-cycle tasks to support completion of governance and risk activities when systems are retired or replaced.
 
-See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -227,7 +227,7 @@ Advanced Risk
 
 Review the updated AI experience with three licensing tiers.
 
-See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/advanced-risk-assessment.md) for more information.
+See Advanced Risk Assessment for more information.
 
 </td></tr><tr><td>
 
@@ -248,7 +248,7 @@ Agent Workspace for HR Case Management
 -   Enable CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
-See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ App Engine Management Center
 -   Use the release lifecycle documentation AI agent to regenerate release notes.
 -   Use the improved filter feature to sort requests based on specific criteria.
 
-See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -315,7 +315,7 @@ App Engine Studio
 
 Several Integration Hub flow templates are being deprecated.
 
-See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -336,7 +336,7 @@ Application Vulnerability Response
 </td><td>
 
 -   Import application vulnerability response data that includes application, Software Composition Analysis \(SCA\) and secrets data with the Wiz Application Vulnerability Response Integration.
--   If you're currently using Application Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Application Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Integrate with supported third-party scanners to import vulnerability data and use automated workflows to prioritize, remediate, and manage findings \(application vulnerable items \(AVITs\)\). Each application vulnerability represents a vulnerability entry in the Common Weakness Enumeration \(CWE\) or third-party libraries.
 -   Monitor your penetration test requests and findings, as well as your team's overall progress in the Penetration Test Workspace.
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a specific set of application vulnerable items in the Vulnerability Manager Workspace.
@@ -356,7 +356,7 @@ Asset Audit Response
 -   Track and manage impacted records that are associated with your remediation tasks.
 -   Gain insight into the citations associated with your evidence requests.
 
-See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ Audit Management
 
 -   Improve audit data governance by introducing an audit entry framework that separates audit-specific \(third-line\) records from operational \(second-line\) records with controlled visibility.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -414,7 +414,7 @@ Build Agent
 -   Choose from newly supported models.
 -   Search external content without leaving Build Agent.
 
-See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Business Continuity Management
 -   Export event tasks to Microsoft Excel, edit offline, and reimport updated records with validation and progress tracking.
 -   Monitor performance through role-based dashboards with key performance indicators and usage insights.
 
-See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -541,7 +541,7 @@ Case and Knowledge Management
 -   Restrict access to HR data with Granular admin roles in Case and Knowledge Management.
 -   Find users who can access HR cases in an instance based on COE security policies, using the COE Security Diagnostics tool.
 
-See [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/case-knowledge-management-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -591,7 +591,7 @@ Cloud Cost Management 10.0
 -   Gain financial clarity and reporting flexibility by choosing to view your cloud cost data in your preferred currency.
 -   Get centralized visibility into the Microsoft Partner Agreement \(MPA\) account spend when operating under a Managed Service Provider \(MSP\).
 
-See [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-insights-landing-page.md) for more information.
+See Cloud Cost Management for more information.
 
 </td></tr><tr><td>
 
@@ -628,7 +628,7 @@ Common Governance, Risk, and Compliance feature
 -   Automatic redirection from GRC notification links to the appropriate workspace view based on the recipient's persona and access permissions.
 -   The Tasks page now loads faster by showing an instant overview of task counts and progressively loading detailed tasks.
 
-See [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/common-grc-features.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -663,7 +663,7 @@ Configuration Compliance
 </td><td>
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import Wiz issues and configuration test results from the Wiz scanners into test results in the Configuration Compliance application with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vulc.remediation\_owner role, create remediation tasks manually in the IT Remediation Workspace.
 -   With the sn\_vulc.admin role, create remediation tasks manually in the Vulnerability Manager Workspace.
@@ -692,7 +692,7 @@ Container Vulnerability Response
 </td><td>
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import container image vulnerability data from the Wiz scanners into container vulnerable items \(CVITs\) with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vul\_container.vulnerability\_analyst or sn\_vul\_container.vulnerability\_admin role, create container remediation tasks manually in the Vulnerability Manager Workspace.
 -   With the role sn\_vul\_container.remediation\_owner, create container remediation tasks manually in the IT Remediation Workspace.
@@ -710,7 +710,7 @@ Continuous Authorization and Monitoring
 -   Populate additional control fields when importing and exporting OSCAL data for SSP, AP, and AR formats to capture richer compliance details.
 -   Raise control tailoring requests to make incremental changes to control sets in authorized packages without resetting the entire package life cycle.
 
-See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -745,7 +745,7 @@ Creator Studio
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -931,7 +931,7 @@ Developer Sandboxes
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
-See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sandboxes-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1023,7 +1023,7 @@ Employee Center
 -   Simplify how employees move through by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
 -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1033,7 +1033,7 @@ Employee Center Pro
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
-See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1125,7 +1125,7 @@ Early Availability
 -   Streamline complex maintenance activities across assets, asset groups, or locations with unified work order plans.
 -   Streamline inventory asset management with the expanded and efficient inventory auditing process.
 
-See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1260,7 +1260,7 @@ Flows, Subflows, and Actions
 -   Test conversation-enabled actions and subflows from a conversation.
 -   Use an AI agent from a flow.
 
-See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-actions.md) for more information.
+See , , and  for more information.
 
 </td></tr><tr><td>
 
@@ -1310,7 +1310,7 @@ Australia Patch 0
 -   Streamlined Advanced Shipment \(ASN\) import process with support for users with specific functional roles.
 -   Save time and effort by copying a model from the Content lookup portal to create a record in your ServiceNow instance.
 
-See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ham-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1482,6 +1482,7 @@ Australia
 -   Configure AI Agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
 -   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.
 -   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
+-   Use the Identity sub-type field to categorize the identity type while creating a user.
 
 </td></tr><tr><td>
 
@@ -1645,7 +1646,7 @@ Interview management
 -   Substitute yourself in interviews to eliminate the time and effort of offline coordination.
 -   Track interview health and take timely actions from a unified interview health tracker.
 
-See [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1715,7 +1716,7 @@ Legal Conflict of Interest
 
 Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1725,7 +1726,7 @@ Legal Matter Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1735,7 +1736,7 @@ Legal Request Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1825,7 +1826,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -2002,7 +2003,7 @@ Australia early availability
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2181,7 +2182,7 @@ Now Assist in Contract Management
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use Now Assist powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-See [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-now-assit-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2239,7 +2240,7 @@ Operational Resilience
 -   Validate Legal Entity Identifiers \(LEIs\) in real time against the Global Legal Entity Identifier Foundation \(GLEIF\) API across record forms, CSV downloads, and Microsoft Excel uploads. Use the LEI Validation Report for compliance tracking.
 -   Customize DRIR document outputs through Reporting and Template configuration modules.
 
-See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-opres-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2352,7 +2353,7 @@ Performance Analyzer
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer-landing.md) for more information.
+See Performance Analyzer for more information.
 
 </td></tr><tr><td>
 
@@ -2379,7 +2380,7 @@ Playbook
 -   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
 -   Use AI agents as activities in your playbook to automate tasks.
 
-See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2393,7 +2394,7 @@ Policy and Compliance Management
 -   Rationalize UCF and non-UCF control objectives together in a single rationalization process.
 -   Email notification links redirect users to their appropriate workspace based on their assigned roles.
 
-See [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2460,7 +2461,7 @@ Privacy Management
 -   Automatically generate an AI-recommended privacy case summary from varied compliance case data, reducing investigation time and enabling faster, more consistent decision-making.
 -   Anonymously report compliance violations through a secure portal that maintains complete identity protection while enabling organizational trust and regulatory compliance.
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2627,7 +2628,7 @@ Recommended Actions for HRSD
 
 Provide relevant resources and recommendations to HR agents for speedy resolution of HR cases.
 
-See [Exploring Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-recommended-actions-hrsd.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2652,7 +2653,7 @@ Recruitment workspace
 -   Assign a substitute on behalf of an interviewer when needed.
 -   Monitor interview health from the list view in Recruitment workspace.
 
-See [Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2668,7 +2669,7 @@ Review the updated skill family name for Regulatory change management Now Assist
 
 Review the updated AI experience with three licensing tiers.
 
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2681,7 +2682,7 @@ ReleaseOps
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   If you have a Now Assist for Creator subscription, you can use generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2749,7 +2750,7 @@ SQL API
 -   Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -2948,7 +2949,7 @@ ServiceNow IDE
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2958,7 +2959,7 @@ ServiceNow SDK
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2972,7 +2973,7 @@ ServiceNow Studio
 -   As of version 29.1.4, when opening a file that supports preview in ServiceNow Studio, the interface defaults to the preview pane instead of the underlying record form, providing immediate visual context for the file content.
 -   As of version 29.1.4, when creating an application, the **Create with Now Assist** option opens Build Agent by default instead of the Now Assist for app generation skill.
 
-See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3040,7 +3041,7 @@ Smart Assessment Engine
 -   Edit published templates quickly with inline edits and built‑in audit tracking.
 -   Enable efficient, role-based collaboration by allowing primary owners to delegate assessment sections to subject matter experts \(SMEs\).
 
-See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3064,7 +3065,7 @@ Australia Patch 0
 -   Streamline software lifecycle reporting and compliance management with a guided playbook.
 -   Use a consolidated Microsoft licensing report that unifies device and infrastructure deployment details with license consumption calculations and transparent explanations.
 
-See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3157,7 +3158,7 @@ Table Builder
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3253,7 +3254,7 @@ Use generative AI to recommend TPRM issues for reviewer validation.
 
 Review the updated AI experience with three licensing tiers.
 
-See [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3280,7 +3281,7 @@ UI Builder
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3291,7 +3292,7 @@ Universal Request
 -   Enable employees raise tickets for hard-to-find catalog services or issues requiring interdepartmental collaboration using the Agentic AI flow for departmental ticket creation.
 -   Resolve universal requests efficiently by enabling effective communication among agents from different departments.
 
-See [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-landing-limitedaccess.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 

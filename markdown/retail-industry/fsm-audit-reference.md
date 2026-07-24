@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-23"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -56,9 +56,9 @@ com.snc.work\_management
 **Related topics**  
 
 
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-roles.md)
 
-[Custom access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Custom access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-custom-access-rules.md)
 
 [Grant audit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-t-grant-roles.md)
 

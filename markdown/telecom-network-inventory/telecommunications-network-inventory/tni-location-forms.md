@@ -130,7 +130,7 @@ Longitude of the location in decimal degrees.
 </table>**Related topics**  
 
 
-[e60d99dc4f9bc01614dc89ea28ed71afa7376ccc.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
+[1364cf968f9d77022f95a095981a18e979c26f54.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
 
 ## Location form - Parent
 

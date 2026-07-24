@@ -26,15 +26,15 @@ Because you can define multiple archive rules for a table, verify any existing a
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d281335e67">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d281349e67">
 
 Option
 
-</th><th align="left" id="d281335e70">
+</th><th align="left" id="d281349e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d281335e76">
+</th></tr></thead><tbody><tr><td id="d281349e76">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d281335e114">
+</td></tr><tr><td id="d281349e114">
 
 **Rules tab**
 

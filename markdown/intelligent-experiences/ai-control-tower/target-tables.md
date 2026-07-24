@@ -26,7 +26,7 @@ Both Azure Foundry and Copilot data sources use the following main target tables
 ## Entity Tables
 
 -   sn\_ent\_ai\_tool- AI Tools
--   sn\_ent\_ai\_system\_subcomponent\_m2m- AI System Subcomponent many-to-many relationships.
+-   sn\_ent\_ai\_system\_subcomponent\_m2m- AI System Subcomponent many-to-many relationships
 
 ## Usage Table
 
@@ -36,6 +36,6 @@ sn\_ai\_disc\_ai\_usage- AI Usage/Execution data.
 
 -   Staging tables are import set tables where data is initially loaded from external sources.
 -   Target tables are the destination where transformed data is stored.
--   Data flows from Data Source → Staging Table → Transform Map → Target Table.
+-   Data flows from Data Source → Staging Table → Transform Map → Target Table
 -   For the tools attached to AI Agents which are discovered, the tool names are suffixed to ensure uniqueness. This is the format for tool name- tool-name:tenantid:resource-name:project-name.
 

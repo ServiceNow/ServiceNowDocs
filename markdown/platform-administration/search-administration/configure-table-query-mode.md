@@ -34,7 +34,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 3.  Use the combo box to select a **Default query mode**.
 
-<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d117526e103">
+<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d117787e103">
 
 **Default**
 
@@ -42,7 +42,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 The default query mode for a table is an AND query.
 
-</td></tr><tr><td id="d117526e112">
+</td></tr><tr><td id="d117787e112">
 
 **AND**
 
@@ -50,7 +50,7 @@ The default query mode for a table is an AND query.
 
 Matches all search terms.
 
-</td></tr><tr><td id="d117526e121">
+</td></tr><tr><td id="d117787e121">
 
 **OR**
 
@@ -58,7 +58,7 @@ Matches all search terms.
 
 Matches one or more search terms.
 
-</td></tr><tr><td id="d117526e130">
+</td></tr><tr><td id="d117787e130">
 
 **AND\_OR**
 

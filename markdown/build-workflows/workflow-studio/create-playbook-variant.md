@@ -20,7 +20,7 @@ Create variations of a playbook for different use cases.
 
 Role required: admin or playbook.admin
 
-**Tip:** To learn about generating a playbok using AI, see [Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-a-playbook-outline.md)
+**Tip:** To learn about generating a playbok using AI, see Generate a playbook
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Role required: admin or playbook.admin
 
 5.  On the **Build on your own** tab, fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d158241e101">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d158069e101">
 
 **Variant name**
 
@@ -42,7 +42,7 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d158241e113">
+</td></tr><tr><td id="d158069e113">
 
 **Conditions**
 

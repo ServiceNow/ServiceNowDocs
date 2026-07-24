@@ -31,15 +31,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d87209e105">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d87204e105">
 
 From
 
-</th><th align="left" id="d87209e108">
+</th><th align="left" id="d87204e108">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d87209e114">
+</th></tr></thead><tbody><tr><td id="d87204e114">
 
 **My Work**
 
@@ -51,7 +51,7 @@ Do this
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d87209e153">
+</td></tr><tr><td id="d87204e153">
 
 **My Work**
 
@@ -62,7 +62,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d87209e186">
+</td></tr><tr><td id="d87204e186">
 
 **Sales**
 
