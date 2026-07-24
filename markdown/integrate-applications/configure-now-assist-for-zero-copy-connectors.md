@@ -21,7 +21,7 @@ Role required: admin and sn\_erp\_integration.erp\_ai\_user
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for ZCC. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for ZCC. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following skills are included in Now Assist for ZCC:
 
@@ -64,5 +64,7 @@ The following skills are included in Now Assist for ZCC:
 **Related topics**  
 
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

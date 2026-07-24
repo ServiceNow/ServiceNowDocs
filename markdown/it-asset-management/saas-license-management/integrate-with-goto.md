@@ -205,15 +205,15 @@ If you’re using Software Asset Workspace, the option to create the GoTo integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d233607e684">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d233605e684">
 
 Interface
 
-</th><th align="left" id="d233607e687">
+</th><th align="left" id="d233605e687">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d233607e693">
+</th></tr></thead><tbody><tr><td id="d233605e693">
 
 **Core UI**
 
@@ -224,7 +224,7 @@ Action
 3.  Select **GoTo Integration Profile**.
 
 
-</td></tr><tr><td id="d233607e735">
+</td></tr><tr><td id="d233605e735">
 
 **Software Asset Workspace**
 

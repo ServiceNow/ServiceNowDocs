@@ -47,7 +47,7 @@ After installing the ServiceNow Otto for Integration Hub application, you can us
 -   See Otto to learn about AI agents.
 -   See  to learn more about configuring the conversational settings.
 -   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in  to learn more about conversation experience and skills.
+-   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 

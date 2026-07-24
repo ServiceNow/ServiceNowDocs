@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 keywords: [activate alert rules, deactivate alert rules, alert rule status, enable monitoring rules, dex alerts]
 breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Service Management]

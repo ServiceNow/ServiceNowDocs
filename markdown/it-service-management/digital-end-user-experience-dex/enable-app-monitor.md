@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 keywords: [turn on monitoring, mcm monitoring, teams call quality, zoom monitoring, turn on metrics monitoring, advanced monitoring]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]

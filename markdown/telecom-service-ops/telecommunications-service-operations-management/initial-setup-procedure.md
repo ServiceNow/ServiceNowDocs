@@ -84,15 +84,15 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         5.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
 5.  Configure Data Collection Schedule either for bulk discovery or filtered discovery by clicking **Get Started**and then click **Configure**.
 
-<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d33357e357">
+<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d33324e357">
 
 To
 
-</th><th align="left" id="d33357e360">
+</th><th align="left" id="d33324e360">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d33357e366">
+</th></tr></thead><tbody><tr><td id="d33324e366">
 
 **Schedule data collection for bulk discovery \(Use bulk discovery data source for all devices in connection alias\)**
 
@@ -107,7 +107,7 @@ Do the following
 -   In the **Time** field, enter the time in hours, minutes, and seconds.
 
 
-</td></tr><tr><td id="d33357e423">
+</td></tr><tr><td id="d33324e423">
 
 **Schedule data collection for filtered discovery \(Use Filtering Discovery data source for specific OLT filter criteria for each connection alias\)**
 

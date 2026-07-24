@@ -20,7 +20,7 @@ Create a prominent action button that launches Now Assist chat or voice in the C
 Role required: admin
 
 -   Verify that Now Assist is enabled on your instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+-   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist voice assistant created in Assistant Designer. For more information, see .
 
 ## Procedure
 

@@ -52,15 +52,15 @@ From the list of records, reassign an open response task that is assigned to you
 
 9.  With the fields on the response task displayed, choose one in the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d210774e187">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d210085e187">
 
 Option
 
-</th><th align="left" id="d210774e190">
+</th><th align="left" id="d210085e190">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210774e196">
+</th></tr></thead><tbody><tr><td id="d210085e196">
 
 **Details tab**
 
@@ -70,7 +70,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Assign to Another**.
  After you complete your edits, tap **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d210774e229">
+</td></tr><tr><td id="d210085e229">
 
 **Activity Stream tab**
 
@@ -82,7 +82,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap menu icon to edit or reassign the task.
 
 
-</td></tr><tr><td id="d210774e250">
+</td></tr><tr><td id="d210085e250">
 
 **Tap a screen icon at the bottom of the screen.**
 

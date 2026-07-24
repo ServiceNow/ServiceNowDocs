@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d83402e444">
+<table><thead><tr><th align="left" id="d82814e444">
 
 Installation option
 
-</th><th align="left" id="d83402e447">
+</th><th align="left" id="d82814e447">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d83402e453">
+</th></tr></thead><tbody><tr><td id="d82814e453">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d83402e477">
+</td></tr><tr><td id="d82814e477">
 
 **Install later**
 

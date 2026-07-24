@@ -35,10 +35,10 @@ Efficiently identify and resolve service problems experienced by the customers w
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Customer Service Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-problem-management-rn.md).
+-   Learn more about what's new and changed, see the .
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/proactive-service-experience?id=learning_course_prev&course_id=58f0f69f87a4ae90cfa68519dabb35ec&s=1&ssa=3)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Problem Management users at [Now Community](https://www.servicenow.com/industries/telecom.html).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=service%20problem%20management&spa=1)
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Problem Management users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 

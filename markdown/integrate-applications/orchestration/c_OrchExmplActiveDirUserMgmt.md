@@ -16,7 +16,7 @@ breadcrumb: [Orchestration examples, Classic Orchestration, Workflow Data Fabric
 
 A set of six Orchestration Active Directory activities enables organizations to automate their on-boarding/off-boarding processes with auditable, self-documenting workflows that save time and eliminate mistakes.
 
-The activities in the  are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
+The activities in the [Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md) are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
 
 -   Create AD User Account
 -   Update AD User Account

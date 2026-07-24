@@ -52,7 +52,7 @@ A record producer is created.
 **Related topics**  
 
 
-[bundle-platcap.c_RecordProducer]
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md)
 
 [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

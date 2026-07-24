@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-respond-resolution.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 breadcrumb: [Manage Break-Fix cases, Retail]
 ---
@@ -64,6 +64,8 @@ After HQ proposes a resolution, you review it from the portal or mobile app. Acc
 ## What to do next
 
 If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
+
+**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 

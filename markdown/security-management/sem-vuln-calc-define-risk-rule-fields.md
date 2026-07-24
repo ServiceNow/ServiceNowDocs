@@ -21,7 +21,7 @@ Additionally, you can use attributes in the configuration\_item \[cmdb\_ci\] in 
 -   [Common Service Data Model conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-conceptual-model.md)
 -   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConfigurationManagementDatabase.md)
 
-Role required: sn\_vul.manage\_risk\_score\_configuration
+Role required: sn\_sec\_cmn.admin \(read-only viewers: sn\_sec\_cmn.read\)
 
 ## Procedure
 
@@ -129,7 +129,7 @@ Condition
 
 </td><td>
 
-Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see [Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
+Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see .
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.

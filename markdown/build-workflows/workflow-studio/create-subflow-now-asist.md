@@ -21,8 +21,8 @@ Use generative AI to create a subflow from text directionsand images.
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See .
--   Turn on the flow generation with images skill. See .
+-   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/turn-on-the-flow-generation-with-images-skill.md).
 
 ## About this task
 

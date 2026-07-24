@@ -16,7 +16,7 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 Use the ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Get started
 

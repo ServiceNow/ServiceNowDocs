@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-product-inventory-information-on-business-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 4
 breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
 ---

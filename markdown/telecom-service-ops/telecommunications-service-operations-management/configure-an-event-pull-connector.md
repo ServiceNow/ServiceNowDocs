@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---

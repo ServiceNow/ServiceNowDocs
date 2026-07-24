@@ -107,7 +107,7 @@ Connection elements that are added for the logical connections. Click the add ic
 Array.String
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

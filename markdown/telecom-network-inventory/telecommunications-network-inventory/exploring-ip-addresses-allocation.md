@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 4
 breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---

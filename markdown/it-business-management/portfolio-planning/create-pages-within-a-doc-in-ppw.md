@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 breadcrumb: [Docs for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---

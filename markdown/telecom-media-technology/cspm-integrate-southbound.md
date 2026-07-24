@@ -31,13 +31,13 @@ The integration process for CSPM with the external service test management syste
 
 1.  As the administrator, you activate the Test Specification Open API to capture the test runs from the service problem case.
 
-    To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-test-management-api.md).
+    To learn more, see .
 
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 
-        For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-integrations.md).
+        For more information on configuring external system endpoints by creating an integration request, see .
 
         **Note:**
 

@@ -78,7 +78,7 @@ SAP ECC and SAP S/4 HANA are currently the only available systems that integrate
 
     The Now Assist for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently.
 
--   ****
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)**
 
     Use ServiceNow Studio to build apps and app files based on ERP data.
 
