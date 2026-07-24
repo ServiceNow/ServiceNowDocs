@@ -125,5 +125,5 @@ With the admin role, you can create or modify an OpenFrame configuration. This c
 **Related topics**  
 
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
+[bundle-crapiref.c_openFrameAPI]
 

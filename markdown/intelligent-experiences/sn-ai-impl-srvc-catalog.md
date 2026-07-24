@@ -35,8 +35,8 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   
-    -   
+    -   [Catalog Conversational Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-catalog-conversational-experience.md)
+    -   [Conversational catalog overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-catalog-conversational-experience.md)
 -   **3. Determine which catalogs can be made conversational**
 
     Identify catalog items with fewer than 15 variables. \(Items with more than 15 variables are better suited to be submitted as pop-up links to forms.\)
@@ -45,7 +45,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Why? These are easier to convert and provide quick AI wins.
 
-    See: 
+    See: [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md)
 
 -   **4. Analyze catalog item metadata**
 
@@ -55,9 +55,9 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   
-    -   
-    -   
+    -   [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ServiceCatalogProperties.md)
+    -   [Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/edit-cat-item-cat-builder.md)
+    -   [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-item-cat-builder.md)
 -   **5. Review advanced configurations**
 
     Review UI policies, client scripts, and user criteria.
@@ -66,19 +66,19 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   
-    -   
-    -   
-    -   
+    -   [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogUIPolicy.md)
+    -   [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogAccessControls.md)
+    -   [Create a user criteria record in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAUserCriteriaRecord.md)
+    -   [Create a Service Catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACatalogClientScript.md)
 
 ## Tips
 
--   Use Now Assist in Catalog Builder to generate catalog items.
+-   [Use Now Assist in Catalog Builder to generate catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-catalog-generation.md).
 -   Limit the number of variables. Fewer is better.
--   For form-based requests, select the Make item non-conversational in VA check box.
+-   [For form-based requests, select the Make item non-conversational in VA check box.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-catalog-conversational-experience.md)
 -   Provide clear context for the LLM with distinct names, labels, and tooltips.
--   Minimize the use of custom variable types. Use the service catalog variables included on the platform instead.
--   Limit client-side scripting and use regular expressions for validation.
+-   Minimize the use of custom variable types. [Use the service catalog variables included on the platform instead.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md)
+-   [Limit client-side scripting and use regular expressions for validation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-regex-vrble.md)
 -   Avoid complex dependencies. Simplify variable relationships to ensure a smooth conversation flow.
 -   Test and iterate: make changes based on feedback.
 

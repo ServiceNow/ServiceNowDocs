@@ -30,7 +30,7 @@ To enable slack for the **Assignment group** field, ensure you have set up a sla
 
 2.  Import the update set file.
 
-    For more information, refer [Import an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_SaveAnUpdateSetAsAnXMLFile.md).
+    For more information, refer Import an update set.
 
 3.  Navigate to **System Definition** &gt; **Fix Scripts**.
 

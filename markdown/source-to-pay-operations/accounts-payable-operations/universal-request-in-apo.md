@@ -23,7 +23,7 @@ The Universal Request \(UR\) is a key ServiceNow capability that serves as a cen
 
 UR can be created by:
 
--   Invoice owners through Employee center. For more information on ServiceNow Universal Request, see [Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-universal-request.md)
+-   Invoice owners through Employee center. For more information on ServiceNow Universal Request, see 
 -   Suppliers submit inquiry case request or issue \(UR\) using the Supplier Collaboration portal. For more information on UR from supplier portal, see [Create Universal Request from Supplier portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-ur-from-supplier-portal.md).
 
 ## How UR works in Accounts Payable Operations

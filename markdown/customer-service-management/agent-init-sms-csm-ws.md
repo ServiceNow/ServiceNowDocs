@@ -18,7 +18,7 @@ Compose an SMS message from CSM Agent Workspace to interact with a customer cont
 
 Role required: agent\_workspace\_user
 
-Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sms-twilio-store-app.md).
+Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see Conversational SMS Integration with Twilio.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Ensure that an administrator has configured the Conversational SMS Integration w
 
     For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md).
 
-    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see [Associate user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/associate-user-profiles-messaging-interactions.md).
+    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see Associate user profiles on messaging interactions.
 
 5.  Click **Compose SMS**.
 

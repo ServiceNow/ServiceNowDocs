@@ -22,7 +22,7 @@ Role required: admin, pd\_content\_author
 
 A playbook is set of steps that defines a process. A decision tree can be added as one of the steps within a playbook.
 
-Playbooks are displayed in cases on Agent Workspace based on trigger definitions defined for each playbook in the Process Automation Designer. For more details, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md). Based on the context of the case the customer service agent is working on, the playbook and any associated decision trees are displayed.
+Playbooks are displayed in cases on Agent Workspace based on trigger definitions defined for each playbook in the Process Automation Designer. For more details, see Process Automation Designer. Based on the context of the case the customer service agent is working on, the playbook and any associated decision trees are displayed.
 
 For more details on playbooks for Customer Service Management, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).
 
@@ -40,7 +40,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 5.  In the Details tab, fill in the basic details of your activity.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d169628e136">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d169624e136">
 
 **Label**
 
@@ -48,7 +48,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 Unique name for your activity. This name appears in user-facing views of your playbook.
 
-</td></tr><tr><td id="d169628e145">
+</td></tr><tr><td id="d169624e145">
 
 **Description**
 
@@ -56,7 +56,7 @@ Unique name for your activity. This name appears in user-facing views of your pl
 
 Description of your activity.
 
-</td></tr><tr><td id="d169628e154">
+</td></tr><tr><td id="d169624e154">
 
 **Run condition**
 
@@ -64,7 +64,7 @@ Description of your activity.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d169628e163">
+</td></tr><tr><td id="d169624e163">
 
 **When to start**
 

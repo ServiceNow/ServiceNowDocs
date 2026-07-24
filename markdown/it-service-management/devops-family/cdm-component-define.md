@@ -36,15 +36,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To perform other actions, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component and select the action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d439569e117">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d439577e117">
 
 Selection
 
-</th><th align="left" id="d439569e120">
+</th><th align="left" id="d439577e120">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d439569e126">
+</th></tr></thead><tbody><tr><td id="d439577e126">
 
 **Create component**
 
@@ -52,7 +52,7 @@ Action
 
 Add a component as described above.
 
-</td></tr><tr><td id="d439569e135">
+</td></tr><tr><td id="d439577e135">
 
 **Create CDI**
 
@@ -65,7 +65,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d439569e162">
+</td></tr><tr><td id="d439577e162">
 
 **Include in collections**
 
@@ -75,7 +75,7 @@ Include the selected component in specified collections.In the Include in collec
 
  **Note:** Only collections that do not already include the component appear in the list.Inclusion of a node takes precedence over inheritance. If a node is both included and inherited, it is instead considered included.
 
-</td></tr><tr><td id="d439569e182">
+</td></tr><tr><td id="d439577e182">
 
 **Add file**
 
@@ -85,7 +85,7 @@ Add a file as a file node.You can attach a MIME-type file with a maximum file si
 
 For more information on adding files, see [Manage files in the config data model using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
-</td></tr><tr><td id="d439569e206">
+</td></tr><tr><td id="d439577e206">
 
 **Exclude from inheritance**
 
@@ -95,7 +95,7 @@ Removes the inherited node and all child objects from the current collection.You
 
 Select **Include in inheritance** from the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) to stop excluding the node and re-add it to the changeset.
 
-</td></tr><tr><td id="d439569e237">
+</td></tr><tr><td id="d439577e237">
 
 **Rename**
 
@@ -103,7 +103,7 @@ Select **Include in inheritance** from the more actions icon \(\[Omitted image "
 
 Rename the selected component.
 
-</td></tr><tr><td id="d439569e246">
+</td></tr><tr><td id="d439577e246">
 
 **Delete**
 
@@ -111,7 +111,7 @@ Rename the selected component.
 
 Delete the selected component.
 
-</td></tr><tr><td id="d439569e255">
+</td></tr><tr><td id="d439577e255">
 
 **View relationships**
 

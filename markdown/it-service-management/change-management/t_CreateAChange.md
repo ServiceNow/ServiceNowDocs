@@ -24,7 +24,7 @@ Role required: itil, admin, or sn\_change\_write
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d187389e65">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d187397e65">
 
 **From the Change module**
 
@@ -42,7 +42,7 @@ You can create all three types of change from the **Change** module.1.  Navigate
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d187389e158">
+</td></tr><tr><td id="d187397e158">
 
 **From an incident or a problem**
 
@@ -52,7 +52,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d187389e185">
+</td></tr><tr><td id="d187397e185">
 
 **From an existing change record**
 

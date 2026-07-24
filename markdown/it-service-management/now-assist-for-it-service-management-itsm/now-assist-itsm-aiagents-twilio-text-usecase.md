@@ -34,7 +34,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Twilio texting**.
 
-**Important:** To enable the display of the Notify users with Twilio agentic workflow, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see [Twilio Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/twilio-spoke.md).
+**Important:** To enable the display of the Notify users with Twilio agentic workflow, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see .
 
 ## AI agents used in the Notify users with Twilio agentic workflow
 

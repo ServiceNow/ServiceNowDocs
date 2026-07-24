@@ -33,15 +33,15 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d122066e90">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d120906e90">
 
 Field
 
-</th><th align="left" id="d122066e93">
+</th><th align="left" id="d120906e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d122066e99">
+</th></tr></thead><tbody><tr><td id="d120906e99">
 
 **Asset tag**
 
@@ -49,7 +49,7 @@ Description
 
 The asset tag contains the unique ID assigned to every asset. Each asset tag consists of a type prefix followed by a 20-digit number.
 
-</td></tr><tr><td id="d122066e108">
+</td></tr><tr><td id="d120906e108">
 
 **Name**
 
@@ -57,7 +57,7 @@ The asset tag contains the unique ID assigned to every asset. Each asset tag con
 
 The name of the AI asset. Identifies the asset in lists, searches, and records.
 
-</td></tr><tr><td id="d122066e117">
+</td></tr><tr><td id="d120906e117">
 
 **Description**
 
@@ -65,7 +65,7 @@ The name of the AI asset. Identifies the asset in lists, searches, and records.
 
 A brief summary of what the AI asset does. Explains the asset's purpose without opening the full record.
 
-</td></tr><tr><td id="d122066e126">
+</td></tr><tr><td id="d120906e126">
 
 **Managed status**
 
@@ -73,7 +73,7 @@ A brief summary of what the AI asset does. Explains the asset's purpose without 
 
 Indicates whether the asset is actively governed. Values typically include Managed and Unmanaged.
 
-</td></tr><tr><td id="d122066e139">
+</td></tr><tr><td id="d120906e139">
 
 **Version**
 
@@ -81,7 +81,7 @@ Indicates whether the asset is actively governed. Values typically include Manag
 
 The Version number of the asset.
 
-</td></tr><tr><td id="d122066e148">
+</td></tr><tr><td id="d120906e148">
 
 **Asset type**
 
@@ -97,7 +97,7 @@ Categorizes the AI asset by its type.-   generative AI
 -   MCP servers
 
 
-</td></tr><tr><td id="d122066e184">
+</td></tr><tr><td id="d120906e184">
 
 **Provider**
 
@@ -105,7 +105,7 @@ Categorizes the AI asset by its type.-   generative AI
 
 The vendor or team that built or supplies the AI asset.
 
-</td></tr><tr><td id="d122066e193">
+</td></tr><tr><td id="d120906e193">
 
 **Vendor**
 
@@ -113,7 +113,7 @@ The vendor or team that built or supplies the AI asset.
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d122066e202">
+</td></tr><tr><td id="d120906e202">
 
 **Department**
 
@@ -121,7 +121,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d122066e211">
+</td></tr><tr><td id="d120906e211">
 
 **Managed by**
 
@@ -129,7 +129,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d122066e221">
+</td></tr><tr><td id="d120906e221">
 
 **License details**
 
@@ -137,7 +137,7 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d122066e230">
+</td></tr><tr><td id="d120906e230">
 
 **Supported locations**
 
@@ -145,7 +145,7 @@ License details of the asset
 
 The geographic regions or environments where the asset is approved to operate, relevant for data residency and compliance purposes.
 
-</td></tr><tr><td id="d122066e239">
+</td></tr><tr><td id="d120906e239">
 
 **Source system**
 
@@ -153,7 +153,7 @@ The geographic regions or environments where the asset is approved to operate, r
 
 The system from which the asset record originated, such as an import script or an external discovery tool.
 
-</td></tr><tr><td id="d122066e248">
+</td></tr><tr><td id="d120906e248">
 
 **State**
 
@@ -166,7 +166,7 @@ The operational state of the asset.-   Deployed
 -   N/A
 
 
-</td></tr><tr><td id="d122066e274">
+</td></tr><tr><td id="d120906e274">
 
 **Lifecycle phase**
 
@@ -179,7 +179,7 @@ The current phase of the asset-   New
 -   Offboarding
 
 
-</td></tr><tr><td id="d122066e300">
+</td></tr><tr><td id="d120906e300">
 
 **Lifecycle status**
 
@@ -196,7 +196,7 @@ The current status within the lifecycle phase of the asset.-   In Review
 -   Canceled
 
 
-</td></tr><tr><td id="d122066e340">
+</td></tr><tr><td id="d120906e340">
 
 **Risk classification**
 
@@ -204,7 +204,7 @@ The current status within the lifecycle phase of the asset.-   In Review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d122066e349">
+</td></tr><tr><td id="d120906e349">
 
 **Created**
 
@@ -212,7 +212,7 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d122066e358">
+</td></tr><tr><td id="d120906e358">
 
 **Updated**
 
@@ -220,7 +220,7 @@ Creation date
 
 Updated date
 
-</td></tr><tr><td id="d122066e367">
+</td></tr><tr><td id="d120906e367">
 
 **Documentation**
 
@@ -228,7 +228,7 @@ Updated date
 
 A free-text or rich-text field for attaching additional reference material, links, or notes about the asset.
 
-</td></tr><tr><td id="d122066e376">
+</td></tr><tr><td id="d120906e376">
 
 **Aggregated risk score**
 

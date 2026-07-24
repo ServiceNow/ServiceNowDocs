@@ -34,7 +34,7 @@ Domain separation is supported in Workforce Optimization for ITSM and does not r
 
 ## Domain separation for Channels in Workforce Optimization for ITSM
 
-For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md).
+For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to .
 
 Domain separated tables for Channel Management
 

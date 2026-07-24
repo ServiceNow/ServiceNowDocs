@@ -71,13 +71,13 @@ Issue Auto Resolution uses NLU to identify Virtual Agent topics that match inten
 
 \[Omitted image "MachineLearning.png"\] Alt text: Issue Auto Resolution NLU integration process.
 
-To view, train, or retrain the NLU model, see [Train and test your model in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/train-test-publish-nlu-model-vad.md).
+To view, train, or retrain the NLU model, see Train and test your model in Virtual Agent Designer.
 
 **Note:** Issue Auto Resolution must be activated and ITSM Virtual Agent must be installed to access the NLU models. To learn more, see [Set up Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-ar.md).
 
 ## About actionable notifications
 
-Actionable notifications are interactive messages that Virtual Agent sends to the end user on their preferred chat channel. Issue Auto Resolution sends an actionable notification when the machine learning model finds a topic that matches the user's intent and the user is subscribed to notifications. Actionable notifications contain buttons that the user can select. Each button is mapped to an Issue Auto Resolution topic. Based on the user's selections, different aspects of Issue Auto Resolution execute, according to the logic of the matched topic. For more information on how actionable notifications work and how they're delivered to recipients, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configuring-va-notifications.md).
+Actionable notifications are interactive messages that Virtual Agent sends to the end user on their preferred chat channel. Issue Auto Resolution sends an actionable notification when the machine learning model finds a topic that matches the user's intent and the user is subscribed to notifications. Actionable notifications contain buttons that the user can select. Each button is mapped to an Issue Auto Resolution topic. Based on the user's selections, different aspects of Issue Auto Resolution execute, according to the logic of the matched topic. For more information on how actionable notifications work and how they're delivered to recipients, see Configuring Virtual Agent notifications.
 
 ## ITSM Virtual Agent topics for Issue Auto Resolution
 
@@ -114,5 +114,5 @@ You can enable AI Search as a fallback mechanism in Issue Auto Resolution when t
 **Related topics**  
 
 
-[Using Virtual Agent for Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/auto-resolution-va.md)
+[bundle-convint.auto-resolution-va]
 

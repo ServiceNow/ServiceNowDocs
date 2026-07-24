@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usi
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 
@@ -21,8 +21,8 @@ Customer contracts, customer contract lines, and entitlements can be created in 
     **Note:** When a customer contract line or entitlement is created via the Sales Customer Relationship Management workflow, the account/consumer/household details are copied from the sold product and it inherits the state of the sold product. Further, when the state of the contract line changes, the same state is synced back to the parent sold product.
 
 -   Via API integrations:
-    -   [Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/servicecontract-api.md)
-    -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/entitlement-api.md)
+    -   
+    -   
 
 You can perform the following features using Customer Contracts and Entitlements Workflows:
 

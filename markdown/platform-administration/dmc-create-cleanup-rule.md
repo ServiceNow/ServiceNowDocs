@@ -26,15 +26,15 @@ Create a cleanup rule to delete records on a recurring basis. To delete records 
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d304154e72">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d304140e72">
 
 Option
 
-</th><th align="left" id="d304154e75">
+</th><th align="left" id="d304140e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d304154e81">
+</th></tr></thead><tbody><tr><td id="d304140e81">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d304154e119">
+</td></tr><tr><td id="d304140e119">
 
 **Rules tab**
 
@@ -112,15 +112,15 @@ Role required: admin
 
 1.  On the Clean up associated records page, select which associated records to delete when the cleanup rule runs.
 
-<table id="choicetable_vlk_yvs_13c"><thead><tr><th align="left" id="d304154e368">
+<table id="choicetable_vlk_yvs_13c"><thead><tr><th align="left" id="d304140e368">
 
 Associated records
 
-</th><th align="left" id="d304154e371">
+</th><th align="left" id="d304140e371">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d304154e377">
+</th></tr></thead><tbody><tr><td id="d304140e377">
 
 **Attachments**
 
@@ -128,7 +128,7 @@ Description
 
 Selected by default. Associated attachments are always deleted.
 
-</td></tr><tr><td id="d304154e386">
+</td></tr><tr><td id="d304140e386">
 
 **Journals**
 
@@ -136,7 +136,7 @@ Selected by default. Associated attachments are always deleted.
 
 If selected, related records in the Journal Entry \[sys\_journal\_field\] table are also deleted.If cleared, the system deletes records from the target table, but not any related journal records in this table.
 
-</td></tr><tr><td id="d304154e397">
+</td></tr><tr><td id="d304140e397">
 
 **Audits**
 

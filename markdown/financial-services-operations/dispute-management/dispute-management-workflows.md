@@ -30,9 +30,9 @@ During this phase, the system identifies the initial transaction. You’re then 
 
 You can then add more transactions \(if the dispute category is Fraud\),  and select associated transactions \(if Visa network\). You also complete the dispute questionnaire and upload any supporting documentation.  Dispute cases created using  disputes intake via Virtual Agent  are populated with information from the customer's responses in the Virtual Agent chat.
 
-When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visa-spoke.md).
+When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as Order Insight Digital Management.
 
-**Note:** Additional integrations such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ethoca-spoke.md) are available to retrieve additional information on a transaction.
+**Note:** Additional integrations such as Ethoca Consumer Clarity are available to retrieve additional information on a transaction.
 
 The system evaluates decision rules and determines policy rules for each transaction in the case. For example, determining which transaction qualifies for a provisional credit, as opposed to a final credit. However, if the dispute is initiated by a contributor or customer, the evaluation of decision rules occurs only after the Review task has been submitted. For more information on these rules, see [Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-decision-tables.md).
 

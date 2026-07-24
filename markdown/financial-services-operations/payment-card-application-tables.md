@@ -26,12 +26,12 @@ This section describes the tables in the Payment card application and shows how 
 
 The Expanded Model and Asset Classes Store application contains a Payment Card Model \[sn\_ent\_payment\_card\_model\] table that extends System and Smart Card Model \[sn\_ent\_system\_smart\_card\_model\]. This table represents payment cards as a material, physical good.
 
-For more information, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-model-asset-classes-app.md).
+For more information, see .
 
 **Parent Topic:**[Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/payment-card-application.md)
 
 **Related topics**  
 
 
-[Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-model-asset-classes-app.md)
+[bundle-itam.enterprise-model-asset-classes-app]
 

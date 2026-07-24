@@ -54,7 +54,7 @@ Decision table
 
 </td><td>
 
-Returns the results of the selected decision table. Use decision tables to help you resolve a complex decision that depends on multiple inputs and predetermined outputs. For example, a decision table might require inputs such as age, location, and health history to provide suggestions for different aspects of health insurance. You can use these suggestions, which are the outputs of the decision table, as action inputs for a recommendation.For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
+Returns the results of the selected decision table. Use decision tables to help you resolve a complex decision that depends on multiple inputs and predetermined outputs. For example, a decision table might require inputs such as age, location, and health history to provide suggestions for different aspects of health insurance. You can use these suggestions, which are the outputs of the decision table, as action inputs for a recommendation.For more information, see .
 
 </td></tr><tr><td>
 

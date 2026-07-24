@@ -24,7 +24,7 @@ If no matching consumable record exists in the receiving stockroom, a record is 
 
 **Note:** The related list of a purchase order doesn't display consumable asset details. This means that you can't track consumables through a purchase order.
 
-For more details on creating consumable assets, see [Create consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreatingConsumableAssets.md).
+For more details on creating consumable assets, see .
 
 **Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_ReceiveAssets.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-esg-dashboard-elements.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

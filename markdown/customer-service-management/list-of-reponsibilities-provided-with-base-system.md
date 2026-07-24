@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

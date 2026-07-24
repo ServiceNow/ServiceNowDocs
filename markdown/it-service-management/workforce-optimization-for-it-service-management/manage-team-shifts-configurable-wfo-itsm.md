@@ -42,15 +42,15 @@ In the **Shifts** tab, you can view the work shifts and on-call shifts in separa
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40487e180">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40498e180">
 
 To
 
-</th><th align="left" id="d40487e183">
+</th><th align="left" id="d40498e183">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40487e189">
+</th></tr></thead><tbody><tr><td id="d40498e189">
 
 **Create a work shift**
 
@@ -83,7 +83,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d40487e307">
+</td></tr><tr><td id="d40498e307">
 
 **Create an on-call shift**
 

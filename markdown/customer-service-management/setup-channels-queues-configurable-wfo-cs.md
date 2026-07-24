@@ -37,14 +37,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Select **New** and see [Create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md) to create the service channel.
+    2.  Select **New** and see Create a service channel to create the service channel.
     3.  Select **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Queues** or select the service channel and select the **Queues** tab.
-    2.  Select **New** and see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md) to create the queue.
+    2.  Select **New** and see Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 
@@ -54,7 +54,7 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 ### Before you begin
 
-You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md). Use [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use Advanced Work Assignment \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -111,7 +111,7 @@ Groups that are eligible for assignment. -   Select the lock \(\[Omitted image "
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md).
+    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
 
 
 ## Configure KPIs for service channels
@@ -199,15 +199,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  To add KPIs to a queue, do one of the following.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d235555e842">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d235551e842">
 
 To
 
-</th><th align="left" id="d235555e845">
+</th><th align="left" id="d235551e845">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d235555e851">
+</th></tr></thead><tbody><tr><td id="d235551e851">
 
 **Add from a service channel**
 
@@ -219,7 +219,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d235555e893">
+</td></tr><tr><td id="d235551e893">
 
 **Add from a queue**
 

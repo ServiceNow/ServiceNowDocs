@@ -61,7 +61,7 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
 
 -   **ServiceNow® Mobile**
 
-    To configure AI Search for the ServiceNow® Mobile, see [Advanced text search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/text-search-advanced-now.md).
+    To configure AI Search for the ServiceNow® Mobile, see Advanced text search in mobile.
 
 -   **Service Portal or Employee Center**
 
@@ -69,7 +69,7 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
 
 -   **Virtual Agent**
 
-    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see [Virtual Agent integration with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-ai-search.md).
+    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see Virtual Agent integration with AI Search.
 
 
 **Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)

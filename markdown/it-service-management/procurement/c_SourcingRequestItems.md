@@ -36,7 +36,7 @@ You can source requested hardware items by creating a transfer order. You can tr
 
 When a source stockroom doesn’t have enough items in stock, you can specify multiple source stockrooms in the transfer order so that the hardware items can be transferred to the destination stockrooms.
 
-**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-transfer-order-line-task.md).
+**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see .
 
 ## Sourcing requested software licenses
 
@@ -70,7 +70,7 @@ You can add assignments directly from a request to source rights from software l
 
 [Domain separation and Procurement]()
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+[bundle-fsm.c_TransferOrders]
 
 [Track a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_TrackReqFromServiceCatalog.md)
 

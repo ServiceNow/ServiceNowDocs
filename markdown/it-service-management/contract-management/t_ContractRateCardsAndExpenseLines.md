@@ -69,7 +69,7 @@ Use the **Expense Lines** related list or tab to view and audit all the expenses
 
 [Monitor a contract]()
 
-[Allocating expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_AllocatingExpenses.md)
+[bundle-itbm.c_AllocatingExpenses]
 
-[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_UseBusinessServicesWithExpenses.md)
+[bundle-itbm.c_UseBusinessServicesWithExpenses]
 

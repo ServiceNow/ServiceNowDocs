@@ -16,7 +16,7 @@ breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply 
 
 Use the Advanced Work Assignment for Source-to-Pay Operations feature to automatically assign work items to agents based on availability and capacity.
 
-Advanced Work Assignment for Source-to-Pay Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
+Advanced Work Assignment for Source-to-Pay Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see .
 
 ## Prerequisites for installing Advanced Work Assignment for Source-to-Pay Operations
 

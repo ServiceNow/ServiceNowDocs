@@ -49,5 +49,5 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 **Related topics**  
 
 
-[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-the-visual-style-of-ui-builder-experiences.md)
+[bundle-cadev.manage-the-visual-style-of-ui-builder-experiences]
 

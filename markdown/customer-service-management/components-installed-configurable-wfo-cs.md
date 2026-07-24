@@ -610,7 +610,7 @@ Runs the job and collects historic data for all teams indicators.
 Runs the job weekly and collects data for all indicators in Manager Workspace.
 
 </td></tr></tbody>
-</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-your-first-flow.md).
+</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to Build your first flow in Flow Designer.
 
 ## Demand forecast
 

@@ -16,7 +16,7 @@ breadcrumb: [Analytics and reporting, Customer Service Management]
 
 Customer Service Platform Analytics Solutions contain preconfigured dashboards with actionable data visualizations to improve your business processes.
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To access available dashboards, navigate to **Performance Analytics** &gt; **Dashboards** and select **All**.
 

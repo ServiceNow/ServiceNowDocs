@@ -87,5 +87,5 @@ AI Control Tower
 </td></tr></tbody>
 </table>After installing AI Control Tower \(sn\_aict\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), the required dependency plugins will be installed automatically.
 
-For information about downloading any application from ServiceNow store, see Download any application from ServiceNow
+For information about downloading any application from ServiceNow store, see [Download any application from ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md)
 

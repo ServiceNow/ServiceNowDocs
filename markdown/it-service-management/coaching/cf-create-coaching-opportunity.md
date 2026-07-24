@@ -28,15 +28,15 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d408195e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d408203e68">
 
 To create using
 
-</th><th align="left" id="d408195e71">
+</th><th align="left" id="d408203e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d408195e77">
+</th></tr></thead><tbody><tr><td id="d408203e77">
 
 **Guided setup**
 
@@ -46,7 +46,7 @@ Do this
 2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d408195e113">
+</td></tr><tr><td id="d408203e113">
 
 **The Application navigator**
 
@@ -79,7 +79,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
     2.  To use an advanced script, select the **Advanced** check box and add your script.
 
-        See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md) for more information on scripting.
+        See Scripts for more information on scripting.
 
 5.  Fill in the fields in the **Frequency** tab.
 

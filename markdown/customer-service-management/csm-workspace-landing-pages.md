@@ -24,7 +24,7 @@ Several landing pages are available for CSM Configurable Workspace.
 
 -   **[CSM Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-original.md) and [CSM Landing Page - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-premium.md)**
 
-    These landing pages use components to display lists and metrics. The admin configures this information in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md) and can create different landing pages for different audiences.
+    These landing pages use components to display lists and metrics. The admin configures this information in UI Builder and can create different landing pages for different audiences.
 
     Two versions of the landing page are available based on plugin activation. For more information, see [CSM Configurable Workspace landing page plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-landing-pages.md).
 

@@ -59,7 +59,7 @@ After installing the Supplier Collaboration Portal, install the post-install fix
 
 ## What to do next
 
-Ensure that you complete the post installation mandatory steps. For more information, see [Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/post-install-steps.md).
+Ensure that you complete the post installation mandatory steps. For more information, see Post installation troubleshooting.
 
 -   **[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)**  
 After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.

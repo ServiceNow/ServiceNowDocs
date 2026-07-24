@@ -18,7 +18,7 @@ Expense allocation rules enable you to associate expenses with an item, such as 
 
 ## Before you begin
 
-To use expense allocation rules, activate [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md).
+To use expense allocation rules, activate Cost Management.
 
 Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 

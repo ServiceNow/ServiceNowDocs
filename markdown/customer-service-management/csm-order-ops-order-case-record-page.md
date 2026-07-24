@@ -206,7 +206,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
+The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

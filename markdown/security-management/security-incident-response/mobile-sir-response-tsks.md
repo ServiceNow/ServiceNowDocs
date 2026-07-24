@@ -42,15 +42,15 @@ From the list of records, assign an open, unassigned response task to yourself o
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d276330e150">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d275515e150">
 
 Option
 
-</th><th align="left" id="d276330e153">
+</th><th align="left" id="d275515e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276330e159">
+</th></tr></thead><tbody><tr><td id="d275515e159">
 
 **Assign to Me**
 
@@ -58,7 +58,7 @@ Description
 
 Assign the response task to yourself. If the task is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d276330e168">
+</td></tr><tr><td id="d275515e168">
 
 **Reassign**
 
@@ -79,15 +79,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 
 7.  With the tabs on the response task record displayed, choose one in the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d276330e231">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d275515e231">
 
 Option
 
-</th><th align="left" id="d276330e234">
+</th><th align="left" id="d275515e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276330e240">
+</th></tr></thead><tbody><tr><td id="d275515e240">
 
 **Details tab**
 
@@ -97,7 +97,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Reassign** or **Assign to Me**.
  After you complete your edits, tap **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d276330e276">
+</td></tr><tr><td id="d275515e276">
 
 **Activity Stream tab**
 
@@ -109,7 +109,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap the menu icon to edit or reassign the task.
 
 
-</td></tr><tr><td id="d276330e297">
+</td></tr><tr><td id="d275515e297">
 
 **Screen icons at the bottom of the screen.**
 

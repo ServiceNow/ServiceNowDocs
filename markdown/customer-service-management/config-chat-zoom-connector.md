@@ -26,7 +26,7 @@ This task provides general steps to set up the Chat Zoom Connector application f
 
 1.  Integrate the Zoom account of your company with your ServiceNow instance using the Zoom spoke.
 
-    For more information, see [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md).
+    For more information, see Set up the Zoom spoke.
 
 2.  Set up the Notify Zoom connector in Zoom for associating the Notify communication channel with Zoom meetings.
 

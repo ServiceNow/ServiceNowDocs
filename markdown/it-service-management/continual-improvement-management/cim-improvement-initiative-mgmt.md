@@ -129,7 +129,7 @@ Any state other than Closed Complete
 </td></tr></tbody>
 </table>## Alignment with company strategic objectives
 
-You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company [enterprise strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/overview-business-planning.md) from the Strategic Objectives lookup list so they are linked.
+You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company enterprise strategies from the Strategic Objectives lookup list so they are linked.
 
 **Note:** Only the Improvement Manager can create a strategy.
 

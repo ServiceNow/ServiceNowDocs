@@ -26,7 +26,7 @@ To enable Universal Request in Sourcing and Procurement Operations, install the 
 -   Employees submit procurement-related requests by creating Universal Requests in Employee Center.
 -   Routing agents are tier-1 agents who manage Universal Requests and procurement cases. Routing agents can view, update, transfer, and close Universal Requests, and create procurement cases from Universal Requests.
 
-To create routing agents, add users to the Source Operations Universal Request Group. For more information, see [Universal Request roles and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-roles.md) and [Assign roles to UR users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-assign-roles.md).
+To create routing agents, add users to the Source Operations Universal Request Group. For more information, see  and .
 
 ## Universal Request workflow
 

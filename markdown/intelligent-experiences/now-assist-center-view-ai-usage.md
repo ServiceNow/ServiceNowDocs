@@ -193,7 +193,7 @@ The Security dashboard page displays metrics and status information related to s
 </td></tr></tbody>
 </table>    To ask natural-language questions about Now Assist Analytics dashboards and metrics, use the AI Analytics Q and A agent from the Now Assist panel. For more information, see .
 
-    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see .
+    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ai-engagement-analytics.md).
 
 <table id="table_hph_t5z_x3c"><thead><tr><th>
 
@@ -211,7 +211,7 @@ Overview
 
 The Overview dashboard page provides high-level summary of assistant activity, assist usage, user engagement and overall customer satisfaction \(CSAT\) score.
 
- For more information, see .
+ For more information, see [Overview page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/overview-page-in-assistant-analytics.md).
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Usage
 
 The Usage dashboard page aggregates key metrics related to assistant usage, including the total number of conversations by assistant, conversations by channel, citations associated with the results, and the flow of conversation states.
 
- For more information, see .
+ For more information, see [Usage page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/usage-page-in-assistant-analytics.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Adoption &amp; Engagement
 
 The Adoption &amp; Engagement dashboard page aggregates metrics related to user adoption and engagement, including average active users, new user growth, conversation volume trends, assist-to-execution trend, and channel distribution.
 
- For more information, see .
+ For more information, see [Adoption and Engagement page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/adoption-and-engagement-page-in-assistant-analytics.md).
 
 </td></tr><tr><td>
 
@@ -241,7 +241,7 @@ Self Solved
 
 The Self-Solve Performance dashboard page aggregates metrics related to self-solved events \(instances where assistants resolved user queries\), deflection rates, live agent transfers, and user effort.
 
- For more information, see .
+ For more information, see [Self-Solve Performance page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/self-solve-performance-page-in-assistant-analytics.md).
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ Sentiment
 
 The Sentiment dashboard page aggregates metrics related to user satisfaction, emotional feedback, empathy levels, and conversation outcomes. These metrics enable you to monitor inferred CSAT, track transfers and escalations, analyze empathy distribution, and review negative emotion trends.
 
- For more information, see .
+ For more information, see [Sentiment page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sentiment-page-in-assistant-analytics.md).
 
 </td></tr><tr><td>
 
@@ -261,7 +261,7 @@ Assists
 
 The Assists dashboard page aggregates metrics related to conversational assists, including total assists consumed, usage breakdown by assistant, usage trends, and features which used the most number of assists.
 
- For more information, see .
+ For more information, see [Assists page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assists-page-in-assistant-analytics.md).
 
 </td></tr></tbody>
 </table>

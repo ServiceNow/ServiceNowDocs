@@ -32,7 +32,7 @@ Associate an incident with a Universal Request record.
 
 3.  In the **Transfer Ticket** dialog box, provide the following details.
 
-    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-properties.md).
+    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see Universal Request properties.
 
     -   **Action**: Select if the case should be transferred to another department or back to Universal Request
     -   **Department**: Select the department from the list.

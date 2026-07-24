@@ -81,7 +81,7 @@ When the asset state is **In stock**, the **Reserved for** field is maintained a
 
 [](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md)
 
-[Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_SettingAssetStatesAndSubstates.md)
+[bundle-itam.t_SettingAssetStatesAndSubstates]
 
 [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
 

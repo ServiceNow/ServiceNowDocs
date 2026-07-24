@@ -37,7 +37,7 @@ Role required: snc\_internal
 
 6.  If the request contains sensitive or confidential information, select the **Issue contains sensitive or confidential information** check box.
 
-    For more information on handling sensitive information, see [Universal Request sensitive information security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-security.md).
+    For more information on handling sensitive information, see .
 
 7.  Select **Submit**.
 

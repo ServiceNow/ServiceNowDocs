@@ -26,7 +26,7 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 2.  Download the Now mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-    For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md) topic.
+    For more information on using this mobile app, see Now Mobile app topic.
 
 3.  Add the instance that has Shopping Hub Mobile installed to the Now Mobile application and log in to access the application data on your mobile device.
 

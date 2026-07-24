@@ -43,7 +43,5 @@ Action Assignment \[sys\_declarative\_action\_assignment\]
 **Related topics**  
 
 
-[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-events.md)
-
-[Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/bind-event-declarative-action.md)
+[bundle-cadev.work-events]
 

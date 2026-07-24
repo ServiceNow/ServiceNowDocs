@@ -28,15 +28,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 
 2.  Do one of the following.
 
-<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d121939e84">
+<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d121963e84">
 
 To
 
-</th><th align="left" id="d121939e87">
+</th><th align="left" id="d121963e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d121939e93">
+</th></tr></thead><tbody><tr><td id="d121963e93">
 
 **Create a supplier task from Quick actions**
 
@@ -48,7 +48,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier task**.
 
 
-</td></tr><tr><td id="d121939e130">
+</td></tr><tr><td id="d121963e130">
 
 **Create a supplier task from the List page**
 
@@ -63,7 +63,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
 3.  In the Create new task dialog box, in the **Task type** field, select **Supplier Task**.
 
 
-</td></tr><tr><td id="d121939e224">
+</td></tr><tr><td id="d121963e224">
 
 **Create a supplier task from the Case details page**
 

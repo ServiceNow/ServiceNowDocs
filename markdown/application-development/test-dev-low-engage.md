@@ -18,7 +18,7 @@ Engage with your customers using ServiceNow apps.
 
 <table id="table_qfw_3zf_2vb" class="nav-card"><tbody><tr><td>
 
-[Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.
 
 </td><td>
 

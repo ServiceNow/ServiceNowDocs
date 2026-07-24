@@ -16,7 +16,7 @@ Playbooks provide customer service agents with step-by-step guidance for resolvi
 
 ## Playbook overview
 
-A [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) is an end-to-end workflow that includes the stages, steps, and guidance to lead users through a business process. A playbook visualizes a workflow in a task-oriented view and guides users through sequences of tasks.
+A playbook is an end-to-end workflow that includes the stages, steps, and guidance to lead users through a business process. A playbook visualizes a workflow in a task-oriented view and guides users through sequences of tasks.
 
 A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes a logical group of sequential activities for an agent to complete. Stages can also include automated activities, such as sending an email to a customer when a stage or activity is complete.
 
@@ -25,7 +25,7 @@ Playbooks include:
 -   A series of steps that a user must complete in order to achieve a particular goal and the necessary guidance for completing those steps.
 -   One or more stages, or groups of tasks, and sequences of activities within each stage.
 
-Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
+Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the UI Builder application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
 
 -   [Playbook users and tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
 -   [Configuring and configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
@@ -56,7 +56,7 @@ Playbook experience admin\[playbook\_experience.admin\]
 
 </td><td>
 
-Uses the [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md) application to create playbook experience records. These records define how playbook activities appear within a playbook.
+Uses the  application to create playbook experience records. These records define how playbook activities appear within a playbook.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ UI Builder admin\[ui\_builder\_admin\]
 
 </td><td>
 
-Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
+Uses the UI Builder application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
 
 **Note:** [Playbook page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
 
@@ -103,12 +103,12 @@ Tasks
 
 </td><td>
 
-Workflow Studio is the design environment where playbook owners \(users with the playbook.admin role\) build playbooks. For more information, see the following topics:-   [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-workflow-studio.md)
--   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-processes.md)
+Workflow Studio is the design environment where playbook owners \(users with the playbook.admin role\) build playbooks. For more information, see the following topics:-   Exploring Workflow Studio
+-   Getting started with Playbooks
 
 </td></tr><tr><td>
 
-[About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md)
+
 
 </td><td>
 
@@ -119,7 +119,7 @@ The playbook experience record includes settings for the playbook stage and acti
 
 </td></tr><tr><td>
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+UI Builder
 
 </td><td>
 
@@ -178,7 +178,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md)
+[bundle-crworkflow.playbook-ui]
 
 [Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md)
 

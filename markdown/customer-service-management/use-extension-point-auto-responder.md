@@ -19,7 +19,7 @@ Use scripted extension points to include the advanced contextual search results 
 Role required: admin
 
 -   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md).
--   Set the application scope to Email Notification Script for Contextual Search Results. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Set the application scope to Email Notification Script for Contextual Search Results. For more information, see Application picker.
 
 ## About this task
 
@@ -27,7 +27,7 @@ The Email Notification Script for Contextual Search Results plugin \(com.snc.adv
 
 The csm\_AdvancedEmailSearchResults script is preconfigured for the customer service portal and consumer service portal.
 
-Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 

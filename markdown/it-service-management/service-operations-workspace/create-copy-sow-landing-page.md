@@ -34,7 +34,7 @@ Role required: admin or ui\_builder\_admin
     -   The copy of the landing page is created in the scope of the current logged-in user.
 5.  To edit the page or any of its subpages, customize its components.
 
-    For information about components, see [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
+    For information about components, see Work with components.
 
 
 **Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md)

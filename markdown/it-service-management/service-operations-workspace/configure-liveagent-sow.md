@@ -30,7 +30,7 @@ Once the agent accepts the chat, the Inbox is hidden, allowing the agent to focu
 
 \[Omitted image "chat-hidden-ims.png"\] Alt text:
 
-For more information about Live Agent chat integration, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-from-connect-support.md).
+For more information about Live Agent chat integration, see .
 
 **Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 

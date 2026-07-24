@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-07-23"
+reading_time_minutes: 3
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
 
@@ -51,6 +51,38 @@ Released on
 Availability
 
 </th></tr></thead><tbody><tr><td>
+
+[Australia Patch 4 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3140560)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/23
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 4m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap4m-release-notes.md)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/07/23
+
+</td><td>
+
+Available to Commercial Customers
+
+</td></tr><tr><td>
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
@@ -117,6 +149,22 @@ Patch
 </td><td>
 
 Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138484)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/07/21
+
+</td><td>
+
+Available
 
 </td></tr><tr><td>
 
@@ -270,6 +318,8 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
+-   **[Australia Patch 4m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap4m-release-notes.md)**  
+The Australia Patch 4m release contains important problem fixes via Australia Patch 4 and updates to compatible ServiceNow Store applications.
 -   **[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)**  
 The Australia Patch 4 release contains important problem fixes.
 -   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)**  

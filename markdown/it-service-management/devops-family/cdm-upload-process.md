@@ -8,7 +8,7 @@ product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
@@ -42,7 +42,7 @@ You first create a new CDM application structure and then upload the existing co
 
     **Note:** When you upload your existing config from an XML file and the **ignoreAttributes** is set to **false**, the CDM XML Parser retains the attributes in JSON using identifiers. For more information, see [Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md).
 
-    This example shows the REST API Explorer platform utility for clarity. This is an example of how you might construct an Upload to components REST POST request that creates a `dbProperties.json` node in the **PaymentSvc-1.0** component and then adds the source data to the new node. \(You specify the source data to upload in another field.\) The APIs are described in [CdmApplicationsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/applications-api.md), [CdmChangesetsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/changesets-api.md), and [CdmSnapshotApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/snapshot-api.md).
+    This example shows the REST API Explorer platform utility for clarity. This is an example of how you might construct an Upload to components REST POST request that creates a `dbProperties.json` node in the **PaymentSvc-1.0** component and then adds the source data to the new node. \(You specify the source data to upload in another field.\) The APIs are described in , , and .
 
     \[Omitted image "cdm-rest-explorer-components-2.png"\] Alt text: REST API Explorer form.
 

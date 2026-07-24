@@ -34,7 +34,7 @@ Now Assist for App Engine enables you to use ServiceNow AI Platform tools such a
 
 -   **Virtual Agent**
 
-    Use Virtual Agent to create AI-powered conversational experiences within your application. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+    Use Virtual Agent to create AI-powered conversational experiences within your application. For more information, see .
 
 -   **AI Control Tower**
 

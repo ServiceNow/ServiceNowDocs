@@ -24,7 +24,7 @@ Install the Chat Zoom Connector application. For more information, see [Install 
 
 You can enable the copying of any application-specific fields from a parent chat interaction record to its Zoom interaction record by using the sn\_chat\_zoom.ZoomInteractionExtPoint extension point. The parent chat is the chat from which the Zoom meeting was initiated.
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 

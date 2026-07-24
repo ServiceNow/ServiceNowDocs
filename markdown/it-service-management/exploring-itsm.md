@@ -19,7 +19,7 @@ IT Service Management delivers resilient, AI-powered IT services that transform 
 
 Automate routine agent interactions and accelerate resolution from the Employee Center portal. AI automates incident categorization and assignment, eliminating bottlenecks from manual triaging. IT staff can handle more requests without additional headcount and focus on higher-priority work.
 
-See: [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/itsm-n-ec-integration.md).
+See: .
 
 ## Consolidate IT services
 
@@ -29,7 +29,7 @@ See: [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/S
 
 ## Enable self-service
 
-Reduce ticket volume by giving employees the tools to find answers without contacting the service desk. ITSM integrates with [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md) and the [Employee Center dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center.md) to deliver searchable knowledge articles and automated request fulfillment through a single self-service portal.
+Reduce ticket volume by giving employees the tools to find answers without contacting the service desk. ITSM integrates with [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md) and the  to deliver searchable knowledge articles and automated request fulfillment through a single self-service portal.
 
 Digital End-User Experience monitors device health and application performance, enabling proactive issue resolution before employees experience problems. Automated remediation and the Desktop Experience application give employees self-service tools to resolve common device issues without creating tickets.
 

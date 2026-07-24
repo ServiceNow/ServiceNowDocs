@@ -269,7 +269,7 @@ Holiday schedule to use when determining appointment availability.
 
  Click the lookup icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon.\) and select a schedule from the Schedules list.
 
- The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see Holidays.
+ The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see [Holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Holidays.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

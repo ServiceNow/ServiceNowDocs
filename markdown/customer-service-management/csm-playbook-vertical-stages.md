@@ -60,7 +60,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Case playbook: vertical stages page variant doesn't have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
+The audience determines who can see the page variant. The Case playbook: vertical stages page variant doesn't have an audience. This means everyone with access to the experience can see this page variant.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

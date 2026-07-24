@@ -35,7 +35,7 @@ Role required: sn\_shift\_planning.agent
 3.  In the chat window, do one of the following to create the request:
 
     -   To use keywords, enter *time off*, *vacation*, or similar keywords.
-    -   To use Natural Language Understanding, enter an [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+    -   To use Natural Language Understanding, enter an utterance.
 4.  Select the Time Off Request topic.
 
     The calendar appears with the message, "When do you want to start your time off?"

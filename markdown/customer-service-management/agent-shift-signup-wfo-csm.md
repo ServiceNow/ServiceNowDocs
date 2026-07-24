@@ -117,15 +117,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d149647e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d149646e373">
 
 To
 
-</th><th align="left" id="d149647e376">
+</th><th align="left" id="d149646e376">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d149647e382">
+</th></tr></thead><tbody><tr><td id="d149646e382">
 
 **Auto-assign agents**
 
@@ -133,7 +133,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d149647e397">
+</td></tr><tr><td id="d149646e397">
 
 **Assign agents manually**
 

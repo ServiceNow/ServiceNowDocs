@@ -50,7 +50,7 @@ Create the asset before they're delivered so that you can create the asset recor
 
 [Domain separation and Procurement]()
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+[bundle-fsm.c_TransferOrders]
 
 [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md)
 

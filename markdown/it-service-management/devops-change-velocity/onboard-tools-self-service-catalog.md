@@ -98,8 +98,8 @@ You can also use the onboarding APIs to onboard DevOps tools &amp; apps in bulk 
 }
 ```
 
--   Onboard DevOps apps at scale by using the DevOps app onboarding API. The POST/devops/onboarding/app request creates an onboarding app event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md).
--   Onboard DevOps tools at scale by using the DevOps tool onboarding API. The POST/devops/onboarding/tool request creates an onboarding tool event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md).
+-   Onboard DevOps apps at scale by using the DevOps app onboarding API. The POST/devops/onboarding/app request creates an onboarding app event that is asynchronously processed by the DevOps service. For more information, see POST/devops/onboarding/app.
+-   Onboard DevOps tools at scale by using the DevOps tool onboarding API. The POST/devops/onboarding/tool request creates an onboarding tool event that is asynchronously processed by the DevOps service. For more information, see POST/devops/onboarding/tool.
 
 -   **[Importing historical data for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.md)**  
 Use the service catalog to onboard a new app and import historical DevOps data for that app. Enable polling to import data that is mapped to associated plans, repositories and pipelines on a scheduled frequency.

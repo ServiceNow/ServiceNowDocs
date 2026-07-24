@@ -409,7 +409,7 @@ From the Interactions table, you can open a specific record to see additional de
 
 ## Security considerations
 
-Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see [Set application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md) and [Manage Restricted Caller Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_ConfigureSIM.md).
+Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see Set application scope, application resource, and event access and [Manage Restricted Caller Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_ConfigureSIM.md).
 
 ## Topic design considerations
 

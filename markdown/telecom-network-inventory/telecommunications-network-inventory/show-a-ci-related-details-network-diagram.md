@@ -43,15 +43,15 @@ With the use of a network diagram, you can do the following:
 
     On the network diagram you can do the following actions:
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d33358e129">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d33354e129">
 
 Option
 
-</th><th align="left" id="d33358e132">
+</th><th align="left" id="d33354e132">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d33358e138">
+</th></tr></thead><tbody><tr><td id="d33354e138">
 
 **Expand the network diagram and view the underlying elements**
 
@@ -61,7 +61,7 @@ Details
 2.  Expand further by selecting the add icon \(\[Omitted image "icon-add-circuit.png"\] Alt text: Add Icon\) of the underlying connection nodes.
  **Note:** When there are underlying connection elements in a logical connection, the connection node appears as a stacked pill shape. After expansion, it transforms into a box shape.
 
-</td></tr><tr><td id="d33358e171">
+</td></tr><tr><td id="d33354e171">
 
 **View the revision of the logical connection**
 
@@ -74,7 +74,7 @@ Details
 2.  Select **Current view** to view the original logical connection.
  You can toggle the view between the original logical connection and revision of the logical connection to compare the differences.
 
-</td></tr><tr><td id="d33358e212">
+</td></tr><tr><td id="d33354e212">
 
 **View the protection path**
 
@@ -86,7 +86,7 @@ You can’t expand the underlying connection elements of a protection path. To v
 
 To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
 
-</td></tr><tr><td id="d33358e252">
+</td></tr><tr><td id="d33354e252">
 
 **View the details of a connection node**
 

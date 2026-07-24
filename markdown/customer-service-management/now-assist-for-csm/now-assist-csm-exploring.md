@@ -184,7 +184,7 @@ The Now Assist in AI Search application uses Now LLM Service to extract actionab
 
 Now Assist in the Virtual Agent guided setup can reduce the time and effort needed to deploy Now Assist within Virtual Agent. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Configure Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md#section_pl4_zjw_jzb).
+With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see Multi-turn catalog ordering.
 
 ## Sensitive data handling
 

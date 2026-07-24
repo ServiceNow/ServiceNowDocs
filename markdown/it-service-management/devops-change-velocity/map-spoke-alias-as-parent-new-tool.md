@@ -23,8 +23,8 @@ Create Jira, GitHub or Jenkins tool with parent alias set to respective spoke al
 -   Ensure that you have an Integration Hub subscription.
 -   Ensure that you have set up the connection and credential alias using spoke for Jira, Jenkins and GitHub . For more information, see:
     -   [Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/jira-spoke-v3-0-2.md)
-    -   [Jenkins spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/jenkins-spoke.md)
-    -   [GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/github-spoke.md)
+    -   Jenkins spoke
+    -   GitHub spoke
 -   Upgrade to DevOps Data Model and DevOps Integrations version 1.33 or later.
 
 Role required: admin, sn\_devops.admin

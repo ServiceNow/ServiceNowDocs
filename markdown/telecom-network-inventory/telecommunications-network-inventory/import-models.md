@@ -88,7 +88,7 @@ Select **Attach File** to attach the import model file.**Note:**
 7.  Select **Import**.
 
     -   During the data import procedure:
-        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see .
+        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md).
         -   Normalization Data Service Client \(Optional\): If installed and configured, the following normalization rules are applied.
             -   Removes special characters from the **Manufacturer** name.
             -   The new value is replaced if it matches with five characters of the existing value.

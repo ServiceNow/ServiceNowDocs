@@ -37,5 +37,5 @@ By default, the Zoom quick action is inactive. Activate this quick action to ena
 
 ## Result
 
-By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-sms-service-channel-store-app.md) and[Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md) .
+By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see Conversational SMS service channel andQuick actions .
 

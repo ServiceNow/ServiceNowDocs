@@ -36,8 +36,8 @@ Look up logic for reference fields is enhanced for invoices ingested via APIs an
 
 For more information about the AP Invoice API, see:
 
--   [AP Invoice API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ap-invoice-api.md)
--   [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/apInvoice-dev-guide.md)
+-   AP Invoice API reference
+-   
 
 **Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 

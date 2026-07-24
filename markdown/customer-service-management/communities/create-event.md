@@ -163,15 +163,15 @@ Click the check box to publish an event on a specified date. Select the date and
 </td></tr></tbody>
 </table>2.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d217243e368">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d217239e368">
 
 To
 
-</th><th align="left" id="d217243e371">
+</th><th align="left" id="d217239e371">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d217243e377">
+</th></tr></thead><tbody><tr><td id="d217239e377">
 
 **Save as Draft**
 
@@ -184,7 +184,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options. icon and then click **Delete**.
 
 
-</td></tr><tr><td id="d217243e438">
+</td></tr><tr><td id="d217239e438">
 
 **Schedule**
 
@@ -192,7 +192,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 
 Click **Schedule** to publish an event on the specified date. **Note:** This option appears for an event for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d217243e456">
+</td></tr><tr><td id="d217239e456">
 
 **Publish**
 

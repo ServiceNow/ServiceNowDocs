@@ -34,7 +34,7 @@ An agent can view the user presence before contacting the user. For information 
 
 \[Omitted image "collaborate-panel.png"\] Alt text: Collaborate panel from the sidebar
 
-For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
+For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see ServiceNow for Microsoft Teams.
 
 -   **[Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md)**  
 Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.

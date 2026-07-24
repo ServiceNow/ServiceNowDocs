@@ -35,7 +35,7 @@ Role required: admin
 
 ## Result
 
-A confirmation message appears when installation is complete. For information about the components installed with this plugin, see [Components installed with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/installed-with-ur.md).
+A confirmation message appears when installation is complete. For information about the components installed with this plugin, see .
 
 **Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 

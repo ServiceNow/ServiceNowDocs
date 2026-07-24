@@ -188,5 +188,5 @@ show\_phone\_customer\_service
 **Related topics**  
 
 
-[UI Macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+[bundle-crapiref.c_UIMacros]
 

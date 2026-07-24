@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+For more information on UI Builder, see .
 
 ## Procedure
 
@@ -37,7 +37,7 @@ For more information on UI Builder, see [UI Builder](https://raw.githubuserconte
 
 6.  Select **Duplicate variant**.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
+    For more information, see .
 
 7.  On the Tell us about your variant screen, enter `Custom Email Interaction Page` in the **Name** field.
 

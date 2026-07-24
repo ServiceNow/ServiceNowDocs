@@ -69,7 +69,7 @@ Email flows use conditional logic to incorporate multiple business processes int
 **Related topics**  
 
 
-[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
+[bundle-crworkflow.flows]
 
-[Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md)
+[bundle-crworkflow.actions]
 

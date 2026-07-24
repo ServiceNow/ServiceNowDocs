@@ -141,7 +141,7 @@ Allows the skill to be used from a flow action. Once activated, you can access t
 
 </td><td>
 
-Details on the **Execute Skill** flow action can be found at .
+Details on the **Execute Skill** flow action can be found at [Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/execute-skill-action.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Makes the skill available for activation and use in various chat experiences wit
 
 </td><td>
 
-For more information about Now Assist in Virtual Agent, see .
+For more information about Now Assist in Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

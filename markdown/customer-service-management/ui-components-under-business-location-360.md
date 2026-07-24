@@ -122,7 +122,7 @@ The following example shows a list of the different KPIs. The list includes the 
 
 \[Omitted image "bl360-KPIs.png"\] Alt text: List of different KPIs that includes the number of P1 cases, the number of cases by priority, and the SLAs that were breached.
 
-These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the .
 
 ## Task tab
 

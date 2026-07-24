@@ -382,7 +382,7 @@ The recommendation groups listed in the table below are available by default to 
 
 **Note:** You can deactivate the recommendations for the recommendation groups provided by default, but you cannot delete them. To deactivate the recommendations, in the Recommendations related list in the Context form, change the **Active** field value to **false**.
 
-You can create additional recommendations and recommendation groups and associate them with recommendation contexts. For more information, see [Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md)
+You can create additional recommendations and recommendation groups and associate them with recommendation contexts. For more information, see Recommended Actions application
 
 |Recommendation group name|Recommendation provided based on this criteria|
 |-------------------------|----------------------------------------------|

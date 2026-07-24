@@ -55,15 +55,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d185749e285">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d185773e285">
 
 Option
 
-</th><th align="left" id="d185749e288">
+</th><th align="left" id="d185773e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185749e294">
+</th></tr></thead><tbody><tr><td id="d185773e294">
 
 **Skill is always available**
 
@@ -71,7 +71,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d185749e303">
+</td></tr><tr><td id="d185773e303">
 
 **Customize skill availability**
 
@@ -84,15 +84,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d185749e339">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d185773e339">
 
 Option
 
-</th><th align="left" id="d185749e342">
+</th><th align="left" id="d185773e342">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185749e348">
+</th></tr></thead><tbody><tr><td id="d185773e348">
 
 **In-product desktop**
 
@@ -100,13 +100,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d185749e359">
+</td></tr><tr><td id="d185773e359">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.

@@ -30,7 +30,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 3.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d151653e105">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d151661e105">
 
 **Approve or reject a change request**
 
@@ -38,7 +38,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
  
 
-</td></tr><tr><td id="d151653e113">
+</td></tr><tr><td id="d151661e113">
 
 **Implement a change request**
 
@@ -46,7 +46,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
  
 
-</td></tr><tr><td id="d151653e121">
+</td></tr><tr><td id="d151661e121">
 
 **Review a change request**
 
@@ -54,7 +54,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d151653e142">
+</td></tr><tr><td id="d151661e142">
 
 **Close a change request**
 
@@ -62,7 +62,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d151653e166">
+</td></tr><tr><td id="d151661e166">
 
 **Cancel a change request**
 

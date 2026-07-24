@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-employee-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
@@ -36,7 +36,7 @@ From the Employee Center portal, an employee can perform the following actions:
 
 **Important:** The Employee Center portal experience can be integrated with the following platforms and applications:
 
--   Moveworks. For information about conversational support with this integration, see [Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md).
+-   Moveworks. For information about conversational support with this integration, see .
 -   Microsoft Teams
 -   Slack chat.
 

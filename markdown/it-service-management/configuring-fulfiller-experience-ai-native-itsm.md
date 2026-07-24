@@ -103,7 +103,7 @@ Incident routing to fulfiller’s inbox is auto-configured post installation. Co
 
 </td><td>
 
-Manage and configure the incident routing experience. For information about configuring this channel, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md).
+Manage and configure the incident routing experience. For information about configuring this channel, see .
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ None
 
 For information about incident assignment rules, [Define assignment rules for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_DefinAnAssignRuleIncidents.md).
 
- For information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+ For information about business rules, see .
 
  For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 

@@ -37,7 +37,7 @@ You could also directly start entering the instructions. The utterance detection
 
 \[Omitted image "now-assist-spo-products.png"\] Alt text: List of products that is based on a search result.
 
-For details, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
+For details, see .
 
 Virtual Agent engages you in a guided conversation, asking you relevant questions to help you submit your purchase, sourcing, and off-catalog requests, as well as procurement cases, without the need to reach out to fulfillers. You can then review and track these request records from Shopping Hub, Employee Center, or Platform.
 
@@ -119,7 +119,7 @@ If the Virtual Agent is unable to search for your specific request, the followin
 
 ## Additional Information
 
-Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
+Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see .
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see [Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md). Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses.
 

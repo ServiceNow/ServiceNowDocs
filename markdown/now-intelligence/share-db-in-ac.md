@@ -51,7 +51,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38757e168">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38767e168">
 
 **Add as viewer**
 
@@ -59,7 +59,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 Grant only viewing rights to the users, groups, or roles you are sharing the dashboard with. They cannot edit it.
 
-</td></tr><tr><td id="d38757e177">
+</td></tr><tr><td id="d38767e177">
 
 **Add as editor**
 

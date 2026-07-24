@@ -24,15 +24,15 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
     -   CSP Pre-Chat Survey - Collects preliminary information for logged-in customers.
     -   CSP Anonymous Pre-Chat Survey – Collects preliminary information for users who are not logged in.
-    You can define a different survey or modify these predefined surveys. For more information, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md).
+    You can define a different survey or modify these predefined surveys. For more information, see Create chat surveys.
 
 -   **Routing chats to the correct queue**
 
-    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-queues.md).
+    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see Work item queues.
 
 -   **Identifying topics related to the chat issue**
 
-    When customers enter a response to the standard pre-chat question "Please briefly describe your issue," Natural Language Understanding can help determine the appropriate Virtual Agent conversation topic. Relevant topics are automatically displayed to end users \(requesters\) rather than prompting them to choose from a list of conversation topics. For more information, see [Define context topic intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-topic-intent.md).
+    When customers enter a response to the standard pre-chat question "Please briefly describe your issue," Natural Language Understanding can help determine the appropriate Virtual Agent conversation topic. Relevant topics are automatically displayed to end users \(requesters\) rather than prompting them to choose from a list of conversation topics. For more information, see Define context topic intent configurations.
 
 
 ## Configuring Pre-chat if you have upgraded

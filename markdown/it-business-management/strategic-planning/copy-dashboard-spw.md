@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---

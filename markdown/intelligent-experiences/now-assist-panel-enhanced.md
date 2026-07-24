@@ -18,13 +18,13 @@ Agents can use the Now Assist panel enhanced chat to interact with and get assis
 
 Conversational aspects of the Now Assist panel, such as skill detection, are powered by Now LLM Service.
 
-**Note:** To use the full capabilities of Now Assist panel enhanced chat, AI Search must be enabled for your portal. Without it, Now Assist panel enhanced chat functions in a limited capacity. Basic conversational interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see .
+**Note:** To use the full capabilities of Now Assist panel enhanced chat, AI Search must be enabled for your portal. Without it, Now Assist panel enhanced chat functions in a limited capacity. Basic conversational interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
 
 ## Prerequisites
 
 You must fulfill the following conditions before using the Now Assist panel enhanced chat:
 
--   Next Experience must be enabled. For more information, see .
+-   Next Experience must be enabled. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 -   You must have the now\_assist\_panel\_user role.
 -   Your role must be applied to at least one active Now Assist skill to use skills in the Now Assist panel.
 -   Now Assist panel enhanced chat must be activated before you can use it. See [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
@@ -241,7 +241,7 @@ After you enter a question or request on the Now Assist panel, Now Assist gather
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see .
+**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when Now Assist didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
 

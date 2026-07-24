@@ -32,7 +32,7 @@ Customer service agents can create a record using a playbook instead of a record
 
  For example, an agent can create a case and gather the necessary information about the customer and the issue as the first activity in the playbook.
 
- For more information about configuring this feature, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-record-generator-overview.md).
+ For more information about configuring this feature, see Playbook record generator.
 
 </td></tr><tr><td>
 

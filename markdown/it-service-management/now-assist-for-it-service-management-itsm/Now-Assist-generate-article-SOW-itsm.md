@@ -101,15 +101,15 @@ Role required: itil
 
 6.  To add or update the knowledge article, follow the instructions in the table below.
 
-<table><thead><tr><th align="left" id="d332134e525">
+<table><thead><tr><th align="left" id="d332142e525">
 
 To add or update the knowledge article
 
-</th><th align="left" id="d332134e528">
+</th><th align="left" id="d332142e528">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d332134e534">
+</th></tr></thead><tbody><tr><td id="d332142e534">
 
 **In Service Operation Workspace**
 
@@ -122,7 +122,7 @@ Do this
 -   Click **Save**.
 
 
-</td></tr><tr><td id="d332134e575">
+</td></tr><tr><td id="d332142e575">
 
 **In Core UI**
 
@@ -146,15 +146,15 @@ To update it:
 
     \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
 
-<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d332134e673">
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d332142e673">
 
 Type of UI
 
-</th><th align="left" id="d332134e676">
+</th><th align="left" id="d332142e676">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d332134e682">
+</th></tr></thead><tbody><tr><td id="d332142e682">
 
 **In Service Operation Workspace**
 
@@ -173,7 +173,7 @@ The Knowledge article is created and attached to all selected similar incidents.
 
 \[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
 
-</td></tr><tr><td id="d332134e751">
+</td></tr><tr><td id="d332142e751">
 
 **In Core UI**
 

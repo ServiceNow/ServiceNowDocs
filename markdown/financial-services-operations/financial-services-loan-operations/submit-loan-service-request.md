@@ -37,15 +37,15 @@ Business customers and consumers can also submit loan service requests from the 
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d106279e115">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d106319e115">
 
 Option
 
-</th><th align="left" id="d106279e118">
+</th><th align="left" id="d106319e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106279e124">
+</th></tr></thead><tbody><tr><td id="d106319e124">
 
 **Personal loan service request for a consumer**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d106279e151">
+</td></tr><tr><td id="d106319e151">
 
 **Business loan service request for a business customer**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d106279e181">
+</td></tr><tr><td id="d106319e181">
 
 **Loan service request from an interaction record**
 

@@ -25,7 +25,7 @@ Associate your company records with a business location to enhance service organ
 
 ### Before you begin
 
-Add the **Company** field to an internal or an external business location form using the form layout. For more information, see [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-form-fields.md).
+Add the **Company** field to an internal or an external business location form using the form layout. For more information, see .
 
 Role required: admin, user\_admin
 

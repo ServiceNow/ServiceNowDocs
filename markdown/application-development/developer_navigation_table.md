@@ -238,7 +238,7 @@ Customize chat bot dialogs
 
 </td><td>
 
--   [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+-   Getting started with Virtual Agent Designer
 -   Conversational Analytics Dashboard
 
 </td></tr><tr><td>

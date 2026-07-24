@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usi
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Using Virtual Agent in service portals, Automate and optimize, Use, Customer Service Management]
 ---
@@ -50,7 +50,7 @@ Guided Flow for Case Creation
 
         **Note:**
 
-        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see .
 
     -   If no relevant results are found, select **Continue with case creation** to proceed. This action enables the **Submit** button and shows the additional fields needed to complete the case form.
     -   Select **Submit** to create a record case.

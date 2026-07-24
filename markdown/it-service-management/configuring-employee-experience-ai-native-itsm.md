@@ -30,8 +30,8 @@ Employee Slate provides an AI-first employee experience that brings search, requ
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Employee Slate Moveworks|Employee Slate and Moveworks integration combines the Moveworks AI assistant with key Employee Slate features such as conversation-first home page, the interactive split view, Enterprise Search, and Inbox. Enables employees to handle work tasks, find information, and get things done faster with the Moveworks AI assistant.|None|Configure the branding, the Moveworks AI Assistant connection, the canvas configuration, email notifications for request and incident updates, and the update set package that promotes configurations between environments. For information about Employee Slate for Moveworks, see [Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md).|
-|Employee Slate Now Assist|Employee Slate and Now Assist integration provides intelligent assistance throughout the Employee Slate experience. The AI assistant offers proactive suggestions, automates routine tasks, and provides contextual help based on your chat conversations and activities. Enable employees to get AI-powered assistance for everyday work tasks through intelligent suggestions, automated workflows, and contextual support.|None|Configure the branding and data sources, internal and external search sources, conversational assistant configurations, canvas, email notifications for request and incident updates, and other features. For information about Employee Slate for Now Assist, see [Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-nowassist.md).|
+|Employee Slate Moveworks|Employee Slate and Moveworks integration combines the Moveworks AI assistant with key Employee Slate features such as conversation-first home page, the interactive split view, Enterprise Search, and Inbox. Enables employees to handle work tasks, find information, and get things done faster with the Moveworks AI assistant.|None|Configure the branding, the Moveworks AI Assistant connection, the canvas configuration, email notifications for request and incident updates, and the update set package that promotes configurations between environments. For information about Employee Slate for Moveworks, see .|
+|Employee Slate Now Assist|Employee Slate and Now Assist integration provides intelligent assistance throughout the Employee Slate experience. The AI assistant offers proactive suggestions, automates routine tasks, and provides contextual help based on your chat conversations and activities. Enable employees to get AI-powered assistance for everyday work tasks through intelligent suggestions, automated workflows, and contextual support.|None|Configure the branding and data sources, internal and external search sources, conversational assistant configurations, canvas, email notifications for request and incident updates, and other features. For information about Employee Slate for Now Assist, see .|
 
 ## Service channels
 
@@ -67,7 +67,7 @@ Live Agent chat is auto-configured post installation. It includes routing condit
 
 </td><td>
 
-Manage and configure the live agent chat experience. For information about configuring this channel, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md).
+Manage and configure the live agent chat experience. For information about configuring this channel, see .
 
 </td></tr><tr><td>
 
@@ -108,15 +108,15 @@ The Virtual Agent platform provides user assistance through conversations within
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|VA configuration|Virtual Agent features, components, and integrations that are essential to provide support to your employees, IT teams, and customers.|ServiceNow Virtual Agent is preconfigured with default general settings and branding, live agent chat configuration, and Now Assist Virtual Agent configurations.|Review and configure settings to align the run-time experience of Virtual Agent with your requirements. For information about these configurations, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-virtual-agent.md).|
-|VA for MS Teams|Integrating Virtual Agent with Microsoft Teams to enable users create their requests from within Microsoft Teams.|None|For information about Microsoft Teams integration, see [Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-va-msteams-settings.md).|
-|VA for Slack|Integrating Virtual Agent with Slack to enable users create their requests from within Slack.|None|For information about Slack integration, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integ-slack.md).|
+|VA configuration|Virtual Agent features, components, and integrations that are essential to provide support to your employees, IT teams, and customers.|ServiceNow Virtual Agent is preconfigured with default general settings and branding, live agent chat configuration, and Now Assist Virtual Agent configurations.|Review and configure settings to align the run-time experience of Virtual Agent with your requirements. For information about these configurations, see .|
+|VA for MS Teams|Integrating Virtual Agent with Microsoft Teams to enable users create their requests from within Microsoft Teams.|None|For information about Microsoft Teams integration, see .|
+|VA for Slack|Integrating Virtual Agent with Slack to enable users create their requests from within Slack.|None|For information about Slack integration, see .|
 
 ## Taxonomy
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Taxonomy|Taxonomy for employee content maps the content of your product or services to the taxonomy hierarchy.|Predefined set of taxonomies for easy discovery of catalog items and knowledge on Employee Center.|Review, edit, remove, or add taxonomies that align with the business hierarchy of your organization. For information about taxonomy, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-taxonomy-content.md).|
+|Taxonomy|Taxonomy for employee content maps the content of your product or services to the taxonomy hierarchy.|Predefined set of taxonomies for easy discovery of catalog items and knowledge on Employee Center.|Review, edit, remove, or add taxonomies that align with the business hierarchy of your organization. For information about taxonomy, see .|
 
 ## Catalog items
 

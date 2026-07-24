@@ -31,7 +31,7 @@ From the asset inventory, asset types are created by opening their respective ap
 
 -   Create Virtual Agent assets with Virtual Agent Assistant Designer, including topics, virtual assistants, subflows, and actions.
 
-    For more information, see .
+    For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assistant-designer.md).
 
 -   Create custom skills with Now Assist Skill Kit.
 
@@ -43,7 +43,7 @@ From the asset inventory, asset types are created by opening their respective ap
 
 -   Create catalog items with Catalog Builder.
 
-    For more information, see .
+    For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
 
 -   Create knowledge graphs with Knowledge Graph Designer.
 
@@ -118,7 +118,7 @@ Opens the New Subflow form in Assistant Designer.
 
  A subflow is an automated process that is part of a larger automated process. It consists of reusable actions and flow logic, data inputs, and outputs.
 
- For more information on creating an asset in Virtual Agent Designer, see .
+ For more information on creating an asset in Virtual Agent Designer, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Opens the New Action form in Assistant Designer.
 
  An action is a single step or task performed by a an AI agent, a workflow, or a subflow.
 
- For more information on creating an asset in Virtual Agent Designer, see .
+ For more information on creating an asset in Virtual Agent Designer, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Opens the Create an assistant page in Assistant Designer.
 
  A virtual assistant is the container for the end-to-end administrative configuration for a chat or voice conversation.
 
- For more information on creating a virtual assistant in Assistant Designer, see .
+ For more information on creating a virtual assistant in Assistant Designer, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Opens the Create a topic form in Assistant Designer.
 
  A conversational topic is used to structure back-and-forth conversations between the virtual agent and the end user.
 
- For more information on creating an asset in Virtual Agent Designer, see .
+ For more information on creating an asset in Virtual Agent Designer, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Opens the Catalog Builder.
 
  A catalog item is used to publish a service to users in the Service Catalog.
 
- For more information on creating a catalog item in Catalog Builder, see .
+ For more information on creating a catalog item in Catalog Builder, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
 
 </td></tr><tr><td>
 

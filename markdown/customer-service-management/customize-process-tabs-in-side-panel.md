@@ -26,7 +26,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 3.  Select the desired page collection.
 
-    A [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md) is a group of pages that you can use in multiple experiences.
+    A page collection is a group of pages that you can use in multiple experiences.
 
 4.  In the Pages and variants section, select the Create new page icon \(**+**\) to create a new page or add a variant to a page.
 
@@ -56,5 +56,5 @@ The added component gets displayed on the UI. The location depends on where you 
 
 [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md)
 
-[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
+[bundle-cadev.work-components]
 

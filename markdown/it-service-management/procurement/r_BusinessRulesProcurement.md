@@ -265,5 +265,5 @@ Sets the **Configuration item** field on the catalog task and requested item to 
 **Related topics**  
 
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
+[bundle-crapiref.c_BusinessRules]
 

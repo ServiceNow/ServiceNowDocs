@@ -32,15 +32,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To edit individual data items, you can either work directly in the code or select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for an item and select an action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d411083e102">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d411091e102">
 
 Selection
 
-</th><th align="left" id="d411083e105">
+</th><th align="left" id="d411091e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d411083e111">
+</th></tr></thead><tbody><tr><td id="d411091e111">
 
 **Create collection**
 
@@ -48,7 +48,7 @@ Action
 
 Add an individual component to the collection.
 
-</td></tr><tr><td id="d411083e120">
+</td></tr><tr><td id="d411091e120">
 
 **Create CDI**
 
@@ -63,7 +63,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d411083e153">
+</td></tr><tr><td id="d411091e153">
 
 **Inherit from collection**
 
@@ -79,7 +79,7 @@ Select **Remove inheritance** to remove the existing hereditary relationship fro
 -   There are more than the maximum number of collections in a chain. This number is 5 by default. Example: Collection1 is inherited by Collection2. Collection2 is inherited by Collection3. This chain of inheritance cannot continue to Collection6. You can change the valid chain length by editing the **sn\_cdm.max\_inheritance\_chain\_length** system property.
 
 
-</td></tr><tr><td id="d411083e185">
+</td></tr><tr><td id="d411091e185">
 
 **Include in deployables**
 
@@ -91,7 +91,7 @@ Include the selected collection in specified deployables.
 
  **Note:** Only deployables that do not currently include the collection appear in the list.
 
-</td></tr><tr><td id="d411083e219">
+</td></tr><tr><td id="d411091e219">
 
 **Rename**
 
@@ -99,7 +99,7 @@ Include the selected collection in specified deployables.
 
 Rename the selected collection.
 
-</td></tr><tr><td id="d411083e228">
+</td></tr><tr><td id="d411091e228">
 
 **Delete**
 
@@ -107,7 +107,7 @@ Rename the selected collection.
 
 Delete the selected collection.
 
-</td></tr><tr><td id="d411083e237">
+</td></tr><tr><td id="d411091e237">
 
 **Details**
 
@@ -115,7 +115,7 @@ Delete the selected collection.
 
 View the administrative information associated with the collection.
 
-</td></tr><tr><td id="d411083e246">
+</td></tr><tr><td id="d411091e246">
 
 **View relationships**
 

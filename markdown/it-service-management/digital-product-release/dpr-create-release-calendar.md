@@ -109,5 +109,5 @@ You can perform the following tasks to manage and visualize your release activit
 **Related topics**  
 
 
-[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/digital-product-release-api.md)
+[bundle-crapiref.dpr-POST-release_calendar]
 

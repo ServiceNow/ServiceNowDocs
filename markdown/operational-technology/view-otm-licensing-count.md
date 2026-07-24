@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/view-otm-licensing-count.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

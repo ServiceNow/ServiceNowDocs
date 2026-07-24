@@ -22,7 +22,7 @@ Role required: flow\_designer or admin
 
 Subscription required: This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-Ensure that you've configured the external trigger endpoints for the third-party application spoke. For more information about configuring the third-party spoke, see .
+Ensure that you've configured the external trigger endpoints for the third-party application spoke. For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-external-webhook-endpoints.md).
 
 ## Procedure
 
@@ -111,7 +111,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
     3.  Select the predefined external trigger definition.\[Omitted image "select-external-trigger-definition.png"\] Alt text: External trigger definition.
 
-        To learn more about external trigger definitions, see .
+        To learn more about external trigger definitions, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditional-and-event-driven-inbound-integration.md).
 
     4.  To define the conditions for the flow to execute, in the Condition 1 field, drag the appropriate data pill and enter the value.
 

@@ -99,5 +99,5 @@ Deployment is executed.
 **Related topics**  
 
 
-[CdmQuery - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CdmQueryScopedAPI.md)
+[bundle-crapiref.CdmQueryScopedAPI]
 

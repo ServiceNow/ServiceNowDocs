@@ -23,7 +23,9 @@ Use the AI connections page to integrate third-party systems and discover AI ass
 
 **Note:** The AI connections page is visible only when both the com.sn\_ai\_disc and sn\_sgc\_central plugins are installed.
 
-Agents are discovered according to the set run frequency, but you can also manually discover agents or collect usage data by selecting a connection and choosing the run option. AI stewards can perform this action, including activating or deactivating the AI connection by selecting the State column in the list. Admins can adjust the run frequency by accessing the connection alias.
+Agents are discovered according to the set run frequency, but you can also manually discover agents by selecting a connection and choosing the run option.
+
+To manually collect usage data, select a connection and choose the run option.
 
 **Note:** Uninstall the AWS AI Discovery plugin before installing the AI Discovery plugin \(sn\_ai\_disc\) to use the AI connections.
 
@@ -40,7 +42,7 @@ On AI connections, there are two categories of scheduled jobs.
     **Note:** Confirm that the AI discovery daily data collection job is active, which is the key element in collecting the data.
 
 
-AI connections are a combination of hyperscalers, AI apps, and agentic AI frameworks created using Service Graph Connectors. AI connections can discover and import AI agents and as well as usage data.
+AI connections are a combination of hyperscalers, AI apps, and agentic AI frameworks created using Service Graph Connectors. AI connections can discover and import AI agents and track usage data.
 
 Navigate to AI connections page to create AI connections and manage your existing ones. The connections that were set up without Service Graph Connectors appear in the Legacy connections section.
 
@@ -50,7 +52,7 @@ Navigate to AI connections page to create AI connections and manage your existin
 
 The AI connection record has the following tabs:
 
-Details- Displays the connection details of the AI Connection.
+Details- Displays the connection details of the AI connection.
 
 Data sources- Represent a running unit, which defines what data is fetched from a third‑party system.
 

@@ -104,15 +104,15 @@ Enter a description of how this risk calculation is applied.
 </td></tr></tbody>
 </table>4.  Specify the rule based on your selected rule method.
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d223180e223">
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d223188e223">
 
 Choice
 
-</th><th align="left" id="d223180e226">
+</th><th align="left" id="d223188e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d223180e232">
+</th></tr></thead><tbody><tr><td id="d223188e232">
 
 **Condition**
 
@@ -120,7 +120,7 @@ Action
 
 Use the condition builder to add conditions. It is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d223180e244">
+</td></tr><tr><td id="d223188e244">
 
 **Use advanced conditions**
 
@@ -128,7 +128,7 @@ Use the condition builder to add conditions. It is hidden if you selected **Use 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d223180e262">
+</td></tr><tr><td id="d223188e262">
 
 **Use script values**
 

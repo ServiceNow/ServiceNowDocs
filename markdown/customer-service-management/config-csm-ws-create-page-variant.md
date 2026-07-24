@@ -18,7 +18,7 @@ When you create a page in UI Builder, you have the option to create a page from 
 
 ## UI Builder terminology
 
-The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-glossary.md).
+The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the UI Builder glossary.
 
 <table id="table_spj_stk_1bc"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-workspace-settings.md)
+Workspace experience
 
 </td><td>
 
@@ -40,7 +40,7 @@ A workspace experience resides at a specific URL. When an admin creates a worksp
 
 </td></tr><tr><td>
 
-[Page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md)
+Page collection
 
 </td><td>
 
@@ -92,7 +92,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
+Create a page from scratch
 
 </td><td>
 
@@ -100,7 +100,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)
+Create a page from a template
 
 </td><td>
 
@@ -114,7 +114,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
+Create a page variant
 
 </td><td>
 
@@ -126,7 +126,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
+</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 **Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
 

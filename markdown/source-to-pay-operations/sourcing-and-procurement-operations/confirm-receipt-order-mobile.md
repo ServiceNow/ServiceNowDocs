@@ -34,15 +34,15 @@ Role required: sn\_shop.shopper
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d31990e92">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d32017e92">
 
 Action
 
-</th><th align="left" id="d31990e95">
+</th><th align="left" id="d32017e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31990e101">
+</th></tr></thead><tbody><tr><td id="d32017e101">
 
 **Received**
 
@@ -54,7 +54,7 @@ Swipe left on the line item, and select **Received** to confirm receipt of the s
 -   **Date received**: Date when you received the items.
 
 
-</td></tr><tr><td id="d31990e132">
+</td></tr><tr><td id="d32017e132">
 
 **Received \(Details screen\)**
 

@@ -38,5 +38,5 @@ You can also see the option to **Summarize**, **shorten**, **elaborate**, or **c
 **Related topics**  
 
 
-[bundle-itbm.generate-summarize-and-refine-content-of-docs-with-now-assist-spm]
+[Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
 

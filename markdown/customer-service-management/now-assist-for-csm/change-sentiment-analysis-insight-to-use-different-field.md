@@ -37,7 +37,7 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
     For example, open **Sentiment by Channel Insight**. Make a clone if needed.
 
-3.  [Duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/duplicate-components.md) **Sentiment by Channel Insight**
+3.  Duplicate **Sentiment by Channel Insight**
 
 4.  Rename all components to your desired field \(for example, Consumer\) or create a generalized component name.
 

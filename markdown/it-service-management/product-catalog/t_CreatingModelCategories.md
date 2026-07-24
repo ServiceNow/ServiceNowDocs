@@ -111,7 +111,7 @@ Allow pre-allocation
 
 </td><td>
 
-Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreatingPreAllocatedAssets.md).
+Add and track items in this category as.
 
 </td></tr><tr><td>
 

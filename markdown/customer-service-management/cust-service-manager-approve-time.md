@@ -32,7 +32,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 4.  Click one of the available actions.
 
-<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d283563e111">
+<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d283556e111">
 
 **Approve**
 
@@ -40,7 +40,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 The state of the time sheet and the associated time cards changes to **Processed** and these records become read-only.
 
-</td></tr><tr><td id="d283563e123">
+</td></tr><tr><td id="d283556e123">
 
 **Reject**
 

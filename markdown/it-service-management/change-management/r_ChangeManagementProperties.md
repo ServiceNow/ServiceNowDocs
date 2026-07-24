@@ -123,7 +123,7 @@ com.snc.change\_management.enforce\_data\_requirements
 
 </td><td>
 
-Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see [Change Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/change-management-api.md)
+Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see Change Management API
 
  In the User Interface, when this property is true, it enables additional server sided restrictions to the UI Policy and Client Script controls that already exist.
 

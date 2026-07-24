@@ -122,7 +122,7 @@ The type of change mark depends on the nature of changes that it represents:
 
 [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
 
-[View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ViewCIChanges.md)
+[bundle-itom.t_ViewCIChanges]
 
-[View the change history of application services in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-view-history-app-service.md)
+[bundle-itom.workspace-view-history-app-service]
 

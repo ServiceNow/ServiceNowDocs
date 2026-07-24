@@ -39,7 +39,7 @@ AI Search in ITSM Mobile Agent offers the following features:
 
 For information about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
 
-For information about AI search in mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/text-search-advanced-now.md).
+For information about AI search in mobile, see AI Search in mobile.
 
 The following configurations are added for AI search experience in ITSM Mobile Agent:
 

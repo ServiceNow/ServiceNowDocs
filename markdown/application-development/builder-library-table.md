@@ -198,7 +198,7 @@ Create a new standard record page variant to show specific incident records, edi
 
 </td></tr><tr><td>
 
-[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+Virtual Agent Designer
 
 </td><td>
 

@@ -161,5 +161,5 @@ Can be used to store any JSON encoded string.
 **Related topics**  
 
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
+[bundle-crapiref.c_openFrameAPI]
 

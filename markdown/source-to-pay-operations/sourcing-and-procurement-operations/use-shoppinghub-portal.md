@@ -29,7 +29,7 @@ The Shopping Hub \(sn\_spend\_uib\) application provides configurable experience
 -   Streamline the quick checkout flow using record producer.
 -   Add pages to provide new experiences.
 
-For detailed information on how to configure your experience with UIB, see [Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md).
+For detailed information on how to configure your experience with UIB, see .
 
 -   **[Log in to Shopping Hub for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/login-shoppinghub-first-time.md)**  
 Shoppers who log in to Shopping Hub for the very first time must set up a default delivery location before they can browse products and access the other pages.

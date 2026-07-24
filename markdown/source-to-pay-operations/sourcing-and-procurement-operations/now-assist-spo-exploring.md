@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Explore Now Assist for Sourcing and Procurement Operations]
 breadcrumb: [Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -78,11 +78,11 @@ For guidance on using these capabilities in Now Assist for SPO, see [Use Now Ass
 
 Now Assist for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
-For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see .
 
-To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md).
+To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see .
 
-During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/llm-assistants.md).
+During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see .
 
 Domain separation is supported for Now Assist in Virtual Agent. For more information, see [Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/na-in-va-domain-separation.md).
 

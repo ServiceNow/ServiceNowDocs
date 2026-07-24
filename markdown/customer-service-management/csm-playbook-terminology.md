@@ -42,7 +42,7 @@ A trigger determines when a playbook starts running. Each trigger has a type and
 
 Trigger conditions determine when and how a trigger is fired.
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-trigger-definition.md) are created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+Triggers are created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Stage
 
 </td><td>
 
-A stage is a sequence of activities in a playbook that are grouped in a logical way. A playbook can contain one or more stages and each stage includes one or more activities for a user to complete. Stages can also include automated activities.[Stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-lanes-activities.md) are added to a playbook in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+A stage is a sequence of activities in a playbook that are grouped in a logical way. A playbook can contain one or more stages and each stage includes one or more activities for a user to complete. Stages can also include automated activities.Stages are added to a playbook in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr><tr><td>
 
@@ -58,12 +58,12 @@ Activity
 
 </td><td>
 
-An activity is one step in the overall business process represented in a playbook. Activities are the tasks, steps, or actions that a user takes to complete a playbook. Activities are grouped in stages and are sequenced in a logical order. Users can complete or skip manual activities. Activities can also be completed automatically.[Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-lanes-activities.md) are added to playbook stages in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+An activity is one step in the overall business process represented in a playbook. Activities are the tasks, steps, or actions that a user takes to complete a playbook. Activities are grouped in stages and are sequenced in a logical order. Users can complete or skip manual activities. Activities can also be completed automatically.Activities are added to playbook stages in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr></tbody>
 </table>## Playbook UI components
 
-Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
+Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in UI Builder. Different components make up the playbook record pages.
 
 <table id="table_a2t_xmt_bcc"><thead><tr><th>
 

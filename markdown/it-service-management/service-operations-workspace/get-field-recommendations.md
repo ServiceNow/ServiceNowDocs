@@ -24,7 +24,7 @@ Role required: admin
 
 -   Field recommendations are only available in the Advanced Recommended actions for ITSM application, which requires the ITSM Pro package subscription.
 -   The recommendations associated with field recommendations must be active.
--   The field recommendations must be configured in the Recommended Actions. For more information, see [Create a field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-field-recs-create.md).
+-   The field recommendations must be configured in the Recommended Actions. For more information, see .
 
 ## Procedure
 
@@ -32,15 +32,15 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d241681e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d241689e102">
 
 Option
 
-</th><th align="left" id="d241681e106">
+</th><th align="left" id="d241689e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d241681e112">
+</th></tr></thead><tbody><tr><td id="d241689e111">
 
 **From the List menu**
 
@@ -51,7 +51,7 @@ Description
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d241681e151">
+</td></tr><tr><td id="d241689e150">
 
 **From an incident list**
 
@@ -69,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d241681e191">
+</td></tr><tr><td id="d241689e190">
 
 **From an interaction**
 

@@ -32,7 +32,7 @@ Note the following scenarios:
 
 For information on how Supplier Lifecycle Operations similarly assesses suppliers during the onboarding process, see [Minimize risk by assessing suppliers during the onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/better-tprm-slo.md). For detailed information on the supplier onboarding playbook, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
-For information on how to configure TPRM, see [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-configuring.md). For detailed information on the due diligence workflow, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-workflow-in-workspace.md).
+For information on how to configure TPRM, see . For detailed information on the due diligence workflow, see .
 
 -   **[Track risk assessments from the due diligence playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.md)**  
 As procurement specialists, use the due diligence playbook to track supplier risk assessments and complete the associated tasks.

@@ -51,5 +51,5 @@ Message \[sys\_ui\_message\]
 Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MessageTable.md).
 
 </td></tr></tbody>
-</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-translation-tables.md)
+</table>**Note:** For information about Virtual Agent chat translation, see Virtual Agent translation tables
 

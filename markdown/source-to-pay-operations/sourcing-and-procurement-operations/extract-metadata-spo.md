@@ -46,9 +46,9 @@ For more information, see [Contract metadata extraction using Now Assist in Cont
 
 ## What to do next
 
-Review the metadata extracted from a contract and add it to the contract repository. For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-review-metatdata.md).
+Review the metadata extracted from a contract and add it to the contract repository. For more information, see .
 
-The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-ext-results.md).
+The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see .
 
 **Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
 

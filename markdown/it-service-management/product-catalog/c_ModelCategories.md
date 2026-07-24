@@ -57,5 +57,5 @@ If a model category is no longer needed, you can delete it.
 
 [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBClassifications.md)
 
-[Create an asset class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreateAnAssetClass.md)
+[bundle-itam.t_CreateAnAssetClass]
 

@@ -19,7 +19,7 @@ Advanced Work Assignment \(AWA\) automatically routes invoice cases to qualified
 
 Customers use different channels to request service, for example, email, chat, cases, or incidents. Requests from customers create task or interaction records that store information about these objects, called work items. AWA automatically routes work items to queues that focus on certain types of support, using criteria \(such as priority or customer status\) that you provide.
 
-For more information about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md).
+For more information about AWA, see .
 
 **Note:** Check your entitlements to determine whether you have access to Advanced Work Assignment in Accounts Payable Operations in Source-to-Pay Operations Professional.
 

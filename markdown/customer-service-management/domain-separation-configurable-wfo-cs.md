@@ -32,7 +32,7 @@ Domain separation in Workforce Optimization for Customer Service does not requir
 
 ## Domain separation for Channel Management in Workforce Optimization for Customer Service
 
-The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md)
+The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to Domain separation and Advanced Work Assignment
 
 The domain-separated tables for Channel Management are as follows:
 

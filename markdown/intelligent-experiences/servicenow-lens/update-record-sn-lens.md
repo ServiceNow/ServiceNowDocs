@@ -55,11 +55,11 @@ You can update a record in the ServiceNow instance in two ways:
 
 1.  Update a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d67126e241">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d66714e241">
 
 Method
 
-</th><th align="left" id="d67126e244">
+</th><th align="left" id="d66714e244">
 
 Steps
 
@@ -199,7 +199,7 @@ Repeat the step to capture more screenshots, if required.
                 |glide.rest.max\_content\_length|Integer|15|
                 |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see Configure system property.
+For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md).
 
 **Note:** You must have the admin role to set the system properties.
 
@@ -220,15 +220,15 @@ The form is auto-filled.
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d67126e901">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d66714e901">
 
 Option
 
-</th><th align="left" id="d67126e904">
+</th><th align="left" id="d66714e904">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67126e910">
+</th></tr></thead><tbody><tr><td id="d66714e910">
 
 **If the auto-filled text looks good**
 
@@ -236,7 +236,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d67126e922">
+</td></tr><tr><td id="d66714e922">
 
 **If the auto-filled text requires changes**
 

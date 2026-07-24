@@ -37,15 +37,15 @@ Use the following guidance to optimize performance:
 
 2.  Configure concurrent import or concurrent import
 
-<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d33035e107">
+<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d33006e107">
 
 To
 
-</th><th align="left" id="d33035e110">
+</th><th align="left" id="d33006e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d33035e116">
+</th></tr></thead><tbody><tr><td id="d33006e116">
 
 **To enable concurrent import**
 
@@ -57,7 +57,7 @@ Do the following
 4.  In the **Partition size**e field, enter the number of records per partition \(for example, 1000\).
  **Note:** The system splits the dataset into import sets based on the partition size. Each import set is processed in parallel, improving the speed of data transformation.
 
-</td></tr><tr><td id="d33035e158">
+</td></tr><tr><td id="d33006e158">
 
 **Configure parallel loading in the data source**
 

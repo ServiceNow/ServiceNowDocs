@@ -50,15 +50,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 9.  Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d60585e224">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d60625e224">
 
 Selection
 
-</th><th align="left" id="d60585e227">
+</th><th align="left" id="d60625e227">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d60585e235">
+</th></tr></thead><tbody><tr><td id="d60625e235">
 
 **Unresolved**
 
@@ -74,7 +74,7 @@ Result
 8.  Select **Submit**.
 
 
-</td></tr><tr><td id="d60585e299">
+</td></tr><tr><td id="d60625e299">
 
 **Resolved**
 

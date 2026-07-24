@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-24"
 reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---

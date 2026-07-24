@@ -37,15 +37,15 @@ Role required: itil
 
 4.  Perform any of the following actions on the change record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d312280e117">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d312288e117">
 
 Option
 
-</th><th align="left" id="d312280e120">
+</th><th align="left" id="d312288e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d312280e126">
+</th></tr></thead><tbody><tr><td id="d312288e126">
 
 **Create change tasks for delegation**
 
@@ -53,7 +53,7 @@ Description
 
 In the **Overview** tab, select **Add Task**. For more information about creating a change task, see [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
-</td></tr><tr><td id="d312280e148">
+</td></tr><tr><td id="d312288e148">
 
 **Compose an email from the change**
 
@@ -61,7 +61,7 @@ In the **Overview** tab, select **Add Task**. For more information about creatin
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Compose Email**.
 
-</td></tr><tr><td id="d312280e166">
+</td></tr><tr><td id="d312288e166">
 
 **Create outage**
 
@@ -69,7 +69,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Outage**.
 
-</td></tr><tr><td id="d312280e184">
+</td></tr><tr><td id="d312288e184">
 
 **View dependencies**
 
@@ -77,7 +77,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 View the entities associated with the CI that can be impacted as a result of the change request.In the **Impact** section of the **Details** tab, select the Configuration item dependency view icon \( \[Omitted image "dependency-icon-r.png"\] Alt text: configuration item dependency view icon \) displayed in the **Configuration item**, **Service offering**, or **Service** field, as applicable. The unified dependency Configuration Management Database \(CMDB\) map is displayed in a new tab within the workspace view.
 
-</td></tr><tr><td id="d312280e227">
+</td></tr><tr><td id="d312288e227">
 
 **Refresh impacted Services on a change request form**
 
@@ -85,7 +85,7 @@ View the entities associated with the CI that can be impacted as a result of the
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Refresh Impacted Services**. For information about refreshing impacted services, see [Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refresh-impacted-services-cis.md).
 
-</td></tr><tr><td id="d312280e252">
+</td></tr><tr><td id="d312288e252">
 
 **Cancel the change**
 
@@ -93,7 +93,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Cancel**.
 
-</td></tr><tr><td id="d312280e270">
+</td></tr><tr><td id="d312288e270">
 
 **Delete the change**
 
@@ -101,7 +101,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select select **Delete**.
 
-</td></tr><tr><td id="d312280e288">
+</td></tr><tr><td id="d312288e288">
 
 **Copy the record page URL to easily access the record**
 
@@ -109,7 +109,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d312280e306">
+</td></tr><tr><td id="d312288e306">
 
 **View the record information such as SLAs**
 
@@ -117,7 +117,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the record Information icon \(\[Omitted image "record-info-icon.png"\] Alt text: record Information icon\).
 
-</td></tr><tr><td id="d312280e321">
+</td></tr><tr><td id="d312288e321">
 
 **Attach a record that helps in quick resolution of the change**
 
@@ -127,7 +127,7 @@ From the contextual side panel, select the record Information icon \(\[Omitted i
 2.  Search for a resource and perform the required action, for example, link the change to an incident.
 
 
-</td></tr><tr><td id="d312280e346">
+</td></tr><tr><td id="d312288e346">
 
 **Collaborate using Microsoft Teams**
 
@@ -135,7 +135,7 @@ From the contextual side panel, select the record Information icon \(\[Omitted i
 
 From the contextual side panel, select the collaborate icon \(\[Omitted image "collaborate-sidebar.png"\] Alt text: collaborate icon\).
 
-</td></tr><tr><td id="d312280e364">
+</td></tr><tr><td id="d312288e364">
 
 **Add attachments**
 
@@ -143,7 +143,7 @@ From the contextual side panel, select the collaborate icon \(\[Omitted image "c
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d312280e385">
+</td></tr><tr><td id="d312288e385">
 
 **Create templates for reuse**
 
@@ -151,7 +151,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d312280e400">
+</td></tr><tr><td id="d312288e400">
 
 **Approve the change**
 
@@ -159,7 +159,7 @@ From the contextual side panel, select the templates icon \(\[Omitted image "tem
 
 Select **Related records** tab, select **Approvers**.
 
-</td></tr><tr><td id="d312280e418">
+</td></tr><tr><td id="d312288e418">
 
 **Implement the change**
 
@@ -167,7 +167,7 @@ Select **Related records** tab, select **Approvers**.
 
 Select  **Implement**  to put the change request into action. The change request state changes to  **Implement**. The workflow creates two change tasks: **Implement**  and  **Post-implementation testing**. Review the change tasks and assign them to a user or group, as appropriate.
 
-</td></tr><tr><td id="d312280e442">
+</td></tr><tr><td id="d312288e442">
 
 **Review a change request**
 
@@ -177,7 +177,7 @@ Select  **Review**  after reviewing the details on the change request.
 
  The change request is moved to the  **Review**  state. All open change tasks are set to  **Canceled**.
 
-</td></tr><tr><td id="d312280e467">
+</td></tr><tr><td id="d312288e467">
 
 **Close a change request**
 

@@ -18,7 +18,7 @@ The language detection feature uses a pre-trained model to detect the language u
 
 Agents can save time by not having to manually select the language for each case or rely on a manual process for case routing. You can use the language skill stored in the Task Skills table to route cases to the assignment groups and agents with the necessary language skills.
 
--   Cases can be routed automatically with [Advanced Work Assignment \(AWA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
+-   Cases can be routed automatically with Advanced Work Assignment \(AWA\).
 -   Cases can be assigned to agents based on language skills using the [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md).
 -   Cases can be assigned based on the value in the **Language** field.
 

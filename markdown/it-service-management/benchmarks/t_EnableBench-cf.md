@@ -24,7 +24,7 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 ## About this task
 
-**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/it-business-management-bu-level.md) applications to access the respective Benchmarks KPIs. For information on these KPIs, see Benchmark KPIs.
+**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and Strategic Portfolio Management applications to access the respective Benchmarks KPIs. For information on these KPIs, see Benchmark KPIs.
 
 Once you have manually opted into Benchmarks, enable and configure benchmark KPIs. From the Benchmarks dashboard, you can view the Benchmarks KPI data, performance trends, and indicator scorecards.
 
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d462837e139">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d462842e139">
 
 Using
 
-</th><th align="left" id="d462837e142">
+</th><th align="left" id="d462842e142">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d462837e148">
+</th></tr></thead><tbody><tr><td id="d462842e148">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d462837e184">
+</td></tr><tr><td id="d462842e184">
 
 **Application navigator**
 

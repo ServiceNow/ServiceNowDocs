@@ -18,7 +18,7 @@ Use the Advanced Work Assignment for Supplier Lifecycle Operations feature to au
 
 **Important:** Check your entitlements to determine whether you have access to Advanced Work Assignment for Supplier Lifecycle Operations.
 
-Advanced Work Assignment for Supplier Lifecycle Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
+Advanced Work Assignment for Supplier Lifecycle Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see .
 
 ## Prerequisites for installing Advanced Work Assignment for Supplier Lifecycle Operations
 

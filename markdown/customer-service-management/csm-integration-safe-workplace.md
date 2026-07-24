@@ -22,7 +22,7 @@ As a consumer or contact, verify that you understand and comply with requirement
 
 As a customer or consumer service agent, screen contacts or consumers entering a location to ensure compliance with entry requirements such as a temperature check and Personal Protection Equipment \(PPE\).
 
-For more information on the Employee Health Screening application, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-health-screening.md).
+For more information on the Employee Health Screening application, see Employee Health Screening.
 
 ## Key features
 

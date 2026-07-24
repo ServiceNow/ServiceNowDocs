@@ -32,15 +32,15 @@ When you receive assets:
 
 1.  View purchase orders.
 
-<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d336337e71">
+<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d336345e71">
 
 UI
 
-</th><th align="left" id="d336337e74">
+</th><th align="left" id="d336345e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d336337e80">
+</th></tr></thead><tbody><tr><td id="d336345e80">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders**.
 
-</td></tr><tr><td id="d336337e104">
+</td></tr><tr><td id="d336345e104">
 
 **Hardware Asset Workspace**
 
@@ -58,7 +58,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d336337e137">
+</td></tr><tr><td id="d336345e137">
 
 **Enterprise Asset WorkWorkspace**
 
@@ -68,7 +68,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d336337e170">
+</td></tr><tr><td id="d336345e170">
 
 **OT Asset Workspace**
 

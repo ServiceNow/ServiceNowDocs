@@ -53,11 +53,5 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)
-
-[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-page.md)
-
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
-
-[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-variant-settings.md)
+[bundle-cadev.reuse-page-definitions]
 

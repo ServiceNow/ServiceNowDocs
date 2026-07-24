@@ -23,11 +23,11 @@ See the following sample payload for importing and exporting procurement records
 |Name|Sample payload|
 |----|--------------|
 |Invoice Import|See |
-|Catalog Import|See [Spendint API - POST /sn\_spend\_intg/spendint/catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md)|
-|Availability Import|See [Spendint API - POST /sn\_spend\_intg/spendint/availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md)|
-|Shipment Import|See [Spendint API - POST /sn\_spend\_intg/spendint/shipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md)|
-|Order Acknowledgment|See [Spendint API - POST /sn\_spend\_intg/spendint/orderack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md)|
-|Price Import|See [Spendint API - POST /sn\_spend\_intg/spendint/price](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md)|
+|Catalog Import|See |
+|Availability Import|See |
+|Shipment Import|See |
+|Order Acknowledgment|See |
+|Price Import|See |
 
 ## Errors
 

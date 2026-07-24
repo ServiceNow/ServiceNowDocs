@@ -58,7 +58,7 @@ Branding and theming
 
 </td><td>
 
-A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   [View the brand and theme setting in your workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-view-theme-setting.md)
+A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   View the brand and theme setting in your workspace experience
 -   [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 </td></tr><tr><td>
@@ -126,7 +126,7 @@ Configurable Workspace Agent Chat
 
 </td><td>
 
-Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-agent-chat.md).
+Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see Setting up Agent Chat.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Playbook
 
 </td><td>
 
-Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md).
+Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see Building Playbooks.
 
 </td></tr></tbody>
 </table>## Configuring workspace pages in UI Builder
@@ -145,11 +145,11 @@ You can use UI Builder to configure the pages and components that display inform
 -   [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 -   [Customer Central – Customer Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md)
 
-For more information, see the [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md) topic in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-experience.md) documentation.
+For more information, see the Manage UI Builder pages and page variants topic in the UI Builder documentation.
 
 ## Set up communication channels and routing
 
-Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-agent-chat.md).
+Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see Setting up Agent Chat.
 
 ## Set up additional CSM Configurable Workspace components
 

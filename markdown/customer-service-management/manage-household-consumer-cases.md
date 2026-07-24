@@ -43,7 +43,7 @@ When a consumer case is created or updated, the consumer receives an email notif
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d191229e112">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d191225e112">
 
 **Add a consumer.**
 
@@ -54,7 +54,7 @@ Select a consumer in the **Consumer** field. -   If the consumer belongs to only
 -   If the consumer doesn’t belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d191229e145">
+</td></tr><tr><td id="d191225e145">
 
 **Add a household.**
 

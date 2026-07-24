@@ -38,7 +38,7 @@ For more information on ICC call features, see [Interaction Controls Component \
 
 When a user performs a search in the phone directory search box, the system triggers a search event and exchanges data with your CCaaS provider. For example, when an agent enters a search query \(such as "John"\) and initiates a search, the **getSearchTarget** event triggers and is sent to your integrated CCaaS system. The system processes the search request and returns a response containing the **searchTargetList** parameter, which is a list of contact records that match the search criteria. If the **icc\_search\_limit** is set to 10, the **searchTargetList** will return up to 10 contact records matching the agent's search. The following diagram illustrates the technical interaction between the phone directory, the **getSearchTarget** event, and the CCaaS system.
 
-For details on the s**earchTargetList** parameter, see [openFrameAPI - setICContext\(String Type, Object &lt;Context&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md).
+For details on the s**earchTargetList** parameter, see .
 
 \[Omitted image "example-interaction-control-action-event.png"\] Alt text: This example illustrates the OpenFrame API technical interaction between the phone directory, the getSearchTarget event, and the CCaaS system.
 
@@ -46,10 +46,10 @@ For documentation on the search events and response structures, see the followin
 
 -   **getSearchTarget**
 
-    [openFrameAPI - subscribe\(openFrameAPIEVENT event, function eventCallback\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
+
 
 -   **searchTargetList**
 
-    [openFrameAPI - setICContext\(String Type, Object &lt;Context&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
+
 
 

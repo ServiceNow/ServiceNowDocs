@@ -86,12 +86,12 @@ The CSR wraps up the interaction when it concludes. When wrap-up codes are set u
 For more information, see the following topics:
 
 -   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
--   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+-   
 
 **Related topics**  
 
 
-[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[bundle-csm.csm-workspaces-configure]
 
 [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
 

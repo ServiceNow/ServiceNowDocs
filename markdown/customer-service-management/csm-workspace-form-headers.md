@@ -37,7 +37,7 @@ The cards that appear in the Record Information tab can be configured in the rib
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md).
+For CSM Configurable Workspace, the form header is made up of individual components that can be configured with UI Builder.
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

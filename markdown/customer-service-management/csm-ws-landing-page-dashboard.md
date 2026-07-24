@@ -62,8 +62,8 @@ By default, the Dashboard Overview landing page is available to users with the f
 
 The system administrator can change these default roles by configuring the page audience. For more information, see the following topics:
 
--   [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md)
--   [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-audiences.md)
+-   Learn about audiences
+-   Add an audience to your UI Builder page
 
 Roles determine view access for the dashboards available with the Dashboard Overview landing page. For details, see [Default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-dashboard.md).
 

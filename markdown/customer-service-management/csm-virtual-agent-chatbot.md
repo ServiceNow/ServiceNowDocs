@@ -22,7 +22,7 @@ The system administrator or a virtual agent admin must do the following to enabl
 
 -   Enable the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 -   Enable the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\).
--   [Publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/publish-virtual-agent-topic.md) the following read-only pre-defined virtual agent chatbot topics and topic blocks:
+-   Publish the following read-only pre-defined virtual agent chatbot topics and topic blocks:
 
     **Note:** You can duplicate a topic and then customize it.
 
@@ -68,7 +68,7 @@ Your users can run the published topics in your chat support client.
     -   GetHelpWithProduct
     -   GetHelpWithOrder
     -   SubmitRequest
-    Each intent corresponds to a [chatbot topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/import-nlu-intent.md) an existing intent from the Customer Service NLU for Virtual Agent model and then [link the NLU model with the associated intent for the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+    Each intent corresponds to a [chatbot topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/import-nlu-intent.md) an existing intent from the Customer Service NLU for Virtual Agent model and then link the NLU model with the associated intent for the topic.
 
 -   Enable ServiceNow NLU in the [general settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-conversation-settings.md).
 
@@ -77,5 +77,5 @@ Your users can run the published topics in your chat support client.
 
 [Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md)
 
-[Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md)
+[bundle-convint.va-NLU]
 

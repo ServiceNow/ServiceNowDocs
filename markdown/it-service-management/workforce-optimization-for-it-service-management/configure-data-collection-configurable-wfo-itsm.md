@@ -19,7 +19,7 @@ Define the data that you want to collect for incidents, interactions, or any tab
 ## Before you begin
 
 -   You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for ITSM. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md).
--   You must be in the [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_GlobalScope.md).
+-   You must be in the .
 
 Role required: sn\_agent\_forecast.admin
 

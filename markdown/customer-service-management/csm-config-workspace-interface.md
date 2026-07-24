@@ -71,7 +71,7 @@ Agents see their assignments in their CSM Configurable Workspace inbox. Work ass
 
 For more information about the agent inbox, see the following topics:
 
--   [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
--   [Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-inbox-layout.md)
--   [Agent inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md)
+-   Exploring Advanced Work Assignment
+-   Inbox layout
+-   Agent inbox controls
 
