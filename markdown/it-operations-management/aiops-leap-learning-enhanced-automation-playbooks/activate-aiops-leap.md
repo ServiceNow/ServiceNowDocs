@@ -26,15 +26,15 @@ and the application scope must be LEAP.
 
 1.  Activate **LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d473368e97">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d473382e97">
 
 Options
 
-</th><th align="left" id="d473368e102">
+</th><th align="left" id="d473382e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d473368e109">
+</th></tr></thead><tbody><tr><td id="d473382e109">
 
 **Workspaces**
 
@@ -45,7 +45,7 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d473368e151">
+</td></tr><tr><td id="d473382e151">
 
 **Now Assist Admin**
 

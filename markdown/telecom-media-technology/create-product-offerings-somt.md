@@ -54,15 +54,15 @@ A versioned product offering is the customer-facing entity of a product. It cont
 
 8.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d43640e186">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d43698e186">
 
 Action
 
-</th><th align="left" id="d43640e189">
+</th><th align="left" id="d43698e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43640e195">
+</th></tr></thead><tbody><tr><td id="d43698e195">
 
 **Publish**
 
@@ -72,7 +72,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d43640e213">
+</td></tr><tr><td id="d43698e213">
 
 **Update**
 
@@ -80,7 +80,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d43640e222">
+</td></tr><tr><td id="d43698e222">
 
 **Copy**
 

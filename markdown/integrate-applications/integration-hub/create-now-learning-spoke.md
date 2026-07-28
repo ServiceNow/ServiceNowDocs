@@ -27,7 +27,7 @@ Connect ServiceNow University with Coaching with Learning to pull courses from S
 
     **Note:** You must have an ITSM Enterprise license subscription to get your spoke credentials.
 
--   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
+-   For more information on OAuth Credentials, see .
 
 ## Procedure
 

@@ -43,6 +43,6 @@ Set a large language model \(LLM\) provider and have at least one connection. Fo
 
     \[Omitted image "erp-data-explorer-workflow4.png"\] Alt text: Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.
 
-    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md).
+    **Note:** For more information about creating a connection and making it active, see .
 
 

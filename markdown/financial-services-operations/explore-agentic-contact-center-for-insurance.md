@@ -30,7 +30,7 @@ Agentic Contact Center for Insurance addresses these challenges by consolidating
 
 ## Agentic Contact Center for Insurance example workflow
 
-1.  A customer calls the insurer's contact center. An integrated CCaaS routes the call to the CSR . For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md).
+1.  A customer calls the insurer's contact center. An integrated CCaaS routes the call to the CSR . For more information, see .
 2.  When the CSR accepts the call, the **Interaction** page opens. The customer's profile and policy summary are displayed , and the CSR immediately receives an AI-generated summary of the call based on what has been collected up to that point via the interactive voice response \(IVR\) or Voice AI agent. This gives the CSR immediate context before the conversation with the customer begins.
 3.  A live transcript of the call is captured and updated continuously throughout the interaction, and serves as the primary input for the real-time assistance of the AI agent .
 
@@ -40,7 +40,7 @@ Agentic Contact Center for Insurance addresses these challenges by consolidating
 
 5.  CSRs can also ask their own questions at any time by typing into the Now Assist panel. For example, they may check recent claims activity, check coverage eligibility criteria, or retrieve policy details.
 6.  At any point during or outside of an active call, a CSR can open the **Customer 360** page by selecting the customer's name from the Interaction page or searching for the customer. The Customer 360 page opens in a separate tab and provides a comprehensive view of the customer's profile and insurance relationship, including policies, premiums, claims, and coverages. For more information about the Customer 360 page, see [Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md).
-7.  When the call concludes, the system displays a wrap-up summary dialog with configured wrap-up codes. The agent can select a code and submit the wrap-up using an AI-generated call summary. For more information, see [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md).
+7.  When the call concludes, the system displays a wrap-up summary dialog with configured wrap-up codes. The agent can select a code and submit the wrap-up using an AI-generated call summary. For more information, see .
 
 ## Agentic Contact Center for Insurance benefits
 

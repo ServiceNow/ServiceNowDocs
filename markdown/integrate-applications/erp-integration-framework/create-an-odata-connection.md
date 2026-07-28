@@ -43,7 +43,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
     For more information, see:
 
     -   [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md)
-    -   [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md)
+    -   
     -   [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md)
     -   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md)
 3.  Create a connection and associate it with the new alias.

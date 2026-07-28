@@ -35,15 +35,15 @@ Role required: srm\_admin
 
 3.  Configure the SLO creator agent settings.
 
-<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d498533e166">
+<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d498547e166">
 
 Setting
 
-</th><th align="left" id="d498533e169">
+</th><th align="left" id="d498547e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d498533e175">
+</th></tr></thead><tbody><tr><td id="d498547e175">
 
 **Allow the agent to automatically generate SLOs from service alerts and outages.**
 
@@ -51,7 +51,7 @@ Description
 
 Turns on or off the SLO creator agent.When the agent is active, it generates SLOs based on alerts, incidents, and outages for eligible services and configuration items \(CIs\).
 
-</td></tr><tr><td id="d498533e186">
+</td></tr><tr><td id="d498547e186">
 
 **Include a policy to email the assigned team if the error budget is less than or equal to 25%.**
 
@@ -59,7 +59,7 @@ Turns on or off the SLO creator agent.When the agent is active, it generates SLO
 
 Sends an email notification to the team assigned to the service or CI when the SLO error budget reaches 25% or lower.
 
-</td></tr><tr><td id="d498533e195">
+</td></tr><tr><td id="d498547e195">
 
 **Email team managers when an SLO is generated, or the team if no manager is assigned.**
 

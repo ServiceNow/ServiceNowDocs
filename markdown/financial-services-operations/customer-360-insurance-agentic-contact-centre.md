@@ -33,7 +33,7 @@ The list shows details like customer name, case number, lodgement date and time,
 
 **Note:** The policy servicing CSR can view only policy-related cases and the claims servicing CSR can view only claims cases.
 
-The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See [Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md) for more information about the Household plugin.
+The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See  for more information about the Household plugin.
 
 **Warning:** AI-generated summaries may not always be accurate. CSRs must review the underlying policy and case data before acting on any AI-generated content.
 
@@ -59,5 +59,5 @@ The following table shows the available actions in the Customer 360 page.
 **Related topics**  
 
 
-[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[bundle-csm.csm-workspaces-configure]
 

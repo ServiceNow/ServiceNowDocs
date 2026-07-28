@@ -17,7 +17,7 @@ Choose one of these tiles to get started.
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-[Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md)
+Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.
 
 </td><td>
 
@@ -25,7 +25,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
+Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.
 
 </td></tr><tr><td>
 

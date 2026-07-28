@@ -22,7 +22,7 @@ Indicators drive business transformation by enabling businesses to set, track, a
 
 **Note:** These days, Performance Analytics refers to the indicator data sources for Platform Analytics. Previously, Performance Analytics was its own independent product, with its own front end consisting of Performance Analytics widgets. That front end is deprecated, and instead indicators are shown in universal Platform Analytics data visualizations. The name Performance Analytics is retained for historical reasons.
 
-For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/success-dashboard-indicator-landing.md).
+For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see .
 
 Indicator data sources improve performance and accelerate continual service improvement by:
 

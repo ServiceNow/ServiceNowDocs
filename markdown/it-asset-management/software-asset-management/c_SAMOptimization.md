@@ -193,7 +193,3 @@ When the state changes to Awaiting User, a notification is sent to the user.
 
 [Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclaiming-software-sam.md)
 
-[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
-
-[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
-

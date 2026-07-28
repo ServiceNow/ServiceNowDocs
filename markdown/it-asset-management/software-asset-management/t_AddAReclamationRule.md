@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 6
 breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---

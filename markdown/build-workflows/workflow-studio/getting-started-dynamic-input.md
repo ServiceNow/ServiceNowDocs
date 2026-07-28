@@ -127,7 +127,7 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather table names from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md)
+-   A REST step to gather table names from the REST 
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store table name and value pairs as a JSON document
 
@@ -383,7 +383,7 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather fields from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md)
+-   A REST step to gather fields from the REST 
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store field name and value pairs as a JSON document
 

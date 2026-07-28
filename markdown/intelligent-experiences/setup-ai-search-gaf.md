@@ -35,7 +35,7 @@ You must index every table for each workflow or application you'd like to config
 
 2.  Install Now Assist for AI Search by installing a Now Assist application.
 
-    For more information, see Install Now Assist in AI Search.
+    For more information, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md).
 
 3.  Verify that your LLM provider is configured and accessible.
 

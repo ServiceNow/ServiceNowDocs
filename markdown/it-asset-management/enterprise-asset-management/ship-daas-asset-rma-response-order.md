@@ -32,15 +32,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d245463e122">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d245433e122">
 
 Navigation option
 
-</th><th align="left" id="d245463e125">
+</th><th align="left" id="d245433e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d245463e131">
+</th></tr></thead><tbody><tr><td id="d245433e131">
 
 **Provider RMA response order**
 
@@ -56,7 +56,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d245463e175">
+</td></tr><tr><td id="d245433e175">
 
 **Provider RMA response order line**
 
@@ -70,7 +70,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d245463e210">
+</td></tr><tr><td id="d245433e210">
 
 **Provider asset tasks**
 

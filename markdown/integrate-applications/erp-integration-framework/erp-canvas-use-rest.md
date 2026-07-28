@@ -18,7 +18,7 @@ Extract data securely from ERP with REST for use in remote tables and extraction
 
 ## Providing REST access to users
 
-You must have an SAP system that has been enabled to make a REST connection. REST connections use the HTTP connection template. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+You must have an SAP system that has been enabled to make a REST connection. REST connections use the HTTP connection template. For more information, see .
 
 ## Enabling download of XML files
 

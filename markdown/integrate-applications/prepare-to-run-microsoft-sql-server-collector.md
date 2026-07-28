@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-microsoft-sql-server-collector.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 4
 keywords: [SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database, SQL Server authentication, SQL Server login, username password, database permissions, SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database]
 breadcrumb: [Microsoft SQL Server metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]

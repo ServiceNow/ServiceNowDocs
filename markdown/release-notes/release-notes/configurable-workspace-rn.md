@@ -211,7 +211,7 @@ Configurable Workspace doesn’t support mobile devices, Internet Explorer, or M
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     Use UI Builder to build your Configurable Workspace experience.
 

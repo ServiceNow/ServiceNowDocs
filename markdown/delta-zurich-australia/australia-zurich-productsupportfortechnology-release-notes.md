@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-productsupportfortechnology-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---

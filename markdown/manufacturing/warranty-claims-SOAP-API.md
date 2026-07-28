@@ -1,18 +1,18 @@
 ---
 title: Warranty Claims SOAP API
-description: The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Oracle Enterprise Manager \(OEM\)’s platform.
+description: The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Original Equipment Manufacturer \(OEM\)’s platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/warranty-claims-SOAP-API.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---
 
 # Warranty Claims SOAP API
 
-The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Oracle Enterprise Manager \(OEM\)’s platform.
+The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Original Equipment Manufacturer \(OEM\)’s platform.
 
 This API follows [SOAP 1.1 conventions](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) and uses [Standards for Technology in Automotive Retail \(STAR\) XML schemas](https://https://schemas.liquid-technologies.com/star/5.3.4/repairorder_xsd.html/star/5.3.4/?page=processsaleslead_xsd.html) for interoperability across automotive service systems.
 

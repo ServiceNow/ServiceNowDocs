@@ -93,15 +93,15 @@ Generate a code signing certificate for publishing an automation project from RP
 
 9.  Generate a user certificate.
 
-<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d600283e362">
+<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d600281e362">
 
 Certificate type
 
-</th><th align="left" id="d600283e365">
+</th><th align="left" id="d600281e365">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d600283e371">
+</th></tr></thead><tbody><tr><td id="d600281e371">
 
 **mTLS authentication for client certificate**
 
@@ -123,7 +123,7 @@ Steps
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d600283e450">
+</td></tr><tr><td id="d600281e450">
 
 **Code signing certificate**
 
@@ -186,11 +186,11 @@ Steps
 
 ### What to do next
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Install the generated client authentication and code signing certificate. For more information, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md).
 
@@ -202,11 +202,11 @@ Install the user generated \(client authentication and code signing\) certificat
 
 Generate a client authentication and a code signing certificate. For more information, see [Generate a user certificate from KeyStore Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md).
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Role required: admin
 

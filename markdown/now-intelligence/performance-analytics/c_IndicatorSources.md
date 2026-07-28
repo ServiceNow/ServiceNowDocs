@@ -63,15 +63,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d145096e279">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d145209e279">
 
 Field
 
-</th><th align="left" id="d145096e282">
+</th><th align="left" id="d145209e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145096e288">
+</th></tr></thead><tbody><tr><td id="d145209e288">
 
 **Facts table**
 
@@ -79,7 +79,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d145096e304">
+</td></tr><tr><td id="d145209e304">
 
 **Report source**
 
@@ -107,11 +107,11 @@ Specify an existing report source to reuse. A report source specifies a facts ta
     -   Usually, your date conditions should refer to the same time period as the indicator frequency. For example, conditions about the number of days should only be on daily indicators. Conditions about the number of months should only be on monthly indicators.
     -   Avoid dot-walking to the sys\_id or display value of a table. Instead, use the reference field by itself, to avoid creating unnecessary joins.
     -   If you design the indicator source conditions well, at least one of the indicators on that source does not have any additional conditions of its own.
-    For general information about building conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    For general information about building conditions, see Condition builder.
 
 8.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
 
-    For more information, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+    For more information, see Add related list conditions.
 
 9.  To see how many records this indicator source would return, click **Preview**.
 
@@ -139,7 +139,7 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
     2.  In the **Number of entries to establish seasonality** field, enter the number of time periods, as defined in the business calendar or schedule entries, that are necessary to find seasonal patterns.
 
-        For more information about business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
+        For more information about business calendar entries, see Creating business calendars.
 
     3.  Set the number of time periods, as defined in the business calendar or schedule entries, to retain scores and snapshots.
 
@@ -170,7 +170,7 @@ The read-only **Report source updated at** field displays the last time the repo
 
 [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md)
 
-[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md)
+[bundle-platadm.business-calendars]
 
 ## Use a database view in an indicator source
 

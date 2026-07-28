@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---

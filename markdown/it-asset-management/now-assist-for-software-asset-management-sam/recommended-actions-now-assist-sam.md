@@ -61,15 +61,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d287915e183">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d288039e183">
 
 Action
 
-</th><th align="left" id="d287915e186">
+</th><th align="left" id="d288039e186">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287915e192">
+</th></tr></thead><tbody><tr><td id="d288039e192">
 
 **Regenerate icon**
 
@@ -79,7 +79,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d287915e207">
+</td></tr><tr><td id="d288039e207">
 
 **Feedback**
 

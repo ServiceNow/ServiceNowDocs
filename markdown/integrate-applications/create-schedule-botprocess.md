@@ -55,5 +55,5 @@ You can also create a schedule from the Robot Calendar tab. For more information
 
 [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md)
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 

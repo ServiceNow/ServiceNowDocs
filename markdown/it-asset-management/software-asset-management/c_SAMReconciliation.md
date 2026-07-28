@@ -51,8 +51,3 @@ Get visibility into how your rights are calculated and consumed post the reconci
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
-**Related topics**  
-
-
-[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
-

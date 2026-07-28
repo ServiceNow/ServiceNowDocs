@@ -57,15 +57,15 @@ Role required: lens\_user
 
 6.  Perform any one of the following methods to capture screenshots or upload files and analyze the data.
 
-<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d187094e297">
+<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d186244e297">
 
 Method
 
-</th><th align="left" id="d187094e300">
+</th><th align="left" id="d186244e300">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d187094e306">
+</th></tr></thead><tbody><tr><td id="d186244e306">
 
 **Capture a single screenshot of a document and analyze the data.**
 
@@ -93,7 +93,7 @@ The default character limit is 500. Users with the admin role can increase this 
 
 \[Omitted image "lens-single-scrnsht-analysis.png"\] Alt text: Preview of the analysis of single image.
 
-</td></tr><tr><td id="d187094e389">
+</td></tr><tr><td id="d186244e389">
 
 **Capture multiple screenshots from one or more documents.**
 
@@ -136,7 +136,7 @@ Repeat the step to capture more screenshots, if required.
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see Configure system property
+For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
 **Note:** You must have the admin role to set the system properties.
 
@@ -183,7 +183,7 @@ Select **Upload** and perform any one of the following file upload methods.**Add
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see Configure system property
+For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
 **Note:** You must have the admin role to set the system properties.
 
@@ -202,7 +202,7 @@ For more information, see Configure system property
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see Configure system property
+For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
 **Note:** You must have the admin role to set the system properties.
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for FSM]
 ---

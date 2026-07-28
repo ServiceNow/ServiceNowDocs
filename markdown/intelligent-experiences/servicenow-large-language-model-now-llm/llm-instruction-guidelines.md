@@ -232,9 +232,9 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   
--   
--   
+-   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
+-   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 -   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 -   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
@@ -242,16 +242,16 @@ For more information about configuring sources for skill or AI agent use, see th
 
 |Skill|Reference|
 |-----|---------|
-|App generation||
+|App generation|[General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-guidelines.md)|
 |Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/example-questions-generating-dv.md)|
-|Catalog item generation||
-|Code generation||
+|Catalog item generation|[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/how-to-describe-catalog-item.md)|
+|Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/general-guidelines-code-generation.md)|
 |Flow generation||
 |LLM topic skill for Virtual Agent||
 |Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
-|RPA bot generation|General guidelines for RPA bot generation|
-|Test generation||
-|UI generation||
+|RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)|
+|Test generation|[Design considerations for prompting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tg-prompt-design-considerations.md)|
+|UI generation|[General guidelines UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/general-guidelines-ui-generation.md)|
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

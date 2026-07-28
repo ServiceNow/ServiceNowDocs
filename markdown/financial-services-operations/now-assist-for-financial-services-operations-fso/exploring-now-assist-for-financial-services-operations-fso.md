@@ -40,7 +40,7 @@ An agent can use the Now Assist panel in Financial Services Workspace for scenar
 -   Conversational interaction for dispute resolution
 -   Interacting with AI agents during interactions or customer analysis
 
-For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information about the Now Assist panel, see .
 
 ## Sensitive data handling
 

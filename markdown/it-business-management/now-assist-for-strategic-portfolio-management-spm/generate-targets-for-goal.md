@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]

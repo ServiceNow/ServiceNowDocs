@@ -16,19 +16,11 @@ breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connec
 
 Target tables for storing AI Service Graph Connector for LangGraph data.
 
-The LangGraph connector uses following main target tables:
+The LangGraph connector uses the following main target tables:
 
-## Digital asset tables
-
--   alm\_ai\_system\_digital\_asset - AI System digital assets
--   alm\_ai\_prompt\_digital\_asset - AI Prompt digital assets
--   alm\_ai\_model\_digital\_asset - AI Model digital assets
-
-## Usage table
-
-sn\_ai\_disc\_ai\_usage - AI Usage/Execution data.
-
-## CMDB table
-
-cmdb\_ci\_function\_ai – AI Function \(Agent\) CI table.
+|Digital asset table|Usage table|CMDB table|
+|-------------------|-----------|----------|
+|alm\_ai\_system\_digital\_asset - AI System digital assets|sn\_ai\_disc\_ai\_usage - AI Usage/Execution data|cmdb\_ci\_function\_ai – AI Function \(Agent\) CI table|
+|alm\_ai\_prompt\_digital\_asset - AI Prompt digital assets| | |
+|alm\_ai\_model\_digital\_asset - AI Model digital assets| | |
 

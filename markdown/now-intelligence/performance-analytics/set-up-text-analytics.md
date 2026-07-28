@@ -61,5 +61,5 @@ Role required: pa\_power\_user or pa\_admin
 **Related topics**  
 
 
-[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/stop-words-removed-from-queries.md)
+[bundle-platadm.stop-words-removed-from-queries]
 

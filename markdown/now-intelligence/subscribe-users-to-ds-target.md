@@ -50,5 +50,5 @@ Because responsible users cannot be configured for targets on Data snapshots ind
 
 [Responsibility for indicator targets]()
 
-[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md)
+[bundle-platadm.notifications]
 

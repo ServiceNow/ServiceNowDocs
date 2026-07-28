@@ -44,7 +44,7 @@ REST Message
 
 </td><td>
 
-Name of the [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) to run. This is a reference field to the REST Message \[sys\_rest\_message\] table \(**System Web Services** &gt; **Outbound** &gt; **REST Message**\).
+Name of the Create a REST message to run. This is a reference field to the REST Message \[sys\_rest\_message\] table \(**System Web Services** &gt; **Outbound** &gt; **REST Message**\).
 
 </td></tr><tr><td>
 

@@ -39,7 +39,7 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 
 5.  On the Columns tab, view column information for tabular assets, such as tables.
 
-    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null. Check your entitlements to determine whether you have access to the data classification feature. For details, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md)
+    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null. Check your entitlements to determine whether you have access to the data classification feature. For details, see 
 
     Select a column name to browse to the details page of the column.
 

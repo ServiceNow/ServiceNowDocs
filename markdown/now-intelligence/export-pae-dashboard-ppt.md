@@ -21,9 +21,59 @@ Role required: Any, if the user has access to the dashboard.
 **Note:**
 
 -   This task only applies to dashboards created in the inline editor. Technical dashboards do not have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-vs-in-line-dashboards.md).
--   Calendar report, geomap, and indicator scorecard visualizations are not supported for export. Lists are not supported for export to PowerPoint. These visualization types will not appear in the exported file.
--   Only the supported data visualizations and Lists \(PDF\) are exported, not Headings or Rich Text or any other element.
--   Content is not necessarily exported in the order it appears on the dashboard.
+-   Dashboards can be exported only as PowerPoint and PDF, however, in a dashboard some of the data visualizations can't be exported, as shown in the following table:
+
+<table id="table_nny_gp5_zjc"><thead><tr><th>
+
+File type
+
+</th><th>
+
+Supported DV type
+
+</th><th>
+
+Unsupported DV type
+
+</th></tr></thead><tbody><tr><td>
+
+PDF
+
+</td><td>
+
+-   Pivot tables
+-   Lists
+-   Other data visualizations
+
+
+</td><td>
+
+-   Calendar reports
+-   Indicator scorecards
+-   Geomap
+-   Non-data visualization dashboard elements, like Headings
+
+
+</td></tr><tr><td>
+
+PowerPoint \(PPT\)
+
+</td><td>
+
+-   Pivot tables
+-   Other data visualizations
+
+
+</td><td>
+
+-   Calendar reports
+-   Indicator scorecards
+-   Geomap
+-   Non-data visualization dashboard elements, like Headings
+
+
+</td></tr></tbody>
+</table>-   Content is not necessarily exported in the order it appears on the dashboard.
 -   Depending on your entitlements, you may be able export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 

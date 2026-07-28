@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Assign users or groups to the selected Express List view.
 
-<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d133465e113">
+<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d133479e113">
 
 Task
 
-</th><th align="left" id="d133465e116">
+</th><th align="left" id="d133479e116">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d133465e122">
+</th></tr></thead><tbody><tr><td id="d133479e122">
 
 **Assign a user to the selected Express List view**
 
@@ -49,7 +49,7 @@ Procedure
 3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d133465e167">
+</td></tr><tr><td id="d133479e167">
 
 **Assign a user group to the selected Express List view**
 

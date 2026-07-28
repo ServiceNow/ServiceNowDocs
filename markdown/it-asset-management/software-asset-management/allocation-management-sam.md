@@ -113,8 +113,3 @@ When allocating software licenses, follow the licensing rules supported by the p
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
-**Related topics**  
-
-
-[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
-

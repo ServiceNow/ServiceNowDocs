@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -158,7 +158,7 @@ No
 
 </td></tr><tr><td>
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JDBCCredentialsForm.md)
+JDBC credentials
 
 </td><td>
 
@@ -170,7 +170,7 @@ Yes
 
 </td></tr><tr><td>
 
-[JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JMSCredentialsForm.md)
+JMS credentials
 
 </td><td>
 
@@ -182,7 +182,7 @@ Yes
 
 </td></tr><tr><td>
 
-[OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md)
+OAuth 2.0 credentials
 
 </td><td>
 

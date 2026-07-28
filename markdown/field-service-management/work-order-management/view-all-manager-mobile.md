@@ -28,15 +28,15 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 3.  Choose from the following
 
-<table id="choicetable_b12_4gj_xhc"><thead><tr><th align="left" id="d152717e74">
+<table id="choicetable_b12_4gj_xhc"><thead><tr><th align="left" id="d152772e74">
 
 Selection
 
-</th><th align="left" id="d152717e77">
+</th><th align="left" id="d152772e77">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d152717e83">
+</th></tr></thead><tbody><tr><td id="d152772e83">
 
 **Tap an item under __Tasks by priority__**
 
@@ -44,7 +44,7 @@ Result
 
 To see the list of tasks that has the priority you selected.
 
-</td></tr><tr><td id="d152717e94">
+</td></tr><tr><td id="d152772e94">
 
 **Tap an item under __Tasks by team__**
 
@@ -52,7 +52,7 @@ To see the list of tasks that has the priority you selected.
 
 To see all the tasks assigned to that team
 
-</td></tr><tr><td id="d152717e105">
+</td></tr><tr><td id="d152772e105">
 
 **Tap a task under __Tasks in progress__**
 

@@ -34,15 +34,15 @@ Contributors and processors can submit group policy service requests for custome
 
 3.  Create a case from the group life service case list or an interaction record.
 
-<table><thead><tr><th align="left" id="d45445e125">
+<table><thead><tr><th align="left" id="d45498e125">
 
 Option
 
-</th><th align="left" id="d45445e128">
+</th><th align="left" id="d45498e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45445e134">
+</th></tr></thead><tbody><tr><td id="d45498e134">
 
 **Group life case from the group life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d45445e164">
+</td></tr><tr><td id="d45498e164">
 
 **Group life case from an interaction record**
 

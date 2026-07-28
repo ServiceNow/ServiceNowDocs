@@ -93,7 +93,7 @@ Robotic Process Automation \(RPA\) Hub provides an integration with the Workflow
 
 ## Key Management Framework
 
-RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive data that is stored on the application. For more information, see [Understanding the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understanding-kmf.md).
+RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive data that is stored on the application. For more information, see Understanding the Key Management Framework.
 
 ## Important information for upgrading RPA Hub to Australia
 

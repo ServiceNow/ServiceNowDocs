@@ -35,7 +35,7 @@ Roles and responsibilities:
 
     The AI asset \(or product\) owner is responsible for driving the development and delivery of AI-powered products, ensuring alignment with business goals and user needs. They define product vision, manage feature prioritization, and translate business requirements into technical deliverables.
 
--   **AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]**
+-   **[AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md)**
 
     The AI Risk and Compliance Manager is tasked with identifying, assessing, and mitigating risks related to AI use within the enterprise. This role ensures AI compliance with laws, regulations, and internal standards while addressing issues such as bias, privacy, and transparency.
 
@@ -47,8 +47,8 @@ Roles and responsibilities:
 For more information about these tools, see:
 
 -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
--   
--   
+-   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
+-   [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
 
 ## Data management
 
@@ -85,20 +85,20 @@ You can expand the amount of content available to Now Assist in AI Search by usi
 
 Roles and responsibilities:
 
--   **AI Search admin \[ais\_admin\]**
+-   **[AI Search admin \[ais\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/components-installed-ais.md)**
 
     This role is required to manage configuration settings for the AI Search application.
 
--   **External Content Connectors admin \[sn\_ext\_conn.xcc\_admin\]**
+-   **[External Content Connectors admin \[sn\_ext\_conn.xcc\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installed-with-ext-content-connectors.md)**
 
     This role is required to manage configuration and crawl settings for the External Content Connectors application.
 
 
 For more information about these tools, see:
 
--   
--   
--   
+-   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
+-   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 ## Generative AI skills
 
@@ -133,7 +133,7 @@ For more information about these tools and features, see:
     -   [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
     -   [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)
     -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md)
-    -   
+    -   [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-landing.md)
 -   [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 ## Agentic AI
@@ -212,12 +212,12 @@ Roles and responsibilities:
 
 For more information about these tools, see:
 
--   
+-   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+    -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+    -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)
+    -   [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md)
+    -   [Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/na-va-llm-slack.md)
     -   
-    -   
-    -   
-    -   
-    -   
--   
+-   [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-landing.md)
 -   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 

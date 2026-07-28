@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Agent Client Collector, Kubernetes Visibility Agent Informer, Informer, Kubernetes, Visibility, installation, deployment, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,6 +24,8 @@ Role required: none
 ## About this task
 
 This procedure describes the standard Kubernetes Visibility Agent Informer installation process. Typically, you would use a Helm chart to perform the installation, but you can also configure and run the Kubernetes YAML file provided by ServiceNow.
+
+Kubernetes Visibility Agent supports Helm 4. Existing releases created with Helm 3 can be upgraded to Helm 4.
 
 ## Procedure
 
@@ -56,17 +58,25 @@ This procedure describes the standard Kubernetes Visibility Agent Informer insta
                     --set bringIngressAddresses=true --set bringNodeExternalIPs=true --set discoverK8sServiceExternalIps=true --set openShift=true
                     ```
 
+                -   Upgrading Existing Kubernetes Visibility Agent Informer from Helm 3 to Helm 4: When Helm 4 is installed on your system and you want to migrate an existing Kubernetes Visibility Agent Informer from Helm 3 to Helm 4, use the Server-Side Apply flag:
+
+                    ```
+                    helm upgrade k8s-informer <CHART_URL> --server-side=true [other flags] -n $NAMESPACE
+                    ```
+
+                    The `--server-side=true` flag explicitly migrates the Informer to Helm 4's Server-Side Apply model for improved conflict resolution.
+
             2.  In the command, configure additional settings as needed:
                 -   [Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-informer-memory.md)
                 -   [Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
                 -   [Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
-                -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
+                -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes before the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
                 -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
         2.  Run the command.
     -   Install Kubernetes Visibility Agent Informer using the Kubernetes YAML file.
-        1.  Download the Kubernetes YAML zip file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
-        2.  Extract the k8s\_informer.yaml and EULA.pdf files from the zip file.
+        1.  Download the Kubernetes YAML ZIP file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
+        2.  Extract the k8s\_informer.yaml and EULA.pdf files from the ZIP file.
         3.  Edit the k8s\_informer.yaml file.
             -   Change the value of ACCEPT\_EULA to `"Y"`, as follows:
 

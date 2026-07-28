@@ -24,7 +24,7 @@ It also provides the following roles for Care Team Operations for Biomed:
 -   biomed.agent
 -   biomed.qualifier
 
-For information on fulfilling work orders, see .
+For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_ManageWorkOrders.md).
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 

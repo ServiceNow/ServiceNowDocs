@@ -29,7 +29,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the Now Assist panel in Financial Services Workspace to request a case summary.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 4.  After you request the generative AI capabilities, you can summarize a case.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d29215e224">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d29268e223">
 
 Option
 
-</th><th align="left" id="d29215e227">
+</th><th align="left" id="d29268e226">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29215e233">
+</th></tr></thead><tbody><tr><td id="d29268e232">
 
 **Summarize a case**
 

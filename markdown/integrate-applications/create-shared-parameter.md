@@ -52,5 +52,5 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 [Unassign a bot process from a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/unassign-botprocess-shared-parameter.md)
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 

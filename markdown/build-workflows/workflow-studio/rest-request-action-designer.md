@@ -154,8 +154,8 @@ Build Request
 </td><td>
 
 Option to create the request manually, import an OpenAPI Specification, or import a REST message. -   **Manually**: Create action inputs and complete the REST step form manually.
--   **From OpenAPI specification**: Import an OpenAPI Specification to generate action inputs and complete the REST step form. For more information, see OpenAPI support in the REST step.
--   **From REST Message**: Import a Platform REST message. For more information, see Import a REST message into a REST step.
+-   **From OpenAPI specification**: Import an OpenAPI Specification to generate action inputs and complete the REST step form. For more information, see [OpenAPI support in the REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-api-integration.md).
+-   **From REST Message**: Import a Platform REST message. For more information, see [Import a REST message into a REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-rest-message-step.md).
 
 </td></tr><tr><td>
 
@@ -364,7 +364,7 @@ By default, the system limits the size of REST responses that are not saved as a
 
 ## Parsing a REST response
 
-REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an  to parse a response body that's in an XML format.
+REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
 
 The general strategy to get extracted data from the response is to do the following.
 

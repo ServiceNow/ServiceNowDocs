@@ -30,13 +30,13 @@ AI Control Tower
 
 </td><td>
 
--   **Additional regulatory frameworks in the AI Risk and Compliance content pack**
+-   **[Additional regulatory frameworks in the AI Risk and Compliance content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-content-pack.md)**
 
-After AI Risk and Compliance is updated to version 22.3.0 and the new frameworks are activated, authority documents, agency mappings, and citations for the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\) appear in the compliance posture and related views on the **Risk and compliance** tab. For more information, see [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md), , , and .
+After AI Risk and Compliance is updated to version 22.3.0 and the new frameworks are activated, authority documents, agency mappings, and citations for the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\) appear in the compliance posture and related views on the **Risk and compliance** tab. For more information, see [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md), [AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-content-pack.md), [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-or-update-sb53.md), and [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-or-update-colorado-ai-act.md).
 
--   **Impact assessment field auto-population**
+-   **[Impact assessment field auto-population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-intake.md)**
 
-After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake. For more information, see [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md) and .
+After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake. For more information, see [AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-ai-risk-and-compliance-rn.md) and [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-intake.md).
 
 
 </td></tr><tr><td>
@@ -60,19 +60,19 @@ AI Risk and Compliance
 
 </td><td>
 
--   **Smart Assessment Engine template versioning**
+-   **[Smart Assessment Engine template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-assessment-templates.md)**
 
 After upgrading to version 22.3.5, if you have the AI risk and compliance admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role, you can use Smart Assessment templates that support versioning. A new version is created automatically when you edit and save a template. Publishing a new version retires the previously published version. Existing templates are set to Version 1.
 
--   **Assessment scope context in task and work queue lists**
+-   **[Assessment scope context in task and work queue lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tasks-ai-risk-compliance.md)**
 
 After upgrading to version 22.3.5, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role, assessment task list and work queue views display additional columns that show the governance scope \(related entity such as AI asset, model, or dataset\) of each control attestation-based assessment. These columns let you identify which AI asset, entity, and control an assessment belongs to without opening the individual record.
 
--   **Impact assessment field auto-population**
+-   **[Impact assessment field auto-population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-intake.md)**
 
 After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake.
 
--   **AI Risk and Compliance Content Pack regulatory frameworks**
+-   **[AI Risk and Compliance Content Pack regulatory frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-content-pack.md)**
 
 After upgrading to version 22.3.0, if you have the AI Risk and Compliance Content application installed and the admin role, the AI Risk and Compliance content pack includes additional authority documents, agency mappings, and citations for the following regulatory frameworks: the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\). When at least one regulatory framework is activated, control objective records display citations from all activated authority documents in the **Citations** tab. This enables you to assess cross-framework regulatory coverage from a single control objective record without navigating each framework separately.
 
@@ -179,7 +179,7 @@ Advanced Risk
 
 </td><td>
 
--   **Risk event enhancements**
+-   **[Risk event enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-risk-events.md)**
 
 Risk event administrators can manage the entire risk event workflow. This update grants permissions aligned with the Risk Manager role, including the ability to reopen closed risk events.
 
@@ -287,23 +287,23 @@ Build Agent
 
 </td><td>
 
--   **Improved checkpoint and update set management**
+-   **[Improved checkpoint and update set management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)**
 
 Build Agent handles checkpoints and update sets differently in the following ways:
 
     -   Checkpoint 0 no longer creates an update set.
     -   Checkpoint 1 is the base update set for all subsequent changes.
     -   Update sets use human-readable naming.
--   **Enhanced semantic metadata search tool**
+-   **[Enhanced semantic metadata search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md)**
 
 An updated semantic metadata search tool improves performance replaces the previous semantic search tool.
 
 
--   **Build Agent version parity for PDIs**
+-   **[Build Agent version parity for PDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 Personal development instances \(PDIs\) are now updated to match the latest Build Agent version, delivering a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments.
 
--   **Updated interaction limits**
+-   **[Updated interaction limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 To provide developers more room to iterate, the following Build Agent limits have been increased:
 
@@ -312,7 +312,7 @@ To provide developers more room to iterate, the following Build Agent limits hav
 **Note:** Limits are per-instance, not per-user. Only submitted prompts contribute to the limit. Plan approvals aren't counted.
 
 
--   **Support for global scope**
+-   **[Support for global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 Build apps and metadata in the global scope.
 
@@ -333,7 +333,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-For more information, see .
+For more information, see [Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md).
 
 </td></tr><tr><td>
 
@@ -413,7 +413,7 @@ Cloud Cost Management 10.0
 
 </td><td>
 
--   **Granular instance operator role**
+-   **[Granular instance operator role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-insights-roles.md)**
 
 Use the instance operator role to perform routine operational tasks without requiring the full admin role for basic operations. By using limited privileges in the instance operator role, you can help reduce security risks across your organization.
 
@@ -822,28 +822,28 @@ Developer Sandboxes
 
 </td><td>
 
--   **Upgrade enhancements**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
 Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
 
--   **Upgrade enhancements**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
 After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **Queuing for successive sandbox creation**
+-   **[Queuing for successive sandbox creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/allocating-sandboxes.md)**
 
 To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
 
--   **SSO support for vanity URLs**
+-   **[SSO support for vanity URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-general-guidelines.md)**
 
 Instances with vanity URLs can now support Single Sign-On \(SSO\).
 
--   **Schema change for shared tables isolates the table**
+-   **[Schema change for shared tables isolates the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dsb-installed-with.md)**
 
 To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
 
--   **New vibe coding documentation**
+-   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
 Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
@@ -1003,19 +1003,19 @@ Enterprise Asset Management
 
 </td><td>
 
--   **Multiple assets and asset groups in a work order**
+-   **[Multiple assets and asset groups in a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-eam-work-order-task.md)**
 
 A work order and work order task can now be created for asset groups in addition to individual assets. Additionally, the sn\_eam.enterprise\_asset\_manager role can add more assets to tasks while they're in the draft stage. When technicians start the task, they can take action on all included assets. The Deploy Asset, Swap Asset, and Remove Asset actions within work order tasks support multiple assets and asset groups.
 
--   **Shutdown and Startup work types**
+-   **[Shutdown and Startup work types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-eam-work-order-task.md)**
 
 The **Shutdown** and **Startup** work types available in the work order tasks enable you to manage asset shutdown and restart tasks.
 
--   **Multiple calibration playbooks**
+-   **[Multiple calibration playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/complete-eam-work-order.md)**
 
 When a calibration work order is created for multiple assets or an asset group, the system generates a separate calibration playbook for each asset in the Affected assets list.
 
--   **Multiple condition lines**
+-   **[Multiple condition lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/perform-condition-assessment-webui.md)**
 
 When an asset condition work order is created for multiple assets or an asset group, the system generates a separate condition line for each asset in the Affected assets list. All condition lines must be evaluated before the work order can be completed.
 
@@ -1294,11 +1294,11 @@ Interview management
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
--   ****
+-   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/schedule-interview.md)**
 
 Schedule interviews more efficiently with auto-populated template variables that reduce manual email editing.
 
--   ****
+-   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-interviews-recruiter.md)**
 
 Track applicants' responses to interview invites on interviews records directly.
 
@@ -1313,7 +1313,7 @@ Key Management
 
 Use the streamlined workflow designed for faster, easier creation of cryptographic modules.
 
--   **SecurityUtils Enhancements**
+-   **[SecurityUtils Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.md)**
 
 The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 
@@ -1915,7 +1915,7 @@ Now Assist for Creator
 
 </td><td>
 
--   ****
+-   **[Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-use-app-gen-skill.md)**
 
 Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
 
@@ -2011,7 +2011,7 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
--   ****
+-   **[Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-summarize-case.md)**
 
 Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
@@ -2029,16 +2029,16 @@ The Now LLM Service is no longer the default model provider for new or inactive 
 The default model provider for contract metadata extraction, contract analysis, and contract obligation extraction is Azure OpenAI.
 
 
--   **Improved missing clause detection**
+-   **[Improved missing clause detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-NA-review-land.md)**
 
 Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
 
 
--   **Configure use case mappings for metadata and obligation extraction**
+-   **[Configure use case mappings for metadata and obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md)**
 
 Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
 
--   ****
+-   **[Conversational contract search and insights Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
 
 The Now Assist powered conversational search feature's improved experience enables you to:
 
@@ -2152,7 +2152,7 @@ Operational Sustainability Management \(formerly Environmental, Social, and Gove
 
 </td><td>
 
--   ****
+-   **[Components installed with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/components-installed-with-grc.md)**
 
 After upgrading Operational Sustainability Management to version 22.3.1, role inheritance is updated to restrict access only to the resources required for each role. These changes apply to new installations only.
 
@@ -2161,7 +2161,7 @@ After upgrading Operational Sustainability Management to version 22.3.1, role in
     -   The sn\_align\_core.ap\_read\_only role in sn\_esg.reader is replaced with sn\_ppm.reader.
     -   Read access to the sn\_esg\_gen\_ai\_emission\_calculation\_guidelines table is restricted to sn\_esg\_gen\_ai.cmd\_agent\_user.
     -   Metric reader access to Sustainable IT tables is restricted to required configuration tables only.
--   ****
+-   **[Configure templates for Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-template-for-document-designer.md)**
 
 After upgrading Operational Sustainability Management to version 22.3.2, the Business domain field in the Template configuration and Data relationship tables now references the GRC business domain \(sn\_grc\_business\_domain\). Previously, these fields referenced the M365 business domain.
 
@@ -2360,7 +2360,7 @@ Playbook
 
 </td><td>
 
--   **Required role update**
+-   **[Required role update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-playbooks.md)**
 
 Any tasks that previously required only the admin role now require the playbook.admin role instead.
 
@@ -2593,7 +2593,7 @@ Recruitment workspace
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
--   ****
+-   **[Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace-oveview.md)**
 
 View all the job requisitions where you're listed as an additional recruiter or recruitment coordinator, on the home page cards and list view in Recruitment workspace. Previously, only the primary recruiter saw these requisitions in Recruitment workspace.
 
@@ -2608,11 +2608,11 @@ Regulatory Change Management
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
--   **Default AI model provider for regulatory alert recommendation skills**
+-   **[Default AI model provider for regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recommendation-skill-for-a-regulatory-alert.md)**
 
 After upgrading to version 22.4.0, the regulatory alert recommendation skills in Now Assist for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
 
--   **Default AI model provider for agentic workflows**
+-   **[Default AI model provider for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-agentic-ai-workflows.md)**
 
 After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows in Now Assist for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
 
@@ -2659,7 +2659,7 @@ Self-service and omnichannel engagement for CSM
 
 Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
--   **Subscriptions and Activity Feed Framework**
+-   **[Subscriptions and Activity Feed Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/actsub-api.md)**
 
 Starting with the Australia release, the Subscriptions and Activity Feed Framework plugin \(com.snc.subscriptions\_activity\_feed\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Subscriptions and Activity Feed Framework store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 
@@ -2748,11 +2748,11 @@ Use a guest user's IP address to set their language through the **glide\_i18n.ip
 
 Activate additional choices for countries in the Next Experience language and region preferences or in a User record.
 
--   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
+-   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
 
 Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **JavaScript engine updated with changes from the Rhino engine**
+-   **[JavaScript engine updated with changes from the Rhino engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/updates-javascript-engine.md)**
 
 The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
@@ -2788,15 +2788,15 @@ ServiceNow SDK
 
 </td><td>
 
--   **Flow API supports Service Catalog triggers and actions**
+-   **[Flow API supports Service Catalog triggers and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/fluent-flow-api.md)**
 
 Use triggers and actions related to Service Catalog with the Flow API.
 
--   **Access Control List API supports protection policies**
+-   **[Access Control List API supports protection policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/acl-api-now-ts.md)**
 
 Control whether someone can view or edit an access control list \(ACL\) with the protectionPolicy property in an ACL object.
 
--   **Keys updated for static assets in full-stack applications**
+-   **[Keys updated for static assets in full-stack applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md)**
 
 Static UX Assets \[sys\_ux\_lib\_asset\] in full-stack applications have updated keys in the `keys.ts` file. UX Asset sys\_ids aren’t changed.
 
@@ -2807,21 +2807,21 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Developers who prompt Build Agent to create an app from the [ServiceNow Developer site](https://developer.servicenow.com/dev.do) are redirected to ServiceNow Studio instead of ServiceNow IDE to continue building their app.
 
 
--   ****
+-   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-app-file.md)**
 
 Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
 
 
--   **Integrated tab groupings**
+-   **[Integrated tab groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-open-apps-files-across-scopes.md)**
 
 Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Build Agent is the default setting for AI-assisted app generation in ServiceNow Studio. You can change this setting in the ServiceNow Studio user preferences menu.
 
@@ -2845,7 +2845,7 @@ Software Asset Management
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
--   **Granular configuration admin roles**
+-   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sam-installed-components.md)**
 
 Use granular admin roles, such as sam\_admin and sam\_integrator, to complete administrative configuration tasks without requiring the full admin role. By using limited admin privileges that provide access to only certain tasks, you can help reduce security risks across your organization.
 
@@ -2950,31 +2950,31 @@ Third-party Risk Management
 
 </td><td>
 
--   **Consolidated assessment email notifications**
+-   **[Consolidated assessment email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set_sys_props_for_email.md)**
 
 After upgrading to version 22.3.3, external assessment‑related email notifications are sent as a single consolidated summary instead of individual per‑event messages. Users can configure notification frequency, detail level, and delivery channel in their notification preferences. Multi‑language templates are available.
 
--   **Assessment count mechanism updated in the third-party portal**
+-   **[Assessment count mechanism updated in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/vendor-portal.md)**
 
 After upgrading to version 22.3.3, engagement assessment counts in the third-party portal include only active, pending, and in‑progress assessments. Previously, counts included inactive and canceled assessments.
 
--   **Inactive metrics excluded when copying assessment responses**
+-   **[Inactive metrics excluded when copying assessment responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-assessing-tpr.md)**
 
 After upgrading to version 22.3.3, inactive and retired metrics are excluded when copying responses between assessments. Previously, copying responses could include inactive metrics, causing scoring errors.
 
--   **Type of ICT services changes cascade to supply chain in DORA reporting**
+-   **[Type of ICT services changes cascade to supply chain in DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
 
 After upgrading the Digital Resilience Third-party Information Register application to version 22.3.1, when the Type of ICT services value is updated on a Contractual Arrangements – Specific Information \(B.02.02\) record, the ICT service supply chain \(B.05.02\) is now updated automatically. If a Type of ICT services value is removed from a Specific Information record, the corresponding supply chain records for Rank 1 and higher ranks are also deleted automatically. Previously, Rank 1 supply chain records were generated when the Specific Information record was first created, but subsequent changes or removals did not propagate to the supply chain, requiring manual correction.
 
--   **Duplicate contractual arrangements detected and warned in DORA Register of Information**
+-   **[Duplicate contractual arrangements detected and warned in DORA Register of Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
 
 After upgrading the Digital Resilience Third-party Information Register application to version 22.3.1, duplicate records in the Contractual Arrangements – Specific Information \(B.02.02\) table are now detected and handled across three scenarios. When saving a contractual arrangement from the UI, a business rule checks eight composite key fields and blocks the save if a duplicate is found. During Excel upload, duplicate rows are rejected and logged to the upload error report. During CSV package download, duplicate rows in B.02.02 are flagged in the DORA request record's error log; duplicates are warned but not removed from the generated CSV.
 
--   **Duplicate supply chain rows warned during DORA CSV package download**
+-   **[Duplicate supply chain rows warned during DORA CSV package download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-drtp-roi-packages.md)**
 
 After upgrading the Digital Resilience Third-party Information Register application to version 22.3.1, during CSV package download, duplicate rows in the ICT service supply chains \(B.05.02\) table are now detected and a warning is added to the request record. This applies to both Rank 1 supply chain records, which are auto-generated from Specific Information records, and higher-ranked records. Additionally, when the Storage of data field is set to No on a contractual arrangement, associated location field values are now cleared automatically.
 
--   **Simplified third-party element process**
+-   **[Simplified third-party element process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-workflow-in-workspace.md)**
 
 After upgrading to version 22.0.1, third‑party elements are now linked to a single third party and can no longer be shared across third parties. Scoring rollups calculate results from element‑level assessments rather than entity records.
 
@@ -3031,7 +3031,7 @@ UI Builder
 
 </td><td>
 
--   ****
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-across-pages.md)**
 
 Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 

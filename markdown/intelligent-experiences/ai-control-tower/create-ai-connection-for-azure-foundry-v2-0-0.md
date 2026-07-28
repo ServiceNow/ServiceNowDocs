@@ -1,0 +1,132 @@
+---
+title: Create an AI connection for Azure AI Foundry \(v2.0.1\)
+description: Create an AI connection for Azure AI Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-azure-foundry-v2-0-0.html
+release: australia
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+---
+
+# Create an AI connection for Azure AI Foundry \(v2.0.1\)
+
+Create an AI connection for Azure AI Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.0.1\).
+
+## Azure AI Foundry prerequisites
+
+Complete the following steps in your Azure environment before creating an Azure Foundry connection.
+
+Configure OAuth Credentials:
+
+The connector uses OAuth to authenticate with Azure APIs. To obtain credentials, register an application in Microsoft Entra ID. For full instructions, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad).
+
+The Azure client application requires the following roles:
+
+-   Reader role at the subscription or resource group level to discover resources.
+-   Azure User role on the Azure AI Foundry resources.
+
+**Note:** As of March 2026, ServiceNow supports the New Azure AI Foundry alongside the original Azure AI Foundry. The New Foundry treats each agent version as a distinct entity.
+
+## Before you begin
+
+Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
+
+Account &amp; Resource Hierarchy
+
+The connector supports three Azure service variants, each with its own resource hierarchy:
+
+-   ML Services \(AI Hub\) Subscriptions → Resource Groups → ML Workspaces → Agents
+-   AI Services/Old Foundry \(Cognitive Services\) Subscriptions → Resource Groups → Cognitive Services Accounts → Projects → Agents
+-   New Foundry Subscriptions → Resource Groups → Accounts → Projects → Agents → Agent Versions
+
+The key distinction with New Foundry is that each agent version is treated as a distinct entity, which the other two variants don't support.
+
+Discovered per agent
+
+For each agent discovered across all three variants, the connector collects:
+
+-   AI Agents \(assistants\)- The primary entity.
+-   AI Models- Deployed models \(GPT-4o, Llama, Claude, etc.\) via deployment enrichment.
+-   AI Prompts- System instructions attached to agents.
+-   AI Tools- With type coverage varying by variant:
+    -   ML &amp; AI Services: `functions`, `connected_agent`, and others.
+-   Sub-component Relationships- M2M links between agents and their sub agents/tools.
+-   Usage/Execution Metrics- Aggregated run counts by agent, date, and session.
+
+## Procedure
+
+1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+
+2.  Select **AI connector for Microsoft** from the available connectors and then select **Create connection**.
+
+3.  Select Azure Foundry check box.
+
+4.  Review setup instructions page displays.
+
+    **Note:** Verify to follow all the prerequisite steps.
+
+5.  Select **Continue**.
+
+6.  Setup page appears.
+
+7.  Enter the details on Configure and test ML services connection:
+
+    1.  Enter the **Connection Name**.
+
+    2.  Enter the **Regions**.
+
+        **Note:** The region field is optional. If the field is empty, it will discover for all the region or If you can give comma- separated value of regions \(examples: eastus, westus2\).
+
+    3.  Enter the **OAuth client ID**.
+
+    4.  Enter the **OAuth client secret**.
+
+    5.  Enter the **Tenant ID** \( example, [https://login.microsoftonline.com/&lt;tenantid&gt;/oauth2/v2.0/token](https://login.microsoftonline.com/%3ctenantid%3e/oauth2/v2.0/token)\).
+
+        The tenant id can be found in the URL of every page. It’s abbreviated as tid.
+
+    6.  Select **Create and test connection**.
+
+    7.  Select **Continue**.
+
+8.  Enter the details on Configure and test AI services connection:
+
+    1.  Enter the **Connection Name**.
+
+    2.  Enter the **Connection URL** \(example: https://&lt;resource-name&gt;services.ai.azure.com\).
+
+        **Note:** To obtain the resource name, make sure that you're on New Foundry \(Enable the New Foundry toggle\) and select the project. Once you're on the home page, look for the Project endpoint to view the resource name.
+
+        Starting from March 2026 onwards, ServiceNow provides support to the New Foundry along with the old Foundry.
+
+    3.  Enter the **OAuth client ID**.
+
+    4.  Enter the **OAuth client secret**.
+
+    5.  Enter the **OAuth token URL**.
+
+9.  Configure Azure import schedule:
+
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
+
+        Ensure to execute the Discovery-scheduled job first.
+
+    2.  Select Run according to your preference.
+
+    3.  To run frequency by demand, select **Execute Now**.
+
+        **Note:** This is an optional step as the schedule imports run according to the schedule.
+
+    4.  Select **Continue**.
+
+10. Select the **Confirm connection setup** activity to verify whether the connection was configured.
+
+
+## Result
+
+Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
+

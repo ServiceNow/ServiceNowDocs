@@ -111,15 +111,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Databricks.
 
-<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d179951e257">
+<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d179950e257">
 
 Option
 
-</th><th align="left" id="d179951e260">
+</th><th align="left" id="d179950e260">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179951e266">
+</th></tr></thead><tbody><tr><td id="d179950e266">
 
 **Databricks Service Principal**
 
@@ -133,7 +133,7 @@ Option to use Databricks as the OAuth provider.
 2.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d179951e290">
+</td></tr><tr><td id="d179950e290">
 
 **Azure Service Principal**
 
@@ -148,7 +148,7 @@ Option to use Azure Entra ID as the OAuth provider.
 3.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d179951e317">
+</td></tr><tr><td id="d179950e317">
 
 **Access Token**
 

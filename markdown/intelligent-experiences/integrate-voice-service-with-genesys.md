@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -87,7 +87,21 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 </td></tr></tbody>
 </table>    \[Omitted image "voice-agents-genesys-integration.png"\] Alt text: Genesys Cloud service integration configuration.
 
-8.  Create Audio Connector integration.
+8.  Enable context data persistence for the voice service.
+
+    1.  Navigate to `sys_now_assist_deployment_config_attributes.list` and check whether a `persist_context_data` attribute exists for your voice service.
+
+    2.  If the attribute exists, open it and set **Value** to `true`.
+
+        \[Omitted image "image.voice-agents-persist-context-data"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
+
+    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its `sys_id`.
+
+        To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
+
+    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
+
+9.  Create Audio Connector integration.
 
     1.  Navigate to **Menu** &gt; **IT and Integrations** &gt; **Integrations** and select **Add new integration**.
 
@@ -103,7 +117,7 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 
     6.  Select **Save**.
 
-9.  Architect the inbound call flow.
+10. Architect the inbound call flow.
 
     1.  Use the search bar to navigate to Architect and create the inbound call flow according to your requirements.
 
@@ -117,7 +131,7 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 
     2.  Select **Save** to save and **Publish** to publish the call flow.
 
-10. Configure call routing.
+11. Configure call routing.
 
     1.  Use the search bar to navigate to Call Routing and create a call route.
 
@@ -129,7 +143,7 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 
         \[Omitted image "voice-agents-genesys-integration-call-routing.png"\] Alt text: Call routing setup in Genesys Cloud service.
 
-11. Assign a phone number to the call route.
+12. Assign a phone number to the call route.
 
     1.  Use the search bar to navigate to Telephony and select DID numbers.
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [Domain Separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

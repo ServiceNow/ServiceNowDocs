@@ -7,9 +7,9 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [Export data in bulk export via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
+last_updated: "2026-07-28"
+reading_time_minutes: 3
+breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Setting up a secure connection to Hermes
@@ -55,17 +55,17 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
     After generation completes, the system provides download links for two files:
 
-    -   **Keystore file:** Contains your instance's private key and certificate. Used to authenticate with Hermes.
-    -   **Truststore file:** Contains the CA certificates needed to validate Hermes server certificate.
+    -   Keystore file: Contains your instance's private key and certificate. Used to authenticate with Hermes.
+    -   Truststore file: Contains the CA certificates needed to validate Hermes server certificate.
     Download both files and save them to a secure location on your local machine.
 
 5.  Copy the certificate files to your Kafka consumer environment that will connect to Hermes.
 
-    Transfer the keystore and truststore files from your local machine to each Kafka consumer client. For the full setup procedure and ACL configuration, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-up-secure-connection-to-hermes.md).
+    Transfer the keystore and truststore files from your local machine to each Kafka consumer client. For the full setup procedure and ACL configuration, see .
 
-    To learn more about Hermes messaging service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
+    To learn more about Hermes messaging service, see .
 
-    **Example \(using SCP\):**
+    Example \(using SCP\):
 
     ```
     
@@ -106,11 +106,11 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
     Since Hermes uses two clusters, create two consumer processes:
 
-    1.  **Consumer Process 1:** Connects to bootstrap servers for Cluster 1 \(`<instance>.service-now.com:4100,4101,4102,4103`\)
-    2.  **Consumer Process 2:** Connects to bootstrap servers for Cluster 2 \(`<instance>.service-now.com:4200,4201,4202,4203`\)
-    Both processes must use the same **Consumer Group ID**. This confirms that messages are distributed across the two processes without duplication.
+    1.  Consumer Process 1: Connects to bootstrap servers for Cluster 1 \(`<instance>.service-now.com:4100,4101,4102,4103`\)
+    2.  Consumer Process 2: Connects to bootstrap servers for Cluster 2 \(`<instance>.service-now.com:4200,4201,4202,4203`\)
+    Both processes must use the same Consumer Group ID. This confirms that messages are distributed across the two processes without duplication.
 
-    **Example configuration for Consumer Process 1:**
+    Example configuration for Consumer Process 1:
 
     ```
     
@@ -125,7 +125,7 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
               
     ```
 
-    **Example configuration for Consumer Process 2:**
+    Example configuration for Consumer Process 2:
 
     ```
     
@@ -142,55 +142,12 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
     **Note:** Both configurations use the same `group.id` value. This is intentional and required for high availability.
 
-9.  Start consuming data export results.
+9.  Start consuming data export results as described in [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md).
 
-    1.  Get the topic name from the 202 response.
-
-    2.  Configure two Kafka consumer processes \(one per Hermes cluster\) with the bootstrap servers, the topic name, and your SSL keystore and truststore.
-
-    3.  Use the same Consumer Group ID for both processes.
-
-        This confirms that messages are distributed across the two processes without duplication.
-
-    4.  Subscribe to the topic and start consuming.
-
-        Results arrive as JSON batches. Each batch includes the `job_id`, `batch_num`, `total` \(total batches\), column names, and row data.
-
-        |Field|Description|
-        |-----|-----------|
-        |job\_id|Matches the job\_id returned when you submitted the request.|
-        |batch\_num|The number of this batch.|
-        |total\_batches|The total number of batches for the job. When batch\_num equals total, all batches have been produced.|
-        |columns|The column names, in the same order as the values in each row.|
-        |rows|An array of rows. Each row is an array of values matching the column order.|
-
-    Use the `hermes_topic_endpoint` value from your data export API response as the topic name. For example:
-
-    ```
-    
-    snc.<instance>.uxa.sn_uxa_data_export.data_export_results
-              
-    ```
-
-    Start both consumer processes, and they will begin receiving batches as the export job produces results.
-
-
-## Result
-
-Your Kafka consumer environment is now securely connected to the managed Hermes cluster. You can submit data export requests and consume results from the Kafka topic using your configured consumers. Use a dedicated integration user for automated exports and grant it only the `sn_uxa_data_export.user` role and de-duplicate using the Kafka offset.
-
-**Note:** Schedule recurring exports \(e.g., daily\) so each run stays within the 60-request-per-hour and 100 GB-per-month limits.
 
 ## What to do next
 
-Reassembling and de-duplicating results: Since batch delivery order is not guaranteed and duplicate batches may occasionally be delivered.
+Submit data export requests and consume results from the Kafka topic. See [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md) to learn more.
 
--   **Reassemble:** Sort batches by `batch_num` to reconstruct the full result set.
--   **Track completion:** When `batch_num` equals `total`, all batches for the job have been produced.
--   **De-duplicate:** If you receive the same batch twice, use `batch_num` together with the Kafka offset to remove duplicates.
--   **Consume within retention window:** Results are retained on the topic for 36 hours. Consume all batches before they expire.
-
-**Note:** Each instance has its own dedicated Kafka topic for result delivery. The SSL certificate used to access the topic is scoped to your instance's topics only. Exports are bound to your customer account: data from one account is never accessible from another account's instance.
-
-**Parent Topic:**[Export data in bulk export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
 

@@ -1,21 +1,20 @@
 ---
-title: Unified Security Exposure Management \(USEM\) notes
+title: Unified Security Exposure Management \(USEM\) release notes
 description: The ServiceNow Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
-reading_time_minutes: 14
+reading_time_minutes: 13
 keywords: [usem release notes]
 ---
 
-# Unified Security Exposure Management \(USEM\) notes
+# Unified Security Exposure Management \(USEM\) release notes
 
 The ServiceNow® Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Australia release.
 
 ## Unified Security Exposure Management highlights for the Australia release
 
--   Unified Security Exposure Management now integrates with Early Warning for Security Exposure Management integration to enrich Common Vulnerabilities and Exposures \(CVE\) data with Early Warning insights, enabling teams to focus remediation on vulnerabilities under active or imminent exploitation.
 -   Vulnerability management teams can use AI Security Exposure Management and supported integrations to reduce the AI attack surface by efficiently remediating security exposures in AI assets.
 -   USEM was enhanced and updated in the Australia release to support the new AI native experience.
 -   Administrators can manage user and group role assignments, create/update watchdogs with custom conditions, and access a centralized Advanced Settings page — all directly from the Security Exposure Management Workspace, eliminating the need to navigate multiple configuration pages.
@@ -54,10 +53,6 @@ Unified Security Exposure Management is available to all customers who are entit
     -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
     -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform®.
     Enhancements to Application life-cycle management: When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform® automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\), keeping your vulnerability inventory accurate without manual cleanup.
-
--   **[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)**
-
-    You can now integrate with Early Warning for Security Exposure Management integration to enrich vulnerabilities with Early Warning threat intelligence. Powered by Armis Threat Intelligence \(ATI\), Early Warning signals are mapped to CVEs and include supporting evidence, first-seen exploitation dates, and Admiralty Scores to indicate intelligence reliability. Delta-based scheduled ingestion ensures CVE enrichment remains current through efficient incremental updates, helping security teams respond faster to emerging threats by improving risk assessment and prioritisation.
 
 -   **[Enhancements to AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)**
 

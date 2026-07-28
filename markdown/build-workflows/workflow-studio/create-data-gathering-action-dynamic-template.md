@@ -21,7 +21,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 -   Role required: action\_designer or admin
 -   Create credentials and connections for your REST endpoint
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md).
 
 ## Procedure
 

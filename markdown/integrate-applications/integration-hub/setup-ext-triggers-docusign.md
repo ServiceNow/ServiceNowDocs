@@ -32,7 +32,7 @@ Role required: admin
 
 ### About this task
 
-For more information about client credentials grant type, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-credentials.md).
+For more information about client credentials grant type, see .
 
 ### Procedure
 

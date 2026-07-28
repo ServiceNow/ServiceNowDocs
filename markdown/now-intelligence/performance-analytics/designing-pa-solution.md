@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -18,7 +18,7 @@ KPI Composer ensures that your performance management strategy aligns with busin
 
 KPI Composer helps you elicit performance management requirements and drive stakeholder alignment by visualizing implementation objectives, desired business outcomes, and required technical deliverables in a concise visual summary. This holistic approach ensures that stakeholders are completely aligned on the desired outcomes and requirements before implementers spend time working on any technical deliverables. When ready, Performance Analytics implementers get a task list of exactly what they need to create — indicators, breakdowns, reports, and dashboards — to support the goals, and you can even use KPI Composer to track the progress of the implementation.
 
-A free training in KPI Composer is available at [NOW Learning](https://learning.servicenow.com/lxp/en/now-intelligence/kpi-composer-overview?id=learning_course_prev&course_id=1f2469534722d6d03c6f6013e16d433c). You can also see examples of how a properly designed Performance Analytics solution can help different people in your organization at [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/success-dashboard-indicator-landing.md).
+A free training in KPI Composer is available at [NOW Learning](https://learning.servicenow.com/lxp/en/now-intelligence/kpi-composer-overview?id=learning_course_prev&course_id=1f2469534722d6d03c6f6013e16d433c). You can also see examples of how a properly designed Performance Analytics solution can help different people in your organization at .
 
 ## Activating KPI Composer
 

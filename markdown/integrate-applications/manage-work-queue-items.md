@@ -37,7 +37,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, sn
 
 Option
 
-</th><th align="left" id="d476824e137">
+</th><th align="left" id="d476823e137">
 
 Action
 
@@ -88,7 +88,7 @@ Roles required to reassign a failed or a success work item: RPA developer, RPA r
 
 [Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 
 ## Work item form in RPA Hub
 

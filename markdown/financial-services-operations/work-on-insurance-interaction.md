@@ -81,5 +81,5 @@ The interaction is closed.
 
 [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
 
-[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+[bundle-csm.ai-generated-wrap-up-codes-and-notes-summary]
 

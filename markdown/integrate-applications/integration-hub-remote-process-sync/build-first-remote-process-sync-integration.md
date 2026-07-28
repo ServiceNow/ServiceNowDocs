@@ -44,7 +44,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
 3.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in .
 
 4.  Reset the password for RPS API User for Instance A.
 
@@ -73,7 +73,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
 7.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in .
 
 8.  Reset the password for RPS Run as User A.
 
@@ -106,7 +106,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
 12. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in .
 
 13. Reset the password for RPS API User for Instance B.
 
@@ -135,7 +135,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
 16. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in .
 
 17. Reset the password for RPS Run as User B from Instance B.
 

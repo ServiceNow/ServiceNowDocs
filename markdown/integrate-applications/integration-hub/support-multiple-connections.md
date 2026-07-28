@@ -67,7 +67,7 @@ In the following example, the Create Remote Incident action has a connection fie
 
 Use the gear icon \(\[Omitted image "gear-icon.png"\] Alt text: gear icon\) to create or configure an alias.
 
--   For connections using a [configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/spoke-configuration-template.md), the gear icon opens a window where you can create or configure a connection.
+-   For connections using a configuration template, the gear icon opens a window where you can create or configure a connection.
 -   For connections without a configuration template, the gear icon opens the platform form for [creating a connection and credential alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md)
 
 Use the plus icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: plus icon\) to add a new child connection alias.
@@ -93,5 +93,5 @@ When you move a flow to a production instance, the alias information is transfer
 You can configure connections without having to modify the flow because you already have the base alias set up. To configure a connection:
 
 -   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md) for instructions.
--   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md).
+-   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see Getting started with connections.
 

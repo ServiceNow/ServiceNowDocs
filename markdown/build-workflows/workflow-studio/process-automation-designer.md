@@ -94,19 +94,19 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 |-----------|-----------------|
 |App Engine Studio|Build playbooks from App Engine Studio.|
 ||Create basic request and fulfillment apps without code.|
-||Create playbooks for Customer Service Management.|
-||Create playbooks for Field Service Management.|
-||Create playbooks for HR services.|
-||Create playbooks for Software Asset Management.|
+|[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
+|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|
+|[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
-||Create playbooks for Public Sector Digital Services.|
+|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
 |[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
 |[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
 |[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
 |[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
 |[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
-||Create playbooks for Governance, Risk, and Compliance processes.|
+|[Complete publishing checklist and request policy approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-publishing-checklist-redlining.md)|Create playbooks for Governance, Risk, and Compliance processes.|
 
 -   **[Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md)**  
 Playbooks is a component in Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor playbooks, flows, subflows, actions, and decision tables in one place.

@@ -18,7 +18,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Before you begin
 
--   Make sure to set your current application to the application that you want your playbook to run in. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Make sure to set your current application to the application that you want your playbook to run in. For more information, see Application picker.
 -   Role required: admin, playbook.admin, or pd\_trigger\_author
 
 ## Procedure

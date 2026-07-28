@@ -64,7 +64,7 @@ Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is 
 
     ServiceNow® Install Base Management is used to capture a customer’s use or purchase of a product across any industry with the Customer Service Management application.
 
--   **Next Experience UI Builder**
+-   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     ServiceNow® Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
 

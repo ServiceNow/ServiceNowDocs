@@ -34,7 +34,7 @@ In this example procedure, you create a flow that implements the ml\_incident\_c
 
 \[Omitted image "use-predict-intel-flow-designer-ml-actions1.png"\] Alt text: An image showing the ML Solution that will be used as input to the Flow Designer flow
 
-For more information on how to use Flow Designer in Workflow Studio, see . For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in .
+For more information on how to use Flow Designer in Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md). For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md).
 
 ## Procedure
 
@@ -229,5 +229,5 @@ For more information on how to use Flow Designer in Workflow Studio, see . For i
 **Related topics**  
 
 
-[bundle-crworkflow.predictive-intelligence-spoke]
+[Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md)
 

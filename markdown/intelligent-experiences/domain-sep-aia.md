@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-sep-aia.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
 breadcrumb: [Platform AI agents, Now Assist AI assets, Enable AI experiences]
 ---
@@ -30,7 +30,7 @@ Once enabled, the Domain Visibility agent exposes the following options to the a
 
 Ensure the following requirements are met before using the AI agent:
 
--   The Domain Separation plugin is installed on your instance and active. For more information, refer to .
+-   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
 -   AI capabilities are enabled on the instance.
 -   You are signed in with a Domain Admin role.
 

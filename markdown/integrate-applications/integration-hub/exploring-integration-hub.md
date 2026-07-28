@@ -59,7 +59,7 @@ Stream data with Stream Connect for Apache Kafka. Stream Connect links your Kafk
 
 ## Manage connections
 
-Integration Hub takes advantage of aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-connections-alias.md).
+Integration Hub takes advantage of aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about credentials, connections, and aliases.
 
 View and configure your connection and credential aliases with the [Connections dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/connections-dashboard.md). The Connections dashboard enables you to manage multiple connections through a single interface, and provides simplified processes for adding, editing, and configuring connections. With the Connections dashboard, you can view details about an alias and all associated child connections in a single location.
 

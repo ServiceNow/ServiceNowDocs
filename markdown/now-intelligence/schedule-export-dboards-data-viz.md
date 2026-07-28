@@ -31,7 +31,8 @@ You can export multiple dashboards and data visualizations together in one sched
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
+|Calendar reports, Indicator scorecards,Geomap|None|None|
+|Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|
@@ -140,7 +141,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see Scripts.**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr></tbody>
 </table>10. In the Email details section, specify the recipients and the email subject.

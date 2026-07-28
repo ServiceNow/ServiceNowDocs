@@ -8,7 +8,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 2
 breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -20,12 +20,12 @@ The connector creates separate AI connections for each Microsoft platform, catal
 
 Key capabilities:
 
--   Discovery of Azure AI Foundry agents across ML Services, AI Services, and New Foundry variants
--   Discovery of Microsoft Copilot agents across single or multiple Power Platform environments
--   AI asset lineage and dependency tracking through sub-component relationships
--   Usage and execution metrics aggregated by agent, date, and session
--   Support for tenant-wide discovery or filtered discovery by resource and region \(Azure Foundry\)
--   Multi-environment discovery using a single Copilot connection
+-   Discovery of Azure AI Foundry agents across ML Services, AI Services, and New Foundry variants.
+-   Discovery of Microsoft Copilot agents across single or multiple Power Platform environments.
+-   AI asset lineage and dependency tracking through sub-component relationships.
+-   Usage and execution of metrics aggregated by agent, date, and session.
+-   Support for tenant-wide discovery or filtered discovery by resource and region \(Azure Foundry\).
+-   Multi-environment discovery using a single Copilot connection.
 
 ## Download apps from the store
 
@@ -68,10 +68,10 @@ The connector requires write permissions to the Data Source table to create data
 
 To enable data source creation:
 
-1.  Select Global from the application picker.
-2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete check boxes.
-4.  Select Update.
+1.  Select **Global** from the application picker.
+2.  Navigate to **Application Access**.
+3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
+4.  Select **Update**.
 5.  Switch to the connector application scope.
 
 Clear cache
@@ -80,8 +80,8 @@ Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to System Definition &gt; Background Scripts
-2.  Paste the following script into the Run Script text box:
+1.  Navigate to **System Definition** &gt; **Background Scripts**.
+2.  Enter the following script in the **Run Script** text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -91,74 +91,14 @@ To clear the cache:
     
     ```
 
-3.  Select Run Script.
+3.  Select **Run Script**.
 
-    **Note:** The script may take several minutes to complete.
+    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
 
 4.  After completion, switch to the connector application scope.
 
-## Azure AI Foundry Prerequisites
-
-Complete the following steps in your Azure environment before creating an Azure Foundry connection.
-
-Configure OAuth Credentials
-
-The connector uses OAuth to authenticate with Azure APIs. To obtain credentials, register an application in Microsoft Entra ID. For full instructions, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad)
-
-The Azure client application requires the following roles:
-
--   Reader role at the subscription or resource group level to discover resources.
--   Azure AI Foundry User role on the Azure AI Foundry resources.
-
-**Note:** Starting from March 2026, ServiceNow supports the New Azure AI Foundry alongside the original Foundry. The New Foundry treats each agent version as a distinct entity and adds support for MCP, OpenAPI, and A2A Preview tool types.
-
-Discovery scope
-
-Configure the scope of Azure Foundry discovery using the following options:
-
-Tenant-wide discovery \(default\): Leave the Resource Name and Region fields empty to discover all Al agents across your entire Azure tenant.
-
-Filter by resource \(optional\): To limit discovery to specific resources, enter resource names as comma-separated values \(e.g., resource1, resource2\).
-
-Filter by region \(optional\): To limit discovery to specific Azure regions, enter region names as comma-separated values \(e.g., eastus, westus2\).
-
-## Microsoft Copilot Studio Prerequisites for Versions 2.0.1 &amp; 2.3
-
-Complete the following steps in your Power Platform environment before creating a Copilot connection.
-
-Register an Application in Microsoft Entra ID
-
-Register an application to obtain OAuth credentials for the connector.
-
-To register the application:
-
--   Follow the [Microsoft Entra app registration quickstart](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to create application.
--   Record the Client ID and Client Secret from the registration.
-
-Grant application access to your Copilot environment
-
-Configure the application as a user in your Copilot environment.
-
-To configure application access:
-
-1.  Open the [Power Platform admin Center](https://admin.powerplatform.microsoft.com/home)
-2.  Navigate to Environments and select your Copilot environment
-3.  Go to Settings &gt; Users + Permissions &gt; Application users
-4.  Select New App User and add your application using the Client ID from step 1
-5.  Assign the following security roles to the application user
-    -   Basic User
-    -   System administrator
-
-If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For creation of the role, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md)
-
-**Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
-
-Multi-Environment Support
-
-You can discover agents from multiple Copilot environments using a single connection. To configure multi-environment discovery:
-
--   Enter multiple environment IDs as comma-separated values in the Environment ID field \(eg: env-id-1, env-id-2, env-id-3\)
--   The same OAuth credentials \(Client ID and Client Secret\) are used for all environments
--   Verify the application user is configured in each environment with the required security roles
--   Each environment will be tested and discovered separately during the import process
+-   Enter multiple environment IDs as comma-separated values in the Environment ID field \(eg: env-id-1, env-id-2, env-id-3\).
+-   The same OAuth credentials \(Client ID and Client Secret\) are used for all environments.
+-   Verify the application user is configured in each environment with the required security roles.
+-   Each environment will be tested and discovered separately during the import process.
 

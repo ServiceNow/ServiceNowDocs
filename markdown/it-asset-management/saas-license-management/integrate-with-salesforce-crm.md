@@ -378,15 +378,15 @@ If you’re using Software Asset Workspace, use SaaS Playbook for integrating yo
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189641e1214">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189613e1214">
 
 Interface
 
-</th><th align="left" id="d189641e1217">
+</th><th align="left" id="d189613e1217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189641e1223">
+</th></tr></thead><tbody><tr><td id="d189613e1223">
 
 **Core UI**
 
@@ -397,7 +397,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d189641e1266">
+</td></tr><tr><td id="d189613e1266">
 
 **Software Asset Workspace**
 
@@ -625,15 +625,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189641e2148">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189613e2148">
 
 Interface
 
-</th><th align="left" id="d189641e2151">
+</th><th align="left" id="d189613e2151">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189641e2157">
+</th></tr></thead><tbody><tr><td id="d189613e2157">
 
 **Core UI**
 
@@ -644,7 +644,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d189641e2200">
+</td></tr><tr><td id="d189613e2200">
 
 **Software Asset Workspace**
 

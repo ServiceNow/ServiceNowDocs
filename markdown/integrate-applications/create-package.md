@@ -106,7 +106,7 @@ After a package is created, the RPA developer publishes an automation from RPA D
 
 [Download a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-package-version.md)
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 
 [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md)
 

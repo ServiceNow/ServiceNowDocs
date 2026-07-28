@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/program-segment-mapping-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---

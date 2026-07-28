@@ -133,7 +133,7 @@ Knowledge Center is available by default to all roles in Knowledge Management.
 
     Resolve issues by searching for Knowledge articles from an incident. Flag issues with an article, edit articles from incidents, and report knowledge gaps while resolving an incident. Formalize tacit knowledge by creating articles from an incident using article templates.
 
--   **Employee Service Management**
+-   **[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)**
 
     Use Knowledge blocks with HR Knowledge Management to simplify HR Knowledge authoring for writers and Knowledge consumption for readers. Enable an HR agent to identify cases that have insufficient knowledge coverage and to report knowledge gaps using the Demand Insights for HR Cases dashboard. For more information, see [Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/demand-insights-hrcases-dashboard.md).
 

@@ -257,10 +257,3 @@ The License operations view includes the following categories:
     View the list of software products published in a phase-wise implementation of Software Asset Management. For more information, see [Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md).
 
 
-**Related topics**  
-
-
-[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
-
-[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
-

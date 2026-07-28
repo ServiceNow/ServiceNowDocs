@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # API release notes
@@ -19,7 +19,7 @@ ServiceNow® APIs enable you to build custom applications and experiences. APIs 
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md) for more information.
 
 ## New in the Australia release
 
@@ -33,7 +33,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
 
 </td><td>
 
@@ -82,11 +82,11 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_nds_wxf_gfc"><thead><tr><th>
@@ -123,7 +123,7 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ v20.0
 
  Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
 
- **Note:** The REST version of this API is .
+ **Note:** The REST version of this API is [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -174,7 +174,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -195,7 +195,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
 </td><td>
 
@@ -203,7 +203,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDateAPI.md)
 
 </td><td>
 
@@ -212,7 +212,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
 
 </td><td>
 
@@ -220,7 +220,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
 
 </td><td>
 
@@ -230,7 +230,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[MIDHermesProducer - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MIDHermesProducerAPI.md)
 
 </td><td>
 
@@ -239,11 +239,11 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_bps_p1y_x3c"><thead><tr><th>
@@ -280,7 +280,7 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
@@ -305,7 +305,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -331,7 +331,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md)
 
 </td><td>
 
@@ -345,7 +345,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-
+[Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/help-request-api.md)
 
 </td><td>
 
@@ -353,7 +353,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/atf-code-coverage-api.md)
 
 </td><td>
 
@@ -363,7 +363,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)
 
 </td><td>
 
@@ -405,7 +405,7 @@ v6.0.0
 
 </td><td>
 
-
+[AI Assets Inventory API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ai-assets-inventory-api.md)
 
 </td><td>
 
@@ -426,7 +426,7 @@ v1.0
 
 </td><td>
 
-
+[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md)
 
 </td><td>
 
@@ -446,11 +446,11 @@ v20.0
 
 </td><td>
 
-
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)
 
 </td><td>
 
-POST /api/sn\_prd\_pm/catalog/search**Note:** The script include version of this API is .
+POST /api/sn\_prd\_pm/catalog/search**Note:** The script include version of this API is [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td></tr><tr><td>
 
@@ -466,7 +466,7 @@ Usage Insight Data Export
 
 </td><td>
 
-
+[UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/usage-insight-data-exp-api.md)
 
 </td><td>
 
@@ -486,7 +486,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD Presence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_presence-api.md)
 
 </td><td>
 
@@ -516,7 +516,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD User API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_user-api.md)
 
 </td><td>
 
@@ -536,7 +536,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD Unified Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_unified-search-api.md)
 
 </td><td>
 
@@ -557,7 +557,7 @@ Synthetic monitoring
 
 </td><td>
 
-
+[SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/synth-async-api.md)
 
 </td><td>
 
@@ -610,12 +610,12 @@ v1.8
 
 </td><td>
 
-
+[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td><td>
 
-The following enhancements provide support for building and committing complete, ramp entity structures across header and headerless workflows:-   : This method now supports selective record retrieval and multiple root entity definitions, enabling developers to explicitly fetch and aggregate ramp data \(for example, via **fetchRecordSysIds** and **multiSelectMerge**\) in both single‑ and multi‑select, headerless scenarios.
--   : This method now returns a structured `dataObject` that preserves all committed root entities—such as Sold Products and Ramps—grouped by type, enabling reliable access to ramp data from a single commit response without custom post‑processing.
+The following enhancements provide support for building and committing complete, ramp entity structures across header and headerless workflows:-   [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md): This method now supports selective record retrieval and multiple root entity definitions, enabling developers to explicitly fetch and aggregate ramp data \(for example, via **fetchRecordSysIds** and **multiSelectMerge**\) in both single‑ and multi‑select, headerless scenarios.
+-   [LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md): This method now returns a structured `dataObject` that preserves all committed root entities—such as Sold Products and Ramps—grouped by type, enabling reliable access to ramp data from a single commit response without custom post‑processing.
 
 </td></tr><tr><td>
 
@@ -631,11 +631,11 @@ v1.9
 
 </td><td>
 
-
+[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td><td>
 
-- Added an optional `additionalParams.returnDeletedGr` Boolean flag that, when set to `true`, causes the deleted GlideRecord to be passed to `_postProcess` and `_postHierarchyCommit` after a DELETE operation.
+[LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)- Added an optional `additionalParams.returnDeletedGr` Boolean flag that, when set to `true`, causes the deleted GlideRecord to be passed to `_postProcess` and `_postHierarchyCommit` after a DELETE operation.
 
 </td></tr></tbody>
 </table><table id="table_omt_fmc_tcc"><thead><tr><th>
@@ -648,18 +648,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
-
-</td><td>
-
-On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
--   setValue\(\)
-
-For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
-
-</td></tr><tr><td>
-
-
+[GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
 
 </td><td>
 
@@ -670,7 +659,18 @@ For more information, see [Configuring read-only security options](https://raw.g
 
 </td></tr><tr><td>
 
+[GlideForm \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideFormAPINX.md)
 
+</td><td>
+
+On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
+-   setValue\(\)
+
+For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+</td></tr><tr><td>
+
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
 
 </td><td>
 
@@ -711,7 +711,7 @@ v1.2
 
 </td><td>
 
-
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
 
 </td><td>
 
@@ -732,25 +732,25 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td><td>
 
-Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities \(com.snc.cs\_base\), which adds the Active field to Customer \[customer\_account\] and Core Company \[core\_company\] tables.-   
--   
--   
--   
+Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities \(com.snc.cs\_base\), which adds the Active field to Customer \[customer\_account\] and Core Company \[core\_company\] tables.-   [Party Management – GET /api/sn\_tmf\_api/v1/party/individual](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management - GET /api/sn\_tmf\_api/v1/party/individual/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management – GET/api/ sn\_tmf\_api/v1/party/organization/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management - GET /api/sn\_tmf\_api/v1/party/organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td></tr><tr><td>
 
-
+[Wrap Up API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
 
 </td><td>
 
-Added support for AI-generated wrap‑up codes and notes.-   
--   
--   
--   
+Added support for AI-generated wrap‑up codes and notes.-   [Wrap Up - GET /now/wrapup/segment/\{segment\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - GET /now/wrapup/segment/agent/\{agent\_id\}/interaction/\{interaction\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - POST /now/wrapup/segment/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - PUT /now/wrapup/segment/update/ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
 
 </td></tr></tbody>
 </table><table id="table_nbf_qmc_tcc"><thead><tr><th>
@@ -787,7 +787,7 @@ v3.1
 
 </td><td>
 
-
+[Cloud Runner Test Runner REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cloudrunner-testrunner-api.md)
 
 </td><td>
 
@@ -813,7 +813,7 @@ v4.1.1
 
 </td><td>
 
-
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td><td>
 
@@ -833,7 +833,7 @@ v4.0
 
 </td><td>
 
-
+[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
 
 </td><td>
 
@@ -853,8 +853,8 @@ v12.5.0
 
 </td><td>
 
--   
--   
+-   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
+-   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
@@ -874,7 +874,7 @@ v1.0
 
 </td><td>
 
-
+[WSD Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_reservation-api.md)
 
 </td><td>
 

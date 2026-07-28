@@ -17,13 +17,13 @@ The ServiceNow® Creator Studio application guides business process experts thro
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
 
 **Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## UI changes
 
--   **Updated identifiers for AI-generated components**
+-   **[Updated identifiers for AI-generated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
     AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 
@@ -47,11 +47,11 @@ The following updates were made to support accessibility:
 
 ## Related ServiceNow applications and features
 
--   **App Engine Management Center**
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/monitor-requests-using-aemc.md)**
 
     Track and manage your Creator Studio requests, deployments, applications, and collaborative developers using App Engine Management Center.
 
--   **App Engine Studio**
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)**
 
     Open Creator Studio apps in AES to add more complexity to the app, such as email notifications and additional security.
 
@@ -59,11 +59,11 @@ The following updates were made to support accessibility:
 
     Create or edit a catalog item using a visual and guided experience.
 
--   **Form Builder**
+-   **[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-view-configuration.md)**
 
     Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
 
--   **ServiceNow Studio**
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)**
 
     Extend base system solutions and create custom apps through ServiceNow Studio, which provides a unified experience for all ServiceNow development activities.
 

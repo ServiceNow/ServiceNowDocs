@@ -8,7 +8,7 @@ product: Task Mining
 classification: task-mining
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 
 Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 
-You must install and configure the Automation Center plugin before using the integration. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-automation-center.md).
+You must install and configure the Automation Center plugin before using the integration. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see .
 
 ## Initiate an automation request from the Task timeline analysis
 
@@ -41,5 +41,5 @@ You must install and configure the Automation Center plugin before using the int
 
 [Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md)
 
-[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md)
+[bundle-crint.create-agent]
 

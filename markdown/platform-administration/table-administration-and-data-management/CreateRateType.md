@@ -7,7 +7,7 @@ release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d114874e107">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d114860e107">
 
 Field
 
-</th><th align="left" id="d114874e110">
+</th><th align="left" id="d114860e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114874e116">
+</th></tr></thead><tbody><tr><td id="d114860e116">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d114874e125">
+</td></tr><tr><td id="d114860e125">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d114874e134">
+</td></tr><tr><td id="d114860e134">
 
 **Active**
 

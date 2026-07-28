@@ -15,7 +15,7 @@ breadcrumb: [Reference, Manufacturing Commercial Operations]
 Use ServiceNow APIs to change functionality and add features in the Manufacturing Commercial Operations \(MCO\) solution.
 
 -   **[Warranty Claims SOAP API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/warranty-claims-SOAP-API.md)**  
-The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Oracle Enterprise Manager \(OEM\)’s platform.
+The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Original Equipment Manufacturer \(OEM\)’s platform.
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audi
 release: australia
 topic_type: concept
 last_updated: "2026-06-30"
-reading_time_minutes: 5
+reading_time_minutes: 3
 keywords: [store audit, retail audit, audit plan, store audit case, audit operations]
 breadcrumb: [Explore, Retail]
 ---
@@ -78,29 +78,15 @@ The following must be installed and active on the ServiceNow instance \(Xanadu o
 
 **Note:** Retail Organization records for all stores to be audited must exist on the instance before plan authoring begins.
 
--   **[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)**  
-Retail Store Audit Operations uses two record types—Store Audit Case and Audit Task—and generates them in a deliberate two-step flow: a Plan Author publishes an audit plan and then explicitly triggers generation, which creates one Store Audit Case per selected Retail Organization and one or more Audit Tasks per case.
--   **[Audit plan and playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-plan-playbook.md)**  
-An audit plan defines what is audited, at which store locations, and when. Plan Authors create and configure audit plans through the **Store audit** playbook, which launches automatically from the CSM/FSM Workspace Record Generator.
 -   **[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)**  
 Field Service for Audit is a horizontal ServiceNow scoped app that provides a shared audit-task data model and a pluggable access-control framework so consuming apps can build audit experiences without duplicating infrastructure.
--   **[Audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-tasks.md)**  
-The `wm_audit_task` table is a specialized work-management task that represents a single audit work item. It inherits all scheduling, assignment, state, and fulfillment behavior from the platform `wm_task` type and adds an audit-specific result field.
--   **[How access to audit tasks works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-access-control.md)**  
-Field Service for Audit uses a layered access-control framework: platform ACLs enforce role-based deny-first rules, and a scripted extension point delegates fine-grained read/write decisions to consuming apps, with a permissive default when no consumer rule applies.
--   **[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-roles.md)**  
-Field Service for Audit defines three roles that map to three personas — Author, Auditor, and Audit Admin — each with a distinct set of permissions on the `wm_audit_task` table.
--   **[Custom access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-custom-access-rules.md)**  
-The access-control extension point is the mechanism consuming apps use to register their own read and write access rules for audit tasks without modifying Field Service for Audit. Each consuming app implements the contract in its own scope on its own release cadence, and multiple consumers coexist through a deterministic first-match-wins evaluation order.
 
 **Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
 
 **Related topics**  
 
 
-[Audit plan and playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-plan-playbook.md)
-
-[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)
+[rahi-store-audit-plan-playbook]
 
 [Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-reference.md)
 

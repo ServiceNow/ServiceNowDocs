@@ -45,15 +45,15 @@ For more information about migrating your metadata from a lower environment to a
 
 1.  You can associate a bot process to a bot process configuration record by choosing one of these options.
 
-<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d614928e162">
+<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d614926e162">
 
 Option
 
-</th><th align="left" id="d614928e165">
+</th><th align="left" id="d614926e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d614928e171">
+</th></tr></thead><tbody><tr><td id="d614926e171">
 
 **Perform this task in workspace**
 
@@ -77,7 +77,7 @@ For a description of the field values, see [Bot Process form in RPA Hub](https:/
 10. On the **Details** tab, in **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-</td></tr><tr><td id="d614928e282">
+</td></tr><tr><td id="d614926e282">
 
 **Perform this task in the classic environment**
 
@@ -116,7 +116,7 @@ You can add other details that pertain to the bot process, such as the business 
 
 [Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-bot-process.md)
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 
 ## Bot Process form in RPA Hub
 

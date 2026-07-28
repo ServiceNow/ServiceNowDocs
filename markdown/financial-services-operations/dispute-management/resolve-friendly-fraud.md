@@ -69,15 +69,15 @@ Dispute agents can also use the Help resolve friendly fraud disputes agentic wor
 
 9.  Select one of the following options.
 
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d111234e249">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d111275e249">
 
 Action
 
-</th><th align="left" id="d111234e252">
+</th><th align="left" id="d111275e252">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d111234e258">
+</th></tr></thead><tbody><tr><td id="d111275e258">
 
 **Decline dispute transaction**
 
@@ -87,7 +87,7 @@ Result
 2.  The next activity **Customer communication** is displayed. See [Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d111234e288">
+</td></tr><tr><td id="d111275e288">
 
 **Issue credit and write-off**
 
@@ -101,7 +101,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 .
 
-</td></tr><tr><td id="d111234e324">
+</td></tr><tr><td id="d111275e324">
 
 **Proceed with dispute**
 

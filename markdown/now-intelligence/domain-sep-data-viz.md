@@ -27,7 +27,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview of domain separation
 
- To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+ To activate the domain separation plugin, see Request domain separation.
 
 ## How domain separation works in data visualizations
 

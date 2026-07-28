@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-working-with-sales-promotion.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---

@@ -22,7 +22,7 @@ Set up message and topic replications to replicate data between your Apache Kafk
 -   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
     -   .
-    -   Check the [Key Management Framework Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/kmf_diagnostics.md) to verify that all three items in the Instance PKI section are operational.
+    -   Check the  to verify that all three items in the Instance PKI section are operational.
 -   Configure and start a MID Server or MID Server cluster. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConfiguration.md) and [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
     The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.

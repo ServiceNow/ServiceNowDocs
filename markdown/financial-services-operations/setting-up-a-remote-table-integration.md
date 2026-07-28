@@ -124,7 +124,7 @@ Create a UI action to populate remote data
 
 </td><td>
 
-Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see .
 
 </td></tr><tr><td>
 

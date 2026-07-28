@@ -23,18 +23,18 @@ REST APIs can be used to access business data from ERP \(Enterprise Resource Pla
 
 ## Configure REST service connections
 
-REST connections use the HTTP connection template. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+REST connections use the HTTP connection template. For more information, see .
 
 ## Authenticate securely
 
 The connector supports the following authentication options:
 
 -   Basic Auth: A username and password \(Base64-encoded\). For more information, see [Basic authentication credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
--   JWT \(JSON Web Token\): A bearer token authentication. For more information, see [JWT Bearer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/jwt-bearer.md).
+-   JWT \(JSON Web Token\): A bearer token authentication. For more information, see .
 -   API Key: A key passed as a header or query parameter. For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md) .
--   OAuth 2.0: A token authentication with automatic token refresh. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ManageTokens.md).
+-   OAuth 2.0: A token authentication with automatic token refresh. For more information, see .
 
-ServiceNow Vault stores credentials securely. For more information, see [Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-servicenow-vault.md).
+ServiceNow Vault stores credentials securely. For more information, see .
 
 The system validates that the configured credential type matches one of the authentication schemes defined in the API specification before allowing execution.
 

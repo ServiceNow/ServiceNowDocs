@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 6
 breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

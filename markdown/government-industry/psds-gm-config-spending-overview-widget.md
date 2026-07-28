@@ -59,5 +59,5 @@ To verify the configuration, open a grant program record and select the **Fundin
 
 **Previous topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md)
 
-**Next topic:**[Configuring Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-investigative-case-management.md)
+**Next topic:**[Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
 

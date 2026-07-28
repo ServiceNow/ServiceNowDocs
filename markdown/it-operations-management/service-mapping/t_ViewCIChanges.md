@@ -71,15 +71,15 @@ You can mark times on the history scale by creating baselines to quickly return 
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d505083e300">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d505097e300">
 
 Option
 
-</th><th align="left" id="d505083e303">
+</th><th align="left" id="d505097e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d505083e309">
+</th></tr></thead><tbody><tr><td id="d505097e309">
 
 **To set the time range of the history timeline**
 
@@ -87,7 +87,7 @@ Action
 
 Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d505083e324">
+</td></tr><tr><td id="d505097e324">
 
 **To increase or decrease the time range**
 
@@ -95,7 +95,7 @@ Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIc
 
 Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d505083e339">
+</td></tr><tr><td id="d505097e339">
 
 **To change the upper limit on your history range**
 
@@ -136,15 +136,15 @@ You cannot set the lower limit on your history range to a time before this servi
 
 5.  View the change history.
 
-<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d505083e476">
+<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d505097e476">
 
 Option
 
-</th><th align="left" id="d505083e479">
+</th><th align="left" id="d505097e479">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d505083e485">
+</th></tr></thead><tbody><tr><td id="d505097e485">
 
 **To see the CI responsible for a change record**
 
@@ -154,7 +154,7 @@ Select a change record on the **Changes** tab.The related CI is marked yellow in
 
  \[Omitted image "MapChangesTabSelectRecord.png"\] Alt text: View the CI responsible for a change record.
 
-</td></tr><tr><td id="d505083e507">
+</td></tr><tr><td id="d505097e507">
 
 **To see only change records related to a CI**
 
@@ -164,7 +164,7 @@ Select the required CI or the connection on the map.The **Changes** tab displays
 
  \[Omitted image "MapChangesTabSelectCI.png"\] Alt text: View only change records related to a CI.
 
-</td></tr><tr><td id="d505083e529">
+</td></tr><tr><td id="d505097e529">
 
 **To see the configuration file at the selected moment in the past**
 
@@ -175,7 +175,7 @@ Select the required CI or the connection on the map.The **Changes** tab displays
 
 The new tab opens displaying the content of the tracked configuration file at the selected time.
 
-</td></tr><tr><td id="d505083e555">
+</td></tr><tr><td id="d505097e555">
 
 **To see the network at the selected moment in the past**
 

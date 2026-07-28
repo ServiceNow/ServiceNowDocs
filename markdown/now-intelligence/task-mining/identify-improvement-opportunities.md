@@ -105,7 +105,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 ## What to do next
 
-Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md).
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see .
 
 **Related topics**  
 

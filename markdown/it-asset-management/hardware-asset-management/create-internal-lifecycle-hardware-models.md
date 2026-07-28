@@ -31,15 +31,15 @@ Beyond approximated and calculated lifecycles, Hardware Asset Management support
 
 2.  Open the create lifecycle form for the hardware model or consumable model record.
 
-<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d165563e95">
+<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d165541e95">
 
 Option
 
-</th><th align="left" id="d165563e98">
+</th><th align="left" id="d165541e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165563e104">
+</th></tr></thead><tbody><tr><td id="d165541e104">
 
 **Open the __Hardware Model Lifecycles__ tab**
 
@@ -52,7 +52,7 @@ Description
 
 The Create New Hardware Model Lifecycle form is displayed.
 
-</td></tr><tr><td id="d165563e142">
+</td></tr><tr><td id="d165541e142">
 
 **Open the __Consumable Lifecycles__ tab**
 

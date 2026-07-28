@@ -46,5 +46,5 @@ The product model is updated with the latest information.
 **Related topics**  
 
 
-[bundle-csm.product-data]
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
 
