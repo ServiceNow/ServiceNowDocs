@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Activate document intelligence for utility invoices skill, Configure, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate document intelligence for utility invoices skill, Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Setup metric definition and entity-mapping records
@@ -22,7 +22,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
--   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for Now Assist for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption. These metric definitions are active by default, no additional activation step is required for the preconfigured definitions.
+-   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for ServiceNow Otto for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption. These metric definitions are active by default, no additional activation step is required for the preconfigured definitions.
 -   If the preconfigured metric definitions don’t meet your requirements, you can create or use an existing metric definition. Then update the Metric Definition table and create or update mapping records to link the new definition to the appropriate record identifiers. When using custom metric definitions, confirm that all relevant mapping records are updated to reference the new definitions for accurate data association.
 -   The metric definition must be activated before using the Document Intelligence for Utility Invoices skill.
 

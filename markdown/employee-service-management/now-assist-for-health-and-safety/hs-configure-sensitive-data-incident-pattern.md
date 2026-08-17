@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure incident patterns, Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure incident patterns, Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Configure the inclusion of sensitive data in incident patterns

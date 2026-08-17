@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the form context menu and select **Configure** &gt; **UI Policies**.
 
-3.  Click **New**.
+3.  Select **New**.
 
 4.  Enter the following values on the **UI Policy** form.
 
@@ -67,7 +67,7 @@ Conditions
 
     The **UI Policy Actions** related list appears.
 
-6.  Click **New** in the **UI Policy Actions** related list.
+6.  Select **New** in the **UI Policy Actions** related list.
 
 7.  Enter the following values.
 

@@ -126,7 +126,7 @@ Inherits 17 roles including the following:
 
 1.  Define SLOs - Identify critical services and define SLOs based on customer expectations and business requirements.
 
-    **Note:** SLOs can also be generated automatically using the Now Assist SLO creator agent. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
+    **Note:** SLOs can also be generated automatically using the SLO creator agent. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 
 2.  Establish SLIs - Develop Service Level Indicators \(SLIs\) to measure SLO performance.
 3.  Monitor and analyze - Track SLI data and analyze performance against SLO targets.

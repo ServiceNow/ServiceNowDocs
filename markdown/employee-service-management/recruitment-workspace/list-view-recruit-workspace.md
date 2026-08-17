@@ -24,7 +24,6 @@ To get to the list view, you must select the list icon \(\[Omitted image "ta-rw-
 
 The Lists view enables you to manage your Recruitment workspace and all your own entities. You can view the following items in the **Recruitment workspace** &gt; **List** view:
 
--   Needs attention
 -   Job requisitions
 -   Applications
 -   Interviews

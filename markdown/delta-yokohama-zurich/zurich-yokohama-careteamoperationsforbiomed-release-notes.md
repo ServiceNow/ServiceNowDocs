@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-careteamoperationsforbiomed-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Healthcare Biomed case overview](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-biomed-case&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare Biomed case overview](https://www.servicenow.com/docs/access?context=hcls-cto-biomed-case&family=yokohama&ft:locale=en-US)**
 
 Expand biomed cases to support custom support requests for your organization’s biomed department.
 
--   **[Care Team Portal biomed requests](https://servicenow-staging.fluidtopics.net/access?context=requesting-cto-biomed&family=yokohama&ft:locale=en-US)**
+-   **[Care Team Portal biomed requests](https://www.servicenow.com/docs/access?context=requesting-cto-biomed&family=yokohama&ft:locale=en-US)**
 
 Request support from your organization’s biomed department with preconfigured record producers.
 
--   **[Healthcare biomed case and work order synchronization](https://servicenow-staging.fluidtopics.net/access?context=cto-fulfilling-biomed&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare biomed case and work order synchronization](https://www.servicenow.com/docs/access?context=cto-fulfilling-biomed&family=yokohama&ft:locale=en-US)**
 
 Care Team Operations for Biomed links biomed cases and work orders. For customers with Clinical Device Management, care teams will gain visibility into all biomed cases reported by their team while also providing biomed support teams with the ability to fulfill cases as work orders and work order tasks.
 
@@ -86,7 +86,7 @@ Zurich
 
 </td><td>
 
--   **[Setting up roles and responsibilities in Care Team Operations for Biomed](https://servicenow-staging.fluidtopics.net/access?context=cto-biomed-setting-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
+-   **[Setting up roles and responsibilities in Care Team Operations for Biomed](https://www.servicenow.com/docs/access?context=cto-biomed-setting-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
 
 Roles and responsibilities are updated to allow for more selective user access.
 
@@ -203,7 +203,7 @@ Yokohama
 
 </td><td>
 
-Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Zurich
 
 </td><td>
 
-Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -352,7 +352,7 @@ Yokohama
 -   Create biomed support requests from directly within the Care Team Portal.
 -   Gain full visibility into reported biomed cases while enabling biomed teams to manage and fulfill them as work orders or work orders tasks when Clinical Device Management is installed.
 
- See [Care Team Operations for Biomed](https://servicenow-staging.fluidtopics.net/access?context=care-team-operations-for-biomed&family=yokohama&ft:locale=en-US) for more information.
+ See [Care Team Operations for Biomed](https://www.servicenow.com/docs/access?context=care-team-operations-for-biomed&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Zurich
 
 Assign roles and responsibilities more efficiently with an updated user configuration process.
 
- See [Care Team Operations for Biomed](https://servicenow-staging.fluidtopics.net/access?context=care-team-operations-for-biomed&family=zurich&ft:locale=en-US) for more information.
+ See [Care Team Operations for Biomed](https://www.servicenow.com/docs/access?context=care-team-operations-for-biomed&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

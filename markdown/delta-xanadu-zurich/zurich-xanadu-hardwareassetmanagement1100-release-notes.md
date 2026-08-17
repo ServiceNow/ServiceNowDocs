@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-hardwareassetmanagement1100-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -77,19 +77,19 @@ Xanadu
 
 </td><td>
 
--   **[Offer assets and asset management services through Device as a Service feature](https://servicenow-staging.fluidtopics.net/access?context=exploring-daas&family=xanadu&ft:locale=en-US)**
+-   **[Offer assets and asset management services through Device as a Service feature](https://www.servicenow.com/docs/access?context=exploring-daas&family=xanadu&ft:locale=en-US)**
 
 Provide assets and asset management services to the customers of DaaS providers via a subscription model.
 
--   **[Manage the hardware asset requests by using the Zero Touch request flow](https://servicenow-staging.fluidtopics.net/access?context=zero-touch-request&family=xanadu&ft:locale=en-US)**
+-   **[Manage the hardware asset requests by using the Zero Touch request flow](https://www.servicenow.com/docs/access?context=zero-touch-request&family=xanadu&ft:locale=en-US)**
 
 Fulfill the hardware asset requests directly through an external vendor by using the Zero Touch request flow. When an employee submits a request for a hardware catalog item associated with the Zero Touch request flow, the request is sent to the external vendor who ships the asset directly to the employee.
 
--   **[Manage repair of defective assets in the stockroom by using the Repair flow](https://servicenow-staging.fluidtopics.net/access?context=requesting-hardware-asset-repair&family=xanadu&ft:locale=en-US)**
+-   **[Manage repair of defective assets in the stockroom by using the Repair flow](https://www.servicenow.com/docs/access?context=requesting-hardware-asset-repair&family=xanadu&ft:locale=en-US)**
 
 Request repair of assets that are defective or pending repair by using the Repair flow, which includes troubleshooting, repair, and evaluation tasks. Repair orders are processed either in the Hardware Asset Workspace or the ServiceNow Mobile Agent application.
 
--   **[Manage inventory picking within a stockroom](https://servicenow-staging.fluidtopics.net/access?context=managing-hardware-asset-pickup&family=xanadu&ft:locale=en-US)**
+-   **[Manage inventory picking within a stockroom](https://www.servicenow.com/docs/access?context=managing-hardware-asset-pickup&family=xanadu&ft:locale=en-US)**
 
 Pick assets in your stockroom easily for sourcing, hardware asset requests, and hardware asset refresh workflows by enabling the Pick task for your stockroom. The task lists the assets that you should pick from the stockroom, with aisle and space details providing the exact location from which the asset should be picked. Indoor mapping capabilities enable you to get directions to the location of the asset in the stockroom on your ServiceNow Mobile Agent application.
 
@@ -249,7 +249,7 @@ Xanadu
 
 </td><td>
 
-Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Xanadu
 -   Get defective hardware assets in a stockroom repaired quickly using the Repair flow.
 -   Locate and pick the assets in your stockroom efficiently by using the ServiceNow Mobile Agent application.
 
- See [Hardware Asset Management](https://servicenow-staging.fluidtopics.net/access?context=ham-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -25,7 +25,7 @@ Create a custom state map for a field of an Agile Development 2.0 table to map t
 
 You can map a state in Azure DevOps to multiple states in Agile Development 2.0. In such cases, the state in Agile Development 2.0 for an issue type depends on the choice order value that you provide for this state configuration.
 
-For example, when an work item from Azure DevOps that is in the **Active** state imported, the **State** field in Agile Development 2.0 is set to **Work in progress** as it has the lowest choice order value.
+For example, when a work item from Azure DevOps that is in the **Active** state is imported, the **State** field in Agile Development 2.0 is set to **Work in progress**. This mapping occurs because Work in progress has the lowest choice order value.
 
 You can also map multiple states in Azure DevOps to a single state in Agile Development 2.0.
 

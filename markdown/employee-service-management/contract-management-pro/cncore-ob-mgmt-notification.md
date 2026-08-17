@@ -44,9 +44,9 @@ For information about how to activate notifications, see [Configure Obligation M
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

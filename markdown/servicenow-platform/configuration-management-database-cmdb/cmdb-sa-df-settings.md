@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2025-07-28"
 reading_time_minutes: 1
+keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group]
 breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -46,7 +47,7 @@ Evaluates whether reconciliation rules correctly assign attribute ownership to t
 
 </td></tr><tr><td>
 
-CI classes missing managed by group
+Review CI classes without managed by group
 
 </td><td>
 
@@ -54,7 +55,15 @@ Shows principal CI classes that do not have a **Managed by group** field configu
 
 </td></tr><tr><td>
 
-Review CMDB Data Manager policies
+Review custom attributes
+
+</td><td>
+
+Makes sure that custom attributes for each principal CI class are fewer than 10. A high number of custom attributes can increase maintenance overhead and reduce data quality consistency across the CMDB.
+
+</td></tr><tr><td>
+
+Review Data Manager policies
 
 </td><td>
 

@@ -40,7 +40,7 @@ Application Service Risk \[sn\_apm\_tpm\_business\_service\_risk\]
 
 </td><td>
 
-Stores risks on an application service for TPM.
+Stores risks on an application service for TLM.
 
 </td></tr><tr><td>
 

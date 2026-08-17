@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage the Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Manage the Technology Reference Model in Enterprise Architecture Wo
 
 A TRM technical debt indicates the unapproved usage of a software. The technical debts table \[sn\_apm\_trm\_standards\_technical\_debt\], displays the TRM products and associated business applications details, and the reason for the technical debt.
 
-To view the TRM technical debts, you require Technology Portfolio Management \[sn\_apm\_tpm\] store application and SAM Foundation \[com.snc.sams\] plugin.
+To view the TRM technical debts, you require Technology Lifecycle Management \[sn\_apm\_tpm\] store application and SAM Foundation \[com.snc.sams\] plugin.
 
 Technical debts are created at two levels if any of the following conditions are met. The Level 2 is checked only if the system property **sn\_apm\_trm.is\_product\_life\_cycle\_tech\_debt\_enabled** is set to True.
 
@@ -22,7 +22,7 @@ Technical debts are created at two levels if any of the following conditions are
     -   If a product is associated with a business application, but isn’t part of the TRM product list. \(OR\)
     -   If a product is associated with a business application and part of the TRM products list, but has the TRM phase's production unapproved.
 -   Level 2
-    -   If a product is associated with a business application, is part of the TRM products list, and has the TRM phase's production approved but doesn’t have any associated TRM Product life cycles. \(OR\)
+    -   If a product is associated with a business application and is part of the TRM products list. The TRM phase's production is approved, but the product doesn’t have any associated TRM Product life cycles. \(OR\)
     -   If a product is associated with a business application and part of the TRM products list, has the TRM phase with production approved, and the TRM product lifecycle exists, one of the following cases is considered:
 
         Case 1: If the lifecycle full version of the software discovery model \[cmdb\_sam\_sw\_discovery\_model\] is not empty.

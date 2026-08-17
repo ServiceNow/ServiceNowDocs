@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-13"
 reading_time_minutes: 3
 breadcrumb: [Specialized VA integrations for Teams, Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -31,7 +31,7 @@ If you are a commercial customer who has already installed a pre-published bot b
 Before integrating Virtual Agent with your Microsoft Teams tenant, ensure that the following prerequisites are met:
 
 -   Verify that your ServiceNow instances have been upgraded to the San Diego release.
--   If you are a commercial user, verify that your Microsoft 365 is on the commercial environment. If you are a regulated market user, verify that your Microsoft 365 is on the GCC environment.
+-   Verify that your Microsoft 365 installation is on the commercial environment, which has a **.com** suffix. If your Microsoft 365 environment is in any regulated market environment, see [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md).
 -   You have not attempted previous installations of the Conversational Integration with Microsoft Teams in your instances.
 
     If you previously tried to install the integration in Quebec and the above releases, refer to this [Knowledge Base](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116195) article to remove the residual installation items.

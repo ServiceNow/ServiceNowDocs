@@ -18,7 +18,7 @@ You can track and manage IBM licenses in both VMware vSphere environments and IB
 
 The CVA Program is a license verification program that allows clients who contract with Authorized SAM Providers \(ASPs\) to report on their IBM license usage independently. For more information on the CVA Program, refer to the [IBM CVA Program](https://www.ibm.com/about/software-licensing/us-en/sam/cva_program) page.
 
-**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you are an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program. For more details, refer to the [IBM IASP Program Verification](https://www.ibm.com/about/software-licensing/us-en/verification/iasp) page.
+**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you're an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program.
 
 The IBM publisher pack supports integrations with the following ASPs:
 

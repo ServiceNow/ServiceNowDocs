@@ -30,7 +30,7 @@ An attended automation requires human supervision. For example, in a contact cen
 
 To create automation projects, you can use the default templates that RPA Desktop Design Studio provides or the custom automation templates that you have created and published to the RPA Hub. An automation template caters to a use case and provides a framework of automation. For example, automate a manual employee onboarding process. The default templates that the RPA Desktop Design Studio provides are `Unattended Non-Transactional Workflow`, `Unattended Transactional Workflow`, and `Attended Workflow`. You can also create automations with no template.
 
-To create an automation project using Now Assist, see [Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/create-automation-now-assist.md).
+To create an automation project using Now Assist, see [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/create-automation-now-assist.md).
 
 ## Procedure
 

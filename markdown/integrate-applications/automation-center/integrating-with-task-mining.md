@@ -28,7 +28,7 @@ Task Mining integration helps you use Task Mining to identify, design, and build
 -   **[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-agent.md)**  
 Create an automation request agent to efficiently manage the tasks of the automation request without manual intervention.
 -   **[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automate-tasks-from-task-mining.md)**  
-Automation Center can receive task recordings from Task Mining, decompose them into discrete automations, and generate an AI agent in AI Agent Studio that executes those automations using AI Desktop Actions.
+Automation Center can receive task recordings from Task Mining, breaks them into discrete automations, and generates an AI agent in AI Agent Studio that executes those automations using AI Desktop Actions.
 
 **Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-use.md)
 

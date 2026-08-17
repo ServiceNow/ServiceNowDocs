@@ -101,7 +101,7 @@ Group report data using the values of this field. For example, in an incident re
 
  **Note:**
 
--   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see [Database field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_DatabaseFieldTypes.md).
+-   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see .
 -   Grouping or stacking by Variables or Questions fields is not supported for reports based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 
@@ -164,6 +164,6 @@ Configure fields based on calculation of multiple inputs including arithmetic fu
 
     **Note:**
 
-    -   The default number of rows in a list report exported to PDF is 1000. To configure this value, enter `sys_properties.list` in the Filter Navigator, and edit the property glide.pdf.max\_rows. For more information, see: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    -   The default number of rows in a list report exported to PDF is 1000. To configure this value, enter `sys_properties.list` in the Filter Navigator, and edit the property glide.pdf.max\_rows. For more information, see: Add a system property.
     -   Despite list filtering, pdf-format exported rows will count all record rows sequentially up to the export limit and show as blank for roles prevented by ACLs from viewing restricted data.
 

@@ -4,7 +4,7 @@ description: The ServiceNow External Content Connectors application enables AI S
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-02-09"
+last_updated: "2026-07-28"
 reading_time_minutes: 9
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 ---
@@ -14,6 +14,10 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
 
 ## External Content Connectors highlights for the Zurich release
+
+[Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)
+
+Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
 
 [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
 
@@ -41,11 +45,16 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 
 ## Important information for upgrading External Content Connectors to Zurich
 
-Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+Starting in version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
 
-When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you complete both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
 
 ## New in the Zurich release
+
+-   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/filter-content-label-google-drive-external-content-connector.md)**
+
+    Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
 
 -   **[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/adobe-acrobat-sign-external-content-connector.md)**
 
@@ -262,7 +271,7 @@ When you upgrade to version 4 of the External Content Connectors application fro
 
 ## Activation information
 
-Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 

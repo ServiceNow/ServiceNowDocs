@@ -109,15 +109,15 @@ The template is archived. You can archive only a retired template.
 
 9.  Publish, save, or copy the draft template.
 
-<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d21963e380">
+<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d21816e380">
 
 Action
 
-</th><th align="left" id="d21963e383">
+</th><th align="left" id="d21816e383">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21963e389">
+</th></tr></thead><tbody><tr><td id="d21816e389">
 
 **Publish**
 
@@ -133,7 +133,7 @@ Do one of the following actions:
 -   To publish this template, select **OK**.
 When you publish it, its state changes from Draft to Published.
 
-</td></tr><tr><td id="d21963e418">
+</td></tr><tr><td id="d21816e418">
 
 **Save**
 
@@ -141,7 +141,7 @@ When you publish it, its state changes from Draft to Published.
 
 Update the template with the new data that you added.
 
-</td></tr><tr><td id="d21963e429">
+</td></tr><tr><td id="d21816e429">
 
 **Copy**
 

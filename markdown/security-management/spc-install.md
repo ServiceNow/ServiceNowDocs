@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-install.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-28"
+last_updated: "2026-07-31"
 reading_time_minutes: 5
 breadcrumb: [Explore, Security Posture Control, Security Operations]
 ---
@@ -43,10 +43,10 @@ Role required: admin for download, installation, and activation of all applicati
 
     |Application|Application ID and version|
     |-----------|--------------------------|
-    |Security Posture Control API Connectors|sn\_spc\_cxf v1.0.3|
-    |Security Posture Control|sn\_sec\_spc\_core v6.3.2|
-    |Asset Security Posture Management|sn\_sec\_caasm v5.4.1|
-    |Mitigation Controls Monitoring|sn\_sec\_mit\_ctrl v4.1.0|
+    |Security Posture Control API Connectors|sn\_spc\_cxf|
+    |Security Posture Control|sn\_sec\_spc\_core|
+    |Asset Security Posture Management|sn\_sec\_caasm|
+    |Mitigation Controls Monitoring|sn\_sec\_mit\_ctrl|
 
     |Plugin|Plugin ID|
     |------|---------|
@@ -100,7 +100,7 @@ Role required: admin for download, installation, and activation of all applicati
 
 6.  Set the **ignoreCIClass** \[sn\_sec\_cmn.ignoreCIClass\] system property to ignore some configuration item \(CI\) classes when running CI Lookup Rules.
 
-    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes so that you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/create-ci-identifier-rules.md) and [Ignore CI classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/ignore-CI-classes.md) for more information.
+    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes. By ignoring these items, you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/create-ci-identifier-rules.md) and [Ignore CI classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/ignore-CI-classes.md) for more information.
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 

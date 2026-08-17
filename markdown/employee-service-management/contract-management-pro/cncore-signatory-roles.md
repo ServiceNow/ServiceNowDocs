@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [signatory role, signer, viewer, receiver, approver, signatory status]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

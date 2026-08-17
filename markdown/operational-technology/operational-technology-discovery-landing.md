@@ -28,7 +28,7 @@ Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
 </td><td>
 
-[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md)
+[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/discovery-for-operational-technology.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

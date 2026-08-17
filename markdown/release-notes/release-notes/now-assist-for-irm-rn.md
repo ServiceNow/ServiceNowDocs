@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Integrated Risk Management \(IRM\)
-description: The ServiceNow Now Assist for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. Now Assist for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: The ServiceNow ServiceNow Otto for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. ServiceNow Otto for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-11-05"
 reading_time_minutes: 8
 ---
 
-# Now Assist for Integrated Risk Management \(IRM\)
+# ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-The ServiceNow® Now Assist for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. Now Assist for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. ServiceNow Otto for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
 
-## Now Assist for Integrated Risk Management \(IRM\) highlights for the Zurich release
+## ServiceNow Otto for Integrated Risk Management \(IRM\) highlights for the Zurich release
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
 
@@ -26,15 +26,15 @@ The ServiceNow® Now Assist for Integrated Risk Management \(IRM\) application b
 -   Use the generate regulatory action plan agentic workflow to turn regulatory insights into actionable compliance strategies with structured tasks, clear ownership, and timelines. Start by selecting Generate action plan from the Ask Now Assist action menu on the regulatory alert page or Generate Regulatory Action Plan from the Now Assist panel.
 -   Use the Risk Suggestion AI Agent to discover potential risks for an entity, giving risk managers better insights for informed decision-making.
 -   Use the report a GRC issue AI agent in the Employee Center to report issues through a guided conversational experience.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md):
 
 -   Use AI-generated recommendations to identify which controls are impacted by a regulatory alert.
 
-See [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md) for more information.
+See [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md) for more information.
 
-**Important:** Now Assist for Integrated Risk Management \(IRM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Integrated Risk Management \(IRM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
@@ -81,19 +81,19 @@ See [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubuserco
 
 -   **Now Assist skills for Risk &amp; Sustainability**
 
-    The skill family name **Regulatory change management** has been updated to **Regulatory change** to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the Now Assist Admin Center.
+    The skill family name **Regulatory change management** has been updated to **Regulatory change** to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the AI Admin Hub Center.
 
 
 -   **Now assist skills group renamed**
 
-    The skill group previously named IRM is now renamed Risk &amp; Sustainability under the Technology workflow module in the Now Assist Admin Center.
+    The skill group previously named IRM is now renamed Risk &amp; Sustainability under the Technology workflow module in the AI Admin Hub Center.
 
 
 ## Changed in this release
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
@@ -104,16 +104,16 @@ See [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubuserco
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 -   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
+    Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
 ## Activation information
 
-Install Now Assist for Integrated Risk Management \(IRM\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for Integrated Risk Management \(IRM\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
-All Now Assist for IRM skills and agentic workflows are activated by default after installing Now Assist for Integrated Risk Management \(IRM\).
+All ServiceNow Otto for IRM skills and agentic workflows are activated by default after installing ServiceNow Otto for Integrated Risk Management \(IRM\).
 
 ## Related ServiceNow applications and features
 
@@ -121,9 +121,9 @@ All Now Assist for IRM skills and agentic workflows are activated by default aft
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    Use the Now Assist Admin console for quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console for quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
 
 -   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 

@@ -206,3 +206,5 @@ This task is optional.
 
 [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
 
+[Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
+

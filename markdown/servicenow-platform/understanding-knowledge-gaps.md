@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/understanding-knowledge-gaps.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,12 +16,12 @@ Potential knowledge gaps represent areas where you frequently encounter issues b
 
 The Knowledge Center identifies gaps based on case or incident trends and their reporting patterns. These gaps highlight missing or insufficient knowledge articles that need attention.
 
-**Note:** The Knowledge Gap also known as Potential gaps feature is supported currently in CSM and ITSM products.
+**Note:** The Knowledge Gap \(also known as Potential Gaps\) feature is supported in CSM and ITSM products.
 
 ## Types of views
 
 -   All Knowledge Gaps: Displays a complete list of gaps across the organization.
--   Top five Gap Views: Shows information of the top five gaps from the incident and cases.
+-   Top five Gap Views: Shows information about the top five gaps from incidents and cases.
 
 ## Benefits
 
@@ -29,13 +29,13 @@ Addressing gaps helps reduce repeated incidents, improves self-service, and prom
 
 ## Available knowledge actions
 
--   **Unmark as gap**: Remove invalid gaps discovered and remove the issues and all its tasks from the list.
+-   **Unmark as gap**: Remove invalid gaps and remove the issues and all associated tasks from the list.
 -   **Mark as resolved**: Close gaps after creating or updating articles.
--   **Report a gap**: Create feedback task for the articles where you believe that a gap exists. Once the article is created, the gap can’t be reported again.
--   **Create an article**: Draft new content to address the gap.
+-   **Report a gap**: Create a feedback task for articles where a gap exists. After the article is created, the gap can't be reported again.
+-   **Create an article**: Draft content to address the gap.
 
 **Related topics**  
 
 
-[Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 

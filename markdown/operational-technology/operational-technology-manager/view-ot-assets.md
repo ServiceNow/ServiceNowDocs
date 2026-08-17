@@ -20,7 +20,7 @@ Use the options on the Operational Technology \(OT\) menu to edit or view detail
 
 Import your Operational Technology device data in any of the following ways:
 
--   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md).
+-   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/discovery-for-operational-technology.md).
 -   Use an Operational Technology Certified Service Graph Connector from the ServiceNow Store.
 
 Role required: cmdb\_ot\_viewer, cmdb\_ot\_editor, cmdb\_ot\_admin, or admin

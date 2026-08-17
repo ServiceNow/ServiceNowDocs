@@ -1,5 +1,5 @@
 ---
-title: Data mapping for Observability-Dynatrace
+title: Data mapping for Service Graph Connector for Observability - Dynatrace
 description: Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace.html
@@ -12,7 +12,7 @@ reading_time_minutes: 8
 breadcrumb: [Observability-Dynatrace, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Data mapping for Observability-Dynatrace
+# Data mapping for Service Graph Connector for Observability - Dynatrace
 
 Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 
@@ -22,7 +22,7 @@ When you complete setting up the connection, you can configure the integration t
 
 For more information on where data is saved when pulling data from Dynatrace, see [CMDB classes targeted in Service Graph Connector for Observability - Dynatrace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md).
 
-The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Observability-Dynatrace.
+The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Service Graph Connector for Observability - Dynatrace.
 
 <table id="table_uqr_txg_jzb" class="custom-rows"><thead><tr><th class="filter">
 

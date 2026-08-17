@@ -1,18 +1,19 @@
 ---
-title: Using Now Assist for Accounts Payable Operations \(APO\)
-description: If you've the sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_cm.agent role, you can summarize the details of an invoice case, completed actions, or pending tasks with the Now Assist for Accounts Payable Operations \(APO\) application.
+title: Use ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: ServiceNow Otto for Accounts Payable Operations \(APO\) helps accounts payable specialists and agents summarize invoice case details, completed actions, and pending tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, Accounts Payable Specialist, cm agent, invoice management, AP case, ServiceNow Otto]
+breadcrumb: [ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Using Now Assist for Accounts Payable Operations \(APO\)
+# Use ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-If you've the sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_cm.agent role, you can summarize the details of an invoice case, completed actions, or pending tasks with the Now Assist for Accounts Payable Operations \(APO\) application.
+ServiceNow Otto for Accounts Payable Operations \(APO\) helps accounts payable specialists and agents summarize invoice case details, completed actions, and pending tasks.
 

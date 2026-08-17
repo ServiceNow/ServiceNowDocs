@@ -30,7 +30,7 @@ For more information on support levels, see [Application support for domain sepa
 
 Proactive Service Experience Workflows \(TAW\) is a series of workflows that enhance the Incident Management application and its integration with customer workflow processes, such as Case Management and Field Service Management. That means that Proactive Service Experience Workflows doesn't require any additional domain separation support because the foundation applications already provide that support. To learn more, see [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md).
 
-**Parent Topic:**[Now Assist for Telecommunications, Media and Technology \(TMT\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Proactive Service Experience Workflows reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 

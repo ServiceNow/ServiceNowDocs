@@ -1,22 +1,22 @@
 ---
-title: Summarize a chat conversation using Now Assist for Public Sector Digital Services \(PSDS\)
-description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\).
+title: Summarize a chat conversation using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/now-assist-psds-summarize-chat.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Summarize a chat conversation using Now Assist for Public Sector Digital Services \(PSDS\)
+# Summarize a chat conversation using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\).
+Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 ## About this task
 
-Agents can utilize chat summarization, powered by Now LLM, to gain contextual understanding of support issues throughout a chat's lifecycle, even if it involves virtual agent interactions, transfers to live agents, or multiple hand-offs between agents.
+Agents can utilize chat summarization to gain contextual understanding of support issues throughout a chat's lifecycle, even if it involves virtual agent interactions, transfers to live agents, or multiple hand-offs between agents.
 
 In a Virtual Agent conversation, when a requester chooses to connect to a live agent, a chat interaction appears in your inbox. When you accept the interaction, a summary of the Virtual Agent conversation is generated. You can request more details from the requester to resolve the issue.
 
@@ -29,7 +29,7 @@ The chat summarization skill enables you to do the following actions:
 -   Summarize the chat at any point during the conversation using the `/summarize` quick action.
 -   Summarize the chat between a live agent and a customer when a chat is handed off to another live agent or when an agent wraps up the conversation and ends the interaction.
 
-**Note:** You can also generate a chat summary on demand from the Now Assist panel. For more information, see .
+**Note:** You can also generate a chat summary on demand from the ServiceNow Otto panel. .
 
 The chat summarization skill updates the Short description and Chat Summary fields on the interaction record once the chat is ended.
 
@@ -43,9 +43,7 @@ Role required: admin
 
 2.  In CSM Configurable Workspace, open a chat from your inbox.
 
-    The chat summarization skill automatically creates an inline summary in the Active Chat window. This summary includes the constituent’s issue, the interaction with the Virtual Agent, and any actions the constituent has taken before engaging with a live agent. This summary appears in the Active Chat window and is identified by the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
-
-    \[Omitted image "chat-handoff-na-psds.png"\] Alt text: AI-generated chat summaries for an interaction.
+    The chat summarization skill automatically creates an inline summary in the Active Chat window. This summary includes the constituent’s issue, the interaction with the Virtual Agent, and any actions the constituent has taken before engaging with a live agent. This summary appears in the Active Chat window and is identified by the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto icon.\) and the **AI chat summary** label.
 
 3.  Provide feedback for the chat summary by selecting the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\) on the summary card.
 

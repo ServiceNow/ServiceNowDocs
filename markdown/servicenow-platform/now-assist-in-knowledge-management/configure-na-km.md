@@ -1,20 +1,20 @@
 ---
-title: Configure Now Assist Skills for potential gaps
-description: The Potential Gaps also known as the knowledge gaps feature identifies missing knowledge articles. This functionality is available only when the Knowledge Gaps skill is activated in Now Assist Admin. Configuring this skill is necessary when working with gaps.
+title: Configure skills for potential gaps
+description: The knowledge gaps feature identifies missing knowledge articles. Activate the Knowledge Gaps skill in the ServiceNow Otto AI Admin console before working with gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.html
 release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2025-11-25"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Now Assist Skills for potential gaps
+# Configure skills for potential gaps
 
-The Potential Gaps also known as the knowledge gaps feature identifies missing knowledge articles. This functionality is available only when the Knowledge Gaps skill is activated in Now Assist Admin. Configuring this skill is necessary when working with gaps.
+The knowledge gaps feature identifies missing knowledge articles. Activate the Knowledge Gaps skill in the ServiceNow Otto AI Admin console before working with gaps.
 
 ## Before you begin
 
@@ -22,18 +22,18 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Platform** &gt; **Knowledge**.
+1.  Navigate to **All** &gt; **AI Admin** &gt; **AI Skills** &gt; **Platform** &gt; **Knowledge**.
 
 2.  From the set of knowledge gap skills, you can **enable** or **disable** the following skills:
 
     -   You can activate or deactivate the **Knowledge gaps identification \(ITSM\)** skill.
     -   You can activate or deactivate the **Knowledge gaps identification \(CSM\)** skill.
-    Verify that the skills display an **Active** or **Deactivated** status according to your selection.
+    Confirm that the skills display an **Active** or **Deactivated** status.
 
-    Once the skills are activated, you can view the gap recommendations on the Knowledge Center home page.
+    After the skills are activated, gap recommendations appear on the Knowledge Center home page.
 
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 

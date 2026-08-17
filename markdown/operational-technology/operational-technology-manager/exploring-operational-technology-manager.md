@@ -26,8 +26,10 @@ Operational Technology Manager adds these Configuration Management Database \(CM
 Multiple methods are available for uploading your existing Operational Technology device data into the ServiceNow AI Platform.
 -   **[Differences between OT and standard IT networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/differences-between-ot-standard-it-networks.md)**  
 There are differences in how the Configuration Management Database \(CMDB\) handles the devices located in Operational Technology networks and those in standard Information Technology \(IT\) networks.
+-   **[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md)**  
+The Operational Technology \(OT\) Manager Foundation plugin uses generative AI to help streamline processes in the Industrial Workspace related to your OT device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
 -   **[Enhanced Access Control for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-enhanced-access-control.md)**  
-Enhanced Access Control for Operational Technology \(Operational Technology\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
+Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 -   **[Viewing your installed Operational Technology applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/view-installed-ot-applications.md)**  
 You can view the Operational Technology \(OT\) applications that you have installed on your instance for better visibility of how you can use the Operational Technology Management solution.
 

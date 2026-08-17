@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 3
 keywords: [experience journey, end-to-end scenario, AI front door, day in the life]
-breadcrumb: [Working with Moveworks capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Employee Slate for Moveworks use cases

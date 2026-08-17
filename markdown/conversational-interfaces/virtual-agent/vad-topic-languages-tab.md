@@ -8,8 +8,8 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+reading_time_minutes: 3
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Languages tab
@@ -38,7 +38,7 @@ Language
 
 List of available languages in Virtual Agent.
 
- Only installed languages are displayed \(the language plugins are activated\). If a language appears as unavailable, it means the language plugin is installed, but it has not been activated in Virtual Agent settings or in the Localization Framework. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md) and Languages table.
+ Only installed languages are displayed \(the language plugins are activated\). If a language appears as unavailable, it means the language plugin is installed, but it has not been activated in Virtual Agent settings or in the Localization Framework. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_LanguagesTable.md).
 
 </td></tr><tr><td>
 
@@ -85,9 +85,9 @@ Click the link to test the topic in a particular language.
 
 If you've enabled NLU on your instance, you can view or modify the topic mappings on this tab. You can also map your entities and test the translated topic here.
 
-**Note:** Unless you're using legacy, single-language models, all secondary languages in a topic must be mapped to the same model group. In most cases, changing the mapping for one secondary language will change the mappings for all secondary languages in the topic. For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
+**Note:** Unless you're using legacy, single-language models, all secondary languages in a topic must be mapped to the same model group. In most cases, changing the mapping for one secondary language will change the mappings for all secondary languages in the topic. For more information, see [NLU model mapping in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
 
 \[Omitted image "vad-languages-nlu-mapping-tab.png"\] Alt text: View NLU bindings and entity mapping.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

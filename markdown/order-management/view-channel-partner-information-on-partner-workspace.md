@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-channel-partner-information-on-partner-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list view.
 
-    To learn more about the CSM/FSM Configurable Workspace, see .
+    To learn more about the CSM/FSM Configurable Workspace, see [CSM Configurable Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-overview.md).
 
 2.  Select **Channel Partners** from the Partner Relationship Management module.
 

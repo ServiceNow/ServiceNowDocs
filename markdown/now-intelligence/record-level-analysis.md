@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Configure record level analysis in AI Data Explorer
@@ -26,11 +26,11 @@ Record-level analysis provides deeper insights into your data. You can activate 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 
-3.  In Now Assist skills for Analytics, search for the analytics exploration skill.
+3.  In AI skills for Analytics, search for the analytics exploration skill.
 
 4.  If the **Activate skill** button is visible for this skill, press it to activate the skill.
 
@@ -55,7 +55,7 @@ Record-level analysis provides deeper insights into your data. You can activate 
 
 10. Select **Save and continue**.
 
-11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-now-ass-explorer.md), or exit if the skill is already activated and you don’t want to make further changes.
+11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-aide-explorer.md), or exit if the skill is already activated and you don’t want to make further changes.
 
 
 ## Simple request with and without record level analytics
@@ -72,5 +72,5 @@ Finally, you ask the same question again in an exploration, asking for all open 
 
 \[Omitted image "ai-data-expl-response-with-rla.png"\] Alt text: Response in an exploration with record level analytics.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-aide-explorer.md)
 

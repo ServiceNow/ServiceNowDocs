@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-06-29"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Prompt library

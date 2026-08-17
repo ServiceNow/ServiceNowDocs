@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Financial Services Operations \(FSO\)
-description: Use the ServiceNow Now Assist for Financial Services Operations \(FSO\) application to leverage AI and Now LLM to automate your financial operations processes.
+title: ServiceNow Otto for Financial Services Operations \(FSO\)
+description: Use the ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application to leverage AI and Now LLM to automate your financial operations processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.html
 release: zurich
@@ -13,23 +13,23 @@ keywords: [generative AI for FSO, generative AI for financial service operations
 breadcrumb: [Financial Services Operations \(FSO\)]
 ---
 
-# Now Assist for Financial Services Operations \(FSO\)
+# ServiceNow Otto for Financial Services Operations \(FSO\)
 
-Use the ServiceNow® Now Assist for Financial Services Operations \(FSO\) application to leverage AI and Now LLM to automate your financial operations processes.
+Use the ServiceNow® ServiceNow Otto for Financial Services Operations \(FSO\) application to leverage AI and Now LLM to automate your financial operations processes.
 
 ## Get started
 
 <table id="table_vqd_fm5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for FSO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use agentic AI capabilities offered by Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use agentic AI capabilities offered by ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow® Now Assist for Financial Services Operations \(FSO\) applic
 
 </td><td>
 
-[Use Financial Services Operations AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)
+[Use Financial Services Operations AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)
 
 </td><td>
 

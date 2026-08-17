@@ -1,6 +1,6 @@
 ---
 title: Generate a risk event summary in the Risk Workspace
-description: Generate a risk event summary using the Now Assist for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
+description: Generate a risk event summary using the ServiceNow Otto for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/generate-risk-event-summary-in-the-risk-workspace.html
 release: zurich
@@ -14,13 +14,13 @@ breadcrumb: [Use generative AI skills, Now Assist, Common GRC features, Governan
 
 # Generate a risk event summary in the Risk Workspace
 
-Generate a risk event summary using the Now Assist for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
+Generate a risk event summary using the ServiceNow Otto for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 
 ## Before you begin
 
-Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate a risk event summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_risk\_genai.risk\_event\_user
 

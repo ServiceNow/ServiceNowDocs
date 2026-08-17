@@ -15,7 +15,7 @@ breadcrumb: [UI generation, Builder library, Developing your application, Buildi
 Configure and install UI generation.
 
 -   **[Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-ui-generation.md)**  
-Install the ServiceNow® Now Assist for Creator application from the ServiceNow® Store to get Now Assist for UI generation.
+Install the ServiceNow® ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist for UI generation.
 
 **Parent Topic:**[UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-generation-landing.md)
 

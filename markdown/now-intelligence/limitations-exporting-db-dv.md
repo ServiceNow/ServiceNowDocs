@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-08-08"
 reading_time_minutes: 1
-breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Limitations for exporting dashboards and visualizations

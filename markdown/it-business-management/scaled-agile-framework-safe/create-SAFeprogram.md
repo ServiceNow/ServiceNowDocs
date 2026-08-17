@@ -24,15 +24,15 @@ Role required: safe\_admin
 
 1.  Create an agile release train using either of the following options.
 
-<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d65785e56">
+<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d66568e56">
 
 Option
 
-</th><th align="left" id="d65785e59">
+</th><th align="left" id="d66568e59">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65785e65">
+</th></tr></thead><tbody><tr><td id="d66568e65">
 
 **From the Agile Release Train module**
 
@@ -42,7 +42,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d65785e95">
+</td></tr><tr><td id="d66568e95">
 
 **From the Portfolio form**
 

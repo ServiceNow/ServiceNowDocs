@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-08-18"
 reading_time_minutes: 2
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure Sidebar Summarization
@@ -24,7 +24,7 @@ Sidebar summarization is generated from the information within selected tables c
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -88,7 +88,7 @@ Sidebar summarization is generated from the information within selected tables c
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
 
-7.  Toggle **Select display** to determine if sidebar summarization appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
+7.  Toggle **Select display** to determine if sidebar summarization appears in In-product desktop, displaying AI skills on forms and workspaces.
 
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the sidebar summarization generation settings.
 

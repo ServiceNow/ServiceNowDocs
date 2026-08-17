@@ -1,5 +1,5 @@
 ---
-title: Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
+title: Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: You must activate agentic workflows that contain a set of LLM instructions with one or more AI agents to execute tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.html
@@ -13,13 +13,13 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
+# Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 You must activate agentic workflows that contain a set of LLM instructions with one or more AI agents to execute tasks.
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 

@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-10-28"
-reading_time_minutes: 4
-breadcrumb: [Review AI results, Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Review AI results, Use agentic workflows, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review AI-extracted obligations
@@ -28,15 +28,15 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d82287e68">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d81967e68">
 
 Method
 
-</th><th align="left" id="d82287e71">
+</th><th align="left" id="d81967e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d82287e77">
+</th></tr></thead><tbody><tr><td id="d81967e77">
 
 **Contract Workspace**
 
@@ -49,7 +49,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d82287e124">
+</td></tr><tr><td id="d81967e124">
 
 **Workspace used by your application**
 
@@ -61,7 +61,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d82287e151">
+</td></tr><tr><td id="d81967e151">
 
 **Email notification**
 
@@ -74,22 +74,16 @@ Select **Review contract** in the email notification that you receive after the 
 
     The playbook opens displaying a step-by-step interface to review the extracted obligations.
 
-    \[Omitted image "cmpro-na-playbook.png"\] Alt text: Contract playbook displaying extracted obligations details.
-
-3.  In the playbook, navigate to the **Review extracted obligations** step under the AI extracted obligations section.
+3.  In the playbook, navigate to the **Review obligations** step under the AI extracted obligations section.
 
 4.  Select **Review**.
 
     The extracted obligations are displayed on a new tab.
 
-    \[Omitted image "cmpro-na-ob-extracted.png"\] Alt text: Form displaying the list of extracted obligations.
-
 5.  Select an obligation to review the obligation details.
 
     -   The **Details** tab displays the extracted obligation details. Use this tab to edit, approve, or reject the obligation.
     -   The **Activity** tab displays a log of key attributes identified during the extraction process. Use this tab to review how the AI agent detected and populated the obligation, including the original text snippets and metadata extracted from the contract. The **Activity** tab helps you validate the extraction accuracy and provides transparency into the decision-making process for each obligation.
-    \[Omitted image "cmpro-na-ob-reviewob.png"\] Alt text: Obligation details form displaying the information extracted by AI.
-
 6.  On the **Details** tab, perform the required action.
 
     -   Edit the obligation details as needed.
@@ -118,8 +112,6 @@ Approved obligations are available as records in the **Obligations** tab of the 
 If the schedule of the obligation is recurring, the obligation tasks are automatically created based on the interval specified in the **Repeats** field.
 
 If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information see, [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.md).
-
-\[Omitted image "cmpro-na-ob-added.png"\] Alt text: Obligations tab displaying the list of obligations added in the contract repository record.
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for FSM]
+breadcrumb: [Configure, ServiceNow Otto for FSM]
 ---
 
 # Configure the KB generation skill
@@ -26,7 +26,7 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences** to access the **Now Assist panel** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences** to access the **Now Assist panel** tab of the AI Admin Hub console.
 
 2.  In the summary section, select **Turn on**.\[Omitted image "FSM\_NowAssist\_enableNowAssistpanel.png"\] Alt text: Turn on the Now Assist panel
 

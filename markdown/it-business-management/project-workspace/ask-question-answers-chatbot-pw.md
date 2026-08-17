@@ -1,6 +1,6 @@
 ---
 title: Ask project questions using the Project Answers agent
-description: Use Ask Now Assist to open the Now Assist panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+description: Use Ask Otto to open the AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/ask-question-answers-chatbot-pw.html
 release: zurich
@@ -9,16 +9,14 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Ask project questions using the Project Answers agent
 
-Use Ask Now Assist to open the Now Assist panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+Use Ask Otto to open the AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 
 ## Before you begin
-
-The Project Answers agent must be activated. The agent is activated by default.
 
 Role required: it\_project\_manager
 
@@ -30,7 +28,7 @@ Ask questions about tasks, risks, resources, costs, and schedule using the Proje
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open any project.
 
-2.  Select **Ask Now Assist** to open the Now Assist panel.
+2.  Select **Ask Otto** to open the AI panel.
 
 3.  Type a question about your project in natural language and press Enter.
 

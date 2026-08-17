@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforlegalservicedeliverylsd-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Now LLM LTS support for Now Assist for Legal Service Delivery \(LSD\)](https://servicenow-staging.fluidtopics.net/access?context=now-llm-model-updates&family=yokohama&ft:locale=en-US)**
+-   **[Now LLM LTS support for Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=yokohama)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -86,11 +86,16 @@ Zurich
 
 </td><td>
 
--   **[Now LLM LTS support for Now Assist for Legal Service Delivery \(LSD\)](https://servicenow-staging.fluidtopics.net/access?context=now-llm-model-updates&family=zurich&ft:locale=en-US)**
+-   **[Conversational intake for COI](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&family=zurich)**
+
+Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
+
+
+-   **[Now LLM LTS support for Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=zurich)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich)**
 
 The new default behavior works as follows:
 
@@ -127,7 +132,12 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Summarize request and matters](https://www.servicenow.com/docs/access?context=now-assist-lsd-summarize-case&family=zurich)**
+
+Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
+
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 
 
@@ -270,7 +280,7 @@ Yokohama
 
 </td><td>
 
-The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -278,7 +288,7 @@ Zurich
 
 </td><td>
 
-The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -366,7 +376,7 @@ Yokohama Patch 11
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [Explore](https://servicenow-staging.fluidtopics.net/access?context=now-assist-lsd-exploring&family=yokohama&ft:locale=en-US) for more information.
+See [Explore](https://www.servicenow.com/docs/access?context=now-assist-lsd-exploring&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -374,20 +384,25 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
+
+-   Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms.
+-   Legal Request and Matter summarization now considers data from extended practice area tables when summarizing.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Some Now Assist skills are now turned on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich)
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [Now Assist for Legal Service Delivery \(LSD\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-lsd-landing&family=zurich&ft:locale=en-US) for more information.
+See [Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -1,6 +1,6 @@
 ---
-title: Configure Service Graph Connector for Observability - Dynatrace SaaS using SGC Central
-description: Use the playbook in SGC Central to set up the Service Graph Connector for Observability - Dynatrace SaaS and pull Dynatrace data into your CMDB.
+title: Configure Service Graph Connector for Dynatrace SaaS using SGC Central
+description: Use the playbook in SGC Central to set up the Service Graph Connector for Dynatrace SaaS and pull Dynatrace data into your CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace-saas.html
 release: zurich
@@ -12,15 +12,15 @@ reading_time_minutes: 3
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Service Graph Connector for Observability - Dynatrace SaaS using SGC Central
+# Configure Service Graph Connector for Dynatrace SaaS using SGC Central
 
-Use the playbook in SGC Central to set up the Service Graph Connector for Observability - Dynatrace SaaS and pull Dynatrace data into your CMDB.
+Use the playbook in SGC Central to set up the Service Graph Connector for Dynatrace SaaS and pull Dynatrace data into your CMDB.
 
 ## Before you begin
 
-**Important:** The Service Graph Connector for Observability - Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
+**Important:** The Service Graph Connector for Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
 
-Install Service Graph Connector for Observability - Dynatrace SaaS from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for Dynatrace SaaS from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 

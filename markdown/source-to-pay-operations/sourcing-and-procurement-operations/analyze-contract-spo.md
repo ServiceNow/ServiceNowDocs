@@ -48,15 +48,15 @@ For more information, see [Contract analysis using Now Assist in Contract Manage
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d87449e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d87577e159">
 
 Method
 
-</th><th align="left" id="d87449e162">
+</th><th align="left" id="d87577e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87449e168">
+</th></tr></thead><tbody><tr><td id="d87577e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d87449e195">
+</td></tr><tr><td id="d87577e195">
 
 **Run Now Assist analysis on multiple contract documents**
 
@@ -103,7 +103,7 @@ Steps
 
 9.  View the analysis and select **Back** to go to the analyzed contracts in the Now Assist contextual side panel.
 
-    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Contract analysis states in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-states.md)
+    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-states.md)
 
 
 -   **[RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md)**  

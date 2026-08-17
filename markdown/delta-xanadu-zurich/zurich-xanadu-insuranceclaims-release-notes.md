@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-insuranceclaims-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Xanadu
 
 </td><td>
 
--   **[Set up new lines of business easily](https://servicenow-staging.fluidtopics.net/access?context=setting-up-insurance-claims-flow&family=xanadu&ft:locale=en-US)**
+-   **[Set up new lines of business easily](https://www.servicenow.com/docs/access?context=setting-up-insurance-claims-flow&family=xanadu&ft:locale=en-US)**
 
 Leverage the Insurance claims framework to configure a new line of business for one or more incidents.
 
--   **[Customize your claims workflow](https://servicenow-staging.fluidtopics.net/access?context=claim-incident-configuration-table&family=xanadu&ft:locale=en-US)**
+-   **[Customize your claims workflow](https://www.servicenow.com/docs/access?context=claim-incident-configuration-table&family=xanadu&ft:locale=en-US)**
 
 Configure which incidents to display for claim intake, depending on the line of business. Define how adjuster tasks are created based on the selected incidents, and enable or disable itemized loss and expenses as part of the flow.
 
--   **[Set up persona-based claims workspaces](https://servicenow-staging.fluidtopics.net/access?context=insurance-claims-flow-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Set up persona-based claims workspaces](https://www.servicenow.com/docs/access?context=insurance-claims-flow-workspace&family=xanadu&ft:locale=en-US)**
 
 Set up workspaces for each persona that can be easily customized without requiring code changes.
 
--   **[Refer to the travel insurance example](https://servicenow-staging.fluidtopics.net/access?context=using-insurance-claims-flow&family=xanadu&ft:locale=en-US)**
+-   **[Refer to the travel insurance example](https://www.servicenow.com/docs/access?context=using-insurance-claims-flow&family=xanadu&ft:locale=en-US)**
 
 Refer to the included travel insurance line-of-business example to review the incident intake and resolution workflow.
 
@@ -238,7 +238,7 @@ Xanadu
 
 </td><td>
 
-Install Insurance claims by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Insurance claims by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -428,7 +428,7 @@ Xanadu
 -   Manage complex claims with multi-adjuster support
 -   Customize persona-based claims workspaces to support specific roles and responsibilities in your team
 
- See [Insurance claims](https://servicenow-staging.fluidtopics.net/access?context=insurance-claims-flow&family=xanadu&ft:locale=en-US) for more information.
+ See [Insurance claims](https://www.servicenow.com/docs/access?context=insurance-claims-flow&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

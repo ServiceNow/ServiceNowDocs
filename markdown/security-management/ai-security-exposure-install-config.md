@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 3
-breadcrumb: [Configure AI skills and agentic workflows, Implement, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install and configure AI Security Exposure Management
@@ -64,7 +64,7 @@ Role required: admin
 
     The Application installation dialog is displayed. Any dependencies that are installed are displayed.
 
-    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
+    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-skills-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
 
 9.  Select **Close** after the application is successfully installed.
 

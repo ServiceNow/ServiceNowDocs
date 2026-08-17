@@ -1,6 +1,6 @@
 ---
 title: Exploring Now Assist for app summary generation
-description: With the Now Assist for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
+description: With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Now Ass
 
 # Exploring Now Assist for app summary generation
 
-With the Now Assist for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
+With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
 
 ## Now Assist for app summary generation overview
 

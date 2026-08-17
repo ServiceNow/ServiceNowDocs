@@ -1,5 +1,5 @@
 ---
-title: Create a service problem case from the Customer Service Portal
+title: Create a service problem case in the Customer Service Portal
 description: Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/create-a-product-case-from-the-customer-service-portal.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Customer Service Problem Management]
 ---
 
-# Create a service problem case from the Customer Service Portal
+# Create a service problem case in the Customer Service Portal
 
 Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 

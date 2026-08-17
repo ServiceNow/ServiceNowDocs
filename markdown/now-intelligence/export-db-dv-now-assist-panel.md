@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2025-08-07"
 reading_time_minutes: 2
 keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Platform Analytics AI]
-breadcrumb: [Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Export dashboards and data visualizations from the Now Assist panel
@@ -17,13 +17,13 @@ Export or schedule the export of dashboards and data visualizations conversation
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: now\_assist\_panel\_user. To schedule an export, you also need par\_scheduler. You need access to the dashboard or the data in the visualization.
 
 ## Procedure
 
-1.  Open the Now Assist panel.
+1.  Open the ServiceNow Otto panel.
 
     \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
 
@@ -31,7 +31,7 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 
     \[Omitted image "dash-viz-export.png"\] Alt text: Now Assist panel showing Dashboard and visualization export.
 
-3.  Engage in an iterative conversation until Now Assist produces the export you want.
+3.  Engage in an iterative conversation until ServiceNow Otto produces the export you want.
 
     -   If you want an immediate export, specify the word "Export" in your prompt. If you want to schedule an export, specify "Schedule."
     -   Specify the name of the data visualization or dashboard.
@@ -50,13 +50,13 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 -   **[Supported export output types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/nowass-supported-export-output.md)**  
 The dashboard and visualization output skill supports the same outputs for the same data visualizations as Platform Analytics generally.
 -   **[Export destinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/nowass-export-destinations.md)**  
-When you export a dashboard or data visualization in the Now Assist panel, you have to specify the destination.
+When you export a dashboard or data visualization in the ServiceNow Otto panel, you have to specify the destination.
 -   **[Limitations for exporting dashboards and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/limitations-exporting-db-dv.md)**  
 The dashboard and visualization export skill supports only some dashboards for export. Requests for export are not always recognized or understood correctly.
 -   **[Export guidelines and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/nowass-export-guidelines-examples.md)**  
 In your prompts for the dashboard and visualization export skill, you can describe the export you want with a variable amount of detail. You are prompted for any necessary information that is missing. Before the export runs, you are asked to review the request, giving you a chance to change any options.
 
-**Parent Topic:**[Generate or export dashboards and data visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
 
 **Related topics**  
 

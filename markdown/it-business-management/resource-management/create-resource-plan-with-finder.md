@@ -32,15 +32,15 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d115727e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d119179e118">
 
 Option
 
-</th><th align="left" id="d115727e121">
+</th><th align="left" id="d119179e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115727e127">
+</th></tr></thead><tbody><tr><td id="d119179e127">
 
 **From a project**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d115727e166">
+</td></tr><tr><td id="d119179e166">
 
 **From a demand**
 
@@ -127,7 +127,7 @@ Use the Configuration menu to analyze different constraints such as the capacity
 
  By default, only the Availability hours are displayed. To view other details, select Detailed View , and select the required columns from the Configuration menu .
 
- Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfill any resource requests and to do so, if you have enough capacity for that user group or role.
+ Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfill any resource requests. It also shows whether you have enough capacity for that user group or role.
 
  The **Requested** column would not be available in the Configuration menu under the following conditions.
 

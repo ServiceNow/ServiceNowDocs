@@ -80,6 +80,10 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [RIDACs records for a demand]()
@@ -92,9 +96,7 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
-
-[Summarize demands with demand summarization skill]()
 

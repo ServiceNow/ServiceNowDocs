@@ -1,23 +1,23 @@
 ---
-title: Now Assist Center Performance Explorer dashboard
-description: Use the Now Assist Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
+title: AI Admin Center Performance Explorer dashboard
+description: Use the AI Admin Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-performance-explorer-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-07-30"
 reading_time_minutes: 3
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI, performance]
-breadcrumb: [View AI assets usage and performance, Monitor, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
+breadcrumb: [View AI assets usage and performance, Monitor, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Center Performance Explorer dashboard
+# AI Admin Center Performance Explorer dashboard
 
-Use the Now Assist Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
+Use the AI Admin Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
 
-## Now Assist Center Performance Explorer dashboard
+## AI Admin Center Performance Explorer dashboard
 
-The Now Assist Center Performance Explorer dashboard displays execution-level details for assistants and AI agents. Use the dashboard to investigate individual executions, analyze performance metrics, and identify patterns across your AI asset deployments.
+The AI Admin Center Performance Explorer dashboard displays execution-level details for assistants and AI agents. Use the dashboard to investigate individual executions, analyze performance metrics, and identify patterns across your AI asset deployments.
 
 The Performance Explorer dashboard includes two sub-tabs: **Assistants** and **Agents**. Each sub-tab displays a table of individual executions for the selected asset type.
 
@@ -115,5 +115,5 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
     The inferred customer satisfaction score for the execution, calculated based on interaction signals. See [Exploring Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md) for more information.
 
 
-**Parent Topic:**[View AI assets usage and performance in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

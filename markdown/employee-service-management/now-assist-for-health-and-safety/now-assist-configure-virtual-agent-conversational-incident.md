@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist in virtual agent for Conversational AI Health and Safety Incident Report
-description: An admin can configure the default Now Assist in Virtual Agent assistants and the default Now Assist panel assistants \(Platform\). Configuring the assistants enables the Now Assist panel on the Employee Center and the Health and Safety workspace.
+title: Configure ServiceNow Otto for Virtual Agent for Conversational AI Health and Safety incident report
+description: An admin can configure the default ServiceNow Otto for Virtual Agent assistants and the default ServiceNow Otto panel assistants \(Platform\). Configuring the assistants enables the ServiceNow Otto panel on the Employee Center and the Health and Safety workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-configure-virtual-agent-conversational-incident.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure conversational AI, Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure conversational AI, Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Configure Now Assist in virtual agent for Conversational AI Health and Safety Incident Report
+# Configure ServiceNow Otto for Virtual Agent for Conversational AI Health and Safety incident report
 
-An admin can configure the default Now Assist in Virtual Agent assistants and the default Now Assist panel assistants \(Platform\). Configuring the assistants enables the Now Assist panel on the **Employee Center** and the Health and Safety workspace.
+An admin can configure the default ServiceNow Otto for Virtual Agent assistants and the default ServiceNow Otto panel assistants \(Platform\). Configuring the assistants enables the ServiceNow Otto panel on the **Employee Center** and the Health and Safety workspace.
 
 ## Before you begin
 
@@ -26,22 +26,22 @@ Role required: admin
 
     For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ais.md).
 
-2.  Install the Now Assist for platform \[sn\_genai\_platform\] to enable Now Assist for the workspace.
+2.  Install the ServiceNow Otto for platform \[sn\_genai\_platform\] to enable ServiceNow Otto for the workspace.
 3.  Install the Health and Safety Incident Management \[sn\_hs\_im\_incident\] plugin.
 
     For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
-4.  For detailed information about configuring Now Assist in Virtual agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Procedure
 
-1.  To turn on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+1.  To turn on the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
     The **CI Admin console** opens the **Assistants** page that shows the two assistants.
 
     -   Now Assist in Virtual Agent \(default\)
-    -   Now Assist panel assistants \(Platform\)
-2.  Select the **More options** icon \(\[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: more options\) for **Now Assist in Virtual Agent \(default\)**
+    -   ServiceNow Otto panel assistants \(Platform\)
+2.  Select the **More options** icon \(\[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: more options\) for **ServiceNow Otto for Virtual Agent \(default\)**
 
 3.  Select **Turn on/off**, to turn on the assistant.
 
@@ -49,7 +49,7 @@ Role required: admin
 
 4.  Select **Save and continue** on the **Overview** tab.
 
-5.  On the **Now Assist skills** tab, select the check box for **Custom skills** under the **Skill name** column.
+5.  On the **AI skills** tab, select the check box for **Custom skills** under the **Skill name** column.
 
 6.  Select **Save and continue**
 
@@ -68,7 +68,7 @@ Role required: admin
 
 ## Result
 
-The Now Assist panel is enabled for the Employee center.
+The ServiceNow Otto panel is enabled for the Employee center.
 
 **Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
 

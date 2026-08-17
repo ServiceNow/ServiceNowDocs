@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Virtual Agent, designer, legacy, topic, cards, page]
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent Designer legacy Topics page
@@ -37,7 +37,7 @@ Localization Insights
 
 </td><td>
 
-Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see Localization Insights dashboard.
+Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-insights-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Explore additional topics
 
 </td><td>
 
-Link that opens the All prebuilt topics page, which shows prebuilt topics that are available when you activate their dependent spokes or plugins. For more information, see [Virtual Agent Designer All pre-built topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-additional-topics-list.md).
+Link that opens the All prebuilt topics page, which shows prebuilt topics that are available when you activate their dependent spokes or plugins. For more information, see [Assistant Designer Asset library All pre-built topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-additional-topics-list.md).
 
 </td></tr><tr><td>
 
@@ -194,5 +194,5 @@ Icon that opens a drop-down menu with the following options:
 -   **Delete topic**: Opens a confirmation dialog box to delete the topic.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

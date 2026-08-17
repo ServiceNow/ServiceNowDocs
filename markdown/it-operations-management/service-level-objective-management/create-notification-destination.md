@@ -41,15 +41,15 @@ Create a notification destination to deliver messages to a specific Microsoft Te
 
 4.  Select the **SLO Notification destinations** tab, select **Create a destination**, and then fill out the form.
 
-<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d90826e141">
+<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d89750e141">
 
 Field
 
-</th><th align="left" id="d90826e144">
+</th><th align="left" id="d89750e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90826e150">
+</th></tr></thead><tbody><tr><td id="d89750e150">
 
 **Channel URL**
 
@@ -57,7 +57,7 @@ Description
 
 Deep link to the relevant Microsoft Teams channel. You can find deep links to channels in Microsoft Teams. They follow this general format: `https://teams.microsoft.com/l/channel/19%abcdef`.
 
-</td></tr><tr><td id="d90826e170">
+</td></tr><tr><td id="d89750e170">
 
 **Destination name**
 

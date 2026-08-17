@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-documentintelligence-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,17 +67,17 @@ Yokohama
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
 
--   **[Document and visual insights AI agent](https://servicenow-staging.fluidtopics.net/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
+-   **[Document and visual insights AI agent](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
 
 Use an AI agent to help process tasks that analyze and extract data from documents and images.
 
 
--   **[Now Assist in Document Intelligence](https://servicenow-staging.fluidtopics.net/access?context=docintel-nowassist-landing&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&family=yokohama&ft:locale=en-US)**
 
 Use Now Assist in Document Intelligence to extract information from documents and provide answers to defined questions using generative AI.
 
@@ -88,9 +88,9 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 </td></tr></tbody>
@@ -112,7 +112,7 @@ Yokohama
 
 </td><td>
 
--   **[Document and visual insights AI agent enhancements](https://servicenow-staging.fluidtopics.net/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
+-   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
 
 Generate a summary of document and image attachments with the document and visual insights AI agent.
 
@@ -152,7 +152,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+The Document Intelligence application has been removed from the application navigator.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -181,7 +181,7 @@ Zurich
 
 </td><td>
 
--   Starting with Zurich release, the document extraction feature in Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [\[Placeholder link text to key docintel-nowassist-landing\]](https://servicenow-staging.fluidtopics.net/access?context=docintel-nowassist-landing&family=zurich&ft:locale=en-US).
+-   Starting with Zurich release, the document extraction feature in Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [\[Placeholder link text to key docintel-nowassist-landing\]](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&family=zurich&ft:locale=en-US).
 -   The Document Intelligence Admin \(sn\_docintel\_admin\) plugin is planned for deprecation in the B release.
 
 </td></tr></tbody>
@@ -203,7 +203,7 @@ Yokohama
 
 </td><td>
 
-Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://servicenow-staging.fluidtopics.net/access?context=install-document-intelligence&family=yokohama&ft:locale=en-US).
+Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://www.servicenow.com/docs/access?context=install-document-intelligence&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Zurich
 
 </td><td>
 
-Install Document Intelligence by requesting it from the ServiceNow Store.  The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://servicenow-staging.fluidtopics.net/access?context=install-document-intelligence&family=zurich&ft:locale=en-US).
+Install Document Intelligence by requesting it from the ServiceNow Store.  The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://www.servicenow.com/docs/access?context=install-document-intelligence&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -348,21 +348,21 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 6](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
 -   Summarize content in document and image attachments with the document and visual insights AI agent.
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
- [Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
 
 -   Boost productivity by using the document and visual insights AI agent in Now Assist to autonomously analyze and extract data from documents and images.
 
- [Early Availability](https://servicenow-staging.fluidtopics.net/access?context=yokohama-all-other-fixes&family=yokohama&ft:locale=en-US)
+ [Early Availability](https://www.servicenow.com/docs/access?context=yokohama-all-other-fixes&family=yokohama&ft:locale=en-US)
 
 -   Speed up your document processing workflows and quickly extract the text and tables from your documents by using Now Assist.
 -   Save time looking for the information that you need in a document and quickly find the answers to predefined questions by using Now Assist.
 
- See [Document Intelligence](https://servicenow-staging.fluidtopics.net/access?context=document-intelligence-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -370,9 +370,9 @@ Zurich
 
 </td><td>
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
- See [Document Intelligence](https://servicenow-staging.fluidtopics.net/access?context=document-intelligence-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -35,5 +35,5 @@ Column details for the Affected customer section in a Customer tab.
 |Proactive case|Proactive case record that is associated with the consumer account.|
 |Contract value|Total contract value of the consumer account.|
 
-**Parent Topic:**[Now Assist for Telecommunications, Media and Technology \(TMT\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Proactive Service Experience Workflows reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 

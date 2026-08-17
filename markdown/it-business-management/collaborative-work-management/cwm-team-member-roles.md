@@ -17,7 +17,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 Team members can view and update project tasks and demand tasks directly in Collaborative Work Management \(CWM\) using team member roles, without requiring access to Project Workspace or Next Experience for Demand Management.
 
-Collaborative Work Management application provides roles that give team members access to project tasks and demand tasks within CWM. Using these roles, team members can manage their assigned work through CWM features such as My Work and Connected Work ad submit time card against the project tasks and demand tasks.
+Collaborative Work Management application provides roles that give team members access to project tasks and demand tasks within CWM. Using these roles, team members can manage their assigned work through CWM features such as My Work and Connected Work. They can also submit time cards against the project tasks and demand tasks.
 
 ## Team member roles
 

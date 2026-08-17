@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-02-23"
 reading_time_minutes: 4
-breadcrumb: [Tax Engine Integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Tax engine integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Tax integration in playbook

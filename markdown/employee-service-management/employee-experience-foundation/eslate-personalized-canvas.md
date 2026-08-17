@@ -19,21 +19,20 @@ Build a personal canvas that brings together AI-generated widgets, role-specific
 
 Each employee has a personal canvas. Employees configure the canvas within the bounds of the widget library and the canvas defaults that the administrator sets. Administrators shape the default experience and control what employees access. Employees personalize their own canvas within those limits.
 
-## Personal canvas
+\[Omitted image "es-canvas.png"\] Alt text: Canvas module showing Inbox widget with to-do items, Featured apps section, Kudos and recognition widget, and Smart mood check-in widget
 
-The personal canvas supports the following personalization actions:
+## Canvas types
 
--   Widget pinning from chat: Pin any widget that the AI assistant generates during a conversation directly to the canvas from the chat interface.
--   Widget arrangement: Drag pinned widgets to the position you want.
--   Widget resizing: Resize individual widgets to fit your preferred layout and information density.
--   Widget addition and removal: Add widgets from the widget library, and remove widgets you don't need.
+Employee Slate supports personal and role-based canvases that adapt to individual employee needs and organizational roles.
 
-## Role-based canvas
+-   **Role-based canvas**
 
-Employee Slate supports role-based canvases that Employee Slate populates based on the organizational role of the employee. Two sources populate role-based canvases:
+    Canvas populates based on the organizational role of the employee. Employees with a specific role configure the role canvas to reflect the tools and data most relevant to that role. AI agents can also populate role-based canvases with widgets, data, and actions for role-specific workflows.
 
--   Users: Employees with a specific role configure the role canvas to reflect the tools and data most relevant to that role.
--   AI agents: AI agents populate role-based canvases with widgets, data, and actions for the workflows for the role.
+-   **Personal canvas**
+
+    Employees customize their personal canvas by adding widgets from the library, resizing and repositioning them, and pinning widgets that the AI assistant generates during conversations.
+
 
 ## Canvas configurations
 
@@ -45,7 +44,7 @@ Administrators manage the canvas experience through three configuration layers:
 
 -   **Widget library**
 
-    The set of approved widgets that employees add to their canvas. The library acts as a governed toolbox. Employees select from the widgets that the administrator makes available, not from every widget on the instance.
+    The set of approved widgets that employees add to their canvas.
 
 -   **Employee personalization**
 
@@ -61,5 +60,5 @@ Administrators have controls over the canvas environment at the organizational l
 
 ## Widget ecosystem
 
-Employee Slate includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the AI-powered Widget Builder.
+Employee Slate includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
 

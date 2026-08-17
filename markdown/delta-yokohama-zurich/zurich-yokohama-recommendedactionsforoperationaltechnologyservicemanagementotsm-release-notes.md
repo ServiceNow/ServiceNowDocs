@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Apply Recommended Actions to your Operational Technology incidents](https://servicenow-staging.fluidtopics.net/access?context=use-recommended-actions-ot-incidents&family=yokohama&ft:locale=en-US)**
+-   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=yokohama&ft:locale=en-US)**
 
 Use Recommended Actions to see relevant actions that can help resolve your OT incidents.
 
@@ -78,11 +78,17 @@ Zurich
 
 </td><td>
 
--   **[Contextualize an external document](https://servicenow-staging.fluidtopics.net/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+-   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
 
 Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
 
--   **[Apply Recommended Actions to your Operational Technology incidents](https://servicenow-staging.fluidtopics.net/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
+
+-   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
 
 Use Recommended Actions to see relevant actions that can help resolve your OT incidents.
 
@@ -193,7 +199,7 @@ Yokohama
 
 </td><td>
 
-Install Recommended Actions for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Recommended Actions for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -201,7 +207,7 @@ Zurich
 
 </td><td>
 
-Install Recommended Actions for OTSM by requesting it from the ServiceNow Store. 
+Install Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM by requesting them from the ServiceNow Store. 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -340,7 +346,7 @@ Yokohama
 
 Display relevant actions to users based on the context of an OT incident record.
 
- See [Recommended Actions for OTSM](https://servicenow-staging.fluidtopics.net/access?context=recommended-actions-for-otsm&family=yokohama&ft:locale=en-US) for more information.
+ See [Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -348,10 +354,19 @@ Zurich
 
 </td><td>
 
+[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
+
+ Zurich Early Availability
+
 -   Display relevant actions to users based on the context of an OT incident record.
 
- See [Recommended Actions for OTSM](https://servicenow-staging.fluidtopics.net/access?context=recommended-actions-for-otsm&family=zurich&ft:locale=en-US) and [AI Enhanced Recommended Actions for OTSM](https://servicenow-staging.fluidtopics.net/access?context=ai-enhanced-ra-otsm-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&family=zurich&ft:locale=en-US) and [AI Enhanced Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=ai-enhanced-ra-otsm-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

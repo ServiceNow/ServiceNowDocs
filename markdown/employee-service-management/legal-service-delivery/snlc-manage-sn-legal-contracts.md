@@ -57,6 +57,8 @@ As administrator manage clauses, clause variations, and contract templates.
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()

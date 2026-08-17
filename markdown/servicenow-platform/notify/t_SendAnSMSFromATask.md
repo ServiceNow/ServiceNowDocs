@@ -42,7 +42,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 5.  To select ad-hoc participants, choose one of the following actions.
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d89432e143">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d88075e143">
 
 **Click the reference lookup icon and select the relevant user**
 
@@ -50,7 +50,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d89432e155">
+</td></tr><tr><td id="d88075e155">
 
 **Enter the participant's phone number**
 

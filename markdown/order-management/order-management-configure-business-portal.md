@@ -68,5 +68,5 @@ The following tasks help you further customize and configure the Business Portal
 
 [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-business-portal-reference.md)
 
-[Enable the manage order operations agent on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-manage-order-operations-ai-agent.md)
+[Enable the manage order operations agent on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-manage-order-operations-ai-agent.md)
 

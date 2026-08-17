@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-05-12"
+reading_time_minutes: 11
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -187,6 +187,8 @@ The following template purposes \(classifications\) are available.-   TPRM exter
 -   TPRM internal IRQ
 -   TPRM internal tiering questionnaire
 
+**Note:** Only use the available template purposes. Creating custom purposes \(categories or classifications\) will cause SAE assessments to fail during m2m linkage processing. When creating or migrating SAE questionnaire templates, make sure the Purpose field is set to one of the supported categories only.
+
 For more information, see [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 </td></tr><tr><td>
@@ -233,27 +235,15 @@ For more information, see [Configure scoring for an assessment](https://raw.gith
 
 </td></tr><tr><td>
 
-Set up Unified Content Management
+Set up Unified Content Management.
 
 </td><td>
 
-This task is optional. Install the Unified Content Management application. If you have the TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role you can access and update Smart Assessment Engine templates from the Unified Content Management page in the Vendor Management Workspace. The UCM application serves as a starter template library, providing ready-to-use SAE templates for TPRM assessments. You can view available templates, and activate or update template versions for use in TPRM assessments.
+This task is optional. Install the Unified Content Management application. If you have the TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role you can access and update Smart Assessment Engine templates from the Unified Content Management page in the Vendor Management Workspace. The UCM application serves as a starter template library, providing ready-to-use SAE templates for TPRM assessments, including SIG Full, SIG Core, and SIG Lite templates for 2026. You can view available templates, and activate or update template versions for use in TPRM assessments.
 
-For more information, see [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md) and [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
+For more information, see [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md), [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md), and [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
-
-</td></tr><tr><td>
-
-Set up Smart Assessment Response Assist skill
-
-</td><td>
-
-This task is optional.Set up the Smart Assessment Response Assist skill to generate initial draft responses from relevant assessment documents. This helps maintain consistency because responses are based on the same source materials for each assessment.
-
-Install Now Assist for Smart Assessment Engine and set up the Smart Assessment Response Assist skill.
-
-For more information, see
 
 </td></tr></tbody>
 </table>

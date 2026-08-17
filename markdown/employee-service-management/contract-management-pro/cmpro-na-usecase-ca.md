@@ -1,21 +1,21 @@
 ---
 title: Create use cases for contract analysis
-description: Create a use case for contract analysis that is used by Now Assist to identify non-standard and missing clauses in a contract document.
+description: Create a use case for contract analysis that is used by AI to identify non-standard and missing clauses in a contract document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract analysis
 
-Create a use case for contract analysis that is used by Now Assist to identify non-standard and missing clauses in a contract document.
+Create a use case for contract analysis that is used by AI to identify non-standard and missing clauses in a contract document.
 
 ## Before you begin
 
@@ -25,13 +25,13 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 The contract analysis use case contains field groups and their associated fields.
 
-Field groups represent the clauses that are used in the contract document. Field groups are linked to clause variations of a clause library. Now Assist uses the mapped clause content to display suggestions for missing or non-standard clause.
+Field groups represent the clauses that are used in the contract document. Field groups are linked to clause variations of a clause library. AI uses the mapped clause content to display suggestions for missing or non-standard clause.
 
-Fields are the prompt questions added for a field group. Fields are mapped to an expected response. Now Assist executes these fields \(prompt questions\) on a contract document to identify the non-standard clauses.
+Fields are the prompt questions added for a field group. Fields are mapped to an expected response. AI executes these fields \(prompt questions\) on a contract document to identify the non-standard clauses.
 
 When creating a use case, add a field group, and then define the fields within that field group to ensure that the fields are linked to the field group.
 
-In Contract Management Pro, the CM Pro - Contract Analysis use case is available in the base system. This use case is not editable.
+The CM Pro - Contract Analysis use case is available in the base system. This use case is not editable.
 
 **Note:** If you create your own use case or customize a copy of an available use case, be sure to test it thoroughly to ensure accuracy.
 
@@ -39,13 +39,11 @@ For more information on the computation of non-standard and missing clauses, see
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+3.  Select **Activate skill** on the skill you want to activate.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -83,7 +81,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents this is by AI.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +89,7 @@ LLM provider
 
 </td><td>
 
-Large language model \(LLM\) provider for the use case that is used to analyze contracts.**Note:** For contract analysis use cases, select large LLMs such as Now LLM Service Large to ensure more accurate results.
+Large language model \(LLM\) provider for the use case that is used to analyze contracts.
 
 </td></tr><tr><td>
 
@@ -115,8 +113,6 @@ Displays the skill name for which you’re creating the use case.
 </table>7.  In the Define fields page, select **Add a field** to add fields for the use case.
 
     1.  In the New field window, select **Question group**.
-
-        \[Omitted image "cmpro-na-question-group.png"\] Alt text: Question group card in add field page.
 
         **Note:** Add a question group, and then define the questions within that question group to ensure that questions are linked to a question group.
 
@@ -157,13 +153,9 @@ This field should be left empty.
 </td></tr></tbody>
 </table>    3.  Select **Add questions**.
 
-        \[Omitted image "cmpro-na-add-questions.png"\] Alt text: Adding questions in a Question group page.
-
     4.  Enter details for the field.
 
         For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-qna-single-field-form.md).
-
-        \[Omitted image "cmpro-na-add-fields.png"\] Alt text: Question details in the fields page.
 
     5.  Select **Save**.
 

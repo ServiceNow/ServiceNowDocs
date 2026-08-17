@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Contract status, State, Contract Management Pro, Contract lifecycle management workflow]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -436,9 +436,9 @@ Contract request was canceled.
 
 [Components installed with Analytics Pack for Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

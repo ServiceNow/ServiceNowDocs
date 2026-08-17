@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-mobileplatform-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -67,41 +67,41 @@ Yokohama
 
 </td><td>
 
--   **[Now Assist Context Menu](https://servicenow-staging.fluidtopics.net/access?context=now-assist-context-menu-mobile&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist Context Menu](https://www.servicenow.com/docs/access?context=now-assist-context-menu-mobile&family=yokohama&ft:locale=en-US)**
 
 Write and edit text natively from within your mobile app using the Now Assist Context Menu. Refine your selected text by asking Now Assist to shorten it, make it more elaborate, or change the tone, and so on. Now Assist Context Menu is supported for the Task Summarization skill for input form screens.
 
--   **[Single instance login](https://servicenow-staging.fluidtopics.net/access?context=mobile-instances-admin-concept&family=yokohama&ft:locale=en-US)**
+-   **[Single instance login](https://www.servicenow.com/docs/access?context=mobile-instances-admin-concept&family=yokohama&ft:locale=en-US)**
 
 Customers with a single instance can bypass the instance selection page and navigate users directly to the login screen. This process shortens the login process.
 
--   **[Display a customized page before user login](https://servicenow-staging.fluidtopics.net/access?context=branded-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Display a customized page before user login](https://www.servicenow.com/docs/access?context=branded-landing-page&family=yokohama&ft:locale=en-US)**
 
 Configure your own branded landing page to appear before users log in to their ServiceNow mobile apps. The branded landing page can contain a login button or deep link that redirects users to an area of a ServiceNow mobile app. For example, a municipality can add a button to open a ticket, which navigates the user to complete a record in the Now Mobile® app.
 
 This feature is available to customers using a single instance, and is supported for both Mobile Publishing apps.
 
--   **[Define attachment sources available to users](https://servicenow-staging.fluidtopics.net/access?context=attachment-source-define&family=yokohama&ft:locale=en-US)**
+-   **[Define attachment sources available to users](https://www.servicenow.com/docs/access?context=attachment-source-define&family=yokohama&ft:locale=en-US)**
 
 Control the types of attachments used from a phone's gallery, camera, or file system. This capability confirms that images can’t be reused or are AI-generated images. This feature is supported for all attachment locations, including: activity stream, functions with type “attachment”, input form screen with field type “attachment”, Mobile App Bridge, and Cabrillo JS uploads.
 
--   **[Add annotations to uploaded images](https://servicenow-staging.fluidtopics.net/access?context=image-annotation-adjust&family=yokohama&ft:locale=en-US)**
+-   **[Add annotations to uploaded images](https://www.servicenow.com/docs/access?context=image-annotation-adjust&family=yokohama&ft:locale=en-US)**
 
 Edit and annotate uploaded images within ServiceNow mobile apps. Markup options include adding text, drawing, and highlighting areas. This feature is supported for all attachment locations, including: activity stream, functions with type “attachments”, input form screen with field type “attachment”, Mobile App Bridge, and Cabrillo JS uploads.
 
--   **[Mobile App Builder live mobile previews](https://servicenow-staging.fluidtopics.net/access?context=mab-record-example-panel&family=yokohama&ft:locale=en-US)**
+-   **[Mobile App Builder live mobile previews](https://www.servicenow.com/docs/access?context=mab-record-example-panel&family=yokohama&ft:locale=en-US)**
 
 See your mobile content change in real-time with live previews for most mobile components. The mobile interface changes according to what component you have selected, and updates when you add, change, or remove UI-based elements.
 
--   **[Web to mobile AI card creation](https://servicenow-staging.fluidtopics.net/access?context=web-mobile-component-conversion&family=yokohama&ft:locale=en-US)**
+-   **[Web to mobile AI card creation](https://www.servicenow.com/docs/access?context=web-mobile-component-conversion&family=yokohama&ft:locale=en-US)**
 
 Use Now Assist to create a new mobile card for use on a record screen created using the Web to Mobile functionality. Now Assist will automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
 
--   **[Agentic AI in Mobile Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=agentic-ai-mobile-va&family=yokohama&ft:locale=en-US)**
+-   **[Agentic AI in Mobile Virtual Agent](https://www.servicenow.com/docs/access?context=agentic-ai-mobile-va&family=yokohama&ft:locale=en-US)**
 
 Use AI agents in your mobile app to boost live agent productivity. AI agents handle tasks from automated responses to complex problem-solving with human-like intelligence.
 
--   **[Now Assist in the Virtual Agent mobile client](https://servicenow-staging.fluidtopics.net/access?context=now-assist-mobile-va&family=yokohama&ft:locale=en-US)Mobile Virtual Agent&gt;**
+-   **[Otto in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=yokohama&ft:locale=en-US)Mobile Virtual Agent&gt;**
 
 Use the following enhancement added to Virtual Agent:
 
@@ -117,12 +117,12 @@ Zurich
 
 </td><td>
 
--   **[Client-side localization](https://servicenow-staging.fluidtopics.net/access?context=localization-client&family=zurich&ft:locale=en-US)**
+-   **[Client-side localization](https://www.servicenow.com/docs/access?context=localization-client&family=zurich&ft:locale=en-US)**
 
 Use the Mobile Custom Localization app, available from mobile client version 20.6, to let mobile users view app content in any language. This feature improves platform consistency and accessibility for global users. The ServiceNow Store app provides a collection of mobile strings that automatically populates the instance with translatable content required for localization. Once these strings are translated into a custom language, the mobile app automatically retrieves and displays them within the app interface.
 
 
--   **[Improved error handing for uploads manager](https://servicenow-staging.fluidtopics.net/access?context=mobile-activity-stream-task&family=zurich&ft:locale=en-US)**
+-   **[Improved error handing for uploads manager](https://www.servicenow.com/docs/access?context=mobile-activity-stream-task&family=zurich&ft:locale=en-US)**
 
 Use the improved error handling in the upload manager to confirm that the necessary files are uploaded successfully. This feature is available in all areas of the ServiceNow mobile applications where you can upload attachments. This includes the following:
 
@@ -131,31 +131,31 @@ Use the improved error handling in the upload manager to confirm that the necess
     -   Input form screen with an attachment input action
     -   Functions of type attachment
     -   Cabrillo JS events within a web page
--   **[Option to save videos and photos locally when using ServiceNow mobile apps](https://servicenow-staging.fluidtopics.net/access?context=media-saving-mobile-apps&family=zurich&ft:locale=en-US)**
+-   **[Option to save videos and photos locally when using ServiceNow mobile apps](https://www.servicenow.com/docs/access?context=media-saving-mobile-apps&family=zurich&ft:locale=en-US)**
 
 Enable users to save and retrieve pictures and videos taken with the camera on their ServiceNow mobile app, directly to their device. By default, these images are saved for 24 hours on the phone’s local storage. You can set the storage time to be from 1 to 168 hours \(1 week\).
 
--   **[Additional descriptive element of type card for input form screens](https://servicenow-staging.fluidtopics.net/access?context=descriptive-elements-script&family=zurich&ft:locale=en-US)**
+-   **[Additional descriptive element of type card for input form screens](https://www.servicenow.com/docs/access?context=descriptive-elements-script&family=zurich&ft:locale=en-US)**
 
 Add cards created in the Mobile Card Builder as a descriptive element in input form screens. Descriptive elements offer more context to users, making it clearer as to what is required for certain inputs within an input form screen.
 
--   **[Page menu button added to input form screen](https://servicenow-staging.fluidtopics.net/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
+-   **[Page menu button added to input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
 
 Display a page menu button for input form screens with more than two pages, showing users the current page that they are on, such as "Page 3 of 5." Tapping the button opens a page menu that lists all available pages and their level of completeness. This list helps users track their progress in completing an input form.
 
--   **[Complete an input form screen in a non-sequential order](https://servicenow-staging.fluidtopics.net/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
+-   **[Complete an input form screen in a non-sequential order](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
 
 Work on all pages of an input form screen, even if required fields are not completed. Users can use the next and previous buttons at all times, enabling them to complete the form in a non-sequential manner. In addition, users can use the page menu to work on any page of their choosing.
 
--   **[Error indicator for failed submissions in input form screen](https://servicenow-staging.fluidtopics.net/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
+-   **[Error indicator for failed submissions in input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
 
 View an information icon in the top menu bar in cases where a submitted input form contains at least one error. The icon remains accessible when working through all input form screen pages. Tapping the icon opens a page that lists the validation errors, enabling users to correct these errors and submit an error-free input form.
 
--   **[Slider option for adding numeric values in input form screen](https://servicenow-staging.fluidtopics.net/access?context=parameter-screen-var-attr&family=zurich&ft:locale=en-US)**
+-   **[Slider option for adding numeric values in input form screen](https://www.servicenow.com/docs/access?context=parameter-screen-var-attr&family=zurich&ft:locale=en-US)**
 
 Configure sliders as an additional method for users to add numeric values in an input form screen. Sliders offer the advantage of defining minimum, maximum, incremental, and default values.
 
--   **[New icons added that you can use in your mobile apps](https://servicenow-staging.fluidtopics.net/access?context=mobile-icon-reference&family=zurich&ft:locale=en-US)**
+-   **[New icons added that you can use in your mobile apps](https://www.servicenow.com/docs/access?context=mobile-icon-reference&family=zurich&ft:locale=en-US)**
 
 Use new icons that have been added to the following font families in your mobile apps:
 
@@ -163,11 +163,11 @@ Use new icons that have been added to the following font families in your mobile
     -   Screen font icons
     -   Mobile card font icons
     -   Image icons
--   **[Mobile App Builder and Mobile Card Builder Studio integration](https://servicenow-staging.fluidtopics.net/access?context=mab-studio-integration&family=zurich&ft:locale=en-US)**
+-   **[Mobile App Builder and Mobile Card Builder Studio integration](https://www.servicenow.com/docs/access?context=mab-studio-integration&family=zurich&ft:locale=en-US)**
 
 Develop and modify mobile applications and cards in ServiceNow Studio. Utilize all your necessary tools within a single, cohesive development environment.
 
--   **[Now Assist in Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=now-assist-mobile-va&family=zurich&ft:locale=en-US)**
+-   **[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=zurich&ft:locale=en-US)**
 
 The following features have been added to ServiceNow Now Assist in Virtual Agent:
 
@@ -175,7 +175,7 @@ The following features have been added to ServiceNow Now Assist in Virtual Agent
     -   Search the internet from within Virtual Agent using web search mode.
     -   Capture and analyze data from a variety of visual sources such as images, emails, handwritten notes, websites, and applications using ServiceNow AI Lens.
     -   View shared files when using people citations.
--   **[Now Assist Skill Kit integration](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skill-kit-for-mobile&family=zurich&ft:locale=en-US)**
+-   **[Now Assist Skill Kit integration](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-for-mobile&family=zurich&ft:locale=en-US)**
 
 Create and use custom Now Assist skills in your mobile app using Now Assist Skill Kit.
 
@@ -199,7 +199,7 @@ Yokohama
 
 </td><td>
 
--   **[Input form screen enhancement and changes](https://servicenow-staging.fluidtopics.net/access?context=parameter-input-screen&family=yokohama&ft:locale=en-US)**
+-   **[Input form screen enhancement and changes](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=yokohama&ft:locale=en-US)**
 
 Use the following enhancements added to the input form screen:
 
@@ -209,21 +209,21 @@ Use the following enhancements added to the input form screen:
     -   Save input form screen data before it's submitted. Users with access to the same record can see each other's changes either when saving their progress or completing the input form screen.
     -   Interact and switch between other navigation tabs while also working on the input form screen.
     -   Sections are no longer displayed if they don’t contain any input fields.
--   **[Additional number attributes for input form screens](https://servicenow-staging.fluidtopics.net/access?context=parameter-screen-var-attr&family=yokohama&ft:locale=en-US)**
+-   **[Additional number attributes for input form screens](https://www.servicenow.com/docs/access?context=parameter-screen-var-attr&family=yokohama&ft:locale=en-US)**
 
 Use the following number attributes in your input form screens:
 
     -   Use the **CustomErrorMessage** attribute to specify an error message when a UI rule condition is met.
     -   Use the **SkipValidationWhenHidden** attribute to skip validation on hidden inputs.
--   **[Enable barcode scanning with an external scanner](https://servicenow-staging.fluidtopics.net/access?context=enable-external-barcode-scanner&family=yokohama&ft:locale=en-US)**
+-   **[Enable barcode scanning with an external scanner](https://www.servicenow.com/docs/access?context=enable-external-barcode-scanner&family=yokohama&ft:locale=en-US)**
 
 Configure barcode scanning with an external scanner without denying access to the camera for the entire mobile app.
 
--   **[Mobile Publishing enhancements and changes](https://servicenow-staging.fluidtopics.net/access?context=mobile-publishing&family=yokohama&ft:locale=en-US)**
+-   **[Mobile Publishing enhancements and changes](https://www.servicenow.com/docs/access?context=mobile-publishing&family=yokohama&ft:locale=en-US)**
     -   Enabled Android deep links for multiple instances.
     -   Enhanced validation for transparent images used in branded apps.
     -   Support for public-facing screens in branded mobile apps. Admins can configure URLs that link to public-facing web pages. These web pages are displayed to end users without needing to log in to the mobile app.
--   **[Turn off Zero Trust Access banners in mobile app screens](https://servicenow-staging.fluidtopics.net/access?context=turn-off-zta-banner&family=yokohama&ft:locale=en-US)**
+-   **[Turn off Zero Trust Access banners in mobile app screens](https://www.servicenow.com/docs/access?context=turn-off-zta-banner&family=yokohama&ft:locale=en-US)**
 
 In mobile client versions 19.4 and later, you can turn off Zero Trust Access banners on mobile screens. Turning off these banners can enhance usability of your mobile apps because the banner does not display each time the connection state changes so end users are not interrupted by the banner display. You can configure this behavior by setting the **disableZTABanner** mobile property on your ServiceNow instance.
 
@@ -234,15 +234,15 @@ Zurich
 
 </td><td>
 
--   **[Enhanced native features in hybrid web screens](https://servicenow-staging.fluidtopics.net/access?context=url-screen&family=zurich&ft:locale=en-US)**
+-   **[Enhanced native features in hybrid web screens](https://www.servicenow.com/docs/access?context=url-screen&family=zurich&ft:locale=en-US)**
 
 Enhanced native features in hybrid web screens that support functionality such as native search, quick actions, and customizable welcome messages within hybrid screen launcher or header tabs.
 
--   **[Enhanced chat push notifications](https://servicenow-staging.fluidtopics.net/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+-   **[Enhanced chat push notifications](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
 
 Tap enhanced chat push notifications to go directly to the associated chat.
 
--   **[Promoted actions and suggested topics](https://servicenow-staging.fluidtopics.net/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+-   **[Promoted actions and suggested topics](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
 
 See how Virtual Agent can assist you with suggested actions and topics related to your request.
 
@@ -476,7 +476,7 @@ Yokohama
 -   Write and refine text with the Now Assist Context Menu.
 -   Use enhanced capabilities within the input form screen.
 
- See [Mobile Platform](https://servicenow-staging.fluidtopics.net/access?context=mobile-config-navigation&family=yokohama&ft:locale=en-US) for more information.
+ See [Mobile Platform](https://www.servicenow.com/docs/access?context=mobile-config-navigation&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -489,7 +489,7 @@ Zurich
 -   Engage with the improved error handling when working with uploads.
 -   Add customized client-side translations to extend language support on your mobile device.
 
- See [Mobile Platform](https://servicenow-staging.fluidtopics.net/access?context=mobile-config-navigation&family=zurich&ft:locale=en-US) for more information.
+ See [Mobile Platform](https://www.servicenow.com/docs/access?context=mobile-config-navigation&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

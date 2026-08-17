@@ -40,7 +40,7 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Service Portfolio Management**
 
-    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
+    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Lifecycle Management \(TLM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
 
 
 ## Products that benefit from ITOM AIOps

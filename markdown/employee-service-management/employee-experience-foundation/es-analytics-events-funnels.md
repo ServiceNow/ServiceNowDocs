@@ -7,7 +7,7 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [User Experience Analytics, conversion funnels, Employee Slate, analytics navigation, user behavior tracking]
 breadcrumb: [Analytics and reporting, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-Conversion funnels help you understand how employees move through specific workflows in Employee Slate. You can analyze out-of-the-box funnels or create custom funnels to track user behavior patterns and identify areas for experience optimization.
+Conversion funnels help you interpret how employees move through specific workflows in Employee Slate. You can analyze predefined funnels or create custom funnels to track user behavior patterns and identify areas for experience optimization.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Conversion funnels help you understand how employees move through specific workf
     -   For Moveworks deployments, select **Employee Slate for Moveworks**.
     The selection determines which analytics data and funnel options are available.
 
-3.  Select one of the following options to see the list of available items.
+3.  Select one of the following options to view the list of available items.
 
     1.  Select **Conversion Funnels** from the analytics menu.
 
@@ -55,19 +55,19 @@ Conversion funnels help you understand how employees move through specific workf
 
         Each funnel provides metrics such as conversion rates, drop-off points, and user journey visualization.
 
-        \[Omitted image "es-funnel-update.png"\] Alt text: Check conversion funnel details
+        \[Omitted image "es-funnel-update.png"\] Alt text: Conversion funnel detail view showing steps, drop-off rates, and user journey metrics
 
 4.  Select **Events** from the analytics menu.
 
     The events interface displays available options.
 
-    \[Omitted image "es-events.png"\] Alt text: UXA events
+    \[Omitted image "es-events.png"\] Alt text: User Experience Analytics events list showing available tracked events
 
-5.  Review and use the available out-of-the-box events.
+5.  Review and use the available predefined events.
 
 6.  Select a specific event to view detailed analytics and user flow data.
 
-    Each event metrics detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, button clicking, and others. For more information, see [View Usage Insights Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/view-events.md).
+    Each event metrics detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, selecting buttons, and others. For more information, see [View Usage Insights Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/view-events.md).
 
 7.  Follow instructions available at [Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-funnel.md) and [View Usage Insights Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/view-events.md) for any additional configuration.
 
@@ -79,6 +79,8 @@ You can now access conversion funnel data to analyze user behavior patterns in E
 ## What to do next
 
 To create custom funnels for specific workflows, see the funnel configuration documentation. To analyze funnel data trends over time, use the date range filters and export options available in the interface.
+
+Employee Slate for Moveworks provides similar analytics. Navigate to **Platform Analytics** &gt; **User Experience Analytics**, and select **Employee Slate for Moveworks**. There, you can review retention, cohort analysis, navigation paths, and session details.
 
 **Related topics**  
 

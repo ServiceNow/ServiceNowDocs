@@ -1,20 +1,20 @@
 ---
 title: Investigate Zoom call issues
-description: Investigate Zoom call performance with Now Assist to identify root cause of issues, review supporting evidence, and get the resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the Zoom call issues.
+description: Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to identify root causes and get resolutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-zoom-call-issues.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Investigate Zoom call issues
 
-Investigate Zoom call performance with Now Assist to identify root cause of issues, review supporting evidence, and get the resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the Zoom call issues.
+Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to identify root causes and get resolutions.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: sn\_dex.user
 
 -   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
 -   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
--   Enable Now Assist for DEX to access AI-generated Zoom call diagnostics.
+-   Enable ServiceNow Otto for DEX to access AI-generated Zoom call diagnostics.
 
-**Note:** The Now Assist AI capability for investigating Zoom call quality issues requires a minimum platform version of Zurich patch 7.
+**Note:** This AI skill requires a minimum platform version of Zurich patch 7.
 
 ## About this task
 
-The Now Assist for Zoom Call Issues analyzes Zoom telemetry, including audio, video, jitter, latency, and packet loss, or other issues along with device and application data to determine the root cause.
+ServiceNow Otto for Zoom Call Issues analyzes Zoom telemetry such as audio, video, jitter, latency, packet loss, or other issues along with device and application data to identify root causes. It reviews supporting evidence and provides resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the Zoom call issues.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ The Now Assist for Zoom Call Issues analyzes Zoom telemetry, including audio, vi
 
     **Tip:** Apply **Additional filters** \(Device type, Version, Network type, and Location\) to narrow down the results and quickly find call details.
 
-7.  In the **Now Assist for Zoom Call Issues** banner, select **Investigate**.
+7.  In the **ServiceNow Otto for Zoom Call Issues** banner, select **Investigate**.
 
 8.  Review the AI-generated analysis, which includes:
 

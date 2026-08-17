@@ -30,8 +30,8 @@ Before you can [enable dynamic machine translation](https://raw.githubuserconten
 
     **Note:** NLU detection and discovery values are stored in the sys\_cs\_general\_settings table. As of Vancouver, ServiceNow NLU is the available NLU driver.
 
-4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using Now Assist in Virtual Agent.
-5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the Exclusion Framework.
+4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using ServiceNow Otto for Virtual Agent
+5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dyn-translation-exclusion-framework.md).
 
 The following translation service providers are pre-configured once the plugins are installed:
 
@@ -45,11 +45,11 @@ The following translation service providers are pre-configured once the plugins 
 
 You can configure any other translation service provider in the Dynamic Translation application as follows:
 
-1.  Integrate with a translation service provider.
+1.  [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/integrate-translation-service-provider.md).
 
-2.  Create a translator configuration in Dynamic Translation.
+2.  [Create a translator configuration in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-custom-translator.md).
 
-3.  Create a language code mapping to map translator language codes to the ServiceNow® language codes.
+3.  [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-language-code-mapping.md) to map translator language codes to the ServiceNow® language codes.
 
 
 ## Next step

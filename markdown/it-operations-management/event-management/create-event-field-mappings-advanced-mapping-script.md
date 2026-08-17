@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create event field mappings, Event field mapping configuration, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Create event field mappings, Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create event field mappings with advanced mapping script

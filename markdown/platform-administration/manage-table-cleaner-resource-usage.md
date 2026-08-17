@@ -30,11 +30,7 @@ You can mitigate the impact to system performance by starting a table cleaner ru
 
 2.  Select the DMTableCleaner job record.
 
-3.  Change the number of producer threads devoted to creating chunks of records by updating the value in the **Max producers** field.
-
-4.  Change the number of consumer threads devoted to deleting chunks of records by updating the value in the **Max consumers** field.
-
-5.  Select **Update**.
+3.  Select **Update**.
 
 
 ## Result

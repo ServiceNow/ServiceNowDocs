@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-02-11"
 reading_time_minutes: 4
-breadcrumb: [Explore Now Assist Sourcing Procurement, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Explore ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Automatically assign categories during SR and PR creation
@@ -48,8 +48,6 @@ To use the solution definitions for both PRL and POL in your instance, open each
 
 **Note:** Users with the category\_manager\_admin and now\_assist\_admin roles can update the solution definitions.
 
-\[Omitted image "prl-cat-sol-train.png"\] Alt text: Product Category Classification solution definition interface with Update &amp; Retrain button highlighted.
-
 Both solution types retrain automatically based on configured training frequency. By default, the solution definitions run automatically once every seven days.
 
 ## How to configure
@@ -67,7 +65,7 @@ If the confidence score is below the threshold, the Spend categorization agent d
 
 These skills run and predict and update the **Product category** and **Spend category** fields on the PRLs for an SR or PR.
 
-View these skills by navigating to **All** &gt; **Now Assist Admin** &gt; **Finance &amp; Supply Chain** &gt; **Sourcing and Procurement Operations**.
+View these skills by navigating to **All** &gt; **AI Admin Hub** &gt; **Finance &amp; Supply Chain** &gt; **Sourcing and Procurement Operations**.
 
 ## How it works
 
@@ -77,11 +75,7 @@ If the AI-predicted category differs from the category selected by the requester
 
 Visual indicators appear next to the **Product category** and **Spend category** fields in the Playbook view and the Purchase Line related lists, indicating that the fields were updated using AI predictions. In such cases, a corresponding comment is added to the activity stream, for example, "AI-suggested Spend category updated from X to Y."
 
-\[Omitted image "prl-ai-banner.png"\] Alt text: PRL form showing AI-suggested updates to Product and Spend category fields.
-
 You can manually select different values for either category field from the Product category and Spend category drop-down lists on the Purchase Line form.
-
-\[Omitted image "prl-ai-prediction.png"\] Alt text: Purchase Line form showing Product category drop-down list with AI predictions highlighted.
 
 Any user-selected overrides are captured and used to improve future model accuracy. When a different value is selected, a banner appears at the top of the form that informs you that an AI-predicted value was applied.
 
@@ -94,10 +88,10 @@ Automatically predict and assign product and spend categories for imported purch
 -   **[Ensure consistent invoice spend categories during PO matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.md)**  
 Maintain aligned spend categories when matching invoice lines with purchase order lines by applying the spend category from the PO line to the corresponding invoice line.
 
-**Parent Topic:**[Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
+**Parent Topic:**[Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 **Related topics**  
 
 
-[Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)]()
+[Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 

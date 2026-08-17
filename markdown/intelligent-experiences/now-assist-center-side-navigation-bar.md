@@ -1,19 +1,19 @@
 ---
 title: Side navigation bar
-description: The side navigation bar provides access to Now Assist applications and features integrated with Now Assist Center.
+description: The side navigation bar provides access to the applications and features integrated with AI Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-side-navigation-bar.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Now Assist Center workspace, Explore, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [AI Admin Center workspace, Explore, AI Admin Center, Enable AI experiences]
 ---
 
 # Side navigation bar
 
-The side navigation bar provides access to Now Assist applications and features integrated with Now Assist Center.
+The side navigation bar provides access to the applications and features integrated with AI Admin Center.
 
 Select an item in the navigation bar to open it in a workspace tab.
 
@@ -39,11 +39,11 @@ Home
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-home.png"\] Alt text: Home option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-home.png"\] Alt text:
 
 </td><td>
 
-The home page provides Now Assist setup, administration, and monitoring features tailored to suit your instance.
+The home page provides AI setup, administration, and monitoring features tailored to suit your instance.
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Asset inventory
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text:
 
 </td><td>
 
@@ -65,11 +65,11 @@ Data
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-data.png"\] Alt text: Data option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-data.png"\] Alt text:
 
 </td><td>
 
-The data page allows you to use Now Assist Data Kit in the Now Assist Center workspace.
+The data page allows you to use AI Data Kit in the AI Admin Center workspace.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ AI readiness assessment
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-readiness.png"\] Alt text: AI readiness assessment option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-readiness.png"\] Alt text:
 
 </td><td>
 
@@ -89,11 +89,11 @@ Admin
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text:
 
 </td><td>
 
-The admin page allows you to use Now Assist Admin console and Now Assist Guardian in the Now Assist Center workspace.
+The admin page allows you to use AI Admin Hub and AI Guardian in the AI Admin Center workspace.
 
  The admin page provides a series of links to admin pages. Select an item to open it in a separate workspace tab.
 
@@ -103,14 +103,14 @@ Monitor
 
 </td><td>
 
-\[Omitted image "icon-now-assist-center-nav-monitor.png"\] Alt text: Monitor option in the side navigation bar.
+\[Omitted image "icon-now-assist-center-nav-monitor.png"\] Alt text:
 
 </td><td>
 
 The monitor page shows usage, performance, and adoption metrics for your AI solutions.
 
 </td></tr></tbody>
-</table>For more information, see [Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md).
+</table>For more information, see [Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md).
 
-**Parent Topic:**[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
+**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
 

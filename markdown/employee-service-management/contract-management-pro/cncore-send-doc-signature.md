@@ -1,20 +1,21 @@
 ---
 title: Send a contract document for signature
-description: After a contract document has been reviewed and finalized, send the document for signature.
+description: Send the document for signature after a contract document has been reviewed and finalized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-send-doc-signature.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Contract signature]
 breadcrumb: [Signature workflow for a contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Send a contract document for signature
 
-After a contract document has been reviewed and finalized, send the document for signature.
+Send the document for signature after a contract document has been reviewed and finalized.
 
 ## Before you begin
 
@@ -26,7 +27,7 @@ Role required: sn\_cm\_core.contract\_user
 
 ## About this task
 
-**Note:** The **Send for signature** option is not available for the offline signature. For more information see, [Initiate an offline signature for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-offline-signature-workspace.md)
+**Note:** The **Send for signature** option is not available for the offline signature. For more information see, [Initiate an offline signature for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-offline-signature-workspace.md).
 
 ## Procedure
 
@@ -54,7 +55,7 @@ Role required: sn\_cm\_core.contract\_user
 
 The document is sent for signature to the specified signatories. The activity stream displays details of the contract document that is sent for signature.
 
-The contract request state and contract status updates to Awaiting Signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+The contract request state and contract status updates to Awaiting signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
 **Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

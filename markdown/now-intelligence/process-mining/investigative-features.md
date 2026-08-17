@@ -84,7 +84,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
 
-    You can use the Now Assist feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
+    You can use the AI feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
 
 <table id="table_wmj_zsq_ndc"><thead><tr><th>
 

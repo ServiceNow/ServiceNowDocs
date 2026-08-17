@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-instancescan-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Zurich
 
 </td><td>
 
--   **[Scan cancellation](https://servicenow-staging.fluidtopics.net/access?context=hs-cancel-scan&family=zurich&ft:locale=en-US)**
+-   **[Scan cancellation](https://www.servicenow.com/docs/access?context=hs-cancel-scan&family=zurich&ft:locale=en-US)**
 
 Cancel or abort an ongoing scan by either selecting **Cancel Scan** in the scan execution modal or the **Cancel Scan** related link in the results record.
 
--   **[Queuing of scans](https://servicenow-staging.fluidtopics.net/access?context=hs-queue-scan&family=zurich&ft:locale=en-US)**
+-   **[Queuing of scans](https://www.servicenow.com/docs/access?context=hs-queue-scan&family=zurich&ft:locale=en-US)**
 
 Leverage the scan queue feature to line up your scans for automatic execution following the current scan.
 
@@ -347,7 +347,7 @@ Zurich
 -   Run custom checks against your existing configurations.
 -   Use as a tool in your development operations, release management, as well as pre- and post-upgrades.
 
- See [Instance Scan](https://servicenow-staging.fluidtopics.net/access?context=hs-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

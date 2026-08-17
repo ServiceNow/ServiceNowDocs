@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-scaledagileframeworksafe-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -198,7 +198,7 @@ The following SAFe-related plugins are planned for deprecation and can no longer
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
-As an alternative, you can use the Enterprise Agile Planning \(EAP\) capability within the Strategic Planning application, which provides SAFe features with flexible team and work hierarchy configurations. With an interactive workspace experience, EAP helps you to streamline communication and collaboration between your teams. For more information, see [Enterprise Agile Planning](https://servicenow-staging.fluidtopics.net/access?context=eap-landing&family=xanadu&ft:locale=en-US).
+As an alternative, you can use the Enterprise Agile Planning \(EAP\) capability within the Strategic Planning application, which provides SAFe features with flexible team and work hierarchy configurations. With an interactive workspace experience, EAP helps you to streamline communication and collaboration between your teams. For more information, see [Enterprise Agile Planning](https://www.servicenow.com/docs/access?context=eap-landing&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 

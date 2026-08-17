@@ -1,22 +1,24 @@
 ---
-title: Install the Chief Human Resources Officer \(CHRO\) Dashboard
+title: Install the Chief Human Resources Officer Dashboard
 description: The CHRO Dashboard helps people leadership to run its business to deliver value quickly, improve productivity and optimize risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-chro.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Install the Chief Human Resources Officer \(CHRO\) Dashboard
+# Install the Chief Human Resources Officer Dashboard
 
 The CHRO Dashboard helps people leadership to run its business to deliver value quickly, improve productivity and optimize risks.
 
 ## Before you begin
 
-Role required: sn\_chro\_dashboard.chro\_dashboard\_admin, sn\_chro\_dashboard.chro\_dashboard\_user
+Role required: admin, platform\_analytics\_admin, chro\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CHRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require a professional entitlement to the HRSD \(com.sn\_hr\_core\) application. This professional entitlement includes a license for Platform Analytics and the content pack solutions for the associated applications.
 
@@ -50,12 +52,12 @@ Plugins:
 
         Assign the role sn\_chro\_dashboard.chro\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CHRO dashboard.
+        **Note:** Only users with this role can configure the CHRO dashboard.
 
     -   **CxO Dashboard end users**
 
         Assign the user role sn\_chro\_dashboard.chro\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

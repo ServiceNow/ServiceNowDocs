@@ -1,5 +1,5 @@
 ---
-title: Migrate to legacy change risk assessments
+title: Migrate from legacy change risk assessments
 description: Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/legacy-change-risk-assessment-migration.html
@@ -7,12 +7,12 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-07-17"
+reading_time_minutes: 3
 breadcrumb: [Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
 ---
 
-# Migrate to legacy change risk assessments
+# Migrate from legacy change risk assessments
 
 Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
@@ -37,6 +37,10 @@ The following legacy risk assessment components are migrated:
     -   If all the multiple assessment conditions are on the same table, then the migration results in only one risk assessment.
     -   If the multiple assessment conditions are on different tables, then the migration creates as many risk assessments as they pertain to different tables.
 
+During migration, question choices with negative score values from the legacy assessment are excluded. Survey and Assessment V2 \(com.snc.assessment\_core\) does not support negative values in choice definitions. The business rules on the asmt\_metric\_definition table enforces this constraint by blocking any insert or update where the choice value is negative. The one exception is `-1`, which is a system-reserved value that Survey and Assessment V2 uses to record that a user did not answer a question when they submitted an assessment. The Change Risk Assessment migration excludes all negative score values, including `-1`, to prevent unanswered-question flags and other negative scores from being carried into the migrated assessment choice definitions.
+
+**Important:** Review your legacy assessment question choices before migrating. Any choice with a negative score value, including choices used to represent unanswered or not-applicable responses, is not migrated to the new Change Risk Assessment. Recreate these choices manually in the migrated assessment using non-negative values, or enable the **Allow N/A** option on the assessment metric to capture unanswered responses.
+
 ## Procedure
 
 1.  Create an update set and set it as the current set.
@@ -56,7 +60,7 @@ The following legacy risk assessment components are migrated:
 
 ## What to do next
 
-After all the legacy risk assessments are migrated, reach out to the support team to run the following scripts:
+After all the valid legacy risk assessments are migrated, reach out to the support team to run the following scripts:
 
 ```
 disable_legacy_change_risk_assessment.js

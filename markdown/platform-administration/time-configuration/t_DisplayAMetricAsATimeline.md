@@ -28,7 +28,7 @@ Role required: none
 
 3.  Select the **Timeline** check box.
 
-4.  Select**Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimelinePages.md)

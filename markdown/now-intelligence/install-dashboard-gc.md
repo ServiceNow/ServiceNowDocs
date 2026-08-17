@@ -1,22 +1,24 @@
 ---
-title: Install the General Counsel \(GC\) Dashboard
+title: Install the GC Dashboard
 description: For a general counsel, this dashboard provides transparency into legal service delivery and operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-gc.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [General Counsel \(GC\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Install the General Counsel \(GC\) Dashboard
+# Install the GC Dashboard
 
 For a general counsel, this dashboard provides transparency into legal service delivery and operations.
 
 ## Before you begin
 
-Role required: sn\_lsd\_dashboard.gc\_dashboard\_admin, sn\_lsd\_dashboard.gc\_dashboard\_user
+Role required: admin, platform\_analytics\_admin, sn\_lsd\_dashboard.gc\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The General Counsel Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: Legal Services Delivery. This application includes a license for Platform Analytics.
 
@@ -46,7 +48,7 @@ Application plugins:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 
-5.  Search for and install the GC Dashboard plugin \(sn\_lsd\_dashboard\).
+5.  Search for and install the GC Dashboard plugin \(sn\_gcdashboard\).
 
 6.  Assign roles to configure and view the GC Dashboard.
 
@@ -54,12 +56,12 @@ Application plugins:
 
         Assign the role sn\_lsd\_dashboard.gc\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the GC dashboard.
+        **Note:** Only users with this role can configure the GC dashboard.
 
     -   **GC Dashboard end users**
 
         Assign the user role sn\_lsd\_dashboard.gc\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

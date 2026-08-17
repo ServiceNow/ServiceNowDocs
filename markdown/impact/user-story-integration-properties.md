@@ -33,7 +33,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure instance user story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/sn-user-story-integration.md)
+
 
 </td><td>
 

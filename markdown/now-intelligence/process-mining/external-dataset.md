@@ -8,8 +8,8 @@ product: Process Mining
 classification: process-mining
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+reading_time_minutes: 1
+breadcrumb: [Import external data, Process Mining, Platform Analytics]
 ---
 
 # Working with external datasets
@@ -29,21 +29,4 @@ To import external datasets into ServiceNow® and create a project with it and m
 -   [Create a project and mine it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-project.md)
 
 \[Omitted image "ext-dataset-arch.png"\] Alt text: External dataset architecture
-
--   **[Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-table.md)**  
-Create an audit table to store data. Audit table is a staging table that is created with the required columns to populate the external data.
--   **[Add custom fields to the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/add-custom-field.md)**  
-The custom fields form as breakdown filters when viewing the process graph. Without custom fields, there won't be any breakdown filters.
--   **[Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md)**  
-Import external dataset into the audit table to start working with the data in Process Mining.
--   **[Verify the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/verify-data.md)**  
-Verify the data that was imported and validate that the data is accurate. The success of your data mining depends on the accuracy of your imported data.
--   **[Create case records for the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-case-record.md)**  
-Create case records for the imported data as it is important for creating a project and mining it. Without a record table, a project can’t be created.
--   **[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-project.md)**  
-Create a project with the imported external data. You must mine the project to analyze your data and improve your processes.
--   **[Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/managing-audit-table.md)**  
-After the audit and record tables are created with the imported data, you can use them to create a project. You can also share, edit, empty, or delete the tables.
-
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

@@ -28,7 +28,7 @@ See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNo
 
 -   **[Auto-generate SLOs for SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-manage-generated-slos.md)**
 
-    Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the Now Assist for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+    Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
 
 -   **[Remove a service from SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/sr-remove-service.md)**
 
@@ -84,7 +84,7 @@ See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNo
 
 ## Activation information
 
-Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 

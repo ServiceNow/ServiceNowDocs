@@ -1,42 +1,40 @@
 ---
-title: Configure the Government case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
-description: Activate and customize the Government case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+title: Configure the Government case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: Activate and customize the Government case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application. Government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/now-assist-psds-customize-case-summ.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 6
+breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Government case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
+# Configure the Government case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-Activate and customize the Government case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+Activate and customize the Government case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application. Government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 
 ## About this task
 
-Government service agents can utilize case summarization, powered by Now LLM, to gain contextual understanding of constituent issues throughout the case's lifecycle. The case summarization skill auto-generates informative summaries that distill key details from work notes, comments, and other case data, which can help agents resolve cases faster.
-
-With case summarization enabled, agents can use Generative AI to summarize the key information of each government case to understand the context and get a concise overview of actions taken and resolution steps.
+Government service agents can use case summarization, powered by Now LLM, to gain contextual understanding of constituent issues throughout the case's lifecycle. The case summarization skill auto-generates informative summaries that distill key details from work notes, comments, and other case data, which can help agents resolve cases faster.
 
 **Note:** The base system includes a pre-configured case summarization skill.
 
 ## Before you begin
 
-Role required: sn\_nowassist\_admin.user, admin
+Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** to access the **ServiceNow Otto Features** tab of the AI Admin Hub console.
 
 2.  In the dropdown, select **Customer** &gt; **PSDS**.
 
-    \[Omitted image "now-assist-psds-panel.png"\] Alt text: Now Assist Panel showing NA skills and features in PSDS
+    \[Omitted image "image.psds-otto-ai-admin-hub"\] Alt text: AI skills for PSDS Customer workflow
 
 3.  On the Government case feature card, select **View Details**, then select **Case Summarization** under Active Skills.
 
-    By default, the case summarization skill is activated for Now Assist for PSDS. If it is not active, select **Activate Skill** in the All available Chat skills section of the case recommendation card.
+    By default, the case summarization skill is activated for ServiceNow Otto for PSDS. If it is not active, select **Activate Skill** in the All available Chat skills section of the case recommendation card.
 
 4.  In the Active skills section, locate the **Government case summarization** skill.
 
@@ -50,15 +48,13 @@ Role required: sn\_nowassist\_admin.user, admin
 
 7.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  View the input data for each skill, such as the base input fields and related lists for the different input templates \(Case new, Case work in progress, and Case resolved states\).
-
-    View Input displays the data the large language model \(LLM\) considers when creating a response. The input fields and rule conditions form an input template.
+8.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, and Case resolved states\) for the skill.
 
@@ -129,8 +125,6 @@ Description of the base input field value.
 
 9.  Customize the prompt.
 
-    To customize prompts for each input template, add new sections that will be added to the summary.
-
     Review and test the prompt for each input template configuration. You can edit the prompt by adding new predefined sections and reordering them, as needed.
 
     1.  For each input template state \(New, Work in progress, and Resolved\), select the prompt sections from the list of available sections to include in the generated summary.
@@ -192,8 +186,6 @@ Resolved
 
 10. Define how the skill is available to your users.
 
-    Customize how and when the skill capability will exist and be available. If customize skill availability is selected, add the criteria below to define the conditions under which the skill is made available.
-
     1.  Configure the skill to be always available to users, or select conditions that must be met before the skill is available.
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
@@ -202,28 +194,22 @@ Resolved
 
 11. Configure where to display the case summarization.
 
-    Toggle on In-product to display chat summarization in a Workspace or on a CoreUI form. Select Now Assist panel to display the chat summarization in the panel. To restrict access to the content by role, click &gt; under Display and enter the user roles.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
-
-        -   **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        -   **In-product**: When selected, the ServiceNow Otto skills are displayed on the forms and workspaces.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
 12. Review your choices and select **Activate** to complete the skill customization.
 
-    Review the settings on this page. Click **Back** to make changes for the input or display settings, or select **Activate** to turn the skill on.\[Omitted image "case-summarization-activate-now-assist-psds.png"\] Alt text: Review and activate step for Now Assist case summarization.
+    \[Omitted image "case-summarization-activate-now-assist-psds.png"\] Alt text: Review and activate step for ServiceNow Otto case summarization.
 
-
-## Result
-
-Once all the settings are configured, the modal window confirms that Government Case Summarization has been successfully activated.
 

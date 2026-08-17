@@ -23,8 +23,8 @@ Components are installed with the activation of Now Assist in Document Intellige
 The extraction mode determines how Now Assist in Document Intelligence processes a document task.
 -   **[Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md)**  
 The document and visual insights AI agent gathers context from user input and document orimage attachments, generates the requested information based on the content, and provides the information along with any relevant task details.
--   **[Document Intelligence tool for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/document-visual-intelligence-skill-kit-tool.md)**  
-Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with Now Assist Skill Kit.
+-   **[Document Intelligence tool for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.md)**  
+Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with AI Skill Kit.
 -   **[Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md)**  
 The field type specifies the information that is retrieved from a document with Now Assist in Document Intelligence.
 -   **[Now Assist in Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.md)**  

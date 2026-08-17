@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -30,14 +30,14 @@ File Explorer also allows connector applications such as Microsoft SharePoint. Y
 
 File Explorer configuration includes the following setup:
 
--   [Configure File Explorer Repository Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-repository-config.md)
+-   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-repository-config.md)
 -   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/folder-file-action-settings.md)
 -   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-folder-templates.md)
 
 -   **[Get Started with File Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/get-started-with-fe.md)**  
 Review the following information before you start working with File Explorer Component.
--   **[Configure File Explorer Repository Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-repository-config.md)**  
-The Microsoft SharePoint connector provides various capabilities to be implemented in Microsoft SharePoint File Explorer features by managing and tracking the file metadata.
+-   **[Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-repository-config.md)**  
+Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
 -   **[Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/folder-file-action-settings.md)**  
  Configure the folder and file actions you would like to be enabled from the File Explorer component on the Major Security Incident Management workspace, using the Folder and File Action Settings setup page. As an MSI Administrator, you can control the individual Folder and File Actions displayed on the File Explorer Component.
 -   **[Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer-folder-templates.md)**  
@@ -55,4 +55,6 @@ The troubleshooting section can help you resolve some of the technical issues th
 [Configure Microsoft Teams]()
 
 [Configure Slack chat connector for major security incidents]()
+
+[Customize SI to MSI flows \(optional\)]()
 

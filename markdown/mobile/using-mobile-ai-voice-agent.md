@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-02-06"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using Mobile AI Voice Agent
@@ -81,5 +81,5 @@ During your call, you can toggle captions on or off to show or hide the live tra
 
 After your call ends, you will see the transcript immediately. This transcript is available for the current session only, so be sure to share or save it before closing if you need to keep it as it won't be saved in your recent conversations.
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
 

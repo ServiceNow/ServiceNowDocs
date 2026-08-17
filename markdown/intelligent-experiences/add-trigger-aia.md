@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-trigger-aia.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a trigger to an AI agent
@@ -92,9 +92,9 @@ Channel
 
 </td><td>
 
-Medium for the agentic workflow output: Now Assist panel or Virtual Agent.
+Medium for the agentic workflow output: ServiceNow Otto panel or Virtual Agent.
 
- **Note:** To view the output from a triggered agentic workflow in the Now Assist panel, you need the now\_assist\_panel\_user role.
+ **Note:** To view the output from a triggered agentic workflow in the ServiceNow Otto panel, you need the now\_assist\_panel\_user role.
 
 </td></tr><tr><td>
 

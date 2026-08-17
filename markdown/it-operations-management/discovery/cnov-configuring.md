@@ -21,8 +21,8 @@ For information about advanced configuration options, see the [Administrating an
 
 -   **[Prepare for Kubernetes Visibility Agent deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-prepare.md)**  
 Prepare your ServiceNow instance and the Kubernetes cluster for Kubernetes Visibility Agent deployment.
--   **[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)**  
-You can install Kubernetes Visibility Agent using either a Helm chart or the Kubernetes YAML file.
+-   **[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)**  
+You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
 -   **[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enabling-application-service-maps.md)**  
 Application service maps give you visibility into how workloads communicate in a Kubernetes cluster, helping you detect dependencies and monitor traffic flows in real time.
 -   **[Pulling additional resources from Kubernetes clusters into the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-config-pulling-extra-resources.md)**  

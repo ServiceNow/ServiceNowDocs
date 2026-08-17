@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ Enable keyword search in contract templates.
 
 ## Before you begin
 
-Role required: sn\_cm\_core.contract\_config
+Role required: admin
 
 ## Procedure
 
@@ -50,9 +50,9 @@ The table will be indexed. For more information on how to search for a keyword i
 
 [Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion]()
-
 [Enable signatory roles]()
+
+[Activate a system property to generate a certificate of completion]()
 
 [Enable users to view email details in activity stream]()
 

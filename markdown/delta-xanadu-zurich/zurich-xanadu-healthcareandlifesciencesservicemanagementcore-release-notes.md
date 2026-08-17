@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-healthcareandlifesciencesservicemanagementcore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Patient identifier table](https://servicenow-staging.fluidtopics.net/access?context=hcls-patient-identifier-table&family=xanadu&ft:locale=en-US)**
+-   **[Patient identifier table](https://www.servicenow.com/docs/access?context=hcls-patient-identifier-table&family=xanadu&ft:locale=en-US)**
 
 Use the new Patient identifier table to maintain and manage multiple identifiers such as patient MRN, social security number, and more.
 
@@ -117,7 +117,7 @@ Xanadu
 
 </td><td>
 
--   **[Workspace performance enhancements](https://servicenow-staging.fluidtopics.net/access?context=hcls-using-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Workspace performance enhancements](https://www.servicenow.com/docs/access?context=hcls-using-workspace&family=xanadu&ft:locale=en-US)**
 
 The Healthcare Workspace has received performance enhancements to optimize loading times.
 
@@ -231,7 +231,7 @@ Xanadu
 
 </td><td>
 
-Install Healthcare and Life Sciences Service Management Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Healthcare and Life Sciences Service Management Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -419,7 +419,7 @@ Xanadu
 -   Promote accurate and comprehensive patient data management by leveraging multiple patient identifiers within the enhanced Healthcare and Life Sciences Service Management data model.
 -   Utilize the performance updates within the healthcare workspace to optimize loading times.
 
- See [Exploring Healthcare and Life Sciences Service Management Core](https://servicenow-staging.fluidtopics.net/access?context=hcls-explore-core&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring Healthcare and Life Sciences Service Management Core](https://www.servicenow.com/docs/access?context=hcls-explore-core&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

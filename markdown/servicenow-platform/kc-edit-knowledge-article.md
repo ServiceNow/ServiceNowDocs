@@ -1,18 +1,18 @@
 ---
-title: Generate and edit articles using the Now Assist from Knowledge Center article editor
-description: The Knowledge Center \(KC\) article editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
+title: Generate and edit articles using the article editor
+description: The Knowledge Center \(KC\) Article Editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/kc-edit-knowledge-article.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Generate and edit articles using the Now Assist from Knowledge Center article editor
+# Generate and edit articles using the article editor
 
-The Knowledge Center \(KC\) article editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
+The Knowledge Center \(KC\) Article Editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
 
 ## Before you begin
 
@@ -36,31 +36,31 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 6.  Start by entering the **Knowledge base**, **Short description** \(title\), and other details in the metadata pane of the article form.
 
-    \[Omitted image "Using-article-editor.jpeg"\] Alt text: Article editor page.
-
 7.  As you create the article in the main article editor space, drag **Components**, such as columns and text section, into the article area from the **Blocks** pane.
+
+8.  You can also add tables to the article from the components.
 
     **Note:** Collapse and expand the article area using the arrows for better visibility.
 
-8.  Use the block-level controls in the toolbar to preview articles for aspect ratios, toggle component outlines, delete, redo, or undo blocks.
+9.  Use the block-level controls in the toolbar to preview articles for aspect ratios, toggle component outlines, delete, redo, or undo blocks.
 
-9.  Edit blocks using the block **Settings** to fine-tune margins and alignment.
+10. Edit blocks using the block **Settings** to fine-tune margins and alignment.
 
-10. Select and format inline text such as headings, lists, fonts, and hyperlinks, with the floating formatting toolbar.
+11. Select and format inline text such as headings, lists, fonts, and hyperlinks, with the floating formatting toolbar.
 
     \[Omitted image "Settings-and-Formatting.jpeg"\] Alt text: Settings and formatting tools in article editor.
 
-11. Upload images and resize, rotate, or flip using the image-editing tools.
+12. Upload images and re-size, rotate, or flip using the image-editing tools.
 
-12. Use the Now Assist article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
+13. Use the Now Assist article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
 
-13. Select **Save** to save the draft of the article.
+14. Select **Save** to save the draft of the article.
 
 
 **Related topics**  
 
 
-[Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
 [Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

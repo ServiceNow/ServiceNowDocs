@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-benchmarks-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -334,7 +334,7 @@ Yokohama
 1.  Experience the new Key Performance Indicator \(KPI\) for Now Assist under Productivity moments per user of ITSM Benchmarks to understand the benefits of Now Assist features like Knowledge Article generation.
 2.  Benchmark the all new HRSM indicator to help evaluate the performance in comparison to your peers.
 
- See [Benchmarks](https://servicenow-staging.fluidtopics.net/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-itsm.r\_Benchmarks\]](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

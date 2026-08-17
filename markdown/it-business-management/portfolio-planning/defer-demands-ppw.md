@@ -1,6 +1,6 @@
 ---
 title: Defer demands
-description: Defer demands in Next Experience for Demand Management to move them to the backlog. You can review them and move them back to any other demand state.
+description: Defer demands in Next Experience for Demand Management to move them to the backlog when they aren't feasible to act on currently, such as when resources aren't available. After deferral, demands can be reviewed and moved to any other demand state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/defer-demands-ppw.html
 release: zurich
@@ -9,27 +9,33 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Defer demands
 
-Defer demands in Next Experience for Demand Management to move them to the backlog. You can review them and move them back to any other demand state.
+Defer demands in Next Experience for Demand Management to move them to the backlog when they aren't feasible to act on currently, such as when resources aren't available. After deferral, demands can be reviewed and moved to any other demand state.
 
 ## Before you begin
+
+Only demands in the Draft or Completed state can be deferred.
 
 Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Defer**.\[Omitted image "demands-defer.png"\] Alt text: Use the Defer button to defer a demand.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** You can defer the demands that are not in the Draft or Completed states.
+5.  Select **Defer**.
 
+
+## Result
+
+The deferred demand is moved to the Deferred state and can be revisited and reviewed in the future.
 

@@ -1,6 +1,6 @@
 ---
-title: Customize a skill in Now Assist for TMT
-description: If you have the admin role, you can customize a Now Assist for Telecommunications, Media and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+title: Customize a skill in ServiceNow Otto for TMT
+description: If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 5
 breadcrumb: [Configure, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Customize a skill in Now Assist for TMT
+# Customize a skill in ServiceNow Otto for TMT
 
-If you have the admin role, you can customize a Now Assist for Telecommunications, Media and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the account onboarding and service problem management, and then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the account onboarding and service problem management. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
-2.  In the **Customer** workflow group, select **TMT** to view the skills for the Now Assist for TMT features.
+2.  In the **Customer** workflow group, select **TMT** to view the skills for the ServiceNow Otto for TMT features.
 
-3.  Activate and copy the Now Assist for TMT feature case summarization skill for customization.
+3.  Activate and copy the ServiceNow Otto for TMT feature case summarization skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -48,7 +48,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -179,7 +179,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -60,6 +60,13 @@ When you validate a MID Server, you specify the capabilities it can use, the app
 5.  Click **OK**.
 
     The **Validated** field on the dashboard is set to **Validating**, and then set to **Yes** after the validation completes.
+
+    **Note:** If the **Validated** field is stuck in the **Validating** state, verify the following:
+
+    -   The MID Server service is running and its **Status** is **Up** on the MID Server record.
+    -   The MID Server host can reach the instance. See [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md).
+    -   No firewall or proxy blocks communication between the MID Server and the instance ECC queue.
+    Check the MID Server `agent0.log` for errors related to the validation probe. If the issue persists, invalidate the MID Server and revalidate. See [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
 
 6.  To invalidate a MID Server, open the record for the MID Server you suspect has a security issue.
 

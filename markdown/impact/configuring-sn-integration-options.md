@@ -1,34 +1,39 @@
 ---
-title: Configure ServiceNow integration options
-description: Perform the following procedure to configure your ServiceNow integration options.The following leading practices are guidelines for creating ServiceNow integration scripts.
+title: Configure ServiceNow user story integration
+description: Configure the ServiceNow instance user story integration to create stories in a production instance directly from finding records on a non-production instance.The following leading practices are guidelines for creating ServiceNow integration scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configuring-sn-integration-options.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-04"
-reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+last_updated: "2026-07-27"
+reading_time_minutes: 2
+breadcrumb: [User story integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
-# Configure ServiceNow integration options
+# Configure ServiceNow user story integration
 
-Perform the following procedure to configure your ServiceNow integration options.
+Configure the ServiceNow instance user story integration to create stories in a production instance directly from finding records on a non-production instance.
 
 ## Before you begin
+
+-   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories will not be created in the target instance. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
+-   The User Story Table must exist on both the source and target instances before configuring field mappings.
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 ## Procedure
 
-1.  Select **ServiceNow instance** as the integration type.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-2.  Select the **User story table** for creating tasks in your designated target instance.
+2.  Set **Integration Type** to `ServiceNow instance`.
 
-    The table must exist in your Source instance as well as the Target instance.
+3.  Set the **User Story Table**.
 
-3.  **User story field mapping** contains the script used by the task creation integration for mapping fields from findings to the chosen task table.
+    This table must exist on both the source and target instances.
 
-    **Note:** This script is executed twice. Once in the Source instance and once in the Target instance.
+4.  Define field mappings in **User Story Field Mapping**.
+
+    The mapping script executes once on the Source instance and once on the Target instance. Use the available script variables to control behavior in each context. See [ServiceNow integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-sn-integration-options.md) guidance on writing effective field mapping scripts.
 
 
 ## ServiceNow integration script leading practices

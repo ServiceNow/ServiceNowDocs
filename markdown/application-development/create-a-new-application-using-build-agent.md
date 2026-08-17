@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/create-a-new-application-using-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -41,19 +41,21 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the Sparkle icon \[Omitted image "ba-sns-ai-sparkle.png"\] Alt text: in the application banner.\[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
+    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+
+    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d236365e223">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d237109e235">
 
 Scenario
 
-</th><th align="left" id="d236365e226">
+</th><th align="left" id="d237109e238">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d236365e232">
+</th></tr></thead><tbody><tr><td id="d237109e244">
 
 **Describe the app you want to create**
 
@@ -63,7 +65,7 @@ Describe the application that you want to create, and then select the Send icon\
 
 You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d236365e253">
+</td></tr><tr><td id="d237109e265">
 
 **Select a predetermined prompt**
 
@@ -96,8 +98,6 @@ You can also attach images, such as architectural diagrams or UI wireframes, to 
 ## Result
 
 Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
-
-\[Omitted image "ba-create-app-4.png"\] Alt text: App details panel showing the Planner Tracker application metadata organized in a hierarchical tree structure
 
 When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 

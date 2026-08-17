@@ -1,21 +1,21 @@
 ---
-title: Activate Now Assist in Virtual Agent for Google Chat
-description: Add Now Assist in Virtual Agent to your Google Chat bot.
+title: Activate ServiceNow Otto for Virtual Agent for Google Chat
+description: Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/activate-na-va-google-chat.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
-keywords: [Now, Assist, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
+keywords: [Now, Assist, Otto, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
 breadcrumb: [Install Conversational Integration with Google Chat, Conversational Integration with Google Chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Activate Now Assist in Virtual Agent for Google Chat
+# Activate ServiceNow Otto for Virtual Agent for Google Chat
 
-Add Now Assist in Virtual Agent to your Google Chat bot.
+Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Create a self-configured bot for Google Chat. For more information, see [Integra
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Under **Now Assist in Virtual Agent \(default\)**, select the **Edit** button.
+2.  Under **ServiceNow Otto for Virtual Agent \(default\)**, select the **Edit** button.
 
 3.  Under the **Settings** tab, select **Display experiences**, then select **Channels**.
 

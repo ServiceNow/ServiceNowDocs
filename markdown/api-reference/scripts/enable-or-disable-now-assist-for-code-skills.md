@@ -1,20 +1,20 @@
 ---
 title: Enable or disable Now Assist skills
-description: Learn to enable and disable Now Assist for Code skills.
+description: Learn to enable and disable ServiceNow Otto for Code skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.html
 release: zurich
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Enable or disable Now Assist skills
 
-Learn to enable and disable Now Assist for Code skills.
+Learn to enable and disable ServiceNow Otto for Code skills.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-You can enable or disable Now Assist for Code skills.
+You can enable or disable ServiceNow Otto for Code skills.
 
 ## Procedure
 
@@ -47,5 +47,5 @@ You can enable or disable Now Assist for Code skills.
         The skill is disabled for all users.
 
 
-**Parent Topic:**[Configuring Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configuring-now-assist-code.md)
 

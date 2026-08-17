@@ -1,6 +1,6 @@
 ---
 title: Summarize a subflow
-description: Generate a summary of a subflow with Now Assist for Creator.
+description: Generate a summary of a subflow with ServiceNow Otto for Creator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/summarize-a-subflow.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
 
 # Summarize a subflow
 
-Generate a summary of a subflow with Now Assist for Creator.
+Generate a summary of a subflow with ServiceNow Otto for Creator.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required:
 
 ## Result
 
-Now Assist for Creator generates a summary of the subflow. The subflow summary also displays its creation date.
+ServiceNow Otto for Creator generates a summary of the subflow. The subflow summary also displays its creation date.
 
 ## What to do next
 

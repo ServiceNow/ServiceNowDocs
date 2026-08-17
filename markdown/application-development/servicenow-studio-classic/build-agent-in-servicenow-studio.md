@@ -53,7 +53,7 @@ For more information, see [Working with update sets in ServiceNow Studio](https:
 
 Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.
 
-\[Omitted image "sn-studio-ba-new-chat.png"\] Alt text: Begin a conversation by selecting an option to create or update an app or app file.
+\[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 
 Continue your conversation in the chat panel until you're happy with the results.
 

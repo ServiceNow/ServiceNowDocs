@@ -21,7 +21,7 @@ Next Experience delivers a next generation, intuitive, personalized experience t
 -   **[Next Experience Readiness Checker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-readiness-checker.md)**  
 The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
 -   **[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-theming.md)**  
-Themes enable you to tailor the visual experience for your users, helping to update the look and feel to be more like your brand.
+Themes let you customize the visual experience to match your brand.
 -   **[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-landing-pages.md)**  
 Modify the landing pages on your Next Experience instance so that users see a landing page tailored to their experience in ServiceNow.
 -   **[Performing admin user functions in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/use-next-experience-admin-user-menu.md)**  

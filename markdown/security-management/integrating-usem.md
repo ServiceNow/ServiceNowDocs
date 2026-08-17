@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/inte
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
 
@@ -956,6 +956,54 @@ Ingest vulnerabilities from scanning tools, provide Zafran enrichment and then l
 
 Partner
 
+</td></tr><tr><td>
+
+Armis
+
+</td><td>
+
+Early Warning for Security Exposure Management
+
+</td><td>
+
+Vulnerability Response - Intelligence
+
+</td><td>
+
+Enrich vulnerability entries with intelligence on imminent exploitation, so you can prioritize CVEs that threat actors are actively targeting.
+
+</td><td>
+
+[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Armis
+
+</td><td>
+
+Fix Intelligence for Security Exposure Management
+
+</td><td>
+
+Vulnerability Response - Intelligence
+
+</td><td>
+
+Enrich host findings with normalized fix information from Armis Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
+
+</td><td>
+
+[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/fix-intel-for-usem-landing.md)
+
+</td><td>
+
+ServiceNow
+
 </td></tr><tr><td colspan="6">
 
 Patch orchestration in solution management
@@ -978,7 +1026,7 @@ Ingest the patch details and correlate the patch, solution, and asset details to
 
 </td><td>
 
-[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/mspatch-integration.md)
+[Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/mspatch-integration.md)
 
 </td><td>
 
@@ -1226,7 +1274,7 @@ Import the cloud resource configuration issues from Microsoft Defender for Cloud
 
 </td><td>
 
-[Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/cc_asc_overview.md)
+[Understanding the Microsoft Defender for Cloud integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/cc_asc_overview.md)
 
 </td><td>
 
@@ -1897,4 +1945,8 @@ During integration execution, multiple processes are generated, and data is rece
 
 -   **[Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/review-usem-integrations.md)**  
 The integration dashboard provides an overview of the installed third-party applications and the status of the integration runs.
+-   **[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)**  
+Early Warning for Security Exposure Management, powered by Armis, enriches the Central Vulnerability Database \(CVDB\) in Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit. This enables your security team to prioritize and patch vulnerabilities before threat actors weaponize them.
+-   **[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/fix-intel-for-usem-landing.md)**  
+Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, dashboards, monitoring, metrics]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Dashboards

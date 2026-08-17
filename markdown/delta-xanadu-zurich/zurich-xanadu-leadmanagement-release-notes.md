@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-leadmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Xanadu
 
 </td><td>
 
--   **[Create a lead](https://servicenow-staging.fluidtopics.net/access?context=create-new-lead&family=xanadu&ft:locale=en-US)**
+-   **[Create a lead](https://www.servicenow.com/docs/access?context=create-new-lead&family=xanadu&ft:locale=en-US)**
 
 Create and manage your leads for potential sales opportunities.
 
--   **[Needs analysis using lead workspace](https://servicenow-staging.fluidtopics.net/access?context=lead-management-use-needs-analysis&family=xanadu&ft:locale=en-US)**
+-   **[Needs analysis using lead workspace](https://www.servicenow.com/docs/access?context=lead-management-use-needs-analysis&family=xanadu&ft:locale=en-US)**
 
 Understand your lead's needs through questionnaires, and recommend and capture the product offering through lead line items.
 
--   **[Manage leads using Kanban view](https://servicenow-staging.fluidtopics.net/access?context=lead-management-use-kanban-view&family=xanadu&ft:locale=en-US)**
+-   **[Manage leads using Kanban view](https://www.servicenow.com/docs/access?context=lead-management-use-kanban-view&family=xanadu&ft:locale=en-US)**
 
 Quickly assess the status of your various leads by navigating and visualizing these leads across different stages with the help of a Kanban board that shows a card-based view of your leads.
 
--   **[Nurture leads and track lead activities](https://servicenow-staging.fluidtopics.net/access?context=lead-management-use-emails-tab&family=xanadu&ft:locale=en-US)**
+-   **[Nurture leads and track lead activities](https://www.servicenow.com/docs/access?context=lead-management-use-emails-tab&family=xanadu&ft:locale=en-US)**
 
 Compose emails, create tasks, and schedule appointments to nurture leads by tracking the interest and need analyses of your leads.
 
--   **[Convert leads to opportunities](https://servicenow-staging.fluidtopics.net/access?context=lead-management-use-convert-lead&family=xanadu&ft:locale=en-US)**
+-   **[Convert leads to opportunities](https://www.servicenow.com/docs/access?context=lead-management-use-convert-lead&family=xanadu&ft:locale=en-US)**
 
 Qualify leads by creating opportunities for new and existing contacts.
 
@@ -102,7 +102,7 @@ Yokohama
 
 </td><td>
 
--   **[REST APIs for Lead Management](https://servicenow-staging.fluidtopics.net/access?context=create-new-lead&family=yokohama&ft:locale=en-US)**
+-   **[REST APIs for Lead Management](https://www.servicenow.com/docs/access?context=create-new-lead&family=yokohama&ft:locale=en-US)**
 
 REST APIs provide the following capabilities:
 
@@ -248,7 +248,7 @@ Xanadu
 
 </td><td>
 
-Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ Yokohama
 
 </td><td>
 
-Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -440,7 +440,7 @@ Xanadu
 -   Create and assign tasks, send emails, or schedule appointments with leads.
 -   Qualify and convert leads to potential customer records and opportunities.
 
- See [Lead Management](https://servicenow-staging.fluidtopics.net/access?context=lead-management&family=xanadu&ft:locale=en-US) for more information.
+ See [Lead Management](https://www.servicenow.com/docs/access?context=lead-management&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -451,7 +451,7 @@ Yokohama
 -   REST APIs enable seamless integration of lead management with external applications and provide other capabilities.
 -   REST APIs enable customers to create, update, and retrieve leads and lead line items from the ServiceNow instance.
 
- See [Lead Management](https://servicenow-staging.fluidtopics.net/access?context=lead-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Lead Management](https://www.servicenow.com/docs/access?context=lead-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

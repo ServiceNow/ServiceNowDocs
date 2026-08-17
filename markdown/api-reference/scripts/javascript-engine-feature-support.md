@@ -35,7 +35,7 @@ For more information about these features, see the ECMAScript language specifica
 
 ## ECMAScript 2022 \(ES13\) features
 
-**Important:** Prior to deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
+**Important:** Before deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -68,8 +68,8 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Basic functionality|Supported|Not Supported|
-|ToObject called before ToPropertyKey|Supported|Not Supported|
+|Basic functionality|Not Supported|Not Supported|
+|ToObject called before ToPropertyKey|Not Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|

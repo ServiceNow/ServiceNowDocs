@@ -53,5 +53,5 @@ For Application Vulnerability Response findings, substitute application vulnerab
 |Show me all the deferred VITs that are about to expire in 7 days.|
 |Show me all the VITs that are currently unassigned.|
 
-**Parent Topic:**[Now Assist for Vulnerability Response reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)
 

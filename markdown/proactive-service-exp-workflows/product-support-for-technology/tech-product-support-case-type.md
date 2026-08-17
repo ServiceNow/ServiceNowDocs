@@ -60,7 +60,7 @@ Product Support for Technology cases follow a specific life cycle and move throu
 
 </td><td>
 
-State flows are customized transitions from one state to another, such as when an agent moves a Product Support for Technology case from Work in Progress to Awaiting Info.
+State flows are customized transitions from one state to another, such as when an agent moves a technology product support case from Work in Progress to Awaiting Info.
 
 </td></tr><tr><td>
 

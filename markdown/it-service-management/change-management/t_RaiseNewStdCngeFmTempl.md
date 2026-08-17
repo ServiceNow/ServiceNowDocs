@@ -32,7 +32,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d280417e82">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d281473e82">
 
 **Network Standard Changes**
 
@@ -40,7 +40,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d280417e91">
+</td></tr><tr><td id="d281473e91">
 
 **Server Standard Changes**
 

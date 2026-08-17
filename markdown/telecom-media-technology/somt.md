@@ -25,8 +25,9 @@ The ServiceNow® Sales CRM for Telecommunications enables to unify your sales, f
 </td></tr></tbody>
 </table>## Additional resources
 
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM for Telecommunications features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).
--   Connect with other Sales CRM for Telecommunications users at [Now Community](https://www.servicenow.com/community/).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM for Telecommunications features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ff08c50d9389361056aeb94c5cba10ae&s=1&ssa=3).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).
+-   Connect with other Sales CRM for Telecommunications users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 

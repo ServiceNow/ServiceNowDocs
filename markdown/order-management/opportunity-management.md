@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-07-22"
+reading_time_minutes: 5
 breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
 ---
 
@@ -123,7 +123,40 @@ Add authorized service organizations or partner entities \(for example, referral
 -   Listed organization: Only for tracking purpose. No permissions to view, access, edit, or delete opportunity details
 
 </td></tr></tbody>
-</table>## Integrating pricing in Opportunity Management
+</table>## Opportunity snapshot
+
+The Opportunity snapshot is an AI-generated summary of an opportunity that sales agents and managers can review without opening every related activity, contact, and deal record.
+
+The snapshot is organized into two areas:
+
+1.  **Summary**: An at-a-glance summary of key deal information, including:
+
+    -   Deal size and scope \(number of users, contract value\)
+    -   Most recent meeting with the Champion \(title and recency\)
+    -   Most recent activity \(for example, a check-in email\) and when it occurred
+    This provides a brief summary of the deal status, drawn from opportunity fields, related activities, and contact data.
+
+2.  **Insights**: A combined automated scoring with AI-generated deal intelligence:
+
+    -   **AI Win Probability**: A read-only score from 0 to 100 that the ML model calculates for each opportunity, representing the likelihood that the opportunity will close.
+    -   **Rating**: A qualitative label derived from the AI Win Probability score that indicates the health of the opportunity at a glance. The Rating field updates automatically when the score changes and can be manually overridden by a sales representative. The following table shows how AI Win Probability values map to Rating labels.
+
+        |AI Win Probability|Rating|
+        |------------------|------|
+        |75–100|Healthy|
+        |50–74|On Track|
+        |25–49|At Risk|
+        |0–24|Critical|
+
+    -   **Score Reasons**: A read-only field that captures the plain-language rationale for each score computation. The system overwrites the previous rationale each time the model recalculates the score. This field is not shown on the opportunity form by default.
+    -   **Numbered insight cards**: Contextual, plain-language observations derived from opportunity signals, such as:
+        -   Competitor activity detected in recent meetings
+        -   Champion engagement patterns \(for example, being unresponsive, canceling demos\)
+        -   Benchmarks against similar deals \(for example, "Opportunities with similar stall patterns have 35% lower close rate at this stage"\)
+    Updates to the **AI Win Probability** and **Score Reasons** fields are recorded in the activity stream on the opportunity record.
+
+
+## Integrating pricing in Opportunity Management
 
 Opportunity Management integrates with the pricing engine to consume the default price list and displays the total price and unit price of product offerings in your opportunity.
 

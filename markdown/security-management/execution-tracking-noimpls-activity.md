@@ -1,5 +1,5 @@
 ---
-title: Capability Execution Tracking- No Impls action
+title: Legacy: Capability Execution Tracking- No Impls action
 description: The Capability Execution Tracking - No Impls flow action creates an error record when no integration capability implementation is found.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/execution-tracking-noimpls-activity.html
@@ -10,11 +10,15 @@ reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
-# Capability Execution Tracking- No Impls action
+# Legacy: Capability Execution Tracking- No Impls action
 
 The Capability Execution Tracking - No Impls flow action creates an error record when no integration capability implementation is found.
 
 The Capability Execution Tracking- No Impls action can be used with any abstract integration capability flow to handle the error condition when no configured capability implementation is available.
+
+**Note:**
+
+This feature is no longer deployed, enhanced, or supported. It has been replaced by Capability Implementation Execution. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Results
 

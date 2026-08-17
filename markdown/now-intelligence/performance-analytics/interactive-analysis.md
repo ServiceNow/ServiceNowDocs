@@ -18,7 +18,7 @@ Interactive Analysis enables you to quickly explore data on a list of records.
 
 **Note:** Platform Analytics does not support interactive analytics.
 
-From any Core UI list of records, you can access an interactive set of reports on the list data. You can also manipulate the data by grouping, stacking, aggregating, and applying interactive filters. Click the visualization to drill down into the data. Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Information icon\) to edit the source filter, view the list of applied filters, and copy the URL of the analysis.
+From any Core UI list of records, you can access an interactive set of reports on the list data. You can also manipulate the data by grouping, stacking, aggregating, and applying interactive filters. Tap the visualization to drill down into the data. Tap the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Information icon\) to edit the source filter, view the list of applied filters, and copy the URL of the analysis.
 
 \[Omitted image "interactive-analysis-p.png"\] Alt text: Interactive analysis with information panel option
 

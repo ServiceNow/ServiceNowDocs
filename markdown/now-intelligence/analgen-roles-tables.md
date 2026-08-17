@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Data visualization generation roles
@@ -34,7 +34,7 @@ now\_assist\_analytics\_generation
 
 </td><td>
 
-In combination with now\_assist\_panel\_user, allows the holder to generate data visualizations in the Now Assist panel.
+In combination with now\_assist\_panel\_user, allows the holder to generate data visualizations in the ServiceNow Otto panel.
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Get a quick overview of the important information that is related to the Now Assist for Now Assist for Telecommunications, Media and Technology \(TMT\).
+title: Supporting information for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Get a quick overview of the important information that is related to the Now Assist for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.html
 release: zurich
@@ -12,17 +12,17 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Supporting information for Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Supporting information for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Get a quick overview of the important information that is related to the Now Assist for Now Assist for Telecommunications, Media and Technology \(TMT\).
+Get a quick overview of the important information that is related to the Now Assist for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 
 ## Supported versions
 
-Now Assist for TMT is supported starting with Xanadu.
+ServiceNow Otto for TMT is supported starting with Xanadu.
 
 ## Supported user interfaces
 
-Now Assist for TMT application includes the skills that are listed in the following table.
+ServiceNow Otto for TMT application includes the skills that are listed in the following table.
 
 <table id="table_fzp_gqj_5bc"><thead><tr><th>
 
@@ -72,14 +72,14 @@ Core UI
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for TMT \(sn\_tmt\_gen\_ai\) store app to use the service problem case summarization skills and to generate case resolution notes.
+Activate the ServiceNow Otto for TMT \(sn\_tmt\_gen\_ai\) store app to use the service problem case summarization skills and to generate case resolution notes.
 
 This store app has the dependency on Customer Service Problem Management.
 
 Activate the applications in the following order:
 
 1.  Customer Service Problem Management
-2.  Now Assist for TMT
+2.  ServiceNow Otto for TMT
 
-For more information, see [Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md).
+For more information, see [Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md).
 

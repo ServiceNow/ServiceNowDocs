@@ -47,7 +47,7 @@ Check your entitlements to determine whether you have access to Developer Sandbo
 
 **Note:** Cloning and upgrading an instance removes all sandboxes from the instance. For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
-**Note:** Build Agent it not yet supported in Developer Sandboxes.
+Build Agent is supported in Developer Sandboxes. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md).
 
 ## Integrate sandboxes with source control
 

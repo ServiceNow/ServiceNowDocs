@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 2
 keywords: [ITOM, user roles, Now Assist]
-breadcrumb: [ITOM Configuration Console for Discovery, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Run a Quick Discovery
@@ -22,8 +22,8 @@ Scan one or more IP addresses to discover devices in your network without creati
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the Now Assist for IT Operations Management plugin. For more information, see [Install Now Assist for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/install-na-itom.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/install-na-itom.md).
 -   You have at least one MID Server that is validated and in an **UP** state. The MID Server must be able to reach the IP ranges that you want to discover. For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/validate-mid-server.md).
 -   You have configured the credentials needed to access devices in your target IP ranges. For more information, see [Create IP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-ip-credentials.md).
 -   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/access-itom-config-console-disco.md).

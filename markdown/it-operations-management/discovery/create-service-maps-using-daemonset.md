@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Enabling application service maps, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable service maps using DaemonSet
@@ -22,21 +22,21 @@ Role required: discovery\_admin.
 
 ## About this task
 
-If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and reports to the main Informer pod every 60 seconds on new connections detected. For more information, see [Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
+If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and reports to the main Informer pod every 60 seconds on new connections detected. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 
 ## Procedure
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d159849e90">
+<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d159029e90">
 
 Method
 
-</th><th align="left" id="d159849e93">
+</th><th align="left" id="d159029e93">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d159849e99">
+</th></tr></thead><tbody><tr><td id="d159029e99">
 
 **During Helm chart archive installation**
 
@@ -61,7 +61,7 @@ Docker tagservicenowdocker/informer_ds:X.X.X COMPANY_REPO:X.X.X
 
 `--set image.dsRepository=COMPANY_REPO –set image.dsTag=X.X.X`
 
-</td></tr><tr><td id="d159849e142">
+</td></tr><tr><td id="d159029e142">
 
 **Modifying the `k8s_informer.yaml` file**
 

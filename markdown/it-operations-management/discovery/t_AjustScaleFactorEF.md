@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Discovery load for Event Framework, Configure Discovery to use Event Framework, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -41,8 +41,8 @@ For example, if you increase the scale factor to 3, Discovery uses three worker 
 
     |Job type|Action|
     |--------|------|
-    |**IP-based**|Select **discovery.sensors** from the Queue Registry \[queue\_registry\] table.|
-    |**Cloud-based**|Select **discovery.cloud.sensors** from the Queue Registry \[queue\_registry\] table.|
+    |**IP-based**|Select **discovery.sensors** from the Queue Registry \[sysevent\_queue\] table.|
+    |**Cloud-based**|Select **discovery.cloud.sensors** from the Queue Registry \[sysevent\_queue\] table.|
 
 3.  In the **Scale factor** field, set a value.
 

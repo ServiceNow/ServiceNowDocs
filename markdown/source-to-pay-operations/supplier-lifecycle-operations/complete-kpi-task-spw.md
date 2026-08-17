@@ -1,6 +1,6 @@
 ---
 title: Complete a KPI collection task from the Source-to-Pay Workspace
-description: A KPI collection task is generated automatically each time a KPI is instantiated. A supplier manager can complete the assigned KPI collection task from the Source-to-Pay Workspace.
+description: Submit KPI performance data from Source-to-Pay Workspace to complete assigned KPI collection tasks automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-spw.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Using Supplier Relationship and Performance Management, Use, Suppli
 
 # Complete a KPI collection task from the Source-to-Pay Workspace
 
-A KPI collection task is generated automatically each time a KPI is instantiated. A supplier manager can complete the assigned KPI collection task from the Source-to-Pay Workspace.
+Submit KPI performance data from Source-to-Pay Workspace to complete assigned KPI collection tasks automatically.
 
 \[Omitted video\] Description: Complete a KPI collection task from the Source-to-Pay Workspace.
 

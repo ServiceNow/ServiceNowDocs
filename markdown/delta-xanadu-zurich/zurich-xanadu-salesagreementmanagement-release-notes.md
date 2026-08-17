@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-salesagreementmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Sales Agreement Management application](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US)**
+-   **[Sales Agreement Management application](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US)**
 
 Create sales agreements from quotes to capture the scope and conditions for future sales transactions between a buyer and a seller.​ A sales agreement contains information such as details about the buyer and seller, the validity period of the agreement, and the quantities​ and pricing of the products and services.
 
@@ -86,12 +86,12 @@ Yokohama
 
 </td><td>
 
--   **[REST APIs for Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
+-   **[REST APIs for Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
 
 Import, export, and synchronize sales agreements with external systems through REST APIs.
 
 
--   **[Request Tracker on Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
+-   **[Request Tracker on Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
 
 Enable agents to monitor the progress of sales agreement creation from quotes by using the Request Tracker.
 
@@ -421,7 +421,7 @@ Xanadu
 
 Create sales agreements from quotes to capture the agreed scope and prices for future sales transactions between a buyer and a seller.
 
- See [Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US) for more information.
+ See [Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -432,7 +432,7 @@ Yokohama
 -   REST APIs enable customers to synchronize sales agreements with external systems.
 -   Monitor the progress of sales agreement creation from quotes.
 
- See [Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US) for more information.
+ See [Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Virtual Agent feature support in Microsoft Teams conversations
-description: The Microsoft Teams app supports Virtual Agent features, such as Virtual Agent Designer controls for creating conversations, notifications, AI Search results, and more.
+description: The Microsoft Teams app supports Virtual Agent features, such as Assistant Designer Asset library controls for creating conversations, notifications, AI Search results, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-teams-other-features.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with 
 
 # Virtual Agent feature support in Microsoft Teams conversations
 
-The Microsoft Teams app supports Virtual Agent features, such as Virtual Agent Designer controls for creating conversations, notifications, AI Search results, and more.
+The Microsoft Teams app supports Virtual Agent features, such as Assistant Designer Asset library controls for creating conversations, notifications, AI Search results, and more.
 
 ## Emojis and text
 
@@ -35,7 +35,7 @@ Microsoft Teams has a limit on the maximum message size before paginating the me
 
 ## AI Search results
 
-Now Assist in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see .
+ServiceNow Otto in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/genius-results-ais.md).
 
 ## URL navigation for chat links
 
@@ -90,8 +90,8 @@ For more information about the Microsoft Teams supported HTML tags for bot messa
 
 Using the Custom Control utility will cause failure in Microsoft Teams conversations with the message `channel is not supported`. See [Custom control utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-custom-control-util.md) for more information on the utility.
 
--   **[Virtual Agent Designer user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
-The Virtual Agent Designer user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
+-   **[Assistant Designer Asset library user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
+The Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
 -   **[Virtual Agent notifications supported in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-notif-msteams.md)**  
 Microsoft Teams app supports Virtual Agent notifications during conversations.
 -   **[Unsupported Virtual Agent features in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/limited-features-msteams.md)**  

@@ -19,7 +19,7 @@ Set up the IBM Watson Assistant topic to run dialog skills \(conversations creat
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 -   In IBM Watson Assistant:
     -   Create the dialog skill \(conversation\) in your IBM Watson Assistant workspace. The skill includes the dialog and any intents and entities that you define.
@@ -60,13 +60,17 @@ This topic runs an IBM Watson Assistant dialog in Virtual Agent. It doesn't requ
 
 5.  Publish the IBM Skill topic:
 
-    1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and then slide the discovery type toggle switch to **NLU/keyword**.
+    1.  Navigate to **Conversational Interfaces** &gt; **Assistsant Designer**.
 
-    2.  On the Virtual Agent Designer home page, select the IBM Watson Assistant topic to open the Topic Properties page.
+    2.  Select the **Asset library** tab.
+
+    3.  Set the discovery type toggle switch to **NLU/Keyword**.
+
+    4.  Select the IBM Watson Assistant topic to open the Topic Properties page.
 
         Notice that the **Keyword** for this topic is IBM Watson Assistant and the **Category** is IBM.
 
-    3.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
+    5.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
 
 6.  Configure the default topic for the Virtual Agent chat widget in one of the following ways:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloneadminconsole-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Xanadu
 
 </td><td>
 
--   **[Target instance modal](https://servicenow-staging.fluidtopics.net/access?context=clone-ui-request-clone&family=xanadu&ft:locale=en-US)**
+-   **[Target instance modal](https://www.servicenow.com/docs/access?context=clone-ui-request-clone&family=xanadu&ft:locale=en-US)**
 
 Request a clone to copy the data from a production instance to a non-production instance or to copy the data between non-production instances. You can request a clone without leaving the form by using the **add an instance** option in the **clone request target instance** field.
 
--   **[Using the same backup from another clone](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=xanadu&ft:locale=en-US)**
+-   **[Using the same backup from another clone](https://www.servicenow.com/docs/access?context=Clone-UI&family=xanadu&ft:locale=en-US)**
 
 Use the backup from another clone when you're selecting a backup option for a faster backup process. If the backup no longer exists, it triggers an on-demand backup instead.
 
--   **[Clone storage](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=xanadu&ft:locale=en-US)**
+-   **[Clone storage](https://www.servicenow.com/docs/access?context=Clone-UI&family=xanadu&ft:locale=en-US)**
 
 Legacy clones and new clones are stored separately. Clones that you request via the Clone Admin Console are stored on a new table and displayed within the new console.  Legacy clones aren't shown in the Clone Admin Console. Clones that you initiate via the legacy Request Clone page are stored on the legacy Clone History table.
 
@@ -214,7 +214,7 @@ Zurich
 </td><td>
 
 -   The legacy clone request page clone\_instance.DO is going to be retired in the A release.
--   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see [Clone Home \(dashboard\)](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=zurich&ft:locale=en-US).
+-   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see [Clone Home \(dashboard\)](https://www.servicenow.com/docs/access?context=Clone-UI&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Activation information
@@ -251,7 +251,7 @@ Zurich
 
 </td><td>
 
-Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -424,7 +424,7 @@ Xanadu
 -   View the Clone preserver guidance added to the Create a clone form to understand how to use Clone preservers.
 -   Clone related queries now go through ACLs. Custom clone flows should be tested.
 
- See [Clone Admin Console](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=xanadu&ft:locale=en-US) for more information.
+ See [Clone Admin Console](https://www.servicenow.com/docs/access?context=Clone-UI&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -444,7 +444,7 @@ Zurich
 -   Preserve your in-progress update sets, regardless of when the scope was created in the specified time frame.
 
 
- See [Clone Home \(dashboard\)](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=zurich&ft:locale=en-US) for more information.
+ See [Clone Home \(dashboard\)](https://www.servicenow.com/docs/access?context=Clone-UI&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

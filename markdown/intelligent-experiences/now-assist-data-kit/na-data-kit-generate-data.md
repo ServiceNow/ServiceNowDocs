@@ -1,6 +1,6 @@
 ---
 title: Generate synthetic data
-description: Create synthetic data with a sample dataset and a prompt through generative AI by using the Now Assist Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
+description: Create synthetic data with a sample dataset and a prompt through generative AI by using the AI Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Generate synthetic data
 
-Create synthetic data with a sample dataset and a prompt through generative AI by using the Now Assist Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
+Create synthetic data with a sample dataset and a prompt through generative AI by using the AI Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
 
 ## Before you begin
 

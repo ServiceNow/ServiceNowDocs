@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-decisiontablesinworkflowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Xanadu
 
 </td><td>
 
--   **[Create a decision table in a flow](https://servicenow-staging.fluidtopics.net/access?context=create-decision-table-flow&family=xanadu&ft:locale=en-US)**
+-   **[Create a decision table in a flow](https://www.servicenow.com/docs/access?context=create-decision-table-flow&family=xanadu&ft:locale=en-US)**
 
 Create a decision table directly in your flow to add decisions quickly using the flow's inputs.
 
--   **[Create a decision table in a subflow](https://servicenow-staging.fluidtopics.net/access?context=create-decision-table-subflow&family=xanadu&ft:locale=en-US)**
+-   **[Create a decision table in a subflow](https://www.servicenow.com/docs/access?context=create-decision-table-subflow&family=xanadu&ft:locale=en-US)**
 
 Create a decision table directly in your subflow to add decisions quickly using the flow or subflow's inputs.
 
--   **[Create a decision table in a Playbook](https://servicenow-staging.fluidtopics.net/access?context=make-decision-first-match-activity&family=xanadu&ft:locale=en-US)**
+-   **[Create a decision table in a Playbook](https://www.servicenow.com/docs/access?context=make-decision-first-match-activity&family=xanadu&ft:locale=en-US)**
 
 Add a decision table directly in a Playbook to manage complex business logic using the **Make a Decision - First Match** activity. Add inputs from the playbook and manage other actions based on the results of your decision tables.
 
--   **[Rank and reorder decision table rows](https://servicenow-staging.fluidtopics.net/access?context=reorder-decision-row&family=xanadu&ft:locale=en-US)**
+-   **[Rank and reorder decision table rows](https://www.servicenow.com/docs/access?context=reorder-decision-row&family=xanadu&ft:locale=en-US)**
 
 Determine or change the sequence in which your decision rules are evaluated by reordering the rows in a decision table. Type a new value in the **Rank** column to easily change decision row order.
 
@@ -435,7 +435,7 @@ Xanadu
 -   In large decision tables, scroll within the table to see more rows.
 -   Rank the order in which decision rows are read in your table, and reorder rows as needed.
 
- See [Exploring decision tables](https://servicenow-staging.fluidtopics.net/access?context=decision-designer-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring decision tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -28,7 +28,7 @@ Agentic development with the ServiceNow AI Platform collapses the traditional ap
 
     -   One definition of vibe coding state that developers don't review or touch generated code before checking it in; simply provide an idea, get code back, no review needed.
     -   Another definition of vibe coding is an umbrella term that encompasses AI-assisted, agentic-assisted development, where developers still need to understand and support the generated code.
-    ServiceNow has tools to help you review, refine, and test apps for both vibe coding, like Build Agent, and agentic development, such as Now Assist for Creator.
+    ServiceNow has tools to help you review, refine, and test apps for both vibe coding, like Build Agent, and agentic development, such as ServiceNow Otto for Creator.
 
 
 ## Key features and benefits of AI-assisted development on the ServiceNow AI Platform

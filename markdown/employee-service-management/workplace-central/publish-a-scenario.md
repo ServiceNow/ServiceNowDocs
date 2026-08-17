@@ -44,15 +44,15 @@ When you publish a scenario, the state of the scenario changes from **Draft** st
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d111407e154">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d111157e154">
 
 Path
 
-</th><th align="left" id="d111407e157">
+</th><th align="left" id="d111157e157">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d111407e163">
+</th></tr></thead><tbody><tr><td id="d111157e163">
 
 **From the Scenarios list section**
 
@@ -66,7 +66,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d111407e188">
+</td></tr><tr><td id="d111157e188">
 
 **From the Buildings list section**
 

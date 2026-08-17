@@ -40,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d105740e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d105999e92">
 
 Action
 
-</th><th align="left" id="d105740e95">
+</th><th align="left" id="d105999e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105740e101">
+</th></tr></thead><tbody><tr><td id="d105999e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -58,7 +58,7 @@ Select **Import**, navigate to the file, and then select **Open**.
 
  \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d105740e135">
+</td></tr><tr><td id="d105999e135">
 
 **Complete the questionnaire**
 
@@ -71,4 +71,11 @@ Select the questionnaire and fill it out.
 
     The complete SIG questionnaire is now available for review by the requester.
 
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
 

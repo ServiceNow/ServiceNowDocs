@@ -1,6 +1,6 @@
 ---
-title: Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)
-description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in Now Assist for IT Service Management \(ITSM\).
+title: Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in ServiceNow Otto for IT Service Management \(ITSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)
+# Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in Now Assist for IT Service Management \(ITSM\).
+Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in ServiceNow Otto for IT Service Management \(ITSM\).
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Chat summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+The Chat summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 In a Virtual Agent conversation, when a requester chooses to connect to a live agent, a chat interaction appears in your inbox. When you accept the interaction, a summary of the Virtual Agent conversation is generated. You can request more details from the requester to resolve the issue.
 

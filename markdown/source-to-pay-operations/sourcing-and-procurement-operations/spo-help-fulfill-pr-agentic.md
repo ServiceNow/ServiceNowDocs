@@ -7,10 +7,10 @@ release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-07-30"
 reading_time_minutes: 5
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Conversational intake for sourcing and procurement agentic workflow
@@ -103,18 +103,18 @@ Retrieves and displays relevant knowledge articles to address sourcing and procu
 |Scripts|Autonomous|Connect to live agent|Escalates to a live SPO agent on user request.|
 |Scripts|Autonomous|Redirect to Employee Center|Politely deflects unsupported requests and directs users to Employee Center resources.|
 
-**Parent Topic:**[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 
 
-[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel]()
+[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel]()
 
 [Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent]()
 
-[Submit a purchase request using the Now Assist AI agent]()
+[Submit a purchase request using the ServiceNow Otto AI agent]()
 
-[Update the product category or spend category in the Now Assist panel]()
+[Update the product category or spend category in the ServiceNow Otto panel]()
 
 [Email parser agent for Sourcing and Procurement Operations]()
 

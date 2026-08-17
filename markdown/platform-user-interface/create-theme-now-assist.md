@@ -1,6 +1,6 @@
 ---
-title: Create a theme using Now Assist
-description: Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+title: Create a theme using ServiceNow Otto
+description: Use ServiceNow Otto to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-theme-now-assist.html
 release: zurich
@@ -10,17 +10,17 @@ reading_time_minutes: 4
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create a theme using Now Assist
+# Create a theme using ServiceNow Otto
 
-Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+Use ServiceNow Otto® to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
 
 ## Before you begin
 
 This feature requires:
 
--   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
--   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/turn-on-theme-creation-workflow.md).
--   Now Assist panel turned on. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   ServiceNow Otto for Creator installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
+-   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/turn-on-theme-creation-workflow.md).
+-   ServiceNow Otto® panel turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Roles required:
 
@@ -29,13 +29,13 @@ Roles required:
 
 ## Procedure
 
-1.  Select the Now Assist sparkle icon \[Omitted image "icon-now-assist.png"\] to display the Now Assist panel.
+1.  Select the ServiceNow Otto® icon \[Omitted image "icon-now-assist.png"\] to display the ServiceNow Otto® panel.
 
 2.  In the chat window, enter `Create a theme`.
 
     This triggers the AI-enabled Theme Builder workflow.
 
-    \[Omitted image "tb-nap-chat-window.png"\] Alt text: Now Assist panel with Create a theme entered into the chat window.
+    \[Omitted image "tb-nap-chat-window.png"\] Alt text: ServiceNow Otto panel with Create a theme entered into the chat window.
 
 3.  Select **Yes** when prompted to proceed.
 
@@ -52,7 +52,7 @@ Roles required:
     |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF.|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
-    \[Omitted image "image.tb-nap-wizard-flow-2-ap2"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
+    \[Omitted image "tb-nap-wizard-flow-2-ap2.png"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
 
 7.  If you chose to upload a brand image or brand guidelines file, generate your theme colors using AI.
 

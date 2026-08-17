@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Virtual Agent, Designer, Text, user input, control, node, string]
-breadcrumb: [Assistant Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Text user input control
@@ -312,18 +312,18 @@ Skip reprompting
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Channel support
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 |Channel|LLM support|NLU/keyword support|Constraints|
 |-------|-----------|-------------------|-----------|
 |Web UI|Not supported|Supported|None.|
 |Mobile UI|Not supported|Supported|None.|
-|Now Assist panel|Not supported|Supported|None.|
+|ServiceNow Otto panel|Not supported|Supported|None.|
 |Microsoft Teams|Supported|Supported|None.|
 |Google Chat|Supported|Supported|None.|
 |Slack|Not supported|Supported|Slack users can edit text previously entered in a conversation. However, Virtual Agent processes messages as they are first entered. If aSlack user edits text input, such as a comment to update a case, then Virtual Agent does not evaluate the edited update.|

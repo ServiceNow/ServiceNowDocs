@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-advancedworkassignment-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Xanadu
 
 </td><td>
 
--   **[External routing overview](https://servicenow-staging.fluidtopics.net/access?context=awa-external-routing-overview&family=xanadu&ft:locale=en-US)**
+-   **[External routing overview](https://www.servicenow.com/docs/access?context=awa-external-routing-overview&family=xanadu&ft:locale=en-US)**
 
 Use the updated Admin UI to enable the integration of Advanced Work Assignment with third-party contact-center-as-a-service \(CCaaS\) providers with the External Routing functionality.
 
--   **[Migrating Advanced Work Assignment Dashboards](https://servicenow-staging.fluidtopics.net/access?context=awa-dashboards-migration&family=xanadu&ft:locale=en-US)**
+-   **[Migrating Advanced Work Assignment Dashboards](https://www.servicenow.com/docs/access?context=awa-dashboards-migration&family=xanadu&ft:locale=en-US)**
 
 Migrate the AWA dashboards - Interactions, Messaging, Task, and Operations dashboards - to Next Experience.
 
--   **[Define external routing test implementation](https://servicenow-staging.fluidtopics.net/access?context=define-extrnl-routng-plugin&family=xanadu&ft:locale=en-US)**
+-   **[Define external routing test implementation](https://www.servicenow.com/docs/access?context=define-extrnl-routng-plugin&family=xanadu&ft:locale=en-US)**
 
 Defined the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools\) with a simplified external-routing-provider ATF-based sample implementation to receive and process REST calls about external events.
 
@@ -96,12 +96,12 @@ Yokohama
 
 </td><td>
 
--   **[Service channels](https://servicenow-staging.fluidtopics.net/access?context=awa-service-channels&family=yokohama&ft:locale=en-US)**
+-   **[Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&family=yokohama&ft:locale=en-US)**
 
 Run AWA assignments on different nodes or cadences for different service channels to improve performance and resilience.
 
 
--   **[Use](https://servicenow-staging.fluidtopics.net/access?context=using-awa&family=yokohama&ft:locale=en-US)**
+-   **[Use](https://www.servicenow.com/docs/access?context=using-awa&family=yokohama&ft:locale=en-US)**
 
 Enable agents with the ability to provide wrap-up codes or notes for interactions or segments that the agent was involved in.
 
@@ -244,7 +244,7 @@ Xanadu
 
 </td><td>
 
-Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-activate&family=xanadu&ft:locale=en-US).
+Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=xanadu&ft:locale=en-US).
 
  To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -254,7 +254,7 @@ Yokohama
 
 </td><td>
 
-Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-activate&family=yokohama&ft:locale=en-US).
+Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=yokohama&ft:locale=en-US).
 
  To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -322,7 +322,7 @@ Xanadu
 
 </td><td>
 
-Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge -Chromium or one of the other supported browsers that are listed in [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=xanadu&ft:locale=en-US).
+Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge -Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Xanadu
 -   Migrate the Advanced Work Assignment dashboards to Next Experience.
 -   Defined the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools\) with a simple external routing ATF-based test implementation.
 
- See [Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-application-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -448,7 +448,7 @@ Yokohama
 -   Run assignments on different nodes or cadences for different service channels to improve the AWA application's performance and resilience.
 -   Provide wrap-up codes or notes for interactions or segments that the agent is involved in at the end of a call.
 
- See [Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

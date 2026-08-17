@@ -35,7 +35,7 @@ These interaction records provide administrators, Virtual Agent administrators, 
 
 ## Key fields in the Interactions table
 
-To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the list collector \(slushbucket\).
+To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the [list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_UseSlushbuckets.md) \(slushbucket\).
 
 <table id="table_xs3_3hy_yjb"><thead><tr><th>
 
@@ -396,7 +396,7 @@ From the Interactions table, you can open a specific record to see additional de
 
 -   **Related Tasks**
 
-    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Virtual Agent Designer utilities and the system method vaSystem.attachRecordToConversation. For details, see [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-interactions.md) below.
+    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Assistant Designer Asset library utilities and the system method vaSystem.attachRecordToConversation. For details, see [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-interactions.md) below.
 
     \[Omitted image "VA-interaction-relatedtask.png"\] Alt text: The Related Tasks tab on the Interactions record shows the incident record that was created during the interaction.
 

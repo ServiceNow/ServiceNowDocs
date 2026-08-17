@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-financialservicesoperationsintegrationwithmastercard-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Zurich
 
 </td><td>
 
--   **​ [Mastercom subflows for disputes](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+-   **​ [Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
 
 An integration layer that provides predefined subflows and a supporting data model to enable seamless execution of Mastercom spoke actions for dispute management. This layer includes the following subflows:
 
@@ -103,7 +103,7 @@ An integration layer that provides predefined subflows and a supporting data mod
     -   Mastercom - Look up Case Documents Status
     -   Mastercom - Look up List of Claims
 
--   **[Additional Mastercom subflows for disputes](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+-   **[Additional Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
 
 New set of subflows to promote execution of Mastercom spoke actions for dispute management. This set includes the following subflows:
 
@@ -377,7 +377,7 @@ Zurich
 -   Enable dispute agents to efficiently handle the full dispute life cycle, including transaction searches, claim creation, chargeback creation and updates, pre-arbitration, arbitration, and fraud reporting.
 -   Accelerate dispute resolution and reduce manual effort using predefined subflows.
 
- See [Mastercard](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-mastercard-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Mastercard](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

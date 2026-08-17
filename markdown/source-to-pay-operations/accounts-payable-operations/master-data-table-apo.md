@@ -92,3 +92,5 @@ As a Tax manager, you can create tax types to be applied to an invoice.
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

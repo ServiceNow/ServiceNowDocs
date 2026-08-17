@@ -57,7 +57,7 @@ See [KB0535181](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535
 
 The icons in the **Version** column indicates the following:
 
--   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.
@@ -140,7 +140,7 @@ Version
 
 </td><td>
 
-The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.

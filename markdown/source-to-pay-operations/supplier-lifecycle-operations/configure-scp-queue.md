@@ -1,6 +1,6 @@
 ---
 title: Configure the Supplier Collaboration Queue
-description: Configure the Supplier Collaboration Queue chat queue to ensure that the chat requests are routed and assigned to specific agents that belong to a defined group.
+description: Configure Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Setting up Advanced Work Assignment for Supplier Lifecycle Operatio
 
 # Configure the Supplier Collaboration Queue
 
-Configure the Supplier Collaboration Queue chat queue to ensure that the chat requests are routed and assigned to specific agents that belong to a defined group.
+Configure Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
 
 ## Before you begin
 
@@ -69,4 +69,11 @@ Role required: admin
 The queue is activated and the chat routing is applied.
 
 **Parent Topic:**[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
+
+**Related topics**  
+
+
+[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)
+
+[Configure Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/setup-awa-slm.md)
 

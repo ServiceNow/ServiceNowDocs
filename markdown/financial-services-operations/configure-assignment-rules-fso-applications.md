@@ -98,7 +98,7 @@ For advanced assignment rules, you can also use the ServiceNow Advanced Work Ass
     -   To review an existing rule, filter the list to show the rules for the application tables and then open a rule.
 3.  On the form, fill in the fields.
 
-    For information about the Assignment Rule form fields, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignmentModuleRule.md).
+    For information about the Assignment Rule form fields, see .
 
 4.  Click **Submit** or **Update**.
 

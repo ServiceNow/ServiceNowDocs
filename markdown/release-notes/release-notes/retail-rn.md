@@ -44,19 +44,19 @@ You can also extend your own case types. For more information on these changes, 
 
     As a store manager or a store associate, boost productivity by managing operations and accessing key tools on the go with the Retail Mobile application.
 
--   **[Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/retail-industry/rahi-retail-retail-customer-complaint.md) Customer complaint**
+-   ** Customer complaint**
 
     Help verify quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
 
--   **[Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/retail-industry/rahi-retail-retail-store-services.md) Store inquiry**
+-   ** Store inquiry**
 
     Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
 
--   **[In-store operations case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/retail-industry/rahi-retail-retail-in-store-operations.md)In-store operations**
+-   **In-store operations**
 
     Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured task assignments and tracking, reducing the time to resolution.
 
--   **[HQ communications case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/retail-industry/rahi-retail-retail-hq-operations.md) HQ communications**
+-   ** HQ communications**
 
     Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin. Using this case type as a parent case for in-store operations simplifies coordination efforts.
 
@@ -70,7 +70,7 @@ You can also extend your own case types. For more information on these changes, 
 
 ## Activation information
 
-Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -90,8 +90,8 @@ Install the Retail applications by requesting them from the ServiceNow Store. Vi
     The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilitie, such as work orders for use by each retail location that uses the Retail Core application.
 
 
--   **[Now Assist for Retail Service Management \(RSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-retail-service-management-rn.md)**  
-The ServiceNow® Now Assist for Retail Service Management \(RSM\) application supports retail personas in efficiently managing and resolving cases. Now Assist for RSM is a new application in the Zurich release.
+-   **[ServiceNow Otto for Retail Service Management \(RSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-retail-service-management-rn.md)**  
+The ServiceNow® ServiceNow Otto for Retail Service Management \(RSM\) application supports retail personas in efficiently managing and resolving cases. ServiceNow Otto for RSM is a new application in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

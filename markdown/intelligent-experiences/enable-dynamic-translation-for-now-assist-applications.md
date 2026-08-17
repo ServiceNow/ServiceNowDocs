@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 2
 keywords: [Now Assist, application, translation, dynamic, language]
-breadcrumb: [Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure multilingual service for Now Assist applications
@@ -21,7 +21,7 @@ To see a list of all available languages supported in Now Assist, see [Multiling
 
 To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateALanguage.md). From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
-If you don't see a language and region section of your Now Assist Admin console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
+If you don't see a language and region section of your AI Admin Hub console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
@@ -65,5 +65,5 @@ Now Assist applications use the multilingual capabilities of large language mode
 -   **[Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md)**  
 Support multi-language input in Now Assist applications with the Microsoft Azure OEM translator service included in Generative AI Controller.
 
-**Parent Topic:**[Now Assist Admin Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-now-assist-admin-settings.md)
 

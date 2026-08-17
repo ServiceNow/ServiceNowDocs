@@ -1,6 +1,6 @@
 ---
 title: Add comments to code
-description: Add comments in the Now Assist for Code enabled script editor using quick actions.
+description: Add comments in the ServiceNow Otto for Code enabled script editor using quick actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/add-comments-to-code-with-quick-actions.html
 release: zurich
@@ -9,12 +9,12 @@ classification: scripts
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Now Assist for Code, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Add comments to code
 
-Add comments in the Now Assist for Code enabled script editor using quick actions.
+Add comments in the ServiceNow Otto for Code enabled script editor using quick actions.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: authenticated user
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code and select a script.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code and select a script.
 
     For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 

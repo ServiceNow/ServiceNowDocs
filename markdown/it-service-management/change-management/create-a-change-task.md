@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
 
@@ -21,6 +21,10 @@ You can create change tasks for a change request. A change task is a piece of wo
 Before creating a change task, confirm you have the required roles. If not, contact your administrator to request access.
 
 Role required: itil, admin, or sn\_change\_write
+
+**Note:**
+
+If the change task form is read-only, confirm that you have a required role and that the change request is in an editable state. Editing is not available in certain states, such as **Closed**. For state-based restrictions, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).
 
 ## About this task
 
@@ -37,6 +41,8 @@ If the Change task related list is not visible, scroll down the change form or v
 2.  Select the change request to add a change task.
 
 3.  In the **Related Links** section, select **Change Tasks** tab and then, select **New**.
+
+    If the **New** button does not appear, confirm that you have the required roles and that the change request is in a state that allows adding change tasks. Adding change tasks can be restricted by change state. For more information on state restrictions, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).
 
 4.  To associate an existing change task with the change request, open the change task record and update the **Change** field to the target change request and save the record.
 
@@ -78,11 +84,23 @@ The date the change task is planned to be completed.If the task type is **Implem
 
 </td></tr><tr><td>
 
-Type
+Number of copies
 
 </td><td>
 
-The type of change task, **Planning**, **Implementation**, **Testing**, or **Review**. The default workflow generates tasks in type **Planning**.
+The number of change tasks to generate for each scheduled date.**Note:** This field appears only when you choose **Multiple Dates** option.
+
+</td></tr><tr><td>
+
+Change Task Types
+
+</td><td>
+
+Tasks that are implemented for each phase of work they represent:-   **Planning**: Tasks that plan and prepare the change before implementation.
+-   **Implementation**: Tasks that carry out the change. The **Planned start date** and **Planned end date** values must fall within the planned dates of the change request.
+-   **Testing**: Tasks that verify the change works as expected.
+-   **Review**: Tasks for post-implementation review.
+The default workflow generates tasks in type **Planning**.
 
 </td></tr><tr><td>
 

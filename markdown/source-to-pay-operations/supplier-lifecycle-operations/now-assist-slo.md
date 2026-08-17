@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Supplier Lifecycle Operations \(SLO\)
-description: Use the ServiceNow Now Assist for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
+title: ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
+description: Use the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.html
 release: zurich
@@ -13,30 +13,32 @@ keywords: [generative AI, gen AI, genai, artificial intelligence]
 breadcrumb: [Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Supplier Lifecycle Operations \(SLO\)
+# ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-Use the ServiceNow® Now Assist for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
+Use the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for SLO.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SLO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for SLO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities that are offered by Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities that are offered by ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
-## Supported LLMs for Now Assist for Supplier Lifecycle Operations \(SLO\)
+## Supported LLMs for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Troubleshoot and get help
 

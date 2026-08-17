@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-04-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
 # Activate AI Assistant for Care Team Portal
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Select **Manage Assistants**.
 
-3.  Navigate to **Now Assist in Virtual Agent \(default\)** and select **Edit**.
+3.  Navigate to **ServiceNow Otto for Virtual Agent \(default\)** and select **Edit**.
 
 4.  Select **Edit chat features**.
 
@@ -39,5 +39,5 @@ Role required: admin
 
 ## Result
 
-Now Assist in Virtual Agent is activated for use in the Care Team Portal.
+ServiceNow Otto for Virtual Agent is activated for use in the Care Team Portal.
 

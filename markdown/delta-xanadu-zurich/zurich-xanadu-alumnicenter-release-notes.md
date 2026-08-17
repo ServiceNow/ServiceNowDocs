@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-alumnicenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key alumni-service-center\]](https://servicenow-staging.fluidtopics.net/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
+-   **[\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
 
 The revamped alumni home page is a central hub where former employees can update their details, manage preferences, and access personalized job recommendations. It also provides quick access to alumni services, news, resources, and tasks to stay connected and engaged.
 
@@ -99,17 +99,17 @@ Alumni can maintain their employment history with legacy &amp; latest employment
 
 Alumni can view the existing job opportunities​ and also get personal job recommendation based on your job preferences.
 
--   **[Alumni Self-registration](https://servicenow-staging.fluidtopics.net/access?context=alumni-self-registration&family=zurich&ft:locale=en-US)**
+-   **[Alumni Self-registration](https://www.servicenow.com/docs/access?context=alumni-self-registration&family=zurich&ft:locale=en-US)**
 
 A former employee can sign up on the Alumni Center and provide details to register as an alumni.
 
 The personal email provided by the employee is validated to verify the employee status ensuring accurate identification and preventing impersonation or duplication.
 
--   **[Configure automatic alumni user creation](https://servicenow-staging.fluidtopics.net/access?context=configure-alumni-creation&family=zurich&ft:locale=en-US)**
+-   **[Configure automatic alumni user creation](https://www.servicenow.com/docs/access?context=configure-alumni-creation&family=zurich&ft:locale=en-US)**
 
 Alumni user creation is streamlined with a configurable process that allows organizations to generate alumni accounts automatically during an employee offboarding. ​Configurable termination conditions can be used to create the alumni and admins can restrict automatic creation with approvals if needed.
 
--   **[Personal Details Verification](https://servicenow-staging.fluidtopics.net/access?context=asc-properties&family=zurich&ft:locale=en-US)**
+-   **[Personal Details Verification](https://www.servicenow.com/docs/access?context=asc-properties&family=zurich&ft:locale=en-US)**
 
 Employees in the offboarding stage can review and confirm their personal details such as email, phone number, and shipping address to facilitate effective communication post offboarding and ease alumni onboarding. The offboarding task is available in the Employee Center to-dos and offboarding journeys.
 
@@ -263,7 +263,7 @@ Zurich
 
 </td><td>
 
-Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -461,7 +461,7 @@ Zurich
 -   As an alumni admin, you can configure the Alum Self-registration form based on the organization needs.
 -   As an alumni admin, you can highlight and showcase the recommended job opportunities.​​​
 
- See [\[Placeholder link text to key alumni-service-center\]](https://servicenow-staging.fluidtopics.net/access?context=alumni-service-center&family=zurich&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

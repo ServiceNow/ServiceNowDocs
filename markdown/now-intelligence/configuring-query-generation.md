@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Configuring Query Generation
@@ -19,11 +19,13 @@ Select the tables that are subject to Query Generation.
 You must activate the Query Generation skills for it to be used. You may also change which tables are included and have semantic generation enabled.
 
 -   **[Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-query-generation.md)**  
-Query Generation skills enable users to ask questions in Now Assist in Platform Analytics applications and receive answers.
+ Query Generation skills enable users to ask questions in ServiceNow Otto for Platform Analytics applications and receive answers.
 -   **[Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-table-semantic-layer.md)**  
-Add more tables to the Query Generation semantic layer so that users can use Now Assist in Platform Analytics applications to ask questions about the data in those tables.
+Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.
 -   **[Enable semantic generation for tables in the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-semantics-generation.md)**  
 Tables can be included in the semantic table configuration but have semantic generation turned off. Enable semantic generation to include that table in Query Generation. Deactivate irrelevant data to improve results.
+-   **[Indicator scope control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/indicator-scope-control.md)**  
+Indicator Scope Control provides an admin-curated list that boosts selected Performance Analytics indicators in ambient AI search results, with optional custom descriptions to improve search accuracy.
 -   **[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-aide-secure-scope-apps.md)**  
 AI Data Explorer and Query Generation require additional security configuration to access tables in protected scopes such as Human Resources or Employee Profile scopes.
 -   **[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/semantic-layer-tuning-overview.md)**  

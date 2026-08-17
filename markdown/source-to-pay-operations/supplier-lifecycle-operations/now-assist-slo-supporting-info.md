@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+title: Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.html
 release: zurich
@@ -10,20 +10,16 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Explore, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Explore, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)
+# Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
-
-## Supported versions
-
-Now Assist for SLO is supported starting with the Xanadu release.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 ## Supported user interfaces
 
-The Now Assist for SLO application includes the skills that are listed in the following table.
+The ServiceNow Otto for SLO application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -39,7 +35,7 @@ Virtual Agent
 
 </td><td>
 
--   Conversational interface in Now Assist in Virtual Agent.
+-   Conversational interface in ServiceNow Otto in Virtual Agent.
 -   Track request status
 
 </td></tr><tr><td>
@@ -61,27 +57,27 @@ Supplier case summarization
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for SLO store app \(com.snc.sn\_supplier\_gen\_ai\) to use the Case summarization skill.
+Activate the ServiceNow Otto for SLO store app \(com.snc.sn\_supplier\_gen\_ai\) to use the Case summarization skill.
 
 This store app has the following dependencies:
 
--   Now Assist for Platform \(com.sn.now.platform\)
+-   ServiceNow Otto for Platform \(com.sn.now.platform\)
 -   Supplier Case Management \(com.snc.sn\_supplier\_mgmt\)
 
 Activate the applications in the following order:
 
-1.  Now Assist for Platform \(sn\_genai\_platform\)
+1.  ServiceNow Otto for Platform \(sn\_genai\_platform\)
 2.  Supplier Case Management \(com.snc.sn\_supplier\_mgmt\)
-3.  Now Assist for Supplier Lifecycle Operations \(SLO\) \(com.snc.sn\_supplier\_gen\_ai\)
+3.  ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) \(com.snc.sn\_supplier\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
+For more information, see [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
 
 **Related topics**  
 
 
-[Explore Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
+[Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
 
-[Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
+[Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 
-[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 

@@ -18,8 +18,16 @@ Domain separation is unsupported in Contract Management. Domain separation enabl
 
 ## Support level: No support
 
--   The domain field may exist on data tables but there is no business logic to manage the data.
--   This level is not considered domain-separated.
+-   **Data-level separation**
+
+    The Contract \[ast\_contract\] table includes a **Domain** field \(sys\_domain\). Domain separates contract records. Users in one domain can't view contracts created in a different domain.
+
+-   **Business logic**
+
+    Scheduled jobs, renewal processing, approval flows, and other automated processes in Contract Management do not respect domain separation. Domain separation for these automated processes is not supported.
+
+
+**Warning:** Contract data is separated by domain, but automated contract processes might not respect domain boundaries. Test all automated workflows in your domain-separated environment before deploying to production.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 

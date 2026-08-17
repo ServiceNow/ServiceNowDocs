@@ -1,6 +1,6 @@
 ---
 title: Summarize the contents of an app in ServiceNow Studio
-description: Generate a summary of your app using Now Assist for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
+description: Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Now Ass
 
 # Summarize the contents of an app in ServiceNow Studio
 
-Generate a summary of your app using Now Assist for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
+Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
 
 ## Before you begin
 

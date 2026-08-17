@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-sourcingandprocurementoperations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
+last_updated: "2026-08-17"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
+-   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
 
 With Now Assist for Sourcing and Procurement Operations \(SPO\), fulfillers can easily summarize procurement-related records, providing real-time progress updates and action items. Available summarization skills include:
 
@@ -84,15 +84,15 @@ With Now Assist for Sourcing and Procurement Operations \(SPO\), fulfillers can 
     -   Procurement case summarization
 If you're entitled to Source-to-Pay Operations Pro SKU and Sourcing and Procurement Operations Pro SKU, you can install this application.
 
--   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
+-   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
 
 Requesters can leverage contextual generative AI using the Now Assist for SPO Virtual Agent to complete self-service tasks, such as purchasing products or tracking the status of purchase requisitions, sourcing requests, or procurement cases.
 
--   **[Log in to Shopping Hub for the first time](https://servicenow-staging.fluidtopics.net/access?context=login-shoppinghub-first-time&family=xanadu&ft:locale=en-US)**
+-   **[Log in to Shopping Hub for the first time](https://www.servicenow.com/docs/access?context=login-shoppinghub-first-time&family=xanadu&ft:locale=en-US)**
 
 Specify a default delivery address when logging in to Shopping Hub for the first time after initial setup to ensure supplier products display correctly.
 
--   **[Complete sourcing checkout](https://servicenow-staging.fluidtopics.net/access?context=complete-sourcing-checkout&family=xanadu&ft:locale=en-US)**
+-   **[Complete sourcing checkout](https://www.servicenow.com/docs/access?context=complete-sourcing-checkout&family=xanadu&ft:locale=en-US)**
 
 Add users to the watch list on sourcing requests and purchase requisitions:
 
@@ -100,19 +100,19 @@ Add users to the watch list on sourcing requests and purchase requisitions:
     -   Configure the number of users allowed to be added to the watch list.
     -   Enable fulfillers to add users to the watch list at any stage of the request life cycle.
     -   Configure notifications to include watch list users regarding updates on the request.
--   **[Edit a purchase requisition line](https://servicenow-staging.fluidtopics.net/access?context=edit-request&family=xanadu&ft:locale=en-US)**
+-   **[Edit a purchase requisition line](https://www.servicenow.com/docs/access?context=edit-request&family=xanadu&ft:locale=en-US)**
 
-Fulfillers can use the enhanced **Edit a purchase** option to edit the service date, delivery date, delivery address, and quantity on purchase requisition lines and purchase order lines. For more information, see [Edit a purchase order line](https://servicenow-staging.fluidtopics.net/access?context=edit-purchase-order&family=xanadu&ft:locale=en-US).
+Fulfillers can use the enhanced **Edit a purchase** option to edit the service date, delivery date, delivery address, and quantity on purchase requisition lines and purchase order lines. For more information, see [Edit a purchase order line](https://www.servicenow.com/docs/access?context=edit-purchase-order&family=xanadu&ft:locale=en-US).
 
--   **[Purchasing from punchout or third-party suppliers](https://servicenow-staging.fluidtopics.net/access?context=purch-punchout-third-party-supp&family=xanadu&ft:locale=en-US)**
+-   **[Purchasing from punchout or third-party suppliers](https://www.servicenow.com/docs/access?context=purch-punchout-third-party-supp&family=xanadu&ft:locale=en-US)**
 
-Shoppers can search for all the products, including those from external suppliers, directly within Shopping Hub. The configuration of the Search API, Order API, and Product Details API determines whether shoppers can complete their purchases directly in Shopping Hub or are redirected to external supplier websites. Products from third-party suppliers with configured Order API and Product details API can be viewed, added to cart, and purchased from within Shopping Hub. For suppliers without this configuration, a notification appears, redirecting shoppers to the supplier’s external site to add items to the cart and place the order. The shopper is subsequently redirected to Shopping Hub where they can continue with the checkout process. For more information, see [Configure punchout for third-party site purchases](https://servicenow-staging.fluidtopics.net/access?context=configure-supplier-punchout&family=xanadu&ft:locale=en-US).
+Shoppers can search for all the products, including those from external suppliers, directly within Shopping Hub. The configuration of the Search API, Order API, and Product Details API determines whether shoppers can complete their purchases directly in Shopping Hub or are redirected to external supplier websites. Products from third-party suppliers with configured Order API and Product details API can be viewed, added to cart, and purchased from within Shopping Hub. For suppliers without this configuration, a notification appears, redirecting shoppers to the supplier’s external site to add items to the cart and place the order. The shopper is subsequently redirected to Shopping Hub where they can continue with the checkout process. For more information, see [Configure punchout for third-party site purchases](https://www.servicenow.com/docs/access?context=configure-supplier-punchout&family=xanadu&ft:locale=en-US).
 
--   **[Configure punchout for third-party site purchases](https://servicenow-staging.fluidtopics.net/access?context=configure-supplier-punchout&family=xanadu&ft:locale=en-US)**
+-   **[Configure punchout for third-party site purchases](https://www.servicenow.com/docs/access?context=configure-supplier-punchout&family=xanadu&ft:locale=en-US)**
 
 Set up cXML and API connections through a configuration framework to enable your shoppers to use AI search within Shopping Hub, enabling them to browse both third-party and native catalog items.
 
--   **[Process visibility](https://servicenow-staging.fluidtopics.net/access?context=process-visibility&family=xanadu&ft:locale=en-US)**
+-   **[Process visibility](https://www.servicenow.com/docs/access?context=process-visibility&family=xanadu&ft:locale=en-US)**
 
 Render end-to-end process visibility in Shopping Hub so that your shoppers have transparency into the procurement process after they submit a request. You can also configure this feature to meet your own business processes. For example, you can use a default content and configuration framework to modify and edit your own content.
 
@@ -131,77 +131,77 @@ Yokohama
 
 </td><td>
 
--   **[Multi-currency support](https://servicenow-staging.fluidtopics.net/access?context=sh-multicurrency-overview&family=yokohama&ft:locale=en-US)**
+-   **[Multi-currency support](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&family=yokohama&ft:locale=en-US)**
 
 View and select your local currency while shopping for products in Shopping Hub to provide a seamless multi-currency experience.
 
--   **[Purchase requisition line-level questions](https://servicenow-staging.fluidtopics.net/access?context=prl-question-shoppinghub&family=yokohama&ft:locale=en-US)**
+-   **[Purchase requisition line-level questions](https://www.servicenow.com/docs/access?context=prl-question-shoppinghub&family=yokohama&ft:locale=en-US)**
 
 Create configurable, line-level questions during checkout in Shopping Hub. These questions are defined in Catalog Builder and are specific to certain products or product categories.
 
--   **[Category management tab](https://servicenow-staging.fluidtopics.net/access?context=category-mgmt-tab&family=yokohama&ft:locale=en-US)**
+-   **[Category management tab](https://www.servicenow.com/docs/access?context=category-mgmt-tab&family=yokohama&ft:locale=en-US)**
 
 Access a unified, filter-based view of category performance across spend, savings, pipeline projects, contracts, purchase orders, and suppliers.
 
--   **[Category analytics](https://servicenow-staging.fluidtopics.net/access?context=spo-category-analytics&family=yokohama&ft:locale=en-US)**
+-   **[Category analytics](https://www.servicenow.com/docs/access?context=spo-category-analytics&family=yokohama&ft:locale=en-US)**
 
 View savings opportunities across the sourcing pipeline using the Savings dashboard in the Category Analytics module of the Source-to-Pay Workspace.
 
--   **[Pipeline management tab](https://servicenow-staging.fluidtopics.net/access?context=pipeline-mgmt-tab&family=yokohama&ft:locale=en-US)**
+-   **[Pipeline management tab](https://www.servicenow.com/docs/access?context=pipeline-mgmt-tab&family=yokohama&ft:locale=en-US)**
 
 Gain insights into savings and pipeline projects to enhance visibility, tracking, and collaboration across teams.
 
--   **[Report savings when awarding multiple suppliers](https://servicenow-staging.fluidtopics.net/access?context=report-savings-multiple-suppliers&family=yokohama&ft:locale=en-US)**
+-   **[Report savings when awarding multiple suppliers](https://www.servicenow.com/docs/access?context=report-savings-multiple-suppliers&family=yokohama&ft:locale=en-US)**
 
 Enter the spend and savings data for the sourcing event associated with the pipeline project when awarding multiple suppliers.
 
--   **[Create a pipeline project from an expiring contract](https://servicenow-staging.fluidtopics.net/access?context=create-pipeline-expire-contract&family=yokohama&ft:locale=en-US)**
+-   **[Create a pipeline project from an expiring contract](https://www.servicenow.com/docs/access?context=create-pipeline-expire-contract&family=yokohama&ft:locale=en-US)**
 
 Create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 
--   **[Search for punchout products in Employee Center](https://servicenow-staging.fluidtopics.net/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
+-   **[Search for punchout products in Employee Center](https://www.servicenow.com/docs/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
 
 In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
 
--   **[Unified request tracking in Shopping Hub](https://servicenow-staging.fluidtopics.net/access?context=sh-unified-request-tracking&family=yokohama&ft:locale=en-US)**
+-   **[Unified request tracking in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-unified-request-tracking&family=yokohama&ft:locale=en-US)**
 
 From My Purchases in Shopping Hub, you can search purchased products or services using the original or associated procurement record IDs, tracking details from order to fulfillment. Additionally, you can use keywords or the first three letters of a procurement record type to search for and view your purchases.
 
--   **[Browse punchout and native catalog items from the Categories and Suppliers lists in SH](https://servicenow-staging.fluidtopics.net/access?context=sh-browse-products&family=yokohama&ft:locale=en-US)**
+-   **[Browse punchout and native catalog items from the Categories and Suppliers lists in SH](https://www.servicenow.com/docs/access?context=sh-browse-products&family=yokohama&ft:locale=en-US)**
 
 In Shopping Hub, you can view both the punchout products and the natively available products from the Categories or the Suppliers list on the Shopping Hub home page.
 
--   **[Map Product Categories and Units of Measure for Seamless Checkout](https://servicenow-staging.fluidtopics.net/access?context=product-category-mapping-shoppinghub&family=yokohama&ft:locale=en-US)**
+-   **[Map Product Categories and Units of Measure for Seamless Checkout](https://www.servicenow.com/docs/access?context=product-category-mapping-shoppinghub&family=yokohama&ft:locale=en-US)**
 
 You can map the product categories and units of measure for third-party products to the corresponding model categories. This capability helps to ensure that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.
 
--   **[Submit an edit receipt request from Shopping Hub](https://servicenow-staging.fluidtopics.net/access?context=submit-edit-receipt-request&family=yokohama&ft:locale=en-US)**
+-   **[Submit an edit receipt request from Shopping Hub](https://www.servicenow.com/docs/access?context=submit-edit-receipt-request&family=yokohama&ft:locale=en-US)**
 
 Shoppers can submit edit receipt requests from Shopping Hub to correct discrepancies in accepted receipts, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
 
--   **[Process an edit receipt request in playbook](https://servicenow-staging.fluidtopics.net/access?context=playbook-process-edit-receipt&family=yokohama&ft:locale=en-US)**
+-   **[Process an edit receipt request in playbook](https://www.servicenow.com/docs/access?context=playbook-process-edit-receipt&family=yokohama&ft:locale=en-US)**
 
 Fulfillers can review the edit receipt requests and either confirm or reject them. If the request is valid, they can process the request using the Edit a Receipt playbook in the Source-to-Pay Workspace.
 
--   **[Edit purchase requisitions with cost allocation adjustments](https://servicenow-staging.fluidtopics.net/access?context=edit-purchase-cost-allocation&family=yokohama&ft:locale=en-US)**
+-   **[Edit purchase requisitions with cost allocation adjustments](https://www.servicenow.com/docs/access?context=edit-purchase-cost-allocation&family=yokohama&ft:locale=en-US)**
 
 Shoppers can modify purchase requisitions \(PRs\) and purchase orders \(POs\) while maintaining cost allocation across multiple cost centers.
 
--   **[Spend and Savings Management](https://servicenow-staging.fluidtopics.net/access?context=spo-spend-mgmt&family=yokohama&ft:locale=en-US)**
+-   **[Spend and Savings Management](https://www.servicenow.com/docs/access?context=spo-spend-mgmt&family=yokohama&ft:locale=en-US)**
 
 Spend and Savings Management \(sn\_spend\_mgmt\) enables category managers to import and maintain their organization’s category taxonomy. Integrating this taxonomy into ServiceNow helps streamline procurement processes, monitor spend, and assess savings more efficiently at the category level.
 
--   **[Return a product](https://servicenow-staging.fluidtopics.net/access?context=return-a-product&family=yokohama&ft:locale=en-US)**
+-   **[Return a product](https://www.servicenow.com/docs/access?context=return-a-product&family=yokohama&ft:locale=en-US)**
 
 Shoppers can now initiate replacements for goods directly from the Shopping Hub/EC. Previously, only returns for refunds were supported. This enhancement allows shoppers to replace faulty or unsatisfactory items, offering greater flexibility and improving the overall shopping experience.
 
--   **[Using Now Assist for Contract Management in Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=use-now-assist-cmpro-spo&family=yokohama&ft:locale=en-US)**
+-   **[Using Now Assist for Contract Management in Procurement Service Management](https://www.servicenow.com/docs/access?context=use-now-assist-cmpro-spo&family=yokohama&ft:locale=en-US)**
 
 Extract metadata from a signed contract attached in a contract repository record and analyze a contract document with agentic AI to identify non-standard and missing clauses.
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
 
-Activate the following new skills for Now Assist for SPO:
+Activate the following new skills for ServiceNow Otto for SPO:
 
     -   Negotiation summarization for fulfillers: Summarize negotiations to keep fulfillers informed on their current status, progress, and action items.
     -   Negotiation event summarization for fulfillers: Summarize negotiation events to keep fulfillers informed on their current status, progress, and action items.
@@ -229,11 +229,11 @@ With the Now Assist panel, fulfillers can use agentic AI to summarize the follow
     -   Purchase order
     -   Negotiation
     -   Negotiation event
--   **[Now Assist for Common Finance and Supply Chain features](https://servicenow-staging.fluidtopics.net/access?context=now-assist-fsc-common&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist for Common Finance and Supply Chain features](https://www.servicenow.com/docs/access?context=now-assist-fsc-common&family=yokohama&ft:locale=en-US)**
 
 Use Now Assist for Common Finance and Supply Chain features to summarize purchase orders and keep fulfillers informed of their status, progress, and required actions.
 
--   **[Use agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US)**
+-   **[Use agentic workflows](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US)**
 
 Use agentic workflows for Sourcing and Procurement Operations to fulfill your procurement needs through intelligent product recommendations, guided checkout and off-catalog purchasing processes, and detailed product information. These workflows also help answer procurement-related questions and efficiently track associated records.
 
@@ -244,55 +244,71 @@ Zurich
 
 </td><td>
 
--   **[Purchase requisition line-level questions](https://servicenow-staging.fluidtopics.net/access?context=prl-question-shoppinghub&family=zurich&ft:locale=en-US)**
+-   **[Multi-currency support in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&family=zurich&ft:locale=en-US)**
+
+Enable multi-currency display across approval-related views, including To-Dos, tasks, email notifications, and the Bundles page. Currency values are shown in both the approver’s local currency and the original supplier currency where applicable. The local currency is displayed as the primary value, with the original currency shown as a secondary reference. This display format provides consistent currency visibility for approvers during review.
+
+-   **[Decimal quantity support service-based purchases](https://www.servicenow.com/docs/access?context=decimal-support-services&family=zurich&ft:locale=en-US)**
+
+Enable requesters to enter and edit decimal quantities for service-based purchase requisitions and purchase orders without validation errors. Decimal quantities are supported only for services to maintain data integrity. Decimal quantities for goods are not supported and return a clear validation message. This validation logic is consistent across Shopping Hub and Employee Center.
+
+-   **[Automatically assign categories during SR](https://www.servicenow.com/docs/access?context=automatically-assign-categories&family=zurich&ft:locale=en-US)**
+
+Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the Spend categorization agent. This classification process reduces manual classification effort and improves consistency across procurement workflows.
+
+-   **[Purchase behalf another user Shopping](https://www.servicenow.com/docs/access?context=purchase-on-behalf-sh&family=zurich&ft:locale=en-US)**
+
+Enable users to purchase on behalf of others without requiring delegate configuration in Shopping Hub. Users can manage individuals they are authorized to purchase for, directly within the buying experience. Purchases made on behalf of others are visible through filtering by business owner in the My Purchases view.
+
+-   **[Purchase requisition line-level questions Shopping](https://www.servicenow.com/docs/access?context=prl-question-shoppinghub&family=zurich&ft:locale=en-US)**
 
 Create configurable, line-level questions during checkout in Shopping Hub. These questions are defined in Catalog Builder and are specific to certain products or product categories.
 
--   **[Multi-currency support](https://servicenow-staging.fluidtopics.net/access?context=sh-multicurrency-overview&family=zurich&ft:locale=en-US)**
+-   **[Multi-currency support in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&family=zurich&ft:locale=en-US)**
 
 View and select your local currency while shopping for products in Shopping Hub to provide a seamless multi-currency experience.
 
--   **[Category management tab](https://servicenow-staging.fluidtopics.net/access?context=category-mgmt-tab&family=zurich&ft:locale=en-US)**
+-   **[Category management tab](https://www.servicenow.com/docs/access?context=category-mgmt-tab&family=zurich&ft:locale=en-US)**
 
 Access a unified, filter-based view of category performance across spend, savings, pipeline projects, contracts, purchase orders, and suppliers.
 
--   **[Category analytics](https://servicenow-staging.fluidtopics.net/access?context=spo-category-analytics&family=zurich&ft:locale=en-US)**
+-   **[Category analytics](https://www.servicenow.com/docs/access?context=spo-category-analytics&family=zurich&ft:locale=en-US)**
 
 View savings opportunities across the sourcing pipeline using the Savings dashboard in the Category Analytics module of the Source-to-Pay Workspace.
 
--   **[Pipeline management tab](https://servicenow-staging.fluidtopics.net/access?context=pipeline-mgmt-tab&family=zurich&ft:locale=en-US)**
+-   **[Pipeline management tab](https://www.servicenow.com/docs/access?context=pipeline-mgmt-tab&family=zurich&ft:locale=en-US)**
 
 Gain insights into savings and pipeline projects to enhance visibility, tracking, and collaboration across teams.
 
--   **[Report savings when awarding multiple suppliers](https://servicenow-staging.fluidtopics.net/access?context=report-savings-multiple-suppliers&family=zurich&ft:locale=en-US)**
+-   **[Report savings when awarding multiple](https://www.servicenow.com/docs/access?context=report-savings-multiple-suppliers&family=zurich&ft:locale=en-US)**
 
 Enter the spend and savings data for the sourcing event associated with the pipeline project when awarding multiple suppliers.
 
--   **[Create a pipeline project from an expiring contract](https://servicenow-staging.fluidtopics.net/access?context=create-pipeline-expire-contract&family=zurich&ft:locale=en-US)**
+-   **[Create pipeline project expiring contract](https://www.servicenow.com/docs/access?context=create-pipeline-expire-contract&family=zurich&ft:locale=en-US)**
 
 Create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 
--   **[Submit multi-product sourcing requests](https://servicenow-staging.fluidtopics.net/access?context=multi-product-sourcing-intake-with-third-party-integration&family=zurich&ft:locale=en-US)**
+-   **[Submit multi-product sourcing requests](https://www.servicenow.com/docs/access?context=multi-product-sourcing-intake-with-third-party-integration&family=zurich&ft:locale=en-US)**
 
 Submit sourcing requests with multiple products in a single sourcing intake form, and the third-party sourcing solution will automatically create separate sourcing events for each product.
 
--   **[Manage third-party RFx tasks in Employee Center](https://servicenow-staging.fluidtopics.net/access?context=third-party-rfx-task-management-for-requestors&family=zurich&ft:locale=en-US)**
+-   **[Manage third-party RFx tasks in Employee Center](https://www.servicenow.com/docs/access?context=third-party-rfx-task-management-for-requestors&family=zurich&ft:locale=en-US)**
 
 View and manage third-party Request for anything \(RFx\) tasks in the Employee Center and navigate to the third-party sourcing tool to review, publish, and award RFx.
 
--   **[Procurement Service Management integration with IT Asset Management](https://servicenow-staging.fluidtopics.net/access?context=spo-itam-better-together&family=zurich&ft:locale=en-US)**
+-   **[Sourcing Procurement Operations integration Asset](https://www.servicenow.com/docs/access?context=spo-itam-better-together&family=zurich&ft:locale=en-US)**
 
 The Asset Management Integration for Sourcing and Procurement Operations plugin \(com.snc.sn\_spend\_asset\) provides an integration between IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\) applications, enhancing operational efficiency. This integration enables asset managers to access catalog items, including those items without assigned prices, directly within the ITAM workspace. By enabling procurement actions without switching platforms, it streamlines workflows and improves the user experience.
 
--   **[Sourcing Pipeline Management](https://servicenow-staging.fluidtopics.net/access?context=spo-sourcing-pipeline-mgmt&family=zurich&ft:locale=en-US)**
+-   **[Sourcing Pipeline Management](https://www.servicenow.com/docs/access?context=spo-sourcing-pipeline-mgmt&family=zurich&ft:locale=en-US)**
 
 Sourcing Pipeline Management introduces a centralized approach to managing sourcing projects, enabling you to create, track, and manage sourcing activities in one place. It includes workflow automation to reduce manual effort, improves visibility into sourcing activities, and supports tracking and forecasting of cost savings.
 
--   **[Using Shopping Hub](https://servicenow-staging.fluidtopics.net/access?context=use-shoppinghub-portal&family=zurich&ft:locale=en-US)**
+-   **[Using Shopping Hub](https://www.servicenow.com/docs/access?context=use-shoppinghub-portal&family=zurich&ft:locale=en-US)**
 
 Enter decimal quantities when creating purchase requisitions for service items using quick or full checkout flows in Shopping Hub. Edit service acknowledgments with decimal values to enable more precise tracking of service consumption.
 
--   **[Purchasing tasks and procurement cases](https://servicenow-staging.fluidtopics.net/access?context=purchasing-tasks&family=zurich&ft:locale=en-US)**
+-   **[Purchasing tasks and procurement cases](https://www.servicenow.com/docs/access?context=purchasing-tasks&family=zurich&ft:locale=en-US)**
 
 Review and respond to proposed case resolutions based on conditions defined in the decision tables before the case is permanently closed. When a fulfiller marks a case as resolved, the system now automatically transitions the case status to Awaiting Acceptance, pausing closure until the requester takes action. Requesters are notified via email with actionable buttons and can also accept or reject the resolution directly through the Employee Center. This notification helps to ensure that unresolved issues are addressed before a case is closed, improving resolution accuracy and customer satisfaction.
 
@@ -316,25 +332,25 @@ Xanadu
 
 </td><td>
 
--   **[SPO list page](https://servicenow-staging.fluidtopics.net/access?context=procurement-specialist-list-page&family=xanadu&ft:locale=en-US)**
+-   **[SPO list page](https://www.servicenow.com/docs/access?context=procurement-specialist-list-page&family=xanadu&ft:locale=en-US)**
 
 All playbooks in SPO have been standardized to deliver a consistent look and feel, enhancing the overall user experience.
 
--   **[Configure conditions for merging purchase requisitions](https://servicenow-staging.fluidtopics.net/access?context=config-pr-merge&family=xanadu&ft:locale=en-US)**
+-   **[Configure conditions for merging purchase requisitions](https://www.servicenow.com/docs/access?context=config-pr-merge&family=xanadu&ft:locale=en-US)**
 
 Set the conditions for merging purchase requisitions \(PRs\). Procurement administrators can define which fields must match for PR merges, ensuring flexibility to align with specific business processes.
 
--   **[Add a sourcing request to a negotiation event](https://servicenow-staging.fluidtopics.net/access?context=add-a-sourcing-request-to-a-negotiation-event&family=xanadu&ft:locale=en-US)**
+-   **[Add a sourcing request to a negotiation event](https://www.servicenow.com/docs/access?context=add-a-sourcing-request-to-a-negotiation-event&family=xanadu&ft:locale=en-US)**
 
 Introduced a unified logic for calculating supplier response close dates when adding sourcing requests to new or existing negotiation events. This ensures consistency in date calculations, regardless of whether the dates are system-generated or manually defined by procurement fulfillers.
 
--   **[Procurement Service Management integration with third-party sourcing solutions](https://servicenow-staging.fluidtopics.net/access?context=psm-integration-third-party-sourcing&family=xanadu&ft:locale=en-US)**
+-   **[Procurement Service Management integration with third-party sourcing solutions](https://www.servicenow.com/docs/access?context=psm-integration-third-party-sourcing&family=xanadu&ft:locale=en-US)**
 
 Enhanced the Source-to-Pay Integration Framework for integrations with third-party sourcing tools. You can now support negotiation-event-based integrations that consist of multiple sourcing requests.
 
 Enhanced the purchase order cancellation flow when it's updated from the purchase order outbound table.
 
--   **[Inbound staging tables for Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=spo-inbound-staging-tables&family=xanadu&ft:locale=en-US)**
+-   **[Inbound staging tables for Procurement Service Management](https://www.servicenow.com/docs/access?context=spo-inbound-staging-tables&family=xanadu&ft:locale=en-US)**
 
 Made the following updates related to inbound staging tables:
 
@@ -343,7 +359,7 @@ Made the following updates related to inbound staging tables:
 
         -   **Transform map**: Spend Shipment Import
     -   Transferred attachments from the Enterprise Resource Planning \(ERP\) system staging table to the main Purchase Order table. These attachments are also visible on the purchase order.
--   **[Source-to-Pay integration framework](https://servicenow-staging.fluidtopics.net/access?context=sap-integration-overview-2&family=xanadu&ft:locale=en-US)**
+-   **[Source-to-Pay integration framework](https://www.servicenow.com/docs/access?context=sap-integration-overview-2&family=xanadu&ft:locale=en-US)**
 
 Updated some fields and processes in the Source-to-Pay Integration Framework to build connection points and to work with other ERP systems, including the following fields and processes:
 
@@ -366,7 +382,7 @@ Zurich
 
 </td><td>
 
--   **[Components installed with Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=installed-with-FSC&family=zurich&ft:locale=en-US)**
+-   **[Components installed Sourcing Procurement Operations](https://www.servicenow.com/docs/access?context=installed-with-FSC&family=zurich&ft:locale=en-US)**
 
 The Negotiation event table label has been renamed to Sourcing event. This change affects the label only. The underlying table name, \[sn\_shop\_negotiation\_event\], remains unchanged.
 
@@ -470,7 +486,7 @@ Xanadu
 
 </td><td>
 
-Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -478,7 +494,7 @@ Yokohama
 
 </td><td>
 
-Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -667,7 +683,7 @@ Xanadu
 -   Automate the end-to-end procurement process workflows, from sourcing through requisitioning, to order fulfillment, receipt, and payment.
 -   Enable procurement specialists to source, negotiate, procure goods and services for an organization, and work on procurement tasks.
 
- See [Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=psm-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Procurement Service Management](https://www.servicenow.com/docs/access?context=psm-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -681,7 +697,7 @@ Yokohama
 -   Easily track products and services from ordering to fulfillment using procurement record IDs or keywords.
 -   Access both punchout and native catalog products from Categories or Suppliers on the Shopping Hub home page.
 
- See [Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=psm-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Procurement Service Management](https://www.servicenow.com/docs/access?context=psm-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -698,7 +714,7 @@ Zurich
 -   Enable decimal quantities for service items when creating purchase requisitions using quick or full checkouts in Shopping Hub and Employee Center.
 -   Enable requesters to accept or reject case resolutions through email or Employee Center before closure, reducing premature case closures.
 
- See [Procurement Service Management](https://servicenow-staging.fluidtopics.net/access?context=psm-overview&family=zurich&ft:locale=en-US) for more information.
+ See [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

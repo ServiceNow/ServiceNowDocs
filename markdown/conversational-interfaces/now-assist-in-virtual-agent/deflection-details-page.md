@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-04"
 reading_time_minutes: 3
-breadcrumb: [Self-Solve Performance page, Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Self-Solve Performance page, Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Deflection details page in Assistant analytics

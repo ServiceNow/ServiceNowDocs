@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-mcpserverconsole-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,21 +75,39 @@ Zurich
 
 </td><td>
 
--   **[Get started with the preconfigured Quickstart Server](https://servicenow-staging.fluidtopics.net/access?context=exploring-mcp-server-console&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-platai.ai-native-sku-overview\]](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
 
-Get started learning about MCP servers and connecting MCP clients to a ServiceNow instance with the preconfigured Quickstart Server. The Quickstart Server includes tools for looking up and summarizing incident and case records.
+The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 
--   **[Create MCP servers](https://servicenow-staging.fluidtopics.net/access?context=create-mcp-server&family=zurich&ft:locale=en-US)**
+    -   Foundation: AI agents and skills to deliver insights
+    -   Advanced: AI agents and skills to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI agents and skills, and create your own
 
-Create MCP servers that expose different tools for different use cases, such as for HR or IT workflows, or for different MCP clients.
+-   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
 
--   **[Create tools from Now Assist skills](https://servicenow-staging.fluidtopics.net/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
+With this release, you can now create tools from additional categories like, Knowledge graphs, Subflow, Action, and REST APIs and Now Assist skills.
 
-Create tools for MCP servers from Now Assist skills and configure which fields are exposed as tool inputs.
 
--   **[Connect to MCP clients using an OAuth inbound integration](https://servicenow-staging.fluidtopics.net/access?context=connect-mcp-server-client&family=zurich&ft:locale=en-US)**
+-   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
 
-Create an OAuth inbound integration to use when configuring MCP clients to connect to an MCP server.
+With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
+
+
+-   **[Get started with the preconfigured Quickstart Server](https://www.servicenow.com/docs/access?context=exploring-mcp-server-console&family=zurich&ft:locale=en-US)**
+
+Learn about MCP Server Console and connecting MCP Server Console clients to a ServiceNow instance with the preconfigured Quickstart Server. The Quickstart Server includes tools for looking up and summarizing incident and case records.
+
+-   **[Create MCP servers](https://www.servicenow.com/docs/access?context=create-mcp-server&family=zurich&ft:locale=en-US)**
+
+Create MCP Server Console servers that expose different tools for different use cases, such as for HR or IT workflows, or for different MCP Server Console clients.
+
+-   **[Create tools from Now Assist skills](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
+
+Create tools for MCP Server Console servers from Now Assist skills and configure which fields are exposed as tool inputs.
+
+-   **[Connect to MCP clients using an OAuth inbound integration](https://www.servicenow.com/docs/access?context=connect-mcp-server-client&family=zurich&ft:locale=en-US)**
+
+Create an OAuth inbound integration to use when configuring MCP Server Console clients to connect to an MCP Server Console server.
 
 
 </td></tr></tbody>
@@ -206,7 +224,7 @@ Zurich
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://servicenow-staging.fluidtopics.net/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -351,11 +369,15 @@ Zurich
 
 </td><td>
 
+-   Unify the MCP Server creation process by embedding OAuth Client registration directly within the MCP Server Console wizard. This eliminates the need for users to switch contexts between multiple consoles.
+-   Enable administrators to configure annotations across all supported tool types. Annotations will be included in the tools/list response per MCP specification, allowing MCP clients like Claude to apply correct permission policies.
 -   Get started with the preconfigured Quickstart Server for looking up and summarizing incident and case records.
--   Create MCP servers and tools based on Now Assist skills for different use cases.
--   Connect to any MCP client using OAuth 2.0 authentication.
+-   Create MCP apps to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
+-   Integrate third-party identity provider \(IDP\) with MCP server to support users authentication through a third-party \(IDP\).
+-   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
+-   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
- See [MCP Server](https://servicenow-staging.fluidtopics.net/access?context=mcp-server-console-landing&family=zurich&ft:locale=en-US) for more information.
+ See [MCP Server](https://www.servicenow.com/docs/access?context=mcp-server-console-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

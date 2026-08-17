@@ -47,15 +47,15 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d53540e184">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d53258e184">
 
 Value
 
-</th><th align="left" id="d53540e187">
+</th><th align="left" id="d53258e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53540e193">
+</th></tr></thead><tbody><tr><td id="d53258e193">
 
 **header**
 
@@ -67,7 +67,7 @@ Displays the selected component in the following location:
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d53540e213">
+</td></tr><tr><td id="d53258e213">
 
 **sidebar**
 

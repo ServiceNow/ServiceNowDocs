@@ -1,5 +1,5 @@
 ---
-title: Extract entitlements from software contracts using Now Assist for SAM
+title: Extract entitlements from software contracts using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/extract-entitlements-from-contracts-now-assist-sam.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-10-24"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Extract entitlements from software contracts using Now Assist for SAM
+# Extract entitlements from software contracts using ServiceNow Otto for Software Asset Management \(SAM\)
 
 Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 
@@ -22,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
@@ -58,7 +58,7 @@ You can extract data related to entitlements from an existing or a new contract 
 
     The extract entitlements page opens.
 
-    \[Omitted image "extractentitlements.png"\] Alt text: Extract entitlements page
+    \[Omitted image "extractentitlements.png"\] Alt text:
 
 9.  Select the Open tables down arrow next to **Tables**.
 
@@ -96,5 +96,5 @@ You can extract data related to entitlements from an existing or a new contract 
     The entitlements are successfully created.
 
 
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

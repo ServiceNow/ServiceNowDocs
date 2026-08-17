@@ -25,7 +25,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  In the topic that you've tested, select **Duplicate** in the triple-dot icon on the Virtual Agent Designer header bar.
+1.  In the topic that you've tested, select **Duplicate** in the triple-dot icon on the Assistant Designer Asset library header bar.
 
     1.  In the pop-up window, enter the name of your duplicated topic.
 

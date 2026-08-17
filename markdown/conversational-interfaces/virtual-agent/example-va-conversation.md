@@ -22,13 +22,13 @@ For an overview of the Asset Refresh workflow from the user perspective, watch t
 
 Virtual Agent comes with a basic configuration that includes common greetings, NLU intents, reusable logic, and pre-built conversations. Using these building blocks, you can quickly put together workflows to handle some of the most common organizational needs, including the following:
 
--   Resetting a password
--   IT Self-Service
--   IT troubleshooting
--   HR queries and employee profile updates
--   Customer Service queries and requests
+-   [Resetting a password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-password-management.md)
+-   [IT Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-va-self-service-topics.md)
+-   [IT troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-va-it-issues-generic.md)
+-   [HR queries and employee profile updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-virtual-agent-conversations.md)
+-   [Customer Service queries and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
-To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the ITSM Virtual Agent Conversations plugin. These topic blocks do most of the "heavy lifting" in the topic.
+To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent.md) plugin. These topic blocks do most of the "heavy lifting" in the topic.
 
 ## Asset Refresh workflow
 
@@ -42,9 +42,9 @@ If the user chooses to get more information, the AI Search topic block returns o
 
 ## Creating the Asset Refresh example workflow
 
-The following topics describe how to use Virtual Agent Designer and actionable notifications to create the Asset Refresh workflow. Follow these steps in order.
+The following topics describe how to use Assistant Designer Asset library and actionable notifications to create the Asset Refresh workflow. Follow these steps in order.
 
-1.  [Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md).
+1.  [Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md).
 2.  [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md).
 3.  [Create the More Information workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.md).
 4.  [Create the notification for the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.md).

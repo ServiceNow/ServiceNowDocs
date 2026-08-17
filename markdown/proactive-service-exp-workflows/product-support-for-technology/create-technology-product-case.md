@@ -1,5 +1,5 @@
 ---
-title: Create a Product Support for Technology case from the Customer Service Portal
+title: Create a technology product case
 description: Customers can create a Product Support for Technology case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
-# Create a Product Support for Technology case from the Customer Service Portal
+# Create a technology product case
 
 Customers can create a Product Support for Technology case to report an issue about the service from the Customer Service Portal.
 

@@ -20,7 +20,7 @@ It is a solution where the self-resolution remediation process is proactive, sea
 
 ServiceNow® Proactive Engagement helps an organization in improving employee digital experience, productivity, and satisfaction by proactively enabling employees to self-solve digital issues they experience on a day-to-day basis. The self-remediation process is seamless and consistent without the organization having to publish all solution sets.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 \[Omitted video\] Description: Proactive Engagement overview
 

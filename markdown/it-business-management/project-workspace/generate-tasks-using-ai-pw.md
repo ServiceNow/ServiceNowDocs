@@ -8,8 +8,8 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-04-18"
-reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Generate tasks using project plan generation skill
@@ -20,7 +20,7 @@ Use project plan generation skill to populate an empty project with tasks by pro
 
 Role required: it\_project\_manager
 
--   Install Now Assist for Strategic Portfolio Management \(SPM\) plugin.
+-   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   To use attachments to generate a project, activate the document intelligence skill. The default LLM is Azure OpenAI. Switching to a different model may affect accuracy.
 
 -   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
@@ -56,12 +56,6 @@ Role required: it\_project\_manager
 ## Result
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
-
-## Generate tasks for an empty project
-
-Input: A project manager types the following in the text input: Create tasks for a website redesign project starting May 1, 2026 and ending July 31, 2026. Tasks include requirements gathering, UI design, and user acceptance testing.
-
-Output AI creates three task records: Requirements gathering, UI design, and user acceptance testing. Each task is populated with a name, description, start and end dates, and duration. Fields not present in the input are auto-populated with default values.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

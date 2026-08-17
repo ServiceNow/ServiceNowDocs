@@ -18,7 +18,7 @@ Enable synchronous mode on the secondary ServiceNow Virtual Agent instance to us
 
 ## Before you begin
 
-**Note:** Now Assist capabilities are supported only in asynchronous mode. For more information, see [Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-async-mode-secondary-sn-bot.md).
+**Note:** ServiceNow Otto capabilities are supported only in asynchronous mode. For more information, see [Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-async-mode-secondary-sn-bot.md).
 
 Role required: admin
 

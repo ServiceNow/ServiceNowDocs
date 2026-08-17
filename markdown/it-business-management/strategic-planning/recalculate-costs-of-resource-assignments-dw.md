@@ -1,6 +1,6 @@
 ---
 title: Recalculate costs of resource assignments of a demand
-description: Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model. This feature helps keep the plan costs are up to date.
+description: Recalculate the costs of active resource assignments of a demand when hourly rates change in the associated rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/recalculate-costs-of-resource-assignments-dw.html
 release: zurich
@@ -8,79 +8,48 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Create resource assignments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Create resource assignments for demands, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Recalculate costs of resource assignments of a demand
 
-Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model. This feature helps keep the plan costs are up to date.
+Recalculate the costs of active resource assignments of a demand when hourly rates change in the associated rate model.
 
 ## Before you begin
 
--   The demand must be active.
--   The demand must have an active rate model assigned.
+The demand must be active with an active rate model.
 
 Role required: it\_demand\_manager
 
+## About this task
+
+To recalculate the costs of resource assignments, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select the **Resource assignments** tab.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the required **Resource assignments** tab isn’t visible, select **More** and then select the required **Resource assignments** tab.
+5.  Select the **Resource assignments** tab.
 
-4.  Select the resource assignment record that you want to recalculate the costs for.
+    **Note:** If the **Resource assignments** tab isn't visible, select **More** &gt; **Resource assignments**.
 
-5.  Select the More Actions option and select **Recalculate Resource Cost**.\[Omitted image "recalculate-resource-cost-button.png"\] Alt text: Use the Recalculate Resource Cost button to recalculate the costs of a resource.
+6.  Select a resource assignment record.
 
-6.  On the Recalculate Resource Cost form, fill in the fields.
+7.  Select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: and select **Recalculate Resource Cost**.
 
-<table id="table_dht_bbx_j3c"><thead><tr><th>
+8.  If you want to start the recalculation from a specific date or end it on a different date, adjust the values in the **Start date** and **End date** fields.
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Start date
-
-</td><td>
-
-Start date of the time period for which the costs are recalculated.By default, the field shows the current date.
-
-</td></tr><tr><td>
-
-End date
-
-</td><td>
-
-End date of the time period for which the costs are recalculated.By default, the field shows the due date of the demand. If the due date isn’t specified for the demand, the field is empty.
-
-</td></tr></tbody>
-</table>7.  Select **OK**.
-
-    **Note:** Alternatively, you can recalculate the resource costs using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+9.  Select **OK**.
 
 
 ## Result
 
--   Recalculates the selected resource costs of all the applicable resource assignments in the demand based on the latest hourly rates. The hourly rates are derived from the rate model associated with the demand.
--   Updates the recalculated resource costs on the respective cost fields on the resource assignment form and the **Resource assignments** tab.
--   Reflects the revised values in the respective cost fields of the demand.
-
-**Related topics**  
-
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Create resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-resource-assignment-form-dw.md)
+The resource cost of the selected resource assignment is recalculated based on the hourly rates and is updated on the resource assignment form. The values in the cost fields of the demand are revised accordingly.
 

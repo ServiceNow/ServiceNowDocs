@@ -4,8 +4,9 @@ description: Use Contract Management Pro to submit non self-served contract requ
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use non-self-served contract request
@@ -59,20 +60,20 @@ A workflow for non-self-served contract request might progress as follows:
     -   If any changes are required, the signature is declined, and the user who is working on the contract request generates a new document and resends it for signature.
 13. The signed contract is stored on the ServiceNow instance or an external storage system and referenced in the contract repository. The requester and department members can access the signed contract document from the contracts repository.
 
+-   **[Modify a non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-nss-contract.md)**  
+As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
+-   **[Work on a non-self-served contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-review-request.md)**  
+Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from the contract request.
 -   **[Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md)**  
 As a contract user or the person for whom the contract was requested, add single or multiple contracts and classify them.
--   **[Work on a non-self-served contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-review-request.md)**  
-Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for signature from the contract request.
 -   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  
  Add one or more supporting documents from your computer, cloud storage, or activity stream.
--   **[Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
+-   **[Modify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.md)**  
+As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
+-   **[Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
 As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 -   **[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)**  
 As a contract fulfiller, reclassify the supporting documents submitted in the contract request. For example you can reclassify the supporting document as a contract document.
--   **[Modify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.md)**  
-As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
--   **[Modify a non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-nss-contract.md)**  
-As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
 
 **Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

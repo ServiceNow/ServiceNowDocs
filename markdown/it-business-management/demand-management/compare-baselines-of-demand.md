@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Create a baseline of a demand, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,23 +22,23 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment, providing a basis from which you can identify and review the changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment. Use baselines to identify and review changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
 
-If you’re creating demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare the financial details of the demand in baselines in the demand currency. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md).
+With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare demand financial details in baselines using the demand currency. For fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md).
 
 ## Procedure
 
 1.  To compare financial baselines of a demand, perform one of the following options.
 
-<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d283739e97">
+<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d292620e97">
 
 Option
 
-</th><th align="left" id="d283739e100">
+</th><th align="left" id="d292620e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d283739e106">
+</th></tr></thead><tbody><tr><td id="d292620e106">
 
 **From the Demand form**
 
@@ -51,7 +51,7 @@ Steps
 5.  On the Demand Workbench, select the baseline information icon \( \[Omitted image "new-baseline-info-icon.png"\] Alt text: \) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d283739e165">
+</td></tr><tr><td id="d292620e165">
 
 **From the Baseline form**
 

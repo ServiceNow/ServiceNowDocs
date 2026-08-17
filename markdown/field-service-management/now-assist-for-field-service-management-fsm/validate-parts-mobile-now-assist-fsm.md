@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-02-23"
 reading_time_minutes: 1
 keywords: [Parts Manager, validate parts, AI agent, generative AI for Field Service Management]
-breadcrumb: [Use agentic AI in FSM, Now Assist for FSM]
+breadcrumb: [Use agentic AI in FSM, ServiceNow Otto for FSM]
 ---
 
 # Validate parts on ServiceNow Agent using the Parts Manager AI agent

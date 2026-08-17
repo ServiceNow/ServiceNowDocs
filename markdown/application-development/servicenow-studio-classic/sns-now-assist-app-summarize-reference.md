@@ -1,6 +1,6 @@
 ---
 title: Now Assist for app summary generation reference
-description: The following roles are required for use with the Now Assist for Creator app summary generation skill.
+description: The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Now Ass
 
 # Now Assist for app summary generation reference
 
-The following roles are required for use with the Now Assist for Creator app summary generation skill.
+The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 
 ## Roles
 

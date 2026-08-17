@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Manage, self-configured bot, Slack, Conversational integration, Virtual Agent]
 breadcrumb: [Integrating a self-configured bot with Slack workspace, Integrate VA with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
@@ -19,10 +19,7 @@ Manage your Conversational Integration with Slack application, its branding, and
 
 ## Before you begin
 
-Roles required:
-
--   virtual\_agent\_admin and external\_app\_install\_admin or admin
--   Administrator for third-party applications \(Slack\)
+Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
@@ -32,17 +29,19 @@ Roles required:
 
 3.  Select **Manage** on the Slack tile.
 
-    If you would like to integrate your ServiceNow instance with another Slack bot, select the Plus icon against the Self-configured bot or select the **Add integration** button on the Manage Slack channel page and select **Integrate with Self-configured bot**. For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md) \[Omitted image "add-slack-integ-manage.png"\] Alt text: Manage Slack channel view in Conversational Interfaces general settings. The Add integration for self-configured bot button and Integrate with Self-configured bot option in the Add integration dropdown are highlighted.
+    If you want to integrate your ServiceNow instance with another Slack bot, select the plus icon in the Self-configured bot area, or use the **Add integration** drop-down menu and select **Integrate with Self-configured bot**. For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
 
-    When you select **Manage**, you are redirected to the Manage Slack channel page where you can manage the bots.
+    \[Omitted image "add-slack-integ-manage.png"\] Alt text: Manage Slack channel view in Conversational Interfaces general settings. The Add integration for self-configured bot button and Integrate with Self-configured bot option in the Add integration dropdown are highlighted.
 
-4.  Select the Manage Bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage bot icon. and select **Manage Bot**.
+    When you select **Manage**, you're redirected to the Manage Slack channel page where you can manage the bots.
 
-    You are redirected to the Bot Configuration page for the selected bot.
+4.  Select the Manage Bot icon \[Omitted image "manage-bot-icon.png"\], and then select **Manage Bot**.
 
-5.  Select the **Configuration** tab to brand your Self-configured bot.
+    You're redirected to the Bot Configuration page for the selected bot.
 
-    For more information about branding your Self-configured bot, see [Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/slack-brand-self-configured.md).
+5.  Select the **Configuration** tab to brand your self-configured bot.
+
+    For more information about branding your self-configured bot, see [Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/slack-brand-self-configured.md).
 
 6.  Select the **Bot Messages** tab to create and edit a bot message.
 

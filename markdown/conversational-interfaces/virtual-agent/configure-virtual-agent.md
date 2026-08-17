@@ -119,7 +119,7 @@ Configure my bot to detect sensitive data
 
 [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md)**Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see .
+Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-landing.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Use Natural Language Understanding \(NLU\) for topic discovery
 
 [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 
- Creating models \(using NLU Workbench\)
+ [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/creating-models.md) \(using NLU Workbench\)
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Detect and dynamically translate Virtual Agent topics into a different language
 </td></tr></tbody>
 </table>## Virtual Agent security
 
-Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see .
+Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/platsec-landing.md).
 
 -   **[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-conversation-settings.md)**  
 Create different chat experiences for your end users based on the context in which they initiate a conversation with Virtual Agent.
@@ -222,7 +222,7 @@ Virtual Agent provides optimized templates for the mobile experience. Configure 
 -   **[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)**  
 Virtual Agent features the ability to have multiple conversations at the same time, separated and directed by chosen context.
 -   **[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-catalogs.md)**  
-Use catalogs to search for and request services and products in chat widget conversations.
+Use catalogs to search for and request services and products in Natural Language Understanding \(NLU\)/Keyword chat widget conversations.
 -   **[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configuring-va-notifications.md)**  
 Send ServiceNow notifications directly to users via the Virtual Agent chatbot on supported messaging channels. Notifications can be simple informational messages for review, or actionable messages with buttons that users can select to perform certain actions.
 -   **[Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md)**  

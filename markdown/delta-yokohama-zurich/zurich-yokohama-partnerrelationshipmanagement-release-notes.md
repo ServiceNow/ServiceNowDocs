@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-partnerrelationshipmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,24 +75,24 @@ Zurich
 
 </td><td>
 
--   **[Data model for PRM](https://servicenow-staging.fluidtopics.net/access?context=data-model-for-partner-relationship-management&family=zurich&ft:locale=en-US)**
+-   **[Data model for PRM](https://www.servicenow.com/docs/access?context=data-model-for-partner-relationship-management&family=zurich&ft:locale=en-US)**
 
 Enable a user with the sn\_prm.enterprise\_partner\_admin role to map the fields on the channel partner record to their corresponding fields on the company record.
 
--   **[Partner Workspace](https://servicenow-staging.fluidtopics.net/access?context=partner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Partner Workspace](https://www.servicenow.com/docs/access?context=partner-workspace&family=zurich&ft:locale=en-US)**
 
 Manage and view the partner details via the Partner workspace if you have the sn\_prm.enterprise\_partner\_admin role or the sn\_prm.enterprise\_partner\_rel\_manager role.
 
--   **[Partner Workspace](https://servicenow-staging.fluidtopics.net/access?context=partner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Partner Workspace](https://www.servicenow.com/docs/access?context=partner-workspace&family=zurich&ft:locale=en-US)**
 
 Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CSM Configurable Workspace.
 
 
--   **[\[Placeholder link text to key configure-segment-management\]](https://servicenow-staging.fluidtopics.net/access?context=configure-segment-management&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key configure-segment-management\]](https://www.servicenow.com/docs/access?context=configure-segment-management&family=zurich&ft:locale=en-US)**
 
 Use the segment \[sn\_seg\_segment\] table to create records, track partner progress toward the next tier, and group partners effectively based on performance into multiple segments for tailored support, incentives, and visibility.
 
--   **[\[Placeholder link text to key deal-registration-management\]](https://servicenow-staging.fluidtopics.net/access?context=deal-registration-management&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key deal-registration-management\]](https://www.servicenow.com/docs/access?context=deal-registration-management&family=zurich&ft:locale=en-US)**
 
 Provide channel partners with exclusive rights to work on a particular deal registration or customer for a period of time.
 
@@ -101,12 +101,12 @@ Use the configurable deal registration form to track deal registrations, informa
 Use the deal registration playbook on the Partner portal to provide channel partners the flexibility to create new deal registrations and track their end to end life cycle.
 
 
--   **[\[Placeholder link text to key install-quote-management-for-channel-partners\]](https://servicenow-staging.fluidtopics.net/access?context=install-quote-management-for-channel-partners&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key install-quote-management-for-channel-partners\]](https://www.servicenow.com/docs/access?context=install-quote-management-for-channel-partners&family=zurich&ft:locale=en-US)**
 
 Install the Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) plugin to enable channel partners, B2B and B2C sales representatives, and managers to create, read, update, and track quotes associated with channel partners.
 
 
--   **[\[Placeholder link text to key install-order-management-for-channel-partners\]](https://servicenow-staging.fluidtopics.net/access?context=install-order-management-for-channel-partners&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key install-order-management-for-channel-partners\]](https://www.servicenow.com/docs/access?context=install-order-management-for-channel-partners&family=zurich&ft:locale=en-US)**
 
 Install the Order Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_orm\) to facilitate the entire order life cycle, especially indirect sales and enable channel partners to track orders with channel partners.
 
@@ -217,7 +217,7 @@ Yokohama
 
 </td><td>
 
-Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Zurich
 
 </td><td>
 
-Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -372,7 +372,7 @@ Zurich
 
 Use the CSM Configurable Workspace to enable your enterprise administrators to view all the details that are related to their partners.
 
- See [Partner Relationship Management](https://servicenow-staging.fluidtopics.net/access?context=partner-relationship-management&family=zurich&ft:locale=en-US) for more information.
+ See [Partner Relationship Management](https://www.servicenow.com/docs/access?context=partner-relationship-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

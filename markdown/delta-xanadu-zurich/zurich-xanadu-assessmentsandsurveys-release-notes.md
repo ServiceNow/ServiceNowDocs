@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-assessmentsandsurveys-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Improved Survey Response Behavior](https://servicenow-staging.fluidtopics.net/access?context=c_SurveyResults&family=xanadu&ft:locale=en-US)**
+-   **[Improved Survey Response Behavior](https://www.servicenow.com/docs/access?context=c_SurveyResults&family=xanadu&ft:locale=en-US)**
 
 To ensure consistency between the platform and portal, user responses to inactive survey questions are no longer viewable. Previously:
 
@@ -83,11 +83,11 @@ To ensure consistency between the platform and portal, user responses to inactiv
     -   On the portal, only active questions were visible.
 This update aligns platform and portal behavior. Only responses to active survey questions are accessible through the View User Response button on the assessment instance form, even if the user had answered them while the question was active. However, the responses will still be retained in the respective tables \(the response data will not be deleted from the instance\). On the response form, only active questions will be displayed
 
--   **[Quick start tests for Assessments and Surveys](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-survey&family=xanadu&ft:locale=en-US)**
+-   **[Quick start tests for Assessments and Surveys](https://www.servicenow.com/docs/access?context=quick-start-tests-survey&family=xanadu&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Assessments and Surveys works as expected. If you customized Assessments and Surveys, copy the quick start tests and configure them for your customizations.
 
-For more information, see [Quick start tests for Assessments and Surveys](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-survey&family=xanadu&ft:locale=en-US).
+For more information, see [Quick start tests for Assessments and Surveys](https://www.servicenow.com/docs/access?context=quick-start-tests-survey&family=xanadu&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -423,7 +423,7 @@ Xanadu
 
 -   View the user responses only for active questions.
 
- See [Exploring Assessments and Surveys](https://servicenow-staging.fluidtopics.net/access?context=assessments-and-surveys&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-and-surveys&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

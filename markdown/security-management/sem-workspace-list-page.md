@@ -279,7 +279,7 @@ Consists of the following lists:-   **CVEs \(NVD\)**: List of all the Common Vul
 **Note:**
 
     -   Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
-    -   When you integrate Early Warning for Security Exposure Management, two new columns appear in your vulnerability records - Armis Early Warning and Armis Early Warning CVD Attributes. Armis Early Warning is a flag indicating that threat actors are planning to exploit this CVE, while Armis Early Warning CVD Attributes contains detailed threat intelligence including CVE ID, affected product, intelligence date \(when Armis detected the threat actor activity\), Admiralty score \(confidence rating of the threat intelligence\), honeypot detection date, and research date.
+    -   The Early Warning for Security Exposure Management plugin adds two new columns to the list - Armis Early Warning displays early warning signals, while Armis Early Warning CVD Attributes shows detailed context for each signal. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md).
 -   **TPEs**: List of imported third-party vulnerabilities in your instance. Contains a list of related references, vulnerable items, exploits, and CVEs.
 -   **CWEs**: List of all the Common Weakness Enumerations \(CWEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 -   **Vulnerable Software**: List of all the software vulnerable entries.

@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Change LEAP large language model \(LLM\)
@@ -22,16 +22,18 @@ Role required: admin
 
 ## About this task
 
-If you change the LLM model, the LEAP skills should be reapplied to the selected model. The reason is LEAP skills are not applied automatically to an instance.
+If you change the LLM model, the LEAP skills should be reapplied to the selected model. Because the LEAP skills aren't applied automatically to an instance.
 
 ## Procedure
 
-1.  Access Now Assist Admin in your workspace.
+1.  Access **Admin** &gt; **AI Admin Hub** in your workspace.
 
-2.  Select **Settings** &gt; **Manage model providers**.\[Omitted image "manage-model-provider.png"\] Alt text: Manage model provider
+2.  Select **Settings** &gt; **Manage AI model** &gt; **Manage model provider**.\[Omitted image "manage-model-provider.png"\] Alt text: Manage model provider
 
 3.  Select **Edit model provider**, and then select **Customize**.\[Omitted image "customize-llm-model-provider.png"\] Alt text: Custom LLM selection
 
-4.  In the Edit provider section for skill groups, select the required LLM provider and **LEAP** as the Skill group name.\[Omitted image "select-llm-provider.png"\] Alt text: Select LLM model
+4.  In the Edit model provider section, select **Edit provider for skill groups**, select the skill group as **LEAP** and select required LLM provider.\[Omitted image "select-llm-provider.png"\] Alt text: Select LLM model
+
+5.  Select **Save**.
 
 

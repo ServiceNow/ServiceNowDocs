@@ -1,6 +1,6 @@
 ---
 title: Activate the Journey Summarization for Managers skill
-description: Activate the Journey Summarization for Managers skill in Now Assist for HRSD using the Now Assist Admin console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
+description: Activate the Journey Summarization for Managers skill in ServiceNow Otto for HRSD using the AI Admin Hub console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/activate-jny-summarization.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Emplo
 
 # Activate the Journey Summarization for Managers skill
 
-Activate the Journey Summarization for Managers skill in Now Assist for HRSD using the Now Assist Admin console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
+Activate the Journey Summarization for Managers skill in ServiceNow Otto for HRSD using the AI Admin Hub console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
 
 ## Before you begin
 
-The Now Assist for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\) plugin must be installed.
+The ServiceNow Otto for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\) plugin must be installed.
 
 This skill, driven by generative AI, produces a summary that managers can view to acquire the following information about an employee's journey:
 
@@ -32,11 +32,11 @@ Role required: \[sn\_jny.admin\], \[sn\_nowassist\_admin.nsa\_admin\]
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-    The Now Assist Admin console appears.
+    The AI Admin Hub console appears.
 
 2.  On the navigation panel, select **Employee** &gt; **HRSD**.
 
-    The Now Assist for HRSD skills appear.
+    The ServiceNow Otto for HRSD skills appear.
 
 3.  Select **Activate skill** on the **Journey Summarization for Managers** card.
 
@@ -49,7 +49,7 @@ Role required: \[sn\_jny.admin\], \[sn\_nowassist\_admin.nsa\_admin\]
     A dialog box displays the following message: `Journey Summarization for Managers is now active for HRSD!`
 
 
--   **[Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/summarize-jny.md)**  
+-   **[Summarize a journey with ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/summarize-jny.md)**  
 Managers can instantly summarize the information that appears on the Journey detail page to acquire an overview of an employee's journey. This summary also reflects the blockers that are impeding the journey's progress and the steps required to resume the journey's progress.
 
 **Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)

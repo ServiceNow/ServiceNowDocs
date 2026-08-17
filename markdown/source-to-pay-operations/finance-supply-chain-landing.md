@@ -33,7 +33,7 @@ ServiceNow® Finance and Supply Chain workflows unify processes, data, and techn
 ## Products, features, and customer journeys
 
 -   [Finance and Supply Chain applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/fsc-common-apps-landing.md)
--   [Now Assist for Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common-landing.md)
+-   [ServiceNow Otto applications for Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common-landing.md)
 -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-operations-overview.md)
 -   [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
 -   [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)

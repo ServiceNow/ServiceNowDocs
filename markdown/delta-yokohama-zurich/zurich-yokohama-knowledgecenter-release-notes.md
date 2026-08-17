@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-knowledgecenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,25 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Search knowledge article](https://servicenow-staging.fluidtopics.net/access?context=search-knowledge-article&family=yokohama&ft:locale=en-US)**
-
-Build a complete and accurate knowledge base, focus on continuous improvement by discovering and filling content gaps, removing redundant information, and optimizing existing articles for better quality.
-
-
--   **[Knowledge Center Article Optimization](https://servicenow-staging.fluidtopics.net/access?context=knowledge-center-article-optimization&family=yokohama&ft:locale=en-US)**
-
-Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
-
-
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://servicenow-staging.fluidtopics.net/access?context=kc-article-editor&family=yokohama&ft:locale=en-US)**
-
-Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
-
-
--   **[Potential knowledge gaps](https://servicenow-staging.fluidtopics.net/access?context=understanding-knowledge-gaps&family=yokohama&ft:locale=en-US)**
-
-Proactively identify and fill potential knowledge gaps. Identify missing knowledge articles and recurring issues that have incomplete or no knowledge article to refer to.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -93,22 +75,22 @@ Zurich
 
 </td><td>
 
--   **[Search knowledge article](https://servicenow-staging.fluidtopics.net/access?context=search-knowledge-article&family=zurich&ft:locale=en-US)**
+-   **[Search knowledge article](https://www.servicenow.com/docs/access?context=search-knowledge-article&family=zurich&ft:locale=en-US)**
 
 Build a complete and accurate knowledge base, focus on continuous improvement by discovering and filling content gaps, removing redundant information, and optimizing existing articles for better quality.
 
 
--   **[Knowledge Center Article Optimization](https://servicenow-staging.fluidtopics.net/access?context=knowledge-center-article-optimization&family=zurich&ft:locale=en-US)**
+-   **[Knowledge Center Article Optimization](https://www.servicenow.com/docs/access?context=knowledge-center-article-optimization&family=zurich&ft:locale=en-US)**
 
 Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
 
 
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://servicenow-staging.fluidtopics.net/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
+-   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
 
 Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
 
 
--   **[Potential knowledge gaps](https://servicenow-staging.fluidtopics.net/access?context=understanding-knowledge-gaps&family=zurich&ft:locale=en-US)**
+-   **[Potential knowledge gaps](https://www.servicenow.com/docs/access?context=understanding-knowledge-gaps&family=zurich&ft:locale=en-US)**
 
 Proactively identify and fill potential knowledge gaps. Identify missing knowledge articles and recurring issues that have incomplete or no knowledge article to refer to.
 
@@ -219,7 +201,7 @@ Yokohama
 
 </td><td>
 
-Knowledge Center would be available by default to all the roles of Knowledge Management.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -364,12 +346,7 @@ Yokohama
 
 </td><td>
 
--   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
--   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
--   Format your content within a knowledge article using editing tools in the article editor.
--   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.
-
- See [Knowledge Center](https://servicenow-staging.fluidtopics.net/access?context=knowledge-center&family=yokohama&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -377,12 +354,14 @@ Zurich
 
 </td><td>
 
--   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
+[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
 -   Format your content within a knowledge article using editing tools in the article editor.
 -   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.
 
- See [Knowledge Center](https://servicenow-staging.fluidtopics.net/access?context=knowledge-center&family=zurich&ft:locale=en-US) for more information.
+ See [Knowledge Center](https://www.servicenow.com/docs/access?context=knowledge-center&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

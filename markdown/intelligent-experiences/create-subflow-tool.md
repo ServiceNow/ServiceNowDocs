@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-05-29"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Create subflow tool type for MCP server]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -82,6 +82,16 @@ The description of what the tool intends to do. This input is exposed to AI clie
 
 </td></tr><tr><td>
 
+Annotations
+
+</td><td>
+
+Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
+
+ The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
 MCP Servers
 
 </td><td>
@@ -95,4 +105,6 @@ One or more servers you want to add your tool to.
 ## What to do next
 
 Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution.
+
+**Parent Topic:**[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md)
 

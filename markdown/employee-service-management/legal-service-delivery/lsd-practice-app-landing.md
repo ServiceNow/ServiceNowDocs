@@ -16,8 +16,6 @@ breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Ser
 
 Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   **[Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)**  
-Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of Now Assist in Virtual Agent or intake form available in the Employee Center.
 -   **[Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-content-review/legal-content-review.md)**  
 The ServiceNow® Legal Content Review application enables employees to raise a legal review request of any marketing materials, collaterals, or presentation contents and resolve the issues.
 -   **[Legal Digital Forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-digital-forensics-landing-page.md)**  
@@ -34,6 +32,8 @@ The ServiceNow® Legal Simple Privacy application provides a mechanism to raise 
 The ServiceNow® Legal Simple Compliance suite provides prebuilt legal workflows to submit and manage legal compliance requests.
 -   **[Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)**  
 The ServiceNow® Gifts and Entertainment Compliance enables you to manage disclosures from employees giving or receiving gifts or entertainment to internal or external parties to ensure they comply with company policies.
+-   **[Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)**  
+Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 -   **[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)**  
 Legal Stock Preclearance enables you to manage stock preclearance requests complying with the company’s stock preclearance policy. You can set up trading windows, manage an access persons list, and approve or reject stock preclearance requests.
 -   **[Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.md)**  

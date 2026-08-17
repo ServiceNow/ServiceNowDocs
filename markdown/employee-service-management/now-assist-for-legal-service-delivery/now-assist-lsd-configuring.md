@@ -1,50 +1,50 @@
 ---
-title: Configure Now Assist for Legal Service Delivery \(LSD\)
-description: If you have the admin role, you can configure the Now Assist for Legal Service Delivery \(LSD\) application so that legal users or request fulfillers can use the generative AI skills from Legal Counsel Center, Core UI, and Employee Center.
+title: Configure ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Legal Service Delivery \(LSD\) application so that legal users or request fulfillers can use the generative AI skills from Legal Counsel Center, Core UI, and Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure Now Assist for Legal Service Delivery \(LSD\)
+# Configure ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-If you have the admin role, you can configure the Now Assist for Legal Service Delivery \(LSD\) application so that legal users or request fulfillers can use the generative AI skills from Legal Counsel Center, Core UI, and Employee Center.
+If you have the admin role, you can configure the ServiceNow Otto for Legal Service Delivery \(LSD\) application so that legal users or request fulfillers can use the generative AI skills from Legal Counsel Center, Core UI, and Employee Center.
 
 ## Before you begin
 
-Ensure you have installed Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Version 1.5.1 or a later version.
+Confirm you have installed Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Version 1.5.1 or a later version.
 
 Role required: admin
 
 ## About this task
 
-**Important:** These Now Assist skills are now turned on by default. The skills will be automatically available to appropriate role users for the application. This change simply activates the skills and does not touch the roles that are needed to use them. The new default behavior works as follows:
+**Important:** These AI skills are now turned on by default. The skills will be automatically available to appropriate role users for the application. This change simply activates the skills and does not touch the roles that are needed to use them. The new default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills are turned on automatically.
+    When you install a AI product, designated skills are turned on automatically.
 
 -   **Existing customers who are upgrading \(starting with Zurich Patch 4\)**
 
     Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\).
 
-    There is no change to Now Assist skills that are currently enabled and customized.
+    There is no change to AI skills that are currently enabled and customized.
 
     Previously configured skills that were turned on, then off, remain inactive.
 
 
-The legal request summarization and legal matter summarization skills are available in the base system with the required configurations. To customized the skill, you must create a copy of the skill that is in the base system before you modify the configuration. Activating a customized skill with the same base input table as the original skill automatically deactivates the original skill. For more information, see [Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.md).
+The legal request summarization and legal matter summarization skills are available in the base system with the required configurations. To customize the skill, you must create a copy of the skill that is in the base system before you modify the configuration. Activating a customized skill with the same base input table as the original skill automatically deactivates the original skill. For more information, see [Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 <table id="table_ipf_bbd_wyb"><thead><tr><th>
 
@@ -66,19 +66,19 @@ Legal Request and Matter
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Install the Now Assist for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
+1.  Install the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+2.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub**.
 
-3.  Navigate to **Employee** &gt; **LSD**.
+3.  Select **AI Skills** tab.
 
-4.  On the tile for your skill, select **Activate skill** if it is deactivated.
+4.  Navigate to **Employee** &gt; **LSD**.
 
-    The Now Assist skill is activated.
+5.  On the tile for your skill, select **Activate skill** if it is deactivated.
 
-5.  Define who can access the skilland the data.
+6.  Define who can access the skilland the data.
 
     1.  Select **Edit** from the options icon \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options icon.\) of the active skill.
 

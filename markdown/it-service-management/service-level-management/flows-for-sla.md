@@ -7,7 +7,7 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Reference, Service Level Management, IT Service Management]
@@ -19,7 +19,7 @@ Use the flow actions to send SLA notifications when the duration specified in th
 
 Starting with the Yokohama release, the new base system flows replace the existing workflows for Service Level Management. However, you can continue to create custom workflows or use the existing ones. To migrate your existing workflows to flows, check the new base system flows available in Workflow Studio for guidance. For any new requirements, use flows.
 
-You can create and edit flows using Workflow Studio. The default flow that is available with the Service level management plugin is **Default SLA flow**.
+You can create and edit flows using Workflow Studio. The default flow that is available with the Service Level Management plugin is **Default SLA flow**.
 
 The **Default SLA flow** creates the events that send out notifications. For example, it creates an event to send a notification to the user assigned to a task, such as an incident, when the task SLA reaches 50% of its allotted time.
 
@@ -33,6 +33,10 @@ For more information on SLA notifications, refer [SLA notifications](https://raw
 
 **Related topics**  
 
+
+[Service Level Agreement \(SLA\) processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_SLAProcessing.md)
+
+[Actual and business elapsed times](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/r_ElapsedTimeCounting.md)
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 

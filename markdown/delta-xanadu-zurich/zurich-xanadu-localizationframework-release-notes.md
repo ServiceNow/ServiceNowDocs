@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-localizationframework-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -223,7 +223,7 @@ Xanadu
 
 </td><td>
 
-Localization Framework is a ServiceNow AI Platform feature that is available with activation of the Localization Framework installer \(com.glide.localization\_framework.installer\). For details, see [Activate Localization Framework](https://servicenow-staging.fluidtopics.net/access?context=activate-lf-plugin&family=xanadu&ft:locale=en-US).
+Localization Framework is a ServiceNow AI Platform feature that is available with activation of the Localization Framework installer \(com.glide.localization\_framework.installer\). For details, see [Activate Localization Framework](https://www.servicenow.com/docs/access?context=activate-lf-plugin&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -410,7 +410,7 @@ Xanadu
 
 The Localization Insights dashboard is available in the Next Experience UI.
 
- See [Localization Framework](https://servicenow-staging.fluidtopics.net/access?context=localization-framework-landing&family=xanadu&ft:locale=en-US)for more information.
+ See [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&family=xanadu&ft:locale=en-US)for more information.
 
 </td></tr><tr><td>
 

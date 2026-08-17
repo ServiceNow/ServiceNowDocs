@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforappengine-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Create an AI agent](https://servicenow-staging.fluidtopics.net/access?context=configure-next-best-action-agent&family=yokohama&ft:locale=en-US)**
+-   **[Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&family=yokohama)**
 
 Create a custom AI agent in AI Agent Studio to assist your application users with their tasks.
 
--   **[Create a skill](https://servicenow-staging.fluidtopics.net/access?context=create-new-skill&family=yokohama&ft:locale=en-US)**
+-   **[Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&family=yokohama)**
 
 Create a custom skill for Now Assist, enabling you to have greater flexibility with the generative AI capabilities available on the ServiceNow AI Platform.
 
@@ -82,20 +82,20 @@ Zurich
 
 </td><td>
 
--   **[Record summarization skill](https://servicenow-staging.fluidtopics.net/access?context=custom-app-record-summarization-na-for-app-engine&family=zurich&ft:locale=en-US)**
+-   **[Record summarization skill](https://www.servicenow.com/docs/access?context=custom-app-record-summarization-na-for-app-engine&family=zurich)**
 
 Generate summaries for records in custom applications and tables with the custom app record summarization skill.
 
--   **[Configure the custom app record summarization skill](https://servicenow-staging.fluidtopics.net/access?context=configure-custom-app-record-summarization-na-for-app-engine&family=zurich&ft:locale=en-US)**
+-   **[Configure the custom app record summarization skill](https://www.servicenow.com/docs/access?context=configure-custom-app-record-summarization-na-for-app-engine&family=zurich)**
 
 Configure the custom app record summarization skill so that it generates summaries for the tables and records that you specify. You can add context about the table or tables and describe the purpose of the table, so that Now Assist can use that information when generating summaries.
 
--   **[Summarize a record in-product](https://servicenow-staging.fluidtopics.net/access?context=summarize-record-in-product-na-for-app-engine&family=zurich&ft:locale=en-US)**
+-   **[Summarize a record in-product](https://www.servicenow.com/docs/access?context=summarize-record-in-product-na-for-app-engine&family=zurich)**
 
-Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See [Summarize a record through chat](https://servicenow-staging.fluidtopics.net/access?context=summarize-record-through-chat-na-for-app-engine&family=zurich&ft:locale=en-US) for more information.
+Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See [Summarize a record through chat](https://www.servicenow.com/docs/access?context=summarize-record-through-chat-na-for-app-engine&family=zurich) for more information.
 
 
--   **[New third-party AI model provider options available for Now Assist](https://servicenow-staging.fluidtopics.net/access?context=manage-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=zurich)**
 
 Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
@@ -119,11 +119,11 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -137,7 +137,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -227,7 +227,7 @@ Zurich
 
 </td><td>
 
-Install Now Assist for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Now Assist for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -364,19 +364,19 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
- [Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama)
 
 -   Create and deploy AI agents within custom applications, helping to empower creators and accelerate time-to-value.
 -   Build custom AI agents and skills for the unique workflow of an application using Now Assist Skill Kit and AI Agent Studio.
 -   Leverage AI agents and skills created with Now Assist for App Engine in custom applications at runtime, helping improve efficiency.
 
- See [Now Assist for App Engine](https://servicenow-staging.fluidtopics.net/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -384,19 +384,19 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Generate summaries for records in custom applications using the generative AI capabilities of Now Assist.
 
- [Zurich release notesPreliminary release notes for Zurich Release Testing Preview \(RTP\)](https://servicenow-staging.fluidtopics.net/access?context=family-release-notes&family=zurich&ft:locale=en-US)
+ [Zurich release notesPreliminary release notes for Zurich Release Testing Preview \(RTP\)](https://www.servicenow.com/docs/access?context=family-release-notes&family=zurich)
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
- See [Now Assist for App Engine](https://servicenow-staging.fluidtopics.net/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

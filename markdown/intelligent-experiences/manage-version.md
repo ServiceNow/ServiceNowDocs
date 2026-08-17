@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-10-24"
 reading_time_minutes: 2
-breadcrumb: [Manage AI models, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Manage version
@@ -22,7 +22,7 @@ See [Default and target model version](https://raw.githubusercontent.com/Service
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **AI Admin Hub**.
 
 2.  Navigate to **Settings** &gt; **Manage AI models**.
 
@@ -38,9 +38,9 @@ See [Default and target model version](https://raw.githubusercontent.com/Service
 
 6.  View or update the model version instantly under the **Overview** tab.
 
-7.  You can edit the model provider version for out-of-box or custom skills for the instance or customize it to update it at the skill or skill group level, under the respective tabs.
+7.  Edit the model provider version for out-of-box or custom skills for the instance.
 
-    Customizing the model version for skills replaces the instance-level model version currently assigned to each provider. This action is typically reserved for specific situations.
+    Customize it to update it at the skill or skill group level, under the respective tabs. Customizing the model version for skills replaces the instance-level model version currently assigned to each provider. This action is typically reserved for specific situations.
 
 8.  Select **Instance level configuration** to manage the model provider version for the skill across the instance.
 
@@ -52,19 +52,19 @@ See [Default and target model version](https://raw.githubusercontent.com/Service
 
     3.  Select **Save and activate** to update your changes.
 
-    4.  Select **Update model version** to override ServiceNow shipped mappings or create a new default and target model versions mapping.
+    4.  Select **Update model version** to override ServiceNow shipped mappings or create a default and target model versions mapping.
 
 9.  Select **Skills** to manage the model provider version at the skill level.
 
     \[Omitted image "na-admin-manage-versions-skill-level.png"\] Alt text: Manage version at skill level
 
-    1.  Search or select the skills you wish to refresh the model version for, and the applicable model provider.
+    1.  Search or select the skills you want to refresh the model version for, and the applicable model provider.
 
     2.  Select the default and the target model provider version.
 
     3.  Select **Save and activate** to update your changes.
 
-    4.  Select **Update model version for skills** to override ServiceNow shipped mappings or create a new default and target model versions mapping, at the skill level.
+    4.  Select **Update model version for skills** to override ServiceNow shipped mappings or create a default and target model versions mapping, at the skill level.
 
 
 **Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/manage-large-language-models.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-systemupdatesets-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -96,7 +96,7 @@ Yokohama
 
 </td><td>
 
--   **[Application installations](https://servicenow-staging.fluidtopics.net/access?context=&family=yokohama&ft:locale=en-US)**
+-   **[Application installations](https://www.servicenow.com/docs/access?context=&family=yokohama&ft:locale=en-US)**
 
 You can add specific applications or versions as an app installation and configure to track them in an update set.
 
@@ -334,7 +334,7 @@ Yokohama
 -   Add specific apps/versions as an app installation instruction in an update set.
 -   Actions and subflows are available for update set operations, such as create, complete, retrieve, preview, and commit.
 
- See [System update sets](https://servicenow-staging.fluidtopics.net/access?context=system-update-sets&family=yokohama&ft:locale=en-US) for more information.
+ See [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-07-21"
 reading_time_minutes: 5
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,8 +28,8 @@ Any item that is provided as a service or sold to your customer is tracked as an
 
     When the **csdm.lifecycle.migration.activated** system property is set to true on your instance, synchronization between the asset and CI tables depends on the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property setting:
 
-    -   When the property is set to false \(default\), synchronization occurs through the legacy **status** and **substatus** values.
-    -   When the property is set to true, the system syncs the CSDM **life cycle stage** and **life cycle stage status** values directly. This option provides significant benefits to your organization.
+    -   When the **csdm.lifecycle.sync.between.ci.and.asset.activated** property is set to false \(default\), synchronization occurs through the legacy **status** and **substatus** values.
+    -   When the **csdm.lifecycle.sync.between.ci.and.asset.activated** property is set to true, the system syncs the CSDM **life cycle stage** and **life cycle stage status** values directly. This option provides significant benefits to your organization.
 
         **Important:** The property is set to true when you select **Enable life cycle sync** on the Life cycle mappings list view.
 
@@ -38,7 +38,7 @@ Any item that is provided as a service or sold to your customer is tracked as an
 
 \[Omitted image "csdm-lifecycle-sync-default.png"\] Alt text: Sync when the system property is false.
 
-When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to false:
+When the **csdm.lifecycle.migration.activated** system property is set to true and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to false:
 
 -   **Sync of updates from asset to IBI and CI**
 
@@ -61,7 +61,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
 \[Omitted image "csdm-lifecycle-sync-activated.png"\] Alt text: Sync when the system property is true or you select Enable life cycle sync on the Life cycle mappings list view.
 
-When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to true \(or you select the select **Enable life cycle sync** on the Life cycle mapping table list page, as described in [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)\):
+When the **csdm.lifecycle.migration.activated** system property is set to true and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to true \(or you select the select **Enable life cycle sync** on the Life cycle mapping table list page, as described in [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)\):
 
 -   **Sync of updates from asset to CI and IBI**
 

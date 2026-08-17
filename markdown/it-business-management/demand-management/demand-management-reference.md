@@ -17,11 +17,13 @@ breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfoli
 Reference information to provide additional details about Demand Management such as the fields, user roles, tables, guidelines, and domain separation information.
 
 -   **[Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-task.md)**  
-A demand task is a unit of work, created within a demand, to break down initial planning activities before converting the demand into a project, change, enhancement, or defect.
+A demand task is a unit of work created within a demand. Use demand tasks to break down planning activities before converting the demand into a project, change, enhancement, or defect.
 -   **[Actual cost and effort calculation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/actual-cost-effort-calculation-demand.md)**  
 The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
 -   **[Demand Management key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/r_DemandManagementKeyTerms.md)**  
 Important terms in Demand Management are listed in the table.
+-   **[Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/inputs-for-ai-skills-ppm.md)**  
+Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 -   **[Stage fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/r_StageFields.md)**  
 The Stage field on the Ideas list displays the current state of an idea as it moves through the demand life cycle. The current state includes from an idea to a demand and then to the resulting project, enhancement, change, or defect.
 -   **[Composite Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/composite-fields.md)**  

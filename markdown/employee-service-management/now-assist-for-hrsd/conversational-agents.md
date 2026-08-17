@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # HCM AI agents
@@ -18,7 +18,7 @@ Place requests to the Human Capital Management \(HCM\) system using the HR Servi
 
 ## HCM AI agents Overview
 
-You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HRSD AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md).
+You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HR Service Delivery AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md).
 
 ## Worker profile retriever AI agent
 

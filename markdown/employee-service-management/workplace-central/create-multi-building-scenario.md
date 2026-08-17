@@ -45,15 +45,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 3.  Create a scenario by selecting **Create a scenario** from either of the following options.
 
-<table id="choicetable_fwz_mgg_3vb"><thead><tr><th align="left" id="d571422e157">
+<table id="choicetable_fwz_mgg_3vb"><thead><tr><th align="left" id="d571614e157">
 
 Path
 
-</th><th align="left" id="d571422e160">
+</th><th align="left" id="d571614e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d571422e166">
+</th></tr></thead><tbody><tr><td id="d571614e166">
 
 **From the Space Optimization tab**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Create scenario**.
 
-</td></tr><tr><td id="d571422e178">
+</td></tr><tr><td id="d571614e178">
 
 **From a scenarios list section**
 
@@ -69,7 +69,7 @@ Select **Create scenario**.
 
 Select **Create scenario**.
 
-</td></tr><tr><td id="d571422e190">
+</td></tr><tr><td id="d571614e190">
 
 **From the Buildings section**
 

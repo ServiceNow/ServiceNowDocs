@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # View Log Analytics anomaly alert charts in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d381805e113">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d382124e113">
 
 Option
 
-</th><th align="left" id="d381805e116">
+</th><th align="left" id="d382124e116">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381805e122">
+</th></tr></thead><tbody><tr><td id="d382124e122">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d381805e148">
+</td></tr><tr><td id="d382124e148">
 
 **View the chart in the alert record**
 

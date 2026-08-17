@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [semantic layer, tuning, AI Data Explorer, query generation]
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Tuning the semantic layer

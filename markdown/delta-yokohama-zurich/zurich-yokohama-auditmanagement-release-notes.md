@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-auditmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Matrix report in the Audit Workspace](https://servicenow-staging.fluidtopics.net/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
+-   **[Matrix report in the Audit Workspace](https://www.servicenow.com/docs/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
 
 Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
 
--   **[Entity Based Access for Audit Management](https://servicenow-staging.fluidtopics.net/access?context=c_Engagements&family=yokohama&ft:locale=en-US)**
+-   **[Entity Based Access for Audit Management](https://www.servicenow.com/docs/access?context=c_Engagements&family=yokohama&ft:locale=en-US)**
 
 Entity-based access enables you to create configurations for entities, entity classes, and entity types. When a user is qualified based on these configurations and has the minimum required roles, they can access to the following tables:
 
@@ -91,15 +91,15 @@ Zurich
 
 </td><td>
 
--   **Audit Period Start and End Dates [\[Placeholder link text to key t\_CreateEngagement\]](https://servicenow-staging.fluidtopics.net/access?context=t_CreateEngagement&family=zurich&ft:locale=en-US)**
+-   **Audit Period Start and End Dates [\[Placeholder link text to key t\_CreateEngagement\]](https://www.servicenow.com/docs/access?context=t_CreateEngagement&family=zurich&ft:locale=en-US)**
 
 Set audit period start and end dates directly on Engagement records to focus audits on specific time-frames. The system displays only indicator results that fall within your defined audit period, keeping the audit time-frame separate from the overall engagement time-frame. This helps you audit past or future periods without affecting the broader engagement timeline.
 
--   **[\[Placeholder link text to key unified-content-management\_0\]](https://servicenow-staging.fluidtopics.net/access?context=unified-content-management_0&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key unified-content-management\_0\]](https://www.servicenow.com/docs/access?context=unified-content-management_0&family=zurich&ft:locale=en-US)**
 
 Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
 
--   **[Enhancement to evidence request](https://servicenow-staging.fluidtopics.net/access?context=evidence-request&family=zurich&ft:locale=en-US)**
+-   **[Enhancement to evidence request](https://www.servicenow.com/docs/access?context=evidence-request&family=zurich&ft:locale=en-US)**
 
 Create evidence response directly in one step. This bypasses the step involved in creation of evidence request and collection details. Evidence response is enhanced with additional data of source and context. To leverage evidence capabilities, feature roles have been introduced:
 
@@ -107,7 +107,7 @@ Create evidence response directly in one step. This bypasses the step involved i
     -   sn\_grc\_advanced.evidence\_requester
     -   sn\_grc\_advanced.evidence\_responder
     -   sn\_grc\_advanced.evidence\_admin
--   **[Integration with ITAM](https://servicenow-staging.fluidtopics.net/access?context=solutions-gallery&family=zurich&ft:locale=en-US)**
+-   **[Integration with ITAM](https://www.servicenow.com/docs/access?context=solutions-gallery&family=zurich&ft:locale=en-US)**
 
 Leverage Audit Management support as an ITAM customer through dedicated feature roles. A lightweight version of the Audit Management workspace is available, which includes the following features:
 
@@ -133,7 +133,7 @@ Yokohama
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=yokohama&ft:locale=en-US)**
+-   **[Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US)**
 
 The Audit Management configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -223,7 +223,7 @@ Yokohama
 
 </td><td>
 
-Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -316,7 +316,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 -   **Reflow**
 
-The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=yokohama&ft:locale=en-US).
+The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -381,7 +381,7 @@ Yokohama
 -   Share a single cloud file with multiple records by linking it to any GRC record.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
- See [Audit Management](https://servicenow-staging.fluidtopics.net/access?context=c_GRCAudits&family=yokohama&ft:locale=en-US) for more information.
+ See [Audit Management](https://www.servicenow.com/docs/access?context=c_GRCAudits&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -394,7 +394,7 @@ Zurich
 -   Create evidence responses quickly with a simplified process.
 -   Access engagements, add existing entities to an engagement, and create activities in the Lite Audit workspace, which is a simplified version of the Audit Management workspace. If the advance core store app is installed, evidences can also be associated with the engagement.
 
- See [Audit Management](https://servicenow-staging.fluidtopics.net/access?context=c_GRCAudits&family=zurich&ft:locale=en-US) for more information.
+ See [Audit Management](https://www.servicenow.com/docs/access?context=c_GRCAudits&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

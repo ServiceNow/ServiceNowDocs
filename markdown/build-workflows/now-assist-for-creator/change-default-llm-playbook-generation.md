@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Playbook generation, Now Assist for Creator, Build workflows]
+breadcrumb: [Configure, Playbook generation, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Change the default LLM for playbook generation

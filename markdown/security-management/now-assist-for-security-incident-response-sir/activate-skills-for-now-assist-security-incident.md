@@ -1,5 +1,5 @@
 ---
-title: Configure a skill for Now Assist for Security Incident Response
+title: Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
 description: Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist Security Operations, skill configuration]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Configure a skill for Now Assist for Security Incident Response
+# Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
 
 Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
 
@@ -25,21 +25,17 @@ Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select **Technology** &gt; **Security Operations**.
 
-    The Now Assist skills for Security Operations page displays the available skills.
-
-    Deactivate a skill to configure it using the Guided Setup.
-
 3.  Select **Edit** for the skill you want to configure, and follow the Guided Setup.
 
-    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
+    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 4.  Select **Review and Activate** to review your inputs and activate the skill.
 

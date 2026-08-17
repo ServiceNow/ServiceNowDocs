@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-development-team-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
 breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
 ---

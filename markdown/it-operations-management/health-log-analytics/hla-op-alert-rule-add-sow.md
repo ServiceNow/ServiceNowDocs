@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Health Log Analytics, log analytics alert rule, custom alert rules, define alert rule, Log viewer, search queries, alert thresholds, hit count, time period, persistence, alert conditions, log data, automatic alerts, metric alerts, alert properties, query filters, component selection, mathematical operators, time units, alert configuration]
-breadcrumb: [Use custom alert rules, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use custom alert rules, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Define a custom Log Analytics alert rule in Health Log Analytics
@@ -31,7 +31,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log Viewer**.
 2.  Define and run a search.
 
-    For more information, see [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
+    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
 
 3.  When a search returns log data that should generate an alert, select **Save** or **Save as** to save the search.
 

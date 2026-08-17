@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Explore AI model providers
@@ -92,7 +92,7 @@ Let's review the Impact Summary table data for the following two scenarios.
     -   AI systems supported by allowed providers- Shows AI systems with skill sets that are supported by the providers.
     -   AI systems require deactivation- Lists all active AI systems that lack provider support and must be deactivated because the fallback option isn’t enabled.
     -   AI systems can’t be activated- Shows all those systems, which are currently inactive and aren’t supported by any provider.
-    \[Omitted image "ai-activate-no.png"\] Alt text: \[Omitted image ""\] Alt text: Fallback activation screen.
+    \[Omitted image "ai-activate-no.png"\] Alt text: Fallback activation screen
 
 -   **Activate fallback- Yes**
     -   Total AI systems- Shows all AI systems that are supported by the allowed model providers.

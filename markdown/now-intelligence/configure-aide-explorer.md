@@ -1,0 +1,34 @@
+---
+title: Configure AI Data Explorer
+description: Activate the AI Data Explorer skills. If necessary, you can disable AI Data Explorer on specific workspaces.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-aide-explorer.html
+release: zurich
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [configure]
+breadcrumb: [AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
+---
+
+# Configure AI Data Explorer
+
+Activate the AI Data Explorer skills. If necessary, you can disable AI Data Explorer on specific workspaces.
+
+-   **[AI Data Explorer implementation checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ai-data-explorer-implementation-checklist.md)**  
+Complete these steps to enable AI Data Explorer and verify that the semantic layer is configured correctly for your organization.
+-   **[Install AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/install-aide.md)**  
+Verify that AI Data Explorer is installed, and install it if it is not.
+-   **[Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-aide-explorer.md)**  
+Enable AI Data Explorer skills under AI skills for Data and Analytics to give users AI-assisted, shared spaces to explore data.
+-   **[Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/record-level-analysis.md)**  
+Get more detailed answers based on the content of individual records to provide more meaningful insights.
+-   **[Deactivate indicator support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/aide-deactivate-indicator-support.md)**  
+AI Data Explorer supports indicators as data sources by default. If you do not want the application to use indicator data on your instance, you can turn this support off.
+-   **[Remove data visualization links to AI Data Explorer in a specific workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+If you don't want data visualizations in a specific workspace to have an entry point for AI Data Explorer, add the workspace to the PAAI Canvas Workspace Configs table.
+-   **[Common AI Data Explorer issues and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ai-data-explorer-troubleshooting.md)**  
+Use Query Generation logs to inspect failed or incorrect queries and identify common issues with AI Data Explorer responses.
+
+**Parent Topic:**[Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ai-data-explorer.md)
+

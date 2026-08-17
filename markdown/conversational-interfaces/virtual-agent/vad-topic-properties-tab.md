@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Properties tab
@@ -22,7 +22,7 @@ Two methods are available in Assistant Designer: large language model \(LLM\) or
 
 For example, if you enable NLU/Keyword in Virtual Agent settings, the topic **Properties** tab includes fields for identifying the NLU model and intent for the topic.
 
-For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+For more information, see [Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 ## Topic Properties tab with LLM topic discovery
 
@@ -145,5 +145,5 @@ Confirm modified values with users
 Toggle to allow Virtual Agent to send confirmation messages to users when a value change is detected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

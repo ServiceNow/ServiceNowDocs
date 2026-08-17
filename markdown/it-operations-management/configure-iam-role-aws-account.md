@@ -80,15 +80,15 @@ During this configuration, you create an IAM role for the trusting account, and 
 
 4.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d634611e378">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d635758e378">
 
 Trusted account type
 
-</th><th align="left" id="d634611e381">
+</th><th align="left" id="d635758e381">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d634611e387">
+</th></tr></thead><tbody><tr><td id="d635758e387">
 
 **Management account**
 
@@ -133,7 +133,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d634611e504">
+</td></tr><tr><td id="d635758e504">
 
 **Member or discrete account**
 

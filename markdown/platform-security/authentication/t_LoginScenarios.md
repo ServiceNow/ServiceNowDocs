@@ -7,8 +7,8 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Local authentication, Access Management]
 ---
 
@@ -21,12 +21,6 @@ You can direct all users to the same page after login.
 Role required: admin
 
 ## About this task
-
-When users log on to an instance directly, such as going to http://\{instance\_name\}.service-now.com/, the system does the following:
-
-1.  Accesses the value in the property **glide.entry.page.script**. The default value of the property is derived from a script include named CMSEntryPage.
-2.  Directs the user to the instance login page if the entry page requires a login.
-3.  Applies login rules, if any, to the user.
 
 To force the system to direct all users to the same page after login:
 

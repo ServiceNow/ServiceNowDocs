@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ As a contract fulfiller, reclassify the supporting documents submitted in the co
 
 ## Before you begin
 
-Ensure that the contract request type is Multiple contracts.
+Verify that the contract request type is Multiple contracts.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 

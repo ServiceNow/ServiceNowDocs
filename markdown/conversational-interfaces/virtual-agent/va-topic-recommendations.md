@@ -22,7 +22,7 @@ The Topic Recommendations app lets you evaluate the common use cases that Virtua
 2.  Analyze your existing data \(run the analysis you configured\).
 3.  Review the analysis results and use pre-built solutions:
     -   Duplicate a pre-built topic suggestion, such as a topic from ITSM Virtual Agent Conversations \(available from the ServiceNow Store\).
-    -   \[NLU only\] Add an intent to your model and a new empty topic. You must provide the flow for the new topic in Virtual Agent Designer.
+    -   \[NLU only\] Add an intent to your model and a new empty topic. You must provide the flow for the new topic in Assistant Designer Asset library.
 
 The Topic Recommendations app requires NLU Workbench and ITSM Virtual Agent Conversations from the ServiceNow Store. The Zurich release of Topic Recommendations supports only ITSM Virtual Agent recommendations. Although Topic Recommendations uses NLU Workbench for machine learning purposes, it does not require that NLU be enabled in Virtual Agent.
 
@@ -41,16 +41,16 @@ For information about the apps that are automatically installed with Topic Recom
 
         -   **NLU Workbench \(NLU topic discovery only\)**
 
-            Activates the plugins needed to run Natural Language Understanding in your instance. For more information, see Activate the NLU Workbench.
+            Activates the plugins needed to run Natural Language Understanding in your instance. For more information, see [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-nlu-workbench.md).
 
     -   **Required ServiceNow Store applications**
         -   **Intent Discovery \(NLU discovery only\)**
 
-            Identifies user intents from analyzing incident/case data. To learn more, see Intent Discovery.
+            Identifies user intents from analyzing incident/case data. To learn more, see [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/intent-discovery.md).
 
         -   **ITSM Virtual Agent Conversations**
 
-            Provides pre-built IT service management conversations to help your organization quickly deploy automated self-service conversations. For more information, see ITSM Virtual Agent.
+            Provides pre-built IT service management conversations to help your organization quickly deploy automated self-service conversations. For more information, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent.md).
 
 
 ## Items installed with Topic Recommendations
@@ -88,7 +88,7 @@ Topics generated for recommended topics
 </table>
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## What to do
 

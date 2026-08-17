@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-04-21"
 reading_time_minutes: 3
-breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configuring assistants overview
@@ -28,11 +28,11 @@ An admin can create and configure more than one chat or voice assistant within [
 
 For chat assistants, a primary assistant can be linked to one or more secondary assistants. The linkage enables a primary assistant to use search sources from secondary assistants, enhancing its functionality and efficiency. For more information on primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md). If multiple assistants are created, users can chat simultaneously with multiple assistants. Conversations are independent from each other.
 
-Each assistant can have more than one display experience, using either the standard chat or enhanced chat experience, depending on the display experience that's configured. Enhanced chat offers a conversational search experience that seamlessly integrates Virtual Agent chat with search results. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) or [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For a comparison of the two, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+Each assistant can have more than one display experience, using either the standard chat or enhanced chat experience, depending on the display experience that's configured. Enhanced chat offers a conversational search experience that seamlessly integrates Virtual Agent chat with search results. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) or [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For a comparison of the two, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 **Note:** Opt into premium chat if your instance meets certain criteria. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
 
-When configuring a chat assistant, notes throughout the procedures show where there are differences between the setup for Now Assist in Virtual Agent assistants and the setup for Now Assist panel assistants. You can't create additional Now Assist panel assistants.
+When configuring a chat assistant, notes throughout the procedures show where there are differences between the setup for ServiceNow Otto for Virtual Agent assistants and the setup for ServiceNow Otto panel assistants. You can't create additional ServiceNow Otto panel assistants.
 
 For voice assistants, a voice assistant can be mapped to one or more AI agents. The linkage enables a voice assistant to leverage agentic capabilities to resolve user queries over phone.
 
@@ -60,11 +60,11 @@ Select **Manage assistants**.\[Omitted image "NAinVA-assistants-home-122025.png"
 
 </td></tr><tr><td>
 
-**All** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Platform**
+**All** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Platform**
 
 </td><td>
 
-Select the **Set up Now Assist in Virtual Agent** link. \[Omitted image "NAinVA-na-admin-platform-May.png"\] Alt text: Now Assist skills for Platform.
+Select the **Set up ServiceNow Otto for Virtual Agent** link. \[Omitted image "sno-ai-admin-hub-skills-0826.png"\] Alt text: ServiceNow Otto skills for Platform.
 
 </td></tr></tbody>
 </table>2.  To view and create chat or voice assistants, see [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).

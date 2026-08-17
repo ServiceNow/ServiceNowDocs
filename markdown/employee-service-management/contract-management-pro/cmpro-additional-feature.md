@@ -22,16 +22,16 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 Configure the duration for which a signature workflow is paused when signatories are modified for an ongoing signature workflow.
 -   **[Auto-populate the start date and end date for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-start-end-date-for-cntrcts.md)**  
 Configure an extension point implementation to automatically add the start date and end date while creating a contract request.
--   **[Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)**  
-As a contract configurator, activate a system property to generate a certificate of completion for electronically signed contracts.
 -   **[Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md)**  
 Activate a system property to display the **Role** field when configuring internal signatory rules and when adding signatories to a contract request.
+-   **[Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)**  
+As a contract configurator, activate a system property to generate a certificate of completion for electronically signed contracts.
 -   **[Enable users to view email details in activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enbl-user-email-astream.md)**  
 As a contract configurator, specify the user roles to enable users to view email details in the activity stream of contract requests.
 -   **[Enable keyword search for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.md)**  
 Enable keyword search in contract templates.
 -   **[Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md)**  
-Configure the smart documents skill in Now Assist in Document Management to generate a contract summary in Contract Management Pro.
+Configure the smart documents skill in Document Management to generate a contract summary in Contract Management Pro.
 -   **[Configure conditions to send reminder notifications for expiring contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-rem-exp-cont.md)**  
 Configure contract repository rules to determine the expiration conditions under which reminder notifications for expiring contracts are sent.
 -   **[Copy fields from parent request to amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.md)**  

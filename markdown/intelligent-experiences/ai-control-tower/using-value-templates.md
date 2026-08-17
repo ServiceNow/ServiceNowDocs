@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Using value templates
@@ -79,5 +79,5 @@ Assign a template as default to an AI system.
 -   **[Review a value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/review-value-template-mapping.md)**  
 Review and approve value template mapping for an AI asset.
 
-**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

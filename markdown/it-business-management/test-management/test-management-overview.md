@@ -115,7 +115,7 @@ You can create a test plan describing how a product or a feature is to be tested
 
 </td><td>
 
--   You can create a test plan describing how a product or a feature is to be tested and the time frame in which the test plan must be run.
+-   You can create a test plan describing how a product or a feature is to be tested. The test plan also defines the time frame in which it must be run.
 -   You can further decompose a test plan into test cycles, test cycles into test execution sets, and specify a time range for their execution.
 
 </td></tr><tr><td>

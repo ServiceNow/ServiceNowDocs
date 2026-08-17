@@ -20,7 +20,7 @@ Use the **Calculated** metric data source to determine the health score of an en
 
 ## About this task
 
-If you’re upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `sn_acct_lc.MigrateHealthDataUtil().markHealthTablesDeprecated()` script to migrate data from the Engagement Health Definition and Health Metric Configuration tables to the **Calculated** metric data source. For more details, see [KB2668490](https://support.servicenow.com/kb?sys_kb_id=39f4e5cb47a9f250b6d8aa25126d43a0&id=kb_article_view).
+If you’re upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `sn_acct_lc.MigrateHealthDataUtil().markHealthTablesDeprecated()` script. This script migrates data from the Engagement Health Definition and Health Metric Configuration tables to the **Calculated** metric data source. For more details, see [KB2668490](https://support.servicenow.com/kb?sys_kb_id=39f4e5cb47a9f250b6d8aa25126d43a0&id=kb_article_view).
 
 ## Procedure
 

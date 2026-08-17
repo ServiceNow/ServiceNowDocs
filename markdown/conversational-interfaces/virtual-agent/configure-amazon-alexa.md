@@ -27,7 +27,7 @@ Set up the Conversational Integration with Alexa application so that you can eng
 -   **[Account linking with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/account-linking-alexa.md)**  
 Link your Alexa account with your ServiceNow instance to retrieve information from your custom skill.
 -   **[Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md)**  
-Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
+Fine-tune your Virtual Agent settings and topics provided by the Assistant Designer Asset library for the best voice chat experience with Alexa.
 -   **[Closing idle Alexa chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/close-idle-alexa-conv.md)**  
 Enable virtual agents to effectively manage their active Alexa chat conversations by automatically closing the conversations after they have been inactive for a preconfigured amount of time.
 

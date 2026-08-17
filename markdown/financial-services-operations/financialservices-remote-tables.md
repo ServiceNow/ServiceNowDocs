@@ -57,11 +57,9 @@ Several types of components are installed with the installation of the Financial
 **Related topics**  
 
 
-[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-remote-table-script.md)
+[bundle-platcap.create-remote-table-script]
 
 [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-new-form-action.md)
-
-[bundle-platux.create-a-new-uxf-client-action-for-forms]
 
 [FSO Look Up Client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-look-up-client-action.md)
 

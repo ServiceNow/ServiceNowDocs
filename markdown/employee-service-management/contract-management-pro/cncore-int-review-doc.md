@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Internal review overview, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d76694e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d76337e55">
 
 Method
 
-</th><th align="left" id="d76694e58">
+</th><th align="left" id="d76337e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76694e64">
+</th></tr></thead><tbody><tr><td id="d76337e64">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d76694e114">
+</td></tr><tr><td id="d76337e114">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d76694e147">
+</td></tr><tr><td id="d76337e147">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d76694e168">
+</td></tr><tr><td id="d76337e168">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d76694e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d76337e294">
 
 Type of storage
 
-</th><th align="left" id="d76694e297">
+</th><th align="left" id="d76337e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76694e303">
+</th></tr></thead><tbody><tr><td id="d76337e303">
 
 **Internal storage**
 
@@ -128,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d76694e347">
+</td></tr><tr><td id="d76337e347">
 
 **External storage**
 
@@ -147,6 +147,10 @@ The attach file option is not available as the contract document is directly edi
 </td></tr></tbody>
 </table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete. The attached document will be available in Reviewed document field of the Details tab of the review task.
 
+
+## What to do next
+
+After the completing the review task, the fulfiller will have to create a revision of the finalzed contract document.
 
 **Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

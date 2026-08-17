@@ -148,7 +148,7 @@ The value that is inserted as the score when no value is collected. This value i
 
     2.  In the **Number of entries to establish seasonality** field, enter the number of time periods, as defined in the business calendar or schedule entries, that are necessary to find seasonal patterns.
 
-        For more information about business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/business-calendars.md).
+        For more information about business calendar entries, see Creating business calendars.
 
     3.  Set the number of time periods, as defined in the business calendar or schedule entries, to retain scores and snapshots.
 
@@ -376,7 +376,7 @@ You can override the settings in a PA Business Calendar Retention Periods record
 
 When you select an entry in the **Calendar** field other than the standard calendar, you actually select a business or fiscal calendar group. Both business and fiscal calendar groups are listed under **Business calendar** &gt; **Business Calendar Groups**. Each business or fiscal calendar group contains a set of business calendars, which you select under **Calendar frequency**. Each business calendar in turn contains a set of either business calendar or schedule entries, for business and fiscal calendars, respectively.
 
-The process for generating a fiscal calendar automatically creates a fiscal calendar group. For business calendars, the creator of the business calendar must also create the business calendar group, manually. If you have any questions, contact the admin responsible for creating business calendars. For more information, see [Create a Business Calendar Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-business-calendar-group.md).
+The process for generating a fiscal calendar automatically creates a fiscal calendar group. For business calendars, the creator of the business calendar must also create the business calendar group, manually. If you have any questions, contact the admin responsible for creating business calendars. For more information, see Create a Business Calendar Group.
 
 ### Automated indicators in formulas
 

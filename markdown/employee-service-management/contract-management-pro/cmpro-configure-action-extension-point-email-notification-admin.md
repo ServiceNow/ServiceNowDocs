@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage notifications in Contract Management Pro, Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -21,7 +21,9 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 Role required: Admin
 
 -   Review the configuration of the script include, scripted extension points, and widgets.
--   For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
+
+    For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
+
 -   Ensure that you've set the application scope to this application.
 
 ## About this task

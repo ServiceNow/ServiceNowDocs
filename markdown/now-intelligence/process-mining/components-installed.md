@@ -518,5 +518,27 @@ Default: The default roles added to the property are:
 -   sn\_hr\_core.admin
 -   sn\_hr\_onboarding.admin
 
+</td></tr><tr><td>
+
+sn\_po\_extdata.cancel\_job\_after\_seconds
+
+</td><td>
+
+Specifies the number of seconds the external data import runs before getting cancelled automatically. Type: integer
+
+Default: 86400
+
+</td></tr><tr><td>
+
+sn\_promin\_sf.salesforce\_data\_chunk\_size
+
+</td><td>
+
+This is applicable only for Process Mining for SalesforceSpecifies the number of records that are processed in a single batch during an import.
+
+Type: integer
+
+Default: 200
+
 </td></tr></tbody>
 </table>

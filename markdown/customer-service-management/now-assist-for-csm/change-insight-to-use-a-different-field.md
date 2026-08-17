@@ -1,5 +1,5 @@
 ---
-title: Change an insight to use a different field for trending topics
+title: Change insight to use a different field for trending topics
 description: Change the field used in a trending topics insight to display data from a different field, such as changing from Assignment Group to Consumer or Product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-12-01"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Change an insight to use a different field for trending topics
+# Change insight to use a different field for trending topics
 
 Change the field used in a trending topics insight to display data from a different field, such as changing from Assignment Group to Consumer or Product.
 
@@ -25,7 +25,7 @@ Role required: admin or maint
 
 For trending topics insights, it is simple to change the field being analyzed. This procedure allows you to duplicate an existing insight and modify it to use a different field while preserving optimization and formatting.
 
-The different UI Builder Component names for Trending topics dashboard are OOB Trending Topics Dashboard, Top Trends, Trending topics by Field Insight \(accounts, products, assignment group, channels\), OOB Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, Topic Affected Regions Visualization.
+The Trending topics dashboard uses different UI Builder Component names. These include default Trending Topics Dashboard, Top Trends, and Trending topics by Field Insight \(accounts, products, assignment group, channels\). Additional components include default Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, and Topic Affected Regions Visualization.
 
 ## Procedure
 
@@ -53,5 +53,5 @@ The different UI Builder Component names for Trending topics dashboard are OOB T
 
 [Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 

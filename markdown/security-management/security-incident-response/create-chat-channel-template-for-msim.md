@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft Teams, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -90,6 +90,10 @@ Major Security Incident \(sn\_msi\_incident\).
     **Note:** The new channel that you had created here will be your channel name in Microsoft Teams as well. You can search for the same channel and add your conversations.
 
 8.  Add the **Channel Users** and **Channel User Groups** from the lookup list.
+
+    Default channels may include: Executive, Technical, Legal.
+
+    **Important:** All users and groups added to a channel template must have a valid Microsoft Account.
 
 9.  **Submit** the new chat channel configuration record.
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [View alert information, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Place an alert into maintenance
@@ -30,7 +30,7 @@ Placing the alert in maintenance does not place the CI into maintenance. The **S
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_d3p_bch_1v"><tbody><tr><td id="d272491e87">
+<table id="choicetable_d3p_bch_1v"><tbody><tr><td id="d272226e87">
 
 **To put multiple alerts into maintenance**
 
@@ -38,7 +38,7 @@ Placing the alert in maintenance does not place the CI into maintenance. The **S
 
 Select the check boxes next to each alert, and then click the **Maintenance** UI action at the top of the list.
 
-</td></tr><tr><td id="d272491e99">
+</td></tr><tr><td id="d272226e99">
 
 **To put one alert into maintenance**
 

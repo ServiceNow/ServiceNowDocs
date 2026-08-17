@@ -20,7 +20,7 @@ If there are multiple communication tasks associated with a communication plan, 
 
 \[Omitted image "communication-task-filter.png"\] Alt text: communication task filter
 
-You can filter the communication task to view all tasks, active tasks, or completed tasks. You can also add a new communication plan by clicking **Add**. You can create a communication task for an existing plan by clicking **Add Task**. For more information, see [Add communication plan from the major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, click **Manage Recipients**.
+You can filter the communication task to view all tasks, active tasks, or completed tasks. You can also add a new communication plan by clicking **Add**. You can create a communication task for an existing plan by clicking **Add Task**. For more information, see [Add communication plan in the workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, click **Manage Recipients**.
 
 **Note:** When you create a communication task for sending an email on the Major Incident Management Workbench and select a recipient list, the recipient list is added instead of individual users. The list of users in the recipient list is calculated by the system while processing the email request, thus improving the system performance. Also, you can add users, groups, and email addresses as required in the Recipients section. Activate this feature by selecting the **Property to toggle support for Recipient List on Email Client, on Communication Tasks** \(**sn\_comm\_management.email\_client\_recipient\_items\_enabled**\) option in the Major Incident Management Properties. You can create a recipient list using a script to retrieve a custom list of users or include a pre-defined list of users.
 
@@ -58,7 +58,7 @@ When you add Slack as a communication channel, you can select **Compose** to con
 
 [Major Incident workbench — Summary tab]()
 
-[Major Incident workbench — the Post Incident Report tab]()
+[Post Incident Report tab]()
 
 [Major Incident workbench — the Collaborate tab]()
 

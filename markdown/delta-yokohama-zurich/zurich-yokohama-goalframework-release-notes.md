@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-goalframework-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,13 +75,13 @@ Zurich
 
 </td><td>
 
--   **[Goal Framework and AI Control Tower](https://servicenow-staging.fluidtopics.net/access?context=better-together-with-other-apps-gf&family=zurich&ft:locale=en-US)**
+-   **[Goal Framework and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-gf&family=zurich&ft:locale=en-US)**
 
 Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
 
 Use the **Type** field for strategic priorities and the **Category** field for goals to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
 
--   **[Role enhancements](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Role enhancements](https://www.servicenow.com/docs/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
 
 With the sn\_gf.goal\_admin role, you can edit any goal and target as needed, even when you aren’t the owner or contributor of a goal or target.
 
@@ -113,7 +113,7 @@ Zurich
 
 </td><td>
 
--   **[Active goals](https://servicenow-staging.fluidtopics.net/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Active goals](https://www.servicenow.com/docs/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
 
 By default, only active goals—those goals with the **Active** field set to **true**—are displayed in the **Goal** and **Parent goal** reference fields across all applicable tables.
 
@@ -351,7 +351,7 @@ Zurich
 -   Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor their progress from the AI Control Tower workspace.
 -   View only active goals in reference fields when creating a goal relationship or defining a parent goal.
 
- See [Goal Framework](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
+ See [Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -38,7 +38,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 6.  Define who can view your page by selecting **Add an audience** and selecting or defining the audience.
 
-    For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-audiences.md).
+    For more information, see .
 
 7.  Select **Create**.
 

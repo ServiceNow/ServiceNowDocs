@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for Automation Center, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Run fix script to view results
@@ -43,5 +43,5 @@ Role required: admin
     -   Records Skipped — the number of records that did not meet processing criteria.
     -   Errors — any errors encountered during execution. Investigate and resolve before re-running the script if errors are present.
 
-**Parent Topic:**[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-now-assist.md)
+**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-now-assist.md)
 

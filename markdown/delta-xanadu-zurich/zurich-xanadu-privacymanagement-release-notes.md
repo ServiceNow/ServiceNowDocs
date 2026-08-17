@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-privacymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -75,27 +75,27 @@ Xanadu
 
 </td><td>
 
--   **[Personal Data Rights](https://servicenow-staging.fluidtopics.net/access?context=exploring-personal-data-rights&family=xanadu&ft:locale=en-US)**
+-   **[Personal Data Rights](https://www.servicenow.com/docs/access?context=exploring-personal-data-rights&family=xanadu&ft:locale=en-US)**
 
 Use the Personal Data Rights application that provides configurable workflows to manage and automate personal data rights requests efficiently, reducing the risk of non-compliance. The Personal Data Rights application enables customers to efficiently manage and fulfill Data Subject Access Requests \(DSARs\), consumer rights requests, and so on, ensuring compliance with privacy regulations. The application helps organizations to handle requests related to the personal data rights of their consumers while ensuring that employees can maintain data protection standards globally.
 
--   **[Create data lineage](https://servicenow-staging.fluidtopics.net/access?context=processing-activity-hierarchy&family=xanadu&ft:locale=en-US)**
+-   **[Create data lineage](https://www.servicenow.com/docs/access?context=processing-activity-hierarchy&family=xanadu&ft:locale=en-US)**
 
 Establish a data lineage to understand how data is being consumed and shared in a given processing activity. Creating a data lineage also helps you to understand and manage the associated risks for the data being shared. This feature provides a visual representation of data lineage or hierarchy.
 
--   **[Create a regulatory agency](https://servicenow-staging.fluidtopics.net/access?context=add-a-regulatory-agency&family=xanadu&ft:locale=en-US)**
+-   **[Create a regulatory agency](https://www.servicenow.com/docs/access?context=add-a-regulatory-agency&family=xanadu&ft:locale=en-US)**
 
 Create regulatory agencies in the Privacy Workspace to identify the relevant regulatory authorities that are responsible for overseeing the businesses in the public interest. The centralized library consolidates all regulatory communication via emails.
 
--   **[Collaborate and chat with cross-functional teams for processing activities, privacy cases, privacy assessments, and personal data rights requests](https://servicenow-staging.fluidtopics.net/access?context=manage-discussions-of-a-pa&family=xanadu&ft:locale=en-US)**
+-   **[Collaborate and chat with cross-functional teams for processing activities, privacy cases, privacy assessments, and personal data rights requests](https://www.servicenow.com/docs/access?context=manage-discussions-of-a-pa&family=xanadu&ft:locale=en-US)**
 
 Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated. The chat conversations that take place using the **Discuss** button are stored in the respective record making it simpler for the privacy teams to refer to them when working on a task.
 
--   **[View smart attestations on the processing activities](https://servicenow-staging.fluidtopics.net/access?context=ropa-record&family=xanadu&ft:locale=en-US)**
+-   **[View smart attestations on the processing activities](https://www.servicenow.com/docs/access?context=ropa-record&family=xanadu&ft:locale=en-US)**
 
 Use the Smart Assessment Engine feature to respond to attestations. View the reports of the new control attestations on the landing pages of the privacy analyst and the privacy manager. Utilize the filter in the Attestations report to select if you want to view the classic attestations or the new attestations.
 
--   **[Changes in roles with the Privacy Employee user application](https://servicenow-staging.fluidtopics.net/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
+-   **[Changes in roles with the Privacy Employee user application](https://www.servicenow.com/docs/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
 
 **Note:** Only applicable to the customers with the GRC Privacy Employee User application \(sn\_privacy\_emp\) installed.
 
@@ -106,7 +106,7 @@ When you install the new GRC Privacy Employee User application and assign the sn
     -   Read and acknowledge organizational privacy policies.
     -   Create policy exceptions.
     -   Create privacy issues.
--   **[Changes in roles with the GRC: Privacy Lite User application](https://servicenow-staging.fluidtopics.net/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
+-   **[Changes in roles with the GRC: Privacy Lite User application](https://www.servicenow.com/docs/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
 
 If the GRC: Privacy Lite User application \(sn\_privacy\_lite\) is installed, the following roles are considered as lite operators:
 
@@ -134,11 +134,11 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-grc.configure-criticality-factors\]](https://servicenow-staging.fluidtopics.net/access?context=configure-criticality-factors&family=yokohama&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-grc.configure-criticality-factors\]](https://www.servicenow.com/docs/access?context=configure-criticality-factors&family=yokohama&ft:locale=en-US)**
 
 Leverage criticality factors to evaluate the initial risks associated with processing activities. Integrate these factors into privacy assessments and automatically generate a criticality score upon assessment approval. These factors are also added to processing activities, enabling you to make updates at any time. Integrating these factors in a privacy assessment eliminates the need for a separate criticality assessment. This consolidation reduces the workload for the privacy teams.
 
--   **[Smart assessments](https://servicenow-staging.fluidtopics.net/access?context=smart-assessments-in-privacy-management&family=yokohama&ft:locale=en-US)**
+-   **[Smart assessments](https://www.servicenow.com/docs/access?context=smart-assessments-in-privacy-management&family=yokohama&ft:locale=en-US)**
 
 Use the new and improved assessment experience that enables:
 
@@ -146,14 +146,14 @@ Use the new and improved assessment experience that enables:
     -   building the assessment questionnaire
 This new experience enables responders to update all the necessary details within the assessments, eliminating the need to update the processing activity separately.
 
--   **[Configure categories](https://servicenow-staging.fluidtopics.net/access?context=configure-information-object-categories&family=yokohama&ft:locale=en-US)**
+-   **[Configure categories](https://www.servicenow.com/docs/access?context=configure-information-object-categories&family=yokohama&ft:locale=en-US)**
 
 Implement Information object categories to tag and classify information objects effectively. For example, attributes like iris scans and fingerprints are often referred to as biometric data, or email addresses and phone numbers can be tagged as contact information. Information object categories enable you to categorize these information objects under these broader classifications. This approach is useful in the following ways:
 
     -   Enhances compliance with regulations such as GDPR, CCPA, and so on by accurately capturing and tracking required data categories.
     -   Improves clarity for business users, ensuring they can easily identify and work with terms they’re familiar with while adhering to regulatory standards.
     -   Streamlines data governance by creating a structured framework that supports both regulatory needs and business operations.
--   **[Smart assessment for privacy case management action tasks](https://servicenow-staging.fluidtopics.net/access?context=accept-a-case-task&family=yokohama&ft:locale=en-US)**
+-   **[Smart assessment for privacy case management action tasks](https://www.servicenow.com/docs/access?context=accept-a-case-task&family=yokohama&ft:locale=en-US)**
 
 Use the new assessment experience of Smart Assessment Engine for privacy case action tasks. Only when an action task moves from the **Draft** to the **Assigned** state, the assessment can be sent. To use the smart assessment, a new property called enable\_smart\_assessments \(sn\_grc\_case\_mgmt.enable\_smart\_assessments\) is introduced with the default value as **true**.
 
@@ -164,15 +164,15 @@ Zurich
 
 </td><td>
 
--   **[Data subjects](https://servicenow-staging.fluidtopics.net/access?context=data-subjects&family=zurich&ft:locale=en-US)**
+-   **[Data subjects](https://www.servicenow.com/docs/access?context=data-subjects&family=zurich&ft:locale=en-US)**
 
 Select and define the multiple data subject types for each processing activity. You can capture the volume of data subjects that were processed, the specific data elements that were collected from the users, and the user locations. With this feature, you get a realistic, granular, and scalable representation of your processing activities.
 
--   **[Privacy management dashboard](https://servicenow-staging.fluidtopics.net/access?context=privacy-manager-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Privacy management dashboard](https://www.servicenow.com/docs/access?context=privacy-manager-dashboard&family=zurich&ft:locale=en-US)**
 
 Get an overview of your complete privacy risk and compliance posture from the Privacy Management dashboard so that you can quickly prioritize and remediate your processing activities. By looking at the Processing Activities, Risk &amp; Compliance, and Operations &amp; Case management sections, you can see the overall compliance score, trends, privacy criticality assessment scores, and risk heatmap. From the dashboard, you can also see information about the global legal framework to understand the regional obligations and the built-in risk metrics that automatically assess each processing activity.
 
--   **[New screening and PIA templates](https://servicenow-staging.fluidtopics.net/access?context=privacy-mgmt-workflow&family=zurich&ft:locale=en-US)**
+-   **[New screening and PIA templates](https://www.servicenow.com/docs/access?context=privacy-mgmt-workflow&family=zurich&ft:locale=en-US)**
 
 Use the new Privacy Impact Assessments \(PIAs\) and Screening Assessment templates that provide standardized questions, evaluation criteria, and workflows so that you can perform a processing activity criticality and privacy risk assessment. With these new templates, you can ensure consistency, reduce manual effort, and support compliance with regulatory and organizational requirements.
 
@@ -204,11 +204,11 @@ Yokohama
 
 </td><td>
 
--   **[Tagging of information object tags](https://servicenow-staging.fluidtopics.net/access?context=tag-io-with-pi&family=yokohama&ft:locale=en-US)**
+-   **[Tagging of information object tags](https://www.servicenow.com/docs/access?context=tag-io-with-pi&family=yokohama&ft:locale=en-US)**
 
 Use the **Data classification** field to tag information objects instead of using the tag icon.
 
--   **[Initiating privacy assessment](https://servicenow-staging.fluidtopics.net/access?context=send-privacy-asmt-from-pa&family=yokohama&ft:locale=en-US)**
+-   **[Initiating privacy assessment](https://www.servicenow.com/docs/access?context=send-privacy-asmt-from-pa&family=yokohama&ft:locale=en-US)**
 
 When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
 
@@ -221,16 +221,16 @@ Zurich
 
 -   ****
 
--   **[Processing activity tab](https://servicenow-staging.fluidtopics.net/access?context=processing-activity-tab&family=zurich&ft:locale=en-US)**
+-   **[Processing activity tab](https://www.servicenow.com/docs/access?context=processing-activity-tab&family=zurich&ft:locale=en-US)**
 
 The revamped Processing Activity overview page provides a unified dashboard that displays key compliance and risk metrics, such as risk scores, compliance scores, and criticality scores. This update makes it easier for privacy managers and analysts to assess the status of each processing activity, track open issues, and prioritize actions.
 
 
--   **[Layout for processing activity record view](https://servicenow-staging.fluidtopics.net/access?context=processing-activity-homepage&family=zurich&ft:locale=en-US)**
+-   **[Layout for processing activity record view](https://www.servicenow.com/docs/access?context=processing-activity-homepage&family=zurich&ft:locale=en-US)**
 
 The vertical layout of a processing activity enables you to see the information in a top-down linear flow. With this layout, you can see the sequential representation of a data processing workflow.
 
--   **[Privacy management home page](https://servicenow-staging.fluidtopics.net/access?context=privacy-mgmt-ws-privacy-compliance-manager&family=zurich&ft:locale=en-US)**
+-   **[Privacy management home page](https://www.servicenow.com/docs/access?context=privacy-mgmt-ws-privacy-compliance-manager&family=zurich&ft:locale=en-US)**
 
 The enhanced Privacy Management home page now has dedicated tabs for Processing Activity, Risk and compliance, Operations, and Privacy Cases. This updated layout helps to improve readability by organizing your reports into clearly defined sections.
 
@@ -328,7 +328,7 @@ Xanadu
 
 </td><td>
 
-Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -336,7 +336,7 @@ Yokohama
 
 </td><td>
 
-Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -519,7 +519,7 @@ Xanadu
 -   Create a regulatory agency library to store and access regulatory details, including correspondence with the regulators.
 -   Initiate chats from privacy assessments, processing activities, privacy cases, and personal data rights requests to collaborate with various teams to ensure quick responses.
 
- See [Explore](https://servicenow-staging.fluidtopics.net/access?context=explore-privacy-management&family=xanadu&ft:locale=en-US) for more information.
+ See [Explore](https://www.servicenow.com/docs/access?context=explore-privacy-management&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -532,7 +532,7 @@ Yokohama
 -   Implement information Object \(IO\) categories such as biometric data, to align with regulatory classifications and bridge the gap between requirements and user understanding.
 -   Empower privacy case analysts to perform assessments on privacy cases using the Smart Assessment Engine
 
- See [Privacy Management](https://servicenow-staging.fluidtopics.net/access?context=privacy-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Privacy Management](https://www.servicenow.com/docs/access?context=privacy-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -547,7 +547,7 @@ Zurich
 -   Impacted and related areas configuration allows privacy case managers to add custom business area types to privacy cases for better context.
 -   Revamped Processing Activity overview page provides a unified dashboard showing key compliance and risk metrics for processing activities.
 
- See [Privacy Management](https://servicenow-staging.fluidtopics.net/access?context=privacy-management&family=zurich&ft:locale=en-US) for more information.
+ See [Privacy Management](https://www.servicenow.com/docs/access?context=privacy-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

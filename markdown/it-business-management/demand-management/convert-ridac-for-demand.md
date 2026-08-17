@@ -1,20 +1,20 @@
 ---
 title: Convert one RIDAC record to another for a demand
-description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order to retain the record information instead of having to create a record manually and to track the issue more easily.
+description: Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/convert-ridac-for-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Convert one RIDAC record to another for a demand
 
-Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order to retain the record information instead of having to create a record manually and to track the issue more easily.
+Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ When you convert a RIDAC record to another record, the values for the **Short de
 
 You can also specify to close the parent record on creation of the new record instead of manually closing the parent record.
 
-You can also view the consolidated list of all the converted RIDAC records using the **View RIDAC** related link on the Demand form and **View RIDAC** in the application navigator of the Demand module.
+To view all converted RIDAC records, select the **View RIDAC** related link on the Demand form. You can also access this list from **View RIDAC** in the Demand module application navigator.
 
 ## Procedure
 

@@ -26,17 +26,19 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Slide the disovery type toggle switch to **NLU/Keyword**, then select **Manage Languages**
+2.  Select the **Asset library** tab.
 
-3.  In the **Select NLU Model** list, select the model group you want to manage.
+3.  Slide the discovery type toggle switch to **NLU/Keyword**, then select **Manage Languages**
+
+4.  In the **Select NLU Model** list, select the model group you want to manage.
 
     Intents that are mapped to a topic display on the page.
 
-4.  In the **View language** list, select a language.
+5.  In the **View language** list, select a language.
 
-    The translation status of each topic in the chosen language displays on the page. Select a topic name to open the topic in Virtual Agent Designer, view or edit translations, or test translated content. The **Topic translation status** column shows the current status of the topic in the localization process.
+    The translation status of each topic in the chosen language displays on the page. Select a topic name to open the topic in Assistant Designer Asset library, view or edit translations, or test translated content. The **Topic translation status** column shows the current status of the topic in the localization process.
 
     \[Omitted image "va-loc-manage-languages-page.png"\] Alt text: The Manage languages page displaying the topic and their associated NLU models with topic translation status, translations, test, and NLU intent.
 
@@ -44,18 +46,18 @@ Role required: virtual\_agent\_admin or admin
 
     **Note:** The ServiceNow AI Platform provides translations for interface features and pre-built topics. So in some topics, languages may display as partially translated.
 
-5.  Do one of the following:
+6.  Do one of the following:
 
     -   Select the check boxes for the topics you want to translate, and then click **Request topic translations**. When prompted, confirm your choice.
 
-        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
+        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/fulfill-localization-task.md).
 
         **Note:** If a topic is already in localization, the corresponding check box is not available.
 
     -   [Edit translations directly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)
-6.  Click **Manage NLU translations**.
+7.  Click **Manage NLU translations**.
 
-    The model opens in NLU Workbench. Request translations for your model group. For more information, see Translate a multilingual model.
+    The model opens in NLU Workbench. Request translations for your model group. For more information, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/translate-multilingual-model.md).
 
 
 ## Result

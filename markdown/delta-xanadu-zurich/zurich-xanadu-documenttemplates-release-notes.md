@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-documenttemplates-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Signing date in PDF](https://servicenow-staging.fluidtopics.net/access?context=edit-pdf-mappings&family=xanadu&ft:locale=en-US)**
+-   **[Signing date in PDF](https://www.servicenow.com/docs/access?context=edit-pdf-mappings&family=xanadu&ft:locale=en-US)**
 
 Record the date automatically when a participant signs a document. When the **Use signing date** option is selected, the date appears on the PDF document within the field that you specify in the **Field name** field on the PDF template mapping record. This capability is available for the ServiceNow signing type only.
 
@@ -226,7 +226,7 @@ Xanadu
 
 </td><td>
 
-Install Document Templates by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Document Templates by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -413,7 +413,7 @@ Xanadu
 
 Record the date when a participant signs a PDF document using the Signature date capability in the PDF document template.
 
- See [Document Templates](https://servicenow-staging.fluidtopics.net/access?context=document-templates-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-05-29"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
 ---

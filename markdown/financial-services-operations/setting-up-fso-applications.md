@@ -34,7 +34,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Create structured and flexible data models to represent the need across various industries.
 
-6.  [Creating an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_CreateNewACL.md)
+6.  Creating an ACL
 
     Create an access control rule \(ACL\) to prevent the Needs review field from being modified after it has been set.
 
@@ -46,7 +46,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Configure and modify service definitions for Financial Services Operations applications, including reviewing or adding new ones.
 
-9.  [Creating a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_CreateNewUIAction.md)
+9.  Creating a UI action
 
     Create UI actions.
 

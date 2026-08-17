@@ -258,5 +258,5 @@ The data input configuration process is complete. Health Log Analytics adds the 
 **Related topics**  
 
 
-[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
+[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
 

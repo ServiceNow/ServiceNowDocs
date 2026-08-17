@@ -9,7 +9,7 @@ classification: scripts
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Code reference, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Now Assist for Code reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Now Assist for Code properties
@@ -37,7 +37,7 @@ Enables using code generation in supported script editors.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: You can also enable code generation from Now Assist Admin. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Learn more: You can also enable code generation from AI Admin Hub. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -153,5 +153,5 @@ Users with access to the system property table can modify system properties. How
 -   sn\_now\_assist\_code.enable\_auto\_complete
 -   sn\_now\_assist\_code.disable\_snowsk8s\_autocomplete
 
-**Parent Topic:**[Now Assist for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/now-assist-code-reference.md)
 

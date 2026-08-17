@@ -22,7 +22,7 @@ Available as a Now Assist Skill Kit action.
 
 -   **Subscription requirements**
 
-    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   **Role requirements**
 

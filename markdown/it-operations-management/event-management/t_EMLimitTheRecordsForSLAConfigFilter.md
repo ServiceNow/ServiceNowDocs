@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create an SLA configuration for CIs, SLAs for application services and CIs, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Create an SLA configuration for CIs, SLAs for application services and CIs, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Limit the records for the SLA configuration filter

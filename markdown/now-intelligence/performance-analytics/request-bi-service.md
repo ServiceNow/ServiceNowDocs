@@ -149,5 +149,5 @@ Core Performance Analytics functionality
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

@@ -49,7 +49,7 @@ Roles that are installed with Virtual Agent are listed below with the following 
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see User Administration.
+For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UserAdministration.md).
 
 **Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
@@ -273,7 +273,7 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-Any user assigned this role can alter or delete topics created in the Virtual Agent Designer system, including topics that other topics refer to or have as dependencies.
+Any user assigned this role can alter or delete topics created in the Assistant Designer Asset library system, including topics that other topics refer to or have as dependencies.
 
 ## Automated Customer Experiences \(ACE\) user \[sn\_ace.ace\_user\]
 

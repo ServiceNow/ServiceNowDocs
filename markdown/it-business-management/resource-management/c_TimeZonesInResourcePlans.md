@@ -22,7 +22,7 @@ All users are assigned a schedule. If a user schedule changes, all time calculat
 
 -   A floating schedule is the same in any time zone. For example, if a resource manager in Amsterdam sets a floating schedule for 08:00–17:00, a user in San Jose sees the schedule as 08:00–17:00.
 
--   When a schedule is defined in a specific time zone, users in different time zones see the schedule with their own time zone applied. For example, if the resource manager sets a time zone-specific schedule for 08:00–17:00 in Amsterdam, the San Jose user sees the schedule as 23:00 of the previous day to 07:00 on the current day because the San Jose time zone is nine hours behind the Amsterdam time zone.
+-   When a schedule is defined in a specific time zone, users in different time zones see the schedule with their own time zone applied. For example, suppose the resource manager sets a time zone-specific schedule for 08:00–17:00 in Amsterdam. The San Jose user then sees the schedule as 23:00 of the previous day to 07:00 on the current day. This is because the San Jose time zone is nine hours behind the Amsterdam time zone.
 
 **Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourcePlans.md)
 

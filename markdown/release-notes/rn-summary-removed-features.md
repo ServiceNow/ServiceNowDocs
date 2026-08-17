@@ -113,11 +113,11 @@ Now Assist for Creator
 
 [Zurich Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-6.md)
 
--   Spoke generation has been removed from Now Assist for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+-   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) product documentation for more information.
+-   Starting with version 28.4.3 of ServiceNow Otto for Creator, the now.assist.creator role has been removed as a required role for using most ServiceNow Otto for Creator skills and agents. Some skills and agents might have additional role requirements. See the [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) product documentation for more information.
 
 </td></tr><tr><td>
 
@@ -125,8 +125,8 @@ Now Assist in Document Intelligence
 
 </td><td>
 
--   The Document extraction skill has been removed from the list of Platform skills in the Now Assist Admin console.
--   The Document Q&amp;A skill has been removed from the list of Platform skills in the Now Assist Admin console.
+-   The Document extraction skill has been removed from the list of Platform skills in the AI Admin Hub console.
+-   The Document Q&amp;A skill has been removed from the list of Platform skills in the AI Admin Hub console.
 
 </td></tr><tr><td>
 

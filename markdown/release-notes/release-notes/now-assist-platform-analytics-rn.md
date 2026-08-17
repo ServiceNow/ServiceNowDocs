@@ -1,40 +1,40 @@
 ---
-title: Now Assist in Platform Analytics release notes
-description: Now Assist for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
+title: ServiceNow Otto for Platform Analytics release notes
+description: ServiceNow Otto for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-08-25"
-reading_time_minutes: 7
+reading_time_minutes: 8
 ---
 
-# Now Assist in Platform Analytics release notes
+# ServiceNow Otto for Platform Analytics release notes
 
-Now Assist for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
+ServiceNow Otto® for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 
-## Now Assist for Platform Analytics highlights
+## ServiceNow Otto® for Platform Analytics highlights
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)The following highlights are specific to AI Data Explorer, which relies on Query Generation in the back end.
 
--   Review changes to Now Assist usage measurement.
+-   Review changes to ServiceNow Otto® usage measurement.
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Some Now Assist skills are now turned on by default.
+-   Some generative AI skills are now turned on by default.
 -   Create "explorations"—editable documents where you analyze data with the help of AI. Refine responses, add your own input, and collaborate with others to make data-informed decisions faster.
 
 Previous Patch releases
 
--   Generate and export Platform Analytics artifacts from conversational interactions in the Now Assist panel.
--   Benefit from a single, smooth experience in asking questions across all Now Assist for Platform Analytics skills, as well as other applications that incorporate Platform Analytics and AI, through a shared backend.
+-   Generate and export Platform Analytics artifacts from conversational interactions in the ServiceNow Otto® panel.
+-   Benefit from a single, smooth experience in asking questions across all ServiceNow Otto® for Platform Analytics skills, and other applications that incorporate Platform Analytics and AI, through a shared backend.
 
-See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
+See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
 
-**Important:** Now Assist for Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto® for Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New features, applications, and skills
 
--   **[Gather insights, plan, and collaborate in the AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-explorer.md) \(December 2025\)**
+-   **Gather insights, plan, and collaborate in the AI Data Explorer \(December 2025\)**
 
     Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis. Enable teams to discuss and act on findings instantly. Centralize insights and narratives for better decision making. Guide users with contextual insights and suggestions.
 
@@ -55,12 +55,24 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
 ## Changed features
 
+-   **[Promote selected indicators in AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/indicator-scope-control.md)**
+
+    Add high-quality indicators that you identify to a list. The indicators on that list are given a boost in AI Search results for Query Generation.
+
+-   **[View more indicator insights in Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/hidden-insights.md)**
+
+    See directional trends over time and indicator target information in Extended analysis summaries.
+
+-   **[Improvements to data visualizations in Query Generation responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ask-expl-questions.md)**
+    -   Single-score charts now render sparklines by default.
+    -   When a user query on indicator data does not specify a visualization type, the response returns the indicator's default chart type.
+
 -   **[Query indicator data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ai-data-explorer-implementation-checklist.md)**
 
     Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators are supported, not Data Snapshots.
 
 
--   **[Explorations not available from visualization or list for unsupported scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/launch-now-assist-explorer.md)**
+-   **Explorations not available from visualization or list for unsupported scope**
 
     You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
 
@@ -108,7 +120,7 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 -   **[Dashboard and data visualization export skill is active by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/export-db-dv-now-assist-panel.md) \(January 2026\)**
 
@@ -155,9 +167,9 @@ AI Data Explorer is available from the ServiceNow Store.
 
 Query Generation, Analytics Generation, and the dashboard and data visualization export skill are installed with Generative AI Controller, which is included as a dependency of all Now Assist applications.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-After installation, activate the relevant skills. For more information, see the relevant Configure topics under [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md).
+After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md).
 
 ## Plugin information
 

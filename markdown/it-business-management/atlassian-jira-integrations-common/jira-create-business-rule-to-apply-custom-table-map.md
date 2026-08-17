@@ -22,7 +22,7 @@ Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-After you create a custom table map for a single or multiple Jira projects, create a business rule similar to Synch Story with Jira to support export of information from this new table map from Agile Development 2.0 to Jira.
+After you create a custom table map for a single or multiple Jira projects, create a business rule similar to Synch Story with Jira. This business rule supports export of information from this new table map from Agile Development 2.0 to Jira.
 
 ## Procedure
 

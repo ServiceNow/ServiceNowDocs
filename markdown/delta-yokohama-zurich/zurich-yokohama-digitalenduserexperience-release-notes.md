@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-digitalenduserexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
+last_updated: "2026-08-17"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,23 +67,23 @@ Yokohama
 
 </td><td>
 
--   **[Manage your system compliance report](https://servicenow-staging.fluidtopics.net/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
+-   **[Manage your system compliance report](https://www.servicenow.com/docs/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
 
 Identify vulnerabilities and keep end-user devices secure and efficient by confirming that they meet security policies and regulatory standards. The Compliance report provides a comprehensive view of how well the end-user devices are adhering to the security measures of your organization.
 
--   **[Monitor system performance](https://servicenow-staging.fluidtopics.net/access?context=monitor-system-performance&family=yokohama&ft:locale=en-US)**
+-   **[Monitor system performance](https://www.servicenow.com/docs/access?context=monitor-system-performance&family=yokohama&ft:locale=en-US)**
 
 Identify high-performance devices by monitoring critical metrics, such as CPU usage, memory consumption, disk activity, and input/output \(IO\) reading and writing speeds. Monitoring system performance provides information about how device performance impacts overall system health.
 
--   **[Check your device's health](https://servicenow-staging.fluidtopics.net/access?context=exploring-dex-self-service&family=yokohama&ft:locale=en-US)**
+-   **[Check your device's health](https://www.servicenow.com/docs/access?context=exploring-dex-self-service&family=yokohama&ft:locale=en-US)**
 
 Digital End-user Experience Self-service \(DEX Self-service\) enables you to check the performance of your device using a Device health check. You can check the device health on demand and resolve the issues detected by DEX by leveraging the recommended resolutions for the issues. The resolutions can either be remedial actions \(that you can trigger via a button\), self-help instructions, or URL. You can also use Device actions which can be triggered even when no issues are detected on the device.  These actions enable you to maintain good performance of the devices and applications
 
--   **[Monitor apps network](https://servicenow-staging.fluidtopics.net/access?context=monitor-user-apps-network&family=yokohama&ft:locale=en-US)**
+-   **[Monitor apps network](https://www.servicenow.com/docs/access?context=monitor-user-apps-network&family=yokohama&ft:locale=en-US)**
 
 Monitor the advanced metrics like jitter, latency, and packet loss with a visual representation of network hops. These metrics provide real-time insights into network performance, helping to identify bottlenecks and areas for optimization quickly.
 
--   **[Additional device metrics](https://servicenow-staging.fluidtopics.net/access?context=user-device-details-pages&family=yokohama&ft:locale=en-US)**
+-   **[Additional device metrics](https://www.servicenow.com/docs/access?context=user-device-details-pages&family=yokohama&ft:locale=en-US)**
 
 Get insights into device health and performance using the newly added device-level and application metrics. These metrics include memory usage, system time, energy consumption, and page file size. They're available in the following pages under Device health or Advanced app metrics:
 
@@ -94,7 +94,7 @@ Get insights into device health and performance using the newly added device-lev
     -   Windows registry
     -   Microsoft Configuration Manager \(MCM\) application
     -   Application freeze
--   **[Digital Experience Score​](https://servicenow-staging.fluidtopics.net/access?context=dexscr-digital-experience-score&family=yokohama&ft:locale=en-US)**
+-   **[Digital Experience Score​](https://www.servicenow.com/docs/access?context=dexscr-digital-experience-score&family=yokohama&ft:locale=en-US)**
 
 Measure and consolidate both quantitative and qualitative data to gain a holistic view of the digital employee experience. The Digital Experience Score​ dashboard \(DEX Score\) provides data-driven insights to improve your employees' digital experience.
 
@@ -102,7 +102,7 @@ DEX Score compiles health metrics scores, user sentiment scores, and service exp
 
 Access device lists based on individual device or application health metric scores. Review the list to identify devices with scores below the average for each metric.
 
--   **[Proactive Engagement](https://servicenow-staging.fluidtopics.net/access?context=proactive-engagement-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Proactive Engagement](https://www.servicenow.com/docs/access?context=proactive-engagement-landing-page&family=yokohama&ft:locale=en-US)**
 
 Inform employees by providing any self-help instructions or notifications by Desktop Assistant and email as the two new notification channels along with the existing Virtual Agent option.
 
@@ -119,55 +119,59 @@ Zurich
 
 </td><td>
 
--   **[View collected metrics with Metrics analyzer](https://servicenow-staging.fluidtopics.net/access?context=view-dex-metrics&family=zurich&ft:locale=en-US)**
+-   **[View collected metrics with Metrics analyzer](https://www.servicenow.com/docs/access?context=view-dex-metrics&family=zurich&ft:locale=en-US)**
 
 Using the DEX Metrics analyzer, explore and analyze various metrics for Configuration Items \(CIs\) through selecting metrics by application, device, location, and OS.
 
--   **[Monitoring non-persistent VDIs](https://servicenow-staging.fluidtopics.net/access?context=monitoring-np-vdis&family=zurich&ft:locale=en-US)**
+-   **[Non-persistent VDI monitoring configuration](https://www.servicenow.com/docs/access?context=monitoring-np-vdis&family=zurich&ft:locale=en-US)**
 
 Set up monitoring of non-persistent VDIs to identify performance issues and to troubleshoot.
 
--   **[Set up page-level monitoring](https://servicenow-staging.fluidtopics.net/access?context=set-up-page-level-monitoring&family=zurich&ft:locale=en-US)**
+-   **[Set up page-level monitoring](https://www.servicenow.com/docs/access?context=set-up-page-level-monitoring&family=zurich&ft:locale=en-US)**
 
 Monitor a Web application performance at a specific page level and view the collected metrics in the Metrics analyzer.
 
--   **[Assign ITIL-related roles to DEX users](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-dex&family=zurich&ft:locale=en-US)**
+-   **[Assign ITIL-related roles to DEX users](https://www.servicenow.com/docs/access?context=components-installed-with-dex&family=zurich&ft:locale=en-US)**
 
 Exercise tighter control over the role management system and role delegation. Control who has access to Express list, Alerts, and Incident records after the ITIL-related roles have been removed from the dex\_user or dex\_engineer roles.
 
--   **[Microsoft Teams call quality](https://servicenow-staging.fluidtopics.net/access?context=monitor-teams-call-quality&family=zurich&ft:locale=en-US)**
+-   **[Microsoft Teams call quality](https://www.servicenow.com/docs/access?context=monitor-teams-call-quality&family=zurich&ft:locale=en-US)**
 
 View detailed metrics for the Microsoft Teams calls of a particular user, including call quality, network metrics, and session data, with DEX for Microsoft 365.
 
--   **[Create a remedial action](https://servicenow-staging.fluidtopics.net/access?context=create-remedial-action&family=zurich&ft:locale=en-US)**
+-   **[Create a remedial action](https://www.servicenow.com/docs/access?context=create-remedial-action&family=zurich&ft:locale=en-US)**
 
 Access the Create Remedial Action page from the DEX Administration workspace. DEX admins can create a remedial action or link to an existing remedial action to a check definition. To enhance the end-user experience, you can also run the remedial action on multiple impacted devices at once.
 
--   **[Device health page](https://servicenow-staging.fluidtopics.net/access?context=user-health-card&family=zurich&ft:locale=en-US)**
+-   **[Device health page](https://www.servicenow.com/docs/access?context=user-health-card&family=zurich&ft:locale=en-US)**
 
 View real-time data from the past 24 hours for alerts, change requests, and incidents impacting a device in the Device events Timeline chart on the Device health page.
 
--   **[Diagnose and resolve issues on DEX monitored devices](https://servicenow-staging.fluidtopics.net/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
 
 Service desk agents can use the DEX diagnosis and resolution agentic AI workflow to resolve issues on DEX monitored devices through a structured process that includes diagnosis of the cause, a resolution plan with actionable steps, and documenting the resolution in the incident record.
 
--   **[Incident diagnostics and suggested resolutions](https://servicenow-staging.fluidtopics.net/access?context=dex-diagnostics-guided-resolutions&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
+
+Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
+
+-   **[Incident diagnostics and suggested resolutions](https://www.servicenow.com/docs/access?context=dex-diagnostics-guided-resolutions&family=zurich&ft:locale=en-US)**
 
 Service desk agents can diagnose and resolve common issues on DEX monitored devices from the Investigation tab in incident records within the Service Operations Workspace. View the health status of the device and related metrics, review the suggested resolutions, and execute remedial actions or follow self-help instructions to resolve the incident. Monitor the status of actions after they’re completed.
 
--   **[Customize theme](https://servicenow-staging.fluidtopics.net/access?context=customize-da-theme&family=zurich&ft:locale=en-US), [Customize home page](https://servicenow-staging.fluidtopics.net/access?context=change-home-page-title&family=zurich&ft:locale=en-US), and [Create a hyperlink card](https://servicenow-staging.fluidtopics.net/access?context=create-hyperlink-card&family=zurich&ft:locale=en-US)**
+-   **[Customize theme](https://www.servicenow.com/docs/access?context=customize-da-theme&family=zurich&ft:locale=en-US), [Customize home page](https://www.servicenow.com/docs/access?context=change-home-page-title&family=zurich&ft:locale=en-US), and [Create a hyperlink card](https://www.servicenow.com/docs/access?context=create-hyperlink-card&family=zurich&ft:locale=en-US)**
 
 DEX Desktop Assistant administrators can customize the theme for Desktop Assistant by modifying specific CSS variables. You can also customize the logo, add hyperlink cards, and map these cards to sections on the home page.
 
--   **[Zoom call quality](https://servicenow-staging.fluidtopics.net/access?context=monitor-zoom-call-quality-using-dex&family=zurich&ft:locale=en-US)**
+-   **[Zoom call quality](https://www.servicenow.com/docs/access?context=monitor-zoom-call-quality-using-dex&family=zurich&ft:locale=en-US)**
 
 Admins can view detailed metrics for Zoom calls made by users assigned to this device or who logged in within the past 15 days. The metrics include call quality, network performances, and call details enabling faster troubleshooting and improved end-user experience visibility.
 
--   **[View Zoom room metrics](https://servicenow-staging.fluidtopics.net/access?context=view-zoom-room-metrics&family=zurich&ft:locale=en-US)**
+-   **[View Zoom room metrics](https://www.servicenow.com/docs/access?context=view-zoom-room-metrics&family=zurich&ft:locale=en-US)**
 
 Using DEX for Zoom, admins can monitor Zoom Room performance across their organization, view issues in each room, and analyze root causes to promote consistent meeting experiences.
 
--   **[Added new remedial actions](https://servicenow-staging.fluidtopics.net/access?context=dex-diff-ra&family=zurich&ft:locale=en-US)**
+-   **[Added new remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=zurich&ft:locale=en-US)**
 
 The DEX base system includes the following new remedial actions:
 
@@ -190,9 +194,21 @@ The DEX base system includes the following new remedial actions:
     -   Restart Microsoft OneDrive \(macOS and Windows\)
     -   Restart Microsoft Outlook \(Windows\)
     -   Updated the Clear application cache remedial action to enable selecting the Microsoft Teams application, helping improve Teams performance.
--   **[Enhanced metric rule experience](https://servicenow-staging.fluidtopics.net/access?context=create-metric-rules&family=zurich&ft:locale=en-US)**
+-   **[Enhanced metric rule experience](https://www.servicenow.com/docs/access?context=create-metric-rules&family=zurich&ft:locale=en-US)**
 
 DEX administrators can now manage all types of proactive rules \(both metric and configuration-based\) within a unified interface, streamlining rule management across the DEX system.
+
+-   **[AI-powered root cause analysis for Zoom call quality issues](https://www.servicenow.com/docs/access?context=investigate-and-resolve-zoom-call-issues&family=zurich&ft:locale=en-US)**
+
+Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant knowledge articles to help resolve the issue efficiently.
+
+-   **[Get AI driven insights for boot time performance](https://www.servicenow.com/docs/access?context=investigate-and-resolve-boot-time-issues&family=zurich&ft:locale=en-US)**
+
+Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and knowledge articles to resolve boot performance problems quickly.
+
+-   **[View GPU device metric details](https://www.servicenow.com/docs/access?context=user-device-metrics&family=zurich&ft:locale=en-US)**
+
+Monitor GPU and VRAM \(Video Random Access Memory\) usage on the Device page to assess graphics performance and identify bottlenecks. GPU usage shows the percentage of graphics processing capacity in use, while VRAM usage highlights memory consumption for graphics intensive workloads. These metrics help detect rendering issues, memory intensive applications, and performance degradation enabling faster investigation and resolution of GPU related device problems.
 
 
 </td></tr></tbody>
@@ -222,24 +238,24 @@ Zurich
 
 </td><td>
 
--   **[Desktop Assistant](https://servicenow-staging.fluidtopics.net/access?context=use-dex-desktop-exp&family=zurich&ft:locale=en-US)**
+-   **[Desktop Assistant](https://www.servicenow.com/docs/access?context=use-dex-desktop-exp&family=zurich&ft:locale=en-US)**
 
 By default, the Desktop Assistant home page now has two sections: My resources and Quick links. My resources includes Device health check and Network test cards, while Quick links includes Employee Center and Outages cards.
 
--   **[Modified Devices page](https://servicenow-staging.fluidtopics.net/access?context=dex-workspace-devices-tab&family=zurich&ft:locale=en-US)**
+-   **[Modified Devices page](https://www.servicenow.com/docs/access?context=dex-workspace-devices-tab&family=zurich&ft:locale=en-US)**
     -   The device view is now optimized and segregated into two tabs based on the user persona. The **All devices** tab is for DEX operators, and the **Devices by ACC status** tab is for DEX operators and DEX admins.
     -   The application performance tab in the Device page has been enhanced. Filter performance for installed apps and web apps by date and time, and view the performance metrics for the last seven days.
     -   Access the performance page to view the performance and details of both installed and web applications.
     -   Filter the active devices to view only the devices that were active in the last five minutes.
--   **[Updated landing page](https://servicenow-staging.fluidtopics.net/access?context=dashboard-cards&family=zurich&ft:locale=en-US)**
+-   **[Updated landing page](https://www.servicenow.com/docs/access?context=dashboard-cards&family=zurich&ft:locale=en-US)**
 
 The world map in the **Devices** section on the DEX landing page now shows the devices list instead of users list. The Impacted Devices card now shows the count of impacted users based on the alerts of both the devices and the applications running on that device.
 
--   **[Updated users link reference](https://servicenow-staging.fluidtopics.net/access?context=devices-form&family=zurich&ft:locale=en-US)**
+-   **[Updated users link reference](https://www.servicenow.com/docs/access?context=devices-form&family=zurich&ft:locale=en-US)**
 
 The user link now redirects to Users page in Service Operations Workspace.
 
--   **[Changed device alerts](https://servicenow-staging.fluidtopics.net/access?context=user-health-card&family=zurich&ft:locale=en-US)**
+-   **[Changed device alerts](https://www.servicenow.com/docs/access?context=user-health-card&family=zurich&ft:locale=en-US)**
 
 View alerts for both your device and its applications in the Alerts section of the Devices page.
 
@@ -324,7 +340,7 @@ Yokohama
 
 </td><td>
 
-Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -382,7 +398,7 @@ Yokohama
 
 </td><td>
 
-Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://servicenow-staging.fluidtopics.net/access?context=enable-dex-browser-extension&family=yokohama&ft:locale=en-US).
+Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -390,7 +406,7 @@ Zurich
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable browser extension](https://servicenow-staging.fluidtopics.net/access?context=enable-dex-browser-extension&family=zurich&ft:locale=en-US).
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable browser extension](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -482,7 +498,7 @@ Yokohama
 -   Track the digital experience scores of the applications and devices that your employees use with the Digital Experience Score​ dashboard.
 -   The Proactive Engagement application is integrated as part of the DEX suite of applications and is installed along with DEX.
 
- See [Digital End-User Experience](https://servicenow-staging.fluidtopics.net/access?context=dex-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Digital End-User Experience](https://www.servicenow.com/docs/access?context=dex-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -503,7 +519,7 @@ Zurich
 -   Empower service desk agents to diagnose and resolve incidents on DEX monitored devices quickly and efficiently by using the  DEX issue diagnosis and resolution agentic AI workflow.
 -   Enable service desk agents to diagnose and resolve issues on DEX monitored devices directly from the Investigation tab in incident records within the Service Operations Workspace.
 
- See [Digital End-User Experience](https://servicenow-staging.fluidtopics.net/access?context=dex-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Digital End-User Experience](https://www.servicenow.com/docs/access?context=dex-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

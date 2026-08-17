@@ -72,7 +72,7 @@ Role required: admin
 
     2.  Select **Create a case**.
 
-    3.  In the Now Assist chat, select the option to open a case form.
+    3.  In the chat panel, select the option to open a case form.
 
     4.  Select **Service request**.
 

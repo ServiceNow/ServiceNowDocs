@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Share and collaborate on an exploration
@@ -26,7 +26,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Create or open the exploration that you want to work on with others.
 
@@ -50,7 +50,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d208854e171">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d212912e171">
 
 **Add as viewer**
 
@@ -58,7 +58,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 Grant only viewing rights to the users you are sharing the exploration with. They cannot edit it.
 
-</td></tr><tr><td id="d208854e180">
+</td></tr><tr><td id="d212912e180">
 
 **Add as editor**
 
@@ -76,5 +76,5 @@ Grant editing rights to the users you are sharing the exploration with. They are
 
 You can add or remove users to share the exploration with. You can also change the rights of the users who you have shared the exploration with.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-aide.md)
 

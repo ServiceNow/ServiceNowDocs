@@ -1,6 +1,6 @@
 ---
 title: Review a utility customization for Agile Development 2.0
-description: Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\) that are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
+description: Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\). These artifacts are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/utility-review-customizations.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Agile Development 2.0 enhancements over Agile Development 1.0, Migr
 
 # Review a utility customization for Agile Development 2.0
 
-Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\) that are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
+Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\). These artifacts are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
 
 ## Before you begin
 

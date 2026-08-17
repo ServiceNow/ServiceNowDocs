@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-12-10"
 reading_time_minutes: 3
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Use agentic AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Manage alerts autonomously agentic workflow
@@ -71,10 +71,10 @@ The manage alerts autonomously agentic workflow performs several actions in the 
         -   summaries of Service Observability dashboards to provide health analysis of each service associated with an alert. For more information see, [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md)
     -   Provides clear, actionable insights
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   **[Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md)**  
 Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 
-**Parent Topic:**[Use agentic AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 

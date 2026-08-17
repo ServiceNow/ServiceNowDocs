@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-02-20"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ As a fulfiller or matter owner, you can disable attorney client privilege on a l
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d739676e102">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d739985e102">
 
 Option
 
-</th><th align="left" id="d739676e105">
+</th><th align="left" id="d739985e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d739676e111">
+</th></tr></thead><tbody><tr><td id="d739985e111">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d739676e140">
+</td></tr><tr><td id="d739985e140">
 
 **As a collaborator**
 
@@ -69,7 +69,7 @@ The state of the legal matter updates to Work in Progress.
 
     2.  Select **Remove Privileged and Confidential**.
 
-        \[Omitted image "lmm-disable-acp.png"\] Alt text: Disable privleged and confidential
+        \[Omitted image "lmm-disable-acp.png"\] Alt text: Disable privileged and confidential
 
     3.  In the confirmation modal enter work notes and select **Disable**.
 

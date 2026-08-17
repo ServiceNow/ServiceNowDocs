@@ -1,6 +1,6 @@
 ---
 title: Exploring other Virtual Agent features
-description: After creating topics with the basic Virtual Agent Designer controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
+description: After creating topics with the basic Assistant Designer Asset library controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/exploring-other-vad-features.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
 
 # Exploring other Virtual Agent features
 
-After creating topics with the basic Virtual Agent Designer controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
+After creating topics with the basic Assistant Designer Asset library controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
 
 After learning the basics, here are some other Virtual Agent features that may help you improve your authoring and end-user experience.
 
@@ -37,7 +37,7 @@ After learning the basics, here are some other Virtual Agent features that may h
 
 -   **[Customize Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/custom-controls.md)**
 
-    If a Virtual Agent Designer control doesn't quite work for what you want to achieve, create a custom control. You can create your own controls to accept input from the conversation, as well as custom response controls to handle the output. Use these controls within topics to handle specialized tasks.
+    If a Assistant Designer Asset library control doesn't quite work for what you want to achieve, create a custom control. You can create your own controls to accept input from the conversation, as well as custom response controls to handle the output. Use these controls within topics to handle specialized tasks.
 
 -   **[Integrate Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)**
 
@@ -55,7 +55,7 @@ After learning the basics, here are some other Virtual Agent features that may h
 
     Use the ServiceNow Localization Framework to translate topics and NLU models into other languages.
 
--   **NLU Workbench - Advanced Features**
+-   **[NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-workbench-advanced-features.md)**
 
     Expand the functionality of NLU Workbench to help you manage and improve your models. NLU Workbench - Advanced Features is available from the ServiceNow Store.
 
@@ -76,7 +76,7 @@ Take advantage of the following ServiceNow® resources to help you customize you
 -   [Virtual Agent Academy](https://community.servicenow.com/community?id=community_event&sys_id=be9b3a771ba680d4d01143f6fe4bcbda&view_source=featuredList)
 
 -   **[Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integrations.md)**  
-When creating a topic or topic block, you can specify the chat channels in which the topic or topic block will run. During conversation design, Virtual Agent Designer provides built-in guardrails to help you tailor your conversations to those channels.
+When creating a topic or topic block, you can specify the chat channels in which the topic or topic block will run. During conversation design, Assistant Designer Asset library provides built-in guardrails to help you tailor your conversations to those channels.
 -   **[Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-link-unfurling.md)**  
 Virtual Agent supports link unfurling on the chat widget, mobile devices, and various channels. Link unfurling generates a content-rich preview when a supported link is shared in a conversation with a user, a virtual agent, or in a text-based bot response.
 -   **[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md)**  

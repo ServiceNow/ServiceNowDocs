@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Skill configuration, configure quality assessment skill]
-breadcrumb: [Configure a skill, Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure a skill, Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Configure the Security incident quality assessment skill
@@ -23,17 +23,15 @@ Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  In **Technology**, select **Security Operations**.
 
-    The Now Assist skills for Security Operations page displays the list of available skills.
-
-3.  In the Security Incident Quality Assessment tile, select \[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.
+3.  In the Security Incident Quality Assessment tile, select \[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon..
 
 4.  Select **Edit**.
 

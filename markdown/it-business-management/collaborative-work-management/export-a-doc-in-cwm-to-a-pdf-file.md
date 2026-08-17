@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -21,6 +21,10 @@ Use the Docs offline, and share with teams or stakeholders outside Collaborative
 [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
+
+## About this task
+
+If there are inline comments present in the Doc, they aren't highlighted or marked in the PDF output.
 
 ## Procedure
 

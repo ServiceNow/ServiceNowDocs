@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-16"
 reading_time_minutes: 1
 keywords: [AI Agent activity, mapping results, ITOM]
-breadcrumb: [AI Agents for Service Mapping, AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI Agents for Service Mapping, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping AI Agent activity list tables

@@ -1,5 +1,5 @@
 ---
-title: Summarize an engagement using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize an engagement using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-engagement.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Summarize an engagement using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize an engagement using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 
@@ -55,15 +55,15 @@ If there is enough data, the Engagement summary component displays the **Summari
 
 4.  After you're finished summarizing an engagement, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35302e165">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35208e165">
 
 Option
 
-</th><th align="left" id="d35302e168">
+</th><th align="left" id="d35208e168">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35302e174">
+</th></tr></thead><tbody><tr><td id="d35208e174">
 
 **View more or less summary details**
 
@@ -73,7 +73,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d35302e204">
+</td></tr><tr><td id="d35208e204">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35302e237">
+</td></tr><tr><td id="d35208e237">
 
 **Copy the summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35302e252">
+</td></tr><tr><td id="d35208e252">
 
 **View the information about the summary**
 
@@ -101,5 +101,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

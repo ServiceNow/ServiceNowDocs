@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-connct-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-07-27"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -40,13 +40,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio** or **All** &gt; **App Development** &gt; **ServiceNow IDE**.
 
-2.  In the Build Agent chat panel, select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text:.
+2.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
 
     \[Omitted image "ba-settings-panel-1.png"\] Alt text: Build Agent panel showing greeting message and the Settings button
 
-3.  Select the **Enable MCP servers** toggle.
+3.  Select the **Enable MCP servers** toggle on the **MCP** tab.
 
-    \[Omitted image "ba-settings-panel-2.png"\] Alt text: Settings panel showing behavior and features configuration options with toggle switches
+    \[Omitted image "ba-settings-panel-mcp-tab.png"\] Alt text: MCP tab of the Settings panel with the Enable MCP servers and ATF Cloud runner toggles turned on.
 
 4.  Select the MCP servers icon \[Omitted image "ba-mcp-settings-icon.png"\] Alt text: that appears after you enable MCP servers.
 
@@ -61,6 +61,10 @@ Role required: admin
 6.  Select **Allow** in the confirmation dialog.
 
     You must do this only for the initial connection.
+
+7.  View the list of available tools that you can call for each MCP server by expanding the server name.
+
+    \[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel showing available tools.
 
 
 ## Result

@@ -16,14 +16,14 @@ breadcrumb: [Virtual Agent, Conversational Interfaces]
 
 Convert the time your agents and technicians spend handling low-impact user requests into an intelligently managed interaction. Enable Virtual Agent with NLU to understand the intent of what people are looking for and provide them with more relevant answers.
 
-You can quickly deploy AI‑powered chatbot conversations using customizable templates for the most common enterprise IT, HR, and customer service scenarios. You can design, build, and test conversations with Virtual Agent Designer.
+You can quickly deploy AI‑powered chatbot conversations using customizable templates for the most common enterprise IT, HR, and customer service scenarios. You can design, build, and test conversations with Assistant Designer Asset library.
 
--   **[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)**  
-The Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+-   **[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)**  
+The Assistant Designer Asset library includes a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 -   **[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)**  
 Virtual Agent provides several self-service options for your user that can help deflect tickets.
 -   **[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)**  
-After creating topics with the basic Virtual Agent Designer controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
+After creating topics with the basic Assistant Designer Asset library controls and scripting, you can also enhance conversation functionality and topic maintenance by using additional Virtual Agent features.
 -   **[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-va-agent-chat.md)**  
 Sometimes a conversation requires human intervention. When this occurs, you can transfer the user to a live agent in Agent Chat.
 -   **[Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-api-landing-page.md)**  

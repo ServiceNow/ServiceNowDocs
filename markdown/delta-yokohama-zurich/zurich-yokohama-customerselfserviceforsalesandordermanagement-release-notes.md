@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customerselfserviceforsalesandordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,7 @@ Zurich
 
 </td><td>
 
-The new order checkout experience and improved cart capabilities are delivered through a new Sales Cart plugin \(sn\_sales\_cart\). As an admin, you must perform the [Post-upgrade order migration](https://servicenow-staging.fluidtopics.net/access?context=post-upgrade-task-business-portal&family=zurich&ft:locale=en-US) to continue providing a seamless experience for your customers. Failing to perform the upgrade steps can result in your customers losing products added to their carts.
+The new order checkout experience and improved cart capabilities are delivered through a new Sales Cart plugin \(sn\_sales\_cart\). As an admin, you must perform the [Post-upgrade order migration](https://www.servicenow.com/docs/access?context=post-upgrade-task-business-portal&family=zurich) to continue providing a seamless experience for your customers. Failing to perform the upgrade steps can result in your customers losing products added to their carts.
 
 </td></tr></tbody>
 </table>## New features
@@ -75,7 +75,7 @@ Zurich
 
 </td><td>
 
--   **[Customer-initiated RFQs](https://servicenow-staging.fluidtopics.net/access?context=create-rfq-business-portal&family=zurich&ft:locale=en-US)**
+-   **[Customer-initiated RFQs](https://www.servicenow.com/docs/access?context=create-rfq-business-portal&family=zurich)**
 
 Request quotes for products and services without relying on manual outreach. The RFQ feature in the Business Portal streamlines the quoting process by enabling customers to:
 
@@ -83,11 +83,11 @@ Request quotes for products and services without relying on manual outreach. The
     -   Specify the overall budget and cumulative target price for each top-level product
     -   Track RFQ status and quotes in real time
     -   Accelerate sales response time with seamless quote-to-order conversion
--   **[Generate quotes from RFQs](https://servicenow-staging.fluidtopics.net/access?context=convert-rfq-quote-workspace&family=zurich&ft:locale=en-US)**
+-   **[Generate quotes from RFQs](https://www.servicenow.com/docs/access?context=convert-rfq-quote-workspace&family=zurich)**
 
 View all RFQs submitted through the Business Portal in the CSM/FSM Configurable Workspace, eliminating the need for managing and tracking them offline. Convert RFQs into quotes with a single action, accelerating the quote-to-order process, improving turnaround times, and enabling scalable quote management.
 
--   **[Create orders from the Business Portal](https://servicenow-staging.fluidtopics.net/access?context=order-mgt-create-an-order-using-customer-portal&family=zurich&ft:locale=en-US)**
+-   **[Create orders from the Business Portal](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=zurich)**
 
 Deploying the Sales Cart plugin provides the following advantages to your B2B customers when they order products using the Business Portal:
 
@@ -365,7 +365,7 @@ Zurich
 -   Enable your customers to download and share their cart summary with other stakeholders.
 -   Provide seamless order checkout and an easy order creation process to your customers.
 
- See [Self-Service for Sales and Order Management](https://servicenow-staging.fluidtopics.net/access?context=som-self-service-business-portal&family=zurich&ft:locale=en-US) for more information.
+ See [Self-Service for Sales and Order Management](https://www.servicenow.com/docs/access?context=som-self-service-business-portal&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

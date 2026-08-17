@@ -7,14 +7,16 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-07-16"
+reading_time_minutes: 2
 breadcrumb: [Reference, Service Level Management, IT Service Management]
 ---
 
 # Legacy: Platform Analytics Solutions for Service Level Management
 
 This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
+
+**Note:** The Service Level Management PA dashboard is deprecated. SLA KPIs are available in the individual dashboards for each workflow, such as [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident.md) or [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change.md). For more information on Platform Analytics Solutions containing preconfigured dashboards, see [ITSM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-dashboards-content-pack-sd.md).
 
 ## Enabling the Platform Analytics Solution
 

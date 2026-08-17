@@ -7,9 +7,9 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Use Recommendation of similar control objectives skill to generate suggestions, Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Use Recommendation of similar control objectives skill, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Act on the recommendations for similar control objectives
@@ -18,7 +18,7 @@ Act on the recommendations, like accept as duplicate, retain as primary, or dism
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
@@ -26,7 +26,7 @@ For more information on related roles, see [Roles installed with GRC: Policy and
 
 ## About this task
 
-Now Assist for Integrated Risk Management \(IRM\) introduces an AI-powered rationalization workflow that enables privacy managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
+ServiceNow Otto for Privacy Management introduces an AI-powered rationalization workflow that enables privacy managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
 
 **Important:** Be sure to check AI-generated recommendations for accuracy.
 

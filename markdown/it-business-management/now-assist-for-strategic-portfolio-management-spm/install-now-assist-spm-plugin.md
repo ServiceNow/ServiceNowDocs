@@ -9,7 +9,7 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-04-14"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Configure, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install Now Assist plugins
@@ -20,19 +20,19 @@ Install Now Assist plugins to enable generative AI on your instance.
 
 Role required: admin
 
-Follow these instructions to get started with Now Assist Admin:
+Follow these instructions to get started with AI Admin Hub:
 
 1.  To get started with Now Assist, you must install at least one Now Assist application on your instance.
-2.  Activate any Now Assist plugin from the ServiceNow Store to access Now Assist Admin.
-3.  Install additional plugins, from the Now Assist Admin console.
-4.  The Now Assist Admin console guides your implementation, starting with installation.
+2.  Activate any Now Assist plugin from the ServiceNow Store to access AI Admin Hub.
+3.  Install additional plugins, from the AI Admin Hub console.
+4.  The AI Admin Hub console guides your implementation, starting with installation.
 5.  Check out the [Now Assist Journey Checklist for more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in Now Assist Admin, select the **Settings** tab.
+    If you’re already in AI Admin Hub, select the **Settings** tab.
 
 2.  On the **Settings** page, select **Plugins**.
 
@@ -46,7 +46,7 @@ Follow these instructions to get started with Now Assist Admin:
 
     Some applications may require you to request the app from the ServiceNow® Store first. After you've requested the application from the ServiceNow® Store page, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** to finish the installation.
 
-6.  Return to the Now Assist Admin console.
+6.  Return to the AI Admin Hub console.
 
 7.  In the dialog box, select **Refresh**.
 
@@ -62,5 +62,5 @@ If you encounter issues installing or updating applications, see this [knowledge
 **Related topics**  
 
 
-[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

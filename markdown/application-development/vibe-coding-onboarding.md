@@ -18,13 +18,13 @@ The following checklist helps to ensure your environment is properly configured,
 ## Agentic development access and setup
 
 1.  Ensure you have credentials for the development instance.
-2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or Now Assist for Creator.
+2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or ServiceNow Otto for Creator.
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md)
 
         **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
 
-    -   [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
+    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
 4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
@@ -38,7 +38,7 @@ ServiceNow Studio and ServiceNow IDE are automatically available on every instan
 ## Learn core features
 
 1.  Practice converting natural language prompts into apps using Build Agent.
-2.  If you're using Now Assist for Creator tools, familiarize yourself with the following:
+2.  If you're using ServiceNow Otto for Creator tools, familiarize yourself with the following:
     -   Text-to-form/App scaffolding
     -   Code explanation and refactoring, though Build Agent has a more robust implementation.
 3.  Explore multi-turn chat for iterative development through conversational prompting.

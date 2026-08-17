@@ -1,19 +1,19 @@
 ---
-title: AI governance for Now Assist on the ServiceNow AI Platform
-description: As organizations increasingly adopt AI to drive efficiency, innovation, and customer experience, AI governance becomes essential to ensure responsible use, regulatory compliance, and alignment with enterprise goals. Now Assist provides a comprehensive governance framework through key roles and applications that work together to manage AI across its life cycle.
+title: AI governance on the ServiceNow AI Platform
+description: As organizations increasingly adopt AI to drive efficiency, innovation, and customer experience, AI governance becomes essential to ensure responsible use, regulatory compliance, and alignment with enterprise goals. ServiceNow provides a comprehensive governance framework through key roles and applications that work together to manage AI across its life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-ai-impl-governance.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, agentic AI, AI readiness]
 breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
 ---
 
-# AI governance for Now Assist on the ServiceNow AI Platform
+# AI governance on the ServiceNow AI Platform
 
-As organizations increasingly adopt AI to drive efficiency, innovation, and customer experience, AI governance becomes essential to ensure responsible use, regulatory compliance, and alignment with enterprise goals. Now Assist provides a comprehensive governance framework through key roles and applications that work together to manage AI across its life cycle.
+As organizations increasingly adopt AI to drive efficiency, innovation, and customer experience, AI governance becomes essential to ensure responsible use, regulatory compliance, and alignment with enterprise goals. ServiceNow provides a comprehensive governance framework through key roles and applications that work together to manage AI across its life cycle.
 
 ## AI policy considerations
 
@@ -27,7 +27,7 @@ The following policy considerations shape how AI is deployed, monitored, and mai
     -   Encryption standards for data in transit and at rest.
     -   Data residency and sovereignty restrictions, which determine where data can be stored and processed.
     -   Retention and deletion policies that govern how long data is kept and when it must be purged.
-    Admins can configure Data Privacy for Now Assist to mask sensitive fields and control what is shared with third-party models. For details, see [Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/now-assist-for-data-privacy-landing.md).
+    Admins can configure Data Privacy to mask sensitive fields and control what is shared with third-party models. For details, see [Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/now-assist-for-data-privacy-landing.md).
 
 -   **Compliance and regulations**
 
@@ -64,14 +64,14 @@ The following groups set and execute AI policy in an organization:
 
 -   **Internal governance and oversight**
 
-    Governance and oversight of AI in Now Assist is led by structured groups that define and enforce responsible use. An AI Governance Committee and Data Governance Council set enterprise-wide guardrails for AI, including standards for privacy, fairness, and compliance, and are responsible for reviewing and approving new AI use cases. Supporting these bodies, the AI Steward ensures that AI is used responsibly across workflows, overseeing data quality, managing risks such as bias or data exposure, and monitoring adherence to regulatory requirements. Additionally, AI Stewards monitor regulatory compliance, assess performance and user feedback, and work with admins and developers to optimize AI automation while minimizing risk.
+    Governance and oversight of AI is led by structured groups that define and enforce responsible use. An AI Governance Committee and Data Governance Council set enterprise-wide guardrails for AI, including standards for privacy, fairness, and compliance, and are responsible for reviewing and approving new AI use cases. Supporting these bodies, the AI Steward ensures that AI is used responsibly across workflows, overseeing data quality, managing risks such as bias or data exposure, and monitoring adherence to regulatory requirements. Additionally, AI Stewards monitor regulatory compliance, assess performance and user feedback, and work with admins and developers to optimize AI automation while minimizing risk.
 
 -   **Implementation and operations**
 
-    Implementation and operations teams are responsible for securely deploying and managing AI features in alignment with governance policies. The Now Assist admin configures and manages Now Assist capabilities, ensuring that AI features are properly mapped to workflows and governed according to enterprise standards. Platform owners and ServiceNow admins oversee the deployment process, making sure that all configurations comply with established policies and technical requirements. Meanwhile, AI developers build, extend, and integrate AI features into business workflows, working closely with admins and platform teams to deliver scalable, compliant, and effective AI solutions. Together, these roles translate governance policies into secure, functional AI implementations.
+    Implementation and operations teams are responsible for securely deploying and managing AI features in alignment with governance policies. The AI admin configures and manages AI capabilities, ensuring that AI features are properly mapped to workflows and governed according to enterprise standards. Platform owners and ServiceNow admins oversee the deployment process, making sure that all configurations comply with established policies and technical requirements. Meanwhile, AI developers build, extend, and integrate AI features into business workflows, working closely with admins and platform teams to deliver scalable, compliant, and effective AI solutions. Together, these roles translate governance policies into secure, functional AI implementations.
 
 
-For more information about AI governance user roles, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md) and [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/assign-data-steward-role.md).
+For more information about AI governance user roles, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/assign-data-steward-role.md).
 
 For more resources about AI governance, see the following Best Practices topics:
 
@@ -81,18 +81,18 @@ For more resources about AI governance, see the following Best Practices topics:
 
 ## AI governance tools
 
-Now Assist governance is specified in the following tools:
+ServiceNow Otto governance is specified in the following tools:
 
 -   **AI Control Tower**
 
-    The AI Control Tower functions as the central hub for AI strategy, governance, and analytics within Now Assist. It offers enterprise-wide visibility into AI assets, usage patterns, and compliance status, enabling organizations to maintain oversight and accountability. Through automated discovery and inventory of approved AI assets, it streamlines asset management while embedding governance checks and compliance alerts to ensure that all AI deployments remain secure and aligned with organizational policies.
+    The AI Control Tower functions as the central hub for AI strategy, governance, and analytics within the platform. It offers enterprise-wide visibility into AI assets, usage patterns, and compliance status, enabling organizations to maintain oversight and accountability. Through automated discovery and inventory of approved AI assets, it streamlines asset management while embedding governance checks and compliance alerts to ensure that all AI deployments remain secure and aligned with organizational policies.
 
-    For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
+    For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-landing.md).
 
--   **Now Assist Admin console**
+-   **AI Admin Hub**
 
-    The Now Assist Admin console is key to managing AI governance by configuring policies, enforcing data handling rules, and ensuring compliance with security and privacy standards. Admins oversee provider policies at the skill level, track usage analytics like success rates and adoption, and collaborate with AI stewards and business SMEs to align AI with organizational goals. They also connect governance committees with technical teams to support smooth policy execution.
+    The AI Admin Hub is key to managing AI governance by configuring policies, enforcing data handling rules, and ensuring compliance with security and privacy standards. Admins oversee provider policies at the skill level, track usage analytics like success rates and adoption, and collaborate with AI stewards and business SMEs to align AI with organizational goals. They also connect governance committees with technical teams to support smooth policy execution.
 
-    For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist.md).
+    For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist.md).
 
 

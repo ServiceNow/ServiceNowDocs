@@ -1,5 +1,5 @@
 ---
-title: Certificate Routing Policy form
+title: Certificate Routing Policy form for ACME
 description: Fill in the Certificate Routing Policy form to set up the routing policy for ACME.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/certificate-routing-policy-field-values.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up the routing policy for ACME, Configuring ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Certificate Routing Policy form
+# Certificate Routing Policy form for ACME
 
 Fill in the Certificate Routing Policy form to set up the routing policy for ACME.
 
@@ -109,4 +109,5 @@ The **Organization**, **Organizational Unit**, **Locality**, **State**, **Countr
 -   Shouldn’t start or end with a forward slash \(/\).
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)
+

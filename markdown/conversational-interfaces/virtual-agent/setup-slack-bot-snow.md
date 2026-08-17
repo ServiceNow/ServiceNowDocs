@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integrating a self-configured bot with Slack workspace, Integrate VA with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -24,26 +24,26 @@ Role required: admin
 
 1.  Log in to [Slack API](https://api.slack.com/apps).
 
-2.  Click **Your Apps**, select a bot and navigate to **Settings** &gt; **Basic Information** &gt; **Display Information** to copy the **App name** \(Bot name\).
+2.  Select **Your Apps**, select a bot and navigate to **Settings** &gt; **Basic Information** &gt; **Display Information** to copy the **App name** \(Bot name\).
 
-3.  Enter your **Bot User OAuth Access Token** in the token argument, click **Test Method**, and copy the **Team ID**.
+3.  Enter your **Bot User OAuth Access Token** in the token argument, select **Test Method**, and copy the **Team ID**.
 
-    **Note:** You can find the Access token in **OAuth &amp; Permissions** in your Slack app.
+    **Note:** You can find the access token in **OAuth &amp; Permissions** in your Slack app.
 
     \[Omitted image "slack-team-id.png"\] Alt text: The Slack Team ID is shown in the code window as "id":"T01GDN5CCUE."
 
 4.  Navigate to Basic Information in your Slack workspace \(in api.slack.com\) and copy the **Signing Secret** under **App Credentials**.\[Omitted image "slack-signing-secret.png"\] Alt text: The Signing Secret field is highlighted in the App Credentials page in your workspace. If it is hidden, select Show.
 
-5.  Navigate to OAuth &amp; Permissions in your Slack workspace and copy the **Bot User OAuth Access Token**.
+5.  Navigate to **OAuth &amp; Permissions** in your Slack workspace and copy the **Bot User OAuth Access Token**.
 
     \[Omitted image "slack-access-token.png"\] Alt text: The Bot User OAuth Access Token field is highlighted in the Slack instance. Select "Copy" to copy it to the clipboard.
 
 
 ## Result
 
-You should now be able to interact with your Self-configured bot.
+You should now be able to interact with your self-configured bot.
 
-If you do not see your bot under the Apps section, then click **Add Apps** and search for your bot and select it. You can type **hi** to receive a response.
+If you don't see your bot under the Apps section, then select **Add Apps** and search for your bot and select it. You can type **hi** to receive a response.
 
 **Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

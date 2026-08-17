@@ -1,6 +1,6 @@
 ---
-title: Use Now Assist to create spokes and build actions
-description: Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+title: Use ServiceNow Otto to create spokes and build actions
+description: Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
 ---
 
-# Use Now Assist to create spokes and build actions
+# Use ServiceNow Otto to create spokes and build actions
 
-Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 
 ## Capabilities
 
@@ -34,18 +34,18 @@ Spoke Generation skill v1.0.4 is the latest version.
 
 ## App version
 
-Now Assist for Spoke Generation v1.6.0 is the latest version.
+Now Assist for Spoke Generation v1.7.0 is the latest version.
 
 ## Activation of the spoke generation skill
 
-The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) from the Now Assist Admin console.
+After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the ServiceNow Otto for Creator feature from the AI Admin Hub console.
 
-\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill inNow Assist Admin console.
+\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 
--   For information about the Now Assist Admin console, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
--   For steps to activate the required skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   For information about the AI Admin Hub console, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+-   For steps to activate the required skill, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
@@ -65,13 +65,13 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/install-now-assist-spk.md)**  
-Install the Now Assist for Creator application to use the spoke generation skill.
+-   **[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/install-now-assist-spk.md)**  
+Install the ServiceNow Otto for Creator application to use the spoke generation skill.
 -   **[Turn on the spoke generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-on-spk-gen-skill.md)**  
 Turn on the flow generation skill to use generative AI to create a spoke.
--   **[Configure a third-party LLM provider as default for Now Assist for Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-tpt-llm-provider-for-now-assist-for-spokes.md)**  
-Configure a third-party LLM provider as the default LLM provider that can create a spoke using Now Assist.
--   **[Create spoke and build actions using the spoke generation skill in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spk-now-spk-gen.md)**  
+-   **[Configure a third-party LLM provider as default for ServiceNow Otto for Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-tpt-llm-provider-for-now-assist-for-spokes.md)**  
+Configure a third-party LLM provider as the default LLM provider that can create a spoke using ServiceNow Otto.
+-   **[Create spoke and build actions using the spoke generation skill in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spk-now-spk-gen.md)**  
 Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 
 **Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)

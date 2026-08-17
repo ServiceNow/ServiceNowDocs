@@ -60,7 +60,7 @@ Role required:
 
     The following details are displayed for each case task:
 
-    -   Header section that provides information about the case task including case number, parent, or onboarding case with which the task is associated, the account name, and status of the task.
+    -   Header section that provides information about the case task. This includes case number, parent or onboarding case, account name, and task status.
     -   The left-hand section provides the following details:
         -   General instructions: Provides a short description and a detailed case description. Select **View More** to view all the details related to the case.
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.

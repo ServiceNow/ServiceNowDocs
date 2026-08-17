@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-gaf.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-07-21"
+reading_time_minutes: 5
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Configure Group Action Framework
@@ -18,7 +18,11 @@ Set up Group Action Framework \(GAF\) to improve the response quality, recall sp
 
 There must be a ml\_platform read ACL for GAF to be configured. If there is no read ACL present, you must create it and grant the appropriate role access, such as admin, ml\_admin, or sn\_aia.admin. This is required for GAF to access Machine Learning tables and services. If your ACL is not configured correctly, you may see the error "Failed to initialize pipeline: Failed to load message\_content dataset. No columns to parse from file."
 
-To access GAF's optimized prediction feature, you can enable Now Assist in AI Search. For more information, see [Setup AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/setup-ai-search-gaf.md).
+Verify that your configured LLM provider \(such as OpenAI or Anthropic\) has valid credentials and available token quota.
+
+Verify that the prerequisite scheduled job for your workflow exists and is properly configured. For example, if you're configuring GAF for HR Service Delivery, navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and search for "HR service GAF grouping job". Verify that the **Active** field is set to true and that the **Class** field is populated. If either field is empty, the job will not execute.
+
+To access GAF's optimized prediction feature, you can enable AI Search. For more information, see [Setup AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/setup-ai-search-gaf.md).
 
 Role required: sn\_aia.admin
 
@@ -26,7 +30,7 @@ Role required: sn\_aia.admin
 
 You can activate GAF to have AI agents use indexed clusters that perform LLM executions on representative records rather than all records. GAF is used by some AI agents and agentic workflows to work optimally. For more information about GAF and how it works, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/group-action-framework.md).
 
-You can have different GAF configurations for different agentic workflows and Now Assist applications. You must configure each agentic workflow or application separately.
+You can have different GAF configurations for different agentic workflows and applications. You must configure each agentic workflow or application separately.
 
 **Important:** Setting up GAF can take some time, between 10 minutes up to an hour, depending on the number of records in the grouping. The script runs in the background.
 
@@ -49,7 +53,7 @@ You can have different GAF configurations for different agentic workflows and No
 
 3.  In a new browser tab, navigate to the Now Assist Skill Config \[sn\_nowassist\_skill\_config\] table by entering `sn_nowassist_skill_config.list` in the filter navigator.
 
-4.  In the **Name** field, enter `*grouping` and search to see the grouping records that are associated with your agentic workflows and Now Assist applications.
+4.  In the **Name** field, enter `*grouping` and search to see the grouping records that are associated with your agentic workflows and applications.
 
     \[Omitted image "gaf-grouping-search.png"\] Alt text: Now Assist Skill Config table filtered by \*grouping in the Name field
 
@@ -79,6 +83,8 @@ You can have different GAF configurations for different agentic workflows and No
 
 11. Open the action strategy record for the application that you’re configuring.
 
+    **Note:** The Group table field should be left empty. The Group table refers to the table where the grouped records are, not the source table, so the field is populated automatically by the GAF setup job. If this field is populated before you run the script, the GAF job will fail.
+
 12. Copy the sys\_id of the action strategy record.
 
 13. In the browser tab with the background script, paste the sys\_id in the script between the quotation marks for the actionSkillId variable.
@@ -94,7 +100,7 @@ You can have different GAF configurations for different agentic workflows and No
 
 ## Result
 
-GAF is configured on your instance for that Now Assist application and can be used by AI agents to find related records.
+GAF is configured on your instance for that application and can be used by AI agents to find related records.
 
 ## What to do next
 
@@ -104,7 +110,7 @@ To verify that grouping and action outputs have been generated, go to the ML Sol
 -   GAF record group detail \[sn\_gaf\_record\_group\_detail\]
 -   GAF action strategy result \[sn\_gaf\_action\_strategy\_result\]
 
-You can repeat this procedure for additional agentic workflows and Now Assist applications.
+You can repeat this procedure for additional agentic workflows and applications.
 
 You may see the error "Failed to initialize pipeline: Failed to load message\_content dataset. No columns to parse from file." when trying to configure GAF. This could be because your instance lacks data on the table or filters you configured excluded records from the table. You can reach out to Now Support for additional assistance if you cannot resolve this error.
 

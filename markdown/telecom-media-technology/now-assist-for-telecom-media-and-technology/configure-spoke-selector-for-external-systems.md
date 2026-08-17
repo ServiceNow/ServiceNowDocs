@@ -190,5 +190,5 @@ Condition to trigger the request adapter.
 
 ## Result
 
-Once the condition is set and the request condition matched, the defined flow executes and the records for the configuration are fetched from the external provider that you selected, into your ServiceNow instance.
+Once the condition is set and the request condition matched, the defined flow executes. The records for the configuration are fetched from the external provider that you selected into your ServiceNow instance.
 

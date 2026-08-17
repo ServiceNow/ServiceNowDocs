@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -466,7 +466,7 @@ Boot time
 
 </td></tr><tr><td colspan="2">
 
-View detailed boot performance metrics and identify issues that may be causing slow startup times on the device.
+View detailed boot performance metrics and identify issues that might cause slow startup times on the device.
 
 This tab appears on Windows machines only.
 
@@ -480,11 +480,11 @@ Key metrics shows current boot performance data to help you quickly assess syste
 
 </td></tr><tr><td>
 
-Now Assist for Boot time issues
+ServiceNow Otto for Boot time issues
 
 </td><td>
 
-In the **Now Assist for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. Also find recommendations to fix Boot time issues. For more information, see [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.md).
+In the **ServiceNow Otto for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. Also find recommendations to fix Boot time issues. For more information, see [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.md).
 
 </td></tr></tbody>
 </table><table id="table_nvx_xh1_zdc"><thead><tr><th>

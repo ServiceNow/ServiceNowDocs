@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Assists page in Assistant analytics

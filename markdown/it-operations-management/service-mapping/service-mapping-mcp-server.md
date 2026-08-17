@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-29"
 reading_time_minutes: 8
 keywords: [MCP Server, Service Mapping, Claude, Model Context Protocol, AI assistant, application service topology, MCP Server Console, CMDB MCP Server]
-breadcrumb: [AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping MCP tools
@@ -156,5 +156,5 @@ Add the Service Mapping MCP Server as a custom connector in Claude Desktop so yo
 -   **[Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md)**  
 Reference information for the six Service Mapping MCP tools provided by the CMDB MCP Server, including their inputs, outputs, and example natural-language queries for use with Claude, and service creation workflows.
 
-**Parent Topic:**[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
+**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 2
-breadcrumb: [View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a chat assistant
@@ -20,11 +20,11 @@ Create a chat assistant on your instance. Add basic details and set your assista
 
 See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
 
-When configuring a chat assistant, notes throughout the procedures show where there are variations between the setup for Now Assist in Virtual Agent assistants and the setup for Now Assist panel \(Platform and Developer\) assistants.
+When configuring a chat assistant, notes throughout the procedures show where there are variations between the setup for ServiceNow Otto for Virtual Agent assistants and the setup for ServiceNow Otto panel \(Platform and Developer\) assistants.
 
-Now Assist in Virtual Agent assistants and Now Assist panel - Platform \(default\) assistant can be linked to other assistants.
+ServiceNow Otto for Virtual Agent assistants and ServiceNow Otto panel - Platform \(default\) assistant can be linked to other assistants.
 
-Additional Now Assist panel assistants can't be created.
+Additional ServiceNow Otto panel assistants can't be created.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -36,15 +36,15 @@ Set up basic details for your assistant and set it as a primary assistant. Prima
 
 1.  Provide a name and description for the assistant.
 
-    The name of the assistant in this example is Now Assist in Virtual Agent - TEST. An alert is shown if you attempt to create an assistant with the same name as another assistant.
+    The name of the assistant in this example is ServiceNow Otto for Virtual Agent - TEST. An alert is shown if you attempt to create an assistant with the same name as another assistant.
 
-    **Note:** The **Name** and **Description** fields for Now Assist panel assistants can't be modified.
+    **Note:** The **Name** and **Description** fields for ServiceNow Otto panel assistants can't be modified.
 
-    \[Omitted image "NAinVA-chat-details-122025.png"\] Alt text: Provide a name and description for your assistant.
+    \[Omitted image "sno-chat-details-0826.png"\] Alt text: Provide a name and description for your assistant.
 
 2.  Select the **Set as a primary assistant** check box if you want to make the assistant a primary assistant to which you can add secondary assistants.
 
-    **Note:** The ability to link to another assistant is not available for Now Assist panel - Developer assistant.
+    **Note:** The ability to link to another assistant is not available for ServiceNow Otto panel - Developer assistant.
 
 3.  Place your cursor within the **Select assistants to link to** field to see a list of available secondary assistants.
 

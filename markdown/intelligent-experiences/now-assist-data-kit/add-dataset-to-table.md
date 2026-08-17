@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-03-17"
 reading_time_minutes: 1
-breadcrumb: [Add a dataset, Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Add a dataset, Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Add dataset to a table
@@ -22,7 +22,7 @@ Role required: sn\_data\_kit.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Data Kit** &gt; **Home**.
 
 2.  Select a dataset.
 

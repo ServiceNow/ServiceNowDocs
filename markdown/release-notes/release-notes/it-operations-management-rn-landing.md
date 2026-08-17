@@ -18,8 +18,8 @@ The ServiceNow® ITOM Cloud Accelerate provides workflows to govern the provisio
 The ServiceNow® ITOM AIOps product helps you to keep track and maintain the health of the services in your organization. ITOM AIOps was enhanced and updated in the Zurich release.
 -   **[ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/itom-visibility-rn.md)**  
 The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Zurich release.
--   **[Now Assist for IT Operations Management \(ITOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itom-rn.md)**  
-The ServiceNow® Now Assist for ITOM application brings generative AI to ITOM. Now Assist for ITOM was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for IT Operations Management \(ITOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itom-rn.md)**  
+The ServiceNow® ServiceNow Otto for ITOM application brings generative AI to ITOM. ServiceNow Otto for ITOM was enhanced and updated in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

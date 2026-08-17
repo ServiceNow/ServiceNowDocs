@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/execute-voice-aia-eval.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-07-21"
 reading_time_minutes: 5
-breadcrumb: [Execute a run, Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Execute a run, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Execute a run for an AI voice agentic asset
@@ -16,7 +16,7 @@ Evaluate AI voice agentic assists against datasets to monitor performance and co
 
 ## Before you begin
 
-Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI in Now Assist. You can also create execution log data after setting up your evaluation run.
+Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI in ServiceNow Otto. You can also create execution log data after setting up your evaluation run.
 
 For more information about testing agentic workflows, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aia-use-case.md).
 
@@ -26,7 +26,7 @@ Role required: sn\_voice\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
     You can also start from the testing page of the AI Agent Studio. Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**. Select **Start automated evaluation** to access the guided setup.
 

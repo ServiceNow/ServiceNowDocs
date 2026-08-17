@@ -30,7 +30,7 @@ Role required: sn\_customerservice\_manager or admin
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d238074e106">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d237788e106">
 
 **Approve**
 
@@ -38,7 +38,7 @@ Role required: sn\_customerservice\_manager or admin
 
 The review state changes to **Approved** on the Approvals list.
 
-</td></tr><tr><td id="d238074e118">
+</td></tr><tr><td id="d237788e118">
 
 **Reject**
 

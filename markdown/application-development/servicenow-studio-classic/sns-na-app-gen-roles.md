@@ -1,6 +1,6 @@
 ---
 title: Now Assist for app generation roles for ServiceNow Studio
-description: The following roles are installed for use with the Now Assist for Creator app generation skill.Access all system features, functions, and data, regardless of security constraints.Create applications through a conversation with generative AI.
+description: The following roles are installed for use with the ServiceNow Otto for Creator app generation skill.Access all system features, functions, and data, regardless of security constraints.Create applications through a conversation with generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-na-app-gen-roles.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Now Assist for app generation in ServiceNow Studio, Now 
 
 # Now Assist for app generation roles for ServiceNow Studio
 
-The following roles are installed for use with the Now Assist for Creator app generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator app generation skill.
 
 Users that only need to edit \(not create\) applications using app generation can be granted the delegated\_developer, now\_assist\_panel\_user, and now.assist.creator roles. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 

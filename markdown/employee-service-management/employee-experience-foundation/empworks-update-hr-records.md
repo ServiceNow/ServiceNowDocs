@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [update HR records, change address, emergency contact, SAP SuccessFactors]
-breadcrumb: [Working with Moveworks capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Update personal records with the AI assistant
@@ -22,7 +22,7 @@ Update personal records such as home address and emergency contact in one conver
 Before you start, verify the following:
 
 -   Verify that the admin configures the Agent Studio plugin.
--   Your organization has connected the HR system of record, such as SAP SuccessFactors, to the Moveworks AI assistant.
+-   Your organization has connected the HR system of record, such as SAP SuccessFactors, to the ServiceNow Otto AI assistant.
 
 Role required: Employee
 

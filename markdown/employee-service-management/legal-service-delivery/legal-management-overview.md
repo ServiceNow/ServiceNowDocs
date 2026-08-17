@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [Legal and Contract Operations, Employee Service Management]
 ---
@@ -101,9 +101,9 @@ The ServiceNow® Legal Simple Compliance application provides prebuilt legal wor
     The ServiceNow® Legal Stock Preclearance application enables you to manage stock preclearance requests complying with the company’s stock preclearance policy. You can set up trading windows, manage an access list, and approve or reject stock preclearance requests.
 
 
-## [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+## [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 
-Use the ServiceNow® Now Assist for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter. Request fulfillers can understand the context, refresh the summary, and post the summary to work notes more quickly with generative AI.
+Use the ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter. Request fulfillers can understand the context, refresh the summary, and post the summary to work notes more quickly with generative AI.
 
 ## [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
 

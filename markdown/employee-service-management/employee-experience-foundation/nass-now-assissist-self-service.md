@@ -40,7 +40,7 @@ To get started with the Now Assist in Virtual Agent enhanced chat:
 -   Ensure that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin.
 -   Select Employee Center from the Portals tab and select the enhanced chat.
 
-    For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+    For more information, see .
 
 
 **Important:** Pinning chat windows can create responsiveness issues on the following screen resolutions and pixel range.
@@ -54,12 +54,12 @@ Ensure you avoid pinning the chat window and resizing on these screen resolution
 
 Want to learn more? Visit these resources about Now Assist in Virtual Agent enhanced chat.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see .
 
--   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)
--   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md)
--   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
+-   
+-   
+-   
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md)
--   [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md)
--   [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/exploring-now-assist-va.md)
+-   
+-   
 

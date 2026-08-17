@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customerengagementsequences-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,31 +75,31 @@ Zurich
 
 </td><td>
 
--   **[Multi-trigger sequences with decision branches for stages](https://servicenow-staging.fluidtopics.net/access?context=define-trigger-conditions&family=zurich&ft:locale=en-US)**
+-   **[Multi-trigger sequences with decision branches for stages](https://www.servicenow.com/docs/access?context=define-trigger-conditions&family=zurich&ft:locale=en-US)**
 
 Configure the sequences playbook to start based on multiple conditions across entities, eliminating the need for separate sequences for similar workflows. Add a decision node between stages to determine which stage to run next, based on the outcome of the previous stage.
 
--   **[Schedule call activity for telesales workflows](https://servicenow-staging.fluidtopics.net/access?context=add-schedule-call-activity&family=zurich&ft:locale=en-US)**
+-   **[Schedule call activity for telesales workflows](https://www.servicenow.com/docs/access?context=add-schedule-call-activity&family=zurich&ft:locale=en-US)**
 
 Design sequences with the new Scheduled call activity to automate structured call attempts, including delays and outcome-based branching, directly from the playbook interface. This helps agents follow a repeatable, optimized process for engaging prospects or customers in telesales workflows.
 
--   **[Runtime permissions and fine-grained access control](https://servicenow-staging.fluidtopics.net/access?context=configure-runtime-permission-sequence-playbooks&family=zurich&ft:locale=en-US)**
+-   **[Runtime permissions and fine-grained access control](https://www.servicenow.com/docs/access?context=configure-runtime-permission-sequence-playbooks&family=zurich&ft:locale=en-US)**
 
 Enforce runtime permissions to control access to sequence records such as sequence tasks and steps.
 
--   **[Granular role framework](https://servicenow-staging.fluidtopics.net/access?context=components-installed-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
+-   **[Granular role framework](https://www.servicenow.com/docs/access?context=components-installed-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
 
-Assign role-based access for sequence admins, writers, executors, and readers. Sequence admins have full control, writers manage their own sequences, executors \(formerly viewers\) have read-only access to sequences and sequence task records, and readers view sequence records. For more information, see [Compatibility information](https://servicenow-staging.fluidtopics.net/access?context=compatibility-matrix-upgrade-info&family=zurich&ft:locale=en-US).
+Assign role-based access for sequence admins, writers, executors, and readers. Sequence admins have full control, writers manage their own sequences, executors \(formerly viewers\) have read-only access to sequences and sequence task records, and readers view sequence records. For more information, see [Compatibility information](https://www.servicenow.com/docs/access?context=compatibility-matrix-upgrade-info&family=zurich&ft:locale=en-US).
 
--   **[Review sequences](https://servicenow-staging.fluidtopics.net/access?context=view-sequence-design-time&family=zurich&ft:locale=en-US)View sequences**
+-   **[Review sequences](https://www.servicenow.com/docs/access?context=view-sequence-design-time&family=zurich&ft:locale=en-US)View sequences**
 
 Enable the sales operations teams to optimize and share the high-performing sequences across territories to promote best practices across the organization.
 
--   **[No-code interface for admins to configure sequences](https://servicenow-staging.fluidtopics.net/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
+-   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
 
 Configuring multi-step sequences that define specific activities using a no-code playbook experience reduces dependency on developers.
 
--   **[Sequence tasks with predefined activities for agents](https://servicenow-staging.fluidtopics.net/access?context=execute-sequence-steps&family=zurich&ft:locale=en-US)**
+-   **[Sequence tasks with predefined activities for agents](https://www.servicenow.com/docs/access?context=execute-sequence-steps&family=zurich&ft:locale=en-US)**
 
 Predefined activities provide the following advantages to your agents:
 
@@ -373,7 +373,7 @@ Zurich
 -   Automate and personalize customer journeys with a no-code playbook interface and guided task flows.
 -   Drive high-impact telesales scenarios such as product surveys, lead qualification, and proactive engagement campaigns.
 
- See [Customer Engagement Sequences](https://servicenow-staging.fluidtopics.net/access?context=explore-customer-engagement-sequences&family=zurich&ft:locale=en-US) for more information.
+ See [Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=explore-customer-engagement-sequences&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

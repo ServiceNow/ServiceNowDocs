@@ -1,0 +1,149 @@
+---
+title: Activate the Generate regulatory action plan agentic workflow
+description: Configure and activate the Generate regulatory action plan agentic workflow. This workflow uses AI agents to transform regulatory insights into actionable compliance strategies by analyzing impacted areas and historical alerts, then generating structured tasks with clear ownership and timelines.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.html
+release: zurich
+product: Regulatory Change Management Service Portal
+classification: regulatory-change-management-service-portal
+topic_type: task
+last_updated: "2025-11-10"
+reading_time_minutes: 4
+keywords: [Regulatory alerts, Agentic workflow, Security controls, Triggers, Channels]
+breadcrumb: [Generate regulatory action plan workflow, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
+---
+
+# Activate the Generate regulatory action plan agentic workflow
+
+Configure and activate the Generate regulatory action plan agentic workflow. This workflow uses AI agents to transform regulatory insights into actionable compliance strategies by analyzing impacted areas and historical alerts, then generating structured tasks with clear ownership and timelines.
+
+## Before you begin
+
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
+
+The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
+
+Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
+
+## About this task
+
+**Important:** This agentic workflow is active by default. All fields are read-only except for the Triggers and Channels and status sections. To modify other fields, clone the workflow. Currently, you can't edit agent prompts or provide feedback for training.
+
+If you have the RCM user \[sn\_grc\_reg\_change.user\] role and the sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user role, you can generate regulatory action plans using the generate regulatory action plan agentic workflow in the ServiceNow Otto panel.
+
+This workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
+
+You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md).
+
+**Note:**
+
+You can perform the following actions on ServiceNow Otto workflows if you have the sn\_generative\_ai.nsa\_admin role:
+
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/delete-aia-use-case.md)
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
+
+2.  Select the **Agentic workflows** tab within My solutions.
+
+3.  Select **View all**.
+
+4.  Select **Generate Regulatory Action Plan**.
+
+5.  Select the Define key requirements section to review the following fields and confirm that the Get regulatory analysis workflow meets your requirements.
+
+    |Field|Description|
+    |-----|-----------|
+    |Workflow Name|Generate Regulatory Action Plan.|
+    |Workflow description|This agentic workflow supports regulatory change management users in handling regulatory alerts. The workflow helps users implement regulatory change and action tasks by analyzing similar past alerts and identifying the impacted areas.|
+    |List of steps|Instructions for the LLM service.|
+
+    |Name|Description|Tools and knowledge sources|Model support|Active|
+    |----|-----------|---------------------------|-------------|------|
+    |Regulatory change task planning agent|Regulatory change task planning agent identifies the optimal steps for working on a regulatory alert by referencing the past similar regulatory alert details and impacted areas of the current regulatory alert.|Get action plan from similar historical alerts and Create final action plan|Available|Active|
+
+<table id="table_bjh_f1q_ghc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+LLM providers
+
+</td><td>
+
+Model providers that this agentic workflow doesn’t support.All model providers are supported by the get regulatory analysis agentic workflow.
+
+</td></tr></tbody>
+</table>6.  Review how user and data access is defined to confirm that the default settings meet your requirements in **Define security controls**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Decision type|Allow if|
+    |Roles|sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user|
+    |User Authenticated|Not applicable|
+    |Active|Active|
+
+    **Note:** This section defines which users can access and interact with this agentic workflow. An access control list \(ACL\) has been automatically generated.
+
+<table id="table_sjz_rdq_ghc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+User identity type
+
+</td><td>
+
+Dynamic user
+
+</td></tr><tr><td>
+
+Approved role\(s\)
+
+</td><td>
+
+-   sn\_grc\_reg\_change.user
+-   sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
+
+
+</td></tr></tbody>
+</table>    **Note:**
+
+    The user identity type that this agentic workflow runs under determines the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. [Learn more about access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules).
+
+7.  Select **Add triggers** and configure conditions that start the workflow, such as when a new regulatory alert is created.
+
+    Triggers can include record conditions, schedules, or inbound email.
+
+    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/add-trigger-aw.md).
+
+8.  Define where alerts and summaries are delivered \(for example, the ServiceNow Otto panel or Regulatory alert record\) by selecting **Channels and status**.
+
+    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/channels-access-aw.md).
+
+9.  Select **Save and test**.
+
+
+## What to do next
+
+Use the Testing playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
+
+Verify that tasks are generated and grouped by impacted areas. If the activation fails, check the roles and skill configuration.
+
+After confirming that the workflow performs as expected, you can get started by selecting **Generate action plan** from the **Ask ServiceNow Otto** action menu on a regulatory alert page or by selecting **Generate Regulatory Action Plan** from the ServiceNow Otto panel. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
+
+If you have not already set up the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+

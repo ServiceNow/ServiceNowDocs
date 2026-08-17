@@ -2116,7 +2116,7 @@ Essential SAFe: Program PI Objective tests
 
 Verify the functionality of creating and updating PI objectives-   Verify that you can create a program increment-level objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete, for only the committed PI objectives, as compared to the PBV of the program in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to program PBV
 
 </td><td>
 
@@ -2130,7 +2130,7 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete, for only the committed PI objectives, as compared to the PBV of the team in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV in the PI
 
 </td><td>
 
@@ -2145,7 +2145,7 @@ Event Management quick start tests require activating the Event Management plugi
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|EMSelfMonitoring|Track problems with the Event Management plugin after upgrade. To understand the details of issues found, open the All Alerts list and search for alerts that failed, whose source is `EMSelfMonitoring`, and that were opened or reopened since the upgrade. The exact time for filtering can be found in the error message.|Madrid|
+|EMSelfMonitoring|Track problems with the Event Management plugin after upgrade. To understand the details of issues found, open the All Alerts list. Search for alerts that failed, whose source is `EMSelfMonitoring`, and that were opened or reopened since the upgrade. The exact time for filtering can be found in the error message.|Madrid|
 
 To learn more about Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_EM.md).
 
@@ -2651,7 +2651,7 @@ GRC: Create and process a milestone
 
 </td><td>
 
-Create a milestone in an engagement, notice that the due date cannot be in past and the completion date cannot be in future and for a milestone in open state the percent complete is 0 which changes in accordance with the milestone state change.
+Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes when the milestone state changes.
 
 </td><td>
 
@@ -2663,7 +2663,7 @@ GRC: Cost and Resource plan rollup
 
 </td><td>
 
-Create an audit plan and associate an engagement to it, on adding cost plan and resource plan to this engagement, notice that these costs are rolled up to the plan. Any edits to these costs in engagement reflects in the plan.
+Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in the engagement are reflected in the plan.
 
 </td><td>
 
@@ -2675,7 +2675,7 @@ GRC: Create Engagement Project Manual and automatic
 
 </td><td>
 
-On an engagement in the validate state, once the Enable advanced planning ui-action is performed notice an engagement project gets created and when the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate notice that an engagement project gets created automatically.
+On an engagement in the validate state, perform the Enable advanced planning ui-action. Notice that an engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
 
 </td><td>
 
@@ -3468,7 +3468,7 @@ Paris
 
 ## Knowledge Management
 
-Knowledge Management quick start tests require activating the Knowledge Management Core plugin \(com.glideapp.knowledge\), the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\), the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\), and the Customer Service Management Demo Data plugin \(com.snc.customerservice.demo\).
+Knowledge Management quick start tests require activating the following plugins: Knowledge Management Core \(com.glideapp.knowledge\), Knowledge Management Advanced Installer \(com.snc.knowledge\_advanced.installer\), Knowledge Blocks \(com.snc.knowledge\_blocks\), and Customer Service Management Demo Data \(com.snc.customerservice.demo\).
 
 <table id="table_whf_nfg_h1c"><thead><tr><th>
 
@@ -3891,7 +3891,7 @@ Madrid
 
 ## Predictive Intelligence
 
-Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. In order to execute critical upgrade tests on existing machine learning solutions, you need to create a basic authorization profile named ml\_atfin the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
+Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). The user attached to the ml\_atf authorization profile must have the ml\_admin role.
 
 |Test|Description|
 |----|-----------|
@@ -4265,7 +4265,7 @@ Validate Project is not 100 percent complete if it has atleast one task as close
 
 </td><td>
 
-Validate the project percent complete is not 100% when at least one of the tasks is closed as Closed Incomplete or Closed Skipped with task % complete less than 100%.
+Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped with task % complete less than 100%.
 
 </td><td>
 
@@ -4435,7 +4435,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that the milestone tasks are closed when their state is changed to Work in Progress after setting the project preference to "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state is changed to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
 
 </td><td>
 
@@ -4447,7 +4447,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date is changed appropriately for a project in WIP state when the project start date is changed after setting the project preference to "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a project in WIP state. This test uses the project preference "Enable move project for WIP projects".
 
 </td><td>
 
@@ -4459,7 +4459,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project when the project planned dates are different than the project task start date after deselecting the project preference "Rollup project start date from tasks".
+Validate that the start date of a project task does not roll up to the project. This test deselects the project preference "Rollup project start date from tasks" and verifies behavior when project planned dates differ from the project task start date.
 
 </td><td>
 
@@ -4609,7 +4609,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields and the Resource Cost section of respective projects and demands.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify that costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -4686,7 +4686,7 @@ Verify whether change in resource plan is reflected in corresponding cost plan
 
 </td><td>
 
-Validate that when a resource plan is updated, the corresponding cost plan is updated accordingly. For example, if the total planned cost is 500 USD, and the planned hours is 10, and you change the planned hours to 20, the total planned cost is updated to 1000 USD.
+Validate that when a resource plan is updated, the corresponding cost plan is updated accordingly. For example, the total planned cost is 500 USD and the planned hours is 10. Changing the planned hours to 20 updates the total planned cost to 1000 USD.
 
 </td><td>
 
@@ -4699,7 +4699,7 @@ Resource-Test the default population of resource plan start &amp; end date
 </td><td>
 
 Validate the following on creating a user or group resource plan from the related list of a demand:-   If a demand is created without a start date and end date, the user or group resource plan has task as demand and no start and end date.
--   If a demand is created with a start date and end date, the user resource plan has task as demand and the start date and end date as added for the demand.
+-   If a demand is created with a start date and end date, the user resource plan has the task as demand with those dates.
 
 </td><td>
 
@@ -4711,7 +4711,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that when a time card category is mapped with an operational work type, on submitting the time card for the operational resource plan associated with that work type, the actual hours in the resource plan and the time card are equal.
+Validate that when a time card category is mapped with an operational work type, the actual hours match between the resource plan and time card after submission.
 
 </td><td>
 
@@ -4980,7 +4980,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, a software entitlement using the custom Part Number, and verifies that a software model is automatically created.
+Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 
@@ -5711,7 +5711,7 @@ Skills Management quick start tests require activating the Skills Management plu
 |Skills MGMT: Create a skill from Manage IT Skills user interface.|Verify that you can create a skill from the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Add skills and skill levels to users in the Manage IT Skills user interface.|Verify that you can add skills and associated skill levels to users in the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Select a skill and add users to the skill in the Manage IT Skills user interface.|Verify that you can select a skill and add the skill and associated skill levels to one or more users in the Manage IT Skills user interface.|Orlando|
-|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill that does not have a skill level and add the skill to one or more users in the Manage IT skills user interface.|Orlando|
+|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to one or more users in the Manage IT skills user interface.|Orlando|
 
 To learn more about Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management.md).
 
@@ -5826,7 +5826,7 @@ Vulnerability Response quick start tests require activating the Vulnerability Re
 |VR: Create Vulnerable Item via Form|Determine whether a user can successfully create a vulnerable item from the Vulnerable Item form.|Madrid|
 |VR: Vulnerability Group Life Cycle|Determine whether a user can successfully resolve a vulnerability group.|Madrid|
 |VR: Vulnerable Item life cycle|Determine whether a user can successfully move a vulnerable item through its life cycle, and also determine whether a closed vulnerable item can be reopened.|Madrid|
-|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items using the scores for all the vulnerable items in a vulnerability group.|New York|
+|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all vulnerable items in a vulnerability group.|New York|
 |VR: Vulnerability Response Assignment Rules|Determine whether a sample set of assignment rules can successfully auto-assign vulnerable items to an assignment group for remediation.|New York|
 |VR: Vulnerability Calculators|Test the vulnerability calculators.|New York|
 |VR: CI Lookup - Qualys|Create a new lookup rule with method "field\_matching" called "Lookup By Network Adapter" for Qualys. Determine whether a configuration item is successfully matched in the Discovered Item table by network adapter and IP address with the new lookup rule.|Orlando|

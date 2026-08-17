@@ -106,15 +106,15 @@ Date on which the attestation schedule should be processed for the last time to 
 
 6.  In the **Select model category** activity, select the model categories of assets that you want to attest.
 
-<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d331610e297">
+<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d333275e297">
 
 Number of model categories to be attested
 
-</th><th align="left" id="d331610e300">
+</th><th align="left" id="d333275e300">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d331610e306">
+</th></tr></thead><tbody><tr><td id="d333275e306">
 
 **All**
 
@@ -124,7 +124,7 @@ Action
 2.  Select **Mark complete**.
 
 
-</td></tr><tr><td id="d331610e333">
+</td></tr><tr><td id="d333275e333">
 
 **A few model categories from the list**
 

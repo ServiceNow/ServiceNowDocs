@@ -52,9 +52,9 @@ Select the Search tab to search through the service graph data. Search provides 
 
 -   **AI search**
 
-    Lets you access a Now Assist AI-driven search using natural language. Now Assist analyzes your search utterance to determine the optimum search method, shows the results, and then lets you refine the search using natural language in the Now Assist panel.
+    Lets you access a ServiceNow Otto AI-driven search using natural language. ServiceNow Otto analyzes your search utterance to determine the optimum search method, shows the results, and then lets you refine the search using natural language in the ServiceNow Otto panel.
 
-    To use this AI search, the Now Assist skill Search result classifier, must be activated. The Search result classifier skill is available starting with [Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed.
+    To use this AI search, the ServiceNow Otto skill Search result classifier, must be activated. The Search result classifier skill is available starting with [ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed.
 
     For more information, see [Search the Service Graph database using natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.md).
 
@@ -63,7 +63,7 @@ Select the Search tab to search through the service graph data. Search provides 
     Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
 
 
-If the Now Assist store app and the Search result classifier skill requirements for AI search aren't met, the system defaults to using Intelligent Search to search service graph data.
+If the ServiceNow Otto store app and the Search result classifier skill requirements for AI search aren't met, the system defaults to using Intelligent Search to search service graph data.
 
 ## Intelligent Search
 

@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Script bot response control
@@ -75,7 +75,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Not supported|Not applicable|
+|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -106,7 +106,7 @@ In this example, the script calculates the time two hours from the current time 
 
 ## Example Script bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -125,5 +125,5 @@ Script bot response output
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

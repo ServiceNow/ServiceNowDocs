@@ -42,9 +42,9 @@ With Feedback, you can:
 |Create or submit feedback from the Microsoft Outlook directly without disturbing the workflow.|[Submit feedback from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/create-feedback-from-outlook.md)|pf\_user|
 |Configure the non-planning items that you want to link with the feedback or product idea without having to switch between related items.|[Configure non-planning items for feedback or ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/config-items-sp.md)|admin|
 |Configure filters for feedback or product idea overview page to get information based on your preference.|[Filter configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)|admin|
-|Generate concise and informative summary of customer feedback using Now Assist for SPM.|[Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.md)|pf\_user|
+|Generate concise and informative summary of customer feedback using Now Assist for SPM.||pf\_user|
 |Generate a summary of selected text using Planning item Gen AI Docs skill.|[Summarize content with Planning Item Doc Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md)|pf\_user|
-|Refine planning item description using write planning item skill.|[Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md)|sn\_align\_core.apw\_user|
+|Refine planning item description using write planning item skill.||sn\_align\_core.apw\_user|
 
 **Related topics**  
 

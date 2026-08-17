@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforvault-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,12 +75,12 @@ Zurich
 
 </td><td>
 
--   **[Generate a custom data pattern by using Now Assist for Vault](https://servicenow-staging.fluidtopics.net/access?context=generate-custom-data-pattern-now-assist-vault&family=zurich&ft:locale=en-US)**
+-   **[Generate a custom data pattern by using Now Assist for Vault](https://www.servicenow.com/docs/access?context=generate-custom-data-pattern-now-assist-vault&family=zurich)**
 
 The generate custom data pattern skill now uses the Now LLM Service as the default provider. You can switch to another provider as needed.
 
 
--   **[Using Now Assist for Vault](https://servicenow-staging.fluidtopics.net/access?context=using-now-assist-vault&family=zurich&ft:locale=en-US)**
+-   **[Using Now Assist for Vault](https://www.servicenow.com/docs/access?context=using-now-assist-vault&family=zurich)**
 
 The Now Assist for Vault application generates custom data patterns from text descriptions to streamline your workload, checks role access for an encrypted column to monitor your instance’s encryption access posture, and schedules data discovery jobs to detect sensitive data. Enable these skills in Now Assist Admin console:
 
@@ -202,7 +202,7 @@ Zurich
 
 </td><td>
 
-Install Now Assist for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Now Assist for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -347,11 +347,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US) The generate custom data pattern skill now uses the Now LLM Service as the default provider. You can switch to another provider as needed.
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich) The generate custom data pattern skill now uses the Now LLM Service as the default provider. You can switch to another provider as needed.
 
- [Zurich release notesPreliminary release notes for Zurich Release Testing Preview \(RTP\)](https://servicenow-staging.fluidtopics.net/access?context=family-release-notes&family=zurich&ft:locale=en-US) The Now Assist for Vault application generates custom data patterns from text descriptions to streamline your workload, checks role access for an encrypted column to monitor your instance’s encryption access posture, and schedules data discovery jobs to detect sensitive data.
+ [Zurich release notesPreliminary release notes for Zurich Release Testing Preview \(RTP\)](https://www.servicenow.com/docs/access?context=family-release-notes&family=zurich) The Now Assist for Vault application generates custom data patterns from text descriptions to streamline your workload, checks role access for an encrypted column to monitor your instance’s encryption access posture, and schedules data discovery jobs to detect sensitive data.
 
- See [Now Assist for Vault](https://servicenow-staging.fluidtopics.net/access?context=now-assist-vault-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for Vault](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

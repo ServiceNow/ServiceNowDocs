@@ -24,7 +24,7 @@ To map an agile team \(scrum team\), Agile Development 1.0 uses a separate entit
 
 All other tasks on platform such as incidents, problems, changes, projects rely on the assignment group entity to make assignments to a group. Group managers can run reports on an assignment group to gain insight into the work assigned to their groups.
 
-To standardize the use of a group across platform even for scrum work such as stories and tasks, the standard construct Assignment Group is used as opposed to the standalone entity Release Team. Agile Development 2.0 uses assignment groups to map agile teams. An assignment group of type Agile Team is used for defining an agile team.
+To standardize the use of a group across platform even for scrum work such as stories and tasks. The standard construct Assignment Group is used as opposed to the standalone entity Release Team. Agile Development 2.0 uses assignment groups to map agile teams. An assignment group of type Agile Team is used for defining an agile team.
 
 ## Agile team \(group\) need not be created for each release
 

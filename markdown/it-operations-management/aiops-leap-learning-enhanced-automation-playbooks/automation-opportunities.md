@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-12"
 reading_time_minutes: 1
 keywords: [automation opportunities, LEAP, incident resolution]
-breadcrumb: [Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Automation opportunities

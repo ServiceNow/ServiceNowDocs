@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-continualimprovementmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Zurich
 
 </td><td>
 
--   **[CIM roles](https://servicenow-staging.fluidtopics.net/access?context=cim-roles&family=zurich&ft:locale=en-US)**
+-   **[CIM roles](https://www.servicenow.com/docs/access?context=cim-roles&family=zurich&ft:locale=en-US)**
 
 Implement and monitor improvement initiatives as a Continual Improvement Management \(CIM\) coordinator or manager without any ITIL role-related restrictions.
 
--   **[Integrated applications](https://servicenow-staging.fluidtopics.net/access?context=cim-integration&family=zurich&ft:locale=en-US)**
+-   **[Integrated applications](https://www.servicenow.com/docs/access?context=cim-integration&family=zurich&ft:locale=en-US)**
 
 As a CIM manager or coordinator, create change records from CIM tasks. If you have not been assigned the required ITIL or change\_write roles, contact your system administrator.
 
@@ -343,7 +343,7 @@ Zurich
 
 </td><td>
 
-See [Continual Improvement Management](https://servicenow-staging.fluidtopics.net/access?context=cim-landing-page&family=zurich&ft:locale=en-US) for more information.
+See [Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

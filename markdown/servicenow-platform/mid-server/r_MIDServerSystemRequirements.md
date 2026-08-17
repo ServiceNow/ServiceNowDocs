@@ -267,3 +267,7 @@ To ensure that the MID Server resource allocations are sufficient for your envir
 
 [Pause the MID Server]()
 
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-landing.md)
+
+[Exploring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/explore-mid-server.md)
+

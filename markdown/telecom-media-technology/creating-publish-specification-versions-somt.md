@@ -1,6 +1,6 @@
 ---
 title: Creating and publishing specification versions
-description: As a product catalog manager, you can create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
+description: Create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/creating-publish-specification-versions-somt.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Custom
 
 # Creating and publishing specification versions
 
-As a product catalog manager, you can create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
+Create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
 
 Your product catalogs define the products, services, and resources available to your customers so they can decide what to purchase from you. Your catalog items will continue to evolve over time to accommodate the changes that are related to how your items are sold, configured, and delivered to your customers. Typically, these changes are related to engineering improvements that make the products, services, and resources more marketable and appealing to your customers. The changes usually are to the fit, form and function, characteristics, and characteristic options, and specification relationships of your catalog items. For example, a home internet product may evolve over multiple revisions to support changes that are related to pricing and increased internet speeds.
 
-By creating new specification and product offering versions for your products, you enable your agents to work with the latest versions of your product and service offerings when they sell more expensive, complementary, upgraded, or related products to your customers.
+By creating new specification and product offering versions for your products, you enable your agents to work with the latest versions. Agents can then sell more expensive, complementary, upgraded, or related products to your customers.
 
 ## Creating specification versions for use in product offerings
 
@@ -67,7 +67,7 @@ When you create a version for a currently published specification, the system co
 
 6.  Copies the associated quantity mappings and attribute propagation rules. The source specifications in the quantity mappings and attribute propagation rules are also updated to the current versions. To learn more about these rules, see .
 
-When you publish the updated specification version, the ServiceNow AI Platform® performs validations on your edits. These validations ensure that all rules are valid with the characteristic and characteristic options that are available for the new specification version. An error might occur if you inadvertently remove or change the characteristics or characteristic options that are referenced by the other rules that are associated with the new specification version. If an error occurs, a message similar to this example appears.
+When you publish the updated specification version, the ServiceNow AI Platform® performs validations on your edits. These validations ensure that all rules are valid with the characteristic and characteristic options that are available for the new specification version. An error might occur if you modify the characteristics referenced by the other rules that are associated with the new specification version. If an error occurs, a message similar to this example appears.
 
 ## Copied rules validation errors
 

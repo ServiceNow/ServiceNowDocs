@@ -39,7 +39,7 @@ When you update and save changes to a published catalog configuration, the catal
     -   Update catalog details- In the **Details** tab, modify the catalog name.
     -   Update article publishing rules- In the **Article configurations** tab, select a software or hardware record to open its configuration and update details and its content configuration.
         -   **Details** tab- Define the content structure using AND/OR operators, modify display fields, and select or clear the **Active** check box to make the record active or inactive.
-        -   **Content configurations**- Select a related configuration \(for example, Product lifecycles\), define the content structureusing AND/OR operators, modify display fields, and select or clear the **Active** check box to make the record active or inactive.
+        -   **Content configurations**- Select a related configuration \(for example, Product lifecycles\). Define the content structure using AND/OR operators and modify display fields. Select or clear the **Active** check box to make the record active or inactive.
     -   Manage portal–knowledge base mappings- In the **Portals** tab, create or update a portal mapping for your published catalog, set the order for the knowledge base, and select or clear the **Active** check box to make the record active or inactive.
 6.  Select **Save**.
 

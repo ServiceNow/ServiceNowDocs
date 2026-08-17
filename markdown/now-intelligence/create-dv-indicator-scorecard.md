@@ -189,7 +189,9 @@ Follow breakdown relation
 
 </td><td>
 
-Turn on to apply [breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) if any are defined for the selected breakdown. After turning this option on, select the breakdown relation from a list that opens. When you add this indicator scorecard to a dashboard, also add a filter with the breakdown source as its filter source. Set the filter to filter indicators with this breakdown. For more information, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-relations.md). The latest version of the Data Visualizations application from the ServiceNow® Store is required.
+Turn on to apply [breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) if any are defined for the selected breakdown. This option is available only when only one indicator has been selected for the indicator scorecard.After turning this option on, select the breakdown relation from a list that opens. When you add this indicator scorecard to a dashboard, also add a filter with the breakdown source as its filter source. Set the filter to filter indicators with this breakdown. For more information, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-relations.md).
+
+The latest version of the Data Visualizations application from the ServiceNow® Store is required.
 
 </td></tr><tr><td>
 

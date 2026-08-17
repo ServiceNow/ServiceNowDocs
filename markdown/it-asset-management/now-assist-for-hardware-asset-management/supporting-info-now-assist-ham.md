@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Hardware Asset Management \(HAM\)
-description: Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
+title: Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)
+description: Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/supporting-info-now-assist-ham.html
 release: zurich
@@ -10,41 +10,37 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Explore, Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 
-# Supporting information for Now Assist for Hardware Asset Management \(HAM\)
+# Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)
 
-Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
+Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
 
 ## Supported versions
 
-The Now Assist for HAM application is supported starting with the Yokohama Patch 4 release.
+The ServiceNow Otto for HAM application is supported starting with the Yokohama Patch 4 release.
 
 ## Supported user interfaces
 
-You can access the agentic workflow included in the Now Assist for HAM application through the Now Assist panel in the Hardware Asset Workspace.
-
-## Licensing requirements
-
-The Now Assist for HAM application requires a Hardware Asset Management Pro Plus license.
+You can access the agentic workflow included in the ServiceNow Otto for HAM application through the ServiceNow Otto panel in the Hardware Asset Workspace.
 
 ## Application information
 
-Activate the Now Assist for Hardware Asset Management \(HAM\) store application \(sn\_now\_assist\_ham\) to use the agentic workflow.
+Activate the ServiceNow Otto for Hardware Asset Management \(HAM\) store application \(sn\_now\_assist\_ham\) to use the agentic workflow.
 
 This store application has the following dependencies:
 
 -   Hardware Asset Management \(com.sn\_hamp\)
--   Now Assist for Platform \(com.sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(com.sn\_genai\_platform\)
 -   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
 
 Activate the applications in the following order:
 
 -   Hardware Asset Management \(com.sn\_hamp\)
--   Now Assist for Platform \(com.sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(com.sn\_genai\_platform\)
 -   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
--   Now Assist for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
+-   ServiceNow Otto for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
 
-**Parent Topic:**[Exploring Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
 

@@ -26,7 +26,7 @@ The Producer Event Notification Framework supports two different message-bus use
 
 2.  Publishing events through the open message bus: If your instance uses a custom message-bus, you must configure the Producer Event Notification Framework to use the open message bus to send events from your ServiceNow instance to consumers on your network. Both cloud-based and on-premise ServiceNow instances can publish events through the open message bus. For details, see [Configure the Producer Event Notification Framework to use the Open Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_open_bus.md).
 
-    For additional information on how to publish trouble ticket notifications using the open message bus, see [Producing outbound API notifications using the open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/trouble-ticket-workflow-using-pub-sub-model.md).
+    For additional information on how to publish trouble ticket notifications using the open message bus, see [Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/trouble-ticket-workflow-using-pub-sub-model.md).
 
 
 This document describes the system configuration that must be performed, including the script includes that must be overridden to deploy these message-bus implementations in your ServiceNow ecosystem.

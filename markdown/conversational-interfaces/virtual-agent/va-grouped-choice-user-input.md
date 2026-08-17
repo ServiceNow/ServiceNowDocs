@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2026-04-29"
 reading_time_minutes: 5
-breadcrumb: [Assistant Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Grouped Choice user input control
@@ -191,7 +191,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Grouped Choice user input control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -224,7 +224,7 @@ List prompt
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Not supported|Not applicable|
-|Now Assist panel|Supported|None|
+|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Not supported|Not applicable|
 |Google Chat|Not supported|Not applicable|
 |Slack|Not supported|Not applicable|

@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2025-10-10"
 reading_time_minutes: 1
-breadcrumb: [Workplace advisor QnA agentic workflow, Workplace Advisor Overview, Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace advisor QnA agentic workflow, Workplace Advisor Overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Using Now Assist for workplace queries

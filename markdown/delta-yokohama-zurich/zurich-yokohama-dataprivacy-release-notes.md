@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-dataprivacy-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[AL/ML Based Data Discovery for Real Time Anonymization](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-data-privacy-landing&family=yokohama&ft:locale=en-US)**
+-   **[AL/ML Based Data Discovery for Real Time Anonymization](https://www.servicenow.com/docs/access?context=now-assist-for-data-privacy-landing&family=yokohama&ft:locale=en-US)**
 
 Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discover sensitive data that does not follow a pattern like name, address, organizations, and more; and run real-time anonymization.
 
--   **[Configuring Data Privacy for Now Assist](https://servicenow-staging.fluidtopics.net/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
+-   **[Configuring Data Privacy for Now Assist](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
 
 Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
 
--   **[Discover sensitive data from attachments.](https://servicenow-staging.fluidtopics.net/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
+-   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
 
 Discover and report on sensitive data from attachments.
 
@@ -86,15 +86,15 @@ Zurich
 
 </td><td>
 
--   **[New Data Discovery experience](https://servicenow-staging.fluidtopics.net/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)**
+-   **[New Data Discovery experience](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)**
 
 Use the new Data Discovery experience, which simplifies the experience of discovering and anonymizing PII.
 
--   **[Column-level discovery](https://servicenow-staging.fluidtopics.net/access?context=granular-configuration&family=zurich&ft:locale=en-US)**
+-   **[Column-level discovery](https://www.servicenow.com/docs/access?context=granular-configuration&family=zurich&ft:locale=en-US)**
 
 Select a specific column of a table for granular scanning during data discovery jobs.
 
--   **[Anonymization of encrypted field](https://servicenow-staging.fluidtopics.net/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)**
+-   **[Anonymization of encrypted field](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)**
 
 Anonymize encrypted columns to help you achieve compliance with data privacy regulations and defense-in-depth data protection.
 
@@ -126,17 +126,22 @@ Zurich
 
 </td><td>
 
--   **[Full scan support added](https://servicenow-staging.fluidtopics.net/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
+-   **[Full scan support added](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
 
 Data Discovery jobs support full type scans, which scan for sensitive data patterns in all the records. You can also use an incremental scan, which acts as a delta scan from the point of the last full scan.
 
--   **[XLS and CSV support added](https://servicenow-staging.fluidtopics.net/access?context=data-discovery-attachment-scanning&family=zurich&ft:locale=en-US)**
+-   **[XLS and CSV support added](https://www.servicenow.com/docs/access?context=data-discovery-attachment-scanning&family=zurich&ft:locale=en-US)**
 
 Data Discovery attachment scan type jobs now support XLS and CSV files. Attachment scans are incremental scans by default.
 
--   **[Text to Regex from a LLM](https://servicenow-staging.fluidtopics.net/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
+-   **[Text to Regex from a LLM](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
 
 Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
+
+
+-   **Key word matching**
+
+As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
 
 </td></tr></tbody>
@@ -216,7 +221,7 @@ Yokohama
 
 </td><td>
 
-Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://servicenow-staging.fluidtopics.net/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
+Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -224,7 +229,7 @@ Zurich
 
 </td><td>
 
-Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://servicenow-staging.fluidtopics.net/access?context=dps-activate-data-privacy&family=zurich&ft:locale=en-US).
+Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -365,7 +370,7 @@ Yokohama
 -   Sanitize sensitive data from Now Assist prompts without impacting response.
 -   Discover sensitive data from attachments using enhanced Data Discovery jobs.
 
- See [Platform Privacy](https://servicenow-staging.fluidtopics.net/access?context=privacy-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Platform Privacy](https://www.servicenow.com/docs/access?context=privacy-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -378,7 +383,7 @@ Zurich
 -   Discover PII in Microsoft Excel and CSV files with expanded file support.
 -   Generate regex patterns using prompts with the text-to-regex feature, which leverages Now Assist and supports all large language models \(LLMs\) approved by ServiceNow.
 
- See [Platform Privacy](https://servicenow-staging.fluidtopics.net/access?context=privacy-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Platform Privacy](https://www.servicenow.com/docs/access?context=privacy-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -119,7 +119,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
 -   **[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-rn.md)**
 
-    Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® Now Assist for CSM application.
+    Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® ServiceNow Otto for CSM application.
 
 -   **[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence-landing.md)**
 

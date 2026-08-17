@@ -1,6 +1,6 @@
 ---
-title: Set up Now Assist in the portal case form
-description: Configure the Now Assist in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
+title: Set up AI in the portal case form
+description: Configure AI in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/set-up-now-assist-in-the-portal-case-form.html
 release: zurich
@@ -8,14 +8,14 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-12-05"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, record producer, portal case form, AI Search Assist]
-breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Set up Now Assist in the portal case form
+# Set up AI in the portal case form
 
-Configure the Now Assist in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
+Configure AI in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
 
 \[Omitted video\] Description: Configure Now Assist in portal case form
 
@@ -31,7 +31,7 @@ This configuration involves setting up the record producer, configuring related 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Search and open the record producer **Create case for a product \(Now Assist\)**.
+2.  Search and open the record producer **Create case for a product \(AI\)**.
 
     The base system configuration details display.
 
@@ -64,7 +64,7 @@ This configuration involves setting up the record producer, configuring related 
     |Field|Value|
     |-----|-----|
     |**__Search application information__**| |
-    |**Search Application**|Select the configuration for a portal that includes Now Assist Q&amp;A Genius Results. As an example, you might select the Service Portal Default Search Application configuration.|
+    |**Search Application**|Select the configuration for a portal that includes AI Q&amp;A Genius Results. As an example, you might select the Service Portal Default Search Application configuration.|
     |**__Record producer information__**| |
     |**Record producer**|Select a record producer. As an example, you might select the Create case for a product record producer.|
     |**Search variable**|Select the name of the field that you want to search and generate Genius Results from. As an example, you might select the Description field as your search variable.|
@@ -106,10 +106,10 @@ This configuration involves setting up the record producer, configuring related 
 
 ## Result
 
-The Now Assist Case in form portal is now configured and available for use.
+The AI Case in form portal is now configured and available for use.
 
 **Related topics**  
 
 
-[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
+[Using generative AI in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

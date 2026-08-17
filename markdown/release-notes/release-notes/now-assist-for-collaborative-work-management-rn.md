@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Collaborative Work Management \(CWM\) release notes
-description: The ServiceNow Now Assist for Collaborative Work Management \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. Now Assist for CWM is a new application in the Zurich release.
+title: ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes
+description: The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. ServiceNow Otto for CWM is a new application in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-07-31"
 reading_time_minutes: 3
 ---
 
-# Now Assist for Collaborative Work Management \(CWM\) release notes
+# ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes
 
-The ServiceNow® Now Assist for Collaborative Work Management \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. Now Assist for CWM is a new application in the Zurich release.
+The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. ServiceNow Otto for CWM is a new application in the Zurich release.
 
-## Now Assist for CWM highlights for the Zurich release
+## ServiceNow Otto for CWM highlights for the Zurich release
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
 
@@ -22,11 +22,11 @@ The ServiceNow® Now Assist for Collaborative Work Management \(CWM\) applicatio
 
 -   In Zurich Patch 4, some Now Assist are now turned on by default.
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
--   Help increase the efficiency of your teams using the generative AI capabilities of Now Assist for CWM.
+-   Help increase the efficiency of your teams using the generative AI capabilities of ServiceNow Otto for CWM.
 
-See [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
+See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
 
-**Important:** Now Assist for CWM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for CWM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
@@ -38,7 +38,7 @@ See [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubuse
 
     Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
 
-    Generate content with Now Assist for CWM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts.
+    Generate content with ServiceNow Otto for CWM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts.
 
 -   **[New third-party AI model provider options available for all AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
@@ -49,7 +49,7 @@ See [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubuse
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Some generative AI skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
@@ -61,7 +61,7 @@ See [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubuse
 
 ## Activation information
 
-Install Now Assist for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -69,17 +69,17 @@ Install Now Assist for CWM by requesting it from the ServiceNow Store. Visit the
 
     Collaborative Work Management \(CWM\) provides a central hub to plan, visualize, manage, and collaborate on work with your teams.
 
-    The Now Assist for CWM application uses generative AI skills to help save time and improve efficiency for actions you perform within CWM.
+    The ServiceNow Otto for CWM application uses generative AI skills to help save time and improve efficiency for actions you perform within CWM.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI to help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    The Now Assist Admin console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use the Now Assist panel conversational interface in CWM to generate tasks from Docs and add them to CWM Boards.
 

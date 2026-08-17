@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Playbook generation from a KB article, Playbook generation, Now Assist for Creator, Build workflows]
+breadcrumb: [Playbook generation from a KB article, Playbook generation, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Generate a playbook from a knowledge base article
@@ -19,13 +19,13 @@ Use an existing knowledge base article to generate a playbook using AI. The stag
 
 ## Before you begin
 
-Verify that the Now Assist for Creator plugin is installed and the **Playbook Generation with KB** skill is active.
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Generation with KB** skill is active.
 
 **Note:** The skill is available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
 
 \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
+For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 
 Verify that the knowledge base article describes a process with steps. Articles that contain only definitions or reference information can't be used to generate a playbook.
 
@@ -37,9 +37,9 @@ Role required: playbook\_author.
 
 2.  From the **New** drop-down menu, select **Playbook**.
 
-3.  On the **Build with Now Assist** tab, fill in the following fields.
+3.  On the **Create with AI** tab, fill in the following fields.
 
-    \[Omitted image "playbook-from-kb.png"\] Alt text: Generate a playbook from KB article.
+    \[Omitted image "playbook-from-kb-otto.png"\] Alt text: Create a playbook from a KB article using AI.
 
 <table id="id_ik5_54x_rjc"><thead><tr><th>
 
@@ -130,9 +130,9 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 </td></tr></tbody>
 </table>    **Tip:**
 
-    \[Omitted image "playbook-knowledge-article.png"\] Alt text: Knowledge article selection list.
+    \[Omitted image "playbook-kb-otto.png"\] Alt text: Select KB article and provide optional text instructions.
 
-    Use the **Knowledge article reference** drop-down list or the browse icon \[Omitted image "playbook-kb-browse.png"\] Alt text: Browse KB articles. to find and select the knowledge article. You can select the preview icon \[Omitted image "playbook-kb-preview.png"\] Alt text: Preview the selected KB article. to view the selected knowledge article in a new tab.
+    Use the **Knowledge article reference** drop-down list or the look up icon \[Omitted image "playbook-kb-browse.png"\] Alt text: Browse KB articles. to find and select the knowledge article. You can select the preview icon \[Omitted image "playbook-kb-preview.png"\] Alt text: Preview the selected KB article. to view the selected knowledge article in a new tab. Add additional instructions in the **Describe what you want** text field.
 
 4.  Select **Generate playbook preview**.
 

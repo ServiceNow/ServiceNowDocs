@@ -1,20 +1,20 @@
 ---
-title: Access Project Workspace
-description: Learn how to navigate to Project Workspace and open a project in the planning page.
+title: Access the Project Workspace
+description: Learn how to navigate to the new Project Workspace and open a project in the planning page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/access-new-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Access Project Workspace
+# Access the Project Workspace
 
-Learn how to navigate to Project Workspace and open a project in the planning page.
+Learn how to navigate to the new Project Workspace and open a project in the planning page.
 
 ## Before you begin
 
@@ -31,6 +31,10 @@ Role required: it\_project\_manager
     Projects on the homepage can be viewed in card or list view.
 
 3.  Select a project to open it in the planning page.
+
+    \[Omitted image "pw-planning-page.png"\] Alt text: project-planning-page
+
+    You can access and manage Planning, Details, Financials, RIDAC, Analytics, Docs, Status Reports, and Resources using the menu that appears when you select the Projects icon. This menu is also called as Level two \(L2\) menu.
 
 
 ## What to do next

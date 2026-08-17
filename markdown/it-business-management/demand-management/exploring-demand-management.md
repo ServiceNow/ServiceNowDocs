@@ -52,8 +52,8 @@ The Demand Management process flow consists of the following tasks.
 The demand workbench provides a central location for viewing and assessing business demands.
 -   **[Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/predictive-intelligence-for-demand.md)**  
 The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
--   **[Now Assist skills for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
-Now Assist for Strategic Portfolio Management \(SPM\) provides AI-powered skills for demand records that help you quickly understand demand details and identify related records. These skills improve planning efficiency and support informed decision-making.
+-   **[AI skills for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
+ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and identify related records. These skills improve planning efficiency and support informed decision-making.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/c_DemandManagement.md)
 

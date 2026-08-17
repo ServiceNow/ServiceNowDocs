@@ -1,20 +1,21 @@
 ---
-title: Configure Sentiment analysis for invoice case skill in Now Assist for Accounts Payable Operations \(APO\)
-description: If you have the admin role, you can configure the Sentiment analysis skill in Now Assist for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to prioritize inquiry cases resulting in improved supplier collaboration.
+title: Configure Sentiment analysis for invoice case skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Configure the Sentiment analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use generative AI skills to prioritize inquiry cases. This improves supplier collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/config-sentiment-skill-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2026-02-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [Sentiment analysis, APO, Supplier Collaboration, Accounts Payable Operations, Generative AI skills, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure Sentiment analysis for invoice case skill in Now Assist for Accounts Payable Operations \(APO\)
+# Configure Sentiment analysis for invoice case skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-If you have the admin role, you can configure the Sentiment analysis skill in Now Assist for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to prioritize inquiry cases resulting in improved supplier collaboration.
+Configure the Sentiment analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use generative AI skills to prioritize inquiry cases. This improves supplier collaboration.
 
 ## Before you begin
 
@@ -22,7 +23,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub console.
 
 2.  In the **Finance and Supply Chain** workflow group, select **Accounts Payable Operations** to view the skills for the APO features.
 
@@ -34,7 +35,7 @@ Role required: admin
 
     1.  Select **In-product**.
 
-        **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        **In-product**: When selected, the generated AI skills are displayed on the forms and workspaces.
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 

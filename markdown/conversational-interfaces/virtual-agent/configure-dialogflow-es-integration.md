@@ -43,8 +43,8 @@ To use Google Dialogflow as your NLU provider for Virtual Agent, create a servic
 To use Google Dialogflow as your NLU provider for Virtual Agent, use the private key you downloaded to generate a JKS file and set up authentication in your ServiceNow instance.
 3.  [Activate the Google Dialogflow ES service and enable it in your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-ggl-df-es-service.md)  
 When you activate the Google Dialogflow ES service in the Open NLU Drivers \[open\_nlu\_driver\] table, the service becomes available as an option in Virtual Agent NLU settings.
-4.  [Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.md)  
-Test topic discovery with Google Dialogflow and Virtual Agent in the Virtual Agent Designer interface.
+4.  [Test Virtual Agent with Google Dialogflow ES NLU in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.md)  
+Test topic discovery with Google Dialogflow and Virtual Agent in the Assistant Designer Asset library interface.
 
 **Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

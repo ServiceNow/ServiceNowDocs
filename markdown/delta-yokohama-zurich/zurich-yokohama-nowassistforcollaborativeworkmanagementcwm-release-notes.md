@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcollaborativeworkmanagementcwm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,17 +75,17 @@ Zurich
 
 </td><td>
 
--   **[Generate acceptance criteria for CWM stories](https://servicenow-staging.fluidtopics.net/access?context=generate-acceptance-criteria-for-stories-in-cwm&family=zurich&ft:locale=en-US)**
+-   **[Generate acceptance criteria for CWM stories](https://www.servicenow.com/docs/access?context=generate-acceptance-criteria-for-stories-in-cwm&family=zurich)**
 
 Generate clear, consistent acceptance criteria for user stories with the acceptance criteria generation skill. By using story details as context and predefined templates, the skill helps you generate acceptance criteria in a format that aligns with your organizational requirements.
 
--   **[Generate and improve content using open-text prompts](https://servicenow-staging.fluidtopics.net/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Generate and improve content using open-text prompts](https://www.servicenow.com/docs/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist&family=zurich)**
 
 Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
 
 Generate content with Now Assist for CWM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich)**
 
 Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
@@ -117,12 +117,12 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich)**
 
 The new default behavior works as follows:
 
@@ -359,17 +359,17 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   In Zurich Patch 4, some Now Assist are now turned on by default.
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Help increase the efficiency of your teams using the generative AI capabilities of Now Assist for CWM.
 
- See [Now Assist for CWM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-cwm-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

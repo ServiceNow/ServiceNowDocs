@@ -7,16 +7,16 @@ release: zurich
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Standalone agents in Sales CRM for Telecommunications
 
 Use these standalone AI agents to autonomously complete Sales CRM for Telecommunications tasks.
 
-## Standalone agents in Now Assist for Sales CRM for Telecommunications
+## Standalone agents in ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
 
-The following AI agents are available with Now Assist for Sales CRM for Telecommunications:
+The following AI agents are available with ServiceNow Otto for Sales Customer Relationship Management for Telecommunications:
 
 -   [Order enrichment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-enrichment-agent-somt.md)
 -   [Order fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-fulfillment-agent-somt.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
@@ -48,7 +48,7 @@ Create rules from the Application categorization page to organize your data by g
 
 ## Configuration page
 
-You access the Configuration page by selecting the Configuration icon \[Omitted image "task-mining-configuration-icon.png"\].
+You access the Configuration page by selecting the Configuration icon\[Omitted image "task-mining-configuration-icon.png"\].
 
 Configure system setting and create event filters on the Configuration page. The list is divided into event filters and configuration records. From the Event Filters list, you can prevent the Task Mining agent from collecting application details by replacing application details that match event filters. From the Configuration list, you can modify system-level Task Mining agent records, anonymize personally identifiable information, adjust notifications to workstation users, and modify retention rules. For more information, see [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/configuring-task-mining.md).
 

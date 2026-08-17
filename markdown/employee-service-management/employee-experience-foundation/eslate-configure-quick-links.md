@@ -27,6 +27,8 @@ Create and configure the Quick Links to display in Employee Center before starti
 
 Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp_quick_link`\). Complete Section 1 first, then configure the home page widget, the Canvas widget, or both.
 
+**Note:** [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md) helps you configure quick links using the interface.
+
 ## Procedure
 
 1.  Section 1: Capture Quick Link sys\_ids
@@ -115,4 +117,6 @@ Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp
 
 
 [Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
+
+[Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md)
 

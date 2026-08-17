@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-08-20"
+last_updated: "2026-07-28"
 reading_time_minutes: 4
-breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Optimize cleaning activities agentic workflow
@@ -18,7 +18,7 @@ This team of workplace agents can find open maintenance cases and optimize it fo
 
 ## Optimize cleaning activities agentic workflow overview
 
-This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(below 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
+This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(lower than 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
 
 ## AI agents used in optimize cleaning activities workflow
 
@@ -63,7 +63,7 @@ The Case Utilization Optimizer analyzes cases grouped by location, schedule type
 </td></tr></tbody>
 </table>## Case Optimizer AI Agent
 
-The Case Optimizer AI Agent analyzes cases grouped by location, schedule type, and date to optimize resource utilization. It verifies that maintenance cases stay within the defined utilization thresholds. It creates maintenance cases when the utilization threshold is too high. When the utilization threshold is low, it deactivates the maintenance cases for underutilized floors. While deactivating a maintenance case, this agent ensures minimum case availability for each maintenance schedule group. It retains at least one maintenance case before deactivating all underutilized maintenance cases. The output from the Utilization rate AI agent is given as input to this agent for space optimization.
+The Case Optimizer AI Agent analyzes cases grouped by location, schedule type, and date to optimize resource utilization. It verifies that maintenance cases stay within the defined utilization thresholds. It creates maintenance cases when the utilization threshold is too high. When the utilization threshold is low, it deactivates the maintenance cases for underutilized floors. While deactivating a maintenance case, this agent provides minimum case availability for each maintenance schedule group. It retains at least one maintenance case before deactivating all underutilized maintenance cases. The output from the Utilization rate AI agent is given as input to this agent for space optimization.
 
 ## Case Aggregator AI Agent
 

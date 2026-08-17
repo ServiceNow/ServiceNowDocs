@@ -83,10 +83,10 @@ Email template
 
 Email template used for composing the email.**Note:**
 
-Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding Now Assist for ITSM icon \(\[Omitted image "icon-now-assist-panel.png"\] Alt text: Now Assist for ITSM icon\) and the second section contains the non GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
+Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding ServiceNow Otto for ITSM icon \(\[Omitted image "icon-now-assist-panel.png"\] Alt text: Now Assist for ITSM icon\) and the second section contains the non GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
 
 -   Any GenAI variable is available in the email templates.
--   Now Assist for ITSM is installed and activated.
+-   ServiceNow Otto for ITSM is installed and activated.
 -   GenAI skills are enabled.
 -   User has the required roles to execute the GenAI skills.
 

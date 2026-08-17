@@ -20,6 +20,10 @@ Activate Process Mining to use the application and benefit from it.
 Process Mining is available with ServiceNow AI Platform. With the free version, you can do only sample mining. You need a license to do full mining.
 -   **[Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/access-ext-data.md)**  
 Request Process Mining for external data application to import external data and work with it within ServiceNow® instance.
+-   **[Request Process Mining for Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/install-salesforce.md)**  
+Request Process Mining for Salesforce to import the data and work with it within the ServiceNow® instance.
+-   **[Request Process Mining for Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/install-workday.md)**  
+Request Process Mining for Workday to import the data and work with it within the ServiceNow® instance.
 -   **[Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md)**  
 Activate Process Mining content packs to access pre-built projects for specific areas of your business.
 -   **[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/integrating-process-mining.md)**  

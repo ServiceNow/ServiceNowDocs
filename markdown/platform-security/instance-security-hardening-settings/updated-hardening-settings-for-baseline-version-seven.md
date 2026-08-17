@@ -407,7 +407,7 @@ Without this mitigation, the platform becomes widely open to a variety of script
 
 </td></tr><tr><td>
 
-
+[Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.md)
 
 </td><td>
 

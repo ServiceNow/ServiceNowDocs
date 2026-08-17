@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 2
-breadcrumb: [Explore, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Carbon calculations using AI agents
@@ -36,5 +36,5 @@ When you submit a prompt for category 6 related to Scope 3 emissions, the system
 4.  A search tool presents matching MDs and EFs for your selection, refining the formula as needed. If no matches are found, the system suggests refining the input `CO₂ emissions = (employee air travel distance × employee air travel emission factor) + (employee train travel distance × employee train travel emission factor)`.
 5.  After all components are confirmed, the workflow creates a CMD record in an inactive state and links it to the Operational Sustainability Workspace for review.
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)
 

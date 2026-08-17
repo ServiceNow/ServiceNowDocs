@@ -18,7 +18,7 @@ Learn about the various SAFe entities that are used to successfully plan, track,
 
 -   **Epic**
 
-    Epic in SAFe is the largest unit of work, which can be continuously worked through multiple program increments. Epic captures business hypotheses and is prioritized and assessed using the WSJF \(Weighted Shortest Job First is used to prioritize and sequence jobs to produce optimum business value\) score.
+    Epic in SAFe is the largest unit of work, which can be continuously worked through multiple program increments. Epic captures business hypotheses. It is prioritized and assessed using the WSJF \(Weighted Shortest Job First\) score, which prioritizes and sequences jobs to produce optimum business value.
 
     An epic is further decomposed into features for implementation and delivery by SAFe ARTs.
 

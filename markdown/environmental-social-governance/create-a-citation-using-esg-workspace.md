@@ -24,15 +24,15 @@ Role required: sn\_esg.program\_manager
 
 2.  Access the Create New citation form.
 
-<table id="choicetable_yzl_tyn_23c"><thead><tr><th align="left" id="d44680e79">
+<table id="choicetable_yzl_tyn_23c"><thead><tr><th align="left" id="d44545e79">
 
 Starting point
 
-</th><th align="left" id="d44680e82">
+</th><th align="left" id="d44545e82">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d44680e88">
+</th></tr></thead><tbody><tr><td id="d44545e88">
 
 **Main page**
 
@@ -43,7 +43,7 @@ Actions
 3.  On the Citations page, select **New**.
 
 
-</td></tr><tr><td id="d44680e129">
+</td></tr><tr><td id="d44545e129">
 
 **Authority document**
 

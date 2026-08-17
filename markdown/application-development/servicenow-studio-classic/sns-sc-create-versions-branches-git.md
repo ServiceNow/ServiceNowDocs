@@ -71,15 +71,15 @@ Role required: admin
 
 5.  Choose whether you want to stash or discard local changes.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d198718e384">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d199359e384">
 
 Option
 
-</th><th align="left" id="d198718e387">
+</th><th align="left" id="d199359e387">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198718e393">
+</th></tr></thead><tbody><tr><td id="d199359e393">
 
 **Stash local changes**
 
@@ -87,7 +87,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d198718e402">
+</td></tr><tr><td id="d199359e402">
 
 **Discard local changes**
 

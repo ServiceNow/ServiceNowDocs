@@ -46,15 +46,15 @@ In this UI Builder tutorial, you perform the following tasks to build a [page](h
 
 3.  Create a page.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d68970e242">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d68909e242">
 
 To do this task
 
-</th><th align="left" id="d68970e245">
+</th><th align="left" id="d68909e245">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e251">
+</th></tr></thead><tbody><tr><td id="d68909e251">
 
 **Create a page**
 
@@ -93,15 +93,15 @@ Do the following
 
     For more information about layouts, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-layouts.md).
 
-<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d68970e426">
+<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d68909e426">
 
 To do this task
 
-</th><th align="left" id="d68970e429">
+</th><th align="left" id="d68909e429">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e435">
+</th></tr></thead><tbody><tr><td id="d68909e435">
 
 **Change the layout of the page to two columns**
 
@@ -123,15 +123,15 @@ Do the following
 </td></tr></tbody>
 </table>5.  Add a **Heading** component, and a **Button** component to the left column.
 
-<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d68970e504">
+<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d68909e504">
 
 To do this task
 
-</th><th align="left" id="d68970e507">
+</th><th align="left" id="d68909e507">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e513">
+</th></tr></thead><tbody><tr><td id="d68909e513">
 
 **Add a heading component to your left-column container**
 
@@ -149,7 +149,7 @@ You can add components to the page in different ways. For more information on th
     -   Leave the Level as **1**.
 
 
-</td></tr><tr><td id="d68970e601">
+</td></tr><tr><td id="d68909e601">
 
 **Add and configure a button component to your left-column container**
 
@@ -197,15 +197,15 @@ For more information about event handlers, see [Manage actions in UI Builder pag
 
     A data visualization component contains data that you display in a visual manner. Configure the data visualization component parameters. Then, add a data resource to it.
 
-<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d68970e814">
+<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d68909e814">
 
 To do this task
 
-</th><th align="left" id="d68970e817">
+</th><th align="left" id="d68909e817">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e823">
+</th></tr></thead><tbody><tr><td id="d68909e823">
 
 **Add and configure a data visualization component to your right-column container**
 
@@ -232,15 +232,15 @@ You can add components to the page in different ways. For more information on th
 
 7.  Save the new page one last time.
 
-<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d68970e946">
+<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d68909e946">
 
 To do this task
 
-</th><th align="left" id="d68970e949">
+</th><th align="left" id="d68909e949">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e955">
+</th></tr></thead><tbody><tr><td id="d68909e955">
 
 **Save your page**
 
@@ -253,15 +253,15 @@ Do the following
 </td></tr></tbody>
 </table>8.  Now preview your page to see what it looks like in a browser.
 
-<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d68970e988">
+<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d68909e988">
 
 To do this task
 
-</th><th align="left" id="d68970e991">
+</th><th align="left" id="d68909e991">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d68970e997">
+</th></tr></thead><tbody><tr><td id="d68909e997">
 
 **Preview your page**
 

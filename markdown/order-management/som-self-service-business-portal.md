@@ -51,8 +51,8 @@ The following topics provide more information about configuring and using the Bu
 
 -   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-management-configure-business-portal.md)
 -   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-business-portal.md)
--   Getting started with the Business Portal: 
+-   Getting started with the Business Portal: [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-business-portal.md)
 -   [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-business-portal-reference.md)
--   
--   
+-   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/use-the-business-portal.md)
+-   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 

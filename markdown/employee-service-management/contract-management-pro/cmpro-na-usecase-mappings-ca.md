@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Contract analysis, Contract use case mapping, Contract analysis use case mapping, Now Assist use case mapping, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Contract use case mapping, Contract analysis use case mapping, Now Assist use case mapping, Now Assist in contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract analysis
@@ -21,17 +21,15 @@ Map a use case to specific tables, and define conditions to apply the use case f
 
 Ensure that the application is in Global or Now Assist in Contract Management scope. If you are configuring the use case mapping in different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_configs
+Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+3.  Select **Activate skill** on the skill you want to activate.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -113,7 +111,7 @@ Conditions under which the use case is applicable.For more information on using 
 
 ## Result
 
-The use case is mapped to specific tables and conditions. Now Assist applies the use case for contract analysis when the conditions are met.
+The use case is mapped to specific tables and conditions. AI applies the use case for contract analysis when the conditions are met.
 
 **Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 

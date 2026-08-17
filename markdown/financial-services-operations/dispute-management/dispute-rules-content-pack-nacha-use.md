@@ -37,7 +37,7 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 
     The investigation agent follows the dispute investigation playbook and completes the activities, including issuing provisional credit, and reviewing Nacha operating guidelines.
 
-    If [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) is integrated in the workflow, AI agents will provide additional guidance, such as merchant analysis, insights into Nacha guidelines, and ACH dispute return recommendations.
+    If [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) is integrated in the workflow, AI agents will provide additional guidance, such as merchant analysis, insights into Nacha guidelines, and ACH dispute return recommendations.
 
     The agent will then file the return, deny the dispute, or follow up with the Originating Depository Financial Institution \(ODFI\).
 
@@ -54,12 +54,12 @@ To access the knowledge base article:
 
 Dispute agents may use the KB article to manually evaluate whether an ACH transaction is eligible for chargeback.
 
-If [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) is installed, an AI agent in the ACH disputes processing agentic workflow will refer to this KB article to recommend if a transaction is eligible for chargeback.
+If [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) is installed, an AI agent in the ACH disputes processing agentic workflow will refer to this KB article to recommend if a transaction is eligible for chargeback.
 
 **Related topics**  
 
 
 [Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
 
-[Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)
+[Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)
 

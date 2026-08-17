@@ -19,7 +19,7 @@ Use the intents, entities, and utterances defined in a Microsoft Language Unders
 
 ## Before you begin
 
-**Important:** Microsoft Language Understanding Intelligent Service \(LUIS\) will be fully retired on March 31, 2026. Beginning on October 31, 2025, the LUIS portal will no longer be available. Consider migrating your LUIS applications to Now Assist in Virtual Agent to benefit from continued product support and multilingual capabilities.
+**Important:** Microsoft Language Understanding Intelligent Service \(LUIS\) will be fully retired on March 31, 2026. Beginning on October 31, 2025, the LUIS portal will no longer be available. Consider migrating your LUIS applications to ServiceNow Otto for Virtual Agent to benefit from continued product support and multilingual capabilities.
 
 In Microsoft LUIS, do the following:
 

@@ -1,30 +1,33 @@
 ---
-title: Identifying related alerts in log data by using log correlators
-description: Log correlators are keys or values in log data that detect correlations between alerts to help you determine whether an alert is part of a larger issue. For example, a log correlator could detect when the interface ID of a particular network device occurs simultaneously in multiple warnings across different service instances.
+title: Log correlators for identifying related alerts
+description: In Health Log Analytics, log correlators are keys or values in log data that detect correlations between alerts. These correlations help you determine whether an alert is part of a larger issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [log correlators, alert correlation, related alerts, free text correlators, log property correlators, log metadata analysis, correlated alerts, log source analysis, alert relationships]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Identifying related alerts in log data by using log correlators
+# Log correlators for identifying related alerts
 
-Log correlators are keys or values in log data that detect correlations between alerts to help you determine whether an alert is part of a larger issue. For example, a log correlator could detect when the interface ID of a particular network device occurs simultaneously in multiple warnings across different service instances.
+In Health Log Analytics, log correlators are keys or values in log data that detect correlations between alerts. These correlations help you determine whether an alert is part of a larger issue.
 
-You can identify related alerts in your log data by using log correlators. The base system includes several log correlators, and you can define custom correlators for a specific log source, all log sources, or only log sources created after the correlator is activated.
+For example, a log correlator could detect when the interface ID of a particular network device occurs simultaneously in multiple warnings across service instances.
 
-Most log lines include a metadata portion plus a message portion. Some log lines, however, include only message text with metadata included in the text. The two types of log correlators, free text correlators and log property correlators, analyze the different portions of each log to identify relationships between log data from multiple log sources.
+You can identify related alerts in your log data by using log correlators. The base system includes several log correlators. You can define custom correlators for a specific log source, all log sources, or only log sources created after the correlator is activated.
+
+Most log lines include a metadata portion plus a message portion. Some log lines, however, include only message text with metadata included in the text. The two types of log correlators, free text correlators and log property correlators, analyze different portions of each log to identify relationships between data from multiple sources.
 
 -   **Free text correlators**
 
     Free text correlators analyze the text within the log message portion of log lines that are associated with an anomaly. The system uses free text correlators to identify correlations between alerts. You use free text correlators to add a term that you expect to appear within log messages. A good choice is a term that is not structured and would not otherwise be extracted as a log property. For example, “policy-id” or “ thread-id”.
 
-    You also typically add free text correlators for the names of systems, applications, and services that are unique to your environment. Because such a value can be referred to by multiple sources, layers, middleware, or databases, the free text correlator can be an effective detector of correlated alerts. For example, if your organization's service is called TeaTime, then you might add "teatime" as a free text correlator. The correlator would identify alerts that are related because they were generated for resources that support the TeaTime service, such as a database lock or a connection failure between TeaTime components.
+    You also typically add free text correlators for the names of systems, applications, and services that are unique to your environment. Because such a value can be referred to by multiple sources, layers, middleware, or databases, the free text correlator can be an effective detector of correlated alerts. For example, if your organization's service is called TeaTime, then you might add "teatime" as a free text correlator. The correlator would identify alerts that are related because they were generated for resources that support the TeaTime service. For example, a database lock or a connection failure between TeaTime components.
 
 -   **Log property correlators**
 

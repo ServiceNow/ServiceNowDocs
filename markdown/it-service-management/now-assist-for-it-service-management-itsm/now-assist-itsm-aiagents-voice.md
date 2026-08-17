@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Agentic AI in the Voice application
@@ -23,7 +23,7 @@ The Request catalog item with Voice AI agent video is an example that shows how 
 
 ## Managing IT-related issues using Voice AI agents
 
-Using the Now Assist for ITSM Voice AI agents, you can do the following:
+Using the ServiceNow Otto for ITSM Voice AI agents, you can do the following:
 
 -   Create incidents and manage tickets using voice calls.
 -   Use generic queries such as, "Is there an update to my ticket from yesterday?" or "What's the status of my VPN ticket?" and get responses in the context of your questions.
@@ -68,7 +68,7 @@ Password reset with voice AI agent
 
 </td><td>
 
-Fetches the information to reset your password in one of the following ways:**Note:** You can get the knowledge article when you install the demo data from the Now Assist for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) application or you can create your own knowledge article with the password reset instructions.
+Fetches the information to reset your password in one of the following ways:**Note:** You can get the knowledge article when you install the demo data from the ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) application or you can create your own knowledge article with the password reset instructions.
 
 -   Provides the instructions from the knowledge article to reset the password in an email.
 -   Provide the reset password link by SMS.

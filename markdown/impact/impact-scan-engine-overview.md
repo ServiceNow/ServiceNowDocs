@@ -74,7 +74,7 @@ Diagnostic scans- On-demand scan \(subsequent delta scans\)
 -   Delta scans always look for definitions marked to return one row check per system property.
 -   Scans for specific definitions that were identified as development issues in a previous scan.
 
-**Note:** See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for on-demand scan configuration options.
+**Note:** See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for on-demand scan configuration options.
 
 
 </td></tr><tr><td>

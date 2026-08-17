@@ -9,7 +9,7 @@ classification: legal-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Signature workflow for a request, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel a wet signature process for non-disclosure agreement legal requests
@@ -28,15 +28,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d723701e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d724016e74">
 
 Method
 
-</th><th align="left" id="d723701e77">
+</th><th align="left" id="d724016e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d723701e83">
+</th></tr></thead><tbody><tr><td id="d724016e83">
 
 **__Employee Center__**
 
@@ -47,7 +47,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d723701e116">
+</td></tr><tr><td id="d724016e116">
 
 **__Legal Service Portal__**
 

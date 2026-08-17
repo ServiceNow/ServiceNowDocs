@@ -20,27 +20,27 @@ Deflection occurs when a user asks a question or makes a request that doesn't re
 
 -   **[Now Assist in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md)**
 
-    Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
+    ServiceNow Otto for Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
 -   **[Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/auto-resolution-va.md)**
 
-    When a user creates an issue, the Issue Auto Resolution application uses machine learning and NLU to identify the criticality of the issue, the intent, and an appropriate Virtual Agent topic for an automatic resolution. If a Virtual Agent topic isn’t found, Issue Auto Resolution does an AI Search to return the most appropriate Knowledge articles, FAQs, or catalog content. The deflection content is then delivered to the user through the configured response channel, such as email, short messaging service \(SMS\), or the Virtual Agent chat widget.
+    When a user creates an issue, Issue Auto Resolution uses machine learning and NLU to identify the criticality of the issue and intent. Issue Auto Resolution then identifies an appropriate Virtual Agent topic for an automatic resolution. If a Virtual Agent topic isn’t found, Issue Auto Resolution does an AI Search to return the most appropriate Knowledge articles, FAQs, or catalog content. The deflection content is then delivered to the user through the configured response channel, such as email, short messaging service \(SMS\), or the Virtual Agent chat widget.
 
 -   **[Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md)**
 
-    This Now Assist in Virtual Agent skill is available in the Now Assist Admin console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions.
+    This ServiceNow Otto for Virtual Agent skill is available in the ServiceNow Otto admin console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions.
 
 -   **[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)**
 
-    AI agents can reason, plan, and execute using additional AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent skills.
+    AI agents can reason, plan, and execute using additional AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent skills.
 
 -   **[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-subflows.md) and [conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**
 
     Create conversational subflows and actions in Workflow Studio and use them in Virtual Agent conversations.
 
--   **[Integrating Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md)**
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md)**
 
-    Configure Now Assist in Virtual Agent to use Microsoft Teams as the delivery channel.
+    Configure ServiceNow Otto for Virtual Agent to use Microsoft Teams as the delivery channel.
 
 -   **[Use the deflection topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)**
 

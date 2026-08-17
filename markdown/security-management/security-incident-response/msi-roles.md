@@ -92,3 +92,5 @@ sn\_msi.workspace\_responder
 
 [Checklist for MSIM setup]()
 
+[Environment reference for MSIM setup]()
+

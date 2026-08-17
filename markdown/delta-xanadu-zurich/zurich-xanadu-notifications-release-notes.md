@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-notifications-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Sensitive data redaction](https://servicenow-staging.fluidtopics.net/access?context=sensitive-data-redaction&family=xanadu&ft:locale=en-US)**
+-   **[Sensitive data redaction](https://www.servicenow.com/docs/access?context=sensitive-data-redaction&family=xanadu&ft:locale=en-US)**
 
 Redact sensitive data for inbound emails.
 
--   **[International characters support](https://servicenow-staging.fluidtopics.net/access?context=int-characters-email&family=xanadu&ft:locale=en-US)**
+-   **[International characters support](https://www.servicenow.com/docs/access?context=int-characters-email&family=xanadu&ft:locale=en-US)**
 
 Support added for International characters in the email addresses.
 
@@ -90,7 +90,7 @@ Yokohama
 
 </td><td>
 
--   **[Email notifications dashboard](https://servicenow-staging.fluidtopics.net/access?context=email-notifications-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[Email notifications dashboard](https://www.servicenow.com/docs/access?context=email-notifications-dashboard&family=yokohama&ft:locale=en-US)**
 
 Use the new notifications dashboard with key metrics. This dashboard is available to administrators by default. You can configure this dashboard to enable access to other users.
 
@@ -101,11 +101,11 @@ Zurich
 
 </td><td>
 
--   **[Email diagnostics dashboard](https://servicenow-staging.fluidtopics.net/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
 
 With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
 
--   **[Email agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
+-   **[Email agentic workflow](https://www.servicenow.com/docs/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
 
 With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
 
@@ -129,15 +129,15 @@ Xanadu
 
 </td><td>
 
--   **[New search and category filter in notification preferences](https://servicenow-staging.fluidtopics.net/access?context=advanced-notification-prefrences&family=xanadu&ft:locale=en-US)**
+-   **[New search and category filter in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=xanadu&ft:locale=en-US)**
 
 Notification preferences now include the ability to search within custom notifications and filter by category in system notifications.
 
--   **[Email unsubscribe](https://servicenow-staging.fluidtopics.net/access?context=email-unsubscribe&family=xanadu&ft:locale=en-US)**
+-   **[Email unsubscribe](https://www.servicenow.com/docs/access?context=email-unsubscribe&family=xanadu&ft:locale=en-US)**
 
 Unsubscribe from emails using the unsubscribe capability in the email header.
 
--   **[Language preferences](https://servicenow-staging.fluidtopics.net/access?context=multilingual-email-notifications&family=xanadu&ft:locale=en-US)**
+-   **[Language preferences](https://www.servicenow.com/docs/access?context=multilingual-email-notifications&family=xanadu&ft:locale=en-US)**
 
 Honor sys\_user language preferences set by users for email translations.
 
@@ -148,23 +148,23 @@ Yokohama
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://servicenow-staging.fluidtopics.net/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+-   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
--   **[Support for assignment group](https://servicenow-staging.fluidtopics.net/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
+-   **[Support for assignment group](https://www.servicenow.com/docs/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
 
 Send provider notifications for assignment groups and to users that are part of groups stored in sys\_user\_group table.
 
--   **[Advanced condition for provider framework](https://servicenow-staging.fluidtopics.net/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
+-   **[Advanced condition for provider framework](https://www.servicenow.com/docs/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
 
 Use an advanced condition to send a notification that is based on the current email record, changing field values, or system properties.
 
--   **[Mandatory notifications for provider framework](https://servicenow-staging.fluidtopics.net/access?context=make-notification-mandatory-provider&family=yokohama&ft:locale=en-US)**
+-   **[Mandatory notifications for provider framework](https://www.servicenow.com/docs/access?context=make-notification-mandatory-provider&family=yokohama&ft:locale=en-US)**
 
 Make critical notifications mandatory for the provider framework.
 
--   **[Email bounce](https://servicenow-staging.fluidtopics.net/access?context=email-bounce&family=yokohama&ft:locale=en-US)**
+-   **[Email bounce](https://www.servicenow.com/docs/access?context=email-bounce&family=yokohama&ft:locale=en-US)**
 
 Prevent resending bounced emails to the addresses that are known to generate bounces.
 
@@ -175,11 +175,11 @@ Zurich
 
 </td><td>
 
--   **[Email digest for multiple target records](https://servicenow-staging.fluidtopics.net/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+-   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
 
 The email digest now supports both single or multiple target records within a set time interval.
 
--   **[Notification preferences](https://servicenow-staging.fluidtopics.net/access?context=create-notification-filter-configuration&family=zurich&ft:locale=en-US)**
+-   **[Notification preferences](https://www.servicenow.com/docs/access?context=create-notification-filter-configuration&family=zurich&ft:locale=en-US)**
 
 Enables admins to control the list of notifications displayed for users under the advanced notification preferences.
 
@@ -470,7 +470,7 @@ Xanadu
 -   Optimize SMTP sender job to enhance outbound email delivery.
 -   Modify email retry logic for a better delivery experience according to RFC 5321.
 
- See [Notifications](https://servicenow-staging.fluidtopics.net/access?context=notifications&family=xanadu&ft:locale=en-US) for more information.
+ See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -483,7 +483,7 @@ Yokohama
 -   Use the enhanced assignment group, advanced condition, and mandatory notifications for a provider framework.
 -   Use the standard forms for custom notification preferences and delivery channels.
 
- See [Notifications](https://servicenow-staging.fluidtopics.net/access?context=notifications&family=yokohama&ft:locale=en-US) for more information.
+ See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -497,7 +497,7 @@ Zurich
 -   Use the standard forms for system notification preference.
 -   Handle incoming email requests intelligently with the new email agentic workflow by identifying intent, executing actions, and drafting appropriate email responses.
 
- See [Notifications](https://servicenow-staging.fluidtopics.net/access?context=notifications&family=zurich&ft:locale=en-US) for more information.
+ See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/components-installed-with-itom-su-licensing.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Components installed with ITOM/OT SU Licensing
@@ -130,6 +130,14 @@ Historical Licensable CIs\[sn\_itom\_licensing\_itom\_lu\_historical\_cis\]
 </td><td>
 
 Contains the list of Historical Licensable CIs.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-reference.md)

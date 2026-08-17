@@ -12,6 +12,10 @@ reading_time_minutes: 6
 
 The ServiceNow® Sourcing and Procurement Operations application provides your employees with a simple automated tool that they can use to shop for goods and services that they need at work. Sourcing and Procurement Operations was enhanced and updated in the Zurich release.
 
+## Now Assist &gt; ServiceNow Otto announcement
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 ## Sourcing and Procurement Operations highlights for the Zurich release
 
 -   Enable shoppers to view and select their local currency throughout the Shopping Hub experience, including supplier cards, product detail pages, cart, checkout, my purchases, and request tracker.
@@ -114,7 +118,7 @@ See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/Serv
 
 ## Activation information
 
-Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -125,9 +129,9 @@ Install Sourcing and Procurement Operations by requesting it from the ServiceNow
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/now-assist-spo.md)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/now-assist-spo.md)**
 
-    Use the ServiceNow® Now Assist for SPO application to simplify request creation with conversational intake and summarize records to help fulfillers act promptly.
+    Use the ServiceNow® ServiceNow Otto for SPO application to simplify request creation with conversational intake and summarize records to help fulfillers act promptly.
 
 -   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/source-to-pay-ws-overview.md)**
 

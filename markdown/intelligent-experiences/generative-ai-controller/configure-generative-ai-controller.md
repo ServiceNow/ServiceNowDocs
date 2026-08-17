@@ -9,7 +9,7 @@ classification: generative-ai-controller
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configuring Generative AI Controller

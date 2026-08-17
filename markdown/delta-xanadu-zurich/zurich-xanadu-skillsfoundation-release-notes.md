@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-skillsfoundation-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Skills import](https://servicenow-staging.fluidtopics.net/access?context=import-and-validate-custom-skills-onboarding&family=yokohama&ft:locale=en-US)**
+-   **[Skills import](https://www.servicenow.com/docs/access?context=import-and-validate-custom-skills-onboarding&family=yokohama&ft:locale=en-US)**
 
 Import skill sets from the Workday Employee spoke using the existing import flow in the Skills Workspace. The imported sets of skills can either be the full list of skills from a given input or a subset.
 
@@ -137,7 +137,7 @@ Zurich
 
 </td><td>
 
--   **[Skills Intelligence](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence&family=zurich&ft:locale=en-US)**
+-   **[Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=zurich&ft:locale=en-US)**
 
 Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.
 
@@ -148,7 +148,7 @@ Resume parsing is done using Now Assist.
 ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
 
 
--   **[Skills Intelligence Workspace](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence-workspace&family=zurich&ft:locale=en-US)**
+-   **[Skills Intelligence Workspace](https://www.servicenow.com/docs/access?context=skills-intelligence-workspace&family=zurich&ft:locale=en-US)**
 
 The application name Skills Intelligence Workspace has been changed to Skills Workspace.
 
@@ -159,7 +159,7 @@ In Skill Harmonization, duplicate skills identification relies on AI search inst
 In Skills Import, two new integration options are added for SAP SuccessFactors and skills and user skills imported go through harmonization pipeline.
 
 
--   **[Career tab in Employee Center](https://servicenow-staging.fluidtopics.net/access?context=manage-skills-profile&family=zurich&ft:locale=en-US)**
+-   **[Career tab in Employee Center](https://www.servicenow.com/docs/access?context=manage-skills-profile&family=zurich&ft:locale=en-US)**
 
 In the Career tab, the recommended skills source is now derived both from skills that are tagged to activities that employees has been pursuing and from similar user skills.
 
@@ -267,7 +267,7 @@ Yokohama
 
 </td><td>
 
-Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Zurich
 
 </td><td>
 
-Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -462,7 +462,7 @@ Yokohama
 -   Integrating Workday Learning skills and Workday Employee skills into the current import flow and relate them to the respective employees in the ServiceNow system.
 -   Support for dynamic skills import requests from Credly \(OOTB source\) and other external sources. The skills are verified with the skills library \(exact or mapped match\), and new skills are added to the queue for processing. The harmonized skills are then linked back to the source using metadata.
 
- See [Skills Intelligence](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence&family=yokohama&ft:locale=en-US) for more information.
+ See [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -476,7 +476,7 @@ Zurich
 -   Automatic HR job profile and Talent job profile synchronization when a new employee joins the organization, or​ an existing employee changes position. You must have Human Resources Scoped App \(sn\_hr\_core\) installed for this feature to work.
 -   Integration between SAP SuccessFactors and ServiceNow enables customers to import skills and user skills into ServiceNow, unlocking Growth Experiences features and driving higher adoption​. The integration feature will only work for the customers who are using Job Profile Builder and will not work for those who are using Talent Intelligence Hub.
 
- See [Skills Intelligence](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence&family=zurich&ft:locale=en-US) for more information.
+ See [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

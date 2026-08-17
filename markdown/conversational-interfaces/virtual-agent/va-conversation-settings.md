@@ -54,7 +54,7 @@ A chat experience consists of setup topics, promoted assets, and a search profil
 
     In NLU conversations, setup topics have corresponding intents \(set in the pre-built NLU model for setup topics\) and also keywords. Virtual Agent recognizes the utterances or keywords that users can enter to run certain setup topics, such as the Virtual Agent Capabilities \(help\) topic or the Live Agent support topic. Setup topics for LLM conversations rely on their own descriptions as the intents, which the LLM uses for topic discovery.
 
-    You can preview \(test\) the pre-built setup topics to see how they work. On the Virtual Agent Designer home page, use the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon. to sort only for Setup Topics, and then select the setup topics to test. Pre-built topics are read-only, but you can duplicate, customize \(modify\) if needed, and publish them.
+    You can preview \(test\) the pre-built setup topics to see how they work. On the Assistant Designer Asset library, use the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon. to sort only for Setup Topics, and then select the setup topics to test. Pre-built topics are read-only, but you can duplicate, customize \(modify\) if needed, and publish them.
 
 -   **Promoted topics**
 
@@ -62,7 +62,7 @@ A chat experience consists of setup topics, promoted assets, and a search profil
 
     **Note:** Promoted topics may not be supported on all clients.
 
-    For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
+    For more information, see [Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
 
 -   **Search profile**
 
@@ -77,7 +77,7 @@ Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**, and th
 -   Create different custom chat experiences based on the context in which your end users run Virtual Agent. The settings that you define in a custom chat experience override the default chat experience.
 
 -   **[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/working-setup-topics.md)**  
-Setup topics are part of a standard conversation structure applied to all your conversations, such as the welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on the context, keywords, or utterances entered by the user, and any conditions that are specified for the setup topic.
+Setup topics are standard conversation structures applied to all conversations, such as welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on context, keywords, or user utterances, and any conditions that are specified for the setup topic.
 -   **[Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md)**  
 Change the preconfigured Virtual Agent default chat experience or create a custom chat experience for your users. You can configure setup topics, specify promoted topics, and if needed, change the search profile.
 -   **[Test chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-custom-experience.md)**  

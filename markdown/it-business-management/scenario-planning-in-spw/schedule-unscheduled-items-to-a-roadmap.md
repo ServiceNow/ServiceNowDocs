@@ -29,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d235926e99">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d243653e99">
 
 Roadmap type
 
-</th><th align="left" id="d235926e102">
+</th><th align="left" id="d243653e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d235926e108">
+</th></tr></thead><tbody><tr><td id="d243653e108">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d235926e129">
+</td></tr><tr><td id="d243653e129">
 
 **Free-form roadmap**
 

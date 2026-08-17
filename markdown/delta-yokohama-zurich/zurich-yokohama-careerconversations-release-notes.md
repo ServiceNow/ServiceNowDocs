@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-careerconversations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,29 +75,35 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
-[Zurich Patch 2](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+-   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://www.servicenow.com/docs/access?context=employee-feedback-agent&family=zurich&ft:locale=en-US)**
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://servicenow-staging.fluidtopics.net/access?context=agentic-wf-conversations-na-td&family=zurich&ft:locale=en-US)**
+As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub.
+
+
+[Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+
+-   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=zurich&ft:locale=en-US)**
 
 As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
-**Note:** This feature is available when you have both Now Assist for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
+**Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
 
--   **[Edit a conversation series](https://servicenow-staging.fluidtopics.net/access?context=edit-conversations-series&family=zurich&ft:locale=en-US)**
+-   **[Edit a conversation series](https://www.servicenow.com/docs/access?context=edit-conversations-series&family=zurich&ft:locale=en-US)**
 
 As a manager, you can now edit a conversation series based on your requirements.
 
--   **[End a conversation series](https://servicenow-staging.fluidtopics.net/access?context=egd-create-growth-conversation&family=zurich&ft:locale=en-US)**
+-   **[End a conversation series](https://www.servicenow.com/docs/access?context=egd-create-growth-conversation&family=zurich&ft:locale=en-US)**
 
 As a manager, you can now specify a date on which a growth conversation series should end.
 
--   **[View upcoming conversations based on status](https://servicenow-staging.fluidtopics.net/access?context=egd-create-growth-conversation&family=zurich&ft:locale=en-US)**
+-   **[View upcoming conversations based on status](https://www.servicenow.com/docs/access?context=egd-create-growth-conversation&family=zurich&ft:locale=en-US)**
 
 As a manager, you can now filter upcoming conversations based on the status of the conversation.
 
@@ -361,14 +367,20 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 2](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   As an admin, create reusable feedback templates using the ServiceNow AI Platform Surveys tool.
+-   As a manager, select and preview feedback templates when requesting feedback.
+-   As a manager, review a summarized view of an employee's recent feedback on the feedback page in Manager Hub.
+
+[Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Make career conversations easy to create and track using the growth conversations agentic workflow.
 -   As a manager, find and share relevant resources to conduct meaningful conversations using the Manager resource recommendation AI agent.
 -   As a manager, you can now edit a series, and also specify when a series should end while creating the growth conversation.
 
- See [Career Conversations](https://servicenow-staging.fluidtopics.net/access?context=egd-activities-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Career Conversations](https://www.servicenow.com/docs/access?context=egd-activities-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

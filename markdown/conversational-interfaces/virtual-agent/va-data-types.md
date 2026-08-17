@@ -1,6 +1,6 @@
 ---
 title: Input data types in Virtual Agent topics
-description: You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Virtual Agent Designer without writing a script. Define the input data type on the Start node of a custom control or topic block.
+description: You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Assistant Designer Asset library without writing a script. Define the input data type on the Start node of a custom control or topic block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-data-types.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual
 
 # Input data types in Virtual Agent topics
 
-You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Virtual Agent Designer without writing a script. Define the input data type on the Start node of a custom control or topic block.
+You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Assistant Designer Asset library without writing a script. Define the input data type on the Start node of a custom control or topic block.
 
-## Data types in Virtual Agent Designer
+## Data types in Assistant Designer Asset library
 
 The data type designation allows Virtual Agent to perform secondary validation on NLU predicted values. For example, if your choice list has red, white, and blue, but the NLU prediction service returns green, the input won't be slot-filled because that wasn't a valid choice.
 
@@ -88,7 +88,7 @@ Sequence of table records by sys\_id. Select a ServiceNow table in the **Table**
 
  To limit the number of records that authors can specify, use the **Max Number of Rows** field.
 
- **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
+ **Note:** The **Array.Reference** input data type in Assistant Designer Asset library corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Sequence of choice list values for a specific choice field.For example, `printer
 
 This User Name Array.Reference input variable limits the number of records to 5. It references the sys\_user table with the condition that all names must start with **a**.
 
-\[Omitted image "va-data-type-definition.png"\] Alt text: Edit input window, showing data type definition in Virtual Agent Designer.
+\[Omitted image "va-data-type-definition.png"\] Alt text: Edit input window, showing data type definition in Assistant Designer Asset library.
 
 **Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 

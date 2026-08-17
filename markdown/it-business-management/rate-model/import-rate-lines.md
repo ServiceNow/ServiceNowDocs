@@ -18,7 +18,7 @@ Use the import rate lines function to quickly add multiple rate lines from an ex
 
 ## Before you begin
 
-Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true.
+Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true. For more information about the property, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/r_ImportSetsProperties.md#section_d4y_pcf_1jb)
 
 Role required: pps\_admin or it\_rate\_model\_admin
 
@@ -38,18 +38,18 @@ After adding or updating rate lines in a file created using the [export function
 
     -   Navigate to **All** &gt; **Project Administration** &gt; **Rate Model** &gt; **Import Rate Line**.
     -   Navigate to **All** &gt; **Time Sheets** &gt; **Rate Model** &gt; **Import Rate Line**.
-    -   Navigate to **All** &gt; **Time Sheets** &gt; **Rate Model** &gt; **All**, open a rate model record, and click the **Import Rate Line** related link.
-2.  Click **Choose File** to select the import file.
+    -   Navigate to **All** &gt; **Time Sheets** &gt; **Rate Model** &gt; **All**, open a rate model record, and select the **Import Rate Line** related link.
+2.  Select **Choose File** to select the import file.
 
-3.  If you are importing from an Excel file containing multiple sheets, enter the sheet number that contains the data to import in the **Sheet number** field.
+3.  If you're importing from an Excel file containing multiple sheets, enter the sheet number that contains the data to import in the **Sheet number** field.
 
-    **Note:** If you are importing from a CSV file, then the data from the last saved CSV file is considered for import irrespective of the specified sheet number.
+    **Note:** If you're importing from a CSV file, then the data from the last saved CSV file is considered for import irrespective of the specified sheet number.
 
 4.  If the import file has a header row, enter the row number that has the header information in the **Header row** field.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
-6.  Click **Run Transform** to import the data.
+6.  Select **Run Transform** to import the data.
 
     For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_RunImport.md).
 

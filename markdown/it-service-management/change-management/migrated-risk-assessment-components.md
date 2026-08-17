@@ -9,7 +9,7 @@ classification: change-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Migrate to legacy change risk assessments, Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Migrate from legacy change risk assessments, Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
 ---
 
 # Migrated risk assessment components
@@ -27,5 +27,5 @@ To create a functional risk assessment on the assessment framework, the system c
 |Risk Assessment Thresholds \[risk\_assessment\_threshold\]|Assessment Thresholds \[change\_risk\_asmt\_threshold\]|
 |Assessment Conditions \[assessment\_conditions\]|This is included in Change Management - Risk Assessment \[com.snc.change.risk\_assessment\].|
 
-**Parent Topic:**[Migrate to legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/legacy-change-risk-assessment-migration.md)
+**Parent Topic:**[Migrate from legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/legacy-change-risk-assessment-migration.md)
 

@@ -48,7 +48,7 @@ Role required: admin
         -   You’re prompted to enter a new key store password to protect the JKS keystore file. Record and retain this password for later, since it’s required to set up the ServiceNow instance.
 3.  In the ServiceNow instance, login in as admin and do the following:
 
-    1.  Set CPQ Integration as the current scope by using the scope selection menu icon \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation menu.
+    1.  Set **Global** as the current scope by using the scope selection menu icon \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation menu.
 
     2.  In the navigation filter, enter **sys\_properties.list** and open the **glide.security.file.mime\_type.validation** system property.
 

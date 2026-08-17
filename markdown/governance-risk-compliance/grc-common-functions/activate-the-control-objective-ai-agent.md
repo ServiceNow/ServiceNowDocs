@@ -21,7 +21,7 @@ Enable the control objective change agent in AI Agent Studio to automate complia
 
 Role required: sn\_grc\_sharegenai.compliance\_library\_aiagent\_user
 
-Install the Now Assist for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ Install the Now Assist for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_
 
 Use the Testing playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-ai-agent.md) using example utterances.
 
-If not done already, set up the Now Assist panel. For more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+If not done already, set up the Now Assist panel. For more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

@@ -8,8 +8,8 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-08-13"
-reading_time_minutes: 5
-breadcrumb: [Evaluation in the Virtual Agent's asset record, AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+reading_time_minutes: 6
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Value tab in the Evaluation dashboard
@@ -32,7 +32,7 @@ The following widgets are available:
     -   Large-size conversations: Conversations with more than 10 messages from the user.
     -   Medium-size conversations: Conversations with more than 4 but fewer than 10 messages from the user.
     -   Small-size conversations: Conversations with 4 or fewer messages from the user.
-    **Note:** To change the definition of small, medium, and large conversations, update the property **sn\_na\_conv\_eval.value\_chat\_classifier**. For more information, see .
+    **Note:** To change the definition of small, medium, and large conversations, update the property **sn\_na\_conv\_eval.value\_chat\_classifier**. For more information, see [Components installed with the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-components.md).
 
     \[Omitted image "ai-eval-value-05.png"\] Alt text: Breakdown by conversation chat sizes.
 
@@ -133,5 +133,5 @@ Role required: admin
 **Related topics**  
 
 
-[ai-eval-references]
+[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

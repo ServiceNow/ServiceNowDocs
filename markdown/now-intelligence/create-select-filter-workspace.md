@@ -50,7 +50,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
         **Note:**
 
-        -   You can select only reference fields and fields that have a Choice list. If the table has only non-reference string and numeric fields, you do not have any fields to select from.
+        -   You can select only reference fields, string fields, and fields that have a Choice list. If the table has only non-reference numeric fields, you do not have any fields to select from.
         -   If you select no field, you can filter only data on that table or in reference fields that point to that table. For example, if you select the Company table as your filter source, you can only filter the Company table or reference fields pointing to Company, such as Incident.Caller.Company or Incident.Location.Company.
         -   If you select a MetricBase table, don’t select a field.
         -   If you select a field that is a reference field to another table, the filter source resets to refer to that table with no field selected. The data to filter is set automatically to the reference field that you originally selected. As additional data to filter, you can set only the table in the filter source or other reference fields pointing to that table.
@@ -98,7 +98,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
     -   The filter to be followed must filter data on the same table as the filter source of the following filter.
     **Note:**
 
-    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter in a many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/set-filter-to-follow-filter.md).
+    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/set-filter-to-follow-filter.md).
     -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/filters-follow-each-other.md).
 8.  Select the **Sort direction**.
 
@@ -132,7 +132,7 @@ In this example, you want your users to filter incidents by manager or by assign
 
         \[Omitted image "filter-ex-inc-ass-man-source.png"\] Alt text: User table selected as the filter source for the Manager filter.
 
-    3.  Because you want to apply this filter to a data visualization of Incident table data, you edit the **Data to filter** field to point to the Incident table and the dotwalked reference field Assignment group.Manager.
+    3.  You want to apply this filter to a data visualization of Incident table data. Therefore, you edit the **Data to filter** field to point to the Incident table and the dotwalked reference field Assignment group.Manager.
 
         \[Omitted image "filter-inc-ass-man-data-2-filter-1.png"\] Alt text: The dotwalked field Incident.Assignment Group.Manager selected as data to filter.
 
@@ -152,7 +152,7 @@ In this example, you want your users to filter incidents by manager or by assign
 
 4.  Scroll down the Group filter's configuration panel to **Follow other filters**.
 
-5.  Under **Directly connected filters**, you select **Follow Manager**.
+5.  In the **Directly connected filters** section, you select **Follow Manager**.
 
     \[Omitted image "paw-follow-filter.png"\] Alt text: Other Filters to Follow section of the configuration panel for the Group filter, with a toggle to follow the Manager filter.
 

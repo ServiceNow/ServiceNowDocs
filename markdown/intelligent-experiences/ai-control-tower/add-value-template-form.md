@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Add value template form
@@ -141,5 +141,5 @@ Instance
 The instance where the value template is applied. This field is useful for managing value templates across instances.**Note:** You can validate a formula in a non-production instance before publishing it to a production instance. After initiating testing for a value template, you might need to wait up to 10 minutes for same-instance testing or 30 minutes for cross-instance testing. During this time, you can't edit or resend the template for testing, but you can continue working with other templates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
+</table>**Parent Topic:**[AI Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 

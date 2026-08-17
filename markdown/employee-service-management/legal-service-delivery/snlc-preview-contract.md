@@ -50,6 +50,8 @@ View and download a signed contract document as a legal user.
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View contract requests]()

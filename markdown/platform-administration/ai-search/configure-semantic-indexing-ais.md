@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -18,7 +18,7 @@ Specify the semantic indexing configuration settings you want to apply when AI S
 
 ## Before you begin
 
-The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) is installed on your instance.
+The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) is installed on your instance.
 
 Role required: ais\_admin
 
@@ -36,7 +36,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 3.  In the Semantic Index Configuration related list, select **New**.
 
-    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) installed. Installing any Now Assist application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
+    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [ServiceNow Otto application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) installed. Installing any ServiceNow Otto application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
 
 4.  On the Semantic Index Configuration form, fill in the fields.
 

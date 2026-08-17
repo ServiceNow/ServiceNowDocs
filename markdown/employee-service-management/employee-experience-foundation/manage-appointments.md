@@ -34,15 +34,15 @@ Role required: none
 
     **Note:** You can perform these actions from the Appointment list page or the Appointment details page.
 
-<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d340305e109">
+<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d340559e109">
 
 Choice
 
-</th><th align="left" id="d340305e112">
+</th><th align="left" id="d340559e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d340305e118">
+</th></tr></thead><tbody><tr><td id="d340559e118">
 
 **Cancel**
 
@@ -50,7 +50,7 @@ Action
 
 The **Cancel appointment** window opens. You can cancel the appointment by selecting **Yes, cancel**.
 
-</td></tr><tr><td id="d340305e136">
+</td></tr><tr><td id="d340559e136">
 
 **Update**
 
@@ -60,7 +60,7 @@ The Schedule appointment page opens. The fields are pre-filled with the appointm
 
  For more information about scheduling an appointment, see [Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schedule-appointment.md).
 
-</td></tr><tr><td id="d340305e158">
+</td></tr><tr><td id="d340559e158">
 
 **Give Feedback**
 

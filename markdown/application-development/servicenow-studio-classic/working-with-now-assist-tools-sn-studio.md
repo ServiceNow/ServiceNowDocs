@@ -16,11 +16,11 @@ breadcrumb: [Use, ServiceNow Studio, Developing your application, Building appli
 
 Several Now Assist tools are available for you to use in ServiceNow Studio. AI files provide ways to use generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
-The main AI tools you can use in ServiceNow Studio are Now Assist for Creator skills called Now Assist for app generation and Now Assist for app summary generation. Now Assist for app generation enables you to create apps using a conversational interface right in ServiceNow Studio. Now Assist for app summary generation enables you to create summary descriptions of your app that you can use as a short description for your app.
+The main AI tools you can use in ServiceNow Studio are ServiceNow Otto for Creator skills called Now Assist for app generation and Now Assist for app summary generation. Now Assist for app generation enables you to create apps using a conversational interface right in ServiceNow Studio. Now Assist for app summary generation enables you to create summary descriptions of your app that you can use as a short description for your app.
 
 ## Now Assist for app generation
 
-Get started creating an app quickly using Now Assist for app generation. From the main ServiceNow Studio home page, you can quickly use AI to create or update an app. After having a conversation about the app that you want to create, Now Assist for Creator generates the app that you can modify.
+Get started creating an app quickly using Now Assist for app generation. From the main ServiceNow Studio home page, you can quickly use AI to create or update an app. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can modify.
 
 Access Now Assist for app generation on the main home page next to your user preferences, or on the same page as creating a new custom application.
 
@@ -48,11 +48,11 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **AI capabilities**
 
-    [Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+    [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
     [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/use-ai-capabilities-in-custom-apps.md)
 
-    [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+    [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 -   **Agentic workflows**
 
@@ -62,7 +62,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **AI Agents**
 
-    [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-ai-agents.md)
+    [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-ai-agents.md)
 
     [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
@@ -70,15 +70,15 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Now Assist Skill Kit**
 
-    [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
+    [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
 
     [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-new-skill.md)
 
 
 -   **[Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)**  
-Use Now Assist for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, Now Assist for Creator generates the app that you can then modify.
+Use ServiceNow Otto for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can then modify.
 -   **[Now Assist for app summary generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)**  
-Use the ServiceNow® Now Assist for Creator application to use generative AI for summarizing an app. With a single button, Now Assist for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
+Use the ServiceNow® ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

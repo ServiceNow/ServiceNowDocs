@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2026-05-28"
 reading_time_minutes: 11
-breadcrumb: [Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management configuration preferences

@@ -84,6 +84,8 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()

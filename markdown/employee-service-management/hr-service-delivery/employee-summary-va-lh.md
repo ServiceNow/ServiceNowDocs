@@ -20,7 +20,7 @@ Activate and use the Employee Summary Virtual Agent topic to access employee con
 
 To access and use the Employee Summary reports topic, the following plugin must me activated:
 
--   Now Assist for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\)
+-   ServiceNow Otto for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\)
 
 The following plugins are optional:
 
@@ -45,7 +45,7 @@ Role required: admin
 
 2.  Publish the **Employee Summary** Virtual Agent topic.
 
-    For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
+    For more information, see .
 
 3.  View the Employee Summary reports topic.
 

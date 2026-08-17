@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 1
-keywords: [conversational authoring, Now Assist Chat, AI announcements, Employee Slate]
+keywords: [conversational authoring, ServiceNow Otto Chat, AI announcements, Employee Slate]
 breadcrumb: [Employee communications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 

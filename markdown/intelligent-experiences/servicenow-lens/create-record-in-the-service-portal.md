@@ -39,11 +39,11 @@ You can auto-fill catalog item forms in the Service Portal in two ways:
 
 1.  Auto-fill catalog item forms in Service Portal by performing any of the following methods.
 
-<table id="choicetable_zd4_nxq_pjc"><thead><tr><th align="left" id="d60742e122">
+<table id="choicetable_zd4_nxq_pjc"><thead><tr><th align="left" id="d68010e122">
 
 Method
 
-</th><th align="left" id="d60742e125">
+</th><th align="left" id="d68010e125">
 
 Steps
 
@@ -66,11 +66,11 @@ This procedure demonstrates how to request an iPhone from the Service Portal by 
 2.  Navigate to the item that you want to request and select it.
 3.  Select **Fill with Lens**.
 
-\[Omitted image "lens-select-fill-with-lens.png"\] Alt text: Fill with lens button.
+\[Omitted image "lens-select-fill-with-lens.png"\] Alt text: Fill with Lens button.
 
 4.  Select **Capture screen**.
 
-\[Omitted image "lens-sel-capture-screen.png"\] Alt text: Capture screen button.
+\[Omitted image "lens-capture-screen-button.png"\] Alt text: Capture screen button for the browser-based experience.
 
 5.  Select the screen that you want to capture, and then select **Share**.
 
@@ -131,7 +131,7 @@ For example, you could select New Vendor Registration.
 
 4.  Select **Open AI Lens desktop**.
 
-\[Omitted image "lens-open-desktop-app.png"\] Alt text: Open AI lens desktop button.
+\[Omitted image "lens-capture-screen-button.png"\] Alt text: Capture screen button for the browser-based experience.
 
 5.  In the ServiceNow AI Lens.app dialog box, select Open ServiceNow AI Lens.app.
 
@@ -171,8 +171,6 @@ You can resize the scanner window by dragging its borders.
 
         2.  \(Optional step\). To provide instructions to extract the data from the document in a specific way, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Instructions icon.\), and enter the instructions.
 
-\[Omitted image "lens-vendor-form-capture.png"\] Alt text: Enter specific instructions.
-
 The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
         3.  Select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\).
@@ -185,40 +183,33 @@ The second screenshot is captured.
 
 Repeat the step to capture more screenshots, if required.
 
-\[Omitted image "lens-venform-multi-capture.png"\] Alt text: View the number of screenshots you've captured
-
         5.  \(Optional step\) To remove a screenshot that you had captured, select the Delete icon.
-
-\[Omitted image "lens-vendor-form-remove-scrnsht.png"\] Alt text: Remove captured screenshot
-
         6.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
 
 The ServiceNow AI Lens preview window displays the screenshots that you've captured.
-
-\[Omitted image "lens-vendor-form-multi-scrnshts-captured.png"\] Alt text: Preview of multiple captured screenshots
 
         7.  Select **Analyze**.
 
 The catalog item form is auto-filled.
 
-\[Omitted image "lens-new-vendor-reg-form-filled.png"\] Alt text: New vendor registration form filled. \[Omitted image ""\] Alt text: Fields of New Vendor Registration field auto-filled with data from the artifact.
+\[Omitted image "lens-new-vendor-reg-form-filled.png"\] Alt text: New vendor registration form filled.
 
 </td></tr></tbody>
 </table>2.  In the catalog item request form, confirm that the catalog item form fields are correctly filled.
 
-    The fields that are auto-filled by Now Assist are highlighted with the Sparkle icon \[Omitted image "lens-sp-sparkle-icon.png"\] Alt text: Service Portal AI Sparkle icon..
+    The fields that are auto-filled by AI are highlighted with the Sparkle icon \[Omitted image "lens-sp-sparkle-icon.png"\] Alt text: Service Portal AI Sparkle icon..
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d60742e676">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d68010e609">
 
 Option
 
-</th><th align="left" id="d60742e679">
+</th><th align="left" id="d68010e612">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60742e685">
+</th></tr></thead><tbody><tr><td id="d68010e618">
 
 **If the auto-filled text looks good**
 
@@ -226,7 +217,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d60742e697">
+</td></tr><tr><td id="d68010e630">
 
 **If the auto-filled text requires changes**
 

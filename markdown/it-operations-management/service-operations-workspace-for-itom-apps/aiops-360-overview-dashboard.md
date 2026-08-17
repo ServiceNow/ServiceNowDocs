@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
-breadcrumb: [AIOps Dashboards in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [AIOps Dashboards in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # AIOps 360 overview dashboard
@@ -24,6 +24,10 @@ Ensure that the Event Management application is installed.
 
 -   evt\_mgmt\_admin
 -   evt\_mgmt\_operator
+
+## Access the AIOps 360 overview dashboard
+
+To open the dashboard, navigate to **Workspaces** &gt; **Service Operations Workspace**. From the left navigation pane, select the AIOps Dashboard icon \(\[Omitted image "icon-aiops-dashboard.png"\] Alt text: AIOps Dashboard icon\). The AIOps 360 overview dashboard page opens.
 
 ## Breakdowns
 
@@ -55,6 +59,14 @@ Est. Total time saved
 </td><td>
 
 Sum of time saved through alert automation and alert grouping, calculated in hours.
+
+</td></tr><tr><td>
+
+Est. Total time saved by AI
+
+</td><td>
+
+Sum of time saved through AI-driven actions such as automatic noise classification and AI-generated analysis, calculated in hours. This is distinct from time saved by rule-based alert automation and grouping.
 
 </td></tr><tr><td>
 

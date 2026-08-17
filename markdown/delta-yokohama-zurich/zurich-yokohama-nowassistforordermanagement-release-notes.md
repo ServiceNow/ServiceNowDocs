@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-08-17"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Enable the manage order operations agent in the Business Portal](https://servicenow-staging.fluidtopics.net/access?context=enable-manage-order-operations-ai-agent&family=yokohama&ft:locale=en-US)**
+-   **[Enable the manage order operations agent in the Business Portal](https://www.servicenow.com/docs/access?context=enable-manage-order-operations-ai-agent&family=yokohama)**
 
 Activate the manage order operations agent so that you can make it available to your customers on the Business Portal.
 
--   **[Request order changes using Now Assist](https://servicenow-staging.fluidtopics.net/access?context=request-order-changes-now-assist&family=yokohama&ft:locale=en-US)**
+-   **[Request order changes using Now Assist](https://www.servicenow.com/docs/access?context=request-order-changes-now-assist&family=yokohama)**
 
 Use the manage order operations agent to provide a seamless experience to your customers on the Business Portal, enabling them to create order cases using a virtual assistant effortlessly. The AI agent can intelligently categorize requests for expedited delivery by creating order-related cases linked directly to the specific order, significantly reducing manual case creation and speeding up resolution times. Interaction channels include chat and voice options.
 
--   **[Summarize an order](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-mgmt-summarize-order&family=yokohama&ft:locale=en-US)**
+-   **[Summarize an order](https://www.servicenow.com/docs/access?context=now-assist-order-mgmt-summarize-order&family=yokohama)**
 
 Generate a summary of a complex order for a unified view of the order's current state to:
 
@@ -92,17 +92,49 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
 
--   **[Enable the manage order operations agent in the Business Portal](https://servicenow-staging.fluidtopics.net/access?context=enable-manage-order-operations-ai-agent&family=zurich&ft:locale=en-US)**
+-   **[AI-powered invoice case management for customers](https://www.servicenow.com/docs/access?context=dispute-invoice-issues-now-assist&family=zurich)**
+
+Enable customers to report quantity-related invoice disputes through an AI-powered virtual assistant on the Business Portal. Customers can describe the discrepancies through natural conversation, and the assistant validates details, creates cases, and autonomously resolves eligible disputes by issuing credit notes or replacement orders, or connects customers with a human agent when needed.
+
+-   **[Invoice dispute intake with voice assistant](https://www.servicenow.com/docs/access?context=now-assist-invoice-mgmt-voice-aiagent&family=zurich)**
+
+Enable customers to report quantity-related invoice disputes using voice commands through an AI-powered voice assistant on the Business Portal. Customers can describe discrepancies through natural speech and the assistant captures dispute details to create invoice cases or connects customers with a human agent.
+
+-   **[Human agent handoff with context transfer](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&family=zurich)**
+
+Help customers to escalate complex disputes seamlessly to a live agent. The full conversation context, including invoice details, dispute reason, and prior AI actions are transferred to the CSM/FSM Configurable Workspace, enabling live agents to continue without asking customers to repeat information.
+
+-   **[Now Assist for invoice case resolution](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&family=zurich)**
+
+Help accelerate invoice dispute resolution by surfacing similar cases and common resolution patterns in the Now Assist panel. Agents can request help with an invoice case to view how similar disputes were resolved, reducing research time and improving consistency.
+
+-   **[Automated email notifications for invoice cases](https://www.servicenow.com/docs/access?context=now-assist-order-management-using&family=zurich)**
+
+Keep customers informed with automated email notifications at key points in the invoice case life cycle, including case creation confirmation, resolution details with credit note or replacement order information, and the next steps for cases requiring human review.
+
+-   **[Return Merchandise Authorization](https://www.servicenow.com/docs/access?context=return-merchandise-authorization&family=zurich)**
+
+Leverage the RMA AI agent for automated entitlement and case handling with the following features:
+
+    -   Automates entitlement checks with real‑time warranty validation
+    -   Selects best‑fit resolution and sends for customer approval
+    -   Generates recommended actions when no valid entitlement is found
+    -   Provides proactive case updates and follow‑ups
+    -   Answers customer queries and handles multi‑intent emails
+
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
+
+-   **[Enable the manage order operations agent in the Business Portal](https://www.servicenow.com/docs/access?context=enable-manage-order-operations-ai-agent&family=zurich)**
 
 Activate the manage order operations agent so that you can make the agent available to your customers on the Business Portal.
 
--   **[Request order changes using Now Assist](https://servicenow-staging.fluidtopics.net/access?context=request-order-changes-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Request order changes using Now Assist](https://www.servicenow.com/docs/access?context=request-order-changes-now-assist&family=zurich)**
 
 Use the manage order operations agent to provide a seamless experience to your customers on the Business Portal, enabling them to create order cases using a virtual assistant effortlessly. The AI agent can intelligently categorize requests for expedited delivery by creating order-related cases linked directly to the specific order, significantly reducing manual case creation and speeding up resolution times. Interaction channels include chat and voice options.
 
--   **[Summarize an order](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-mgmt-summarize-order&family=zurich&ft:locale=en-US)**
+-   **[Summarize an order](https://www.servicenow.com/docs/access?context=now-assist-order-mgmt-summarize-order&family=zurich)**
 
 Generate a summary of a complex order for a unified view of the order's current state to:
 
@@ -132,11 +164,11 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -150,7 +182,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -232,7 +264,7 @@ Yokohama
 
 </td><td>
 
-Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see [Install an application](https://servicenow-staging.fluidtopics.net/access?context=t_InstallApplications&family=yokohama&ft:locale=en-US).
+Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see [Install an application](https://www.servicenow.com/docs/access?context=t_InstallApplications&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -240,7 +272,7 @@ Zurich
 
 </td><td>
 
-Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the ServiceNow® Application Manager. For more information, see [Install an application](https://servicenow-staging.fluidtopics.net/access?context=t_InstallApplications&family=zurich&ft:locale=en-US).
+Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the ServiceNow® Application Manager. For more information, see [Install an application](https://www.servicenow.com/docs/access?context=t_InstallApplications&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -298,7 +330,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -377,14 +409,14 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 
  -   Enable business-to-business \(B2B\) customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
 -   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity.
 
- See [Now Assist for Order Management](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -392,16 +424,22 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
+
+-   Enable business-to-business \(B2B\) customers to create invoice dispute cases through AI-powered chat and voice assistants that guide them through conversational dispute intake on the Business Portal.
+-   Provide uninterrupted handoff to human agents to support complex use cases, with full conversation context transferred to the CSM/FSM Configurable Workspace.
+-   RMA AI agent for automated RMA entitlement and intelligent case handling.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Enable B2B customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
 -   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make the next steps easier and improving productivity.
 
- See [Now Assist for Order Management](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-management&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

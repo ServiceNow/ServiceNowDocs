@@ -32,11 +32,11 @@ Role required: admin or security\_admin
 
 This walkthrough starts with an instance where you have already created and uploaded your personal cryptographic key. You could use the ServiceNow key, but this example uses a customer-supplied key.
 
-After the key has been stored in a cryptographic module, you can start configuring fields in your instance, such as salary or social security numbers that have limited access from certain users. In the Encrypted Field Configuration, specify which authorized personnel can access sensitive data.
+After the key has been stored in a cryptographic module, you can start configuring fields in your instance. For example, configure salary or social security number fields that have limited access from certain users. In the Encrypted Field Configuration, specify which authorized personnel can access sensitive data.
 
-This task demonstrates two scenarios. One example encrypts the **Short Description** field in an Incident for users who are not authorized to view the sensitive data.
+This task demonstrates two scenarios. One example encrypts the **Short Description** field in an incident for users who aren't authorized to view the sensitive data.
 
-Attachments can also be encrypted and only visible to users who are granted access, or is visible to all users that are not restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/attachment-encryption-walkthrough.md) to encrypt an attachment.
+Attachments can also be encrypted and only visible to users who are granted access, or is visible to all users that aren't restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/attachment-encryption-walkthrough.md) to encrypt an attachment.
 
 ### Procedure
 
@@ -48,7 +48,7 @@ Attachments can also be encrypted and only visible to users who are granted acce
 
 3.  Navigate to **System Security** &gt; **Encrypted Field Configurations**.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  On the form, fill in the fields.
 
@@ -64,7 +64,7 @@ Attachments can also be encrypted and only visible to users who are granted acce
 
     \[Omitted image "cleexample.png"\] Alt text: Shows a completed Encrypted Field Configuration.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     Establish a Module Access Policy to assign access to the cryptographic module. See [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
@@ -91,7 +91,7 @@ Attachments can also be encrypted and only visible to users who are granted acce
 
     You can now view the Short description field based on the module access policy configuration.
 
-    **Note:** The sn\_kmf.admin role was granted user access to the encrypted field, Short description, by setting the module access policy to **Track**. Notice the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) under the field name indicating that the field is an encrypted field.
+    **Note:** The sn\_kmf.admin role was granted access to the encrypted Short description field by setting the module access policy to **Track**. Notice the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) under the field name indicating that the field is an encrypted field.
 
     You can now access the **Incidents** module as an end user to test the encrypted field configuration.
 

@@ -26,9 +26,9 @@ Subscribing to ServiceNow AI Platform® features and applications adds Playbooks
 |-----------|-----------------|
 |App Engine Studio|Build playbooks from App Engine Studio.|
 ||Create basic request and fulfillment apps without code.|
-|[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
-|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
-|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|
+||Create playbooks for Customer Service Management.|
+||Create playbooks for Field Service Management.|
+||Create playbooks for HR services.|
 |[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|

@@ -75,7 +75,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 10. In the sequence diagram, configure sequence steps in the Configure sequence activities stage.
 
-    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see .
+    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-activity.md).
 
     You can add any number of activities to this stage in your sequence. For example, for telesales workflows, you might want to add a schedule call activity. For more information, see [Add a schedule call activity to a telesales workflow sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-schedule-call-activity.md).
 
@@ -85,7 +85,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 12. Add a stage for the new branch you created and repeat the steps to add more activities as needed, including the schedule call activity as needed.
 
-    For information about adding new stages, see .
+    For information about adding new stages, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
 13. Update the sequence task record by selecting the **Customer Engagement Sequences** &gt; **Update sequence task** activity from the activity picker.
 
@@ -124,5 +124,11 @@ Use permission sets to control access to sequence records such as sequence tasks
 **Related topics**  
 
 
-[bundle-crworkflow.process-automation-designer-lanes-activities]
+[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-lanes-activities.md)
+
+[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)
+
+[Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md)
+
+[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/restart.md)
 

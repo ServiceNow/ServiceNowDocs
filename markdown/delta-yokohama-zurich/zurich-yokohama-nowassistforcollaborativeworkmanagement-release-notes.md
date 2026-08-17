@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcollaborativeworkmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,13 +67,13 @@ Yokohama
 
 </td><td>
 
--   **[Generate tasks from Docs](https://servicenow-staging.fluidtopics.net/access?context=generate-tasks-cwm-docs-now-assist&family=yokohama&ft:locale=en-US)**
+-   **[Generate tasks from Docs](https://www.servicenow.com/docs/access?context=generate-tasks-cwm-docs-now-assist&family=yokohama)**
 
 Help increase efficiency and save time by using Now Assist to automatically generate CWM Tasks for your Board. Using the information in your doc, Now Assist provides task recommendations. You can choose to refine or modify these recommendations. You can iterate multiple times to tweak the task recommendations according to your requirements.
 
 After you're satisfied with the recommendations, Now Assist can help you add these tasks to a board of your choice.
 
--   **[Summarize and paraphrase Docs content](https://servicenow-staging.fluidtopics.net/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+-   **[Summarize and paraphrase Docs content](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama)**
 
 Use Now Assist capabilities to refine selected content in docs, or to get a summary of the whole document.
 
@@ -107,11 +107,11 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -349,18 +349,18 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
- [Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama)
 
 -   Help increase efficiency by automatically creating tasks from the context of your CWM Docs and adding them to the required Board.
 -   Enable saving time by summarizing and paraphrasing blocks of content or a whole page in CWM Docs using generative AI capabilities.
 
- See [Now Assist for CWM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-cwm-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=yokohama) for more information.
 
 </td></tr><tr><td>
 

@@ -10,22 +10,22 @@ topic_type: reference
 last_updated: "2025-08-06"
 reading_time_minutes: 6
 keywords: [Virtual Agent, NLU/Keyword, Natural Language Understanding, topic, testing, chat widget, Service Portal]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Testing NLU/Keyword topics
 
 Use the chat test window to preview, test, and debug Natural Language Understanding \(NLU\)/Keyword topics.
 
-As you work on a topic in Virtual Agent Designer, you can run your conversation in a chat test window. The default test window is the web \(Service Portal\) chat client.
+As you work on a topic in Assistant Designer Asset library, you can run your conversation in a chat test window. The default test window is the web \(Service Portal\) chat client.
 
 If you're using the [Virtual Agent integrations with third-party messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md), elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you want to deploy Virtual Agent.
 
-If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 
 ## Testing your NLU/Keyword topic in the chat test window
 
-\[Omitted image "va-test-ui-options-nlu-2.png"\] Alt text: NLU/Keyword testing options are available on both the Virtual Agent Designer canvas and the home page. \[Omitted image "va-test-ui-options-nlu-2a.png"\] Alt text: NLU/Keyword testing options are available on both the Virtual Agent Designer canvas and the Assistant Designer Asset library.
+\[Omitted image "va-test-ui-options-nlu-2.png"\] Alt text: NLU/Keyword testing options are available on both the Assistant Designer Asset library canvas and the home page. \[Omitted image "va-test-ui-options-nlu-2a.png"\] Alt text: NLU/Keyword testing options are available on both the Assistant Designer Asset library canvas and the Assistant Designer Asset library.
 
 To run your topic in the chat test window, select the **Test** option in the topic header bar. Alternatively, you can test active \(published\) topics by selecting **Test active topics** while viewing NLU topics on the home page.
 
@@ -46,9 +46,9 @@ If you're using the **Test Active Topics** option or sub-options from the home p
 
 For NLU enabled topics, the **Analyze test phrases** tab provides an analysis of the possible intents that match the test phrase \(utterance\) that you entered in the chat test window. The tab lists the prediction results, which include matched intents and their prediction scores, along with any entity recognition and slot-filling results. The top match is listed first. The predicted intents depend on the prediction confidence threshold set in the NLU service.
 
-If an utterance doesn't match a current intent, you can add or change utterances in Virtual Agent Designer. For more information, see [Modify NLU utterances and entities for a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md).
+If an utterance doesn't match a current intent, you can add or change utterances in Assistant Designer Asset library. For more information, see [Modify NLU utterances and entities for a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md).
 
-Make changes, train the model again, and then retest until you're satisfied with the results. When the topic is ready, you can publish both the topic and the model from Virtual Agent Designer.
+Make changes, train the model again, and then retest until you're satisfied with the results. When the topic is ready, you can publish both the topic and the model from Assistant Designer Asset library.
 
 ## Variables tab
 
@@ -84,12 +84,12 @@ The **Logs** tab displays the processing and error messages that are recorded wh
 
 ## Next steps
 
-When you're done testing your topic, close the test chat window. If needed, you can use the test information to fine-tune your conversation. For example, if the results on the **Analyze test phrases** tab return multiple possible matches for your utterance, you could update the utterances for your intent and NLU model on the **NLU Intent** tab for your topic.
+When you're done testing your topic, close the test chat window. If needed, you can use the test information to fine-tune your conversation. For example, if the results on the **Analyze test phrases** tab return multiple possible matches for your utterance, update utterances for your intent and NLU model on the **NLU Intent** tab.
 
--   **[Train and test your NLU model in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md)**  
-Use the **NLU Intent** tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Virtual Agent Designer.
+-   **[Train and test your NLU model in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md)**  
+Use the **NLU Intent** tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Assistant Designer Asset library.
 -   **[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)**  
-Automated testing for your Virtual Agent topic flows uses the ServiceNow Automated Test Framework product through Assistant Designer. You can create and run automated tests through the Automated Test Framework to confirm that your topic flow works after making a change.
+Automated testing for your Virtual Agent topic flows uses the ServiceNow Automated Test Framework product through Assistant Designer Asset library. You can create and run automated tests through the Automated Test Framework to confirm that your topic flow works after making a change.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

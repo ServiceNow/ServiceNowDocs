@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure call summarization
@@ -32,11 +32,11 @@ Call summarization is generated from the information that you enter in the follo
 
 Any modifications to the names or labels of these fields can result in issues with summarization generation.
 
-**Note:** You cannot modify a skill's input data source in base system. However, you can [clone the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) in Now Assist Skill Kit.
+**Note:** You can't modify a skill's input data source in base system. However, you can [clone the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) in AI Skill Kit
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Now Assist Skills**.
+1.  Navigate to **Admin &gt;AI Admin Hub &gt;AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -67,14 +67,14 @@ Any modifications to the names or labels of these fields can result in issues wi
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you must manually select it in **Select Display** to make it active.
 
 6.  Select **Display** to determine where the resolution notes appear.
 
-    -   Select In-product desktop to display Now Assist skills on forms and workspaces.
-    -   Select Now Assist panel to display Now Assist skills in the Now Assist panel.
+    -   Select In-product desktop to display AI skills on forms and workspaces.
+    -   Select ServiceNow Otto panel to display AI skills in the panel.
 7.  After selecting **Review and Activate** to examine changes, select **Done** to close the Call Summarization generation settings.
 
 8.  Select **Activate** to turn on the skill for agents and complete the configuration.

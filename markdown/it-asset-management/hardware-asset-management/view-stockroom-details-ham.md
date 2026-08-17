@@ -41,7 +41,7 @@ Role required: admin or asset
         -   **Auto-consume**
         -   **Auto-transfer**
         -   **Auto-purchase**
-        For more details, see [Configure a stockroom for automated sourcing by AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockroom-auto-sourcing.md) and [Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md).
+        For more details, see [Configure a stockroom for automated sourcing by AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockroom-auto-sourcing.md) and [ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md).
 
 5.  On the Task timeline tab, view the timeline of all scheduled stockroom tasks and the inbound shipments, outbound shipments, and work activities associated with those tasks.
 

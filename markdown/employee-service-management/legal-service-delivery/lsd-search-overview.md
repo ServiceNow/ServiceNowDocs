@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -50,11 +50,11 @@ Enabled by default for the following when AI Search is activated:-   Global sear
 
 </td></tr><tr><td>
 
-Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
+Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
 
 </td><td>
 
--   Legal Counsel Center - Enabled by default when AI Search and Now Assist for Legal Service Delivery \(LSD\) both are activated.
+-   Legal Counsel Center - Enabled by default when AI Search and ServiceNow Otto for Legal Service Delivery \(LSD\) both are activated.
 -   Global search - Enable it manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/enabling-now-assist-qa-grs.md).
 -   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md)
 
@@ -63,5 +63,5 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 
 -   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ZingTextSearch.md)
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

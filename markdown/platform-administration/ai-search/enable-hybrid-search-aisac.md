@@ -19,9 +19,8 @@ Control hybrid search settings in AI Search applications to optimize search perf
 
 ## Before you begin
 
--   Beginning with Now Assist in AI Search 15.0.
--   Beginning with Zurich patch 4 \(ZP4\).
--   At least one indexed source with semantic fields and semantic indexing configured.
+-   Beginning with ServiceNow Otto for AI Search version 15.0.
+-   Must have at least one indexed source with semantic fields and semantic indexing configured.
 
 Role required: admin
 
@@ -29,7 +28,7 @@ Role required: admin
 
 Hybrid search combines traditional keyword-based search with AI-powered semantic understanding. When hybrid search mode is on, it processes keywords and comprehends the meaning and context of your query, which delivers more accurate and comprehensive results. For more information, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/hybrid-search-ais.md).
 
-Beginning with Now Assist in AI Search version 17, hybrid search is automatically activated for all search application configurations \(SACs\) when you install Now Assist in AI Search for the first time. Upgrading an existing installation does not change current hybrid search settings. Users with the admin role can deactivate hybrid search for individual SACs after installation.
+Beginning with ServiceNow Otto for AI Search version 17.0, hybrid search is automatically activated for all search application configurations \(SACs\) when you install ServiceNow Otto for AI Search for the first time. Upgrading an existing installation does not change current hybrid search settings. Users with the admin role can deactivate hybrid search for individual SACs after installation.
 
 ## Procedure
 

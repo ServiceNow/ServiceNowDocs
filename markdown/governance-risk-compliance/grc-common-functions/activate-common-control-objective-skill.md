@@ -18,7 +18,7 @@ When activating the common control objective creation skill, the system uses gen
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

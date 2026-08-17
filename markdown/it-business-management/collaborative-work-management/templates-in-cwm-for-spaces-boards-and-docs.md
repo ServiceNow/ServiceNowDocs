@@ -52,7 +52,7 @@ Create Boards or Docs using predefined or custom templates from the Template Cen
 -   **[Apply a template to existing Board or Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/apply-a-template-to-existing-space-board-or-doc.md)**  
 Apply predefined or custom templates to existing Boards or Docs in Collaborative Work Management workspace so that you can avoid inconsistencies in structure and format across your processes.
 -   **[Save a CWM Board or Doc as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/save-as-a-template.md)**  
-Save a Board or Doc, which you created or personalized, as a template so that you can reuse the same structure and format for other Boards and Docs in the future.
+Save a Board or Doc, which you created or personalized, as a template. This lets you reuse the same structure and format for other Boards and Docs in the future.
 -   **[Update a template in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/edit-a-template.md)**  
 Update sharing permissions for a Board template or edit the format of a Doc template using the Template Center in Collaborative Work Management \(CWM\).
 -   **[Delete a Board or Doc template in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/delete-a-template.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-accountlifecycleevents-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,27 +67,27 @@ Yokohama
 
 </td><td>
 
--   **[Health framework](https://servicenow-staging.fluidtopics.net/access?context=account-lifeycle-health-frmwk&family=yokohama&ft:locale=en-US)**
+-   **[Health framework](https://www.servicenow.com/docs/access?context=account-lifeycle-health-frmwk&family=yokohama)**
 
 Define the key business and operational indicators and their impact on the overall health of an engagement. You can provide insights that help identify the trends and determine if the engagement is stable.
 
--   **[Risk framework](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-risk-frmwrk&family=yokohama&ft:locale=en-US)**
+-   **[Risk framework](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-frmwrk&family=yokohama)**
 
 Centralize, track, and monitor the relational risks so that you can reduce customer turnover. You can identify risk signals and create repeatable remediation plans.
 
--   **[Success blueprint builder](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-success-blueprint&family=yokohama&ft:locale=en-US)**
+-   **[Success blueprint builder](https://www.servicenow.com/docs/access?context=account-lifecycle-success-blueprint&family=yokohama)**
 
 Create standardized objectives and outcomes for an engagement. Your customer success managers can prioritize the requirements and identify the outcomes that provide the maximum customer impact.
 
--   **[Success initiative roadmap](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-success-roadmap&family=yokohama&ft:locale=en-US)**
+-   **[Success initiative roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roadmap&family=yokohama)**
 
 Create a timeline view of the success initiatives and view the status, timing, and priority of these activities.
 
--   **[Touchpoints enhancements](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-touchpoints&family=yokohama&ft:locale=en-US)**
+-   **[Touchpoints enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoints&family=yokohama)**
 
 Use a touchpoint to track and manage your customer interactions through meetings and emails. With the touchpoint planner, you can help to ensure that all customer interactions and related activities are taking place on time with expected results.
 
--   **[Case summarization for onboarding cases, engagements, and touchpoints](https://servicenow-staging.fluidtopics.net/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)**
+-   **[Case summarization for onboarding cases, engagements, and touchpoints](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama)**
 
 Use generative AI to get a high-level summary of the status of your engagements, onboarding cases, and touchpoints.
 
@@ -206,7 +206,7 @@ Yokohama
 
 </td><td>
 
-Install by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Yokohama
 -   Use Now Assist for Telecommunications, Media and Technology \(TMT\) to summarize account onboarding cases, engagements, and touchpoints.
 -   Integrate your ServiceNow instance with external Customer Relationship Management \(CRM\) platforms during the engagement life cycle.
 
- See [Account Lifecycle Events](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-events-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=yokohama) for more information.
 
 </td></tr><tr><td>
 

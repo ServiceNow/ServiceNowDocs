@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Service Operations Workspace for ITOM reference, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Outbound webhook parameters

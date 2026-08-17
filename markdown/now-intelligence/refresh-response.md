@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Refresh a response with new data
@@ -22,7 +22,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open an exploration that has questions and responses that may be out of date.
 

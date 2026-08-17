@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3
-breadcrumb: [Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # In-product experience for agentic workflows

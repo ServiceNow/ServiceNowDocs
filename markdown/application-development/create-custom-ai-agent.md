@@ -33,7 +33,9 @@ For details on creating agentic workflows, agents, and skills, see [Agentic work
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the Sparkle icon \[Omitted image "ba-sns-ai-sparkle.png"\] Alt text: in the application banner.\[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
+    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+
+    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
 
 2.  Select your application from the Build Agent chat panel drop-down list.
 
@@ -49,7 +51,7 @@ For details on creating agentic workflows, agents, and skills, see [Agentic work
         -   If you don't know what agents or skills you need: `Analyze my application. Review the tables, fields, business rules, and workflows. Identify the most repetitive manual tasks that fulfillers perform and suggest which ones could benefit from AI agent or skill.`
     -   Select the **Add AI to my app** button and follow the prompts.
 
-        \[Omitted image "ba-add-ai-button.png"\] Alt text: Now Assist chat panel with the Add AI to button highlighted.
+        \[Omitted image "ba-add-ai-button.png"\] Alt text: ServiceNow Otto chat panel with the Add AI to button highlighted.
 
         **Note:**
 
@@ -70,7 +72,7 @@ For details on creating agentic workflows, agents, and skills, see [Agentic work
 
 After Build Agent generates agents and skills, complete the following steps to move them from creation to production.
 
-1.  Test each skill in Now Assist Skill Kit to validate prompt behavior against sample records and review output quality before publishing.
+1.  Test each skill in ServiceNow Otto Skill Kit to validate prompt behavior against sample records and review output quality before publishing.
 2.  Test the agent in AI Agent Studio to validate the end-to-end workflow and confirm that tool invocations work correctly.
 3.  Activate triggers in AI Agent Studio. Triggers are not activated automatically and must be enabled separately after generation.
 4.  Deploy the custom app with its agents and skills as a standard update set.
@@ -80,13 +82,13 @@ After Build Agent generates agents and skills, complete the following steps to m
 **Related topics**  
 
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
 
 [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
 [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-ai-agent.md)
 
-[Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
+[Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
 
 [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-prompt-template.md)
 

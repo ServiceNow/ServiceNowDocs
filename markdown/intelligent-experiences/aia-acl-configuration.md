@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-05-26"
 reading_time_minutes: 5
-breadcrumb: [Security for AI agents, Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Security for AI agents, Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Deny-by-default ACL configuration

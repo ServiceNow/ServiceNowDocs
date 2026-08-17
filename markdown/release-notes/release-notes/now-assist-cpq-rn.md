@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Configure, Price, Quote \(CPQ\) release notes
-description: The ServiceNow Now Assist for CPQ application brings platform AI capabilities to Sales and Order Management. Now Assist for CPQ is a new application in the Zurich release.
+title: ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes
+description: The ServiceNow ServiceNow Otto for CPQ application brings platform AI capabilities to Sales and Order Management. ServiceNow Otto for CPQ is a new application in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -8,19 +8,19 @@ last_updated: "2026-01-20"
 reading_time_minutes: 2
 ---
 
-# Now Assist for Configure, Price, Quote \(CPQ\) release notes
+# ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes
 
-The ServiceNow® Now Assist for CPQ application brings platform AI capabilities to Sales and Order Management. Now Assist for CPQ is a new application in the Zurich release.
+The ServiceNow® ServiceNow Otto for CPQ application brings platform AI capabilities to Sales and Order Management. ServiceNow Otto for CPQ is a new application in the Zurich release.
 
-## Now Assist for CPQ highlights for the Zurich release
+## ServiceNow Otto for CPQ highlights for the Zurich release
 
 [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
 
 Summarize quote for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
 
-See [Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-for-cpq-landing.md) for more information.
+See [ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-for-cpq-landing.md) for more information.
 
-**Important:** Now Assist for CPQ is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for CPQ is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
@@ -41,12 +41,12 @@ See [Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubuserconte
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 ## Activation information
 
-Install Now Assist for CPQ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for CPQ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -56,24 +56,24 @@ Install Now Assist for CPQ by requesting it from the ServiceNow Store. Visit the
 
     The following plugin is new in Zurich:
 
-    Now Assist for CPQ \(sn\_som\_gen\_ai\_cpq\): Now Assist for CPQ is an AI-powered wrapper application designed to streamline CPQ-related workflows.
+    ServiceNow Otto for CPQ \(sn\_som\_gen\_ai\_cpq\): Now Assist for CPQ is an AI-powered wrapper application designed to streamline CPQ-related workflows.
 
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    Use the Now Assist Admin console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-configurableworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -131,7 +131,7 @@ Zurich
 
 </td><td>
 
--   **[Browser warning for unsaved changes](https://servicenow-staging.fluidtopics.net/access?context=config-browser-warning-unsaved-changes&family=zurich&ft:locale=en-US)**
+-   **[Browser warning for unsaved changes](https://www.servicenow.com/docs/access?context=config-browser-warning-unsaved-changes&family=zurich&ft:locale=en-US)**
 
 Configure a browser warning to alert you of unsaved changes when you navigate away from a page using the back or forward buttons.
 
@@ -141,13 +141,17 @@ Configure these enhancements to the Record List component bundle in UI Builder:
 
     -   Select **Related** list as a list type option.
     -   Switch between the standard view and gallery list, which displays list items as cards.
--   **[Export lists to Google Sheets](https://servicenow-staging.fluidtopics.net/access?context=exporting-lists-google-spreadsheets&family=zurich&ft:locale=en-US)**
+-   **[Export lists to Google Sheets](https://www.servicenow.com/docs/access?context=exporting-lists-google-spreadsheets&family=zurich&ft:locale=en-US)**
 
 Export your lists to Google Sheets directly from the Export menu.
 
--   **[Live updates for lists](https://servicenow-staging.fluidtopics.net/access?context=live-list-updates-configurable-workspace&family=zurich&ft:locale=en-US)**
+-   **[Live updates for lists](https://www.servicenow.com/docs/access?context=live-list-updates-configurable-workspace&family=zurich&ft:locale=en-US)**
 
 Configure live updates at the list page level without affecting other lists in your Configurable Workspace.
+
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=zurich&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
 
 -   **[Predicate Builder component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-predicate-builder/uib-setup)**
 
@@ -167,15 +171,15 @@ Configure these enhancements to the Form component in UI Builder:
     -   Hide the related list header when the last record is removed.
     -   Choose to display field labels beside its value or stacked vertically.
     -   Suppress special handling notes and notifications from secondary forms on a page.
--   **[Personalize Form menu](https://servicenow-staging.fluidtopics.net/access?context=hide-personalize-form-menu&family=zurich&ft:locale=en-US)**
+-   **[Personalize Form menu](https://www.servicenow.com/docs/access?context=hide-personalize-form-menu&family=zurich&ft:locale=en-US)**
 
-Customize which fields display on a form with the Personalize Form menu \(\[Omitted image "image.icon-personalize-form"\] Alt text:\) in the form header. Use system properties to hide the Personalize Form menu or change the roles with access to the menu.
+Customize which fields display on a form with the Personalize Form menu in the form header. Use system properties to hide the Personalize Form menu or change the roles with access to the menu.
 
--   **[Format string fields with guidance text and inline validation](https://servicenow-staging.fluidtopics.net/access?context=format-regex-pattern-string-fields&family=zurich&ft:locale=en-US)**
+-   **[Format string fields with guidance text and inline validation](https://www.servicenow.com/docs/access?context=format-regex-pattern-string-fields&family=zurich&ft:locale=en-US)**
 
 Set up guidance text to display in string fields with format requirements such as account ID, SSN, or SIN. Use regular expression inline validation to display an error message if input values are incorrect.
 
--   **[Advanced view rules configuration](https://servicenow-staging.fluidtopics.net/access?context=configure-advanced-view-rules-forms&family=zurich&ft:locale=en-US)**
+-   **[Advanced view rules configuration](https://www.servicenow.com/docs/access?context=configure-advanced-view-rules-forms&family=zurich&ft:locale=en-US)**
 
 Use client scripts to set up view rules configurations.
 
@@ -190,7 +194,7 @@ Configure these enhancements to the Activity Stream Compose component in UI Buil
 
 Configure @mentions in UI Builder for the Email composer and Email composer \(mini\) components, enabling you to add an email recipient by using an @mention in the email body.
 
--   **[Digital signature and encryption in the email composer](https://servicenow-staging.fluidtopics.net/access?context=config-email-digital-signature-encryption&family=zurich&ft:locale=en-US)**
+-   **[Digital signature and encryption in the email composer](https://www.servicenow.com/docs/access?context=config-email-digital-signature-encryption&family=zurich&ft:locale=en-US)**
 
 Send emails with a digital signature that verifies you as an authentic sender and an email encryption that certifies authentic recipients.
 
@@ -198,7 +202,7 @@ Send emails with a digital signature that verifies you as an authentic sender an
 
 Configure a custom layout mode for the Attachments component in UI Builder. Customize the maximum file size, file types, multiple file uploads, and preview modal.
 
--   **[Adding the Now Assist icon to action buttons](https://servicenow-staging.fluidtopics.net/access?context=create-da-buttons-now-assist-icon&family=zurich&ft:locale=en-US)**
+-   **[Adding the Now Assist icon to action buttons](https://www.servicenow.com/docs/access?context=create-da-buttons-now-assist-icon&family=zurich&ft:locale=en-US)**
 
 Use declarative actions to create buttons with the Now Assist \(\[Omitted image "icon-ai-sparkle.png"\]\) icon and hover animation.
 
@@ -387,7 +391,7 @@ Zurich
 
 </td><td>
 
-Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -424,7 +428,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&family=zurich&ft:locale=en-US)**
+
+Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
+
+Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -504,7 +513,7 @@ Zurich
 -   Rename and reorder the **Emails**, **Work notes**, and **Comments** tabs in the Compose editor.
 -   Send emails with a digital signature that verifies you as an authentic sender and an email encryption that certifies authentic recipients.
 
- See [Workspace UI](https://servicenow-staging.fluidtopics.net/access?context=workspace-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

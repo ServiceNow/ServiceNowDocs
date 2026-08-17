@@ -39,5 +39,5 @@ Use the Assess vulnerability exposure agentic workflow from the Now Assist panel
 -   CISA Known Exploited Vulnerabilities Analyzer
 -   Vulnerability Exposure Assessment Advisor
 
-**Parent Topic:**[Now Assist for Vulnerability Response reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)
 

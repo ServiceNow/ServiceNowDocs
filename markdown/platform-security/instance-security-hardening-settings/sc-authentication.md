@@ -100,7 +100,7 @@ Use this property to enable end users to reset or change passwords using a self-
 Decrease the window of time an account is at risk of compromise by reducing allowed bypasses for multifactor setup.
 -   **[Remove credentials from Welcome page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-remove-credentials-welcome-page.md)**  
 Modify the default content on the Welcome page to remove the default credentials.
--   **[Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)**  
+-   **[Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest.md)**  
 The captcha for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a captcha verification.
 -   **[Require obfuscation of classic mobile app UI \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-classic-mobile-app-ui-obfuscation.md)**  
 Use the **glide.ui.m.blur\_ui\_when\_backgrounded** property to obfuscate all fields from the snapshot as the image is saved during the backgrounding process.

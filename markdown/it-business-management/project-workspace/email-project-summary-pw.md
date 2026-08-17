@@ -7,35 +7,20 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Schedule the project insights email
 
 Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 
-\[Omitted video\] Description: Demonstration of project summary generation skill in Project Workspace.
+\[Omitted video\] Description: Demonstration of project insights generation skill in Project Workspace.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
-
--   **New customers**
-
-    When you install a Now Assist product, designated skills will turn on automatically.
-
--   **Existing customers who are upgrading**
-
-    Any previously unconfigured skill will turn on automatically \(the skill was never turned on, then off again\).
-
-    There is no change to Now Assist skills that are currently enabled and customized.
-
-    Previously configured skills that were turned on, then off, will remain inactive.
-
-
-If you have users with custom roles that need access to this skill, you must update ACLs for those roles.
+Ensure that the Project insights generation skill is active.
 
 Role required: it\_project\_manager
 
@@ -74,6 +59,16 @@ When a project is created in the work in progress state, the project insight gen
 8.  Select **Send preview** to generate and send a preview of the insights email instantly.
 
     When you select Send preview, you receive a project insights instantly and also receive insights based on the selected cadence. The email would go to the recipients selected along with the Project Manager.
+
+9.  Select **Schedule** to schedule insights email for the project.
+
+    **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
+
+    This skill automatically generates and sends project insight emails based on project data and activity. These emails provide a consolidated view of project health, including schedule variance, RIDAC \(risks, issues, decisions, actions, and change requests\), resources, milestones, projects, project tasks, and financial insights. Project items are automatically grouped into RIDAC categories and classified by impact level: high, medium, or low, while financial insights highlight potential risks and variances. This automated insight delivery helps stakeholders stay informed about project health, risks, and financial status without manual reporting effort.
+
+    This skill considers task-level work notes when generating project insights.
+
+    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want, customize the insights with their own prompt instructions, add more stakeholders, and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
 
 
 ## Schedule a project insight email

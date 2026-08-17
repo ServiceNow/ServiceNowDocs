@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using the prominent action button
@@ -20,5 +20,5 @@ Tap the button to open a new Now Assist chat. If you open the chat while you hav
 
 While offline, the prominent action button is grayed out to show that it’s unavailable.
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
 

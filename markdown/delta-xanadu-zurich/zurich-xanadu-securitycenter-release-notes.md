@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-securitycenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -75,27 +75,27 @@ Xanadu
 
 </td><td>
 
--   **[Security Event Notifications](https://servicenow-staging.fluidtopics.net/access?context=security-policies&family=xanadu&ft:locale=en-US)**
+-   **[Security Event Notifications](https://www.servicenow.com/docs/access?context=security-policies&family=xanadu&ft:locale=en-US)**
 
 Receive prompt notifications on user behaviors that you specify with the Security Event Notifications tool. Users that you choose receive email notifications when a policy is triggered, enabling you to promptly remediate issues.
 
--   **[Security Posture Dashboards](https://servicenow-staging.fluidtopics.net/access?context=scc-sec-posture-dashboard&family=xanadu&ft:locale=en-US)**
+-   **[Security Posture Dashboards](https://www.servicenow.com/docs/access?context=scc-sec-posture-dashboard&family=xanadu&ft:locale=en-US)**
 
 Monitor the security health of all your instances with the Security posture dashboards. The single instance dashboard provides graphical widgets for key security key process indicators \(KPIs\). The multi-instance dashboard, only available on production instances, shows the same KPIs for all instances in a table format. The dashboards can be cloned and then fully customized.
 
--   **[Security banner announcements](https://servicenow-staging.fluidtopics.net/access?context=scc-banner&family=xanadu&ft:locale=en-US)**
+-   **[Security banner announcements](https://www.servicenow.com/docs/access?context=scc-banner&family=xanadu&ft:locale=en-US)**
 
 Prepare for potential future security announcements from ServiceNow using the Security Banner Announcements. This feature enables ServiceNow to trigger new banners in customer instances that are visible to system administrators. These messages inform them of new and urgent potential security issues and include a link to more details.
 
--   **[Data Classification](https://servicenow-staging.fluidtopics.net/access?context=data-classification-security-metrics&family=xanadu&ft:locale=en-US)**
+-   **[Data Classification](https://www.servicenow.com/docs/access?context=data-classification-security-metrics&family=xanadu&ft:locale=en-US)**
 
 Monitor your sensitive data with the Data Classification metrics in the Security Metrics tool. Updates to the tool include two new metrics. Classifiable Data metrics displays the amount of data that is available for classification and what portion has been already classified. The Classified Data metrics displays the breakdown of the classified data across your classification labels.
 
--   **[Security Center version 2.0 introduces a new set of hardening settings](https://servicenow-staging.fluidtopics.net/access?context=hardening-settings-baseline&family=xanadu&ft:locale=en-US)**
+-   **[Security Center version 2.0 introduces a new set of hardening settings](https://www.servicenow.com/docs/access?context=hardening-settings-baseline&family=xanadu&ft:locale=en-US)**
 
 Security Center version 2.0, introduced in the November store release, includes several new hardening settings, updates to existing ones, and the removal of some unnecessary settings. The new hardening settings come with recommended configurations to restrict access control lists \(ACLs\) for human resources apps, minimizing data exposure and enforcing the principle of least privilege. Additional settings help configure service portal widgets to reduce sensitive data exposure in tables, enforce strict code signing, and set role-based restrictions on apps. Several technical configuration names and descriptions have been updated for clarity, and outdated hardening settings have been removed.
 
--   **[Improved Security Center architecture](https://servicenow-staging.fluidtopics.net/access?context=sec-center-v2&family=xanadu&ft:locale=en-US)**
+-   **[Improved Security Center architecture](https://www.servicenow.com/docs/access?context=sec-center-v2&family=xanadu&ft:locale=en-US)**
 
 The Security Center has been redesigned to help admins understand what tasks they can accomplish with Security Center and to pick the right tools for their tasks.
 
@@ -114,11 +114,11 @@ Zurich
 
 </td><td>
 
--   **[Security Task management](https://servicenow-staging.fluidtopics.net/access?context=security-task-manager&family=zurich&ft:locale=en-US)**
+-   **[Security Task management](https://www.servicenow.com/docs/access?context=security-task-manager&family=zurich&ft:locale=en-US)**
 
 The new Platform Security Tasks enable administrators to see and manage all their platform security tasks in one place. Use this feature to prioritize, delegate, and monitor progress for tasks related to platform security across your teams. Security tasks can be automatically generated by the platform and manually created by users. Tasks can be assigned to any user who is notified the in app Notifications.
 
--   **[Updated overview summary pages](https://servicenow-staging.fluidtopics.net/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
+-   **[Updated overview summary pages](https://www.servicenow.com/docs/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
 
 Use the overview pages for Security Center tools to understand whether you need to act on the security area these tools help you manage. The following overview pages have been updated.
 
@@ -126,21 +126,21 @@ Use the overview pages for Security Center tools to understand whether you need 
     -   Security Scanner
     -   Security Metrics
     -   Best Practices
--   **[New information and video overlays](https://servicenow-staging.fluidtopics.net/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
+-   **[New information and video overlays](https://www.servicenow.com/docs/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
 
 Security Center has been updated to show overlays with short feature introductory videos to help users understand what the tool can do and how to use it. These overlays are tailored to assist both new and infrequent users of Security Center.
 
--   **[New Auditor Suite checks](https://servicenow-staging.fluidtopics.net/access?context=auditor&family=zurich&ft:locale=en-US)**
+-   **[New Auditor Suite checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
 
 Added two new auditor checks:
 
     -   Review Public Knowledge Bases
     -   Review Public Knowledge Base Articles
--   **[Granular admin role for Security Center](https://servicenow-staging.fluidtopics.net/access?context=granular-sc-roles&family=zurich&ft:locale=en-US)**
+-   **[Granular admin role for Security Center](https://www.servicenow.com/docs/access?context=granular-sc-roles&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Security Center without requiring the full admin role.
 
--   **[\[Placeholder link text to key bundle-psec.access-controls-console\]](https://servicenow-staging.fluidtopics.net/access?context=access-controls-console&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-psec.access-controls-console\]](https://www.servicenow.com/docs/access?context=access-controls-console&family=zurich&ft:locale=en-US)**
 
 Use the new Access Controls console within Security Center to review and remediate access issues and misconfigurations. The Access Controls console provides enhanced visibility and control of your Access Analyzer findings, and streamlines remediation efforts by enabling you to track, prioritize, and resolve access issues by assigning tasks.
 
@@ -168,11 +168,11 @@ Xanadu
 
 </td><td>
 
--   **[Scan checks](https://servicenow-staging.fluidtopics.net/access?context=scan-checks&family=xanadu&ft:locale=en-US)**
+-   **[Scan checks](https://www.servicenow.com/docs/access?context=scan-checks&family=xanadu&ft:locale=en-US)**
 
 Schedule security scans with the updated Auditor Suite to monitor access control configurations in the Security Scanner tool. The Auditor Scan suite has been streamlined to contain only access control checks and renamed to Access Control Auditor Suite. The updated access control checks generate a smaller, more focused number of findings that reflect potential security vulnerabilities according to ServiceNow security experts.
 
--   **[Legacy workflows have been converted to Flow Designer workflows](https://servicenow-staging.fluidtopics.net/access?context=sec-center-v2&family=xanadu&ft:locale=en-US)**
+-   **[Legacy workflows have been converted to Flow Designer workflows](https://www.servicenow.com/docs/access?context=sec-center-v2&family=xanadu&ft:locale=en-US)**
 
 Legacy base system Workflows have been converted to modern Flow Designer workflows to standardize ServiceNow flows onto the modern technology. The updated low-code flows are designed to be more scalable and make updating and troubleshooting easier.
 
@@ -191,23 +191,23 @@ Zurich
 
 </td><td>
 
--   **[Auditor checks](https://servicenow-staging.fluidtopics.net/access?context=auditor&family=zurich&ft:locale=en-US)**
+-   **[Auditor checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
 
 The Review Public Knowledge Bases and Review Public Knowledge Base Articles checks use global API calls, so they've been added in the Global scope.
 
--   **[Security Center](https://servicenow-staging.fluidtopics.net/access?context=sec-center-v2&family=zurich&ft:locale=en-US) Theming for Security Center**
+-   **[Security Center](https://www.servicenow.com/docs/access?context=sec-center-v2&family=zurich&ft:locale=en-US) Theming for Security Center**
 
 Security Center banners and Cascading Style Sheets CSS elements have been updated to conform to any instance-wide themes you apply.
 
--   **[Updated first time user experience](https://servicenow-staging.fluidtopics.net/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
+-   **[Updated first time user experience](https://www.servicenow.com/docs/access?context=sec-center-landing&family=zurich&ft:locale=en-US)**
 
 Security Center has been updated to provide guidance to understand what the tool can do and how to use it. This redesign is tailored to assist both new and infrequent users of Security Center.
 
--   **[Hardening settings updates](https://servicenow-staging.fluidtopics.net/access?context=hardening-settings-baseline&family=zurich&ft:locale=en-US)**
+-   **[Hardening settings updates](https://www.servicenow.com/docs/access?context=hardening-settings-baseline&family=zurich&ft:locale=en-US)**
 
 Updated the Security Hardening tool with the latest Instance Security Hardening Settings baseline V6.
 
--   **[Security Hardening tool Updates](https://servicenow-staging.fluidtopics.net/access?context=security-hardening-settings&family=zurich&ft:locale=en-US)**
+-   **[Security Hardening tool Updates](https://www.servicenow.com/docs/access?context=security-hardening-settings&family=zurich&ft:locale=en-US)**
 
 The security Hardening tool has been updated to the latest Instance Security Hardening Settings V7.
 
@@ -498,7 +498,7 @@ Xanadu
 -   ﻿﻿Schedule security scans with the updated Auditor Suite to monitor access control configurations in the Security Scanner tool.
 -   Use the improved Security Center version 2.0 hardening tool to minimize data exposure within your instance.
 
- See [Security Best Practices](https://servicenow-staging.fluidtopics.net/access?context=security-best-practices-manager&family=xanadu&ft:locale=en-US), [Customer Actions](https://servicenow-staging.fluidtopics.net/access?context=critical-updates&family=xanadu&ft:locale=en-US), and [Baseline versions](https://servicenow-staging.fluidtopics.net/access?context=hardening-settings-baseline&family=xanadu&ft:locale=en-US), [Security Event Notifications](https://servicenow-staging.fluidtopics.net/access?context=security-policies&family=xanadu&ft:locale=en-US), and [Data Classification](https://servicenow-staging.fluidtopics.net/access?context=data-classification-security-metrics&family=xanadu&ft:locale=en-US) for more information.
+ See [Security Best Practices](https://www.servicenow.com/docs/access?context=security-best-practices-manager&family=xanadu&ft:locale=en-US), [Customer Actions](https://www.servicenow.com/docs/access?context=critical-updates&family=xanadu&ft:locale=en-US), and [Baseline versions](https://www.servicenow.com/docs/access?context=hardening-settings-baseline&family=xanadu&ft:locale=en-US), [Security Event Notifications](https://www.servicenow.com/docs/access?context=security-policies&family=xanadu&ft:locale=en-US), and [Data Classification](https://www.servicenow.com/docs/access?context=data-classification-security-metrics&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -518,7 +518,7 @@ Zurich
 -   Use the overview summary pages for each IAM tool to get a summary of which utility each tool provides.
 -   See all the platform security tasks that need your attention in Security Center. You can see notifications outside Security Center so that you’re aware of these tasks without having to monitor the task list constantly.
 
- See [Security Center](https://servicenow-staging.fluidtopics.net/access?context=sec-center-v2&family=zurich&ft:locale=en-US) for more information.
+ See [Security Center](https://www.servicenow.com/docs/access?context=sec-center-v2&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

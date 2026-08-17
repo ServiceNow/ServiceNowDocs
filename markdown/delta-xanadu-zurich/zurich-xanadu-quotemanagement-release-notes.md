@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-quotemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -75,20 +75,20 @@ Xanadu
 
 </td><td>
 
--   **[Sales agreement in quotes include product bundles](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US)**
+-   **[Sales agreement in quotes include product bundles](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=xanadu&ft:locale=en-US)**
 
 Add a sales agreement to a quote that contains configurable product bundles with the ability to choose from available child offers and optional characteristics.
 
--   **[Location function filters products and creates line items](https://servicenow-staging.fluidtopics.net/access?context=quote-using-product-location&family=xanadu&ft:locale=en-US)**
+-   **[Location function filters products and creates line items](https://www.servicenow.com/docs/access?context=quote-using-product-location&family=xanadu&ft:locale=en-US)**
 
 Location-based quoting is a new feature where line items can be created for different service or installation locations and agents can copy line items from one location to another. Agents can also filter products in the catalog by location.
 
--   **[Add covered products to a quote](https://servicenow-staging.fluidtopics.net/access?context=som-quote-add-covered-products&family=xanadu&ft:locale=en-US)**
+-   **[Add covered products to a quote](https://www.servicenow.com/docs/access?context=som-quote-add-covered-products&family=xanadu&ft:locale=en-US)**
 
 As an agent, add covered products to quote line items. Covered products include entitlements, service agreements, and warranties. Adding a covered product to a quote enables you to add start and end dates for the agreements.
 
 
--   **[Synchronize a quote with an opportunity](https://servicenow-staging.fluidtopics.net/access?context=som-sync-quote-with-opportunity&family=xanadu&ft:locale=en-US)**
+-   **[Synchronize a quote with an opportunity](https://www.servicenow.com/docs/access?context=som-sync-quote-with-opportunity&family=xanadu&ft:locale=en-US)**
 
 As an agent, synchronize quote information to an opportunity. As quote information changes, use this function to update the opportunity with information from the quote to keep records accurate.
 
@@ -99,26 +99,26 @@ Yokohama
 
 </td><td>
 
--   **[Apply a sales agreement to a quote in Quote Management](https://servicenow-staging.fluidtopics.net/access?context=quote-add-sales-agreement-quotes&family=yokohama&ft:locale=en-US)**
+-   **[Apply a sales agreement to a quote in Quote Management](https://www.servicenow.com/docs/access?context=quote-add-sales-agreement-quotes&family=yokohama&ft:locale=en-US)**
 
 Create a new sales agreement or apply an existing sales agreements to a quote. When a sales agreement is enabled in a quote, the products and services added to the quote are also added to a sales agreement. When an existing sales agreement is added to a new quote, the catalog is filtered to show the products and options from the sales agreement, the price list is set to the agreement price list, and the sales agreement line is referenced on quote line.
 
--   **[View price adjustment details for a quote line item](https://servicenow-staging.fluidtopics.net/access?context=view-price-adjustment-details-for-quote-lines&family=yokohama&ft:locale=en-US)**
+-   **[View price adjustment details for a quote line item](https://www.servicenow.com/docs/access?context=view-price-adjustment-details-for-quote-lines&family=yokohama&ft:locale=en-US)**
 
 Agents gain visibility into the price adjustments that were applied to the base and list price of the product ordered. This provides sales agent the visibility of how the net price is determined.
 
 
--   **[Quote PDF documents generation](https://servicenow-staging.fluidtopics.net/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
+-   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
 
 Generate a quote PDF document. Quote PDF documents can have designated signers and be emailed to customers for signatures through Docusign. Customers can also create PDF templates that reflect customer branding and logos.
 
 
--   **[Hierarchical quote line list view](https://servicenow-staging.fluidtopics.net/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
+-   **[Hierarchical quote line list view](https://www.servicenow.com/docs/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
 
 View quote lines as a hierarchical list. Agents can then view parent and child relationships for quote line items.
 
 
--   **[Product offer recommendations for quotes](https://servicenow-staging.fluidtopics.net/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
+-   **[Product offer recommendations for quotes](https://www.servicenow.com/docs/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
 
 Enable your agents to get product offer recommendations that complement or supplement existing products within a quote.
 
@@ -129,12 +129,12 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key quote-management-add-pricing-adjustment\]](https://servicenow-staging.fluidtopics.net/access?context=quote-management-add-pricing-adjustment&family=zurich&ft:locale=en-US)**
+-   **[Add pricing adjustment to a line item](https://www.servicenow.com/docs/access?context=quote-management-add-pricing-adjustment&family=zurich&ft:locale=en-US)**
 
 Enables sales agents to quickly view, add, and edit manual price adjustments for quote line items directly from the list view, making it easier to manage both automatic and manual adjustments. The new experience streamlines the quoting process and allows adjustments to be applied to individual or multiple line items at once.
 
 
--   **[Price and quantity ramps on quote line items]()**
+-   **[Price and quantity ramps on quote line items](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=zurich&ft:locale=en-US)**
 
 Create price and quantity ramps for product offerings in quotes to define incremental price and quantity changes over time. Product offerings eligible for ramps have the Ramps enabled option and Recurring price method selected. Agents can define ramps in two ways:
 
@@ -144,12 +144,12 @@ Create price and quantity ramps for product offerings in quotes to define increm
 Agents can also make manual price adjustments per segment. When a quote with ramps is converted to an order, ramps become read-only.
 
 
--   **[Quote header discount](https://servicenow-staging.fluidtopics.net/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
+-   **[Quote header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
 
 Added a quote header discount feature that enables sales agents to apply a discount across multiple quote lines at once. This simplifies the quoting process and ensures consistent discount application, thereby improving overall sales efficiency and customer satisfaction.
 
 
--   **[Subscription revenue metrics](https://servicenow-staging.fluidtopics.net/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
+-   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
 
 Provides sales agents better visibility of the entire quote cost and profit with the addition of Cost and Margin calculations to the following levels:
 
@@ -305,7 +305,7 @@ Install Quote Management by requesting it from the ServiceNow Store.
 
  To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -317,7 +317,7 @@ Install Quote Management by requesting it from the ServiceNow Store.
 
  To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -494,7 +494,7 @@ Xanadu
 -   Create sales agreements that contain configurable and bundled products and services.
 -   Add location-based product eligibility, which enables products to be filtered in the catalog based on location.
 
- See [Quote Management](https://servicenow-staging.fluidtopics.net/access?context=quote-management&family=xanadu&ft:locale=en-US) for more information.
+ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -508,7 +508,7 @@ Yokohama
 -   Use the hierarchical list view to view parent and child relationships within quote lines.
 -   Provide agents with offer recommendations to upsell or cross-sell products that complement products in quotes.
 
- See [Quote Management](https://servicenow-staging.fluidtopics.net/access?context=quote-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -519,7 +519,7 @@ Zurich
 -   Support quote header discounts​.
 -   View the cost and profit of the entire quote to support informed discounting decisions and avoid unprofitable deals.
 
- See [Quote Management](https://servicenow-staging.fluidtopics.net/access?context=quote-management&family=zurich&ft:locale=en-US) for more information.
+ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

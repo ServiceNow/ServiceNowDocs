@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Financial Services Operations \(FSO\)
+title: Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)
 description: Review the inputs for each skill to see how a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI for financial services operations skill inputs, generative AI for FSO skill inputs]
-breadcrumb: [Case summarization, Configure, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Case summarization, Configure, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Skill inputs for Now Assist for Financial Services Operations \(FSO\)
+# Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)
 
 Review the inputs for each skill to see how a skill is used.
 
 ## Overview of skill inputs
 
-You can review the inputs for the available skills in Now Assist for FSO. These settings describe how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a case summary.
+You can review the inputs for the available skills in ServiceNow Otto for FSO. These settings describe how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a case summary.
 
 ## Insurance claim summarization skill
 

@@ -7,7 +7,7 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d113074e107">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d112903e107">
 
 Field
 
-</th><th align="left" id="d113074e110">
+</th><th align="left" id="d112903e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113074e116">
+</th></tr></thead><tbody><tr><td id="d112903e116">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d113074e125">
+</td></tr><tr><td id="d112903e125">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d113074e134">
+</td></tr><tr><td id="d112903e134">
 
 **Active**
 

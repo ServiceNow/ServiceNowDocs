@@ -4,8 +4,8 @@ description: The ServiceNow Vulnerability Response application brings security a
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-03-05"
-reading_time_minutes: 13
+last_updated: "2026-08-03"
+reading_time_minutes: 14
 ---
 
 # Vulnerability Response release notes
@@ -25,11 +25,13 @@ See [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/Servic
 
 ## Important information for upgrading Vulnerability Response to Zurich
 
+Starting with Zurich, Patch 12, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. The change is reflected in the name of ServiceNow® products, including Now Assist for Vulnerability Response which is called ServiceNow Otto for Unified Security Exposure Management with these enhancements for the new AI experience. See [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-usem-landing-ties.md) for more information.
+
 If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
 
-The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-wiz-exploring-host-cf.md) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-wiz-exploring-host-cf.md) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, backdate any of your existing Wiz primary integrations by three days and run them. Review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
 
-For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Zurich release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+For more information about the released versions of the Vulnerability Response application and the third-party and ServiceNow applications that are compatible with the Zurich release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 ## New in the Zurich release
 
@@ -39,7 +41,7 @@ For more information about the released versions of the Vulnerability Response a
 
 -   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/mstvm-integration.md)**
 
-    The Microsoft Defender for Cloud and Microsoft Threat and Vulnerability Management \(MS TVM\) integrations are now consolidated into a single plugin, Microsoft Defender Integration for Security Exposure Management, deprecating the standalone Microsoft Defender for Cloud Integration application. The unified plugin also introduces container image vulnerability ingestion from Microsoft Defender for Cloud, creating Container Vulnerable items on your instance. The deprecated application are supported through a guided migration path to transfer existing data to the unified plugin.
+    The Microsoft Defender for Cloud and Microsoft Threat and Vulnerability Management \(MS TVM\) integrations are now consolidated into a single plugin, Microsoft Defender Integration for Security Exposure Management. the standalone Microsoft Defender for Cloud Integration application is deprecated. The unified plugin also introduces container image vulnerability ingestion from Microsoft Defender for Cloud, creating Container Vulnerable items on your instance. The deprecated application are supported through a guided migration path to transfer existing data to the unified plugin.
 
 -   **[Optimized Tenable.io Compliance Results ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tenable-io-integrations-list.md)**
 
@@ -67,7 +69,7 @@ For more information about the released versions of the Vulnerability Response a
     -   You can configure the **First** parameter for the Wiz Asset Integration to help you resolve 504 errors. You can reduce the page size if you're having memory issues or generating errors. The default value is 500.
 -   **[Enhancements to Detection Key Configurations for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/detection-key-configurations-for-vr.md)**
 
-    Introduced configurable detection keys that enable you to choose between Asset ID and Configuration Item, with validations, UI controls, and enhanced an existing schedule job to update existing detections.
+    Introduced configurable detection keys that enable you to choose between Asset ID and Configuration Item, with validations, UI controls. Enhanced an existing schedule job to update existing detections.
 
 -   **[Enhancements to the Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-wiz-exploring-host-cf.md)**
 
@@ -208,12 +210,12 @@ For more information about the released versions of the Vulnerability Response a
 
 -   **[Activate the Qualys QVS score integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/optional-modifications.md)**
 
-    Add Qualys-specific risk context to CVEs by importing QVS scores, helping you make more informed prioritization decisions.
+    Add risk context specific to Qualys to CVEs by importing QVS scores, helping you make more informed prioritization decisions.
 
 
 ## Activation information
 
-Install Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/security-operations-rn-landing.md)
 

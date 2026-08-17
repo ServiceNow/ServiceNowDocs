@@ -21,7 +21,7 @@ You can add secure inputs to Virtual Agent topics in two ways:
 -   [Create a secure custom input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) that uses a Workflow Studio action or subflow with secure \(password2 type\) inputs.
 -   Add an [Action utility node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action.md) to a topic that refers to a Workflow Studio action or subflow that has a single password2 field as an input.
 
-The Key Management Framework \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
+The [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/understanding-kmf.md) \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
 
 -   A **sys\_kmf\_crypto\_module** record, with a related Symmetric Key Wrapping/Unwrapping **sys\_kmf\_module\_crypto\_spec** record
 -   A **sys\_kmf\_crypto\_caller\_policy** record with the following properties:

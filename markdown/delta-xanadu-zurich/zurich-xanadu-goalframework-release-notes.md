@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-goalframework-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Baseline reference on Target form](https://servicenow-staging.fluidtopics.net/access?context=target-form&family=xanadu&ft:locale=en-US)**
+-   **[Baseline reference on Target form](https://www.servicenow.com/docs/access?context=target-form&family=xanadu&ft:locale=en-US)**
 
 The **Baseline reference** field has been added to the Target form. You can use this field to compare future target performance to the actual value achieved either in the last year or before the target was created.
 
@@ -94,13 +94,13 @@ Zurich
 
 </td><td>
 
--   **[Goal Framework and AI Control Tower](https://servicenow-staging.fluidtopics.net/access?context=better-together-with-other-apps-gf&family=zurich&ft:locale=en-US)**
+-   **[Goal Framework and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-gf&family=zurich&ft:locale=en-US)**
 
 Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
 
 Use the **Type** field for strategic priorities and the **Category** field for goals to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
 
--   **[Role enhancements](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Role enhancements](https://www.servicenow.com/docs/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
 
 With the sn\_gf.goal\_admin role, you can edit any goal and target as needed, even when you aren’t the owner or contributor of a goal or target.
 
@@ -124,7 +124,7 @@ Xanadu
 
 </td><td>
 
--   **[Changes to Target form](https://servicenow-staging.fluidtopics.net/access?context=target-form&family=xanadu&ft:locale=en-US)**
+-   **[Changes to Target form](https://www.servicenow.com/docs/access?context=target-form&family=xanadu&ft:locale=en-US)**
     -   The following fields on the Target form have been renamed:
         -   **Review frequency** to **Check-in frequency**
         -   **Base value** to **Start value**
@@ -132,7 +132,7 @@ Xanadu
         -   **Actual value** to **Actuals to date**
         -   **Review due date** to **Check-in due date**
     -   The Fortnightly option in the **Check-in frequency** field is no longer supported.
--   **[Goal Framework tables](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=xanadu&ft:locale=en-US)**
+-   **[Goal Framework tables](https://www.servicenow.com/docs/access?context=goal-framework&family=xanadu&ft:locale=en-US)**
 
 The maximum number of characters allowed in the **Name** field has been increased from 80 to 255 for the Strategic Plan \[sn\_gf\_strategic\_plan\], Strategic Priority \[sn\_gf\_strategy\], Goal \[sn\_gf\_goal\], and Target \[sn\_gf\_goal\_target\] tables.
 
@@ -151,7 +151,7 @@ Zurich
 
 </td><td>
 
--   **[Active goals](https://servicenow-staging.fluidtopics.net/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Active goals](https://www.servicenow.com/docs/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
 
 By default, only active goals—those goals with the **Active** field set to **true**—are displayed in the **Goal** and **Parent goal** reference fields across all applicable tables.
 
@@ -249,7 +249,7 @@ Xanadu
 
 </td><td>
 
-Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -436,7 +436,7 @@ Xanadu
 
 Use the enhanced Goal Framework tables for managing your goals and targets.
 
- See [Goal Framework](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=xanadu&ft:locale=en-US) for more information.
+ See [Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -455,7 +455,7 @@ Zurich
 -   Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor their progress from the AI Control Tower workspace.
 -   View only active goals in reference fields when creating a goal relationship or defining a parent goal.
 
- See [Goal Framework](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
+ See [Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 5
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Evaluation in the Virtual Agent's asset record
@@ -52,7 +52,7 @@ The following widgets are available, showing various metrics:
 
 -   Average auto-evaluation score for the selected metric: Shows the average auto-evaluation score for the metric selected and its trend over time.
 
-    For more information about each metric, see .
+    For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 -   Average Human Feedback score for the selected metric: Shows the average human-labeled score for the selected metric.
 
@@ -66,7 +66,7 @@ The following widgets are available, showing various metrics:
 
     \[Omitted image "ai-eval-01.png"\] Alt text: Evaluation trend with deviation and adjusted scores.
 
-    For more information about how the calculations are made, see .
+    For more information about how the calculations are made, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 -   Evaluations: Shows the total number of conversations that were evaluated each week.
 
@@ -74,9 +74,9 @@ The following widgets are available, showing various metrics:
 
 ## Evaluations
 
-Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in Now Assist Skill Kit under **Custom skills**.
+Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in AI Skill Kit under **Custom skills**.
 
-For more information about each metric, see .
+For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
 Role required: sn\_skill\_builder.admin
 
@@ -95,7 +95,7 @@ The following Now Assist custom skills are used:
 
 The default provider for these skills is Now LLM. You can change the provider to Azure OpenAI, Google Gemini, or AWS Claude. Azure OpenAI has been observed to improve results in certain scenarios.
 
-For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+For more information about AI Skill Kit, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Process of evaluation**
 
@@ -107,5 +107,5 @@ Flow: Execute Evaluation.
 
 **Note:** Conversation evaluation estimates are considered as of the evaluation date and not the conversation created date. For example, if a chat that happened at time t is evaluated at time t+10, the scores from the evaluator is aggregated for the week of t+10 and not for the week of t.
 
-For detailed information about the evaluation flow, see .
+For detailed information about the evaluation flow, see [Evaluation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-flow.md).
 

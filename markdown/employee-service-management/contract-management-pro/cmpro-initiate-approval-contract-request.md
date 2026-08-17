@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ You can request for approval of a revision for contract documents from stakehold
 -   When you initiate an approval, the approvers receive an email notification and can act on the approval.
 -   An approver who does not have access to the contract revision is granted read-only access to the record until the assigned approval record is completed.
 
-**Note:** Only latest revision of specific contract type is sent for approval. If an approval of specific revision is pending, you cannot initiate another approval for the same.
+**Note:** Only latest revision of specific contract type is sent for approval. If an approval of revision is pending, you cannot initiate another approval for the same contract type.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ You can request for approval of a revision for contract documents from stakehold
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d87504e106">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d87166e106">
 
 Option
 
-</th><th align="left" id="d87504e109">
+</th><th align="left" id="d87166e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87504e115">
+</th></tr></thead><tbody><tr><td id="d87166e115">
 
 **As an assignee**
 
@@ -58,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d87504e144">
+</td></tr><tr><td id="d87166e144">
 
 **As a collaborator**
 

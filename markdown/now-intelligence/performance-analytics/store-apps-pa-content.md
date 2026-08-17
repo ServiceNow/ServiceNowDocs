@@ -28,24 +28,24 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
--   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configurable-wfo-cs.md)
+-   
+-   Workforce Optimization for Customer Service Management
 
 ## DevOps applications
 
-[DevOps Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/insights-dashboard-dev-ops.md)
+DevOps Insights
 
 ## Employee Service Management
 
-[Safe Workplace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace-dashboard.md)
+Safe Workplace dashboard
 
 ## IT Asset Management applications
 
-[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/cloud-insights-landing-page.md)
+Cloud Insights
 
 ## Strategic Portfolio Management applications
 
-[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-strategic-spend-tracking-dashboard.md)
+Strategic Spend Tracking for PPM
 
 ## IT Operations Management applications
 
@@ -53,9 +53,8 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## IT Service Management applications
 
--   Coaching
--   Continual Improvement Management
--   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/viewing-performance-report-oncall.md)
+-   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cf-coaching-landing.md)
+-   On-Call Scheduling
 -   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications

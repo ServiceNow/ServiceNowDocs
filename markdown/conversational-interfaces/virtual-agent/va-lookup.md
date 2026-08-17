@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Lookup utility
@@ -95,7 +95,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ```
 
-In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see Querying tables in script .
+In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md) .
 
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

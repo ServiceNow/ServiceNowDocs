@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 1
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Manage response feedback
@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Response feedback is available across all chat experiences except for Now Assist panel – Developer assistant.
+Response feedback is available across all chat experiences except for ServiceNow Otto panel – Developer assistant.
 
 ## Procedure
 
@@ -36,11 +36,13 @@ Response feedback is available across all chat experiences except for Now Assist
 
     By default, response feedback is turned off.
 
-    \[Omitted image "NAinVA-response-feedback-0426.png"\] Alt text: Toggle response feedback on or off.
-
 4.  Turn on response feedback to configure the feedback form options.
 
     **Positive feedback** and **Negative feedback** tabs are shown.
+
+    \[Omitted image "sno-response-pos-0826.png"\] Alt text: Positive feedback tab.
+
+    \[Omitted image "sno-response-neg-0826.png"\] Alt text: Negative feedback tab.
 
     -   Use 2-5 response options in total. The **Other** option is excluded from the total count, and it is independent from the general comment field.
     -   The maximum character limit for each option is 70.

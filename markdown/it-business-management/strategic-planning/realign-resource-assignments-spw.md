@@ -1,6 +1,6 @@
 ---
-title: Realign resource assignments for demands
-description: Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
+title: Realign resource assignment dates for demands
+description: Adjust the resource assignment dates to match the latest dates of your demands when priorities or timelines change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/realign-resource-assignments-spw.html
 release: zurich
@@ -9,35 +9,35 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-04-27"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments for demands, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Realign resource assignments for demands
+# Realign resource assignment dates for demands
 
-Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
+Adjust the resource assignment dates to match the latest dates of your demands when priorities or timelines change.
 
 ## Before you begin
-
-[Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
 
 Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Change the **Approved start date** and **Planned start date** to meet your organizational priorities.
+4.  Select **Details** from the navigation menu.
 
-4.  Select **Save**.
+5.  In the **Planned start date** field of the demand, modify the date.
 
-5.  Select the More Actions option and select **Realign assignments to demand**.
+6.  Select **Save**.
+
+7.  Select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: and select **Realign assignments to demand**.
 
 
 ## Result
 
-In the Resource assignments tab, you can see the Start date of the resource assignments aligned with the demand start dates.
+The start date of the resource assignments is aligned with the new value in the **Planned start date** field of the demand.
 

@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection Generate post incident reviews agentic workflow
@@ -43,7 +43,7 @@ To access the agentic workflow:
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
-**Important:** To enable the display of the Generate post incident reviews agentic workflow, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+**Important:** To enable the display of the Generate post incident reviews agentic workflow, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 ## AI agents used in the Generate post incident reviews agentic workflow
 
@@ -70,15 +70,15 @@ In the agentic workflow record:
     **Example of a Generate post incident reviews agentic workflow report in the ServiceNow AI Agent Studio** \[Omitted image "now-assist-itsm-aiagents-mim-nap.png"\] Alt text: Generate post incident reviews agentic workflow output.
 
 
-In the AI Agent Studio, the fulfiller receives a notification as soon as the report is generated, enabling them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the fulfiller receives a notification as soon as the report is generated, enabling them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-## Generating the Post Incident Reviews workflow in the Now Assist panel
+## Generating the Post Incident Reviews workflow in the Otto panel
 
-As a user, do the following in the Now Assist panel:
+As a user, do the following in the Otto panel:
 
-**Note:** When the **Assigned to** field is populated and the major incident is moved to the resolved state, then the workflow gets triggered through the Now Assist panel.
+**Note:** When the **Assigned to** field is populated and the major incident is moved to the resolved state, then the workflow gets triggered through the Otto panel.
 
-1.  To trigger the workflow manually, open the Now Assist panel and enter the major incident number for which you want to generate the post incident review.
+1.  To trigger the workflow manually, open the Otto panel and enter the major incident number for which you want to generate the post incident review.
 
     The Post-incident review AI agent validates that the incident is a major incident and that it is in resolved state. If the validation fails, the workflow requests a valid major incident number.
 
@@ -135,7 +135,7 @@ If the user requests changes to the report
 
 </td></tr></tbody>
 </table>
-Post Incident Review report in Core UI \[Omitted image "now-assist-itsm-post-incident-flow-ui16.png"\] Alt text: Post Incident Workflow in Now Assist panel for Core UI
+Post Incident Review report in Core UI \[Omitted image "now-assist-itsm-post-incident-flow-ui16.png"\] Alt text: Post Incident Workflow in Otto panel for Core UI
 
-Post Incident review report in Service Operations Workspace\[Omitted image "now-assist-itsm-post-incident-flow-sow.png"\] Alt text: Post Incident Workflow in Now Assist panel in Service Operations Workspace
+Post Incident review report in Service Operations Workspace\[Omitted image "now-assist-itsm-post-incident-flow-sow.png"\] Alt text: Post Incident Workflow in Otto panel in Service Operations Workspace
 

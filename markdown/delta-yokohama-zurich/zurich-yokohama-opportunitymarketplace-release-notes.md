@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-opportunitymarketplace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Create project opportunities by importing project details from Project Workspace](https://servicenow-staging.fluidtopics.net/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+-   **[Create project opportunities by importing project details from Project Workspace](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
 Opportunity owners create gigs, projects, and volunteer opportunities. Opportunity details for Project type opportunities can be imported from projects in the ServiceNow Project Workspace. These opportunities are different from internal jobs. OPM enables you to manage any opportunities that you create and track applications. The ability to create opportunities is based on user criteria.
 
--   **[Select multiple user criteria groups](https://servicenow-staging.fluidtopics.net/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+-   **[Select multiple user criteria groups](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
 Access to opportunities is controlled by assigning user criteria groups to an opportunity. From the Opportunity details page of the Create an opportunity widget, you can select multiple user criteria to manage access to the opportunity.
 
@@ -103,7 +103,7 @@ Yokohama
 
 </td><td>
 
--   **[Import Project Workspace project information to create an opportunity](https://servicenow-staging.fluidtopics.net/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+-   **[Import Project Workspace project information to create an opportunity](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
 Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
 
@@ -111,17 +111,17 @@ Opportunity Marketplace opportunity owners can create Project Opportunity types 
 
 An opportunity owner must have the following roles assigned to them to create a Project type opportunity by importing project details from Project Workspace.
 
-    -   **reource\_user [Resource management process](https://servicenow-staging.fluidtopics.net/access?context=r_ResourceManagementProcess&family=yokohama&ft:locale=en-US)**
+    -   **reource\_user [Resource management process](https://www.servicenow.com/docs/access?context=r_ResourceManagementProcess&family=yokohama&ft:locale=en-US)**
 
 If you’re assigned the resource\_user role, you can be a resource requester.
 
-    -   **[sn\_ppm\_read](https://servicenow-staging.fluidtopics.net/access?context=business-stakeholder-role-ppm&family=yokohama&ft:locale=en-US)**
+    -   **[sn\_ppm\_read](https://www.servicenow.com/docs/access?context=business-stakeholder-role-ppm&family=yokohama&ft:locale=en-US)**
 
 The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
--   **[Select multiple user criteria groups](https://servicenow-staging.fluidtopics.net/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+-   **[Select multiple user criteria groups](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
-Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://servicenow-staging.fluidtopics.net/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US).
+Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -209,7 +209,7 @@ Yokohama
 
 </td><td>
 
-Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Yokohama
 -   Opportunity owners can select multiple user criteria when creating opportunities.
 -   Import an opportunity from the ServiceNow Project Workspace. Importing a project from the Project Workspace is only available with the Project type opportunity.
 
- See [Opportunity Marketplace overview](https://servicenow-staging.fluidtopics.net/access?context=egd-opportunity-marketplace-ovrvw&family=yokohama&ft:locale=en-US) for more information.
+ See [Opportunity Marketplace overview](https://www.servicenow.com/docs/access?context=egd-opportunity-marketplace-ovrvw&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

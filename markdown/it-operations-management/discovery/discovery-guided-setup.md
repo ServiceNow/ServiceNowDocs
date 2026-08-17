@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility,
 
 ITOM Discovery Guided Setup provides a sequence of tasks that help you install and get started with Discovery. If you're setting up Discovery for the first time, this is a good way to get your environment up and running quickly.
 
-**Note:** This guided setup has been replaced by the ITOM Configuration Console \(available in Zurich Patch 8 or later versions of the ServiceNow AI Platform\), which offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by Now Assist. In ITOM Guided Setup v27.3.1, the Learn phase includes a new task that provides direct access to the ITOM Configuration Console. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md).
+**Note:** This guided setup has been replaced by the ITOM Configuration Console \(available in Zurich Patch 8 or later versions of the ServiceNow AI Platform\), which offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by ServiceNow Otto. In ITOM Guided Setup v27.3.1, the Learn phase includes a new task that provides direct access to the ITOM Configuration Console. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md).
 
 To access the ITOM Discovery Guided Setup, navigate to **All** &gt; **ITOM Guided Setup** &gt; **ITOM Discovery Guided Setup**. You're then prompted to enter a configuration name, which enables your progress to be saved and resumed later. If you're returning to the setup, select **Cancel** followed by **Exit** in the confirmation dialog to view the list of in-progress setup configurations.
 
@@ -28,7 +28,7 @@ The setup is organized into the four distinct phases: Learn, Crawl, Walk, and Ru
 
 -   **Learn**
 
-    The Learn phase is the first step in the guided setup. This phase helps you develop a foundational understanding of Discovery by exploring its core principles, learning about various techniques, and identifying the prerequisites needed to proceed with the setup.
+    The Learn phase is the first step in the guided setup. It covers core principles, techniques, and prerequisites for Discovery.
 
 -   **Crawl**
 

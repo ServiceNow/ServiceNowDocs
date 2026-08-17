@@ -57,15 +57,15 @@ Configure the **glide.knowman.aqi.article\_workflow\_states** property to set th
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d371813e207">
+<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d372673e207">
 
 To
 
-</th><th align="left" id="d371813e210">
+</th><th align="left" id="d372673e210">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d371813e216">
+</th></tr></thead><tbody><tr><td id="d372673e216">
 
 **Submit the completed AQI review.**
 
@@ -80,7 +80,7 @@ Click **Submit**. The form refreshes and the total score of the AQI review is di
 
 **Note:** The notification includes the AQI review score and AQI review result. You can customize the content and design of the notification emails. In cases where the Ownership Group is enabled, the email notifications are sent to the Ownership Group as well.
 
-</td></tr><tr><td id="d371813e250">
+</td></tr><tr><td id="d372673e250">
 
 **Save the pending review to complete later.**
 

@@ -62,17 +62,17 @@ The Virtual Agent interface for the Conversational Integration apps \(Slack, Mic
 
 -   **Rendering of input controls and bot responses in conversations**
 
-    Input controls in Virtual Agent Designer, such as the Carousel render differently in bot conversations in messaging apps than in the web-based interface. For example, the Date Time picker control in Workplace presents buttons for users to select a date and time. Similarly, certain bot response controls, such as the Image response and Multi-response controls, also render differently in third-party messaging apps. For details on these differences, see the descriptions of the Virtual Agent Designer [input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md).
+    Input controls in Assistant Designer Asset library, such as the Carousel render differently in bot conversations in messaging apps than in the web-based interface. For example, the Date Time picker control in Workplace presents buttons for users to select a date and time. Similarly, certain bot response controls, such as the Image response and Multi-response controls, also render differently in third-party messaging apps. For details on these differences, see the descriptions of the Assistant Designer Asset library [input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md).
 
 -   **Attachments**
 
     In live agent conversations, users and agents can upload and exchange any type of attachment file when prompted.
 
 
-## Now Assist support
+## ServiceNow Otto support
 
-|Existing channel integrations|Supports Now Assist|Supports synthesized response|
-|-----------------------------|-------------------|-----------------------------|
+|Existing channel integrations|Supports ServiceNow Otto|Supports synthesized response|
+|-----------------------------|------------------------|-----------------------------|
 |Microsoft Teams/Copilot|Yes|Yes|
 |Slack|Yes|Yes|
 |WhatsApp|Yes|No|

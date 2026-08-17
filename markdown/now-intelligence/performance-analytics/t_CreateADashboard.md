@@ -39,15 +39,15 @@ Role required: none
 
 3.  Fill in the following fields:
 
-<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d65552e192">
+<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d66640e192">
 
 Field
 
-</th><th align="left" id="d65552e195">
+</th><th align="left" id="d66640e195">
 
 Description
 
-</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d65552e201">
+</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d66640e201">
 
 **Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name the dashboard.
 
-</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d65552e210">
+</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d66640e210">
 
 **Order**
 
@@ -63,7 +63,7 @@ Name the dashboard.
 
 Enter an **Order** number to indicate the order the dashboard appears on the dashboard picker. Dashboards with lower numbers are listed first.
 
-</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d65552e222">
+</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d66640e222">
 
 **Active**
 
@@ -73,7 +73,7 @@ Clear this field to mark the dashboard **inactive**. Inactive dashboards are acc
 
  **Note:** When you activate responsive dashboards, the permissions associated with both active and inactive non-responsive dashboard are carried over to the responsive version.
 
-</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d65552e243">
+</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d66640e243">
 
 **Owner**
 

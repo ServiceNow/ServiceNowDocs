@@ -1,28 +1,29 @@
 ---
-title: Supporting information for Now Assist for Accounts Payable Operations \(APO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+title: Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\) includes prerequisites, skill configurations, and related resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, ServiceNow Otto, invoice automation]
+breadcrumb: [Explore ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Accounts Payable Operations \(APO\)
+# Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\) includes prerequisites, skill configurations, and related resources.
 
 ## Supported versions
 
-The Now Assist for APO application is supported starting with Zurich.
+The ServiceNow Otto for APO application is supported starting with Zurich.
 
 ## Supported user interfaces
 
-The Now Assist for APO application includes the skills that are listed in the following table.
+The ServiceNow Otto for APO application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -60,27 +61,16 @@ Record summarization involves invoice case summarization and inquiry case summar
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for APO store app \(sn\_ap\_gen\_ai\) to use the Case summarization skills.
+Activate the ServiceNow Otto for APO store app \(sn\_ap\_gen\_ai\) to use the Case summarization skills.
 
 This store app has the following dependencies:
 
-Now Assist for Platform \(com.sn.now.platform\)
+ServiceNow Otto for Platform \(com.sn.now.platform\)
 
 Activate the applications in the following order:
 
-1.  Now Assist for Platform \(sn\_genai\_platform\)
-2.  Now Assist for APO \(sn\_ap\_gen\_ai\)
+1.  ServiceNow Otto for Platform \(sn\_genai\_platform\)
+2.  ServiceNow Otto for APO \(sn\_ap\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
-
-**Related topics**  
-
-
-[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)
-
-[Advanced Work Assignment in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.md)
-
-[Using Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/using-awa-for-apo.md)
-
-[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
+For more information, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

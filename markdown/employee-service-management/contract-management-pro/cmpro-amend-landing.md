@@ -7,9 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-10-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Amendment request, Amend contract, Amendment workflow]
+audience: sn\_cm\_core.contract\_fulfiller
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 

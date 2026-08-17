@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-11-05"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Creating requests for AI assets
@@ -21,5 +21,5 @@ Create a change request to modify the relationships between a deployed AI asset 
 -   **[Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)**  
 Create an offboarding request to retire AI assets that are no longer needed.
 
-**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

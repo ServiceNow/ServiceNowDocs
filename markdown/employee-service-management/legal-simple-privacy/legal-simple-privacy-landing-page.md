@@ -39,7 +39,7 @@ As a legal fulfiller, you can collaborate in a centralized **Legal Counsel Cente
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 
@@ -61,8 +61,6 @@ Reference topics provide additional information about the lists and forms that y
 **Related topics**  
 
 
-[Legal Conflict of Interest]()
-
 [Legal Content Review]()
 
 [Legal Digital Forensics]()
@@ -76,6 +74,8 @@ Reference topics provide additional information about the lists and forms that y
 [Legal Simple Compliance]()
 
 [Gifts and Entertainment Compliance]()
+
+[Legal Conflict of Interest]()
 
 [Legal Stock Preclearance]()
 

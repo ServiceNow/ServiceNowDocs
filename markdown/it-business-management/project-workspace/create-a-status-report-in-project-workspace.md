@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a status report in Project Workspace
@@ -24,17 +24,17 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
 3.  From the Pages section, select **Create status report**.
 
-4.  To create status report from a template:
+4.  To create a status report from a template:
 
-    1.  From the Pages section, select **Create new from template** from the drop down.
+    1.  From the Pages section, select **Create new from template** from the drop-down.
     2.  From the "Welcome to your Template Center!" screen, select **Use** for the template that you want to use.
 5.  On the Create status report form, fill in the fields.
 
@@ -50,7 +50,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
     1.  Select **Export as PDF** to share and archive a PDF version of the report.
 
-    2.  Select **Keyboard shortcuts** to view keyboard shortcuts on status report
+    2.  Select **Keyboard shortcuts** to view keyboard shortcuts on status report.
 
     3.  Select **Hide Live Presence** to hide the live presence.
 
@@ -73,6 +73,8 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 -   **[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-status-report-in-project-workspace.md)**  
 Observe a status report in Project Workspace for your project to learn about project health, metrics, risks, issues, and milestones.
+-   **[Draft and Published status for status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/analyzing-status-report-states.md)**  
+Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
 -   **[Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-status-report-project-workspace.md)**  
 Modify a status report in Project Workspace for your project to update project health, metrics, risks, issues, and milestones.
 -   **[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/duplicate-status-report-pw.md)**  

@@ -9,7 +9,7 @@ classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [WSD for Microsoft places -references, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
 
 # WSD for Microsoft places- Key features and actions

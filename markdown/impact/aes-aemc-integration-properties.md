@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # AES/AEMC integration properties

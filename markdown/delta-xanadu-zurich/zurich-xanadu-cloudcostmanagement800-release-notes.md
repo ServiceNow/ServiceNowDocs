@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement800-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Xanadu
 
 </td><td>
 
--   **[Troubleshoot billing issues in Cloud Cost Management implementation](https://servicenow-staging.fluidtopics.net/access?context=compare-metricbase-spend&family=xanadu&ft:locale=en-US)**
+-   **[Troubleshoot billing issues in Cloud Cost Management implementation](https://www.servicenow.com/docs/access?context=compare-metricbase-spend&family=xanadu&ft:locale=en-US)**
 
 Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues. You can also download the comparison data as a CSV file to analyze any mismatch in the cost values from both of the sources.
 
--   **[Gain insights into your spend of AI resources](https://servicenow-staging.fluidtopics.net/access?context=spend-anaytics&family=xanadu&ft:locale=en-US)**
+-   **[Gain insights into your spend of AI resources](https://www.servicenow.com/docs/access?context=spend-anaytics&family=xanadu&ft:locale=en-US)**
 
 View the total spend details for your AI services under the Machine Learning service category in your current billing download for AWS, Azure, and GCP. You can also filter your results by cloud category, tag category, and tag values.
 
--   **[Manage high transaction volume efficiently by installing the Cloud Cost Management Infra Stack application](https://servicenow-staging.fluidtopics.net/access?context=ccm-infra-stack&family=xanadu&ft:locale=en-US)**
+-   **[Manage high transaction volume efficiently by installing the Cloud Cost Management Infra Stack application](https://www.servicenow.com/docs/access?context=ccm-infra-stack&family=xanadu&ft:locale=en-US)**
 
 Process and download billing files quickly with improved data download speed by installing the Cloud Cost Management Infra Stack application in addition to Cloud Cost Management version 8.1.
 
@@ -199,8 +199,8 @@ Xanadu
 
 Starting with the Xanadu release, note the following deprecations:
 
--   The Core UI interface for the Cloud Cost Management application is no longer deployed, enhanced, or supported. For continued access and functionality, transition to the Cloud Cost Management Workspace. For more information, see [Cloud Cost Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=ci-workspace&family=xanadu&ft:locale=en-US).
--   The Cloud Spend Dashboard is no longer deployed, enhanced, or supported. The Asset Executive Workspace provides this functionality. For more information, see [Visibility into Cloud Insights KPIs using the Asset Management Executive Dashboard](https://servicenow-staging.fluidtopics.net/access?context=itam-exec-dashboard-cloudinsights&family=xanadu&ft:locale=en-US).
+-   The Core UI interface for the Cloud Cost Management application is no longer deployed, enhanced, or supported. For continued access and functionality, transition to the Cloud Cost Management Workspace. For more information, see [Cloud Cost Management Workspace](https://www.servicenow.com/docs/access?context=ci-workspace&family=xanadu&ft:locale=en-US).
+-   The Cloud Spend Dashboard is no longer deployed, enhanced, or supported. The Asset Executive Workspace provides this functionality. For more information, see [Visibility into Cloud Insights KPIs using the Asset Management Executive Dashboard](https://www.servicenow.com/docs/access?context=itam-exec-dashboard-cloudinsights&family=xanadu&ft:locale=en-US).
 -   The Cloud Insights Billing application, which supports the Cloud Provisioning and Governance product with limited functionality, is being prepared for future deprecation. It will not be available on ServiceNow Store for download and installation but will continue to be supported.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
@@ -240,7 +240,7 @@ Xanadu
 
 </td><td>
 
-Activate Cloud Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Activate Cloud Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -428,7 +428,7 @@ Xanadu
 -   Easily diagnose and rectify issues in Cloud Cost Management implementations.
 -   View the spend details of your AI resources through a Machine Learning service category.
 
- See [Cloud Insights](https://servicenow-staging.fluidtopics.net/access?context=cloud-insights-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Cloud Insights](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

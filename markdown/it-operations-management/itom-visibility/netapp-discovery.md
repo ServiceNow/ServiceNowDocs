@@ -19,7 +19,7 @@ Discovery and Service Mapping find NetApp servers and clusters using patterns. D
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 NetApp discovery isn’t supported for NetApp servers in the AWS cloud. To learn about the components and versions of NetApp servers and clusters that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
@@ -274,6 +274,14 @@ IP Address \[ip\_address\]
 </td><td>
 
 Management IP address of the storage server.
+
+</td></tr><tr><td>
+
+Cluster \[cluster\]
+
+</td><td>
+
+References the Storage Cluster \[cmdb\_ci\_storage\_cluster\] table.
 
 </td></tr><tr><td>
 
@@ -914,61 +922,67 @@ Discovery populates the data in the CMDB when running the NetApp Cluster-Mode Pa
 
 ## CI relationships
 
-Discovery creates these relationships to support the NetApp discovery.
+The NetApp Storage patterns create the following relationships and references to support NetApp Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
 |Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|Hosted on::Hosts|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|
-|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|References|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|
 |Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|Cluster of::Clusters|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
-|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|References|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|Managed by::Manages|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
-|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|References|Company \[core\_company\]|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\] or Storage Server \[cmdb\_ci\_storage\_server\]\*|Owns::Owned by|Network Adapter \[cmdb\_ci\_network\_adapter\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|References|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\] or Storage Server \[cmdb\_ci\_storage\_server\]\*|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|IP Address \[cmdb\_ci\_ip\_address\]|References|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\] or Storage Server \[cmdb\_ci\_storage\_server\]\*\*|Contains::Contained by|Disk \[cmdb\_ci\_disk\]|
-|Disk \[cmdb\_ci\_disk\]|References|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*\*|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\] or Storage Server \[cmdb\_ci\_storage\_server\]\*|Contains::Contained by|Storage Pool \[cmdb\_ci\_storage\_pool\]|
-|Storage Pool \[cmdb\_ci\_storage\_pool\]|References|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
 |Storage Server \[cmdb\_ci\_storage\_server\]|Allocated to::Allocated from|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|
 |Storage Server \[cmdb\_ci\_storage\_server\]|Runs on::Runs|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
-|Storage Server \[cmdb\_ci\_storage\_server\]|References|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
 |Storage Server \[cmdb\_ci\_storage\_server\]|Owns::Owned by|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|
-|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|References|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage File Share \[cmdb\_ci\_storage\_fileshare\]|Provided By::Provides|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage Server \[cmdb\_ci\_storage\_server\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-|Storage Volume \[cmdb\_ci\_storage\_volume\]|References|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Storage Volume \[cmdb\_ci\_storage\_volume\]|References|Storage Pool \[cmdb\_ci\_storage\_pool\]|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|Controller for::Controlled by|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|Controller for::Controlled by|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Storage Controller \[cmdb\_ci\_storage\_controller\]|References|Storage Server \[cmdb\_ci\_storage\_server\]|
 |iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Hosted on::Hosts|Storage Server \[cmdb\_ci\_storage\_server\]|
-|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|References|Storage Server \[cmdb\_ci\_storage\_server\]|
-|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|References|Storage Controller \[cmdb\_ci\_storage\_controller\]|
-|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|References|Storage Volume \[cmdb\_ci\_storage\_volume\]|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Hosted on::Hosts|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|References|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|References|Storage Controller \[cmdb\_ci\_storage\_controller\]|
-|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|References|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-|Serial Number \[cmdb\_serial\_number\]|References|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|Server \[server\]|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|
+|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|Cluster \[cluster\]|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
+|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|CPU manufacturer \[cpu\_manufacturer\]|Company \[core\_company\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Configuration Item \[cmdb\_ci\]|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
+|IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+|Disk \[cmdb\_ci\_disk\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*\*|
+|Storage Pool \[cmdb\_ci\_storage\_pool\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
+|Storage Server \[cmdb\_ci\_storage\_server\]|Cluster \[cluster\]|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
+|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Volume \[cmdb\_ci\_storage\_volume\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Volume \[cmdb\_ci\_storage\_volume\]|Provided by \[provided\_by\]|Storage Pool \[cmdb\_ci\_storage\_pool\]|
+|Storage Controller \[cmdb\_ci\_storage\_controller\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Exported by \[exported\_by\]|Storage Controller \[cmdb\_ci\_storage\_controller\]|
+|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Storage \[storage\]|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Exported by \[exported\_by\]|Storage Controller \[cmdb\_ci\_storage\_controller\]|
+|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Storage \[storage\]|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+|Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Storage Server \[cmdb\_ci\_storage\_server\] or Storage Node Element \[cmdb\_ci\_storage\_node\_element\]\*|
 
 \* The CI table \(Storage Server or Storage Node Element\) is determined by the resource type and owner information returned by the NetApp ONTAP API. Physical resources are owned by Storage Node Elements, while logical resources are owned by Storage Servers.
 
 \*\* The CI table \(Storage Server or Storage Node Element\) is determined by the pattern type. The Storage 7-Mode pattern uses the Storage Server table, while the Cluster-Mode patterns use the Storage Node Element table.
 
-Discovery creates these relationships when running the NetApp Cluster-Mode patterns only.
+Discovery creates these relationships and references when running the NetApp Cluster-Mode patterns only.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|Serial Number \[cmdb\_serial\_number\]|References|Chassis \[cmdb\_ci\_chassis\] or Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]\*|
 |Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|Hosted on::Hosts|Chassis \[cmdb\_ci\_chassis\]|
-|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|References|Chassis \[cmdb\_ci\_chassis\]|
 |Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|Hosted on::Hosts|Chassis \[cmdb\_ci\_chassis\]|
-|Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|References|Chassis \[cmdb\_ci\_chassis\]|
 |Disk \[cmdb\_ci\_disk\]|Hosted on::Hosts|Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|
-|Disk \[cmdb\_ci\_disk\]|References|Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Chassis \[cmdb\_ci\_chassis\] or Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]\*|
+|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|Chassis \[chassis\]|Chassis \[cmdb\_ci\_chassis\]|
+|Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|Chassis \[chassis\]|Chassis \[cmdb\_ci\_chassis\]|
+|Disk \[cmdb\_ci\_disk\]|Diskshelf chassis \[diskshelf\_chassis\]|Disk Shelf Chassis \[cmdb\_ci\_diskshelf\_chassis\]|
 
 \* The CI table \(Chassis or Disk Shelf Chassis\) is determined by the serial number type field.
 

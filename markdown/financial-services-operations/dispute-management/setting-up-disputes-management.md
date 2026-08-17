@@ -54,12 +54,12 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Dispute Content Pack for US Regulations is designed to support monitoring dispute cases effectively and take necessary actions. This application provides SLA definitions pertaining to Regulation E \(Reg E\) and Regulation Z \(Reg Z\) and tracks the dispute cases during the life cycle. Provides SLA definitions for dispute management applications and landing page metrics to track dispute cases that are under risk or breached.
 
--   [Install Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
+-   [Install ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
 
-    Install Now Assist for Financial Services Operations \(FSO\) to leverage generative AI capabilities.
+    Install ServiceNow Otto for Financial Services Operations \(FSO\) to leverage generative AI capabilities.
 
-    -   [Configure case summarization in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
-    -   [Configure Disputes intake via Virtual Agent in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-disputes-intake-via-virtual-agent.md)
+    -   [Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
+    -   [Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-disputes-intake-via-virtual-agent.md)
 
 -   **[Configure additional questions for dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md)**  
 Configure the questionnaire that appears for dispute agents or account holders when they initiate a dispute.

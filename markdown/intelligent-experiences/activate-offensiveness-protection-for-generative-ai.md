@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Generative AI, Gen AI, Now Assist, Admin, Guardian, offensiveness protection]
-breadcrumb: [Now Assist Guardian, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Activate offensiveness protection for generative AI
@@ -21,7 +21,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. Now Assist Guardian detects offensive content in both inputs and outputs, and logs the event when it is detected. You can also configure it to block offensive material so that users see a standard error message instead of the generated response.
+Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. AI Guardian detects offensive content in both inputs and outputs, and logs the event when it is detected. You can also configure it to block offensive material so that users see a standard error message instead of the generated response.
 
 **Note:** Offensiveness detection applies only to specific Now Assist skills and workflows. It is not available for all Now Assist applications. For more information about the list of skills that support offensiveness detection, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
 
@@ -67,5 +67,5 @@ To change the detection impact for an active workflow, select more options \(\[O
 
 To deactivate offensiveness protection for a workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Deactivate**.
 
-**Parent Topic:**[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
 

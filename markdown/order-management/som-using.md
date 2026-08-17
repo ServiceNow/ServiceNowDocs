@@ -70,7 +70,7 @@ Install the Partner Relationship Management plugin \(com.snc.partner\_relationsh
 -   **[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-foundation.md)**  
 Learn how to use lead-to-cash foundation applications.
 -   **[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-business-portal.md)**  
-Customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases, and request for quotes.
+Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-overview.md)
 

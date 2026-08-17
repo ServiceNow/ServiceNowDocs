@@ -1,26 +1,26 @@
 ---
-title: Now Assist for HRSD Virtual Agent topics
-description: Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
+title: ServiceNow Otto for HRSD Virtual Agent topics
+description: Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrating with ESM Framework, Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with ESM Framework, Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for HRSD Virtual Agent topics
+# ServiceNow Otto for HRSD Virtual Agent topics
 
-Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
+Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 
 ## Get time off balance
 
 The Get time off balance Virtual Agent topic enables you to view your leave balance from the configured HCM system in Employee Center.
 
-From Employee Center, open a chat window and type in key words, for example, leave balance. The Now Assist generative AI retrieves details from the HCM system and displays your time off balance.
+From Employee Center, open a chat window and type in key words, for example, leave balance. The ServiceNow Otto generative AI retrieves details from the HCM system and displays your time off balance.
 
 ## Get User Paychecks
 
@@ -106,5 +106,5 @@ You can update personal details in Virtual Agent using one of the following topi
 -   Update Email Address
 -   Update Phone Number
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
 

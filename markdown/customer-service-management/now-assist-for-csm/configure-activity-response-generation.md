@@ -1,6 +1,6 @@
 ---
 title: Configure activity response generation
-description: Set up the activity response generation skill in the Now Assist Admin console to enable automated responses in comments and work notes.
+description: Set up the activity response generation skill in the AI Admin Hub console to enable automated responses in comments and work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-activity-response-generation.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure activity response generation
 
-Set up the activity response generation skill in the Now Assist Admin console to enable automated responses in comments and work notes.
+Set up the activity response generation skill in the AI Admin Hub console to enable automated responses in comments and work notes.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console for configuring the activity response generation skill by selecting inputs, defining access, and activating the skill.
+Use the  for configuring the activity response generation skill by selecting inputs, defining access, and activating the skill.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
     Access the skills configuration page.
 
@@ -70,7 +70,7 @@ Use the Now Assist Admin console for configuring the activity response generatio
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-7.  Toggle **Select display** to determine if activity response generation skill appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
+7.  Toggle **Select display** to determine if activity response generation skill appears in In-product desktop, displaying the AI skills on forms and workspaces.
 
     Additionally, verify the sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role\(s\) you configured in the previous step.
 
@@ -78,11 +78,11 @@ Use the Now Assist Admin console for configuring the activity response generatio
 
 9.  Select **Activate** to turn on the skill for agents and complete the configuration.
 
-    Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **Go to Now Assist content menu**.
+    Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **ServiceNow Otto context menu**.
 
-10. Select **Go to Now Assist context menu** to launch the guided steps for [configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the Now Assist Context Menu for the skill.
+10. Select **Go to ServiceNow Otto context menu** to launch the guided steps for [configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the ServiceNow Otto context menu for the skill.
 
-    You can also access this configuration from Now Assist Experience.
+    You can also access this configuration from ServiceNow Otto Experience.
 
 
 **Related topics**  

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2025-11-23"
 reading_time_minutes: 3
 keywords: [Agentic AI, ACLs in AI agents]
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an AI agent

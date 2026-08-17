@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-08-10"
 reading_time_minutes: 3
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, Review AI extracted information, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
-breadcrumb: [Review AI results, Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review AI results, Use agentic workflows, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date
@@ -31,15 +31,15 @@ To receive notifications when AI agents complete metadata extraction, ensure tha
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d415021e90">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d415495e90">
 
 Method
 
-</th><th align="left" id="d415021e93">
+</th><th align="left" id="d415495e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d415021e99">
+</th></tr></thead><tbody><tr><td id="d415495e99">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d415021e147">
+</td></tr><tr><td id="d415495e147">
 
 **Workspace used by your application**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d415021e174">
+</td></tr><tr><td id="d415495e174">
 
 **Email notification**
 
@@ -77,13 +77,9 @@ Select **Open playbook** in the email notification that you receive after the me
 
     The playbook opens displaying a step-by-step interface to review the extracted metadata.
 
-    \[Omitted image "cmpro-na-ai-playbook.png"\] Alt text: Contract playbook with step-by-step interface to review AI extracted results.
-
 3.  Select **Review metadata**.
 
     The Document Intelligence workspace opens on a different tab displaying the extracted information.
-
-    \[Omitted image "cmpro-na-di-me.png"\] Alt text: Document Intelligence displaying extracted metadata for a contract.
 
 4.  Review and update the extracted metadata.
 
@@ -97,15 +93,11 @@ Select **Open playbook** in the email notification that you receive after the me
 
     The playbook opens on the **Review contract reminders** step where you can review the AI calculated reminder date.
 
-    \[Omitted image "cmpro-na-me-completed.png"\] Alt text: Contract playbook displaying the Contract reminder date page.
-
 7.  In the **Reminder date** field, modify the date, if necessary.
 
 8.  Select **Mark as complete**.
 
     The Contract reminder recipients page opens displaying the list of users who are already configured as recipients for the contract reminder.
-
-    \[Omitted image "cmpro-na-reminder-rec.png"\] Alt text: Contract playbook displaying the Contract reminder recipients page.
 
 9.  Configure the recipient list.
 

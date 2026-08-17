@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/define-sec-controls-aia.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define security controls for an AI agent
@@ -35,7 +35,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Public
     If you select **Users with specified roles**, you can select exactly which roles can access the AI agent.
 
-    AI agents installed with Now Assist applications each require specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
+    AI agents installed with AI applications each require specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
 
 2.  Select **Save and continue** to move to the next step.
 

@@ -1,6 +1,6 @@
 ---
 title: Associate a time card with a resource plan
-description: If one resource is allocated to identically named tasks in two resource plans, use the following procedure to specify the resource plan the time card should be allocated to.
+description: If one resource is allocated to identically named tasks in two resource plans. Use the following procedure to specify the resource plan the time card should be allocated to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/t\_AssocATimeCardWithAResourcePlan.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Mana
 
 # Associate a time card with a resource plan
 
-If one resource is allocated to identically named tasks in two resource plans, use the following procedure to specify the resource plan the time card should be allocated to.
+If one resource is allocated to identically named tasks in two resource plans. Use the following procedure to specify the resource plan the time card should be allocated to.
 
 ## Before you begin
 

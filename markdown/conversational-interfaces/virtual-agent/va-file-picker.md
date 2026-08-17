@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-29"
 reading_time_minutes: 5
 keywords: [Virtual Agent, file picker, user input]
-breadcrumb: [Assistant Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # File Picker user input control
@@ -125,7 +125,7 @@ Skip reprompting if
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Using the File Picker control in different client interfaces
@@ -199,7 +199,7 @@ ServiceNow mobile
 </td></tr></tbody>
 </table>## Example of a File Picker user input control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -266,7 +266,7 @@ Prompt that users see asking for permission for the app to access a camera or fi
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 

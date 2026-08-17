@@ -24,15 +24,15 @@ Role required: sn\_test\_management.tester or sn\_test\_management.test\_manager
 
 1.  Create a test using either of the following options.
 
-<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d275051e61">
+<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d284039e61">
 
 Option
 
-</th><th align="left" id="d275051e64">
+</th><th align="left" id="d284039e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d275051e70">
+</th></tr></thead><tbody><tr><td id="d284039e70">
 
 **From Test Management 2.0**
 
@@ -42,7 +42,7 @@ Description
 2.  To create a test, click **New**.
 
 
-</td></tr><tr><td id="d275051e100">
+</td></tr><tr><td id="d284039e100">
 
 **From Agile Development 2.0**
 

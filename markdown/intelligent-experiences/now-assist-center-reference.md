@@ -1,28 +1,28 @@
 ---
-title: Now Assist Center reference
-description: The following topics provide additional information about the features and properties installed with Now Assist Center.
+title: AI Admin Center reference
+description: The following topics provide additional information about the features and properties installed with AI Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2026-04-13"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Center reference
+# AI Admin Center reference
 
-The following topics provide additional information about the features and properties installed with Now Assist Center.
+The following topics provide additional information about the features and properties installed with AI Admin Center.
 
--   **[Components installed with Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/components-installed-with-now-assist-center.md)**  
-Several components are installed with the Now Assist Center application.
--   **[Domain separation and Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/domain-separation-now-assist-center.md)**  
-Domain separation is supported for Now Assist Center.
--   **[Now Assist Center glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-glossary.md)**  
-Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
--   **[Now Assist Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-roles.md)**  
-Now Assist Center is installed with these roles.
+-   **[Components installed with AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/components-installed-with-now-assist-center.md)**  
+Several components are installed with the AI Admin Center application.
+-   **[Domain separation and AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/domain-separation-now-assist-center.md)**  
+Domain separation is supported for AI Admin Center.
+-   **[AI Admin Center glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-glossary.md)**  
+Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
+-   **[AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-roles.md)**  
+AI Admin Center is installed with these roles.
 
-**Parent Topic:**[Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
 

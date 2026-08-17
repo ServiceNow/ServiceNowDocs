@@ -1,6 +1,6 @@
 ---
 title: Activate a skill
-description: After you create and publish a custom skill, you must activate it in Now Assist Admin. Activating the skill enables you to trigger the skill within the UI.
+description: After you create and publish a custom skill, you must activate it in AI Admin Hub. Activating the skill enables you to trigger the skill within the UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/activate-skill.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Activate a skill
 
-After you create and publish a custom skill, you must activate it in Now Assist Admin. Activating the skill enables you to trigger the skill within the UI.
+After you create and publish a custom skill, you must activate it in AI Admin Hub. Activating the skill enables you to trigger the skill within the UI.
 
 ## Before you begin
 
@@ -30,16 +30,16 @@ Role required: admin
 
     Make sure you are in the correct application scope when you activate the skill. To learn more about application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
-    \[Omitted image "nask-activation.png"\] Alt text: Skill activation page in Now Assist Admin.
+    \[Omitted image "nask-activation.png"\] Alt text: Skill activation page in AI Admin Hub.
 
     **Note:** Some skills might need to be reviewed and approved by a data steward before you can activate it.
 
 
 ## What to do next
 
-You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
+You can enable AI Guardian for your skills. To learn more about AI Guardian, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
 
-**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

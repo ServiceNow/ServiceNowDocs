@@ -1,6 +1,6 @@
 ---
 title: Questions for the analyze alert impact agentic workflow
-description: Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
+description: Questions to ask about alerts in the ServiceNow Otto for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/questions-now-assist-workflows.html
 release: zurich
@@ -9,16 +9,16 @@ classification: now-assist-for-it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Reference, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Questions for the analyze alert impact agentic workflow
 
-Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
+Questions to ask about alerts in the ServiceNow Otto for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 
 ## Questions organized by alert source
 
-Ask the following questions about alerts from specific observability tools in the Now Assist panel. For more information about using the analyze alert impact agentic workflow, see [Analyze alert impact in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
+Ask the following questions about alerts from specific observability tools in the ServiceNow Otto® panel. For more information about using the analyze alert impact agentic workflow, see [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
 
 <table id="table_rcc_4qc_4fc"><thead><tr><th>
 
@@ -64,5 +64,5 @@ New Relic
 -   Who owns the impacted entity for this alert?
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
 

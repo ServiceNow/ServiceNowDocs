@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-08-08"
 reading_time_minutes: 2
-breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Export guidelines and examples
@@ -20,7 +20,7 @@ Here are some example requests with different levels of detail, to use in differ
 
 -   **Export this visualization to PowerPoint**
 
-    If you have a dashboard or data visualization open, you do not have to specify the name. Now Assist is aware of the context. For this request, you would be asked for the export method.
+    If you have a dashboard or data visualization open, you do not have to specify the name. ServiceNow Otto is aware of the context. For this request, you would be asked for the export method.
 
 -   **Export visualization Asset lifecycle by state to PPT**
 

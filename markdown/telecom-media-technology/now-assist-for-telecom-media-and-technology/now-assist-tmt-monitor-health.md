@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) Monitor engagement health agentic workflow
-description: Use the Monitor engagement health agentic workflow to monitor the health score of engagements and their associated metric data trends, and generate risk signals when a decline is detected.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Monitor engagement health agentic workflow
+description: Monitor engagement health scores and metric trends. The workflow generates risk signals when a decline is detected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.html
 release: zurich
@@ -12,15 +12,15 @@ reading_time_minutes: 3
 breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) Monitor engagement health agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Monitor engagement health agentic workflow
 
-Use the Monitor engagement health agentic workflow to monitor the health score of engagements and their associated metric data trends, and generate risk signals when a decline is detected.
+Monitor engagement health scores and metric trends. The workflow generates risk signals when a decline is detected.
 
 **Important:** Before you run this agentic workflow, you must activate the [Analyze metric data trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-analyze-metric-trend.md) skill to collect the metric data that is to be evaluated.
 
 ## Monitor engagement health agentic workflow overview
 
-Customer success managers can monitor the health score of up to 10 active engagements and summarize the health trend for the past 6 weeks. Each metric used to calculate the health score is monitored, and if a declining pattern is detected, a risk signal or a risk occurrence \(for an existing risk signal\) is generated. A summary indicating the number of risk signals created and the health score range is generated. The Monitor engagement health agentic workflow is triggered weekly based on a predefined schedule and the results are displayed in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+Customer success managers can monitor the health score of up to 10 active engagements and summarize the health trend for the past 6 weeks. Each metric used to calculate the health score is monitored. If a declining pattern is detected, a risk signal or a risk occurrence is generated. A summary indicating the number of risk signals created and the health score range is generated. The Monitor engagement health agentic workflow is triggered weekly based on a predefined schedule and the results are displayed in the .
 
 You can view the risk signals and occurrences that have been created by navigating to the [Risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md) page. For risks created using the agentic workflow, the following field values are displayed:
 
@@ -31,7 +31,7 @@ You can view the risk signals and occurrences that have been created by navigati
 
 Required role: sn\_acct\_lc.customer\_success\_agent
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Configure the monitor engagement health agentic workflow
 

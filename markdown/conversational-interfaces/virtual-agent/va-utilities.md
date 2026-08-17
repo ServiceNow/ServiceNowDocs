@@ -1,6 +1,6 @@
 ---
-title: Virtual Agent Designer utilities
-description: You can control interactions within a topic by using utilities in Virtual Agent Designer. These utilities perform various actions such as adding topic blocks \(reusable components\), running a script, or adding different conversation paths \(branches\) in a topic. Utilities are represented as nodes in a conversation flow but do not display anything to the user.
+title: Assistant Designer Asset library utilities
+description: You can control interactions within a topic by using utilities in Assistant Designer Asset library. These utilities perform various actions such as adding topic blocks \(reusable components\), running a script, or adding different conversation paths \(branches\) in a topic. Utilities are represented as nodes in a conversation flow but do not display anything to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-utilities.html
 release: zurich
@@ -9,12 +9,12 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer utilities
+# Assistant Designer Asset library utilities
 
-You can control interactions within a topic by using utilities in Virtual Agent Designer. These utilities perform various actions such as adding topic blocks \(reusable components\), running a script, or adding different conversation paths \(branches\) in a topic. Utilities are represented as nodes in a conversation flow but do not display anything to the user.
+You can control interactions within a topic by using utilities in Assistant Designer Asset library. These utilities perform various actions such as adding topic blocks \(reusable components\), running a script, or adding different conversation paths \(branches\) in a topic. Utilities are represented as nodes in a conversation flow but do not display anything to the user.
 
 The following utilities are available for use within a Virtual Agent topic.
 
@@ -31,7 +31,7 @@ Use a Topic Block in a Virtual Agent conversation to perform a specific function
 -   **[Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action.md)**  
 Use the Action utility in a Virtual Agent topic to select the flow action properties that the node should create. The Action utility integrates Virtual Agent with the ServiceNow Workflow Studio product.
 -   **[Custom control utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-custom-control-util.md)**  
-Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Virtual Agent Designer.
+Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer Asset library.
 -   **[AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md)**  
 Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
 -   **[Deflection utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-deflection.md)**  
@@ -45,5 +45,5 @@ Use the Multi File Upload utility to upload more than one file at a time in a Vi
 -   **[Pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-pause.md)**  
 Use the Pause utility to create a temporary halt in your Virtual Agent conversations.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

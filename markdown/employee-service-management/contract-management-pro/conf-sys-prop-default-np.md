@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Set the default notice period for the Manage contract repository agentic workflow
@@ -39,8 +39,6 @@ When the contract renewal notice period and termination of contract renewal noti
 4.  Update the **Value** field to set the default notice period.
 
     The default value is **60**.
-
-    \[Omitted image "cmpro-agentic-ai-dft-np.png"\] Alt text: Default value for agentic AI notice period.
 
 5.  Select **Update**.
 

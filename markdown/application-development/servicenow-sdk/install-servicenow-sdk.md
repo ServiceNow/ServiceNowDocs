@@ -55,15 +55,15 @@ In the following procedure, you install the ServiceNow SDK within a new applicat
 
 5.  Create an application with the ServiceNow SDK.
 
-<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d224765e200">
+<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d225392e200">
 
 State
 
-</th><th align="left" id="d224765e203">
+</th><th align="left" id="d225392e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d224765e209">
+</th></tr></thead><tbody><tr><td id="d225392e209">
 
 **Authentication hasn't been configured**
 
@@ -77,7 +77,7 @@ npx @servicenow/sdk auth --add <instance>
 
  For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
-</td></tr><tr><td id="d224765e248">
+</td></tr><tr><td id="d225392e248">
 
 **Authentication has been configured**
 

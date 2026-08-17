@@ -1,17 +1,17 @@
 ---
-title: Add a value configuration in the Now Assist Center Business Value dashboard
+title: Add a value configuration in the AI Admin Center Business Value dashboard
 description: Add a value configuration to define the business value metrics calculated for an AI asset, including average time saved per execution and average hourly rate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-add-value-configuration.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI, business value]
-breadcrumb: [Now Assist Center Business Value, View AI assets usage and performance, Monitor, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, business value]
+breadcrumb: [AI Admin Center Business Value, View AI assets usage and performance, Monitor, AI Admin Center, Enable AI experiences]
 ---
 
-# Add a value configuration in the Now Assist Center Business Value dashboard
+# Add a value configuration in the AI Admin Center Business Value dashboard
 
 Add a value configuration to define the business value metrics calculated for an AI asset, including average time saved per execution and average hourly rate.
 
@@ -25,7 +25,7 @@ Value configurations define the data used to calculate business value metrics fo
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Select **Business Value** in the top navigation bar.
 
@@ -54,5 +54,5 @@ Value configurations define the data used to calculate business value metrics fo
 
 A **Benchmark created successfully** confirmation banner appears. The value configuration is added to the **Business value configuration** table and the Business Value dashboard metrics are updated to reflect the new configuration.
 
-**Parent Topic:**[Now Assist Center Business Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-business-value-dashboard.md)
+**Parent Topic:**[AI Admin Center Business Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-business-value-dashboard.md)
 

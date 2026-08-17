@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 4
 keywords: [automated evaluations, agentic AI, evaluation metrics, dataset, performance testing]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Getting started with agentic evaluations
@@ -21,7 +21,7 @@ Before you start your first evaluation run, verify that you have the following:
 
 -   An agentic AI asset that has been built and saved in AI Agent Studio
 -   At least one version of the agentic AI asset
--   Available dataset with a minimum number of test cases. You can create new datasets using [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+-   Available dataset with a minimum number of test cases. You can create new datasets using [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 -   You have the necessary permissions to run the agentic AI asset. You can verify whether you have the right permissions by checking the user access settings of the agentic AI asset in AI Agent Studio.
 
 Role required: sn\_aia.admin
@@ -34,7 +34,7 @@ You can use existing datasets, create new datasets from previous execution logs,
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
     The Agentic Evaluations page displays a list of existing evaluation runs and their status.
 

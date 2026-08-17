@@ -1,6 +1,6 @@
 ---
-title: Summarize a change request by using Now Assist for IT Service Management \(ITSM\)
-description: Quickly capture the important details of a change request, including the current status, by using the change request summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
+title: Summarize a change request by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Quickly capture the important details of a change request, including the current status, by using the change request summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/summarize-change-now-assist.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize a change request by using Now Assist for IT Service Management \(ITSM\)
+# Summarize a change request by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Quickly capture the important details of a change request, including the current status, by using the change request summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
+Quickly capture the important details of a change request, including the current status, by using the change request summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Change summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+The Change summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 A change request summary provides you with a concise summary of a change request. The summary is based on the change request state and is generated from the information that you enter in the following fields:
 
@@ -67,15 +67,15 @@ You can summarize a change request in Core UI and Service Operations Workspace f
 
 3.  When you're finished summarizing a change request, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d342435e228">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d343781e231">
 
 Option
 
-</th><th align="left" id="d342435e231">
+</th><th align="left" id="d343781e234">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d342435e237">
+</th></tr></thead><tbody><tr><td id="d343781e240">
 
 **Save the summary information by adding it to the change request work notes**
 
@@ -86,7 +86,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d342435e264">
+</td></tr><tr><td id="d343781e267">
 
 **Expand or collapse the summary**
 
@@ -94,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d342435e285">
+</td></tr><tr><td id="d343781e288">
 
 **Provide feedback for the summary**
 
@@ -102,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d342435e308">
+</td></tr><tr><td id="d343781e311">
 
 **Copy the change request summary**
 
@@ -110,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d342435e324">
+</td></tr><tr><td id="d343781e327">
 
 **View the information about the change request summary**
 

@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Software Asset Management \(SAM\)
-description: With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
+title: Exploring ServiceNow Otto for Software Asset Management \(SAM\)
+description: With the ServiceNow Otto for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.html
 release: zurich
@@ -9,14 +9,14 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Exploring Now Assist for Software Asset Management \(SAM\)
+# Exploring ServiceNow Otto for Software Asset Management \(SAM\)
 
-With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
+With the ServiceNow Otto for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
 
-## Now Assist for SAM overview
+## ServiceNow Otto for SAM overview
 
 The following generative AI capabilities are available:
 
@@ -29,15 +29,15 @@ The generative AI skills can be used only by the sam\_user role and the sam\_adm
 
 Customizations to In-product display roles for accessing generative AI skills are preserved. For example, if you added an alternative role such as the sam\_admin role instead of the default sam\_user role, the sam\_admin role will retain access, while the sam\_user role will lose access, as per the custom configuration.
 
-The sam\_user role also contains the Now Assist Admin User \(sn\_nowassist\_admin.user\) role. This provides the sam\_user role read-only access to the Now Assist Admin to view the generative AI skills.
+The sam\_user role also contains the Otto Admin User \(sn\_nowassist\_admin.user\) role. This provides the sam\_user role read-only access to the Otto Admin to view the generative AI skills.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-Domain separation is supported in Now Assist for Software Asset Management \(SAM\). For details, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
+Domain separation is supported in ServiceNow Otto for Software Asset Management \(SAM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
-## Now Assist for SAM skills
+## ServiceNow Otto for SAM skills
 
-The Now Assist for SAM application includes generative AI that provides your Software Asset Management managers with an AI-based summary of products and publishers within your organization's software estate.
+The ServiceNow Otto for SAM application includes generative AI that provides your Software Asset Management managers with an AI-based summary of products and publishers within your organization's software estate.
 
 Additionally, you also get AI-powered recommended actions that help you to mitigate license compliance risk.
 
@@ -88,8 +88,8 @@ Additionally, you also get AI-powered recommended actions that help you to mitig
     For extracting entitlements from contracts, you can opt in to participate in the Software Asset Management Content Service. The Software Asset Management Content Service is an IT Asset Management shared service that provides users with continual software recognition improvements. For additional details, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md).
 
 
--   **[Supporting information for Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.md)**  
-Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
+-   **[Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.md)**  
+Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+**Parent Topic:**[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

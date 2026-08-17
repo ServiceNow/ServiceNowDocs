@@ -1,5 +1,5 @@
 ---
-title: Configure Now Assist in Virtual Agent for ITSM
+title: Configure Otto for Virtual Agent in ITSM
 description: Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can provide an additional self-service tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/config-genai-va-itsm.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Configure Now Assist in Virtual Agent for ITSM
+# Configure Otto for Virtual Agent in ITSM
 
 Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can provide an additional self-service tool.
 
@@ -48,21 +48,21 @@ Although the following catalog item question types are supported in the conversa
 -   Attachment
 -   Multiple choice question with more than 10 choices
 
-## Now Assist features supported in Now Assist for ITSM Virtual Agent
+## AI features supported in ServiceNow Otto for ITSM Virtual Agent
 
 |Feature|Topic Reference|
 |-------|---------------|
 |Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/upload-documents-na-va.md).|
-|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using Now Assist for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)|
-|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph-landing.md)|
+|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using ServiceNow Otto for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)|
+|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of AI in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph-landing.md)|
 |Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ext-cont-connectors.md)|
-|Monitor your device's performance and diagnose potential issues.|[Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
+|Monitor your device's performance and diagnose potential issues.|[Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
 
 ## Procedure
 
-1.  Turn on the required Virtual Agent skills: **Now Assist Multi-Turn Catalog Ordering**, **Now-Assist Q&amp;A Genius Results**, or **Now Assist Topics**.
+1.  Turn on the required Virtual Agent skills: **ServiceNow Otto Multi-Turn Catalog Ordering**, **ServiceNow Otto Q&amp;A Genius Results**, or **ServiceNow Otto Topics**.
 
-2.  Set up Now Assist in Virtual Agent.
+2.  Set up Otto for Virtual Agent.
 
     For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
 

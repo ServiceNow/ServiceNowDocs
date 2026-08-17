@@ -1,6 +1,6 @@
 ---
 title: Explore ERP models agentic workflow
-description: Use the Explore ERP models AI agent team in Now Assist for Zero Copy Connector to obtain information about working with ERP database tables and models.
+description: Use the Explore ERP models AI agent team in ServiceNow Otto for Zero Copy Connector to obtain information about working with ERP database tables and models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/now-assist-erp-aiagents-data-explorer-workflow.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, zero copy connector, erp]
-breadcrumb: [Use agentic workflows in Now Assist for Zero Copy Connector, Now Assist for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for Zero Copy Connector, ServiceNow Otto for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
 # Explore ERP models agentic workflow
 
-Use the Explore ERP models AI agent team in Now Assist for Zero Copy Connector to obtain information about working with ERP database tables and models.
+Use the Explore ERP models AI agent team in ServiceNow Otto for Zero Copy Connector to obtain information about working with ERP database tables and models.
 
 ## Explore ERP models agentic workflow overview
 
@@ -23,7 +23,7 @@ This feature is available starting with the Zurich Patch 4 release.
 
 The Explore ERP models agentic workflow uses a team of AI agents to answer user questions about working with ERP database tables and identifying models configured in ERP data products.
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for Zero Copy Connector.
+The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in ServiceNow Otto for Zero Copy Connector.
 
 ## Prerequisites and setup
 
@@ -33,7 +33,7 @@ You must have the Knowledge Graph plugin installed. For more information, see [C
 
 Required role: sn\_erp\_integration.erp\_admin.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Check status of assistants
 
@@ -113,8 +113,5 @@ Now Assist provides the information you requested.
 
 Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat by selecting the New chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 

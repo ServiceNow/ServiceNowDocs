@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
 keywords: [offline signature, contract request, Contract Management Pro]
-breadcrumb: [Signature workflow for a request, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate an offline signature for a contract request

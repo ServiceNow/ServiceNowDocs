@@ -11,7 +11,7 @@ last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI, analytics, dashboard, metrics, tracking, virtual agent, ITSM, Service Operations Workspace, Assistant Designer]
 audience: [administrator, user]
-breadcrumb: [Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Tracking metrics using the ITSM Virtual Agent analytics dashboard

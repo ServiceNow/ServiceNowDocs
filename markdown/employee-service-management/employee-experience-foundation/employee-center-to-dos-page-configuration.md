@@ -42,7 +42,7 @@ Ask a question is a widget that establishes a communication link between a user 
 
 For HR cases, define configuration under **Conversational Interfaces**.
 
-**Note:** For more information about **Conversational Interfaces**, see [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/convint-landing-page.md) and [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ac-configure-agent-chat.md).
+**Note:** For more information about **Conversational Interfaces**, see Conversational Interfaces and Setting up Agent Chat.
 
 If your company is not using Connect Support, you can choose to hide the **Ask a question** link. To hide the Ask a question link, go to **sys\_properties.list** and find the **sn\_hr\_sp.hr\_ask\_a\_question\_enabled** property. Default value is **true**. To hide the Ask a Question on HR cases and tasks on the Employee Center, change the setting to **false**. For HR tasks, when Agent Workspace is selected in the **Task support team** drop-down, Virtual Agent is used. If Users and groups is selected, Connect Support is used. For more information, see [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
 

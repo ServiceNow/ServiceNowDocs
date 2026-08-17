@@ -1,19 +1,18 @@
 ---
-title: Now Assist for Operational Sustainability Management
-description: Use the Now Assist for Operational Sustainability Management application to empower your sustainability teams with generative AI-powered capabilities. Automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
+title: ServiceNow Otto for Operational Sustainability
+description: Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/now-assist-for-esg.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-04"
-reading_time_minutes: 4
-keywords: [AI Agents, Agentic AI]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Now Assist for Operational Sustainability Management
+# ServiceNow Otto for Operational Sustainability
 
-Use the Now Assist for Operational Sustainability Management application to empower your sustainability teams with generative AI-powered capabilities. Automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
+Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 
 ## Get started
 
@@ -31,15 +30,15 @@ Use the Now Assist for Operational Sustainability Management application to empo
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Operational Sustainability skills
+[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Operational Sustainability skills
 
 </td><td>
 
-[Configure Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Operational Sustainability application to get started
+[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Operational Sustainability application to get started
 
 </td><td>
 
-[Using Now Assist for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Operational Sustainability
+[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Operational Sustainability
 
 </td></tr><tr><td>
 
@@ -47,23 +46,14 @@ Use the Now Assist for Operational Sustainability Management application to empo
 
 </td><td>
 
-[Use agentic AI in Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)Use ESG Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for Operational Sustainability
+[Use agentic AI in ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)Use ESG Management AI agent collection\[Omitted image "bus-ai-otto.svg"\] Alt text:
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Important:**
-
--   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
--   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
-
-## Troubleshoot and get help
-
--   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence-articles/tkb-p/ai-platform-kb)
+</table>-   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence-articles/tkb-p/ai-platform-kb)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
@@ -81,14 +71,14 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)**  
-With the Now Assist for Operational Sustainability application, you can use the skills to automate the collection of ESG \(Environmental, Social, and Governance\) metric data from utility bill documents.
--   **[Configure Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)**  
-If you have the admin role, you can configure the Now Assist for Operational Sustainability application so that your users can use the generative AI skills in the Operational Sustainability Workspace.
--   **[Use agentic AI in Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)**  
+-   **[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)**  
+With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
+-   **[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Operational Sustainability application so that your users can use the generative AI skills in the Operational Sustainability Workspace.
+-   **[Use agentic AI in ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)**  
 Use AI agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
--   **[Using Now Assist for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)**  
-If you have the sn\_esg\_gen\_ai.docintel\_user role, you can leverage the Now Assist for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
+-   **[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)**  
+If you have the sn\_esg\_gen\_ai.docintel\_user role, you can leverage the ServiceNow Otto for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
 
 **Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-esg.md)
 

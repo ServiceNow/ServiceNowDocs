@@ -7,6 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-04-13"
 reading_time_minutes: 6
+keywords: [defined desktop action, deterministic desktop action]
 breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -18,8 +19,8 @@ AI Desktop Actions is a client application that is installed on the Windows oper
 
 Defined desktop actions are categorized into two categories.
 
--   **On-screen task**: These desktop actions help you simulate humans interacting with UI elements on your thick client applications, legacy systems, or SaaS applications without APIs. These actions include clicking buttons, typing into text boxes, selecting from dropdown menus, and more.
--   **Background task**: These desktop actions include prebuilt connectors that enable your AI agents to interact with various applications and system components in the background.
+-   **On-screen tasks**: These desktop actions help you simulate humans interacting with UI elements on your thick client applications, legacy systems, or SaaS applications without APIs. These actions include clicking buttons, typing into text boxes, selecting from dropdown menus, and more.
+-   **Background tasks**: These desktop actions include prebuilt connectors that enable your AI agents to interact with various applications and system components in the background.
 
 ## Key interfaces related to AI Desktop Actions
 
@@ -31,11 +32,11 @@ Defined desktop actions are categorized into two categories.
 
     Automatically runs desktop actions in an isolated desktop session during testing or execution. You don't open this workspace directly.
 
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-studio.md)**
+-   **[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-studio.md)**
 
     Create, manage, and test AI agents that run desktop actions.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md)**
 
     Trigger desktop actions from within ServiceNow.
 
@@ -94,7 +95,7 @@ This workflow shows how AI Desktop Actions works end to end from designing deskt
 **Important:** Access to the Design workspace and Execution workspace depends on the user’s role.
 
 -   When users with the AI Agent Admin \(sn\_aia.admin\) role sign in from their desktop, they can access the Home page and Design workspace to create desktop actions. When they test a desktop action, the Execution workspace launches automatically.
--   When users with the Now Assist panel user \(now\_assist\_panel\_user\) role trigger an automation from the Now Assist panel, the Execution workspace launches automatically to run the desktop action.
+-   When users with the ServiceNow Otto panel user \(now\_assist\_panel\_user\) role trigger an automation from the ServiceNow Otto panel, the Execution workspace launches automatically to run the desktop action.
 
 You don’t open the Execution workspace directly. It launches automatically when you test or run a desktop action.
 
@@ -104,13 +105,13 @@ You don’t open the Execution workspace directly. It launches automatically whe
 -   Create AI agents by providing simple text instructions in AI Agent Studio.
 -   Add your designed desktop actions as tools to your AI agents.
 -   Verify your AI agents function correctly with their integrated tools.
--   With the Now Assist panel user role, provide instructions for the task you want to complete on your desktop in the Now Assist panel.
-    -   An AI agent is triggered from the Now Assist panel to execute the desktop actions.
+-   With the ServiceNow Otto panel user role, provide instructions for the task you want to complete on your desktop in the ServiceNow Otto panel.
+    -   An AI agent is triggered from the ServiceNow Otto panel to execute the desktop actions.
     -   The AI agent selects the appropriate desktop action to complete the task.
     -   The system automatically launches the Execution workspace in an isolated desktop session to run the desktop actions. You do not open or manage the Execution workspace directly.
 -   Observe and manage automations as they run in real time in the Execution workspace, which provides a dedicated execution environment.
 -   Step in and out of the automation where your inputs are required.
--   Check the outcome of the execution in the Now Assist panel.
+-   Check the outcome of the execution in the ServiceNow Otto panel.
 
 For more information, see [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/desktop-actions-designer-workspace-ad.md) and [Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-ai-agents-ad.md).
 

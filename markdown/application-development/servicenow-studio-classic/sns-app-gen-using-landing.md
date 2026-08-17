@@ -23,7 +23,7 @@ This video shows you how to perform the following procedure.
 
 ## Before you begin
 
-To use app generation, you must activate the skill in Now Assist for Creator. For more information, see [Install Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-install.md).
+To use app generation, you must activate the skill in ServiceNow Otto for Creator. For more information, see [Install Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-install.md).
 
 Role required: now\_assist\_panel\_user
 

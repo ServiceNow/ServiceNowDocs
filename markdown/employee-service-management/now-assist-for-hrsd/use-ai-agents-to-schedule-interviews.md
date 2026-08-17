@@ -1,21 +1,21 @@
 ---
 title: Schedule interviews agentic workflow
-description: Use the schedule interviews agentic workflow to collect necessary inputs from recruiters or recruitment coordinators and schedule interviews seamlessly from the Now Assist panel.
+description: Use the schedule interviews agentic workflow to collect necessary inputs from recruiters or recruitment coordinators and schedule interviews seamlessly from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-ai-agents-to-schedule-interviews.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-04-01"
 reading_time_minutes: 1
 keywords: [AI agents, Agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Schedule interviews agentic workflow
 
-Use the schedule interviews agentic workflow to collect necessary inputs from recruiters or recruitment coordinators and schedule interviews seamlessly from the Now Assist panel.
+Use the schedule interviews agentic workflow to collect necessary inputs from recruiters or recruitment coordinators and schedule interviews seamlessly from the ServiceNow Otto panel.
 
 ## Schedule interviews agentic workflow overview
 
@@ -23,7 +23,7 @@ Use the schedule interviews agentic workflow to automate the interview schedulin
 
 To be able to use the agentic workflow, you must do the following:
 
--   In the HR Talent AI Agent Collection plugin, update the status of the ExchangeCalendarUtil restricted caller access \(RCA\) record from Requested to Allowed. This update grants access to the Outlook API calls.
+-   In the AI Agents for Talent plugin, update the status of the ExchangeCalendarUtil restricted caller access \(RCA\) record from Requested to Allowed. This update grants access to the Outlook API calls.
 
     **Note:** This update is only applicable if the Microsoft Outlook integration is available in your instance.
 
@@ -34,7 +34,7 @@ To access the agentic workflow to review or customize it as an admin:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Agentic workflows** &gt; **Schedule interviews**.
 
-To access the agentic workflow as a recruiter or recruitment coordinator, initiate it from the Now Assist panel.
+To access the agentic workflow as a recruiter or recruitment coordinator, initiate it from the ServiceNow Otto panel.
 
 ## Schedule interviews AI agents
 

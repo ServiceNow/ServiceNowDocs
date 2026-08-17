@@ -1,5 +1,5 @@
 ---
-title: Using AI Control Tower
+title: Using AI Control Tower \(legacy\)
 description: Use AI Control Tower for creating governance workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.html
@@ -10,17 +10,17 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Using AI Control Tower
+# Using AI Control Tower \(legacy\)
 
 Use AI Control Tower for creating governance workflows.
 
 -   **[Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md)**  
 Create a AI Control Tower Playbook workflow for Now Assist approvals to approve or reject an asset.
--   **[Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md)**  
-Create an Now Assist approval task to evaluate the assets. The Now Assist approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
+-   **[Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md)**  
+Create an Now Assist approval task to evaluate the assets.
 -   **[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-assets.md)**  
 You can create AI assets to track and manage the life cycles of your AI systems, AI models, prompts, and datasets.
 -   **[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)**  
@@ -42,5 +42,5 @@ Learn how to use the **Access map** in AI Control Tower.
 -   **[Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-automation-rules.md)**  
 Create an Automation rule to set AI assets as managed.
 
-**Parent Topic:**[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
+**Parent Topic:**[AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 

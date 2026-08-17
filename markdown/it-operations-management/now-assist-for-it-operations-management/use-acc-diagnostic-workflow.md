@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-07"
 reading_time_minutes: 1
-breadcrumb: [Use agentic AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Agent Client Collector \(ACC\) diagnostic workflow
@@ -18,8 +18,8 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 
 ## Before you begin
 
--   Ensure that the Now Assist panel is enabled on your instance. For details, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   Ensure that Now Assist for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   Ensure that the Now Assist panel is enabled on your instance. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   Ensure that ServiceNow Otto for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 -   Enable the Agent Client Collector diagnostic workflow in AI Agent Studio.
     1.  Select **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
     2.  On the **Agentic workflows** tab, select **Agent Client Collector \(ACC\) Diagnostic**.
@@ -53,5 +53,5 @@ Invoke the Agent Client Collector \(ACC\) diagnostic workflow to:
 
 An error report is generated, based on the activity logged by the Agent Client Collector Framework.
 
-**Parent Topic:**[Use agentic AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 

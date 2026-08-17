@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-goalframeworkforspm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -104,7 +104,7 @@ Zurich
 
 </td><td>
 
--   **[Goal system properties](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Goal system properties](https://www.servicenow.com/docs/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
 
 Users with the sn\_gf\_goal\_admin role assigned can update goal-specific system properties:
 
@@ -197,7 +197,7 @@ Zurich
 
 </td><td>
 
-Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -344,7 +344,7 @@ Zurich
 
 Use the sn\_gf\_goal\_admin role to update the goal-specific system properties.
 
- See [Goal Framework for SPM](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
+ See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-vendormanagementworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Updated Vendor KPIs](https://servicenow-staging.fluidtopics.net/access?context=vendor-manager-workspace-default-wep&family=xanadu&ft:locale=en-US)**
+-   **[Updated Vendor KPIs](https://www.servicenow.com/docs/access?context=vendor-manager-workspace-default-wep&family=xanadu&ft:locale=en-US)**
 
 Use the new vendor KPIs that replace the legacy KPIs in the deprecated Service Offering Metric Data \[service\_offering\_metric\_data\] table.
 
@@ -115,7 +115,7 @@ Xanadu
 
 </td><td>
 
--   **[Reflow for configurable workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
+-   **[Reflow for configurable workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
 
 Vendor Management Workspace configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. For information about how to upgrade, see the [Accessibility information section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) that follows.
 
@@ -235,7 +235,7 @@ Xanadu
 
 </td><td>
 
-Install Vendor Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US). For more information, see [Activate Vendor Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=activate-vendor-management-configurable-workspace&family=xanadu&ft:locale=en-US).
+Install Vendor Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US). For more information, see [Activate Vendor Management Workspace](https://www.servicenow.com/docs/access?context=activate-vendor-management-configurable-workspace&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
 
 
 </td></tr><tr><td>
@@ -432,7 +432,7 @@ Xanadu
 -   Use new vendor key performance indicators \(KPIs\) to monitor vendor performance.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
- See [Vendor Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=vendor-management-workspace-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Vendor Management Workspace](https://www.servicenow.com/docs/access?context=vendor-management-workspace-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

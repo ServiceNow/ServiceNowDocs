@@ -1,22 +1,24 @@
 ---
-title: Install the Chief Digital Officer \(CDO\) Dashboard
-description: The Chief Digital Officer \(CDO\) Dashboard provides a comprehensive, real-time view of digital experience, platform usage, operational performance, and transformation outcomes across the enterprise.
+title: Install the CDO Dashboard
+description: The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cdo.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Digital Officer \(CDO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Install the Chief Digital Officer \(CDO\) Dashboard
+# Install the CDO Dashboard
 
-The Chief Digital Officer \(CDO\) Dashboard provides a comprehensive, real-time view of digital experience, platform usage, operational performance, and transformation outcomes across the enterprise.
+The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
 
 ## Before you begin
 
-Role required: sn\_cdo\_dashboard.cdo\_dashboard\_admin, sn\_cdo\_dashboard.cdo\_dashboard\_user
+Role required: admin, platform\_analytics\_admin, cdo\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CDO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: IT Service Management. This professional entitlement includes a license for Platform Analytics.
 
@@ -44,14 +46,14 @@ In addition, the com.snc.pa.premium.all\_content application plugin is required 
 
     -   **CDO Dashboard admin**
 
-        Assign the role sn\_cdo\_dashboard.cdo\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
+        Assign the role sn\_cdodashboard.cdo\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CDO dashboard.
+        **Note:** Only users with this role can configure the CDO dashboard.
 
     -   **CDO Dashboard end users**
 
-        Assign the user role sn\_cdo\_dashboard.cdo\_dashboard\_user to users or groups who must view the dashboard.
+        Assign the user role sn\_cdodashboard.cdo\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

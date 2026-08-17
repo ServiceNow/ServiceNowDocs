@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-healthcareoperationscore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,16 +83,16 @@ Yokohama
 
 </td><td>
 
--   **[Care Team Portal](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-care-team-portal&family=yokohama&ft:locale=en-US)**
+-   **[Care Team Portal](https://www.servicenow.com/docs/access?context=hcls-cto-care-team-portal&family=yokohama&ft:locale=en-US)**
 
 Create requests for supporting service departments and maintain visibility into all requests created by you or your team. This experience can be used on a standalone portal or embedded in EMR systems.
 
--   **[Healthcare Operations Case overview](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-hco-case&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare Operations Case overview](https://www.servicenow.com/docs/access?context=hcls-cto-hco-case&family=yokohama&ft:locale=en-US)**
 
 Create and customize cases for supporting service departments that can be used within the Care Team Portal.
 
 
--   **[Healthcare organization admin experience](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-create-healthcare-organization&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare organization admin experience](https://www.servicenow.com/docs/access?context=hcls-cto-create-healthcare-organization&family=yokohama&ft:locale=en-US)**
 
 Create healthcare organizations and hierarchies, add or edit members, and automatically create associated Service Model Foundation records \(internal business locations\).
 
@@ -140,7 +140,7 @@ Zurich
 
 </td><td>
 
--   **[Embed Care Team Portal in Epic](https://servicenow-staging.fluidtopics.net/access?context=configure-care-team-portal&family=zurich&ft:locale=en-US)**
+-   **[Embed Care Team Portal in Epic](https://www.servicenow.com/docs/access?context=configure-care-team-portal&family=zurich&ft:locale=en-US)**
 
 The process for embedding Care Team Portal into your EMR system has been streamlined to enable more efficient launch context configuration.
 
@@ -148,7 +148,7 @@ The portal now supports capturing launch context tokens across multiple launches
 
 The FHIR endpoint is now retrieved dynamically, eliminating the need to embed it directly in the Single Sign-on Script.
 
--   **[Setting up roles and responsibilities](https://servicenow-staging.fluidtopics.net/access?context=cto-setting-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
+-   **[Setting up roles and responsibilities](https://www.servicenow.com/docs/access?context=cto-setting-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
 
 Roles and responsibilities have been updated to enable more selective user access.
 
@@ -264,7 +264,7 @@ Yokohama
 
 </td><td>
 
-Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Zurich
 
 </td><td>
 
-Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -453,7 +453,7 @@ Yokohama
 -   Expand operational cases to supporting services departments by leveraging the Healthcare Operations case type.
 -   Utilize the streamlined admin experience for creating healthcare organizations and hierarchies.
 
- See [Healthcare Operations Core](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-app&family=yokohama&ft:locale=en-US) for more information.
+ See [Healthcare Operations Core](https://www.servicenow.com/docs/access?context=hcls-cto-app&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -464,7 +464,7 @@ Zurich
 -   Leverage the streamlined launch context when embedding Care Team Portal into electronic medical record \(EMR\) systems.
 -   Assign roles and responsibilities more efficiently with an updated user configuration process.
 
- See [Healthcare Operations Core](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-app&family=zurich&ft:locale=en-US) for more information.
+ See [Healthcare Operations Core](https://www.servicenow.com/docs/access?context=hcls-cto-app&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

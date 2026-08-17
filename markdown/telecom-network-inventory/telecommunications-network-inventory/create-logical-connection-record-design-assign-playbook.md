@@ -132,8 +132,6 @@ List of all templates based on the selected logical connection model.
 
     2.  On the Assign connection element form, fill in the fields.
 
-        To learn more about fields, see [Assign connection element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign-connection-element.md).
-
     3.  Select **Mark complete**
 
 5.  Assign a protection element.

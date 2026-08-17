@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-01-20"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # View recommended actions in AI Data Explorer
@@ -24,7 +24,7 @@ Role required: now\_assist\_explorer\_user
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open an exploration that already has generated insights.
 
@@ -56,5 +56,5 @@ Role required: now\_assist\_explorer\_user
 10. When you have addressed the recommendations, you can press the **Regenerate** button after the recommendations to generate new recommendations.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-aide.md)
 

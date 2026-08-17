@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 keywords: [CWM, collaborative work management, docs, comments, manage, edit, delete, reply]
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -82,6 +82,7 @@ You can manage existing comments in Docs by editing your own comments, replying 
     -   You can only delete comments that you created.
     -   Deleting a parent comment removes it and all its replies from the comment thread. You can undo a parent comment deletion to restore the comment thread.
     -   If the text that had the comment is deleted, the comments are deleted. If text that has comments is replaced by AI-generated text, the comments are deleted.
+    -   Copying content with comments to a new location does not duplicate the comments.
 
 **Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-docs.md)
 

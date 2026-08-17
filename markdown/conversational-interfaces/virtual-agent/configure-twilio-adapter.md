@@ -33,7 +33,7 @@ Before you can set up the Conversational SMS Integration with Twilio, complete t
     -   Twilio spoke
     -   Conversational SMS Service Channel
     -   Conversational SMS Integration with Twilio
-3.  Set up Twilio spoke
+3.  [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-twilio.md)
 4.  Ensure that the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) is active on your instance.
 
 Role required: external\_app\_install\_admin or va\_admin
@@ -124,7 +124,7 @@ Message auth that you created.
 
 ## What to do next
 
-After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information on using the tool, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+After you set up Conversational SMS Integration with Twilio, you can create SMS conversation topics in the Assistant Designer Asset library. For more information, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 **Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 

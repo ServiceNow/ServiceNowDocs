@@ -1,6 +1,6 @@
 ---
 title: Submit a time sheet from your mobile device
-description: Once you have updated the time sheet with the time you worked, you can submit the time sheet for the week to submit all the time cards for the week together from your mobile application.
+description: Once you have updated the time sheet with the time you worked, you can submit it for the week. This submits all the time cards for the week together from your mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/submit-timesheet-mobile.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Mobile Time Sheets, Time Card management, Project Portfolio Managem
 
 # Submit a time sheet from your mobile device
 
-Once you have updated the time sheet with the time you worked, you can submit the time sheet for the week to submit all the time cards for the week together from your mobile application.
+Once you have updated the time sheet with the time you worked, you can submit it for the week. This submits all the time cards for the week together from your mobile application.
 
 ## Before you begin
 

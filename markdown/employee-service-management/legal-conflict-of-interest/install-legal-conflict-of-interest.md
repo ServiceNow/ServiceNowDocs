@@ -7,7 +7,7 @@ release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -65,7 +65,7 @@ For more information, see [Components installed with Legal Conflict of Interest]
 
 ## What to do next
 
-To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md) that is a paid application.
+To submit conflict of interest request using conversational intake from ServiceNow Otto in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 

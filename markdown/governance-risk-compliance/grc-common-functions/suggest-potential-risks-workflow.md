@@ -18,11 +18,11 @@ The Suggest potential risks workflow uses AI to identify and consolidate risks f
 
 ## Suggest potential risks workflow overview
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The Suggest potential risks workflow uses AI to identify and consolidate risks from multiple sources, streamlining discovery and providing a comprehensive, ready-to-triage risk list. It automates manual risk discovery processes, staying up to date with new regulations and trends, and eliminating duplication and inconsistencies. The Risk Suggestion AI Agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list. Risk managers can review the suggested risks, confirm their validity, and promote them to the risk register for further assessment and prioritization.
 
-To use this feature, Now Assist for IRM and any Workspace must be installed. Users with sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role can use the conversational assistant embedded in Now Assist panel to discover risks.
+To use this feature, ServiceNow Otto for IRM and any Workspace must be installed. Users with sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role can use the conversational assistant embedded in Now Assist panel to discover risks.
 
 The Suggest potential risks workflow supports the identification, evaluation, and prioritization of risks related to a specific entity. It combines information provided by the user, internal entity data, internal risk statement list, and relevant external sources to identify relevant risks for the entity.
 
@@ -48,7 +48,7 @@ The benefits are as follows:
 **Related topics**  
 
 
-[Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
+[Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 
-[Identify risks for an entity using Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/identify-risks-for-entity.md)
+[Identify risks for an entity using ServiceNow Otto for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/identify-risks-for-entity.md)
 

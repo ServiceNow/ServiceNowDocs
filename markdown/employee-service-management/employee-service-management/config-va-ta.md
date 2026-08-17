@@ -23,7 +23,7 @@ You must activate the following plugins for the Virtual Agent notification funct
 
 **Note:** The Glide Virtual Agent Lite plugin \(com.glide.cs.chatbot.lite\), if enabled, only provides read-only notification. It doesn't support actionable notification.
 
-For more information on activating the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/activate-virtual-agent.md).
+For more information on activating the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), see .
 
 ## About this task
 
@@ -35,11 +35,11 @@ After you have set up the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), i
 
 1.  Integrate ServiceNow Virtual Agent with Microsoft Teams.
 
-    For more information, see [Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-integ-msteams.md).
+    For more information, see .
 
 2.  Set up the conversational integration of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) with Microsoft Teams.
 
-    For more information on setting up the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) with Microsoft Teams, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/teams-conv-integration.md).
+    For more information on setting up the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) with Microsoft Teams, see .
 
 
 **Parent Topic:**[Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)

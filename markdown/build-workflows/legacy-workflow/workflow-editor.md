@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-07-08"
 reading_time_minutes: 4
 breadcrumb: [Classic Workflow, Build workflows]
 ---
@@ -21,6 +21,8 @@ The Workflow Editor is an interface for creating and modifying workflows by arra
 You can manage multiple workflows in the same screen, create custom workflow activities, and use existing activities as data sources. Users with the workflow\_creator role can create workflows. Users with the workflow\_admin role can create, modify, delete, and publish workflows.
 
 To open the Workflow Editor, navigate to **Workflow** &gt; **Workflow Editor**. For information about using the editor, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/t_CreateAWorkflow.md).
+
+**Warning:** The Next Experience UI does not fully support the classic Workflow Editor. For the best UI experience, use the Core UI instead.
 
 ## Welcome screen
 
@@ -53,7 +55,7 @@ The editor opens with the **Welcome** page, which displays a list of active, pub
     **Data**: Activities in the current workflow that output data. You can use these activities as data sources for other activities. Only visible if the orchestration plugin is installed.
 
 
-**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Zurich. You can update the workflow welcome page to the latest version by editing the [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_UIPages.md) .
+**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Zurich. You can update the workflow welcome page to the latest version by editing the UI pages .
 
 Navigate to **System UI** &gt; **UI Pages** &gt; **Workflow Editor welcome**. In the UI page record for workflow\_editor\_welcome, scroll to the **Versions** related list. Select the row for the version corresponding to the upgrade to Zurich, right-click and select **Revert to this version**.
 

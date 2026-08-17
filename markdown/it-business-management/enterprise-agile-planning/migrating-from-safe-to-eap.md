@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -28,9 +28,9 @@ The following tasks are included in the guided setup.
 
 1.  [Verify EAP configuration for migration from SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/verify-eap-configuration-for-migration-from-safe.md).
 
-    Based on your existing SAFe configuration, verify that the right EAP configuration is activated in your instance and ensure that the right work types \(Epic, Feature, and Story\) are allowed for this configuration.
+    Based on your existing SAFe configuration, verify that the right EAP configuration is activated in your instance. Also ensure that the right work types \(Epic, Feature, and Story\) are allowed for this configuration.
 
-    For example, if you are a user of ServiceNow Essential SAFe application, you must activate the Essential Configuration in EAP and ensure that EAP Epic and Feature are allowed as work types.
+    For example, if you are a user of ServiceNow Essential SAFe application, you must activate the Essential Configuration in EAP. Also ensure that EAP Epic and Feature are allowed as work types.
 
 2.  [Verify table, field, and choice mapping between SAFe and EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/verify-table-field-and-choice-mapping-between-safe-and-eap.md).
 

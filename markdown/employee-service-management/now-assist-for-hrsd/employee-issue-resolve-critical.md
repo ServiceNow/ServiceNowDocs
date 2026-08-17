@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-11-03"
-reading_time_minutes: 4
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Resolve critical HR case agentic workflow
@@ -18,11 +18,9 @@ Resolve critical HR requests efficiently with the Resolve critical HR case agent
 
 ## Resolve critical HR case agentic workflow overview
 
-The agents, tools, and triggers that are associated with the Resolve critical HR case agentic workflow are provided by Now Assist applications. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with this agentic workflow are provided by the ServiceNow Otto application. To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
 
 ## Prerequisites and setup
-
-You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
 Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-gaf.md).
 
@@ -70,7 +68,7 @@ Next action recommended AI agent
 Identifies the optimal steps for resolving tasks by referencing similar case details, reviewing relevant knowledge articles and web search results. It summarizes and presents to the user a step-by-step summarized resolution plan and derived action plan. Implements the feedback flow only when asked for it.**Note:** This AI agent is invoked when fulfillment instructions aren't present for a case.
 
 </td></tr></tbody>
-</table>In the Resolve HR cases agentic workflow, review the information in the Describe and connect section, make the necessary updates to confirm the agentic workflow adapts to your requirements, and then select **Save and Continue**.
+</table>To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
 
 ## Trigger
 

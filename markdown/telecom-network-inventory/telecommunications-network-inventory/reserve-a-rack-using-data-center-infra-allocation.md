@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -66,11 +66,9 @@ Data center infrastructure allocation reserves rack unit space in a data center 
     -   **Affected CIs tab** shows the allocated slot and rack. Base rack-unit slots are marked as Reserved. Device-specific allocations are linked to the device record.
 12. Select the rack in the Affected CIs tab to open the rack record.
 
-    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view. \[Omitted image "image.rack-allocation"\] Alt text: Reserved slots in the rack view showing the change request number
+    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view.
 
 13. If the change request already has Affected CIs, review the dialog and select an option.
-
-    \[Omitted image "image.re-run-allocation"\] Alt text: Dialog asking whether to continue or finish when Affected CIs already exist
 
     **Note:** Selecting **Continue** treats the slots marked as reserved from the previous run as occupied. This reduces available contiguous space and may affect which racks are eligible for the new run. Selecting **Finish** exits without making changes. You can update your requirements and re-run to find a new allocation.
 

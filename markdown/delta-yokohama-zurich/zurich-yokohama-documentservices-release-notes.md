@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-documentservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Zurich
 
 </td><td>
 
--   **[Document comparison](https://servicenow-staging.fluidtopics.net/access?context=compare-document-version&family=zurich&ft:locale=en-US)**
+-   **[Document comparison](https://www.servicenow.com/docs/access?context=compare-document-version&family=zurich&ft:locale=en-US)**
 
 Compare two versions of the document side by side.
 
--   **[Guardrails for PDF generation and accessibility](https://servicenow-staging.fluidtopics.net/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Use static and dynamic guardrails to help maintain stability during PDF generation and accessibility.
 
--   **[Smart Documents](https://servicenow-staging.fluidtopics.net/access?context=configure-skill-smart-documents&family=zurich&ft:locale=en-US)**
+-   **[Smart Documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=zurich&ft:locale=en-US)**
 
 Accelerate insights with quick summaries, dynamic Q&amp;A, and FAQs that reduce time spent searching for information
 
@@ -107,19 +107,19 @@ Yokohama
 
 </td><td>
 
--   **[PDF generation and accessibility](https://servicenow-staging.fluidtopics.net/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+-   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
 
 Export a collection of records or a single record into a PDF format. New system property was added for better accessibility.
 
--   **[Workflow migration for Managed Documents](https://servicenow-staging.fluidtopics.net/access?context=c_ManagedDocuments&family=yokohama&ft:locale=en-US)**
+-   **[Workflow migration for Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&family=yokohama&ft:locale=en-US)**
 
 Improved usability, low code accessibility, and feature parity due to the newly configured workflows.​
 
--   **[Subflows for Shared drives for Google Drive](https://servicenow-staging.fluidtopics.net/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
+-   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
 
 Added Spoke subflows for Shared drives in Google Drive.
 
--   **[Summarize button](https://servicenow-staging.fluidtopics.net/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
+-   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
 
 The **Summarize** button was changed to the **Ask Now Assist** button.
 
@@ -130,47 +130,47 @@ Zurich
 
 </td><td>
 
--   **[Connect documents on external cloud](https://servicenow-staging.fluidtopics.net/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+-   **[Connect documents on external cloud](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
 
 Upload your files directly to an external cloud \(including multiple versions of the document\).
 
--   **[Permissions for external cloud files](https://servicenow-staging.fluidtopics.net/access?context=document-configuration&family=zurich&ft:locale=en-US)**
+-   **[Permissions for external cloud files](https://www.servicenow.com/docs/access?context=document-configuration&family=zurich&ft:locale=en-US)**
 
 Set the sharing permissions on your external cloud files.
 
--   **[Authenticate personal accounts on external cloud](https://servicenow-staging.fluidtopics.net/access?context=personal-authentication-documents&family=zurich&ft:locale=en-US)**
+-   **[Authenticate personal accounts on external cloud](https://www.servicenow.com/docs/access?context=personal-authentication-documents&family=zurich&ft:locale=en-US)**
 
 Implement personal token-based authentication for an external cloud so that you can verify user-specific access, audit trails, and compatibility with existing and future integrations.
 
--   **[Connect file extensions](https://servicenow-staging.fluidtopics.net/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+-   **[Connect file extensions](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
 
 Link any Google Drive file to a document record by selecting a provider and entering the file URL All file extension are now supported.
 
--   **[HTML to PDF Conversion](https://servicenow-staging.fluidtopics.net/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **[HTML to PDF Conversion](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Specify an image retrieval timeout for HTML to PDF conversion.
 
--   **[Document classification](https://servicenow-staging.fluidtopics.net/access?context=share-document-link&family=zurich&ft:locale=en-US)**
+-   **[Document classification](https://www.servicenow.com/docs/access?context=share-document-link&family=zurich&ft:locale=en-US)**
 
 Limit public sharing based on a document's classification.
 
--   **[PDF generation](https://servicenow-staging.fluidtopics.net/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **[PDF generation](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Generate a PDF with accessibility for regulated markets.
 
--   **[Property value for digital signature](https://servicenow-staging.fluidtopics.net/access?context=property-value-cac-piv-signing&family=zurich&ft:locale=en-US)**
+-   **[Property value for digital signature](https://www.servicenow.com/docs/access?context=property-value-cac-piv-signing&family=zurich&ft:locale=en-US)**
 
 Specify the method used to identify and validate the user who has signed the PDF using the property value.
 
--   **[Document summarization](https://servicenow-staging.fluidtopics.net/access?context=generate-document-summary-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Document summarization](https://www.servicenow.com/docs/access?context=generate-document-summary-now-assist&family=zurich&ft:locale=en-US)**
 
 Use AI to generate summaries for feedback, disclaimers, and usage tracking in PDFs and Microsoft Word files.
 
--   **[Document Service Framework](https://servicenow-staging.fluidtopics.net/access?context=onedrive-spoke-document-services-framework&family=zurich&ft:locale=en-US)**
+-   **[Document Service Framework](https://www.servicenow.com/docs/access?context=onedrive-spoke-document-services-framework&family=zurich&ft:locale=en-US)**
 
 Retrieve the list of files and folders based on the given search query from Microsoft OneDrive.
 
--   **[Document service Framework](https://servicenow-staging.fluidtopics.net/access?context=google-drive-spoke-document-services&family=zurich&ft:locale=en-US)**
+-   **[Document service Framework](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=zurich&ft:locale=en-US)**
 
 Retrieve the list of files and folders based on the given search query from Google Drive.
 
@@ -254,9 +254,9 @@ Yokohama
 
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
- Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://servicenow-staging.fluidtopics.net/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
+ Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
 
- [Multi Provider Document Services Framework](https://servicenow-staging.fluidtopics.net/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -266,9 +266,9 @@ Zurich
 
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
- Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://servicenow-staging.fluidtopics.net/access?context=activate-doc-mgmt-plugin&family=zurich&ft:locale=en-US).
+ Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=zurich&ft:locale=en-US).
 
- Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://servicenow-staging.fluidtopics.net/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). 
+ Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -347,7 +347,7 @@ Yokohama
 
 </td><td>
 
-Added accessibility support for PDF document generation. PDF accessibility tags are now available to help users who rely on screen readers to navigate, understand, and interact with these generated PDF documents. For more information, see [PDF generation and accessibility](https://servicenow-staging.fluidtopics.net/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US).
+Added accessibility support for PDF document generation. PDF accessibility tags are now available to help users who rely on screen readers to navigate, understand, and interact with these generated PDF documents. For more information, see [PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -356,11 +356,11 @@ Zurich
 </td><td>
 
 -   ****
--   **[Guardrails for PDF generation and accessibility](https://servicenow-staging.fluidtopics.net/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Added static and dynamic guardrails for accessibility support for PDF document generation
 
--   **[PDF generation and accessibility](https://servicenow-staging.fluidtopics.net/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Added support for PDF document generation with accessibility for regulated markets.
 
@@ -416,7 +416,7 @@ Yokohama
 -   Improved PDF generation that includes accessibility support.
 -   Accelerate documents insights with instant summaries for highlights and quick insights, interactive Q&amp;A, and FAQs.
 
- See [Document Services](https://servicenow-staging.fluidtopics.net/access?context=document-services-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -430,7 +430,7 @@ Zurich
 -   Control public sharing by using document classification to ensure document security.
 -   Accelerate documents insights with instant summaries for highlights and quick insights, interactive Q&amp;A, and FAQs.
 
- See [Document Services](https://servicenow-staging.fluidtopics.net/access?context=document-services-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

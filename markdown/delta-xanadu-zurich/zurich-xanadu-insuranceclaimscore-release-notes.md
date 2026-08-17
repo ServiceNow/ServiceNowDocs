@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-insuranceclaimscore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -120,7 +120,7 @@ Yokohama
 
 </td><td>
 
--   **[Added fields to Claim Incident table](https://servicenow-staging.fluidtopics.net/access?context=insurance-claims-core-tables&family=yokohama&ft:locale=en-US)**
+-   **[Added fields to Claim Incident table](https://www.servicenow.com/docs/access?context=insurance-claims-core-tables&family=yokohama&ft:locale=en-US)**
 
 Added the following fields to the Claim Incident \[sn\_ins\_claim\_property\] table:
 
@@ -236,7 +236,7 @@ Yokohama
 
 </td><td>
 
-Insurance Claims Core is a ServiceNow AI Platform feature that is available with activation of Financial Services Operations Core. For details, see [Financial Services Operations Core release notes](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-core-rn&family=yokohama&ft:locale=en-US).
+Insurance Claims Core is a ServiceNow AI Platform feature that is available with activation of Financial Services Operations Core. For details, see [Financial Services Operations Core release notes](https://www.servicenow.com/docs/access?context=financial-services-operations-core-rn&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Yokohama
 
 The Claim Incident \[sn\_ins\_claim\_property\] table has been updated in this release with additional fields. These fields were previously available only to specific applications. They're available in the Claim Incident table and can be used across all other claim applications in this release.
 
- See [Insurance Claims Core](https://servicenow-staging.fluidtopics.net/access?context=insurance-claims-core-data-model&family=yokohama&ft:locale=en-US) for more information.
+ See [Insurance Claims Core](https://www.servicenow.com/docs/access?context=insurance-claims-core-data-model&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

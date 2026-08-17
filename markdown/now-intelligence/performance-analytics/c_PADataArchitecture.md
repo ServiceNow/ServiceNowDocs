@@ -40,8 +40,6 @@ Integrate Performance Analytics with an external system to collect scores based 
 Performance Analytics provides several script objects for use in scripts and APIs for querying Performance Analytics data. The scripts serve as breakdown mappings or to calculate a value from an indicator.
 -   **[Using Performance Analytics with external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-external-data.md)**  
 Performance Analytics on external data sources enables you to perform detailed analysis on data that is not in your ServiceNow instance.
--   **[Cleaning collected Performance Analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_CollectionCleanup.md)**  
-Performance Analytics scores and snapshots may grow over time and should be routinely cleaned to ensure optimal performance and accurate data.
 -   **[Migrating indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-scores-migration.md)**  
 The Performance Analytics Scores \[pa\_scores\] table was split into two tables. This structure helps with processing large numbers of scores. You can migrate your scores from the old table structure to the new, using the score migration tool.
 

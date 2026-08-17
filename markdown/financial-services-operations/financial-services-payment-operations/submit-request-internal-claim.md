@@ -34,15 +34,15 @@ Internal claims can also be created by inquiry agents if the investigation of an
 
 3.  Create a claim from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d67729e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d67303e116">
 
 Option
 
-</th><th align="left" id="d67729e119">
+</th><th align="left" id="d67303e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67729e125">
+</th></tr></thead><tbody><tr><td id="d67303e125">
 
 **Create a claim from a consumer record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Click the customer that you want to create a claim for.
 
 
-</td></tr><tr><td id="d67729e152">
+</td></tr><tr><td id="d67303e152">
 
 **Create a claim from a business account record**
 
@@ -62,7 +62,7 @@ Steps
 2.  Click the account that you want to create a claim for.
 
 
-</td></tr><tr><td id="d67729e179">
+</td></tr><tr><td id="d67303e179">
 
 **Create a claim from an interaction record**
 
@@ -70,7 +70,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record that you want to create a claim from.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-interactions.md).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  Click **Create Payment Request**.

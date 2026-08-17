@@ -52,7 +52,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
         **Note:**
 
-        -   This activity creates an internal play task that is displayed as a worknote in the Activity Stream. Select the internal play task link to view the record. When you select **Send Email**, the status of this task is set to `Closed`, and the Closure code and Close notes fields are updated to indicate that the email has been sent.
+        -   This activity creates an internal play task that is displayed as a worknote in the Activity Stream. Select the internal play task link to view the record. When you select **Send Email**, the status of this task is set to `Closed`. The Closure code and Close notes fields are updated to indicate that the email has been sent.
         -   If you select **Skip email**, the status of the internal play task is set to `Canceled` and the internal play task is canceled.
     -   Create opportunity: In this activity, you can create a new opportunity for your contract. This activity creates an internal play task. Update the task details as required to move to the next stage. Select **Open record** to view the internal play task. Review the opportunity details, update the status to Closed or Canceled, and select **Close** this activity and move on to the next stage.
 12. In the `Track Opportunity` phase, review the contract details.

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-04"
 reading_time_minutes: 3
 keywords: [Kill Switch]
-breadcrumb: [Add a trigger, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Add a trigger, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Kill Switch in Now Assist AI Agents

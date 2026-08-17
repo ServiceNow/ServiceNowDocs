@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-keywords: [Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro]
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro, ServiceNow Otto use cases]
+breadcrumb: [Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Explore Now Assist in Contract Management
@@ -24,7 +24,7 @@ The following AI capabilities are available to a contract fulfiller:
 -   Extract the metadata from a signed contract to review and add the information to the mapped fields in the contract repository.
 -   Analyze the contract documents for non-standard and missing clauses by using AI-generated suggestions to minimize deviations and reduce turnaround time.
 -   Automatically extract obligations from a signed contract and review those obligations in the contract playbook to create obligation records in a contract record.
--   Use conversational search to query the contract repository based on contract metadata and to perform semantic search in the signed contract documents from the Now Assist panel.
+-   Use conversational search to query the contract repository based on contract metadata and to perform semantic search in the signed contract documents from the ServiceNow Otto panel.
 
 ## Skills
 
@@ -65,7 +65,7 @@ The following AI capabilities are available to a contract fulfiller:
     For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Now Assist in Contract Management users
 
@@ -101,7 +101,7 @@ AI contract fulfiller\[sn\_cm\_gen\_ai.ai\_contract\_fulfiller\]
 
 Uses the Now Assist in Contract Management capabilities to analyze the contract documents for deviations and to extract the metadata from signed contracts.Uses the manage contract repository agentic workflow to extract metadata and obligations automatically from signed contracts and review the extracted information in a contract playbook.
 
-Uses conversational search to query the contract repository based on contract metadata and to perform semantic search inside the signed contract documents from the Now Assist panel.
+Uses conversational search to query the contract repository based on contract metadata and to perform semantic search inside the signed contract documents from the ServiceNow Otto panel.
 
 </td></tr></tbody>
 </table>## Metadata extraction workflow
@@ -110,7 +110,7 @@ The following workflow shows how different users work together to configure and 
 
 1.  The contract AI administrator installs the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the contract metadata extraction skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the contract metadata extraction skill in the AI Admin Hub console.
 4.  In the system properties, the administrator specifies whether the metadata extraction should be automatically or manually initiated.
 5.  When a contract repository record is created with a signed contract, a contract manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role initiates the metadata extraction process.
 
@@ -130,7 +130,7 @@ The following sample end-to-end workflow shows how different users work together
 
 1.  The contract AI administrator installs the Now Assist in Contract Management.
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the contract analysis skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the contract analysis skill in the AI Admin Hub console.
 4.  The contract AI configurator maps the question groups to the active clauses in the clause library, maps the questions to the expected responses, and then maps the use case to specific tables.
 5.  The contract AI fulfiller initiates the contract analysis by using Now Assist in Contract Management.
 6.  The Now Assist in Contract Management application analyzes the contract and identifies the non-standard and missing clauses.

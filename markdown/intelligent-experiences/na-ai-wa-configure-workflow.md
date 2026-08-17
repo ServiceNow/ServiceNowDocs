@@ -16,7 +16,7 @@ Create an agentic workflow in AI Agent Studio so that AI agents can coordinate t
 
 ## Before you begin
 
-Set your application scope to Now Assist AI web agent.
+Set your application scope to ServiceNow Otto AI web agent.
 
 Role required: sn\_aia.admin
 
@@ -24,9 +24,9 @@ Role required: sn\_aia.admin
 
 Agentic workflows automate processes with agentic AI. In AI Agent Studio, you must define an agentic workflow and connect it with an AI agent to execute web tasks. These goals can involve variable data or other factors that traditional automation can struggle with.
 
-An AI agent named **Web Automation Agent** and agentic workflow named **Web Automation** are provided by default when you install AI Desktop Actions. You can create a different agentic workflow referencing this AI agent or AI agent that you created so that your users can find and use the agentic workflow in the Now Assist panel.
+An AI agent named **Web Automation Agent** and agentic workflow named **Web Automation** are provided by default when you install AI Desktop Actions. You can create a different agentic workflow referencing this AI agent or AI agent that you created so that your users can find and use the agentic workflow in the ServiceNow Otto panel.
 
-Verify that the enhanced chat is available in the Now Assist panel. The **Web view** pane is available only when enhanced chat is enabled. For more information, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced.md).
+Verify that the enhanced chat is available in the ServiceNow Otto panel. The **Web view** pane is available only when enhanced chat is enabled. For more information, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced.md).
 
 For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-next-best-action-agent.md) and [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-use-case-ai-agents.md).
 
@@ -36,26 +36,26 @@ For more information, see [Create an AI agent](https://raw.githubusercontent.com
 
 2.  Select the **Agentic workflows** tab.
 
-    \[Omitted image "na-ai-wa-configure-workflow-topZ.png"\] Alt text: The Agentic workflows tab on the Manage agentic workflows and AI agents module in AI Agent Studio.
+    \[Omitted image "create-workflow.png"\] Alt text: The Agentic workflows tab on the Manage agentic workflows and AI agents module in AI Agent Studio.
 
 3.  Select **New** to open a guided setup.
 
-    \[Omitted image "na-ai-wa-configure-workflow-guided-setupZ.png"\] Alt text: The guided setup for a New agentic workflow
+    \[Omitted image "new-workflow.png"\] Alt text: The guided setup for a New agentic workflow
 
 4.  On the Define key requirements page, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |**Workflow Name**|Enter a descriptive name for the workflow. You can specify the name in the Now Assist panel.|
+    |**Workflow Name**|Enter a descriptive name for the workflow. You can specify the name in the ServiceNow Otto panel.|
     |**Workflow description**|Enter a clear and precise description of the goal of the workflow \(for use by the LLM\).|
     |**List of steps**|Enter a numbered list of steps to achieve your goal \(for use by the LLM\).|
     |**Add AI agents that can perform these steps**|Open the modal by selecting **Add AI agent**. From the **AI Agent** drop-down list, search and select **Web Automation Agent** or the AI agent that you created.|
-    |**Ask Now Assist to suggest AI agents**|Leave this field blank.|
+    |**Ask ServiceNow Otto to suggest AI agents**|Leave this field blank.|
     |**Unsupported model providers**|Leave this field blank.|
 
-5.  Select **Generate details** in the same page, to open a modal where Now Assist can help compose instructions for the LLM, based on the text that you enter.
+5.  Select **Generate details** in the same page, to open a modal where AI can help compose instructions for the LLM, based on the text that you enter.
 
-    \[Omitted image "na-ai-wa-configure-workflow-generateZ.png"\] Alt text: The modal to generate a description and list of steps. The text field contains a paragraph of example text that Now Assist can transform into appropriate input for the LLM.
+    \[Omitted image "create-workflow-2.png"\] Alt text: The modal to generate a description and list of steps.The text field contains a paragraph of example text that AI can transform into appropriate input for the LLM.
 
 6.  Select **Save and continue** to move to the next step.
 
@@ -80,16 +80,16 @@ For more information, see [Create an AI agent](https://raw.githubusercontent.com
 
 13. Select **Save and continue** to move to the next step.
 
-14. On the Select channels and status page, enable the **Display** toggle on the **Engage via the Now Assist panel** card.
+14. On the Select channels and status page, enable the **Display** toggle on the **Engage via the ServiceNow Otto panel** card.
 
-    \[Omitted image "na-ai-wa-configure-workflow-displayZ.png"\] Alt text: Select a UI display, the final step in the guided setup. The toggle switch is set to Display so that this workflow is available in the Now Assist panel.
+    \[Omitted image "create-workflow-3.png"\] Alt text: Select a UI display, the final step in the guided setup. The toggle switch is set to Display so that this workflow is available in the ServiceNow Otto panel.
 
 15. Select **Save and test**.
 
-    You're directed to the **Testing** tab of AI Agent Studio. For more information, see [Test an AI agent or agentic workflow for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-test.md).
+    You're directed to the **Testing** tab of AI Agent Studio. For more information, see [Test AI agent or agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-test.md).
 
 
 ## Result
 
-The agentic workflow you have created is available in the Now Assist panel to the users you have designated. For more information, see [Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-access-using-nap.md).
+The agentic workflow you have created is available in the ServiceNow Otto panel to the users you have designated. For more information, see [Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-access-using-nap.md).
 

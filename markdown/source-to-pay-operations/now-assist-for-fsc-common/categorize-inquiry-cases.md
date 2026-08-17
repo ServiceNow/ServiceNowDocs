@@ -9,7 +9,7 @@ classification: now-assist-for-fsc-common
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for FSC Common, Now Assist Finance Supply Chain, Finance and Supply Chain]
+breadcrumb: [Use, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
 
 # Categorize inquiry cases
@@ -35,10 +35,10 @@ Incoming invoice inquiry case.
 
 The invoice inquiry case is auto-populated with sub-category without any manual intervention by an AP agent.
 
-**Parent Topic:**[Using Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
 
 **Related topics**  
 
 
-[Summarize a purchase order with Now Assist for FSC Common in Source-to-Pay Workspace]()
+[Summarize a procurement case]()
 

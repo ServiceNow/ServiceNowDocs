@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Platform Analytics Solutions, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Platform Analytics Solutions for Contract Management Pro, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contracts Dashboard

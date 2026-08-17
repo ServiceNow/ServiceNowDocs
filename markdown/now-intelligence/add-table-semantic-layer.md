@@ -1,18 +1,18 @@
 ---
 title: Add a table to the semantic data layer
-description: Add more tables to the Query Generation semantic layer so that users can use Now Assist in Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
+description: Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-table-semantic-layer.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Add a table to the semantic data layer
 
-Add more tables to the Query Generation semantic layer so that users can use Now Assist in Platform Analytics applications to ask questions about the data in those tables.
+Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.
 
 ## Before you begin
 

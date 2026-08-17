@@ -32,6 +32,8 @@ The new calendar is automatically applied to child teams. For example, if an ART
 
 This change is applied to only those ARTs that you update.
 
+**Important:** This task applies to ART-based configurations, such as Full, Essential, Large Solution, and Portfolio Configuration. Kanban Configuration does not use an ART hierarchy and doesn't support this override.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
@@ -50,6 +52,8 @@ This change is applied to only those ARTs that you update.
 
     -   Before 2024-07-30, clear the **Override planning calendar** field.
     -   After 2024-07-30, set your old calendar as the value for the **Override planning calendar** field.
+    \[Omitted image "eap-override-planning-calendar.png"\] Alt text: Override planning calendar for ART.
+
     Once the new calendar comes into effect, the child teams will inherit it for all their future iterations. For Agile Teams, the **Override planning calendar** field is read-only and can't be changed independently of its parent ART.
 
 

@@ -31,15 +31,15 @@ Role required: sn\_sbom\_core.sbom\_ingest
 
     The method you use to upload your files depends on whether you have the SBOM Core or SBOM Response applications installed.
 
-<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d141972e99">
+<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d143381e99">
 
 Option
 
-</th><th align="left" id="d141972e102">
+</th><th align="left" id="d143381e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141972e108">
+</th></tr></thead><tbody><tr><td id="d143381e108">
 
 **If you have installed SBOM Core**
 
@@ -58,7 +58,7 @@ The file name is displayed on the Choose an attachment file page.
 5.  Select **OK**.
 
 
-</td></tr><tr><td id="d141972e166">
+</td></tr><tr><td id="d143381e166">
 
 **If you have installed SBOM Response starting with v4.0**
 

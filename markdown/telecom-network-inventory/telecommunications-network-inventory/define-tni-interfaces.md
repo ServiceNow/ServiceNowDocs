@@ -28,7 +28,7 @@ Network interfaces are used for the interconnection of signaling, or for the Int
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \(\[Omitted image "image.Lists"\] Alt text: List icon., go to **Inventory** &gt; **Network Interfaces**.
+2.  From the list icon \(\[Omitted image "lists\_icon-proactive.png"\] Alt text: list icon, go to **Inventory** &gt; **Network Interfaces**.
 
 3.  Select **New**.
 

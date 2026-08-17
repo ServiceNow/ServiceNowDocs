@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 14
-breadcrumb: [Event field mapping configuration, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create event field mappings

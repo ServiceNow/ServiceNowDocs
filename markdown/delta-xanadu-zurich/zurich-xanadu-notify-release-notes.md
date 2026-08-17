@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-notify-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -108,11 +108,11 @@ Yokohama
 
 </td><td>
 
--   **[Deny-Unless ACL](https://servicenow-staging.fluidtopics.net/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US)**
+-   **[Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US)**
 
 Enhance the security of Notify tables by restricting access for non-authenticated users through Deny ACLs.
 
--   **[Enhanced security for client-callable script includes](https://servicenow-staging.fluidtopics.net/access?context=r_NotifyRoles&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security for client-callable script includes](https://www.servicenow.com/docs/access?context=r_NotifyRoles&family=yokohama&ft:locale=en-US)**
 
 Enhanced security for all client-callable script includes by introducing the ability to switch off the sandbox mode, providing greater control and protection against unauthorized script execution for Notify tables.
 
@@ -123,7 +123,7 @@ Zurich
 
 </td><td>
 
--   **[Notify workflow activities](https://servicenow-staging.fluidtopics.net/access?context=c_NotifyActivities&family=zurich&ft:locale=en-US)**
+-   **[Notify workflow activities](https://www.servicenow.com/docs/access?context=c_NotifyActivities&family=zurich&ft:locale=en-US)**
 
 Manage the subflows for Notify use cases with the following actions.
 
@@ -149,7 +149,7 @@ Xanadu
 
 </td><td>
 
--   **[Notify Twilio Direct driver](https://servicenow-staging.fluidtopics.net/access?context=Notify-TwilioDirectDriver&family=xanadu&ft:locale=en-US)**
+-   **[Notify Twilio Direct driver](https://www.servicenow.com/docs/access?context=Notify-TwilioDirectDriver&family=xanadu&ft:locale=en-US)**
 
 When the Twilio messaging service is disconnected from a ServiceNow instance, you can choose to delete the messaging records according to your data management and security retention policies or retain the records for future reference. For more details, see the [Behaviour of Default Messaging Service when connecting to Twilio from ServiceNow instance \[KB1644265\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1644265) article in the Now Support Knowledge Base.
 
@@ -263,7 +263,7 @@ Xanadu
 
 </td><td>
 
-Notify is a ServiceNow AI Platform feature that is available with activation of the Notify \(com.snc.notify\) plugin. For details, see [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=xanadu&ft:locale=en-US).
+Notify is a ServiceNow AI Platform feature that is available with activation of the Notify \(com.snc.notify\) plugin. For details, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ Xanadu
 
 Provides the flexibility to delete or retain Twilio messaging records when Twilio is disconnected from a ServiceNow instance.
 
- See [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Yokohama
 -   Enhanced security for all client-callable script includes by enabling switching off the sandbox mode.
 -   Enhanced security access for Notify tables.
 
- See [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -472,7 +472,7 @@ Zurich
 -   Build Notify subflows according to your requirements by using the default subflows provided in new instances.
 -   Coral is the new default theme for Next Experience and Core UI, offering a user-friendly experience.
 
- See [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

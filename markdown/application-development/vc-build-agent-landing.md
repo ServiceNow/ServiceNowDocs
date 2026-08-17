@@ -22,7 +22,7 @@ Build Agent is not a one-shot tool, but enables enterprise-grade agentic develop
 -   Build Agent requires you to review and actively participate in the development process.
 -   Build Agent requires the admin role.
 
-**Note:** While Build Agent is part of Now Assist for Creator, it's the primary ServiceNow tool for agentic development, and thus highlighted in its own section of this document.
+**Note:** While Build Agent is part of ServiceNow Otto for Creator, it's the primary ServiceNow tool for agentic development, and thus highlighted in its own section of this document.
 
 ## Key benefits of Build Agent
 
@@ -48,7 +48,7 @@ Some sample use cases for app development with Build Agent include the following
 -   Extending existing applications
 -   Designing agentic workflows that chain actions across ServiceNow tables, approvals, and integrations
 -   Creating custom AI agents tailored to your organization's specific workflows, such as service desk, HR, or IT operations
--   Generating skills that extend Now Assist with domain-specific capabilities
+-   Generating skills that extend ServiceNow Otto with domain-specific capabilities
 
 ## Accessing Build Agent
 

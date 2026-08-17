@@ -1,6 +1,6 @@
 ---
 title: Scheduled job to migrate resource plans and cost plans
-description: Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
+description: Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Migration of resource plans and cost plans, Resource Management cla
 
 # Scheduled job to migrate resource plans and cost plans
 
-Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
+Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 
 ## Before you begin
 

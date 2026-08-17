@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [glide.ui.activity.email\_roles, system properties, Configure user roles, View email details]
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -19,7 +19,7 @@ As a contract configurator, specify the user roles to enable users to view email
 
 ## Before you begin
 
-Role required: sn\_cm\_core.contract\_config
+Role required: admin
 
 ## Procedure
 
@@ -61,9 +61,9 @@ The users with the assigned role that has been added to the system property can 
 
 [Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion]()
-
 [Enable signatory roles]()
+
+[Activate a system property to generate a certificate of completion]()
 
 [Enable keyword search for contract templates]()
 

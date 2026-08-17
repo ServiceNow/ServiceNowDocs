@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for Configure, Price, Quote \(CPQ\)
+title: Using ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 description: Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-now-assist-cpq.html
@@ -7,14 +7,14 @@ release: zurich
 topic_type: concept
 last_updated: "2026-02-04"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for CPQ]
+breadcrumb: [ServiceNow Otto for CPQ]
 ---
 
-# Using Now Assist for Configure, Price, Quote \(CPQ\)
+# Using ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 
-Use Now Assist for CPQ to generate a summary of a quote to:
+Use ServiceNow Otto for CPQ to generate a summary of a quote to:
 
 -   Summarize key quote components during early customer discussions or pre‑discovery.
 -   Provide an updated view of the quote after revisions, without requiring the review of multiple records.
@@ -26,5 +26,5 @@ Use Now Assist for CPQ to generate a summary of a quote to:
 -   **[Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/summarize-quote.md)**  
 Summarize a quote to generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.
 
-**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
+**Parent Topic:**[ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
 

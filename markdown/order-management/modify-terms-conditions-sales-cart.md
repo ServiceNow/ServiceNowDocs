@@ -40,5 +40,7 @@ The CartTermsAndCo document template block in the Sales Cart Demo Template and S
 **Related topics**  
 
 
-[bundle-emplsm.document-templates-overview]
+[Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/document-templates-overview.md)
+
+[Create block content in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-doc-blc-cnt.md)
 

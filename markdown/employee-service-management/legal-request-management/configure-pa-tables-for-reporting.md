@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The record producer uses variables to store field information submitted via intake forms for a legal request or legal matter. If you have to use any of these variables as columns in the list view in Legal Counsel Center, you must add them as columns in the respective practice area tables. These practice area tables extend the Legal Request \[sn\_lgs\_ops\_request\] table for legal requests and the Legal Matter \[sn\_lg\_matter\_matter\] table for legal matters. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-request-pa-tables.md) and [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
+The record producer uses variables to store field information submitted via intake forms for a legal request or legal matter. If you have to use any of these variables as columns in the list view in Legal Counsel Center, you must add them as columns in the respective practice area tables. These practice area tables extend the Legal Request \[sn\_lg\_ops\_request\] table for legal requests and the Legal Matter \[sn\_lg\_matter\_matter\] table for legal matters. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-request-pa-tables.md) and [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
 
 **Note:** For using practice area tables for legal matters, you must have the Legal Matter Management installed.
 

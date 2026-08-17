@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure an event rule to customize alert content
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can customize alert content by adding the required event fields and modifying the text in the fields.
 
-**Note:** When creating regex expression for input, ensure that you create input with the variables in sequential order. While variables can be skipped for inclusion, the selected order must be maintained.
+**Note:** When creating regex expression for input, ensure that you create input with the variables in sequential order. While variables can be skipped for inclusion, the selected order must be maintained. Use unique names within the Additional Info data to prevent conflicts with the predefined field variable names. Identical names cause issues in event rule regex. As a result, you may find that a saved regex is missing or unavailable when you later access it from the Expressions section.
 
 Format alert text by using one or both of these methods:
 

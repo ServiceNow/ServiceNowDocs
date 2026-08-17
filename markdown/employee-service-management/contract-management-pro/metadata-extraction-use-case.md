@@ -1,23 +1,23 @@
 ---
 title: Contract metadata extraction use cases
-description: In contract metadata extraction, use cases specify the information that you want Now Assist to detect in a document.
+description: In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/metadata-extraction-use-case.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Create use cases, Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, AI for contract management pro]
+breadcrumb: [Create use cases, Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract metadata extraction use cases
 
-In contract metadata extraction, use cases specify the information that you want Now Assist to detect in a document.
+In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 
-The CM Pro-Contract Metadata Extraction use case is available with the Now Assist in the Contract Management base system. This use case is not editable.
+The CM Pro-Contract Metadata Extraction use case is available with the Contract Management Pro - Prime base system. This use case is not editable.
 
 **Note:** If you create your own use case or customize a copy of an available use case, be sure to test it thoroughly to verify accuracy.
 

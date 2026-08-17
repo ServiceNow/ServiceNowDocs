@@ -1,6 +1,6 @@
 ---
 title: Review TRM lifecycle status - Legacy
-description: View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
+description: View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/review-trm-status-tpm-view.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfo
 
 # Review TRM lifecycle status - Legacy
 
-View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
+View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_analyst
 
 ## About this task
 
-The lines in the Technology Portfolio Management \(TPM\) screen indicate the life cycles of the product versions. The lines are color coded, which indicates the stages of risk that the software model is in, at that month or quarter. The TPM page helps you to view the status of business applications and their technical debts.
+The lines in the Technology Lifecycle Management \(TLM\) screen indicate the life cycles of the product versions. The lines are color coded, which indicates the stages of risk that the software model is in, at that month or quarter. The TLM page helps you to view the status of business applications and their technical debts.
 
 ## Procedure
 

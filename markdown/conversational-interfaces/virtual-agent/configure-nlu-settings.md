@@ -20,7 +20,7 @@ Configure Natural Language Understanding \(NLU\) in Virtual Agent to identify th
 
 You can select only one NLU service provider for your instance. Virtual Agent supports the following NLU services:
 
--   **ServiceNow NLU** \(default\): Create your models, intents, and entities in Virtual Agent Designer and NLU Workbench.
+-   **ServiceNow NLU** \(default\): Create your models, intents, and entities in Assistant Designer Asset library and NLU Workbench.
 -   **IBM Watson Assistant**: [Configure the IBM Watson Assistant intent and entity integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-watson-service-integration.md) so that Virtual Agent can access IBM Watson Assistant NLU model information.
 -   **Google DialogFlow Essentials \(ES\)**: [Configure the Google DialogFlow ES intent and entity integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md) so that Virtual Agent can access Google Dialogflow ES NLU model information.
 
@@ -30,9 +30,9 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-The NLU-enabled topics that you preview, create, or update in Virtual Agent Designer must use NLU models created in the NLU service that you select here. For example, if you specify ServiceNow as the service provider, you can view and access topics that use ServiceNow NLU model groups.
+The NLU-enabled topics that you preview, create, or update in Assistant Designer Asset library must use NLU models created in the NLU service that you select here. For example, if you specify ServiceNow as the service provider, you can view and access topics that use ServiceNow NLU model groups.
 
-Similarly, to work on NLU topics in multiple languages, the languages must be enabled in your NLU service and added to your model groups. For more information, see Multilingual model management.
+Similarly, to work on NLU topics in multiple languages, the languages must be enabled in your NLU service and added to your model groups. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/multilingual-model-managent.md).
 
 ## Procedure
 
@@ -94,7 +94,7 @@ Option to prompt the user to confirm that the switched intent is correct. This o
 
 ## Result
 
-When you create or update a topic in Virtual Agent Designer, you can choose NLU models available for your specified NLU provider and the specified languages, if applicable. You can also set the NLU entity properties for the input controls that you add to your topic flow.
+When you create or update a topic in Assistant Designer Asset library, you can choose NLU models available for your specified NLU provider and the specified languages, if applicable. You can also set the NLU entity properties for the input controls that you add to your topic flow.
 
 -   **[Configure IBM Watson Assistant as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-watson-service-integration.md)**  
 Use the intents, entities, and utterances defined in IBM Watson Assistant and apply them as an NLU model for your Virtual Agent conversations.

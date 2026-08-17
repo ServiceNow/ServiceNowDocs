@@ -236,19 +236,19 @@ You can't change this field.
     |Product Offerings|Create a product offering from the specification. For details, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/som-create-product-offering.md).|
     |Attribute Mappings|.|
     |Versions|Create another version of the specification.|
-    |Compatibility Rules|[Configure compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/order-mgt-compatibility-management.md) between the specifications of multiple products, services, or resources.|
+    |Compatibility Rules|Configure compatibility rules for horizontal relationships between the specifications of multiple products, services, or resources.|
 
 5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d36168e546">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d36074e547">
 
 Action
 
-</th><th align="left" id="d36168e549">
+</th><th align="left" id="d36074e550">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36168e555">
+</th></tr></thead><tbody><tr><td id="d36074e556">
 
 **Publish**
 
@@ -258,7 +258,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d36168e573">
+</td></tr><tr><td id="d36074e574">
 
 **Update**
 
@@ -266,7 +266,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d36168e582">
+</td></tr><tr><td id="d36074e583">
 
 **Copy**
 

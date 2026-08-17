@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-11"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Extract data from utility invoices
@@ -25,7 +25,7 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
 
 **Important:** Be sure to check AI-extracted information for accuracy.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -59,5 +59,5 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
     |**Delete**|Delete the record.|
 
 
-**Parent Topic:**[Using Now Assist for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

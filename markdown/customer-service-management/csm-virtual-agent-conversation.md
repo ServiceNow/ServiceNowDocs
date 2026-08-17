@@ -44,15 +44,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d292859e149">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d292660e149">
 
 To
 
-</th><th align="left" id="d292859e152">
+</th><th align="left" id="d292660e152">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d292859e158">
+</th></tr></thead><tbody><tr><td id="d292660e158">
 
 **Check the status of a case**
 
@@ -72,7 +72,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d292859e218">
+</td></tr><tr><td id="d292660e218">
 
 **Get help with a product**
 
@@ -92,7 +92,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d292859e267">
+</td></tr><tr><td id="d292660e267">
 
 **Get help with an order**
 
@@ -111,7 +111,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
     -   Contact an agent
 
 
-</td></tr><tr><td id="d292859e324">
+</td></tr><tr><td id="d292660e324">
 
 **Get help**
 
@@ -119,7 +119,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d292859e346">
+</td></tr><tr><td id="d292660e346">
 
 **Submit Request**
 
@@ -135,7 +135,7 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 3.  Select the link displayed and exit the virtual agent if you don’t have any further request.
 
 
-</td></tr><tr><td id="d292859e395">
+</td></tr><tr><td id="d292660e395">
 
 **Create Case**
 
@@ -150,7 +150,7 @@ Creates a case from Virtual Agent. You need the following fields to create a cas
 -   consumer\_sys\_id
 The values of the fields can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
 
-</td></tr><tr><td id="d292859e425">
+</td></tr><tr><td id="d292660e425">
 
 **Update Case**
 
@@ -166,7 +166,7 @@ Updates a case from Virtual agent. You need the following two fields to update a
 -   enable\_product\_update - If set to true, the Add product information option is displayed. It updates the asset and model information.
 The topic block returns the variable case\_sys\_id
 
-</td></tr><tr><td id="d292859e462">
+</td></tr><tr><td id="d292660e462">
 
 **Log a complaint**
 
@@ -184,7 +184,7 @@ Select this option to create a complaint case from Virtual Agent. Provide a brie
 
 **Note:** This option is available with the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-complaint-overview.md) application.
 
-</td></tr><tr><td id="d292859e517">
+</td></tr><tr><td id="d292660e517">
 
 **Request a callback**
 

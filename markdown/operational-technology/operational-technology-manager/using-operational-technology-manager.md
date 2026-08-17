@@ -23,10 +23,12 @@ After you complete all required set up tasks, including installing the Operation
 |3. Run the Discovery for Operational Technology function.|Discovers Operational Technology \(OT\) devices in designated Purdue levels in your Industrial Control System \(ICS\) networks|
 |4. Use the selections on the Operational Technology \(OT\) menu.|Enables editing or viewing detailed information for the OT devices in your enterprise.|
 
+-   **[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)**  
+You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the Operational Technology \(OT\) Manager Foundation.
+-   **[Agentic AI for the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.md)**  
+The Operational Technology \(OT\) Manager Foundation AI agent operates within agentic workflows to complete tasks autonomously.
 -   **[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)**  
 The Service Graph Connector for Microsoft Excel function enables you to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet. You use it in the Integration Hub Extract Transform Load \(ETL\) to upload this data to the Configuration Management Database \(CMDB\).
--   **[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md)**  
-You can use the IT Discovery for Operational Technology \(OT\) Networks function to discover IT class OT devices. These devices are located in designated Purdue levels within your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 -   **[Create an Operational Technology device in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/create-ot-ci-industrial-workspace.md)**  
 Create an Operational Technology \(OT\) device in the Industrial Workspace.
 -   **[Edit or view OT devices after import or discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/view-ot-assets.md)**  

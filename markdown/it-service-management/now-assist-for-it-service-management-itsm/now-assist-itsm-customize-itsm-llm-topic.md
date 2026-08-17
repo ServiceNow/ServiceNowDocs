@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist Virtual Agent topic
-description: Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using Now Assist.
+title: Customize a ServiceNow Otto for Virtual Agent topic
+description: Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-customize-itsm-llm-topic.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure in Virtual Agent, Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist Virtual Agent topic
+# Customize a ServiceNow Otto for Virtual Agent topic
 
-Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using Now Assist.
+Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using ServiceNow Otto.
 
 ## Before you begin
 
@@ -50,12 +50,12 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 7.  In the topic you've duplicated, select the **Properties** tab.
 
-    \[Omitted image "itsm-now-assist-service-disruptions-properties.png"\] Alt text: Configure a VA topic for Now Assist in Virtual Agent
+    \[Omitted image "itsm-now-assist-service-disruptions-properties.png"\] Alt text: Configure a VA topic for ServiceNow Otto for Virtual Agent
 
 8.  Enable the following check boxes:
 
     -   Now Assist in Virtual Agent \(default\).
-    -   Default Now Assist Panel - Platform.
+    -   Default ServiceNow Otto Panel - Platform.
 9.  Select **Save**.
 
 10. Select **Publish**.

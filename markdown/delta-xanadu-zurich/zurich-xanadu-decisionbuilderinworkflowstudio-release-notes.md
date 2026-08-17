@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-decisionbuilderinworkflowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,15 +83,15 @@ Yokohama
 
 </td><td>
 
--   **[Filter decision tables](https://servicenow-staging.fluidtopics.net/access?context=filtering-overview&family=yokohama&ft:locale=en-US)**
+-   **[Filter decision tables](https://www.servicenow.com/docs/access?context=filtering-overview&family=yokohama&ft:locale=en-US)**
 
 Apply filters to both condition and result column values in decision tables. Once filters are applied, only the relevant decisions are displayed, making it easier to refer or edit large tables.
 
--   **[Use enhanced reference record](https://servicenow-staging.fluidtopics.net/access?context=using-enhanced-reference-record&family=yokohama&ft:locale=en-US)**
+-   **[Use enhanced reference record](https://www.servicenow.com/docs/access?context=using-enhanced-reference-record&family=yokohama&ft:locale=en-US)**
 
 When choosing a reference value as a condition or result, a new lookup icon enables you to select the reference record from the default list view. Additionally, you can preview the selected reference record by selecting the info icon.
 
--   **[Set rows active or inactive](https://servicenow-staging.fluidtopics.net/access?context=set-active-inactive-rows&family=yokohama&ft:locale=en-US)**
+-   **[Set rows active or inactive](https://www.servicenow.com/docs/access?context=set-active-inactive-rows&family=yokohama&ft:locale=en-US)**
 
 Turn the rows on or off. Activating a row includes its data while executing a decision table, while deactivating a row excludes it. This feature helps you to temporarily use or skip conditions without deleting them.
 
@@ -244,7 +244,7 @@ Yokohama
 
 Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 
- Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -434,7 +434,7 @@ Yokohama
 -   Use the pagination feature to switch between pages by selecting the page you'd like to see.
 -   Activate rows or Deactivate rows to include or exclude the logic in that row while executing the decision tables.
 
- See [Exploring Decision Tables](https://servicenow-staging.fluidtopics.net/access?context=decision-designer-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Exploring Decision Tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

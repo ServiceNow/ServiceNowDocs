@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-notifications-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Email notifications dashboard](https://servicenow-staging.fluidtopics.net/access?context=email-notifications-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[Email notifications dashboard](https://www.servicenow.com/docs/access?context=email-notifications-dashboard&family=yokohama&ft:locale=en-US)**
 
 Use the new notifications dashboard with key metrics. This dashboard is available to administrators by default. You can configure this dashboard to enable access to other users.
 
@@ -78,11 +78,11 @@ Zurich
 
 </td><td>
 
--   **[Email diagnostics dashboard](https://servicenow-staging.fluidtopics.net/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
 
 With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
 
--   **[Email agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
+-   **[Email agentic workflow](https://www.servicenow.com/docs/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
 
 With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
 
@@ -106,23 +106,23 @@ Yokohama
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://servicenow-staging.fluidtopics.net/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+-   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
--   **[Support for assignment group](https://servicenow-staging.fluidtopics.net/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
+-   **[Support for assignment group](https://www.servicenow.com/docs/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
 
 Send provider notifications for assignment groups and to users that are part of groups stored in sys\_user\_group table.
 
--   **[Advanced condition for provider framework](https://servicenow-staging.fluidtopics.net/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
+-   **[Advanced condition for provider framework](https://www.servicenow.com/docs/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
 
 Use an advanced condition to send a notification that is based on the current email record, changing field values, or system properties.
 
--   **[Mandatory notifications for provider framework](https://servicenow-staging.fluidtopics.net/access?context=make-notification-mandatory-provider&family=yokohama&ft:locale=en-US)**
+-   **[Mandatory notifications for provider framework](https://www.servicenow.com/docs/access?context=make-notification-mandatory-provider&family=yokohama&ft:locale=en-US)**
 
 Make critical notifications mandatory for the provider framework.
 
--   **[Email bounce](https://servicenow-staging.fluidtopics.net/access?context=email-bounce&family=yokohama&ft:locale=en-US)**
+-   **[Email bounce](https://www.servicenow.com/docs/access?context=email-bounce&family=yokohama&ft:locale=en-US)**
 
 Prevent resending bounced emails to the addresses that are known to generate bounces.
 
@@ -133,11 +133,11 @@ Zurich
 
 </td><td>
 
--   **[Email digest for multiple target records](https://servicenow-staging.fluidtopics.net/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+-   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
 
 The email digest now supports both single or multiple target records within a set time interval.
 
--   **[Notification preferences](https://servicenow-staging.fluidtopics.net/access?context=create-notification-filter-configuration&family=zurich&ft:locale=en-US)**
+-   **[Notification preferences](https://www.servicenow.com/docs/access?context=create-notification-filter-configuration&family=zurich&ft:locale=en-US)**
 
 Enables admins to control the list of notifications displayed for users under the advanced notification preferences.
 
@@ -371,7 +371,7 @@ Yokohama
 -   Use the enhanced assignment group, advanced condition, and mandatory notifications for a provider framework.
 -   Use the standard forms for custom notification preferences and delivery channels.
 
- See [Notifications](https://servicenow-staging.fluidtopics.net/access?context=notifications&family=yokohama&ft:locale=en-US) for more information.
+ See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -385,7 +385,7 @@ Zurich
 -   Use the standard forms for system notification preference.
 -   Handle incoming email requests intelligently with the new email agentic workflow by identifying intent, executing actions, and drafting appropriate email responses.
 
- See [Notifications](https://servicenow-staging.fluidtopics.net/access?context=notifications&family=zurich&ft:locale=en-US) for more information.
+ See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-03"
 reading_time_minutes: 1
-breadcrumb: [Identify and execute mitigation strategies for purchase order exceptions, Using agentic workflows in Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Identify and execute mitigation strategies for purchase order exceptions, Using agentic workflows in Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Identify mitigation strategies for purchase order exceptions
@@ -16,9 +16,9 @@ The Define PO exception mitigation strategy workflow assesses the material deliv
 
 ## Before you begin
 
-Role required: Fulfiller for Now Assist for POM \[sn\_poem\_gen\_ai\_now\_assist\_fulfiller\]
+Role required: Fulfiller for Now Assist for Purchase Order Management \[sn\_poem\_gen\_ai\_now\_assist\_fulfiller\]
 
-Users must be assigned this role alongside the Operational Buyer role to utilize this agentic workflow.
+Users must be assigned this role alongside the Operational Buyer role to use this agentic workflow.
 
 ## Procedure
 

@@ -24,7 +24,7 @@ Users with any role can create dashboards and share them with groups, users, and
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UserAdministration.md).
+For details on the administration of users, groups, and roles, see User Administration.
 
 ## Role description
 
@@ -190,7 +190,7 @@ now\_assist\_explorer\_user
 
 </td><td>
 
--   Can view the trigger point to start a AI Data Explorer exploration from data visualizations, Lists, or the Now Assist panel.
+-   Can view the trigger point to start a AI Data Explorer exploration from data visualizations, Lists, or the ServiceNow Otto panel.
 -   Can edit an exploration.
 -   Can create a new exploration
 
@@ -674,7 +674,7 @@ analytics\_filter\_admin or higher
 |--------|----|
 |[Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-po-map.md)|sn\_process\_optimization\_analyst|
 |[Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-signals-monitor.md)|pa\_kpi\_signal\_admin|
-|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md)|now\_assist\_explorer\_user|
+|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md)|now\_assist\_explorer\_user|
 
 **Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-exp-reference.md)
 

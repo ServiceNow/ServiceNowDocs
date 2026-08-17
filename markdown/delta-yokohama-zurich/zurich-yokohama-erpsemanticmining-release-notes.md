@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-erpsemanticmining-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+
+-   **[Reset AI/ML analysis to control the ML training](https://www.servicenow.com/docs/access?context=erpcm-check-data-connection&family=yokohama&ft:locale=en-US)**
+
+Use **Reset AI/ML analysis** option to clear the AI/ML analysis so the flow can run again.
+
 
 </td></tr><tr><td>
 
@@ -96,7 +101,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+[Yokohama Patch 1](https://www.servicenow.com/docs/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
+
+-   **[Faster initialization](https://www.servicenow.com/docs/access?context=how-erp-clean-core-inputs-data&family=yokohama&ft:locale=en-US)**
+
+In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
+
 
 </td></tr><tr><td>
 
@@ -104,7 +114,7 @@ Zurich
 
 </td><td>
 
--   **[ERP Customization Mining application name change](https://servicenow-staging.fluidtopics.net/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US)**
+-   **[ERP Customization Mining application name change](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US)**
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
@@ -186,7 +196,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Install ERP Semantic Mining by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -331,7 +341,16 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+
+-   Easily clear a blocked ETL \(extract, transform, and load\) processing flow when an automatic or manual synchronization of ERP data between the ERP system of record and your ServiceNow instance is not successful by using the **Reset AI/ML analysis** option.
+
+ [Yokohama Patch 1](https://www.servicenow.com/docs/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
+
+-   View charts and graphs on the new ERP Semantic Mining home page dashboard.
+-   Take guided tours with interactive steps to learn about features and interactively complete tasks in ERP Semantic Mining.
+
+ See [ERP Customization Mining \(ECM\)](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -341,7 +360,7 @@ Zurich
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
- See [ERP Customization Mining overview](https://servicenow-staging.fluidtopics.net/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US) for more information.
+ See [ERP Customization Mining overview](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

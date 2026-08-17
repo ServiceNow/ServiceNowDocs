@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Contract analysis, Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract analysis, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Analyze a contract document
@@ -18,7 +18,7 @@ Analyze a contract document with generative AI to identify non-standard and miss
 
 ## Before you begin
 
-Ensure that Now Assist has data access for your role. For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
+Ensure that Now Assist has data access for your role. For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
@@ -35,15 +35,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d532139e128">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d532388e119">
 
 Method
 
-</th><th align="left" id="d532139e131">
+</th><th align="left" id="d532388e122">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d532139e137">
+</th></tr></thead><tbody><tr><td id="d532388e128">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d532139e184">
+</td></tr><tr><td id="d532388e175">
 
 **Workspace used by your application**
 
@@ -67,11 +67,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text:.
-
-    You can analyze contracts in the Now Assist contextual side panel as shown in the following example.
-
-    \[Omitted image "cmpro-na-side-panel.png"\] Alt text: Analyze contracts with the Now Assist contextual side panel.
+</table>2.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: Now Assist Review for Contracts icon.
 
 3.  On the contract request page, select **Contract documents**.
 
@@ -79,15 +75,15 @@ Steps
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d532139e259">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d532388e235">
 
 Method
 
-</th><th align="left" id="d532139e262">
+</th><th align="left" id="d532388e238">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d532139e268">
+</th></tr></thead><tbody><tr><td id="d532388e244">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -97,7 +93,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d532139e295">
+</td></tr><tr><td id="d532388e271">
 
 **Run Now Assist analysis on multiple contract documents**
 
@@ -138,7 +134,7 @@ Steps
 
 7.  Go to the analyzed contracts in the Now Assist contextual side panel by selecting **Back**.
 
-    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the Now Assist suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
+    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the AI suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
 
 
 **Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-NA-review-land.md)

@@ -1,30 +1,30 @@
 ---
-title: Now Assist in Virtual Agent conversations with Microsoft Copilot
-description: Use Now Assist plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
+title: ServiceNow Otto for Virtual Agent conversations with Microsoft Copilot
+description: Use plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/na-ms-copilot-conversations.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
-breadcrumb: [Integrating Now Assist in Virtual Agent with Microsoft Copilot, Use Now Assist in VA conversations with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot, Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Now Assist in Virtual Agent conversations with Microsoft Copilot
+# ServiceNow Otto for Virtual Agent conversations with Microsoft Copilot
 
-Use Now Assist plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
+Use  plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
 
 ## Copilot Conversations
 
-**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to Now Assist in Virtual Agent and multi-turn conversations.
+**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto in Virtual Agent and multi-turn conversations.
 
 You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA support. In version 10.2 of the Microsoft Teams plugin, streaming is inactive by default and CEA is active by default.
 
-\[Omitted video\] Description: Demonstration of Now Assist and Microsoft Copilot capabilities.
+\[Omitted video\] Description: Demonstration of ServiceNow Otto and Microsoft Copilot capabilities.
 
-The Copilot integration doesn’t follow a conversational flow like the Virtual Agent. It uses a non-conversational flow and provides synchronous responses with Now Assist that are primarily built on AI Search. Therefore, any search term that you input is passed to AI Search and the results are returned from AI Search. You're then able to render the response and share it as a card in Message Extension.
+The Copilot integration doesn’t follow a conversational flow like the Virtual Agent. It uses a non-conversational flow and provides synchronous responses with ServiceNow Otto that are primarily built on AI Search. Therefore, any search term that you input is passed to AI Search and the results are returned from AI Search. You're then able to render the response and share it as a card in Message Extension.
 
 Sample prompts that you can use within Copilot:
 
@@ -41,13 +41,13 @@ You can also interact with the bot directly by selecting it from the Agents sect
 
 \[Omitted image "select-bot-within-copilot.png"\] Alt text: Select your bot to interact with it directly within Copilot.
 
-You can use Now Assist to search for Knowledge Base articles, catalog items, and so on, and it provides results based on your input for the search. For example, if you searched for iPhone, you're presented with the list of generative AI Search results. You can pick an item from the list and share it with the user of your choice. The user who receives the catalog item shared by you can view it by selecting **View item**.
+You can use ServiceNow Otto to search for Knowledge Base articles, catalog items, and so on, and it provides results based on your input for the search. For example, if you searched for iPhone, you're presented with the list of generative AI Search results. You can pick an item from the list and share it with the user of your choice. The user who receives the catalog item shared by you can view it by selecting **View item**.
 
 **Note:** You can configure the viewing experience of an item to either open it in a browser or within the Microsoft Teams tab if you're using Copilot only with your Self-configured bot.
 
 \[Omitted image "card-share-ms-copilot.png"\] Alt text: Catalog item shared with a user from Virtual Agent through Microsoft Copilot with an option to view.
 
-## Now Assist capabilities in Copilot
+## ServiceNow Otto capabilities in Copilot
 
 With the Microsoft Copilot integration, you can initiate generative AI chat with Copilot. The following capabilities are available:
 
@@ -65,15 +65,15 @@ With the Microsoft Copilot integration, you can initiate generative AI chat with
 
     \[Omitted image "msteams-copilot-catalog-request.png"\] Alt text: Microsoft Copilot helping out with the Catalog item search.
 
-    With Copilot, there’s no conversational flow, but when a conversational catalog is requested, Copilot hands off the chat to the Virtual Agent bot \(the Now Assist in Virtual Agent plugin that you used to connect with Copilot\) for continuing the conversation. When Copilot hands off the request to Virtual Agent, it sends a `Continuing the conversation from Copilot` message and invokes the conversational catalog that you requested from Copilot.
+    With Copilot, there’s no conversational flow, but when a conversational catalog is requested, Copilot hands off the chat to the Virtual Agent bot \(the  plugin that you used to connect with Copilot\) for continuing the conversation. When Copilot hands off the request to Virtual Agent, it sends a `Continuing the conversation from Copilot` message and invokes the conversational catalog that you requested from Copilot.
 
     \[Omitted image "msteams-copliot-support-catlog-req.png"\] Alt text: Virtual Agent completes the request submission by continuing with the Copilot conversation.
 
 -   **Transfer to a Live Agent chat**
 
-    You can ask Copilot to connect you to a Now Assist Live Agent.
+    You can ask Copilot to connect you to a ServiceNow Otto Live Agent.
 
-    You’re directed to the Now Assist Live Agent for live agent support.
+    You’re directed to the ServiceNow Otto Live Agent for live agent support.
 
     \[Omitted image "copilot-live-agent-support.png"\] Alt text: Microsoft Copilot responding to your request to connect to a live agent.
 
@@ -91,5 +91,5 @@ To add a bot to Copilot, login to your Microsoft Teams tenant and navigate to **
 
 \[Omitted image "copilot-declarative-agent.png"\] Alt text: Adding a bot to Copilot as a declarative Agent to use it for unique business needs.
 
-**Parent Topic:**[Integrating Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
+**Parent Topic:**[Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
 

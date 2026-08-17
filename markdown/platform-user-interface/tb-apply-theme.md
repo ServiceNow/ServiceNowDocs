@@ -40,15 +40,15 @@ Next Experience Polaris and Coral themes are available for publishing from Theme
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d120012e134">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d120061e134">
 
 Option
 
-</th><th align="left" id="d120012e137">
+</th><th align="left" id="d120061e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120012e143">
+</th></tr></thead><tbody><tr><td id="d120061e143">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -56,7 +56,7 @@ Description
 
 From the Unpublished section, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you want published, and select **Publish**.\[Omitted image "tb-more-actions-publish.png"\] Alt text: More actions menu opened with Publish selected.
 
-</td></tr><tr><td id="d120012e168">
+</td></tr><tr><td id="d120061e168">
 
 **Publish using the List view drag-and-drop feature**
 

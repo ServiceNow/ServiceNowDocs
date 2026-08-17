@@ -1,5 +1,5 @@
 ---
-title: Summarize a workplace case using Now Assist for WSD
+title: Summarize a workplace case using ServiceNow Otto for WSD
 description: Use the workplace case summarization skill to summarize the case context and take appropriate action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/summarize-workplace-case.html
@@ -9,10 +9,10 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2026-02-10"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Summarize a workplace case using Now Assist for WSD
+# Summarize a workplace case using ServiceNow Otto for WSD
 
 Use the workplace case summarization skill to summarize the case context and take appropriate action.
 
@@ -29,7 +29,7 @@ You can use the workplace case summarization skill in either the Core UI or Work
 -   In the Core UI, the summary appears in a banner in the case record.
 -   In Workplace Central, the summary is generated in the **Details** tab.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -47,21 +47,21 @@ You can use the workplace case summarization skill in either the Core UI or Work
 
     The case details are displayed in a new tab. For more information about the Case details page, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
-4.  In the Workplace Case summary by Now Assist component, select **Summarize**.
+4.  In the Workplace Case summary by ServiceNow Otto component, select **Summarize**.
 
     **Note:** Generating the summary may take several seconds.
 
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about the case.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d251744e198">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d251846e201">
 
 Option
 
-</th><th align="left" id="d251744e201">
+</th><th align="left" id="d251846e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d251744e207">
+</th></tr></thead><tbody><tr><td id="d251846e210">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d251744e234">
+</td></tr><tr><td id="d251846e237">
 
 **Expand or collapse the summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select **Show more** or **Show less** to see more or fewer summary details.
 
-</td></tr><tr><td id="d251744e249">
+</td></tr><tr><td id="d251846e252">
 
 **Provide feedback for the summary**
 
@@ -88,7 +88,7 @@ Select **Show more** or **Show less** to see more or fewer summary details.
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d251744e270">
+</td></tr><tr><td id="d251846e273">
 
 **Copy the case summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d251744e285">
+</td></tr><tr><td id="d251846e288">
 
 **View the information about the case summary**
 

@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: reference
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Virtual Agent reference, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Interactive view customization tables
@@ -79,7 +79,7 @@ M2M Canvas Configuration Deployment Channels related list
 
 </td><td>
 
-Related list that displays the name of the active or in-active deployment channel associated with this interactive view. Select **New** to associate this interactive view configuration with a deployment channel. You must do this to complete the interactive view association with the intended deployment channel. Searching at the **Deployment Channel** field level opens up the Now Assist Deployment Channels \[sys\_now\_assist\_deployment\_channel\_list.do\] table to select a channel.
+Related list that displays the name of the active or in-active deployment channel associated with this interactive view. Select **New** to associate this interactive view configuration with a deployment channel. You must do this to complete the interactive view association with the intended deployment channel. Searching at the **Deployment Channel** field level opens up the ServiceNow Otto Deployment Channels \[sys\_now\_assist\_deployment\_channel\_list.do\] table to select a channel.
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-03"
 reading_time_minutes: 2
-breadcrumb: [Configure Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Review the define PO exception mitigation strategy workflow
@@ -16,7 +16,7 @@ Review the define PO exception mitigation strategy agentic workflow that uses No
 
 ## Before you begin
 
-Install the Now Assist for POM plugin \(sn\_poem\_gen\_ai\).
+Install the Now Assist for Purchase Order Management plugin \(sn\_poem\_gen\_ai\).
 
 Role required: admin
 

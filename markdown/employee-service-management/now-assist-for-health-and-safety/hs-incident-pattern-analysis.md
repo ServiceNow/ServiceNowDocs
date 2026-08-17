@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Incident pattern analysis
@@ -23,9 +23,9 @@ Safety managers can view the pattern dashboard and immediately plan and act on e
 ## Benefits
 
 -   Runs on a configurable schedule, automatically analyzing incident data with no manual input required.
--   Generates AI summaries, confidence scores, and recommend corrective actions when the Now Assist for Health and Safety plugin is installed.
+-   Generates AI summaries, confidence scores, and recommend corrective actions when the ServiceNow Otto for Health and Safety plugin is installed.
 -   Manages large volumes of incident records and identifies recurring patterns.
--   Enables safety managers to use the Now Assist panel to chat about a pattern, explore related incidents, and get help drafting actions.
+-   Enables safety managers to use the ServiceNow Otto panel to chat about a pattern, explore related incidents, and get help drafting actions.
 
 -   **[Analyzing safety incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/hs-analyse-safety-incident-patterns.md)**  
 The **Incident patterns** tab of the Health and Safety dashboard provides safety managers with an automated, real-time overview of the recurring patterns across their safety incident data.

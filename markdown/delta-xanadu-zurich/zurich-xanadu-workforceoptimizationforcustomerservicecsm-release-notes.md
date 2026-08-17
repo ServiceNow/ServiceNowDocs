@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforcustomerservicecsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Xanadu
 
 </td><td>
 
--   **[Performance metrics for voice channel](https://servicenow-staging.fluidtopics.net/access?context=components-installed-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
+-   **[Performance metrics for voice channel](https://www.servicenow.com/docs/access?context=components-installed-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
 
 Monitor and manage the health of voice queues on Channel Management by viewing more metrics and reports from Amazon Connect.
 
--   **[Recurring meetings in scheduling](https://servicenow-staging.fluidtopics.net/access?context=scheduling-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
+-   **[Recurring meetings in scheduling](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
 
 Schedule and track recurring meetings such as training sessions or one-on-one sessions with teammates.
 
--   **[Scheduling enhancements](https://servicenow-staging.fluidtopics.net/access?context=swap-agent-shifts-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
+-   **[Scheduling enhancements](https://www.servicenow.com/docs/access?context=swap-agent-shifts-configurable-wfo-cs&family=xanadu&ft:locale=en-US)**
 
 Efficiently manage and monitor time off and shift swap requests.
 
@@ -94,12 +94,12 @@ Yokohama
 
 </td><td>
 
--   **[Manager Workspace landing page](https://servicenow-staging.fluidtopics.net/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
 
 Empower managers with real-time insights and actionable metrics, organized in a unified view, to drive performance optimization and facilitate prompt action.
 
 
-**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://servicenow-staging.fluidtopics.net/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
+**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -107,15 +107,15 @@ Zurich
 
 </td><td>
 
--   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://servicenow-staging.fluidtopics.net/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+-   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
 
 Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
 
--   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://servicenow-staging.fluidtopics.net/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+-   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
 
 Enable agents to view your upcoming shifts, time-off requests, and availability for the entire month in the month view of the Team Calendar in the CSM or FSM Configurable Workspace. This enables them to better plan their schedules, stay informed, and remain engaged with their work commitments.
 
--   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://servicenow-staging.fluidtopics.net/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
 
 Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
 
@@ -143,9 +143,9 @@ Xanadu
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
+-   **[Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
 
-Dispatcher Workspace and Workforce Optimization for Field Service support reflow that enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. For more information, see the [Accessibility information](https://servicenow-staging.fluidtopics.net/access?context=workforce-optimization-csm-rn&family=xanadu&ft:locale=en-US) section that follows.
+Dispatcher Workspace and Workforce Optimization for Field Service support reflow that enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. For more information, see the [Accessibility information](https://www.servicenow.com/docs/access?context=workforce-optimization-csm-rn&family=xanadu&ft:locale=en-US) section that follows.
 
 
 </td></tr><tr><td>
@@ -257,7 +257,7 @@ Xanadu
 
 </td><td>
 
-Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -265,7 +265,7 @@ Yokohama
 
 </td><td>
 
-Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -376,7 +376,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
 
 
 </td></tr><tr><td>
@@ -454,7 +454,7 @@ Xanadu
 -   Create and track recurring meetings with managers and their team members in the team calendar.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
- See [Exploring Workforce Optimization for Customer Service](https://servicenow-staging.fluidtopics.net/access?context=explore-configurable-wfo-cs&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -466,7 +466,7 @@ Yokohama
 -   Enable managers to take prompt action with key alerts organized by priority.
 -   Provide real-time visibility into performance KPIs, work item status, and agent performance.
 
- See [Exploring Workforce Optimization for Customer Service](https://servicenow-staging.fluidtopics.net/access?context=explore-configurable-wfo-cs&family=yokohama&ft:locale=en-US) for more information.
+ See [Exploring Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -478,7 +478,7 @@ Zurich
 -   Enable managers to view the team calendar in the month view on the Schedule page within the Manager Workspace, providing a broader overview of staffing and shift details.
 -   Enable agents to view the team calendar in the month view within the Configurable CSM or FSM Workspace for better planning and engagement with your work commitments.
 
- See [Exploring Workforce Optimization for Customer Service](https://servicenow-staging.fluidtopics.net/access?context=explore-configurable-wfo-cs&family=zurich&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-csm.explore-configurable-wfo-cs\]](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

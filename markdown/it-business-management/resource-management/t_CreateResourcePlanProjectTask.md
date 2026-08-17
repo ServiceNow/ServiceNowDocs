@@ -28,17 +28,17 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d55238e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d55732e119">
 
 **From Resource tab in project workspace**
 
 </td><td>
 
-1.  Open a project record in project workspace. See [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+1.  Open a project record in project workspace. See [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d55238e153">
+</td></tr><tr><td id="d55732e156">
 
 **From a project form**
 
@@ -49,7 +49,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d55238e192">
+</td></tr><tr><td id="d55732e195">
 
 **From a demand form**
 
@@ -61,7 +61,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d55238e237">
+</td></tr><tr><td id="d55732e240">
 
 **From a project task**
 
@@ -74,7 +74,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d55238e288">
+</td></tr><tr><td id="d55732e291">
 
 **From an existing resource plan**
 

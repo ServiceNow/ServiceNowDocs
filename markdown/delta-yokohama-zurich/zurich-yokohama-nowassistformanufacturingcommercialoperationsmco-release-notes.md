@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistformanufacturingcommercialoperationsmco-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Zurich
 
 </td><td>
 
--   **[Execute recall campaigns faster](https://servicenow-staging.fluidtopics.net/access?context=execute-recall-campaigns&family=zurich&ft:locale=en-US)[\[Placeholder link text to key execute-recall-campaigns-faster\]](https://servicenow-staging.fluidtopics.net/access?context=execute-recall-campaigns-faster&family=zurich&ft:locale=en-US)**
+-   **[Execute recall campaigns faster](https://www.servicenow.com/docs/access?context=execute-recall-campaigns&family=zurich)[\[Placeholder link text to key execute-recall-campaigns-faster\]](https://www.servicenow.com/docs/access?context=execute-recall-campaigns-faster&family=zurich)**
 
 Use the create recall corrective actions AI agent to extract the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 
@@ -109,7 +109,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -199,7 +199,7 @@ Zurich
 
 </td><td>
 
-Now Assist features are available with activation of Now Assist for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+Now Assist features are available with activation of Now Assist for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -344,15 +344,15 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Enable the Recall manager to create corrective actions and charges for the recall campaign using the create recall corrective actions AI agent.
 
- See [Now Assist for MCO](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-MCO&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for MCO](https://www.servicenow.com/docs/access?context=now-assist-for-MCO&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

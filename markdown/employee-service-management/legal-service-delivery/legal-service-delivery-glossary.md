@@ -44,7 +44,7 @@ The process of collecting and analyzing electronic data for legal investigations
 
 ## G
 
-### generative AI
+### Generative AI
 
 A technology that uses large language model \(LLM\) to generate text, summaries, and other content.
 
@@ -75,10 +75,6 @@ A tool that helps legal teams keep track of important legal cases without using 
 ### legal counsel center
 
 A special workspace where legal teams can track and manage requests from employees.
-
-### legal service portal
-
-A service portal where employees can independently access services and information, such as submitting legal requests.
 
 ### legal practice apps
 
@@ -139,6 +135,10 @@ The ability to connect with legal teams through different methods like email, ch
 A feature that shows reports and charts to help teams track their work.
 
 ## S
+
+### self-service portal
+
+An online platform where employees can independently access services and information, such as submitting legal requests.
 
 ### ServiceNow AI Platform\[var.now-plat\]
 

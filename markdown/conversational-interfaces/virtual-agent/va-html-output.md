@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, HTML, bot, response, control]
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # HTML bot response control
@@ -21,7 +21,7 @@ Use the HTML bot response control to display static HTML text in the Virtual Age
 
 ## Security considerations for HTML markup
 
-For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see HTML sanitizer. For examples of adding markup items to the exclusion or inclusion lists, see Configure HTML sanitizer.
+For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_HTMLSanitizer.md). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ConfigureHTMLSanitizer.md).
 
 To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
@@ -92,7 +92,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Supported|None|
+|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|Since HTML is rendered as an image in Microsoft Teams, other controls are recommended. For example, use images or cards instead of HTML for Microsoft Teams.|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -108,7 +108,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 The HTML bot response shows a static HTML as a chat response. This example includes an image, headings, and paragraph text. The web UI presents this content as HTML. The Slack, Microsoft Teams, and Workplace user interfaces display the same content as a PNG image. URL links within the HTML are extracted and displayed below the image. The URL can be either an absolute or a relative link. If you use a relative link, it must be relative to the ServiceNow instance.
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -127,5 +127,5 @@ HTML bot response output
 \[Omitted image "va-html-native.png"\] Alt text: A chat window shows the company logo with a header, subheader, and body text.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

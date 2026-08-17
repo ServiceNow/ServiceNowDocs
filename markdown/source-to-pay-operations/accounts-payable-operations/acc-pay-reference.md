@@ -41,11 +41,13 @@ Suppliers use the **Request Help** form to report an inquiry related issue or re
 -   **[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)**  
 Reference information for the key tables and required data used to process invoices in Accounts Payable Operations.
 -   **[Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md)**  
-Use the Invoice exception definition form to provide details about the new invoice exception definition.
+Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 -   **[Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.md)**  
 Use the Approval Rule form to provide details about the new approval rule.
 -   **[Approval Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/approval-plan-form.md)**  
 Use the Approval Plan form to view details of the overall invoice approval process.
+-   **[Jurisdictions main table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.md)**  
+The reference \[sn\_fin\_jurisdiction\] table that the Jurisdiction field on the invoice tax line points to.
 
 **Parent Topic:**[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 

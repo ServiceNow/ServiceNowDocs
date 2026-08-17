@@ -16,7 +16,7 @@ breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financia
 
 Work on an ACH dispute case to review case information, verify that any outstanding tasks are completed, and resolve the dispute.
 
-Now Assist for FSO accelerates and optimizes ACH dispute processing. AI-powered agents work alongside human agents to provide real-time insights, actionable recommendations, and predictive guidance. This enables faster, more accurate decisions that reduce resolution time and enhance customer experience.
+ServiceNow Otto for FSO accelerates and optimizes ACH dispute processing. AI-powered agents work alongside human agents to provide real-time insights, actionable recommendations, and predictive guidance. This enables faster, more accurate decisions that reduce resolution time and enhance customer experience.
 
 The Processing stage of the playbook provides transaction information such as dispute amount, transaction date and time, merchant name, transaction state, current activity, and activity SLA.
 

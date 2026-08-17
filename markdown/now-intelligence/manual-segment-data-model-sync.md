@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-04-16"
 reading_time_minutes: 3
 keywords: [manual segments, data model, sync behavior, query generation, semantic layer]
-breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Manual segment data model and sync behavior

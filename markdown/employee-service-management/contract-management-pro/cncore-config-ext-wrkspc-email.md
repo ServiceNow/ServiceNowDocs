@@ -1,5 +1,5 @@
 ---
-title: Configure the workspace URL for contract metadata extraction notifications
+title: Configure the URL for metadata extraction notifications
 description: Configure an extension point to update the workspace URL in email notifications, so that users can navigate to the correct workspace and view the extracted metadata.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.html
@@ -7,12 +7,12 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure the workspace URL for contract metadata extraction notifications
+# Configure the URL for metadata extraction notifications
 
 Configure an extension point to update the workspace URL in email notifications, so that users can navigate to the correct workspace and view the extracted metadata.
 
@@ -31,10 +31,6 @@ Role required: admin
 4.  Select the **Create implementation** related link.
 
 5.  On the Script Include form, fill in the fields.
-
-    \[Omitted image "cmpro-me-workspace-url.png"\] Alt text: Script for workspace URL in metadata extraction email notification.
-
-    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, update the script to define the parent record’s table and specify the workspace URL to be included in the email notifications.
 

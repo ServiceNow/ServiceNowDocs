@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Help resolve tuition reimbursement requests agentic workflow
@@ -29,7 +29,7 @@ To access the agentic workflow:
 
     The Define key requirements workflow is displayed. For more information, see [Help resolve tuition reimbursement requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md).
 
-3.  The **Select a UI display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md).
+3.  The **Select a UI display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md).
 4.  Enable the business rule that triggers the agentic workflow. For more information, see [Triggers for the Help resolve tuition reimbursement requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md)
 
 ## Help resolve tuition reimbursement requests AI agents
@@ -43,9 +43,9 @@ The following table lists the agents that are part of the agentic workflow.
 
 ## Select display
 
-In the **Select a UI display** workflow, you can enable the Now Assist panel display, which sends notifications to HR agents for the triggered case. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the **Select a UI display** workflow, you can enable the ServiceNow Otto panel display, which sends notifications to HR agents for the triggered case. When theServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
-Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify HR agents in the Now Assist panel with the case resolution and summarization notes.
+Select this option to receive and review notifications by AI agents in the ServiceNow Otto panel. AI agents notify HR agents in the ServiceNow Otto panel with the case resolution and summarization notes.
 
 ## Triggers for the Help resolve tuition reimbursement requests agentic workflow
 

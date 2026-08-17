@@ -1,6 +1,6 @@
 ---
-title: Add, edit, or delete demand cost plans
-description: Create a cost plan for a required duration to track your planned and actual expenses. Edit cost plans to adjust your planned expenses and delete any descoped forecasts.
+title: Create cost plans for a demand
+description: Create a cost plan for a specified duration to track planned and actual expenses. Edit cost plans to adjust planned expenses and delete descoped forecasts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/add-edit-or-delete-demand-cost-plans.html
 release: zurich
@@ -8,13 +8,13 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Add, edit, or delete demand cost plans
+# Create cost plans for a demand
 
-Create a cost plan for a required duration to track your planned and actual expenses. Edit cost plans to adjust your planned expenses and delete any descoped forecasts.
+Create a cost plan for a specified duration to track planned and actual expenses. Edit cost plans to adjust planned expenses and delete descoped forecasts.
 
 ## Before you begin
 
@@ -22,105 +22,72 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-The application automatically creates cost plan breakdown records when you save the cost plan. The cost plan breakdowns are records that specify the estimated and actual costs and the budget at a granular level for specific fiscal periods, such as FY16: M04 and FY16: M05. The demand cost plans are added to the parent program and portfolio.
+To create, edit, or delete cost plan records, you can also use:
 
-If you want to use multiple currencies, create a cost plan for another currency.
-
-If you’re creating a cost plan for a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, the fields in the **Financials** section differ from the Default view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
-
-**Note:** For projects, the cost plan breakdowns specify the estimated cost and actual cost at a granular level for a fiscal period of the demand cost plan. These breakdowns are recalculated in the project currency. Similarly, the estimated breakdown amounts of the planned benefit and actual benefit of the demand benefit plans are recalculated in the project currency. The project currency amounts are then rolled up to the cost plan, benefit plan, and the project records.
+-   The **Cost Plans** related list in the **Details** tab.
+-   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Cost Plans**.
+4.  Select **Financials** from the navigation menu.
 
-    **Note:** If the **Cost Plans** tab isn’t visible, select **More** and then select **Cost Plans**.
+5.  Create, edit, or delete a cost plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d194115e139">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d199445e132">
 
-Choice
+Goal
 
-</th><th align="left" id="d194115e142">
+</th><th align="left" id="d199445e135">
 
-Description
+Actions
 
-</th></tr></thead><tbody><tr><td id="d194115e148">
+</th></tr></thead><tbody><tr><td id="d199445e141">
 
-**To create a cost plan**
-
-</td><td>
-
-1.  Select **New**.
-2.  On the Create New Cost Plan form, fill the fields.
-
-For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/cost-plan-form-dw.md).
-
-3.  Select **Save**.
-
-
-</td></tr><tr><td id="d194115e184">
-
-**To edit a cost plan**
+**Create a cost plan**
 
 </td><td>
 
-Select the name of the cost plan, edit the required details and select **Save**.
+1.  Select the **New cost plan** button.
 
-</td></tr><tr><td id="d194115e196">
+A side panel opens with the cost plan form.
 
-**To view and manage cost plan breakdowns**
+2.  On the New cost plan form, fill the fields.
 
-</td><td>
+For a description of the field values, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/cost-plan-form-dw.md).
 
-1.  Select the name of the cost plan.
-2.  Select **Cost Plan Breakdowns**.
-3.  Select a fiscal period.
-    -   To edit a fiscal period record, edit the name and select **Save**.
-    -   To delete a fiscal record, select **Delete** from the More Actions option in the fiscal period record form.
+3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create another one.
 
 
-</td></tr><tr><td id="d194115e234">
+</td></tr><tr><td id="d199445e182">
 
-**To create cost plan breakdowns**
+**Edit a cost plan**
 
 </td><td>
 
-1.  Select the name of the cost plan.
-2.  Select **Cost Plan Breakdowns**.
-3.  Select **New**. For more information about the fields, see [Create cost plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-cost-plan-breakdown-form-dw.md).
-4.  Select **Save**.
+Edit a cost plan in one of the following ways.-   Select the name of the cost plan, edit the required details in the cost plan side panel, and select **Update**.
+-   Double-click the cell for a future fiscal period and edit the cost plan value.
+-   Select the row context menu \[Omitted image "row-context-menu-icon.png"\] Alt text:and edit the values in the future fiscal periods.
 
+**Note:** Use the keyboard Tab key to navigate to between the fiscal periods.
 
-</td></tr><tr><td id="d194115e275">
+</td></tr><tr><td id="d199445e212">
 
-**To delete a cost plan**
+**Delete a cost plan**
 
 </td><td>
 
-Delete a cost plan in one of the following ways:-   Select a record from the **Cost Plans** tab and select **Delete**.
--   Select **Delete** from the More Actions option in the cost plan form.
-**Note:** Deleted cost plans and the associated expense lines can’t be recovered.
+1.  Select the row context menu \[Omitted image "row-context-menu-icon.png"\] Alt text:against the cost plan name.
+2.  Select **Delete Row**.
+3.  On the Confirm deletion window, select **Delete**.
+ **Note:** Deleted cost plans can't be recovered.
 
 </td></tr></tbody>
-</table>    **Tip:** [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.
+</table>    **Note:** After capturing the initial planned costs, create a baseline to capture a snapshot of planned costs. Use this baseline to compare it against baselines from later dates as the work progresses, to identify the variance between initial planned costs and actual expenses. This step helps you plan for future expenses and re-forecast planned costs. For more information, see [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
 
-    This step helps you to plan for the future expenses and re-forecast the planned costs.
-
-    Alternatively, you can create, edit, or delete cost plans and cost plan breakdowns using the **Estimate financial cost** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
-
-
-**Related topics**  
-
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/cost-plan-form-dw.md)
-
-[Create cost plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-cost-plan-breakdown-form-dw.md)
 

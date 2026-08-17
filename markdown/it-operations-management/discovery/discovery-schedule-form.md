@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -50,7 +50,7 @@ Select one of the following scan types:-   **Configuration items**: Uses Discove
 -   **Serverless**: Finds CIs without needing to run discovery on a host, or CIs on a proxy host that is already in the CMDB. See [Serverless Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/serverless-discovery.md) for more information.
 -   **Cloud application**: Discovers only the cloud resources for the patterns that you specify. See [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-wizard.md) for instructions.
 -   **Cloud resources**: Discovers resources for one of the supported [cloud providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-wizard.md). This option only appears when you [run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-manager.md) on a cloud service account. You can’t select it from a new Discovery schedule.
--   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run Certificate Discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md) for more information.
+-   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run certificate discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md) for more information.
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ Quick ranges
 
 </td><td>
 
-Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ip-address-configuration.md).
+Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateAQuickRange.md).
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Connect a digital interface with the CMDB API in the EA Workspace
-description: Create a relationship between a digital interface and a CMDB API. The relationship helps you find out which digital integration uses which API, which APIs are built out of the design specs of the digital interface, and what environments are deployed. The relationship helps to group the deployed APIs.
+description: Create a relationship between a digital interface and a CMDB API. The relationship shows which digital integration uses which API and which APIs are built from the digital interface design specs. You can also see what environments are deployed and group the deployed APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-relate-dig-interface-api.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Working with digital interfaces, Working with digital integration m
 
 # Connect a digital interface with the CMDB API in the EA Workspace
 
-Create a relationship between a digital interface and a CMDB API. The relationship helps you find out which digital integration uses which API, which APIs are built out of the design specs of the digital interface, and what environments are deployed. The relationship helps to group the deployed APIs.
+Create a relationship between a digital interface and a CMDB API. The relationship shows which digital integration uses which API and which APIs are built from the digital interface design specs. You can also see what environments are deployed and group the deployed APIs.
 
 ## Before you begin
 

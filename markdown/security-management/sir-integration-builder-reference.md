@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sir-integration-builder-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 ---

@@ -1,5 +1,5 @@
 ---
-title: Install Moveworks for Employee Center app from store
+title: Install Moveworks for Employee Center app
 description: Install and activate the Moveworks for Employee Center plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/mw-install-app.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
 
-# Install Moveworks for Employee Center app from store
+# Install Moveworks for Employee Center app
 
 Install and activate the Moveworks for Employee Center plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
 

@@ -115,7 +115,9 @@ Sales process manager
 **Related topics**  
 
 
-[bundle-platadm.ua-creating-users]
+[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-users.md)
+
+[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-groups.md)
 
 [Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-lead-cash-process-management.md)
 

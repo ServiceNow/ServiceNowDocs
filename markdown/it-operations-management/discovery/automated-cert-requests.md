@@ -9,7 +9,7 @@ classification: discovery
 topic_type: concept
 last_updated: "2025-12-17"
 reading_time_minutes: 1
-breadcrumb: [Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Automated certificate management for TLS certificates

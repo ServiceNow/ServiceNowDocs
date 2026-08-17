@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Update the project details from Project Workspace
@@ -26,17 +26,17 @@ You can edit the Project, project dates, business case, financials, score, notes
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  Open the details page of the project by selecting **Details** from the left menu.
+2.  Open the details page of the project by selecting **Details** from the list.
 
 3.  Edit the fields that you want to update.
 
     In the Project Workspace, you can add stakeholders, extend or confirm a resource plan, and add new resource allocations daily. You can also view the status report of the program and save the project as a template with the **Save as New Template** option.
 
-    From the Project Workspace, you can create an Agile phase or a Test phase. You can also create stories or add existing ones to the project, as well as add new epics.
+    From the Project Workspace, you can create an Agile phase or a Test phase. You can also create stories or add existing ones to the project, and add new epics.
 
     You can refine project description using the write planning item skill if you have Now assist for SPM application installed.
 

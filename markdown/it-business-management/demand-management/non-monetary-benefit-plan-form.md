@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -79,7 +79,7 @@ Offset type
 
 </td><td>
 
-Field to indicate when the benefits start to be realized.If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the due date of the demand changes, the benefit plan start date shifts to align with the new due date of the demand.
+Field to indicate when the benefits start to be realized.If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the demand due date changes, the benefit plan start date shifts to match.
 
 </td></tr><tr><td>
 

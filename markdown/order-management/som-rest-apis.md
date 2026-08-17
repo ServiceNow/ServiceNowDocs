@@ -28,7 +28,7 @@ Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to c
 **Related topics**  
 
 
-[bundle-telmt.tmt-api-reference]
+[TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/tmt-api-reference.md)
 
 [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-product-type.md)
 

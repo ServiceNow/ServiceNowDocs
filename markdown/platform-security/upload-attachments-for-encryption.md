@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/upload-attachments-for-encryption.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -17,6 +17,8 @@ Protect sensitive files by encrypting record attachments using Field Encryption 
 ## Before you begin
 
 Role required: Any role that aligns with the module access policy \(MAP\) created by the admin.
+
+**Important:** Your administrator must create a separate Encrypted Field Configuration \(EFC\) for each table where your attachments require encryption. Attachment encryption does not automatically apply to extended \(child\) tables — for example, attachments on the incident, case, or problem table will not be encrypted unless a separate configuration is created for each of those tables.
 
 ## Procedure
 

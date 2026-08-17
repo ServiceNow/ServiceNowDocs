@@ -38,6 +38,8 @@ Triggers specify when to start running your playbook.
 In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 -   **[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)**  
 Playbooks are ServiceNow AI Platform® representations of cross-enterprise processes for your organization. Create and activate a playbook to run your digitized business process on the ServiceNow AI Platform.
+-   **[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-as-mcp-tool.md)**  
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 
 **Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
 

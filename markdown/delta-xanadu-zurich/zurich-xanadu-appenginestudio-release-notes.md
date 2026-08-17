@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-appenginestudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -48,7 +48,7 @@ Yokohama
 
 Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
- For more information, see [App Readiness and Compliance Report](https://servicenow-staging.fluidtopics.net/access?context=app-readiness-report&family=yokohama&ft:locale=en-US).
+ For more information, see [App Readiness and Compliance Report](https://www.servicenow.com/docs/access?context=app-readiness-report&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -77,19 +77,19 @@ Xanadu
 
 </td><td>
 
--   **[Add users to one or more user groups](https://servicenow-staging.fluidtopics.net/access?context=manage-intake-application-requests&family=xanadu&ft:locale=en-US)**
+-   **[Add users to one or more user groups](https://www.servicenow.com/docs/access?context=manage-intake-application-requests&family=xanadu&ft:locale=en-US)**
 
 When viewing an intake request in AEMC, add a user to one or more AES and Creator Studio user groups.
 
--   **[Manage user groups for Application Intake](https://servicenow-staging.fluidtopics.net/access?context=manage-app-intake-user-groups&family=xanadu&ft:locale=en-US)**
+-   **[Manage user groups for Application Intake](https://www.servicenow.com/docs/access?context=manage-app-intake-user-groups&family=xanadu&ft:locale=en-US)**
 
 Manage which AES and Creator Studio user groups are active in your instance by updating records on the User Groups Permission Types \[sn\_app\_intake\_permission\_type\] table.
 
--   **[Test AEMC on a non-production instance](https://servicenow-staging.fluidtopics.net/access?context=test-aemc-non-production-instance&family=xanadu&ft:locale=en-US)**
+-   **[Test AEMC on a non-production instance](https://www.servicenow.com/docs/access?context=test-aemc-non-production-instance&family=xanadu&ft:locale=en-US)**
 
 Test AEMC on a non-production instance to ensure everything works as expected before moving to your production instance.
 
--   **[Open applications in ServiceNow Studio](https://servicenow-staging.fluidtopics.net/access?context=create-app-scratch&family=xanadu&ft:locale=en-US)**
+-   **[Open applications in ServiceNow Studio](https://www.servicenow.com/docs/access?context=create-app-scratch&family=xanadu&ft:locale=en-US)**
 
 As of Xanadu Store Release 2, open an application in ServiceNow Studio directly from a banner link in App Engine Studio to explore the more advanced application development environment ServiceNow Studio offers.
 
@@ -100,7 +100,7 @@ Yokohama
 
 </td><td>
 
--   **[App Readiness and Compliance Report](https://servicenow-staging.fluidtopics.net/access?context=app-readiness-report&family=yokohama&ft:locale=en-US)**
+-   **[App Readiness and Compliance Report](https://www.servicenow.com/docs/access?context=app-readiness-report&family=yokohama&ft:locale=en-US)**
 
 As an App Engine Admin, use the App Readiness and Compliance report in AEMC to check if the apps you’re making are ready to go live. You can run an instance scan suite that looks for any issues that can impact app deployments. This feature helps determine if the app is prepared for use in the real world.
 
@@ -148,13 +148,13 @@ Zurich
 
 </td><td>
 
--   **[Granular configuration admin roles](https://servicenow-staging.fluidtopics.net/access?context=aes-personas-roles&family=zurich&ft:locale=en-US)**
+-   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=aes-personas-roles&family=zurich&ft:locale=en-US)**
 
 Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
 
--   **[Separate App Engine Management Center release notes](https://servicenow-staging.fluidtopics.net/access?context=aemc-rn&family=zurich&ft:locale=en-US)**
+-   **[Separate App Engine Management Center release notes](https://www.servicenow.com/docs/access?context=aemc-rn&family=zurich&ft:locale=en-US)**
 
-The App Engine Management Center \(AEMC\) release notes now appear separately from the App Engine Studio release notes because you can use AEMC to manage app development for apps built in App Engine Studio, Creator Studio, and ServiceNow Studio. For information about AEMC, see [App Engine Management Center release notes](https://servicenow-staging.fluidtopics.net/access?context=aemc-rn&family=zurich&ft:locale=en-US).
+The App Engine Management Center \(AEMC\) release notes now appear separately from the App Engine Studio release notes because you can use AEMC to manage app development for apps built in App Engine Studio, Creator Studio, and ServiceNow Studio. For information about AEMC, see [App Engine Management Center release notes](https://www.servicenow.com/docs/access?context=aemc-rn&family=zurich&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -250,7 +250,7 @@ Xanadu
 
 </td><td>
 
-Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -258,7 +258,7 @@ Yokohama
 
 </td><td>
 
-Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ Zurich
 
 </td><td>
 
-Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -440,7 +440,7 @@ Xanadu
 -   Test AEMC on a non-production instance to ensure everything works as expected before moving to production.
 -   As of Xanadu Store Release 2, open an application in ServiceNow Studio directly from App Engine Studio.
 
- See [Build apps using App Engine Studio](https://servicenow-staging.fluidtopics.net/access?context=aes-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Build apps using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ Yokohama
 
 Use the App Readiness and Compliance report in App Engine Management Center \(AEMC\) to check if apps are ready to go live.
 
- See [App Readiness and Compliance Report](https://servicenow-staging.fluidtopics.net/access?context=app-readiness-report&family=yokohama&ft:locale=en-US) for more information.
+ See [App Readiness and Compliance Report](https://www.servicenow.com/docs/access?context=app-readiness-report&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

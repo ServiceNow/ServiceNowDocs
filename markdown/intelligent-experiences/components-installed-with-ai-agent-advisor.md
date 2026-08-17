@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/components-installed-with-ai-agent-advisor.html
 release: zurich
 topic_type: reference
-last_updated: "2026-04-16"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, AI agents, Now Assist, Now Assist Center, Gen AI, Generative AI]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
 ---
 

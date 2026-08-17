@@ -1,6 +1,6 @@
 ---
-title: Now Assist for IT Service Management \(ITSM\)
-description: Use the ServiceNow Now Assist for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+title: ServiceNow Otto for IT Service Management \(ITSM\)
+description: Use the ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.html
 release: zurich
@@ -13,9 +13,9 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [IT Service Management]
 ---
 
-# Now Assist for IT Service Management \(ITSM\)
+# ServiceNow Otto for IT Service Management \(ITSM\)
 
-Use the ServiceNow® Now Assist for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+Use the ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 
 ## Get started
 
@@ -29,7 +29,7 @@ Use the ServiceNow® Now Assist for IT Service Management \(ITSM\) application t
 
 </td><td>
 
-[Use ITSM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
+[Use ITSM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow® Now Assist for IT Service Management \(ITSM\) application t
 
 </td><td>
 
-[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the Now Assist for IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 
 </td><td>
 

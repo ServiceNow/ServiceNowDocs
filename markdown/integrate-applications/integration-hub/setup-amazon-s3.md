@@ -1,6 +1,6 @@
 ---
 title: Set up the Amazon S3 spoke
-description: Use Amazon S3 as file storage in place of attachments in ServiceNow. Adds Amazon S3 storage to your ServiceNow instance and enables users to reference Amazon S3 files in ServiceNow records.Create Credential record for your AWS account. The Create a credential record for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
+description: Use Amazon S3 as file storage in place of attachments in ServiceNow. Adds Amazon S3 storage to your ServiceNow instance and enables users to reference Amazon S3 files in ServiceNow records.Configure a connection for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-amazon-s3.html
 release: zurich
@@ -22,9 +22,9 @@ Use Amazon S3 as file storage in place of attachments in ServiceNow. Adds Amazon
 -   Activate the Amazon S3 spoke
 -   Role required: admin
 
-## Create Credential record for the Amazon S3 spoke
+## Configure a connection for the Amazon S3 spoke
 
-Create Credential record for your AWS account. The Create a credential record for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
+Configure a connection for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
 
 ### Before you begin
 
@@ -34,79 +34,40 @@ Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Open for the alias record for **Amazon S3**.
+2.  Click the **Integrations** tab.
 
-3.  From the **Credentials** tab, click **New**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  Select AWS Credentials.
+4.  Locate the alias for **Amazon S3 Spoke** and click **View Details**.
 
-5.  On the form, fill these values.
+    -   To configure the default connection and credential alias record that is shipped along with the Amazon S3 spoke, click **View Details**.
 
-<table id="table_any_shp_gfb"><thead><tr><th>
+        \[Omitted image "s3-connection.png"\] Alt text: Configure the default connection.
 
-Field
+    -   To manage more than one Amazon S3 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-</th><th>
+    \[Omitted image "s3-connection-conf.png"\] Alt text: Configure the default connection.
 
-Value required
+5.  On the form, fill in these fields:
 
-</th></tr></thead><tbody><tr><td>
+    |Field|Value required|
+    |-----|--------------|
+    |Connection Information|
+    |Name|Auto-generated name to identify the connection record.|
+    |Region|AWS region where your data resides.|
+    |Credential Information|
+    |Access Key ID|Access Key ID of your AWS account.|
+    |Secret Access Key|Secret Access Key of your AWS account.|
 
-Name
+    \[Omitted image "s3-conf-temp.png"\] Alt text: Configure the default connection.
 
-</td><td>
-
-Name to uniquely identify the connection record. For example, enter `S3 Credentials`.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Select **Active** to use the credential record.
-
-</td></tr><tr><td>
-
-Access Key ID
-
-</td><td>
-
-Access Key ID of your AWS account.
-
-</td></tr><tr><td>
-
-Secret Access Key
-
-</td><td>
-
-Secret Access Key of your AWS account.
-
-</td></tr><tr><td>
-
-Credential alias
-
-</td><td>
-
-`sn_amazon_s3_spokeAmazon S3`
-
-</td></tr><tr><td>
-
-Authentication Algorithm
-
-</td><td>
-
-Custom authentication algorithm for outbound signing requests. Select **Amazon S3**.**Note:** Users are cautioned against directly modifying the default authentication algorithm.
-
-</td></tr></tbody>
-</table>    **Note:** To create the Access key ID and secret access key, log into the AWS console. From your account menu, select **My Security Credentials**.
-
-6.  Click **Submit**.
+6.  Click **Save**.
 
 
 ### Result
 
-The credential record for the Amazon S3 spoke is created.
+The connection record for the Amazon S3 spoke is configured and the spoke actions can be used.
 

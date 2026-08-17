@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-08"
 reading_time_minutes: 4
 keywords: [AI Search answers, Websearch, Web search]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure AI Search answers capability for web search
@@ -19,7 +19,7 @@ AI web search is a OneExtend capability that enables end users to perform web se
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-model-providers.md).
+When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in AI Admin Hub can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -37,7 +37,7 @@ OpenAI
 
 </td><td>
 
-Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in Now Assist Admin and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
+Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in AI Admin Hub and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
 
 </td></tr><tr><td>
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d37774e220">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d39662e220">
 
 Scenario
 
-</th><th align="left" id="d37774e223">
+</th><th align="left" id="d39662e223">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d37774e229">
+</th></tr></thead><tbody><tr><td id="d39662e229">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d37774e238">
+</td></tr><tr><td id="d39662e238">
 
 **Connection isn’t available and must be created**
 
@@ -142,5 +142,5 @@ End users can now perform an internet search to answer a query whenever in web s
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md).
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md).
 

@@ -48,7 +48,7 @@ ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich rel
 
 ## Activation information
 
-ServiceNow IDE is active by default and available for upgrade in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+ServiceNow IDE is active by default and available for upgrade in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
@@ -68,9 +68,9 @@ The ServiceNow IDE is localized in all supported left-to-right languages and ref
 
     Use Build Agent, an autonomous AI agent, to help you create and edit applications from a chat panel in the ServiceNow IDE.
 
--   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   **[ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)**
 
-    With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in applications in the ServiceNow IDE.
+    With ServiceNow Otto for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in applications in the ServiceNow IDE.
 
 -   **[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md)**
 

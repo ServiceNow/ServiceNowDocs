@@ -36,7 +36,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -46,7 +46,7 @@ AIOps LEAP
 
 </td><td>
 
-You should have Now Assist for Creator installed to generate playbooks.
+You should have ServiceNow Otto for Creator installed to generate playbooks.
 
 </td></tr><tr><td>
 
@@ -126,9 +126,9 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported application version of the ServiceNow AI Platform to be able to use AI agents and AI Agent Studio. For more information, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Now Assist for Customer Service Management \(CSM\)
 
 </td><td>
 
-Check your entitlements to determine whether you have access to the Now Assist for CSM application.
+Check your entitlements to determine whether you have access to the ServiceNow Otto for CSM application.
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Now Assist for FSM
 
 </td><td>
 
-The Now Assist for FSM application requires Field Service Management.
+The ServiceNow Otto for FSM application requires Field Service Management.
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
-The Now Assist for HAM application requires the Hardware Asset Management Pro plus license.
+The ServiceNow Otto for HAM application requires the Hardware Asset Management Pro plus license.
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
-The Now Assist for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Now Assist for Sales Force Automation \(SFA\)
 
 </td><td>
 
-The Now Assist for SFA application requires the Sales Development AI agents.
+The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
+[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 

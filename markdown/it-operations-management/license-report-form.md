@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # License Report form
@@ -77,7 +77,7 @@ Total consumption of subscription units by the application and all ITOM applicat
  Appears highlighted under Total Subscription Units Consumed.
 
 </td></tr></tbody>
-</table>**Note:** To estimate the predicted usage under 2026 Packaging SKUs, see [Generate CI consumption predictions for 2026 Container Packaging SKU migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/generate-ci-consumption-predictions.md)
+</table>**Note:** To estimate the predicted usage under 2026 Packaging SKUs, see [Predict CI consumption for 2026 Packaging SKU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/generate-ci-consumption-predictions.md)
 
 **Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-reference.md)
 

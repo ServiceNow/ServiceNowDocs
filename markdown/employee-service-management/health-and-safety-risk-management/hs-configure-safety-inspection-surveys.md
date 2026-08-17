@@ -19,7 +19,7 @@ Review surveys available with the Health and Safety Risk Management application.
 ## Before you begin
 
 -   Surveys are built with the ServiceNow® Survey designer. So, familiarize yourself with [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_SurveyAdminTasks.md).
--   Ensure that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
+-   Ensure that the application scope is selected as Health and Safety Risk Management. For more information, see Application picker.
 
 Role required: sn\_hs\_rm.safety\_inspection\_manager, sn\_hs\_rm.safety\_audit\_manager, survey\_creator, or admin
 

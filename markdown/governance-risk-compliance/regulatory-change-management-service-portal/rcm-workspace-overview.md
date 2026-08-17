@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -78,6 +78,4 @@ The Regulatory Change Management application in Compliance Workspace contains th
 [Regulatory assessment for a regulatory alert]()
 
 [Next Experience Discuss and Chat Collaboration]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

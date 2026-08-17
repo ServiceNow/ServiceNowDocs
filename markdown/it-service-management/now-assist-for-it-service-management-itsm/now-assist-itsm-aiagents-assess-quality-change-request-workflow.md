@@ -9,8 +9,8 @@ classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+keywords: [agentic AI, generative AI, Gen AI]
+breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection assess quality of a change request agentic workflow
@@ -116,16 +116,14 @@ To make the workflow available in the panel:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Open the **Assess quality of a change request** agentic workflow.
 3.  In the left navigation, select **Select channels and status**.
-4.  For **Engage via the Now Assist panel**, turn on the **Display** toggle.
+4.  For **Engage via the ServiceNow Otto panel**, turn on the **Display** toggle.
 5.  Select **Save and test**.
 
 **Note:** Turning on the **Display** toggle is the only configuration required. The remaining configuration is available out of the box. Turning on this toggle also triggers a business rule that activates the text index the workflow requires for change requests.
 
-## Assess a change request from the Now Assist panel
+## Assess a change request from the ServiceNow Otto panel
 
-To assess a change request, open the change request and enter a prompt in the Now Assist panel, such as assess quality of &lt;change request number&gt;. You can enter the change request number from the list of suggestions, add keywords, or type a custom prompt.
-
-\[Omitted image "Assess\_change\_request\_using\_AI.png"\] Alt text: Now Assist panel showing a prompt to assess the quality of a change request and the resulting quality assessment with field ratings and suggested improvements.
+To assess a change request, open the change request and enter a prompt in the ServiceNow Otto panel, such as assess quality of &lt;change request number&gt;. You can enter the change request number from the list of suggestions, add keywords, or type a custom prompt.
 
 The agent returns a quality assessment in the panel. The assessment includes:
 
@@ -135,7 +133,7 @@ The agent returns a quality assessment in the panel. The assessment includes:
 
 The agent asks for confirmation before updating any field. When you confirm a suggested value, the agent updates the field, saves the change request, and marks the update as **AI Generated**. The agent then asks whether to record the quality summary. If you confirm, the summary is added to **Work notes** and a record is created in the **AI Change Quality Scores** table.
 
-For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Change quality scores
 

@@ -18,6 +18,8 @@ Reference topics provide additional information about the Operational Technology
 
 -   **[Components installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.md)**  
 Several types of components may be installed with activation of the Operational Technology Manager application, including user roles.
+-   **[Operational Technology dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-dependencies.md)**  
+The following tables describe the application dependencies required for Operational Technology \(OT\) device management and OT vulnerability management.
 -   **[Installed software for Operational Technology Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/installed-software-otm.md)**  
 The installed software for the Operational Technology Management solution comes from IT Discovery for Operational Technology \(OT\) Networks or from the OT-certified Service Graph Connectors that support installed software.
 -   **[Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/industrial-core-plugin.md)**  

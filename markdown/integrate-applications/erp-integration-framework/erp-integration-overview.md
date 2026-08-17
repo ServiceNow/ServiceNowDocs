@@ -85,7 +85,7 @@ Zero Copy Connector for ERP has a several training and learning resources for yo
 </td></tr></tbody>
 </table>## Request Zero Copy Connector for ERP on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use Zero Copy Connector for ERP, you must first download the application from the ServiceNow Store. If you don't see Zero Copy Connector for ERP on your instance after you’ve completed the download, clear your local cache.
 

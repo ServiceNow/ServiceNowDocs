@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -60,19 +60,19 @@ Application scope for the search source mapping record. This field is automatica
 
 </td></tr><tr><td>
 
-Exclude in Now Assist Genius Results
+Exclude in ServiceNow Otto® Genius Results
 
 </td><td>
 
-Option to exclude content from this search source when generating Genius Result answers for searches that use the selected search profile. This option applies to all Genius Results, not just Now Assist Genius Results.
+Option to exclude content from this search source when generating Genius Result answers for searches that use the selected search profile. This option applies to all Genius Results, not just ServiceNow Otto Genius Results.
 
 </td></tr><tr><td>
 
-Exclude Attachments in Now Assist Genius Results
+Exclude Attachments in ServiceNow Otto Genius Results
 
 </td><td>
 
-Option to exclude attachments from this search source when generating Genius Result answers for searches that use the selected search profile. If **Exclude in Now Assist Genius Results** is not selected, selecting this option has no effect. This option applies to all Genius Results, not just Now Assist Genius Results.**Note:** Selecting this option has no effect on search sources created from external indexed sources \(those that index external content\). It only affects search sources created from internal indexed sources \(those that index content from ServiceNow AI Platform® tables\).
+Option to exclude attachments from this search source when generating Genius Result answers for searches that use the selected search profile. If **Exclude in ServiceNow Otto Genius Results** is not selected, selecting this option has no effect. This option applies to all Genius Results, not just ServiceNow Otto Genius Results.**Note:** Selecting this option has no effect on search sources created from external indexed sources \(those that index external content\). It only affects search sources created from internal indexed sources \(those that index content from ServiceNow AI Platform® tables\).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)

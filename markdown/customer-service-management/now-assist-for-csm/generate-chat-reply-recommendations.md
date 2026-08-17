@@ -1,6 +1,6 @@
 ---
-title: Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)
-description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
+title: Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate a reply based on the context of the chat conversation using ServiceNow Otto icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)
+# Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
+Generate a reply based on the context of the chat conversation using ServiceNow Otto icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
 See the video to understand how generative AI provides agents with suggested, personalized responses during live chat interactions. \[Omitted video\] Description: Chat reply recommendation
 
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-You can do these actions by using the Now Assist icon:
+You can do these actions by using the AI icon:
 
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
@@ -44,19 +44,17 @@ You can do these actions by using the Now Assist icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon
 
-    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
-
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33377e170">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33154e144">
 
 Chat message window
 
-</th><th align="left" id="d33377e173">
+</th><th align="left" id="d33154e147">
 
-Now Assist icon
+AI icon
 
-</th></tr></thead><tbody><tr><td id="d33377e181">
+</th></tr></thead><tbody><tr><td id="d33154e153">
 
 **Typed response**
 
@@ -73,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d33377e215">
+</td></tr><tr><td id="d33154e187">
 
 **Left blank**
 
@@ -82,7 +80,7 @@ Provides the option to refine your response:
 Generates a recommended reply that is based on the context of the conversation up to this point.
 
 </td></tr></tbody>
-</table>    The reply response appears in the Now Assist icon modal.
+</table>    The reply response appears in the AI icon modal.
 
 5.  Review the generated reply and select **Refine** to modify the response, or select **Insert** to paste the response into the chat message window.
 
@@ -93,7 +91,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

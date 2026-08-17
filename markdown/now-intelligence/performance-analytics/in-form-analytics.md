@@ -36,5 +36,5 @@ Preconfigured in-form analytics are available as plugins for several application
 
 [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UIActions.md)
+[bundle-platadm.c_UIActions]
 

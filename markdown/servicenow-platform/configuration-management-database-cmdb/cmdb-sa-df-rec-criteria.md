@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-05-24"
 reading_time_minutes: 1
+keywords: [principal class recommendation criteria property, sn\_cmdb\_advisor system property, predefined CI class recommendations, Data Foundations recommendation criteria, principal class recommendations]
 breadcrumb: [CI class recommendations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 

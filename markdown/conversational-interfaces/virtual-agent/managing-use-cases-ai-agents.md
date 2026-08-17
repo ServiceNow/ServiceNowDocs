@@ -1,6 +1,6 @@
 ---
-title: Managing AI agents in Assistant Designer
-description: View AI agents created in AI Agent Studio through Assistant Designer.
+title: Managing AI agents in Assistant Designer Asset library
+description: View AI agents created in AI Agent Studio through Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.html
 release: zurich
@@ -10,22 +10,22 @@ topic_type: concept
 last_updated: "2025-08-06"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Designer, AI Agents]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Managing AI agents in Assistant Designer
+# Managing AI agents in Assistant Designer Asset library
 
-View AI agents created in AI Agent Studio through Assistant Designer.
+View AI agents created in AI Agent Studio through Assistant Designer Asset library.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 **Role required**: virtual\_agent\_admin
 
-When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Assistant Designer. You can only view them in Assistant Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see .
+When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Assistant Designer Asset library. You can only view them in Assistant Designer Asset library. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md).
 
-## AI agents in Assistant Designer
+## AI agents in Assistant Designer Asset library
 
-Select the **AI agents** option to see all the AI agents activated for Assistant Designer.
+Select the **AI agents** option to see all the AI agents activated for Assistant Designer Asset library.
 
 |Column|Description|
 |------|-----------|
@@ -87,7 +87,7 @@ Delete
 Delete option for AI agent is inactive in Assistant Designer. The AI agent can only be deleted from AI Agent Studio.
 
 </td></tr></tbody>
-</table>AI agents become available in Assistant Designer based on the display settings in AI Agent Studio. To enable an AI agent to appear in Assistant Designer, perform the following:
+</table>AI agents become available in Assistant Designer Asset library based on the display settings in AI Agent Studio. To enable an AI agent to appear in Assistant Designer Asset library, perform the following:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** and select the AI agent.
 2.  Select the **Define availability** tab.
@@ -100,7 +100,7 @@ Delete option for AI agent is inactive in Assistant Designer. The AI agent can o
 
 For detailed information about creating AI agents, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 

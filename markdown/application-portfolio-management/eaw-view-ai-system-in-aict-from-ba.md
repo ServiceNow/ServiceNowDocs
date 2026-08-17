@@ -23,7 +23,7 @@ Role required:
 
 ## About this task
 
-The **AI Systems** tab on a business application record shows a summary of each associated AI system, including its lifecycle phase, state, lifecycle status, and risk classification. To review the complete governance details of an AI system — such as its related models, datasets, prompts, approval history, and lifecycle tasks— you can open the full AI system record in the AI Control Tower workspace.
+The **AI Systems** tab on a business application record shows a summary of each associated AI system, including its lifecycle phase, state, lifecycle status, and risk classification. You can open the full AI system record in the AI Control Tower workspace to review complete governance details. These details include related models, datasets, prompts, approval history, and lifecycle tasks.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ The **AI Systems** tab on a business application record shows a summary of each 
 
 6.  In the **Managed** or **Unmanaged** section, select the display name of the AI system you want to view details for.
 
-    The AI system record opens in the AI Control Tower workspace, displaying the full governance details for that AI system. The record includes tabs for details, KPIs and metrics, and requests, along with related assets such as sub AI systems, AI models, tools, prompts, evaluation datasets, and business applications.
+    The AI system record opens in the AI Control Tower workspace, displaying the full governance details for that AI system. The record includes tabs for details, KPIs and metrics, and requests. Related assets include sub AI systems, AI models, tools, prompts, evaluation datasets, and business applications.
 
 
 **Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-application-portfolio.md)

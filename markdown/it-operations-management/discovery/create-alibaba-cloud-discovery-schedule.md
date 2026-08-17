@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -39,15 +39,15 @@ Role required: discovery\_admin
     -   **Specific MID Cluster**: A MID Server cluster that you choose from the **MID Cluster** drop-down list.
 6.  Either create a new account or select an existing one.
 
-<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d411250e156">
+<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d411392e156">
 
 Existing or new account
 
-</th><th align="left" id="d411250e159">
+</th><th align="left" id="d411392e159">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d411250e165">
+</th></tr></thead><tbody><tr><td id="d411392e165">
 
 **Add account**
 
@@ -65,7 +65,7 @@ For more information, see [Create Alibaba Cloud API Credentials](https://raw.git
 5.  Enter the URL of a datacenter in the**Datacenter URL** field.
 
 
-</td></tr><tr><td id="d411250e236">
+</td></tr><tr><td id="d411392e236">
 
 **Select Account**
 

@@ -1,6 +1,6 @@
 ---
 title: Update a record in an instance by using ServiceNow AI Lens
-description: Update a record in the ServiceNow instance by auto-filling the form fields with data that ServiceNow AI Lens extracts from captured screens, documents, and files.
+description: Update a record in the ServiceNow instance by auto-filling the form fields with data that ServiceNow AI Lens extracts from captured screens, documents, and files that you upload.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.html
 release: zurich
@@ -15,15 +15,15 @@ breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 
 # Update a record in an instance by using ServiceNow AI Lens
 
-Update a record in the ServiceNow instance by auto-filling the form fields with data that ServiceNow AI Lens extracts from captured screens, documents, and files.
+Update a record in the ServiceNow instance by auto-filling the form fields with data that ServiceNow AI Lens extracts from captured screens, documents, and files that you upload.
 
 ## Before you begin
 
-Perform the following tasks on the ServiceNow instance:
+To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 -   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 **Note:**
 
@@ -40,26 +40,26 @@ Role required: lens\_user
 
 You can update a record in the ServiceNow instance in two ways:
 
--   **From your browser**: Capture the contents from the browser, and let ServiceNow AI Lens analyze the captured screen and auto-fill the form fields — no download or installation required. For more information, see [Update record in ServiceNow instance from the browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.md).
+-   **From your browser**: Capture a screen or upload files directly from your browser, and let ServiceNow AI Lens analyze the contents and auto-fill the form fields — no download or installation required. For more information, see [Update records on your instance by using AI Lens from the browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.md).
 
     **Note:**
 
-    -   The capture experience may vary depending on your browser.
+    -   The screen capture experience may vary depending on the browser that you use.
 
         **Tip:** For the best experience, use ServiceNow AI Lens on any Chromium-based browser.
 
-    -   The browser-based experience supports single-screen capture. To capture multiple screens or upload files, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
--   **From the desktop app**: Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture and file uploads. For more information, see [Update a record on ServiceNow instance by using the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.md).
+    -   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+-   **From the desktop app**: Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/update-record-sn-lens.md)
 
 ## Procedure
 
 1.  Update a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d68519e241">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d78248e250">
 
 Method
 
-</th><th align="left" id="d68519e244">
+</th><th align="left" id="d78248e253">
 
 Steps
 
@@ -69,7 +69,7 @@ Steps
 
 </td><td>
 
-1.  In your instance, navigate to the list view of any table, for example, Incidents.
+**Capture screen**1.  In your instance, navigate to the list view of any table, for example, Incidents.
 2.  Open the record that you want to update.
 3.  Select **Update with Lens**.
 
@@ -82,8 +82,8 @@ Steps
         -   `sn_app_lens_core.show_lens_action_on_all_tables`: Set to true to show the **Update with Lens** button on all tables. Set to false to show it only on specific tables. Default is true.
         -   `sn_app_lens_core.lens_inclusion_table_list`: Enter the names of the tables as comma-separated values where you want the **Update with Lens** button to appear. Use this property only when the `sn_app_lens_core.show_lens_action_on_all_tables` property is set to false.
         -   `sn_app_lens_core.lens_exclusion_table_list:` Enter the names of the tables as comma-separated values where you want to hide the Create with Lens button, regardless of how the `sn_app_lens_core.lens_inclusion_table_list` property is set.
-    -   On non-production instances, the **Create with Lens** button may appear even if the ServiceNow AI Lens skill is not activated. If you select the button, an error occurs. You can activate the skill or hide the button by entering the name of the table in the `sn_app_lens_core.lens_inclusion_table_list` property:
-    -   On production instances, the **Create with Lens** and **Update with Lens** buttons are visible only when the ServiceNow AI Lens skill is active and the user has the lens\_user role. To hide the buttons on all tables, set `sn_app_lens_core.show_lens_action_on_all_tables` to false and leave `sn_app_lens_core.lens_inclusion_table_list empty`.
+    -   On non-production instances, the **Update with Lens** button may appear even if the ServiceNow AI Lens skill is not activated. If you select the button, an error occurs. You can activate the skill or hide the button by entering the name of the table in the sn\_app\_lens\_core.lens\_inclusion\_table\_list property
+    -   On production instances, the **Update with Lens** and **Update with Lens** buttons are visible only when the ServiceNow AI Lens skill is active and the user has the lens\_user role. To hide the buttons on all tables, set sn\_app\_lens\_core.show\_lens\_action\_on\_all\_tables to false and leave sn\_app\_lens\_core.lens\_inclusion\_table\_list empty.
 4.  Select **Capture screen**.
 
 \[Omitted image "lens-capture-screen-button.png"\] Alt text: Capture screen button for the browser-based experience.
@@ -113,9 +113,92 @@ The form is auto-filled.
 
 \[Omitted image "lens-notification-form-fill.png"\] Alt text: Form is auto-filled.
 
-10. Go to the form to review the updated fields.
+10. Navigate back to the instance form to review the fields that ServiceNow AI Lens has auto-filled.
 
-\[Omitted image "view-form-details-in-tab.png"\] Alt text: View auto-filled form fields
+\[Omitted image "image.lens-form-autofilled"\] Alt text: Incident form auto-filled.**Upload files**
+
+1.  In your instance, navigate to the list view of any table, for example, Incidents.
+2.  Open the record that you want to update.
+3.  Select **Update with Lens**.
+
+\[Omitted image "image.lens-upload-files-upload-rec"\] Alt text:
+
+**Note:**
+
+    -   If pop-up is blocked, ServiceNow AI Lens screen may not open. Confirm that you've already allowed pop-ups from your browser settings.
+    -   On non-production instances, you can control on which tables the **Create with Lens** button appears using the following system properties:
+        -   `sn_app_lens_core.show_lens_action_on_all_tables`: Set to true to show the **Create with Lens** button on all tables. Set to false to show it only on specific tables. Default is true.
+        -   `sn_app_lens_core.lens_inclusion_table_list`: Enter the names of the tables as comma-separated values where you want the **Create with Lens** button to appear. Use this property only when the `sn_app_lens_core.show_lens_action_on_all_tables` property is set to false.
+        -   `sn_app_lens_core.lens_exclusion_table_list:` Enter the names of the tables as comma-separated values where you want to hide the Create with Lens button, regardless of how the `sn_app_lens_core.lens_inclusion_table_list` property is set.
+    -   On non-production instances, the **Create with Lens** button may appear even if the ServiceNow AI Lens skill is not activated. If you select the button, an error occurs. You can activate the skill or hide the button by entering the name of the table in the sn\_app\_lens\_core.lens\_inclusion\_table\_list property
+    -   On production instances, the **Create with Lens** and **Update with Lens** buttons are visible only when the ServiceNow AI Lens skill is active and the user has the lens\_user role. To hide the buttons on all tables, set sn\_app\_lens\_core.show\_lens\_action\_on\_all\_tables to false and leave sn\_app\_lens\_core.lens\_inclusion\_table\_list empty.
+4.  Select **Upload**.
+
+\[Omitted image "image.lens-select-upload-button"\] Alt text: Upload button selection on browser.
+
+5.  Perform any one of the following file upload methods.
+
+**Add one or more files**
+
+    1.  To attach files, select **+Add file**.
+    2.  On your computer, navigate to the location and select one or more files that you want to attach.
+
+**Note:**
+
+        -   You can upload up to 10 unprotected files, with the combined size of the uploaded files not exceeding 10 MB.
+        -   To remove a file that you attached, select the Remove file icon \(\[Omitted image "image.lens-delete-attached-file-icon"\] Alt text: Delete attached file icon.\).
+        -   To rename the file that you attached, select the three-dots icon \(\[Omitted image "image.lens-three-dots-icon"\] Alt text: Three-dots icon.\), and then select **Rename**.
+\[Omitted image "lens-browser-upload-file-window.png"\] Alt text: File upload window.
+
+    3.  Select **Next**.
+
+The ServiceNow AI Lens preview window displays the files that you have uploaded
+
+\[Omitted image "image.lens-preview-uploaded-files"\] Alt text: Preview of uploaded files.
+
+    4.  \(Optional\). Do one or more of the following steps.
+        -   To remove an uploaded file, select the Remove file icon \(\[Omitted image "image.lens-delete-attached-file-icon"\] Alt text: Delete attached file icon.\).
+        -   To upload more files, select **Upload**.
+        -   To capture one or more screens from the browser, select **Capture**.
+        -   To guide ServiceNow AI Lens in extracting the information you need from the uploaded files, enter specific instructions in the **Additional instructions** field.
+    5.  Select **Analyze**.
+
+ServiceNow AI Lens updates the form fields.
+
+\[Omitted image "image.lens-screen-capture-success-msg"\] Alt text: Capture success message.
+
+    6.  Navigate to the form and verify that the fields are correctly updated.
+
+\[Omitted image "image.lens-form-autofilled"\] Alt text: Incident form auto-filled.
+
+**Drag and drop files**
+
+    1.  On your computer, navigate to the location and select one or more files that you want to attach.
+    2.  Drag the selected files to the Drag and drop files section.
+
+\[Omitted image "image.lens-drag-and-drop-section"\] Alt text: Drag and drop section.
+
+    3.  \(Optional\). To rename a file, select the file name and update it.
+    4.  Select **Upload all**.
+    5.  Select **Next**.
+    6.  The ServiceNow AI Lens preview window displays the files that you have uploaded
+
+\[Omitted image "image.lens-preview-uploaded-files"\] Alt text: Preview of uploaded files.
+
+    7.  \(Optional\). Do one or more of the following steps.
+        -   To remove an uploaded file, select the Remove file icon \(\[Omitted image "image.lens-delete-attached-file-icon"\] Alt text: Delete attached file icon.\).
+        -   To upload more files, select **Upload**.
+        -   To capture one or more screens from the browser, select **Capture**.
+        -   To guide ServiceNow AI Lens in extracting the information you need from the uploaded files, enter specific instructions in the **Additional instructions** field.
+    8.  Select **Analyze**.
+
+ServiceNow AI Lens updates the form fields.
+
+\[Omitted image "image.lens-screen-capture-success-msg"\] Alt text: Capture success message.
+
+    9.  Navigate to the form and verify that the fields are correctly updated.
+
+\[Omitted image "image.lens-form-autofilled"\] Alt text: Incident form auto-filled.
 
 </td></tr><tr><td id="use-desktop-app1">
 
@@ -129,7 +212,7 @@ The form is auto-filled.
 
 \[Omitted image "lens-update-with-lens-button.png"\] Alt text: Update with Lens button.
 
-4.  **Note:** On non-production instances, you can control which tables display the **Create with Lens** button using the following system properties:
+4.  **Note:** On non-production instances, you can control which tables display the **Update with Lens** button using the following system properties:
 
 -   `sn_app_lens_core.show_lens_action_on_all_tables`: Set to true \(default\) to show Lens actions on all tables, or false to restrict them to a defined list of tables.
 -   `sn_app_lens_core.lens_inclusion_table_list`: Comma-separated list of tables on which Lens actions should appear. Active only when the primary toggle is set to false.
@@ -144,7 +227,7 @@ The form is auto-filled.
 
 **Note:**
 
-    -   This confirmation dialog appears when you select **Create with Lens** for the first time. You can make this a one-time step by selecting **Always open &lt;instance-name.service-now.com&gt; links of this type in the associated app** before selecting **Open ServiceNow AI Lens.app**.
+    -   This confirmation dialog appears when you select **Update with Lens** for the first time. You can make this a one-time step by selecting **Always open &lt;instance-name.service-now.com&gt; links of this type in the associated app** before selecting **Open ServiceNow AI Lens.app**.
     -   On macOS, when you launch ServiceNow AI Lens desktop app for the first time, your Mac asks whether ServiceNow AI Lens can store your login credentials. Select **Always Allow** to avoid entering your credentials every time you open the application.
 7.  On the onboarding journey widget, complete the onboarding and select **Got it**.
 
@@ -214,128 +297,29 @@ The form is auto-filled.
 
 
 </td></tr></tbody>
-</table>2.  On your ServiceNow instance, navigate to the list view of a table.
+</table>2.  In the ServiceNow instance, review the text that is auto-filled by AI into your record.
 
-    Example of a table: Incidents
+    The fields that are auto-filled by AI are highlighted with the Sparkle icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: AI sparkle icon.
 
-3.  Select the record that you want to update.
+    Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-4.  Select **Update with Lens**.
-
-    \[Omitted image "update-with-lens.png"\] Alt text: Update with Lens button on the ServiceNow instance.
-
-    **Note:** On sub-production instances, you can control which tables display the **Update with Lens** button using the following system properties:
-
-    -   `sn_app_lens_core.show_lens_action_on_all_tables`: Primary toggle. Set to true \(default\) to show Lens actions on all tables, or false to restrict them to a defined list of tables.
-    -   `sn_app_lens_core.lens_inclusion_table_list`: Comma-separated list of tables on which Lens actions should appear. Active only when the primary toggle is set to false.
-    -   `sn_app_lens_core.lens_exclusion_table_list`: Comma-separated list of tables on which Lens actions should be hidden, even if the primary toggle is set to true.
-5.  In the ServiceNow AI Lens.app dialog box, select Open ServiceNow AI Lens.app.
-
-    **Tip:** This confirmation dialog appears when you select **Create with Lens** for the first time. You can make this a one-time step by selecting **Always allow &lt;instance-name.service-now.com&gt; to open links of this type in the associated app** before selecting Open ServiceNow AI Lens.app.
-
-6.  On the onboarding journey widget, complete the onboarding and select **Got it**.
-
-    \[Omitted image "onboarding-widget-lens.png"\] Alt text: Onboarding journey widget with three pages to show you the highlights of the application.
-
-    If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
-
-7.  On your system, open a document that you want to scan.
-
-    A document can be an image, a scanned handwritten note, web page, Excel Sheet or a Microsoft Word document.
-
-8.  Place the ServiceNow AI Lensscannerwindow on the top of the document.
-
-    You can resize the ServiceNow AI Lens scanner window by dragging its borders.
-
-9.  Update the form on the instance with data extracted from a single screenshot or file.
-
-    1.  To provide additional instructions to extract, analyze, and organize data, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
-
-        The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
-
-        **Note:** This is an optional step.
-
-        \[Omitted image "lens-auto-fill-form-single-scrnsht.png"\] Alt text: Extract data from a single screenshot or uploaded files
-
-        **Tip:** Use the Upload file icon to upload one or more files from which data is extracted and auto-filled in the form. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
-
-    2.  Select **Analyze**.
-
-        The form is updated with the extracted data.
-
-        \[Omitted image "lens-form-filled-instance.png"\] Alt text: Form is filled with extracted data.
-
-    3.  Verify that the form fields are correctly updated.
-
-10. Auto-fill the form on the instance with data extracted from multiple screenshots or uploaded files.
-
-    1.  To provide additional instructions to extract, analyze, and organize data, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
-
-        The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
-
-        **Note:** This is an optional step.
-
-    2.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text: Multi-capture icon..
-
-        **Tip:** Use the Upload file icon \(\[Omitted image "lens-file-upload-icon.png"\] Alt text: File Upload icon.\) to upload one or more files from which data is extracted and auto-filled in the form. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
-
-    3.  Select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\)
-
-        The first screenshot is captured.
-
-    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \[Omitted image "capture-icon.png"\] Alt text: Capture icon.\).
-
-        The second screenshot is captured.
-
-        Repeat the step to capture more screenshots, if required.
-
-        **Note:**
-
-        -   You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
-        -   To enable the desktop app to send large screenshot data to the server, confirm that the following system properties are set exactly as shown below:
-
-            |Property name|Type|Recommended value|
-            |-------------|----|-----------------|
-            |glide.rest.max\_content\_length|Integer|15|
-            |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
-
-            For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/r_ControllingMaxRequestSize.md)
-
-            **Note:** You must have the admin role to set the system properties.
-
-    5.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
-
-    6.  Select **Analyze**.
-
-        The form is auto-filled.
-
-        \[Omitted image "lens-form-filled-instance.png"\] Alt text: Form is filled with extracted data.
-
-    7.  Verify that the form fields are correctly filled.
-
-11. In the ServiceNow instance, review the text that is auto-filled by Now Assist into your record.
-
-    The fields that are auto-filled by Now Assist are highlighted with the Sparkle icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
-
-    Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).
-
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d68519e1337">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d78248e1250">
 
 Option
 
-</th><th align="left" id="d68519e1340">
+</th><th align="left" id="d78248e1253">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68519e1346">
+</th></tr></thead><tbody><tr><td id="d78248e1259">
 
 **If the auto-filled text looks good**
 
 </td><td>
 
-Save the record by right-clicking on the form header and then selecting **Save**.
+Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d68519e1358">
+</td></tr><tr><td id="d78248e1271">
 
 **If the auto-filled text requires changes**
 

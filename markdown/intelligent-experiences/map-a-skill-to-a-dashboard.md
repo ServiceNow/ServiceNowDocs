@@ -1,6 +1,6 @@
 ---
 title: Map a skill to a dashboard
-description: Map a Now Assist skill to a dashboard to view skill performance indicators and skill details.
+description: Map an AI skill to a dashboard to view skill performance indicators and skill details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/map-a-skill-to-a-dashboard.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, map, skill, dashboard, performance indicator, sn\_na\_analytics\_admin, sn\_na\_analytics\_configuration, genAI, Generative AI]
-breadcrumb: [Configuring Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Map a skill to a dashboard
 
-Map a Now Assist skill to a dashboard to view skill performance indicators and skill details.
+Map an AI skill to a dashboard to view skill performance indicators and skill details.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Roles required: sn\_na\_analytics.admin and sn\_nowassist\_admin.nsa\_admin
 
 1.  Navigate to the **All** menu and enter `sn_na_analytics_configuration.list`.
 
-    The Now Assist Analytics Configuration \[sn\_na\_analytics\_configuration\] table appears.\[Omitted image "naa-create-skill-dashboard-mapping.png"\] Alt text: Now Assist Analytics Configuration table.
+    The Now Assist Analytics Configuration \[sn\_na\_analytics\_configuration\] table appears.\[Omitted image "naa-create-skill-dashboard-mapping.png"\] Alt text: AI Analytics Configuration table.
 
 2.  Create a new mapping by selecting **New**
 

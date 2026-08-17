@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configure, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Quick start tests are disabled and read-only test templates. By default, they on
 
 To make quick start tests produce a pass result when you run them with your instance-specific data, copy and configure them to use your instance data.
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-perf-prof.md).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See .
 
 The Agile Development 2.0 \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests \(com.snc.sdlc.agile.2.0.atf\) plugins must be enabled.
 

@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Creator, Build workflows]
+breadcrumb: [ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Flow summarization
@@ -24,7 +24,7 @@ Summarize what a flow or subflow does by using generative AI.
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td></tr><tr><td>
 
@@ -32,7 +32,7 @@ Summarize what a flow or subflow does by using generative AI.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>## AI limitations

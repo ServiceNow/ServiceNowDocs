@@ -1,21 +1,21 @@
 ---
-title: Configuring Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
-description: By using Q&amp;A Genius Results in the Now Assist for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
+title: Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-cofig-gen-results.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configuring Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
+# Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-By using Q&amp;A Genius Results in the Now Assist for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
+By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
 
 ## Q&amp;A Genius Results overview
 
@@ -25,7 +25,7 @@ The Q&amp;A Genius Results capability enables request fulfillers and legal users
 
 ## Q&amp;A Genius Results configuration
 
-For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Now Assist for Legal Service Delivery \(LSD\) application.
+For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\) application.
 
 For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 

@@ -9,14 +9,14 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Link bot response control
 
 Use the Link bot response control in a Virtual Agent topic to present a bot response. The response contains a header prompt with either a single URL link to an item or multiple URL links for up to three items.
 
-**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the MobileDeepLinkGenerator - Global API.
+**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the [MobileDeepLinkGenerator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.md) API.
 
 ## Link bot response control properties
 
@@ -116,7 +116,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Supported|None|
+|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -130,7 +130,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ## Example single-link bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -168,5 +168,5 @@ Link bot response output
 **Note:** Multi-link bot output is also supported in Microsoft Teams, Slack, Workplace, and Facebook Messenger.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

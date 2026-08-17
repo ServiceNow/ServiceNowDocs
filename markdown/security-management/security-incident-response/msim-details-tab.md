@@ -264,7 +264,7 @@ Set your preferences to view the related activities such as:
 
 
 -   **[Restrict access to certain major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/restrict-access-major-security-incidents.md)**  
-Manage who can view or modify major security incidents that contain sensitive information. You can enforce major security incident restrictions to determine who has access to view or modify certain major security incident records and related lists and limit the read or write access only to certain users or groups.
+Manage access to sensitive major security incidents by restricting view and modify permissions to authorized users and groups.
 
 **Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/major-security-incident-setup.md)
 

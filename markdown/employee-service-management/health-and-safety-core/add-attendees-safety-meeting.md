@@ -34,15 +34,15 @@ Using the **Attendees** tab of a safety meeting, you can keep track of all atten
 
 4.  In the **Attendees** tab, select **Add** or **New** to add attendees for this meeting.
 
-<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d628570e112">
+<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d628661e112">
 
 Option
 
-</th><th align="left" id="d628570e115">
+</th><th align="left" id="d628661e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d628570e121">
+</th></tr></thead><tbody><tr><td id="d628661e121">
 
 **To add multiple attendees**
 
@@ -53,7 +53,7 @@ Add users with the Health and Safety profile in your organization who are attend
 3.  Select users in the list and then select **Add**.
 For information on Health and Safety profile, see [Health and Safety user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/health-and-safety-user-profile.md).
 
-</td></tr><tr><td id="d628570e167">
+</td></tr><tr><td id="d628661e167">
 
 **To add an external attendee or a single internal attendee**
 

@@ -1,35 +1,37 @@
 ---
-title: Exploring Now Assist in Regulatory Change Management \(RCM\)
-description: With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
+title: Explore ServiceNow Otto skills and agentic workflows in Regulatory Change Management
+description: With ServiceNow Otto skills and agentic workflows in Regulatory Change Management \(RCM\), you can streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-10-03"
-reading_time_minutes: 14
+last_updated: "2026-03-12"
+reading_time_minutes: 13
 keywords: [Now Assist, generative AI]
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Exploring Now Assist in Regulatory Change Management \(RCM\)
+# Explore ServiceNow Otto skills and agentic workflows in Regulatory Change Management
 
-With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
+With ServiceNow Otto skills and agentic workflows in Regulatory Change Management \(RCM\), you can streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 
-## Now Assist in RCM overview
+## ServiceNow Otto in RCM overview
 
 Organizations working in regulated environments must regularly interpret new and complex regulatory requirements, triage alerts, and determine which business areas are affected. These activities are often performed manually, which can result in delays, inconsistent analysis, and difficulty referencing previous regulatory responses.
 
-Now Assist in Regulatory Change Management provides a set of generative AI skills and agentic workflows designed to address these challenges.
+ServiceNow Otto in RCM provides a set of generative AI skills and agentic workflows designed to address these challenges.
 
 The summarization skill enables you to generate summaries of a regulatory alert and recommend impacted areas, including citations, control objectives, controls, and policies, for alerts in any state except Closed or Cancelled. The recommendation skills analyzes incoming alerts against existing citations, control objectives, controls and policies to generate suggestions, leveraging generative AI to support more consistent and efficient compliance analysis.
 
 The Get Regulatory Analysis agentic workflow analyzes and enriches regulatory alerts in any state except Closed or Cancelled by leveraging web search and organizational data. It provides additional context for each alert and recommends potential impacts on citations, control objectives, controls, and policies. The Generate Regulatory Action Plan agentic workflow generates regulatory action plans for regulatory alert in the In Progress state by analyzing impacted areas and referencing similar historical alerts. It creates change tasks and action items that help teams implement regulatory changes.
 
-## Now Assist in RCM benefits
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
-The generative AI skills for **Now Assist in Regulatory Change Management** offer the following benefits:
+## ServiceNow Otto in RCM benefits
+
+The generative AI skills in Regulatory Change Management offer the following benefits:
 
 -   Automated summarization of regulatory alerts, reducing manual effort in interpreting complex regulatory language and surfacing key details such as important dates, regulatory authority, key changes, and penalties/fines.
 -   AI-powered recommendations of impacted areas, including citations, control objectives, and controls, helping compliance teams quickly assess business impact and prioritize responses.
@@ -37,15 +39,15 @@ The generative AI skills for **Now Assist in Regulatory Change Management** offe
 -   Accelerated regulatory change processing, enabling faster turnaround for compliance actions, audits, and reporting through embedded workflows and contextual recommendations.
 -   Scalable and configurable framework, supporting integration of new RCM skills and workflows to adapt to evolving regulatory landscapes and organizational needs.
 
-The agentic workflows for **Now Assist in Regulatory Change Management** offer the following benefits:
+The agentic workflows in Regulatory Change Management offer the following benefits:
 
 -   Context-enriched regulatory analysis, enabling you to enhance alerts through an automated agent that surfaces relevant external and internal references, helping to reduce time spent manually researching regulatory context.
 -   Automated impact mapping, enabling workflows to recommend affected citations, control objectives, policies, and controls based on historical data and organizational frameworks helping to accelerate impact analysis and reduce the risk of oversight.
 -   Actionable task generation, where workflows automatically create change tasks and action plans aligned with regulatory requirements, helping teams move from insight to execution without manual task creation.
 
-## Now Assist in RCM skills
+## ServiceNow Otto generative AI skills in RCM
 
-The following generative AI skills are available in Now Assist in RCM:
+RCM uses the following generative AI skills from ServiceNow Otto:
 
 <table id="table_p1h_lgx_12c"><thead><tr><th>
 
@@ -61,7 +63,7 @@ User
 
 </th></tr></thead><tbody><tr><td>
 
-Regulatory alert Summarization
+[Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md)
 
 </td><td>
 
@@ -72,7 +74,17 @@ Generate a concise summary of a regulatory alert using generative AI.
 -   Summary of key changes
 -   Penalties or fines
 
-For more information, see [AI-driven regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md).
+</td><td>
+
+To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_user roles.
+
+</td></tr><tr><td>
+
+[Regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md)
+
+</td><td>
+
+Recommend citations that may be affected by the regulatory alert. These recommendations help compliance teams identify relevant legal references and streamline the impact analysis process.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 </td><td>
 
@@ -80,23 +92,11 @@ To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user 
 
 </td></tr><tr><td>
 
-Regulatory alert impacted citations
+[Regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommend-co-reg-alert.md)
 
 </td><td>
 
-Recommend citations that may be affected by the regulatory alert. These recommendations help compliance teams identify relevant legal references and streamline the impact analysis process.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
-
-</td><td>
-
-To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_user roles.
-
-</td></tr><tr><td>
-
-Regulatory alert impacted control objectives
-
-</td><td>
-
-Recommend control objectives that may be affected by the regulatory alert. These recommendations help teams align regulatory changes with internal control frameworks and help ensure that compliance measures are updated accordingly.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
+Recommend control objectives that may be affected by the regulatory alert. These recommendations help teams align regulatory changes with internal control frameworks and help ensure that compliance measures are updated accordingly.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 </td><td>
 
@@ -104,11 +104,11 @@ To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user 
 
 </td></tr><tr><td>
 
-Regulatory alert impacted controls
+[Regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-controls.md)
 
 </td><td>
 
-Recommend controls that may be affected, such as operational, technical, or procedural safeguards. These recommendations support proactive compliance adjustments and risk mitigation.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
+Recommend controls that may be affected, such as operational, technical, or procedural safeguards. These recommendations support proactive compliance adjustments and risk mitigation.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 </td><td>
 
@@ -116,11 +116,11 @@ To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user 
 
 </td></tr><tr><td>
 
-Regulatory alert impacted policies
+[Regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-policies.md)
 
 </td><td>
 
-Recommend policies that may be affected by the regulatory alert. These recommendations help compliance teams identify relevant internal policy documents and ensure alignment with updated regulatory requirements.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
+Recommend policies that may be affected by the regulatory alert. These recommendations help compliance teams identify relevant internal policy documents and ensure alignment with updated regulatory requirements.For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 </td><td>
 
@@ -131,9 +131,9 @@ To view your assigned regulatory alerts, you need the sn\_grc\_reg\_change.user 
 
 By default, only alerts in the New state are eligible for summarization, though this can be configured to include other states; recommendations can be generated for alerts in any state except Closed or Cancelled. To access these skills, the sn\_grc\_comp\_genai.reg\_change\_ai\_user role must be manually assigned to users.
 
-## Now Assist in RCM agentic workflows
+## ServiceNow Otto agentic workflows in RCM
 
-The following agentic workflows are available in Now Assist in RCM:
+RCM uses the following agentic workflows from ServiceNow Otto:
 
 <table id="table_okm_2lg_dhc"><thead><tr><th>
 
@@ -149,11 +149,11 @@ User
 
 </th></tr></thead><tbody><tr><td>
 
-Get regulatory analysis agentic workflow
+[Get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-agent-insights-workflow.md)
 
 </td><td>
 
-Analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the Now Assist panel. This agentic workflow uses web search to enhance alert context and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. For more information, see [Get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rcm-agent-insights-workflow.md) and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/get-rcm-reg-insight.md).
+Analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the ServiceNow Otto panel. This agentic workflow uses web search to enhance alert context and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. For more information, see [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md) and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md).
 
 </td><td>
 
@@ -161,18 +161,18 @@ sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 </td></tr><tr><td>
 
-Generate regulatory action plan agentic workflow
+[Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-agent-actions-workflow.md)
 
 </td><td>
 
-Generate regulatory action plans by using the generate regulatory action Plan agentic workflow in the Now Assist panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change.For more information, see [Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rcm-agent-actions-workflow.md) and [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/generate_regulatory_action_plans.md).
+Generate regulatory action plans by using the generate regulatory action Plan agentic workflow in the ServiceNow Otto panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change.For more information, see [Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md) and [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md).
 
 </td><td>
 
 sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 </td></tr></tbody>
-</table>**Note:** The generate regulatory action plan agentic workflow is available when regulatory alerts are in the In Progress state. The get regulatory analysis agentic workflow is available when regulatory alerts are in any state except for the Closed or Cancelled state. To access these workflows, you must be assigned the sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user role. The get regulatory analysis agentic workflow relies on recommendation templates and alert configurations to generate actionable insights and tasks. Ensure that templates are properly set up and alerts are categorized to support workflow execution. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md), [Create a recommendation context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-recommendation-context.md), and [Create a recommendation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-a-recommendation-template.md).
+</table>**Note:** The Generate regulatory action plan agentic workflow is available when regulatory alerts are in the In Progress state. The Get regulatory analysis agentic workflow is available when regulatory alerts are in any state except for the Closed or Cancelled state. To access these workflows, you must be assigned the sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user role. The Get regulatory analysis agentic workflow relies on recommendation templates and alert configurations to generate actionable insights and tasks. Ensure that templates are properly set up and alerts are categorized to support workflow execution. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md), [Create a recommendation context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-recommendation-context.md), and [Create a recommendation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-a-recommendation-template.md).
 
 **Important:**
 
@@ -187,43 +187,20 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist in Regulatory Change Management and Now Assist for IRM, see:
+To learn more about configuring and using ServiceNow Otto for Regulatory Change Management and ServiceNow Otto for IRM, see:
 
--   [Exploring Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
--   [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
--   [Using Now Assist for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
--   [Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
--   [AI-driven regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md)
--   [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md)
--   [Activate the Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/summarize-a-regulatory-alert.md)
--   [Activate Regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-recommendation-skill-for-a-regulatory-alert.md)
--   [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md)
--   [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
--   [Get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rcm-agent-insights-workflow.md)
--   [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/get-rcm-reg-insight.md)
--   [Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rcm-agent-actions-workflow.md)
--   [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/generate_regulatory_action_plans.md)
-
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
+-   [Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
+-   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+-   [Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
+-   [Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+-   [Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md)
+-   [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md)
+-   [Activate the Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/summarize-a-regulatory-alert.md)
+-   [Activate Regulatory alert recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/configure-recommendation-skill-for-a-regulatory-alert.md)
+-   [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.md)
+-   [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md)
+-   [Get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-agent-insights-workflow.md)
+-   [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.md)
+-   [Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-agent-actions-workflow.md)
+-   [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/generate_regulatory_action_plans.md)
 

@@ -18,9 +18,9 @@ Generate a summary from your team's data to quickly review activities, progress,
 
 ## Before you begin
 
-Ensure you have the Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
+Ensure you have the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-Configure the manager insights skill. For more information, see [Configure manager insights for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/config-manager-insights.md).
+Configure the manager insights skill. For more information, see [Configure manager insights for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/config-manager-insights.md).
 
 Role required: sn\_mh.manager\_hub\_user
 
@@ -34,6 +34,6 @@ Role required: sn\_mh.manager\_hub\_user
 
 3.  Select **Generate** on the **Generate summary for new updates** banner.
 
-    A summary of your team's activities are displayed.\[Omitted image "generate-summary-mh.png"\] Alt text:
+    A summary of your team's activities are displayed.
 
 

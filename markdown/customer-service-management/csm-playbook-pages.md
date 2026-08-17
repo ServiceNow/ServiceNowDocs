@@ -198,7 +198,7 @@ Add optional activities to a playbook stage as needed.
 
 </td><td>
 
-Use the Now Assist for CSM case summarization skill to summarize the case details and display this information on the case record.
+Use the ServiceNow Otto for CSM case summarization skill to summarize the case details and display this information on the case record.
 
 </td></tr><tr><td>
 

@@ -38,10 +38,10 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
 -   **[Third-party Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-tprm-rn.md)**  
 The ServiceNow® Third-party Risk Management \(TPRM\) application provides a centralized process for managing your portfolio of third parties and their engagements, assessing and scoring risk, and performing remediation. TPRM was enhanced and updated in the Zurich release.
--   **[Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-irm-rn.md)**  
-The ServiceNow® Now Assist for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. Now Assist for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
--   **[Now Assist for Third-party Risk Management \(TPRM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-tprm-rn.md)**  
-The ServiceNow® Now Assist for TPRM application brings generative AI to Third-party Risk Management. Now Assist for Third-party Risk Management \(TPRM\) is a new application in the Zurich release.
+-   **[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-irm-rn.md)**  
+The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. ServiceNow Otto for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-tprm-rn.md)**  
+The ServiceNow® Now Assist for TPRM application brings generative AI to Third-party Risk Management. ServiceNow Otto for Third-party Risk Management \(TPRM\) is a new application in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

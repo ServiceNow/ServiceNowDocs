@@ -47,5 +47,3 @@ Subscription data is shared with your primary production instance.
 
 Log in to your primary production instance to view the subscription data that is now shared with that instance. Repeat these steps for each additional production instance that has subscription data that you want to view from the primary production instance.
 
-**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
-

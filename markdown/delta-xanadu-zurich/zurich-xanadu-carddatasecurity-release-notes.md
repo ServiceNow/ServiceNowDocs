@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-carddatasecurity-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[Card Data Security](https://servicenow-staging.fluidtopics.net/access?context=card-data-security&family=zurich&ft:locale=en-US)**
+-   **[Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&family=zurich&ft:locale=en-US)**
 
 Tokenize secure card data in FSO dispute workflows by integrating with a tokenizer service through Card data security. You can configure which values to tokenize, establish connections to core systems and third-party systems like Visa and Mastercard, and manage tokenizer resource configurations.
 
@@ -430,7 +430,7 @@ Zurich
 -   Ensure Payment Card Industry \(PCI\) compliance and the secure handling of sensitive card data with an integrated tokenization solution for Financial Services Operations disputes.
 -   Integrate with major core systems and third-party systems, including \(but not limited to\) Visa, Mastercom, Mastercom Extended, Ethoca, Verifi, and Visa Stop Payment Service. Visa and Mastercom are predefined integrations.
 
- See [Card Data Security](https://servicenow-staging.fluidtopics.net/access?context=card-data-security&family=zurich&ft:locale=en-US) for more information.
+ See [Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

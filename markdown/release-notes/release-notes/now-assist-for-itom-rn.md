@@ -1,18 +1,23 @@
 ---
-title: Now Assist for IT Operations Management \(ITOM\) release notes
-description: The ServiceNow Now Assist for ITOM application brings generative AI to ITOM. Now Assist for ITOM was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for IT Operations Management \(ITOM\) release notes
+description: The ServiceNow ServiceNow Otto for ITOM application brings generative AI to ITOM. ServiceNow Otto for ITOM was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-08-21"
-reading_time_minutes: 11
+reading_time_minutes: 12
 ---
 
-# Now Assist for IT Operations Management \(ITOM\) release notes
+# ServiceNow Otto for IT Operations Management \(ITOM\) release notes
 
-The ServiceNow® Now Assist for ITOM application brings generative AI to ITOM. Now Assist for ITOM was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for ITOM application brings generative AI to ITOM. ServiceNow Otto for ITOM was enhanced and updated in the Zurich release.
 
-## Now Assist for ITOM highlights for the Zurich release
+## ServiceNow Otto for ITOM highlights for the Zurich release
+
+[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
+
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for ITOM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the Microsoft Azure and Google Cloud AI agents for deeper analysis in the analyze alert impact agentic workflow.
 
 [Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md)
 
@@ -51,7 +56,7 @@ Use the ITOM MCP Server with an MCP client application to investigate alerts, re
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
 -   View an error analysis by Now Assist in Agent Client Collector.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
@@ -61,11 +66,16 @@ Use the ITOM MCP Server with an MCP client application to investigate alerts, re
 -   Use the triage and analyze alert agentic workflow to perform initial triage and analysis in the context of an incident.
 -   Review Alert analysis, and relevant information for new mixed alert groups in the Now Assist panel to help investigate alerts more effectively.
 
-See [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom.md) for more information.
+See [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom.md) for more information.
 
-**Important:** Now Assist for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
+
+-   **Configure the Microsoft Azure and Google Cloud agents**
+
+    Set up the Microsoft Azure and Google Cloud AI agents to get insights from those tools in the analyze alert impact agentic workflow. With Microsoft Azure and Google Cloud support, the workflow helps you investigate and respond to alerts from a wider range of observability tools, including Dynatrace, New Relic, and Kentik.
+
 
 -   ****
 
@@ -144,7 +154,7 @@ See [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercon
 
     Enable security settings to run AI agents and agentic workflows using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
 
--   **[Now Assist certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-cert-renewal-ai-agent.md)**
+-   **[Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-cert-renewal-ai-agent.md)**
 
     Use the Now Assist certificate renewal AI agentic workflow to automatically renew certificates before they expire. You can perform the following with the Now Assist certificate renewal AI agent:
 
@@ -165,9 +175,14 @@ See [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercon
 
 ## Changed in this release
 
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 -   **[AIOps AI agents removed from the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-agentic-aia.md)**
 
@@ -194,20 +209,22 @@ See [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercon
 
 -   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
+    Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
 ## Deprecations
+
+In [Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md), the Google Gemini Cloud Assist agent is being prepared for future deprecation. To continue receiving Google Cloud insights, use the analyze alert impact agentic workflow which includes the Gemini Cloud Assist A2A Investigation Agent. For configuration instructions, see .
 
 In [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see .
 
 ## Activation information
 
-Install AIOps Experience \[sn\_sow\_aiops\] and Now Assist for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install AIOps Experience \[sn\_sow\_aiops\] and ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
-The Now Assist for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
 
 ## Accessibility information
 
@@ -222,9 +239,9 @@ The Now Assist for ITOM application requires an ITOM Pro Plus or Enterprise Plus
 
     Help improve organizational efficiency, deliver better self-service, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    Use the Now Assist Admin console to learn how to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to learn how to set up, configure, and monitor Now Assist applications and features.
 
 -   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 

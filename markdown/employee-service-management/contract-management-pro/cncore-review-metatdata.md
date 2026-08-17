@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Metadata Extraction]
-breadcrumb: [Contract metadata extraction, Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract metadata extraction, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work with extracted metadata
@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d616766e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d616867e69">
 
 Method
 
-</th><th align="left" id="d616766e72">
+</th><th align="left" id="d616867e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d616766e78">
+</th></tr></thead><tbody><tr><td id="d616867e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d616766e126">
+</td></tr><tr><td id="d616867e126">
 
 **Workspace used by your application**
 
@@ -68,8 +68,6 @@ Steps
 </table>2.  Select **Review extracted metadata**.
 
     The Document Intelligence workspace opens on a different tab displaying the extracted information.
-
-    \[Omitted image "cmpro-na-di-me.png"\] Alt text: Document intelligence workspace to update the extracted metadata.
 
 3.  Review the extracted information.
 

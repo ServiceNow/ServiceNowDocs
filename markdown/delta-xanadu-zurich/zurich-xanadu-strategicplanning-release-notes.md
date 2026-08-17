@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-strategicplanning-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-After upgrading to Strategic Planning v4.3.2, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://servicenow-staging.fluidtopics.net/access?context=target-breakdowns-migration-spw&family=xanadu&ft:locale=en-US).
+After upgrading to Strategic Planning v4.3.2, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://www.servicenow.com/docs/access?context=target-breakdowns-migration-spw&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Yokohama
 
 After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
 
--   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
+-   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
 -   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
 
 </td></tr><tr><td>
@@ -80,11 +80,11 @@ Xanadu
 
 </td><td>
 
--   **[Show or hide features for your portfolio plan](https://servicenow-staging.fluidtopics.net/access?context=show-or-hide-the-features-for-your-portfolio-plan-spw&family=xanadu&ft:locale=en-US)**
+-   **[Show or hide features for your portfolio plan](https://www.servicenow.com/docs/access?context=show-or-hide-the-features-for-your-portfolio-plan-spw&family=xanadu&ft:locale=en-US)**
 
 As a portfolio manager, show or hide the features, such as Goals, Scoring, Prioritization, and Roadmap, of your portfolio plan. This capability helps you share only the portfolio plan data that matters to your stakeholders and restrict access to the other data.
 
--   **[Goal management enhancements](https://servicenow-staging.fluidtopics.net/access?context=managing-goals-in-alignment-planner-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Goal management enhancements](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&family=xanadu&ft:locale=en-US)**
     -   Create daily, weekly, or monthly target breakdowns according to how often you want to update and track the progress of the target. The target breakdowns are created based on the value selected in the **Check-in frequency** field. For example, if you select **Monthly** in the **Check-in frequency** field for a target spanning a year, then 12 monthly target breakdowns are created.
     -   Updating actuals for a target has been simplified with an enhanced UI:
         -   In the Check-in actuals window on the **Progress** tab of the target’s side panel, update the actual value of any time period or breakdown.
@@ -92,70 +92,70 @@ As a portfolio manager, show or hide the features, such as Goals, Scoring, Prior
     -   When creating a target, the **Target breakdown details** section of the Target modal shows the planned target values for each target breakdown in a tabular format, which helps you visualize the final target value spread across the target’s time period.
     -   On the Target form, use the **Baseline reference** field to compare future target performance with the actual value that was achieved in the last year or before the target was created.
     -   Add targets to a new goal using the **Save and add target** option on the Goal modal. Also, you can use the **Save and add new target** option to add more targets for the goal.
-    -   Run the **Create Goals Demo Data with Target Breakdowns** scheduled job to create demo data with goals and target breakdowns. For more information on this scheduled job, see [Create goals demo data with target breakdowns](https://servicenow-staging.fluidtopics.net/access?context=create-goals-demo-data-with-target-breakdowns&family=xanadu&ft:locale=en-US).
-    -   Create a copy of a goal or target using the **Duplicate** option from the row context menu icon \(\[Omitted image "image.row-context-menu-icon"\] Alt text: Row context menu icon.\). For more information, see [Create a copy of a goal or target](https://servicenow-staging.fluidtopics.net/access?context=create-a-copy-of-a-goal-or-target&family=xanadu&ft:locale=en-US).
+    -   Run the **Create Goals Demo Data with Target Breakdowns** scheduled job to create demo data with goals and target breakdowns. For more information on this scheduled job, see [Create goals demo data with target breakdowns](https://www.servicenow.com/docs/access?context=create-goals-demo-data-with-target-breakdowns&family=xanadu&ft:locale=en-US).
+    -   Create a copy of a goal or target using the **Duplicate** option from the row context menu icon \(\[Omitted image "image.row-context-menu-icon"\] Alt text: Row context menu icon.\). For more information, see [Create a copy of a goal or target](https://www.servicenow.com/docs/access?context=create-a-copy-of-a-goal-or-target&family=xanadu&ft:locale=en-US).
     -   Activity stream is enabled for the targets and goals in the full details record page.
--   **[Planning enhancements](https://servicenow-staging.fluidtopics.net/access?context=planning-in-spw&family=xanadu&ft:locale=en-US)**
+-   **[Planning enhancements](https://www.servicenow.com/docs/access?context=planning-in-spw&family=xanadu&ft:locale=en-US)**
     -   Filter planning items in the Prioritization page and roadmap bars in the Roadmap page with multi-value fields, such as tags, business applications, and business capabilities.
     -   In the Child items related list of an EAP planning item, view child items associated with the epic in EAP.
-    -   When you view a portfolio plan, you can copy a portfolio plan that you don't have edit access to and edit the plan as needed. For more information, see [Copy a portfolio plan](https://servicenow-staging.fluidtopics.net/access?context=copy-portfolio-plan-in-strategic-planning&family=xanadu&ft:locale=en-US).
--   **[Now Assist in Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)**
+    -   When you view a portfolio plan, you can copy a portfolio plan that you don't have edit access to and edit the plan as needed. For more information, see [Copy a portfolio plan](https://www.servicenow.com/docs/access?context=copy-portfolio-plan-in-strategic-planning&family=xanadu&ft:locale=en-US).
+-   **[Now Assist in Strategic Planning](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)**
     -   Generate a summary of selected text on Docs using the Planning item Gen AI Docs skill. You can summarize, elaborate, and shorten the selected content on Docs.
     -   Summarize a large volume of feedback using the multi feedback summarization skill on the Feedback page.
     -   Create a demand within the Employee Service Management \(ESC\) portal using the Now Assist conversational catalog creation capability.
     -   Summarize the complete content of a document with the Planning item Gen AI Docs skill to help save time on manual content analysis.
--   **[Collaborate using Docs](https://servicenow-staging.fluidtopics.net/access?context=docs-for-eap-teams-and-planning-items&family=xanadu&ft:locale=en-US)**
+-   **[Collaborate using Docs](https://www.servicenow.com/docs/access?context=docs-for-eap-teams-and-planning-items&family=xanadu&ft:locale=en-US)**
     -   Store the information of key artifacts and other details of planning items, such as Epics, Capabilities, and Features, directly from within the workspace.
     -   Manage team-level documentation for Agile team, ART, Solution Train, and Portfolio.
     -   Create multiple rich-text documents at each planning item level or Agile team level.
         -   Help avoid data loss and parallel editing with real-time collaboration.
         -   Tag team members to their action items.
         -   Insert media and URLs.
--   **[Docs for planning items](https://servicenow-staging.fluidtopics.net/access?context=docs-for-planning-items-in-spw&family=xanadu&ft:locale=en-US)**
+-   **[Docs for planning items](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=xanadu&ft:locale=en-US)**
     -   Store the information of key artifacts and other details of planning items, such as Demands, Projects, and Epics, directly from within the workspace.
     -   Create multiple rich-text documents at each planning item level.
         -   Help avoid data loss and parallel editing with real-time collaboration.
         -   Tag team members to their action items.
         -   Insert media and URLs.
--   **[Migrate from SAFe](https://servicenow-staging.fluidtopics.net/access?context=migrating-from-safe-to-eap&family=xanadu&ft:locale=en-US)**
+-   **[Migrate from SAFe](https://www.servicenow.com/docs/access?context=migrating-from-safe-to-eap&family=xanadu&ft:locale=en-US)**
 
 Transition from Scaled Agile Framework \(SAFe\) applications, such as Essential SAFe and Portfolio SAFe, to EAP. Use the Guided Setup module in the Strategic Planning application to execute your migration step by step.
 
 This migration is intended to be one-time only. Initiating the migration again later while continuing to use SAFe applications with EAP won't carry any changes made to the SAFe records that are already migrated.
 
--   **[Override the default planning calendar for Agile Teams](https://servicenow-staging.fluidtopics.net/access?context=create-planning-calendar-type-in-eap&family=xanadu&ft:locale=en-US)**
+-   **[Override the default planning calendar for Agile Teams](https://www.servicenow.com/docs/access?context=create-planning-calendar-type-in-eap&family=xanadu&ft:locale=en-US)**
 
 For Agile Teams and Agile release trains \(ARTs\), the **Override planning calendar** field enables team members to change their planning calendar. The updated calendar is automatically applied to any child teams and takes effect at the beginning of the next iteration.
 
--   **[Persistence of personalization settings for the EAP PI planning board](https://servicenow-staging.fluidtopics.net/access?context=pi-planning-eap&family=xanadu&ft:locale=en-US)**
+-   **[Persistence of personalization settings for the EAP PI planning board](https://www.servicenow.com/docs/access?context=pi-planning-eap&family=xanadu&ft:locale=en-US)**
 
 Personalization of the settings made in the PI planning board for a team type are applied across the workspace according to user, team type, and work item type. For example, settings applied to one ART, such as enabling the Dependencies toggle, Team backlog lane, or compact cards, are applied to all ARTs in the workspace for a user.
 
--   **[Optimize planning using scenario planning](https://servicenow-staging.fluidtopics.net/access?context=scenario-planning-in-strategic-planning&family=xanadu&ft:locale=en-US)**
+-   **[Optimize planning using scenario planning](https://www.servicenow.com/docs/access?context=scenario-planning-in-strategic-planning&family=xanadu&ft:locale=en-US)**
     -   Create scenarios in a simulated environment and adjust the prioritization and timelines of planning items.
     -   Check the alignment of planning items with goals to verify the delivery of strategic outcomes.
     -   Visualize the differences between goal alignment and trade-off decisions between scenarios by comparing scenarios side by side.
     -   Approve the best scenario as the live portfolio plan for execution and making informed decisions.
--   **[Export goals and targets data to Excel or CSV](https://servicenow-staging.fluidtopics.net/access?context=export-goals-and-targets-to-excel&family=xanadu&ft:locale=en-US)**
+-   **[Export goals and targets data to Excel or CSV](https://www.servicenow.com/docs/access?context=export-goals-and-targets-to-excel&family=xanadu&ft:locale=en-US)**
 
 Export goals and targets from your portfolio plan into a Microsoft Excel or CSV file to share the data and collaborate with your business stakeholders.
 
--   **[Export a roadmap or free-form roadmap to PowerPoint](https://servicenow-staging.fluidtopics.net/access?context=export-a-portfolio-plan-to-powerpoint-strategic-planning&family=xanadu&ft:locale=en-US)**
+-   **[Export a roadmap or free-form roadmap to PowerPoint](https://www.servicenow.com/docs/access?context=export-a-portfolio-plan-to-powerpoint-strategic-planning&family=xanadu&ft:locale=en-US)**
 
 Export a roadmap or free-form roadmap from a portfolio plan into a Microsoft PowerPoint file to share data and collaborate with your business stakeholders. The predefined template helps you generate reports for your roadmap, including roadmap milestones, item milestones, vertical lines, and horizontal lanes.
 
 You can export a roadmap for the maximum tenure of lanes a year at a time. You can also choose between Compact mode, which exports 25 horizontal lanes per slide, or Default mode, which exports 15 horizontal lanes per slide, when exporting your roadmap.
 
-You can select the data that you want to be exported into the report by editing the predefined templates or creating your own branded template. For more information, see [Create a Microsoft PowerPoint template](https://servicenow-staging.fluidtopics.net/access?context=create-ppt-template&family=xanadu&ft:locale=en-US).
+You can select the data that you want to be exported into the report by editing the predefined templates or creating your own branded template. For more information, see [Create a Microsoft PowerPoint template](https://www.servicenow.com/docs/access?context=create-ppt-template&family=xanadu&ft:locale=en-US).
 
--   **[Plan at a high level using the Project Program lens](https://servicenow-staging.fluidtopics.net/access?context=portfolio-plans-in-strategic-planning&family=xanadu&ft:locale=en-US)**
+-   **[Plan at a high level using the Project Program lens](https://www.servicenow.com/docs/access?context=portfolio-plans-in-strategic-planning&family=xanadu&ft:locale=en-US)**
 
 Plan at a high level by building portfolio plans for program \[pm\_program\] items using the Project Program lens. Score and prioritize the programs and track them using roadmaps.
 
--   **[Feedback enhancements](https://servicenow-staging.fluidtopics.net/access?context=managing-product-feedback-in-strategic-planning&family=xanadu&ft:locale=en-US)**
+-   **[Feedback enhancements](https://www.servicenow.com/docs/access?context=managing-product-feedback-in-strategic-planning&family=xanadu&ft:locale=en-US)**
     -   Manage the feedback filter card directly from the feedback homepage by sorting, pinning, sharing, updating, or deleting it.
     -   Allow access to specific users or groups when sharing the feedback filter card, and review the users who have access to it.
--   **[Financials in Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=using-financials-spw&family=xanadu&ft:locale=en-US)**
+-   **[Financials in Strategic Planning](https://www.servicenow.com/docs/access?context=using-financials-spw&family=xanadu&ft:locale=en-US)**
     -   Migrate the existing planning items budget from the classic UI to Next Experience using the **Migrate Budget** option.
     -   As a portfolio manager, allocate and manage the budget of your planning items using the Budget vs cost view.
     -   As a project manager, compare a budget to the captured costs of your planning items and reforecast the planned costs to meet the approved budget.
@@ -164,7 +164,7 @@ Plan at a high level by building portfolio plans for program \[pm\_program\] ite
     -   Widgets in the Cost view of parent projects display the rolled-up value of the planned costs, expense lines, budget, and variance.
     -   Create custom labor cost types and map them with a unique sys\_id to generate labor costs.
 
--   **[Capacity Planning in Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=using-cap-plan-spw&family=xanadu&ft:locale=en-US)**
+-   **[Capacity Planning in Strategic Planning](https://www.servicenow.com/docs/access?context=using-cap-plan-spw&family=xanadu&ft:locale=en-US)**
     -   Select a primary attribute to auto-select the resource criteria based on the planning items in the portfolio.
     -   Automatically generate resource capacity using a scheduled job at your desired cadence.
     -   View only prioritized planning items in the bottom tray of the Capacity Planning screen.
@@ -176,13 +176,13 @@ Yokohama
 
 </td><td>
 
--   **[Dashboards for data analysis and decision-making](https://servicenow-staging.fluidtopics.net/access?context=dashboards-in-spw&family=yokohama&ft:locale=en-US)**
+-   **[Dashboards for data analysis and decision-making](https://www.servicenow.com/docs/access?context=dashboards-in-spw&family=yokohama&ft:locale=en-US)**
 
 Use dashboards to view key data and metrics, enabling you to monitor performance, track progress, and make informed decisions related to ideas, feedback, planning, and execution. Dashboards consolidate data from multiple sources into a single, easily digestible format. Each widget within a dashboard displays key data and metrics and may include visualizations. The default dashboards include the Product Idea Dashboard, Feedback Dashboard, Strategy Execution Dashboard, and Execution Dashboard.
 
 You can create or edit dashboards, copy an existing dashboard and customize it as needed, and share dashboards to collaborate with business stakeholders who have access to the portfolio plan.
 
--   **[Create and share views for portfolio plans and free-form roadmaps](https://servicenow-staging.fluidtopics.net/access?context=managing-portfolio-plan-views-spw&family=yokohama&ft:locale=en-US)**
+-   **[Create and share views for portfolio plans and free-form roadmaps](https://www.servicenow.com/docs/access?context=managing-portfolio-plan-views-spw&family=yokohama&ft:locale=en-US)**
 
 For portfolio plans - Create, edit, and switch between views with display preferences such as column selection, grouping, and filtering for portfolio plans. You can create personal views that are private to you, or public views that can be shared with stakeholders who have access to the portfolio plan. The portfolio plan view saves your display preferences across the **Prioritization**, **Roadmap**, **Capacity**, and **Financials** tabs.
 
@@ -190,48 +190,48 @@ For portfolio plans - Create, edit, and switch between views with display prefer
 
 For free-form roadmaps - Create, edit, and switch between views with display preferences such as grouping, milestones selection, dependencies selection, and tracking mode for free-form roadmaps. You can create personal views that are private to you, or public views that can be shared with stakeholders who have access to the free-form roadmap.
 
--   **[Write planning item skill](https://servicenow-staging.fluidtopics.net/access?context=refine-text-with-write-planning-item-skill&family=yokohama&ft:locale=en-US)**
+-   **[Write planning item skill](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=yokohama&ft:locale=en-US)**
     -   Improve record quality and user satisfaction by enabling AI assistance in the **Description** field across all Strategic Planning Workspace forms, including product idea, demand, epic, project, capability, feature, and story.
     -   Enable text refinement with the **Elaborate** and **Shorten** options on planning items to support product managers and agile team members in creating and editing content more effectively.
--   **[Plan efficiently with additional pre-defined lenses](https://servicenow-staging.fluidtopics.net/access?context=lens-alignment-planner-workspace&family=yokohama&ft:locale=en-US)**
+-   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&family=yokohama&ft:locale=en-US)**
 
 Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
 
 The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
 
--   **[Cycle time report for Agile teams in EAP dashboards](https://servicenow-staging.fluidtopics.net/access?context=eap-agile-team-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[Cycle time report for Agile teams in EAP dashboards](https://www.servicenow.com/docs/access?context=eap-agile-team-dashboard&family=yokohama&ft:locale=en-US)**
 
 Analyze how long the stories take for your Agile team to move from an in-progress state to completion. Each bubble on the chart represents a story and the chart shows stories completed in the past 30 days. You can compare the cycle times of stories that have different story points and review the trend in the time taken by the team to complete them.
 
 Using this data, identify the stories that took longer to complete and analyze the reasons so that you can draft an action plan to optimize the team's cycle time in the future.
 
--   **[Kanban configuration for EAP teams](https://servicenow-staging.fluidtopics.net/access?context=agile-configurations-in-eap&family=yokohama&ft:locale=en-US)**
+-   **[Kanban configuration for EAP teams](https://www.servicenow.com/docs/access?context=agile-configurations-in-eap&family=yokohama&ft:locale=en-US)**
 
 Use the Kanban configuration for teams that don't prefer to work in an iteration-based schedule. You can activate the predefined Kanban configuration and add teams to your Agile structure or you can modify an existing configuration by setting the **Planning calendar** field to **None**.
 
--   **[Column filters in EAP Backlog](https://servicenow-staging.fluidtopics.net/access?context=using-eap&family=yokohama&ft:locale=en-US)**
+-   **[Column filters in EAP Backlog](https://www.servicenow.com/docs/access?context=using-eap&family=yokohama&ft:locale=en-US)**
 
 Quickly find the work items that you need by using column-level filters for the data on your EAP Backlog. You can filter on any column that is displayed on the **Backlog** tab.
 
--   **[Generate stories from epics and features using Now Assist for EAP](https://servicenow-staging.fluidtopics.net/access?context=generate-stories-from-epics-now-assist-eap&family=yokohama&ft:locale=en-US)**
+-   **[Generate stories from epics and features using Now Assist for EAP](https://www.servicenow.com/docs/access?context=generate-stories-from-epics-now-assist-eap&family=yokohama&ft:locale=en-US)**
 
 Break down epics and features into stories using the Now Assist Agile story generation skill in the EAP workspace. Using the available details such as name, description, docs content, and any existing stories, Now Assist provides story recommendations for your epic or feature. You can let Now Assist generate stories using its initial recommendations or you can choose to split or combine the story recommendations before prompting Now Assist to create the stories.
 
--   **[View financial data of your planning items at portfolio level](https://servicenow-staging.fluidtopics.net/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
+-   **[View financial data of your planning items at portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
     -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
     -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
     -   View the Forecasts, Actuals, and Variance of monetary benefits.
--   **[Create a manage financial scenarios of planning items](https://servicenow-staging.fluidtopics.net/access?context=optimizing-scenarios-in-strategic-planning&family=yokohama&ft:locale=en-US)**
+-   **[Create a manage financial scenarios of planning items](https://www.servicenow.com/docs/access?context=optimizing-scenarios-in-strategic-planning&family=yokohama&ft:locale=en-US)**
     -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
     -   Plan and manage the budget of planning items in simulation mode for efficient financial planning and to help prevent overspending.
     -   Manage prioritization and budget allocation of the planning items to meet business priorities.
     -   Compare scenarios financially and automatically allocate the planned budget to planning items from approved scenarios.
     -   Enable the **new budget allocation** property \(**sn\_invst\_pln.enable\_budget\_allocation\_v2**\) to perform financial analysis in scenario planning and take effective decisions by data-driven insights.
--   **[Real-time collaboration for EAP Docs](https://servicenow-staging.fluidtopics.net/access?context=docs-for-eap-teams-and-planning-items&family=yokohama&ft:locale=en-US)**
+-   **[Real-time collaboration for EAP Docs](https://www.servicenow.com/docs/access?context=docs-for-eap-teams-and-planning-items&family=yokohama&ft:locale=en-US)**
 
 Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
 
-The real-time collaboration feature for docs is also available for planning items in the Strategic Planning Workspace. See [Docs for planning items](https://servicenow-staging.fluidtopics.net/access?context=docs-for-planning-items-in-spw&family=yokohama&ft:locale=en-US).
+The real-time collaboration feature for docs is also available for planning items in the Strategic Planning Workspace. See [Docs for planning items](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=yokohama&ft:locale=en-US).
 
 **Note:** To use the full functionality of Docs v6.6.0 within Strategic Planning Workspace, ensure that you upgrade Strategic Planning Workspace to v4.5.0. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
 
@@ -242,36 +242,36 @@ Zurich
 
 </td><td>
 
--   **[Strategic Planning and AI Control Tower](https://servicenow-staging.fluidtopics.net/access?context=better-together-with-other-apps-spw&family=zurich&ft:locale=en-US)**
+-   **[Strategic Planning and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-spw&family=zurich&ft:locale=en-US)**
 
 Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
 
 Use the **Type** field for strategic priorities, the **Category** field for goals, the **Investment type** field for planning items - to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
 
--   **[Integrate Enterprise Agile Planning \(EAP\) with Atlassian Jira](https://servicenow-staging.fluidtopics.net/access?context=spw-jira-landing&family=zurich&ft:locale=en-US)**
+-   **[Integrate Enterprise Agile Planning \(EAP\) with Atlassian Jira](https://www.servicenow.com/docs/access?context=spw-jira-landing&family=zurich&ft:locale=en-US)**
 
 Facilitate execution of the work planned in EAP and executed in Jira. With this integration, enable seamless tracking of work across tools with bidirectional sync between Jira and EAP. Key updates made in one system, such as a status change or field update for Epics and Stories, will automatically reflect in the other. This integration ensures your team can collaborate and track development efforts without switching contexts, reducing manual effort and improving visibility across platforms.
 
--   **[Enterprise Agile Planning \(EAP\) integration with CWM](https://servicenow-staging.fluidtopics.net/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
+-   **[Enterprise Agile Planning \(EAP\) integration with CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
 
 Enhance visibility, planning, and execution for your teams with seamless integration between EAP and CWM.
 
 For Agile teams managing non-agile work items such as incidents and change tasks, this integration bridges the gap by automatically creating a dedicated Space and Board in CWM. Agile work is seamlessly brought over via Connected Work, while EAP sprints are reflected directly in CWM’s Sprint planning view, thus enabling unified planning across work types. Teams can plan work for their sprints and update work status directly from the CWM Board, with performance reports in EAP dynamically reflecting these changes. This integration enables teams to manage their full scope of work from a single, connected workspace.
 
--   **[Dynamic data linking in Docs](https://servicenow-staging.fluidtopics.net/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
+-   **[Dynamic data linking in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
 
 Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
--   **[Portfolio plan enhancements](https://servicenow-staging.fluidtopics.net/access?context=create-portfolio-plans-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=create-portfolio-plans-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
     -   Create portfolio plans for AI-related items by applying a filter on the planning item tables, setting the **Investment type** field value to **Artificial Intelligence** during portfolio plan creation. This allows you to focus exclusively on AI-related items.
     -   With the sn\_align\_core.apw\_admin role, you can update the following system properties:
         -   **sn\_align\_core.planning\_item\_types\_allow\_list** - Defines the planning item types that can be configured and allowed for a portfolio plan.
         -   **glide.ui.sn\_align\_core\_dependency\_activity.fields** - Enables activity stream for the dependency formatter fields.
         -   **sn\_align\_ws.gantt\_show\_higher\_planning\_upper\_entities** - Enables display of entire hierarchy of lens structure from top to bottom in prioritization hierarchy view for high-level portfolio plans.
         -   **sn\_align\_ws.portfolio\_plan\_items\_limit** - Defines the number of planning items to be loaded on the planning page.
--   **[Roadmap enhancements](https://servicenow-staging.fluidtopics.net/access?context=roadmaps-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Roadmap enhancements](https://www.servicenow.com/docs/access?context=roadmaps-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
     -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
     -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
     -   View the roadmap-level milestone row while scrolling down the Roadmap page.
@@ -279,28 +279,28 @@ You can add references from any ServiceNow table you have access to, with no set
     -   Match milestone colors with their status labels across the roadmap, milestone popover, and side panel. For example, a missed milestone displays the same color in all locations.
     -   With the sn\_align\_core.apw\_admin role, you can define the number of milestone items to be loaded in the Roadmap tab. The **sn\_align\_ws.item\_milestone\_limit** system property allows you to define the number of milestone items to be loaded in the Roadmap tab.
     -   With the sn\_align\_core.apw\_admin role, you can define the list of planning item types that can be created in a free-form roadmap. The **sn\_align\_ws.freeform\_planning\_items\_creation\_list** system property allows you to define the list of planning item types that can be created in a free-form roadmap.
--   **[Scenario planning enhancements](https://servicenow-staging.fluidtopics.net/access?context=enable-scenario-planning-in-strategic-planning&family=zurich&ft:locale=en-US)**
+-   **[Scenario planning enhancements](https://www.servicenow.com/docs/access?context=enable-scenario-planning-in-strategic-planning&family=zurich&ft:locale=en-US)**
 
 With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
 
--   **[Quick filters enhancements](https://servicenow-staging.fluidtopics.net/access?context=managing-backlog-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Quick filters enhancements](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
 
 Apply filters using string-type and boolean field values across the Planning page and Scoring page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
 
--   **[Investment type and Investment class fields on the Planning item table](https://servicenow-staging.fluidtopics.net/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
+-   **[Investment type and Investment class fields on the Planning item table](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
 
 The **Investment type** and **Investment class** fields have been added to the Planning item \[sn\_align\_core\_planning\_item\] table to enable these attributes to be defined at the parent planning item level.
 
 A new value, **Artificial Intelligence**, has also been added to the **Investment type** field to categorize a planning item as an Artificial Intelligence initiative.
 
--   **[Goal management enhancements](https://servicenow-staging.fluidtopics.net/access?context=managing-goals-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Goal management enhancements](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
     -   With the sn\_gf\_goal\_admin role, you can update goal-specific system properties:
         -   **sn\_align\_ws.goal\_hierarchy.max\_records** - Defines the number of targets to load on the Hierarchy tab in the Targets view. The default value is 250.
         -   **glide.ui.sn\_gf\_goal\_activity.fields** - Enables activity stream for fields of the goals.
     -   Experience faster loading of goals data, even when large volumes of data are present.
     -   With the sn\_gf.goal\_admin role, you can edit any goal and target as needed, even when you aren’t the owner or contributor of a goal or target.
     -   With both the sn\_gf\_goal\_admin and sn\_apw\_advanced.spw\_goal\_user roles, you can edit target breakdowns as needed.
--   **[Financial enhancements](https://servicenow-staging.fluidtopics.net/access?context=using-financials-spw&family=zurich&ft:locale=en-US)**
+-   **[Financial enhancements](https://www.servicenow.com/docs/access?context=using-financials-spw&family=zurich&ft:locale=en-US)**
     -   View only the planned costs of your planning items to track the total cost of your planning items.
     -   Use Display mode to switch between focused views to better plan and track the financials of your planning items.
     -   Manage the planned and actual monetary benefit plans for your projects to identify the financial performance of your project using the Cost and benefits screen.
@@ -326,17 +326,17 @@ Xanadu
 
 </td><td>
 
--   **[Break down work from a parent work item](https://servicenow-staging.fluidtopics.net/access?context=breakdown-work-eap-epics-capabilities-child-work&family=xanadu&ft:locale=en-US)**
+-   **[Break down work from a parent work item](https://www.servicenow.com/docs/access?context=breakdown-work-eap-epics-capabilities-child-work&family=xanadu&ft:locale=en-US)**
 
 Create child work items directly from the parent record page.
 
     -   The **Child items** tab on the work item record page is replaced with the tabs of each associated child item. For example, the full details page of an Epic shows separate tabs for its child work items, capabilities, features, and stories, based on the EAP configuration.
     -   New button is added to each tab to create work items directly from the parent work item record page.
--   **[Enhancements to the PI planning board in EAP](https://servicenow-staging.fluidtopics.net/access?context=pi-planning-eap&family=xanadu&ft:locale=en-US)**
+-   **[Enhancements to the PI planning board in EAP](https://www.servicenow.com/docs/access?context=pi-planning-eap&family=xanadu&ft:locale=en-US)**
 
 The PI planning board displays all work assigned to the current Agile structure level as well as its child teams.
 
--   **[Feedback](https://servicenow-staging.fluidtopics.net/access?context=product-feedback-landing&family=xanadu&ft:locale=en-US)**
+-   **[Feedback](https://www.servicenow.com/docs/access?context=product-feedback-landing&family=xanadu&ft:locale=en-US)**
 
 The Product Feedback application name is changed to Feedback.
 
@@ -347,7 +347,7 @@ Yokohama
 
 </td><td>
 
--   **[Changes in planning item forms](https://servicenow-staging.fluidtopics.net/access?context=epic-form&family=yokohama&ft:locale=en-US)**
+-   **[Changes in planning item forms](https://www.servicenow.com/docs/access?context=epic-form&family=yokohama&ft:locale=en-US)**
 
 The dates in the **Planned start date** and **Planned end date** fields are editable for all planning item types other than Demand and Project planning item types. Also, the **State** field is editable for EAP planning items and its child items.
 
@@ -358,19 +358,19 @@ Zurich
 
 </td><td>
 
--   **[Investment type and Investment class fields](https://servicenow-staging.fluidtopics.net/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
+-   **[Investment type and Investment class fields](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
 
 The **Investment type** and **Investment class** fields have been deprecated from the Project and Demand planning item tables. These fields are now created at the parent level in the Planning item \[sn\_align\_core\_planning\_item\] table.
 
--   **[Goal management](https://servicenow-staging.fluidtopics.net/access?context=managing-goals-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
+-   **[Goal management](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
 
 By default, only active goals—those goals with the **Active** field set to **true**—are displayed across the workspace. This change applies to the **Dashboards** and **Goals and targets** tabs on the Goals page, the **Goal**/**Parent goal** reference fields in all applicable tables, and all relevant dashboards.
 
--   **[Default related list view changes for Stories](https://servicenow-staging.fluidtopics.net/access?context=create-single-or-multiple-child-items-for-epic-in-eap&family=zurich&ft:locale=en-US)**
+-   **[Default related list view changes for Stories](https://www.servicenow.com/docs/access?context=create-single-or-multiple-child-items-for-epic-in-eap&family=zurich&ft:locale=en-US)**
 
 In the Stories list for an Epic, Feature, or Capability in the Enterprise Agile Planning workspace, the Assignment group and Sprint columns in the default related list view are replaced with the EAP team and Iteration columns.
 
--   **[Enhancements to tables in Docs](https://servicenow-staging.fluidtopics.net/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
+-   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
     -   Resize the column width of a table per your preference.
     -   Add color to single or multiple table cells.
 
@@ -467,7 +467,7 @@ Xanadu
 
 </td><td>
 
-Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -475,7 +475,7 @@ Yokohama
 
 </td><td>
 
-Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -660,7 +660,7 @@ Xanadu
 -   View the cost plans, expense lines, budget, and financial baselines of sub-projects at the parent project level. View the financial performance of a project using the rolled-up planned and actuals costs in the widgets of parent projects.
 -   Select a primary attribute to populate resource criteria automatically from the resource assignments of the prioritized planning items, and view the team's capacity in the Capacity Planning screen.
 
- See [Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=alignment-planner-workspace-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -676,7 +676,7 @@ Yokohama
 -   Create, edit, and switch between views with display preferences for portfolio plans and free-form roadmaps.
 -   Enhance the quality of planning item descriptions by enabling AI assistance.
 
- See [Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=alignment-planner-workspace-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -694,7 +694,7 @@ Zurich
 -   Manage and run projects in various global currencies besides the functional currency using multicurrency.
 -   Generate labor cost on sub-projects based on the resource assignments.
 
- See [Strategic Planning](https://servicenow-staging.fluidtopics.net/access?context=alignment-planner-workspace-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

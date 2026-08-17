@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Resource assignment form

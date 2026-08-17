@@ -1,6 +1,6 @@
 ---
-title: Now Assist Guardian CSM filters
-description: Activate base system Now Assist Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
+title: AI Guardian CSM filters
+description: Activate base system AI Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/now-assist-guardian-csm-filters.html
 release: zurich
@@ -9,23 +9,23 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Now Assist Guardian CSM filters
+# AI Guardian CSM filters
 
-Activate base system Now Assist Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
+Activate base system AI Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
 
 ## Before you begin
 
 Role required: admin
 
--   Now Assist for CSM must be enabled in your environment.
+-   ServiceNow Otto for CSM must be enabled in your environment.
 -   Virtual Agent must be configured with topics for handling sensitive content scenarios.
 
 ## About this task
 
-Guardian filters analyze case conversation content using Now Assist's sentiment analysis engine and detect sensitive or high-risk content. When a filter detects content matching its configured criteria, it redirects the user to a Virtual Agent topic to handle that type of sensitive issue. Now Assist Guardian filters for CSM identify cases that contain sensitive content such as data breaches, legal threats, or reputational risks. By activating these filters, you can confirm that cases involving critical issues are flagged and handled appropriately, reducing response times and improving risk mitigation.
+Guardian filters analyze case conversation content using AI's sentiment analysis engine and detect sensitive or high-risk content. When a filter detects content matching its configured criteria, it redirects the user to a Virtual Agent topic to handle that type of sensitive issue. AI Guardian filters for CSM identify cases that contain sensitive content such as data breaches, legal threats, or reputational risks. By activating these filters, you can confirm that cases involving critical issues are flagged and handled appropriately, reducing response times and improving risk mitigation.
 
 |Filter name|What it detects|Example use case|
 |-----------|---------------|----------------|
@@ -84,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-guardian.md)
+[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-guardian.md)
 

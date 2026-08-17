@@ -1,6 +1,6 @@
 ---
 title: Exploring Portfolio list view
-description: As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio of your organization and also manage your own entities.
+description: As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio, and custom entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/portfolio-list-view.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture
 
 # Exploring Portfolio list view
 
-As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio of your organization and also manage your own entities.
+As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio, and custom entities.
 
 The My Lists view shows a list of records that you have been assigned. Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to check the applied fields.
 

@@ -1,20 +1,20 @@
 ---
-title: Create an incident with Now Assist in Express List
-description: Create an incident with a human-readable, AI-generated description using Now Assist.
+title: Create an incident with ServiceNow Otto in Express List
+description: Create an incident with a human-readable, AI-generated description using AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-create-incident-now-assist.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using agentic and generative AI in Express List, Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using agentic and generative AI in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Create an incident with Now Assist in Express List
+# Create an incident with ServiceNow Otto in Express List
 
-Create an incident with a human-readable, AI-generated description using Now Assist.
+Create an incident with a human-readable, AI-generated description using AI.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
         \[Omitted image "alert-actions-tool-tip.png"\] Alt text: Alert actions drop down arrow
 
-    3.  Under **Response actions**, select **Create Incident with Now Assist**.
+    3.  Under **Response actions**, select **Create Incident with Otto**.
 
     An incident with a human-readable, AI-generated description is created from the selected alert and a confirmation message is displayed.
 

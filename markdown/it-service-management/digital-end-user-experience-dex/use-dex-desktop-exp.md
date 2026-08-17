@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Digital End-User Experience, IT Service Management]
 ---
@@ -37,7 +37,7 @@ Header
 The Desktop Assistant header includes the following:
 
 -   Application name
--   Virtual agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text:: Selecting this icon opens a chat-based Virtual Agent interface that uses Now Assist to provide help, answers, and support.
+-   Virtual agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text:: Selecting this icon opens a chat-based Virtual Agent interface that uses ServiceNow Otto to provide help, answers, and support.
 -   Notification icon \[Omitted image "icon-notification-bell.png"\] Alt text:: This icon displays a red dot with a number to indicate the number of new notifications. Selecting the icon displays the list of notifications.
 -   User profile icon \[Omitted image "icon-user-login.png"\] Alt text:: Selecting this icon enables you to log out of Desktop Assistant.
 

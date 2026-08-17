@@ -28,7 +28,7 @@ The dynamic schema application framework has been revised in the Zurich release.
 
 ## New in the Zurich release
 
--   **Access and test pre-release features**
+-   **[Access and test pre-release features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md)**
 
     The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 

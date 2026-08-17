@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-advancedworkassignment-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,12 +67,12 @@ Yokohama
 
 </td><td>
 
--   **[Service channels](https://servicenow-staging.fluidtopics.net/access?context=awa-service-channels&family=yokohama&ft:locale=en-US)**
+-   **[Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&family=yokohama&ft:locale=en-US)**
 
 Run AWA assignments on different nodes or cadences for different service channels to improve performance and resilience.
 
 
--   **[Use](https://servicenow-staging.fluidtopics.net/access?context=using-awa&family=yokohama&ft:locale=en-US)**
+-   **[Use](https://www.servicenow.com/docs/access?context=using-awa&family=yokohama&ft:locale=en-US)**
 
 Enable agents with the ability to provide wrap-up codes or notes for interactions or segments that the agent was involved in.
 
@@ -191,7 +191,7 @@ Yokohama
 
 </td><td>
 
-Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-activate&family=yokohama&ft:locale=en-US).
+Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=yokohama&ft:locale=en-US).
 
  To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -341,7 +341,7 @@ Yokohama
 -   Run assignments on different nodes or cadences for different service channels to improve the AWA application's performance and resilience.
 -   Provide wrap-up codes or notes for interactions or segments that the agent is involved in at the end of a call.
 
- See [Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

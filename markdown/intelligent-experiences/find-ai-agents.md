@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/find-ai-agents.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-21"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Find AI agents
@@ -27,15 +27,15 @@ AI agents are autonomous systems that interact with their environment to gather 
 
 1.  View the available AI agents in AI Agent Studio.
 
-<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d102294e77">
+<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d118865e77">
 
 Current location
 
-</th><th align="left" id="d102294e80">
+</th><th align="left" id="d118865e80">
 
 Navigation option
 
-</th></tr></thead><tbody><tr><td id="d102294e86">
+</th></tr></thead><tbody><tr><td id="d118865e86">
 
 **AI Agent Studio Overview page**
 
@@ -43,7 +43,7 @@ Navigation option
 
 Select the **Explore all** button in the Ready-made agentic workflow and AI agents section, and then select the **AI agents** tab.
 
-</td></tr><tr><td id="d102294e101">
+</td></tr><tr><td id="d118865e101">
 
 **AI Agent Studio Overview page**
 
@@ -51,7 +51,7 @@ Select the **Explore all** button in the Ready-made agentic workflow and AI agen
 
 View the Recent agentic workflows and AI agents activity section on the **AI agents** tab to see the most recently added or changed agents.**Note:** You see a list of the AI agents only when there's recent activity of the AI agents on your instance.
 
-</td></tr><tr><td id="d102294e115">
+</td></tr><tr><td id="d118865e115">
 
 **Anywhere else**
 
@@ -60,7 +60,7 @@ View the Recent agentic workflows and AI agents activity section on the **AI age
 Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**, and then select the **AI agents** tab.
 
 </td></tr></tbody>
-</table>2.  View all AI agents, including those AI agents that were installed with Now Assist applications by navigating to the **AI agents** tab.
+</table>2.  View all AI agents, including those AI agents that were installed with AI applications by navigating to the **AI agents** tab.
 
 
 ## Result

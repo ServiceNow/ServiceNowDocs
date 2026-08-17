@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Activate the document intelligence for utility invoices skill
@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 -   **[Setup metric definition and entity-mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.md)**  
 Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
 
-**Parent Topic:**[Configure Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)
 

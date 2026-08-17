@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 4
-breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Guidelines for segments
@@ -92,6 +92,4 @@ Use these suggestions to adjust system properties when segments are not performi
 [Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/manual-segment-data-model-sync.md)
 
 [Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/shipping-manual-segments-plugins.md)
-
-[manual-segment-system-properties]
 

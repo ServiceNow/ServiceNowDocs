@@ -7,9 +7,10 @@ release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation, Document Intelligence]
+breadcrumb: [Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\), Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Copy and activate the DI STP Failed flow
@@ -24,9 +25,9 @@ Scope: Accounts Payable Operations integration with Document Intelligence.
 
 Plugins required:
 
--   Now assist in Document Intelligence
+-   ServiceNow Otto in Document Intelligence
 -   Account Payable Invoice Processing
--   Now assist for Account Payable Operations
+-   ServiceNow Otto for Accounts Payable Operations \(APO\)
 -   Document Intelligence for Accounts Payable Operations Content Pack
 
 ## Procedure

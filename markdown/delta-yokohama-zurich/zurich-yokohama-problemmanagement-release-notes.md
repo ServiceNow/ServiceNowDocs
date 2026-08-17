@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-problemmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=prob-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
+-   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=prob-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
 
 With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -82,7 +82,7 @@ Additionally, with the installation of the **ITSM Gen AI** \(**com.sn.itsm.gen.a
 
 The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **[Problem Models for Streamlined Problem Management](https://servicenow-staging.fluidtopics.net/access?context=problem-mgmt-models&family=yokohama&ft:locale=en-US)**
+-   **[Problem Models for Streamlined Problem Management](https://www.servicenow.com/docs/access?context=problem-mgmt-models&family=yokohama&ft:locale=en-US)**
 
 Problem Management models are used to simplify management of problems and problem tasks. These models provide an efficient way to configure state transitions and define conditions to move from one state to another.
 
@@ -351,7 +351,7 @@ Yokohama
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Simplify the management of problems and problem tasks using Problem Management models.
 
- See [Problem Management](https://servicenow-staging.fluidtopics.net/access?context=c_ProblemManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -1,21 +1,21 @@
 ---
 title: Configure data extraction modes
-description: Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
+description: Configure Document Intelligence extraction modes for invoice processing use cases to define how fields are extracted from invoice documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Data extraction]
-breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [Data extraction, APO, Accounts Payable Operations, AI automation, AP case]
+breadcrumb: [Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\), Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure data extraction modes
 
-Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
+Configure Document Intelligence extraction modes for invoice processing use cases to define how fields are extracted from invoice documents.
 
 ## Before you begin
 
@@ -23,22 +23,22 @@ Role required: sn\_docintel.manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub console.
 
-2.  Select &gt; **Finance and Supply Chain** &gt; **Accounts Payable Operations** &gt; **Invoice data extraction** to view the skills for the APO features.
+2.  In the workflow group, select &gt; **Finance and Supply Chain** &gt; **Invoice data extraction** to view the skills for the APO features.
 
-3.  Select the **Invoice Processing - Gen AI** use case.
+3.  Select the settings \[Omitted image "icon-docintel-settings-gear.png"\] Alt text: docintel settings icon.
 
-4.  Select the settings \[Omitted image "icon-docintel-settings-gear.png"\] Alt text: docintel settings icon.
+4.  Select the extraction mode for the use case**Accounts Payable Operations**.\[Omitted image "settings-na.png"\] Alt text: Extraction mode
 
-5.  Select the extraction mode for the use case **Accounts Payable Operations**.\[Omitted image "settings-na.png"\] Alt text: Extraction mode
-
-6.  Adjust the DocIntel full automation mode.
+5.  Adjust the DocIntel full automation mode.
 
     -   When Full automation mode is turned on, DocIntel automatically completes and submits the document task. The required values or fields in the invoice document are auto-filled or identified as missing in the document. If there are no fields defined as required for the document task, then DocIntel automatically completes and submits the document task.
-    -   When you turn on the **Any required field is missing in the document**, the agent will be prompted to review the fields.
-7.  Select **Save**.
+    -   When you turn on the **Any required field is missing in the document**, the full automation mode is turned off and requires an agent review.
+6.  Select **Save**.
 
-    The data extraction mode for use cases using Document Intelligence is configured.
 
+## Result
+
+Document Intelligence Data extraction mode is activated.
 

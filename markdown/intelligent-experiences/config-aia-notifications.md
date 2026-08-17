@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add recipients to usage spike, execution failure, and latency error email notifications
@@ -16,7 +16,7 @@ Add or change recipients to email notifications triggered by unexpected or undes
 
 ## Before you begin
 
-Set your application scope to Now Assist AI Agents.
+Set your application scope to ServiceNow Otto AI Agents.
 
 Role required: admin
 

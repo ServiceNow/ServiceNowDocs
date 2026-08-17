@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,12 +75,12 @@ Zurich
 
 </td><td>
 
--   **[Use agentic workflows Now Assist for ESG](https://servicenow-staging.fluidtopics.net/access?context=use-agentic-ai-in-now-assist-for-esg-management&family=zurich&ft:locale=en-US)**
+-   **[Use agentic workflows Now Assist for ESG](https://www.servicenow.com/docs/access?context=use-agentic-ai-in-now-assist-for-esg-management&family=zurich)**
 
 The carbon calculations agentic workflow acts as a copilot for sustainability teams, streamlining carbon accounting workflows. It intelligently selects metric definitions and emission factors from the library, generates calculated metric definitions, and enables user review and adjustments before final use.
 
 
--   **[Extract data from utility invoices](https://servicenow-staging.fluidtopics.net/access?context=extract-data-from-utility-invoices&family=zurich&ft:locale=en-US)**
+-   **[Extract data from utility invoices](https://www.servicenow.com/docs/access?context=extract-data-from-utility-invoices&family=zurich)**
 
 Now Assist for Operational Sustainability with document intelligence for utility bills, designed to streamline your ESG metric data collection and reporting. Here are the key highlights:
 
@@ -117,7 +117,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 
 
@@ -355,17 +355,17 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 Accelerate carbon reporting with AI-powered calculations, validation, and insights for Scope 3 emissions.
 
 Automate metric data collection from utility invoices by extracting key information using the AI-driven document intelligence for utility invoices.
 
-See [Now Assist for ESG](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US) for more information.
+See [Now Assist for ESG](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

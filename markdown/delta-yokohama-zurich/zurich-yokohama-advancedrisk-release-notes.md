@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-advancedrisk-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -67,31 +67,31 @@ Yokohama
 
 </td><td>
 
--   **[Generative AI risk assessment summarization](https://servicenow-staging.fluidtopics.net/access?context=generate-risk-assessment-summary-genai&family=yokohama&ft:locale=en-US)**
+-   **[Generative AI risk assessment summarization](https://www.servicenow.com/docs/access?context=generate-risk-assessment-summary-genai&family=yokohama&ft:locale=en-US)**
 
-Generate a risk assessment summary from your inherent, residual, target risks, and control effectiveness data using the Now Assist for IRM application. The summary highlights key insights to help your approvers quickly understand the context before approving the risk assessments. You can also analyze details such as open issues, risk response tasks, action items, and calculated risk scores to support your approval decision. Check your entitlements to confirm whether you have access to risk assessment summarization.
+Generate a risk assessment summary from your inherent, residual, target risks, and control effectiveness data using the ServiceNow Otto for IRM application. The summary highlights key insights to help your approvers quickly understand the context before approving the risk assessments. You can also analyze details such as open issues, risk response tasks, action items, and calculated risk scores to support your approval decision. Check your entitlements to confirm whether you have access to risk assessment summarization.
 
--   **[Reassess a risk assessment project](https://servicenow-staging.fluidtopics.net/access?context=reassess-risk-assessment-project&family=yokohama&ft:locale=en-US)**
+-   **[Reassess a risk assessment project](https://www.servicenow.com/docs/access?context=reassess-risk-assessment-project&family=yokohama&ft:locale=en-US)**
 
 Review completed risk assessment projects to reflect new insights or changing conditions. All previously assessed risks in this project are automatically carried over and reassigned to the designated assessor. Confirm continuity, minimize manual effort, and enhance efficiency in your risk management process.
 
--   **[Copy risk responses from the previous assessment](https://servicenow-staging.fluidtopics.net/access?context=perform-assessment-on-risk-assessment-project&family=yokohama&ft:locale=en-US)**
+-   **[Copy risk responses from the previous assessment](https://www.servicenow.com/docs/access?context=perform-assessment-on-risk-assessment-project&family=yokohama&ft:locale=en-US)**
 
 Copy responses from a previous risk assessment during the reassessment of a risk assessment project to streamline the assessment process. All prior responses are automatically copied, saving time and maintaining consistency.
 
--   **[Remove risks from assessment](https://servicenow-staging.fluidtopics.net/access?context=perform-assessment-on-risk-assessment-project&family=yokohama&ft:locale=en-US)**
+-   **[Remove risks from assessment](https://www.servicenow.com/docs/access?context=perform-assessment-on-risk-assessment-project&family=yokohama&ft:locale=en-US)**
 
 As a risk assessor, you can remove risks from the risk assessment project while performing the assessment, which also removes all responses associated with that risk. Removed scoped risks remain part of the project but are marked as not applicable for reporting purposes. However, removed ad hoc risks are completely deleted.
 
--   **[Manage risk response task workflow](https://servicenow-staging.fluidtopics.net/access?context=configure-ram&family=yokohama&ft:locale=en-US)**
+-   **[Manage risk response task workflow](https://www.servicenow.com/docs/access?context=configure-ram&family=yokohama&ft:locale=en-US)**
 
 Manage and enable the risk response task workflow from the RAM form to enable users to create, delete, remove, edit, and link risk response tasks within an assessment.
 
--   **[Reassign assessor for a risk assessment project](https://servicenow-staging.fluidtopics.net/access?context=reassign-assessor-for-risk-assessment-project&family=yokohama&ft:locale=en-US)**
+-   **[Reassign assessor for a risk assessment project](https://www.servicenow.com/docs/access?context=reassign-assessor-for-risk-assessment-project&family=yokohama&ft:locale=en-US)**
 
 Reassign assessors for multiple in-progress risk assessment projects simultaneously to minimize disruptions during stakeholder transitions.
 
--   **[Configure risk color styles for the Next Experience](https://servicenow-staging.fluidtopics.net/access?context=create-risk-color-style&family=yokohama&ft:locale=en-US)**
+-   **[Configure risk color styles for the Next Experience](https://www.servicenow.com/docs/access?context=create-risk-color-style&family=yokohama&ft:locale=en-US)**
 
 Define and preview colors for the risk and advanced risk components in the Next Experience through a configurable system rather than having to use hex codes. The transition has been made from a hex code color management system to a configurable system that supports the highlighted value component colors. This feature addresses theming and accessibility issues. You can define the color and variant, and preview them using the Next Experience color styles tab on the Risk color style form.
 
@@ -104,29 +104,29 @@ Zurich
 
 </td><td>
 
--   **[Identify risks for an entity](https://servicenow-staging.fluidtopics.net/access?context=suggest-potential-risks-workflow&family=zurich&ft:locale=en-US)**
+-   **[Identify risks for an entity](https://www.servicenow.com/docs/access?context=suggest-potential-risks-workflow&family=zurich&ft:locale=en-US)**
 
 If you’re a Workspace user with the sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role, you can use the Risk Suggestion AI Agent to identify risks related to an entity. The AI agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list to verify for accuracy. Risk managers can then confirm and promote these risks to the risk register for further assessment. This feature automates risk discovery, helping identify potential risks and prepare for compliance requirements.
 
--   **[Reporting views from Risk Assessment Methodology](https://servicenow-staging.fluidtopics.net/access?context=reporting-views-from-ram&family=zurich&ft:locale=en-US)**
+-   **[Reporting views from Risk Assessment Methodology](https://www.servicenow.com/docs/access?context=reporting-views-from-ram&family=zurich&ft:locale=en-US)**
 
 The reporting view provides an overview of all assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure. When a RAM is published, the system automatically creates this view, which you can use to review assessments and build custom reports. It simplifies report and dashboard creation for risk assessments.
 
 **Note:** Automatic creation of Reporting views is not supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071)
 
--   **[Risk event summarization](https://servicenow-staging.fluidtopics.net/access?context=generate-risk-event-summary-in-the-risk-workspace&family=zurich&ft:locale=en-US)**
+-   **[Risk event summarization](https://www.servicenow.com/docs/access?context=generate-risk-event-summary-in-the-risk-workspace&family=zurich&ft:locale=en-US)**
 
-Generate risk event summary using the Now Assist for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
+Generate risk event summary using the ServiceNow Otto for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
 
--   **[Grid based risk and control assessment](https://servicenow-staging.fluidtopics.net/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
+-   **[Grid based risk and control assessment](https://www.servicenow.com/docs/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
 
 Gain efficient control over risk assessments with the new grid-based Risk and Control Self Assessment \(RCSA\). Quickly compare, edit, and prioritize risks and controls using the flexible, spreadsheet-style interface. Use side-by-side views and bulk editing to complete assessments faster.
 
--   **[Matrix report in Risk Workspace](https://servicenow-staging.fluidtopics.net/access?context=matrix-report-in-risk-workspace&family=zurich&ft:locale=en-US)**
+-   **[Matrix report in Risk Workspace](https://www.servicenow.com/docs/access?context=matrix-report-in-risk-workspace&family=zurich&ft:locale=en-US)**
 
 Access and analyze the risk posture of your organization using entity-related data, such as risks, controls, KRIs, and events in a centralized, configurable grid-based view. This feature reduces time spent switching views and helps risk managers assess data more easily, leading to more proactive and streamlined risk management.
 
--   **[Support third party large language models](https://servicenow-staging.fluidtopics.net/access?context=generate-risk-assessment-summary-genai&family=zurich&ft:locale=en-US)**
+-   **[Support third party large language models](https://www.servicenow.com/docs/access?context=generate-risk-assessment-summary-genai&family=zurich&ft:locale=en-US)**
 
 Risk assessment summarization and Risk event summarization support the LLMs from the third party providers, such as Anthropic Claude, Google Gemini, and OpenAI, in addition to Now LLM. This enhancement gives you greater flexibility to choose the model that best fits your organization’s needs for generating risk assessment and risk event summaries.
 
@@ -151,7 +151,7 @@ Yokohama
 </td><td>
 
 -   ****
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
 
 
@@ -391,7 +391,7 @@ Yokohama
 
 </td><td>
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
@@ -405,7 +405,7 @@ The skills are automatically available to appropriate role users for the applica
 -   Remove risks from a risk assessment project during the assessment to streamline focus on relevant risks.
 -   Enable and manage the risk response task workflow from the Risk Assessment Methodology \(RAM\) form.
 
- See [Advanced Risk Assessment](https://servicenow-staging.fluidtopics.net/access?context=advanced-risk-assessment&family=yokohama&ft:locale=en-US) for more information.
+ See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -413,12 +413,12 @@ Zurich
 
 </td><td>
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
-    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 
 -   Use the Risk Suggestion AI Agent to discover potential risks for an entity, giving risk managers better insights for informed decision-making.
 -   Use the risk reporting view to view all assessments under a specific Risk Assessment Methodology \(RAM\), including factor responses, scores, issues, and risks.
@@ -427,7 +427,7 @@ The skills are automatically available to appropriate role users for the applica
 -   Use matrix report in the Risk Workspace to assess and analyze the risk posture of your organization.
 -   Use large language models \(LLMs\) from the third party providers to generate the risk assessment summary.
 
- See [Advanced Risk Assessment](https://servicenow-staging.fluidtopics.net/access?context=advanced-risk-assessment&family=zurich&ft:locale=en-US) for more information.
+ See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

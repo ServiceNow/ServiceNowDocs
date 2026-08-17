@@ -1,18 +1,18 @@
 ---
-title: Configure Now Assist AI agents
-description: Configure the Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
+title: Configure AI agents and AI Agent Studio
+description: Configure agentic AI in AI Agent Studio to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-ai-agents.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-21"
 reading_time_minutes: 6
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
-# Configure Now Assist AI agents
+# Configure AI agents and AI Agent Studio
 
-Configure the Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
+Configure agentic AI in AI Agent Studio to execute agentic workflows with AI agents and mapped tools.
 
 AI agents follow your instructions and act toward a specific goal and outcome by using the tools that you configure for those agents. By using the context of your record and your searchable content, AI agents can plan and analyze the task with a business logic that is combined with the instructions that are sent to large language models \(LLMs\) that suggest the next best action to be taken.
 
@@ -83,11 +83,11 @@ You can also see the entire execution steps on the AI Agent Studio Testing page 
 
 The Interactive AI agents reach out to users for information when there is a fallback in the execution process, and the AI agent re-triggers the flow.
 
-The Non-interactive AI agents don't reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options don't have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the Now Assist panel or Virtual Agent is shown.
+The Non-interactive AI agents don't reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options don't have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the ServiceNow Otto panel or Virtual Agent is shown.
 
 To implement the Non-interactive execution, the **Execution Mode** field is added in the Execution Plans \[sn\_aia\_execution\_plan\] table, where the execution mode can be **Interactive** or **Non Interactive** based on the given runtime parameter.
 
-You can run the AI agents and agentic workflows concurrently in the AI Agent Background Channel and in Non-interactive mode where the background execution allows AI agents to operate with any chat panel like Now Assist panel or Virtual Agent.
+You can run the AI agents and agentic workflows concurrently in the AI Agent Background Channel and in Non-interactive mode where the background execution allows AI agents to operate with any chat panel like ServiceNow Otto panel or Virtual Agent.
 
 ## Multilingual support
 
@@ -102,7 +102,7 @@ You can leverage multilingual support for AI agents across languages for better 
 You can auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path by setting the **Off-Glide Enabled** to **true**, to enable the skill migration to Mosaic. To do this:
 
 -   Navigate to the OneExtend Capabilities \[sys\_one\_extend\_capability.list\] table.
--   Find the Now Assist AI Agents application.
+-   Find the AI Agents application.
 -   Set the **Off-Glide Enabled** to **true**
 -   Select **Save.**
 

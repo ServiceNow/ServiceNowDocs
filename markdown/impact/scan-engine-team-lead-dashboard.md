@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-team-lead-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
 ---
@@ -46,7 +46,7 @@ Health score
 
 The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
 
- `1 - (F / D) * 100`
+ `(1 - (F / D)) * 100`
 
  Where F is the number of findings, and D is the number of definition occurrences.
 

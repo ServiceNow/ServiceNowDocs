@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Management
 classification: portfolio-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure the scenario planning type and scope, Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

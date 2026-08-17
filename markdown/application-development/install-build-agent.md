@@ -1,11 +1,11 @@
 ---
 title: Install Build Agent
-description: For the Premium version of Build Agent, install the Now Assist for Creator application from the ServiceNow Store.
+description: For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/install-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-07-27"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -13,42 +13,45 @@ breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Pl
 
 # Install Build Agent
 
-For the Premium version of Build Agent, install the Now Assist for Creator application from the ServiceNow Store.
+For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 
 ## Before you begin
 
-The Premium version of Build Agent is part of Now Assist for Creator, and is a ServiceNow AI Platform® feature that's activated by default when Now Assist for Creator is installed. You don't need an entitlement to start exploring Build Agent.
+The Premium version of Build Agent is part of ServiceNow Otto for Creator, and is a ServiceNow AI Platform® feature that's activated by default when ServiceNow Otto for Creator is installed. You don't need an entitlement to start exploring Build Agent.
 
--   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   You can use Build Agent on a Personal Development Instance \(PDI\). For more information, see [Accessing Build Agent in ServiceNow Studio and the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/access-build-agent.md).
+-   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio and the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/access-build-agent.md).
 -   Build Agent supports the following models:
+    -   Gemini 3.5 Pro \(Zurich Patch 12 or later\)
     -   Gemini 2.5 Pro
+    -   Azure OpenAI 5.5 \(Zurich Patch 12 or later\)
     -   Azure OpenAI 5.4
+    -   Opus 4.8 \(Australia Patch 5 or later\)
     -   Opus 4.6
 
 Role required: admin
 
 ## About this task
 
-Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
 
 **Note:** The trial app was formerly called "Build Agent" and has been renamed to "Build Agent \(Trial\)."
 
 ## Procedure
 
-1.  From the Now Assist for Creator application page on the ServiceNow Store, select **Buy**.
+1.  From the ServiceNow Otto for Creator application page on the ServiceNow Store, select **Buy**.
 
 2.  After approval has been granted, on your instance, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-3.  Using the search bar, search for the Now Assist for Creator application \(sn\_now\_creator\).
+3.  Using the search bar, search for the ServiceNow Otto for Creator application \(sn\_now\_creator\).
 
 4.  Select **Install**.
 
 5.  Enable the Build Agent skill:
 
-    1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+    1.  Navigate to **All** &gt; **AI Admin Hub****Skills**.
 
-    2.  Go to the **Now Assist Skills** tab and select **Creator**.
+    2.  Select the **Creator** tab.
 
         \[Omitted image "build-agent-enable.png"\] Alt text: Build Agent is listed as Now Assist for Creator skills.
 

@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -23,7 +23,7 @@ Supplier Lifecycle Operations extends the Document Management plugin \(com.snc.p
 You can create a supplier document configuration to configure various aspects of the document upload process. The document configuration determines when this configuration is run, who can view, update, and upload a document, and whether to send notifications when a document is uploaded or has expired. You can set run conditions to determine when the configuration should be run or you can run the configuration manually.
 
 -   **[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)**  
-Create a supplier document configuration to define when to run the configuration, who can view the upload request and upload the documents, and whether to send notifications when documents are uploaded or have expired.
+ supplierconfigurationsfiguration uploadeschedulesfivieweraaccess documnotificationnsettingswforeions whenve expired.
 -   **[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)**  
 Run a supplier document configuration to enable supplier managers, supplier owners, and supplier contacts to immediately upload the required documents.
 -   **[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)**  

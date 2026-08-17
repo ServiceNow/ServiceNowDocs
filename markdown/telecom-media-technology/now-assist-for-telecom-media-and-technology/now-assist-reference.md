@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) reference
-description: Reference topics provide additional information about Now Assist for Telecommunications, Media and Technology \(TMT\).
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) reference
+description: Reference topics provide additional information about ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-reference.html
 release: zurich
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) reference
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) reference
 
-Reference topics provide additional information about Now Assist for Telecommunications, Media and Technology \(TMT\).
+Reference topics provide additional information about ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 

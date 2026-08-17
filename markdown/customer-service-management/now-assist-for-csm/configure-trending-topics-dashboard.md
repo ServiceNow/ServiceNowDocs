@@ -1,6 +1,6 @@
 ---
 title: Configure trending topics dashboard
-description: Configure the trending topic dashboard to identify clusters of related records, visualize their volume and sentiment over time, and leverage AI-generated insights to proactively resolve issues and improve operational efficiency.
+description: Configure the trending topic dashboard to identify clusters of related records, visualize their volume and sentiment over time, and use AI-generated insights to resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-11-05"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure trending topics dashboard
 
-Configure the trending topic dashboard to identify clusters of related records, visualize their volume and sentiment over time, and leverage AI-generated insights to proactively resolve issues and improve operational efficiency.
+Configure the trending topic dashboard to identify clusters of related records, visualize their volume and sentiment over time, and use AI-generated insights to resolve issues.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Trending topics dashboard is generated from the information that you enter in th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -64,7 +64,7 @@ Trending topics dashboard is generated from the information that you enter in th
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-8.  Toggle **Select display** to determine if trending topics dashboard skill appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
+8.  Toggle **Select display** to determine if trending topics dashboard skill appears in In-product desktop, displaying AI skills on forms and workspaces.
 
 9.  Select roles for whom trending topics dashboard are displayed.
 

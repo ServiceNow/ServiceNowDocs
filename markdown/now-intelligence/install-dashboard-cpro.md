@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cpro.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Procurement Officer \(CPRO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,9 @@ The Chief Procurement Officer Dashboard provides key insights around the procure
 
 ## Before you begin
 
-Role required: sn\_cpro\_dashboard.admin, sn\_cpro\_dashboard.user
+Role required: admin, platform\_analytics\_admin, sn\_cpro\_dashboard.admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CPRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -63,12 +65,12 @@ These solutions consist of Platform Analytics indicators and associated data col
 
         Assign the role sn\_cpro\_dashboard.admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CPRO dashboard.
+        **Note:** Only users with this role can configure the CPRO dashboard.
 
     -   **CPRO Dashboard end users**
 
         Assign the user role sn\_cpro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

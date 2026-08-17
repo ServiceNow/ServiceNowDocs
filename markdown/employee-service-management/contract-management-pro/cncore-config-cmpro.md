@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 keywords: [Configure Contract Management Pro, Configure Word Add-in, Configure contract templates, Configure Contract Workspace, Configure Obligation Management, Create word document template, Contract configuration]
 breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -19,7 +19,7 @@ Install and configure foundational data for Contract Management Pro to effective
 
 ## Configuration overview
 
-This section provides a guided overview of all foundational setup tasks, from installing the application and integrating key tools, to defining contract types, templates, and repository rules. Use the interactive image or step-by-step links below to quickly access and configure essential features, ensuring your contract processes are streamlined and ready for use.
+This section provides a guided overview of all foundational setup tasks, from installing the application and integrating key tools, to defining contract types, templates, and repository rules.
 
 \[Omitted image "mmasset0021414-configuring-contract-management-pro-horizontal.png"\] Alt text: Flowchart with nine steps for setting up Contract Management Pro
 

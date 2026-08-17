@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 11
 keywords: [Virtual Agent, Designer, Flow tab, Components, Variables, table view, canvas view]
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Flow tab
@@ -19,9 +19,9 @@ Use the topic **Flow** tab to build the conversation flow. Use the controls for 
 
 ## Flow tab \(default view\)
 
-\[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Virtual Agent Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows. \[Omitted image "DesignerTextNodeCalloutSections-2a.png"\] Alt text: View of Virtual Agent Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
+\[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Assistant Designer Asset library topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows. \[Omitted image "DesignerTextNodeCalloutSections-2a.png"\] Alt text: View of Assistant Designer Asset library topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 <table id="table_njp_rgk_zhb"><thead><tr><th>
 
@@ -58,7 +58,7 @@ For more information, see [Localizing Virtual Agent conversations](https://raw.g
     -   **Included in Topic Discovery**: Option to make the topic discoverable via keywords, NLU, or Now LLM Service. If inactive, the topic is included when performing search fallback.
     -   **Included in List of Topics**: Option to make the topic visible under the “show me everything” list of topics.
 -   **Save**: Saves the current design.
--   **Test**: Opens the design in a chat test window so that you can preview and test the conversation. If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+-   **Test**: Opens the design in a chat test window so that you can preview and test the conversation. If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 -   **Publish**: Activates the design and makes it available to the chat clients. If you're using language-specific NLU models, select **Review and publish** from the Publish list to specify languages.
 -   More actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text: More actions icon.
     -   **Duplicate**: Copy the current design to create an unpublished version of the design.
@@ -78,7 +78,7 @@ If you add a node, then close the topic before saving or publishing, the node di
 
 Collapsible sidebar with Components and Variables tabs.The Components tab shows a list of controls that you can drag onto the canvas to build a conversation. The following types of controls are available:
 
--   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When Now Assist is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
+-   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow Otto is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
 -   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
 -   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
 
@@ -131,7 +131,7 @@ Input or output item on the canvas created by dragging a control from the Compon
 
 </td><td>
 
-Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Virtual Agent Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
+Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Assistant Designer Asset library controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ A tool for selecting data pills from input variables or script variables to use 
 
 </td><td>
 
-A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the JavaScript syntax editor.
+A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_SyntaxEditor.md).
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Opens the Helpful resources view, containing a link to product documentation. In
 
 Most of the functionality of the Flow tab is the same in Table View. The following figure and table highlight the differences.
 
-\[Omitted image "DesignerTableviewCallouts-2a.png"\] Alt text: Table view of Virtual Agent Designer Flow tab with variables, search table, and Table toggle highlighted. For the text description, see the table that follows.
+\[Omitted image "DesignerTableviewCallouts-2a.png"\] Alt text: Table view of Assistant Designer Asset library Flow tab with variables, search table, and Table toggle highlighted. For the text description, see the table that follows.
 
 <table id="table_tkl_txp_ckb"><thead><tr><th>
 
@@ -219,7 +219,7 @@ Option for searching nodes in the conversation \(table\).
 </td></tr></tbody>
 </table>## LLM components guided tour
 
-When you create or open a non-read-only LLM topic, a dialog box appears and displays an option to take a guided tour of the LLM components in Virtual Agent Designer. Select the close icon to close the window or **Start guided tour** to be shown the various components. You can also take a tour by selecting **Guided tour for LLM enabled nodes** in the Helpful resources tab.
+When you create or open a non-read-only LLM topic, a dialog box appears and displays an option to take a guided tour of the LLM components in Assistant Designer Asset library. Select the close icon to close the window or **Start guided tour** to be shown the various components. You can also take a tour by selecting **Guided tour for LLM enabled nodes** in the Helpful resources tab.
 
 To stop seeing the dialog box open each time you open an LLM topic, select **Do not show this again** before closing the dialog box or starting the tour. To restore the dialog box, navigate to **All**, then enter `sys_cb_user_preference_list.do`. On the Designer User Preferences page, find the **LLM\_INTRO\_MODAL\_ENABLED** preference. Open its **Value** field and set it to `true`.
 
@@ -227,15 +227,15 @@ To stop seeing the dialog box open each time you open an LLM topic, select **Do 
 
 ## Incomplete property warnings
 
-Controls on the canvas have required properties. If required properties are missing, Virtual Agent Designer displays the total number of missing required properties and the controls that are missing them. All incomplete warnings must be addressed to test or publish the topic.
+Controls on the canvas have required properties. If required properties are missing, Assistant Designer Asset library displays the total number of missing required properties and the controls that are missing them. All incomplete warnings must be addressed to test or publish the topic.
 
 In the following example, the topic is missing two required properties. Two nodes are affected, and each is missing one property. The Text response node is missing the Message response.
 
-\[Omitted image "vad-flow-tab-missing-properties-warnings.png"\] Alt text: Virtual Agent Designer Flow tab view with incomplete properties. Number of incomplete nodes is shown in the canvas. The sidebar and each node show the number of incomplete entries.
+\[Omitted image "vad-flow-tab-missing-properties-warnings.png"\] Alt text: Assistant Designer Asset library Flow tab view with incomplete properties. Number of incomplete nodes is shown in the canvas. The sidebar and each node show the number of incomplete entries.
 
 Point to the incomplete message to see a tooltip that describes what is missing.
 
-\[Omitted image "vad-flow-tab-missing-properties-tooltip.png"\] Alt text: Virtual Agent Designer properties, with incomplete message selected to show missing items in the node.
+\[Omitted image "vad-flow-tab-missing-properties-tooltip.png"\] Alt text: Assistant Designer Asset library properties, with incomplete message selected to show missing items in the node.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

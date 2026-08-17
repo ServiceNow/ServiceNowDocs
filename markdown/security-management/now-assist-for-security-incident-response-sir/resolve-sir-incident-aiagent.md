@@ -1,6 +1,6 @@
 ---
 title: Resolve a security incident
-description: Chat with an AI agent in the Now Assist panel to resolve an incident.
+description: Chat with an AI agent in the ServiceNow Otto panel to resolve an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/resolve-sir-incident-aiagent.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Resolve security incidents, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Resolve security incidents, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Resolve a security incident
 
-Chat with an AI agent in the Now Assist panel to resolve an incident.
+Chat with an AI agent in the ServiceNow Otto panel to resolve an incident.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -30,13 +30,13 @@ Role required: sn\_si.analyst
 
 2.  Open the security incident that you want to resolve using the AI agent.
 
-3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
+3.  Select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\) icon.
 
     The Resolve security incident agentic workflow is on-demand. You can enter a query in natural language to resolve a security incident by using this agentic workflow.
 
-4.  On the Now Assist panel, ask the agent to resolve the security incident by entering `Resolve this incident`, `Resolve this security incident`, or `Resolve the security incident: SIR0012345`.
+4.  On the ServiceNow Otto panel, ask the agent to resolve the security incident by entering `Resolve this incident`, `Resolve this security incident`, or `Resolve the security incident: SIR0012345`.
 
-    The Now Assist panel provides all the actions that you can perform on the security incident.
+    The panel provides all the actions that you can perform on the security incident.
 
 5.  Select **Resolve security incident**.
 

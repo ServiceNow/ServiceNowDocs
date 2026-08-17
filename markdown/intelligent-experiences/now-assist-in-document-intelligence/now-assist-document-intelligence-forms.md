@@ -35,7 +35,7 @@ The Table form enables you to define a table for extraction.
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

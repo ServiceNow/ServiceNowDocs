@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicelevelmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Zurich
 
 </td><td>
 
--   **[Configure the SLA timer for the First to breach source](https://servicenow-staging.fluidtopics.net/access?context=sla-timer-configurations&family=zurich&ft:locale=en-US)**
+-   **[Configure the SLA timer for the First to breach source](https://www.servicenow.com/docs/access?context=sla-timer-configurations&family=zurich&ft:locale=en-US)**
 
 Keep up with your service level expectations on incidents by configuring a First to Breach SLA timer for target-based and advanced condition-based SLAs. These configurations help you stay on top of breaches and response times.
 
@@ -128,7 +128,7 @@ Yokohama
 
 </td><td>
 
-Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://servicenow-staging.fluidtopics.net/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -333,7 +333,7 @@ Yokohama
 
 Use Workflow Studio to build and automate the workflows for Service Level Management.
 
- See [Service Level Management](https://servicenow-staging.fluidtopics.net/access?context=service-level-mgmt-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -345,7 +345,7 @@ Zurich
 
 -   SLA Timer Configuration supports target-based First to Breach SLA and advance condition-based First to Breach SLA.
 
- See [Service Level Management](https://servicenow-staging.fluidtopics.net/access?context=service-level-mgmt-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

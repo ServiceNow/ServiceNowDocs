@@ -63,15 +63,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d139735e268">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d143167e268">
 
 Field
 
-</th><th align="left" id="d139735e271">
+</th><th align="left" id="d143167e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139735e277">
+</th></tr></thead><tbody><tr><td id="d143167e277">
 
 **Facts table**
 
@@ -79,7 +79,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables and Workflow Data Fabric tables are not supported.
 
-</td></tr><tr><td id="d139735e293">
+</td></tr><tr><td id="d143167e293">
 
 **Report source**
 
@@ -139,7 +139,7 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
     2.  In the **Number of entries to establish seasonality** field, enter the number of time periods, as defined in the business calendar or schedule entries, that are necessary to find seasonal patterns.
 
-        For more information about business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/business-calendars.md).
+        For more information about business calendar entries, see Creating business calendars.
 
     3.  Set the number of time periods, as defined in the business calendar or schedule entries, to retain scores and snapshots.
 
@@ -170,7 +170,7 @@ The read-only **Report source updated at** field displays the last time the repo
 
 [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md)
 
-[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/business-calendars.md)
+[bundle-platadm.business-calendars]
 
 ## Use a database view in an indicator source
 

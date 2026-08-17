@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-list-dv-with-var-col.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-07-28"
+reading_time_minutes: 8
 breadcrumb: [List visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -366,7 +366,7 @@ Show column filtering
 
 </td><td>
 
-Enable users to apply filters from column headings at runtime.
+Enable users to apply filters from column headings at runtime. To show or hide filters, the user selects a icon at the beginning of the row of column headers.
 
 </td></tr><tr><td>
 
@@ -418,6 +418,14 @@ Show 'view all' footer
 </td><td>
 
 Enables the user to view all the rows in the visualization, not just the maximum number specified.
+
+</td></tr><tr><td>
+
+Show record count
+
+</td><td>
+
+Show the number of rows in the list \(taking filters into account\) at the top of the visualization.
 
 </td></tr><tr><td>
 

@@ -18,13 +18,13 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
+[Create the search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-search-profile-ais.md) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-profiles-ais.md) and [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-app-cfgs-ais.md).
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
 ## About this task
 
-A search application configuration specifies the AI Search profile used by the Run AI Search topic block or in a custom chat experience to control the search experience, such as the search source used to generate search results.
+A search application configuration specifies the AI Search profile used by the Run AI Search topic block or in a custom chat experience. This topic block controls the search experience, such as the search source used to generate search results.
 
 **Note:** As of the Utah release, use the AI Search topic block when creating an AI Search application. \(The Run AI Search topic block is used in releases from Rome to Tokyo.\)
 
@@ -34,29 +34,32 @@ A search application configuration specifies the AI Search profile used by the R
 
 2.  On the form, fill in the fields.
 
-    For more information, see .
+    For more information, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-app-config-form-ais.md).
 
 3.  Select **Submit**.
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d71600e168">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d80157e169">
 
 Option
 
-</th><th align="left" id="d71600e171">
+</th><th align="left" id="d80157e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d71600e177">
+</th></tr></thead><tbody><tr><td id="d80157e178">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
 </td><td>
 
-Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
-2.  In the Flow tab, drag the Topic Block utility onto the canvas.
-3.  Complete the Topic Block Properties sheet:
+Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**
+2.  Select the **Asset library** tab.
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+4.  Select your asset or topic, or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+5.  In the Flow tab, drag the Topic Block utility onto the canvas.
+6.  Complete the Topic Block Properties sheet:
     -   In the **Topic Block** field, select AI Search.
     -   In the **Search Term \(String\)** field, use dot-walking or a script to specify the input variable for the search.
     -   In the **Search Application Configuration** field, select the custom Search Application Configuration that you created in a previous step.
@@ -64,11 +67,11 @@ Add the AI Search topic block to a conversation topic. For details, see [Add a r
 If you leave this field empty, AI Search uses the default search application configuration for Virtual Agent.
 
     -   If needed, click **Hide this node** and specify conditions.
-4.  Select **Save**.
+7.  Select **Save**.
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d71600e287">
+</td></tr><tr><td id="d80157e303">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

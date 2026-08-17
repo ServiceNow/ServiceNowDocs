@@ -1,5 +1,5 @@
 ---
-title: Controlling Health Log Analytics alert generation, prioritization, and anomaly detection
+title: Managing alert generation, prioritization, anomaly detection
 description: Influence how Health Log Analytics generates and prioritizes alerts and identifies anomalies. Use alert filters to reduce noise from unimportant issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Controlling Health Log Analytics alert generation, prioritization, and anomaly detection
+# Managing alert generation, prioritization, anomaly detection
 
 Influence how Health Log Analytics generates and prioritizes alerts and identifies anomalies. Use alert filters to reduce noise from unimportant issues.
 

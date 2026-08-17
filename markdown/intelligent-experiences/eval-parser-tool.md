@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-08-19"
 reading_time_minutes: 3
-breadcrumb: [Reference, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Reference, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Agentic evaluation parser tool

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Knowledge base articles Genius Results, Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Dynamic Translation for Now Assist Q&amp;A Genius Results
@@ -58,10 +58,10 @@ The query-time caches for Now Assist Q&amp;A Genius Results only support English
 
 |Cache mode|Description|
 |----------|-----------|
-|**on** or **online**|AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Now Assist Q&amp;A Genius Result.|
-|**offline**|AI Search bypasses the caches and returns no answer for the Now Assist Q&amp;A Genius Result.|
+|**on** or **online**|AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Knowledge base articles Genius Result.|
+|**offline**|AI Search bypasses the caches and returns no answer for the Knowledge base articles Genius Result.|
 
 For more details on the query-time caches for Now Assist Q&amp;A Genius Results, see [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
-**Parent Topic:**[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md)
 

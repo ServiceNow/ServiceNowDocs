@@ -7,9 +7,10 @@ release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Invoice Processing, Document Intelligence, DocIntel, Document classification skill]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Accounts payable document classification skill
@@ -24,14 +25,14 @@ Scope: Accounts Payable Operations integration with Document Intelligence.
 
 Plugins required:
 
--   Now assist in Document Intelligence
+-   ServiceNow Otto in Document Intelligence
 -   Account Payable Invoice Processing
--   Now assist for Account Payable Operations
+-   ServiceNow Otto for Accounts Payable Operations \(APO\)
 -   Document Intelligence for Accounts Payable Operations Content Pack
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills for Common Finance &amp; Supply Chain features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** &gt; and select the **AI skills** &gt; **** &gt; **Common Finance &amp; Supply Chain features** tab of the AI Admin Hub console.
 
 2.  Select **Finance and Supply Chain** &gt; **Accounts Payable Operations** &gt; **Accounts payable document classification** to view the skills for the APO features.
 

@@ -1,6 +1,6 @@
 ---
 title: Topic NLU Intent tab
-description: You can edit and refine ServiceNow NLU models from within Virtual Agent Designer. When a conversation topic is bound to an associated NLU model and intent, use the NLU Intent tab to review and edit utterances and associated entities.
+description: You can edit and refine ServiceNow NLU models from within Assistant Designer Asset library. When a conversation topic is bound to an associated NLU model and intent, use the NLU Intent tab to review and edit utterances and associated entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Virtual Agent, topic, NLU, natural language understanding, intent, tab, utterances, entities, conflicts]
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic NLU Intent tab
 
-You can edit and refine ServiceNow NLU models from within Virtual Agent Designer. When a conversation topic is bound to an associated NLU model and intent, use the **NLU Intent** tab to review and edit utterances and associated entities.
+You can edit and refine ServiceNow NLU models from within Assistant Designer Asset library. When a conversation topic is bound to an associated NLU model and intent, use the **NLU Intent** tab to review and edit utterances and associated entities.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
-If your topic uses NLU discovery, the topic **NLU Intent** tab appears on the Virtual Agent Designer interface. Test your topic to see the prediction results for topic discovery and the corresponding confidence scores for the results. Depending on the results, you can modify the associated utterances and entities in the NLU model for your topic intent.
+If your topic uses NLU discovery, the topic **NLU Intent** tab appears on the Assistant Designer Asset library interface. Test your topic to see the prediction results for topic discovery and the corresponding confidence scores for the results. Depending on the results, you can modify the associated utterances and entities in the NLU model for your topic intent.
 
 ## Utterances tab
 
@@ -82,7 +82,7 @@ Define a new entity
 1.  Select a word in an utterance to use as an entity.
 2.  In the Create New Entity picker, select the type of entity to be created, such as a simple or system-derived entity.
 
-For information about the types of entities that you can define, see NLU entities. For information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
+For information about the types of entities that you can define, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/entities.md). For information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
 
 
 </td></tr></tbody>
@@ -100,9 +100,9 @@ You can also associate system entities, such as date and time, with an intent. F
 
 ## Conflicts tab
 
-Use the **Conflicts** tab to view conflicts among your intents. For example, if two different intents use the same utterance, this will appear as a conflict in both Virtual Agent Designer and NLU Workbench. Identifying and resolving conflicts improves the effectiveness of NLU topic discovery.
+Use the **Conflicts** tab to view conflicts among your intents. For example, if two different intents use the same utterance, this will appear as a conflict in both Assistant Designer Asset library and NLU Workbench. Identifying and resolving conflicts improves the effectiveness of NLU topic discovery.
 
 \[Omitted image "nlu-intent-tab-conflicts-2a.png"\] Alt text: The Conflicts tab shows problems that may interfere with topic discovery. In this example, two separate intents contain the same utterance.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

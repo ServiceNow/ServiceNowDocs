@@ -92,7 +92,7 @@ Platform Analytics experience is a ServiceNow AI Platform feature that is active
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md)**
+-   **[ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist-platform-analytics.md)**
 
     Several Now Assist Generative AI tools are available for generating and working with Platform Analytics objects through iterative questions and answers.
 

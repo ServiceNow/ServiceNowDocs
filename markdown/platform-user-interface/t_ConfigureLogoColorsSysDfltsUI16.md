@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 

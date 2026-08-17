@@ -48,7 +48,7 @@ Role required: sn\_invst\_pln\_investment\_admin
 
     For example, if the received fund amount is $200,000, and you enter 10% in the **Fund overallocation percent** field, a total of $220,000 can be used for funding.
 
-7.  Select the **Allow fund overallocation at investment level** check box to enable source investment owners who have funded the investment and are not removed from the allocation to override the fund overallocation percent at investment level.
+7.  Select the **Allow fund overallocation at investment level** check box to enable investment owners who funded the investment and remain in the allocation to override the fund overallocation percent at investment level.
 
 8.  Click **Save**.
 

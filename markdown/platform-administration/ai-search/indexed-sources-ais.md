@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-07-10"
 reading_time_minutes: 7
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -37,7 +37,7 @@ AI Search supports the following indexed source types.
 
 **Note:** AI Search doesn't index Unicode characters from the High Surrogate Area \(code units in the range U+D800 to U+DBFF\). Characters from this range are replaced with spaces during indexing.
 
-## Indexing and search performance
+## Search performance considerations for indexing
 
 Search performance for AI Search is affected by several customer-controlled factors related to content indexing. Changes to these factors can impact search performance as follows.
 

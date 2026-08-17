@@ -32,7 +32,7 @@ HR Service Delivery enhances and supports your enterprise. The relationships bet
 -   Employees can use the HR Service Portal or catalog to submit questions and other requests to the HR department.
 -   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ConnectSupport.md).
 
-    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/migrate-from-connect-support.md).
+    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 -   HR staff can create, manage, and view HR cases to answer questions and process the requests that employees submit.
 -   HR managers can run reports and view overview information to monitor and manage work done by the HR department.

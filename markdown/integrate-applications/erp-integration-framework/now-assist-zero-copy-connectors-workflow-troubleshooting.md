@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Zero Copy Connector workflow troubleshooting
-description: Use generative AI logs and Workflow Studio to troubleshoot issues with Now Assist for Zero Copy Connector agentic workflows.
+title: ServiceNow Otto for Zero Copy Connector workflow troubleshooting
+description: Use generative AI logs and Workflow Studio to troubleshoot issues with ServiceNow Otto for Zero Copy Connector agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/now-assist-zero-copy-connectors-workflow-troubleshooting.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, zero copy connector, erp]
-breadcrumb: [Use agentic workflows in Now Assist for Zero Copy Connector, Now Assist for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for Zero Copy Connector, ServiceNow Otto for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
-# Now Assist for Zero Copy Connector workflow troubleshooting
+# ServiceNow Otto for Zero Copy Connector workflow troubleshooting
 
-Use generative AI logs and Workflow Studio to troubleshoot issues with Now Assist for Zero Copy Connector agentic workflows.
+Use generative AI logs and Workflow Studio to troubleshoot issues with ServiceNow Otto for Zero Copy Connector agentic workflows.
 
 The first troubleshooting option is to view generative AI logs.
 

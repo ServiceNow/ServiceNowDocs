@@ -88,5 +88,5 @@ Action card options
 |---|-------|-----------|
 |5|Image and file cards|Cards of the screenshots that you captured and the files that you uploaded. You can click a card and view the preview of a screenshot or file in its default application.|
 |6|Additional screenshot capture or file upload buttons|Buttons to capture or upload additional screenshots or files.|
-|7|Additional directions|Option to provide instructions to Now Assist to analyze the data in the screenshots or files in a specific way.|
+|7|Additional directions|Option to provide instructions to AI to analyze the data in the screenshots or files in a specific way.|
 

@@ -1,28 +1,28 @@
 ---
 title: Create KPIs by adding suppliers to a KPI template
-description: You can add a new supplier whose performance you want to measure using the KPI template. Adding a supplier to a KPI template generates corresponding KPI records and KPI collection tasks for this supplier.
+description: Add suppliers to KPI templates to generate KPI records and collection tasks automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create KPIs by adding suppliers to a KPI template
 
-You can add a new supplier whose performance you want to measure using the KPI template. Adding a supplier to a KPI template generates corresponding KPI records and KPI collection tasks for this supplier.
+Add suppliers to KPI templates to generate KPI records and collection tasks automatically.
 
 ## Before you begin
 
-Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
+Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.Supplier Lifecycle Operations
 
 ## About this task
 
-The **Supplier** related tab for a KPI template displays the following information:
+aSLOSource-to-Pay WorkspaceKPI templatecollection tasksPerformance managementSupplierssegmentation rulete displays the following information:
 
 -   Automatically displays suppliers that match a segmentation rule that is linked to this KPI template.
 -   Displays suppliers that you add manually by selecting **Add**.

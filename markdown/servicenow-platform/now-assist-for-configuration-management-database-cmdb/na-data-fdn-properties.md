@@ -1,24 +1,24 @@
 ---
-title: Property settings for Now Assist for CMDB
-description: List of system properties for the agents used by Now Assist for CMDB agents.
+title: Property settings for ServiceNow Otto for CMDB
+description: List of system properties for the agents used by ServiceNow Otto for CMDB agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.html
 release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-11-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Property settings for Now Assist for CMDB
+# Property settings for ServiceNow Otto for CMDB
 
-List of system properties for the agents used by Now Assist for CMDB agents.
+List of system properties for the agents used by ServiceNow Otto for CMDB agents.
 
 ## Property settings
 
-**Note:** All properties are in the System Property \[sys\_properties\] table. To open the sys\_properties table, enter `sys_properties.list` in the navigation filter.
+**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
 <table id="table_m2p_xvj_q2c"><thead><tr><th>
 
@@ -36,10 +36,9 @@ sn\_cmdb\_gen\_ai.principal\_class\_suggestion\_period
 
 The CMDB data governance manager agentic workflow collects and aggregates Change Management, Incident Management, and Problem Management data for the specified CI class. If the workflow collects too much data, the process might fail. This property limits the duration in days \(integer starting at zero\) for the query.
 
- For instances with little data, set the property to a high value like 36000 \(10 years\). For instances with a large store of data, experiment to determine a practical value.
+ Default 90 \(query all tasks that were updated in the last 90 days\).
 
- -   Type: integer
--   Default value: `90` \(Query all tasks that were updated in the last 90 days.\)
+ For instances with little data, set the property to a high value like 36000 \(10 years\). For instances with a large store of data, experiment to determine a practical value.
 
 </td></tr><tr><td>
 
@@ -49,8 +48,6 @@ sn\_cmdb\_gen\_ai.suggested\_principal\_classes\_limit
 
 Specifies the maximum number of principal classes that are suggested to the user.
 
- Type: integer
-
 </td></tr><tr><td>
 
 sn\_cmdb\_gen\_ai.health\_ownership\_evaluation\_period
@@ -59,8 +56,7 @@ sn\_cmdb\_gen\_ai.health\_ownership\_evaluation\_period
 
 If the CMDB data governance manager agentic workflow collects too much health data, the process might fail. This property limits the duration in days \(integer starting at zero\) for the query.
 
- -   Type: integer
--   Default value: `90` \(Query all tasks that were updated in the last 90 days.\)
+ Default 90 \(query all tasks that were updated in the last 90 days\).
 
 </td></tr><tr><td>
 
@@ -82,6 +78,7 @@ sn\_nowassist\_sgc.ai\_search\_kb\_score\_threshold
 
 Enter the relevancy score threshold for AI Search, used when retrieving knowledge articles with Now Assist for SGC.-   Type: integer
 -   Default value: `5`
+-   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -91,8 +88,9 @@ sn\_nowassist\_sgc.kb\_filtering\_strategy
 
 Set the knowledge article filtering strategy for retrieving articles with Now Assist for SGC. -   Type: list
 -   Default value: `strict`
+-   Location: System Property \[sys\_properties\] table
 
-Choices:
+The valid values are:
 
 -   **strict**
 
@@ -104,5 +102,5 @@ Retrieves knowledge articles from other connector categories, in addition to the
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

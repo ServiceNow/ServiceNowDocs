@@ -1,0 +1,51 @@
+---
+title: Remove a business unit from a business process
+description: Remove business units associated with a business process in Enterprise Architecture Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-remove-business-unit-from-business-process.html
+release: zurich
+topic_type: task
+last_updated: "2026-08-03"
+reading_time_minutes: 1
+keywords: [business process, business unit, enterprise architecture, remove association]
+breadcrumb: [Manage business processes, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Remove a business unit from a business process
+
+Remove business units associated with a business process in Enterprise Architecture Workspace.
+
+## Before you begin
+
+Role required: sn\_apm.apm\_user
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
+
+2.  Open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text:\).
+
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text:\) next to **Business Architecture**.
+
+4.  Select **Business Processes**.
+
+5.  Select the business process that you want to remove a business unit from.
+
+6.  Select the **Related business units** tab.
+
+7.  Select the check box next to the business unit that you want to remove, and select **Remove**.
+
+    A confirmation message appears.
+
+8.  Select **Remove**.
+
+
+**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-business-processes.md)
+
+**Related topics**  
+
+
+[Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
+
+[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-business-processes.md)
+

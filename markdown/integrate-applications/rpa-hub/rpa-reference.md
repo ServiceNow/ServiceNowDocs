@@ -16,6 +16,10 @@ breadcrumb: [Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Robotic Process Automation \(RPA\) Hub.
 
+-   **[Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md)**  
+The limitations of the RPA bot generation skill are as follows.
+-   **[Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/example-instructions-rpa.md)**  
+Example instructions you can use with Now Assist for RPA Hub to get relevant, accurate responses. Refer to these examples when crafting instructions to guide automation tasks.
 -   **[Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-hub-glossary.md)**  
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 

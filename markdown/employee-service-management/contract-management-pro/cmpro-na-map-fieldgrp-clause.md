@@ -1,21 +1,21 @@
 ---
 title: Map a field group to a clause
-description: Map field groups of a use case to clauses of a clause library. Now Assist uses the mapped clause content to display suggestions for a missing or non-standard clause.
+description: Map field groups of a use case to clauses of a clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Contract analysis, Contract analysis clause mapping, Clause mapping, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Contract analysis clause mapping, Clause mapping, Now Assist in contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a field group to a clause
 
-Map field groups of a use case to clauses of a clause library. Now Assist uses the mapped clause content to display suggestions for a missing or non-standard clause.
+Map field groups of a use case to clauses of a clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
 
 ## Before you begin
 
@@ -25,13 +25,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+3.  Select **Activate skill** on the skill you want to activate.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -86,14 +84,12 @@ Clause that you want to map the field group to.**Note:** Only active clauses are
 </td></tr></tbody>
 </table>8.  Add another field group to a clause variation by selecting **New mapping**.
 
-    \[Omitted image "cmpro-na-clause-map.png"\] Alt text: Clause mapping for contract analysis with the option of adding multiple mappings.
-
 9.  Select **Save**.
 
 
 ## Result
 
-The field groups are mapped to clauses of the clause library. Now Assist uses the mapped clause content to display suggestions for a missing or non-standard clause.
+The field groups are mapped to clauses of the clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
 
 ## What to do next
 

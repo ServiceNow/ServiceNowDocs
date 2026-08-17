@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -79,13 +79,15 @@ Select this option to sync iterations such as Planning Intervals and Sprints wit
 
 6.  Select the team levels that you want to have in your configuration.
 
-    Based on the team levels that you enable here, you can add only those entities to your Agile structure. For example, if you didn’t enable **Solution Train** team level in the configuration, you can’t add any solution trains to your Agile structure and you can’t plan work for any solution trains from the Backlog or Planning board.
+    Based on the team levels that you enable here, you can add only those entities to your Agile structure. For example, if you didn’t enable **Solution Train** team level in the configuration, you can’t add any solution trains to your Agile structure. You also can’t plan work for any solution trains from the Backlog or Planning board.
 
 7.  Select the default work item type to be available at each team level and its planning calendar.
 
     -   **Scrum teams with a regular cadence**
 
         Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval** and **Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
+
+        A configuration holds one planning calendar for each team level. A team level that has no planning calendar, such as Portfolio or Solution Train, doesn't have iterations of its own. In the default configurations, only the ART and Agile Team levels have a planning calendar, which gives you two levels of iterations: Planning Intervals on ARTs and Sprints on Agile Teams.
 
         \[Omitted image "eap-work-item-team-level-mapping.png"\] Alt text: Mapping work item type and planning calendars to the team levels.
 

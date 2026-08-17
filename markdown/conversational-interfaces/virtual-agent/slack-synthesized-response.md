@@ -1,56 +1,44 @@
 ---
-title: Chat responses in Slack conversations
-description: Enhance your users experience in Slack conversations with smarter chat responses powered by the Large Language Models \(LLM\) based capabilities, such as synthesized response, streaming synthesized response, agentic response, and people cards.
+title: Synthesized response in Slack conversations
+description: Synthesized responses in Slack conversations are results that are summarized as a single response, allowing users to see information in a conversational way.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/slack-synthesized-response.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [Use Now Assist in VA conversations with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-08-17"
+reading_time_minutes: 2
+breadcrumb: [Use ServiceNow Otto conversations with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Chat responses in Slack conversations
+# Synthesized response in Slack conversations
 
-Enhance your users experience in Slack conversations with smarter chat responses powered by the Large Language Models \(LLM\) based capabilities, such as synthesized response, streaming synthesized response, agentic response, and people cards.
+Synthesized responses in Slack conversations are results that are summarized as a single response, allowing users to see information in a conversational way.
 
-## Synthesized response
-
-With synthesized responses implemented in Slack conversations, the user experience is increased in several ways for the response to contain the most relevant items and information, such as:
+With synthesized responses, the response contains the most relevant items and information, such as:
 
 -   Returning multiple Genius Results and topics in carousel format.
 -   Providing unified search across topics and catalog items.
--   Providing a multi-Knowledge Base Q&amp;A pipeline that enables multiple snippets from multiple Knowledge Base articles to be passed to the LLM as the context for answer generation.
+-   Providing a Knowledge Base Q&amp;A pipeline that enables multiple snippets from multiple Knowledge Base articles to be passed to the LLM as the context for answer generation.
 
 The overall synthesized response helps users experience a conversational flow that understands query intent, searches across records of various types, and summarizes results in a unified, easy-to-consume response.
 
-When you start a conversation in Slack and ask a question, with Now Assist enabled on it, you receive a summary of the response with catalog items and topics followed by the citation links. For example, if you enter a command `laptop` in your conversations, you see the responses in a synthesized format.
+When you ask a question in Slack with ServiceNow Otto enabled, you receive a summary of the response with catalog items and topics, followed by the citation links. For example, if you enter `laptop` in your conversations, you see the responses in a synthesized format.
 
-\[Omitted image "na-slck-synthesized-rspns.png"\] Alt text: Slack synthesized response in a Now Assist enabled conversation.
+\[Omitted image "na-slck-synthesized-rspns.png"\] Alt text: Slack synthesized response in a ServiceNow Otto conversation.
 
-When you select the **View other options** button they get the list of available Knowledge Base articles and catalogs, which you can select and go through the details.
+When you select the **View other options** button, you get the list of available Knowledge Base articles and catalogs, which you can select and then view details.
 
 ## Streaming synthesized response
 
-Streaming synthesized response in Slack conversations provides a faster interaction and more engaged user experience with real-time updates while the messages are processed. To learn more about response streaming, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+Streaming synthesized responses in Slack conversations provides a faster interaction and more engaged user experience with real-time updates while the messages are processed. To learn more about response streaming, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
-To enable response streaming in Slack conversations, see [Enable Now Assist in Virtual Agent for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-slack.md). With response streaming enabled in Slack conversations, you can experience the following enhancements:
+To enable response streaming in Slack conversations, see [Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-slack.md). With response streaming enabled in Slack conversations, you can experience the following enhancements:
 
 -   Reduced latency in conversations
 -   Increased engagement
 -   Ability to handle longer or more complex queries effectively
-
-## People card in synthesized response
-
-When your users inquire about a person in Slack conversations, they can view the synthesized response with a people card having the person's details, such as email id, contact number, and link to the ServiceNow profile.
-
-## Agentic response
-
-With agentic response implemented in Slack conversations, your users can view the real-time details of different steps performed by an AI agent while generating the response to your query. If required, users can also take actions while the conversation is ongoing.
-
-To learn more about enabling agentic response, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
 ## Example of triggering AI agents through REST API
 
@@ -77,5 +65,5 @@ Example of using the sn\_aia REST API endpoints to trigger agents through REST A
 }
 ```
 
-**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
 

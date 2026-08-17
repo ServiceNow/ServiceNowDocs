@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-leaderhub-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[At a glance](https://servicenow-staging.fluidtopics.net/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
+-   **[At a glance](https://www.servicenow.com/docs/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
 
 Supply your organizational and HR leaders with instant access to a comprehensive overview of their organization's talent via the At a glance page. This page is the home page for Leader Hub and it offers a glance at data that measures employee engagement and skill proficiency, along with a glimpse of the teams that comprise your organization. The At a glance page gives leaders quick and easy access to the following information about the teams in their organization:
 
@@ -84,25 +84,25 @@ Supply your organizational and HR leaders with instant access to a comprehensive
     -   Employee engagement with the growth tools available in the Talent Development suite of applications.
 Leaders can access the At a glance page by selecting **At a glance** from the Leader hub drop-down list.
 
--   **[Org talent](https://servicenow-staging.fluidtopics.net/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
+-   **[Org talent](https://www.servicenow.com/docs/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
 
 Provide your leaders with a centralized location to view the talents of each team that exists within their organization via the Org talent page. Leaders can view talent data at any level of granularity through an interactive organizational chart that illustrates the structure of their organization and the reporting relationships between managers and employees for each team in their organization.
 
 Leaders can access the Org talent page by selecting **Org talent** from the Leader hub drop-down list.
 
--   **[Org skills](https://servicenow-staging.fluidtopics.net/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
+-   **[Org skills](https://www.servicenow.com/docs/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
 
 Equip your leaders with the tools to understand the skill composition of their organization via the Org skills page. The Org skills page displays skills relevant to your leader's organization and provides metrics that leaders can use to identify critical skill gaps and hold managers responsible for developing talent within their teams. Leaders can further examine the details associated with each skill by selecting the name of the skill that they want to view to access the Skill details page.
 
 Leaders can access the Org skills page by selecting **Org skills** from the Leader hub drop-down list.
 
--   **[Orgs you support](https://servicenow-staging.fluidtopics.net/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
+-   **[Orgs you support](https://www.servicenow.com/docs/access?context=td-lh-explore&family=xanadu&ft:locale=en-US)**
 
 Give organizational supporters insights into their leader's workforce via the Orgs you support page. Supporters entrusted with delegated responsibilities can be designated by their leaders to access Leader Hub so they can provide support in the capacity required for the organization to succeed.
 
 Supporters can access the Orgs you support page by selecting **Orgs you support** on the mega menu from the Employee Center portal.
 
--   **[Quick start tests for Leader Hub](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-leader-hub&family=xanadu&ft:locale=en-US)**
+-   **[Quick start tests for Leader Hub](https://www.servicenow.com/docs/access?context=quick-start-tests-leader-hub&family=xanadu&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Leader Hub still works. If you customized Leader Hub, copy the quick start tests and configure them for your customizations.
 
@@ -253,7 +253,7 @@ Xanadu
 
 </td><td>
 
-Install Leader Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Leader Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -442,7 +442,7 @@ Xanadu
 -   Gain visibility into the skills and talent composition of each team that exists within your organization, at any level of granularity, through an organizational chart that illustrates the reporting relationships across the different teams in your organization.
 -   Give organizational supporters to whom the leader has delegated responsibilities access to Leader Hub from a view that enables them to see their designated leader's organization and provide support accordingly.
 
- See [Leader Hub](https://servicenow-staging.fluidtopics.net/access?context=td-lh-landing&family=xanadu&ft:locale=en-US) for more information.
+ See [Leader Hub](https://www.servicenow.com/docs/access?context=td-lh-landing&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

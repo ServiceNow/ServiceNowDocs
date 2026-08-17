@@ -123,6 +123,8 @@ View the amendment details in the contract repository record.
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()

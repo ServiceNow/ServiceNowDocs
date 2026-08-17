@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-retailtaskmanagementcore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Retail multi-store case](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-multistore-case&family=yokohama&ft:locale=en-US)**
+-   **[Retail multi-store case](https://www.servicenow.com/docs/access?context=rahi-retail-multistore-case&family=yokohama&ft:locale=en-US)**
 
 Use the multi-store case generator to assign work from HQ to multiple retail locations simultaneously. View and track these cases in the retail portal alongside other requests, monitoring completion status across all assigned locations.
 
@@ -234,7 +234,7 @@ Yokohama
 
 </td><td>
 
-Install Retail Task Management Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Retail Task Management Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Yokohama
 -   View assigned tasks in the retail portal alongside other requests.
 -   Track completion status across multiple locations assigned the same item.
 
- See [Retail Task Management](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-task-management-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Retail Task Management](https://www.servicenow.com/docs/access?context=rahi-retail-task-management-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

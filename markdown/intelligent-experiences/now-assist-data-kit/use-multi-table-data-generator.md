@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-02-25"
 reading_time_minutes: 1
-breadcrumb: [Generate synthetic data, Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Generate synthetic data, Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Use multi-table data generator

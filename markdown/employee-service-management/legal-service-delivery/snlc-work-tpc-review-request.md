@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,15 +48,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d713966e163">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d714189e170">
 
 Option
 
-</th><th align="left" id="d713966e166">
+</th><th align="left" id="d714189e173">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d713966e172">
+</th></tr></thead><tbody><tr><td id="d714189e179">
 
 **As an assignee**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d713966e193">
+</td></tr><tr><td id="d714189e200">
 
 **As a collaborator**
 
@@ -151,23 +151,21 @@ Steps
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
-
     8.  Either send the email immediately or indicate that it should be sent later.
 
         -   To send the email immediately, select **Send email**.
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d713966e587">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d714189e587">
 
 Option
 
-</th><th align="left" id="d713966e590">
+</th><th align="left" id="d714189e590">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d713966e596">
+</th></tr></thead><tbody><tr><td id="d714189e596">
 
 **Internal**
 
@@ -183,7 +181,7 @@ The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_doc
 
 To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d713966e680">
+</td></tr><tr><td id="d714189e680">
 
 **External**
 

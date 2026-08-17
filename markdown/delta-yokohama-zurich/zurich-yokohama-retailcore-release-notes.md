@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retailcore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Retail portal](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-portal&family=yokohama&ft:locale=en-US)**
+-   **[Retail portal](https://www.servicenow.com/docs/access?context=rahi-retail-portal&family=yokohama&ft:locale=en-US)**
 
 Use the new Retail Portal experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 
@@ -186,7 +186,7 @@ Yokohama
 
 </td><td>
 
-Install Retail Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Retail Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -333,7 +333,7 @@ Yokohama
 
 Use the Retail Portal for an optimized and streamlined portal experience within your retail organization.
 
- See [Retail](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-operations-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operations-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

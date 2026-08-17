@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -34,7 +34,7 @@ OT Action-Oriented Landing Page
 
 </td><td>
 
-When you select the **Home** \(\[Omitted image "home-icon.png"\] Alt text: Home icon\) icon, you're taken to the OT Action-Oriented Landing Page. The landing page helps you keep track of critical tasks related to your OT network.
+When you select the **Home** \(\[Omitted image "home-icon.png"\] Alt text:\) icon, you're taken to the OT Action-Oriented Landing Page. The landing page helps you keep track of critical tasks related to your OT network.
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Equipment Model Manager
 
 </td><td>
 
-When you select the **Equipment Model** \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment Model icon\) icon, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
+When you select the **Equipment Model** icon, \[Omitted image "equip-model-manager-button.png"\] Alt text:, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
 
 </td></tr></tbody>
 </table>-   **[Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.md)**  

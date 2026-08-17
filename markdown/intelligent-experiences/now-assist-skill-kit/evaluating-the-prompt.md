@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [General guidelines for Now Assist Skill Kit, Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Evaluating the prompt
@@ -18,7 +18,7 @@ Evaluating the prompt is an ongoing process that occurs during and after prompt 
 
 ## Prompt evaluation overview
 
-To determine the effectiveness of your prompt, you should evaluate batches of test data. You should copy the model-generated responses and perform evaluations outside of Now Assist Skill Kit.
+To determine the effectiveness of your prompt, you should evaluate batches of test data. You should copy the model-generated responses and perform evaluations outside of AI Skill Kit.
 
 ## During prompt development
 

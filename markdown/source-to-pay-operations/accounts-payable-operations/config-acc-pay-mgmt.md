@@ -16,7 +16,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 Plan and configure your implementation for Accounts Payable Operations.
 
-\[Omitted image "configuring-apo.png"\] Alt text: Configuring Accounts Payable Operations
+\[Omitted image "image.configuring-apo"\] Alt text: Configuring Accounts Payable Operations
 
 -   **[Install Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.md)**  
 You can install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.

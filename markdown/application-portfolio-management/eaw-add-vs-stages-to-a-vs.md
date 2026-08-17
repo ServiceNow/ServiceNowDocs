@@ -1,6 +1,6 @@
 ---
 title: Add value stream stages to a value stream
-description: You can add value stream stages to a value stream to break it down into discrete steps and establish the foundation for associating business processes and business capabilities with each stage.
+description: You can add value stream stages to a value stream to break it down into discrete steps. This establishes the foundation for associating business processes and business capabilities with each stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-vs-stages-to-a-vs.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Manage with value streams, Using business architecture, Working wit
 
 # Add value stream stages to a value stream
 
-You can add value stream stages to a value stream to break it down into discrete steps and establish the foundation for associating business processes and business capabilities with each stage.
+You can add value stream stages to a value stream to break it down into discrete steps. This establishes the foundation for associating business processes and business capabilities with each stage.
 
 ## Before you begin
 

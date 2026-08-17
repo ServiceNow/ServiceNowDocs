@@ -44,7 +44,7 @@ Here are some example queries and description of how they works in Knowledge Gra
 |Show me assets assigned to &lt;Person Name&gt;.|Assets refer to asset table, assigned to is column and person name is well specified.|
 |Find details of CI associated with P1 priority incident.|CI refers to look at configuration table and P1 indicated the choice value of the priority column.|
 |Show me incidents that have at least one user on the watch list.|Incident refers to the incident table and watch\_list refers to the glidelist field containing user references, and the condition checks for non-empty values to identify actively monitored incidents.|
-|Show me all incidents and their work\_notes\_list users|Incident refers to the incident table, work\_notes\_list refers to the glidelist field containing user references who have added work notes, and returns paired incident and sys\_user records.|
+|Show me the work\_notes\_list for INC0009009.|Incident refers to the incident table, work\_notes\_list refers to the glidelist field containing user references who have added work notes, and returns paired incident and sys\_user records.|
 
 ## Queries with Sys-IDs, Person Names, and Date References
 
@@ -71,7 +71,6 @@ Here are some example queries and description of how they works in Knowledge Gra
 |What are their pending approvals?|Uses `sysapproval_approver` table and 'their' reference is the person who was referred to in previous turn of conversation.|
 |Give me the watchlist for incident INC0009009.|INC0009009 is the sys-id referring to the incident table, and watch\_list refers to the glidelist field that contains related sys\_user records associated with that incident.|
 |Show watchlist users associated with incident INC0009009.|INC0009009 is the sys-id referring to the incident table and watch\_list refers to the glidelist field containing user references. Returns all sys\_user records linked to that incident.|
-|Show me incidents where abel.tuter is added in watchlist.|Abel.tuter is a username and watch\_list refers to the glidelist field in the incident table. Returns all incident records where this user is listed as a watcher.|
 
 ## Aggregate or Sorting Queries
 

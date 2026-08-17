@@ -41,8 +41,9 @@ You can use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 -   [Convert legacy certification schedules into Data Manager certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.md).
 -   [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 -   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md).
+-   [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md)
 
-The Data Certification experience in CMDB Workspace doesn’t provide functionality such as reset, merging of multiple certification tasks, and escalation.
+The Data Certification experience in CMDB Workspace or Service Graph Workspace don't provide functionality such as merging of multiple certification tasks and escalation.
 
 For more information about using Data Certification in CMDB Workspace, see [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 

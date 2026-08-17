@@ -1,6 +1,6 @@
 ---
 title: AI Search Admin console
-description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and enable AI Search solutions across different types of search applications.
+description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console.html
 release: zurich
@@ -14,13 +14,13 @@ breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search a
 
 # AI Search Admin console
 
-The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and enable AI Search solutions across different types of search applications.
+The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 
 \[Omitted video\] Description: AI Search Admin Console
 
 ## AI Search Admin console overview
 
-The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and Now Assist in AI Search, which makes it easy to integrate advanced AI Search features.
+The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and ServiceNow Otto for AI Search, which makes it easy to integrate advanced AI Search features.
 
 The following example shows the AI Search Admin console home page.
 
@@ -45,12 +45,12 @@ The home page has the following sections that help search administrators underst
     Discover and install applications and plugins to expand the AI Search capabilities in your search application.
 
 
-For more information about the home page and its controls, see [AI Search Admin Console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-home.md).
+For more information about the home page and its controls, see [AI Search Admin console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-home.md).
 
 ## AI Search Admin console benefits
 
 -   Prebuilt AI Search configurations for Service Portal, Now Mobile, Virtual Agent, and other applications that support AI Search.
--   Step-by-step assistance to enable Now Assist Genius Results.
+-   Step-by-step assistance to activate Genius Results.
 -   Easy access to pages that have various configuration settings.
 -   Performance Analytics indicators to track and monitor the search applications.
 

@@ -33,7 +33,7 @@ Agentic Playbooks bring the following benefits:
 
 ## AI agents and their skills
 
-Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
+Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
 
 -   **Playbook data gathering agent**
 
@@ -110,7 +110,7 @@ Uses web search tools to assist users in resolving issues by analyzing problems 
     |Playbook slot filling script|Fetches the relevant schema required to understand and execute the playbook based on the playbook activity context ID and saves the agent response back to the activity context using the activity context ID. It also consolidates activity form fields and UI visible fields under the schema.|
 
 
-For more information about Now Assist AI agents and their capabilities, refer to [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md).
+For more information about Now Assist AI agents and their capabilities, refer to [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md).
 
 ## User personas
 

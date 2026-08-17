@@ -8,7 +8,7 @@ product: RPA Hub
 classification: rpa-hub
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
@@ -32,15 +32,15 @@ An attended automation form is a container for all the elements that make up the
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_ehw_rzz_vrb"><thead><tr><th align="left" id="d458386e94">
+<table id="choicetable_ehw_rzz_vrb"><thead><tr><th align="left" id="d450750e100">
 
 Option
 
-</th><th align="left" id="d458386e97">
+</th><th align="left" id="d450750e103">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d458386e103">
+</th></tr></thead><tbody><tr><td id="d450750e109">
 
 **To create a new form**
 
@@ -48,7 +48,7 @@ Action
 
 Right-click **Forms** in the Project Explorer pane and select **New Form**.
 
-</td></tr><tr><td id="d458386e118">
+</td></tr><tr><td id="d450750e124">
 
 **To access the Form Designer**
 
@@ -69,15 +69,15 @@ Right-click a form in the Project Explorer pane and select **Design**.For more i
 
 5.  Choose an option and complete the action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d458386e199">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d450750e205">
 
 Option
 
-</th><th align="left" id="d458386e202">
+</th><th align="left" id="d450750e208">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d458386e208">
+</th></tr></thead><tbody><tr><td id="d450750e214">
 
 **To edit the properties of an element**
 
@@ -87,7 +87,7 @@ Select the desired element in the Outline pane or on the Design surface and edit
 
  \[Omitted image "form-designer-text-name-change.png"\] Alt text: Enter a name in the Text field in the Properties pane.
 
-</td></tr><tr><td id="d458386e236">
+</td></tr><tr><td id="d450750e242">
 
 **To edit the properties of a window**
 
@@ -97,7 +97,7 @@ Select the window in the Outline pane and edit the required properties in the Pr
 
  \[Omitted image "form-designer-window-properties.png"\] Alt text: Resize the window in the ResizeMode field in the Properties pane.
 
-</td></tr><tr><td id="d458386e264">
+</td></tr><tr><td id="d450750e270">
 
 **To arrange the elements**
 
@@ -105,7 +105,7 @@ Select the window in the Outline pane and edit the required properties in the Pr
 
 Move them as required in the Outline pane.
 
-</td></tr><tr><td id="d458386e273">
+</td></tr><tr><td id="d450750e279">
 
 **To view the added elements under the desired form**
 
@@ -116,7 +116,7 @@ Perform the following actions:1.  In the Project Explorer pane, close the form i
 
 \[Omitted image "elements-form-appear.png"\] Alt text: Elements appear under the form.
 
-</td></tr><tr><td id="d458386e304">
+</td></tr><tr><td id="d450750e310">
 
 **To delete an element on the Design surface**
 
@@ -124,7 +124,7 @@ Perform the following actions:1.  In the Project Explorer pane, close the form i
 
 In the Outline pane, right-click the element to be deleted and select **Delete**.
 
-</td></tr><tr><td id="d458386e316">
+</td></tr><tr><td id="d450750e322">
 
 **To view the methods and events for a form**
 
@@ -132,7 +132,7 @@ In the Outline pane, right-click the element to be deleted and select **Delete**
 
 Double-click the created form in the Project Explorer pane.The methods and events are displayed in the Object Explorer pane. For more information, see [Methods and events of an attended automation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/form-methods-events.md).
 
-</td></tr><tr><td id="d458386e338">
+</td></tr><tr><td id="d450750e344">
 
 **To view the methods and events for an element**
 
@@ -140,7 +140,7 @@ Double-click the created form in the Project Explorer pane.The methods and event
 
 Double-click the element in the Toolbox pane of the Form Designer.The methods and events are displayed in the Object Explorer pane. For more information, see [Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/form-control-methods-events.md).
 
-</td></tr><tr><td id="d458386e357">
+</td></tr><tr><td id="d450750e363">
 
 **To delete a form**
 
@@ -154,7 +154,7 @@ Use the **Find All References** option to do this step.
 3.  In the Confirmation dialog box, select **Yes**.
 
 
-</td></tr><tr><td id="d458386e389">
+</td></tr><tr><td id="d450750e395">
 
 **To find all the references of an element that are used in other activities**
 
@@ -162,7 +162,7 @@ Use the **Find All References** option to do this step.
 
 Right-click the desired form in the Project Explorer pane and select **Find All References**.Results are displayed in the Find All References dialog box.
 
-</td></tr><tr><td id="d458386e404">
+</td></tr><tr><td id="d450750e410">
 
 **To rename a form**
 

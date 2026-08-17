@@ -48,7 +48,7 @@ Role required: evt\_mgmt\_admin
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [TCP data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-tcp-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md).
+    For a description of the fields, see [TCP data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-tcp-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md).
 
 6.  Select **Save**.
 
@@ -83,5 +83,5 @@ The data input configuration process is complete. Health Log Analytics adds the 
 **Related topics**  
 
 
-[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
+[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
 

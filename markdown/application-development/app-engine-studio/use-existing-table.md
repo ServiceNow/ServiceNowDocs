@@ -32,7 +32,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d137982e123">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d138468e123">
 
 **Create new table**
 
@@ -42,7 +42,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d137982e147">
+</td></tr><tr><td id="d138468e147">
 
 **Create from an extensible table**
 

@@ -20,7 +20,7 @@ Role required: sn\_mcp\_server.admin or admin
 
 ## About this task
 
-Depending on your requirements, you can create one or more servers that expose different tools for different use cases, such as for HR or IT workflows, or for different clients. You can also use the preconfigured Quickstart Server.
+Depending on your requirements, create one or more servers that expose different tools for different use cases, such as for HR or IT workflows, or for different clients. You can also use the preconfigured Quickstart Server.
 
 This page also provides explore search, refresh and many other page view options.
 
@@ -65,4 +65,6 @@ This page also provides explore search, refresh and many other page view options
 ## What to do next
 
 Configure clients to connect to the server. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connect-mcp-server-client.md).
+
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-mcp-server-console.md)
 

@@ -19,7 +19,7 @@ Topic blocks are reusable components that you can create to run common tasks and
 
 ## How reusable topic blocks work
 
-A topic block is basically a subflow that performs certain actions or conversational tasks in a topic. For example, you can build a topic block that creates or retrieves certain types of records. You create topic blocks with Virtual Agent Designer, similar to the way that you build conversation topics. With Virtual Agent Designer, you can do the following:
+A topic block is basically a subflow that performs certain actions or conversational tasks in a topic. For example, you can build a topic block that creates or retrieves certain types of records. You create topic blocks with Assistant Designer Asset library, similar to the way that you build conversation topics. With Assistant Designer Asset library, you can do the following:
 
 -   Set topic block properties.
 -   Define the controls \(nodes\) used in the block.
@@ -63,13 +63,13 @@ Contextual search: Uses a search phrase to return search results in a card forma
 Common topic block used by the CSM, HR Service Delivery, and ITSM business applications. Provided with the Service Management Virtual Agent Topic Blocks plugin \(com.glideapp.cs.sm\_topic\_blocks\). This plugin is included with the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for these business applications.
 
 </td></tr></tbody>
-</table>**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+</table>**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 On the home page, you can use the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon. to filter and view only the topic blocks.
 
 \[Omitted image "topic-block-list.png"\] Alt text: Filtered list of topic blocks.
 
-After you create and publish a topic block, the block is available for use as a Topic Block utility in Virtual Agent Designer. You can add the topic block to a calling topic or to another topic block. In the following example, the calling topic uses the Contextual Search topic block. When a topic calls the Contextual Search topic block, the conversation flow contained in the topic block executes.
+After you create and publish a topic block, the block is available for use as a Topic Block utility in Assistant Designer Asset library. You can add the topic block to a calling topic or to another topic block. In the following example, the calling topic uses the Contextual Search topic block. When a topic calls the Contextual Search topic block, the conversation flow contained in the topic block executes.
 
 \[Omitted image "tb-overview-example.png"\] Alt text: Contextual Search topic block.
 
@@ -87,6 +87,6 @@ Working with topic blocks involves the following steps:
 
 3.  [Maintain topic blocks and associated calling topics \(as needed\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/updating-topic-blocks.md)
 
-    When you update a published topic block, Virtual Agent Designer performs certain checks. Displayed messages inform you of changes that you may want to make to calling topics that use the updated block.
+    When you update a published topic block, Assistant Designer Asset library performs certain checks. Displayed messages inform you of changes that you may want to make to calling topics that use the updated block.
 
 

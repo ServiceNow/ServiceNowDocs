@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_review
 
 ## About this task
 
-When working on own-paper or third party paper based contract document, you can use the clause library to check the document for missing or non-compliant clauses. You can also add clause content from the clause library to the document.
+When working on own-paper or third-party paper based contract document, you can use the clause library to check the document for missing or non-compliant clauses. You can also add clause content from the clause library to the document.
 
 The clause library is available under the following conditions:
 

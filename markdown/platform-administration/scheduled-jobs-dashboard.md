@@ -14,7 +14,7 @@ breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and mo
 
 Visit scheduler dashboard to learn about key health metrics and insights of scheduled jobs.
 
-Navigate to **All** &gt; **System Diagnostics** &gt; **Scheduled Jobs Dashboard**.
+Navigate to **All** &gt; **System Diagnostics** &gt; **System Events and Job Monitoring** &gt; **Scheduled Jobs Dashboard**.
 
 \[Omitted image "scheduled-jobs-dashboard.png"\] Alt text: Scheduled jobs dashboard.
 
@@ -147,7 +147,7 @@ Average Processing Time\(s\)
 
 </td><td>
 
-Average time needed to process the jobs.
+Average time in seconds needed to process the jobs.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Total Processing Time\(s\)
 
 </td><td>
 
-Total time needed to process the jobs.
+Total time in seconds needed to process the jobs.
 
 </td></tr></tbody>
 </table>

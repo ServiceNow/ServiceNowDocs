@@ -1,32 +1,33 @@
 ---
-title: Exploring Now Assist for Accounts Payable Operations \(APO\)
-description: With the Now Assist for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
+title: Explore ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: ServiceNow Otto for Accounts Payable Operations \(APO\) provides AP fulfillers with generative AI skills to summarize invoice cases, extract invoice data, map purchase order lines, and generate inquiry resolutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, generative AI, ServiceNow Otto, AP case]
+breadcrumb: [ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Exploring Now Assist for Accounts Payable Operations \(APO\)
+# Explore ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-With the Now Assist for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
+ServiceNow Otto for Accounts Payable Operations \(APO\) provides AP fulfillers with generative AI skills to summarize invoice cases, extract invoice data, map purchase order lines, and generate inquiry resolutions.
 
-## Now Assist for APO overview
+## ServiceNow Otto for APO overview
 
-Using the summarization capability of the Now Assist for APO application, an AP fulfiller can auto-map the invoice lines with purchase order lines, get a concise summary of a case quickly, extract invoice details from email and auto-create an invoice processing case.
+Using the summarization capability of the ServiceNow Otto for APO application, an AP fulfiller can auto-map invoice lines with purchase order lines. You can get a concise summary of a case quickly, extract invoice details from email, and auto-create an invoice processing case.
 
 Cases can be complex and a case summary may enable an AP fulfiller to provide a more concise summary.
 
 ## Skills
 
-\[Omitted image "now-assist.png"\] Alt text: now assist
+\[Omitted image "now-assist.png"\] Alt text: ServiceNow Otto
 
-The Now Assist for APO application includes the following:
+The ServiceNow Otto for APO application includes the following:
 
 -   The generative AI skills enable an AP fulfiller to extract the details of an invoice case or inquiry case and suggest resolutions.
 -   The generative AI skills perform the purchase order line-mapping and enable an AP fulfiller to review the mapping results.
@@ -35,7 +36,7 @@ The Now Assist for APO application includes the following:
 
     Provides AP fulfiller to automatically map the invoice lines with the purchase order lines.
 
-    The purchase order line-mapping skill generates the invoice line mapping, changes the invoice line status to review mapping state and provokes the fulfiller to manually review the mapping results. After the fulfiller reviews the mapping results, the invoice line status is changed to mapping complete. The purchase order lines mapped using the Now Assist skill are controlled using the APO properties. For more information on the use of purchase order mapping in workspace, see [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
+    The purchase order line-mapping skill generates the invoice line mapping and changes the invoice line status to review mapping state. The fulfiller can then manually review the mapping results. After the fulfiller reviews the mapping results, the invoice line status is changed to mapping complete. The purchase order lines mapped using the AI skill are controlled using the APO properties. For more information on the use of purchase order mapping in workspace, see [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
 
 -   **Invoice case summarization**
 
@@ -47,7 +48,7 @@ The Now Assist for APO application includes the following:
 
     For inquiry cases, the invoice case summarization skill generates a case summary by checking the short description, description, and tasks that were created for the case.
 
-    Fulfiller can customize prompt configuration and prompt optimization using the pre-processor in the Now Assist skill kit \(NASK\). The skill supports multiple models such as OpenAI, Claude, Gemini, Now LLM Service. The configured pre-processor is applied across all supported models in NASK. To customize the prompt instructions, the sn\_skill\_builder\_admin role is mandatory.
+    Fulfiller can customize prompt configuration and prompt optimization using the pre-processor in the AI skill kit. The skill supports multiple models such as OpenAI, Claude, Gemini, Now LLM Service. The configured pre-processor is applied across all supported models in NASK. To customize the prompt instructions, the sn\_skill\_builder\_admin role is mandatory.
 
 -   **Invoice data extraction**
 
@@ -61,15 +62,15 @@ The Now Assist for APO application includes the following:
 
     The skill suggests appropriate resolutions for inquiry cases by analyzing case details such as description, short description, related tasks and knowledge articles.
 
-    Resolve supplier questions use case uses the field extractor skills, which extracts the invoice number and supplier \(from the description and short description\) and updates the case. The inquiry classifier categorizes the case by reading description, short description and updates the subcategory in the case. The Inquiry resolution provider agent automatically provides resolution for the inquiry submitted by suppliers or employees by analyzing the invoice, invoice lines, and other invoice-related tables \(tax, exceptions, approval history tables, purchase order tables, and knowledge base tables\).
+    Resolve supplier questions use case uses the field extractor skills, which extracts the invoice number and supplier \(from the description and short description\) and updates the case. The inquiry classifier categorizes the case by reading description, short description and updates the subcategory in the case. The Inquiry resolution provider agent automatically provides resolution for the inquiry submitted by suppliers or employees. The agent analyzes the invoice, invoice lines, and other invoice-related tables \(tax, exceptions, approval history tables, purchase order tables, and knowledge base tables\).
 
-    The skill is activated upon assignment of an inquiry case to an AP agent. The skill is used by the Inquiry resolution provider AI agent to generate invoice inquiry case resolution in the Now Assist panel \(Now Assist panel\) reviewed by an agent. The Agent is prompted with an input to close the case in the Now Assist panel. Upon confirmation, the case is closed with the appropriate closure code and closure details. If the agent chooses to respond with a "No", then the Now Assist panel chat window is terminated for manual closure. The resolution is updated in the activity history \(work notes\) of the case. For more information on the AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
+    The skill is activated upon assignment of an inquiry case to an AP agent. The Inquiry resolution provider AI agent uses the skill to generate invoice inquiry case resolution in the ServiceNow Otto panel. An agent reviews the resolution in the ServiceNow Otto panel. The agent is prompted with an input to close the case in the ServiceNow Otto panel. Upon confirmation, the case is closed with the appropriate closure code and closure details. If the agent chooses to respond with a "No", then the ServiceNow Otto panel chat window is terminated for manual closure. The resolution is updated in the activity history \(work notes\) of the case. For more information on the AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
 
 -   **Relevant invoice finder**
 
     The Relevant invoice finder skill identifies the historically processed invoices that are most relevant to a given invoice using semantic matching.
 
-    The skill compares the current invoice and its line descriptions with previously processed invoices along with its line descriptions, and generates a relevance score from 0 through 1 for each item. These invoices are then returned in a ranked list, ordered by relevance.
+    The skill compares the current invoice and its line descriptions with previously processed invoices and their line descriptions. It generates a relevance score from 0 through 1 for each item. These invoices are then returned in a ranked list, ordered by relevance.
 
     The Recommend invoice owner AI agent uses this match score to suggest a [resolution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md) for Missing or invalid business owner exceptions.
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-09-05"
 reading_time_minutes: 1
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Supported query operations

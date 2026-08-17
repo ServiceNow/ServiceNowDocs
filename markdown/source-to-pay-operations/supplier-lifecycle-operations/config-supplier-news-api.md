@@ -27,7 +27,7 @@ The process for configuring a custom news API includes the following tasks:
 1.  [Create a REST message for a custom API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-custom-api-rest.md)  
 Create a REST message request and send it to a custom API endpoint to fetch the latest supplier news.
 2.  [Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md)  
-Add and configure the Get News - Composite data resource in UI Builder to dynamically retrieve supplier news in the News and Activity section of the Source-to-Pay Workspace.
+Configure the Get News - Composite data resource to display supplier news in the News and Activity section of the Source-to-Pay Workspace.
 3.  [Update the field names in the UX client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/update-client-script.md)  
 Update the field names in the UX client script to match the custom field names in the custom API response.
 

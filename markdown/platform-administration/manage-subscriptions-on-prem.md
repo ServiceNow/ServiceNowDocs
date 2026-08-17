@@ -53,8 +53,6 @@ You receive an email when the request has been processed.
 
 After the request has been processed, view on-premise licensing requests to download the data.
 
-**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
-
 ## View on-premise licensing information requests
 
 After a request for on-premise entitlement data is processed, you can find and download the data through Now Support.

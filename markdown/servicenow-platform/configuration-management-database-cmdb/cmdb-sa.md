@@ -1,6 +1,6 @@
 ---
 title: CMDB success advisor
-description: The ServiceNow CMDB success advisor is a scoped application that drives business outcomes for targeted business products, including Data Foundations and Hardware Asset Management, by improving Configuration Management Database \(CMDB\) data quality. Use a specialized advisor to resolve data quality issues through guided remediation and identify which data integrations are keeping your CMDB accurate and complete.
+description: The ServiceNow CMDB success advisor is a scoped application that drives business outcomes for targeted business products, including Data Foundations, Hardware Asset Management, and Software Asset Management \(SAM\), by improving Configuration Management Database \(CMDB\) data quality. Use a specialized advisor to resolve data quality issues through guided remediation and identify which data integrations are keeping your CMDB accurate and complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 # CMDB success advisor
 
-The ServiceNow® CMDB success advisor is a scoped application that drives business outcomes for targeted business products, including Data Foundations and Hardware Asset Management, by improving Configuration Management Database \(CMDB\) data quality. Use a specialized advisor to resolve data quality issues through guided remediation and identify which data integrations are keeping your CMDB accurate and complete.
+The ServiceNow® CMDB success advisor is a scoped application that drives business outcomes for targeted business products, including Data Foundations, Hardware Asset Management, and Software Asset Management \(SAM\), by improving Configuration Management Database \(CMDB\) data quality. Use a specialized advisor to resolve data quality issues through guided remediation and identify which data integrations are keeping your CMDB accurate and complete.
 
 ## Get started
 
@@ -28,7 +28,7 @@ The ServiceNow® CMDB success advisor is a scoped application that drives busine
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-strategic.svg"\] Alt text:Target business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
+[Use\[Omitted image "bus-strategic.svg"\] Alt text:Target business outcomes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
 
 </td><td>
 

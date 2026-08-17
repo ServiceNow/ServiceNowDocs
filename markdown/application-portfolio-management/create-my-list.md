@@ -1,6 +1,6 @@
 ---
 title: Create my list
-description: Create your own filtered lists in the Enterprise Architecture Workspace by defining filter conditions and sort criteria that control which records appear in the list and access them under the My Lists tab.
+description: Create your own filtered lists in the Enterprise Architecture Workspace and access them under the My Lists tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/create-my-list.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture W
 
 # Create my list
 
-Create your own filtered lists in the Enterprise Architecture Workspace by defining filter conditions and sort criteria that control which records appear in the list and access them under the **My Lists** tab.
+Create your own filtered lists in the Enterprise Architecture Workspace and access them under the **My Lists** tab.
 
 ## Before you begin
 

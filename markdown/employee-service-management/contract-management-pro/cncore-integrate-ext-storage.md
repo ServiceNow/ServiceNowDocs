@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configure external applications, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -49,7 +49,7 @@ Write permission is granted to the following user roles when the contract reques
 -   Assignment Group Manager
 -   Collaborator
 
-Access permissions set on the parent request folder are automatically inherited by all subfolders and documents within it.
+Access permissions set on the parent request folder are automatically inherited by all sub folders and documents within it.
 
 ## Procedure
 
@@ -158,7 +158,7 @@ These field variables are dynamically replaced by the values in each field while
 
 ## Result
 
-The configuration for the external storage system is ready to be used for storing contract documents.
+The external storage system is configured and ready to be used for storing contract documents.
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -28,8 +28,18 @@ Value stream stages are a specific section within the overall value stream, enco
 A business capability is the ability of an organization to do its business activities successfully and fulfill its business goals.
 -   **[Exploring business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-processes.md)**  
 Business processes model how your organization performs work to achieve a business outcome. Use business processes in Enterprise Architecture Workspace to build a process hierarchy and to associate processes with supporting business applications.
+-   **[Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-process-activities.md)**  
+Business process activities represent discrete units of work within workflows. Knowing how they differ from business processes helps you model organizational tasks accurately.
 -   **[Exploring demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-demands.md)**  
 You can use a demand as a step to identify cost-saving opportunities on applications or capabilities and to meet the target.
+-   **[Exploring business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-actors.md)**  
+A business actor represents the entity that performs work in your organization, such as a business unit, role, or department.
+-   **[Exploring business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-roles.md)**  
+A business role defines the responsibilities, rights, and duties that a business actor holds when performing specific business behavior.
+-   **[Exploring drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-drivers.md)**  
+A driver is an external or internal condition that motivates your organization to define goals and implement changes in Enterprise Architecture Workspace.
+-   **[Exploring stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-stakeholders.md)**  
+Stakeholders are individuals or teams with an interest in your enterprise architecture outcomes. Use stakeholders to identify who influences and is affected by your architectural decisions.
 
 **Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/portfolio-list-view.md)
 

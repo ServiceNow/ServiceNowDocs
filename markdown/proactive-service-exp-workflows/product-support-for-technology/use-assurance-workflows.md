@@ -8,7 +8,7 @@ product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Proactive Service Experience Workflows]
 ---
 
@@ -27,7 +27,7 @@ Cases are created from the incidents.
 -   **[Diagnose and resolve a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.md)**  
 As a customer service agent, review, diagnose, resolve, and close a change request for the service-related issue experienced by the customer.
 -   **[Create a case from a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-impact-change.md)**  
-Create a case from a change request in Proactive Service Experience Workflows so that you can notify your customers about a service outage and its resolution after the change implementation is complete.
+Create a case from a change request in Proactive Service Experience Workflows. You can notify your customers about a service outage and its resolution after the change implementation is complete.
 -   **[About messages used in escalation workflows in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-about-msgs.md)**  
 Multiple messages that are used within the incident escalation flows are available with the base Proactive Service Experience Workflows application.
 -   **[Diagnose and resolve an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/diagnose-reslove-incident-psew.md)**  

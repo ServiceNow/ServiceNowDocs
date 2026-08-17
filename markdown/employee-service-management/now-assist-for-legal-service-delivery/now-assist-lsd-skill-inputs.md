@@ -1,25 +1,25 @@
 ---
-title: Skill inputs for Now Assist for Legal Service Delivery \(LSD\)
-description: Get a quick overview of the skill inputs for Now Assist for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
+title: Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, generative AI]
-breadcrumb: [Customize summarization skill, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Customize summarization skill, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Skill inputs for Now Assist for Legal Service Delivery \(LSD\)
+# Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-Get a quick overview of the skill inputs for Now Assist for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
+Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
 
 Depending on the selected skill, you can configure inputs. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a summary.
 
-Configure the variables of practice areas to be considered as inputs for legal request or matter summarization. To add variables, see [Configure variables for Now Assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md).
+Configure the variables of practice areas to be considered as inputs for legal request or matter summarization. To add variables, see [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md).
 
 ## Legal Request summarization
 

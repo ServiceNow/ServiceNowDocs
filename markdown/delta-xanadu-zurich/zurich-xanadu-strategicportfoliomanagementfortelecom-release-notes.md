@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-strategicportfoliomanagementfortelecom-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,11 +83,11 @@ Yokohama
 
 </td><td>
 
--   **[Fiber rollout project template](https://servicenow-staging.fluidtopics.net/access?context=spmt-fiber-rollout-template&family=yokohama&ft:locale=en-US)**
+-   **[Fiber rollout project template](https://www.servicenow.com/docs/access?context=spmt-fiber-rollout-template&family=yokohama&ft:locale=en-US)**
 
 Bring scalability and adaptability to network expansion efforts by enabling organizations to customize them for various deployment scenarios. These templates reduce planning and execution costs through standardized, repeatable workflows while ensuring compliance with regulatory and operational standards.
 
--   **[5G project template](https://servicenow-staging.fluidtopics.net/access?context=spmt-overview&family=yokohama&ft:locale=en-US)**
+-   **[5G project template](https://www.servicenow.com/docs/access?context=spmt-overview&family=yokohama&ft:locale=en-US)**
 
 Accelerate time-to-market by providing pre-configured workflows that simplify complex network deployment processes. The template enhances operational efficiency by streamlining tasks, reducing redundancies, and minimizing errors. It also improves team collaboration by providing clear visibility into timelines, resource allocation, and milestones, aligning stakeholders around shared goals.
 
@@ -238,7 +238,7 @@ Yokohama
 
 </td><td>
 
-Install Strategic Portfolio Management for Telecom by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Strategic Portfolio Management for Telecom by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -426,7 +426,7 @@ Yokohama
 -   Use templates to customize requirements for your Fiber Rollout and 5G projects.
 -   Address challenges that manual processes cause by using customized templates.
 
- See [Strategic Portfolio Management for Telecom](https://servicenow-staging.fluidtopics.net/access?context=spmt-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Strategic Portfolio Management for Telecom](https://www.servicenow.com/docs/access?context=spmt-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

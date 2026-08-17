@@ -60,15 +60,15 @@ You can fix errors in individual application services at any time. When you perf
 
     Error resolution options vary, because they depend on the specific discovery error associated with the selected CI.
 
-<table id="choicetable_phf_4qd_41b"><thead><tr><th align="left" id="d478319e242">
+<table id="choicetable_phf_4qd_41b"><thead><tr><th align="left" id="d478746e242">
 
 Use this option
 
-</th><th align="left" id="d478319e245">
+</th><th align="left" id="d478746e245">
 
 To do this
 
-</th></tr></thead><tbody><tr><td id="d478319e251">
+</th></tr></thead><tbody><tr><td id="d478746e251">
 
 **Add Management IP**
 
@@ -76,7 +76,7 @@ To do this
 
 Enter the management IP to trigger discovery on the host resources and connections. Typically, you need this solution for application services that have undiscovered devices like load balancers as their entry points. The management IP address of a network device is the address that you use to reach the device using the SNMP or any other management protocol.**Note:** The system does not save the management IP you configure.
 
-</td></tr><tr><td id="d478319e263">
+</td></tr><tr><td id="d478746e263">
 
 **Create new WMI credentials**
 
@@ -84,7 +84,7 @@ Enter the management IP to trigger discovery on the host resources and connectio
 
 Open the Windows Credentials form and configure missing Windows credentials for the selected CI. See [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_WindowsCredentialsForm.md).
 
-</td></tr><tr><td id="d478319e276">
+</td></tr><tr><td id="d478746e276">
 
 **Create new SSH credentials**
 
@@ -92,7 +92,7 @@ Open the Windows Credentials form and configure missing Windows credentials for 
 
 Open the SSH Credentials form and configure missing SSH credentials for the selected CI. See [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
 
-</td></tr><tr><td id="d478319e289">
+</td></tr><tr><td id="d478746e289">
 
 **Create new SSH private key**
 
@@ -100,7 +100,7 @@ Open the SSH Credentials form and configure missing SSH credentials for the sele
 
 Open the SSH private keys form and configure missing credentials for the selected CI. See [SSH private key credential type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
 
-</td></tr><tr><td id="d478319e303">
+</td></tr><tr><td id="d478746e303">
 
 **Create new SNMP credentials**
 
@@ -108,7 +108,7 @@ Open the SSH private keys form and configure missing credentials for the selecte
 
 Open the SNMP credentials form and configure missing SNMP credentials for the selected CI. See [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_SNMPCredentials.md).
 
-</td></tr><tr><td id="d478319e316">
+</td></tr><tr><td id="d478746e316">
 
 **Show Discovery Log**
 
@@ -116,7 +116,7 @@ Open the SNMP credentials form and configure missing SNMP credentials for the se
 
 See the log to understand at what stage an error occurred and what caused it.
 
-</td></tr><tr><td id="d478319e325">
+</td></tr><tr><td id="d478746e325">
 
 **Skip and resume**
 
@@ -124,7 +124,7 @@ See the log to understand at what stage an error occurred and what caused it.
 
 Manually add the CI whose discovery failed and configure attributes of the entry point from which Service Mapping continues discovery. For more information, see [Skip errors to continue discovering an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.md).
 
-</td></tr><tr><td id="d478319e348">
+</td></tr><tr><td id="d478746e348">
 
 **Retry discovery**
 
@@ -132,7 +132,7 @@ Manually add the CI whose discovery failed and configure attributes of the entry
 
 Run the discovery process for the selected CI after trying to resolve a discovery error associated with it.
 
-</td></tr><tr><td id="d478319e357">
+</td></tr><tr><td id="d478746e357">
 
 **View affected services**
 

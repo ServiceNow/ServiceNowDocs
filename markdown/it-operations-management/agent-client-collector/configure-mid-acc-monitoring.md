@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on configuring Agent Client Collector for log monitoring, see [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md).
+For details on configuring Agent Client Collector for log monitoring, see .
 
 ## Procedure
 

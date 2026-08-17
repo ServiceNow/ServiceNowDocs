@@ -18,7 +18,10 @@ The Capacity Console is a tool designed for monitoring, managing, and optimizing
 
 It provides an intuitive, visual representation of capacity utilization, empowering capacity planners to make data-driven decisions and improve operational efficiency.
 
-**Note:** To use Capacity Console, you must activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+**Note:** To use Capacity Console, you must activate the following:
+
+-   Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+-   Field Service territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   **Comprehensive capacity view**
 

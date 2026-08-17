@@ -1,5 +1,5 @@
 ---
-title: Summarize a record in-product using Now Assist for App Engine
+title: Summarize a record in-product using ServiceNow Otto for App Engine
 description: Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-10-08"
 reading_time_minutes: 2
 keywords: [summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Summarize a record in-product using Now Assist for App Engine
+# Summarize a record in-product using ServiceNow Otto for App Engine
 
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
 
@@ -31,7 +31,7 @@ The following procedure describes how to summarize a record from a custom applic
 
 .
 
-You can also summarize the contents of a record through chat in the Now Assist panel. For more information, see [Summarize a record through chat using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
+You can also summarize the contents of a record through chat in the Now Assist panel. For more information, see [Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ You can also summarize the contents of a record through chat in the Now Assist p
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39951e158">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39818e158">
 
 Option
 
-</th><th align="left" id="d39951e161">
+</th><th align="left" id="d39818e161">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39951e167">
+</th></tr></thead><tbody><tr><td id="d39818e167">
 
 **Expand or collapse the summary**
 
@@ -59,7 +59,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d39951e188">
+</td></tr><tr><td id="d39818e188">
 
 **Provide feedback about the summary**
 
@@ -67,7 +67,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d39951e211">
+</td></tr><tr><td id="d39818e211">
 
 **Copy the record summary**
 
@@ -77,5 +77,5 @@ If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 

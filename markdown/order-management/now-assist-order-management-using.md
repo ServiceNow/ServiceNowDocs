@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for Order Management
+title: Using ServiceNow Otto for Order Management
 description: Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.Although the original phrase "within an agentic workflow" was accidentally changed to the current form, "in an agentic workflow" was retained for consistency with the usage in the topic body \("in agentic workflows"\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/now-assist-order-management-using.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist for Order Management]
+breadcrumb: [ServiceNow Otto for Order Management]
 ---
 
-# Using Now Assist for Order Management
+# Using ServiceNow Otto for Order Management
 
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 
@@ -19,30 +19,30 @@ Use agents in an agentic workflow or as standalone agents to achieve specific au
 
 -   **Order summarization**
 
-    Use Now Assist for Order Management to summarize complex orders across products, services, and fulfillment tasks, enabling you to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity. For more information, see [Summarize an order using Summarization for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-mgmt-summarize-order.md).
+    Use ServiceNow Otto for Order Management to summarize complex orders across products, services, and fulfillment tasks, enabling you to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity. For more information, see [Summarize an order using Summarization for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-mgmt-summarize-order.md).
 
 -   **Bulk order updates**
 
-    Manage order updates, such as applying bulk changes to order line items, removing order lines, or creating an order case, without navigating between individual records. For more information, see [Manage order updates with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/bulk-update-order-lines-with-now-assist.md).
+    Manage order updates, such as applying bulk changes to order line items, removing order lines, or creating an order case, without navigating between individual records. For more information, see [Manage order updates with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/bulk-update-order-lines-with-now-assist.md).
 
 
-## Managing order cases using Now Assist
+## Managing order cases using ServiceNow Otto
 
-Business-to-business \(B2B\) customers can request changes to their unfulfilled orders from the Now Assist Virtual Assistant in the Business Portal using chat and voice channels.
+Business-to-business \(B2B\) customers can request changes to their unfulfilled orders from the ServiceNow Otto Virtual Agent in the Business Portal using chat and voice channels.
 
--   [Request order changes using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/request-order-changes-now-assist.md)
+-   [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/request-order-changes-now-assist.md)
 -   [Request order changes via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-mgmt-voice-aiagent.md)
 
-## Managing invoice cases using Now Assist
+## Managing invoice cases using ServiceNow Otto
 
-B2B customers can dispute invoice cases from the Now Assist Virtual Assistant in the Business Portal using chat and voice channels.
+B2B customers can dispute invoice cases from the ServiceNow Otto Virtual Agent in the Business Portal using chat and voice channels.
 
--   [Dispute invoice issues using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/dispute-invoice-issues-now-assist.md)
+-   [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/dispute-invoice-issues-now-assist.md)
 -   [Dispute invoice cases via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-invoice-mgmt-voice-aiagent.md)
 
-Now Assist for Order Management includes the invoice dispute assist agentic workflow. Billing specialists can invoke the invoice dispute assist agentic workflow from the Now Assist panel to review the invoice case, validate the dispute, view similar cases, and complete resolution actions using a guided experience. Using an agentic workflow helps reduce manual investigation, improves consistency, and helps agents resolve invoice disputes efficiently while keeping customers informed throughout the process. For more information, see [Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/resolve-invoice-case-now-assist-agent.md).
+ServiceNow Otto for Order Management includes the invoice dispute assist agentic workflow. Billing specialists can invoke the invoice dispute assist agentic workflow from the ServiceNow Otto panel to review the invoice case, validate the dispute, view similar cases, and complete resolution actions using a guided experience. Using an agentic workflow helps reduce manual investigation, improves consistency, and helps agents resolve invoice disputes efficiently while keeping customers informed throughout the process. For more information, see [Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/resolve-invoice-case-now-assist-agent.md).
 
-Email notifications are sent to the customer when an invoice case is created or closed, but only for cases initiated through the Now Assist Virtual Assistant in the Business Portal. Notifications are triggered for the following closure outcomes: Credit note issued or replacement order placed. Case closure can be performed either by the customer using the Now Assist Virtual Assistant in the Business Portal, or by a billing specialist from the Now Assist in the CSM/FSM Configurable Workspace.
+Email notifications are sent to the customer when an invoice case is created or closed, but only for cases initiated through the ServiceNow Otto Virtual Agent in the Business Portal. Notifications are triggered for the following closure outcomes: Credit note issued or replacement order placed. Case closure can be performed either by the customer using the ServiceNow Otto Virtual Agent in the Business Portal, or by a billing specialist from the ServiceNow Otto in the CSM/FSM Configurable Workspace.
 
 **Related topics**  
 

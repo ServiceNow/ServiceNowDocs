@@ -1,5 +1,5 @@
 ---
-title: Role masking in Now Assist AI agents
+title: Role masking in AI agents
 description: Role masking for AI agents and agentic workflows helps users enhance security by enabling them to limit their roles during tool execution and verify that AI agents run with least-access privileges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aia-role-masking.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3
 keywords: [Agent Role Masking, Agent Security]
-breadcrumb: [Security for AI agents, Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Security for AI agents, Configure, AI Agent Studio, Enable AI experiences]
 ---
 
-# Role masking in Now Assist AI agents
+# Role masking in AI agents
 
 Role masking for AI agents and agentic workflows helps users enhance security by enabling them to limit their roles during tool execution and verify that AI agents run with least-access privileges.
 
@@ -24,7 +24,7 @@ Use role masking to:
 -   Empower users to follow least-access principles when an agentic workflow or AI agent executes on behalf of a dynamic user.
 -   Limit roles that agentic workflows, AI agents, and skills inherit from users and can be applied when a user invokes them.
 
-    For more information about configuring skills, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+    For more information about configuring skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 -   Reduce the risk of AI solutions accessing the resources that they shouldn't, therefore helping prevent agentic overreach into sensitive data or capabilities beyond what the user is allowed.
 -   Expand the security configurations to increase functionality of agentic products while reducing security risks by enforcing governance for elevated or scoped roles.
@@ -33,7 +33,7 @@ Use role masking to:
 
 To configure role masking on your ServiceNow instance, you must have:
 
--   Now Assist for Platform version 10.0.2-SS.
+-   ServiceNow Otto for Platform version 10.0.2-SS.
 -   The sn\_aia.admin privileges.
 
 ## Role masking behavior

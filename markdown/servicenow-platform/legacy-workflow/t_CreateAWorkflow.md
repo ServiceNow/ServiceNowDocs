@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-09-22"
+last_updated: "2026-07-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Automate a multi-step process by creating a workflow with the Workflow Editor.
 
 Role required:
 
--   You must have the snc\_required\_script\_writer and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
+-   You must have the snc\_required\_script\_writer\_permission and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
 -   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## About this task

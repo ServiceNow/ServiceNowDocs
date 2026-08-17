@@ -38,7 +38,7 @@ For more information, see [Components installed with Document Intelligence](http
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

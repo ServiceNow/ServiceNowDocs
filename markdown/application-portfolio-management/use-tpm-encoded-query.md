@@ -1,18 +1,18 @@
 ---
-title: Filter software results using an encoded query in TPM
-description: Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the Lifecycle Timeline view of a business application. By default, the TPM picks licensable software. Use this encoded query when you want TPM to include other software \(non-licensable\) and filter the result.
+title: Filter software results using an encoded query in TLM
+description: Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the Lifecycle Timeline view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want TLM to include other software \(non-licensable\) and filter the result.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/use-tpm-encoded-query.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Filter software results using an encoded query in TPM
+# Filter software results using an encoded query in TLM
 
-Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TPM picks licensable software. Use this encoded query when you want TPM to include other software \(non-licensable\) and filter the result.
+Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want TLM to include other software \(non-licensable\) and filter the result.
 
 ## Before you begin
 
@@ -20,7 +20,13 @@ Role required: admin
 
 ## About this task
 
-The TPM can track technology lifecycles for both licensable and non-licensable software. When you import non-licensable software, you may end up importing a large number of unnecessary software. You can restrict the number of results by specifying an encoded query as the value of the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPM** system property. When you set a value for this system property and run the TPM scheduled job, you can see the search results that satisfy your encoded query.
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
+
+The TLM can track technology lifecycles for both licensable and non-licensable software. When you import non-licensable software, you may end up importing many unnecessary software. You can restrict the number of results by specifying an encoded query as the value of the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPM** system property. When you set a value for this system property and run the TLM scheduled job, you can see the search results that satisfy your encoded query.
 
 ## Procedure
 
@@ -52,35 +58,35 @@ The TPM can track technology lifecycles for both licensable and non-licensable s
 
 6.  Run the scheduled job **Populate TPM Discovered Technologies and Lifecycles**.
 
-    1.  Navigate to **All** &gt; ** System Definition ** &gt; ** Scheduled Jobs**.
+    1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-    2.  Find and open the  scheduled job **Populate TPM Discovered Technologies and Lifecycles**.
+    2.  Find and open the scheduled job **Populate TPM Discovered Technologies and Lifecycles**.
 
-    3.  Select  ** Execute Now**.
+    3.  Select **Execute Now**.
 
 
 ## Result
 
-The technologies and lifecycle values are updated in the TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\_list\] table.
+The technologies and lifecycle values are updated in the TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\_list\] table.
 
-**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Update TPM data for business applications or services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md)
 
-[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
 [View technology lifecycle details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tech-lifecycle.md)
 
-[View TPM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tech-risk.md)
+[View TLM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tech-risk.md)
 
-[Update system property to gather software from CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)
+[Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)
 
 [View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-audit-risk-details.md)
 
-[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-verif-status.md)
+[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-verif-status.md)
 
-[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-logs.md)
+[View TLM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-logs.md)
 

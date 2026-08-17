@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-encryptionkeymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -81,7 +81,7 @@ Xanadu
 
 </td><td>
 
--   **[New plugin available for Code Signing roles and administrative features](https://servicenow-staging.fluidtopics.net/access?context=cs-role-landing&family=xanadu&ft:locale=en-US)**
+-   **[New plugin available for Code Signing roles and administrative features](https://www.servicenow.com/docs/access?context=cs-role-landing&family=xanadu&ft:locale=en-US)**
 
 Activate the plugin to access the new roles and administration features. The new plugin creates signature migration jobs, new code signing roles, and a new code signing administration page.
 
@@ -92,15 +92,15 @@ Yokohama
 
 </td><td>
 
--   **[Column Level Encryption is now Field Encryption](https://servicenow-staging.fluidtopics.net/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
+-   **[Column Level Encryption is now Field Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
 
 Column Level Encryption has been rebranded to Field Encryption Starter \(FES\), while Column Level Encryption Enterprise is now Field Encryption Enterprise \(FEE\).
 
--   **[Access observer](https://servicenow-staging.fluidtopics.net/access?context=access-observer&family=yokohama&ft:locale=en-US)**
+-   **[Access observer](https://www.servicenow.com/docs/access?context=access-observer&family=yokohama&ft:locale=en-US)**
 
 Use access observer to understand the people and processes that access data on your instance.
 
--   **[Improved migration process from Edge Encryption to Field Encryption](https://servicenow-staging.fluidtopics.net/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
+-   **[Improved migration process from Edge Encryption to Field Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
 
 Use the new process for migration from Edge Encryption to Field Encryption \(formerly Column Level Encryption\). This improved workflow ensures that your data migrates from Edge Encryption to Field encryption without spending time in an unencrypted state.
 
@@ -111,14 +111,14 @@ Zurich
 
 </td><td>
 
--   **[Keep track of Field Encryption and Key Management changes](https://servicenow-staging.fluidtopics.net/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US)**
+-   **[Keep track of Field Encryption and Key Management changes](https://www.servicenow.com/docs/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US)**
 
 By default, the changes to the records on these tables are now logged to the Sys Audits \[sys\_audit\] table:
 
     -   Encrypted Field Configurations \[sys\_platform\_encryption\_configuration\]
     -   Module Access Policies \[sys\_kmf\_crypto\_caller\_policy\]
     -   Cryptographic Modules \[sys\_kmf\_crypto\_module\]
-For details on accessing the Sys Audits \[sys\_audit\] table, see [Review](https://servicenow-staging.fluidtopics.net/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US).
+For details on accessing the Sys Audits \[sys\_audit\] table, see [Review](https://www.servicenow.com/docs/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -140,35 +140,35 @@ Xanadu
 
 </td><td>
 
--   **[Changes to Code Signing requirements](https://servicenow-staging.fluidtopics.net/access?context=code-signing-landing&family=xanadu&ft:locale=en-US)**
+-   **[Changes to Code Signing requirements](https://www.servicenow.com/docs/access?context=code-signing-landing&family=xanadu&ft:locale=en-US)**
 
 As a part of improving security around Root of Trust, signing of script and attachments records can only be done on your trusted non-production instance or using the standalone signing tool. The exception is notarization, which can still be performed in the protected production instance.
 
--   **[Enhancement requests for the Code Signing Standalone signing tool](https://servicenow-staging.fluidtopics.net/access?context=sa-code-signing-tool&family=xanadu&ft:locale=en-US)**
+-   **[Enhancement requests for the Code Signing Standalone signing tool](https://www.servicenow.com/docs/access?context=sa-code-signing-tool&family=xanadu&ft:locale=en-US)**
 
 Updates to Code Signing enable your administrators to work with keystores, signature records, and records to be signed outside of the local system.
 
--   **[Improved activation process for Code Signing](https://servicenow-staging.fluidtopics.net/access?context=config-code-signing&family=xanadu&ft:locale=en-US)**
+-   **[Improved activation process for Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&family=xanadu&ft:locale=en-US)**
 
 Activate Code signing with a new UI page that is designed to streamline the activation process.
 
--   **[Download All Button for Multiple Attachments is available when Edge Encryption is enabled](https://servicenow-staging.fluidtopics.net/access?context=c_EdgeEncryptionOverview&family=xanadu&ft:locale=en-US)**
+-   **[Download All Button for Multiple Attachments is available when Edge Encryption is enabled](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionOverview&family=xanadu&ft:locale=en-US)**
 
 By using the download all functionality, you can now download multiple documents into a zip file when you also enable Edge Encryption.
 
--   **[Edge Encryption jRobin dashboards have been migrated to NEXT Experience](https://servicenow-staging.fluidtopics.net/access?context=code-signing-reference&family=xanadu&ft:locale=en-US)**
+-   **[Edge Encryption jRobin dashboards have been migrated to NEXT Experience](https://www.servicenow.com/docs/access?context=code-signing-reference&family=xanadu&ft:locale=en-US)**
 
 View troubleshooting and performance on dashboards that were migrated from the deprecated jRobin framework. These dashboards display the same information that was available in previous versions.
 
--   **[Column Level Encryption Enterprise is installable by administrators after purchase](https://servicenow-staging.fluidtopics.net/access?context=activate-platform-encryption&family=xanadu&ft:locale=en-US)**
+-   **[Column Level Encryption Enterprise is installable by administrators after purchase](https://www.servicenow.com/docs/access?context=activate-platform-encryption&family=xanadu&ft:locale=en-US)**
 
 After purchasing Column Level Encryption Enterprise, your administrator can typically activate the product without needing technical assistance.
 
--   **[Support for full string UTF-8 in Column Level Encryption](https://servicenow-staging.fluidtopics.net/access?context=set-encrypted-field-config&family=xanadu&ft:locale=en-US)**
+-   **[Support for full string UTF-8 in Column Level Encryption](https://www.servicenow.com/docs/access?context=set-encrypted-field-config&family=xanadu&ft:locale=en-US)**
 
 CLE supports encryption and decryption of the full range of UTF-8 characters, including emoji.
 
--   **[Improved readability for Column Level Encryption logging](https://servicenow-staging.fluidtopics.net/access?context=code-signing-reference&family=xanadu&ft:locale=en-US)**
+-   **[Improved readability for Column Level Encryption logging](https://www.servicenow.com/docs/access?context=code-signing-reference&family=xanadu&ft:locale=en-US)**
 
 With the improved system, node, application, and audit logging, your administrators can analyze and troubleshoot their CLE or CLEE implementation.
 
@@ -187,11 +187,11 @@ Zurich
 
 </td><td>
 
--   **[Updates to GlideEncrypter functionality](https://servicenow-staging.fluidtopics.net/access?context=glideencrypter-deprecation&family=zurich&ft:locale=en-US)**
+-   **[Updates to GlideEncrypter functionality](https://www.servicenow.com/docs/access?context=glideencrypter-deprecation&family=zurich&ft:locale=en-US)**
 
 The GlideEncrypter API has been updated to use AES256-GCM encryption via the Key Management Framework. If needed, your instance can be changed to use legacy 3DES encryption, but this task can only be done by ServiceNow support.
 
--   **[Disable GlideEncrypter on your instance](https://servicenow-staging.fluidtopics.net/access?context=check-3des&family=zurich&ft:locale=en-US)**
+-   **[Disable GlideEncrypter on your instance](https://www.servicenow.com/docs/access?context=check-3des&family=zurich&ft:locale=en-US)**
 
 GlideEncrypter can be enabled or turned off using the **glide.security.glideencrypter.allow** system property. This property is unavailable on new Zurich instances, but administrators with the security\_admin role can edit this property in upgraded instances. When this system property is set to **false**, users see this error when attempting to run GlideEncrypter.
 
@@ -295,7 +295,7 @@ Xanadu
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Column Level Encryption Enterprise, Cloud Encryption, and Database Encryption.
 
- Column Level Encryption Enterprise is the unlimited license of Column Level Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://servicenow-staging.fluidtopics.net/access?context=encryption-sku&family=xanadu&ft:locale=en-US).
+ Column Level Encryption Enterprise is the unlimited license of Column Level Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ Yokohama
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
- Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://servicenow-staging.fluidtopics.net/access?context=encryption-sku&family=yokohama&ft:locale=en-US).
+ Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -315,7 +315,7 @@ Zurich
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
- Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://servicenow-staging.fluidtopics.net/access?context=encryption-sku&family=zurich&ft:locale=en-US).
+ Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -488,7 +488,7 @@ Xanadu
 -   Administer Column Level Encryption with new Column Level Encryption APIs, roles, and administration features. Column Level Encryption logging has been enhanced for improved readability.
 -   Download all encrypted attachments as a zip file by using the new **Download All** button.
 
- See [Key Management Framework](https://servicenow-staging.fluidtopics.net/access?context=encryption&family=xanadu&ft:locale=en-US) for more information.
+ See [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ Yokohama
 -   Use Access Observer to help plan for and troubleshoot Field Encryption implementations.
 -   Edge Encryption administrators can use the new process to migrate from Edge Encryption to Field Encryption.
 
- See [Key Management Framework](https://servicenow-staging.fluidtopics.net/access?context=encryption&family=yokohama&ft:locale=en-US) for more information.
+ See [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -512,7 +512,7 @@ Zurich
 -   The GlideEncrypter API has been updated and now uses AES256-GCM encryption via the Key Management Framework.
 -   Enable or disable GlideEncrypter by using the **glide.security.glideencrypter.allow** system property.
 
- See [Key Management Framework](https://servicenow-staging.fluidtopics.net/access?context=encryption&family=zurich&ft:locale=en-US) for more information.
+ See [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

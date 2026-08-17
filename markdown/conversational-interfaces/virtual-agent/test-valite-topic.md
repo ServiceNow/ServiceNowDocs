@@ -19,25 +19,27 @@ Run a pre-built IT Service Management \(ITSM\) Virtual Agent Lite topic to decid
 
 ## Before you begin
 
-Activate the plugin. For more information, see ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\).
+Activate the plugin. For more information, see [ITSM Virtual Agent Conversation Topics Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/setup-itsm-virtual-agent-lite.md) \(com.snc.itsm.virtualagent.lite\).
 
 Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, select the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon., and build a condition with the field **Category**, and **ITSM Self Service Lite** as the type to show only ITSM Virtual Agent Lite conversations.
+2.  Select the **Asset library** tab.
+
+3.  Select the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon., and build a condition with the field **Category**, and **ITSM Self Service Lite** as the type to show only ITSM Virtual Agent Lite conversations.
 
     Two pre-built topics are available: Check IT Ticket Status and Report IT Issue.
 
-3.  Select the topic that you want to preview.
+4.  Select the topic that you want to preview.
 
-    In the **Flow** tab, the Virtual Agent Designer canvas opens with a read-only view of the topic flow. You can resize the canvas to see the nodes in the flow, but you can't add or change controls and their related property sheets.
+    In the **Flow** tab, the Assistant Designer Asset library canvas opens with a read-only view of the topic flow. You can resize the canvas to see the nodes in the flow, but you can't add or change controls and their related property sheets.
 
-    \[Omitted image "va-lite-check-status-flow.png"\] Alt text: Flow tab of the predefined Check IT Ticket Status topic showing the Virtual Agent Designer canvas in a read-only mode.
+    \[Omitted image "va-lite-check-status-flow.png"\] Alt text: Flow tab of the predefined Check IT Ticket Status topic showing the Assistant Designer Asset library canvas in a read-only mode.
 
-4.  Select **Test** to run the conversation in a test chat window.
+5.  Select **Test** to run the conversation in a test chat window.
 
     For example, if you're testing the Check Ticket Status topic, the test chat window runs the conversation and lets you respond to the prompts displayed. You can also view the test logs to see the messages logged and conversation tasks performed during the conversation, as well as the variables used in the conversation.
 

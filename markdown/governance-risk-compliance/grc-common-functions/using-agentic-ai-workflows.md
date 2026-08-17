@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
+title: Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
+# Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 

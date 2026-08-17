@@ -1,46 +1,62 @@
 ---
-title: Retain inactive namespace CIs for audits
-description: If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
+title: Enable automatic retirement for inactive Kubernetes cluster CIs
+description: Enable automatic retirement to update the status of inactive Kubernetes cluster configuration items \(CIs\) and all associated resources during full discovery cycles, so your CMDB reflects only active infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/remove-inactive-cis.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-01-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\), Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Retain inactive namespace CIs for audits
+# Enable automatic retirement for inactive Kubernetes cluster CIs
 
-If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
+Enable automatic retirement to update the status of inactive Kubernetes cluster configuration items \(CIs\) and all associated resources during full discovery cycles, so your CMDB reflects only active infrastructure.
 
 ## Before you begin
 
 Confirm you have the following setup:
 
--   Kubernetes Visibility Agent \(KVA\) Plugin application release 3.11.0
--   Informer version 2.5.0
+-   Kubernetes Visibility Agent \(KVA\) Plugin application release 3.15.0
+-   Informer version 2.6.0
 
-Role required: admin
+Role required: discovery\_admin
 
 ## About this task
 
-To keep Namespace CIs for viewing or auditing required by your corporate standards instead of deleting them automatically, which is the default behavior, enable a system property that ensures that the **table cleaner** scheduled job doesn't remove them but instead updates their *install\_status* value to retired.
-
-You can later delete inactive CIs manually.
+Enable automatic retirement to update the status of inactive Kubernetes cluster CIs and all associated resources \(pods, namespaces, deployments, containers, and other resources\) during full discovery cycles. This feature is disabled by default.
 
 ## Procedure
 
-1.  Navigate to **All &gt; System Properties &gt; All Properties**.
+1.  Enable automatic retirement for inactive cluster CIs by performing the following substeps.
 
-2.  In the **Name** field, enter `sn_acc_visibility.retired_deletion_strategy_enabled`.
+    1.  Navigate to **All &gt; System Properties &gt; All Properties**.
 
-    -   If the property is available, double-click the **Value** field to perform inline editing, enter `true`.
-    -   If the property doesn't exist on your instance, select **New** and create the `sn_acc_visibility` property, then double-click the **Value** field to perform inline editing, and enter `true`.
-3.  Refer to [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html) to manage the lilfecycle of retired CIs.
+    2.  In the **Name** field, enter `sn_acc_visibility.auto_retire_k8s_clusters`.
+
+        -   If the property is available, double-click the **Value** field to perform inline editing, enter `true`.
+        -   If the property doesn't exist on your instance, select **New** and create the `sn_acc_visibility.auto_retire_k8s_clusters` property with Type set to True/False, then double-click the **Value** field to perform inline editing, and enter `true`.
+        Auto-retirement is enabled. By default, clusters are retired after 60 days of inactivity with the *install\_status* set to Retired \(value 7\).
+
+    3.  Customize the inactivity period by setting the **sn\_acc\_visibility.auto\_retire\_period\_days** property to the number of days after which inactive clusters should be retired.
+
+        The default value is 60 days.
+
+    4.  Customize the install status value by setting the **sn\_acc\_visibility.auto\_retire\_install\_status** property to the numerical value of the desired install status.
+
+        The default value is 7 \(Retired\). Other possible values include 100 \(Absent\).
+
+        **Warning:** If you set the value to 100 \(Absent\), the cluster CI and all associated CIs are deleted by a table cleanup job. This action is irreversible.
+
+    5.  Configure the install status for Linux server CIs associated with Kubernetes nodes by setting the **sn\_acc\_visibility.node\_deletion\_set\_server\_install\_status** property to the numerical value of the desired install status.
+
+        If this property does not exist or the value is empty, no action is taken on Linux server CIs when nodes are retired.
+
+2.  To manage the lifecycle of retired CIs, see [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html).
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 

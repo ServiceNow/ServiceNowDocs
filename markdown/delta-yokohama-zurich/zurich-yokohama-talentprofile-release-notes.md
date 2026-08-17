@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-talentprofile-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,35 +75,35 @@ Zurich
 
 </td><td>
 
--   **[Create Talent pools](https://servicenow-staging.fluidtopics.net/access?context=create-talent-pool&family=zurich&ft:locale=en-US)**
+-   **[Create Talent pools](https://www.servicenow.com/docs/access?context=create-talent-pool&family=zurich&ft:locale=en-US)**
 
 Create talent pools to organize similar talent profiles in one place for particular hiring requirements. You can share and collaborate using talent pools and also send out communications to all talent profiles in the pool at once.
 
--   **[Copy talent to pool](https://servicenow-staging.fluidtopics.net/access?context=copy-talent-other-pool&family=zurich&ft:locale=en-US)**
+-   **[Copy talent to pool](https://www.servicenow.com/docs/access?context=copy-talent-other-pool&family=zurich&ft:locale=en-US)**
 
 Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.
 
--   **[Remove talent profiles from a pool](https://servicenow-staging.fluidtopics.net/access?context=remove-talent-from-pool&family=zurich&ft:locale=en-US)**
+-   **[Remove talent profiles from a pool](https://www.servicenow.com/docs/access?context=remove-talent-from-pool&family=zurich&ft:locale=en-US)**
 
 As an owner of the pool or one of the collaborators, remove the talent profiles that are no longer required.
 
--   **[Delete a Talent pool](https://servicenow-staging.fluidtopics.net/access?context=delete-talent-pool&family=zurich&ft:locale=en-US)**
+-   **[Delete a Talent pool](https://www.servicenow.com/docs/access?context=delete-talent-pool&family=zurich&ft:locale=en-US)**
 
 Delete a talent pool when it has served its purpose or is no longer relevant.
 
--   **[Create talent profiles](https://servicenow-staging.fluidtopics.net/access?context=create-talent-ta&family=zurich&ft:locale=en-US)**
+-   **[Create talent profiles](https://www.servicenow.com/docs/access?context=create-talent-ta&family=zurich&ft:locale=en-US)**
 
 Create talent profiles to add it to the talent profile repository of your organization and use it for an optimized hiring process.
 
--   **[Filter talent profiles](https://servicenow-staging.fluidtopics.net/access?context=filter-tp&family=zurich&ft:locale=en-US)**
+-   **[Filter talent profiles](https://www.servicenow.com/docs/access?context=filter-tp&family=zurich&ft:locale=en-US)**
 
 Use filter options to find relevant talent profiles more efficiently in the **Talent pool** tab.
 
--   **[Add talent profiles](https://servicenow-staging.fluidtopics.net/access?context=add-talent-to-pool&family=zurich&ft:locale=en-US)**
+-   **[Add talent profiles](https://www.servicenow.com/docs/access?context=add-talent-to-pool&family=zurich&ft:locale=en-US)**
 
 Add similar talent profiles to a talent pool to streamline communication to all the profiles during a particular hiring drive.
 
--   **[Copy talent profiles as job prospects](https://servicenow-staging.fluidtopics.net/access?context=copy-talent-to-leads&family=zurich&ft:locale=en-US)**
+-   **[Copy talent profiles as job prospects](https://www.servicenow.com/docs/access?context=copy-talent-to-leads&family=zurich&ft:locale=en-US)**
 
 Copy talent profiles from a talent pool to a particular job requisition as prospects.
 
@@ -222,7 +222,7 @@ Zurich
 
 </td><td>
 
-Install Talent profile by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Talent profile by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -371,7 +371,7 @@ Zurich
 -   Improve talent visibility for hiring by creating talent profiles and pools.
 -   Make better sourcing, screening, and interview management decisions across all talent types by tracking their past interactions with the organization.
 
- See [Talent Profile](https://servicenow-staging.fluidtopics.net/access?context=talent-profile-ovrvw&family=zurich&ft:locale=en-US) for more information.
+ See [Talent Profile](https://www.servicenow.com/docs/access?context=talent-profile-ovrvw&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

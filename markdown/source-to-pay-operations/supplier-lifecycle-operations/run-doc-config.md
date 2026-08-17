@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Supplier Document Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -34,15 +34,15 @@ The supplier document configuration is configured to run based on the run condit
 
 1.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d113299e98">
+<table><thead><tr><th align="left" id="d113627e98">
 
 To
 
-</th><th align="left" id="d113299e101">
+</th><th align="left" id="d113627e101">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d113299e107">
+</th></tr></thead><tbody><tr><td id="d113627e107">
 
 **Run a document configuration from the Platform UI**
 
@@ -50,7 +50,7 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d113299e131">
+</td></tr><tr><td id="d113627e131">
 
 **Run a document configuration from the Source-to-Pay Workspace**
 

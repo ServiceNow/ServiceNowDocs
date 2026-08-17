@@ -28,15 +28,15 @@ Role required: it\_demand\_user, it\_demand\_manager, sn\_ppm\_read, demand\_app
 
 2.  Choose an action from the following options.
 
-<table id="choicetable_oln_cdb_j3c"><thead><tr><th align="left" id="d133339e97">
+<table id="choicetable_oln_cdb_j3c"><thead><tr><th align="left" id="d137167e97">
 
 Action
 
-</th><th align="left" id="d133339e100">
+</th><th align="left" id="d137167e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133339e106">
+</th></tr></thead><tbody><tr><td id="d137167e106">
 
 **Open a demand**
 
@@ -46,7 +46,7 @@ Select a demand.-   If a playbook is available for the demand, the **Playbook** 
 -   If there are no playbooks associated with the demand, the **Details** page opens.
 
 
-</td></tr><tr><td id="d133339e129">
+</td></tr><tr><td id="d137167e129">
 
 **Edit a demand in the side panel**
 
@@ -54,7 +54,7 @@ Select a demand.-   If a playbook is available for the demand, the **Playbook** 
 
 Select the short description of a demand. For more information, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
 
-</td></tr><tr><td id="d133339e148">
+</td></tr><tr><td id="d137167e148">
 
 **Customize the __All Demands__ page view**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ View a detailed breakdown of the cost components of a demand using the **Financi
 
 5.  Add additional fields, view plan details, or reorganize the financial data.
 
-<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d242301e109">
+<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d250164e109">
 
 Action
 
-</th><th align="left" id="d242301e112">
+</th><th align="left" id="d250164e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d242301e118">
+</th></tr></thead><tbody><tr><td id="d250164e118">
 
 **Create a baseline or compare available baselines**
 
@@ -52,7 +52,7 @@ Steps
 
 Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-demand-baseline.md).
 
-</td></tr><tr><td id="d242301e145">
+</td></tr><tr><td id="d250164e145">
 
 **Create a cost plan or benefit plan for the demand**
 
@@ -60,7 +60,7 @@ Select the baseline information icon \[Omitted image "new-baseline-info-icon.png
 
 In the **Cost Plans** or **Benefits Plans** tab, select **New**.
 
-</td></tr><tr><td id="d242301e163">
+</td></tr><tr><td id="d250164e163">
 
 **View a cost plan or benefit plan details in a form**
 
@@ -68,7 +68,7 @@ In the **Cost Plans** or **Benefits Plans** tab, select **New**.
 
 Select the information icon \[Omitted image "new-info-icon-coral.png"\] Alt text: available in the **Name** column of the grid.
 
-</td></tr><tr><td id="d242301e180">
+</td></tr><tr><td id="d250164e180">
 
 **View a cost plan or benefit plan details in yearly, quarterly, or monthly format**
 
@@ -76,7 +76,7 @@ Select the information icon \[Omitted image "new-info-icon-coral.png"\] Alt text
 
 Select the **Year**, **Quarter**, or **Month** views respectively.You can also edit the breakdown values of a cost plan or benefit plan without opening the plan in a form. Inline edit is available only in the **Monthly** view.
 
-</td></tr><tr><td id="d242301e205">
+</td></tr><tr><td id="d250164e205">
 
 **Toggle the widgets on the __Financial Summary__ section or add more fields**
 
@@ -89,10 +89,10 @@ Select the **Year**, **Quarter**, or **Month** views respectively.You can also e
 
     -   By default, all the fields are selected.
     -   The selected field preferences are saved and are available when you reopen the **Financial Summary** tab.
-    -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields such as Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
+    -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, additional fields are available: Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
 
 
-</td></tr><tr><td id="d242301e250">
+</td></tr><tr><td id="d250164e250">
 
 **Show or hide columns in the grid**
 
@@ -100,7 +100,7 @@ Select the **Year**, **Quarter**, or **Month** views respectively.You can also e
 
 Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and select the field names.**Note:** You can’t hide the grouped columns.
 
-</td></tr><tr><td id="d242301e267">
+</td></tr><tr><td id="d250164e267">
 
 **Reset to the default grid column layout**
 
@@ -108,7 +108,7 @@ Select the configuration icon \[Omitted image "new-widget-configuration-icon.png
 
 Select **Reset to defaults**.
 
-</td></tr><tr><td id="d242301e279">
+</td></tr><tr><td id="d250164e279">
 
 **Export financial information**
 
@@ -116,7 +116,7 @@ Select **Reset to defaults**.
 
 Select **Export to csv**.
 
-</td></tr><tr><td id="d242301e291">
+</td></tr><tr><td id="d250164e291">
 
 **View the demand costs and benefits in demand currency**
 
@@ -129,9 +129,9 @@ Select **Export to csv**.
 
  You can view both the functional and demand currencies in the currency indicator.
 
- In the Financial Summary grid view of the cost plan and benefit plan tabs, all items related to demand currency are configured in the column heads such as **Cost in demand currency** and **Demand currency**.
+ The Financial Summary grid view includes demand currency column heads on the cost plan and benefit plan tabs. These include **Cost in demand currency** and **Demand currency**.
 
-</td></tr><tr><td id="d242301e328">
+</td></tr><tr><td id="d250164e328">
 
 **View details of an item in the grid**
 

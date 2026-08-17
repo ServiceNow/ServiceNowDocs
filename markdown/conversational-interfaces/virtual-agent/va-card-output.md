@@ -1,6 +1,6 @@
 ---
 title: Card bot response control
-description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. This information can include rich content such as a video or image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-card-output.html
 release: zurich
@@ -9,12 +9,12 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 8
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Card bot response control
 
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. This information can include rich content such as a video or image.
 
 A card can contain record information, an image, or a YouTube video content in a compact format. The compact format is designed for readability within the chat window.
 
@@ -228,7 +228,7 @@ None
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 
@@ -381,7 +381,7 @@ In this example, the script creates a GlideRecord object, populates this object 
 
 ## Example Card bot response output for records
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -454,5 +454,5 @@ Card output
 \[Omitted image "Card-MSteams-03.png"\] Alt text: Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

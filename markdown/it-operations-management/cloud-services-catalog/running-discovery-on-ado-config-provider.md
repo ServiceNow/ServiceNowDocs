@@ -28,11 +28,19 @@ Role required: none
 
     For more information on setting PAT privileges, see [Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/ado-permissions.md).
 
-3.  Prefix the Personal Access Token \(PAT\) credential with straight quotes \(':'\) and encode to a base64 format.
+3.  Prefix the Personal Access Token \(PAT\) with a colon and encode it to base64 format.
 
-4.  Prefix the encoded format string with a Basic string.
+    1.  Add a colon before your PAT value.
 
-    For example, Basic encoded base 64\(:PAT\).
+        Format: `:PAT`
+
+    2.  Encode the string to base64 format.
+
+        The result is an encoded string.
+
+4.  Prefix the encoded base64 string with `Basic` \(include a space after Basic\).
+
+    Format: `Basic (encoded_base64_string)`
 
 5.  Add a required alias.
 

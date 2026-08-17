@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 **Note:**
 
-Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/migrate-from-connect-support.md).
+Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 ## About this task
 
@@ -44,15 +44,15 @@ By default, all members of the HR group monitor the HR chat queue. When a questi
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d533043e150">
+<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d533281e150">
 
 Option
 
-</th><th align="left" id="d533043e153">
+</th><th align="left" id="d533281e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d533043e159">
+</th></tr></thead><tbody><tr><td id="d533281e159">
 
 **Accept a conversation from a queue**
 
@@ -60,7 +60,7 @@ Description
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d533043e179">
+</td></tr><tr><td id="d533281e179">
 
 **Accept a transfer request**
 

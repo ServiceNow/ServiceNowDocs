@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-knowledgemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Configure skills with custom prompts for knowledge article templates](https://servicenow-staging.fluidtopics.net/access?context=Now-assist-configure-custom-prompts-for-templates&family=yokohama&ft:locale=en-US)**
+-   **[Configure skills with custom prompts for knowledge article templates](https://www.servicenow.com/docs/access?context=Now-assist-configure-custom-prompts-for-templates&family=yokohama&ft:locale=en-US)**
 
 As an admin, you can clone the KB generation skill, and update prompts for AI model providers. This helps the agent to use custom templates and custom prompts to generate Knowledge articles with Now Assist from single and multiple knowledge bases.
 
@@ -78,7 +78,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key knowledge-flow\]](https://servicenow-staging.fluidtopics.net/access?context=knowledge-flow&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key knowledge-flow\]](https://www.servicenow.com/docs/access?context=knowledge-flow&family=zurich&ft:locale=en-US)**
 
 Boost efficiency and simplify operations by replacing the existing Knowledge Management processes built on workflow with the latest and innovative, simple-to-use visual flow designers.
 
@@ -276,7 +276,7 @@ Yokohama
 
 </td><td>
 
-Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a Knowledge article. See [Accessibility checker in the toolbar](https://servicenow-staging.fluidtopics.net/access?context=accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
+Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a Knowledge article. See [Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -345,7 +345,7 @@ Yokohama Patch 6
  -   Identify and resolve accessibility-related issues during Knowledge article generation through a new accessibility checker button in the TinyMCE toolbar.
 -   Enhance the creation and management of knowledge base through features in the Knowledge Management advanced plugin such as article versioning, article subscriptions, article templates, and an article quality index.
 
- See [Knowledge Management](https://servicenow-staging.fluidtopics.net/access?context=knowledge-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Zurich
 -   Upgrade your Knowledge and article viewing experience with an enhanced view and access to key components on the workspace.
 -   Enhance operational efficiency with migration from legacy Knowledge Management workflows to the latest low-code flow designers.
 
- See [Knowledge Management](https://servicenow-staging.fluidtopics.net/access?context=knowledge-management&family=zurich&ft:locale=en-US) for more information.
+ See [Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -17,7 +17,7 @@ Execution workspace enables you to test, run, and monitor your desktop actions. 
 **Important:** Access to the Design workspace and Execution workspace depends on the user’s role.
 
 -   When users with the AI Agent Admin \(sn\_aia.admin\) role sign in from their desktop, they can access the Home page and Design workspace to create desktop actions. When they test a desktop action, the Execution workspace launches automatically.
--   When users with the Now Assist panel user \(now\_assist\_panel\_user\) role trigger an automation from the Now Assist panel, the Execution workspace launches automatically to run the desktop action.
+-   When users with the ServiceNow Otto panel user \(now\_assist\_panel\_user\) role trigger an automation from the ServiceNow Otto panel, the Execution workspace launches automatically to run the desktop action.
 
 You don’t open the Execution workspace directly. It launches automatically when you test or run a desktop action.
 
@@ -25,7 +25,7 @@ This session acts as a virtual environment where the automations run in isolatio
 
 **Note:**
 
-To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
+To avoid conflicts, don't run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
 \[Omitted image "execution-workspace-ready-ad.png"\] Alt text: AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.
 
@@ -100,7 +100,7 @@ Success
 
 </td><td>
 
-Automation execution is completed successfully. The workspace executed the steps defined in the desktop actions and the outcome is shown on the Now Assist panel, such as the automation execution completed successfully and incident created successfully.
+Automation execution is completed successfully. The workspace executed the steps defined in the desktop actions and the outcome is shown on the ServiceNow Otto panel, such as the automation execution completed successfully and incident created successfully.
 
 </td></tr><tr><td>
 

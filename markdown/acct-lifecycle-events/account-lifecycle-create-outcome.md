@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Primary success outcomes are measurable components of success objectives. They’re both measurable and actionable and progress can either be tracked automatically using data collected by the Data Context Engine, or manually for outcomes which aren't easily tracked through metrics.
+Primary success outcomes are measurable components of success objectives. They are both measurable and actionable. Progress can be tracked automatically using data collected by the Data Context Engine. You can also track progress manually for outcomes that are not easily tracked through metrics.
 
 ## Procedure
 

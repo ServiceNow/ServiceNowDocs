@@ -1,6 +1,6 @@
 ---
-title: Now Assist for ITOM reference
-description: Reference topics provide additional information for configuring and using the Now Assist for ITOM application.
+title: ServiceNow Otto for ITOM reference
+description: Reference topics provide additional information for configuring and using the ServiceNow Otto for ITOM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.html
 release: zurich
@@ -10,17 +10,17 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, Now Assist, reference]
-breadcrumb: [Now Assist for ITOM, IT Operations Management]
+breadcrumb: [ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Now Assist for ITOM reference
+# ServiceNow Otto for ITOM reference
 
-Reference topics provide additional information for configuring and using the Now Assist for ITOM application.
+Reference topics provide additional information for configuring and using the ServiceNow Otto for ITOM application.
 
--   **[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)**  
-Table that lists applications installed with the Now Assist for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
+-   **[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)**  
+Table that lists applications installed with the ServiceNow Otto for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
 -   **[Questions for the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/questions-now-assist-workflows.md)**  
-Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
+Questions to ask about alerts in the ServiceNow Otto for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+**Parent Topic:**[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
 

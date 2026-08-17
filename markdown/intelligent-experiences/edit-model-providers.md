@@ -1,6 +1,6 @@
 ---
 title: Manage model providers
-description: Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+description: Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/edit-model-providers.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 2
 keywords: [Edit LLM provider, web search]
-breadcrumb: [Manage AI models, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Manage model providers
 
-Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Let's take an example of editing the model provider for skill group.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **AI Admin Hub**.
 
 2.  Navigate to **Settings** &gt; **Manage AI models**.
 

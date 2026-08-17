@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for Automation Center, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Explore automations
@@ -22,6 +22,11 @@ Role required: sn\_ac.automation\_technical\_user
 
 Run the fix script to be able to view the results of the Automation explorer. For information, see [Run fix script to view results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/run-script.md).
 
+**Note:** You can control how catalog items are onboarded as automations using the sn\_ac.auto\_onboarding\_catalog\_items system property. Users with sn\_ac.automation\_admin can edit the system property.
+
+-   True \(default\): New catalog items are onboarded automatically and appear on the automation dashboard immediately. However, the time and cost savings aren't displayed.
+-   False: New catalog items are onboarded manually using the Automation Explorer feature. Generating this data takes longer, but the dashboard shows an expanded summary with time and cost savings for each catalog item.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
@@ -30,11 +35,11 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
     \[Omitted image "auto-explorer-land.png"\] Alt text: Automation explorer tab
 
-    You can select the automation type card at the outset or select **Discover automations** button. Both actions launch an agent-driven conversation via the Now Assist Panel, which guides you through defining your search criteria step by step
+    You can select the automation type card at the outset or select **Discover automations** button. Both actions launch an agent-driven conversation via the ServiceNow Otto panel, which guides you through defining your search criteria step by step
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d99639e110">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d92139e124">
 
 **If you know the automation type**
 
@@ -42,16 +47,16 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d99639e119">
+</td></tr><tr><td id="d92139e133">
 
 **If you don't know the automation type**
 
 </td><td>
 
-Select the open-ended search button to launch the Now Assist Panel and start an agent-guided conversation.
+Select the open-ended search button to launch the panel and start an agent-guided conversation.
 
 </td></tr></tbody>
-</table>4.  In the Now Assist Panel, respond to the agent prompts to define your search criteria.
+</table>4.  In the panel, respond to the agent prompts to define your search criteria.
 
     The agent asks three questions to scope your search:
 
@@ -89,5 +94,5 @@ The selected automations are onboarded to Automation Center. Their cost savings 
 
 After onboarding, monitor the ROI of your automations in the Automation Center Value dashboard. You can return to Automation explorer at any time to discover additional automations or refine your search criteria.
 
-**Parent Topic:**[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-now-assist.md)
+**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-now-assist.md)
 

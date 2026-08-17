@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Configure mobile resolution notes generation
@@ -18,7 +18,7 @@ Generate the resolution notes that summarize work orders for mobile.
 
 Role required: admin
 
-Make sure that Now Assist is enabled in the instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Make sure that Now Assist is enabled in the instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ Make sure that Now Assist is enabled in the instance. For more information, see 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-now-assist-mobile.md)
 

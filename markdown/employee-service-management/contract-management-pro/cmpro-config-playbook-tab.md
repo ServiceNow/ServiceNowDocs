@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-11-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Playbook tab, data broker, Script Include, tab visibility, contract repository, AI extracted metadata, AI extracted obligations]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

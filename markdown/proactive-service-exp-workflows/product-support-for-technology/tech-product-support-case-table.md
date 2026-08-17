@@ -166,7 +166,7 @@ Install base
 
 </td><td>
 
-The Install base field helps you track which products and services have been purchased by a customer, how they have been installed or provisioned, along with the detailed configuration for each installed item.
+The Install base field helps you track which products and services have been purchased by a customer, how they have been installed or provisioned. It also tracks the detailed configuration for each installed item.
 
 </td></tr><tr><td>
 

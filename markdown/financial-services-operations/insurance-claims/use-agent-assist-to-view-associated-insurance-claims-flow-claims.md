@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
 
-<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d49677e103">
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d49255e103">
 
 Option
 
-</th><th align="left" id="d49677e106">
+</th><th align="left" id="d49255e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d49677e112">
+</th></tr></thead><tbody><tr><td id="d49255e112">
 
 **From the case playbook**
 
@@ -50,7 +50,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d49677e136">
+</td></tr><tr><td id="d49255e136">
 
 **From the Insurance claim adjuster tasks list**
 

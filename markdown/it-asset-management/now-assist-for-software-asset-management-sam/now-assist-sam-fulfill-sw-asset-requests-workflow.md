@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
+title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 description: Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-03-24"
 reading_time_minutes: 6
-breadcrumb: [Use agentic workflows, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
+# ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 
@@ -20,14 +20,14 @@ Use the Help manage software request agentic workflow to fulfill a software requ
 
 Use the Help manage software request agentic workflow to automate software asset sourcing through auto- allocation or purchase order creation.
 
-To use the Help manage software request agentic workflow, the Procurement \(com.snc.procurement\) plugin needs to be installed along with the Now Assist for SAM \(sn\_now\_assist\_sam\) plugin. To use the Microsoft license assignment AI agent for Microsoft 365 allocations, the Software Asset Management - SaaS License Management store application must be installed and an active Microsoft 365 integration must be configured in your instance.
+To use the Help manage software request agentic workflow, the Procurement \(com.snc.procurement\) plugin needs to be installed along with the ServiceNow Otto for Software Asset Management \(SAM\) \(sn\_now\_assist\_sam\) plugin. To use the Microsoft license assignment AI agent for Microsoft 365 allocations, the Software Asset Management - SaaS License Management store application must be installed and an active Microsoft 365 integration must be configured in your instance.
 
 The following three scenarios are supported for software requests:
 
 -   User-based allocations: a user requests a software model with user-based entitlements.
 -   Device-based allocations: a user requests a software model with device-based entitlements.
 
-    When a user who has requested the software has multiple devices assigned to them, the agent asks the fulfiller to select one of the user's devices for the allocation process. If the device isn’t assigned to the requested item number user during the software fulfillment, then a message appears in the Now Assist panel stating that the user has no devices associated. The user must associate a device and try again. If the device is assigned after this, then the fulfiller user should initiate a new Now Assist panel chat and provide an utterance in the Now Assist panel to fulfill the requested item number, rather than using the existing Now Assist panel chat.
+    When a user who has requested the software has multiple devices assigned to them, the agent asks the fulfiller to select one of the user's devices for the allocation process. If the device isn’t assigned to the requested item number user during the software fulfillment, then a message appears in the ServiceNow Otto panel stating that the user has no devices associated. The user must associate a device and try again. If the device is assigned after this, then the fulfiller user should initiate a new panel chat and provide an utterance in the panel to fulfill the requested item number, rather than using the existing panel chat.
 
 -   Purchase order flow: if no entitlements are available, a purchase order is created.
 
@@ -44,7 +44,7 @@ The Help manage software request agentic workflow supports both Azure OpenAI Ser
 
 Roles required: procurement\_user, itil, and now\_asssit\_panel\_user.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Help manage software request agentic workflow
 
@@ -68,9 +68,9 @@ To automatically trigger the Help manage software request workflow for sourcing 
     1.  Once the request is approved, the procurement\_user role navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed, the name of the workspace changes to Hardware Asset Workspace.
     2.  The procurement\_user role selects the Items tab in the Procurement module and selects a value in the **Assigned to** field for the requested item.
 
-        **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the Now Assist for IT Service Management \(ITSM\) store application installed. If you have the Now Assist for Software Asset Management \(SAM\) store application but not the Now Assist for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
+        **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the panel. The fulfiller needs the itil and procurement\_user roles if you have the ServiceNow Otto for IT Service Management \(ITSM\) store application installed. If you have the ServiceNow Otto for Software Asset Management \(SAM\) store application but not the ServiceNow Otto for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the panel trigger.
 
-    The procurement\_user role gets notified in the Now Assist panel that the software request is getting fulfilled.
+    The procurement\_user role gets notified in the panel that the software request is getting fulfilled.
 
     Once the software asset request is assigned, the Help manage software request agentic workflow gets triggered to source the request.
 
@@ -130,5 +130,5 @@ Microsoft license assignment AI agent
 Assigns a Microsoft 365 license from the existing inventory when available, using the RITM.The AI agent checks for both group and individual licenses. If the licenses aren't available, the AI agent creates a reservation order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
+</table>**Parent Topic:**[Using agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

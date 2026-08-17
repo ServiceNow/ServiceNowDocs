@@ -20,7 +20,7 @@ Resolve conflicts when merging changes from multiple sources of the same activit
 
 If you're not connected to a ServiceNow instance, click the Connection Manager icon under the **Design** tab to connect to an existing instance. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
+Create an activity. For more information, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
 
 Role required: none
 
@@ -34,15 +34,15 @@ Role required: none
 
 4.  In the COMPARE PROCESSES dialog box, under the Remote section, select any of the following source types to open the automation project from the **Source** field.
 
-<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d597993e134">
+<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d590205e134">
 
 Option
 
-</th><th align="left" id="d597993e137">
+</th><th align="left" id="d590205e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d597993e143">
+</th></tr></thead><tbody><tr><td id="d590205e143">
 
 **Remote**
 
@@ -55,7 +55,7 @@ Action
 5.  From the Select a Document version list, select a package version.
 
 
-</td></tr><tr><td id="d597993e182">
+</td></tr><tr><td id="d590205e182">
 
 **Local**
 

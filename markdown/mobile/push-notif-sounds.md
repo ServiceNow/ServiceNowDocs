@@ -28,7 +28,7 @@ The table at the end of this topic list all the available tones. To listen to th
 
 ## Example JSON for critical alerts including sound
 
-The following JSON is an example of how the sound parameter is defined for critical alerts. For more information about critical alerts, see [Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-critical-alerts-create.md).
+The following JSON is an example of how the sound parameter is defined for critical alerts. For more information about critical alerts, see [Create mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-critical-alerts-create.md).
 
 ```
 json["aps"]["sound"] = { 

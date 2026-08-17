@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [General guidelines for Now Assist Skill Kit, Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Scoping the skill
@@ -18,11 +18,11 @@ Scoping the skill before you build it helps determine the requirements needed fo
 
 ## Before you begin
 
-Before you start to build a custom skill with Now Assist Skill Kit, you should first review the base system skills that are available in the Now Assist Admin console. Use these pre-existing skills whenever possible.
+Before you start to build a custom skill with AI Skill Kit, you should first review the base system skills that are available in the AI Admin Hub console. Use these pre-existing skills whenever possible.
 
 ## User prerequisites
 
-Now Assist Skill Kit is meant to be used by a developer or someone with experience using generative AI. Because you must write the initial prompt template, you should:
+AI Skill Kit is meant to be used by a developer or someone with experience using generative AI. Because you must write the initial prompt template, you should:
 
 1.  Be knowledgeable about prompt engineering, including:
     -   Having familiarity with the development and testing of machine learning systems.

@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign alerts in Express List
@@ -38,15 +38,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d548650e135">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d549945e135">
 
 Assignment
 
-</th><th align="left" id="d548650e138">
+</th><th align="left" id="d549945e138">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d548650e144">
+</th></tr></thead><tbody><tr><td id="d549945e144">
 
 **Yourself**
 
@@ -54,7 +54,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d548650e159">
+</td></tr><tr><td id="d549945e159">
 
 **Someone else**
 
@@ -66,7 +66,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d548650e195">
+</td></tr><tr><td id="d549945e195">
 
 **Assignment group**
 

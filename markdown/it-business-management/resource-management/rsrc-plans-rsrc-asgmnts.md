@@ -43,7 +43,7 @@ When a resource plan is migrated, a corresponding resource assignment is created
 
 Resource assignments only support even spread of resource allocations by default.
 
-The efforts of the resource plan in requested state are also migrated to resource assignments. For example, if a resource plan is in Requested state with 20 additional hours requested, but not yet approved, the new migration flow accounts for these requested 20 hours and the total efforts are reflected in the migrated resource plan. See the following screenshots for more details.
+The efforts of the resource plan in requested state are also migrated to resource assignments. For example, suppose a resource plan is in Requested state with 20 additional hours requested but not yet approved. The new migration flow accounts for these requested 20 hours, and the total efforts are reflected in the migrated resource plan. See the following screenshots for more details.
 
 \[Omitted image "RP-RA-requested-efforts.png"\] Alt text: Classic ServiceNow view of a resource plan in Requested state.
 
@@ -64,7 +64,7 @@ Allocation contour while migrating to resource assignments
 
 The existing contour of allocations in resource plans is maintained while migrating to resource assignments.
 
-Maintaining the existing contour ensures that the planned effort, timing, and effort distribution remain consistent before and after migration. By carrying forward the same allocation contours, you can continue managing ongoing work without disruption, maintaining accurate capacity and utilization insights, and trust that financial and resource plans reflect your original intent. This seamless transition helps you adopt the workspace experience confidently, without the need to replan or manually adjust allocations.
+Maintaining the existing contour ensures that the planned effort, timing, and effort distribution remain consistent before and after migration. By carrying forward the same allocation contours, you can continue managing ongoing work without disruption. This maintains accurate capacity and utilization insights and ensures that financial and resource plans reflect your original intent. This seamless transition helps you adopt the workspace experience confidently, without the need to replan or manually adjust allocations.
 
 ## Migration of Resource plans to Resource assignments
 
@@ -98,7 +98,7 @@ After migration, we will have the following Operational resource assignments for
 
 ## Migration of cost plans to attribute-based cost plans
 
-When resource plans of a project or demand are migrated to resource assignments, the corresponding financial cost plans based on the resource plans will be migrated to new attribute-based labor costs. Migrate resource plans related link trigger migrates the cost plans along with resource plans migration.
+When resource plans of a project or demand are migrated to resource assignments. The corresponding financial cost plans based on the resource plans are also migrated to new attribute-based labor costs. Migrate resource plans related link trigger migrates the cost plans along with resource plans migration.
 
 Every resource plan has an associated a cost plan with Labor capex as the cost type. While migrating, the [planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/planning-attributes.md) of the resource plans are analyzed to create attribute-based cost plans for the unique combination of the three [planning attributes enabled for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/planning-attributes.md) \(Employee type, Expense Type, and Role\). After migration, there will be no one-to-one association between resource assignments and attribute-based cost plans.
 
@@ -117,7 +117,7 @@ Attribute-based cost plan **Resource\_Internal\_Capex** is created after migrati
 \[Omitted image "rp-ra-cost-plans-migrated.png"\] Alt text: List of attribute-based labor costs capturing the aggregate planned costs.
 
 -   **[Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)**  
-Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
+Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
 -   **[Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/enable-resource-assignments.md)**  
 Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
 -   **[Create resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-rsrc-asgnmnts-ppm.md)**  
@@ -127,7 +127,7 @@ Migrate the required Operational resource plans to attribute-based Operational r
 -   **[Create operational resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md)**  
 Create operational resource assignments to allocate a portion of team or resource capacity for operational work such as administration work, meetings, trainings, and so on.
 -   **[Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md)**  
-Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
+Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 
 **Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourceManagement.md)
 

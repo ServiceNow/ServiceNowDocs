@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-enterprisearchitecture-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -75,12 +75,12 @@ Zurich
 
 </td><td>
 
--   **[Application rationalization page enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-rationalize-business-applications&family=zurich&ft:locale=en-US)**
-    -   View business application bubbles whose X and Y-axis values are within the value range of +/-0.25 of each other as a grouped bubble. The grouped bubble displays the total number of business application bubbles that it contains. This grouping helps in clearing the clutter on bubble chart when there are too many business applications with similar values. For details, see [Bubble chart view of application rationalization](https://servicenow-staging.fluidtopics.net/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
-    -   Zoom in, zoom out, or pan on the Bubble chart page using either on-screen buttons or by using a mouse device or trackpad interactions. For details, see [Bubble chart view of application rationalization](https://servicenow-staging.fluidtopics.net/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
-    -   View the calculation logic behind the total number of business applications displayed on the Bubble chart page. For details, see [Bubble chart view of application rationalization](https://servicenow-staging.fluidtopics.net/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
-    -   Select a single bubble on the Bubble chart page to view the associated business application details. Select a grouped bubble to view the list of business applications that are part of that grouped bubble. For details, see [Bubble chart view of application rationalization](https://servicenow-staging.fluidtopics.net/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
-    -   View actual scores of business applications and compare them with their normalized scores. For details, see [List view of application rationalization](https://servicenow-staging.fluidtopics.net/access?context=eaw-list-view&family=zurich&ft:locale=en-US).
+-   **[Application rationalization page enhancements](https://www.servicenow.com/docs/access?context=eaw-rationalize-business-applications&family=zurich&ft:locale=en-US)**
+    -   View business application bubbles whose X and Y-axis values are within the value range of +/-0.25 of each other as a grouped bubble. The grouped bubble displays the total number of business application bubbles that it contains. This grouping helps in clearing the clutter on bubble chart when there are too many business applications with similar values. For details, see [Bubble chart view of application rationalization](https://www.servicenow.com/docs/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
+    -   Zoom in, zoom out, or pan on the Bubble chart page using either on-screen buttons or by using a mouse device or trackpad interactions. For details, see [Bubble chart view of application rationalization](https://www.servicenow.com/docs/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
+    -   View the calculation logic behind the total number of business applications displayed on the Bubble chart page. For details, see [Bubble chart view of application rationalization](https://www.servicenow.com/docs/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
+    -   Select a single bubble on the Bubble chart page to view the associated business application details. Select a grouped bubble to view the list of business applications that are part of that grouped bubble. For details, see [Bubble chart view of application rationalization](https://www.servicenow.com/docs/access?context=eaw-bubble-chart-view&family=zurich&ft:locale=en-US).
+    -   View actual scores of business applications and compare them with their normalized scores. For details, see [List view of application rationalization](https://www.servicenow.com/docs/access?context=eaw-list-view&family=zurich&ft:locale=en-US).
     -   Increased maximum number of bubbles displayed on the Bubble chart to 500.
     -   Apply the fiscal period filter to filter and view business applications for a specific fiscal period.
     -   Apply the application rationalization filters to filter and view specific business applications on the bubble chart or list view page. An indicator is displayed on top of the filter icon to show the number of filters currently applied.
@@ -88,26 +88,26 @@ Zurich
     -   Export the list view of application rationalization data to Excel or CSV file format. You can use the data to obtain insights, share with stakeholders, and prepare for analysis.
     -   Business applications with Retired or End of Life lifecycle stage aren’t displayed on the Application Rationalization bubble chart page.
 
--   **[Data certification in Enterprise Architecture Workspace](https://servicenow-staging.fluidtopics.net/access?context=eaw-work-with-data-cert&family=zurich&ft:locale=en-US)**
-    -   Use the Data Certification workflow in Enterprise Architecture Workspace to ensure the accuracy, completeness, and reliability of critical data within your organization. For details, see [Exploring data certification in the Enterprise Architecture Workspace](https://servicenow-staging.fluidtopics.net/access?context=eaw-explore-data-cert&family=zurich&ft:locale=en-US).
-    -   Create a data certification policy directly from the Enterprise Architecture Workspace using the Data certification workflow. For details, see [Create a certification policy](https://servicenow-staging.fluidtopics.net/access?context=eaw-create-policy&family=zurich&ft:locale=en-US).
-    -   Run certification on demand for published policies to generate a new certification instance for an active policy. For details, see [Run certification for a policy](https://servicenow-staging.fluidtopics.net/access?context=eaw-data-cert-run-certification&family=zurich&ft:locale=en-US).
-    -   Activate a certification policy to add it to the active certification runs. This process ensures that the policy is active and can be used for certifications. You can deactivate a policy to remove it from active certification runs. For details, see [Activate a certification policy](https://servicenow-staging.fluidtopics.net/access?context=eaw-data-cert-activate&family=zurich&ft:locale=en-US).
--   **[Enterprise Architecture Workspace home page enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-work-with-ea-workspace-homepage&family=zurich&ft:locale=en-US)**
+-   **[Data certification in Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?context=eaw-work-with-data-cert&family=zurich&ft:locale=en-US)**
+    -   Use the Data Certification workflow in Enterprise Architecture Workspace to ensure the accuracy, completeness, and reliability of critical data within your organization. For details, see [Exploring data certification in the Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?context=eaw-explore-data-cert&family=zurich&ft:locale=en-US).
+    -   Create a data certification policy directly from the Enterprise Architecture Workspace using the Data certification workflow. For details, see [Create a certification policy](https://www.servicenow.com/docs/access?context=eaw-create-policy&family=zurich&ft:locale=en-US).
+    -   Run certification on demand for published policies to generate a new certification instance for an active policy. For details, see [Run certification for a policy](https://www.servicenow.com/docs/access?context=eaw-data-cert-run-certification&family=zurich&ft:locale=en-US).
+    -   Activate a certification policy to add it to the active certification runs. This process ensures that the policy is active and can be used for certifications. You can deactivate a policy to remove it from active certification runs. For details, see [Activate a certification policy](https://www.servicenow.com/docs/access?context=eaw-data-cert-activate&family=zurich&ft:locale=en-US).
+-   **[Enterprise Architecture Workspace home page enhancements](https://www.servicenow.com/docs/access?context=eaw-work-with-ea-workspace-homepage&family=zurich&ft:locale=en-US)**
 
 Apply the Portfolio Overview and Health filters to filter and view specific business applications and business capabilities information. An indicator is displayed on top of the filter icon to show the number of filters currently applied.
 
--   **[Manage Enterprise Modeling and Visualization](https://servicenow-staging.fluidtopics.net/access?context=eaw-config-modeling&family=zurich&ft:locale=en-US)**
-    -   Create a diagrams using CSDM shapes to ensure consistency in how services, applications, and infrastructure are represented. Aligning with CMDB 5 standards, helps you in accurate reporting, impact analysis, and compliance across the enterprise. For details, see [Common Service Data Model \(CSDM\) shapes](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-csdm-shapes&family=zurich&ft:locale=en-US).
-    -   Use the modified Enterprise Architecture shapes that are aligned with CSDM 5 standards for better modeling, accurate impact analysis, and reporting. For details, see [Create a diagram using CSDM shapes](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-create-diagram-csdm&family=zurich&ft:locale=en-US).
-    -   Create diagrams using AWS shapes. The AWS shapes enable you to visualize AWS cloud components, model hybrid architectures, support cloud migration planning. For details, see [Amazon Web Services \(AWS\) shapes](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-aws-shapes&family=zurich&ft:locale=en-US) and [Create a diagram using AWS shapes](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-create-diagram-aws&family=zurich&ft:locale=en-US).
-    -   Group or ungroup a general shape object. You can combine multiple related shapes into a single container for better organization and clarity in diagrams. For details, see [Convert a shape to a group shape](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-group-ungroup-shape&family=zurich&ft:locale=en-US).
-    -   Expand or collapse a group shape to simplify visualization, improve focus, and supports hierarchical modeling. For details, see [Expand or collapse a group shape](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-expand-collapse-shape&family=zurich&ft:locale=en-US).
-    -   View Business Process details for which the BPMN diagram is being created. Modify details such as name, parent, and description. For details, see [Modify BPMN diagram details](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-modify-bpmn&family=zurich&ft:locale=en-US).
-    -   Reorder shape categories within the Shapes panel to customize the panel for faster access to frequently used shapes. For details, see [Reorder shapes categories](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-reorder-shapes-cat&family=zurich&ft:locale=en-US).
-    -   Show or hide the Shapes panel to optimize your workspace for different tasks. For details, see [Show or hide shapes panel](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-show-hide-shapes-panel&family=zurich&ft:locale=en-US).
-    -   Switch between List view and Grid view in the shapes panel according to your modeling needs. For details, see [Switch to list or grid view of shapes panel](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-shapes-grid-list-view&family=zurich&ft:locale=en-US).
-    -   Download a diagram as an image to share it with other stakeholders with offline access or use it in the presentations. For details, see [Download a modeling diagram as an image](https://servicenow-staging.fluidtopics.net/access?context=eaw-modeling-download-diagram&family=zurich&ft:locale=en-US).
+-   **[Manage Enterprise Modeling and Visualization](https://www.servicenow.com/docs/access?context=eaw-config-modeling&family=zurich&ft:locale=en-US)**
+    -   Create a diagrams using CSDM shapes to ensure consistency in how services, applications, and infrastructure are represented. Aligning with CMDB 5 standards, helps you in accurate reporting, impact analysis, and compliance across the enterprise. For details, see [Common Service Data Model \(CSDM\) shapes](https://www.servicenow.com/docs/access?context=eaw-modeling-csdm-shapes&family=zurich&ft:locale=en-US).
+    -   Use the modified Enterprise Architecture shapes that are aligned with CSDM 5 standards for better modeling, accurate impact analysis, and reporting. For details, see [Create a diagram using CSDM shapes](https://www.servicenow.com/docs/access?context=eaw-modeling-create-diagram-csdm&family=zurich&ft:locale=en-US).
+    -   Create diagrams using AWS shapes. The AWS shapes enable you to visualize AWS cloud components, model hybrid architectures, support cloud migration planning. For details, see [Amazon Web Services \(AWS\) shapes](https://www.servicenow.com/docs/access?context=eaw-modeling-aws-shapes&family=zurich&ft:locale=en-US) and [Create a diagram using AWS shapes](https://www.servicenow.com/docs/access?context=eaw-modeling-create-diagram-aws&family=zurich&ft:locale=en-US).
+    -   Group or ungroup a general shape object. You can combine multiple related shapes into a single container for better organization and clarity in diagrams. For details, see [Convert a shape to a group shape](https://www.servicenow.com/docs/access?context=eaw-modeling-group-ungroup-shape&family=zurich&ft:locale=en-US).
+    -   Expand or collapse a group shape to simplify visualization, improve focus, and supports hierarchical modeling. For details, see [Expand or collapse a group shape](https://www.servicenow.com/docs/access?context=eaw-modeling-expand-collapse-shape&family=zurich&ft:locale=en-US).
+    -   View Business Process details for which the BPMN diagram is being created. Modify details such as name, parent, and description. For details, see [Modify BPMN diagram details](https://www.servicenow.com/docs/access?context=eaw-modeling-modify-bpmn&family=zurich&ft:locale=en-US).
+    -   Reorder shape categories within the Shapes panel to customize the panel for faster access to frequently used shapes. For details, see [Reorder shapes categories](https://www.servicenow.com/docs/access?context=eaw-modeling-reorder-shapes-cat&family=zurich&ft:locale=en-US).
+    -   Show or hide the Shapes panel to optimize your workspace for different tasks. For details, see [Show or hide shapes panel](https://www.servicenow.com/docs/access?context=eaw-modeling-show-hide-shapes-panel&family=zurich&ft:locale=en-US).
+    -   Switch between List view and Grid view in the shapes panel according to your modeling needs. For details, see [Switch to list or grid view of shapes panel](https://www.servicenow.com/docs/access?context=eaw-modeling-shapes-grid-list-view&family=zurich&ft:locale=en-US).
+    -   Download a diagram as an image to share it with other stakeholders with offline access or use it in the presentations. For details, see [Download a modeling diagram as an image](https://www.servicenow.com/docs/access?context=eaw-modeling-download-diagram&family=zurich&ft:locale=en-US).
     -   Select and delete diagrams from the Diagrams page.
     -   Select upstream or downstream entities when adding related records for shapes. The upstream entities appear as a parent for the selected shape in the diagram while the downstream entities appear as a child for the selected shape in the diagram.
     -   Add version label, version description, and planned rollout date details for diagram versions.
@@ -133,22 +133,22 @@ Apply the Portfolio Overview and Health filters to filter and view specific busi
         -   From the Architectural Artifacts section of the Portfolio page.
     -   Added support for all ArchiMate shapes.
     -   Model Value stream diagrams.
--   **[TRM catalog enhancement](https://servicenow-staging.fluidtopics.net/access?context=eaw-export-trm-prod-cat-data&family=zurich&ft:locale=en-US)**
+-   **[TRM catalog enhancement](https://www.servicenow.com/docs/access?context=eaw-export-trm-prod-cat-data&family=zurich&ft:locale=en-US)**
 
 Export the TRM catalog data to Microsoft Excel or CSV format.
 
--   **[Business Portfolio enhancement](https://servicenow-staging.fluidtopics.net/access?context=eaw-export-business-portfolio-data&family=zurich&ft:locale=en-US)**
+-   **[Business Portfolio enhancement](https://www.servicenow.com/docs/access?context=eaw-export-business-portfolio-data&family=zurich&ft:locale=en-US)**
 
 Export the Business Portfolio data to Microsoft Excel or CSV format.
 
--   **[TRM category enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-create-new-trm-category&family=zurich&ft:locale=en-US)**
+-   **[TRM category enhancements](https://www.servicenow.com/docs/access?context=eaw-create-new-trm-category&family=zurich&ft:locale=en-US)**
 
 Assign an owner to a TRM category to ensure clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
--   **[TPM lifecycle record enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-tpm&family=zurich&ft:locale=en-US)**
-    -   TPM lifecycle records are now assigned unique identifiers are automatically,while creating the TPM lifecycle record. These identifiers serve as clickable links that provide direct access to full record details.
-    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TPM plugin. For details, [Run a scheduled job to populate TPM lifecycle record identifier](https://servicenow-staging.fluidtopics.net/access?context=eaw-run-job-to-populate-tpm-lifecycle-identifier&family=zurich&ft:locale=en-US).
--   **[Working with Portfolio list view](https://servicenow-staging.fluidtopics.net/access?context=eaw-work-with-portfolio-list-view&family=zurich&ft:locale=en-US)[AI Portfolio section enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-exploring-the-ai-portfolio&family=zurich&ft:locale=en-US)**
+-   **[TPM lifecycle record enhancements](https://www.servicenow.com/docs/access?context=eaw-tpm&family=zurich&ft:locale=en-US)**
+    -   TLM lifecycle records are now assigned unique identifiers are automatically,while creating the TLM lifecycle record. These identifiers serve as clickable links that provide direct access to full record details.
+    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TLM plugin. For details, [Run a scheduled job to populate TLM lifecycle record identifier](https://www.servicenow.com/docs/access?context=eaw-run-job-to-populate-tpm-lifecycle-identifier&family=zurich&ft:locale=en-US).
+-   **[Working with Portfolio list view](https://www.servicenow.com/docs/access?context=eaw-work-with-portfolio-list-view&family=zurich&ft:locale=en-US)[AI Portfolio section enhancements](https://www.servicenow.com/docs/access?context=eaw-exploring-the-ai-portfolio&family=zurich&ft:locale=en-US)**
 
 The following AI product models added to the AI Portfolio section:
 
@@ -156,13 +156,13 @@ The following AI product models added to the AI Portfolio section:
     -   AI Model Product Models
     -   AI Dataset Product Models
     -   AI Prompt Product Models
--   **[Business application related list enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-app-portfolio&family=zurich&ft:locale=en-US)**
+-   **[Business application related list enhancements](https://www.servicenow.com/docs/access?context=eaw-app-portfolio&family=zurich&ft:locale=en-US)**
 
 Added the AI Product Models as a related list. In the tab, you can:
 
     -   Select **Add** to associate an existing AI system product model to the business application.
     -   Select **Remove** to remove a AI system product model from a business application.
-For details, see [Add AI systems to business applications](https://servicenow-staging.fluidtopics.net/access?context=eaw-add-ai-systems&family=zurich&ft:locale=en-US).
+For details, see [Add AI systems to business applications](https://www.servicenow.com/docs/access?context=eaw-add-ai-systems&family=zurich&ft:locale=en-US).
 
     -   Added the **Product capability** tab as a related list. In the tab, you can:
         -   Select **New** to create a new product capability and associate it with the business application.
@@ -173,7 +173,7 @@ For details, see [Add AI systems to business applications](https://servicenow-st
         -   Select **Add** to add an existing TRM product to the business application.
         -   Select **Remove** to remove a TRM product from a business application.
     -   In the **Architectural Artifacts** tab of the business application related list, selecting the **New** button displays a modal to create an architectural artifact.
--   **[TRM product related list enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-work-with-trm&family=zurich&ft:locale=en-US)**
+-   **[TRM product related list enhancements](https://www.servicenow.com/docs/access?context=eaw-work-with-trm&family=zurich&ft:locale=en-US)**
     -   Added the **Product capability** tab as a related list. In the tab, you can:
         -   Select **New** to create a new product capability and associate it with the TRM product.
         -   Select **Add** to add an existing product capability to the TRM product.
@@ -182,7 +182,7 @@ For details, see [Add AI systems to business applications](https://servicenow-st
         -   Select **New** to create a new business application and associate it with the TRM product.
         -   Select **Add** to add an existing business application to the TRM product.
         -   Select **Remove** to remove a business application from a TRM product.
--   **[Architectural Decision Records \(ADR\) enhancements](https://servicenow-staging.fluidtopics.net/access?context=eaw-managing-arch-decision-records&family=zurich&ft:locale=en-US)**
+-   **[Architectural Decision Records \(ADR\) enhancements](https://www.servicenow.com/docs/access?context=eaw-managing-arch-decision-records&family=zurich&ft:locale=en-US)**
     -   Create artifact type Architectural Decision Records \(ADR\) in one step.
     -   Create and add multiple pages to the Architectural Decision Records \(ADR\) from the **Artifact content** tab.
     -   In the Architectural Decision Records \(ADR\) page, you can tag the following:
@@ -199,11 +199,11 @@ For details, see [Add AI systems to business applications](https://servicenow-st
             -   Value stream \(requires the value stream plugin\)
     -   Request approval workflow for Architectural Decision Records \(ADR\).
     -   The version drop-down list is added to the Architectural Decision Records \(ADR\) page header. Select a version from the drop-down list to open the specific ADR version.
--   **[Data Certification changes](https://servicenow-staging.fluidtopics.net/access?context=eaw-config-cert-schedules&family=zurich&ft:locale=en-US)**
+-   **[Data Certification changes](https://www.servicenow.com/docs/access?context=eaw-config-cert-schedules&family=zurich&ft:locale=en-US)**
 
 In the Enterprise Architecture Workspace, the certifications data is saved to and fetched from the CMDB Data Management Task Control \[cmdb\_data\_management\_task\] table.
 
-If your certification data is still fetched from the Certification Schedules \[cert\_schedule\] table, you might consider migrating your certification policies to the CMDB Data Management Task Control \[cmdb\_data\_management\_task\] table. For more information, see [Convert legacy certification schedules into Data Manager Certification policies](https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/product/configuration-management/task/convert-data-cert-definitions.html)and[Publish a draft Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/product/configuration-management/task/data-manager-publish-draft-policy.html%22%20HYPERLINK%20%22https:/www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/product/configuration-management/task/data-manager-publish-draft-policy.html).
+If your certification data is still fetched from the Certification Schedules \[cert\_schedule\] table, you might consider migrating your certification policies to the CMDB Data Management Task Control \[cmdb\_data\_management\_task\] table. For more information, see [Convert legacy certification schedules into Data Manager Certification policies](https://www.servicenow.com/docs/access?context=convert-data-cert-definitions&family=zurich&ft:locale=en-US)and[Publish a draft Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-publish-draft-policy&family=zurich&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -327,7 +327,7 @@ Zurich
 
 </td><td>
 
-Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://servicenow-staging.fluidtopics.net/access?context=application-portfolio-management-landing-page&family=zurich&ft:locale=en-US).
+Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -480,7 +480,7 @@ Zurich
 -   Apply filters to the Application Rationalization bubble chart and list views pages, using the new filter options to filter for specific business applications. Also, select a fiscal period on the Application Rationalization pages using the new fiscal period filter option.
 -   Evaluate the technical debt score for business applications using the Technology Reference Model \(TRM\) technical debt indicator. This helps you to identify high-risk business applications and enables you to prioritize modernization and rationalization.
 
- See [Enterprise Architecture \(formerly Application Portfolio Management\)](https://servicenow-staging.fluidtopics.net/access?context=application-portfolio-management-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Enterprise Architecture \(formerly Application Portfolio Management\)](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -121,7 +121,7 @@ If you select an applicable engagement, this risk definition will be evaluated f
 
 </td></tr><tr><td colspan="2">
 
-`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. If you’re creating table based risk definition, you must select the table, specify the condition, and set up the template with fields and values to generate risks in the specified format.
+`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. If you’re creating table based risk definition, you must select the table and specify the condition. Set up the template with fields and values to generate risks in the specified format.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Source table
 
 Select the source table for which the risk definition is to be created.**Note:** A context mapper must have been defined that associates the source and the context tables. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
-For example, if you want to define risk signals for a contract, and select Contract as your source table, a context mapping with a Contract to Engagement association must have been defined.
+For example, to define risk signals for a contract, select Contract as your source table. A context mapping with a Contract to Engagement association must have been defined.
 
 </td></tr><tr><td>
 

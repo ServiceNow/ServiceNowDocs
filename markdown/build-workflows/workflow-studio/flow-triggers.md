@@ -79,7 +79,7 @@ Use REST triggers to start a flow after a specific REST API request.
 
 |Trigger|Description|
 |-------|-----------|
-|REST API - Asynchronous|Start a flow from an inbound API call or webhook from an external system. Configure the trigger start conditions without having to write or maintain custom code. For more information, see [REST API trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rest-trigger.md).|
+|REST API - Asynchronous|Start a flow from an inbound API call or webhook from an external system. Configure the trigger start conditions without having to write or maintain custom code. For more information, see REST API trigger.|
 
 ## Scheduled triggers
 
@@ -170,8 +170,8 @@ The following diagram shows how inbound emails are processed by inbound email tr
 
 Spokes can have conditional and event-driven external triggers or webhooks that start from third-party applications. The webhooks act as the triggers that provide the data to a flow. For example, when you create a P1-level issue in a third-party issue-tracking application, it updates the incident database record in the ServiceNow instance. To implement this flow, follow these steps:
 
-1.  [Set up a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-flow-ihub.md)
-2.  [Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-external-webhook-endpoints.md).
+1.  
+2.  .
 
 ## Advanced options
 

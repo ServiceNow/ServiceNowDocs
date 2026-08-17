@@ -1,21 +1,21 @@
 ---
-title: Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
-description: If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Customize ServiceNow Otto for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
+description: Configure the ServiceNow Otto virtual agent as an admin to enable supplier contacts to use generative AI skills in the Source-to-Pay Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-va.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [generative AI, Source-to-Pay workspace, APO, Accounts Payable Operations, virtual agent, Accounts Payable Workspace]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
+# Customize ServiceNow Otto for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
 
-If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+Configure the ServiceNow Otto virtual agent as an admin to enable supplier contacts to use generative AI skills in the Source-to-Pay Workspace and Core UI.
 
 ## Before you begin
 
@@ -23,21 +23,21 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for APO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for APO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
-1.  Install the Now Assist for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
+1.  Install the ServiceNow Otto for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
 3.  From the list of existing LLM Virtual Agents, select **Now Assist in Virtual Agent - Supplier**.
 
 4.  Review the details about Virtual Agent by selecting **Overview** and then selecting **Save and continue** to go to the next step in Guided Setup.
 
-5.  Review the selected conversational skills by selecting **Now Assist skills** and then selecting **Save and continue** to go to the next step in Guided Setup.
+5.  Review the selected conversational skills by selecting **AI Skills** and then selecting **Save and continue** to go to the next step in Guided Setup.
 
 6.  Review the selected portal by selecting **Display experience** and then selecting **Save and continue** to go to the next step in Guided Setup.
 
@@ -49,17 +49,4 @@ Use the Now Assist Admin console to configure Now Assist for APO. This console c
 
 10. Review all the details by selecting **Review** and then selecting **Turn on**.
 
-
-## Result
-
-Now Assist for Accounts Payable Operations \(APO\) is configured with Virtual Agent.
-
-**Related topics**  
-
-
-[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
-
-[Advanced Work Assignment in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.md)
-
-[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

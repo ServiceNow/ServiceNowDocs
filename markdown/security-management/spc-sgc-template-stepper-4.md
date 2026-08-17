@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-sgc-template-stepper-4.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-07-31"
 reading_time_minutes: 2
 breadcrumb: [Creating your own API connector, Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -18,7 +18,7 @@ Provide input parameters to make a valid API call, test the connection, and rece
 
 For all templates, you can select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) to learn more about each parameter. You can use the API samples provided with each template. After you define your input parameters, you must test your connection.
 
-You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a ServiceNow Otto® or Now Assist generative AI skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Roles required:
 

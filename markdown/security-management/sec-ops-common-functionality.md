@@ -67,21 +67,6 @@ Tags: Security tag rules provide filtering for security tag access.
 
 </td></tr><tr><td>
 
-Workflows
-
-</td><td>
-
--   View Security Workflows
-
-You can view the many workflows included with the Security Operations applications. You can create workflows from templates and in the Workflow Editor.
-
--   Workflow Triggers
-
-Security Operations workflow triggers contain a condition on a table. All workflows attached to the workflow trigger record run when the condition is met.
-
-
-</td></tr><tr><td>
-
 Utilities
 
 </td><td>
@@ -148,7 +133,7 @@ Several types of components are installed with Security Support Common. They pro
 You can find information quickly in any Security Operations application using the search icon in the screen header. Zing is the text indexing and search engine that performs all text searches in your instance.
 -   **[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integ-ref.md)**  
 Developers and ServiceNow partners can use the information in this section to gain understanding of the under-the-hood functionality of third-party integrations, including development guidelines, integration capabilities, and workflows.
--   **[Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/workflow-triggers.md)**  
+-   **[Legacy: Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/workflow-triggers.md)**  
 Security Operations workflow triggers contain a condition on a table. All workflows attached to the workflow trigger record run when the condition is met.
 -   **[Security Operations Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations-orchestration.md)**  
 Users can interact with and retrieve data from Windows or UNIX-based systems and environments using activity packs and workflows in Security Operations Orchestration.

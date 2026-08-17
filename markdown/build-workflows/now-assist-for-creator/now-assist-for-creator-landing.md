@@ -1,26 +1,27 @@
 ---
-title: Now Assist for Creator
-description: Now Assist for Creator includes generative AI skills and agents that can make developing on the ServiceNow AI Platform more efficient.
+title: ServiceNow Otto for Creator
+description: ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-07-13"
+reading_time_minutes: 4
+keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation]
 breadcrumb: [Build workflows]
 ---
 
-# Now Assist for Creator
+# ServiceNow Otto for Creator
 
-Now Assist for Creator includes generative AI skills and agents that can make developing on the ServiceNow AI Platform more efficient.
+ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 
 ## Get started
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
@@ -36,7 +37,7 @@ ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Al
 
 </td><td>
 
-Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.
+Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.
 
 </td><td>
 
@@ -44,7 +45,7 @@ Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete s
 
 </td></tr><tr><td>
 
-[Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)
+Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.
 
 </td><td>
 
@@ -72,7 +73,7 @@ Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete s
 
 </td><td>
 
-[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-bot-generation.md)
+RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.
 
 </td><td>
 
@@ -88,7 +89,7 @@ UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences
 
 </td><td>
 
-[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-ai-widget-builder.md)
+Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.
 
 </td></tr></tbody>
 </table>**Important:**

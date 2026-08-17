@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Process Mining, Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Using ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Run work notes analysis
@@ -18,17 +18,11 @@ Generate a work notes analysis on a transition.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin and you must have the `now.assist.creator` role.
+Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
 **Note:** Work notes with more than 5 words and fewer than 100 words are considered for the analysis.
 
-You can use the Now Assist feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
-
-**Important:** Now assists are charged dynamically.
-
--   For cluster based work notes, 250 Now assists are charged per request. There is no limitation of work notes per request. You can load more results for the same request with no extra charge.
--   For non-clustering LLM calls, 100 Now assists are charged per request.
--   If results are not displayed, then there are no charges.
+You can use AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
 ## Procedure
 
@@ -36,7 +30,7 @@ You can use the Now Assist feature for work notes analysis even with 5-50 eligib
 
 2.  From the list of projects, select a project.
 
-3.  Select any transition.
+3.  Select any transition on Analyst workbench.
 
     A window is displayed with all the details.
 
@@ -50,10 +44,10 @@ You can use the Now Assist feature for work notes analysis even with 5-50 eligib
 
     The result is displayed.
 
-    \[Omitted image "na-worknotes-result.png"\] Alt text: Work notes analysis result using Now Assist
+    \[Omitted image "na-worknotes-result.png"\] Alt text: Work notes analysis result using ServiceNow Otto
 
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)
 

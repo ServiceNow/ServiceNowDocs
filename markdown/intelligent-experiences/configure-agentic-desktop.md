@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2025-11-02"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -19,16 +19,17 @@ You can enable the AI Desktop Actions application if you have the admin role.
 To get started with AI Desktop Actions, you must have:
 
 -   A ServiceNow Pro Plus or Enterprise Plus license.
--   An instance on Zurich Patch 4+.
+-   An instance on Zurich Patch 4 or later.
 -   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
 
 Role required: administrator
 
 ## About this task
 
-AI Desktop Actions isn’t a standalone application that you can install directly. To enable AI Desktop Actions on your instance, you must install other Now Assist applications, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Customer Service Management \(CSM\).
+AI Desktop Actions isn’t a standalone store application that you can install directly. To enable AI Desktop Actions on your instance, you must install other generative AI applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
 
 -   Review the [AI Desktop Actions](https://store.servicenow.com/store/app/dc9057f4873932d0221e8409dabb35a5) application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Refer to the [document](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in ServiceNow Otto packages and to review the number of assists consumed.
 -   Perform these steps in your ServiceNow instance.
 
 For more information about the components installed, see [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/components-installed-with-agentic-desktop.md).
@@ -37,7 +38,7 @@ For more information about the components installed, see [Components installed w
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for and select a Now Assist application, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Platform.
+2.  Search for and select a generative AI application, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Platform.
 
 3.  Select **Install**.
 

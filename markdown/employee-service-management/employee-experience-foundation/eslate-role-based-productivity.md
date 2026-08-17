@@ -52,7 +52,7 @@ From the moment you log in to the moment the task is done, everything runs from 
 |Track|View approvals, tasks, and updates in one timeline in Tasks and requests.|
 |Stay current|Receive targeted notifications and announcements across web and mobile browser.|
 
-For more information, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+For more information, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [ServiceNow Otto AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Content manager key use cases
 

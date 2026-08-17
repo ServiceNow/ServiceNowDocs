@@ -71,7 +71,7 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 -   AI playbook - This playbook has an additional AI checkpoint stage where you can associate new or existing AI systems to your demand. The AI Control Tower plugin must be installed. The investment type of the demand must be set to artificial intelligence.
 
-    The demand AI playbook is a standard playbook comprising the following stages:
+    The demand AI playbooks is a standard playbook comprising the following stages:
 
     -   Create demand brief
     -   Define demand alignment
@@ -92,6 +92,8 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 **Related topics**  
 
+
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/building-a-process.md)
 

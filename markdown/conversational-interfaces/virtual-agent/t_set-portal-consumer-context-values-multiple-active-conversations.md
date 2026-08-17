@@ -20,7 +20,7 @@ Use context values to determine which portals receive certain messages and notif
 
 Activate Virtual Agent. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
-Configure your Agent Chat system for your portal or portals. See  for more information.
+Configure your Agent Chat system for your portal or portals. See [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-va-in-sp.md) for more information.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -28,7 +28,7 @@ Role required: virtual\_agent\_admin or admin
 
 With consumer context added to a portal configuration, that portal acts as context for multiple active conversations with Virtual Agent.
 
-**Note:** These instructions are for configuring Natural Language Understanding \(NLU\) conversations. Large Language Model \(LLM\) conversations are configured for multiple active conversations based on portals, with no configuration necessary.
+**Note:** These instructions are for configuring Natural Language Understanding \(NLU\) conversations. Large language model \(LLM\) conversations are configured for multiple active conversations based on portals, with no configuration necessary.
 
 ## Procedure
 

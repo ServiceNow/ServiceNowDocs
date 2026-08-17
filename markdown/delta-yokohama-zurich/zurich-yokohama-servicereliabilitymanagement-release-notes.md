@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicereliabilitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-08-17"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,41 +67,41 @@ Yokohama
 
 </td><td>
 
--   **[Enhance monitoring for distributed teams with Express List](https://servicenow-staging.fluidtopics.net/access?context=express-list&family=yokohama&ft:locale=en-US)**
+-   **[Enhance monitoring for distributed teams with Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
 
 Improve monitoring with Express List. Express List replaces the **Alerts** tab and helps distributed SRM teams focus on the services, priorities, or alerts that matter to them.
 
--   **[Track SLO update history](https://servicenow-staging.fluidtopics.net/access?context=sr-edit-sli-slo&family=yokohama&ft:locale=en-US)**
+-   **[Track SLO update history](https://www.servicenow.com/docs/access?context=sr-edit-sli-slo&family=yokohama&ft:locale=en-US)**
 
 View and track SLO update history with new naming conventions. Edited SLOs now receive unique names, such as Uptime \(1\) or Uptime \(2\), instead of keeping their original names. This update improves clarity and helps you distinguish between versions.
 
--   **[Add SLOs to change approval policies](https://servicenow-staging.fluidtopics.net/access?context=sr-add-change-approval-slos&family=yokohama&ft:locale=en-US)**
+-   **[Add SLOs to change approval policies](https://www.servicenow.com/docs/access?context=sr-add-change-approval-slos&family=yokohama&ft:locale=en-US)**
 
 Define change approval policies to approve updates or modifications in your system. You can now add the following policy inputs, helping you integrate critical information into the approval process:
 
     -   SLO with the lowest percentage of error budget remaining
     -   SLO with the highest burn rate
--   **[Assign teams to TSOs](https://servicenow-staging.fluidtopics.net/access?context=sr-add-service&family=yokohama&ft:locale=en-US)**
+-   **[Assign teams to TSOs](https://www.servicenow.com/docs/access?context=sr-add-service&family=yokohama&ft:locale=en-US)**
 
 Manage your services effectively by assigning teams to TSOs. TSOs, which are specific components within a parent technical service, can now be used in the SRM service list. Assigning SRM teams to TSOs helps decentralized teams focus on the services they’re responsible for.
 
--   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://servicenow-staging.fluidtopics.net/access?context=itom-mobile-landing&family=yokohama&ft:locale=en-US)**
+-   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://www.servicenow.com/docs/access?context=itom-mobile-landing&family=yokohama&ft:locale=en-US)**
 
 Starting in version 6.3, use ITOM Mobile Agent to access SRM features on iOS and Android devices. With ITOM Mobile Agent, you can track alerts, manage incidents, and work on tasks on the go. You can also manage on-call schedules by checking shifts, requesting time off, and filling gaps.
 
--   **[Create SLIs on configuration items](https://servicenow-staging.fluidtopics.net/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
+-   **[Create SLIs on configuration items](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
 
 Starting in version 6.3, filter an SLI to a specific configuration item within the parent service hierarchy. This feature lets you monitor the individual components of a service, helping you accurately track service health and identify root causes faster.
 
--   **[Keep teams informed with notification destinations](https://servicenow-staging.fluidtopics.net/access?context=create-notification-destination&family=yokohama&ft:locale=en-US)**
+-   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=yokohama&ft:locale=en-US)**
 
 Starting in version 6.4, send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
 
--   **[Monitor service reliability in a dashboard](https://servicenow-staging.fluidtopics.net/access?context=sr-service-dashboard-visualizations&family=yokohama&ft:locale=en-US)**
+-   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=yokohama&ft:locale=en-US)**
 
 Starting in version 6.4, use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, you can select charts to access further details and use the new SLO table to monitor reliability.
 
--   **[Customize team approval settings with more flexibility](https://servicenow-staging.fluidtopics.net/access?context=sr-add-approval-teams&family=yokohama&ft:locale=en-US)**
+-   **[Customize team approval settings with more flexibility](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=yokohama&ft:locale=en-US)**
 
 Starting in version 6.4, customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
@@ -112,23 +112,27 @@ Zurich
 
 </td><td>
 
--   **[Remove a service](https://servicenow-staging.fluidtopics.net/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
+-   **[Auto-generate SLOs for SRM services](https://www.servicenow.com/docs/access?context=now-assist-itom-manage-generated-slos&family=zurich&ft:locale=en-US)**
+
+Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+
+-   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, remove a service from SRM when you no longer need to track or monitor its reliability. Removing a service clears it from SRM views, including the Service page and Service reliability dashboard. The service remains in the Configuration Management Database \(CMDB\), and you can add it back to SRM at any time.
 
--   **[Create outage-based SLIs](https://servicenow-staging.fluidtopics.net/access?context=sr-create-slo-sli&family=zurich&ft:locale=en-US)**
+-   **[Create outage-based SLIs](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, add outage-based SLIs to track real downtime and customer impact. Use them with existing alert-based SLIs for a broader view of reliability. The flow for creating service level objectives \(SLOs\), SLIs, and error budget policies is also improved to simplify setup.
 
--   **[Keep teams informed with notification destinations](https://servicenow-staging.fluidtopics.net/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
+-   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
 
 Send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
 
--   **[Monitor service reliability in a dashboard](https://servicenow-staging.fluidtopics.net/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
+-   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
 
 Use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, monitor reliability using interactive charts and a new service level objective \(SLO\) table in the Service reliability dashboard.
 
--   **[Customize team approval settings](https://servicenow-staging.fluidtopics.net/access?context=sr-add-approval-teams&family=zurich&ft:locale=en-US)**
+-   **[Customize team approval settings](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=zurich&ft:locale=en-US)**
 
 Customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
@@ -239,7 +243,7 @@ Yokohama
 
 </td><td>
 
-Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -390,7 +394,7 @@ Yokohama
 -   Starting in version 6.4, track, manage, and visualize service performance with the Service reliability dashboard.
 -   Starting in version 6.4, get timely error budget updates that reflect the impact of ongoing, open alerts.
 
- See [Service Reliability Management](https://servicenow-staging.fluidtopics.net/access?context=sr-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Reliability Management](https://www.servicenow.com/docs/access?context=sr-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -398,12 +402,13 @@ Zurich
 
 </td><td>
 
+-   Auto-generate service level objectives \(SLOs\) to help teams track service reliability in SRM.
 -   Starting in version 6.5.0, remove unneeded services from SRM to keep your monitoring data relevant.
 -   Starting in version 6.5.0, track real downtime and customer impact with outage-based service level indicators \(SLIs\).
 -   Get timely error budget updates that reflect the impact of ongoing, open alerts.
 -   Track, manage, and visualize service performance with the Service reliability dashboard.
 
- See [Service Reliability Management](https://servicenow-staging.fluidtopics.net/access?context=sr-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Service Reliability Management](https://www.servicenow.com/docs/access?context=sr-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

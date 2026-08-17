@@ -1,6 +1,6 @@
 ---
 title: Define Location
-description: Define a geographic location to provide more context to other TISC entities.
+description: Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-define-location.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Location, Threat Entities, TISC Library Repository, Threat Intel Li
 
 # Define Location
 
-Define a geographic location to provide more context to other TISC entities.
+Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 
 ## Before you begin
 
@@ -154,7 +154,7 @@ TLP
 
 </td><td>
 
-TLP is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, and Red\) to indicate different degrees of sensitivity.
+TLP \(Traffic Light Protocol\) is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, and Red\) to indicate different degrees of sensitivity.
 
 </td></tr><tr><td>
 

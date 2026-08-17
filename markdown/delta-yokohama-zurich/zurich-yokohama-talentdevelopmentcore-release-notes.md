@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-talentdevelopmentcore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,12 +67,12 @@ Yokohama
 
 </td><td>
 
--   **[Credly integration](https://servicenow-staging.fluidtopics.net/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
 
 As an employee, Credly integration now empowers you to display your digital credentials better demonstrating your skills in a tangible way.
 
 
--   **[View user credentials](https://servicenow-staging.fluidtopics.net/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
+-   **[View user credentials](https://www.servicenow.com/docs/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
 
 As an administrator, Achievements and Credentials now enables you to view user credentials and use achievement credential templates to sync credentials from third-party credential providers, for example: Credly
 
@@ -85,11 +85,11 @@ Skills related to Credentials \(badge template\) are synced to the user profile.
 **Note:** Credential Core has a soft dependency on Skills Foundation \(8.0\).
 
 
--   **[Create a growth plan with the help of Now Assist](https://servicenow-staging.fluidtopics.net/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
+-   **[Create a growth plan with the help of Now Assist](https://www.servicenow.com/docs/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
 
 As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
 
-**Note:** This feature is available when you have both Talent Development Core and Now Assist for HRSD installed.
+**Note:** This feature is available when you have both Talent Development Core and ServiceNow Otto for HRSD installed.
 
 
 </td></tr><tr><td>
@@ -206,7 +206,7 @@ Yokohama
 
 </td><td>
 
-Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -359,7 +359,7 @@ Yokohama Patch 3
 -   As an administrator, use Achievements and Credentials, to view various forms of digital credentials such as badges, awards, certifications.
 -   As an employee that meets the Talent Development user criteria, you can add custom opportunities with help from ServiceNow® Now Assist. Provide an AI prompt so that Now Assist can help you build a growth plan that matches your career goals and aspirations.
 
- See [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -1,18 +1,18 @@
 ---
 title: Query Generation
-description: Query Generation is a shared backend that Now Assist in Platform Analytics applications use to translate plain language user questions into database queries.
+description: Query Generation is a shared backend that ServiceNow Otto for Platform Analytics applications use to translate plain language user questions into database queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/query-generation.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation
 
-Query Generation is a shared backend that Now Assist in Platform Analytics applications use to translate plain language user questions into database queries.
+Query Generation is a shared backend that ServiceNow Otto for Platform Analytics applications use to translate plain language user questions into database queries.
 
 ## Get started
 

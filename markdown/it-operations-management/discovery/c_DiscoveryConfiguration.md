@@ -22,7 +22,7 @@ Discovery can run on a regular, configurable schedule, or can be launched manual
 
 ## Discovery configuration procedures
 
-Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use the ITOM Configuration Console, which offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by Now Assist. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md).
+Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, use the ITOM Configuration Console. The Configuration Console offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by ServiceNow Otto. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md).
 
 <table id="table_c4r_ztp_2cb"><tbody><tr><td>
 

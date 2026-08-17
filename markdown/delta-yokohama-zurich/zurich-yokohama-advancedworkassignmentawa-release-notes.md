@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-advancedworkassignmentawa-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Zurich
 
 </td><td>
 
--   **[Use AWA without existing interaction or work item](https://servicenow-staging.fluidtopics.net/access?context=using-awa&family=zurich&ft:locale=en-US)**
+-   **[Use AWA without existing interaction or work item](https://www.servicenow.com/docs/access?context=using-awa&family=zurich&ft:locale=en-US)**
 
 Use AWA with an inbox card in Workspace without an existing interaction or work item.
 
--   **[New interaction record field](https://servicenow-staging.fluidtopics.net/access?context=reference-awa&family=zurich&ft:locale=en-US)**
+-   **[New interaction record field](https://www.servicenow.com/docs/access?context=reference-awa&family=zurich&ft:locale=en-US)**
 
 A new interaction record field was added to indicate whether this interaction is related to a third-party provider.
 
@@ -198,7 +198,7 @@ Zurich
 
 </td><td>
 
-AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-activate&family=zurich&ft:locale=en-US).
+AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=zurich&ft:locale=en-US).
 
  To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -347,7 +347,7 @@ Zurich
 
 Use AWA with an inbox card in Workspace without an existing interaction or work item.
 
- See [Advanced Work Assignment](https://servicenow-staging.fluidtopics.net/access?context=awa-application-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

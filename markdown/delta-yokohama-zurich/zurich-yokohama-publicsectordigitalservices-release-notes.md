@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-publicsectordigitalservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -67,17 +67,17 @@ Yokohama
 
 </td><td>
 
--   **[Grants Management](https://servicenow-staging.fluidtopics.net/access?context=using-public-sector-digital-services&family=yokohama&ft:locale=en-US)**
+-   **[Grants Management](https://www.servicenow.com/docs/access?context=using-public-sector-digital-services&family=yokohama&ft:locale=en-US)**
 
 Simplify and streamline Grant application intake and screening​ with Grants Management:​ Intake and Screening, a part of Grants Management. Improve self-service with a Grants Portal that streamlines finding, applying for, and tracking grants, with added features such as guided intake, and a save, resume, and export functionality. Set up and manage grant programs easily with guided steps​ using Grants Management: ​Program Set Up​, which guides grant program managers through the process of creating, publishing, and managing grant programs.​
 
--   **[Communicate and share citizen and agent data securely between agencies using Service Exchange for Public Sector Digital Services](https://servicenow-staging.fluidtopics.net/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
+-   **[Communicate and share citizen and agent data securely between agencies using Service Exchange for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
 
 Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
 
--   **[Post-chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
+-   **[Post-chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
 
-Condense chat records into short summaries using the chat summarization skill in the Now Assist for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The Now Assist for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
+Condense chat records into short summaries using the chat summarization skill in the ServiceNow Otto for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The ServiceNow Otto for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
 
 
 </td></tr><tr><td>
@@ -86,7 +86,7 @@ Zurich
 
 </td><td>
 
--   **[Grants Management Funding Program](https://servicenow-staging.fluidtopics.net/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
+-   **[Grants Management Funding Program](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
 
 Create a funding program, which serves as the top-level container from which individual grant programs are created and derive their budget allocations.
 
@@ -94,15 +94,15 @@ Grant program managers can create a new funding program, or start by copying dat
 
 Each grant program is associated with a single funding program via the funding program ID. All grant programs linked to a specific funding program share the cumulative budget of that funding program, and their start and end dates fall within the funding program's duration.
 
--   **[Grants Management Evaluation &amp; Decision​](https://servicenow-staging.fluidtopics.net/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
+-   **[Grants Management Evaluation &amp; Decision​](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
 
 Simplify and streamline your grant application decisions​ with Grants Management:​ Evaluation &amp; Decision. You can review, score, and manage proposals for grant programs in the Merit Review portal and define a funding proposal for a grant program by using the Grants Workspace. You can share this information internally with the grant program director.​ Grant program managers can define the merit review framework criteria, assign a reviewer group to each application, create, and track merit review tasks. Grant program managers can use document templates to compose letters that inform the applicants of results, with template options for Award, Rejected \(Ineligible\), and Rejected \(Decline\).
 
--   **[Grants Management Reviewer Service portal](https://servicenow-staging.fluidtopics.net/access?context=psds-gmp-using-merit-review-portal-agent&family=zurich&ft:locale=en-US)**
+-   **[Grants Management Reviewer Service portal](https://www.servicenow.com/docs/access?context=psds-gmp-using-merit-review-portal-agent&family=zurich&ft:locale=en-US)**
 
 Enable your merit reviewers to track, score, and monitor grant applications via a dedicated Reviewer Service portal. The merit reviewers can capture and aggregate scores across the Grant Proposal review framework​ in the Grants Workspace. A score and rationale can be summarized as part of the application proposal result.​
 
--   **[Agentic AI](https://servicenow-staging.fluidtopics.net/access?context=agentic-ai-psds-explore&family=zurich&ft:locale=en-US)**
+-   **[Agentic AI](https://www.servicenow.com/docs/access?context=agentic-ai-psds-explore&family=zurich&ft:locale=en-US)**
 
 Define the fees for information requests and autonomously assess waivers against an agency's criteria​. You can automate the process of synthesizing similar information requests and associated fees, and apply those fees to cases​. Your case fields are automatically filled in and integrated into the Information Request Playbook workflow and ServiceNow's AI framework.
 
@@ -126,7 +126,7 @@ Yokohama
 
 </td><td>
 
--   **[Constituent Service Dashboard Migration to Platform Analytics](https://servicenow-staging.fluidtopics.net/access?context=constituent-services-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=yokohama&ft:locale=en-US)**
 
 The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Yokohama release. The dashboard migration to Next Experience enables you to visualize historical and real-time process statistics in role-based dashboards, which enable individual stakeholders to make informed decisions. The new dashboard can be accessed by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
@@ -137,18 +137,18 @@ Zurich
 
 </td><td>
 
--   **[Enhancements to Grants Management: Program Setup](https://servicenow-staging.fluidtopics.net/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
+-   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
 
 In the Grants Management: program setup, grant program managers can now add new points of contact for the applicants to the grants program in the Define Program stage. In the Publish Program stage, new fields have been added for program announcement removal. Grants program managers can now set grants programs to auto-remove at a defined date, and set application close to disable new applications from being submitted through the Grants Management portal.
 
--   **[Enhancements to Grants Management portal](https://servicenow-staging.fluidtopics.net/access?context=psds-gmp-using-grants-mgmt-portal&family=zurich&ft:locale=en-US)**
+-   **[Enhancements to Grants Management portal](https://www.servicenow.com/docs/access?context=psds-gmp-using-grants-mgmt-portal&family=zurich&ft:locale=en-US)**
 
 Enable grant program managers to turn off new grant proposal submissions after the proposal close date. Applicants can no longer submit proposals after the proposal close date, keeping the process on schedule and helping prevent late submissions from being reviewed.
 
 Enable applicants to review and download the results letter and merit review summary \(where applicable\) of their grants application, as well as accept or decline their award, all within the new **Results** tab of the Grants Management portal. Notify constituents about a pending award decision through the portal.
 
 
--   **[Constituent Service Dashboard Migration to Platform Analytics](https://servicenow-staging.fluidtopics.net/access?context=constituent-services-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=zurich&ft:locale=en-US)**
 
 The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when you load or upgrade to the Zurich release. The dashboard migration to Next Experience enables you to visualize historical and real-time process statistics in role-based dashboards. Access the new dashboard by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
@@ -230,7 +230,7 @@ Yokohama
 
 </td><td>
 
-Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://servicenow-staging.fluidtopics.net/access?context=configuring-public-sector-digital-services&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Zurich
 
 </td><td>
 
-Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configure](https://servicenow-staging.fluidtopics.net/access?context=configuring-public-sector-digital-services&family=zurich&ft:locale=en-US). 
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configure](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=zurich&ft:locale=en-US). 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -377,9 +377,9 @@ Yokohama
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM, to auto-generate chat summaries for customer-agent interactions in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
- See [Public Sector Digital Services](https://servicenow-staging.fluidtopics.net/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -393,7 +393,7 @@ Zurich
 -   Enable applicants to review and download the results letter and merit review summary of their grants application, and accept or decline their award, all within the new **Results** tab of the Grants Management portal.
 -   Define fees for and autonomously assess fee waivers against agency-defined criteria for information requests with the Help manage public information requests agentic AI Agent, part of the Public Sector Digital Services AI Agent Collection application.
 
- See [Public Sector Digital Services](https://servicenow-staging.fluidtopics.net/access?context=bun-public-sector-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

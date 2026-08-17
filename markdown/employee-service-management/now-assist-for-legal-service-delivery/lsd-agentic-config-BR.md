@@ -1,20 +1,21 @@
 ---
 title: Activate the business rule for the Triage legal requests agentic workflow
-description: Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
+description: Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
-last_updated: "2025-04-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflow, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Configure agentic workflow, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Activate the business rule for the Triage legal requests agentic workflow
 
-Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
+Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Before you begin
 
@@ -53,5 +54,5 @@ By default, the script include in this business rule contains the sys\_id of the
 
 ## Result
 
-The Triage legal requests agentic workflow is activated for Now Assist for Legal Service Delivery \(LSD\).
+The Triage legal requests agentic workflow is activated for ServiceNow Otto for Legal Service Delivery \(LSD\).
 

@@ -1,6 +1,6 @@
 ---
 title: Install Supplier Case Management
-description: You can install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 # Install Supplier Case Management
 
-You can install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 
 ## Before you begin
 
@@ -99,8 +99,4 @@ After you upgrade to Washington DC, you must review all the post-upgrade tasks a
 [Install Universal Request for SLO]()
 
 [Configure smart assessments]()
-
-[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)
-
-[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)
 

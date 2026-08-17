@@ -1,19 +1,20 @@
 ---
 title: Usage Insights release notes
-description: The ServiceNow Usage Insights application enables you to monitor usage analytics of ServiceNow Next Experience web applications as well as ServiceNow Virtual Agent, ServiceNow ServiceNow mobile, and ServiceNow Service Portal applications. Usage Insights was enhanced and updated in the Zurich release.
+description: The ServiceNow Usage Insights application enables you to monitor usage analytics of ServiceNow Next Experience web applications and ServiceNow Virtual Agent, ServiceNow ServiceNow mobile, and ServiceNow Service Portal applications. Usage Insights was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Usage Insights release notes
 
-The ServiceNow® Usage Insights application enables you to monitor usage analytics of ServiceNow® Next Experience web applications as well as ServiceNow® Virtual Agent, ServiceNow® ServiceNow mobile, and ServiceNow® Service Portal applications. Usage Insights was enhanced and updated in the Zurich release.
+The ServiceNow® Usage Insights application enables you to monitor usage analytics of ServiceNow® Next Experience web applications and ServiceNow® Virtual Agent, ServiceNow® ServiceNow mobile, and ServiceNow® Service Portal applications. Usage Insights was enhanced and updated in the Zurich release.
 
 ## Usage Insights highlights for the Zurich release
 
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
 -   Access the analytics overlay faster via the new utility icon and then redirect to the analytics dashboard by selecting **Analyze with User Experience Analytics** on the overlay.
 -   Experience enhanced analytics with UXA filters on dashboards, configurable session metrics, Pages in User Experience Analytics, drill-down in inline dashboards, and a condition builder for Events.
 
@@ -22,6 +23,10 @@ See [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 **Important:** Usage Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
+
+-   **[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/data-export-restapi.md)**
+
+    Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
 
 -   **[Analytics overlay experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/uxa-access-analytics-overlay.md)**
 

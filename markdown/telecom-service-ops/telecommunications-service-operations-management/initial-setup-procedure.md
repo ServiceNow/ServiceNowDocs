@@ -84,15 +84,15 @@ Confirm you are operating in the Service Graph Connector for the Nokia Altiplano
         5.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
 5.  Configure Data Collection Schedule either for bulk discovery or filtered discovery by clicking **Get Started**and then click **Configure**.
 
-<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d29658e345">
+<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d29611e345">
 
 To
 
-</th><th align="left" id="d29658e348">
+</th><th align="left" id="d29611e348">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d29658e354">
+</th></tr></thead><tbody><tr><td id="d29611e354">
 
 **Schedule data collection for bulk discovery \(Use bulk discovery data source for all devices in connection alias\)**
 
@@ -107,7 +107,7 @@ Do the following
 -   In the **Time** field, enter the time in hours, minutes, and seconds.
 
 
-</td></tr><tr><td id="d29658e411">
+</td></tr><tr><td id="d29611e411">
 
 **Schedule data collection for filtered discovery \(Use Filtering Discovery data source for specific OLT filter criteria for each connection alias\)**
 

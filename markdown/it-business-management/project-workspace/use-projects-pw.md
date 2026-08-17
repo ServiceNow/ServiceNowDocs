@@ -7,8 +7,8 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 11
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -16,20 +16,464 @@ breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfoli
 
 Use the features of Project Workspace to plan and manage your project.
 
--   **[Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md)**  
-Learn how to navigate to Project Workspace and open a project in the planning page.
+\[Omitted image "project-workspace-homepage.png"\] Alt text: project-workspace-grid-view
+
+\[Omitted image "project-workspace-listview.png"\] Alt text: project-workspace-list-view
+
+The homepage contains the following UI components to help you navigate through the workspace.
+
+<table id="table_t11_fpz_hsb"><thead><tr><th>
+
+Feature
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Grid view of projects \(\[Omitted image "grid-view-homepage-icon.png"\] Alt text: grid view of projects.\)
+
+</td><td>
+
+Opens the project in grid view or card view.
+
+</td></tr><tr><td>
+
+List view of projects \(\[Omitted image "list-view-homepage-icon.png"\] Alt text: list view of projects.\)
+
+</td><td>
+
+Opens the project in list view.
+
+</td></tr><tr><td>
+
+My Projects
+
+</td><td>
+
+This section displays all the projects that you own, including subprojects.
+
+</td></tr><tr><td>
+
+All Projects
+
+</td><td>
+
+This section displays all projects in the system.
+
+ All projects include projects from customer projects, team spaces, and audit.
+
+</td></tr><tr><td>
+
+Projects
+
+</td><td>
+
+This section displays only projects.
+
+</td></tr><tr><td>
+
+Subprojects
+
+</td><td>
+
+This section displays only subprojects.
+
+</td></tr><tr><td>
+
+Project cards
+
+</td><td>
+
+Each project is represented by a project card.
+
+ These cards display high-level details, such as the project name, status, planned dates, and the manager that the project is assigned to.
+
+</td></tr><tr><td>
+
+Project search
+
+</td><td>
+
+Option to search for projects by name or by the user it’s assigned to.
+
+</td></tr><tr><td>
+
+Filter
+
+</td><td>
+
+Option to apply filters on the homepage. The filter preferences that you choose are retained in the filter criteria.
+
+</td></tr><tr><td>
+
+Refresh
+
+</td><td>
+
+Reloads the homepage.
+
+</td></tr><tr><td>
+
+Create from template
+
+</td><td>
+
+Option to create a project from template.
+
+</td></tr><tr><td>
+
+New
+
+</td><td>
+
+Option to create a project.
+
+</td></tr></tbody>
+</table>## Planning header
+
+The header displays the project name and provides the following various options.
+
+<table id="table_qrt_q13_gtb"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Edit project details \(\[Omitted image "icon-edit.png"\] Alt text: Edit icon.\)
+
+</td><td>
+
+Opens the project details in the side panel to edit.
+
+ See [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-from-project-workspace.md).
+
+</td></tr><tr><td>
+
+Activity \(\[Omitted image "icon-activity.png"\] Alt text: Activity icon.\)
+
+</td><td>
+
+Facilitates conversation between different stakeholders.
+
+ See [Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md).
+
+</td></tr><tr><td>
+
+Attachments \(\[Omitted image "icon-attachments.png"\] Alt text: Attachments icon.\)
+
+</td><td>
+
+Enables you to add files to the project.
+
+ See [Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md).
+
+</td></tr><tr><td>
+
+Refresh the project \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh project workspace.\)
+
+</td><td>
+
+Reloads the planning page.
+
+</td></tr><tr><td>
+
+Save \(\[Omitted image "icon-save.png"\] Alt text: Save.\)
+
+</td><td>
+
+Saves your changes. This button is inactive by default to facilitate auto-save of any changes made to the project plans.
+
+ Enable or disable the auto-save functionality from the Advanced tab of the Settings \(\[Omitted image "icon-settings.png"\] Alt text: Settings icon.\) panel.
+
+</td></tr><tr><td>
+
+Resources not synced \(\[Omitted image "resources-not-synced-icon.png"\] Alt text: resources-not-synced-icon\)
+
+</td><td>
+
+Enables you to synchronize the project and resource assignment dates. When there’s a change in the planned or actual dates of the project tasks, this icon is enabled.
+
+ When the project has classic resource plans, this icon is inactive by default.
+
+</td></tr><tr><td>
+
+\[Omitted image "resource-plan-toggle.png"\] Alt text: resource-plan-toggle
+
+</td><td>
+
+Enable this toggle to display the resource assignment pane.
+
+</td></tr><tr><td>
+
+\[Omitted image "all-view-button.png"\] Alt text: all-view-button
+
+</td><td>
+
+Displays data in both grid and gantt view on planning page. This button is active by default.
+
+</td></tr><tr><td>
+
+\[Omitted image "gantt-view-button.png"\] Alt text: gantt-view-button
+
+</td><td>
+
+Displays data in Gantt view on planning page. Use this button to change task dates and dependencies.
+
+</td></tr><tr><td>
+
+\[Omitted image "grid-view-button.png"\] Alt text: grid-view-button
+
+</td><td>
+
+Displays data in Grid view on planning page. Use this button to add and delete tasks, change task dates and dependencies, and assess the progress of the overall project.
+
+</td></tr><tr><td>
+
+Baselines \(\[Omitted image "icon-baselines.png"\] Alt text: Baselines option.\)
+
+</td><td>
+
+Enables you to create and compare schedule and financial baselines.
+
+ See [Create and compare project baselines in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md).
+
+</td></tr><tr><td>
+
+Critical path \(\[Omitted image "icon-critical-path.png"\] Alt text: Critical path.\)
+
+</td><td>
+
+Toggle the button to switch on/off the display of the critical path of the project.
+
+ \[Omitted image "workspace-critical-path.png"\] Alt text: Project critical path.
+
+</td></tr><tr><td>
+
+Add Task\[Omitted image "workspace-add-task.png"\] Alt text: Add project task.
+
+</td><td>
+
+Adds a project task in the data grid.
+
+ See [Create and assign project tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-project-task-from-project-workspace.md).
+
+</td></tr><tr><td>
+
+Project actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more-actions-icon.\)
+
+</td><td>
+
+Provides other actions to perform on the project.
+
+-   Apply template
+-   Delete project
+-   Move project
+-   Duplicate project
+-   Import from MS project
+-   Export project
+-   Launch help video
+-   Calculate Completion Estimates
+-   Copy partial project
+
+ \[Omitted image "workspace-more-actions.png"\] Alt text: More actions menu.
+
+ Synchronize the project's date with the start dates of the associated resource plans, cost plans, benefit plans, resource assignments, project tasks, and subprojects using **Move Project**.
+
+</td></tr></tbody>
+</table>## Resource assignment pane
+
+The resource assignment pane contains the following UI components to help you manage your resources from Project Workspace.
+
+<table id="table_czr_ddk_2xb"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Refresh the resource assignment \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh project workspace.\)
+
+</td><td>
+
+Reloads the selected assignment and allocation.
+
+</td></tr><tr><td>
+
+\[Omitted image "allocation-heatmap-toggle.png"\] Alt text: allocation-heatmap-toggle
+
+</td><td>
+
+Displays the resource allocation in the resource assignment pane.
+
+</td></tr><tr><td>
+
+\[Omitted image "effort-type-dropdown.png"\] Alt text: effort-type-dropdown
+
+</td><td>
+
+Displays the effort type as FTE, Hours, or Person days.
+
+</td></tr><tr><td>
+
+\[Omitted image "month-week-dropdown.png"\] Alt text: month-week-dropdown
+
+</td><td>
+
+Displays the effort by week or month. This button is displayed only when the Allocation heatmap toggle is enabled.
+
+</td></tr><tr><td>
+
+\[Omitted image "add-resource-button.png"\] Alt text: add-resource-button
+
+</td><td>
+
+Add a resource in the resource assignment pane.
+
+</td></tr></tbody>
+</table>## Data grid
+
+The data grid shows the list of project tasks and subprojects in rows, and the following options to perform actions on the rows. If a project has subprojects, you can drill down into the tasks and scheduling of these subprojects too.
+
+<table id="table_pxp_xwz_hsb"><thead><tr><th>
+
+Option
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Column actions
+
+</td><td>
+
+Sort and filter the project tasks using the actions on the header. Point your mouse device to a column header to see the context menu icon \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\).
+
+ Using this menu, you can perform actions such as autofit, hide, or reset.
+
+ If you select the context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) for certain columns, such as Short description or State, you can also filter the project task rows.
+
+ \[Omitted image "workspace-column-actions.png"\] Alt text: Column context menu.
+
+</td></tr><tr><td>
+
+Rearrange rows \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows.\)
+
+</td><td>
+
+Enables the dragging of the project task rows to a position of your choice on the grid.
+
+</td></tr><tr><td>
+
+Select row \(\[Omitted image "icon-select.png"\] Alt text: Select row.\)
+
+</td><td>
+
+Choose to select multiple project task rows at once.
+
+ Use the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) to perform various actions.
+
+</td></tr><tr><td>
+
+Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\)
+
+</td><td>
+
+Provides various actions for the selected rows, such as edit task, add task above or below, delete row, add dependency, and more.
+
+ You can also select multiple rows and perform an action on them at once, using the row context menu. For example, indenting or deleting multiple tasks.
+
+ \[Omitted image "row-context-menu.png"\] Alt text: row-context-menu
+
+</td></tr><tr><td>
+
+Expanded row \(\[Omitted image "icon-expanded-row.png"\] Alt text: Expanded row.\)
+
+</td><td>
+
+Indicates that a project task row is expanded to show its child tasks. Select this icon to collapse the row and hide the child tasks.
+
+</td></tr><tr><td>
+
+Collapsed row \(\[Omitted image "icon-collapsed-row.png"\] Alt text: Collapsed row.\)
+
+</td><td>
+
+Indicates that the project task contains child tasks. Select this icon to expand the row and view the child tasks.
+
+</td></tr><tr><td>
+
+Reorder column \(\[Omitted image "reorder-column-icon.png"\] Alt text: reorder-column-icon\)
+
+</td><td>
+
+Reorders the columns of the data grid.
+
+</td></tr><tr><td>
+
+Edit an individual cell
+
+</td><td>
+
+Edit or copy the info of this cell by selecting the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) or select and hold \(or right-click\) a cell.
+
+ Use this menu to copy and paste cell contents, add dependencies, add project tasks directly above or below this cell position, or delete the whole row.
+
+</td></tr><tr><td>
+
+Edit multiple cells
+
+</td><td>
+
+Bulk-edit cells by selecting multiple cells and select and hold \(or right-click\) one of the cells. You can also use the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) for more options.
+
+</td></tr></tbody>
+</table>Selecting a project task by selecting its short description opens the task details in a side panel, enabling you to edit them. See [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
+
+You can also increase or reduce the area occupied by the data grid by dragging the line that separates them.
+
+## Timeline view
+
+The timeline view shows the project timeline based on its planned start and end dates, and displays the project task bars and milestones.
+
+By using the planning settings \(\[Omitted image "icon-settings.png"\] Alt text: Settings icon.\), you can choose to display the bar labels, dependency lines, and the critical path. See [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md).
+
+## Project timeline
+
+The timeline shows the planned period of the project. You can reduce or increase the visibility of the project period by changing the timescale to Year, Quarter, Month, Day, or Week. Select the timescale icon \(\[Omitted image "icon-timesclae.png"\] Alt text: Timescale icon.\) and choose an option.
+
+The timescale view that you choose is saved in the preferences.
+
+## Dependency lines
+
+These lines show the dependencies between the project tasks. You can add new dependencies by drawing them on the timeline view, or select an existing dependency to edit its details in the side panel. See [Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md). The dependencies that you choose are saved in the preferences.
+
+-   **[Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md)**  
+Learn how to navigate to the new Project Workspace and open a project in the planning page.
 -   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
 -   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
-Use Ask Now Assist to open the Now Assist panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+Use Ask Otto to open the AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 -   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
 -   **[Generate a project plan using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-project-using-ai-pw.md)**  
 Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
 -   **[Generate tasks using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-tasks-using-ai-pw.md)**  
 Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
+-   **[Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)**  
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 -   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-asset-project-requests-pw.md)**  
 Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
 -   **[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-playbooks-pw.md)**  
@@ -58,8 +502,8 @@ Create a status report in Project Workspace for your projects. Your team can vie
 Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
 -   **[Collaborate on projects using Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/collaborative-project-planning-with-docs.md)**  
 Collaborate with team members, save notes, create project charters, and project briefs using Docs.
--   **[Summarize content with Project doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
-Quickly learn the details of the documents from the summary that is generated by Now Assist in Strategic Planning.
+-   **[Summarize content with project doc generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
+Quickly learn the details of the documents from the summary that is generated by AI in Strategic Planning.
 -   **[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/email-project-summary-pw.md)**  
 Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 -   **[Project financials and Source-to-Pay Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/pws-fin-spo-integration.md)**  

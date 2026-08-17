@@ -91,7 +91,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Virtual Agent Chat**
 
-    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md). The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/va-in-me.md).
+    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see Virtual Agent. The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/va-in-me.md).
 
 
 ## Chief Information Officer \(CIO\)

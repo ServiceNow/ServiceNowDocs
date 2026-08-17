@@ -28,17 +28,19 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, select the topic where you will add the custom control.
+2.  Select the **Asset library** tab.
 
-3.  In the **Flow** tab, drag the Custom Control icon from the Utilities section of the palette to the appropriate position in the topic flow.
+3.  Open the topic where you will add the custom control.
+
+4.  In the **Flow** tab, drag the Custom Control icon from the Utilities section of the palette to the appropriate position in the topic flow.
 
     **Note:** If you selected **Available on the palette** in the custom control Properties page, the Custom Control displays as its own icon in the Utilities section of the palette.
 
-4.  Select the custom control node.
+5.  Select the custom control node.
 
-5.  On the form, fill in the fields.
+6.  On the form, fill in the fields.
 
 <table id="id_dst_y5v_1tb"><thead><tr><th>
 
@@ -54,7 +56,7 @@ Custom control
 
 </td><td>
 
-The name of a custom control asset that has been published in Virtual Agent Designer.
+The name of a custom control asset that has been published in the Assistant Designer Asset library.
 
 </td></tr><tr><td>
 
@@ -105,13 +107,13 @@ Conditionally use this node if
 A no-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>6.  Select **Save**.
+</table>7.  Select **Save**.
 
-7.  To see how your custom control works in the topic, select **Test** in the header bar.
+8.  To see how your custom control works in the topic, select **Test** in the header bar.
 
     Your topic runs in a chat test window.
 
-8.  If no further changes are needed, select **Publish** in the Virtual Agent Designer header bar.
+9.  If no further changes are needed, select **Publish** in the Assistant Designer Asset library header bar.
 
 
 ## Result

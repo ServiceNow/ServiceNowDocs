@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, prompt injection attck prevention, Generative AI, GenAI, Guardian, Admin, Detection impact]
-breadcrumb: [Now Assist Guardian, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure prompt injection attack protection
@@ -21,17 +21,17 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Now Assist Guardian detects and logs prompt injection attempts across all generative AI applications and features on your instance. You can configure Now Assist Guardian to block the AI-generated response when an attack is detected.
+AI Guardian detects and logs prompt injection attempts across all generative AI applications and features on your instance. You can configure AI Guardian to block the AI-generated response when an attack is detected.
 
-Prompt injection detection is enabled by default for all Now Assist skills, except Platform and custom skills, which can be configured manually. The default action is block and log, with a medium severity threshold. When a skill has its own setting, Now Assist Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
+Prompt injection detection is enabled by default for all ServiceNow Otto skills, except Platform and custom skills, which can be configured manually. The default action is block and log, with a medium severity threshold. When a skill has its own setting, AI Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
 
-You can export logs for review. For more information, see [Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/export-now-assist-guardian-logs.md).
+You can export logs for review. For more information, see [Export ServiceNow Otto Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/export-now-assist-guardian-logs.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Settings**.
 
-2.  In the side panel, go to **Now Assist Guardian** &gt; **Prompt Injection**.
+2.  In the side panel, go to **ServiceNow Otto Guardian** &gt; **Prompt Injection**.
 
 3.  Select the **Enable at instance level** toggle to activate prompt injection detection at the instance, if it is not already enabled.
 
@@ -65,7 +65,7 @@ You can export logs for review. For more information, see [Export Now Assist Gua
 
 ## Result
 
-Prompt injection detection is configured on your instance for all generative AI workflows. Now Assist Guardian detects prompt injection attempts based on the severity level you selected and responds according to the action you configured. When a skill has its own setting, the more protective setting applies automatically.
+Prompt injection detection is configured on your instance for all generative AI workflows. AI Guardian detects prompt injection attempts based on the severity level you selected and responds according to the action you configured. When a skill has its own setting, the more protective setting applies automatically.
 
-**Parent Topic:**[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
 

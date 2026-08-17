@@ -7,8 +7,8 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -28,6 +28,7 @@ The category and type of a demand and the applications you have installed determ
 |Agile Development entities \(story or epic\)|[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md)|
 |Scaled Agile Framework \(SAFe\)SAFe entities \(story, feature, or epic\)|[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/essential-overview.md) or [Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)|
 |Enterprise Agile Planning \(EAP\) entities \(epic, feature, or capability\)|[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md)|
+|Improvement initiatives|[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cim-landing-page.md)|
 
 Role required: it\_demand\_manager
 
@@ -54,22 +55,120 @@ Role required: it\_demand\_manager
 
     Depending on the category and type of the demand, links related to the artifact you can create become available.
 
-    |Related link|Description|
-    |------------|-----------|
-    |**Create Project**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Project**. Creates a project that is associated with this demand. The number of the project record is displayed in the **Project** field. For more information, see [Data migrated from a demand to a created project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/data-copied-from-demand-to-project.md).|
-    |**Create Enhancement**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Enhancement**. Creates an enhancement associated with this demand. Use enhancements to request improvements or new capabilities for existing features or services, for example, a request to add new UI elements. The number of the enhancement record is displayed in the **Enhancement** field.|
-    |**Create Epic**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Epic**. Creates an Agile Development 2.0 epic that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Epic form.|
-    |**Create Story**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Story**. Creates an Agile Development 2.0 story that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Story form.|
-    |**Create EAP Epic**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Epic**. Creates an Enterprise Agile Planning \(EAP\) epic that is associated with this demand. A **Converted from** reference field is created in the EAP epic form.|
-    |**Create EAP Feature**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Feature**. Creates an EAP feature that is associated with this demand. A **Converted from** reference field is created in the EAP feature form.|
-    |**Create EAP Capability**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Capability**. Creates an EAP capability that is associated with this demand. A **Converted from** reference field is created in the EAP capability form.|
-    |**Create SAFe Story**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to SAFe **Story**. Creates a Scaled Agile Framework \(SAFe\) story that is associated with this demand. A **Demand** reference field is created in the SAFe Story form.|
-    |**Create SAFe Epic**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Epic**. Creates a SAFe epic that is associated with this demand. A **Demand** reference field is created in the SAFe Epic form.|
-    |**Create SAFe Feature**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Feature**. Creates a SAFe feature that is associated with this demand. A **Demand** reference field is created in the SAFe Feature form.|
-    |**Create Change**|This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Change**. Creates a change that is associated with this demand. The number of the change record is displayed in the **Change** field.|
-    |**Create Defect**|This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Defect**. Creates a defect that is associated with this demand. The number of the defect record is displayed in the **Defect** field.|
+<table id="choicetable_plg_zcm_plb"><thead><tr><th align="left" id="d93598e290">
 
+Related link
 
+</th><th align="left" id="d93598e293">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d93598e299">
+
+**Create Project**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Project**. Creates a project that is associated with this demand. The number of the project record is displayed in the **Project** field. For more information, see [Data migrated from a demand to a created project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/data-copied-from-demand-to-project.md).
+
+</td></tr><tr><td id="d93598e331">
+
+**Create Enhancement**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Enhancement**. Creates an enhancement associated with this demand. Use enhancements to request improvements or new capabilities for existing features or services, for example, a request to add new UI elements. The number of the enhancement record is displayed in the **Enhancement** field.
+
+</td></tr><tr><td id="d93598e355">
+
+**Create Epic**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Epic**. Creates an Agile Development 2.0 epic that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Epic form.
+
+</td></tr><tr><td id="d93598e386">
+
+**Create Story**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Story**. Creates an Agile Development 2.0 story that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Story form.
+
+</td></tr><tr><td id="d93598e420">
+
+**Create EAP Epic**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Epic**. Creates an Enterprise Agile Planning \(EAP\) epic that is associated with this demand. A **Converted from** reference field is created in the EAP epic form.
+
+</td></tr><tr><td id="d93598e461">
+
+**Create EAP Feature**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Feature**. Creates an EAP feature that is associated with this demand. A **Converted from** reference field is created in the EAP feature form.
+
+</td></tr><tr><td id="d93598e496">
+
+**Create EAP Capability**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Capability**. Creates an EAP capability that is associated with this demand. A **Converted from** reference field is created in the EAP capability form.
+
+</td></tr><tr><td id="d93598e529">
+
+**Create SAFe Story**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to SAFe **Story**. Creates a Scaled Agile Framework \(SAFe\) story that is associated with this demand. A **Demand** reference field is created in the SAFe Story form.
+
+</td></tr><tr><td id="d93598e560">
+
+**Create SAFe Epic**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Epic**. Creates an SAFe epic that is associated with this demand. A **Demand** reference field is created in the SAFe Epic form.
+
+</td></tr><tr><td id="d93598e591">
+
+**Create SAFe Feature**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Feature**. Creates a SAFe feature that is associated with this demand. A **Demand** reference field is created in the SAFe Feature form.
+
+</td></tr><tr><td id="d93598e623">
+
+**Create Improvement Initiative**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Continual Improvement Management**. Creates an improvement initiative that is associated with this demand. Demand record to which the improvement initiative is linked is added to the **Source/Parent** field in the Details tab.**Note:** When the improvement is closed, the demand record is set to complete.
+
+</td></tr><tr><td id="d93598e650">
+
+**Create Change**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Change**. Creates a change that is associated with this demand. The number of the change record is displayed in the **Change** field.
+
+</td></tr><tr><td id="d93598e674">
+
+**Create Defect**
+
+</td><td>
+
+This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Defect**. Creates a defect that is associated with this demand. The number of the defect record is displayed in the **Defect** field.
+
+</td></tr></tbody>
+</table>
 -   **[Create an Enterprise Agile Planning \(EAP\) entity from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-an-eap-entity-from-a-demand.md)**  
 Create an Enterprise Agile Planning \(EAP\) entity, such as an epic, feature, or capability, from a demand so that you can start to work on these entities in Enterprise Agile Planning.
 

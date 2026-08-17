@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicecatalog-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Use non-English language for creating or editing catalog items](https://servicenow-staging.fluidtopics.net/access?context=create-item-cat-builder&family=yokohama&ft:locale=en-US)**
+-   **[Use non-English language for creating or editing catalog items](https://www.servicenow.com/docs/access?context=create-item-cat-builder&family=yokohama&ft:locale=en-US)**
 
 Enable your users to use supported languages when creating or editing catalog items. A non-English language user can create or edit a catalog item in their language that is supported in Catalog Builder. For example, if a Spanish language user logs in to Catalog Builder and creates or edits an item, the Spanish version of the item is created or updated.
 
@@ -78,14 +78,14 @@ Zurich
 
 </td><td>
 
--   **[Create complex catalog items in Catalog Builder](https://servicenow-staging.fluidtopics.net/access?context=create-client-scripts-in-catalog-builder&family=zurich&ft:locale=en-US)**
+-   **[Create complex catalog items in Catalog Builder](https://www.servicenow.com/docs/access?context=create-client-scripts-in-catalog-builder&family=zurich&ft:locale=en-US)**
 
 Enable catalog item creators to create complex catalog items effortlessly in Catalog Builder.
 
 They can create, edit, or delete client scripts to build a complex catalog item. Creators can also configure questions, set dynamic and advanced reference qualifiers, and scripted default values.
 
 
--   **[Use Catalog browse component](https://servicenow-staging.fluidtopics.net/access?context=catalog-builder&family=zurich&ft:locale=en-US)**
+-   **[Use Catalog browse component](https://www.servicenow.com/docs/access?context=catalog-builder&family=zurich&ft:locale=en-US)**
 
 Use the Catalog browse component in UI Builder to add catalog item browsing in your custom pages. Drag it onto the Next Experience UI page to use the Catalog browse component.
 
@@ -119,15 +119,15 @@ Zurich
 
 </td><td>
 
--   **[A property to delete a draft of catalog item](https://servicenow-staging.fluidtopics.net/access?context=save-draft-catalog-item&family=zurich&ft:locale=en-US)**
+-   **[A property to delete a draft of catalog item](https://www.servicenow.com/docs/access?context=save-draft-catalog-item&family=zurich&ft:locale=en-US)**
 
 Use the property **glide.sc.delete\_draft\_item\_on\_version\_change** to determine whether to delete a saved draft of a catalog item on its modification.
 
--   **[Dynamic Lookup Choices and Enhanced Table Sourcing](https://servicenow-staging.fluidtopics.net/access?context=t_CreateAVariableForACatalogItem&family=zurich&ft:locale=en-US)**
+-   **[Dynamic Lookup Choices and Enhanced Table Sourcing](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&family=zurich&ft:locale=en-US)**
 
 Lookup questions are now more flexible and user-friendly. You can effortlessly display choices directly from a specific table field, offering similar ease for select box configurations. Additionally, create dynamic dependent lookups where the choices refresh automatically based on the values selected in other fields on the same form, guiding users to more relevant selections.
 
--   **[Enhanced Sorting Control for Lookup Fields](https://servicenow-staging.fluidtopics.net/access?context=t_CreateAVariableForACatalogItem&family=zurich&ft:locale=en-US)**
+-   **[Enhanced Sorting Control for Lookup Fields](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&family=zurich&ft:locale=en-US)**
 
 Customize the display order in lookup select boxes, look up multiple choice, and list collector fields with the new **ref\_ac\_order\_by** attribute. This attribute enables options to be sorted primarily by a specified data column, and then by their display label, providing a more logical and predictable presentation for users.
 
@@ -296,7 +296,7 @@ Yokohama
 
 </td><td>
 
-Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://servicenow-staging.fluidtopics.net/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
+Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Yokohama
 -   Enable your users to experience the flexibility of using supported languages when creating or editing catalog items in Catalog Builder.
 -   Identify and resolve accessibility-related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
 
- See [Service Catalog](https://servicenow-staging.fluidtopics.net/access?context=service-catalog&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ Zurich
 -   Ease the work of catalog item requesters by letting them drag one or more attachments directly onto the form for faster submissions.
 -   Use the Catalog browse component for an enhanced catalog item browsing experience on the Next Experience UI for catalog users.
 
- See [Service Catalog](https://servicenow-staging.fluidtopics.net/access?context=service-catalog&family=zurich&ft:locale=en-US) for more information.
+ See [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

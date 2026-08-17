@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an alert in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can close alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d415580e91">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d415649e91">
 
 Location
 
-</th><th align="left" id="d415580e94">
+</th><th align="left" id="d415649e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d415580e100">
+</th></tr></thead><tbody><tr><td id="d415649e100">
 
 **The Express List pane**
 
@@ -57,7 +57,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Close alert**.
 
 
-</td></tr><tr><td id="d415580e153">
+</td></tr><tr><td id="d415649e153">
 
 **The Express List preview panel for group alerts**
 

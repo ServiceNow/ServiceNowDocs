@@ -26,7 +26,7 @@ Role required: admin
 
 3.  Click **Install**.
 
-    For more info, see .
+    For more info, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
 
 
 ## Result

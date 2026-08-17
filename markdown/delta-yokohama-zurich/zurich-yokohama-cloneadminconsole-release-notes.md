@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloneadminconsole-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -163,7 +163,7 @@ Zurich
 </td><td>
 
 -   The legacy clone request page clone\_instance.DO is going to be retired in the A release.
--   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see [Clone Home \(dashboard\)](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=zurich&ft:locale=en-US).
+-   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see [Clone Home \(dashboard\)](https://www.servicenow.com/docs/access?context=Clone-UI&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Activation information
@@ -192,7 +192,7 @@ Zurich
 
 </td><td>
 
-Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -341,7 +341,7 @@ Zurich
 -   Preserve your in-progress update sets, regardless of when the scope was created in the specified time frame.
 
 
- See [Clone Home \(dashboard\)](https://servicenow-staging.fluidtopics.net/access?context=Clone-UI&family=zurich&ft:locale=en-US) for more information.
+ See [Clone Home \(dashboard\)](https://www.servicenow.com/docs/access?context=Clone-UI&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

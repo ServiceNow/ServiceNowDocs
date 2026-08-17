@@ -67,5 +67,5 @@ The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-bu
 **Related topics**  
 
 
-[bundle-itsm.itsm-actionable-notifications]
+[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-actionable-notifications.md)
 

@@ -34,7 +34,7 @@ Role required: none
 
 5.  Add or remove conditions to construct the desired filter by completing one or more of the following steps.
 
-<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d140385e135">
+<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d140447e135">
 
 **To add a top-level condition**
 
@@ -42,7 +42,7 @@ Role required: none
 
 Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
-</td></tr><tr><td id="d140385e150">
+</td></tr><tr><td id="d140447e150">
 
 **To add a dependent condition**
 
@@ -50,7 +50,7 @@ Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
 Click **AND** or **OR** beside the condition.
 
-</td></tr><tr><td id="d140385e165">
+</td></tr><tr><td id="d140447e165">
 
 **To remove a condition**
 

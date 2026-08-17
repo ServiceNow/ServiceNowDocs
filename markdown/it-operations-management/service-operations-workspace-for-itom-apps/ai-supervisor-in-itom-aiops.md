@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-25"
 reading_time_minutes: 2
 keywords: [AIOps Supervisor, AIOps AI Specialist, ITOM AIOps, Service Operations Workspace, Event Management]
-breadcrumb: [Exploring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Overseeing AIOps AI Specialist in Service Operations Workspace
@@ -19,7 +19,7 @@ The AIOps Supervisor home page helps supervisors review operational workload, mo
 
 ## AIOps Supervisor
 
-AIOps Supervisor is the elevated position of the Event Management operator that means supervisors can oversee the work performed by AIOps AI Specialist rather than having to triage and investigate every alert themselves. They can handle only the alerts that require human attention, and run the remediation actions that AIOps AI Specialist recommends.
+AIOps Supervisor is an elevated Event Management operator role, letting supervisors oversee the AIOps AI Specialist's work, handle only alerts requiring human attention, and run its recommended remediation actions.
 
 You can access the AIOps Supervisor home page with the Event Management Operator `evt_mgmt_operator` role.
 
@@ -46,7 +46,7 @@ The **AI supervision overview** section provides further information on AI speci
 
 |Item|Description|
 |----|-----------|
-|**Time saved by AI activity**|Estimated time saved by AIOps AI Specialist activity. The value is calculated by multiplying alerts closed by AIOps AI Specialist by the configured time saved per closed alert, plud alerts analyzed by AIOps AI Specialist multiplied by the configured time saved per analyzed alert.|
+|**Time saved by AI activity**|Estimated time saved by AIOps AI Specialist activity. The value is calculated by multiplying alerts closed by AIOps AI Specialist by the configured time saved per closed alert. This is added to alerts analyzed by AIOps AI Specialist multiplied by the configured time saved per analyzed alert.|
 |**Alerts processed**|Number of alerts processed by AIOps AI Specialist.|
 |**Currently processing**|Number of alerts that AIOps AI Specialist is processing.|
 |**Recent activity**|Recent alerts being analyzed by AIOps AI Specialist.|

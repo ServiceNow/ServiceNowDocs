@@ -32,7 +32,7 @@ Flow processing occurs in this sequence.
 
 -   **1. Process flow triggers and API calls**
 
-    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md). Typically, [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md) and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
+    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see Execution order of scripts and engines. Typically, How business rules work and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
 
 -   **2. Process events in the queue**
 

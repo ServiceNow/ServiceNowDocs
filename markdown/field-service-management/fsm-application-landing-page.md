@@ -53,9 +53,8 @@ The ServiceNow® Field Service Management application enables you to manage work
 </table>## Additional resources
 
 -   Learn more about what's new and changed in this release at [Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/field-service-management-rn.md).
--   Log into your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Connect with other Field Service Management users in the [FSM community forum](https://www.servicenow.com/community/field-service-management-forum/bd-p/field-service-management-forum).
--   Work with an implementation specialist to streamline your Field Service Management setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).
--   Sign up for the [ServiceNow Field Service Management training program and certification](https://www.servicenow.com/services/training-and-certification.html) to learn about core Field Service Management functionality and release-specific features.
--   For information on how to begin setting up Field Service Management, see [Configuring Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-fsm.md).
+-   Log in to your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Best Practices Library](https://learning.servicenow.com/nowcreate).
+-   Connect with other Field Service Management users in the [FSM community forum](https://www.servicenow.com/community/fsm/ct-p/field-service-management).
+-   Work with an implementation specialist to streamline your Field Service Management setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access [ServiceNow Field Service Management training program and certification](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=0bc52eb5932452d056aeb94c5cba102f&s=1&ssa=3) to learn more about Field Service Management features and implementation.
 

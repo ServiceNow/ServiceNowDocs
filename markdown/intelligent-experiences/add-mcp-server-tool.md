@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 3
-breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add an MCP server tool to an AI agent
@@ -104,7 +104,7 @@ Display output
 
 </td><td>
 
-Option to display the execution output in the Now Assist panel or in Virtual Agent.If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
+Option to display the execution output in the ServiceNow Otto panel or in Virtual Agent.If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 
 -   **Widget**: Defines the display output to render the content in a better user experience. You can select the widget from the drop-down.
 -   **Require widget transformation**: An additional LLM call is required to transform the raw tool. If you choose to skip this transformation step, the tool output will be directly mapped to the widget.

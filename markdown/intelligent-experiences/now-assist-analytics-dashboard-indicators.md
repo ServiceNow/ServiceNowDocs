@@ -1,5 +1,5 @@
 ---
-title: Now Assist Analytics dashboard indicator details
+title: AI Analytics dashboard indicator details
 description: Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 10
 keywords: [Now Assist Analytics, indicators, Platform Analytics Administration, GenAI, Generative AI]
-breadcrumb: [Now Assist Analytics reference, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Now Assist Analytics dashboard indicator details
+# AI Analytics dashboard indicator details
 
 Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 
-Now Assist Analytics indicators contain the following details: indicator type, data source, calculation, available breakdowns, unit, and so on.
+AI Analytics indicators contain the following details: indicator type, data source, calculation, available breakdowns, unit, and so on.
 
 To access these indicators, navigate to **Platform Analytics Administration** &gt; **Indicators**. You must have the Now Assist Analytics Admin \[sn\_na\_analytics\_admin\] role to access the indicators.
 
@@ -27,15 +27,15 @@ These indicators collect data at a daily frequency. Data is only available for d
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total Now Assist actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of all actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
-|Daily Now Assist actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
-|Average daily unique users engaging with Now Assist|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Average of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
-|Daily unique users engaging with Now Assist|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
+|Total AI actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of all actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
+|Daily AI actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
+|Average daily unique users engaging with AI skills|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Average of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
+|Daily unique users engaging with AI skills|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
 |Skill group distribution|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily skill executions grouped By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Daily usage comparison by workflow|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by workflows|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Skill engagement trend|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by skill|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Departments with highest usage|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department and sorted by descending order|By Department, By Skills Config|Daily|\#|0|
-|Now Assist actions comparison by user department|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department|By Department, By Skills Config|Daily|\#|0|
+|AI actions comparison by user department|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department|By Department, By Skills Config|Daily|\#|0|
 |Feedback details|Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions grouped by Skill Family|By Skill Family, By Skills Config|Daily|\#|0|
 |Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions with feedback grouped by Skill Family|By Feedback, By Skill Family, By Skills Config|Daily|\#|0|
 |Formula|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|\(Count of actions with feedback/Total count of actions\) x 100 grouped by Skill Family|By Skill Family, By Skills Config|Daily|%|2|
@@ -75,7 +75,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Executed successfully|Formula|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|\(Count of custom skill executions with status Completed/Count of custom skill executions\)x100|By Skills Config|Daily|%|2|
 |Skills feedback|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count|By Feedback, By Skills Config|Daily|\#|0|
 
-## Now Assist Guardian offensive content guardrail indicator details
+## AI Guardian offensive content guardrail indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
@@ -85,7 +85,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Categories of offensive content|Automated|Generative AI Metric\[sys\_generative\_ai\_metric\]|Count of offensive content occurrences grouped by categories|By Offensiveness Type, By Skills Config|Daily|\#|0|
 |Offensive content occurrences by skill|Automated|Generative AI Metric\[sys\_generative\_ai\_metric\]|Count of offensive content occurrences grouped by skill|By Gen AI metric value, By Skills Config|Daily|\#|0|
 
-## Now Assist Guardian prompt injection guardrail indicator details
+## AI Guardian prompt injection guardrail indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
@@ -110,13 +110,13 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Top 10 queries with KB Genius Result|Automated|Search Signal Genius Result Triggered Event \[sys\_search\_signal\_genius\_result\_triggered\_event\]|Top 10 queries with count of genius results where Source Table = kb\_knowledge|Not Applicable|Daily|Not Applicable|Not Applicable|
 |Top 10 queries with Catalog Item Genius Result|Automated|Search Signal Genius Result Triggered Event \[sys\_search\_signal\_genius\_result\_triggered\_event\]|Top 10 queries with count of genius results where Source Table = sc\_cat\_item|Not Applicable|Daily|Not Applicable|Not Applicable|
 
-## Now Assist context menu analytics indicator details
+## ServiceNow Otto context menu analytics indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Usage in this period|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where Source is Now Assist context menu|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Acceptance distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where content generated by Now Assist context menu grouped by Accepted or Not Accepted|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Usage trend by skill|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by Now Assist skills|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Usage in this period|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where Source is ServiceNow Otto context menu|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Acceptance distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where content generated by ServiceNow Otto context menu grouped by Accepted or Not Accepted|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Usage trend by skill|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by AI skills|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
 |Capability distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by capability|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Responses by feedback|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where feedback for the content generated by Now Assist context menu grouped by Accepted or Rejected.|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Responses by feedback|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where feedback for the content generated by ServiceNow Otto context menu grouped by Accepted or Rejected.|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
 

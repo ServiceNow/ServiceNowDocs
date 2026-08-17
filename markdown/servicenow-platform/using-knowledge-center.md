@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/using-knowledge-center.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-26"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -68,10 +68,6 @@ The Actions Panel helps you organize knowledge effectively by creating articles,
 -   **Manage Groups**: Control ownership by editing existing groups or creating one so that the group users have access and responsibility.
 
 For more information, see the following links:
-
--   [Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
--   [Configure and activate the Now Assist Identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
--   [Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
 **Related topics**  
 

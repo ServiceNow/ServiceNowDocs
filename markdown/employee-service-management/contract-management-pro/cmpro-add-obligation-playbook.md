@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-26"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Configure the Playbook tab, Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -42,19 +42,19 @@ Role required: admin
 
 8.  Complete the remaining steps to create the page.
 
-    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-page.md).
+    For more information, see .
 
 9.  Add a viewport component for the page.
 
-    For more information on adding a viewport, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-with-viewport-components.md).
+    For more information on adding a viewport, see .
 
-    1.  In the configuration panel, select **+ Add** to attach the **Now Assist in Contract Management** page collection.
+    1.  In the configuration panel, select **+ Add** to attach the page collection.
 
     2.  Select **Apply default configuration with added URL parameters** and then select done.
 
 10. Create a client script for the page.
 
-    For more information on adding a client script, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/define-client-scripts.md).
+    For more information on adding a client script, see .
 
     1.  Select **+** next to **Client scripts**.
 
@@ -106,7 +106,7 @@ Role required: admin
 
 13. Navigate to the **General** tab under **Settings** and verify that **table**, **sysId**, and **diTaskSysId** are available under the **Required parameters**.
 
-    If the parameters are not available, add them manually. For more information on modifying the page settings, see [Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/edit-variant-settings.md).
+    If the parameters are not available, add them manually. For more information on modifying the page settings, see .
 
 
 **Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)

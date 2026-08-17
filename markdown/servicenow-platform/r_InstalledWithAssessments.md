@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/r\_I
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 20
+reading_time_minutes: 21
 breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Now Assist for app generation in ServiceNow Studio
-description: Use Now Assist for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, Now Assist for Creator generates the app that you can then modify.
+description: Use ServiceNow Otto for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can then modify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Now Assist tools and AI files, Use, ServiceNow Studio, Developing y
 
 # Now Assist for app generation in ServiceNow Studio
 
-Use Now Assist for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, Now Assist for Creator generates the app that you can then modify.
+Use ServiceNow Otto for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can then modify.
 
 \[Omitted video\] Description: Video describing Now Assist for app generation and how to use it to create applications.
 
@@ -66,7 +66,7 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 -   **[Exploring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)**  
 With Now Assist for app generation, you can create applications through conversations with generative AI.
 -   **[Configuring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)**  
-Enable the Now Assist for app generation skill in the Now Assist for Creator application so that you can get started with building applications.
+Enable the Now Assist for app generation skill in the ServiceNow Otto for Creator application so that you can get started with building applications.
 -   **[Generate apps with Now Assist for app generation within ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**  
 Have a conversation with the Now Assist for app generation to start building applications.
 -   **[Now Assist for app generation in ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)**  

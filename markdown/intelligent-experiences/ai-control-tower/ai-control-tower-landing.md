@@ -1,5 +1,5 @@
 ---
-title: AI Control Tower
+title: AI Control Tower \(legacy\)
 description: The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large lang
 breadcrumb: [Enable AI experiences]
 ---
 
-# AI Control Tower
+# AI Control Tower \(legacy\)
 
 The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 

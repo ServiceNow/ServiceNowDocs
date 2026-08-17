@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-02-13"
 reading_time_minutes: 2
-breadcrumb: [Configuring a Guardrail Service Provider, Now Assist Guardian, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring a Guardrail Service Provider, AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Create a custom guardian

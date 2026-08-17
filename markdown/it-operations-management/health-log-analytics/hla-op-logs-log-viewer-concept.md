@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -28,7 +28,7 @@ You can perform the following tasks on the **Log Viewer**:
 
     View a chart of the frequency of anomalous log lines and the associated log data.
 
--   [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md)
+-   [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md)
 
     Fine-tune the search query to help determine the causes of the issue, and save and share useful searches.
 

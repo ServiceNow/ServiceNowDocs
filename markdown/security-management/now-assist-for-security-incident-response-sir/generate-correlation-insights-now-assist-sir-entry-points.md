@@ -1,5 +1,5 @@
 ---
-title: Generate correlation insights from the Security Incident Response Workspace with Now Assist for Security Incident Response
+title: Generate correlation insights
 description: Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you're working on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-sir-entry-points.html
@@ -9,10 +9,10 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore correlation insights, Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Explore correlation insights, Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate correlation insights from the Security Incident Response Workspace with Now Assist for Security Incident Response
+# Generate correlation insights
 
 Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you're working on.
 
@@ -22,7 +22,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

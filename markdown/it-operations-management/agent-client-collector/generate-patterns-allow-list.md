@@ -40,12 +40,16 @@ Role required: discovery\_admin or agent\_client\_collector\_admin
 
 3.  Select **Generate Allowlist**.
 
-4.  Select **Copy** to copy the generated allow list.
+4.  Select **Copy** to copy the generated allowlist.
 
-5.  Append the copied allowlist into the existing `check-allow-list.json` allow list on the agent.
+5.  Append the copied allowlist into the existing `check-allow-list.json` allowlist on the agent.
 
     The patterns specified in the allowlist are permitted to run on the agent.
 
+    The allowlist's default location is:
+
+    -   Windows: `C:\ProgramData\ServiceNow\Agent Client Collector\check-allow-list.json`
+    -   Linux: `/etc/servicenow/agent-client-collector/check-allow-list.json`
     **Note:** To generate allowlist for commands nested within EVAL\(\) in a pattern step, ensure the Pattern Designer Enhancements plugin is v3.9.1 or above.
 
 

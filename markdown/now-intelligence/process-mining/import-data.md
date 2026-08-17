@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with external datasets, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Import data into the audit table
@@ -23,6 +23,8 @@ Import external dataset into the audit table to start working with the data in P
 You can import using ServiceNow Integration Hub or any other application. This section describes how to import data using ServiceNow Integration Hub.
 
 Role required: sn\_process\_optimization\_admin
+
+**Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/components-installed.md).
 
 ## Procedure
 
@@ -62,8 +64,6 @@ Role required: sn\_process\_optimization\_admin
 
 8.  Schedule your imports.
 
-    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub-imports.md).
+    For detailed information, see .
 
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

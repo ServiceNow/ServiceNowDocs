@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-erpdatahub-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Xanadu
 
 </td><td>
 
--   **[OData integration](https://servicenow-staging.fluidtopics.net/access?context=erp-canvas-use-odata-and-http-connection&family=xanadu&ft:locale=en-US)**
+-   **[OData integration](https://www.servicenow.com/docs/access?context=erp-canvas-use-odata-and-http-connection&family=xanadu)**
 
 Extract data securely from ERP OData APIs using ETL to be used in remote tables and extraction tables.
 
--   **[Schedule extraction](https://servicenow-staging.fluidtopics.net/access?context=erpc-create-a-scheduled-extraction&family=xanadu&ft:locale=en-US)**
+-   **[Schedule extraction](https://www.servicenow.com/docs/access?context=erpc-create-a-scheduled-extraction&family=xanadu)**
 
 Schedule data extractions into extraction tables with encoded query for delta updates.
 
--   **[Monitor transactions](https://servicenow-staging.fluidtopics.net/access?context=erp-canvas-monitor-transactions&family=xanadu&ft:locale=en-US)**
+-   **[Monitor transactions](https://www.servicenow.com/docs/access?context=erp-canvas-monitor-transactions&family=xanadu)**
 
 Use the new monitoring feature to track each transaction and its progress; filter the ERP Data Hub task information, such as successes, failures, and more, as needed.
 
--   **[Enhanced heartbeat data](https://servicenow-staging.fluidtopics.net/access?context=erp-canvas-use-odata-and-http-connection&family=xanadu&ft:locale=en-US)**
+-   **[Enhanced heartbeat data](https://www.servicenow.com/docs/access?context=erp-canvas-use-odata-and-http-connection&family=xanadu)**
 
 Use the enhanced heartbeat feature that now shows RFC, HTTP, and other connectivity status for better visibility to the end user.
 
@@ -238,7 +238,7 @@ Xanadu
 
 </td><td>
 
-Install by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu).
 
 </td></tr><tr><td>
 
@@ -428,7 +428,7 @@ Xanadu
 -   In Xanadu Patch 1, changed the name of the application from ERP Canvas to .
 -   In Xanadu Patch 1, updated the UI to clarify instructions and labels.
 
- See [ERP Data Hub](https://servicenow-staging.fluidtopics.net/access?context=erp-integration-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [ERP Data Hub](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=xanadu) for more information.
 
 </td></tr><tr><td>
 

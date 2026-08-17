@@ -1,6 +1,6 @@
 ---
 title: Discovery Admin Workspace Insights
-description: The Insights page provides access to specialized widgets, dashboards, and reports to leverage your organization's IT operations management and infrastructure monitoring, taking advantage of Discovery's capabilities for improved operational visibility and infrastructure health.
+description: The Insights page provides widgets, dashboards, and reports for IT operations management and infrastructure monitoring. Use these tools to improve operational visibility and infrastructure health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-admin-workspace-insights.html
 release: zurich
@@ -8,14 +8,14 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Discovery, DAW, Discovery Admin Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Admin Workspace Insights
 
-The Insights page provides access to specialized widgets, dashboards, and reports to leverage your organization's IT operations management and infrastructure monitoring, taking advantage of Discovery's capabilities for improved operational visibility and infrastructure health.
+The Insights page provides widgets, dashboards, and reports for IT operations management and infrastructure monitoring. Use these tools to improve operational visibility and infrastructure health.
 
 To access the Discovery Admin Workspace Insights page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights**.
 

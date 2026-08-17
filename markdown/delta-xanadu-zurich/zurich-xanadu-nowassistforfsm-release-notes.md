@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforfsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,15 +91,31 @@ Zurich
 
 </td><td>
 
--   **[AI agent: Create Work Order](https://servicenow-staging.fluidtopics.net/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
+-   **[AI agent: Parts Manager](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich)**
+
+Track and validate parts usage when closing work order tasks. The Parts Manager AI agent analyzes activity notes to update parts statuses and automatically adjusts inventory when tasks are closed. The AI agent is available through the Now Assist panel on platform and through the ServiceNow Agent mobile app.
+
+-   **[AI agent: Create Work Order from image](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich)**
+
+Create work orders by uploading photos of equipment issues. The AI agent extracts relevant information from the image to populate work order fields.
+
+-   **[Primary action button for Now Assist Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich)**
+
+Access Now Assist Virtual Agent from a primary action button in the ServiceNow Agent mobile app navigation bar. Administrators can configure this button to launch Now Assist Virtual Agent or another global function.
+
+-   **[Voice-to-text input in Now Assist Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich)**
+
+Use voice input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app. Tap the microphone icon to dictate messages instead of typing.
+
+-   **[AI agent: Create Work Order](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich)**
 
 You can leverage AI to create work orders from a written description of the issue. The Create Work Order AI agent is available through the Now Assist panel on platform and through the ServiceNow Agent mobile app.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich)**
 
 Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
--   **[Custom template and custom prompt support](https://servicenow-staging.fluidtopics.net/access?context=customize-a-skill&family=zurich&ft:locale=en-US)**
+-   **[Custom template and custom prompt support](https://www.servicenow.com/docs/access?context=customize-a-skill&family=zurich)**
 
 As an admin, you can clone the KB generation skill and customize the input fields. You can also clone the Work order task summarization skill, then access the skill in the Now Assist skill kit, and update the prompts.
 
@@ -139,7 +155,11 @@ Zurich
 
 </td><td>
 
--   **[Removed prompt headers](https://servicenow-staging.fluidtopics.net/access?context=cust-now-assist-fsm-wot-summarization-skill&family=zurich&ft:locale=en-US)**
+-   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich)**
+
+The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
+
+-   **[Removed prompt headers](https://www.servicenow.com/docs/access?context=cust-now-assist-fsm-wot-summarization-skill&family=zurich)**
 
 The prompt headers have been removed from the work order summarization skill to support third-party large language models. You can now customize prompts via a hyperlink to the Now Assist skill.
 
@@ -253,7 +273,7 @@ Zurich
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -438,9 +458,13 @@ Zurich
 
 </td><td>
 
+-   Track and validate parts usage during work order task closure with the Parts Manager AI agent.
+-   Create work orders from images by uploading photos of equipment issues through the Now Assist panel or ServiceNow Agent mobile app.
+-   Access Now Assist Virtual Agent from a primary action button in the mobile app navigation bar.
+-   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Enhance your productivity with the Create Work Order AI agent, which allows users to initiate work orders using AI to process descriptions from text.
 
- See [Now Assist for FSM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-fsm&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for FSM](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

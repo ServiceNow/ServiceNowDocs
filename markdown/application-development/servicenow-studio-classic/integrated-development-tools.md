@@ -26,8 +26,8 @@ While some tools have the word "Builder" attached to their name and others don't
 
 |Builder|Description|
 |-------|-----------|
-|[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.|
-|[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|The Now Assist Skill Kit plugin for Now Assist enables you to create and activate custom prompts and skills for Now Assist.|
+|[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.|
+|[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|The Now Assist Skill Kit plugin for Now Assist enables you to create and activate custom prompts and skills for Now Assist.|
 
 ## Automation
 

@@ -43,7 +43,7 @@ Extend beyond the packaged government case types, leveraging the government data
 
 </td><td>
 
-[Automate \[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-for-psds.md)
+[Automate \[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/sn-otto-for-psds.md)
 
 </td><td>
 

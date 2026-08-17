@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-05-19"
 reading_time_minutes: 4
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -72,7 +72,7 @@ Company
 
 </td><td>
 
-Legal name of the third party with whom you are making an agreement.If the company name isn't listed, select the **\[Company not listed\]** option and enter the name in the **New company legal name** field.
+Legal name of the third party with whom you are making an agreement.If the company name isn’t listed, select the **\[Company not listed\]** option and enter the name in the **New company legal name** field.
 
 </td></tr><tr><td>
 

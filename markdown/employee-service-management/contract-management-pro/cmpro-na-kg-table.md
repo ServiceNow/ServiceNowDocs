@@ -1,20 +1,20 @@
 ---
-title: Configure knowledge graph tags for conversational search
-description: Configure Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
+title: Configure conversational search tables
+description: Use Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-na-kg-table.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure conversational search, Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure conversational search, Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure knowledge graph tags for conversational search
+# Configure conversational search tables
 
-Configure Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
+Use Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 
 ## Before you begin
 
@@ -22,17 +22,19 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Knowledge Graph Tags**.
+1.  Navigate to **All** &gt; **Knowledge Graph Designer**.
 
-2.  Select **Conversational contracts search** knowledge tag.
+2.  Search and open the **Conversational contracts search** knowledge tag.
 
-3.  Select the Unlock tables \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock tables icon\) icon.
+3.  Select **Edit tag**.
 
-4.  Select the Lookup using list \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\) icon and add tables that should be used in conversational search.
+4.  Select the Unlock tables \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock tables icon\) icon.
 
-    \[Omitted image "cmpro-na-converse-add-tables.png"\] Alt text: Configure tables to be considered for conversational search
+5.  In the **Select Tables** field, add the tables that should be used in conversational search.
 
-5.  Select **Update**.
+6.  Select **Next**.
+
+7.  Select **Update Tag**.
 
 
 ## Result

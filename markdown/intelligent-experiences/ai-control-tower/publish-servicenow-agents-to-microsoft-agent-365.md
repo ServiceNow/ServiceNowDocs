@@ -1,6 +1,6 @@
 ---
 title: Publish ServiceNow agents to Microsoft Agent 365
-description: Make ServiceNow agents available in Microsoft Agent 365 so end users can discover and interact with them from the Microsoft ecosystem.
+description: Publish ServiceNow agents to Microsoft Agent 365 so that end users can discover and interact with them from the Microsoft ecosystem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/publish-servicenow-agents-to-microsoft-agent-365.html
 release: zurich
@@ -10,16 +10,18 @@ topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1
 keywords: [generative AI]
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Publish ServiceNow agents to Microsoft Agent 365
 
-Make ServiceNow agents available in Microsoft Agent 365 so end users can discover and interact with them from the Microsoft ecosystem.
+Publish ServiceNow agents to Microsoft Agent 365 so that end users can discover and interact with them from the Microsoft ecosystem.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+**Note:** Verify that the sn\_ai\_governance.external\_registries\_enabled system property is set to true.
+
+Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 

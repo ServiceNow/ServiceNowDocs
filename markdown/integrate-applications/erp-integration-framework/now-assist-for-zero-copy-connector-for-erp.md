@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Zero Copy Connector
-description: Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
+title: ServiceNow Otto for Zero Copy Connector
+description: Use the ServiceNow Otto for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.html
 release: zurich
@@ -13,9 +13,9 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI, zero copy connector, e
 breadcrumb: [Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
-# Now Assist for Zero Copy Connector
+# ServiceNow Otto for Zero Copy Connector
 
-Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
+Use the ServiceNow Otto for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 
 <table id="table_fqw_fwq_2hc" class="nav-card presentation"><thead><tr><th>
 
@@ -31,15 +31,15 @@ Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to ob
 
 </th></tr></thead><tbody><tr><td>
 
-[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn more about Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/exploring-now-assist-for-zero-copy-connector.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn more about ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/exploring-now-assist-for-zero-copy-connector.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Configure the Now Assist for Zero Copy Connector application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Configure the ServiceNow Otto for Zero Copy Connector application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-application-development.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connectors-skills.md)
+[Use\[Omitted image "bus-application-development.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connectors-skills.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to ob
 
 </td><td>
 
-[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/zero-copy-connector-for-erp-ai-agents-use-cases.md)
+[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td><td>
 

@@ -37,7 +37,7 @@ You can allow multiple or individual client errors. For each client error, you m
 
 3.  Select the client errors to be allowed.
 
-<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d98439e109">
+<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d98675e109">
 
 **Specific step result from Step Results related list**
 
@@ -49,7 +49,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add all client errors to ignored list**: Allow all client errors in this step with a report level of Ignored.
 
 
-</td></tr><tr><td id="d98439e139">
+</td></tr><tr><td id="d98675e139">
 
 **Multiple step results from Step Results related list**
 
@@ -61,7 +61,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add all client errors to ignored list**: Allow all client errors in this step with a report level of Ignored.
 
 
-</td></tr><tr><td id="d98439e172">
+</td></tr><tr><td id="d98675e172">
 
 **Specific step result from Step Result record**
 

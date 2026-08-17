@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-07-06"
 reading_time_minutes: 1
-breadcrumb: [OCI, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [OCI, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # CMDB classes targeted in AI Service Graph Connector for OCI
@@ -23,7 +23,7 @@ The following attributes in the AI Function \[cmdb\_ci\_function\_ai\] table are
 |Attribute label|Attribute name|
 |---------------|--------------|
 |Name|name|
-|Short Description|short\_description|
+|Description|short\_description|
 |Object ID|object\_id|
 |Model ID|model\_id|
 |Vendor|vendor|
@@ -41,7 +41,7 @@ The following attributes in the AI Model Deployment \[cmdb\_ci\_ai\_model\_deplo
 |Attribute label|Attribute name|
 |---------------|--------------|
 |Name|name|
-|Short Description|short\_description|
+|Description|short\_description|
 |Object ID|object\_id|
 |Install Status|install\_status|
 |Model ID|model\_id|

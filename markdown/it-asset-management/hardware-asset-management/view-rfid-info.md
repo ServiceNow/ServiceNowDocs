@@ -24,15 +24,15 @@ Role required: asset
 
 1.  Navigate to a hardware asset for which you want to view the RFID information.
 
-<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d342318e50">
+<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d343974e50">
 
 Interface
 
-</th><th align="left" id="d342318e53">
+</th><th align="left" id="d343974e53">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342318e59">
+</th></tr></thead><tbody><tr><td id="d343974e59">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 4.  Select **Open Record** to view the RFID information of the asset.
 
 
-</td></tr><tr><td id="d342318e107">
+</td></tr><tr><td id="d343974e107">
 
 **Hardware Asset Workspace**
 

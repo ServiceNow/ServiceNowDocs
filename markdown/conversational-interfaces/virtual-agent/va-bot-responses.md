@@ -1,6 +1,6 @@
 ---
-title: Virtual Agent Designer bot responses
-description: Virtual Agent Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
+title: Assistant Designer Asset library bot responses
+description: Assistant Designer Asset library offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-bot-responses.html
 release: zurich
@@ -9,12 +9,12 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer bot responses
+# Assistant Designer Asset library bot responses
 
-Virtual Agent Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
+Assistant Designer Asset library offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
 
 The following bot response controls are available for use within a Virtual Agent topic.
 
@@ -33,11 +33,11 @@ Use the Multi-response bot response control in a Virtual Agent topic to sequenti
 -   **[Script bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-script-output.md)**  
 Use the Script bot response control in a Virtual Agent topic to run a script that returns a single response or a multi-part response.
 -   **[Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-card-output.md)**  
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. This information can include rich content such as a video or image.
 -   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/table-bot-response.md)**  
 Use the Table bot response control in a Virtual Agent topic to display a bot response as a table.
 -   **[Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-video-bot-response.md)**  
 Use the Video bot response control in a Virtual Agent topic to include a video in the conversation.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

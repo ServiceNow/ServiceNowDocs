@@ -1,20 +1,20 @@
 ---
 title: Work on a non-self-served contract review request
-description: Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for signature from the contract request.
+description: Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from the contract request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-nss-review-request.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-06-24"
 reading_time_minutes: 7
 breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on a non-self-served contract review request
 
-Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for signature from the contract request.
+Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from the contract request.
 
 ## Before you begin
 
@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d641001e81">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d641030e80">
 
 Option
 
-</th><th align="left" id="d641001e84">
+</th><th align="left" id="d641030e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641001e90">
+</th></tr></thead><tbody><tr><td id="d641030e89">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d641001e119">
+</td></tr><tr><td id="d641030e118">
 
 **As a collaborator**
 
@@ -79,7 +79,7 @@ The state and the Contract status of the contract request is Work in progress.
 
     Examples of reclassifying the contract or supporting documents are:
 
-    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md).
+    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md).
     -   You can change the supporting document to a contract document. For more information, see [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md).
 6.  Open an existing revision of a contract document.
 
@@ -103,17 +103,17 @@ The state and the Contract status of the contract request is Work in progress.
 
     For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-email.md).
 
-12. Add the internal or external signatories needed for e-signatures on the contract.
+12. Add the internal or external signatories needed for the signatures on the contract.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d641001e372">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d641030e351">
 
 Option
 
-</th><th align="left" id="d641001e375">
+</th><th align="left" id="d641030e354">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641001e381">
+</th></tr></thead><tbody><tr><td id="d641030e360">
 
 **Internal**
 
@@ -129,7 +129,7 @@ The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_doc
 
 To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d641001e465">
+</td></tr><tr><td id="d641030e446">
 
 **External**
 
@@ -152,15 +152,15 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
     The action you take depends on the signature type.
 
-<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d641001e569">
+<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d641030e546">
 
 Signature type
 
-</th><th align="left" id="d641001e572">
+</th><th align="left" id="d641030e549">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641001e578">
+</th></tr></thead><tbody><tr><td id="d641030e555">
 
 **Electronic signature**
 
@@ -173,7 +173,7 @@ The document opens on the configured e-signature portal.
 2.  In the e-signature portal, complete the document by adding the required fields, including the **Signature** field, and then select **Send**.
  An e-signature envelope is created and sent to all signatories. If the system receives a success notification from the e-signature provider, the state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d641001e613">
+</td></tr><tr><td id="d641030e598">
 
 **Wet signature**
 
@@ -181,7 +181,7 @@ The document opens on the configured e-signature portal.
 
 Select **Send for signature**. A signature request email is sent to all the signatories. The state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d641001e628">
+</td></tr><tr><td id="d641030e613">
 
 **Offline signature**
 

@@ -33,9 +33,11 @@ The following table displays the fields in the tax lines tab.
 |Invoice|Invoice for which this tax is applicable.|
 
 -   **[Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tax-lines.md)**  
-Use the tax lines tab to record tax lines on purchases that are invoiced.
+Field descriptions for the Invoice Tax Lines tab used to record tax details for invoice lines.
 -   **[Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tax-status.md)**  
 The tax status field in the invoice record is used to track the current status of tax validation processing throughout the tax integration workflow.
+-   **[Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md)**  
+Field descriptions for the Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\] table, which defines the outbound and inbound mappings that transform invoice data between APO and a tax engine.
 
 **Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
@@ -69,4 +71,6 @@ The tax status field in the invoice record is used to track the current status o
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 

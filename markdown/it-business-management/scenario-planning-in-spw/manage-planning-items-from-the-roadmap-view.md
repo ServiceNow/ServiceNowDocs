@@ -29,15 +29,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d300157e105">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d309498e105">
 
 Roadmap type
 
-</th><th align="left" id="d300157e108">
+</th><th align="left" id="d309498e108">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d300157e114">
+</th></tr></thead><tbody><tr><td id="d309498e114">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d300157e135">
+</td></tr><tr><td id="d309498e135">
 
 **Free-form roadmap**
 
@@ -62,7 +62,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     Further, you can click **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the Now Assist for SPM application is installed.
+    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the ServiceNow Otto for SPM application is installed.
 
     **Note:** If your free-form roadmap was built on one of the PPM tables, such as project \[pm\_project\] or demand \[dmn\_demand\], you can only make updates from the full details page.
 

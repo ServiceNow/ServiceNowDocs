@@ -137,11 +137,7 @@ Cron-based scheduling
 
 </td><td>
 
-In the **How to send the check results** field, select the frequency with which check results are to be sent.-   When event severity changes \(default for event checks\)
--   Always send check results \(default for non-event checks\)
--   Do not send check results
--   When the check results change
--   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results are not sent.
+When selected, enables selecting the frequency with which check results are to be sent, in the **When to send the check results** field.
 
 </td></tr><tr><td>
 
@@ -149,7 +145,11 @@ When to send the check results
 
 </td><td>
 
-
+The time or frequency to send check results.-   When event severity changes \(default for event checks\)
+-   Always send check results \(default for non-event checks\)
+-   Do not send check results
+-   When the check results change
+-   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results aren't sent.
 
 </td></tr><tr><td>
 
@@ -158,6 +158,14 @@ Timeout
 </td><td>
 
 The amount of time, in seconds, after which the check execution stops when no output is returned.For example, a value of 60 means that when the check execution doesn't return a value for 60 seconds, the execution stops.
+
+</td></tr><tr><td>
+
+Check group
+
+</td><td>
+
+A record in the **sn\_agent\_check\_group** table consisting of the group name and CMDB CI class type. Assign a check group to enable filtering only checks in the group for selection when defining a policy.
 
 </td></tr><tr><td>
 

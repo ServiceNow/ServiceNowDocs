@@ -1,6 +1,6 @@
 ---
 title: Related links and lists of assignment group in Agile Development 2.0
-description: Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0, such as adding sprints and editing group members.
+description: Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0. These actions include adding sprints and editing group members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/related-links-lists-of-assignment-group-in-agile-dev-2.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
 
 # Related links and lists of assignment group in Agile Development 2.0
 
-Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0, such as adding sprints and editing group members.
+Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0. These actions include adding sprints and editing group members.
 
 |Name|Description|
 |----|-----------|

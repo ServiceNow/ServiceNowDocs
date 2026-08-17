@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Sales Force Automation \(SFA\)
-description: Use the ServiceNow Now Assist for Sales Force Automation \(SFA\) application platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
+title: ServiceNow Otto for Sales Automation
+description: Use the ServiceNow ServiceNow Otto for Sales Automation application platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/now-assist-for-sales-and-order-management-som.html
 release: zurich
@@ -9,28 +9,28 @@ last_updated: "2025-07-31"
 reading_time_minutes: 3
 ---
 
-# Now Assist for Sales Force Automation \(SFA\)
+# ServiceNow Otto for Sales Automation
 
-Use the ServiceNow® Now Assist for Sales Force Automation \(SFA\) application platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
+Use the ServiceNow® ServiceNow Otto for Sales Automation application platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
 
 **Important:**
 
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected datacenters, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some ServiceNow Otto products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected datacenters, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some ServiceNow Otto products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Get started
 
 <table id="table_np5_rf3_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SFA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/exploring-now-assist-for-som.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/exploring-now-assist-for-som.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SFA application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Sales Automation application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-community.svg"\] Alt text:Use the Now Assist for SFA AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)
+[Use\[Omitted image "bus-community.svg"\] Alt text:Use the ServiceNow Otto for Sales Automation AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -51,10 +51,10 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring Now Assist for SFA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/exploring-now-assist-for-som.md)**  
-With the Now Assist for Sales Force Automation \(SFA\) application, sales agents can manage the lifecycle of leads by automating outreach, follow-up communications, demo bookings, and handling lead disinterest or opt-outs. It can operate independently or under human supervision, thereby streamlining engagement and demo scheduling.
--   **[Configure Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)**  
-If you have the admin role, you can configure the Now Assist for Sales Force Automation \(SFA\) application so that agents can use the generative AI capabilities in the CSM Configurable Workspace.
--   **[Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)**  
-Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
+-   **[Exploring ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/exploring-now-assist-for-som.md)**  
+With the ServiceNow Otto for Sales Automation application, sales agents can manage the lifecycle of leads by automating outreach, follow-up communications, demo bookings, and handling lead disinterest or opt-outs. It can operate independently or under human supervision, thereby streamlining engagement and demo scheduling.
+-   **[Configure ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CSM Configurable Workspace.
+-   **[Use agentic workflows in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)**  
+Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 

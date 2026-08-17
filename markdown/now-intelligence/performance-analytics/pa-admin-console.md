@@ -16,7 +16,10 @@ breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data
 
 From a single console, administrators can manage Platform Analytics Solution content, manage Performance Analytics widgets and dashboards, diagnose and resolve errors, view usage analytics, modify configuration settings and access ServiceNow help.
 
-**Important:** This admin console does not support Platform Analytics artifacts. It shows information only for Core UI Performance Analytics widgets and responsive dashboards.
+**Important:**
+
+-   This admin console is not available on net-new instances starting in the Zurich release.
+-   This admin console does not support Platform Analytics artifacts. It shows information only for Core UI Performance Analytics widgets and responsive dashboards.
 
 Users with the admin or pa\_admin roles can navigate to **Performance Analytics** &gt; **Admin Console**. If Performance Analytics is not enabled, click **Learn More** for information about activating it.
 

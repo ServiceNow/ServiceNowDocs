@@ -1,6 +1,6 @@
 ---
-title: NLU model mapping in Virtual Agent Designer
-description: ServiceNow model groups help you to manage the localization of both topics and Natural Language Understanding \(NLU\) models more easily. You can map Virtual Agent topics to a new or existing model group directly from Virtual Agent Designer.
+title: NLU model mapping in Assistant Designer Asset library
+description: ServiceNow model groups help you to manage the localization of both topics and Natural Language Understanding \(NLU\) models more easily. You can map Virtual Agent topics to a new or existing model group directly from Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/nlu-model-binding-vad.html
 release: zurich
@@ -9,16 +9,16 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# NLU model mapping in Virtual Agent Designer
+# NLU model mapping in Assistant Designer Asset library
 
-ServiceNow model groups help you to manage the localization of both topics and Natural Language Understanding \(NLU\) models more easily. You can map Virtual Agent topics to a new or existing model group directly from Virtual Agent Designer.
+ServiceNow model groups help you to manage the localization of both topics and Natural Language Understanding \(NLU\) models more easily. You can map Virtual Agent topics to a new or existing model group directly from Assistant Designer Asset library.
 
 A topic is a Virtual Agent conversation. Users find the appropriate conversation using either keyword or NLU topic discovery. If you're using [NLU for topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/advantages-nlu.md), this means that your topic is associated with an NLU intent, which contains potential user utterances and other information. When a topic is associated with an intent, it’s mapped to that intent. An NLU model is a group of related intents.
 
-When you create or edit a topic and have ServiceNow NLU turned on, then you can do the following in Virtual Agent Designer:
+When you create or edit a topic and have ServiceNow NLU turned on, then you can do the following in Assistant Designer Asset library:
 
 -   Map the topic to an existing model and intent.
 -   Map the topic to an existing model and create an intent.
@@ -34,5 +34,5 @@ For example, when creating a topic, you can select the NLU model and its associa
 
 \[Omitted image "nlu-language-mapping-intent-new.png"\] Alt text: The Natural Language Understanding section displays on the Properties tab when NLU is enabled. Select an existing NLU model and associated intent or create new ones.
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

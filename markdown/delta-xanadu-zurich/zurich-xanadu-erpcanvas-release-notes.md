@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-erpcanvas-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,21 +83,21 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama)
 
--   **[dashboard](https://servicenow-staging.fluidtopics.net/access?context=erpc-obtaining-erp-canvas-metrics-and-statistics&family=yokohama&ft:locale=en-US)**
+-   **[dashboard](https://www.servicenow.com/docs/access?context=erpc-obtaining-erp-canvas-metrics-and-statistics&family=yokohama)**
 
 View charts and graphs about transactions on the home page dashboard.
 
--   **[Implement and deploy faster with ERP content packs](https://servicenow-staging.fluidtopics.net/access?context=erp-canvas-content-packs&family=yokohama&ft:locale=en-US)**
+-   **[Implement and deploy faster with ERP content packs](https://www.servicenow.com/docs/access?context=erp-canvas-content-packs&family=yokohama)**
 
 Use prebuilt content packs containing models to get running on your instance faster.
 
--   **[Preview entities in the Model Manager](https://servicenow-staging.fluidtopics.net/access?context=erpc-add-entity-to-model-op&family=yokohama&ft:locale=en-US)**
+-   **[Preview entities in the Model Manager](https://www.servicenow.com/docs/access?context=erpc-add-entity-to-model-op&family=yokohama)**
 
 Preview operations, fields, values, inputs, and outputs in the Model Manager instead of having to open App Engine Studio.
 
--   **[View detailed software information](https://servicenow-staging.fluidtopics.net/access?context=view-erp-system-information&family=yokohama&ft:locale=en-US)**
+-   **[View detailed software information](https://www.servicenow.com/docs/access?context=view-erp-system-information&family=yokohama)**
 
 View software information including machine type, node name, supported database, and more.
 
@@ -137,13 +137,13 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama)
 
--   **[View ERP Integration software information](https://servicenow-staging.fluidtopics.net/access?context=view-erp-system-information&family=yokohama&ft:locale=en-US)**
+-   **[View ERP Integration software information](https://www.servicenow.com/docs/access?context=view-erp-system-information&family=yokohama)**
 
 From the system form, view detailed system information including machine type, node name, supported database, and Unicode status.
 
--   **[Preview model entities before adding to a model](https://servicenow-staging.fluidtopics.net/access?context=erp-canvas-preview-entity&family=yokohama&ft:locale=en-US)**
+-   **[Preview model entities before adding to a model](https://www.servicenow.com/docs/access?context=erp-canvas-preview-entity&family=yokohama)**
 
 In the Model Manager, confirm you are adding the correct entity by examining and verifying read table entities before adding the entity to a model.
 
@@ -257,7 +257,7 @@ Yokohama
 
 </td><td>
 
-Install by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -442,20 +442,20 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama)
 
 -   View charts and graphs on the home page dashboard.
 -   Accelerate your adoption of using content packs.
 -   Preview entities in the Model Manager.
 
- [Yokohama Patch 1](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 1](https://www.servicenow.com/docs/access?context=yokohama-patch-1&family=yokohama)
 
 -   The name of the application has been changed from ERP Data Hub to .
 -   Export and import custom ERP models between instances.
 -   Enhance communication security between SAP systems and your ServiceNow instance by using the SAP Secure Network Communication \(SNC\) connection option.
 -   Manually name, edit, and maintain model manager fields.
 
- See [ERP Integration](https://servicenow-staging.fluidtopics.net/access?context=erp-integration-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [ERP Integration](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=yokohama) for more information.
 
 </td></tr><tr><td>
 

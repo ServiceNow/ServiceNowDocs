@@ -22,8 +22,6 @@ Learn about telephone blocks, telephone numbers, and allocating telephone number
 -   **Telephone number**: A telephone number is a unique numerical identifier that is assigned to a telephone line or device for making and receiving telephone calls. You can add, review, and update the list of telephone numbers.
 -   **Telephone number allocation**: A telephone number allocation consists of all the telephone numbers that are either allocated or available to allocate to the customer.
 
-To learn more, see [Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md).
-
 **Note:**
 
 -   To perform any activity on telephone numbers, ensure that you’re assigned to the inventory number manager \(sn\_inv\_num\_mgmt.inventory\_number\_manager\) role.
@@ -40,9 +38,4 @@ To fulfill the earlier scenario, an inventory agent can create a telephone numbe
 -   Availability of a number by using telephone number allocation
 -   Ported-in and ported-out numbers
 -   Numbers assigned to a country or to an area
-
-**Related topics**  
-
-
-[Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md)
 

@@ -11,7 +11,7 @@ last_updated: "2026-06-04"
 reading_time_minutes: 4
 keywords: [Insights and Opportunities, incident, dashboard, ITSM, Service Operations Workspace, insights and opportunities, widgets, SLA, sentiment, incident trends, channel distribution, reassignment]
 audience: user
-breadcrumb: [Insights and Opportunities for Incident dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Insights and Opportunities for Incident dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Insights and Opportunities for Incident dashboard reference

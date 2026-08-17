@@ -1,6 +1,6 @@
 ---
 title: Reset a demand to draft state
-description: Move a demand back to the Draft state, if necessary.
+description: Reset a demand to the Draft state when it has been moved past that state unintentionally or when changes to it are required. A demand can be reset to Draft until an entity is created from it or it has reached the Qualified state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/reset-a-demand-to-draft-state-ppw.html
 release: zurich
@@ -9,12 +9,12 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Reset a demand to draft state
 
-Move a demand back to the Draft state, if necessary.
+Reset a demand to the Draft state when it has been moved past that state unintentionally or when changes to it are required. A demand can be reset to Draft until an entity is created from it or it has reached the Qualified state.
 
 ## Before you begin
 
@@ -22,30 +22,30 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-A demand can be reset to Draft from the Completed, Approved, Screening, or Submitted states, or until an entity such as a project is created from it. The **Reset to Draft** option is unavailable if the demand is in the Qualified state.
+Once a demand is set back to the Draft state:
+
+-   All score values in the **Assessment Results** tab are reset to default values.
+-   All active assessments for the demand are canceled. The system triggers new assessments when the demand moves to the Screening state and if the **Assessment Required** field on the demand form is set to true.
+-   All resource assignments are removed. Only the resource plans that don't have any reported active hours are available for allocation.
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Reset to Draft**.\[Omitted image "demands-reset-to-draft.png"\] Alt text: Use the Reset to Draft button to reset a demand to the Draft state.
+4.  Select **Details** from the navigation menu.
 
-    A confirmation message appears, if there are:
+5.  Select **Reset to Draft**.
 
-    -   Active assessments pending with stakeholders, or
-    -   Resource assignments are created for the demand
-4.  Select the check box to replan the allocated resource plans that have no actual hours reported.
+    A confirmation message appears if the demand has any of the following.
 
-5.  Select **OK**.
+    -   Active assessments pending with stakeholders.
+    -   Resource assignments created for the demand.
+6.  Select the check box to replan the allocated resource plans that have no actual hours reported.
 
+7.  Select **OK**.
 
-## Result
-
--   The demand is moved to the Draft state.
--   All the score values in **Assessment Data** tab are reset to default.
--   All active assessments for the demand are canceled. New assessments are triggered when the demand moves to the Screening state and if the **Assessment Required** field on the demand form is set to true.
 

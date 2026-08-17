@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect, Using Virtual Agent Bot Interconnect in your configuration, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -36,20 +36,24 @@ There are two ways to integrate secondary Virtual Agent topics with Bot Intercon
 
 -   Map multiple secondary Virtual Agent topics to a single Virtual Agent Bot Interconnect topic. This scenario is applicable only for NLU topics.
 
-    Create one Virtual Agent Bot Interconnect topic and name it accordingly. For example, **SVA ordering issues**. In this scenario, the secondary Virtual Agent topics are mapped to the Bot Interconnect shell topic as either keywords or utterances, depending on your method of topic discovery. So if you have two secondary Virtual Agent topics named **order a drink** and **book a ticket**, you would add both phrases to the Bot Interconnect topic as keywords or you would add them as utterances to the Bot Interconnect topic's corresponding intent.
+    Create one Virtual Agent Bot Interconnect topic and name it accordingly. For example, **SVA ordering issues**. In this scenario, the secondary Virtual Agent topics are mapped to the Bot Interconnect shell topic as either keywords or utterances, depending on your method of topic discovery. If you have two secondary Virtual Agent topics named **order a drink** and **book a ticket**, add both phrases to the Bot Interconnect topic as keywords or as utterances to the Bot Interconnect topic's corresponding intent.
 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
+2.  Select the **Asset library** tab.
+
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+
+4.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
 
     In case of NLU topics, include the secondary Virtual Agent topic names as either keywords or utterances in the corresponding Bot Interconnect intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the secondary Virtual Agent topic.
 
-3.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
+5.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
 
-4.  Select the node, and then fill in the form as follows:
+6.  Select the node, and then fill in the form as follows:
 
 <table id="table_oq1_5px_ksbxxx"><thead><tr><th>
 
@@ -94,9 +98,9 @@ Async Response Transformer
 If the secondary bot is configured in asynchronous mode, enter `sn_va_bot_ic.va_api_bot_interconnect_async_response_handler`
 
 </td></tr></tbody>
-</table>5.  Click **Save**.
+</table>7.  Click **Save**.
 
-6.  Click **Publish**.
+8.  Click **Publish**.
 
 
 **Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)

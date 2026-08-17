@@ -48,8 +48,15 @@ Employee profiles display information about individuals in your organization. Yo
     -   Bio
 4.  Update the desired fields and save your changes.
 
+5.  Select the edit option on your profile avatar to upload, update, or delete your profile image.
+
+    -   Select an image file to see a preview before you save it.
+    -   Select a new image at any time to replace the current one. The new image updates everywhere your avatar appears.
+    -   Delete the image to show your initials instead.
+    **Note:** Employee Slate accepts the same image formats as Employee Center, up to 5 MB. If you select an unsupported format or a file over the size limit, you see a validation error and the upload doesn't complete.
+
 
 ## Result
 
-Your profile displays updated personal information that is visible to colleagues.
+Your profile displays updated personal information and profile image that are visible to colleagues.
 

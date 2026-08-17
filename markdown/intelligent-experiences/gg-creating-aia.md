@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gg-creating-aia.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-19"
+last_updated: "2026-07-21"
 reading_time_minutes: 6
-breadcrumb: [AI agents best practices, Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI agents best practices, Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # General guidelines for creating AI agents and agentic workflows
@@ -128,5 +128,5 @@ When creating agentic workflows with more than one assigned agent, make sure tha
 
 ## Additional resources
 
-For more prompting recommendations, see the Community [Now Assist AI Agents prompting guide](https://www.servicenow.com/community/now-assist-articles/now-assist-ai-agents-prompting-guide/ta-p/3386242).
+For more prompting recommendations, see the Community [AI Agents prompting guide](https://www.servicenow.com/community/now-assist-articles/now-assist-ai-agents-prompting-guide/ta-p/3386242).
 

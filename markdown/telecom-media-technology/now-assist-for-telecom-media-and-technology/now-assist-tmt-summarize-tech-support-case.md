@@ -1,5 +1,5 @@
 ---
-title: Summarize test for a technology product support case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-tech-support-case.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Summarize test for a technology product support case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 ## About this task
 
-The test summarization skill provides you with a concise summary of the test executed for a technology product support case, including the test outcome, test interpretation, and other parameters configured for the specific test definition. With this skill, you can generate the test summary of a technology product support case so that you can analyze the root cause of the problem.
+The test summarization skill provides you with a concise summary of the test executed for a technology product support case. The summary includes the test outcome, test interpretation, and other parameters configured for the specific test definition. You can use this skill to analyze the root cause of the problem.
 
 The test summarization skill is available in CSM/FSM Configurable Workspace and in Core UI.
 
@@ -55,15 +55,15 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the technology product support case, manage the results.
 
-<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d35828e198">
+<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d35734e198">
 
 Option
 
-</th><th align="left" id="d35828e201">
+</th><th align="left" id="d35734e201">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35828e207">
+</th></tr></thead><tbody><tr><td id="d35734e207">
 
 **Expand or collapse the summary**
 
@@ -73,7 +73,7 @@ Procedure
 -   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d35828e237">
+</td></tr><tr><td id="d35734e237">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35828e270">
+</td></tr><tr><td id="d35734e270">
 
 **Copy the test summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35828e285">
+</td></tr><tr><td id="d35734e285">
 
 **Refresh the test summary**
 
@@ -107,5 +107,5 @@ Fetch the latest test run summary by selecting the refresh icon \(\[Omitted imag
     -   To set the results, select **Save**.
     -   To go back to the test results list, select **Cancel**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

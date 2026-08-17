@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-03-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [standalone app, ServiceNow lens as standalone app, Start ServiceNow lens from desktop, Start ServiceNow lens from Windows, Start ServiceNow lens from MacOS, Use ServiceNow lens from desktop, Use ServiceNow lens from Windows, Use ServiceNow lens from MacOS]
 breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
@@ -19,11 +19,11 @@ Extract and analyze data from one or more screenshots that you capture or files 
 
 ## Before you begin
 
-Perform the following tasks on the ServiceNow instance:
+To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 -   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 Don't scan any personally identifiable information, such as medical reports, financial reports, or other sensitive data, when using ServiceNow AI Lens as you don't want to expose the large language model \(LLM\) to any sensitive information.
 
@@ -57,15 +57,15 @@ Role required: lens\_user
 
 6.  Perform any one of the following methods to capture screenshots or upload files and analyze the data.
 
-<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d189383e297">
+<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d224981e300">
 
 Method
 
-</th><th align="left" id="d189383e300">
+</th><th align="left" id="d224981e303">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d189383e306">
+</th></tr></thead><tbody><tr><td id="d224981e309">
 
 **Capture a single screenshot of a document and analyze the data.**
 
@@ -84,7 +84,7 @@ Example of a document: image, scanned handwritten note, Excel sheet, web page, o
 3.  Place the ServiceNow AI Lensscannerwindow over the document.
 4.  \(Optional step\). To provide instructions to analyze the data in the screenshot in a specific way, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\), and enter the instructions.
 
-\[Omitted image "lens-incident-email.png"\] Alt text: Field to enter instructions.
+\[Omitted image "lens-scanner-incident-capture.png"\] Alt text: Scan and capture data from screenshot
 
 The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
@@ -93,7 +93,7 @@ The default character limit is 500. Users with the admin role can increase this 
 
 \[Omitted image "lens-single-scrnsht-analysis.png"\] Alt text: Preview of the analysis of single image.
 
-</td></tr><tr><td id="d189383e389">
+</td></tr><tr><td id="d224981e392">
 
 **Capture multiple screenshots from one or more documents.**
 
@@ -109,8 +109,6 @@ Example of a document: image, scanned handwritten note, Excel sheet, web page, o
 You can resize the scanner window by dragging its borders.
 
 4.  \(Optional step\). To provide instructions to analyze the data in the screenshots in a specific way, select the Instructions icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Instructions icon.\), and enter the instructions.
-
-\[Omitted image "lens-incident-email.png"\] Alt text: Field to enter custom instructions.
 
 The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
@@ -141,18 +139,10 @@ For more information, see [Configure system property](https://raw.githubusercont
 **Note:** You must have the admin role to set the system properties.
 
 7.  \(Optional step\) To remove a screenshot that you had captured, select the Delete icon.
-
-\[Omitted image "lens-scrnsht-delete-button.png"\] Alt text: Captured screenshot delete button.
-
-**Tip:**
-
-    -   Repeat the step as many times to remove as many screenshots.
-    -   The last screenshot that you had captured is removed at the first click.
-    -   You can capture one or more new screenshots after removing the screenshots.
 8.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
  The ServiceNow AI Lens preview window displays the screenshots that you've captured.
 
- \[Omitted image "lens-multiple-images-captured.png"\] Alt text: Multiple screenshots captured.
+ \[Omitted image "lens-prev-window-instructions.png"\] Alt text: Provide instructions after capturing screenshots or uploading files
 
 **Tip:**
 
@@ -211,7 +201,7 @@ For more information, see [Configure system property](https://raw.githubusercont
 
 The ServiceNow AI Lens preview window displays the files that you've uploaded
 
-\[Omitted image "lens-multiple-images-attached.png"\] Alt text: Multiple files attached. \[Omitted image ""\] Alt text: Multiple files attached.
+\[Omitted image "lens-prev-window-instructions.png"\] Alt text: Provide instructions after capturing screenshots or uploading files \[Omitted image ""\] Alt text: Multiple files attached.
 
 **Tip:**
 
@@ -226,7 +216,7 @@ The ServiceNow AI Lens preview window displays the files that you've uploaded
 
     ServiceNow AI Lens displays the preview of the response
 
-    \[Omitted image "lens-single-scrnsht-analyze-response.png"\] Alt text: Analysis response displayed under Preview window.
+    \[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Preview window showing consolidated summary.
 
 8.  Select **Submit** to trigger post processing.
 

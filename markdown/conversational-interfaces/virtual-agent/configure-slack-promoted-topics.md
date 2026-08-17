@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Slack, Conversational Integration, bot, configure, promoted, topics, Conversational Interfaces, Custom greetings]
-breadcrumb: [Configure VA settings for Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure Virtual Agent settings for Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure promoted topics for Conversational Integration with Slack
@@ -19,17 +19,17 @@ Configure promoted topics to push out important, common topics for users' quick 
 
 ## Before you begin
 
-Role required: admin or va\_admin
+Role required: admin or virtual\_agent\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-2.  On the Virtual Agent settings page, navigate to the Custom greetings and setup and select **View All**.
+2.  On the Virtual Agent settings page, navigate to Custom greetings and setup, and then select **View All**.
 
-    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed below.\)
+    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md). If the default chat experience is the only record that you have on your instance, the promoted topics will be applied to the chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed in this topic.\)
 
-    If you want to set up unique promoted topics for Slack that have to be different from the chat widget, follow the procedure below.
+    If you want to set up unique promoted topics for Slack that are different from the chat widget, continue to the next step.
 
 3.  On the Custom Greetings &amp; Setup page, select **New**.
 
@@ -89,7 +89,7 @@ Condition Mode
 
 </td><td>
 
-Situation where your user gets this chat experience.Available Conditions Modes:
+Situation in which your user gets this chat experience.Available condition modes:
 
 -   **Advanced**
 -   **Simple**

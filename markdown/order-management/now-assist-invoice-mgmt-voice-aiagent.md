@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, ServiceNow Otto for Order Management]
 ---
 
 # Dispute invoice cases via calls
@@ -44,5 +44,5 @@ Role required: sn\_customerservice.customer
 
 The AI voice agent then creates an invoice case corresponding to the disputed invoice, and provides the invoice case number to the customer over the phone call.
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 

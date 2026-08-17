@@ -18,7 +18,7 @@ To consume consumable assets, they must have a state of **In Stock** and a subst
 
 ## Before you begin
 
-Role required: asset
+Role required: itil, asset, or itil\_admin
 
 ## Procedure
 

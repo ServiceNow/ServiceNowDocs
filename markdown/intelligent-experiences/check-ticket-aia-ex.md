@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-17"
 reading_time_minutes: 1
-breadcrumb: [Examples of using AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Examples of using AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Review and update tickets with the Ticket Status AI agent

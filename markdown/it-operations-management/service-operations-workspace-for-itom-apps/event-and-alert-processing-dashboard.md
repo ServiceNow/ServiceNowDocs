@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
-breadcrumb: [AIOps Dashboards in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [AIOps Dashboards in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Event and Alert dashboard
@@ -20,13 +20,13 @@ The Event and Alert dashboard uses Performance Analytics to provide real-time vi
 
 Run the \[PA EM\] Historic Data Collection job once to enable the partial collection of historical Event Management data:
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Data Collector** &gt; **Jobs**.
+1.  Navigate to **All** &gt; **Performance Analytics Administration** &gt; **Data Collector** &gt; **Jobs**.
 2.  Select \[PA EM\] Historic Data Collection.
 3.  Select **Execute Now**.
 
 ## Prerequisites
 
-Ensure that the Event Management application is installed.
+Ensure that the AIOps Experience \[`sn_sow_aiops`\] application is installed. The application installs the Event Management and Performance Analytics components required for the dashboard. For installation instructions, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
 
 ## Required ServiceNow AI Platform roles
 

@@ -28,15 +28,15 @@ When you create a template from a project, all the project attachments and check
 
 1.  Create a template.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d321090e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d331190e68">
 
 Option
 
-</th><th align="left" id="d321090e71">
+</th><th align="left" id="d331190e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d321090e77">
+</th></tr></thead><tbody><tr><td id="d331190e77">
 
 **From an existing template**
 
@@ -48,7 +48,7 @@ Steps
 4.  The Copy Template dialog box opens. The **Template** field is auto-filled with the current template name.
 
 
-</td></tr><tr><td id="d321090e122">
+</td></tr><tr><td id="d331190e122">
 
 **From a project**
 

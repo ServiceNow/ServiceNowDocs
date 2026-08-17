@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Issue form on Project Workspace
@@ -113,6 +113,8 @@ Short description
 Brief description of the issue and its potential impact on the success of the project.
 
  As you start entering the title for your issue, related issues that potentially match your issue are displayed.
+
+ Click the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select from the list of predefined issue descriptions.
 
 </td></tr><tr><td>
 

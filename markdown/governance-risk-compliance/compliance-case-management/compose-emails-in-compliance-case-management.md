@@ -32,7 +32,7 @@ You can compose and send emails regarding your cases and requests to multiple st
 
     -   Navigate to **Cases** &gt; **All cases** and select the case you want.
     -   Navigate to **Requests** &gt; **All requests** and select the request you want.
-3.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
+3.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: icon.
 
 4.  On the form, fill in the fields.
 

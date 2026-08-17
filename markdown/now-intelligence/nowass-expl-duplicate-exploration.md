@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-02"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Duplicate an exploration
@@ -30,7 +30,7 @@ Duplicating an exploration grants the following possibilities:
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Locate and open the exploration that you want to duplicate.
 
@@ -47,5 +47,5 @@ Duplicating an exploration grants the following possibilities:
 5.  Press **Duplicate**.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-aide.md)
 

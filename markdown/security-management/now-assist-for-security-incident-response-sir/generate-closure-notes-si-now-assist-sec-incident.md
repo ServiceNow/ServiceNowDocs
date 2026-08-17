@@ -1,6 +1,6 @@
 ---
-title: Generate closure notes for a security incident with Now Assist for Security Incident Response
-description: Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed prior to closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
+title: Generate closure notes
+description: Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed before closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
-breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate closure notes for a security incident with Now Assist for Security Incident Response
+# Generate closure notes
 
-Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed prior to closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
+Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed before closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 **Note:**
 
-If the Close code or Close notes fields are already updated for a security incident, Now Assist will not modify these fields, regardless of the incident’s current state. To enable Now Assist to update these fields, ensure that both the Close Code and Closure Notes fields are left blank.
+If the Close code or Close notes fields are already updated for a security incident, ServiceNow Otto will not modify these fields, regardless of the incident’s current state. To enable ServiceNow Otto to update these fields, verify that both the Close Code and Closure Notes fields are left empty.
 
 ## Procedure
 
@@ -33,15 +33,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d296421e103">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d299645e118">
 
 Option
 
-</th><th align="left" id="d296421e106">
+</th><th align="left" id="d299645e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296421e112">
+</th></tr></thead><tbody><tr><td id="d299645e127">
 
 **Close the security incident in legacy Core UI16**
 
@@ -55,14 +55,14 @@ The Closure modal is displayed.
 
 **Note:** You might want to review the generated text and make sure it's accurate before you close the security incident. Edit the notes or delete them to provide your own. You can also **Elaborate** or **Shorten** the generated text.
 
-3.  Select the required option from the Now Assist Context menu. **Elaborate** will help you to elaborate the text and replaces the selected resolution text. In case, if you wish to shorten the resolution text you can select **Shorten** option from the Context menu to make the text more concise.
+3.  Select the required option from the ServiceNow Otto context menu. **Elaborate** will help you to elaborate the text and replaces the selected resolution text. In case, if you wish to shorten the resolution text you can select **Shorten** option from the Context menu to make the text more concise.
 4.  Update the Close code and select **Close incident**.
 
 The resolution summary is displayed in the Resolution Information section on the security incident record.
 
-**Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
+**Note:** Using the ServiceNow Otto context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d296421e182">
+</td></tr><tr><td id="d299645e203">
 
 **Close the security incident from the Security Incident Response Workspace**
 
@@ -78,12 +78,12 @@ The stepper modal is displayed.
 
 **Note:** You might want to review the generated text and make sure it's accurate before you close the security incident. Edit the notes or delete them to provide your own. You can also **Elaborate** or **Shorten** the generated text.
 
-5.  Select the required option from the Now Assist Context menu. **Elaborate** will help you to elaborate the text and replaces the selected resolution text. In case, if you wish to shorten the resolution text you can select **Shorten** option from the Context menu to make the text more concise.
+5.  Select the required option from the ServiceNow Otto context menu. **Elaborate** will help you to elaborate the text and replaces the selected resolution text. In case, if you wish to shorten the resolution text you can select **Shorten** option from the context menu to make the text more concise.
 6.  Update the Close code and select **Close incident**.
 
 The resolution summary is displayed on the **Details** tab on the security incident record in the workspace.
 
-**Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
+**Note:** Using the context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
 </td></tr></tbody>
 </table>    The following screen shot depicts the resolution notes generated for closing the security incident in Core UI16.
@@ -94,8 +94,8 @@ The resolution summary is displayed on the **Details** tab on the security incid
 
     \[Omitted image "NA-RN-NAPanel.png"\] Alt text: Resolution Notes on the Security Incident Response workspace
 
-    Edit the resolution notes generated using the Now Assist context menu on the Security Incident Response workspace.
+    Edit the resolution notes generated using the ServiceNow Otto context menu on the Security Incident Response workspace.
 
-    \[Omitted image "NA-R-notes.png"\] Alt text: Now Assist Context menu for the Close notes.
+    \[Omitted image "NA-R-notes.png"\] Alt text: ServiceNow Otto context menu for the Close notes.
 
 

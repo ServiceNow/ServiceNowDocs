@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Retail Service Management \(RSM\)
+title: ServiceNow Otto for Retail Service Management \(RSM\)
 description: The store inquiry AI agent is an intelligent assistant designed to support the headquarters \(HQ\) support agents in efficiently managing and resolving cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-now-assist-for-retail.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Retail]
 ---
 
-# Now Assist for Retail Service Management \(RSM\)
+# ServiceNow Otto for Retail Service Management \(RSM\)
 
 The store inquiry AI agent is an intelligent assistant designed to support the headquarters \(HQ\) support agents in efficiently managing and resolving cases.
 

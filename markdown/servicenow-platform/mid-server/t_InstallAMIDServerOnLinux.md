@@ -251,6 +251,10 @@ The following fields can be passed through the command line:
 
     Provide the username to run the service as a non-root user.
 
+-   **CERTIFICATE\_REVOCATION**
+
+    Specify whether to enable certificate revocation checking. Enter **Y** to enable certificate revocation checking, or **N** to disable it. This parameter is required for silent installations. In interactive mode, the installer prompts for this setting.
+
 
 The following is an example command for a MID Server which uses a proxy and mutual authentication:
 

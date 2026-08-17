@@ -16,7 +16,7 @@ breadcrumb: [Investment Funding administration, Investment Funding, Strategic Po
 
 The Fiscal calendar setup you choose determines the fiscal periods used by your organization to request or allocate funds.
 
-Based on the fiscal calendar setup, you can then set the [funding frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/set-funding-preferences.md) that aligns with the funding cycles your organization uses, such as monthly or quarterly, for fund requests and allocations.
+Based on the fiscal calendar setup, you can then set the [funding frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/set-funding-preferences.md) that aligns with the funding cycles your organization uses, such as monthly or quarterly. This frequency applies to fund requests and allocations.
 
 **Note:** Once you allocate or request funds for investments for a fiscal period, you cannot change to another fiscal calendar type.
 

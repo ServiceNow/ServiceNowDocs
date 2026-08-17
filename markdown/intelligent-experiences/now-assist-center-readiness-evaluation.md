@@ -1,43 +1,41 @@
 ---
-title: Now Assist Readiness Evaluation in Now Assist Center
-description: Now Assist Readiness Evaluation is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
+title: AI readiness assessments in AI Admin Center
+description: The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-readiness-evaluation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-28"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI, Now Assist Readiness Evaluation]
-breadcrumb: [Explore, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Readiness Evaluation in Now Assist Center
+# AI readiness assessments in AI Admin Center
 
-Now Assist Readiness Evaluation is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
+The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
 
-## Now Assist Readiness Evaluation overview
+## AI readiness assessments overview
 
-Now Assist Readiness Evaluation helps you determine whether your organization's instance is ready to implement generative and agentic AI features in Now Assist. It enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
+The AI readiness assessment helps you determine whether your organization's instance is ready to implement generative and agentic AI features. It enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
 
-Now Assist Readiness Evaluation provides assessment in separate tabs grouped by agentic AI and generative AI solutions. Agentic AI solution information appears in the Agentic AI Assessment tab and generative AI solution information appears in the Now Assist Assessment tab.
+AI readiness assessments appear in separate tabs grouped by agentic AI and generative AI solutions.
 
-Now Assist Readiness Evaluation evaluates and assesses the following areas of your instance for AI implementation readiness.
+The AI readiness assessment evaluates and assesses the following areas of your instance for AI implementation readiness.
 
 -   AI agents and agentic workflows
-    -   Agentic AI for Now Assist for IT Service Management \(ITSM\)
-    -   Agentic AI for Now Assist for Customer Service Management \(CSM\)
--   Now Assist products
-    -   Now Assist for AI Search
-    -   Now Assist for Virtual Agent \(VA\)
-    -   Now Assist for IT Service Management \(ITSM\)
-    -   Now Assist for Customer Service Management \(CSM\)
-    -   Now Assist for Now Assist for HR Service Delivery \(HRSD\) \(HRSD\)
+    -   Agentic AI for IT Service Management \(ITSM\)
+    -   Agentic AI for Customer Service Management \(CSM\)
+-   Generative AI capabilities
+    -   Generative AI for AI Search
+    -   Generative AI for Virtual Agent \(VA\)
+    -   Generative AI for IT Service Management \(ITSM\)
+    -   Generative AI for Customer Service Management \(CSM\)
+    -   Generative AI for HR Service Delivery \(HRSD\)
 
-For more information on the Now Assist Readiness Evaluation application, see [Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
+## AI readiness assessments in AI Admin Center
 
-## Now Assist Readiness Evaluation in Now Assist Center
-
-Now Assist Readiness Evaluation appears in several places in Now Assist Center.
+AI readiness assessment appears in several places in AI Admin Center.
 
 -   **Home page**
 
@@ -52,16 +50,16 @@ Now Assist Readiness Evaluation appears in several places in Now Assist Center.
     The assessment details page shows the detailed results of a readiness assessment for a specific area of your instance. It shows readiness by category and lists the important issues to resolve to achieve AI implementation readiness.
 
 
-For more information on using Now Assist Readiness Evaluation in Now Assist Center, see [Using Now Assist Readiness Evaluation in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+For more information on using AI readiness assessments in AI Admin Center, see [Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
-**Parent Topic:**[Exploring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
+**Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Now Assist Center workspace]()
+[AI Admin Center workspace]()
 
-[AI Agent Advisor in Now Assist Center]()
+[AI Agent Advisor in AI Admin Center]()
 
-[Supporting information for Now Assist Center]()
+[Supporting information for AI Admin Center]()
 

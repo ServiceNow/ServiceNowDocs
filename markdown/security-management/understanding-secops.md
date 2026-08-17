@@ -22,7 +22,7 @@ The Security Operations suite of applications helps you protect your assets by i
 -   Identify, prioritize, and remediate exposure findings in the [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/unified-security-exposure-management-landing-page.md) platform that brings together infrastructure, application, container, and configuration exposures into one unified experience.
 -   View your complete asset inventory.
 -   Determine your overall security tool coverage.
--   Resolve security incidents faster with intelligent workflows and ServiceNow Generative AI skills \(GenAI\). See [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md) for more information.
+-   Resolve security incidents faster with intelligent workflows and ServiceNow Generative AI skills \(GenAI\). See [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md) for more information.
 
 ## Security Operations applications for workflows
 

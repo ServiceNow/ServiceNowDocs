@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
+title: Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
+Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for TMT. For information needed to install the Now Assist plugins and configure generative AI skills, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for TMT. For information needed to install the Now Assist plugins and configure generative AI skills, see .
 
 <table id="table_vy3_nbk_5bc"><thead><tr><th>
 
@@ -72,15 +72,15 @@ Transform mapping
 
 ## Procedure
 
-1.  Install the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
+1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
 
-3.  Activate and configure the skills for the Now Assist for TMT features.
+3.  Activate and configure the skills for the ServiceNow Otto for TMT features.
 
     These features are grouped under the Customer workflow group. Each feature has its associated skills.
 
@@ -92,7 +92,7 @@ Transform mapping
 
 6.  Review the inputs for the selected skill.
 
-    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
 7.  After reviewing the inputs for the selected skill, select **Save and continue** to go to the next step.
 

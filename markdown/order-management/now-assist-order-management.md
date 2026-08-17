@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Order Management
-description: Use the ServiceNow Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
+title: ServiceNow Otto for Order Management
+description: Use the ServiceNow ServiceNow Otto for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/now-assist-order-management.html
 release: zurich
@@ -10,23 +10,23 @@ reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 ---
 
-# Now Assist for Order Management
+# ServiceNow Otto for Order Management
 
-Use the ServiceNow® Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
+Use the ServiceNow® ServiceNow Otto for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
 
 ## Get started
 
 <table id="table_stf_ydj_fhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-for-order-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-for-order-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Order Management application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Order Management application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 
 </td><td>
 
-[Use Now Assist for Order Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+[Use ServiceNow Otto for Order Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -54,10 +54,10 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-for-order-management.md)**  
-With the Now Assist for Order Management application, you can use generative AI to summarize complex orders involving multiple products, services, and fulfillment tasks for faster, more accurate decision-making and improved customer responsiveness.
--   **[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)**  
-If you have the admin role, you can configure the Now Assist for Order Management application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
--   **[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)**  
+-   **[Exploring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-for-order-management.md)**  
+With the ServiceNow Otto for Order Management application, you can use generative AI to summarize complex orders involving multiple products, services, and fulfillment tasks for faster, more accurate decision-making and improved customer responsiveness.
+-   **[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+-   **[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)**  
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 

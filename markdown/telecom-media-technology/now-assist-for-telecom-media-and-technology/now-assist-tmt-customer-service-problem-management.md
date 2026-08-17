@@ -1,6 +1,6 @@
 ---
 title: Customer Service Problem Management agentic workflows
-description: The Customer Service Problem Management agentic workflows are used to resolve broadband, internet issues, and incidents, helping customer agents to resolve network tickets by tracking them and creating an actionable task, and handle the billing inquiry case requests.
+description: The Customer Service Problem Management agentic workflows resolve broadband and internet issues. They help customer agents resolve network tickets by tracking them and creating actionable tasks. They also handle billing inquiry case requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customer-service-problem-management.html
 release: zurich
@@ -14,5 +14,5 @@ breadcrumb: [Use agentic workflows, Now Assist for TMT, Telecommunications, Medi
 
 # Customer Service Problem Management agentic workflows
 
-The Customer Service Problem Management agentic workflows are used to resolve broadband, internet issues, and incidents, helping customer agents to resolve network tickets by tracking them and creating an actionable task, and handle the billing inquiry case requests.
+The Customer Service Problem Management agentic workflows resolve broadband and internet issues. They help customer agents resolve network tickets by tracking them and creating actionable tasks. They also handle billing inquiry case requests.
 

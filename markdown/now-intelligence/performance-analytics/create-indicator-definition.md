@@ -66,15 +66,15 @@ You can create an indicator definition for every artifact in your project, wheth
 
 8.  Decide whether an Automated, Formula, or Manual indicator best represents the information in the artifact.
 
-<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d164519e272">
+<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d167912e272">
 
 Indicator Type
 
-</th><th align="left" id="d164519e275">
+</th><th align="left" id="d167912e275">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d164519e281">
+</th></tr></thead><tbody><tr><td id="d167912e281">
 
 **Automated**
 
@@ -82,7 +82,7 @@ Description
 
 An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data.
 
-</td></tr><tr><td id="d164519e293">
+</td></tr><tr><td id="d167912e293">
 
 **Formula**
 
@@ -90,7 +90,7 @@ An automated indicator uses an indicator source as its data set. The indicator s
 
 Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
 
-</td></tr><tr><td id="d164519e305">
+</td></tr><tr><td id="d167912e305">
 
 **Manual**
 

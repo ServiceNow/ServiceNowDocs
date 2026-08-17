@@ -1,5 +1,5 @@
 ---
-title: Analyze your hardware assets by using Now Assist for HAM
+title: Analyze your hardware assets by using ServiceNow Otto for HAM
 description: View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/generate-asset-analysis-now-assist-ham.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-02-03"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use generative AI skills, Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 
-# Analyze your hardware assets by using Now Assist for HAM
+# Analyze your hardware assets by using ServiceNow Otto for HAM
 
 View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 
@@ -27,7 +27,7 @@ Role required: asset
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 

@@ -20,7 +20,7 @@ Topic authors can add this topic block to larger conversation flows. With the us
 
 For example, you may need to send a technician to a customer site to resolve an incident. To quickly respond to the customer, you need to know which technicians are located nearby so you can dispatch the appropriate technician for the customer's location.
 
-For general information about how geolocation is used on the ServiceNow platform, see Geolocation.
+For general information about how geolocation is used on the ServiceNow platform, see [Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_Geolocation.md).
 
 ## Share location details
 
@@ -63,7 +63,7 @@ The topic block does not retrieve user coordinates and displays a relevant error
 
 If you are a topic author or an admin, you can modify the Geolocation topic block flow, as applicable. Simply duplicate the topic block and rename it. You can then use it as needed in the larger conversation flow you're designing.
 
-The Geolocation topic block properties sheet lets topic authors specify the input and output mappings. You can also customize the prompt using data pills or scripts. For example, you can include an explanation or reason for asking the question. For information about using data pills and scripts, see [Virtual Agent Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+The Geolocation topic block properties sheet lets topic authors specify the input and output mappings. You can also customize the prompt using data pills or scripts. For example, you can include an explanation or reason for asking the question. For information about using data pills and scripts, see [Assistant Designer Asset library controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 \[Omitted image "va-geolocation-user-prompt.png"\] Alt text: The value of the permissionPrompt string is "Would you like to share your location?"
 

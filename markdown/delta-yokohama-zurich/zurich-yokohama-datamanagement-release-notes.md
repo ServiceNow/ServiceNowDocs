@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-datamanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -69,11 +69,11 @@ Yokohama
 
 </td><td>
 
--   **[Data Management Console](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=yokohama&ft:locale=en-US)**
+-   **[Data Management Console](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=yokohama&ft:locale=en-US)**
 
 View a summary of storage consumption on your instance and manage the growth of data directly from the Data Management Console.
 
--   **[Table cleaner scalability improvements](https://servicenow-staging.fluidtopics.net/access?context=deleting-older-records&family=yokohama&ft:locale=en-US)**
+-   **[Table cleaner scalability improvements](https://www.servicenow.com/docs/access?context=deleting-older-records&family=yokohama&ft:locale=en-US)**
 
 Automatically delete older or unwanted records at scale.
 
@@ -84,23 +84,23 @@ Zurich
 
 </td><td>
 
--   **[Data Management Console](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
+-   **[Data Management Console](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
 
 View a summary of data usage on your instance and manage the growth of data directly from the Data Management Console.
 
--   **[Monitor data usage at the table level](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
+-   **[Monitor data usage at the table level](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
 
 View a summary of data usage for an individual table and monitor data usage in associated tables that store attachments, audit records, and journal entries.
 
--   **[View data usage for logical tables](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
+-   **[View data usage for logical tables](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
 
 Monitor data usage for logical tables, including the Incident \[incident\], Problem \[problem\], and Change Request \[change\_request\] tables.
 
--   **[Identify which tables are driving the most growth in other tables](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
+-   **[Identify which tables are driving the most growth in other tables](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
 
 View tables contributing the most growth to the tables that store attachments, audit records, and journal entries.
 
--   **[Rule summary](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
+-   **[Rule summary](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=zurich&ft:locale=en-US)**
 
 Track the number of records in the backlog and view the execution history of a table's data management rules.
 
@@ -124,7 +124,7 @@ Yokohama
 
 </td><td>
 
--   **[Data Management Console](https://servicenow-staging.fluidtopics.net/access?context=viewing-data-usage&family=yokohama&ft:locale=en-US)**
+-   **[Data Management Console](https://www.servicenow.com/docs/access?context=viewing-data-usage&family=yokohama&ft:locale=en-US)**
 
 You can now access data usage on your instance by navigating to **All** &gt; **System Data Management** &gt; **Data Management Console**.
 
@@ -362,7 +362,7 @@ Yokohama
 -   View insights into storage consumption on your instance and implement data management policies directly from the Data Management Console.
 -   Automatically delete older or unwanted records with improved table cleaner scalability.
 
- See [Data Management](https://servicenow-staging.fluidtopics.net/access?context=c_DataManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Data Management](https://www.servicenow.com/docs/access?context=c_DataManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -375,7 +375,7 @@ Zurich
 -   View data usage for individual tables and their associated tables.
 -   View a summary of the data management rules on a table.
 
- See [Data Management](https://servicenow-staging.fluidtopics.net/access?context=c_DataManagement&family=zurich&ft:locale=en-US) for more information.
+ See [Data Management](https://www.servicenow.com/docs/access?context=c_DataManagement&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -1,5 +1,5 @@
 ---
-title: Configuring AI Control Tower workflow
+title: Configuring AI Control Tower \(legacy\)
 description: Configure the AI Control Tower workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.html
@@ -9,10 +9,10 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Configuring AI Control Tower workflow
+# Configuring AI Control Tower \(legacy\)
 
 Configure the AI Control Tower workflow.
 

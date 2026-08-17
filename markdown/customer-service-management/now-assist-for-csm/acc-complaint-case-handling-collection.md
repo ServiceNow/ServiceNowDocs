@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 1
-breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Install the Now Assist for Complaint Case \(CSM\) application

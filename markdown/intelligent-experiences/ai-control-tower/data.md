@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower
@@ -79,6 +79,6 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
 
     This setting controls how the LLM guardrail categories that comprise the score are weighted. You can change the default weights or remove categories from the score by deactivating them. The score formula is an average across all managed AI assets.
 
-    \[Omitted image "image.sp-tab-ai-score-config"\] Alt text: AI asset security score configuration with default weights shown.
+    \[Omitted image "sp-tab-ai-score-config.png"\] Alt text: AI asset security score configuration with default weights shown.
 
 

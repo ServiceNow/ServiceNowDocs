@@ -27,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d93063e99">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d95074e99">
 
 Roadmap type
 
-</th><th align="left" id="d93063e102">
+</th><th align="left" id="d95074e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d93063e108">
+</th></tr></thead><tbody><tr><td id="d95074e108">
 
 **Portfolio plan roadmap**
 
@@ -45,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d93063e129">
+</td></tr><tr><td id="d95074e129">
 
 **Free-form roadmap**
 

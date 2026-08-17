@@ -7,8 +7,8 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---
 
@@ -63,14 +63,6 @@ Operational Technology covers products that tackle aspects of managing OT device
 -   **AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)**
 
     Accesses external sources related to an OT incident, and contextualizes how the document is relevant to the incident. For more information, see [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ai-enhanced-ra-otsm-landing.md).
-
--   **Now Assist for Operational Technology Service Management \(OTSM\)**
-
-    Enables you to summarize the OT incident information and generate incident resolution notes. You can enable your users to understand the context so that they can implement quicker resolutions. For more information, see [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/now-assist-for-operational-technology-service-management.md).
-
--   **Now Assist for Operational Technology Manager \(OTM\)**
-
-    Helps streamline processes in the Industrial Workspace related to your OT device data. For more information, see [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/now-assist-for-otm-landing.md).
 
 -   **Employee Center for OT**
 

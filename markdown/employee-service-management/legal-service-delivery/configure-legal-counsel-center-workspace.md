@@ -18,9 +18,9 @@ Configure the Legal Counsel Center Workspace to customize the dashboard and inte
 
 ## Configuration overview
 
-To configure and customize Legal Counsel Center Workspace along with the Home page, List page, and the Analytics Center page, get familiarized with the UI Builder basics. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
+To configure and customize Legal Counsel Center Workspace along with the Home page, List page, and the Analytics Center page, get familiarized with the UI Builder basics. For more information, see .
 
-To work on the UI Builder, navigate to **UI Builder** from **All**. Then search and select **Legal Counsel Center** to configure. To configure the home page, select **Landing page default**. For more information on how to configure the list and analytics center pages, see [Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder.md).
+To work on the UI Builder, navigate to **UI Builder** from **All**. Then search and select **Legal Counsel Center** to configure. To configure the home page, select **Landing page default**. For more information on how to configure the list and analytics center pages, see .
 
 You must also understand additional Configurable Workspace components to configure Legal Counsel Center. For more information, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_set-up-configurable-workspace.md#section_xqc_p2z_cjb).
 

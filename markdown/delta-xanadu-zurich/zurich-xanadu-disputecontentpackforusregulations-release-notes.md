@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-disputecontentpackforusregulations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Configurable SLA Definitions for Reg E and Reg Z](https://servicenow-staging.fluidtopics.net/access?context=using-the-dispute-content-pack-for-us-regulation&family=xanadu&ft:locale=en-US)**
+-   **[Configurable SLA Definitions for Reg E and Reg Z](https://www.servicenow.com/docs/access?context=using-the-dispute-content-pack-for-us-regulation&family=xanadu&ft:locale=en-US)**
 
 Configure SLA definitions for Reg E and Reg Z to enable dispute agents to manage cases efficiently and enable managers to monitor progress and take timely actions.
 
--   **[Enhancements to dispute manager and dispute agent landing pages](https://servicenow-staging.fluidtopics.net/access?context=exploring-dispute-content-pack-for-us-regulation&family=xanadu&ft:locale=en-US)**
+-   **[Enhancements to dispute manager and dispute agent landing pages](https://www.servicenow.com/docs/access?context=exploring-dispute-content-pack-for-us-regulation&family=xanadu&ft:locale=en-US)**
 
 Modified the existing tabs **Debit card disputes cases** and **Credit card cases under incorrect billing** with **SLA breached** and **SLA at risk** on both the disputes manager and dispute agent landing pages.
 
@@ -230,7 +230,7 @@ Xanadu
 
 </td><td>
 
-Install Dispute Content Pack for US Regulations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Dispute Content Pack for US Regulations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -419,7 +419,7 @@ Xanadu
 -   Complies with US Regulations such as Regulation E \(Reg E\) and Regulation Z \(Reg Z\).
 -   Incorporate Service Level Agreement \(SLA\) definitions to help issuers monitor deadlines and take actions.
 
- See [Dispute Content Pack for US Regulations](https://servicenow-staging.fluidtopics.net/access?context=dispute-content-pack-for-us-regulation-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Dispute Content Pack for US Regulations](https://www.servicenow.com/docs/access?context=dispute-content-pack-for-us-regulation-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

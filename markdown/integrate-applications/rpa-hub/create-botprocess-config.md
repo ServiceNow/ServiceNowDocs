@@ -45,15 +45,15 @@ When you associate the bot process configuration record with a bot process recor
 
 2.  Create a bot process configuration record from either the list icon or from the plus icon.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d465940e158">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d458331e158">
 
 Option
 
-</th><th align="left" id="d465940e161">
+</th><th align="left" id="d458331e161">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d465940e167">
+</th></tr></thead><tbody><tr><td id="d458331e167">
 
 **Create a bot process configuration record from the list icon**
 
@@ -64,7 +64,7 @@ Action
 3.  Select **Create Configuration**.
 
 
-</td></tr><tr><td id="d465940e206">
+</td></tr><tr><td id="d458331e206">
 
 **Create a bot process configuration record from the plus icon**
 
@@ -81,15 +81,15 @@ Action
 
 4.  Save the configuration record only or create a configuration record and bot process and then associate the record with the bot process.
 
-<table id="choicetable_twb_ds5_tvb"><thead><tr><th align="left" id="d465940e258">
+<table id="choicetable_twb_ds5_tvb"><thead><tr><th align="left" id="d458331e258">
 
 Option
 
-</th><th align="left" id="d465940e261">
+</th><th align="left" id="d458331e261">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d465940e267">
+</th></tr></thead><tbody><tr><td id="d458331e267">
 
 **Only save the bot process configuration record**
 
@@ -101,7 +101,7 @@ This configuration record is not associated to a bot process. It remains orphane
 
  If you want to associate it with a bot process record later, follow the steps in [Associate a bot process to a bot process configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/select-botprocess.md).
 
-</td></tr><tr><td id="d465940e297">
+</td></tr><tr><td id="d458331e297">
 
 **Create a bot process and bot process configuration record. Then associate the record with the bot process**
 

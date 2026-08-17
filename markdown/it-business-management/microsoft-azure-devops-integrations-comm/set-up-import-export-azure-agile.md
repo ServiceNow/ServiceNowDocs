@@ -44,7 +44,7 @@ Register webhooks to subscribe to the events from your Azure DevOps projects to 
 
 ### Result
 
-When you register webhooks in Azure DevOps,it receives the following event updates between Azure DevOps and Agile Development 2.0.
+When you register webhooks in Azure DevOps, it receives the following event updates between Azure DevOps and Agile Development 2.0.
 
 -   Create a work item
 -   Update a work item

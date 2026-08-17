@@ -1,6 +1,6 @@
 ---
-title: Generate an email response by using Now Assist for Customer Service Management \(CSM\)
-description: Generate an email response that is based on the case and email context by using the Now Assist icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
+title: Generate an email response by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate an email response that is based on the case and email context by using the AI icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Generate an email response by using Now Assist for Customer Service Management \(CSM\)
+# Generate an email response by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate an email response that is based on the case and email context by using the Now Assist icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
+Generate an email response that is based on the case and email context by using the AI icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 
 \[Omitted video\] Description: Configure email response generation.
 
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-An agent can do these actions by using the Now Assist icon:
+An agent can do these actions by using the AI icon:
 
 -   Generate a recommended email response that is based on the case and email context.
 -   Generate recommended email for new, forwarded, and finishing draft emails.
@@ -40,52 +40,50 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d171278e129">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d170965e118">
 
 Method
 
-</th><th align="left" id="d171278e132">
+</th><th align="left" id="d170965e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d171278e138">
+</th></tr></thead><tbody><tr><td id="d170965e127">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
-3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon.
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d171278e189">
+</td></tr><tr><td id="d170965e172">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
-3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon..
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon. to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+</table>3.  In the email message window, either type a response, or leave blank, and then select the AI \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. icon.
 
-    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
-
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d171278e257">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d170965e220">
 
 Email message window
 
-</th><th align="left" id="d171278e260">
+</th><th align="left" id="d170965e223">
 
-Now Assist icon
+AI icon
 
-</th></tr></thead><tbody><tr><td id="d171278e269">
+</th></tr></thead><tbody><tr><td id="d170965e229">
 
 **Typed response**
 
@@ -100,7 +98,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d171278e299">
+</td></tr><tr><td id="d170965e259">
 
 **Left blank**
 
@@ -108,7 +106,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d171278e308">
+</td></tr><tr><td id="d170965e268">
 
 **Use template**
 
@@ -126,5 +124,5 @@ Generates a recommended email response that is based on the context of the email
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

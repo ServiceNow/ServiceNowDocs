@@ -34,7 +34,7 @@ Enable requesters to chat with Google Chat or live agents using the Google Chat 
 </table>-   **[Exploring Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-ci-google-chat.md)**  
 Use the Conversational Integration with Google Chat application to connect your end users with Virtual Agent or live agents through your Google Chat account.
 -   **[Install Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/install-ci-google-chat.md)**  
-Activate the necessary plugins and Now Assist in Virtual Agent for Google Chat
+Activate the necessary plugins and ServiceNow Otto for Virtual Agent for Google Chat
 -   **[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-google-chat.md)**  
 Integrate the Now Virtual Agent bot or self-configured bot with Google Chat.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-06-02"
+reading_time_minutes: 7
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -23,6 +23,8 @@ The Smart Assessment Engine in Vendor Management Workspace enables you to create
 For more information about the Smart Assessment Engine application, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 
 **Note:** To use Smart Assessment Engine, you must enable the Smart Assessment Engine enabled \[sn\_vdr\_risk\_asmt.sae\_enabled\] property. After setting this property, you can't create new assessments and questionnaire templates using the Classic assessment engine.
+
+For the full list of prerequisites, including required scoped applications and template migration, see [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md) and [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md).
 
 ## Benefits of using the Smart Assessment Engine experience
 
@@ -54,6 +56,7 @@ SAE with TPRM has the following limitations.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported.
 
+-   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
     For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
@@ -66,6 +69,8 @@ SAE with TPRM has the following limitations.
 **Note:** For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
 ## What to explore next
+
+To get started, the TPR admin configures the assessment questionnaire and the TPR manager configures the tier-based, provider-based, or event-driven management rules that determine when an assessment is sent to a third party or engagement. Based on the assessment results, appropriate risk mitigation measures are identified and implemented.
 
 To learn more about configuring and using SAE with Third-party Risk Management, see:
 

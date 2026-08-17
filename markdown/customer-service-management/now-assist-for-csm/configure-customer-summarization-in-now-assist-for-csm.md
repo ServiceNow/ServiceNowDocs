@@ -1,6 +1,6 @@
 ---
-title: Configure Customer summarization in Now Assist for CSM
-description: Turn on the Customer summarization skill in Now Assist for CSM and configure user access and role restrictions to control who can use the skill and what data it can access.
+title: Configure Customer summarization in ServiceNow Otto for CSM
+description: Turn on the Customer summarization skill in ServiceNow Otto for CSM and configure user access and role restrictions to control who can use the skill and what data it can access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.html
 release: zurich
@@ -10,20 +10,20 @@ topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure Customer summarization in Now Assist for CSM
+# Configure Customer summarization in ServiceNow Otto for CSM
 
-Turn on the Customer summarization skill in Now Assist for CSM and configure user access and role restrictions to control who can use the skill and what data it can access.
+Turn on the Customer summarization skill in ServiceNow Otto for CSM and configure user access and role restrictions to control who can use the skill and what data it can access.
 
 ## Before you begin
 
 Before turning on the Customer summarization skill, verify that the following prerequisites are met:
 
 -   You have the admin role.
--   The Now Assist for Customer Service Management \(CSM\) plugin is activated in your instance.
--   A valid Now Assist for CSM license is applied to your instance.
+-   The ServiceNow Otto for Customer Service Management \(CSM\) plugin is activated in your instance.
+-   A valid ServiceNow Otto for CSM license is applied to your instance.
 
 Role required: admin
 
@@ -33,7 +33,7 @@ When turning on the Customer summarization skill in CSM, you can specify who has
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist admin** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** workflow.
 
@@ -84,6 +84,6 @@ The Customer summarization skill is turned on. Agents can use the skill in the *
 
 -   Confirm that the skill status shows as **Active** on the skill card.
 -   Test the summarization output on a sample record.
--   Notify Now Assist for CSM agents that the feature is available.
--   To customize the skill, go to Now Assist Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-prompt-template.md)
+-   Notify ServiceNow Otto for CSM agents that the feature is available.
+-   To customize the skill, go to AI Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-prompt-template.md)
 

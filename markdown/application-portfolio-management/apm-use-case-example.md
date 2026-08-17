@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Enterprise Architecture and CSDM framework - Legacy, Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -44,9 +44,9 @@ The CMDB, when used by the CSDM framework, provides value to Enterprise Architec
 
 With this use case, CSDM provides Enterprise Architecture a consistent way to model business applications and relate critical data. The use case ensures that the application services \(instances\) are defined as required for automating the technology risk scores, costs, and other metrics used for analysis.
 
-## TPM use case
+## TLM use case
 
-TPM gives you a better understanding of the risks associated with using software and hardware that is at the end-of-life \(EOL\) date. You can use the details provided by the CSDM framework to determine the risk of using software and hardware that is at EOL. Each product life cycle EOL date is calculated, then combined following the CSDM framework to provide a score at the Business Application level.
+TLM gives you a better understanding of the risks associated with using software and hardware that is at the end-of-life \(EOL\) date. You can use the details provided by the CSDM framework to determine the risk of using software and hardware that is at EOL. Each product life cycle EOL date is calculated, then combined following the CSDM framework to provide a score at the Business Application level.
 
 ## Results of the TPM use case
 

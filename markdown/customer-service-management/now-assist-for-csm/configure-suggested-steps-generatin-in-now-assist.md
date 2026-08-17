@@ -1,6 +1,6 @@
 ---
 title: Configure Suggested Steps Generation
-description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CSM Workspace after skill activation.Replace the default sn\_customerservice\_agent or sn\_customerservice.consumer\_agent role with a custom role.
+description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CSM Configurable Workspace after skill activation.Replace the default sn\_customerservice\_agent or sn\_customerservice.consumer\_agent role with a custom role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
 release: zurich
@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-08-18"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents, generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure Suggested Steps Generation
@@ -28,7 +28,7 @@ Suggested steps are generated from the records identified based on the informati
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub&gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -84,39 +84,39 @@ Input fields
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
 
     -   For customizing access control, see [Customize access control for suggested steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.md)
-7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying Now Assist skills on forms and workspaces.
+7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying AI skills on forms and workspaces.
 
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the Suggested Steps Generation settings.
 
 9.  Select **Activate** to turn on the skill for agents and complete the configuration.
 
 
-## Make suggested steps available on CSM Workspace
+## Make suggested steps available on CSM Configurable Workspace
 
-Learn how to enable the suggested steps generation in the CSM Workspace after skill activation.
+Learn how to enable the suggested steps generation in the CSM Configurable Workspace after skill activation.
 
 ### Before you begin
 
 Role required: admin
 
-After activating the Suggested steps generation feature in the Now Assist Admin console, follow the steps outlined to make the skill available in CSM Configurable Workspace.
+After activating the Suggested steps generation feature in the , follow the steps outlined to make the skill available in CSM Configurable Workspace.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **UI Builder**.
 
-2.  Go to **Experiences** &gt; **CSM/FSM Configurable Workspace** &gt; **Record** &gt; **Front-line Case Page**.\[Omitted image "csm-fsm-configurable-workspace.png"\] Alt text: Front-line Case page location under CSM/FSM Configurable Workspace
+2.  Go to **Experiences** &gt; **CSM/FSM Configurable Workspace** &gt; **Record** &gt; **Front-line Case Page**.
 
 3.  In the left content navigation pane, scroll down and select **Recommended Action 1**.
 
-4.  In the right pane, clear the checkbox **Hide recommended actions**.\[Omitted image "recommended-actions1-tab.png"\] Alt text: Image shows the Hide recommended actions checkbox unchecked
+4.  In the right pane, clear the checkbox **Hide recommended actions**.
 
 5.  Select **Save** to apply the changes.
 
 
 ### Result
 
-Recommended Actions will be displayed in the CSM/FSM Configurable Workspace and you can see the Suggested steps generation skill under it.
+Recommended Actions will be displayed in the CSM Configurable Workspace and you can see the Suggested steps generation skill under it.
 
 ## Customize access control for suggested steps
 
@@ -138,7 +138,7 @@ Role required: admin
 
 3.  Configure skill access
 
-    In Now Assist admin, complete the setup for the CSM Suggested Steps Generation skill:
+    In , complete the setup for the CSM Suggested Steps Generation skill:
 
     -   Add your custom role in the **Define Access** step.
     -   Add the same role in the **Select Display** step.

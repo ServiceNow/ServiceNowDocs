@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-careteammobile-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[Create support requests](https://servicenow-staging.fluidtopics.net/access?context=cto-mobile-create-requests&family=zurich&ft:locale=en-US)**
+-   **[Create support requests](https://www.servicenow.com/docs/access?context=cto-mobile-create-requests&family=zurich&ft:locale=en-US)**
 
 Use Care Team Mobile to create requests for supporting departments directly from your mobile device. The following plugins are supported by Care Team Mobile:
 
@@ -99,11 +99,11 @@ Use Care Team Mobile to create requests for supporting departments directly from
     -   Care Team Operations for Biomed
     -   Care Team Operations for Facilities
     -   Care Team Operations for Environmental Services
--   **[Scan assets](https://servicenow-staging.fluidtopics.net/access?context=cto-mobile-asset-scan&family=zurich&ft:locale=en-US)**
+-   **[Scan assets](https://www.servicenow.com/docs/access?context=cto-mobile-asset-scan&family=zurich&ft:locale=en-US)**
 
 Scan tags on medical equipment and be redirected to the asset's record, where you can view its history, status, and associated cases.
 
--   **[Browse locations](https://servicenow-staging.fluidtopics.net/access?context=cto-mobile-browse-locations&family=zurich&ft:locale=en-US)**
+-   **[Browse locations](https://www.servicenow.com/docs/access?context=cto-mobile-browse-locations&family=zurich&ft:locale=en-US)**
 
 Browse locations in Care Team Mobile to view healthcare locations and create support requests for specific locations as needed.
 
@@ -254,7 +254,7 @@ Zurich
 
 </td><td>
 
-Install Care Team Mobile by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Care Team Mobile by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -444,7 +444,7 @@ Zurich
 -   View requests for specific locations, such as patient rooms or supply closets.
 -   Access relevant details and preconfigured workflows for reporting issues like sanitation requests or facility repairs.
 
- See [Care Team Mobile](https://servicenow-staging.fluidtopics.net/access?context=care-team-mobile-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Care Team Mobile](https://www.servicenow.com/docs/access?context=care-team-mobile-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

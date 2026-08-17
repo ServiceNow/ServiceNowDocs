@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Azure Monitor as an authenticated data source
@@ -72,6 +72,8 @@ If you want to send alert state changes on the ServiceNow instance from the Serv
 |When an Azure alert monitorCondition is resolved|
 |Any Azure severity|ServiceNow CLEAR \(severity "0"\)|
 
+-   **[Azure Monitor Issue integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/azure-monitor-issue-integration.md)**  
+An Azure Issue is a unified case that aggregates related alerts and signals from Azure Monitor into a single, trackable operational problem. It preserves investigation context and serves as a durable record for incident management Incident Management, so you can resolve problems faster instead of tracking scattered alerts.
 -   **[Integrate Azure Monitor with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/azure-events-webhook.md)**  
 Integrate Microsoft Azure with Event Management by adding a standard webhook in Azure Monitor.
 -   **[Integrate Azure with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/integrate-azure-api-key.md)**  

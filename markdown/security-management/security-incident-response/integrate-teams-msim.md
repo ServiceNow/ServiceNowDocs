@@ -16,10 +16,10 @@ breadcrumb: [Integrate, Major Security Incident Management, Security Incident Re
 
 Integrate your Microsoft Teams with Major Security Incident Management.
 
--   [Register a new application at Azure portal for Microsoft Teams connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/register-teams-app-msim.md)
+-   [Register an application at Azure portal for Microsoft Teams connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/register-teams-app-msim.md)
 -   [Configure Microsoft Teams connection with Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-teams-msim.md)
 
--   **[Register a new application at Azure portal for Microsoft Teams connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/register-teams-app-msim.md)**  
+-   **[Register an application at Azure portal for Microsoft Teams connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/register-teams-app-msim.md)**  
 Register a new application at Azure portal for Microsoft Teams integration and grant access to the Azure app.
 -   **[Configure Microsoft Teams connection with Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-teams-msim.md)**  
 Set up Major Security Incident Management with Microsoft Teams connection.

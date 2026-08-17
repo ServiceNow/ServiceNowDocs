@@ -24,6 +24,10 @@ When the configuration items listed in the Affected CIs related list have an ass
 
 You can choose an **Asset action** for the CI, from the Affected CI related list. This **Asset action** field provides three possible actions that can be selected which triggers an event.
 
+-   **Deploy**: Triggers the **sn\_hamp.asset.deploy** event, which sets the asset to its deployed state.
+-   **Update/Repair**: No event is triggered, and the asset status is unchanged.
+-   **Retire**: Triggers the **sn\_hamp.asset.retire** event. If the asset isn't already retired, the action sets the asset status to **In Stock** and the substatus to **Pending Disposal**. If the asset is already retired, the status is unchanged.
+
 **Note:** The **Asset action** column can be added to the Affected CI related list if not already available.
 
 When a change request is in the **Implement** state, the proposed asset action triggers the corresponding event. When the workflow is complete, the asset action updates the asset and the related records and progresses to the **Review** state.

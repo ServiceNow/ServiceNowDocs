@@ -1,6 +1,6 @@
 ---
 title: Apache web server discovery
-description: Discovery identifies and classifies information about Apache web servers on both Windows and Linux computers.Discovery uses SSH to find Apache connectors mod\_jk and mod\_proxy.For an Apache web server the Unix - Active Processes probe requires sudo privileges.The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.The Apache mod\_proxy module implements a proxy, gateway, or cache for the Apache web server.
+description: Discovery identifies and classifies information about Apache web servers on both Windows and Linux computers.Discovery uses SSH to find Apache connectors mod\_jk and mod\_proxy.The Unix - Active Processes probe requires sudo privileges on Apache web servers.The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.The Apache mod\_proxy module implements a proxy, gateway, or cache for the Apache web server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoApacheWebServers.html
 release: zurich
@@ -125,7 +125,7 @@ In addition to data population, the following relationships are created in the C
 
 ## Legacy: Add sudo access for the Unix - Active Processes probe
 
-For an Apache web server the Unix - Active Processes probe requires sudo privileges.
+The Unix - Active Processes probe requires sudo privileges on Apache web servers.
 
 ### Before you begin
 
@@ -141,11 +141,11 @@ You can configure the Unix - Active Processes probe to elevate privileges.
 
 2.  In the **Search** field, search for Unix - Active Processes.
 
-3.  Click field, search for Unix - Active Processes probe.
+3.  Select the **Unix - Active Processes** link from the table.
 
-4.  In the **Probe Parameters** related list, click**New**.
+4.  In the **Probe Parameters** related list, select **New**.
 
-5.  Click **New**
+5.  Select **New**
 
 6.  Use the following information to fill out the form:
 
@@ -154,7 +154,7 @@ You can configure the Unix - Active Processes probe to elevate privileges.
     |Name|must\_sudo|
     |Value|true|
 
-7.  Click **Submit**
+7.  Select **Submit**.
 
 
 ## Data collected by Mod\_jk module

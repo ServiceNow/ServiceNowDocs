@@ -38,9 +38,15 @@ New change tasks can be created when a change is copied. If your change record h
 
 2.  Open the change request that you want to copy.
 
-3.  Edit values on the newly created change record, as appropriate.
+    The Copy Change option is available from the form, and not from the list view.
 
-4.  Select **Submit** to create a new change request record.
+3.  In the change request form header, select the Additional Actions menu icon \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change**.
+
+    A preview of the new change record appears with values from the original source change record.
+
+4.  Edit values on the newly created change record, as appropriate.
+
+5.  Select **Submit** to create a new change request record.
 
 
 ## What to do next

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Script include, project summary header and footer]
-breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Configure, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Update the project insights header and footer of email
@@ -19,7 +19,7 @@ Use the script include to modifying the email template for project summary.
 
 ## Before you begin
 
-Verify that Now Assist for SPM is installed and project insights generation skill is active.
+Verify that ServiceNow Otto for SPM is installed and project insights generation skill is active.
 
 Role required: admin
 
@@ -45,4 +45,6 @@ Role required: admin
 
     On completion, the project summary email template is customized with the header and footer.
 
+
+**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
 

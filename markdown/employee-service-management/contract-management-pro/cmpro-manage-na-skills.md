@@ -1,20 +1,20 @@
 ---
 title: Managing skills for Now Assist in Contract Management
-description: Update the Now Assist skills by modifying, deactivating, or deleting use cases, their associated fields, and other mappings.
+description: Update the AI skills by modifying, deactivating, or deleting use cases, their associated fields, and other mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-manage-na-skills.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Managing skills for Now Assist in Contract Management
 
-Update the Now Assist skills by modifying, deactivating, or deleting use cases, their associated fields, and other mappings.
+Update the AI skills by modifying, deactivating, or deleting use cases, their associated fields, and other mappings.
 
 -   **[Manage use cases for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-manage-use-cases.md)**  
 Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.

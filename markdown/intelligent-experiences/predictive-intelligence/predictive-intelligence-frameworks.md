@@ -7,7 +7,7 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
 breadcrumb: [Explore Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
@@ -44,7 +44,7 @@ The clustering framework uses a workflow clustering solution. For more informati
 
 ## Deprecated in the Washington DC release: Predictive Intelligence regression framework
 
-**Important:** Support for creating new regression solutions was removed in the Washington DC release. You can train and edit existing solutions, but you can't create new ones. This information is provided for legacy context.
+**Note:** Support for creating new regression solutions was removed in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context.
 
 Regression is a machine-learning framework that uses historic data to predict numeric outputs, such as a temperature or a stock price.
 

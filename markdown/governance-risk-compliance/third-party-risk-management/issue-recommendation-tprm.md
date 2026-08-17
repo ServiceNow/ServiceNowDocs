@@ -1,31 +1,33 @@
 ---
 title: TPRM issue recommendation skill
-description: The issue recommendation skill in Now Assist for Third-party Risk Management \(TPRM\) uses generative AI to suggest potential issues based on historical assessment data, helping assessors and reviewers identify relevant risks more efficiently while retaining control over which issues are created.
+description: The issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses generative AI to suggest potential issues based on historical assessment data, helping assessors and reviewers identify relevant risks more efficiently while retaining control over which issues are created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/issue-recommendation-tprm.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Exploring, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
+breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # TPRM issue recommendation skill
 
-The issue recommendation skill in Now Assist for Third-party Risk Management \(TPRM\) uses generative AI to suggest potential issues based on historical assessment data, helping assessors and reviewers identify relevant risks more efficiently while retaining control over which issues are created.
+The issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses generative AI to suggest potential issues based on historical assessment data, helping assessors and reviewers identify relevant risks more efficiently while retaining control over which issues are created.
 
 ## Overview of issue recommendations
 
 Third-party assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] can use TPRM issue recommendations review completed third-party assessments after questionnaire responses are submitted. The TPRM issue recommendation skill analyzes historical issues created from all assessments, along with historical Smart Assessment and Classic assessment questions and responses, to generate suggested issues when semantically similar questions exist and the intended meaning of the answers is consistent.
 
+**Note:** The skill can identify a question-and-answer pair as a potential issue only if a similar question-and-answer pair was previously flagged as an issue in the historical data.
+
 For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md) and [Create or dismiss issues using recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.md).
 
 ## Benefits of issue recommendations
 
--   Generates potential issues based on intention from historic questions and answers.
+-   Generates potential issues based on intention from historical questions and answers.
 -   Helps reviewers focus on relevant risks without reanalyzing every assessment response from scratch.
 -   Supports consistent issue identification across all assessments while preserving human judgment.
 
@@ -45,7 +47,7 @@ The following table describes the key elements associated with an issue recommen
 |-------|-----------|
 |Issue description|Summary of the recommended issue generated from historical assessment findings.|
 |Smart assessment question instance|Assessment question associated with the recommended issue.|
-|Types|Source of the historic data. By default, it is from the previous assessments.|
+|Types|Source of the historical data. By default, it is from the previous assessments.|
 |Historical issues|Previously created issues that were used as reference data to generate the recommendation.|
 |Priority|Priority of the historical issue.|
 

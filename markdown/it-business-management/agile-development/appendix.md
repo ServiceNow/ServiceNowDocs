@@ -31,7 +31,7 @@ Agile Development 2.0 offers a few functionality enhancements over Agile Develop
 -   **[Usability enhancements from Agile Development 1.0 to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/usability-enhancements.md)**  
 Agile Development 2.0 offers a few usability enhancements over Agile Development 1.0.
 -   **[Review a utility customization for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/utility-review-customizations.md)**  
-Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\) that are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
+Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\). These artifacts are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
 -   **[List of platform artifacts modified after upgrading to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/list-platform-artifacts.md)**  
 Post migration, you can review the list of artifacts that are modified in Agile Development 2.0.
 

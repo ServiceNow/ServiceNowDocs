@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-syntheticmonitoring-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Create and edit a synthetic monitor](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitor&family=yokohama&ft:locale=en-US)**
+-   **[Create and edit a synthetic monitor](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=yokohama&ft:locale=en-US)**
 
 Create and manage synthetic tests to replicate end-user transactions for critical service endpoints. Configure an alert to activate when a test fails, enabling you to address issues before they impact users.
 
@@ -78,7 +78,7 @@ As of version 1.2, you can:
     -   Test for response text: Validate whether specific content exists in the response body, enabling accurate end-to-end checks.
     -   Run tests from your local Glide instance: Enable closer integration with your instance and reduce the need for external test runners.
     -   Run tests from multiple locations.
--   **[Identifying system issues with synthetic monitoring](https://servicenow-staging.fluidtopics.net/access?context=identifying-system-issues&family=yokohama&ft:locale=en-US)**
+-   **[Identifying system issues with synthetic monitoring](https://www.servicenow.com/docs/access?context=identifying-system-issues&family=yokohama&ft:locale=en-US)**
 
 View the Overview page for a monitor where you can:
 
@@ -94,31 +94,31 @@ Zurich
 
 </td><td>
 
--   **[MID Server support for running synthetic monitors](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
+-   **[MID Server support for running synthetic monitors](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
 
 Run synthetic monitors from your MID Server.
 
--   **[HTTP endpoint creation directly in synthetic monitoring](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+-   **[HTTP endpoint creation directly in synthetic monitoring](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
 
 Create HTTP endpoints for your monitors without leaving the SOW.
 
--   **[Support groups for synthetic monitor-based alerts](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+-   **[Support groups for synthetic monitor-based alerts](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
 
 Assign a support group to a monitor, and then any raised alerts follow the associated alert automation rules.
 
--   **[View all monitors with open alerts](https://servicenow-staging.fluidtopics.net/access?context=identifying-system-issues&family=zurich&ft:locale=en-US)**
+-   **[View all monitors with open alerts](https://www.servicenow.com/docs/access?context=identifying-system-issues&family=zurich&ft:locale=en-US)**
 
 As of 1.4, view all monitors with open alerts.
 
--   **[View alerts associated with a monitor](https://servicenow-staging.fluidtopics.net/access?context=view-alerts-for-a-synthetic-monitor&family=zurich&ft:locale=en-US)**
+-   **[View alerts associated with a monitor](https://www.servicenow.com/docs/access?context=view-alerts-for-a-synthetic-monitor&family=zurich&ft:locale=en-US)**
 
 As of 1.4, navigate to a monitor's open alerts.
 
--   **[Assign tags to a monitor's alerts](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+-   **[Assign tags to a monitor's alerts](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
 
 As of 1.4, use tag-based clustering to group monitor alerts.
 
--   **[Use OAuth-based credentials](https://servicenow-staging.fluidtopics.net/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+-   **[Use OAuth-based credentials](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
 
 As of 1.4, OAuth credentials on endpoints are supported.
 
@@ -229,7 +229,7 @@ Yokohama
 
 </td><td>
 
-Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Yokohama
 
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://servicenow-staging.fluidtopics.net/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
+-   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 
@@ -385,7 +385,7 @@ Yokohama
 -   Get real-time notifications for performance degradations or outages before they impact users.
 -   Visualize synthetic test results and share insights with stakeholders.
 
- See [Synthetic monitoring](https://servicenow-staging.fluidtopics.net/access?context=synthetic-monitoring-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Synthetic monitoring](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -400,7 +400,7 @@ Zurich
 -   As of 1.4, use tags on a monitor's alerts.
 -   As of 1.4, use synthetic monitoring with endpoints that support OAuth credentials.
 
- See [Synthetic monitoring](https://servicenow-staging.fluidtopics.net/access?context=synthetic-monitoring-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Landing page](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

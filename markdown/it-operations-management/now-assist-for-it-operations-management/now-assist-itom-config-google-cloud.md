@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Configure the Google Gemini Cloud Assist agent
@@ -19,9 +19,11 @@ Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant
 
 ## Before you begin
 
+**Important:** As of Zurich Patch 12, the Google Gemini Cloud Assist skill is being prepared for future deprecation. To continue receiving Google Cloud insights, use the analyze alert impact agentic workflow which includes the Gemini Cloud Assist A2A Investigation Agent. For configuration instructions, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
+
 Before configuring the Google Gemini Cloud Assist agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/gcp-events-integration.md)
 -   Download the JSON private key file from your Google Cloud project and gather the following credentials: Google project ID, service account email, and private key ID.
 -   Create a keystore file and password by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-google-translator.md).

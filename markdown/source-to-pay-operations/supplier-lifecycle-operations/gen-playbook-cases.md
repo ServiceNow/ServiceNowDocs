@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -66,7 +66,7 @@ As a supplier manager or fulfiller, you can use this activity to assign the case
     -   Select **Save** to save your changes.
     -   Select **Start work** to start working on the case.
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td rowspan="3">
 
 Close the case record
 
@@ -85,20 +85,31 @@ A draft email appears with pre-populated data in the **To** and **Subject** fiel
 
 </td></tr><tr><td>
 
+Escalate task priority
+
+</td><td>
+
+The supplier manager or fulfiller can use this option only for supplier document related cases, when the following conditions are met:-   case is of the type supplier issue
+-   case has a related task and the task action is of the type Upload document
+-   task state is Awaiting Completion.
+-   a document reference is provided
+
+To escalate the task priority, the supplier manager or fulfiller can select a higher task priority from the Priority dropdown.
+
+</td></tr><tr><td>
+
 Complete case
 
 </td><td>
 
 As a supplier manager or fulfiller, you can update the state of the case and close the case.
 
-You can do the following:
+ You can do the following:
 
--   From the State drop-down list, select **Closed completed**.
+ -   From the State drop-down list, select **Closed completed**.
 -   In the **Work notes** field, provide any additional information about the case.
 -   In the **Close notes** field, enter the details when closing the case.
 -   Select **Complete case**.
-
-Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)

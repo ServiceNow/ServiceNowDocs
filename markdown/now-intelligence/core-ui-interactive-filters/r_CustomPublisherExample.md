@@ -27,9 +27,9 @@ This example details how to create a custom filter to filter reports on the Task
 
 [Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_CreateAContentBlock.md)
 
-[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UIScripts.md)
+[bundle-crapiref.c_UIScripts]
 
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_JellyTags.md)
+[bundle-crapiref.r_JellyTags]
 
 [DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md)
 
@@ -169,7 +169,7 @@ Role required: admin.
 
 4.  In the line you added, make the following substitutions.
 
-<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d43520e450">
+<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d44477e452">
 
 **&lt;Time\_Period\_Name&gt;**
 
@@ -177,7 +177,7 @@ Role required: admin.
 
 A unique name for the time period selected. This string is used internally by the system to identify the option and is set to something that can be descriptive of the time period described.Enter the value `112_Last Fortnight`.
 
-</td></tr><tr><td id="d43520e465">
+</td></tr><tr><td id="d44477e467">
 
 **&lt;Beginning\_Time\_Period&gt;**
 
@@ -185,7 +185,7 @@ A unique name for the time period selected. This string is used internally by th
 
 The specific date and time on which this filter starts. This value can use absolute or relative values. It’s much more common to use a relative value that uses the JavaScript URL syntax.Enter the value `gs.daysAgoStart(14)` to indicate that the time interval for this selection should be exactly two weeks ago.
 
-</td></tr><tr><td id="d43520e480">
+</td></tr><tr><td id="d44477e482">
 
 **&lt;Ending\_Time\_Period&gt;**
 
@@ -193,7 +193,7 @@ The specific date and time on which this filter starts. This value can use absol
 
 The specific date and time on which the time period for this filter option should end. This value can also use absolute or relative values. Similar to the **Beginning\_Time\_Period** this value is usually a relative time period to use the JavaScript URL syntax.Enter the value `gs.daysAgoStart(0)` to indicate that the time period ends at the current date and time.
 
-</td></tr><tr><td id="d43520e498">
+</td></tr><tr><td id="d44477e500">
 
 **&lt;Textual\_Representation\_Of\_Time\_Period&gt;**
 

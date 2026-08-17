@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-itomcloudaccelerate-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Cloud Account Management](https://servicenow-staging.fluidtopics.net/access?context=cam-landing&family=yokohama&ft:locale=en-US)**
+-   **[Cloud Account Management](https://www.servicenow.com/docs/access?context=cam-landing&family=yokohama&ft:locale=en-US)**
 
 Cloud Account Management is the first feature from ITOM Cloud Accelerate in the Cloud Workspace application that brings together ServiceNow cloud solutions in a unified experience as part of the Cloud Governance Suite.
 
@@ -94,11 +94,11 @@ Zurich
 
 </td><td>
 
--   **[Configure a custom catalog ID in Cloud Account Management account request](https://servicenow-staging.fluidtopics.net/access?context=configuring-catalog-ids-in-cam-account-request&family=zurich&ft:locale=en-US)**
+-   **[Configure a custom catalog ID in Cloud Account Management account request](https://www.servicenow.com/docs/access?context=configuring-catalog-ids-in-cam-account-request&family=zurich&ft:locale=en-US)**
 
 Users with the cw\_admin role can set which catalog to use for Cloud Account Management \(CAM\) requests by updating the **sn\_itom\_cam.cam\_catalog\_id** system property. This property is set by default to the base system CAM catalog.
 
--   **[Viewing Cloud Account Management dashboards](https://servicenow-staging.fluidtopics.net/access?context=about-cam-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Viewing Cloud Account Management dashboards](https://www.servicenow.com/docs/access?context=about-cam-dashboard&family=zurich&ft:locale=en-US)**
 
 Access the Compliance dashboard, Overview page, and Cloud assets dashboard through the Cloud Asset Explorer section in the new **Monitor and Track** tab.
 
@@ -110,11 +110,11 @@ Access the Compliance dashboard, Overview page, and Cloud assets dashboard throu
         -   Governance and operations teams can monitor, track, and act on compliance and asset details through the Cloud assets dashboard.
         -   Identify missing ownership information for accounts to support accountability and audit readiness.
         -   Asset viewers can drill down to view detailed information for each configuration item \(CI\).
--   **[Viewing the home page](https://servicenow-staging.fluidtopics.net/access?context=view-home-page&family=zurich&ft:locale=en-US) in Cloud Account Management**
+-   **[Viewing the home page](https://www.servicenow.com/docs/access?context=view-home-page&family=zurich&ft:locale=en-US) in Cloud Account Management**
     -   Visualize growth trends across cloud providers with a time-based graph showing account activity.
     -   Leverage direct access to Cloud Discovery Workspace and Cloud Cost Management from the dashboard.
     -   Use filters like cloud provider and business unit to refine the dashboard view for tailored insights.
--   **[Cloud Provisioning and Governance](https://servicenow-staging.fluidtopics.net/access?context=cloud-management-v2-landing-page&family=zurich&ft:locale=en-US)**
+-   **[Cloud Provisioning and Governance](https://www.servicenow.com/docs/access?context=cloud-management-v2-landing-page&family=zurich&ft:locale=en-US)**
 
 The legacy workflows are no longer supported starting with the Zurich release. You can continue using existing custom workflows and deprecated base system workflows but use the new base system Flows for all future needs. In the Zurich release, the Cloud resource operation request and Blueprint request workflows have been migrated to subflows.
 
@@ -138,7 +138,7 @@ Xanadu
 
 </td><td>
 
--   **Enhanced [Cloud Services Catalog](https://servicenow-staging.fluidtopics.net/access?context=csc-home&family=xanadu&ft:locale=en-US) Cloud Services Catalog experience**
+-   **Enhanced [Cloud Services Catalog](https://www.servicenow.com/docs/access?context=csc-home&family=xanadu&ft:locale=en-US) Cloud Services Catalog experience**
 
 Improved the hierarchical structure of multiple repositories with the support of Terraform Connector IaC discovery capabilities.
 
@@ -151,9 +151,9 @@ Yokohama
 
 </td><td>
 
--   **[Cloud Provisioning and Governance: Terraform Connector](https://servicenow-staging.fluidtopics.net/access?context=cpg-terraform-connector-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Cloud Provisioning and Governance: Terraform Connector](https://www.servicenow.com/docs/access?context=cpg-terraform-connector-landing-page&family=yokohama&ft:locale=en-US)**
 
-Cloud Provisioning and Governance: Terraform Connector has been renamed
+Cloud Provisioning and Governance: Terraform Connector has been renamed Cloud Services Catalog Terraform Connector
 
 
 </td></tr><tr><td>
@@ -260,9 +260,9 @@ Xanadu
 
 The ITOM Cloud Accelerate features are available as an application with the activation of the Cloud Accelerate plugin, which requires a Cloud Governance subscription. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement.
 
- The [https://servicenow.com/docs/bundle/xanadu-it-operations-management/page/product/cloud-services-catalog/concept/csc-home.html](https://servicenow.com/docs/bundle/xanadu-it-operations-management/page/product/cloud-services-catalog/concept/csc-home.html) application is available with the [ITOM Cloud Accelerate](https://servicenow.com/docs/csh?topicname=cloud-governance&version=xanadu&pubname=xanadu-it-operations-management) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
+ The [Cloud Services Catalog](https://www.servicenow.com/docs/access?context=csc-home&family=xanadu&ft:locale=en-US) application is available with the [ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=cloud-governance&version=xanadu) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
 
- You must have Employee Center as a prerequisite to launch and use the [Cloud Service Catalog](https://servicenow.com/docs/csh?topicname=csc-home&version=xanadu&pubname=xanadu-it-operations-management) application.
+ You must have Employee Center as a prerequisite to launch and use the [Cloud Service Catalog](https://www.servicenow.com/docs/access?context=csc-home&version=xanadu) application.
 
 </td></tr><tr><td>
 
@@ -270,7 +270,7 @@ Yokohama
 
 </td><td>
 
-The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), which is available on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://servicenow-staging.fluidtopics.net/access?context=request-plugin-cloud-mgt&family=yokohama&ft:locale=en-US).
+The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), which is available on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -278,7 +278,7 @@ Zurich
 
 </td><td>
 
-The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://servicenow-staging.fluidtopics.net/access?context=request-plugin-cloud-mgt&family=zurich&ft:locale=en-US).
+The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -451,7 +451,7 @@ Xanadu
 -   Use the multiple repositories structure with the Terraform app and Infrastructure as Code \(IaC\) Discovery.
 -   Access and manage your cloud resources and publish your cloud offerings to a catalog by using the added features in the ServiceNow Cloud Services Catalog user interface.
 
- See [ITOM Cloud Accelerate](https://servicenow-staging.fluidtopics.net/access?context=itom-governance-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=itom-governance-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -466,7 +466,7 @@ Cloud Workspace highlights:
 
 Performance enhancements for the predefined catalog items in CSC Content Pack.
 
-See [Cloud Governance](https://servicenow-staging.fluidtopics.net/access?context=cloud-governance&family=yokohama&ft:locale=en-US) for more information.
+See [Cloud Governance](https://www.servicenow.com/docs/access?context=cloud-governance&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -480,7 +480,7 @@ Zurich
 -   Ability to view cloud assets and access detailed information about associated configuration items \(CIs\).
 -   Migrated legacy workflows to subflows in Cloud Provisioning and Governance.
 
- See [Cloud Governance](https://servicenow-staging.fluidtopics.net/access?context=cloud-governance&family=zurich&ft:locale=en-US) for more information.
+ See [Cloud Governance](https://www.servicenow.com/docs/access?context=cloud-governance&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

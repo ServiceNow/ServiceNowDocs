@@ -26,9 +26,9 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Navigate to **RIDAC** &gt; **RIDAC by Type**.
 
@@ -58,9 +58,9 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
 
 7.  Select the RIDAC record and select **Export** to download RIDAC record as an Excel or CSV file.
 
-    For more information on export RIDAC, see [Export RIDAC data from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-ridac-pw.md).
+    For more information on export RIDAC, see [Export RIDAC data from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-ridac-pw.md).
 
-8.  From RIDAC by type page, select Convert to RIDAC \(\[Omitted image "convert-to-ridac-icon.png"\] Alt text: convert to RIDAC icon.\) icon to convert a RIDAC record to another record.
+8.  From RIDAC by type page, select Convert to RIDAC \(\[Omitted image "convert-to-ridac-icon.png"\] Alt text:\) icon to convert a RIDAC record to another record.
 
     For more information, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/convert-ridac-project-workspace.md).
 
@@ -70,7 +70,7 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
 **Related topics**  
 
 
-[Export RIDAC data from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-ridac-pw.md)
+[Export RIDAC data from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-ridac-pw.md)
 
 [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/convert-ridac-project-workspace.md)
 

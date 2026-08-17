@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Update set integration

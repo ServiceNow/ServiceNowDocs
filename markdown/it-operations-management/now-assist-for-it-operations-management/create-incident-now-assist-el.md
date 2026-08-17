@@ -1,6 +1,6 @@
 ---
-title: Create an incident from an alert with Now Assist in Express List
-description: Create an incident with a human-readable, AI-generated description from the Express List pane by using Now Assist.
+title: Create an incident from an alert with ServiceNow Otto in Express List
+description: Create an incident with a human-readable, AI-generated description from the Express List pane by using ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/create-incident-now-assist-el.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Generative AI for IT Operations Management, generative AI for ITOM, create an incident, alert, Express List, Now Assist]
-breadcrumb: [Use generative AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Create an incident from an alert with Now Assist in Express List
+# Create an incident from an alert with ServiceNow Otto in Express List
 
-Create an incident with a human-readable, AI-generated description from the Express List pane by using Now Assist.
+Create an incident with a human-readable, AI-generated description from the Express List pane by using ServiceNow Otto.
 
 ## Before you begin
 
-**Note:** Currently, Now Assist for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
 Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
@@ -39,10 +39,10 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
         \[Omitted image "alert-actions-tool-tip.png"\] Alt text: Alert actions drop down arrow
 
-    3.  Under **Response actions**, select **Create Incident with Now Assist**.
+    3.  Under **Response actions**, select **Create Incident with ServiceNow Otto**.
 
     An incident with a human-readable, AI-generated description is created from the selected alert and a confirmation message is displayed.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

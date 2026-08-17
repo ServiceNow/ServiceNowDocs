@@ -26,7 +26,7 @@ Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Knowledge 
 -   How to complete the Data Import Task: This article provides step-by-step instructions on how to complete your data import task successfully.
 -   Customer Success Management PAD Activities Overview: This article provides an overview of the nine Playbooks activity definitions used to create the activities inside the Customer Success Management playbook.
 -   A Consumer's Guide to Installing Service Bridge and Registering with Providers: This article provides instructions on how to configure the Service Bridge application on the consumer instance and how consumers can register their instances with a provider.
--   How to configure Customer Success Management data import task: This article describes the steps required to configure the Customer Success Management data import tasks so that the agents can successfully gather and upload the information needed to onboard the account.
+-   How to configure Customer Success Management data import task: This article describes the steps required to configure the Customer Success Management data import tasks. The configuration enables agents to successfully gather and upload the information needed to onboard the account.
 
 **Note:** All customers can view these knowledge base articles. If you want to restrict, access to an article, navigate to the article and in the Cannot Read field, select the user role who won’t be able to access the article.
 

@@ -16,7 +16,7 @@ Use the Customer Contracts and Entitlements application to configure and display
 
 ## Activate Customer Contracts and Entitlements
 
-As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see .
+As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_yct_wrv_4zb"><thead><tr><th>
 
@@ -91,5 +91,5 @@ For more information on the installed roles and tables, see [Components installe
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

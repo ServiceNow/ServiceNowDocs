@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-10-28"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # View an error analysis by Now Assist in Agent Client Collector
@@ -35,5 +35,5 @@ Role required: agent\_client\_collector\_admin
     Now Assist retrieves information on errors within agents.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

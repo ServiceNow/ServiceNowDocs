@@ -28,7 +28,7 @@ A search source defines a subset of indexed content that users can search using 
 Search profiles define search sources and settings for linguistic search query features. Each search profile represents an individual search experience that you want to offer users in a supported ServiceNow AI Platform® application.
 -   **[Enable AI Search in supported ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-now-platform-apps-ais.md)**  
 Provide multiple search entry points across your organization by enabling AI Search as the search engine for search applications. The base system enables AI Search as the search engine for global and workspace search, Customer Service Management, Now Mobile, Service Portal, and Virtual Agent.
--   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/generate_multicontent_sythesized-sources.md)**  
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/generate-multi-content-synthesized-sources.md)**  
 Multi-content source synthesis lets AI Search gather and combine information from any indexed source in your system to provide comprehensive AI-generated responses to your questions.
 -   **[Provide users with powerful and flexible search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-features-search-ais.md)**  
 AI Search includes search features that help users find the answers they need.
@@ -44,7 +44,7 @@ AI Search supports indexing and search for all languages offered by the ServiceN
 AI Search is the default search engine for Unified Navigation searches in Next Experience, including global search and configurable workspace search.
 -   **[Deflect incidents in Service Portal with the AI Search Assist widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-ais-assist-widget.md)**  
 Improve incident deflection for Service Portal users by displaying the most relevant search results within a record producer.
--   **[Search result disparities between AI Search and Now Assist search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
+-   **[Search result disparities between AI Search and ServiceNow Otto search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
 The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. It occurs because each tool uses a different approach and architecture to find results and generate answers that match your search.
 
 **Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/overview-ais.md)

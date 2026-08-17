@@ -24,7 +24,7 @@ Specification relationships define the relationships and associations between th
 
 **Note:** The target product, service, or resource specification you select in the **Target Specification** field can be in any state, including a Draft state. The selected specification does not have to be published before selecting it in this field.
 
-You can also select the characteristic options of the quantity characteristic for the specification relationship to provide the quantity of the target specifications. The order decomposition process refers to the mapped quantity to decompose the order for the source specification and creates the required number of domain orders for the target specification.
+You can also select the characteristic options of the quantity characteristic for the specification relationship to provide the quantity of the target specifications. The order decomposition process uses the mapped quantity to decompose the order for the source specification. It then creates the required number of domain orders for the target specification.
 
 Optionally, you can create decomposition rules for the selected source and target specification relationships. The specification relationships can have product, service, or resource specifications as the source specifications.
 

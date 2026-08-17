@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-walkupexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -191,7 +191,7 @@ Zurich
 
 </td><td>
 
-Walk-up Experience is a ServiceNow AI Platform feature that is available with activation of the Walk-up Experience plugin \(com.snc.walkup\). For details, see [Activate](https://servicenow-staging.fluidtopics.net/access?context=activate-walkup-experience&family=zurich&ft:locale=en-US).
+Walk-up Experience is a ServiceNow AI Platform feature that is available with activation of the Walk-up Experience plugin \(com.snc.walkup\). For details, see [Activate](https://www.servicenow.com/docs/access?context=activate-walkup-experience&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -338,7 +338,7 @@ Zurich
 
 Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
 
- See [Walk-up Experience](https://servicenow-staging.fluidtopics.net/access?context=walkup-experience-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Walk-up Experience](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

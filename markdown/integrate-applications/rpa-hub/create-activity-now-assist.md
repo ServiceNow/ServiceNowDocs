@@ -1,6 +1,6 @@
 ---
-title: Create an activity with Now Assist
-description: Create activities from text instructions and preview options by using the Now Assist for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
+title: Create an activity with AI
+description: Create activities from text instructions and preview options by using AI. Activities provide modularity to an automation project in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/create-activity-now-assist.html
 release: zurich
@@ -10,26 +10,26 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Use, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Create an activity with Now Assist
+# Create an activity with AI
 
-Create activities from text instructions and preview options by using the Now Assist for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
+Create activities from text instructions and preview options by using AI. Activities provide modularity to an automation project in RPA Desktop Design Studio.
 
 ## Before you begin
 
 Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
+To access the AI features in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
-If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
+If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-bot-generation.md).
+Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-bot-generation.md), [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md), and [Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/example-instructions-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
@@ -43,7 +43,7 @@ Each activity contains two components by default: Start and End. These component
 
 You can reuse each activity multiple times within the same automation project by dragging the activity to the Design surface. You can also import activities in different automation projects.
 
-To create an activity manually, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
+To create an activity manually, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
 
 ## Procedure
 
@@ -53,21 +53,19 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     \[Omitted image "example-activity-screen.png"\] Alt text: Main activity is displayed in the RPA Desktop Design Studio when a new project is initiated.
 
-2.  In the Project Explorer pane, right-click **Activities** and select **New activity using Now Assist**.
+2.  In the Project Explorer pane, right-click **Activities** and select **New activity using AI**.
 
     \[Omitted image "create-activity-now-assist-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the New activity using the Now Assist option.
 
-3.  In the New activity window, enter the Now Assist instructions.
+3.  In the New activity window, enter the AI instructions.
 
     The instruction text is used by the RPA bot generation skill to create your automation. Use short, direct, and clear sentences to describe the expected actions. Be specific and provide detailed descriptions of the automation logic. Avoid jargon and abbreviations.
 
-    The following example shows that the Now Assist instructions are provided to build an automation to trigger a flow designer, retrieve the output, and insert it into an existing Microsoft Word document.
-
-    \[Omitted image "new-activity-directions.png"\] Alt text: New activity window that shows the instructions that are used by Now Assist to generate an automation workflow.
+    \[Omitted image "new-activity-directions.png"\] Alt text: New activity window that shows the instructions that are used by AI to generate an automation workflow.
 
     **Note:**
 
-    For more information on example instructions and general guidelines for writing Now Assist instructions, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md).
+    For more information on example AI instructions and general guidelines, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md).
 
 4.  Select **Generate preview**.
 
@@ -81,31 +79,31 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     \[Omitted image "new-activity-options.png"\] Alt text: New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d606824e358">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d599023e352">
 
 Option
 
-</th><th align="left" id="d606824e361">
+</th><th align="left" id="d599023e355">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d606824e367">
+</th></tr></thead><tbody><tr><td id="d599023e361">
 
 **Regenerate preview**
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+If the generated automation preview doesn’t meet your needs, you can update the AI instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d606824e394">
+</td></tr><tr><td id="d599023e379">
 
 **Clear**
 
 </td><td>
 
-If you want to clear the workflow that was created by the Now Assist instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
+If you want to clear the workflow that was created by the AI instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d606824e412">
+</td></tr><tr><td id="d599023e394">
 
 **Cancel**
 
@@ -113,13 +111,13 @@ If you want to clear the workflow that was created by the Now Assist instruction
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d606824e429">
+</td></tr><tr><td id="d599023e411">
 
 **Add activity**
 
 </td><td>
 
-If the automation preview looks good, select **Add activity**.**Important:** The automation is generated by Now Assist. Be sure to check it for accuracy and make any edits before running.
+If the automation preview looks good, select **Add activity**.**Important:** The automation is generated by AI. Be sure to check it for accuracy and make any edits before running.
 
 Close the displayed message for a clearer view.
 
@@ -133,5 +131,7 @@ The automation flow is added as a New Activity in Activities.
 
 ## What to do next
 
-For more actions on the activity, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
+For more actions on the activity, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
+
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-build.md)
 

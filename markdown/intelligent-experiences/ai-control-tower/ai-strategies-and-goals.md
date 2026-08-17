@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI strategies and goals
@@ -30,5 +30,5 @@ With Strategic Planning, you can track and monitor the progress of your strategi
 
 With Goal Framework, you can track and monitor the progress of your strategic priorities and goals classified as Artificial Intelligence in the Goal Framework application. For details, see [Managing goals using Goal Framework or Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/defining-goals-using-goal-framework.md).
 
-With PPM Standard, you can track and monitor the risks, issues, decisions, actions, and changes of your projects classified as Artificial Intelligence in Project Management or Project Workspace, or the primary goal or strategic priority associated with projects and categorized as Artificial Intelligence in Goal Framework or Strategic Planning Workspace. For details, see [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-project-from-project-workspace.md) and [Add a RIDAC record to a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/add-risk-project-project-workspace.md).
+With PPM Standard, you can track and monitor the risks, issues, decisions, actions, and changes of your projects classified as Artificial Intelligence in Project Management or Project Workspace, or the primary goal or strategic priority associated with projects and categorized as Artificial Intelligence in Goal Framework or Strategic Planning Workspace. For details, see [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-project-from-project-workspace.md) and [Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/add-risk-project-project-workspace.md).
 

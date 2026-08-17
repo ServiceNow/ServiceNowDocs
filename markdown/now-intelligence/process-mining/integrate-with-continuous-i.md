@@ -37,7 +37,7 @@ Integration with Continual Improvement Management doesn’t add any additional r
 
 [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cim-landing-page.md)
 
-[Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/request-cim.md)
+[bundle-itsm.request-cim]
 
 ## Launch Process Mining from CIM
 
@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d102004e216">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d103809e217">
 
 From where
 
-</th><th align="left" id="d102004e219">
+</th><th align="left" id="d103809e220">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102004e225">
+</th></tr></thead><tbody><tr><td id="d103809e226">
 
 **Continual Improvement Workbench**
 
@@ -73,7 +73,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d102004e276">
+</td></tr><tr><td id="d103809e277">
 
 **Improvement Initiative**
 

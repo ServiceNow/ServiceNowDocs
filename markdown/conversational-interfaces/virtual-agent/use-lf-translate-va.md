@@ -26,11 +26,13 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Select the **NLU** toggle, and open the topic that you want to translate.
+2.  Select the **Asset library** tab.
 
-3.  Select the **Languages** tab.
+3.  Select the **NLU/Keyword** discovery type toggle, and open the topic that you want to translate.
+
+4.  Select the **Languages** tab.
 
     Only languages that are installed and activated are displayed. To learn how to activate localization plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateALanguage.md).
 
@@ -38,15 +40,15 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "va-languages-tab-no-nlu.png"\] Alt text: The Languages tab displays English as the primary language, with Brazilian Portuguese and Simplified Chinese languages available for translation.
 
-4.  Do one of the following:
+5.  Do one of the following:
 
     -   Request translation:
         1.  Select the applicable check boxes, and then click **Request translations**.
         2.  When prompted, confirm your choice.
 
-            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
+            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/fulfill-localization-task.md).
 
-    -   [Edit translations directly in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
+    -   [Edit translations directly in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
 
 ## Result
 

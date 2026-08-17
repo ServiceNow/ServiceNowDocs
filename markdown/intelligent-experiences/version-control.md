@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/version-control.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # Version control for AI agents and agentic workflows
@@ -28,7 +28,7 @@ You can choose to make the new version active immediately by selecting the **Set
 
 For more information about writing effective descriptions and instructions, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gg-creating-aia.md).
 
-When creating a new version, you also have the option to use Now Assist to refine your current **List of steps**. You must already have an active version for this option to be available. Selecting **View versions** &gt; **Refine version** brings up the modal where Now Assist generates and displays a new **List of steps** for you to review. You can change any of the generated text, or you can use it as it was generated. Select **Create** to use the new, refined version.
+When creating a new version, you also have the option to use ServiceNow Otto to refine your current **List of steps**. You must already have an active version for this option to be available. Selecting **View versions** &gt; **Refine version** brings up the modal where ServiceNow Otto generates and displays a new **List of steps** for you to review. You can change any of the generated text, or you can use it as it was generated. Select **Create** to use the new, refined version.
 
 \[Omitted image "version-create.png"\] Alt text: Create a new version modal
 

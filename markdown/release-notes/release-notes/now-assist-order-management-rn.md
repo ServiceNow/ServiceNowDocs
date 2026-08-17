@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Order Management release notes
-description: The ServiceNow Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Zurich release.
+title: ServiceNow Otto for Order Management release notes
+description: The ServiceNow ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2026-01-30"
 reading_time_minutes: 6
 ---
 
-# Now Assist for Order Management release notes
+# ServiceNow Otto for Order Management release notes
 
-The ServiceNow® Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Zurich release.
+The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Zurich release.
 
-## Now Assist for Order Management highlights for the Zurich release
+## ServiceNow Otto for Order Management highlights for the Zurich release
 
 [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
 
@@ -29,11 +29,11 @@ The ServiceNow® Now Assist for Order Management application brings platform AI 
 -   Enable B2B customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
 -   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make the next steps easier and improving productivity.
 
-See [Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-order-management.md) for more information.
+See [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-order-management.md) for more information.
 
-**Important:** Now Assist for Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Order Management features
+## ServiceNow Otto for Order Management features
 
 [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
 
@@ -92,12 +92,12 @@ See [Now Assist for Order Management](https://raw.githubusercontent.com/ServiceN
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 ## Activation information
 
-Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the ServiceNow® Application Manager. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+Request the ServiceNow Otto for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the ServiceNow® Application Manager. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
 ## Plugin information
 
@@ -122,19 +122,19 @@ Starting with the Zurich release, RMA Case Management for Sales Customer Relatio
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    Use the Now Assist Admin console to provide you with quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

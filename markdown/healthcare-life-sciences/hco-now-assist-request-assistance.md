@@ -1,18 +1,18 @@
 ---
 title: Request care team assistance agentic workflow
-description: Initiate a structured case intake process. Collecti all necessary information to create and log a support case for proper tracking and resolution by using the Request care team assistance agentic workflow in Now Assist for Virtual Agent.
+description: Initiate a structured case intake process. Collect all necessary information to create and log a support case for proper tracking and resolution by using the Request care team assistance agentic workflow in ServiceNow Otto for Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/hco-now-assist-request-assistance.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Agentic AI in Now Assist for Healthcare Operations, Now Assist for Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Using Agentic AI in ServiceNow Otto for Care Team Operations, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
 # Request care team assistance agentic workflow
 
-Initiate a structured case intake process. Collecti all necessary information to create and log a support case for proper tracking and resolution by using the **Request care team assistance** agentic workflow in Now Assist for Virtual Agent.
+Initiate a structured case intake process. Collect all necessary information to create and log a support case for proper tracking and resolution by using the **Request care team assistance** agentic workflow in ServiceNow Otto for Virtual Agent.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ The following Care Team Operations plugins contain the case types for this agent
 
 ## Procedure
 
-1.  In Care Team Portal or Care Team Mobile, select the chat widget button to open **Now Assist** in Virtual Agent.
+1.  In Care Team Portal or Care Team Mobile, select the chat widget button to open **ServiceNow Otto for Virtual Agent**.
 
 2.  Select **Request care team assistance**.
 

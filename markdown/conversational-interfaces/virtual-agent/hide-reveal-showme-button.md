@@ -28,35 +28,37 @@ By default, the greeting portion of a Virtual Agent conversation includes a **Sh
 
 1.  Use either of the following methods, depending on whether you are working with LLM or NLU topics.
 
-<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d137680e85">
+<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d146591e85">
 
 Topic discovery type
 
-</th><th align="left" id="d137680e88">
+</th><th align="left" id="d146591e88">
 
 Method
 
-</th></tr></thead><tbody><tr><td id="d137680e94">
+</th></tr></thead><tbody><tr><td id="d146591e94">
 
 **LLM**
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Virtual agent** &gt; **Designer**.
-2.  Select one of the default greeting topics used in LLM topic discovery such as **Now Assist - Greeting** or **Now Assist Panel - Greeting**.
-3.  On the **flow** tab, select the **Send skill picker** Script action utility node.
-4.  In the **Action expression** property, open the script field.
-5.  Input the following script.
+1.  Navigate to **All** &gt; **Assistant Designer**.
+2.  Select the **Asset library** tab.
+3.  Set the topic discovery type toggle switch to **LLM**.
+4.  Select one of the default greeting topics used in LLM topic discovery such as **Now Assist - Greeting** or **Now Assist Panel - Greeting**.
+5.  On the **flow** tab, select the **Send skill picker** Script action utility node.
+6.  In the **Action expression** property, open the script field.
+7.  Input the following script.
 
     ```
 var hideShowMeEverything = String(vaInputs.now_assist_topics_skill_active_value.value) === "false";
     ```
 
-6.  In the script window, select **Save**.
-7.  On the Flow tab, select **Save**.
+8.  In the script window, select **Save**.
+9.  On the Flow tab, select **Save**.
 
 
-</td></tr><tr><td id="d137680e166">
+</td></tr><tr><td id="d146591e175">
 
 **NLU**
 

@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Review alert-related logs on the Log Viewer, Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Review alert-related logs on the Log Viewer, Log Analytics in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # View log data for an alert in Health Log Analytics
@@ -41,7 +41,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_admin
 
 Use additional features on the Log Viewer to refine your search or define alerts.
 
--   Modify the search query to fine-tune the search and save useful searches. See [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
+-   Modify the search query to fine-tune the search and save useful searches. See [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
 -   If you discover important relationships in the log data, select **Define alert** to define the kind of alert that should be triggered by the data. See [Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md) for instructions.
 
 **Parent Topic:**[Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)

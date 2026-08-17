@@ -1,17 +1,17 @@
 ---
-title: Using Now Assist in portal case form
+title: Using generative AI in portal case form
 description: Guide requesters through a self-service flow to find solutions to their problems using Genius Results and reduce the number of cases created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Using Virtual Agent in service portals, Automate and optimize, Use, Customer Service Management]
 ---
 
-# Using Now Assist in portal case form
+# Using generative AI in portal case form
 
 Guide requesters through a self-service flow to find solutions to their problems using Genius Results and reduce the number of cases created.
 
@@ -32,25 +32,25 @@ Guided Flow for Case Creation
 
     -   A single Subject field appears. Start entering your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 
-        **Note:** You can also search for public content in the portal and get the search results from within the Now Assist genius result. The source of the search results is available as internal or external with the links to it.
+        **Note:** You can also search for public content in the portal and get the search results from within the generative AI genius result. The source of the search results is available as internal or external with the links to it.
 
 2.  Review Results:
 
     -   If no genius results are found, related content is shown.
     -   If no results are found, a message appears: There’s not enough description for AI to find the results. Try using different keywords or another sentence.
-    **Note:** Genius result configuration: The behavior of Now Assist results depends on the selected genius result configuration.
+    **Note:** Genius result configuration: The behavior of generative AI results depends on the selected genius result configuration.
 
-    -   When configured for Now Assist Q&amp;A, the system generates a direct answer based on your query and displays relevant sources below the response.
+    -   When configured for the Q&amp;A, the system generates a direct answer based on your query and displays relevant sources below the response.
     -   When configured for multi-content response, the system follows the same response flow as Q&amp;A and includes additional features for displaying multiple content types in a single result.
         -   Response text includes the inline citations that correspond directly to the sources listed in the **Sources** section. The citations appear as numbered references — for example, \[1\] and \[2\] — and map to sources in the order they appear in the list. You can select a source to view the referenced content.
-        -   You can access the Virtual Agent chat interface by selecting the chat icon under **Sources**. The Virtual Agent provides contextual follow-up questions to help resolve requests. Ensure that **Now Assist Actions** genius result configuration is setup to see this.
+        -   You can access the Virtual Agent chat interface by selecting the chat icon under **Sources**. The Virtual Agent provides contextual follow-up questions to help resolve requests. Make sure that **Now Assist Actions** genius result configuration is setup to see this.
 3.  Take Action:
     -   If you find a solution to your query, select the **Cancel** button to return to the home page.
-    -   If no results are found or you’re not satisfied with the result, select the **Ask Now Assist** button, to open a contextual chat window in the Now Assist in Virtual Agent for additional help.
+    -   If no results are found or you’re not satisfied with the result, select the **Ask** ServiceNow Otto button, to open a contextual chat window in Virtual Agent for additional help.
 
         **Note:**
 
-        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+        Enable enhanced chat experience from the generative AI in Virtual Agent guided setup for the feature to work. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
     -   If no relevant results are found, select **Continue with case creation** to proceed. This action enables the **Submit** button and shows the additional fields needed to complete the case form.
     -   Select **Submit** to create a record case.

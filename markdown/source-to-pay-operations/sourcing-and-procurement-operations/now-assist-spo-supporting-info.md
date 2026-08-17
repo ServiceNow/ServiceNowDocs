@@ -1,28 +1,24 @@
 ---
-title: Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+title: Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-breadcrumb: [Explore Now Assist Sourcing Procurement, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Explore ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
-
-## Supported versions
-
-Now Assist for SPO is supported starting with Xanadu.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 
 ## Supported user interfaces
 
-The Now Assist for SPO application includes the skills that are listed in the following table.
+The ServiceNow Otto for SPO application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -38,7 +34,7 @@ Virtual Agent
 
 </td><td>
 
--   Conversational catalog shopping experience in Now Assist in Virtual Agent.
+-   Conversational catalog shopping experience in ServiceNow Otto for Virtual Agent.
 -   Track request status
 -   Document extraction
 
@@ -93,24 +89,24 @@ Core UI
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for SPO store app \(sn\_spend\_gen\_ai\) to use the Conversational intake experience and Record summarization skills.
+Activate the ServiceNow Otto for SPO store app \(sn\_spend\_gen\_ai\) to use the Conversational intake experience and Record summarization skills.
 
 This store app has the following dependencies:
 
--   Now Assist for Platform \(com.sn.now.platform\)
+-   ServiceNow Otto for Platform \(com.sn.now.platform\)
 -   Sourcing and Purchasing Automation\(sn\_pr\)
--   Now Assist for FSC Common \(sn\_fsc\_genai\)
+-   ServiceNow Otto for FSC Common \(sn\_fsc\_genai\)
 
 Activate the applications in the following order:
 
-1.  Now Assist for Platform \(sn\_genai\_platform\)
+1.  ServiceNow Otto for Platform \(sn\_genai\_platform\)
 2.  Sourcing and Purchasing Automation \(sn\_pr\)
-3.  Now Assist for FSC Common \(sn\_fsc\_genai\)
-4.  Now Assist for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
+3.  ServiceNow Otto for FSC Common \(sn\_fsc\_genai\)
+4.  ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For more information, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
-**Parent Topic:**[Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
+**Parent Topic:**[Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 **Related topics**  
 

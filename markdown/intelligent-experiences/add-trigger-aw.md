@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-trigger-aw.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a trigger to an agentic workflow
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-Adding a trigger is optional. If you want your agentic workflow to be used only in chats such as in Now Assist for Virtual Agent or Now Assist panel, you don't need to add a trigger. Only add a trigger if you want to invoke the agentic workflow automatically when some event occurs.
+Adding a trigger is optional. If you want your agentic workflow to be used only in chats such as in ServiceNow Otto for Virtual Agent or ServiceNow Otto panel, you don't need to add a trigger. Only add a trigger if you want to invoke the agentic workflow automatically when some event occurs.
 
 **Note:** Triggers contain instance-specific information. If you are moving AI agents or agentic workflows between instances using Update Sets, you must set the triggers to inactive before adding them to the update sets and then activate them on the new instance.
 
@@ -92,9 +92,9 @@ Channel
 
 </td><td>
 
-Medium for the agentic workflow output: Now Assist panel or Virtual Agent.
+Medium for the agentic workflow output: ServiceNow Otto panel or Virtual Agent.
 
- **Note:** To view the output from a triggered agentic workflow in the Now Assist panel, you need the now\_assist\_panel\_user role.
+ **Note:** To view the output from a triggered agentic workflow in the ServiceNow Otto panel, you need the now\_assist\_panel\_user role.
 
 </td></tr><tr><td>
 

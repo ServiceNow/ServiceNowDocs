@@ -1,6 +1,6 @@
 ---
-title: Now Assist extract information from documents
-description: The extract information from documents skill allows you to use Now Assist predictions to extract information from document and image files.
+title: Extract information from documents
+description: The extract information from documents skill allows you to use ServiceNow Otto predictions to extract information from document and image files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.html
 release: zurich
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-11-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now LLM Service, Document Intelligence, Extract information from documents skill]
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
 ---
 
-# Now Assist extract information from documents
+# Extract information from documents
 
-The extract information from documents skill allows you to use Now Assist predictions to extract information from document and image files.
+The extract information from documents skill allows you to use ServiceNow Otto predictions to extract information from document and image files.
 
-Now Assist uses generative AI capabilities to extract values from the document based on the fields, tables, and questions defined in the skill’s use case. The extracted information is turned into structured data that can be used in the platform.
+ServiceNow Otto uses generative AI capabilities to extract values from the document based on the fields, tables, and questions defined in the skill’s use case. The extracted information is turned into structured data that can be used in the platform.
 
 Agents can use the Document Intelligence workspace to review and confirm the extracted information.
 
@@ -25,5 +25,5 @@ Agents can use the Document Intelligence workspace to review and confirm the ext
 
 For more information, see [Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md).
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
+**Parent Topic:**[Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

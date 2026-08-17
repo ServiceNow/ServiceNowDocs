@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 3
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Landing page, ITOM AIOps, IT Operations Management]
 ---
 
 # Create and edit a synthetic monitor

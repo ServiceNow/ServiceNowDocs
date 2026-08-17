@@ -17,7 +17,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/app-engine-studio-rn.md)**  
 The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
 -   **[Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-agent-rn.md)**  
-The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Zurich release.
+The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Zurich release, and its Now Assist features have been rebranded to ServiceNow Otto®.
 -   **[Classic Workflow release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/classic-workflow-rn.md)**  
 The ServiceNow® classicWorkflow application is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Workflow was enhanced and updated in the Zurich release.
 -   **[Creator Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/creator-studio-rn.md)**  
@@ -36,10 +36,10 @@ The ServiceNow® Legacy Studio application provides an integrated development en
 The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.
 -   **[Next Experience Developer \(NED\) Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/ned-tools-rn.md)**  
 The ServiceNow® Next Experience Developer Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Zurich release.
--   **[Now Assist for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-app-engine-rn.md)**  
-The ServiceNow® Now Assist for App Engine application enables creators to enhance custom applications with AI agents and skills that application users can leverage at runtime. Now Assist for App Engine was enhanced and updated in the Zurich release.
--   **[Now Assist for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-creator-rn.md)**  
-The ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. Now Assist for Creator was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-app-engine-rn.md)**  
+The ServiceNow® ServiceNow Otto for App Engine application enables creators to enhance custom applications with AI agents and skills that application users can leverage at runtime. ServiceNow Otto for App Engine was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-creator-rn.md)**  
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Zurich release.
 -   **[Performance Analyzer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/performance-analyzer-rn.md)**  
 The ServiceNow® Performance Analyzer application enables you to access page load time data, trends, and waterfall visualizations directly from your instance. It also helps you to identify page performance issues and bottlenecks in UX framework pages independently. Performance Analyzer is a new application in the Zurich release.
 -   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  

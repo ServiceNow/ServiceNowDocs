@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforhardwareassetmanagementham-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -50,11 +50,7 @@ Yokohama
 
 </td><td>
 
-Only users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
-
--   Hardware asset management sourcing AI agent
--   Transfer order creation AI agent
--   Purchase order creation AI agent
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -62,11 +58,7 @@ Zurich
 
 </td><td>
 
-If you have the procurement\_user user role, you can access the help manage hardware asset requests agentic workflow, which includes the following AI agents:
-
--   Hardware asset management sourcing AI agent
--   Transfer order creation AI agent
--   Purchase order creation AI agent
+No updates for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -87,7 +79,7 @@ Xanadu
 
 </td><td>
 
-[Xanadu Patch 10](https://servicenow-staging.fluidtopics.net/access?context=xanadu-patch-10&family=xanadu&ft:locale=en-US)
+[Xanadu Patch 10](https://www.servicenow.com/docs/access?context=xanadu-patch-10&family=xanadu&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -95,24 +87,7 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 6](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
-
--   **[Optimize hardware asset repair process with the suite of AI agents](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham-repair-agent-workflow&family=yokohama&ft:locale=en-US)**
-
-Automate the repair of defective and out-of-warranty hardware assets by using AI agents in the Help repair hardware assets agentic workflow. These AI agents validate the repair tasks, provide detailed troubleshooting and repair instructions, and complete the tasks on receiving user confirmation.
-
-
--   **[Configure ACLs for AI agents and agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
-
-Configure the Access Control Lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
-
-[Yokohama Patch 4](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-4&family=yokohama&ft:locale=en-US)
-
--   **[Optimize hardware asset sourcing with the suite of AI agents](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham-agentic-workflow&family=yokohama&ft:locale=en-US)**
-
-Automate your hardware asset sourcing by using AI agents in the Help manage hardware asset requests agentic workflow. These AI agents can efficiently handle tasks such as automatically consuming assets from local stock, creating transfer orders, and generating purchase orders. By automating complex and repetitive tasks in the hardware asset request process, AI agents help to reduce manual intervention significantly, speed up request resolution, enhance the productivity of asset managers, and improve operational efficiency.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -120,15 +95,7 @@ Zurich
 
 </td><td>
 
--   **[Optimize hardware asset repair process with the suite of AI agents](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham-repair-agent-workflow&family=zurich&ft:locale=en-US)**
-
-Automate the repair of defective and out-of-warranty hardware assets by using AI agents in the help repair hardware assets agentic workflow. These AI agents validate the repair tasks, provide detailed troubleshooting and repair instructions, and complete the tasks on receiving user confirmation.
-
-
--   **[Configure ACLs for AI agents and agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
-
-Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -157,17 +124,7 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
-
-Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -175,18 +132,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   ****
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -285,7 +231,7 @@ Install Now Assist for Hardware Asset Management \(HAM\) by requesting it from t
 
 **Note:** To take full advantage of the Now Assist for HAM features, you should upgrade to Xanadu Patch 10 and install the Now Assist for Hardware Asset Management \(HAM\) store application.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -293,11 +239,7 @@ Yokohama
 
 </td><td>
 
-Install Now Assist for Hardware Asset Management \(HAM\) by requesting it from the ServiceNow Store.
-
-**Note:**  To take full advantage of the Now Assist for HAM features, you should upgrade to Yokohama Patch 6 and install the Now Assist for Hardware Asset Management \(HAM\) store application.
-
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -305,7 +247,7 @@ Zurich
 
 </td><td>
 
-Install Now Assist for HAM by requesting it from the ServiceNow Store. 
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -334,7 +276,7 @@ Yokohama
 
 </td><td>
 
-The Now Assist for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -342,7 +284,7 @@ Zurich
 
 </td><td>
 
-The Now Assist for HAM application requires the Hardware Asset Management Pro plus license.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -478,7 +420,7 @@ Xanadu Patch 10 - Configure Access Control Lists \(ACLs\) for AI Agents and agen
 
  Xanadu Patch 9 - Automate and streamline your hardware asset request process by using an agentic workflow.
 
- See [Now Assist for Hardware Asset Management \(HAM\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham&family=xanadu&ft:locale=en-US) for more information.
+ See [Now Assist for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -486,17 +428,7 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
- Yokohama Patch 6 - Automate the hardware asset repair process by using an agentic workflow and configure Access Control Lists \(ACLs\) for both AI agents and agentic workflows.
-
- Yokohama Patch 4 - Automate and streamline your hardware asset request process by using an agentic workflow.
-
- See [Now Assist for Hardware Asset Management \(HAM\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham&family=yokohama&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -504,13 +436,7 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)- Review changes to Now Assist usage measurement.
-
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)- Some Now Assist skills, agents, and agentic workflows are now turned on by default.
-
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)- Automate the hardware asset repair process by using an agentic workflow.
-
- See [Now Assist for Hardware Asset Management \(HAM\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-ham&family=zurich&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

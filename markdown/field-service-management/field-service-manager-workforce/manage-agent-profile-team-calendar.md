@@ -196,7 +196,7 @@ Pre shift max travel time
 
 </td><td>
 
-The maximum travel time allowed before the agent starts the scheduled shift.
+The maximum travel time allowed before the agent starts the scheduled shift.**Note:** Dynamic Scheduling doesn't consider this field when scheduling tasks.
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ Post shift max travel time
 
 </td><td>
 
-The maximum travel time allowed after the agent ends the scheduled shift.
+The maximum travel time allowed after the agent ends the scheduled shift.**Note:** Dynamic Scheduling doesn't consider this field when scheduling tasks.
 
 </td></tr><tr><td>
 

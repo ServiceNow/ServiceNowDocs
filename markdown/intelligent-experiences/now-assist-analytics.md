@@ -1,6 +1,6 @@
 ---
-title: Analyzing Now Assist performance
-description: Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+title: Analyzing AI performance
+description: Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-analytics.html
 release: zurich
@@ -8,32 +8,32 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Analytics, Generative AI, Gen AI, usage, performance]
-breadcrumb: [Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Analyzing Now Assist performance
+# Analyzing AI performance
 
-Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities.
 
-\[Omitted video\] Description: Monitor the usage, performance, and value of Now Assist Analytics.
+\[Omitted video\] Description: Monitor the usage, performance, and value of AI Analytics.
 
 ## Get started
 
 <table id="table_mtp_clr_gcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-analytics.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-analytics.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-analytics.md)
+[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-analytics.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-analytics.md)
+[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-analytics.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

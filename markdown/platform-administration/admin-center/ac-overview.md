@@ -24,7 +24,7 @@ Admin Center offers easy access to a number of key applications administrators n
 
     **Note:** Adoption Blueprints platform feature is available by default with instance upgrade to Tokyo and above.
 
--   Now Assist Admin: The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist features and skills. See [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md) for more information.
+-   AI Admin Hub: The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist features and skills. See [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md) for more information.
 -   Application Manager: As an admin, you have the ability to install, update, and manage licensed applications and plugins on your instance using the Application Manager application. See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/application-manager.md) for more information.
 
     **Note:** Application Manager store application is available by default with the instance upgrade of Vancouver and above.

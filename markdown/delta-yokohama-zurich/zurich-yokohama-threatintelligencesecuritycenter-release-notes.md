@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-threatintelligencesecuritycenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Microsoft Defender for EDR Integration](https://servicenow-staging.fluidtopics.net/access?context=tisc-ms-defender-integration&family=yokohama&ft:locale=en-US)**
+-   **[Microsoft Defender for EDR Integration](https://www.servicenow.com/docs/access?context=tisc-ms-defender-integration&family=yokohama&ft:locale=en-US)**
 
 Integration with the Microsoft Defender for EDR allows Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs to Microsoft Defender for continuous monitoring and real-time alerting.
 
--   **[Create a security incident from a TISC case](https://servicenow-staging.fluidtopics.net/access?context=tisc-create-si-case&family=yokohama&ft:locale=en-US)**
+-   **[Create a security incident from a TISC case](https://www.servicenow.com/docs/access?context=tisc-create-si-case&family=yokohama&ft:locale=en-US)**
 
 Create security incidents and associate observables to the security incidents from a TISC case.
 
--   **[Duplicate threat intelligence feeds](https://servicenow-staging.fluidtopics.net/access?context=tisc-duplicate-feeds&family=yokohama&ft:locale=en-US)**
+-   **[Duplicate threat intelligence feeds](https://www.servicenow.com/docs/access?context=tisc-duplicate-feeds&family=yokohama&ft:locale=en-US)**
 
 Duplicate threat intelligence feeds to create an exact copy of the existing feed.
 
@@ -86,35 +86,35 @@ Zurich
 
 </td><td>
 
--   **[Configure Threat Intelligence External Sharing](https://servicenow-staging.fluidtopics.net/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
+-   **[Configure Threat Intelligence External Sharing](https://www.servicenow.com/docs/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
 
 Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
 
 
--   **[About Report Templates in TISC](https://servicenow-staging.fluidtopics.net/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
+-   **[Configure report templates](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
 
 Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
 
 
--   **[Configure custom MISP API feed](https://servicenow-staging.fluidtopics.net/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
+-   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
 
 Import events, attributes, and objects from the MISP server into the Threat Intelligence Library.
 
 
--   **[Configure Custom Event Types for Timeline](https://servicenow-staging.fluidtopics.net/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://servicenow-staging.fluidtopics.net/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
+-   **[Configure Custom Event Types for Timeline](https://www.servicenow.com/docs/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
 
 Define, visualize, and manage timeline events associated with nodes through the Investigation Canvas.
 
 
--   **[Configuring TISC add-on in Splunk](https://servicenow-staging.fluidtopics.net/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
+-   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
 
 Include optional attributes during configuration that can be stored in the Splunk KV Store.
 
--   **[Configure custom CrowdStrike feed](https://servicenow-staging.fluidtopics.net/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
+-   **[View Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
 
 Map CrowdStrike Indicator Malicious confidence to TISC confidence.
 
--   **[View Threat Intel Feeds](https://servicenow-staging.fluidtopics.net/access?context=base-system-threat-intel-feeds&family=zurich&ft:locale=en-US)**
+-   **[View Threat Intel Feeds](https://www.servicenow.com/docs/access?context=base-system-threat-intel-feeds&family=zurich&ft:locale=en-US)**
 
 Map specific source values to required observable fields during import process.
 
@@ -138,11 +138,11 @@ Yokohama
 
 </td><td>
 
--   **[Courses of Action](https://servicenow-staging.fluidtopics.net/access?context=course-of-action&family=yokohama&ft:locale=en-US)**
+-   **[Courses of Action](https://www.servicenow.com/docs/access?context=course-of-action&family=yokohama&ft:locale=en-US)**
 
 Renamed Course of Actions to Courses of Action.
 
--   **[Create Inbound Data Exclusion Rules](https://servicenow-staging.fluidtopics.net/access?context=define-filtering-rules&family=yokohama&ft:locale=en-US)**
+-   **[Create Inbound Data Exclusion Rules](https://www.servicenow.com/docs/access?context=define-filtering-rules&family=yokohama&ft:locale=en-US)**
 
 Renamed Inbound Filtering Rules to Inbound Data Exclusion Rules.
 
@@ -153,20 +153,20 @@ Zurich
 
 </td><td>
 
--   **[Adding Internal Intelligence to Investigation Canvas](https://servicenow-staging.fluidtopics.net/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
 
 Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
 
 
--   **[Import Intelligence in TISC](https://servicenow-staging.fluidtopics.net/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
+-   **[Import Intelligence in TISC](https://www.servicenow.com/docs/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
 
 Enhanced the Import Intelligence functionality to support direct import of allow list observables.
 
--   **[Working with Investigation Canvas](https://servicenow-staging.fluidtopics.net/access?context=tisc-investigation-canvases&family=zurich&ft:locale=en-US)**
+-   **[Working with Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-investigation-canvases&family=zurich&ft:locale=en-US)**
 
 The Investigation Canvas feature has been extended to include customized nodes, node relationships, and node legends, as well as the grouping and ungrouping of nodes.
 
--   **[Investigation canvas and MITRE ATT&amp;CK](https://servicenow-staging.fluidtopics.net/access?context=investigation-and-mitre&family=zurich&ft:locale=en-US)**
+-   **[Investigation canvas and MITRE ATT&amp;CK](https://www.servicenow.com/docs/access?context=investigation-and-mitre&family=zurich&ft:locale=en-US)**
 
 Navigate and use the MITRE-ATT&amp;CK model within the Investigation Canvas more effectively by taking advantage of enhanced filtering options.
 
@@ -248,7 +248,7 @@ Yokohama
 
 </td><td>
 
-Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ Zurich
 
 </td><td>
 
-Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -399,7 +399,7 @@ Yokohama
 -   Added settings to ingest indicators of interest based on associations to threat actors, threat reports, or malware families, including an option to include indicators deleted on CrowdStrike.
 -   Improved Threat Intelligence Feed configuration functionality to create a duplicate copy of the existing feed.
 
- See [Threat Intelligence Security Center](https://servicenow-staging.fluidtopics.net/access?context=tisc-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -413,7 +413,7 @@ Zurich
 -   Implemented a unified mapping experience for the text based feeds such as TEXT, CSV, and JSON import formats.
 -   Implemented confidence mapping for the CrowdStrike \(CS\) Feed as part of additional settings. You can now map the malicious confidence levels of CrowdStrike indicators to the observable confidence values.
 
- See [Threat Intelligence Security Center](https://servicenow-staging.fluidtopics.net/access?context=tisc-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

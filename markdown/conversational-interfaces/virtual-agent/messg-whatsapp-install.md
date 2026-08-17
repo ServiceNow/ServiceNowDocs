@@ -30,7 +30,7 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides Integration Hub actions that may be used to create, update, delete, and look up records on the Twilio app.
 
-    For more information on activating this application, see Twilio spoke.
+    For more information on activating this application, see [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/twilio-spoke.md).
 
 -   **Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\)**
 
@@ -59,7 +59,7 @@ The following applications or plugins are installed with Conversational Integrat
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

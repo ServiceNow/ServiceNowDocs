@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-10-03"
 reading_time_minutes: 2
 keywords: [AI agents, Agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Use AI agents to create job requisition
@@ -27,7 +27,7 @@ The AI agent is in read-only mode and Active status by default. The following co
 The following should be considered when using the AI agent to create a job requisition:
 
 -   The job requisition creation using AI agent is only supported from the Virtual Agent chat window and not from the Now Assist panel.
--   Two restricted caller access records \(RCAs\) are available in the HR Talent AI Agent Collection plugin in Requested status by default. The status of these RCAs must be updated to Allowed to grant read access to the AI agent, enabling it to fetch data from the Employee Profile &amp; Education and Training tables.
+-   Two restricted caller access records \(RCAs\) are available in the AI Agents for Talent plugin in Requested status by default. Update the status of these RCAs to Allowed to grant read access to the AI agent. This enables the agent to fetch data from the Employee Profile &amp; Education and Training tables.
 -   A base template is available by default for creating a job description. To create an organization-specific job description template, a template must be created in the Templates table. The sys\_id value in **sn\_talent\_aia.job\_description\_template** must be replaced with the sys\_id of the new template.
 -   The sn\_talent\_aia.catalog\_question\_displayValue property specifies the sys\_id of the payload record in the sn\_talent\_aia\_payload table. The payload record contains the catalog questions in a readable format. If the catalog questions must be customized, the default value of this property must be updated to the sys\_id of the new payload record containing the customized questions.
 

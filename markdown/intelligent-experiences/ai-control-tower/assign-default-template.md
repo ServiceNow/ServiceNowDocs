@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-24"
 reading_time_minutes: 1
-breadcrumb: [Using value templates, Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Using value templates, Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Assign a default template

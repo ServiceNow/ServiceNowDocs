@@ -53,7 +53,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 8.  Complete the synchronization steps.
 
-    To learn more about the synchronization steps, see .
+    To learn more about the synchronization steps, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/sync-ind-mapping-cmn-location.md).
 
 
 ## Result
@@ -69,7 +69,7 @@ View the details of your datacenter infrastructure using the floor map. To learn
 **Related topics**  
 
 
-[bundle-emplsm.sync-cmn-location]
+[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/sync-cmn-location.md)
 
 [Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 

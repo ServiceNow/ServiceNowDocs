@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforworkplaceservicedeliverywsd-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,11 +83,11 @@ Yokohama
 
 </td><td>
 
--   **[Optimize cleaning activities agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=optimize-cleaning-activities-agent&family=yokohama&ft:locale=en-US)**
+-   **[Optimize cleaning activities agentic workflow](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&family=yokohama)**
 
 Use the Optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
 
--   **[Automate map updates agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=automate-map-updates-agent-ai&family=yokohama&ft:locale=en-US)**
+-   **[Automate map updates agentic workflow](https://www.servicenow.com/docs/access?context=automate-map-updates-agent-ai&family=yokohama)**
 
 Use the Automate map updates AI agentic workflow to configure the map during bulk updates to Indoor Mapping.
 
@@ -100,9 +100,16 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
 
--   **[Optimize cleaning activities agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=optimize-cleaning-activities-agent&family=zurich&ft:locale=en-US)**
+-   **[Summarize a workplace case](https://www.servicenow.com/docs/access?context=summarize-workplace-case&family=zurich)**
+
+Use the case summarization skill to summarize the case context and take appropriate action.
+
+
+[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich)
+
+-   **[Optimize cleaning activities agentic workflow](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&family=zurich)**
 
 Use the optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
 
@@ -134,11 +141,11 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -152,7 +159,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -266,7 +273,7 @@ Zurich
 
 </td><td>
 
-Install Now Assist for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Now Assist for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,7 +450,7 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
@@ -459,7 +466,7 @@ Yokohama
 -   Manage temporary space closures AI agentic workflow for emergency meeting room maintenance. This team of AI agents block a space for maintenance and move any existing reservations from the blocked room to a new location.
 -   Help manage workplace reservations for updating existing event planning reservations. This team of AI agents retrieve the reservation from workplace case details, analyze the reservation, and update the workplace case notes.
 
- See [Now Assist for Workplace Service Delivery \(WSD\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -467,14 +474,16 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US): Review changes to Now Assist usage measurement.
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich): Summarize workplace cases by using Now Assist for WSD.
 
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich): Review changes to Now Assist usage measurement.
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich)
 
 -   Help map admins configure the map during bulk updates to Indoor Mapping using the automate map updates agentic workflow.
 -   Optimize a maintenance case based on the space utilization rate of the location where a maintenance case is created using the optimize cleaning activities agentic workflow.
 
- See [Now Assist for Workplace Service Delivery \(WSD\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-wsd-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

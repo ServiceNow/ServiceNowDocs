@@ -28,11 +28,11 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Required approach to domain separation
 
-Currently, only Global approach is supported to domain separation in Conversational Analytics dashboard. To learn more, see .
+Currently, only Global approach is supported to domain separation in Conversational Analytics dashboard. To learn more, see [Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PAWithDomainSeparation.md).
 
 ## Overview of domain separation
 
-Conversational Analytics dashboard is built on the Platform Analytics experience. See  for more information.
+Conversational Analytics dashboard is built on the Platform Analytics experience. See [Domain separation for Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/domain-sep-pa-dashboards.md) for more information.
 
 ## How domain separation works in Conversational Analytics
 
@@ -42,7 +42,7 @@ With domain separation in Conversational Analytics, users in one domain cannot a
 
 ## Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see .
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## Use cases
 

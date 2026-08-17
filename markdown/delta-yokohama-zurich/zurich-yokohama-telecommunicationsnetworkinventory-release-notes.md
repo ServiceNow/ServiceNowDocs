@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-telecommunicationsnetworkinventory-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,47 +67,47 @@ Yokohama
 
 </td><td>
 
--   **[Design and assign your network services](https://servicenow-staging.fluidtopics.net/access?context=design-assign-playbook&family=yokohama&ft:locale=en-US)**
+-   **[Design and assign your network services](https://www.servicenow.com/docs/access?context=design-assign-playbook&family=yokohama&ft:locale=en-US)**
 
 Create and configure playbooks for design and assign a configuration item. The Design and Assign playbook provides step-by-step guidance for designing a network service. Use the playbook to complete guided activities to instantiate a network inventory record.
 
--   **[Design and Assign function for logical connections](https://servicenow-staging.fluidtopics.net/access?context=design-logical-connection-design-assign-playbook&family=yokohama&ft:locale=en-US)**
+-   **[Design and Assign function for logical connections](https://www.servicenow.com/docs/access?context=design-logical-connection-design-assign-playbook&family=yokohama&ft:locale=en-US)**
 
 Use the Design and Assign playbook to instantiate a logical connection and its associated connection elements. Once each activity completes, view the circuit map to visualize the logical connection elements.
 
--   **[Visualization of geo map](https://servicenow-staging.fluidtopics.net/access?context=visualization-map&family=yokohama&ft:locale=en-US)**
+-   **[Visualization of geo map](https://www.servicenow.com/docs/access?context=visualization-map&family=yokohama&ft:locale=en-US)**
 
 Use the Network site map to view the geographical location of your network sites and the information such as site details, connectivity, and capacity.
 
--   **[Creating an inventory template for a logical composite](https://servicenow-staging.fluidtopics.net/access?context=creating-inventory-template-logical-composite&family=yokohama&ft:locale=en-US)**
+-   **[Creating an inventory template for a logical composite](https://www.servicenow.com/docs/access?context=creating-inventory-template-logical-composite&family=yokohama&ft:locale=en-US)**
 
 Instantiate a logical composite record and associated equipment and racks using a logical composite template.
 
--   **[Add an equipment or rack to logical composite](https://servicenow-staging.fluidtopics.net/access?context=add-equipment-rack-logical-composite&family=yokohama&ft:locale=en-US)**
+-   **[Add an equipment or rack to logical composite](https://www.servicenow.com/docs/access?context=add-equipment-rack-logical-composite&family=yokohama&ft:locale=en-US)**
 
 Add equipment or rack to a logical composite using a change model.
 
--   **[Remove an equipment or rack from logical composite](https://servicenow-staging.fluidtopics.net/access?context=remove-equipment-rack-logical-composite&family=yokohama&ft:locale=en-US)**
+-   **[Remove an equipment or rack from logical composite](https://www.servicenow.com/docs/access?context=remove-equipment-rack-logical-composite&family=yokohama&ft:locale=en-US)**
 
 Remove a rack or equipment from a logical composite using a change model.
 
--   **[Create an equipment record by using design and assign](https://servicenow-staging.fluidtopics.net/access?context=create-equipment-record-design-and-assign&family=yokohama&ft:locale=en-US)**
+-   **[Create an equipment record by using design and assign](https://www.servicenow.com/docs/access?context=create-equipment-record-design-and-assign&family=yokohama&ft:locale=en-US)**
 
 Create a change request for an equipment record from the All Equipment list view using the **Create equipment** UI action.
 
--   **[Import models and templates in JSON format](https://servicenow-staging.fluidtopics.net/access?context=import-models-templates-json&family=yokohama&ft:locale=en-US)**
+-   **[Import models and templates in JSON format](https://www.servicenow.com/docs/access?context=import-models-templates-json&family=yokohama&ft:locale=en-US)**
 
 Create an import request to import your collection of models and templates in JSON format.
 
--   **[Export hierarchy of models and templates](https://servicenow-staging.fluidtopics.net/access?context=export-hierarchy-of-models-and-template&family=yokohama&ft:locale=en-US)**
+-   **[Export hierarchy of models and templates](https://www.servicenow.com/docs/access?context=export-hierarchy-of-models-and-template&family=yokohama&ft:locale=en-US)**
 
 Export the hierarchy and all related records of a model or inventory template in JSON format.
 
--   **[Managing your network functions](https://servicenow-staging.fluidtopics.net/access?context=services&family=yokohama&ft:locale=en-US)**
+-   **[Managing your network functions](https://www.servicenow.com/docs/access?context=services&family=yokohama&ft:locale=en-US)**
 
 The xNF and xNF instances records are added in the Inventory menu and retained the Services menu for application services.
 
--   **[Create a telephone infrastructure](https://servicenow-staging.fluidtopics.net/access?context=telephone_block_telephone_number_and_telephone_number&family=yokohama&ft:locale=en-US)**
+-   **[Create a telephone infrastructure](https://www.servicenow.com/docs/access?context=telephone_block_telephone_number_and_telephone_number&family=yokohama&ft:locale=en-US)**
 
 Supports all types of telephone numbers.
 
@@ -118,67 +118,67 @@ Zurich
 
 </td><td>
 
--   **[Create logical connection record](https://servicenow-staging.fluidtopics.net/access?context=create-logical-connection-record-design-assign-playbook&family=zurich&ft:locale=en-US)**
+-   **[Create logical connection record](https://www.servicenow.com/docs/access?context=create-logical-connection-record-design-assign-playbook&family=zurich&ft:locale=en-US)**
 
 Logical interfaces created are now automatically related to their corresponding cards or parent equipment. This enhancement ensures consistency across systems and helps prevent duplicate CI creation by improving the alignment between logical and physical interfaces.
 
 
--   **[Visualize your network infrastructure](https://servicenow-staging.fluidtopics.net/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
+-   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
 
 Use the new L1 menu that consolidates all network visualizations into a single canvas and include a tabular section for each view, such as site, floor, and topology. The following roles are introduced to manage datacenter infrastructure.
 
     -   DC Floor Designer \(sn\_ni\_core.dc\_floor\_designer\) – Design floor layout in Map Studio.
     -   DC Ops Agent \(sn\_ni\_core.dc\_ops\_agent\) – Oversee the operations of the data center floor.
     -   DC Ops Viewer \(sn\_ni\_core.dc\_ops\_viewer\) – View the Network Inventory Workspace and its components.
--   **[Floor map](https://servicenow-staging.fluidtopics.net/access?context=visualization-floor-maps&family=zurich&ft:locale=en-US)**
+-   **[Floor map](https://www.servicenow.com/docs/access?context=visualization-floor-maps&family=zurich&ft:locale=en-US)**
 
 Use the floor map to view the layout of your datacenter infrastructure. View network asset placement and operational details to monitor power, thermal, and usage data. View the incidents and alerts and take appropriate action.
 
--   **[Geo map](https://servicenow-staging.fluidtopics.net/access?context=visualization-map&family=zurich&ft:locale=en-US)**
+-   **[Geo map](https://www.servicenow.com/docs/access?context=visualization-map&family=zurich&ft:locale=en-US)**
 
 Use the geo map to view the geographical locations of your network sites and data centers. Geo map supports rendering data centers on the map, enabling the relevant persona, such as the DC Ops Viewer, to view connected data centers. You can open a data center floor map directly from the geo map for more detailed insights.
 
--   **[Manage datacenter floor map](https://servicenow-staging.fluidtopics.net/access?context=create-floor-map-data-center&family=zurich&ft:locale=en-US)**
+-   **[Manage datacenter floor map](https://www.servicenow.com/docs/access?context=create-floor-map-data-center&family=zurich&ft:locale=en-US)**
 
 Upload and manage your datacenter map objects using the Map Studio interface. Enable you to view respective floor plans for a selected building in a campus.
 
--   **[Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=service-operations-workspace-network-inventory&family=zurich&ft:locale=en-US)**
+-   **[Service Operations Workspace](https://www.servicenow.com/docs/access?context=service-operations-workspace-network-inventory&family=zurich&ft:locale=en-US)**
 
 Provides a converged experience for agents to view both incident/alarm details and Network Inventory entities within a single Workspace. Enhances efficiency in retrieving information and significantly improves the overall user experience.
 
--   **[Capacity management](https://servicenow-staging.fluidtopics.net/access?context=capacity-management-reporting&family=zurich&ft:locale=en-US)**
+-   **[Capacity management](https://www.servicenow.com/docs/access?context=capacity-management-reporting&family=zurich&ft:locale=en-US)**
 
 Supports pushing operational data to REST endpoints through an exposed API and store it in the ClothoDB. Overlay time series metrics on the datacenter floor map to monitor overall health and take appropriate action.
 
--   **[Collect operational values for datacenter](https://servicenow-staging.fluidtopics.net/access?context=enter-operational-values-data-center&family=zurich&ft:locale=en-US)**
+-   **[Collect operational values for datacenter](https://www.servicenow.com/docs/access?context=enter-operational-values-data-center&family=zurich&ft:locale=en-US)**
 
 Manually record operational values of Configuration Items \(CI\) and store it in ClothoDB. Use this data for datacenter performance tracking.
 
--   **[Define the datacenter details](https://servicenow-staging.fluidtopics.net/access?context=define-data-center-details&family=zurich&ft:locale=en-US)**
+-   **[Define the datacenter details](https://www.servicenow.com/docs/access?context=define-data-center-details&family=zurich&ft:locale=en-US)**
 
 Define your datacenter record to view the location-specific attributes for each datacenter, including the campus, buildings, and floors where your network asset is located.
 
--   **[Define the power circuit details](https://servicenow-staging.fluidtopics.net/access?context=define-power-circuit-details&family=zurich&ft:locale=en-US)**
+-   **[Define the power circuit details](https://www.servicenow.com/docs/access?context=define-power-circuit-details&family=zurich&ft:locale=en-US)**
 
 Define the power circuit record to represent the electrical pathway that delivers power within a data center.
 
--   **[Define the facility hardware details](https://servicenow-staging.fluidtopics.net/access?context=define-facility-hardware-details&family=zurich&ft:locale=en-US)**
+-   **[Define the facility hardware details](https://www.servicenow.com/docs/access?context=define-facility-hardware-details&family=zurich&ft:locale=en-US)**
 
 Define the facility hardware record to represent power, HVAC \(Heating, Ventilation, and Air Conditioning\), network representation, and their connectivity in a data center.
 
--   **[Create a facility model](https://servicenow-staging.fluidtopics.net/access?context=create-facility-model&family=zurich&ft:locale=en-US)**
+-   **[Create a facility model](https://www.servicenow.com/docs/access?context=create-facility-model&family=zurich&ft:locale=en-US)**
 
 Create a facility model to define the physical characteristics data of the facility record based on the product manufacturer's recommendations.
 
--   **[Create a equipment record](https://servicenow-staging.fluidtopics.net/access?context=create-equipment-record-design-and-assign&family=zurich&ft:locale=en-US)**
+-   **[Create a equipment record](https://www.servicenow.com/docs/access?context=create-equipment-record-design-and-assign&family=zurich&ft:locale=en-US)**
 
 View datacenter records listed in the Equipment task attribute form.
 
--   **[Define the network interface details](https://servicenow-staging.fluidtopics.net/access?context=define-tni-interfaces&family=zurich&ft:locale=en-US)**
+-   **[Define the network interface details](https://www.servicenow.com/docs/access?context=define-tni-interfaces&family=zurich&ft:locale=en-US)**
 
 Add **Wavelength** attribute to the Network Interface form and **Port position** attribute to Interface Model form.
 
--   **[Create an equipment holder model](https://servicenow-staging.fluidtopics.net/access?context=create-equipment-holder-models&family=zurich&ft:locale=en-US)**
+-   **[Create an equipment holder model](https://www.servicenow.com/docs/access?context=create-equipment-holder-models&family=zurich&ft:locale=en-US)**
 
 Added **RU numbering direction** attribute to define the numbering sequence of rack units in the Rack view.
 
@@ -210,11 +210,11 @@ Zurich
 
 </td><td>
 
--   **[Define network service instance details](https://servicenow-staging.fluidtopics.net/access?context=create_application_services&family=zurich&ft:locale=en-US)**
+-   **[Define network service instance details](https://www.servicenow.com/docs/access?context=create_application_services&family=zurich&ft:locale=en-US)**
 
 **xNF Instance** is renamed to **Service Instance**.
 
--   **[Define network function details](https://servicenow-staging.fluidtopics.net/access?context=create_business_applications&family=zurich&ft:locale=en-US)**
+-   **[Define network function details](https://www.servicenow.com/docs/access?context=create_business_applications&family=zurich&ft:locale=en-US)**
 
 **xNF** is renamed to **Network Function**.
 
@@ -296,7 +296,7 @@ Yokohama
 
 </td><td>
 
-Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://servicenow-staging.fluidtopics.net/access?context=installing-telecommunications-network-inventory&family=yokohama&ft:locale=en-US).
+Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Zurich
 
 </td><td>
 
-Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install TNI](https://servicenow-staging.fluidtopics.net/access?context=installing-telecommunications-network-inventory&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install TNI](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -448,7 +448,7 @@ Yokohama
 -   Import and export your collection of models and templates in JSON format.
 -   Enable Deny ACL to ensure the compliance with the enhanced security model.
 
- See [Telecommunications Network Inventory](https://servicenow-staging.fluidtopics.net/access?context=telecom-network-inventory&family=yokohama&ft:locale=en-US) for more information.
+ See [Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=telecom-network-inventory&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ Zurich
 -   Ingest operational data and show time series metrics on the datacenter floor map to monitor health.
 -   Capture an inventory of operational facilities and define their relationships to respective network hardware such as the power chain.
 
- See [Telecommunications Network Inventory](https://servicenow-staging.fluidtopics.net/access?context=telecom-network-inventory&family=zurich&ft:locale=en-US) for more information.
+ See [Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=telecom-network-inventory&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

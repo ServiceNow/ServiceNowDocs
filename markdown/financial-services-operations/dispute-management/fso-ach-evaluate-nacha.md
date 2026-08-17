@@ -36,7 +36,7 @@ To access the knowledge base article:
 
 Dispute agents may use the KB article to manually evaluate whether an ACH transaction is eligible for chargeback.
 
-**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the Nacha operating guidelines check AI Agent is available to assist you at this step. See [Evaluate Nacha operating guidelines with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/nacha-guidelines-ai.md) for more information.
+**Note:** When the ACH disputes resolution agentic workflow in ServiceNow Otto for FSO is enabled, the Nacha operating guidelines check AI Agent is available to assist you at this step. See [Evaluate Nacha operating guidelines with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/nacha-guidelines-ai.md) for more information.
 
 ## Procedure
 

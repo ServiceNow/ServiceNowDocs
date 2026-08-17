@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-mastercardspoke-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Mastercard Spoke actions](https://servicenow-staging.fluidtopics.net/access?context=mastercard-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Mastercard Spoke actions](https://www.servicenow.com/docs/access?context=mastercard-spoke&family=yokohama&ft:locale=en-US)**
 
 The following Mastercard Spoke actions were built for Mastercom Extended:
 
@@ -111,7 +111,7 @@ Zurich
 
 </td><td>
 
--   **[Pre-arbitration and arbitration case filing](https://servicenow-staging.fluidtopics.net/access?context=mastercard-spoke&family=zurich&ft:locale=en-US)**
+-   **[Pre-arbitration and arbitration case filing](https://www.servicenow.com/docs/access?context=mastercard-spoke&family=zurich&ft:locale=en-US)**
 
 Dispute agents \(issuers\) can create pre-arbitration cases and escalate them to arbitration, or directly create arbitration cases by skipping pre-arbitration, using the new Mastercard spoke actions.
 
@@ -268,7 +268,7 @@ Yokohama
 
 </td><td>
 
-Install Mastercard Spoke by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Mastercard Spoke by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -416,7 +416,7 @@ Yokohama
 -   Use the Mastercard Spoke to manage card disputes using the Mastercom API Suite and Mastercom Extended APIs.
 -   Leverage Mastercard Spoke actions to manage disputes for cleared Single Message System original transactions with Mastercom Extended.
 
- See [Mastercard Spoke](https://servicenow-staging.fluidtopics.net/access?context=mastercard-spoke&family=yokohama&ft:locale=en-US) for more information.
+ See [Mastercard Spoke](https://www.servicenow.com/docs/access?context=mastercard-spoke&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -429,7 +429,7 @@ Zurich
 -   Enable dispute agents with real-time data exchange and embedded Mastercard dispute life cycle workflows.
 -   Accelerate time to value with a predefined Mastercom Extended spoke that reduces development effort and speeds up deployment.
 
- See [Mastercard Spoke](https://servicenow-staging.fluidtopics.net/access?context=mastercard-spoke&family=zurich&ft:locale=en-US) for more information.
+ See [Mastercard Spoke](https://www.servicenow.com/docs/access?context=mastercard-spoke&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

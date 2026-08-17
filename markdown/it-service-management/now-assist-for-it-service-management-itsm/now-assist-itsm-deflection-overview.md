@@ -1,23 +1,23 @@
 ---
-title: In-form deflection in Now Assist for IT Service Management \(ITSM\)
-description: In-form deflection enables users to resolve issues directly within the create incident form. When users describe an issue, Now Assist for IT Service Management \(ITSM\) searches the knowledge base and returns solutions based on the user's hardware, location, and the tone of their description.
+title: In-form deflection in ServiceNow Otto for IT Service Management \(ITSM\)
+description: In-form deflection enables users to resolve issues directly within the create incident form. When users describe an issue, ServiceNow Otto for IT Service Management \(ITSM\) searches the knowledge base and returns solutions based on the user's hardware, location, and the tone of their description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-overview.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-07-29"
 reading_time_minutes: 1
 keywords: [deflection, Now Assist for ITSM, user context, sentiment analysis]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# In-form deflection in Now Assist for IT Service Management \(ITSM\)
+# In-form deflection in ServiceNow Otto for IT Service Management \(ITSM\)
 
-In-form deflection enables users to resolve issues directly within the create incident form. When users describe an issue, Now Assist for IT Service Management \(ITSM\) searches the knowledge base and returns solutions based on the user's hardware, location, and the tone of their description.
+In-form deflection enables users to resolve issues directly within the create incident form. When users describe an issue, ServiceNow Otto for IT Service Management \(ITSM\) searches the knowledge base and returns solutions based on the user's hardware, location, and the tone of their description.
 
-In-form deflection enables end users to find resolutions without creating an incident. When a user describes an issue in the **Short description** field, Now Assist for IT Service Management \(ITSM\) searches the knowledge base and returns relevant solutions tailored to that specific user's context.
+In-form deflection enables end users to find resolutions without creating an incident. When a user describes an issue in the **Short description** field, ServiceNow Otto for IT Service Management \(ITSM\) searches the knowledge base and returns relevant solutions tailored to that specific user's context.
 
 ## In-form deflection process
 
@@ -25,6 +25,7 @@ When you enter an issue description, the system performs the following enhanceme
 
 -   User context embedding: The system fetches your location and hardware information from the knowledge graph and rephrases your query to include this context. For example, `my laptop is not working` is set to `MacBook Pro is not working` if your hardware is a MacBook Pro.
 -   Sentiment analysis: The system detects the tone of your description. If the description indicates frustration, the response reflects that tone and prioritizes solutions accordingly.
+-   Intent classification: The system classifies your description as an incident or a request. An incident description reports a problem, such as `my laptop is not working`. A request description asks for something new, such as `I need a new laptop`. Based on this classification, the response either recommends troubleshooting steps or a personalized catalog item.
 
 ## In-form deflection benefits
 

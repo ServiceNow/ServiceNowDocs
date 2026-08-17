@@ -169,7 +169,7 @@ Options to create supplier cases and supplier tasks
 
 </td><td>
 
-Select the **Create** drop-down list to view these options:-   **Create supplier case**: Enables you to create a supplier case. For more information, see [Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md).
+Select the **Create** drop-down list to view these options:-   **Create supplier case**: Enables you to create a supplier case.
 -   **Create supplier task**: Enables you to create a task for a supplier case. For more information, see [Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md)
 
 </td></tr><tr><td>

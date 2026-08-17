@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-04"
 reading_time_minutes: 1
-breadcrumb: [Tax Engine Integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Tax engine integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configuration tables and prerequisites for Tax integration

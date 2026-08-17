@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, alert grouping, noise reduction]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert group automations
@@ -19,9 +19,9 @@ Configure grouping rules to automatically consolidate related alerts into single
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
-Ensure you are in the Configure IT Operations Management page.
+Ensure you're in the Configure IT Operations Management page.
 
 Role required: evt\_mgmt\_admin or evt\_team\_operator
 
@@ -39,12 +39,18 @@ Alert grouping rules automatically combine related alerts that represent the sam
 
     A list of group alert automations appears.
 
-4.  Select **Create automation**.
+4.  Select **+Create automation**.
 
     The Group alerts page opens.
 
-5.  Follow the steps in [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+    \[Omitted image "image.ai-specialist-group-alerts-console"\] Alt text: Alerts grouping page where you can create a grouping automation.
 
-6.  To complete the setup, select **Mark as configured**.
+    You can use the suggested grouping automations to create your grouping automation. If you have the ServiceNow Otto for IT Operations Management \(ITOM\) plugin installed, select **Configure with AI** from the top-right of the page and ask the ServiceNow Otto chatbot to create an automation. The created automation appears in the list of automations.
+
+    \[Omitted image "image.ai-specialist-group-now-assist-chatbot"\] Alt text: Now Assist chatbot to help you automatically create a group automation.
+
+    For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+
+5.  To complete the setup, select **Mark as configured**.
 
 

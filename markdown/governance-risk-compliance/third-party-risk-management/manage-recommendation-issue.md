@@ -9,8 +9,8 @@ classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Generate TPRM issue recommendations, Use generative AI skills, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Generate TPRM issue recommendations, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create or dismiss issues using recommendations
@@ -19,7 +19,7 @@ Accept recommendations to create issues based on historical assessment data, or 
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -35,7 +35,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
     If recommendations are available, you can scroll through the generated issue recommendation cards and review a summary for each issue.
 
-    **Note:** The recommended issues are based on historical data.
+    **Note:** The recommended issues are based on historical data \(prior issues and their associated Smart Assessment Engine or Classic assessment questions and responses\).
 
 4.  View more details for the generated issues by completing one of the following.
 
@@ -47,21 +47,21 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
     |Name|Name of the issue.|
     |Description|Description and summary of the issue.|
     |Smart assessment question instance|Assessment question associated with the recommended issue.|
-    |Types|Source of the historic data. By default, it is from the previous assessments.|
+    |Types|Source of the historical data \(prior issues and their associated questions and responses\). By default, it is from the previous assessments.|
     |Priority|Priority of the historical issue.|
     |Historical issues|Historical issue that was used as data to generate the recommended issue.|
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d43643e240">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d43612e240">
 
 Option
 
-</th><th align="left" id="d43643e243">
+</th><th align="left" id="d43612e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43643e249">
+</th></tr></thead><tbody><tr><td id="d43612e249">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d43643e273">
+</td></tr><tr><td id="d43612e273">
 
 **Create issues or dismiss issues from the Predicted issues list**
 
@@ -90,6 +90,4 @@ Description
 If you accepted any recommendations, confirm the creation of your issues by navigating to the Issues tab for that assessment.
 
 **Note:** Dismissed issues and created issues reappear if when you select **Generate predicted issues** again.
-
-**Parent Topic:**[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md)
 

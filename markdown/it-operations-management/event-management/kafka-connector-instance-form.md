@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2025-10-13"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Kafka connector instance form

@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: reference
 last_updated: "2025-11-26"
 reading_time_minutes: 1
-breadcrumb: [CSC references, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # GitHub Actions Permissions

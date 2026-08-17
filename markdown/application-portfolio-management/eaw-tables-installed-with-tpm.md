@@ -1,20 +1,26 @@
 ---
-title: Tables installed with TPM in the EA Workspace
-description: Several types of tables are installed with Technology Portfolio Management.
+title: Tables installed with TLM in the EA Workspace
+description: Several types of tables are installed with Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Configure Technology Portfolio Management, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Tables installed with TPM in the EA Workspace
+# Tables installed with TLM in the EA Workspace
 
-Several types of tables are installed with Technology Portfolio Management.
+Several types of tables are installed with Technology Lifecycle Management.
 
-The following tables are installed with the Technology Portfolio Management \(TPM\) plugin:
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
+
+The following tables are installed with the Technology Lifecycle Management \(TLM\) plugin:
 
 <table id="table_pzc_h55_yzb"><thead><tr><th>
 
@@ -38,7 +44,7 @@ TPM Discovered Technology Run Log \[sn\_apm\_tpm\_discovered\_technology\_run\_l
 
 </td><td>
 
-Stores when Technology Portfolio Management \(TPM\) refreshed its contents against Software Asset Management \(SAM\) Professional and Hardware Asset Management \(HAM\) Professional.
+Stores when Technology Lifecycle Management \(TLM\) refreshed its contents against Software Asset Management \(SAM\) Professional and Hardware Asset Management \(HAM\) Professional.
 
 </td></tr><tr><td>
 
@@ -62,8 +68,8 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 
 </td><td>
 
-Stores the TPM technology risk information.
+Stores the TLM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md)
 

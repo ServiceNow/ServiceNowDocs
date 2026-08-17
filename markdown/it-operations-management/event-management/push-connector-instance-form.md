@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Push connector instance form

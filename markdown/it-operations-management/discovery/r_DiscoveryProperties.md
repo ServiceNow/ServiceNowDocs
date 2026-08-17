@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 28
+reading_time_minutes: 29
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -295,7 +295,9 @@ Controls if application CIs should be updated based on running process status.
 **Note:** This behavior will only work for application CIs that are discovered using patterns.
 
  -   Type: true \| false
--   Default value: true \(for zbooted or new activations\)
+-   Default value: true, on instances where Discovery is first activated beginning with the Tokyo release.
+
+ **Note:** On instances where Discovery was active before the Tokyo release, this property isn't created automatically during the upgrade. To enable this behavior on those instances, an administrator must add the `glide.discovery.adm.update.applications` property and set it to **true**.
 
 </td></tr><tr><td>
 

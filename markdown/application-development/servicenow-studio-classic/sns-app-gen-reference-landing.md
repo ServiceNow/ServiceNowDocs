@@ -18,7 +18,7 @@ breadcrumb: [Now Assist for app generation in ServiceNow Studio, Now Assist tool
 Reference topics provide additional information about configuration properties, roles, and more.
 
 -   **[Now Assist for app generation roles for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-na-app-gen-roles.md)**  
-The following roles are installed for use with the Now Assist for Creator app generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator app generation skill.
 -   **[Now Assist for app generation supported metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-supported-metadata.md)**  
 Now Assist for app generation supports metadata including tables, roles, and record producers.
 -   **[Now Assist for app generation supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-supported-field-types.md)**  

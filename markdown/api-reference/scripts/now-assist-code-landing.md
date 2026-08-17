@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Code
-description: ServiceNow Now Assist for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
+title: ServiceNow Otto for Code
+description: ServiceNow ServiceNow Otto for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/now-assist-code-landing.html
 release: zurich
@@ -12,23 +12,23 @@ reading_time_minutes: 2
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
 
-# Now Assist for Code
+# ServiceNow Otto for Code
 
-ServiceNow® Now Assist for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
+ServiceNow® ServiceNow Otto for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
 
 ## Get started
 
 <table id="table_izc_23p_vyb2" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI capabilities available in Now Assist for Code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/exploring-now-assist-code.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI capabilities available in ServiceNow Otto for Code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/exploring-now-assist-code.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Code to utilize its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configuring-now-assist-code.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Code to utilize its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configuring-now-assist-code.md)
 
 </td></tr><tr><td>
 
-[Using Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/using-now-assist-code.md)Use\[Omitted image "bus-documentation.svg"\] Alt text:Take advantage of the generative AI capabilities provided by Now Assist for Code.
+[Using ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/using-now-assist-code.md)Use\[Omitted image "bus-documentation.svg"\] Alt text:Take advantage of the generative AI capabilities provided by ServiceNow Otto for Code.
 
 </td><td>
 

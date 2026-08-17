@@ -89,7 +89,6 @@ An accepted idea creates a demand record and the demand manager submits the dema
 -   **Screen**: The demand is moved to the screening state.
 -   **Qualify** The demand is moved to the qualified state.
 -   **Defer**: The demand is moved to the deferred state.
--   **Incomplete**: The demand is moved to the incomplete state.
 -   **Reset to Draft**: The demand is moved back to the draft state.
 -   **Delete**: The demand record is deleted.
 
@@ -168,6 +167,10 @@ The demand is moved to the completed state.After reviewing the record, select on
 The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
 -   **[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)**  
 Create demands to capture your strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
+-   **[Identify similar records using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/identify-similar-demands.md)**  
+Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-summary-demand-classic.md)**  
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 -   **[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_ViewDemands.md)**  
 You can view existing demands at any time.
 -   **[Add details to demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/c_EnhancingDemands.md)**  
@@ -182,12 +185,10 @@ Demands can be deleted only while in the Pending state.
 As the demand manager, you can move and resize bubbles in the bubble chart.
 -   **[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/train-similarity-solution-dm.md)**  
 Train the Similar Demands solution definition is included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
--   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/identify-similar-demands.md)**  
-Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
+-   **[PPM PIWB template - Find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/ppm-piwb-demand.md)**  
+Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
 -   **[Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/associate-ai-systems-with-demands.md)**  
 Add and manage AI system associations directly from the **AI Associations** tab in Demand Management.
--   **[Summarize demands with demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-summary-demand-classic.md)**  
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/c_DemandManagement.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Working with setup topics
-description: Setup topics are part of a standard conversation structure applied to all your conversations, such as the welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on the context, keywords, or utterances entered by the user, and any conditions that are specified for the setup topic.
+description: Setup topics are standard conversation structures applied to all conversations, such as welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on context, keywords, or user utterances, and any conditions that are specified for the setup topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/working-setup-topics.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Customizing a chat experience, Configure, Virtual Agent, Conversati
 
 # Working with setup topics
 
-Setup topics are part of a standard conversation structure applied to all your conversations, such as the welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on the context, keywords, or utterances entered by the user, and any conditions that are specified for the setup topic.
+Setup topics are standard conversation structures applied to all conversations, such as welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on context, keywords, or user utterances, and any conditions that are specified for the setup topic.
 
-You define setup topics in a Virtual Agent Designer chat experience using the Custom Greetings and Setup option. A chat experience sets the context in which users run Virtual Agent. This context includes:
+You define setup topics in a Assistant Designer Asset library chat experience using the Custom Greetings and Setup option. A chat experience sets the context in which users run Virtual Agent. This context includes:
 
 -   Setup topics applied to bot conversations.
 -   A small list of topics, called promoted topics, initially displayed in the chat window.

@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -29,19 +29,19 @@ Configuring Supplier Relationship and Performance Management \(SRPM\) involves t
 -   **[Create KPI units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.md)**  
 Create KPI units to be used as measurement units for the quantitative performance of the supplier KPIs.
 -   **[Create KPI performance domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.md)**  
-Create KPI performance domains to classify various KPIs into categories. The KPIs under different performance domains can be viewed in the KPI management tab and the Performance dashboard to measure the supplier performance.
+Create KPI performance domains to categorize KPIs into groups visible in the supplier KPI management tab and the Performance dashboard.
 -   **[KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/kpi-templates.md)**  
 KPI templates are created to define KPIs that can be used to measure supplier performance.
 -   **[Create KPI thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.md)**  
 Create KPI thresholds that consist of predefined values that serve as benchmarks or limits for evaluating performance against specific objectives.
 -   **[Create KPIs by adding suppliers to a KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.md)**  
-You can add a new supplier whose performance you want to measure using the KPI template. Adding a supplier to a KPI template generates corresponding KPI records and KPI collection tasks for this supplier.
+Add suppliers to KPI templates to generate KPI records and collection tasks automatically.
 -   **[Create supplier-level KPIs from KPI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contract-level-kpis.md)**  
-You can add supplier-level for a supplier from the **KPI management** tab of the supplier page. You can also define contract-level KPIs under their respective supplier-level KPIs.
+Add supplier-level and contract-level KPIs from **KPI management** tab to measure performance metrics.
 -   **[Create contract-level KPIs from KPI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-contract-level-kpis.md)**  
-You can add contract-level KPIs for a supplier from the **KPI management** tab of the supplier page. Contract-level KPIs are defined under their respective supplier-level KPIs.
+Add contract-level KPIs from supplier **KPI management** tab to measure performance at contract level.
 -   **[Create KPIs without using KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.md)**  
-You can add new KPIs for a supplier without using the existing KPI templates. Adding new KPIs directly generates the corresponding KPI templates.
+n add new KPIs for a supplier witha sting KPI,whicheautomaticallyA directly aerates the correspotemplate templates.
 -   **[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)**  
 Create a segmentation rule that defines criteria for categorizing suppliers into different segments based on various attributes or performance factors.
 

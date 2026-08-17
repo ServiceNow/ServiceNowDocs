@@ -1,20 +1,20 @@
 ---
-title: Configure HCM AI agents from the HRSD AI Agent Collection
-description: Configure HCM AI agents to enable employees to place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
+title: Configure HCM AI agents from the HR Service Delivery AI Agent Collection
+description: Enable your employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure HCM AI agents from the HRSD AI Agent Collection
+# Configure HCM AI agents from the HR Service Delivery AI Agent Collection
 
-Configure HCM AI agents to enable employees to place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
+Enable your employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 ## Procedure
 
-1.  Install the Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
+1.  Install the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-    For more information, see [Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+    For more information, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 2.  Activate the Enterprise Service Management Integrations Framework application from the ServiceNow® Store.
 
@@ -44,10 +44,10 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 6.  Duplicate available HCM AI agents to run them autonomously.
 
-    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-ai-agent.md) For list of available agents, see [Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md).
+    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-ai-agent.md). For list of available agents, see [Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md).
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

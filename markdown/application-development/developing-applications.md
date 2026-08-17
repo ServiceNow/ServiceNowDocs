@@ -116,9 +116,9 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Use app summarization to quickly review and summarize the contents of an application in ServiceNow Studio to use as a short description for the app.
 
--   **[Leverage AI agents and skills in custom applications with Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+-   **[Leverage AI agents and skills in custom applications with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
 
-    Enhance App Engine applications with AI agents and skills using Now Assist for App Engine.
+    Enhance App Engine applications with AI agents and skills using ServiceNow Otto for App Engine.
 
 -   **[Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/generate-scripts-from-text.md)**
 

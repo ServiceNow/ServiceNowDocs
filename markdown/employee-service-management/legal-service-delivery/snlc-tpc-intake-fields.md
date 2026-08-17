@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,7 +32,7 @@ Requested For
 
 </td><td>
 
-The user for whom the request is being submitted. This field is visible only when you're a legal fulfiller with the sn\_lg\_cnt.contract\_fulfiller role and are submitting a request from the Legal Counsel Center.
+The user for whom the request is being submitted. This field is visible only when you’re a legal fulfiller with the sn\_lg\_cnt.contract\_fulfiller role and are submitting a request from the Legal Counsel Center.
 
 </td></tr><tr><td>
 

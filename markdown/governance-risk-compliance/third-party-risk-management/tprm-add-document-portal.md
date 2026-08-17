@@ -43,15 +43,15 @@ Third parties and engagement owners can upload and manage documents directly in 
 
 6.  When managing documents, you have the following actions available.
 
-<table id="choicetable_r3q_vkw_3hc"><thead><tr><th align="left" id="d292041e137">
+<table id="choicetable_r3q_vkw_3hc"><thead><tr><th align="left" id="d293100e137">
 
 Action
 
-</th><th align="left" id="d292041e140">
+</th><th align="left" id="d293100e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d292041e146">
+</th></tr></thead><tbody><tr><td id="d293100e146">
 
 **Add or edit details**
 
@@ -59,7 +59,7 @@ Description
 
 Select the **Details** tab to review and update the document details.
 
-</td></tr><tr><td id="d292041e158">
+</td></tr><tr><td id="d293100e158">
 
 **Add version**
 
@@ -67,7 +67,7 @@ Select the **Details** tab to review and update the document details.
 
 Select the **Version history** tab to review existing versions of the document.Select **Add version** upload a new version of the document.
 
-</td></tr><tr><td id="d292041e175">
+</td></tr><tr><td id="d293100e175">
 
 **Add references**
 
@@ -75,7 +75,7 @@ Select the **Version history** tab to review existing versions of the document.S
 
 Select the **References** section to review existing references. You can add or remove tasks, issues, engagements, or assessment references. For example, navigate to **Tasks** and select **Add tasks**.
 
-</td></tr><tr><td id="d292041e193">
+</td></tr><tr><td id="d293100e193">
 
 **Update permissions**
 
@@ -83,7 +83,7 @@ Select the **References** section to review existing references. You can add or 
 
 Select the **Permissions** tab to review existing permissions. The primary contact can update and remove read and write access.
 
-</td></tr><tr><td id="d292041e206">
+</td></tr><tr><td id="d293100e206">
 
 **Download latest attachment**
 
@@ -91,7 +91,7 @@ Select the **Permissions** tab to review existing permissions. The primary conta
 
 Select **Download latest attachment** to download the latest version of the document. This option isn’t available for documents provided as a URL.
 
-</td></tr><tr><td id="d292041e218">
+</td></tr><tr><td id="d293100e218">
 
 **Save**
 
@@ -103,6 +103,8 @@ Select **Save** to save all changes made to every section of the document.
 </table>
 **Related topics**  
 
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
 [Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
 

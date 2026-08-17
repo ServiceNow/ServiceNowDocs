@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,15 +25,15 @@ Role required: it\_demand\_manager
 You create demand tasks to plan the work for demands rather than for the target work entity such as a project, change, defect, or enhancement. For more information, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-task.md).
 
 -   Planned dates, actual dates, and original dates are part of project tasks not demand tasks.
--   The due date indicates the date on which the task is targeted for completion and doesn’t affect the demand workflow. Project tasks, however, affect the project completion dates if the planned dates and actual dates are changed.
--   Don’t support the creation of nested demand tasks.
--   Don’t support task constraints such as the settings Start ASAP and Start on a specific date.
--   Don’t support an execution type such as Agile, Waterfall, or Hybrid.
+-   The due date indicates the date on which the task is targeted for completion and doesn't affect the demand workflow. Project tasks, however, affect the project completion dates if the planned dates and actual dates are changed.
+-   Don't support the creation of nested demand tasks.
+-   Don't support task constraints such as the settings Start ASAP and Start on a specific date.
+-   Don't support an execution type such as Agile, Waterfall, or Hybrid.
 -   You assign resources for a demand task use the **Assigned to** field, **Additional Assignee** list, and **Assignment Group** fields.
 
 Resources assigned to a demand task can submit the time spent on it using a time card.
 
-If you’re creating a demand task with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, additional fields become available in addition to the Default view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md) and [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-fields-demand.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, additional fields become available beyond the Default view. For more information about fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md) and [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-fields-demand.md).
 
 ## Procedure
 

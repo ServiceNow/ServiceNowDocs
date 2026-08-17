@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Alert automation in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Respond automation
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-For users familiar with the classic Event Management experience, this provides an easy interface with enhanced team support for creating response automations or alert management rules. Alert management rules or response automations are configurable automated actions triggered in response to alerts which match specific conditions, helping IT teams resolve issues faster and with minimal manual effort. These advanced features are currently only available to administrators and other personas mentioned in the role required section.
+For users familiar with the classic Event Management experience, this provides an easy interface with enhanced team support for creating response automations or alert management rules. Alert management rules and response automations are configurable automated actions triggered by alerts matching specific conditions. These actions help IT teams resolve issues faster with minimal manual effort. These advanced features are currently only available to administrators and other personas mentioned in the role required section.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ For users familiar with the classic Event Management experience, this provides a
 
 6.  In the **If these conditions are met** section, create filter criteria to identify the alerts you want to capture.
 
-    **Important:** You can limit respond automations to primary alerts to prevent secondary alerts from being overwhelmed by unnecessary noise. Ensure these automations are applied only to alerts associated with CIs that are not currently undergoing maintenance.
+    **Important:** You can limit respond automations to primary alerts to prevent secondary alerts from being overwhelmed by unnecessary noise. Ensure these automations are applied only to alerts associated with CIs that aren't currently undergoing maintenance.
 
     \[Omitted image "respond-automation-conditions.png"\] Alt text: Respond automation conditions
 
@@ -69,15 +69,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d537865e243">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d539169e246">
 
 Action
 
-</th><th align="left" id="d537865e246">
+</th><th align="left" id="d539169e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d537865e252">
+</th></tr></thead><tbody><tr><td id="d539169e255">
 
 **Create incident and other response actions**
 
@@ -110,7 +110,7 @@ Selecting the Information icon \(\[Omitted image "icon-information-1.png"\] Alt 
     -   **Add wait time**
 When you select the **Customize incident fields** check box, a mapping section appears with the following fields:
 
-    -   **Alert input value**: Generates the value using Now Assist or takes it from the alert.
+    -   **Alert input value**: Generates the value using ServiceNow Otto or takes it from the alert.
     -   **Incident field name**: Maps the selected alert value to the specified incident field.
 **Note:** At least one field mapping is required when you select the **Customize incident fields** check box. **Create Incident \(advanced\)** automatically fills incident fields with default values, even if you don’t customize them.
 
@@ -120,7 +120,7 @@ You can define conditions that are evaluated after the wait period to determine 
 
 To add another response action, select **+ Add response action**.
 
-</td></tr><tr><td id="d537865e465">
+</td></tr><tr><td id="d539169e468">
 
 **Use outbound webhooks to send data to other systems**
 

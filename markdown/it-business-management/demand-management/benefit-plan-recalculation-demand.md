@@ -1,20 +1,20 @@
 ---
 title: Benefit plan updates and recalculation in demand currency
-description: Updating the entered currency, entered benefit, offset type, or the fiscal period of a benefit plan also updates all related amount fields in the benefit plan and its breakdowns. Also, the amounts in the related fields of the demand, to which the benefit plan is rolling up, are recalculated and reflected in demand currency.
+description: Changes to the entered currency, benefit, offset type, or fiscal period of a benefit plan update all related amount fields and breakdowns. The related demand fields are recalculated and reflected in demand currency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/benefit-plan-recalculation-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Enable demand currency view, Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Benefit plan updates and recalculation in demand currency
 
-Updating the entered currency, entered benefit, offset type, or the fiscal period of a benefit plan also updates all related amount fields in the benefit plan and its breakdowns. Also, the amounts in the related fields of the demand, to which the benefit plan is rolling up, are recalculated and reflected in demand currency.
+Changes to the entered currency, benefit, offset type, or fiscal period of a benefit plan update all related amount fields and breakdowns. The related demand fields are recalculated and reflected in demand currency.
 
 -   **Changes in entered currency, entered benefit, and recurring check box of a benefit plan**
 

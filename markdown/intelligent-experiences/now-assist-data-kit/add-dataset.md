@@ -1,6 +1,6 @@
 ---
 title: Add a dataset
-description: Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
+description: Add the data from a table to a data catalog as a dataset through generative AI by using the AI Data Kit application. Adding a dataset is required to create and publish a data collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Add a dataset
 
-Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
+Add the data from a table to a data catalog as a dataset through generative AI by using the AI Data Kit application. Adding a dataset is required to create and publish a data collection.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_data\_kit.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Data Kit** &gt; **Home**.
 
 2.  Navigate to Discover datasets and select **Get started**.
 

@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -82,6 +82,4 @@ Regulatory taxonomy simplifies identifying necessary changes in a customer’s r
 [Next Experience Discuss and Chat Collaboration]()
 
 [Regulatory Change Management application in the Compliance Workspace]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

@@ -1,5 +1,5 @@
 ---
-title: Implement access control in Now Assist AI agents
+title: Implement access control in AI agents
 description: Implement security controls for AI agents and agentic workflows through access control lists \(ACLs\), user identities, and role masking to implement the access control-based security measures in the agentic system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aia-security-implementation.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2025-09-11"
 reading_time_minutes: 4
 keywords: [agentic AI Security, ACLs in AI agents]
-breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
-# Implement access control in Now Assist AI agents
+# Implement access control in AI agents
 
 Implement security controls for AI agents and agentic workflows through access control lists \(ACLs\), user identities, and role masking to implement the access control-based security measures in the agentic system.
 
@@ -21,7 +21,7 @@ Access controls for agentic AI on the ServiceNow AI Platform comprises the major
 
 ## Access control lists
 
-The access control lists \(ACLs\) in Now Assist AI agents determine which role\(s\) a user must have to be allowed to invoke an agentic workflow or an AI agent. ACLs must be configured individually for each agentic workflow, AI agent, and certain AI agent tools.
+The access control lists \(ACLs\) in AI agents determine which role\(s\) a user must have to be allowed to invoke an agentic workflow or an AI agent. ACLs must be configured individually for each agentic workflow, AI agent, and certain AI agent tools.
 
 The ACLs added to an AI agent and agentic workflow are available in the respective related lists for reference.
 
@@ -54,7 +54,7 @@ If you don't have a suitable AI user but want to use the **AI user** identity, y
 
     **Note:**
 
-    -   Now Assist Skills and other tools of AI agents always run as Dynamic Users.
+    -   The generative AI Skills and other tools of AI agents always run as Dynamic Users.
     -   This flow applies to user-invoked agents. Agents with automated triggers operate without a conversational user; role masking still applies, but the invoking context is a system session rather than an individual user.
 
 ## Supervised execution mode for AI agents

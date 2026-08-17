@@ -36,6 +36,7 @@ Use business processes to connect operational workflows to other enterprise arch
 -   Associate architectural artifacts with business processes to link design decisions to execution.
 -   Add business processes to process maps or diagrams to visualize relationships.
 -   Link business processes to value streams to show how internal workflows support end‑to‑end value delivery.
+-   Associate business processes with the business units that own them.
 
 Use business processes to model internal workflows and relate them to supporting applications. Use business capabilities to describe what the organization does. Use value streams to describe end‑to‑end value delivery across functions.
 
@@ -49,4 +50,8 @@ Use business processes to model internal workflows and relate them to supporting
 [Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-business-process.md)
 
 [Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoicate-artifact-bp.md)
+
+[Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
+
+[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
 

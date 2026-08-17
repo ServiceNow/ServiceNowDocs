@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 2
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Add assets to a chat assistant
@@ -36,7 +36,7 @@ When viewing or editing an existing assistant, you can view or edit the assets t
 
     By default, no assets are mapped to the assistant.
 
-    \[Omitted image "NAinVA-assets-122025.png"\] Alt text: Add assets to an assistant.
+    \[Omitted image "sno-assets-0826.png"\] Alt text: Add assets to an assistant.
 
     The **Add assets from library** modal appears where you can multi-select assets that you want to assign to the assistant. Asset types include:
 
@@ -45,13 +45,13 @@ When viewing or editing an existing assistant, you can view or edit the assets t
     -   Actions are single, simple steps that help your assistant complete tasks.
     -   Custom skills skills are AI-powered capabilities you build to extend what your assistant can do.
     -   AI agents independently reason, plan, and take action to complete tasks, based on your instruction.
-    **Note:** There are variations for Now Assist panel assistants.
+    **Note:** There are variations for ServiceNow Otto panel assistants.
 
-    For Now Assist panel - Platform assistant, the available asset types are topics, subflows, actions, custom skills, and agentic workflows. Agentic workflows are a group of AI agents that work together to independently solve problems.
+    For ServiceNow Otto panel - Platform assistant, the available asset types are topics, subflows, actions, custom skills, and agentic workflows. Agentic workflows are a group of AI agents that work together to independently solve problems.
 
-    **Note:** If you want to use AI agents for your Now Assist panel - Platform assistant, contact Support.
+    **Note:** If you want to use AI agents for your ServiceNow Otto panel - Platform assistant, contact Support.
 
-    For Now Assist panel - Developer assistant, only topics are available.
+    For ServiceNow Otto panel - Developer assistant, only topics are available.
 
     \[Omitted image "NAinVA-select-assets-122025.png"\] Alt text: Select assets from library.
 
@@ -59,7 +59,7 @@ When viewing or editing an existing assistant, you can view or edit the assets t
 
     The list view appears where you can manage assets that are associated with an assistant. The table is not editable from this view. To further edit the assets, navigate to the assistant edit flow.
 
-    \[Omitted image "NAinVA-manage-assets-122025.png"\] Alt text: View list of added assets and manage assets.
+    \[Omitted image "sno-manage-assets-0826.png"\] Alt text: View list of added assets and manage assets.
 
     To unmap an asset, select **Manage assets** and uncheck the desired asset.
 

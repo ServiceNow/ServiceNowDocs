@@ -39,14 +39,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable event processing
-
-</td><td>
-
-Enable the property to create unauthorized change events when an unplanned CI change \(**ci.change.unplanned**\) event is triggered.Default value: False
-
-</td></tr><tr><td>
-
 Notification ignores period
 
 </td><td>

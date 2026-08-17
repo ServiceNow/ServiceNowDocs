@@ -1,18 +1,18 @@
 ---
 title: Configuring Knowledge Center
-description: For using the Knowledge Center, the admin must enable system properties and configure the features that enable agents to use its generative AI skills within their application workspace.
+description: Configure the knowledge content recommendation skill to enable agents to utilize the context menu to elaborate or shorten a knowledge article in the TinyMCE. With the new enhance content editor available with Knowledge Center, agents can create and update the knowledge article with custom instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuring-knowledge-center.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuring Knowledge Center
 
-For using the Knowledge Center, the admin must enable system properties and configure the features that enable agents to use its generative AI skills within their application workspace.
+Configure the knowledge content recommendation skill to enable agents to utilize the context menu to elaborate or shorten a knowledge article in the TinyMCE. With the new enhance content editor available with Knowledge Center, agents can create and update the knowledge article with custom instructions.
 
 The first step in configuring the Knowledge Center involves enabling the following system properties:
 
@@ -25,15 +25,18 @@ For more information, see [Enable system properties for Knowledge Center](https:
 Configure how agents use Knowledge Center to generate, edit, and optimize knowledge articles. Refer the following:
 
 -   [Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
--   [Activate Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
--   [Configuring Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+-   [Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+-   [Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+-   
+
+**Note:** You can access knowledge articles created with TinyMCE by enabling KB generation skill, see [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, please activate the knowledge content recommendation skill, see [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md).
 
 **Related topics**  
 
 
-[Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 [Configure and activate the Now Assist Identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
 
-[Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 

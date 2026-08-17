@@ -25,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d128566e93">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d132315e93">
 
 Roadmap type
 
-</th><th align="left" id="d128566e96">
+</th><th align="left" id="d132315e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d128566e102">
+</th></tr></thead><tbody><tr><td id="d132315e102">
 
 **Portfolio plan roadmap**
 
@@ -43,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d128566e123">
+</td></tr><tr><td id="d132315e123">
 
 **Free-form roadmap**
 
@@ -79,7 +79,7 @@ Multiple planning item types
 
     For full field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the Now Assist for SPM application is installed.
+    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the ServiceNow Otto for SPM application is installed.
 
 4.  Select **Submit**.
 

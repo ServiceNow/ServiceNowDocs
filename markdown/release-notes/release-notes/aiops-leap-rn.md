@@ -16,7 +16,7 @@ The ServiceNow® AIOps LEAP application uses AI-driven insights to create automa
 
 Use Google Gemini, Azure OpenAI, and Anthropic LLM in AIOps LEAP in addition to Now LLM Service. See [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap.md) for more information.
 
-**Important:** AIOps LEAP is available under Now Assist for IT Operations Management \(ITOM\) in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** AIOps LEAP is available under ServiceNow Otto for IT Operations Management \(ITOM\) in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
@@ -34,11 +34,11 @@ Use Google Gemini, Azure OpenAI, and Anthropic LLM in AIOps LEAP in addition to 
 
 ## Activation information
 
-Install AIOps LEAP by requesting Now Assist for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
-You should have Now Assist for Creator installed to generate playbooks.
+You should have ServiceNow Otto for Creator installed to generate playbooks.
 
 ## Accessibility information
 

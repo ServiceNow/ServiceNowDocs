@@ -1,6 +1,6 @@
 ---
 title: Personalize and filter data in EAP Backlog
-description: View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed and applying filters to narrow down the data on the page.
+description: View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed. You can also apply filters to narrow down the data on the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/personalize-and-filter-data-in-eap-backlog.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Plan
 
 # Personalize and filter data in EAP Backlog
 
-View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed and applying filters to narrow down the data on the page.
+View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed. You can also apply filters to narrow down the data on the page.
 
 ## Before you begin
 

@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2025-10-19"
 reading_time_minutes: 3
-breadcrumb: [AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [AI agents in FSO, Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # ACH dispute AI agents overview
@@ -56,7 +56,7 @@ To access the agents:
 
 Required roles: sn\_bom\_credit\_card.dispute\_agent\_connector, sn\_bom\_credit\_card.dispute\_agent, and now\_assist\_panel\_user.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 In the data access settings, you must also add the necessary roles to the following FSO AI agents:
 

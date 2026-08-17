@@ -85,3 +85,5 @@ The Invoice line form includes tabs that store invoice line information that an 
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

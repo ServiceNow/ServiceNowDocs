@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-skillsintelligence-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Skills Intelligence Workspace](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Skills Intelligence Workspace](https://www.servicenow.com/docs/access?context=skills-intelligence-workspace&family=xanadu&ft:locale=en-US)**
 
 See how the Job architecture is currently structured and how job families and role groups and the skills related to them through the Job architecture view in Skills Workspace. Get a sense of issues that need to be fixed by looking at the node map.
 
@@ -158,7 +158,7 @@ Xanadu
 
 </td><td>
 
-The Skills onboarding feature is removed and is replaced with Skill imports playbook experience. For customers who already have their data in Skills onboarding, download all the skills in the Ready for review state and re-upload them using the new import process. For more information, see [\[Placeholder link text to key import-and-validate-custom-skills-onboarding\]](https://servicenow-staging.fluidtopics.net/access?context=import-and-validate-custom-skills-onboarding&family=xanadu&ft:locale=en-US).
+The Skills onboarding feature is removed and is replaced with Skill imports playbook experience. For customers who already have their data in Skills onboarding, download all the skills in the Ready for review state and re-upload them using the new import process. For more information, see [\[Placeholder link text to key import-and-validate-custom-skills-onboarding\]](https://www.servicenow.com/docs/access?context=import-and-validate-custom-skills-onboarding&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ Xanadu
 
 </td><td>
 
-Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -425,7 +425,7 @@ Xanadu
 -   Select a Role level directly from your Career profile in the Career hub in Employee Portal and add skills to your profile.
 -   Migrate to a more dynamic and interactive playbook experience within the Skills Workspace.
 
- See [Skills Intelligence](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence&family=xanadu&ft:locale=en-US) for more information.
+ See [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

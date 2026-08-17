@@ -1,18 +1,18 @@
 ---
-title: Supporting information for Now Assist for Purchase Order Management \(POM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Purchase Order Management \(POM\) application.
+title: Supporting information for Now Assist for POM
+description: Get a quick overview of the important information that is related to the Now Assist for POM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supporting-information-na-pom.html
 release: zurich
 topic_type: concept
 last_updated: "2026-03-02"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Exploring Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Purchase Order Management \(POM\)
+# Supporting information for Now Assist for POM
 
-Get a quick overview of the important information that is related to the Now Assist for Purchase Order Management \(POM\) application.
+Get a quick overview of the important information that is related to the Now Assist for POM application.
 
 ## Supported versions
 
@@ -29,7 +29,7 @@ The Now Assist for POM application includes the workflows that are listed in the
 
 ## Application information
 
-Activate the Now Assist for POM store app \(sn\_poem\_gen\_ai\) to use the GenAI capabilities for streamlining the purchase order execution process.
+Activate the ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\) to use the GenAI capabilities for streamlining the purchase order execution process.
 
 This store app has the following dependencies:
 
@@ -45,5 +45,5 @@ Activate the applications in the following order:
 -   Purchase Order Management application \(com.snc.sn\_poem\_core\)
 -   Now Assist for POM store app \(sn\_poem\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
+For more information, see [Configure Now Assist for POM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
 

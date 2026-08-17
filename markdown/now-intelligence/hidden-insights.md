@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/hidden-
 release: zurich
 topic_type: concept
 last_updated: "2025-09-16"
-reading_time_minutes: 6
-breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+reading_time_minutes: 8
+breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Extended analysis
@@ -36,11 +36,15 @@ When you view an indicator, Extended analysis automatically analyzes the followi
 
 -   **Temporal trends**
 
-    How the indicator has changed over time
+    How the indicator has changed over timeand whether this change is in the desired direction
 
 -   **Prior-period comparisons**
 
     How current performance compares to a previous period
+
+-   **Target status**
+
+    Current target value, difference between current score and target value, and the likely impact of this gap
 
 
 In the response, Extended analysis provides a formatted summary that includes the following information:
@@ -91,7 +95,7 @@ Sometimes different questions or follow-up questions return the same extended an
 
 ## Standard vs. extended analysis of table data
 
-Consider the following request made in an exploration: "Analyze the incident creation trend over the past 12 months." Using standard analysis, you get the following insights: "Incident creation peaked in July 2025 with 2,441 incidents, while the lowest monthly count was 1,177 incidents in August 2025. The first half of the period \(September 2024 to February 2025\) saw monthly incident counts consistently above 1,700, but the final month dropped by more than 50% compared to the peak."
+Consider the following request made in an exploration: "Analyze the incident creation trend over the past 12 months." Using standard analysis, you get the following insights: `Incident creation peaked in July 2025 with 2,441 incidents, while the lowest monthly count was 1,177 incidents in August 2025. The first half of the period (September 2024 to February 2025) saw monthly incident counts consistently above 1,700, but the final month dropped by more than 50% compared to the peak.`
 
 \[Omitted image "nowass-expl-std-analysis.png"\] Alt text: Resulting insights from a standard analysis of the request to analyze the incident creation trend over the past 12 months.
 
@@ -107,6 +111,33 @@ Making the same request with extended analysis, you get the same insight plus th
 
 
 \[Omitted image "nowass-explr-extd-analysis.png"\] Alt text: Resulting insights from an extended analysis of the request to analyze the incident creation trend over the past 12 months.
+
+## Standard vs extended analysis of indicator scores
+
+Consider the following request in an exploration: "How many open incidents with Critical priority have there been over the last three months, grouped by category?" Using standard analysis, you get the following insights: `Based on data collected through July 8, 2026, Hardware had the most open critical incidents at 26, far ahead of Inquiry / Help at 6 and Network at 5. Hardware accounts for about 62% of the 42 open critical incidents shown, while the top three categories together make up about 88% of the total.` This answer addresses only what was directly asked in the question.
+
+\[Omitted image "ext-insights-std-indicator.png"\] Alt text: Standard analysis of indicator scores.
+
+Making the same request with extended analysis, you get the same insight plus the following information, along with suggested actions to take:
+
+-   Hardware drives the backlog with **62% \(26/42\)** of open incidents, over **4x** Inquiry / Help at **14% \(6/42\)**; prioritize hardware-specific resolution capacity.
+
+-   Lower-severity work dominates open incidents: **65% \(653/1006\)** are Planning, while only **4% \(45/1006\)** are Critical; separate queues to prevent routine work delaying urgent response.
+
+-   High-urgency exposure remains material: **16% \(161/1006\)** of open incidents are High or Critical, indicating meaningful operational risk; accelerate escalation and aging reviews.
+
+-   Category concentration is extreme: the top two categories, Hardware and Inquiry / Help, account for **76% \(32/42\)** of open incidents; focus root-cause reduction there first.
+
+-   Cloud Management is a clear low-volume outlier at **2% \(1/42\)** of category incidents versus Hardware’s **62% \(26/42\)**; review whether demand is genuinely low or underreported.
+
+
+\[Omitted image "ext-insights-extended.png"\] Alt text: Extended analysis of indicator scores.
+
+If a target is set on the indicator, extended analysis can return the target value and the gap between that target and the latest score. Consider the following request: "Number of open incidents over the last 9 months, based on indicator score, and compared to target, including target gaps." In reply, you get a basic description of the trends in the returned time series data visualization and the following additional insights on the target gap: "Open incidents climbed from 2 on October 10, 2025 to 1,214 by July 9, 2026, far above the 300 target; launch backlog-reduction immediately."
+
+\[Omitted image "ext-insights-extended-target.png"\] Alt text: Extended analysis of indicator scores including target gap.
+
+**Tip:** Sometimes making it explicit that you want indicator data including target gap helps make sure that data is in the response.
 
 **Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ask-expl-questions.md)
 

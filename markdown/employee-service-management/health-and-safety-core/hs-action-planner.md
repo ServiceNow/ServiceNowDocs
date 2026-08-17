@@ -23,7 +23,7 @@ The Action planner sidebar panel in the Health and Safety Workspace enables safe
 -   View all actions associated with the current record.
 -   Create and edit actions inline.
 -   Search, filter, and sort actions by type, state, or priority.
--   When the Now Assist for Health and Safety application \(sn\_hs\_gen\_ai\) is installed, generate AI-suggested actions based on the record's description and similar historical records.
+-   When the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed, generate AI-suggested actions based on the record's description and similar historical records.
 
 ## Accessing the Action planner
 
@@ -34,7 +34,7 @@ The Action planner is available on any Health and Safety record that has an **Ac
 
 ## Suggested actions availability
 
-The **Suggest new actions** button and the **Suggested actions** section appear only when the Now Assist for Health and Safety application \(sn\_hs\_gen\_ai\) is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+The **Suggest new actions** button and the **Suggested actions** section appear only when the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 -   **[Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md)**  
 Create and manage safety actions in context while reviewing a Health and Safety record, without opening a separate Action form.

@@ -32,7 +32,7 @@ The flow actions include:
 -   
 .
 
--   **[Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/execution-tracking-begins-cis-activity.md)**  
+-   **[Legacy: Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/execution-tracking-begins-cis-activity.md)**  
 The **Execution Tracking - Begin \(CIs\)** flow action starts the auditing process for a Security Operations Integration flow that operates on configuration items \(CIs\).
 
 **Parent Topic:**[Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/get-network-statistics-capability.md)

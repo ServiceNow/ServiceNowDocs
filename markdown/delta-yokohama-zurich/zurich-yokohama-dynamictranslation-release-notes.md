@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-dynamictranslation-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Exclusion Framework in Dynamic Translation](https://servicenow-staging.fluidtopics.net/access?context=dyn-translation-exclusion-framework&family=yokohama&ft:locale=en-US)**
+-   **[Exclusion Framework in Dynamic Translation](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&family=yokohama&ft:locale=en-US)**
 
 Preserve text such as product names or technical terms during machine translation. With Exclusion Framework, you can specify words and patterns that shouldn't be translated.
 
--   **[The APIs used by default Translator Configurations are upgraded to v4](https://servicenow-staging.fluidtopics.net/access?context=migrate-v3-dynamic-translation&family=yokohama&ft:locale=en-US)**
+-   **[The APIs used by default Translator Configurations are upgraded to v4](https://www.servicenow.com/docs/access?context=migrate-v3-dynamic-translation&family=yokohama&ft:locale=en-US)**
 
 The APIs used by default translator configurations are automatically upgraded to v4. If you want to use v4 APIs with customized translator configurations, you must migrate them manually. The previous v3 is still supported.
 
@@ -82,9 +82,9 @@ Zurich
 
 </td><td>
 
--   **[Test Exclusion Rule](https://servicenow-staging.fluidtopics.net/access?context=dyn-translation-test-exclusion-rule&family=zurich&ft:locale=en-US)**
+-   **[Test Exclusion Rule](https://www.servicenow.com/docs/access?context=dyn-translation-test-exclusion-rule&family=zurich&ft:locale=en-US)**
 
-Use the new Test Exclusion Rule module to check your exclusion pattern in Dynamic Translation's Exclusion Framework. You can manually test either exact matches or pattern \(regex\) matches. See what your exclusion pattern matches when translating your input into target languages. When you are satisfied with your exclusion pattern, you can create an exclusion rule based on it with just one step.
+Use the new Test Exclusion Rule module to check your exclusion pattern in Exclusion Framework of Dynamic Translation. You can manually test either exact matches or pattern \(regex\) matches. See what your exclusion pattern matches when translating your input into target languages. When you are satisfied with your exclusion pattern, you can create an exclusion rule based on it with just one step.
 
 
 </td></tr></tbody>
@@ -135,7 +135,7 @@ Yokohama
 
 </td><td>
 
-The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://servicenow-staging.fluidtopics.net/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
+The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Zurich
 
 </td><td>
 
-Dynamic Translation is a ServiceNow AI Platform feature that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\). For details, see [Activate Dynamic Translation](https://servicenow-staging.fluidtopics.net/access?context=activate-dynamic-translation&family=zurich&ft:locale=en-US).
+Dynamic Translation is a ServiceNow AI Platform feature that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\). For details, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -342,7 +342,7 @@ Yokohama
 -   The APIs used by default translator configurations are upgraded to v4. If you want to use v4 APIs with customized translator configurations, you must migrate them manually.
 -   The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is removed.
 
- See [Dynamic Translation](https://servicenow-staging.fluidtopics.net/access?context=dynamic-translation-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -350,9 +350,9 @@ Zurich
 
 </td><td>
 
-With the new Test Exclusion Rule module you can check what your exclusion pattern matches during a test translation, then create an exclusion rule based on the pattern you tested.
+With the new Test Exclusion Rule module, you can check what your exclusion pattern matches during a test translation, then create an exclusion rule based on the pattern you tested.
 
- See [Dynamic Translation](https://servicenow-staging.fluidtopics.net/access?context=dynamic-translation-overview&family=zurich&ft:locale=en-US) and [Exclusion Framework in Dynamic Translation](https://servicenow-staging.fluidtopics.net/access?context=dyn-translation-exclusion-framework&family=zurich&ft:locale=en-US) for more information.
+ See [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&family=zurich&ft:locale=en-US) and [Exclusion Framework in Dynamic Translation](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

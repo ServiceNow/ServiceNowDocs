@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-02-11"
 reading_time_minutes: 1
-breadcrumb: [Labelling, Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Labelling, Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Create a labeling project from scratch

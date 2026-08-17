@@ -21,13 +21,13 @@ Use the Digital End-User Experience \(DEX\) agentic workflow to diagnose and res
 
 To access the DEX issue diagnosis and resolution agentic workflow, make sure that you install the following applications:
 
--   Now Assist for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
+-   ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
 -   Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Configuring Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/config-dex-console.md).
 
 **Note:**
 
--   Before you begin, review these [Important considerations for using Now Assist for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
--   For all available ITSM agentic AI applications, see [Use agentic AI in Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+-   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
+-   For all available ITSM agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
 The DEX issue diagnosis and resolution agentic workflow enables service desk agents to diagnose common issues based on real-time insights into device and application health and resolve these issues by providing targeted resolution plans that can be implemented directly from the workspace. It helps to reduce the resolution time for incidents and enhance overall service desk agent experience.
 

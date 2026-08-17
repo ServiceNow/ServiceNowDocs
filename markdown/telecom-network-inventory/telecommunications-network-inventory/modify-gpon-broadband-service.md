@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -33,8 +33,6 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 4.  Select **GPON Broadband Modification Service** &gt; **Next**.
 
 5.  On the GPON Broadband Modification form, select the **Customer Site name**.
-
-    Other fields are per-populated but can be updated as needed. To learn more about the fields, see [GPON broadband modification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-modification-form.md).
 
 6.  Select **Submit**.
 

@@ -8,7 +8,7 @@ product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
@@ -25,6 +25,7 @@ You can activate the Field Service Advanced Capacity and Reservations management
 
         -   Field Service Capacity and Reservations Management \(com.snc.fsm\_capacity\_management\) plugin.
         -   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\) plugin.
+        -   Enable territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 Role required: admin.
 

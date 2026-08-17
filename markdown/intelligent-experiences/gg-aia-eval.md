@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [agentic AI evaluation, AI agent testing, evaluation metrics, dataset creation, agentic execution logs]
-breadcrumb: [Explore, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # General guidelines for agentic AI asset evaluation

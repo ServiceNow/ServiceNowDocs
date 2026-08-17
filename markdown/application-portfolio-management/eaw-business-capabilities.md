@@ -24,6 +24,7 @@ From the Portfolio page in Enterprise Architecture Workspace, you can perform th
 -   View existing business capabilities
 -   Add a sub-capability
 -   Add architectural artifacts to a business capability
+-   Associate a business capability with the business unit that uses it
 
 You can also view and add business capabilities and perform a host of other tasks relating to business capabilities, from the Business Portfolio page. For more information, see [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-business-portfolio.md).
 
@@ -41,4 +42,8 @@ You can also view and add business capabilities and perform a host of other task
 [Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 
 [Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoicate-artifact-bc.md)
+
+[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)
+
+[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-performanceanalytics-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Apply multiple levels of breakdown to an indicator](https://servicenow-staging.fluidtopics.net/access?context=multi-level-breakdowns&family=yokohama&ft:locale=en-US)**
+-   **[Apply multiple levels of breakdown to an indicator](https://www.servicenow.com/docs/access?context=multi-level-breakdowns&family=yokohama&ft:locale=en-US)**
 
 Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
 
@@ -78,7 +78,7 @@ Zurich
 
 </td><td>
 
--   **[Apply multiple levels of breakdown to an indicator](https://servicenow-staging.fluidtopics.net/access?context=multi-level-breakdowns&family=zurich&ft:locale=en-US)**
+-   **[Apply multiple levels of breakdown to an indicator](https://www.servicenow.com/docs/access?context=multi-level-breakdowns&family=zurich&ft:locale=en-US)**
 
 Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
 
@@ -343,7 +343,7 @@ Yokohama
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
- See [Performance Analytics \(Indicator data sources\)](https://servicenow-staging.fluidtopics.net/access?context=pa-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ Zurich
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
- See [Performance Analytics \(Indicator data sources\)](https://servicenow-staging.fluidtopics.net/access?context=pa-overview&family=zurich&ft:locale=en-US) for more information.
+ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

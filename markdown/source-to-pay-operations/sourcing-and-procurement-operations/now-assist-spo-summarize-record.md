@@ -1,33 +1,41 @@
 ---
-title: Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace
-description: As a fulfiller, summarize procurement-related records to know about their status, progress, and action items by using the record summarization skills in the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+title: Summarize a procurement record in Source-to-Pay Workspace
+description: Get a quick overview of a procurement record's status, completed actions, and next steps, without reading through all the details. ServiceNow Otto for SPO generates a focused summary in seconds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-30"
 reading_time_minutes: 4
-breadcrumb: [Use, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace
+# Summarize a procurement record in Source-to-Pay Workspace
 
-As a fulfiller, summarize procurement-related records to know about their status, progress, and action items by using the record summarization skills in the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+Get a quick overview of a procurement record's status, completed actions, and next steps, without reading through all the details. ServiceNow Otto for SPO generates a focused summary in seconds.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
 ## About this task
 
-You can use these record summarization skill in either Core UI or Source-to-Pay Workspace.
+The summary appears in different places depending on which interface you're using:
 
--   In Core UI, the summary appears in a banner in the record record.
--   In Source-to-Pay Workspace, the summary is generated in the **Details** tab.
+-   Core UI: The summary appears in a banner at the top of the record.
+-   Source-to-Pay Workspace: The summary appears in the **Details** tab.
+
+-   **What the summary includes**
+
+    Based on the type of procurement record, ServiceNow Otto for SPO generates a summary with three sections:
+
+    -   **Overview**: Basic information about the record.
+    -   **Actions completed**: Actions that have been taken so far.
+    -   **Next steps**: Actions you need to do next.
 
 ## Procedure
 
@@ -47,64 +55,64 @@ Do this
 
 </th></tr></thead><tbody><tr><td>
 
-To generate a summary for the following records:-   Procurement case
--   Sourcing request
+To generate a summary for the following procurement records:-   Negotiation
+-   Procurement case
+-   Procurement task
 -   Purchase requisition
--   Negotiation
 -   Sourcing event
+-   Sourcing request
+-   Sourcing task
 
 
 </td><td>
 
 1.  Navigate to **Lists** &gt; **All work**.
-2.  Select any of the following modules and select the link to the record under the Number column.
+2.  Select the type of record you want to summarize:
     -   Cases
-    -   Sourcing requests
-    -   Requisitions
     -   Negotiations
+    -   Requisitions
     -   Sourcing events
+    -   Sourcing requests
+3.  Select the record number in the **Number** column to open it.
 
 
 </td></tr></tbody>
-</table>4.  On the Details tab, in the Record summary section, select **Summarize**.
+</table>4.  Navigate to the **Details** tab.
 
-    \[Omitted image "record-summarization-pr.png"\] Alt text: Summarize option that appears at the top of the record in Source-to-Pay Workspace.
+5.  In the **Record summary** section, select **Summarize**.\[Omitted image "image.otto-spo-summarize-record"\] Alt text: Record summary in Source-to-Pay Workspace.
 
-5.  When you opt to summarize a purchase requisition, you see the following message:
+    ServiceNow Otto for SPO begins generating your summary. This typically takes a few seconds. The summary will appear on screen once complete.
 
-    Now Assist is summarizing your purchase requisition.
+6.  When you opt to summarize a purchase requisition, you see the following message:
+
+    ServiceNow Otto is summarizing your purchase requisition.
 
     **Note:** Generating and displaying the summary may take several seconds.
 
-6.  Review the summary details.
+7.  Review the summary details.
 
-    A concise summary of a record, including the overview, actions completed, and next steps. The information that is displayed is based on the type of the record:\[Omitted image "record-summarized-pc.png"\] Alt text: Summarized procurement case.
+8.  After ServiceNow Otto for SPO generates the summary, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-    -   **Overview**: Provides information about the record.
-    -   **Actions completed**: Lists all the actions that have been taken so far.
-    -   **Next steps**: Lists the actions that the fulfillers need to take next.
-7.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
-
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d205800e299">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d206142e328">
 
 Option
 
-</th><th align="left" id="d205800e302">
+</th><th align="left" id="d206142e331">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d205800e308">
+</th></tr></thead><tbody><tr><td id="d206142e337">
 
 **Save the summary information by adding it to the record work notes**
 
 </td><td>
 
 1.  Select **Share**.
-2.  In the Share to work notes dialog box, edit the summary.
-3.  Select **Save to work notes**.\[Omitted image "record-summarization-copy-notes-spo.png"\] Alt text: Save work notes for procurement record summarization.
+2.  In the **Share to work notes** dialog box, edit the summary if needed.
+3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d205800e340">
+</td></tr><tr><td id="d206142e367">
 
 **Expand or collapse the summary**
 
@@ -112,7 +120,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d205800e361">
+</td></tr><tr><td id="d206142e388">
 
 **Provide feedback for the summary**
 
@@ -120,15 +128,15 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d205800e384">
+</td></tr><tr><td id="d206142e411">
 
 **Copy the record summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy-spo.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d205800e400">
+</td></tr><tr><td id="d206142e427">
 
 **View the information about the record summary**
 
@@ -136,7 +144,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d205800e415">
+</td></tr><tr><td id="d206142e442">
 
 **Refresh the record summary**
 
@@ -146,18 +154,18 @@ If you want to refresh the summary, select the refresh icon \(\[Omitted image "i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
+[Summarize a procurement record in Shopping Hub]()
 
-[Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel]()
+[Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using ServiceNow Otto panel]()
 
-[Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
+[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
 
 [Analyze sentiment in procurement cases]()
 
-[Generate email responses]()
+[Generate an email response for procurement cases]()
 

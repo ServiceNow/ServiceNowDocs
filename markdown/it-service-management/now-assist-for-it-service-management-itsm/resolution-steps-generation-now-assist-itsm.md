@@ -1,6 +1,6 @@
 ---
-title: Suggested steps generation in Now Assist for IT Service Management \(ITSM\)
-description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the Now Assist for IT Service Management \(ITSM\) application.
+title: Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
 release: zurich
@@ -10,16 +10,19 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Suggested steps generation in Now Assist for IT Service Management \(ITSM\)
+# Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
 
-Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the Now Assist for IT Service Management \(ITSM\) application.
+Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
-**Important:** Starting with the Australia release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+**Important:**
+
+-   Starting with the Australia release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+-   Starting Zurich Patch 12, Now Assist is renamed to ServiceNow Otto.
 
 To transition to LEAP:
 
@@ -28,8 +31,8 @@ To transition to LEAP:
 
     **Note:** You must be in LEAP scope to activate this skill.
 
-    1.  Go to **Admin** &gt; **Now Assist Admin**.
-    2.  Select **Now Assist Skills**.
+    1.  Go to **Admin** &gt; **AI Admin Hub**.
+    2.  Select **AI Skills**.
     3.  In **Technology**, select **ITOM**.
     4.  Activate the LEAP installer plugin.
 3.  Add the itil role to access LEAP.
@@ -42,7 +45,7 @@ Role required: itil
 
 ## About this task
 
-Data from the short description field and the filter conditions set in the incident input table are used to generate the clusters based on similar past resolved incidents. By default, the Suggested steps skills are configured to work with itil roles. With Named Access Accounts \(NAA\), you can restrict access to this skill for a different role. However, itil is still required because the Group-Action framework skills used by **Suggested Steps** enables to access the incidents. For most scenarios, changing the ACL role on Now Assist Admin is sufficient. However, you can also restrict individual skills to specific roles. For information on troubleshooting steps to resolve issues with the Suggested steps generation skill, see [Troubleshoot Suggested steps generation skill set up](https://www.servicenow.com/community/itsm-articles/troubleshooting-steps-for-now-assist-for-itsm-suggested-steps/ta-p/3256267).
+Data from the short description field and the filter conditions set in the incident input table are used to generate the clusters based on similar past resolved incidents. By default, the Suggested steps skills are configured to work with itil roles. With Named Access Accounts \(NAA\), you can restrict access to this skill for a different role. However, itil is still required because the Group-Action framework skills used by **Suggested Steps** enables to access the incidents. For most scenarios, changing the ACL role on AI Admin Hub is sufficient. However, you can also restrict individual skills to specific roles. For information on troubleshooting steps to resolve issues with the Suggested steps generation skill, see [Troubleshoot Suggested steps generation skill set up](https://www.servicenow.com/community/itsm-articles/troubleshooting-steps-for-now-assist-for-itsm-suggested-steps/ta-p/3256267).
 
 ## Procedure
 
@@ -54,15 +57,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d122087e236">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d122135e248">
 
 If
 
-</th><th align="left" id="d122087e239">
+</th><th align="left" id="d122135e251">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d122087e245">
+</th></tr></thead><tbody><tr><td id="d122135e257">
 
 **You're using LEAP**
 
@@ -70,7 +73,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d122087e262">
+</td></tr><tr><td id="d122135e274">
 
 **You're using Suggested steps**
 

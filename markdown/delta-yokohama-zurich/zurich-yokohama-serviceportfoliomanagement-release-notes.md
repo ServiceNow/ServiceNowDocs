@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-serviceportfoliomanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,13 +67,13 @@ Yokohama
 
 </td><td>
 
--   **[Edit and manage service portfolios in Service Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=SPM2-edit-manage-portfolios&family=yokohama&ft:locale=en-US)**
+-   **[Edit and manage service portfolios in Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-edit-manage-portfolios&family=yokohama&ft:locale=en-US)**
 
 Use the updated options to edit and manage your service portfolios:
 
-    -   [Manage the CSDM life cycle fields in Service Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=SPM2-lifecycle-fields&family=yokohama&ft:locale=en-US)
-    -   [Remap service portfolio taxonomy nodes in Service Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=SPM2-remap-taxo-nodes&family=yokohama&ft:locale=en-US)
--   **[Use Service Portfolio Management services](https://servicenow-staging.fluidtopics.net/access?context=SPM2-services&family=yokohama&ft:locale=en-US)**
+    -   [Manage the CSDM life cycle fields in Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-lifecycle-fields&family=yokohama&ft:locale=en-US)
+    -   [Remap service portfolio taxonomy nodes in Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-remap-taxo-nodes&family=yokohama&ft:locale=en-US)
+-   **[Use Service Portfolio Management services](https://www.servicenow.com/docs/access?context=SPM2-services&family=yokohama&ft:locale=en-US)**
 
 Recognize the updated label for technical services. The updated label aligns with the CSDM, version 5.0. Even though the table name hasn't changed, the services label is updated in the Service Portfolio Management application and in all ServiceNow applications or workspace environments that display services. The label for service offerings remains the same for all releases: Service offering in the \[service\_offering\] table.
 
@@ -196,7 +196,7 @@ Yokohama
 
 </td><td>
 
-The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://servicenow-staging.fluidtopics.net/access?context=activate-SPM2-plugin&family=yokohama&ft:locale=en-US).
+The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Zurich
 
 </td><td>
 
-The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://servicenow-staging.fluidtopics.net/access?context=activate-SPM2-plugin&family=zurich&ft:locale=en-US).
+The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -347,7 +347,7 @@ Yokohama
     -   Reparent taxonomy nodes when you move them to a new location in a portfolio. You can also add a new taxonomy node in the middle of an existing portfolio, either between two nodes or between a node and a service.
 -   Recognize the updated label for technical services.
 
- See [Service Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=SPM2-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -360,7 +360,7 @@ Zurich
     -   Select multiple contracts in the **Contracts** field.
 -   Delete the service portfolio or taxonomy node from the Digital Portfolio Management \(DPM\) scope.
 
- See [Service Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=SPM2-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

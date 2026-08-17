@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Help remediate bill issues agentic workflow
 description: Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Help remediate bill issues agentic workflow
 
 Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 
@@ -22,7 +22,7 @@ The Help remediate bill issue agentic workflow uses a team of AI agents that sup
 
 Role required: sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
 
-To modify the Help remediate bill issues agentic workflow, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Help remediate bill issues agentic workflow, , and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -30,7 +30,7 @@ To modify the Help remediate bill issues agentic workflow, [Duplicate an agentic
 
 Required role: sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Help remediate bill issues agentic workflow
 
@@ -39,7 +39,7 @@ To access the use case:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Help remediate bill issues**.
 
-To create a new use case, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+To create a new use case, see .
 
 ## Application dependency
 
@@ -57,13 +57,13 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the agentic workflow, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-aia-use-case.md).
+To test the agentic workflow, see .
 
 ## AI agents used in the Help remediate bill issues agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 
-To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+To create an AI agent, see .
 
 <table id="table_kw1_skx_r2c"><thead><tr><th>
 

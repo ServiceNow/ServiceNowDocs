@@ -16,7 +16,7 @@ The underlying technologies of the business applications used in your business e
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Portfolio Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
 
 The technology of a business application is also known as a software model. A software model is a specific version or configuration of software.
 

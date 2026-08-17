@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Domain separation support for AI Data Explorer
@@ -36,7 +36,7 @@ When a user in an exploration asks a question of the AI, the answer is limited t
 
 All AI Data Explorer tables have domain fields to associate explorations to domains and restrict access accordingly.
 
-**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-explorer-reference.md)
+**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/aide-reference.md)
 
 **Related topics**  
 

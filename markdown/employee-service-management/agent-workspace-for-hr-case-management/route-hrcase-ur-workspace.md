@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration with Universal Request, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -28,9 +28,9 @@ Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request 
 
 1.  Open the HR case that you want to transfer.
 
-2.  Click **Transfer**.
+2.  Select **Transfer**.
 
-    **Note:** The **Transfer** option is displayed only if you are a part of the assignment group or if the case is assigned to you.
+    **Note:** The **Transfer** option is displayed only if you're a part of the assignment group or if the case is assigned to you.
 
 3.  In the transfer dialog box, provide the following details.
 
@@ -41,11 +41,11 @@ Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request 
     -   **Service**: Select the specific service of the chosen department.
     -   **Transfer reason**: Select the reason from the list.
     -   **Transfer notes**: A brief description for routing the primary ticket that you want to pass to the UR Routing agent.
-    -   **Copy additional comments and attachments**: Deselect if you do not want to transfer the ticket with additional comments and attachments. By default, all attachments and comments are transferred.
+    -   **Copy additional comments and attachments**: Deselect if you don't want to transfer the ticket with additional comments and attachments. By default, all attachments and comments are transferred.
 
-        **Note:** Work notes are not copied while transferring.
+        **Note:** Work notes aren't copied while transferring.
 
-4.  Click **Transfer**.
+4.  Select **Transfer**.
 
 
 ## Result

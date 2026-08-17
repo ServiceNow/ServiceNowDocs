@@ -26,6 +26,8 @@ The contract amendment workflow enhances contract lifecycle management by enabli
 Link a parent contract to a child contract to establish hierarchical relationships between contract requests and inherit fields from the parent contract request.
 -   **[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-expert-review.md)**  
 Get your content reviewed by internal teams who have the expertise you need.
+-   **[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)**  
+Contract Management Pro for Legal Service Delivery supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 -   **[Cancel a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-cancel-request-tpc.md)**  
 Cancel a legal contract request if it is no longer necessary.
 -   **[View and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-preview-contract.md)**  

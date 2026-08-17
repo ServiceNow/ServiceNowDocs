@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-releaseops-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,40 +91,40 @@ Zurich
 
 </td><td>
 
--   **[Pipelines](https://servicenow-staging.fluidtopics.net/access?context=releaseops-pipeline-environments&family=zurich&ft:locale=en-US)**
+-   **[Pipelines](https://www.servicenow.com/docs/access?context=releaseops-pipeline-environments&family=zurich&ft:locale=en-US)**
 
 A pipeline is the flow of a deployment in ReleaseOps. A pipeline's flow is defined within playbooks, which enables you to customize as needed.
 
--   **[Releases](https://servicenow-staging.fluidtopics.net/access?context=releases-in-release-ops&family=zurich&ft:locale=en-US)**
+-   **[Releases](https://www.servicenow.com/docs/access?context=releases-in-release-ops&family=zurich&ft:locale=en-US)**
 
 Scheduled and on-demand releases are how changes are deployed to target instances with ReleaseOps. Releases can contain one or more deployment requests.
 
--   **[Deployment requests](https://servicenow-staging.fluidtopics.net/access?context=deployment-requests&family=zurich&ft:locale=en-US)**
+-   **[Deployment requests](https://www.servicenow.com/docs/access?context=deployment-requests&family=zurich&ft:locale=en-US)**
 
 Deployment requests contain one or more update sets, and are contained in a release.
 
--   **[Configure a new ecosystem](https://servicenow-staging.fluidtopics.net/access?context=configure-new-releaseops-ecosystem&family=zurich&ft:locale=en-US)**
+-   **[Configure a new ecosystem](https://www.servicenow.com/docs/access?context=configure-new-releaseops-ecosystem&family=zurich&ft:locale=en-US)**
 
 Configure a new ReleaseOps ecosystem using the sample pipelines and playbooks to begin deploying changes from your development to test to production instances.
 
--   **[Create a custom pipeline](https://servicenow-staging.fluidtopics.net/access?context=create-release-ops-pipeline&family=zurich&ft:locale=en-US)**
+-   **[Create a custom pipeline](https://www.servicenow.com/docs/access?context=create-release-ops-pipeline&family=zurich&ft:locale=en-US)**
 
 Create a custom pipeline to move changes through your production environment to testing by duplicating one of the ReleaseOps playbooks.
 
--   **[Promote an update set](https://servicenow-staging.fluidtopics.net/access?context=promote-update-set-for-deployment&family=zurich&ft:locale=en-US)**
+-   **[Promote an update set](https://www.servicenow.com/docs/access?context=promote-update-set-for-deployment&family=zurich&ft:locale=en-US)**
 
 When you're ready to deploy your changes, promote your update set to begin the deployment process.
 
--   **[Create a deployment request for a scheduled release](https://servicenow-staging.fluidtopics.net/access?context=create-a-new-deployment-request&family=zurich&ft:locale=en-US)**
+-   **[Create a deployment request for a scheduled release](https://www.servicenow.com/docs/access?context=create-a-new-deployment-request&family=zurich&ft:locale=en-US)**
 
 Create a deployment request for a scheduled release to contain your update set and enable your changes to move through the pipeline for deployment.
 
--   **[Create a release](https://servicenow-staging.fluidtopics.net/access?context=create-a-release&family=zurich&ft:locale=en-US)**
+-   **[Create a release](https://www.servicenow.com/docs/access?context=create-a-release&family=zurich&ft:locale=en-US)**
 
 Specify the details for your release, including the target instance that the changes deploy to and when the release should occur.
 
 
--   **[ReleaseOps guided setup](https://servicenow-staging.fluidtopics.net/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
+-   **[ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
 
 Starting with version 1.2.1 of ReleaseOps, you can use guided setup to help simplify the initial configuration process.
 
@@ -312,7 +312,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -465,7 +465,7 @@ Zurich
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
- See [Release Ops](https://servicenow-staging.fluidtopics.net/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Release Ops](https://www.servicenow.com/docs/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

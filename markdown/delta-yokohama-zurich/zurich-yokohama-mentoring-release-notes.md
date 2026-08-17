@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-mentoring-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Snapshot of preferences](https://servicenow-staging.fluidtopics.net/access?context=edit-mentee-preferences&family=yokohama&ft:locale=en-US)**
+-   **[Snapshot of preferences](https://www.servicenow.com/docs/access?context=edit-mentee-preferences&family=yokohama&ft:locale=en-US)**
 
 Store a Mentoring snapshot of all overlapping preferences at the time of relationship acceptance by the mentor.
 
--   **[Mentor match insights](https://servicenow-staging.fluidtopics.net/access?context=view-match-insights&family=yokohama&ft:locale=en-US)**
+-   **[Mentor match insights](https://www.servicenow.com/docs/access?context=view-match-insights&family=yokohama&ft:locale=en-US)**
 
 Mentees and Mentors can view suggested matches based on their enrolled preferences or skills.
 
@@ -111,7 +111,7 @@ Zurich
 
 </td><td>
 
--   **[Create a Mentoring program](https://servicenow-staging.fluidtopics.net/access?context=create-mentoring-pgm&family=zurich&ft:locale=en-US)**
+-   **[Create a Mentoring program](https://www.servicenow.com/docs/access?context=create-mentoring-pgm&family=zurich&ft:locale=en-US)**
 
 The multiple mentoring program enables mentor admins to configure multiple programs that can run at the same time. It enables admins to restrict access based on employee criteria. The multiple mentoring program enables employees to choose and enroll in available mentoring programs, edit their preferences, search for mentors, and send connection requests.
 
@@ -198,7 +198,7 @@ Yokohama
 
 </td><td>
 
-Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=yokohama&ft:locale=en-US).
+Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Zurich
 
 </td><td>
 
-Install Mentoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Mentoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -348,7 +348,7 @@ Yokohama
 -   As a mentee, view Match Insights with a particular Mentor to understand how well they are matched before choosing the Mentor.
 -   As a mentee, share mentoring preferences and timeline information with your manager that help in the validation of your skills.
 
- See [Mentoring](https://servicenow-staging.fluidtopics.net/access?context=mentoring-egd-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Mentoring](https://www.servicenow.com/docs/access?context=mentoring-egd-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

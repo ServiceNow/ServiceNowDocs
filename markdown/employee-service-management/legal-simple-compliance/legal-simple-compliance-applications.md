@@ -30,8 +30,6 @@ Install the Legal Simple Compliance application to offer prebuilt workflows for 
 **Related topics**  
 
 
-[Legal Conflict of Interest]()
-
 [Legal Content Review]()
 
 [Legal Digital Forensics]()
@@ -45,6 +43,8 @@ Install the Legal Simple Compliance application to offer prebuilt workflows for 
 [Legal Simple Privacy]()
 
 [Gifts and Entertainment Compliance]()
+
+[Legal Conflict of Interest]()
 
 [Legal Stock Preclearance]()
 

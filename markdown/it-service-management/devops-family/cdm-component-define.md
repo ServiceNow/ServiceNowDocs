@@ -36,15 +36,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To perform other actions, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component and select the action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d437039e116">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d438772e116">
 
 Selection
 
-</th><th align="left" id="d437039e119">
+</th><th align="left" id="d438772e119">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d437039e125">
+</th></tr></thead><tbody><tr><td id="d438772e125">
 
 **Create component**
 
@@ -52,7 +52,7 @@ Action
 
 Add a component as described above.
 
-</td></tr><tr><td id="d437039e134">
+</td></tr><tr><td id="d438772e134">
 
 **Create CDI**
 
@@ -65,7 +65,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d437039e161">
+</td></tr><tr><td id="d438772e161">
 
 **Include in collections**
 
@@ -75,7 +75,7 @@ Include the selected component in specified collections.In the Include in collec
 
  **Note:** Only collections that do not already include the component appear in the list.Inclusion of a node takes precedence over inheritance. If a node is both included and inherited, it is instead considered included.
 
-</td></tr><tr><td id="d437039e181">
+</td></tr><tr><td id="d438772e181">
 
 **Add file**
 
@@ -83,9 +83,9 @@ Include the selected component in specified collections.In the Include in collec
 
 Add a file as a file node.You can attach a MIME-type file with a maximum file size of 5 MB.
 
-For more information on adding files, see [Manage files in the config data model using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
+For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
-</td></tr><tr><td id="d437039e205">
+</td></tr><tr><td id="d438772e205">
 
 **Exclude from inheritance**
 
@@ -95,7 +95,7 @@ Removes the inherited node and all child objects from the current collection.You
 
 Select **Include in inheritance** from the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) to stop excluding the node and re-add it to the changeset.
 
-</td></tr><tr><td id="d437039e236">
+</td></tr><tr><td id="d438772e236">
 
 **Rename**
 
@@ -103,7 +103,7 @@ Select **Include in inheritance** from the more actions icon \(\[Omitted image "
 
 Rename the selected component.
 
-</td></tr><tr><td id="d437039e245">
+</td></tr><tr><td id="d438772e245">
 
 **Delete**
 
@@ -111,7 +111,7 @@ Rename the selected component.
 
 Delete the selected component.
 
-</td></tr><tr><td id="d437039e254">
+</td></tr><tr><td id="d438772e254">
 
 **View relationships**
 
@@ -194,7 +194,7 @@ Option to specify that the value of the CDI should be encrypted. This option app
 
 [Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-variables-crud.md)
 
-[Manage files in the config data model using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md)
+[Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md)
 
 [CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-data-model.md)
 

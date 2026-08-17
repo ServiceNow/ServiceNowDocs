@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -28,8 +28,18 @@ Value stream stages are the building blocks of a value stream, each adding an in
 Add or edit a business capability, sub-capability, and manage architectural artifacts and diagrams of the capabilities in the Enterprise Architecture Workspace.
 -   **[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-business-processes.md)**  
 A business processes is a structured method to organize and manage applications that collectively deliver a specific service—whether internal \(example: HR systems\) or external \(example: customer portals\). This process ensures alignment between business capabilities and IT assets, enabling better governance, risk management, and value delivery.
+-   **[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-business-process-activities.md)**  
+Business process activities represent discrete units of work performed by business actors. Use the Portfolio List view to create, edit, and assign business actors to activities.
 -   **[Manage demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-demands.md)**  
 The structured process of capturing, evaluating, prioritizing, and tracking business demands—such as new applications, enhancements, or rationalization initiatives—across the application lifecycle. It ensures that IT investments align with strategic business goals and that resources are allocated efficiently.
+-   **[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-business-actors.md)**  
+Business actors represent the roles or entities that perform work in your organization. Use the Portfolio List view to create, edit, and manage business actors and their associated business roles.
+-   **[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-business-roles.md)**  
+Define responsibilities and reporting hierarchies for business roles in the Enterprise Architecture Workspace.
+-   **[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-drivers.md)**  
+Manage drivers in the Enterprise Architecture Workspace to track the internal and external conditions motivating your organization, and connect them to the stakeholders and goals they influence.
+-   **[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-stakeholders.md)**  
+Manage stakeholders in the Enterprise Architecture Workspace to track who has an interest in your enterprise architecture and connect them to relevant drivers, goals, value streams, and business processes.
 
 **Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-portfolio-list-view.md)
 

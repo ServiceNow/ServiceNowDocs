@@ -47,7 +47,9 @@ Steps to reproduce
 
 </th></tr></thead><tbody><tr><td>
 
-Integration HubPRB2034438
+Integration Hub
+
+ PRB2034438
 
 </td><td>
 

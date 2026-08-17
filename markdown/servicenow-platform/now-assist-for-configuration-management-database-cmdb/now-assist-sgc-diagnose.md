@@ -1,5 +1,5 @@
 ---
-title: Fix SGC import set issues with the Now Assist SGC diagnosis skill
+title: Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill
 description: To reduce debugging and resolution time and effort, the Service Graph Connector diagnosis skill generates summaries of errors and recommendations for resolving processing errors with SGC import sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.html
@@ -7,12 +7,12 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Fix SGC import set issues with the Now Assist SGC diagnosis skill
+# Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill
 
 To reduce debugging and resolution time and effort, the Service Graph Connector diagnosis skill generates summaries of errors and recommendations for resolving processing errors with SGC import sets.
 
@@ -24,83 +24,73 @@ Role required: cmdb\_inst\_admin and now\_assist\_panel\_user
 
 ## About this task
 
-When a Now Assist for SGC skill is enabled, the Now Assist icon \[Omitted image "now-assist-sgc-ai.png"\] appears in the SGC Central view of the CMDB Workspace. For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md) and [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-diagnose-proc-errors.md).
+This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
+1.  Navigate to **Workspaces** &gt; **Service Graph Workspace** or **Workspaces** &gt; **CMDB Workspace**.
 
-2.  Select the Now Assist icon \[Omitted image "now-assist-sgc-ai.png"\] to open the Now Assist panel and then select or enter **Diagnose a Service Graph Connector**.
+2.  Select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] to open the ServiceNow Otto panel and then select or enter **Diagnose a Service Graph Connector**.
 
-    \[Omitted image "now-assist-sgc-diagnose.png"\] Alt text: Diagnose a Service Graph Connector in the Now Assist panel.
+    \[Omitted image "now-assist-sgc-diagnose.png"\] Alt text: Diagnose a Service Graph Connector in the ServiceNow Otto panel.
 
 3.  Begin the diagnostic process by entering the connector name, specific data source, or import-set number of a Service Graph Connector.
 
-    **Note:** If Now Assist doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
+    **Note:** If ServiceNow Otto doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
 
-<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210642e207">
+<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d209936e206">
 
 Option
 
-</th><th align="left" id="d210642e210">
+</th><th align="left" id="d209936e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210642e216">
+</th></tr></thead><tbody><tr><td id="d209936e215">
 
 **Connector name**
 
 </td><td>
 
-Service Graph Connector name to diagnose.The Now Assist for SGC displays the connector name in the discovery source format, such as `SG-Infoblox`. However, you can enter any text that is associated with the connector name, for example, `Service Graph Connector for Infoblox`, `Infoblox`, or `SG-Infoblox`.
+Service Graph Connector name to diagnose.The app displays the connector name in the discovery source format, such as `SG-Infoblox`. However, you can enter any text that is associated with the connector name, for example, `Service Graph Connector for AWS`, `AWS`, or `SG-AWS`.
 
 After you enter a connector name, you can select a data source that is associated with the connector, followed by a failed import set that is associated with the data source. Based on the inputs, the latest failed import set number is displayed. Alternatively, you can select to view other failed import sets, if available. If no failed import sets are available, you can enter a different connector name, data source, or import set number.
 
 \[Omitted image "now-assist-sgc-diagnose-connector.png"\] Alt text: Diagnosing a failed import set with a connector name.
 
-</td></tr><tr><td id="d210642e252">
+</td></tr><tr><td id="d209936e249">
 
 **Data source name**
 
 </td><td>
 
-Data source name for a connector to diagnose. For example, `SG-Infoblox IP Address`.After entering a data source that is associated with a connector, you can select a failed import set that is associated with the data source. Based on the inputs, the import set number that was last processed with errors is displayed. Alternatively, you can choose to view other failed import sets. If no failed import sets are available, you can select a different data source for the connector.
+Data source name for a connector to diagnose. For example, `SG-AWS-Organization`.After entering a data source that is associated with a connector, you can select a failed import set that is associated with the data source. Based on the inputs, the import set number that was last processed with errors is displayed. Alternatively, you can choose to view other failed import sets. If no failed import sets are available, you can select a different data source for the connector.
 
-\[Omitted image "now-assist-sgc-diagnose-data-source.png"\] Alt text: Diagnosing a failed import set with a data source name.
-
-</td></tr><tr><td id="d210642e272">
+</td></tr><tr><td id="d209936e263">
 
 **Import set**
 
 </td><td>
 
-Import set number to diagnose. For example, `CISET0010075`.\[Omitted image "now-assist-sgc-diagnose-import-set.png"\] Alt text: Diagnosing a failed import set with the import set number.
-
-After entering an import set number, you can view the error summary that is associated with that import set. If the import set was processed without errors, a message indicating no errors is displayed.
+Import set number to diagnose. For example, `ISET0010002`.After entering an import set number, you can view the error summary that is associated with that import set. If the import set was processed without errors, a message indicating no errors is displayed.
 
 </td></tr></tbody>
 </table>4.  Analyze other issues for the import set or other import set failures for the selected data source.
 
-    \[Omitted image "now-assist-sgc-diagnose-more.png"\] Alt text: Diagnosing other issues for the import set or other import set failures for the selected data source.
-
 5.  If no other import set issues are observed within a data source, analyze a different data source for the connector.
-
-    \[Omitted image "now-assist-sgc-diagnose-connector-other.png"\] Alt text: Diagnosing a different data source.
 
 
 ## Result
 
-Now Assist triggers the diagnosis process for the failed import sets. The Now Assist panel includes two key sections: Issue and Diagnosis recommendation, focused on the latest issue. The recommendation for an issue is based on a knowledge article matched using AI Search. A link to the knowledge article is provided in the Source section for additional guidance.
+Agentic AI triggers the diagnosis process for the failed import sets. The ServiceNow Otto panel includes two key sections: Issue and Diagnosis recommendation, focused on the latest issue. The recommendation for an issue is based on a knowledge article matched using AI Search. A link to the knowledge article is provided in the Source section for additional guidance.
 
 For issues related to Identification and Reconciliation engine \(IRE\), the panel provides a detailed summary of errors, including import errors, flow errors, partial payloads, and incomplete payloads.
 
 \[Omitted image "now-assist-sgc-diagnose-result.png"\] Alt text: Failed import set diagnosis result.
 
-\[Omitted image "now-assist-sgc-diagnose-result-ire.png"\] Alt text: Import set diagnosis result with IRE issues.
-
-**Tip:** To restart the conversation, select the reset icon \(\[Omitted image "now-assist-reset-icon.png"\]\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+**Tip:** To restart the conversation, select the New chat icon \(\[Omitted image "na-panel-new-chat-icon.png"\]\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## What to do next
 
@@ -135,4 +125,6 @@ Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use 
 
 
 [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+
+[Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md)
 

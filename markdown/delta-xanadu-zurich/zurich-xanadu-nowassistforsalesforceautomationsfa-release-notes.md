@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsalesforceautomationsfa-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)[Use agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=using-agentic-worklflows-in-lead-management&family=yokohama&ft:locale=en-US)**
+-   **[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)[Use agentic workflows](https://www.servicenow.com/docs/access?context=using-agentic-worklflows-in-lead-management&family=yokohama)**
 
 The Help nurture new leads agentic workflow works with a team of AI agents to assist the sales agents to manage the life cycle of leads, either independently or under supervision.
 
@@ -130,7 +130,7 @@ Zurich
 
 </td><td>
 
--   **[Use agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=using-agentic-worklflows-in-lead-management&family=zurich&ft:locale=en-US)**
+-   **[Use agentic workflows](https://www.servicenow.com/docs/access?context=using-agentic-worklflows-in-lead-management&family=zurich)**
 
 The Help nurture new leads agentic workflow works with a team of AI agents to assist the sales agents to manage the life cycle of leads, either independently or under supervision.
 
@@ -198,11 +198,11 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The new default behavior works as follows:
 
@@ -216,7 +216,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -322,7 +322,7 @@ Yokohama
 
 </td><td>
 
-Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -330,7 +330,7 @@ Zurich
 
 </td><td>
 
-Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -507,7 +507,7 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
@@ -517,7 +517,7 @@ Yokohama
 
 -   Now Assist for Sales Force Automation \(SFA\) application packages ServiceNow® platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
 
- See [Now Assist for SOM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-sales-and-order-management-som&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for SOM](https://www.servicenow.com/docs/access?context=now-assist-for-sales-and-order-management-som&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -525,18 +525,22 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
+
+-   Now Assist for Sales and Order Management \(SOM\) is now known as Now Assist for Sales Force Automation \(SFA\) to align with our updated product taxonomy. There is no change to functionality or existing customer configurations.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 2](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
+ [Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich)
 
 -   Enable sales agents to use the Help nurture new leads agentic workflow to:
     -   Proactively engage with initial leads
     -   Book an appointment/demo to qualify a lead
     -   Identify opt-outs and disinterest for lead disqualification
 
- See [Now Assist for SOM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-sales-and-order-management-som&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for SOM](https://www.servicenow.com/docs/access?context=now-assist-for-sales-and-order-management-som&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

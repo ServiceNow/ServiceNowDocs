@@ -9,7 +9,7 @@ classification: itom-cloud-accelerate
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Exploring Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Cloud Configuration Governance for AWS
@@ -199,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d154947e633">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d154107e633">
 
 Option
 
-</th><th align="left" id="d154947e636">
+</th><th align="left" id="d154107e636">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154947e642">
+</th></tr></thead><tbody><tr><td id="d154107e642">
 
 **Create an assume role configuration for the management account**
 
@@ -225,7 +225,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d154947e699">
+</td></tr><tr><td id="d154107e699">
 
 **Configure the trusting account for Cloud Configuration Governance**
 

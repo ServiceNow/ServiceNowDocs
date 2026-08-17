@@ -24,6 +24,8 @@ Role required: admin
 
 The **disable\_live\_agent** property is replacing the **com.glide.cs.exclude.liveagent.support** system property to indicate that the channel doesn't support a live agent. If the **disable\_live\_agent** parameter is not set for the channel, the older system property will still be honored for the time being.
 
+**Note:** This feature is usable only for NLU/Keyword conversations. It is unavailable in Virtual Agent conversations using Large Language Model \(LLM\) topic discovery.
+
 ## Procedure
 
 1.  Navigate to **All**, and then enter `sys_cs_channel.list` in the filter.

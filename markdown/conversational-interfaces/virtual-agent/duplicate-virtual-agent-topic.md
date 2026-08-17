@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Virtual Agent, topic, duplicate, duplication, copy, NLU, LLM]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Duplicate a Virtual Agent topic
@@ -31,15 +31,21 @@ Consider duplicating topics in the following scenarios:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and in the Asset library, select the topic you want to duplicate.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
+2.  Select the **Asset library** tab.
+
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+
+4.  Open the topic you want to duplicate.
+
+5.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
 
     1.  In the Duplicate window, enter the new name for the item.
 
     2.  Select **Save**.
 
-3.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
+6.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
 
     **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, if you're using keyword-based topics, you might need to change certain keywords based on the purpose of your new topic. For LLM topics, you might need to select one or more LLM assistants. For Natural Language Understanding \(NLU\)-enabled topics, you might need to change the NLU model and intent associated with the topic.
 
@@ -57,7 +63,7 @@ Topics
 
 </td><td>
 
-See [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
+See [Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
 
 </td></tr><tr><td>
 
@@ -68,7 +74,7 @@ Topic blocks
 See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-topic-blocks.md) for a description of the topic block properties that you set and the input and output parameters that you define for the block.
 
 </td></tr></tbody>
-</table>4.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
+</table>7.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
 
     For details on test features of LLM topics, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-llm-topics.md).
 
@@ -79,5 +85,5 @@ See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow
 
 If you’ve completed the topic or topic block, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it to deploy it to your Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -51,15 +51,15 @@ Role required: sn\_lg\_ops.request\_config
 
 2.  Create or modify an external app configuration.
 
-<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d449579e203">
+<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d449860e203">
 
 Option
 
-</th><th align="left" id="d449579e206">
+</th><th align="left" id="d449860e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d449579e212">
+</th></tr></thead><tbody><tr><td id="d449860e212">
 
 **To create an external app configuration**
 
@@ -69,7 +69,7 @@ Steps
 2.  On the Integration Type page, select the **External Storage** link.
 
 
-</td></tr><tr><td id="d449579e236">
+</td></tr><tr><td id="d449860e236">
 
 **To modify an existing external app configuration**
 

@@ -433,7 +433,7 @@ The technology lifecycle risk for the business application with software and har
 
 </td></tr><tr><td colspan="2">
 
-**Note:** To see the technology lifecycle risk information, you must have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed. The \[sn\_apm\_tpm\] plugin has two dependency plugins:
+**Note:** To see the technology lifecycle risk information, you must have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed. The \[sn\_apm\_tpm\] plugin has two dependency plugins:
 
 -   Application Portfolio Management \[com.snc.apn\]
 -   Software Asset Management \[com.snc.sams\]

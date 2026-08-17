@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-serviceportal-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Analyze the performance of portal pages and their widgets](https://servicenow-staging.fluidtopics.net/access?context=analyze-page-performance&family=yokohama&ft:locale=en-US)**
+-   **[Analyze the performance of portal pages and their widgets](https://www.servicenow.com/docs/access?context=analyze-page-performance&family=yokohama&ft:locale=en-US)**
 
 Set benchmarks against which to analyze the performance of a portal page. Identify widgets on the page that don't meet the performance benchmarks and view details about their performance.
 
--   **[Compare a cloned widget with its base widget](https://servicenow-staging.fluidtopics.net/access?context=compare-with-base-system&family=yokohama&ft:locale=en-US)**
+-   **[Compare a cloned widget with its base widget](https://www.servicenow.com/docs/access?context=compare-with-base-system&family=yokohama&ft:locale=en-US)**
 
 Compare cloned widgets with the base widget from which they were cloned. View differences between the code of the cloned widget and the base widget highlighted in the code comparator.
 
@@ -82,19 +82,19 @@ Zurich
 
 </td><td>
 
--   **[Approval Info Record widget](https://servicenow-staging.fluidtopics.net/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
+-   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
 
 The Service Portal Approval Info Record widget shows details about the approval request and a full record for an approval including the activity stream.
 
 The Approval Info Record widget and the new Now Assist Approval Assistance AI agent maintain parity. To use the new Approval Info Record widget, activate the Approval Details Page Route Map, and uptake the Approval Info Record widget in your custom page.
 
-The new Now Assist Approval Assistance AI agent allows you to see your pending approvals, as well as the details about your pending approvals. For more information, see [Approval assistance AI agent](https://servicenow-staging.fluidtopics.net/access?context=platform-approval-aia&family=zurich&ft:locale=en-US).
+The new Now Assist Approval Assistance AI agent allows you to see your pending approvals, as well as the details about your pending approvals. For more information, see [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US).
 
--   **[Configure Service Portal Approval Configuration record](https://servicenow-staging.fluidtopics.net/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
+-   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
 
 Configure the Service Portal Approval Configuration record to make the Approval Assistance AI agent and Approval Info Record widget work better for your specific use case.
 
--   **[Configure widget loading order in Service Portal](https://servicenow-staging.fluidtopics.net/access?context=configure-widget-loading-order&family=zurich&ft:locale=en-US)**
+-   **[Configure widget loading order in Service Portal](https://www.servicenow.com/docs/access?context=configure-widget-loading-order&family=zurich&ft:locale=en-US)**
 
 As an admin, configure the widget loading order to defer their loading. This feature enables faster loading of the page and makes the widgets available for interaction as they load, thus improving the user experience.
 
@@ -118,23 +118,23 @@ Yokohama
 
 </td><td>
 
--   **[Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets](https://servicenow-staging.fluidtopics.net/access?context=widget-dev-guide&family=yokohama&ft:locale=en-US)**
+-   **[Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&family=yokohama&ft:locale=en-US)**
 
-Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see [JavaScript engine feature support](https://servicenow-staging.fluidtopics.net/access?context=javascript-engine-feature-support&family=yokohama&ft:locale=en-US).
+Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see [JavaScript engine feature support](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&family=yokohama&ft:locale=en-US).
 
--   **[Define roles for page route maps](https://servicenow-staging.fluidtopics.net/access?context=reroute-page&family=yokohama&ft:locale=en-US)**
+-   **[Define roles for page route maps](https://www.servicenow.com/docs/access?context=reroute-page&family=yokohama&ft:locale=en-US)**
 
 Control which users are redirected to a new page based on a page route map. Specify the user roles to apply in the Page Route Map form.
 
--   **[Improved redirection for single sign-on \(SSO\) authentication](https://servicenow-staging.fluidtopics.net/access?context=c_SPSSOLoginAndRedirects&family=yokohama&ft:locale=en-US)**
+-   **[Improved redirection for single sign-on \(SSO\) authentication](https://www.servicenow.com/docs/access?context=c_SPSSOLoginAndRedirects&family=yokohama&ft:locale=en-US)**
 
 Improved the experience of logging in to portals that use single sign-on \(SSO\) authentication by redirecting to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
--   **[Enforce providing comments when rejecting requests](https://servicenow-staging.fluidtopics.net/access?context=approvals-widget&family=yokohama&ft:locale=en-US)**
+-   **[Enforce providing comments when rejecting requests](https://www.servicenow.com/docs/access?context=approvals-widget&family=yokohama&ft:locale=en-US)**
 
 Require approvers to provide comments when rejecting a request from the Approvals widget. Administrators can enable requiring comments from the widget instance options.
 
--   **[Check cross-scope privileges to a table with the Form widget](https://servicenow-staging.fluidtopics.net/access?context=form-widget&family=yokohama&ft:locale=en-US)**
+-   **[Check cross-scope privileges to a table with the Form widget](https://www.servicenow.com/docs/access?context=form-widget&family=yokohama&ft:locale=en-US)**
 
 Validate access to tables from which the Form widget fetches data. The Form widget checks for the necessary cross-scope privileges to a table by default.
 
@@ -286,7 +286,7 @@ The Yokohama release doesn't support Internet Explorer 11.
 
  The iOS version of Firefox doesn’t support Service Portal pages.
 
- For more information about Service Portal browser support, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+ For more information about Service Portal browser support, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ Yokohama
 -   Enable early single sign-on \(SSO\) redirection.
 -   Specify the user roles that apply to a page route map.
 
- See [Service Portal](https://servicenow-staging.fluidtopics.net/access?context=c_ServicePortal&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -387,11 +387,13 @@ Zurich
 
 </td><td>
 
+-   Starting with Zurich Patch 12, Now Assist is now ServiceNow Otto®. ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   Use the support for Service Portal in the iOS Google App.
 -   As an admin, configure the widget load order on Service Portal pages.
 -   As an admin, defer the loading of AI Search assets to enhance page performance.
 
- See [Service Portal](https://servicenow-staging.fluidtopics.net/access?context=c_ServicePortal&family=zurich&ft:locale=en-US) for more information.
+ See [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

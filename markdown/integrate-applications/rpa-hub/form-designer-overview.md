@@ -9,7 +9,7 @@ classification: rpa-hub
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Create an attended automation form in RPA Desktop Design Studio, Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+breadcrumb: [Create an attended automation, Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Form designer for building attended automation forms

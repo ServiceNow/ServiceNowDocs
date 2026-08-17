@@ -33,7 +33,7 @@ In Virtual Agent, the following variables are available for use in scripts that 
 
 -   **ServiceNow record variables**
 
-    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see Querying tables in script.
+    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
     Use dot-walking in variables that contain a ServiceNow record to specify a particular field in the table. The syntax is `vaInputs.myvar.field`. For details on dot-walking within a script, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/dot-walking-examples.md).
 
@@ -107,15 +107,15 @@ vaInputs.myvar.unbindEntity\(\);
 
 Removes the value of input variables that the NLU prediction service slot-filled with extracted entities \(unbinds it from the initial input value\). For example, if the user decides to change their choice on a confirmation prompt, you can unbind the entity's value from the input variable. The user will then be prompted again when they loop back to the corresponding input node.
 
- **Note:** NLU must be enabled on the topic. In the Virtual Agent Designer, select the **Properties** tab to set up NLU. For information about defining NLU entities, see Entities.
+ **Note:** NLU must be enabled on the topic. In the Assistant Designer Asset library, select the **Properties** tab to set up NLU. For information about defining NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/entities.md).
 
 </td></tr></tbody>
 </table>
 ## Script variables
 
-You can define script variables for information that is not stored in ServiceNow tables but that can be used to share that information elsewhere in a topic. Script variables are similar to workflow scratchpad variables that store primitives such as integers, Boolean values, or strings. A string value can be either a static or dynamic scripted value. Use the Variables sidebar to define script variables for a topic in Virtual Agent Designer.
+You can define script variables for information that is not stored in ServiceNow tables but that can be used to share that information elsewhere in a topic. Script variables are similar to workflow scratchpad variables that store primitives such as integers, Boolean values, or strings. A string value can be either a static or dynamic scripted value. Use the Variables sidebar to define script variables for a topic in Assistant Designer Asset library.
 
-\[Omitted image "ScriptVariablesExample.png"\] Alt text: Sidebar in the Virtual Agent Designer canvas for manually adding script variables that are used in topic scripts.
+\[Omitted image "ScriptVariablesExample.png"\] Alt text: Sidebar in theAssistant Designer Asset library canvas for manually adding script variables that are used in topic scripts.
 
 **Note:** Script variables are intended for use by topic authors with advanced scripting skills.
 
@@ -143,7 +143,7 @@ A number of Live Agent variables are available for use in topic scripts. These v
 
 The variable syntax is `vaContext.LiveAgent_myvar`, where `myvar` is one of the available [live agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/live-agent-chat-context-vars.md). Access the variable using `vaContext.LiveAgent_myvar = value;`.
 
-To use Live Agent variables in topic scripts, open the topic in Virtual Agent Designer. On the **Properties** tab, select the pencil icon next to **Live Agent Variables** to add them to the topic.
+To use Live Agent variables in topic scripts, open the topic in Assistant Designer Asset library. On the **Properties** tab, select the pencil icon next to **Live Agent Variables** to add them to the topic.
 
 For information about live agent context variables that are included with Virtual Agent, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/live-agent-chat-context-vars.md).
 

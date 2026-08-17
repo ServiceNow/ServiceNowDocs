@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Enable manage contract repository agentic workflow, Enable agentic workflows in Now Assist in Contract Management]
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Activate business rules for the Manage contract repository agentic workflow
@@ -33,8 +33,6 @@ Role required: admin
 
 4.  Select the **Active** check box.
 
-    \[Omitted image "cmpro-agentic-ai-br.png"\] Alt text: Activate Agentic AI - Set reminders for contract business rule.
-
 5.  Select **Update**.
 
     The Business Rules table appears.
@@ -44,8 +42,6 @@ Role required: admin
 7.  Open the **Agentic AI Set reminders for Econtract** rule.
 
 8.  Select the **Active** check box.
-
-    \[Omitted image "cmpro-agentic-ecntract-br.png"\] Alt text: Activate Agentic AI Set reminders for Econtract.
 
 9.  Select **Update**.
 

@@ -31,13 +31,13 @@ To access the Discovery Admin Workspace Content 360 page, navigate to **Workspac
     -   View additional information about process samples and related servers.
     -   Choose to ignore viewed suggestions the next time Discovery runs.
     -   Add suggestions to the Configuration Management Database \(CMDB\) the next time Discovery runs.
-    The AI-suggested application fingerprints widget doesn't refresh automatically. To ensure you're viewing the most up-to-date information, refresh the page manually.
+    The AI-suggested application fingerprints widget doesn't refresh automatically. To verify you're viewing the most up-to-date information, refresh the page manually.
 
     For more information about discovery based on application fingerprints, see [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discover-application-based-process.md).
 
 -   **Application CIs discovered**
 
-    Monitor information about application CIs discovered based on application fingerprints or ITOM Content Service suggestions through the Discovery Admin Workspace. A pie report illustrates the total number of user-defined application CIs discovered, while a bar report presents the top five application CIs discovered, created within the last two days, and grouped by class.
+    Monitor information about application CIs discovered based on application fingerprints or ITOM Content Service suggestions through the Discovery Admin Workspace. A pie report shows the total number of user-defined application CIs discovered. A bar report presents the top five application CIs discovered, created within the last two days, and grouped by class.
 
 -   **ITOM Content Service**
 
@@ -53,7 +53,7 @@ To access the Discovery Admin Workspace Content 360 page, navigate to **Workspac
 
     **Sharing data on ITOM Content Service**
 
-    The Continuance Delivery System \(CDS\), a ServiceNow® technology, synchronizes data between the Data Services instance—which stores and distributes data—and the customer instances, using only the processes and SNMP OIDS data. Using the ITOM Content Service feature through the CDS, you can opt in to share application fingerprint process data. This data can be tagged and classified by AI librarians, enabling ITOM Content Service to deliver new CIs every week. Your data is shared with your ServiceNow® instance in a safe environment. You have the assurance that no personal information is revealed, and all information is kept anonymous. Participation is optional and you can opt out at any time.
+    The Continuance Delivery System \(CDS\) is a ServiceNow® technology. It synchronizes data between the Data Services instance—which stores and distributes data—and customer instances, using only processes and SNMP OIDs data. Using the ITOM Content Service feature through the CDS, you can opt in to share application fingerprint process data. This data can be tagged and classified by AI librarians, enabling ITOM Content Service to deliver new CIs every week. Your data is shared with your ServiceNow® instance in a safe environment. No personal information is revealed, and all information is kept anonymous. Participation is optional and you can opt out at any time.
 
     Starting with ITOM Content Service version 1.6.2 and Discovery Admin Workspace version 1.11.0, you can also opt in to share Service Info data of mapped candidates
 

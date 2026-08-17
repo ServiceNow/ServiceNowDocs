@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-individuallifeclaims-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,27 +75,27 @@ Xanadu
 
 </td><td>
 
--   **[Individual Life Claims application](https://servicenow-staging.fluidtopics.net/access?context=individual-life-claims-landing-page&family=xanadu&ft:locale=en-US)**
+-   **[Individual Life Claims application](https://www.servicenow.com/docs/access?context=individual-life-claims-landing-page&family=xanadu&ft:locale=en-US)**
 
 Record key details at FNOL, verify documents, and manage the tasks for the primary claim and related claims.
 
--   **[Claims data model](https://servicenow-staging.fluidtopics.net/access?context=insurance-claims-core-data-model&family=xanadu&ft:locale=en-US)**
+-   **[Claims data model](https://www.servicenow.com/docs/access?context=insurance-claims-core-data-model&family=xanadu&ft:locale=en-US)**
 
 Build a claims flow for individual benefits such as long-term care, disability, critical illness, and so on.
 
--   **[Customized playbook experience for FNOL](https://servicenow-staging.fluidtopics.net/access?context=create-an-individual-life-claim-case&family=xanadu&ft:locale=en-US)**
+-   **[Customized playbook experience for FNOL](https://www.servicenow.com/docs/access?context=create-an-individual-life-claim-case&family=xanadu&ft:locale=en-US)**
 
 Use a customized playbook to complete the FNOL process with step-by-step guidance to verify that every task gets completed at the correct stage of the process.
 
--   **[New adjuster workspace](https://servicenow-staging.fluidtopics.net/access?context=individual-life-claim-adjuster-tasks&family=xanadu&ft:locale=en-US)**
+-   **[New adjuster workspace](https://www.servicenow.com/docs/access?context=individual-life-claim-adjuster-tasks&family=xanadu&ft:locale=en-US)**
 
 Resolve issues, complete tasks, and manage reserves and payments across multiple policies for individual life claims in a new workspace.
 
--   **[Death benefit workflow](https://servicenow-staging.fluidtopics.net/access?context=individual-life-claims-workflows&family=xanadu&ft:locale=en-US)**
+-   **[Death benefit workflow](https://www.servicenow.com/docs/access?context=individual-life-claims-workflows&family=xanadu&ft:locale=en-US)**
 
 Use the included death benefit claim workflow as an example to start building your own workflow.
 
--   **[Approval engine for reserves and payments](https://servicenow-staging.fluidtopics.net/access?context=approve-reserve-or-payment-amount&family=xanadu&ft:locale=en-US)**
+-   **[Approval engine for reserves and payments](https://www.servicenow.com/docs/access?context=approve-reserve-or-payment-amount&family=xanadu&ft:locale=en-US)**
 
 Route requests to managers to approve reserves or payments that are above an adjuster's authorized limit.
 
@@ -246,7 +246,7 @@ Xanadu
 
 </td><td>
 
-Install Individual Life Claims by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Individual Life Claims by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -436,7 +436,7 @@ Xanadu
 -   Use a customized playbook and workspace for various claim-related roles.
 -   Manage the entire claims life cycle, from the first-notice-of-loss \(FNOL\) to the case closure.
 
- See [Individual Life Claims](https://servicenow-staging.fluidtopics.net/access?context=individual-life-claims-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Individual Life Claims](https://www.servicenow.com/docs/access?context=individual-life-claims-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

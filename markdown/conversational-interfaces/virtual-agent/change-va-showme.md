@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [VIrtual Agent, show me everything, button, change, text, system properties, sys\_properties]
 breadcrumb: [Working with setup topics, Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
 ---
@@ -19,15 +19,15 @@ Configure the text in the **Show me everything** button displayed in the chat wi
 
 ## Before you begin
 
-If you’re updating the Greetings setup topic in Virtual Agent Designer, first [Create a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
+If you’re updating the Greetings setup topic in Assistant Designer Asset library, first [Create a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
 
 Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-You can change the Virtual Agent greeting message by either updating the default greeting through the System Properties \[sys\_properties\] table, or changing the message in the Greetings setup topic in Virtual Agent Designer.
+You can change the Virtual Agent greeting message by updating the default greeting through the System Properties \[sys\_properties\] table. You can also change the message in the Greetings setup topic in Assistant Designer Asset library.
 
-If you change the message in the System Properties table, the default greetings setup topic \(and any custom greetings topics that don't override the default **Show me everything**\) all show the updated message. If you change the greeting message through Virtual Agent Designer, you can make more targeted changes, such as a message for an HR-based greeting topic.
+If you change the message in the System Properties table, the default greetings setup topic shows an updated message. Any custom greetings topics that don't override the default **Show me everything** also show the updated message. If you change the greeting message through Assistant Designer Asset library, you can make more targeted changes, such as a message for an HR-based greeting topic.
 
 The Greetings setup topic contains the Send Topic Picker script action, which controls the text in the **Show me everything** button. To change the text, edit the Send Topic Picker script action in the copy of the Greetings setup topic.
 
@@ -35,15 +35,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d53918e130">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d62623e130">
 
 Method
 
-</th><th align="left" id="d53918e133">
+</th><th align="left" id="d62623e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53918e139">
+</th></tr></thead><tbody><tr><td id="d62623e139">
 
 **System properties**
 
@@ -54,17 +54,19 @@ Description
 3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text: Save icon..
 
 
-</td></tr><tr><td id="d53918e174">
+</td></tr><tr><td id="d62623e174">
 
 **Virtual Agent Designer**
 
 </td><td>
 
-1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
-2.  Select the copy of the Greetings setup topic that you created.
-3.  In the **Flow** tab, select the node for the Send Topic Picker script action.
-4.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
-5.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
+1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**.
+2.  Select the **Asset library** tab.
+3.  Set the discovery type toggle switch to **LLM** or **NLU/Keyword** depending on the type you're working with.
+4.  Select the copy of the Greetings setup topic that you created.
+5.  In the **Flow** tab, select the node for the Send Topic Picker script action.
+6.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
+7.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
 
     ```
 (function execute() {
@@ -73,16 +75,16 @@ Description
 })()
     ```
 
-6.  Preview the change in the chat window by selecting **Test** in the header bar.
-7.  Select **Save** in the header bar.
-8.  When you're ready to make the topic active, select **Publish**.
+8.  Preview the change in the chat window by selecting **Test** in the header bar.
+9.  Select **Save** in the header bar.
+10. When you're ready to make the topic active, select **Publish**.
 
 
 </td></tr></tbody>
 </table>
 ## Result
 
-If you follow the System Properties method, your change to the greeting message is shown in all Virtual Agent conversations. If you follow the Virtual Agent Designer method, your change is shown in conversations related to the Greetings setup topic.
+If you follow the System Properties method, your change to the greeting message is shown in all Virtual Agent conversations. If you follow the Assistant Designer Asset library method, your change is shown in conversations related to the Greetings setup topic.
 
 ## What to do next
 

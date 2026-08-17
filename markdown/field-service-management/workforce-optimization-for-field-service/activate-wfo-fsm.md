@@ -18,7 +18,7 @@ You can activate the Workforce Optimization for Field Service plugin \(com.snc.a
 
 ## Before you begin
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Workforce Optimization for Field Service solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Field Service Manager Workspace. Workforce Optimization for Field Service \(com.snc.app\_fsm\_wfo\) plugin activates all other dependent plugins to enable users to the Scheduling, Coaching, and Teams applications in Workforce Optimization for Field Service.
 

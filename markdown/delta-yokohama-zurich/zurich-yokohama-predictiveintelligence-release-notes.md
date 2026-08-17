@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-predictiveintelligence-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,16 +67,16 @@ Yokohama
 
 </td><td>
 
--   **[Model Explainability](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-explainability&family=yokohama&ft:locale=en-US)**
+-   **[Model Explainability](https://www.servicenow.com/docs/access?context=predictive-intel-explainability&family=yokohama&ft:locale=en-US)**
 
 Learn which classes contribute most to your model's predictions by optionally adding Model Explainability to Workflow Classification solutions. Model Explainability provides a new tab labeled **Feature Importance** where you can run an analysis of each class's contribution to the overall prediction.
 
--   **[Leverage new advanced options for classification solutions](https://servicenow-staging.fluidtopics.net/access?context=configuring-advanced-settings-ml-solutions&family=yokohama&ft:locale=en-US), from Yokohama Patch 4.**
-    -   [Configure include only top N labels](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-only-top-n-labels&family=yokohama&ft:locale=en-US). Limit the classification model to use only the top most frequent labels. You can choose a number as the limit.
-    -   [Minimum records needed for label to include it](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-minimum-records-needed-label&family=yokohama&ft:locale=en-US). Set a threshold for the minimum number of records a label must have in your dataset to be included in model training.
-    -   [Remove others label](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-remove-others-label&family=yokohama&ft:locale=en-US). Reduce noise in the model and enhance predictive accuracy by removing records with the label "others" from training data.
-    -   [Use LightGBM algo for classification model training](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-lightgbm-algo&family=yokohama&ft:locale=en-US). Enable the LightGBM \(Light Gradient-Boosting Machine\) algorithm for training classification models.
-    -   [Config parameters for model config in classification](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-config-parameters-classification&family=yokohama&ft:locale=en-US). Customize training behavior by including a dictionary of parameters in the JSON format.
+-   **[Leverage new advanced options for classification solutions](https://www.servicenow.com/docs/access?context=configuring-advanced-settings-ml-solutions&family=yokohama&ft:locale=en-US), from Yokohama Patch 4.**
+    -   [Configure include only top N labels](https://www.servicenow.com/docs/access?context=predictive-intel-only-top-n-labels&family=yokohama&ft:locale=en-US). Limit the classification model to use only the top most frequent labels. You can choose a number as the limit.
+    -   [Minimum records needed for label to include it](https://www.servicenow.com/docs/access?context=predictive-intel-minimum-records-needed-label&family=yokohama&ft:locale=en-US). Set a threshold for the minimum number of records a label must have in your dataset to be included in model training.
+    -   [Remove others label](https://www.servicenow.com/docs/access?context=predictive-intel-remove-others-label&family=yokohama&ft:locale=en-US). Reduce noise in the model and enhance predictive accuracy by removing records with the label "others" from training data.
+    -   [Use LightGBM algo for classification model training](https://www.servicenow.com/docs/access?context=predictive-intel-lightgbm-algo&family=yokohama&ft:locale=en-US). Enable the LightGBM \(Light Gradient-Boosting Machine\) algorithm for training classification models.
+    -   [Config parameters for model config in classification](https://www.servicenow.com/docs/access?context=predictive-intel-config-parameters-classification&family=yokohama&ft:locale=en-US). Customize training behavior by including a dictionary of parameters in the JSON format.
 
 </td></tr><tr><td>
 
@@ -84,19 +84,19 @@ Zurich
 
 </td><td>
 
--   **[Review any errors in predictions using the Observability Dashboard](https://servicenow-staging.fluidtopics.net/access?context=prediction-errors-observability-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Review any errors in predictions using the Observability Dashboard](https://www.servicenow.com/docs/access?context=prediction-errors-observability-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor errors using the Observability Dashboard which provides analytics derived from a new table. This table is dedicated to logging any errors that may occur during Predictive Intelligence predictions.
 
--   **[Leverage new advanced options for classification solutions](https://servicenow-staging.fluidtopics.net/access?context=configuring-advanced-settings-ml-solutions&family=zurich&ft:locale=en-US)**
+-   **[Leverage new advanced options for classification solutions](https://www.servicenow.com/docs/access?context=configuring-advanced-settings-ml-solutions&family=zurich&ft:locale=en-US)**
 
 Customize your classification models in Predictive Intelligence with the following advanced options.
 
-    -   [Configure include only top N labels](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-only-top-n-labels&family=zurich&ft:locale=en-US): Limit the classification model to use only the top most frequent labels. You can choose a number as the limit.
-    -   [Minimum records needed for label to include it](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-minimum-records-needed-label&family=zurich&ft:locale=en-US): Set a threshold for the minimum number of records a label must have in your dataset to be included in model training.
-    -   [Remove others label](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-remove-others-label&family=zurich&ft:locale=en-US): Reduce noise in the model and enhance predictive accuracy by removing records with the label "others" from training data.
-    -   [Use LightGBM algo for classification model training](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-lightgbm-algo&family=zurich&ft:locale=en-US): Enable the LightGBM \(Light Gradient-Boosting Machine\) algorithm for training classification models.
-    -   [Config parameters for model config in classification](https://servicenow-staging.fluidtopics.net/access?context=predictive-intel-config-parameters-classification&family=zurich&ft:locale=en-US): Customize training behavior by including a dictionary of parameters in the JSON format.
+    -   [Configure include only top N labels](https://www.servicenow.com/docs/access?context=predictive-intel-only-top-n-labels&family=zurich&ft:locale=en-US): Limit the classification model to use only the top most frequent labels. You can choose a number as the limit.
+    -   [Minimum records needed for label to include it](https://www.servicenow.com/docs/access?context=predictive-intel-minimum-records-needed-label&family=zurich&ft:locale=en-US): Set a threshold for the minimum number of records a label must have in your dataset to be included in model training.
+    -   [Remove others label](https://www.servicenow.com/docs/access?context=predictive-intel-remove-others-label&family=zurich&ft:locale=en-US): Reduce noise in the model and enhance predictive accuracy by removing records with the label "others" from training data.
+    -   [Use LightGBM algo for classification model training](https://www.servicenow.com/docs/access?context=predictive-intel-lightgbm-algo&family=zurich&ft:locale=en-US): Enable the LightGBM \(Light Gradient-Boosting Machine\) algorithm for training classification models.
+    -   [Config parameters for model config in classification](https://www.servicenow.com/docs/access?context=predictive-intel-config-parameters-classification&family=zurich&ft:locale=en-US): Customize training behavior by including a dictionary of parameters in the JSON format.
 
 </td></tr></tbody>
 </table>## Changes
@@ -178,7 +178,7 @@ Yokohama
 
 </td><td>
 
-With the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and no longer supported. To obtain the latest experience for this functionality, install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\). For more information, see [ITSM Predictive Intelligence Workbench release notes](https://servicenow-staging.fluidtopics.net/access?context=itsm-predictive-intelligence-workbench-rn&family=yokohama&ft:locale=en-US).
+With the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and no longer supported. To obtain the latest experience for this functionality, install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\). For more information, see [ITSM Predictive Intelligence Workbench release notes](https://www.servicenow.com/docs/access?context=itsm-predictive-intelligence-workbench-rn&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -207,7 +207,7 @@ Yokohama
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow AI Platform feature that is available with activation of the Predictive Intelligence plugin \(com.glide.platform\_ml\). For details, see [Install Predictive Intelligence](https://servicenow-staging.fluidtopics.net/access?context=install-predictive-intelligence&family=yokohama&ft:locale=en-US).
+Predictive Intelligence is a ServiceNow AI Platform feature that is available with activation of the Predictive Intelligence plugin \(com.glide.platform\_ml\). For details, see [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ Yokohama
 -   ITSM Predictive Intelligence Workbench is deprecated in the Yokohama release.
 -   New advanced options for classification solutions are available from Yokohama Patch 4.
 
- See [Predictive Intelligence](https://servicenow-staging.fluidtopics.net/access?context=predictive-intelligence-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -368,7 +368,7 @@ Zurich
 -   New advanced options for Classification models are available, including new parameters and a new algorithm.
 -   Validation logic ensures that Predictive Intelligence models have ACLs to access data tables.
 
- See [Predictive Intelligence](https://servicenow-staging.fluidtopics.net/access?context=predictive-intelligence-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

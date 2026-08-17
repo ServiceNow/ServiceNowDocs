@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 2
 keywords: [step-to-job mapping, Ansible jobs, resolution steps, automation mapping]
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Map Ansible jobs to resolution steps
@@ -25,7 +25,7 @@ Before mapping Ansible jobs to resolution steps:
 -   Job templates related to the resolution steps must exist and be available in your connected Ansible Automation Platform instance.
 -   The [automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md) must have generated resolution steps
 
-Role required: **sn\_itom\_leap.leap\_admin**
+Role required: LEAP admin
 
 ## About this task
 
@@ -66,7 +66,7 @@ Step-to-job mapping creates the relationship between specific resolution steps a
     -   The sequence of steps makes logical sense for incident remediation.
 7.  Select **Save** to create the step-to-job mapping.
 
-    The mapping is saved to the `sn_itom_leap_ansible_mapping` table in an active state.
+    The mapping is saved to the `sn_itom_leap_ansible_mapping` table in active state.
 
 
 ## Result

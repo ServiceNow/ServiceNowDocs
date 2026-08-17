@@ -33,7 +33,7 @@ When the Moveworks chat assistant isn't visible on Employee Center or appears no
 -   Navigate to **System Applications** &gt; **Applications** and confirm the status column displays **Active** for the plugin.
 -   Verify that the JKS is valid and JWT keys are configured with the correct password.
 -   Check that the Moveworks website setup page is saved with a valid bot ID as explained in [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-setup-botid.md).
--   When all the settings look correct, validate their portal-side configuration and ingestion status.
+-   Validate the portal-side configuration and ingestion status when all the settings look correct.
 
 ## Enable or disable virtual agent on employee center
 
@@ -46,7 +46,7 @@ The Moveworks for Employee Center chat replaces the classic virtual agent. Howev
 
 Verify the following configuration:
 
--   Ensure content ingestion is complete in Moveworks platform.
+-   Confirm content ingestion is complete in Moveworks platform.
 -   Verify knowledge articles are published.
 -   Verify knowledge articles aren't restricted by ACLs.
 -   Check that requested services are available in your service catalog.
@@ -58,7 +58,7 @@ Verify the following configuration:
 
 [Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center app from store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 

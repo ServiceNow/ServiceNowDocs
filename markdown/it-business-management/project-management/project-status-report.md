@@ -32,15 +32,15 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 1.  Open a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d60168e74">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d60871e74">
 
 Option
 
-</th><th align="left" id="d60168e77">
+</th><th align="left" id="d60871e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60168e83">
+</th></tr></thead><tbody><tr><td id="d60871e83">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 4.  Select a status report from the list to view its contents.
 
 
-</td></tr><tr><td id="d60168e119">
+</td></tr><tr><td id="d60871e119">
 
 **From project record**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select a status report from the list.
 
 
-</td></tr><tr><td id="d60168e161">
+</td></tr><tr><td id="d60871e161">
 
 **From Project Status form**
 

@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-07-17"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -18,11 +18,11 @@ Trigger ServiceNow AI Lens from the desktop app by using a Lens action to previe
 
 ## Before you begin
 
-Perform the following tasks on the ServiceNow instance:
+To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 -   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 Verify that you've defined the Lens action for this purpose. For more information, see [Define a Lens action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
@@ -81,11 +81,11 @@ By using Lens actions, you can perform one of the following tasks:
 
     **Note:** Use the scanner window to scan the data of the screenshot so you can submit it for analysis.
 
-8.  On your system, open a document that you want to scan.
+8.  On your system, open an artifact that you want to scan.
 
-    A document can be an image, a scanned handwritten note, web page, Excel Sheet or a Microsoft Word document.
+    An artifact can be an image, scanned or handwritten note, website, or application.
 
-9.  Place the ServiceNow AI Lensscannerwindow on the top of the document.
+9.  Place the ServiceNow AI Lensscannerwindow on the top of the artifact.
 
     You can resize the ServiceNow AI Lens scanner window by dragging its borders.
 
@@ -157,15 +157,15 @@ By using Lens actions, you can perform one of the following tasks:
 
 12. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d133499e747">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d155649e754">
 
 Task
 
-</th><th align="left" id="d133499e750">
+</th><th align="left" id="d155649e757">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d133499e756">
+</th></tr></thead><tbody><tr><td id="d155649e763">
 
 **Filling form**
 
@@ -175,7 +175,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d133499e777">
+</td></tr><tr><td id="d155649e784">
 
 **Previewing extracted data**
 

@@ -1,5 +1,5 @@
 ---
-title: Configure Now Assist in Conversational Catalog Request
+title: Configure Conversational Catalog Requests
 description: Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Now Assist in Conversational Catalog Request
+# Configure Conversational Catalog Requests
 
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 
@@ -22,7 +22,7 @@ Role required: admin or catalog\_admin, and flow\_designer \(to edit the subflow
 
 ## About this task
 
-Generative AI capabilities are leveraged to provide a human-like and efficient catalog request experience over the Virtual Agent conversational interface. It reduces the turnaround time for the request submission.
+The generative AI capabilities are used to provide a human-like and efficient catalog request experience over the Virtual Agent conversational interface. It reduces the turnaround time for the request submission.
 
 When the generative AI experience is configured for catalog item request submission, the following experience is available for a requester:
 
@@ -42,7 +42,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 ## Procedure
 
-1.  To configure the Now Assist for Virtual Agent application that installs the Now Assist in Conversational Catalog Request application, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+1.  To configure the ServiceNow Otto for Virtual Agent application that installs the ServiceNow Otto in Conversational Catalog Request application, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     With this configuration, the **sn\_now\_assist\_cr.llm.conversational.request.question.limit** system property value is set to 500 by default if that property wasn't edited earlier.
 
@@ -52,39 +52,39 @@ When the generative AI experience is configured for catalog item request submiss
 
     2.  Select a catalog item that must be requested in the conversation mode.
 
-        For information about catalog items that are supported in the conversation mode, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        For information about catalog items that are supported in the conversation mode, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
 
     3.  On the catalog item form, confirm that the **Make the item non-conversational in VA** check box isn’t selected.
 
-    4.  On the catalog item form, confirm that the **Turn off Now Assist \(LLM\)** check box isn't selected.
+    4.  On the catalog item form, confirm that the **Use NLU for conversational requests** check box isn't selected.
 
         If you select this check box, LLM isn’t used and the data isn't sent to LLM. The item might become non-conversational.
 
         **Note:**
 
-        -   If you want the catalog item non-conversational, then select the **Make the item non-conversational in VA** check box. But if the catalog item contains some sensitive information that you don’t want to send to LLM, then select the **Turn off Now Assist \(LLM\)** check box.
-        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        -   If you want the catalog item non-conversational, then select the **Make the item non-conversational in VA** check box. But if the catalog item contains some sensitive information that you don’t want to send to LLM, then select the **Use NLU for conversational requests** check box.
+        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
     5.  Select **Update**.
 
 3.  Confirm that the fallback record producer is configured in the **Fetch generic ticket producer for conversational catalog request** subflow.
 
     In a few cases, when a requester is searching for a catalog item, AI Search might not be able to return any results. For example, when the catalog item isn't available or when the requester has no access to view the catalog item. In such cases, the fallback mechanism is activated for the Virtual Agent conversation. Virtual Agent tries to connect the requester to a live agent. If a live agent isn't available, then the **Create a generic ticket** record producer, which creates an incident to resolve the issue, is triggered.
 
-    -   The **Now Assist Fallback** topic controls the fallback mechanism. This topic triggers the record producer returned by the **Fetch generic ticket producer for conversational catalog request** subflow.
+    -   The ServiceNow Otto Fallback topic controls the fallback mechanism. This topic triggers the record producer returned by the **Fetch generic ticket producer for conversational catalog request** subflow.
     -   This subflow returns the value of the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.record.producer** property. By default, this property's value is the sys\_id of the **Create a generic ticket** record producer.
-    **Note:** Both the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.record.producer** property and the **Create a generic ticket** record producer are available in an instance when the Now Assist for Virtual Agent application is installed.
+    **Note:** Both the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.record.producer** property and the **Create a generic ticket** record producer are available in an instance when the ServiceNow Otto for Virtual Agent application is installed.
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d562660e322">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d565245e321">
 
 Option
 
-</th><th align="left" id="d562660e325">
+</th><th align="left" id="d565245e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d562660e331">
+</th></tr></thead><tbody><tr><td id="d565245e330">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d562660e370">
+</td></tr><tr><td id="d565245e369">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 
@@ -119,8 +119,8 @@ Description
 
     For information about URL navigation in Virtual Agent, see [URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/url-navigation-ci.md). For information about Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
-    \[Omitted image "va-link-cat-item.png"\] Alt text: Generated ticket link in the Virtual Agent chat
 
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+
+**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

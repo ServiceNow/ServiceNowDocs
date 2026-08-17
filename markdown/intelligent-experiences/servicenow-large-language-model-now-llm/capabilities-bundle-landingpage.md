@@ -85,7 +85,7 @@ Types of users to consider:
 
 -   **Admins**
 
-    Admins configure skills in the Now Assist Admin console. They work with platform owners and product owners for tasks and requirements. Subject-matter experts check the accuracy of generative AI results. Governance boards or committees may oversee final sign-off on the skill.
+    Admins configure skills in the AI Admin Hub console. They work with platform owners and product owners for tasks and requirements. Subject-matter experts check the accuracy of generative AI results. Governance boards or committees may oversee final sign-off on the skill.
 
 -   **Builders**
 
@@ -222,7 +222,7 @@ Evaluation of result
 </td></tr></tbody>
 </table>In some Now Assist applications, you may have the option to specify formatting. In those cases, you can tell the LLM to provide answers in a bulleted list, for example. Bulleted lists are often easier to read.
 
-\[Omitted image "enable-bulleted-list-chat-summarization.png"\] Alt text: In the Now Assist Admin console, some skills allow you to specify formatting. The chat summarization skill has an option to render results in a bulleted list.
+\[Omitted image "enable-bulleted-list-chat-summarization.png"\] Alt text: In the AI Admin Hub console, some skills allow you to specify formatting. The chat summarization skill has an option to render results in a bulleted list.
 
 ## Source
 
@@ -233,10 +233,10 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md)
--   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md)
+-   [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md)
 -   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ext-cont-connectors-landing-page.md)
--   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist.md)
--   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
+-   [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist.md)
+-   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
 
 ## Additional guidelines for Now Assist skills and tools
 
@@ -248,7 +248,7 @@ For more information about configuring sources for skill or AI agent use, see th
 |Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/general-guidelines-code-generation.md)|
 |Flow generation|[Exploring flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flow-generation.md)|
 |LLM topic skill for Virtual Agent||
-|Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
+|AI Skill Kit|[General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
 |RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-bot-generation.md)|
 |Test generation|[Design considerations for prompting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tg-prompt-design-considerations.md)|
 |UI generation|[General guidelines UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/general-guidelines-ui-generation.md)|

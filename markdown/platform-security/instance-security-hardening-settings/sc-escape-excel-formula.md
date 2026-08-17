@@ -1,5 +1,5 @@
 ---
-title: Escape Excel Formulas \[Updated in Security Center 1.3\]
+title: Escape Excel formulas \[Updated in Security Center 1.3\]
 description: Use the glide.export.escape\_formulas property to prevent Excel Injection, also, known as formula injection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape Excel Formulas \[Updated in Security Center 1.3\]
+# Escape Excel formulas \[Updated in Security Center 1.3\]
 
 Use the **glide.export.escape\_formulas** property to prevent Excel Injection, also, known as formula injection.
 
@@ -29,7 +29,7 @@ Set the **glide.export.escape\_formulas** system property to **true** to escape 
 |Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|To prevent application against the Excel or formula injection.|
 |Recommended value|true|
-|Default value|false|
+|Default value|true|
 |Security risk rating|6.4|
 |Functional impact|Maliciously crafted formulas can be used for hijacking the user's computer by exploiting vulnerabilities in the spreadsheet software.|
 |Security risk|\(Moderate\) Malicious formulae pose a risk even when the embedding spreadsheet doesn't contain any sensitive information, as they can be used to compromise the viewer's computer.|

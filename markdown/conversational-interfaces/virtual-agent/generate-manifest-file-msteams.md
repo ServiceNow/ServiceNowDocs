@@ -23,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to Now Assist in Virtual Agent and multi-turn conversations.
+**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto in Virtual Agent and multi-turn conversations.
 
 You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA support. In version 10.2 of the Microsoft Teams plugin, streaming is inactive by default and CEA is active by default.
 
@@ -38,7 +38,7 @@ An automated manifest file generator on the new Microsoft Teams UI automatically
     You can edit the manifest form and redownload it as many times as you want.​
 
 
-**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see Create and download the manifest file.
+**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see [Create and download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/download-manifest-file-mt.md).
 
 ## Procedure
 
@@ -50,7 +50,7 @@ An automated manifest file generator on the new Microsoft Teams UI automatically
 
 4.  In the Self-configured bot section, select the **Manage Bot** icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage Bot icon..
 
-    If you haven't enabled Message Extension and you are accessing it for the first time, you see a Turn on new feature alert message that informs you that the Message Extension feature for your Microsoft Teams integration is now available to be turned on.
+    If you haven't enabled Message Extension and you are accessing it for the first time, you see a Turn on new feature alert message. This alert informs you that the Message Extension feature for your Microsoft Teams integration is now available to be turned on.
 
 5.  On the **Configuration** tab, select **Edit configuration** and on the form, fill in the fields.
 
@@ -158,9 +158,9 @@ Message Extension
 
 </td><td>
 
-Message extension that lets users search and share the results through the compose message area of the Microsoft Teams client.If you are going to use this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: Now Assist Conversation with Microsoft Copilot displaying the Message Extension enabled for your app.
+Message extension that lets users search and share the results through the compose message area of the Microsoft Teams client.If you are going to use this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: ServiceNow Otto Conversation with Microsoft Copilot displaying the Message Extension enabled for your app.
 
-By enabling Message Extension for an app or bot, you will see the same app or bot in the message extension area while your conversation with the Now Assist using Microsoft Copilot.
+By enabling Message Extension for an app or bot, you will see the same app or bot in the message extension area while your conversation with ServiceNow Otto using Microsoft Copilot.
 
 </td></tr></tbody>
 </table>    For more details about each field, refer to [Microsoft Teams documentation](https://learn.microsoft.com/en-us/microsoftteams/platform/resources/schema/manifest-schema).

@@ -16,7 +16,7 @@ breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic develop
 
 ServiceNow Studio connects AI-generated apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
 
-After developing an application agentically with Build Agent or Now Assist for Creator, ServiceNow Studio provides a powerful, developer-friendly environment for reviewing, customizing, and perfecting your app.
+After developing an application agentically with Build Agent or ServiceNow Otto for Creator, ServiceNow Studio provides a powerful, developer-friendly environment for reviewing, customizing, and perfecting your app.
 
 If you're a developer who's new to agentic development, ServiceNow Studio provides a more abstracted approach to code refinement compared to ServiceNow IDE.
 

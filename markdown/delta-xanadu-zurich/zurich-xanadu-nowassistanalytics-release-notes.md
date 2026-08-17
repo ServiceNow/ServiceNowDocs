@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistanalytics-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,27 +83,27 @@ Yokohama
 
 </td><td>
 
--   **[Usage and adoption](https://servicenow-staging.fluidtopics.net/access?context=usage-and-adoption&family=yokohama&ft:locale=en-US)**
+-   **[Usage and adoption](https://www.servicenow.com/docs/access?context=usage-and-adoption&family=yokohama)**
 
 Monitor key usage and adoption indicators of your Now Assist implementation.
 
--   **[Custom skill details](https://servicenow-staging.fluidtopics.net/access?context=custom-skill-details&family=yokohama&ft:locale=en-US)**
+-   **[Custom skill details](https://www.servicenow.com/docs/access?context=custom-skill-details&family=yokohama)**
 
 View usage and performance indicators of custom skills from the predefined custom skills dashboard page.
 
--   **[Now Assist Guardian analytics](https://servicenow-staging.fluidtopics.net/access?context=now-assist-guardian-analytics&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&family=yokohama)**
 
 Monitor the performance of guardrails enabled through Now Assist Guardian.
 
--   **[User search analyzer](https://servicenow-staging.fluidtopics.net/access?context=user-search-analyser&family=yokohama&ft:locale=en-US)**
+-   **[User search analyzer](https://www.servicenow.com/docs/access?context=user-search-analyser&family=yokohama)**
 
 Gain insights into the search performance in Now Assist self-service experiences like Now Assist in Virtual Agent.
 
--   **[Now Assist context menu analytics](https://servicenow-staging.fluidtopics.net/access?context=now-assist-context-menu-analytics&family=yokohama&ft:locale=en-US).**
+-   **[Now Assist context menu analytics](https://www.servicenow.com/docs/access?context=now-assist-context-menu-analytics&family=yokohama).**
 
 Monitor the usage and performance of Now Assist context menu actions.
 
--   **[Now Assist value insights](https://servicenow-staging.fluidtopics.net/access?context=now-assist-value-insights&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist value insights](https://www.servicenow.com/docs/access?context=now-assist-value-insights&family=yokohama)**
 
 Track the estimated efficiency and productivity gains enabled through Now Assist.
 
@@ -254,7 +254,7 @@ Yokohama
 
 </td><td>
 
-Now Assist Analytics features are available with activation of any Now Assist plugin from the ServiceNow Store. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+Now Assist Analytics features are available with activation of any Now Assist plugin from the ServiceNow Store. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -328,7 +328,7 @@ Yokohama
 
 </td><td>
 
-Now Assist Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+Now Assist Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -444,7 +444,7 @@ Yokohama
 -   Gain insights into the search performance in Now Assist self-service experiences.
 -   Track the estimated efficiency and productivity gains enabled through Now Assist.
 
- See [Analyzing Now Assist performance](https://servicenow-staging.fluidtopics.net/access?context=now-assist-analytics&family=yokohama&ft:locale=en-US) for more information.
+ See [Analyzing Now Assist performance](https://www.servicenow.com/docs/access?context=now-assist-analytics&family=yokohama) for more information.
 
 </td></tr><tr><td>
 

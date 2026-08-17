@@ -96,5 +96,3 @@ The following image shows the Tasks page in the Compliance Workspace.
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

@@ -238,6 +238,8 @@ For more information, see [Email notifications in Digital Product Release](https
 
 10. Cancel a release if it's no longer required.
 
+    **Note:** Only users with the sn\_dpr\_model.release\_admin role can cancel releases.
+
     1.  Select **Cancel release**.
 
     2.  Enter the reason for cancellation and select **Cancel release**.

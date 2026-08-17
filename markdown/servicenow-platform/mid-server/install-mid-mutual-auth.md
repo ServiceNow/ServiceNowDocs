@@ -37,13 +37,17 @@ Self-signed certificates are not supported with mutual authentication. Internall
 
 In the Quebec release, a MID Server using the Health Log Analytic application cannot be configured with mutual authentication.
 
+**Note:** Certificate-based authentication is not supported on On-Prem or edge encryption-enabled instances.
+
 ## Procedure
 
 1.  Contact ServiceNow support to request mutual authentication on the MID Server.
 
-2.  Obtain a certificate and private key from a respected certificate authority.
+2.  Obtain a certificate and private key from the certificate authority.
 
-    MID Server mutual authentication only supports the PEM bundle format and private key in PCKS\#8 format. The bundle must have both the private key and certificate. Open the certificate using a text editor and see if it is in text format. The header and footer of the PEM syntax is the following:
+    RSA is the only supported key algorithm, and the key length must be 2048 bits. Keys shorter than 2048 bits fail validation with the error `Insufficient key length`.
+
+    MID Server mutual authentication only supports the PEM bundle format and private key in PKCS\#8 format. The bundle must have both the private key and certificate. Open the certificate using a text editor and see if it is in text format. The header and footer of the PEM syntax is the following:
 
     ```
      -----BEGIN CERTIFICATE----- 

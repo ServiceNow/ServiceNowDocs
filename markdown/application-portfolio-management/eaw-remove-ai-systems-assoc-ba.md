@@ -1,6 +1,6 @@
 ---
 title: Remove AI systems associated with business applications
-description: You can remove the AI systems product models associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current AI system product models are associated with the business application. You can remove multiple AI system product models simultaneously.
+description: Remove AI system product models associated with business applications in the Enterprise Architecture Workspace. You can remove multiple AI system product models simultaneously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Working with an application portfolio, Working with Portfolio list 
 
 # Remove AI systems associated with business applications
 
-You can remove the AI systems product models associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current AI system product models are associated with the business application. You can remove multiple AI system product models simultaneously.
+Remove AI system product models associated with business applications in the Enterprise Architecture Workspace. You can remove multiple AI system product models simultaneously.
 
 ## Before you begin
 

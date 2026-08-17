@@ -108,7 +108,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d107388e259">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d107106e259">
 
 **Account Team Members**
 
@@ -116,7 +116,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d107388e268">
+</td></tr><tr><td id="d107106e268">
 
 **Consumer Team Members**
 
@@ -124,7 +124,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d107388e277">
+</td></tr><tr><td id="d107106e277">
 
 **Household Team Members**
 
@@ -132,7 +132,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d107388e286">
+</td></tr><tr><td id="d107106e286">
 
 **Consumer Relationships**
 
@@ -140,7 +140,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d107388e295">
+</td></tr><tr><td id="d107106e295">
 
 **Household Relationships**
 

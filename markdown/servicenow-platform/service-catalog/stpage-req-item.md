@@ -19,7 +19,7 @@ To display the related information, you can configure the standard ticket page f
 For example, in Service Portal, you can access the ticket page for a requested item using the Requests option from the main menu header.
 
 -   **[Generative AI summarization on the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.md)**  
-On the standard ticket page, requesters can quickly access a generative AI summary of the ticket and its recent activity at the top. To display this summary, make sure the **Summary fields** is set up on the Ticket configuration page and that the Now Assist in Standard Ticket Page skill is enabled.
+On the standard ticket page, requesters can quickly access a generative AI summary of the ticket and its recent activity at the top. To display this summary, make sure the **Summary fields** is set up on the Ticket configuration page and that the ServiceNow Otto in Standard Ticket Page skill is enabled.
 
 **Parent Topic:**[Integrating Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/integrating-service-catalog.md)
 

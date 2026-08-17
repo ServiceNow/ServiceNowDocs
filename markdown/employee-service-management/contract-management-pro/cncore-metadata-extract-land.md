@@ -1,20 +1,20 @@
 ---
 title: Contract metadata extraction using Now Assist in Contract Management
-description: As a contract fulfiller, use Now Assist in Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+description: As a contract fulfiller, use Now Assist in Contract Management to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-metadata-extract-land.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract metadata extraction using Now Assist in Contract Management
 
-As a contract fulfiller, use Now Assist in Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+As a contract fulfiller, use Now Assist in Contract Management to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 
 You can review the extracted information and make necessary corrections on the Document Intelligence workspace before adding the information to the contract repository. On completion of the extraction process, the **Extraction results** tab opens on the contract repository record displaying the status of the extracted metadata.
 

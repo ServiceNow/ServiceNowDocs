@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/identify-duplicate-articles.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,4 +42,9 @@ Duplicate articles can confuse readers and reduce search accuracy. Use this task
 ## Result
 
 The duplicate articles are resolved, improving content accuracy and reducing redundancy.
+
+**Related topics**  
+
+
+[merge-duplicate-articles]
 

@@ -1,6 +1,6 @@
 ---
 title: Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience
-description: Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
+description: Fine-tune your Virtual Agent settings and topics provided by the Assistant Designer Asset library for the best voice chat experience with Alexa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Configure Conversational Integration with Alexa, Conversational Int
 
 # Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience
 
-Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
+Fine-tune your Virtual Agent settings and topics provided by the Assistant Designer Asset library for the best voice chat experience with Alexa.
 
--   Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+-   Assistant Designer Asset library is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-    **Note:** Be sure that you specify Alexa as the applicable channel in the **Additional channel support** field if you want the topics that you designed using the Virtual Agent Designer to work on Alexa. For more information about the channel selection, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integrations.md).
+    **Note:** Be sure that you specify Alexa as the applicable channel in the **Additional channel support** field if you want the topics that you designed using the Assistant Designer Asset library to work on Alexa. For more information about the channel selection, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integrations.md).
 
 -   Bot messages help you to interact with Alexa. You can change the bot messages for interaction in a voice chat conversation. To access the bot messages, enter `sys_cs_provider_application.list` in the navigation filter and navigate to your Alexa application profile to find the bot messages.
 
@@ -42,7 +42,7 @@ Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent D
 
     **Note:** On the screen-based Alexa enabled devices, the presentation of cards and images has limitations as per the Alexa skill kit specification.
 
-    The Conversational Integration with Alexa application supports the following user input controls in Virtual Agent Designer.
+    The Conversational Integration with Alexa application supports the following user input controls in Assistant Designer Asset library.
 
     **Note:** Conversational Integration with Alexa also supports touch input for screen-based devices.
 

@@ -1,18 +1,18 @@
 ---
-title: Explore Now Assist for Retail Service Management \(RSM\)
-description: Now Assist for Retail Service Management \(RSM\) streamlines store inquiries and service requests by leveraging generative AI to deliver accurate, context-aware responses. It enhances collaboration between store teams and HQ teams. It drives faster resolutions, improves customer experiences, and enables smarter retail service management.
+title: Explore ServiceNow Otto for Retail Service Management \(RSM\)
+description: ServiceNow Otto for Retail Service Management \(RSM\) streamlines store inquiries and service requests by leveraging generative AI to deliver accurate, context-aware responses. It enhances collaboration between store teams and HQ teams. It drives faster resolutions, improves customer experiences, and enables smarter retail service management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-now-assist-explore.html
 release: zurich
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Retail Service Management \(RSM\), Retail]
+breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
-# Explore Now Assist for Retail Service Management \(RSM\)
+# Explore ServiceNow Otto for Retail Service Management \(RSM\)
 
-Now Assist for Retail Service Management \(RSM\) streamlines store inquiries and service requests by leveraging generative AI to deliver accurate, context-aware responses. It enhances collaboration between store teams and HQ teams. It drives faster resolutions, improves customer experiences, and enables smarter retail service management.
+ServiceNow Otto for Retail Service Management \(RSM\) streamlines store inquiries and service requests by leveraging generative AI to deliver accurate, context-aware responses. It enhances collaboration between store teams and HQ teams. It drives faster resolutions, improves customer experiences, and enables smarter retail service management.
 
 The Store inquiry AI agent helps in retrieving and analyzing case-related information from knowledge bases, documents, and case repositories. By providing accurate and context-aware support, the AI agent reduces manual effort and improves accuracy, particularly in interpreting store policy queries and drafting relevant responses.
 

@@ -1,6 +1,6 @@
 ---
 title: Capturing information from a user in a Apple Messages for Business chat conversation
-description: Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
+description: Assistant Designer Asset library is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-apple-capture-info.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Use, Conversational Integration with Apple Messages for Business, I
 
 # Capturing information from a user in a Apple Messages for Business chat conversation
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
+Assistant Designer Asset library is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Use the collection of input controls provided by the Assistant Designer Asset library to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 For more information about displaying images along with external links, see [Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-link-unfurling.md).
 
@@ -33,11 +33,11 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the Apple Messages for Business chat to get a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on Apple Messages for Business.
--   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See  for more information.
+-   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.
 
 ## User input controls
 
-The Conversational Integration with Apple Messages for Business application supports the following user input controls in Virtual Agent Designer.
+The Conversational Integration with Apple Messages for Business application supports the following user input controls in Assistant Designer Asset library.
 
 |User input control|Description|
 |------------------|-----------|
@@ -51,7 +51,7 @@ The Conversational Integration with Apple Messages for Business application supp
 
 For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
-The Conversational Integration with Apple Messages for Business application supports the following bot responses in Virtual Agent Designer.
+The Conversational Integration with Apple Messages for Business application supports the following bot responses in Assistant Designer Asset library.
 
 <table id="table_mq2_gqz_2mb"><thead><tr><th>
 
@@ -109,5 +109,5 @@ Card
 Bot uploads and displays selected information from a record on your instance. You can choose a record card, video card, or small or large image card.
 
 </td></tr></tbody>
-</table>For more information about configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
+</table>For more information about configuring bot responses, see [Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 

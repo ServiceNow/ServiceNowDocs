@@ -1,21 +1,21 @@
 ---
 title: TPRM issue summarization skill
-description: The issue summarization skill in Now Assist for Third-party Risk Management \(TPRM\) uses generative AI to create concise summaries of vendor-related issues, helping assessors quickly review risk details, improve consistency, and accelerate remediation.
+description: The issue summarization skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses generative AI to create concise summaries of vendor-related issues, helping assessors quickly review risk details, improve consistency, and accelerate remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/issue-summarization-tprm.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Exploring, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, Generative AI, Gen AI, Issue Summarization]
+breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # TPRM issue summarization skill
 
-The issue summarization skill in Now Assist for Third-party Risk Management \(TPRM\) uses generative AI to create concise summaries of vendor-related issues, helping assessors quickly review risk details, improve consistency, and accelerate remediation.
+The issue summarization skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses generative AI to create concise summaries of vendor-related issues, helping assessors quickly review risk details, improve consistency, and accelerate remediation.
 
 ## Overview of an AI-generated issue summary
 

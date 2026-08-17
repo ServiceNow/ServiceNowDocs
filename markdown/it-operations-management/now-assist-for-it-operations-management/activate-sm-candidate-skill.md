@@ -1,6 +1,6 @@
 ---
 title: Activate the Service Mapping Candidate skill
-description: The Service Mapping Candidate skill provides Now Assist the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
+description: The Service Mapping Candidate skill provides ServiceNow Otto the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidate-skill.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2025-12-16"
 reading_time_minutes: 1
 keywords: [Generate description, Find processes, Classify application service candidates, Now Assist skill, Now Assist, Gen AI, generative AI, ITOM, IT Operations management]
-breadcrumb: [Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\), Configure, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Activate AI skills in ServiceNow Otto for IT Operations Management \(ITOM\), Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Activate the Service Mapping Candidate skill
 
-The Service Mapping Candidate skill provides Now Assist the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
+The Service Mapping Candidate skill provides ServiceNow Otto the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 
 ## About this task
 
-The Service Mapping agentic workflow, Analyze potential impact, uses two Now Assist skills:
+The Service Mapping agentic workflow, Analyze potential impact, uses two ServiceNow Otto skills:
 
 -   Service Mapping Candidate
 -   Service Mapping Candidates Impact
@@ -28,15 +28,15 @@ The Service Mapping Candidate skill provides names for processes and application
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 You must configure the following settings:
 
 -   ITOM pro plus SKU
--   Now Assist for ITOM 9.10
+-   Now Assist for ITOM 9.10 or ServiceNow Otto for ITOM
 -   Service Mapping Plus \(minimum version 1.16.3\)
--   Now Assist for IT Service Management \(ITSM\)
--   Now Assist for Platform \(minimum version 9.1.0\)
+-   Now Assist for IT Service Management \(ITSM\) or ServiceNow Otto for ITSM
+-   Now Assist for Platform \(minimum version 9.1.0\) or ServiceNow Otto®
 
 **Important:** This Now Assist skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
 
@@ -64,5 +64,5 @@ Role required: admin
 3.  On the Service Mapping Candidate tile, select **Activate**.
 
 
-**Parent Topic:**[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)
+**Parent Topic:**[Activate AI skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)
 

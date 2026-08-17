@@ -7,7 +7,7 @@ release: zurich
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ The process to request workstation user data is as follows:
 
     **Note:**
 
-    If you need to extend the dates you want to collect data past the dates in an approved request, you must create a new request for manager's approval with the new dates.
+    If you need to extend the dates you want to collect data past the dates in an approved request, you must create a request for manager's approval with the new dates.
 
 2.  A workstation user's manager approves requests from Task Mining analysts to enable workstation user data collection.
 

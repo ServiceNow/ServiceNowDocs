@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -34,8 +34,6 @@ When you re-initiate the Find Allocation action, slots reserved from the previou
 
 4.  From the **State** list, select **New**.
 
-    \[Omitted image "image.select-new"\] Alt text: State list on the change request form set to New
-
 5.  Select **Save**.
 
 6.  Select **Find Allocation**.
@@ -49,7 +47,7 @@ When you re-initiate the Find Allocation action, slots reserved from the previou
     -   **Affected CIs tab** shows the allocated slot and rack. Base rack-unit slots are marked as Reserved. Device-specific allocations are linked to the device record.
 8.  Select the rack in the Affected CIs tab to open the rack record.
 
-    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view. \[Omitted image "image.rack-allocation"\] Alt text: Reserved slots in the rack view showing the change request number
+    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view.
 
 
 **Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)

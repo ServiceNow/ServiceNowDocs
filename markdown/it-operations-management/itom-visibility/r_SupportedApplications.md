@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 77
+reading_time_minutes: 79
 keywords: [ITOM, Visibility, ServiceNow, Discovery, Cloud, API, Permissions, Patterns, AWS, Azure, GCP, IBM, Oracle, OCI]
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -1512,6 +1512,30 @@ Amazon AWS - VPC Managed Prefix List - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Application and Network LB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-application-network-lb-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Application and Network LB \(LP\)
+
+</td></tr><tr><td>
+
 [AWS application ELB Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
 
 </td><td>
@@ -2164,6 +2188,30 @@ AWS MemoryDB \(pattern\)
 
 </td></tr><tr><td>
 
+[AWS Network ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-acl-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - ACL \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Network Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-network-firewall.md)
 
 </td><td>
@@ -2668,6 +2716,30 @@ Horizontal
 </td><td>
 
 Azure - Application Insight Data Collection Rule - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Application LB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-application-lb-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Application LB \(LP\)
 
 </td></tr><tr><td>
 
@@ -3522,6 +3594,30 @@ Azure - NAT Gateway \(LP\)
 
 </td></tr><tr><td>
 
+[Azure Network and Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-network-subnet-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Network and Subnet \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Networks IP Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-networks-ip-group.md)
 
 </td><td>
@@ -3543,6 +3639,30 @@ Horizontal
 </td><td>
 
 Azure - Networks IP Group - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure NIC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-nic-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - NIC \(LP\)
 
 </td></tr><tr><td>
 
@@ -3595,6 +3715,30 @@ Azure - Private DNS Zone \(LP\)
 
 </td></tr><tr><td>
 
+[Azure Private Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-private-gateway-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Private Gateway \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Private Link Private Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-private-link-private-endpoint.md)
 
 </td><td>
@@ -3616,6 +3760,30 @@ Horizontal
 </td><td>
 
 Azure - Private Link Private Endpoint - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Public IP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-public-ip-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Public IP \(LP\)
 
 </td></tr><tr><td>
 
@@ -7646,6 +7814,30 @@ Horizontal
 </td><td>
 
 Solaris LDOM
+
+</td></tr><tr><td>
+
+[OCI virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-vm-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Virtual Machine \(LP\)
 
 </td></tr><tr><td>
 

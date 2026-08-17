@@ -1,20 +1,20 @@
 ---
 title: Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
-description: When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+description: When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-sync-document.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-03"
 reading_time_minutes: 1
 breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
 
-When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 
 ## About this task
 

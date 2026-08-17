@@ -25,7 +25,7 @@ Reset the existing mapping configuration for multiple Jira projects to a default
 
 Apply a default mapping configuration to all or a few Jira projects. Any existing custom mapping configuration for these projects will be deleted after you reset the mappings.
 
-If you've cleared the **Mapping Config** field or deleted the existing table maps for this project, resetting the mappings for this project will restore the mapping configuration to the default configuration.
+If you've cleared the **Mapping Config** field or deleted the existing table maps for this project, you can reset the mappings for this project. This action restores the mapping configuration to the default configuration.
 
 ## Procedure
 
@@ -35,15 +35,15 @@ If you've cleared the **Mapping Config** field or deleted the existing table map
 
 3.  Reset the mappings of multiple Jira projects using one of the following ways.
 
-<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d77450e102">
+<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d79016e107">
 
 Choice
 
-</th><th align="left" id="d77450e105">
+</th><th align="left" id="d79016e110">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d77450e111">
+</th></tr></thead><tbody><tr><td id="d79016e116">
 
 **Reset mappings for a single project**
 
@@ -53,7 +53,7 @@ Action
 2.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77450e132">
+</td></tr><tr><td id="d79016e137">
 
 **Reset mappings of multiple projects that belong to different project styles**
 
@@ -64,7 +64,7 @@ Action
 3.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77450e159">
+</td></tr><tr><td id="d79016e164">
 
 **Reset mappings of multiple projects that belong to the same project style**
 
@@ -78,7 +78,7 @@ From the Project Style Mappings related list, open a project template.For exampl
 4.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77450e198">
+</td></tr><tr><td id="d79016e203">
 
 **Reset mappings of all projects that belong to the same project style**
 

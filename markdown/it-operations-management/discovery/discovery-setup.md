@@ -34,7 +34,7 @@ Description
 
 </td><td>
 
-Use this method for a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by Now Assist.This method requires additional plugins and configuration. For more information, including prerequisites, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/access-itom-config-console-disco.md).
+Use this method for a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by ServiceNow Otto.This method requires additional plugins and configuration. For more information, including prerequisites, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 </td></tr><tr><td>
 

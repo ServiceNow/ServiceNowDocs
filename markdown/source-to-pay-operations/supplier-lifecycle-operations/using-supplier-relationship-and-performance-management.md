@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -21,9 +21,9 @@ Use Supplier Relationship and Performance Management for monitoring and managing
 -   **[Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md)**  
 Run a segmentation rule to create and activate KPIs corresponding to the KPI templates and suppliers in that segment. This action also creates new collection tasks and assigns them to suppliers to collect their KPI data.
 -   **[Complete a KPI collection task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-spw.md)**  
-A KPI collection task is generated automatically each time a KPI is instantiated. A supplier manager can complete the assigned KPI collection task from the Source-to-Pay Workspace.
+Submit KPI performance data from Source-to-Pay Workspace to complete assigned KPI collection tasks automatically.
 -   **[Complete a KPI collection task from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-scp.md)**  
-A KPI collection task is generated automatically each time a KPI is instantiated. A supplier contact can complete the assigned KPI collection task from the Supplier Collaboration Portal.
+Submit KPI performance data from Supplier Collaboration Portal to complete assigned KPI collection tasks.
 -   **[View KPI data from the List page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/view-kpi-data-slo.md)**  
 You can view the details of the existing KPIs from the List view page.
 -   **[Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md)**  

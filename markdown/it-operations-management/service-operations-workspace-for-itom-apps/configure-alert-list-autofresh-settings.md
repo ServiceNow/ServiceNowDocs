@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Operations Workspace, Configure, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Enable and disable live updates for alert lists
@@ -27,6 +27,8 @@ By default, the toggle for live updates is off, and you must enable it to receiv
 To update the alert list manually, you can switch the live updates toggle to off. Manual updates are useful when many alerts are being processed continuously, to avoid excessive refreshing.
 
 **Note:** Set Read Role permissions to the Event Management user \(evt\_mgmt\_user\). Otherwise, the property won't be available.
+
+If an alert is updated and, as a result, no longer matches the active filter, Live List grays it out.
 
 ## Procedure
 

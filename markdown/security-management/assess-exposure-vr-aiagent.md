@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/assess-exposure-vr-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,31 +16,35 @@ Chat with an AI agent to help you assess the potential exposure of your configur
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
 ## Procedure
 
-1.  Select the Now Assist icon \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
+1.  Select the ServiceNow Otto® icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) on the header page from anywhere in your instance.
 
-    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist sparkle icon in the header on the page, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The ServiceNow Otto® panel is displayed. If you don't see the ServiceNow Otto® icon in the header on the page, you must activate the ServiceNow Otto® panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-    The Assess vulnerability exposure agentic workflow is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to start with to become familiar with the vulnerability data that is available and what you can do with it. The following steps show you how to request current vulnerability data, create a watch topic based on the returned results, and determine the overall impact a vulnerability might have on your environment.
+    The following steps show you how to request current vulnerability data and create a watch topic based on the returned results. You can also determine the overall impact a vulnerability might have on your environment.
+
+2.  Select the **Assess vulnerability exposure** option and enter a request in natural language to see if you’re exposed to any recent vulnerabilities, for example, **What are the recent CISA vulnerabilities?**
+
+    The Assess vulnerability exposure agentic workflow is on-demand. You can enter any query in natural language, but consider using the prompts described in the following table and steps to start. These prompts might help you get familiar with the vulnerability data that is available and what you can do with it.
+
+    Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat. To start a new chat, select the New chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
 
     |Your request or response|Description|
     |------------------------|-----------|
-    |**What are the recent CISA vulnerabilities?**|**Recent** in your question refers to new vulnerabilities that have surfaced during the last seven days. Seven days \(one week\) is the default time period for the agentic workflow. If you want to search for new vulnerabilities for a specific time period other than seven days, type in a request with a value that occurs in the past such as, **What are the recent vulnerabilities for the past 30 days?**|
+    |**What are the recent CISA vulnerabilities?**|"**Recent**" in this question refers to new vulnerabilities that have surfaced during the last seven days. Seven days \(one week\) is the default time period for the agentic workflow. If you want to search for new vulnerabilities for a specific time period other than seven days, type in a value that occurs in the past. An example might be, **What are the recent vulnerabilities for the past 30 days?**|
     |**Yes, create a watch topic for the vulnerability CVE-2018-9065.**|When asked if you want to create a watch topic, you might prefer to be specific in your response. For example,confirm the request and type in a specific vulnerability in the format: **CVE-2018-9065**.|
     |**Can you give me a detailed impact analysis for the CVE-2018-9065 vulnerability?**|Potential impact analysis of vulnerabilities is supported only for affected business services and configuration item classes.|
     |**Show output for the previous question.**|Request the agent to review your previous question if it doesn't give you an answer.|
     |**End the session**, or **Stop**.|End the conversation.|
 
-    Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat. To start a new chat, select the New chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
+    **Note:**
 
-2.  Enter a request in natural language to see if you’re exposed to any recent vulnerabilities, for example, **What are the recent CISA vulnerabilities?**
-
-    Because your entry doesn’t specify a range, the agent by default gathers Cybersecurity and Infrastructure Security Agency \(CISA\) exploitable vulnerability data about your assets and returns information from the last seven days.
+    Your entry doesn’t specify a range. As a result, the agent gathers Cybersecurity and Infrastructure Security Agency \(CISA\) exploitable vulnerability data about your assets and returns information from the last seven days.
 
     The Common Vulnerabilities and Exposures \(CVE\) vulnerabilities that impact your assets and have vulnerable items associated with them in your environment are listed.
 
@@ -56,7 +60,7 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
 5.  Enter **OK**.
 
-6.  Select the link to view the watch topic in the Vulnerability Manager workspace and view more details as well as the vulnerable items that are associated with the CVE.
+6.  Select the link to view the watch topic in the Vulnerability Manager workspace and view more details and the vulnerable items that are associated with the CVE.
 
     The list opens in a new tab in UI16. After reviewing the data, you might decide you want more information about the impact the CVE has on your other assets.
 

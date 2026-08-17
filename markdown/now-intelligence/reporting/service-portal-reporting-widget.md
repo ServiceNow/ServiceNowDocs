@@ -78,5 +78,5 @@ Core Service Portal functionality.
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

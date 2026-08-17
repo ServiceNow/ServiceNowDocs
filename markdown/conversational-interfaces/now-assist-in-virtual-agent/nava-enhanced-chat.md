@@ -1,6 +1,6 @@
 ---
 title: Enhanced chat
-description: Now Assist in Virtual Agent enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Turning on enhanced chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
+description: ServiceNow Otto for Virtual Agent enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Turning on enhanced chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.html
 release: zurich
@@ -10,34 +10,34 @@ topic_type: concept
 last_updated: "2025-03-19"
 reading_time_minutes: 26
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
-breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Enhanced chat
 
-Now Assist in Virtual Agent enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Turning on enhanced chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
+ServiceNow Otto for Virtual Agent enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Turning on enhanced chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
 
 \[Omitted video\] Description: An overview of enhanced chat's window and full-page experience.
 
-Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
+ServiceNow Otto for Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
 **Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
-Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and helps users to be more comfortable with chatting to a bot.
+ServiceNow Otto for Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and helps users to be more comfortable with chatting to a bot.
 
 The following sections highlight how a conversation powered by generative AI might look in Virtual Agent.
 
-**Note:** This content's primary focus is on enhanced chat's default chat window rather than on the optional full-page experience. The conversational fluidity and citation behavior between the enhanced chat and enhanced chat's full-page experience remains the same regardless of which chat experience you use. The conversations that you have either through the enhanced chat's window or full-page experience remain in synchronization, and the conversational history is retained in both mediums. For more information about the full-page experience, see that relevant section in [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+**Note:** This content's primary focus is on enhanced chat's default chat window rather than on the optional full-page experience. The conversational fluidity and citation behavior between the enhanced chat and enhanced chat's full-page experience remains the same regardless of which chat experience you use. The conversations that you have either through the enhanced chat's window or full-page experience remain in synchronization, and the conversational history is retained in both mediums. For more information about the full-page experience, see that relevant section in [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 ## Starting the conversation
 
-With enhanced chat, chat and search capabilities are combined. Suggested conversational prompts and searches may appear in a drop-down list on the portal's search bar. The Ask Now Assist section header may appear at the top of the portal search bar's drop-down list. When you select one of these suggested queries, you’re redirected into a conversation within a chat window or full-page experience. You receive relevant answers based on the prompt that you have selected. If you select a suggested type-ahead search outside of the Ask Now Assist header, that search query begins in either the portal's search results page or within the full-page experience's **Search** tab.
+With enhanced chat, chat and search capabilities are combined. Suggested conversational prompts and searches may appear in a drop-down list on the portal's search bar. The Ask ServiceNow Otto section header may appear at the top of the portal search bar's drop-down list. When you select one of these suggested queries, you’re redirected into a conversation within a chat window or full-page experience. You receive relevant answers based on the prompt that you have selected. If you select a suggested type-ahead search outside of the Ask ServiceNow Otto header, that search query begins in either the portal's search results page or within the full-page experience's **Search** tab.
 
 \[Omitted image "nass-portal-typeahead-zp4.png"\] Alt text: Type-ahead portal search for what is spam.
 
-**Note:** For more information about how Now Assist in Virtual Agent and Now Assist in AI Search combine to include these suggestion type-ahead searches, see . To learn how to activate suggestion term bold highlighting, see .
+**Note:** For more information about how ServiceNow Otto for Virtual Agent and ServiceNow Otto for AI Search combine to include these suggestion type-ahead searches, see [Auto-complete suggestion types included with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/auto-complete-suggestion-types-na-ais.md). To learn how to activate suggestion term bold highlighting, see [Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md).
 
-When you're using enhanced chat and you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by Now Assist. This synthesized response answer provides inline citations that appear at the end of each sentence. You can select citations and if applicable, such as for conversational catalog items, select whether to \[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request with form icon.**Request with form** or \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.**Request in chat**. Similar options also appear in the regular search results area, as indicated by the request in chat icon \( \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.\) and request with form icon \(\[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request in form icon.\). Depending on your selection, the catalog request flow launches within either the Virtual Agent chat or a form.
+When you're using enhanced chat and you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by ServiceNow Otto. This synthesized response answer provides inline citations that appear at the end of each sentence. You can select citations and if applicable, such as for conversational catalog items, select whether to \[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request with form icon.**Request with form** or \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.**Request in chat**. Similar options also appear in the regular search results area, as indicated by the request in chat icon \( \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.\) and request with form icon \(\[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request in form icon.\). Depending on your selection, the catalog request flow launches within either the Virtual Agent chat or a form.
 
 \[Omitted image "dw-synthesized-response-search-bar.png"\] Alt text: A synthesized response appears at the top of the search results after a search query for request laptop was made.
 
@@ -49,11 +49,11 @@ You can start the chat experience either through the chat icon on the portal's s
 
 After selecting the chat widget button on the portal, the floating chat window opens and replaces the chat button. A greeting message appears, and a chat is created only after you have entered an initial utterance. If you have an active chat ongoing, the current active chat appears instead of a greeting message. You can select a predefined action, topic, suggested search query, start a new conversation, or view all options, if applicable. The **View all options** link only shows if more than one suggested search query or promoted topic is available.
 
-**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
+**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
-\[Omitted image "nass-dw-welcome-zp4.png"\] Alt text: Now Assist greeting the user with a View all options link.
+\[Omitted image "nass-dw-welcome-zp4.png"\] Alt text: ServiceNow Otto greeting the user with a View all options link.
 
-If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in enhanced chat conversations, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
+If language detection is activated and initial utterances in the portal's search bar or chat differs from the user's language preference, the chat switches to the detected language. For more information and examples of language detection in enhanced chat conversations, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
 ## Navigating the chat window resizing options and controls toolbar
 
@@ -62,7 +62,7 @@ After selecting the chat widget button, the floating chat window opens and repla
 -   \[Omitted image "nass-dw-expand-icon.png"\] Alt text: Expand icon.: Selecting the expand icon \[Omitted image "nass-dw-expand-icon.png"\] Alt text: Expand icon. expands the chat into a 90% screen-size window. The 90% screen-size window can’t be resized or moved. Selecting outside of the 90% screen-size chat window resizes the chat back into the floating window.
 -   \[Omitted image "nass-dw-pin-icon.png"\] Alt text: Pinned right-hand side icon.: Selecting the pin icon \[Omitted image "nass-dw-pin-icon.png"\] Alt text: Pinned right-hand side icon. pins the chat to the side of the browser but you can still resize this window to fill half the browser, if desired. When you duplicate a browser tab, open a new tab, or use the browser back button, the chat window state persists as long as you have not minimized the chat.
 
-    **Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
+    **Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
 -   \[Omitted image "nass-dw-minimize-icon.png"\] Alt text: Down-arrow minimize icon.: Selecting the down arrow \[Omitted image "nass-dw-minimize-icon.png"\] Alt text: Down-arrow minimize icon. minimizes the chat and the chat widget button reappears.
 
@@ -70,7 +70,7 @@ After selecting the chat widget button, the floating chat window opens and repla
 
 \[Omitted image "nass-dw-pinned-yp6.png"\] Alt text: Pinned chat window to the right-hand side of the screen.
 
-The Now Assist sub-header consists of four elements. The following figure and table shows an example and description of those elements.
+The ServiceNow Otto sub-header consists of four elements. The following figure and table shows an example and description of those elements.
 
 \[Omitted image "nass-dw-controls-yp6.png"\] Alt text: Chat window controls include New Chat, Chats, Support, and Settings.
 
@@ -107,7 +107,7 @@ All chats appear.
 
 The name of the conversation.
 
- If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to Now Assist** field, your initial utterance becomes the chat name. The chat name appears in both the Now Assist subheader and **Chats list** &gt; **Active** section.
+ If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to** field, your initial utterance becomes the chat name. The chat name appears in both the ServiceNow Otto subheader and **Chats list** &gt; **Active** section.
 
 </td></tr><tr><td>
 
@@ -137,26 +137,30 @@ Support contact information such as phone numbers and email addresses are listed
 
 **Note:** This icon only appears in the sub-header whenever the interactive view is available.
 
- Open or close the interactive view. The interactive view appears towards the right of the conversational chat area. Interactive view is available whenever an organizational chart is an available option in a people citation popover. If multiple interactive views are available in the same conversation, for example, you opened multiple people's org charts in a conversation, a drop-down is available to switch between the different interactive views' tabs.
+ Open or close the interactive view. The interactive view appears to the right of the conversational chat area. Interactive view is only available in the following scenarios:
+
+-   An organizational chart is available to view.
+-   A document was uploaded and you choose to preview the document.
+-   A source is available and you choose to select and view the source content.
 
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-qna-genius-results.md).
 
-If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled.
+If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the ServiceNow Otto Multi-Turn Catalog Ordering skill is enabled.
 
-**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
+**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
 Whenever only a single search result for topics is found, the synthesized response and options are bypassed by default and users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-You can create a new query from within a Now Assist conversation using mid-topic discovery. For more information, see [Mid-topic switching during Now Assist in Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
+You can create a new query from within a ServiceNow Otto conversation using mid-topic discovery. For more information, see [Mid-topic switching during ServiceNow Otto for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
 
-If Now Assist Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
+If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
 
-If your question is unclear or could apply to multiple topics, Now Assist evaluates your request and may ask for clarification before responding. This helps you receive a focused, relevant answer rather than an overwhelming list of results. If the assistant is confident it understands your intent, it responds immediately without asking for clarification. If no relevant answer is found, the assistant displays a message and suggests an alternative, such as contacting support.
+If your question is unclear or could apply to multiple topics, ServiceNow Otto evaluates your request and may ask for clarification before responding. This helps you receive a focused, relevant answer rather than an overwhelming list of results. If the assistant is confident it understands your intent, it responds immediately without asking for clarification. If no relevant answer is found, the assistant displays a message and suggests an alternative, such as contacting support.
 
-Processing messages are short status updates that appear on-screen while Now Assist works on your request. They reflect what Now Assist is actively doing at each step, such as searching for information or analyzing a document, and update as each step completes. Processing messages don’t appear for simple interactions such as greetings, which are handled instantly.
+Processing messages are short status updates that appear on-screen while ServiceNow Otto works on your request. They reflect what ServiceNow Otto is actively doing at each step, such as searching for information or analyzing a document, and update as each step completes. Processing messages don’t appear for simple interactions such as greetings, which are handled instantly.
 
 \[Omitted image "enhanced-chat-ask-follow-up-example.png"\] Alt text: Ask a follow up from the portal's synthesized response leads to a Virtual Agent chat where you can enter additional content.
 
@@ -168,7 +172,7 @@ Depending on the context of the response, an additional go to search results ico
 
 \[Omitted image "dw-feedback-panel-zp4.png"\] Alt text: The feedback panel includes thumbs up, thumbs down, go to search results, and copy message icon.
 
-Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
+Responses generated in ServiceNow Otto for Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
 
 -   Catalog
 -   Topic, subflows, or actions
@@ -181,9 +185,9 @@ Responses generated in Now Assist in Virtual Agent can come from a combination o
 
 ## Agentic conversations
 
-**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/agentic-conversations-vad.md). Now Assist in Virtual Agent discovers and executes AI agents. For more information about AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md).
+**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/agentic-conversations-vad.md). ServiceNow Otto for Virtual Agent discovers and executes AI agents. For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md).
 
-When you submit a single question to the Virtual Agent, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Virtual Agent answers the multiple questions consecutively in a response. It can reason, plan, and execute across AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you. Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen messages to let you know where the agent is at in the agentic processing flow. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at anytime by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it cannot be stopped. Selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\) only stops the proceeding processing steps.
+When you submit a single question to the Virtual Agent, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Virtual Agent answers the multiple questions consecutively in a response. It can reason, plan, and execute across AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you. Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen messages to let you know where the agent is at in the agentic processing flow. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at anytime by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it cannot be stopped. Selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\) only stops the proceeding processing steps.
 
 \[Omitted image "agentic-flow-VA-example.png"\] Alt text: Agentic process beginning with the Figuring out next steps text and End flow icon availability.
 
@@ -207,7 +211,7 @@ These assets are associated with the chat icon \(\[Omitted image "nass-chat-bubb
 
 The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\) and in the **Show sources** section. These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see .
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/access-knowledge-graph-designer.md).
 
 \[Omitted image "nass-dw-kb-citation-popover-yp6.png"\] Alt text: Knowledge base article source and popover.
 
@@ -253,7 +257,7 @@ The answer is shown with the option to view your sources through the numbered in
 -   Zendesk Guide external content connector
 -   Zoom external content connector
 
-For more information about external content connections, see .
+For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
 ## People citations
 
@@ -267,7 +271,7 @@ Information about the person you're searching for appears in the synthesized res
 
 Selecting the person's name presents a popover. The information in the popover can include the following information:
 
-**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see .
+**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/define-evam-template.md).
 
 -   Manager
 -   Location
@@ -278,7 +282,7 @@ Selecting the person's name presents a popover. The information in the popover c
 
     **Important:** Shared Microsoft SharePoint files only appear if a Knowledge Graph admin has activated the **sn\_kg\_conn\_user\_shared\_files** record in the Knowledge Graph Related Data Map \[sn\_kg\_related\_data\_map\_list\] table. Shared Microsoft SharePoint files between you and the person found appear only on the people popover. These shared files only appear after you have completed the prompt to **Log in**, signed in successfully, and have entered a new search query for that person. A new search query is necessary after you have signed in so that up to three shared Microsoft SharePoint files can appear. You’re automatically logged out of your Microsoft account every three months and must repeat the **Log in** prompt again to see shared files.
 
-    If you do not have a valid token, you are prompted to sign in and are redirected to the Microsoft login page. If you have not configured the Microsoft OneDrive application, see .
+    If you do not have a valid token, you are prompted to sign in and are redirected to the Microsoft login page. If you have not configured the Microsoft OneDrive application, see [Configure Microsoft OneDrive application for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-microsoft-onedrive-app.md).
 
 -   View org chart
 
@@ -289,13 +293,13 @@ Selecting the person's name presents a popover. The information in the popover c
 
 Although rare, when you receive a synthesized response that includes a person, you may also receive other citations associated with that person. For example, a Knowledge Base article that was authored by the person you searched for may also appear.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see .
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
 ## Extended entities and view records
 
 Extended entity information can be found if you have activated Knowledge Graph.
 
-**Note:** To enable the Knowledge Graph natural language query \(NLQ\) schema, configure this schema for the assistant. To configure the schema for an assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+er. Only one live agent chat at a time is permitted. To exit the live chat, select **End live chat**. The chat history then moves to the Closed chat
 
 These extended entities that come from the additional custom tables associated with the Knowledge Graph natural language query \(NLQ\) schema can include:
 

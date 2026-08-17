@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-codesigning-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,15 +91,15 @@ Zurich
 
 </td><td>
 
--   **[Code Signing Installation using Plugin](https://servicenow-staging.fluidtopics.net/access?context=enable-codesiging&family=zurich&ft:locale=en-US)**
+-   **[Code Signing Installation using Plugin](https://www.servicenow.com/docs/access?context=enable-codesiging&family=zurich&ft:locale=en-US)**
 
 Customer administrators can now install the Code Signing plugin directly from the ServiceNow Plugin portal without the need to contact the Customer Service and Support team to enable the Code Signing framework. This enhancement supports self-service deployment and simplifies the installation process.
 
--   **[Quorum Controlled Certificate Revocation](https://servicenow-staging.fluidtopics.net/access?context=certificate-revocation&family=zurich&ft:locale=en-US)**
+-   **[Quorum Controlled Certificate Revocation](https://www.servicenow.com/docs/access?context=certificate-revocation&family=zurich&ft:locale=en-US)**
 
 Revoke Code Signing certificates using a quorum-based control policy. Revoke certificates to help prevent them from being used to verify signatures. A quorum-based approval flow promotes added security by requiring approvals from multiple stakeholders, to help prevent unintended or unauthorized certificate revocations.
 
--   **[Code Signing Health and Status Dashboard](https://servicenow-staging.fluidtopics.net/access?context=code-signing-health-and-status-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Code Signing Health and Status Dashboard](https://www.servicenow.com/docs/access?context=code-signing-health-and-status-dashboard&family=zurich&ft:locale=en-US)**
 
 The new **Code Signing Health and Status** dashboard provides a centralized, user-friendly interface to monitor the overall health and configuration of your code signing environment. It highlights configuration settings, displays the status of essential components, and offers actionable guidance to help resolve issues effectively.
 
@@ -131,17 +131,17 @@ Yokohama
 
 </td><td>
 
--   **[Enhancements to the guardrails check](https://servicenow-staging.fluidtopics.net/access?context=cse-ppi-config&family=yokohama&ft:locale=en-US)**
+-   **[Enhancements to the guardrails check](https://www.servicenow.com/docs/access?context=cse-ppi-config&family=yokohama&ft:locale=en-US)**
 
 The Code Signing Guardrails check has been improved to enhance signature verification, resulting in more secure workflows. In addition, multiple optimizations have been implemented to improve the performance benchmarks of the Guardrails scan, and log files now feature a more intuitive naming convention, which simplifies file identification within your system.
 
 
--   **[Generate update sets with a maximum size of 10,000 records](https://servicenow-staging.fluidtopics.net/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
+-   **[Generate update sets with a maximum size of 10,000 records](https://www.servicenow.com/docs/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
 
 Code Signing now enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 
 
--   **[Naming updates for trusted and production instances](https://servicenow-staging.fluidtopics.net/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
+-   **[Naming updates for trusted and production instances](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
 
 The trusted non-production instance has been renamed to trusted instance, and the protected production instance has been renamed to protected instance. These naming updates have been made to better align with customer usage.
 
@@ -152,7 +152,7 @@ Zurich
 
 </td><td>
 
--   **[Enhanced Code-Signing Verification for ACC Framework Table](https://servicenow-staging.fluidtopics.net/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
+-   **[Enhanced Code-Signing Verification for ACC Framework Table](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
 
 You can now generate KMF signature files for tables that extend Agent Client Collector Configuration \(`sn_agent_configuration_file`\) and Agent Client Collector Plugin \(`sn_agent_asset`\). This enhancement allows attachments from the tables to successfully pass code-signing verification and be downloaded to the MID Server when code signing is enabled.
 
@@ -258,7 +258,7 @@ Yokohama
 
 </td><td>
 
-Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://servicenow-staging.fluidtopics.net/access?context=config-code-signing&family=yokohama&ft:locale=en-US).
+Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ Zurich
 
 </td><td>
 
-Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configure](https://servicenow-staging.fluidtopics.net/access?context=config-code-signing&family=zurich&ft:locale=en-US).
+Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configure](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -445,7 +445,7 @@ Yokohama
 
 Use Code Signing Guardrails to improve checks during the signing process to create more secure workflows.
 
- See [Code Signing](https://servicenow-staging.fluidtopics.net/access?context=code-signing-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -453,9 +453,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
--   **[Code Signing OOB Apps Signatures plugin](https://servicenow-staging.fluidtopics.net/access?context=explore-code-signing&family=zurich&ft:locale=en-US)**
+-   **[Code Signing OOB Apps Signatures plugin](https://www.servicenow.com/docs/access?context=explore-code-signing&family=zurich&ft:locale=en-US)**
 
 Use this plugin \(com.glide.code\_signing.oob\_apps\_signatures\) to install build time signatures for all relevant records in trued-up ServiceNow® Store application versions.
 

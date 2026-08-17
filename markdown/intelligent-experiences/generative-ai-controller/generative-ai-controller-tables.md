@@ -7,9 +7,9 @@ release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: reference
-last_updated: "2026-03-03"
-reading_time_minutes: 3
-breadcrumb: [Generative AI Controller, Now Assist, Enable AI experiences]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller tables
@@ -18,7 +18,7 @@ Generative AI Controller use dedicated tables to log AI activities and track Now
 
 ## Generative AI Log \[sys\_generative\_ai\_log\] table
 
-Logs generative AI prompts, responses, and edited responses for debugging LLM calls. Log entries related to HR are restricted to HR administrator to protect sensitive information.
+Logs generative AI prompts, responses, and edited responses for debugging LLM calls. HR-related log entries are restricted to HR administrator to protect sensitive information.
 
 |Column|Data type|Description|
 |------|---------|-----------|
@@ -60,6 +60,7 @@ Logs generative AI prompts, responses, and edited responses for debugging LLM ca
 |Updated|Date/Time|Date and time when the log entry was last updated.|
 |Updated By|String|User who made updates to the log.|
 |Updates|Integer|Number of updates made to the log record.|
+|Reasoning tokens|Integer|Internal thinking tokens from reasoning models. Defaults to 0 for non-reasoning models. Used for cost/performance tracking.|
 
 ## Gen AI Usage Log \[sys\_gen\_ai\_usage\_log\] table
 
